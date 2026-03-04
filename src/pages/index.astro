@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import CityCard from '../components/CityCard.astro';
+import NetWorthInput from '../components/NetWorthInput.astro';
 import { allCities, getCitiesByRegion } from '../data/cities/index';
 import { REGION_ORDER } from '../data/types';
 ---
@@ -18,9 +19,17 @@ import { REGION_ORDER } from '../data/types';
         What Can Your Portfolio<br />
         <span class="text-brand-300">Buy You Around the World?</span>
       </h1>
-      <p class="text-xl md:text-2xl text-sand-300 max-w-3xl mx-auto mb-10 leading-relaxed">
+      <p class="text-xl md:text-2xl text-sand-300 max-w-3xl mx-auto mb-8 leading-relaxed">
         See exactly what a <strong class="text-white">$1M to $10M portfolio</strong> gets you in
-        25 cities worldwide. Real costs. Real lifestyles. Zero guesswork.
+        50 cities worldwide. Real costs. Real lifestyles. Zero guesswork.
+      </p>
+
+      <div class="mb-8">
+        <NetWorthInput />
+      </div>
+
+      <p class="text-sm text-sand-400 mb-6">
+        Or browse preset tiers by region:
       </p>
 
       <div class="flex flex-wrap justify-center gap-3">
@@ -62,7 +71,7 @@ import { REGION_ORDER } from '../data/types';
         </div>
         <h3 class="font-serif font-bold text-lg mb-2">Explore Destinations</h3>
         <p class="text-sm text-gray-600">
-          Browse 25+ cities across 5 regions with real cost data for housing, food, healthcare, and more.
+          Browse 50 cities across 5 regions with real cost data for housing, food, healthcare, and more.
         </p>
       </div>
       <div class="text-center">
@@ -105,7 +114,7 @@ import { REGION_ORDER } from '../data/types';
         Ready to Plan Your FIRE Lifestyle?
       </h2>
       <p class="text-sand-300 max-w-2xl mx-auto mb-8 text-lg">
-        Explore 25 destinations and find the perfect city where your portfolio goes the furthest.
+        Explore 50 destinations and find the perfect city where your portfolio goes the furthest.
       </p>
       <a
         href="#north-america"

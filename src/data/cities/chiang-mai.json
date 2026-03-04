@@ -7,6 +7,10 @@
   "fireScore": 9,
   "tagline": "The Original Digital Nomad Capital — Retire for Less in Thailand's Rose of the North",
   "description": "Chiang Mai is the undisputed champion of affordable FIRE living in Southeast Asia. With a thriving expat community, world-class temples, lush mountain scenery, and a cost of living that lets you stretch every dollar, it remains the gold standard for early retirees seeking quality of life on a modest portfolio.",
+  "tags": {
+    "climate": "tropical",
+    "english": "moderate"
+  },
   "quickFacts": {
     "visa": "60-day tourist visa on arrival; Long-Term Resident (LTR) visa available for retirees with $80K+ income or $1M+ assets; Thai Elite visa ($15K–$30K) for 5–20 year stays",
     "timezone": "UTC+7 (Indochina Time)",

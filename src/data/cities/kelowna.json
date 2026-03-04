@@ -3,10 +3,14 @@
   "country": "Canada",
   "region": "North America",
   "slug": "kelowna",
-  "emoji": "\ud83c\udde8\ud83c\udde6",
+  "emoji": "🇨🇦",
   "fireScore": 5.5,
   "tagline": "Lakeside Wine Country in the Heart of British Columbia",
   "description": "Kelowna sits on the shores of Okanagan Lake surrounded by vineyards, orchards, and mountains, offering a lifestyle that rivals Napa Valley at a fraction of the cost. Universal healthcare, four-season outdoor recreation from skiing to water sports, and a booming food-and-wine scene make Kelowna increasingly popular with early retirees. Housing has risen but still undercuts Vancouver dramatically.",
+  "tags": {
+    "climate": "continental",
+    "english": "high"
+  },
   "quickFacts": {
     "visa": "Canadian citizens: no visa. Others: Express Entry, Provincial Nominee Program (BC PNP), or visitor permits",
     "timezone": "PST (UTC-8)",

@@ -1,0 +1,210 @@
+---
+import type { CityData, TierKey } from '../data/types';
+import { formatCurrency, getTotalSpend, TIER_LABELS } from '../data/types';
+
+interface Props {
+  city: CityData;
+}
+
+const { city } = Astro.props;
+
+const tierValues: { key: TierKey; value: number }[] = [
+  { key: '1M', value: 1_000_000 },
+  { key: '2M', value: 2_000_000 },
+  { key: '3M', value: 3_000_000 },
+  { key: '5M', value: 5_000_000 },
+  { key: '10M', value: 10_000_000 },
+];
+
+// Pre-compute tier data for client-side
+const tierCosts: Record<string, { totalSpend: number; budget: number }> = {};
+for (const [key, tier] of Object.entries(city.tiers)) {
+  tierCosts[key] = {
+    totalSpend: getTotalSpend(tier),
+    budget: tier.monthlyBudget,
+  };
+}
+---
+
+<!-- Personalized Tier - hidden by default, shown via JS when ?nw= is present -->
+<div id="personalized-tier" class="hidden" data-tier-costs={JSON.stringify(tierCosts)}>
+  <div class="tier-card relative border-2 border-brand-500 ring-2 ring-brand-100">
+    <!-- Badge -->
+    <div class="absolute -top-3 left-6">
+      <span class="inline-flex items-center gap-1.5 px-3 py-1 bg-brand-600 text-white text-xs font-bold rounded-full uppercase tracking-wider">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+        </svg>
+        Your Portfolio
+      </span>
+    </div>
+
+    <!-- Header -->
+    <div class="flex items-center justify-between mb-6 pb-4 border-b border-brand-100 mt-2">
+      <div>
+        <h3 class="font-serif text-2xl font-bold text-brand-950">
+          Your Portfolio
+        </h3>
+        <p id="pt-subtitle" class="text-sm text-gray-500 mt-1"></p>
+      </div>
+      <div class="text-right">
+        <div id="pt-budget" class="text-2xl font-bold text-brand-600"></div>
+        <div class="text-xs text-gray-500">per month</div>
+      </div>
+    </div>
+
+    <!-- Cost Breakdown - we show costs from the closest tier -->
+    <div id="pt-costs" class="space-y-3 mb-6">
+      {(['1M', '2M', '3M', '5M', '10M'] as TierKey[]).map((tierKey) => {
+        const tier = city.tiers[tierKey];
+        const costItems = [
+          { label: 'Housing', cost: tier.housing.monthlyCost, desc: tier.housing.description, color: 'bg-brand-500' },
+          { label: 'Dining Out', cost: tier.dining.monthlyCost, desc: tier.dining.description, color: 'bg-amber-500' },
+          { label: 'Groceries', cost: tier.groceries.monthlyCost, desc: null, color: 'bg-emerald-500' },
+          { label: 'Healthcare', cost: tier.healthcare.monthlyCost, desc: tier.healthcare.description, color: 'bg-red-400' },
+          { label: 'Transportation', cost: tier.transportation.monthlyCost, desc: tier.transportation.description, color: 'bg-purple-500' },
+          { label: 'Entertainment', cost: tier.entertainment.monthlyCost, desc: tier.entertainment.description, color: 'bg-pink-500' },
+          { label: 'Utilities', cost: tier.utilities.monthlyCost, desc: null, color: 'bg-gray-400' },
+        ];
+        if (tier.domesticHelp) {
+          costItems.push({ label: 'Domestic Help', cost: tier.domesticHelp.monthlyCost, desc: tier.domesticHelp.description, color: 'bg-teal-500' });
+        }
+        if (tier.luxuryExtras) {
+          costItems.push({ label: 'Luxury & Extras', cost: tier.luxuryExtras.monthlyCost, desc: tier.luxuryExtras.description, color: 'bg-yellow-500' });
+        }
+
+        return (
+          <div class="hidden" data-pt-tier={tierKey}>
+            {costItems.map((item) => (
+              <div class="group mb-3">
+                <div class="flex items-center justify-between mb-1">
+                  <div class="flex items-center gap-2">
+                    <div class={`w-3 h-3 rounded-full ${item.color}`}></div>
+                    <span class="text-sm font-medium text-gray-700">{item.label}</span>
+                  </div>
+                  <span class="text-sm font-semibold text-gray-900">
+                    {formatCurrency(item.cost)}
+                  </span>
+                </div>
+                {item.desc && (
+                  <p class="text-xs text-gray-500 ml-5 leading-relaxed">
+                    {item.desc}
+                  </p>
+                )}
+              </div>
+            ))}
+          </div>
+        );
+      })}
+    </div>
+
+    <!-- Total & Surplus -->
+    <div class="bg-brand-50 rounded-xl p-4 mb-6">
+      <div class="flex justify-between items-center mb-2">
+        <span class="text-sm font-medium text-gray-600">Total Monthly Spend</span>
+        <span id="pt-total" class="text-lg font-bold text-gray-900"></span>
+      </div>
+      <div class="flex justify-between items-center">
+        <span id="pt-surplus-label" class="text-sm font-medium text-gray-600"></span>
+        <span id="pt-surplus" class="text-lg font-bold"></span>
+      </div>
+    </div>
+
+    <!-- Lifestyle -->
+    {(['1M', '2M', '3M', '5M', '10M'] as TierKey[]).map((tierKey) => (
+      <div class="bg-brand-50 rounded-xl p-4 hidden" data-pt-lifestyle={tierKey}>
+        <h4 class="text-sm font-semibold text-brand-800 mb-2">
+          What life looks like in {city.name}
+        </h4>
+        <p class="text-sm text-brand-900 leading-relaxed">
+          {city.tiers[tierKey].lifestyle}
+        </p>
+      </div>
+    ))}
+  </div>
+</div>
+
+<script define:vars={{ tierValues }}>
+  function initPersonalizedTier() {
+    const params = new URLSearchParams(window.location.search);
+    const nwParam = params.get('nw');
+    if (!nwParam) return;
+
+    const netWorth = parseInt(nwParam, 10);
+    if (isNaN(netWorth) || netWorth <= 0) return;
+
+    const container = document.getElementById('personalized-tier');
+    if (!container) return;
+
+    const tierCosts = JSON.parse(container.dataset.tierCosts || '{}');
+
+    // Find closest tier
+    let closestKey = tierValues[0].key;
+    let minDiff = Math.abs(netWorth - tierValues[0].value);
+    for (const tier of tierValues) {
+      const diff = Math.abs(netWorth - tier.value);
+      if (diff < minDiff) {
+        minDiff = diff;
+        closestKey = tier.key;
+      }
+    }
+
+    const monthlyBudget = Math.round((netWorth * 0.04) / 12);
+    const data = tierCosts[closestKey];
+    if (!data) return;
+
+    const surplus = monthlyBudget - data.totalSpend;
+
+    function fmtCurrency(n) {
+      return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 0, maximumFractionDigits: 0 }).format(n);
+    }
+
+    function fmtNetWorth(nw) {
+      if (nw >= 1_000_000) {
+        const m = nw / 1_000_000;
+        return m % 1 === 0 ? '$' + m + 'M' : '$' + m.toFixed(1) + 'M';
+      }
+      return '$' + (nw / 1000).toFixed(0) + 'K';
+    }
+
+    // Populate values
+    const subtitle = document.getElementById('pt-subtitle');
+    if (subtitle) subtitle.textContent = fmtNetWorth(netWorth) + ' portfolio at 4% safe withdrawal rate (costs from $' + closestKey + ' tier)';
+
+    const budgetEl = document.getElementById('pt-budget');
+    if (budgetEl) budgetEl.textContent = fmtCurrency(monthlyBudget);
+
+    const totalEl = document.getElementById('pt-total');
+    if (totalEl) totalEl.textContent = fmtCurrency(data.totalSpend);
+
+    const surplusLabel = document.getElementById('pt-surplus-label');
+    if (surplusLabel) surplusLabel.textContent = surplus >= 0 ? 'Monthly Surplus' : 'Monthly Deficit';
+
+    const surplusEl = document.getElementById('pt-surplus');
+    if (surplusEl) {
+      surplusEl.textContent = (surplus >= 0 ? '+' : '') + fmtCurrency(surplus);
+      surplusEl.className = 'text-lg font-bold ' + (surplus >= 0 ? 'text-emerald-600' : 'text-red-600');
+    }
+
+    // Show the correct tier's cost breakdown
+    const tierSections = container.querySelectorAll('[data-pt-tier]');
+    tierSections.forEach((el) => {
+      if (el.getAttribute('data-pt-tier') === closestKey) {
+        el.classList.remove('hidden');
+      }
+    });
+
+    // Show the correct tier's lifestyle
+    const lifestyleSections = container.querySelectorAll('[data-pt-lifestyle]');
+    lifestyleSections.forEach((el) => {
+      if (el.getAttribute('data-pt-lifestyle') === closestKey) {
+        el.classList.remove('hidden');
+      }
+    });
+
+    // Show the whole container
+    container.classList.remove('hidden');
+  }
+
+  initPersonalizedTier();
+</script>

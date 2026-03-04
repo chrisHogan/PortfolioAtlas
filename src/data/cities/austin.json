@@ -3,10 +3,14 @@
   "country": "United States",
   "region": "North America",
   "slug": "austin",
-  "emoji": "\ud83c\uddfa\ud83c\uddf8",
+  "emoji": "🇺🇸",
   "fireScore": 5.8,
   "tagline": "Live Music, No State Income Tax, and Year-Round Sunshine",
   "description": "Austin combines a vibrant cultural scene with zero state income tax, making it a compelling domestic FIRE destination. The city offers world-class dining, outdoor recreation along the Colorado River, and a booming tech economy if you ever want to un-retire. While housing costs have risen sharply, Austin still undercuts coastal cities and rewards careful budgeting with an exceptional quality of life.",
+  "tags": {
+    "climate": "subtropical",
+    "english": "high"
+  },
   "quickFacts": {
     "visa": "No visa required for US citizens",
     "timezone": "CST (UTC-6)",

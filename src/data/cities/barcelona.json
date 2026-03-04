@@ -3,10 +3,14 @@
   "country": "Spain",
   "region": "Europe",
   "slug": "barcelona",
-  "emoji": "\ud83c\uddea\ud83c\uddf8",
+  "emoji": "🇪🇸",
   "fireScore": 6,
   "tagline": "Mediterranean Cosmopolitan Living on a FIRE Budget",
   "description": "Barcelona offers an unmatched blend of beach, culture, architecture, and gastronomy that few cities can rival. While pricier than Eastern or Southern European alternatives, Spain's non-lucrative visa and Beckham Law tax regime make it viable for FIRE retirees who want world-class urban living with a Mediterranean soul.",
+  "tags": {
+    "climate": "mediterranean",
+    "english": "high"
+  },
   "quickFacts": {
     "visa": "Non-Lucrative Visa (no work allowed, must show sufficient funds). Beckham Law may reduce taxes for new residents. Path to residency and citizenship.",
     "timezone": "UTC+1 (CET) / UTC+2 (CEST summer)",

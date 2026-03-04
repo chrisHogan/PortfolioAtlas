@@ -1,0 +1,194 @@
+{
+  "name": "Chattanooga",
+  "country": "United States",
+  "region": "North America",
+  "slug": "chattanooga",
+  "emoji": "🇺🇸",
+  "fireScore": 7.0,
+  "tagline": "Gig City with the Fastest Internet, No State Income Tax, and Outdoor Paradise",
+  "description": "Chattanooga is a FIRE dream: no state income tax, the fastest municipal internet in the United States courtesy of EPB Fiber Optics, and a cost of living well below the national average. Nestled along the Tennessee River at the base of Lookout Mountain, the city has transformed from an industrial center into an outdoor recreation capital with world-class rock climbing, mountain biking, and paddling. The revitalized downtown features excellent restaurants, a thriving arts scene, and the stunning Tennessee Aquarium.",
+  "tags": {
+    "climate": "subtropical",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "EST (UTC-5)",
+    "language": "English",
+    "internetSpeed": "300+ Mbps average (EPB Fiber offers up to 25 Gbps)",
+    "safetyRating": "Moderate – safe neighborhoods; improving downtown area",
+    "nearestAirport": "Chattanooga Metropolitan Airport (CHA)",
+    "climate": "Humid subtropical with mild winters, warm summers, and long pleasant spring and fall seasons",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "60°F / 16°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in Northshore, Highland Park, or the Southside",
+        "monthlyCost": 1000
+      },
+      "dining": {
+        "description": "Casual dining 2x/week at local spots like Champy's or Taqueria Jalisco",
+        "monthlyCost": 180
+      },
+      "groceries": {
+        "monthlyCost": 330
+      },
+      "healthcare": {
+        "description": "ACA marketplace Silver plan; CHI Memorial and Erlanger hospitals nearby",
+        "monthlyCost": 470
+      },
+      "transportation": {
+        "description": "Paid-off car with basic insurance; free CARTA electric shuttle downtown",
+        "monthlyCost": 220
+      },
+      "entertainment": {
+        "description": "Hiking Lookout Mountain, rock climbing at Sunset Rock, river walks, free gallery nights",
+        "monthlyCost": 80
+      },
+      "utilities": {
+        "monthlyCost": 125
+      },
+      "lifestyle": "Chattanooga at $1M is one of the best value FIRE retirements in the Southeast. Zero state income tax means your full $3,333 goes to expenses, and with affordable rents and world-class free outdoor recreation on your doorstep, life is genuinely good on a budget. The ultra-fast EPB internet is a bonus for streaming and staying connected."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "2BR apartment on the Northshore or a cottage in St. Elmo at the base of Lookout Mountain",
+        "monthlyCost": 1550
+      },
+      "dining": {
+        "description": "Dining out 3-4x/week; enjoying the Southside and downtown restaurant scene",
+        "monthlyCost": 400
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "ACA Gold plan with dental and vision; good hospital access in the metro",
+        "monthlyCost": 570
+      },
+      "transportation": {
+        "description": "Reliable car for mountain roads, full coverage insurance, bike for Riverwalk commuting",
+        "monthlyCost": 340
+      },
+      "entertainment": {
+        "description": "Tennessee Aquarium membership, Lookout Wild bouldering gym, live music, Riverbend Festival",
+        "monthlyCost": 230
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "This is Chattanooga's sweet spot. A charming place near the river or at the foot of Lookout Mountain, regular dining at the city's increasingly excellent restaurants, and full engagement with the outdoor scene. Weekends are spent climbing, biking, or paddling the Tennessee River. With no state income tax, you keep every dollar of your surplus."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR home in Lookout Mountain, Signal Mountain, or a luxury loft on the Northshore",
+        "monthlyCost": 2500
+      },
+      "dining": {
+        "description": "Regular fine dining at St. John's, Alleia, and Public House; wine tasting events",
+        "monthlyCost": 650
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "Premium private insurance with low deductibles and comprehensive coverage",
+        "monthlyCost": 700
+      },
+      "transportation": {
+        "description": "Late-model SUV for mountain access, premium insurance, seasonal gear hauling",
+        "monthlyCost": 450
+      },
+      "entertainment": {
+        "description": "UTC Mocs games, Tivoli Theatre season, private climbing guides, golf, river tours",
+        "monthlyCost": 400
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "lifestyle": "At $10K per month with no state income tax, Chattanooga delivers an incredible quality of life. A beautiful mountain or riverside home, fine dining at the city's best restaurants, and the freedom to fully pursue rock climbing, mountain biking, kayaking, or whatever outdoor passion drives you. The surplus at this budget level is substantial."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Custom home on Lookout Mountain or Signal Mountain with panoramic valley views",
+        "monthlyCost": 4500
+      },
+      "dining": {
+        "description": "Fine dining several times per week, private chef for entertaining, farm-to-table partnerships",
+        "monthlyCost": 1050
+      },
+      "groceries": {
+        "monthlyCost": 650
+      },
+      "healthcare": {
+        "description": "Concierge medicine, executive wellness, comprehensive private insurance",
+        "monthlyCost": 880
+      },
+      "transportation": {
+        "description": "Luxury SUV, second vehicle for mountain trails, premium insurance",
+        "monthlyCost": 750
+      },
+      "entertainment": {
+        "description": "Private climbing trips, guided rafting expeditions, country club, philanthropy galas",
+        "monthlyCost": 750
+      },
+      "utilities": {
+        "monthlyCost": 280
+      },
+      "domesticHelp": {
+        "description": "Weekly deep cleaning, landscaping, mountain property maintenance",
+        "monthlyCost": 550
+      },
+      "luxuryExtras": {
+        "description": "Smokies cabin weekends, quarterly travel, outdoor gear upgrades, community philanthropy",
+        "monthlyCost": 1350
+      },
+      "lifestyle": "Chattanooga at $5M is outdoor luxury with zero state income tax. A stunning mountaintop home with valley views, private adventure guides, deep community involvement, and the fastest residential internet in America. Your dollars stretch incredibly far here, leaving generous surplus for travel and giving."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Trophy estate on Lookout Mountain or a sprawling compound on Signal Mountain with acreage",
+        "monthlyCost": 8000
+      },
+      "dining": {
+        "description": "Full-time personal chef, exclusive wine dinners, catered gatherings and private events",
+        "monthlyCost": 2200
+      },
+      "groceries": {
+        "monthlyCost": 850
+      },
+      "healthcare": {
+        "description": "Top-tier concierge practice, medical travel to Nashville or Atlanta specialists, wellness team",
+        "monthlyCost": 1200
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, private car service, chartered flights from CHA",
+        "monthlyCost": 1400
+      },
+      "entertainment": {
+        "description": "Major philanthropy, international adventure travel, art collecting, exclusive memberships",
+        "monthlyCost": 1900
+      },
+      "utilities": {
+        "monthlyCost": 420
+      },
+      "domesticHelp": {
+        "description": "Full-time estate manager, housekeeper, personal assistant, property caretaker",
+        "monthlyCost": 3800
+      },
+      "luxuryExtras": {
+        "description": "Second home in the Smokies, first-class international travel, angel investing, foundation work",
+        "monthlyCost": 4700
+      },
+      "lifestyle": "At $10M in Chattanooga with zero state income tax, you live atop one of the most beautiful mountains in the Southeast with a lifestyle to match. A grand mountaintop estate, a personal chef, a second home in the Smokies, chartered flights to anywhere, and the ability to be a transformative philanthropic force in this dynamic city. The combination of natural beauty, tax efficiency, and low costs creates one of the most compelling ultra-luxury retirements in America."
+    }
+  }
+}

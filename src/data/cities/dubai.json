@@ -3,10 +3,14 @@
   "country": "United Arab Emirates",
   "region": "Middle East",
   "slug": "dubai",
-  "emoji": "\ud83c\udde6\ud83c\uddea",
+  "emoji": "🇦🇪",
   "fireScore": 5.2,
   "tagline": "Zero Income Tax, World-Class Luxury, and Year-Round Sunshine",
   "description": "Dubai offers a unique FIRE proposition: zero income tax on your withdrawals combined with world-class infrastructure, safety, and connectivity. The city is a global hub with direct flights to virtually everywhere, a cosmopolitan expat community, and amenities that range from futuristic skyscrapers to pristine beaches. While the cost of living is higher than most FIRE destinations, the tax savings can offset this significantly for high-net-worth retirees.",
+  "tags": {
+    "climate": "desert",
+    "english": "high"
+  },
   "quickFacts": {
     "visa": "Multiple residency options: 10-year Golden Visa for property investment (AED 2M+), 5-year retirement visa (requirements apply), or freelancer/remote work visas",
     "timezone": "GST (UTC+4)",

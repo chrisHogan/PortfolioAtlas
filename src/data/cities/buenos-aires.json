@@ -3,10 +3,14 @@
   "country": "Argentina",
   "region": "Latin America",
   "slug": "buenos-aires",
-  "emoji": "\ud83c\udde6\ud83c\uddf7",
+  "emoji": "🇦🇷",
   "fireScore": 7.8,
   "tagline": "European Elegance at South American Prices",
   "description": "Buenos Aires is the Paris of South America — grand architecture, world-class steak and wine, and a cultural scene that rivals any global capital. Argentina's economic volatility means the dollar stretches extraordinarily far, making it possible to live a genuinely luxurious life on a modest FIRE budget, though currency fluctuations add an element of unpredictability.",
+  "tags": {
+    "climate": "subtropical",
+    "english": "moderate"
+  },
   "quickFacts": {
     "visa": "Rentista Visa (requires proof of stable income ~$1,500/mo from abroad; renewable annually) or Pensionado Visa for retirees",
     "timezone": "ART (UTC-3)",

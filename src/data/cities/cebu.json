@@ -1,0 +1,194 @@
+{
+  "name": "Cebu",
+  "country": "Philippines",
+  "region": "Southeast Asia",
+  "slug": "cebu",
+  "emoji": "🇵🇭",
+  "fireScore": 8.8,
+  "tagline": "Island Paradise Where Your Dollar Goes the Furthest in Asia",
+  "description": "Cebu is the Philippines' most livable island city — a thriving metro surrounded by world-class diving, pristine beaches, and turquoise waters, where English is spoken natively and the cost of living is astonishingly low. The SRRV retirement visa makes long-term residency straightforward, the healthcare system is strong and affordable, and the Filipino warmth creates one of the most welcoming expat communities in Asia. For FIRE retirees who want tropical island living without sacrificing connectivity or English-language comfort, Cebu is hard to beat.",
+  "tags": {
+    "climate": "tropical",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "Special Resident Retiree's Visa (SRRV) with $20,000 deposit (age 50+) or $50,000 (under 50). Renewable annually, includes multiple entry privileges.",
+    "timezone": "UTC+8 (Philippine Standard Time)",
+    "language": "Filipino/Cebuano (English is an official language and widely spoken)",
+    "internetSpeed": "30-100 Mbps (fiber available in metro areas, improving rapidly)",
+    "safetyRating": "Moderate — generally safe in expat and business areas, standard urban awareness in downtown, avoid isolated areas at night",
+    "nearestAirport": "Mactan-Cebu International Airport (CEB) — 30 min from Cebu City, direct flights to major Asian hubs",
+    "climate": "Tropical maritime with warm temperatures year-round (26-33°C). Dry season Jan-May, wet season Jun-Dec. Occasional typhoons.",
+    "englishFriendly": "High",
+    "currency": "Philippine Peso (PHP)",
+    "averageTemp": "28°C / 82°F"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Modern 1-bedroom condo in IT Park or Cebu Business Park with pool, gym, and 24/7 security",
+        "monthlyCost": 450
+      },
+      "dining": {
+        "description": "Daily Filipino meals at local eateries, fresh seafood at Larsian BBQ, occasional Western restaurants, excellent mango shakes everywhere",
+        "monthlyCost": 350
+      },
+      "groceries": {
+        "monthlyCost": 200
+      },
+      "healthcare": {
+        "description": "Private insurance covering Cebu Doctors and Chong Hua Hospital, affordable dental and vision care",
+        "monthlyCost": 120
+      },
+      "transportation": {
+        "description": "Grab rides across the city, jeepney for local trips, occasional motorbike taxi",
+        "monthlyCost": 80
+      },
+      "entertainment": {
+        "description": "Weekend island-hopping to Bantayan and Malapascua, snorkeling with whale sharks in Oslob, beach days on Mactan, local festivals",
+        "monthlyCost": 250
+      },
+      "utilities": {
+        "monthlyCost": 100
+      },
+      "lifestyle": "A million dollars in Cebu feels like winning the lottery. Your modern condo has a pool and gym, fresh seafood costs almost nothing, and every weekend is a new island adventure. You'll swim with whale sharks for twenty dollars, island-hop to beaches that Instagram influencers fly halfway around the world to photograph, and do it all while speaking English with friendly locals who genuinely enjoy your company."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Spacious 2-bedroom condo in a premium development like Ayala or Solinea with resort-style amenities, or beachfront unit on Mactan Island",
+        "monthlyCost": 800
+      },
+      "dining": {
+        "description": "Mix of local Filipino food, Japanese, Korean, and Western restaurants, regular fresh seafood feasts, waterfront dining on Mactan",
+        "monthlyCost": 600
+      },
+      "groceries": {
+        "monthlyCost": 300
+      },
+      "healthcare": {
+        "description": "Comprehensive private insurance with access to top Cebu hospitals, dental, annual check-ups, and prescription coverage",
+        "monthlyCost": 200
+      },
+      "transportation": {
+        "description": "Regular Grab rides, rented scooter for Mactan exploration, occasional domestic flights to Palawan or Siargao",
+        "monthlyCost": 150
+      },
+      "entertainment": {
+        "description": "Scuba diving certification and regular dive trips, island-hopping charters, spa days, beach club memberships, Sinulog festival VIP access",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 130
+      },
+      "lifestyle": "Two million in Cebu unlocks a genuinely luxurious tropical life. Your beachfront condo on Mactan has ocean views, your weekends are filled with world-class diving at Moalboal's sardine run and Malapascua's thresher sharks, and your social calendar is packed with the vibrant international expat community. The Philippines' warmth — both climate and people — makes every day feel like a permanent vacation."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Luxury 3-bedroom beachfront villa on Mactan or premium penthouse in Cebu Business Park with panoramic city and ocean views",
+        "monthlyCost": 1500
+      },
+      "dining": {
+        "description": "Fine dining at Cebu's best restaurants, private island seafood feasts, Japanese omakase, personal chef for weekly gatherings",
+        "monthlyCost": 1100
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "Premium private insurance with international coverage, executive health checks, wellness programs, medical travel to Singapore or Bangkok if needed",
+        "monthlyCost": 300
+      },
+      "transportation": {
+        "description": "Leased car with driver for city navigation, domestic flights for island exploration, private boat transfers to nearby islands",
+        "monthlyCost": 400
+      },
+      "entertainment": {
+        "description": "Premium dive resort packages, private island day trips, yacht charters, golf at Alta Vista, spa retreats, cultural festival VIP experiences",
+        "monthlyCost": 900
+      },
+      "utilities": {
+        "monthlyCost": 180
+      },
+      "lifestyle": "At three million, Cebu transforms into your personal tropical paradise. Your beachfront villa has staff, your weekends involve private boat trips to uninhabited islands, and world-class diving is your Tuesday afternoon activity. You host legendary rooftop barbecues, fly to Palawan for long weekends, and live a lifestyle that would cost five times as much in Hawaii — all while surrounded by some of the warmest, most genuine people you'll ever meet."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Stunning beachfront compound on Mactan or exclusive resort-style villa with private pool, tropical gardens, and direct ocean access",
+        "monthlyCost": 3000
+      },
+      "dining": {
+        "description": "Private chef for daily meals, fine dining as routine, curated wine collection, legendary Filipino-fusion feast hosting",
+        "monthlyCost": 1800
+      },
+      "groceries": {
+        "monthlyCost": 550
+      },
+      "healthcare": {
+        "description": "International concierge medicine, private physician, wellness retreats, anti-aging treatments, fly-to-Singapore coverage for specialized care",
+        "monthlyCost": 450
+      },
+      "transportation": {
+        "description": "Luxury vehicle with full-time driver, private boat for island-hopping, domestic charter flights, regular international travel",
+        "monthlyCost": 650
+      },
+      "entertainment": {
+        "description": "Private yacht charters, exclusive dive expeditions, golf memberships, art collecting, philanthropic projects supporting local communities",
+        "monthlyCost": 1400
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, cook, gardener, driver, and part-time nanny or personal assistant",
+        "monthlyCost": 600
+      },
+      "luxuryExtras": {
+        "description": "Private Cebuano language tutor, personal trainer, bespoke island exploration planning, marine conservation involvement, premium club memberships",
+        "monthlyCost": 1200
+      },
+      "lifestyle": "Your Mactan compound is a tropical dream — a private chef prepares fresh catch of the day, your boat captain knows every hidden cove in the Visayas, and your dive instructor is on speed dial for encounters with thresher sharks and whale sharks. You've become a philanthropic force in the local community, your dinner parties are legendary among the expat set, and your island life would make a resort owner jealous."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Ultra-luxury oceanfront estate on Mactan or private island lease in the Visayas with multiple structures, infinity pool, private beach, and dock",
+        "monthlyCost": 6000
+      },
+      "dining": {
+        "description": "Full-time private chef team, imported delicacies, rare wine collection, legendary feast hosting on your private beach, guest chef experiences",
+        "monthlyCost": 3500
+      },
+      "groceries": {
+        "monthlyCost": 800
+      },
+      "healthcare": {
+        "description": "Global VIP medical coverage, dedicated wellness team, private health facility access, fly-anywhere specialist treatment, longevity programs",
+        "monthlyCost": 800
+      },
+      "transportation": {
+        "description": "Luxury vehicle fleet with drivers, private yacht for Visayan Sea cruising, helicopter transfers, private jet charter for Asian travel",
+        "monthlyCost": 2500
+      },
+      "entertainment": {
+        "description": "Private island retreats, marine conservation foundation, exclusive dive expeditions, art patronage, international cultural event hosting",
+        "monthlyCost": 3500
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full estate staff: chef team, housekeepers, groundskeepers, boat crew, drivers, personal assistant, estate manager, security",
+        "monthlyCost": 2800
+      },
+      "luxuryExtras": {
+        "description": "Marine sanctuary sponsorship, private island development, art acquisition fund, charitable foundation supporting Filipino education, bespoke Southeast Asian experiences",
+        "monthlyCost": 4800
+      },
+      "lifestyle": "You live the ultimate island life — your oceanfront estate has a private beach, a yacht at the dock, and a staff that anticipates your every need. Your marine conservation foundation protects the reefs you fell in love with, your private island getaway is the envy of the Philippines' elite, and your philanthropic work in local education has made you a beloved figure in the Cebuano community. Ten million in the Philippines doesn't just buy luxury — it buys legacy."
+    }
+  }
+}

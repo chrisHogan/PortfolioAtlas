@@ -1,0 +1,194 @@
+{
+  "name": "Albuquerque",
+  "country": "United States",
+  "region": "North America",
+  "slug": "albuquerque",
+  "emoji": "🇺🇸",
+  "fireScore": 6.8,
+  "tagline": "High Desert Beauty, Ancient Culture, and Balloon-Filled Skies",
+  "description": "Albuquerque sits at the crossroads of Native American and Hispanic heritage in a stunning high-desert landscape at the foot of the Sandia Mountains. The cost of living is remarkably low for a metro of nearly one million, sunshine is abundant with over 310 days per year, and the cultural richness is unmatched. From the International Balloon Fiesta to Old Town's centuries-old adobe architecture, Albuquerque offers FIRE retirees a deeply affordable and uniquely beautiful place to call home.",
+  "tags": {
+    "climate": "arid",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "MST (UTC-7)",
+    "language": "English",
+    "internetSpeed": "120+ Mbps average",
+    "safetyRating": "Moderate – safe in most residential areas; higher property crime in some neighborhoods",
+    "nearestAirport": "Albuquerque International Sunport (ABQ)",
+    "climate": "Semi-arid with mild winters, hot summers, low humidity, and over 310 sunny days per year",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "57°F / 14°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in the University or Nob Hill neighborhood",
+        "monthlyCost": 950
+      },
+      "dining": {
+        "description": "Green chile burgers and New Mexican cuisine 2x/week; mostly home cooking",
+        "monthlyCost": 200
+      },
+      "groceries": {
+        "monthlyCost": 340
+      },
+      "healthcare": {
+        "description": "ACA marketplace Silver plan; New Mexico premiums are moderate",
+        "monthlyCost": 470
+      },
+      "transportation": {
+        "description": "Paid-off car with basic insurance; ABQ Ride bus system for some errands",
+        "monthlyCost": 220
+      },
+      "entertainment": {
+        "description": "Hiking the Sandia foothills, free Old Town wandering, public library; occasional film night",
+        "monthlyCost": 80
+      },
+      "utilities": {
+        "monthlyCost": 120
+      },
+      "lifestyle": "Albuquerque at $1M is surprisingly comfortable thanks to some of the lowest housing costs among major Western cities. You will eat incredible New Mexican food cheaply, hike the Sandias for free, and soak in 310 days of sunshine. Healthcare is the biggest expense, but the desert lifestyle is inherently low-cost and deeply satisfying."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "2BR house in Nob Hill or a townhome in the Northeast Heights",
+        "monthlyCost": 1500
+      },
+      "dining": {
+        "description": "Regular dining on Central Avenue and in Old Town 3-4x/week; craft breweries",
+        "monthlyCost": 420
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "ACA Gold plan with dental and vision; comfortable deductible",
+        "monthlyCost": 570
+      },
+      "transportation": {
+        "description": "Reliable car for mountain and pueblo day trips, full coverage insurance",
+        "monthlyCost": 330
+      },
+      "entertainment": {
+        "description": "Sandia Peak Tramway passes, Balloon Fiesta tickets, KiMo Theatre shows, gym membership",
+        "monthlyCost": 230
+      },
+      "utilities": {
+        "monthlyCost": 145
+      },
+      "lifestyle": "This is the Albuquerque sweet spot. You can afford a charming Nob Hill bungalow, eat your way through the city's legendary chile-laden cuisine, take the Sandia Peak Tramway whenever you want, and explore nearby pueblos and national monuments on weekends. The combination of culture, sunshine, and affordability is hard to beat."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR home in the Sandia Heights or North Valley with mountain or bosque views",
+        "monthlyCost": 2600
+      },
+      "dining": {
+        "description": "Regular dining at Campo, Seasons, and Los Poblanos; wine events and food festivals",
+        "monthlyCost": 700
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "Premium private insurance with comprehensive coverage and low deductibles",
+        "monthlyCost": 680
+      },
+      "transportation": {
+        "description": "Late-model SUV for mountain and desert excursions, premium insurance",
+        "monthlyCost": 480
+      },
+      "entertainment": {
+        "description": "Hot air balloon rides, Santa Fe Opera trips, golf membership, art collecting on Canyon Road",
+        "monthlyCost": 420
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "lifestyle": "At $10K a month, Albuquerque becomes extraordinary. A beautiful home with Sandia Mountain views, regular trips to Santa Fe for the opera and Canyon Road galleries, hot air balloon flights, and deep engagement with the city's rich cultural calendar. The desert light alone makes this lifestyle magical."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Custom adobe home in Sandia Heights or a luxury North Valley compound with acreage",
+        "monthlyCost": 4800
+      },
+      "dining": {
+        "description": "Private chef for weekly dinners, fine dining in ABQ and Santa Fe, farm-to-table experiences",
+        "monthlyCost": 1100
+      },
+      "groceries": {
+        "monthlyCost": 650
+      },
+      "healthcare": {
+        "description": "Concierge medical practice, premium insurance, integrative wellness",
+        "monthlyCost": 880
+      },
+      "transportation": {
+        "description": "Luxury SUV, second vehicle, flights from ABQ to major hubs",
+        "monthlyCost": 750
+      },
+      "entertainment": {
+        "description": "Private balloon flights, Santa Fe Opera patronage, art collecting, country club membership",
+        "monthlyCost": 750
+      },
+      "utilities": {
+        "monthlyCost": 280
+      },
+      "domesticHelp": {
+        "description": "Weekly deep cleaning, xeriscape gardening service, property maintenance",
+        "monthlyCost": 600
+      },
+      "luxuryExtras": {
+        "description": "Art collecting, quarterly travel, Balloon Fiesta VIP experiences, cultural philanthropy",
+        "monthlyCost": 1300
+      },
+      "lifestyle": "You are living the high-desert dream at its finest. A stunning adobe compound with mountain views, private hot air balloon flights at sunrise, patronage of the Santa Fe Opera, and art purchases from world-renowned galleries. New Mexico at this level offers a lifestyle of rare beauty and cultural depth."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Grand Sandia Heights estate or a sprawling North Valley hacienda with river access",
+        "monthlyCost": 8500
+      },
+      "dining": {
+        "description": "Personal chef, exclusive wine dinners, catered events, farm-sourced everything",
+        "monthlyCost": 2400
+      },
+      "groceries": {
+        "monthlyCost": 850
+      },
+      "healthcare": {
+        "description": "Top concierge practice, executive wellness retreats, medical travel for specialists",
+        "monthlyCost": 1200
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, private car service, chartered flights from ABQ",
+        "monthlyCost": 1400
+      },
+      "entertainment": {
+        "description": "Major arts patronage, private gallery events, international travel, exclusive cultural experiences",
+        "monthlyCost": 2000
+      },
+      "utilities": {
+        "monthlyCost": 420
+      },
+      "domesticHelp": {
+        "description": "Full-time estate manager, housekeeper, personal assistant, groundskeeper",
+        "monthlyCost": 4000
+      },
+      "luxuryExtras": {
+        "description": "Second home in Santa Fe, first-class travel, major art collection, cultural foundation",
+        "monthlyCost": 4800
+      },
+      "lifestyle": "At $10M in Albuquerque you command a desert empire. A magnificent hacienda beneath the Sandias, a second home on Canyon Road in Santa Fe, a world-class art collection, and deep philanthropic involvement with Native American and Hispanic cultural institutions. The Land of Enchantment earns its name at this level."
+    }
+  }
+}

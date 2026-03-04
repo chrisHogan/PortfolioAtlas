@@ -29,7 +29,7 @@ const suggestions = [...samRegion, ...diffRegion].slice(0, 5);
     See how {currentCity.name} stacks up against other popular FIRE destinations.
   </p>
 
-  <div class="flex flex-wrap gap-2">
+  <div class="flex flex-wrap gap-2 comparison-cta-links">
     {suggestions.map((city) => (
       <a
         href={`/cities/${city.slug}`}
@@ -51,3 +51,19 @@ const suggestions = [...samRegion, ...diffRegion].slice(0, 5);
     </svg>
   </a>
 </section>
+
+<script>
+  // Append current URL search params (nw, filters) to suggestion links
+  (function() {
+    const search = window.location.search;
+    if (!search) return;
+    const container = document.querySelector('.comparison-cta-links');
+    if (!container) return;
+    container.querySelectorAll('a').forEach((a) => {
+      const href = a.getAttribute('href');
+      if (href && href.startsWith('/cities/')) {
+        a.setAttribute('href', href + search);
+      }
+    });
+  })();
+</script>

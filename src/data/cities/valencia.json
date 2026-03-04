@@ -1,0 +1,194 @@
+{
+  "name": "Valencia",
+  "country": "Spain",
+  "region": "Europe",
+  "slug": "valencia",
+  "emoji": "🇪🇸",
+  "fireScore": 7.5,
+  "tagline": "Mediterranean Living at Half the Price of Barcelona",
+  "description": "Valencia offers everything expats love about coastal Spain — paella on the beach, world-class architecture at the City of Arts & Sciences, and a genuine Mediterranean lifestyle — but at a fraction of Barcelona or Madrid prices. Spain's third-largest city combines historic charm with modern innovation, making it one of Europe's best-kept FIRE secrets.",
+  "tags": {
+    "climate": "mediterranean",
+    "english": "moderate"
+  },
+  "quickFacts": {
+    "visa": "Non-Lucrative Visa (must show sufficient funds, no work allowed). Beckham Law may apply for new tax residents. Path to permanent residency and citizenship after 10 years.",
+    "timezone": "UTC+1 (CET) / UTC+2 (CEST summer)",
+    "language": "Spanish and Valencian",
+    "internetSpeed": "100-600 Mbps fiber widely available",
+    "safetyRating": "Very Safe — one of Spain's safest large cities, standard urban precautions apply",
+    "nearestAirport": "Valencia Airport (VLC) — 15 min from city center",
+    "climate": "Mediterranean with mild winters (10-16°C) and hot summers (25-33°C). Over 300 days of sunshine per year.",
+    "englishFriendly": "Moderate",
+    "currency": "Euro (EUR)",
+    "averageTemp": "18°C / 64°F"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Bright 1-bedroom apartment in Ruzafa or Benimaclet, walkable bohemian neighborhoods with local character",
+        "monthlyCost": 800
+      },
+      "dining": {
+        "description": "Menu del día lunches for 10-12 euros, tapas evenings, horchata and fartons at a neighborhood horchatería",
+        "monthlyCost": 450
+      },
+      "groceries": {
+        "monthlyCost": 300
+      },
+      "healthcare": {
+        "description": "Public healthcare enrollment plus basic private insurance for faster specialist access",
+        "monthlyCost": 150
+      },
+      "transportation": {
+        "description": "Valenbisi bike-share membership and monthly metro/bus pass for citywide coverage",
+        "monthlyCost": 50
+      },
+      "entertainment": {
+        "description": "Beach days at Malvarrosa, free Turia park cycling, local fallas celebrations, museum visits",
+        "monthlyCost": 200
+      },
+      "utilities": {
+        "monthlyCost": 120
+      },
+      "lifestyle": "Valencia on a lean budget is surprisingly comfortable. You cycle through the Turia gardens to the beach, eat the world's best paella for lunch at a neighborhood spot, and spend evenings wandering Ruzafa's street art scene. The city rewards those who live like locals — and at these prices, you can afford to stay forever."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Spacious 2-bedroom apartment in Eixample or El Carmen with balcony and renovated interiors",
+        "monthlyCost": 1300
+      },
+      "dining": {
+        "description": "Regular dining at Ruzafa's acclaimed restaurants, weekend paella at beachside chiringuitos, wine bar evenings",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 450
+      },
+      "healthcare": {
+        "description": "Comprehensive private insurance covering Hospital La Fe and top clinics, dental included",
+        "monthlyCost": 250
+      },
+      "transportation": {
+        "description": "Monthly transit pass, Valenbisi, occasional taxi rides, weekend car rental for Albufera trips",
+        "monthlyCost": 120
+      },
+      "entertainment": {
+        "description": "Oceanogràfic visits, sailing lessons at the marina, La Liga matches at Mestalla, weekend trips to Albufera",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "The sweet spot for Valencia living. Your Eixample apartment is a ten-minute bike ride from the beach and the City of Arts & Sciences. Weekends mean paella at a beachside restaurant, kayaking through the Albufera wetlands, or catching Valencia CF at Mestalla. You eat out freely, explore constantly, and still have room to save."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Elegant 3-bedroom apartment in Gran Via or a renovated loft near the Central Market with terrace views",
+        "monthlyCost": 2200
+      },
+      "dining": {
+        "description": "Fine dining at Ricard Camarena and Riff, private paella masterclasses, curated Valencian wine experiences",
+        "monthlyCost": 1500
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "Premium private insurance with international coverage, executive health screenings, wellness programs",
+        "monthlyCost": 380
+      },
+      "transportation": {
+        "description": "Leased car for countryside excursions, metro pass, regular taxi rides across the city",
+        "monthlyCost": 350
+      },
+      "entertainment": {
+        "description": "Marina sailing club membership, VIP Fallas festival experiences, concert season tickets at Palau de les Arts",
+        "monthlyCost": 1000
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "lifestyle": "Valencia opens up fully at this level. Your terrace overlooks the old town rooftops, you dine at Michelin-starred restaurants mid-week without flinching, and Las Fallas is experienced from the best seats in the house. Weekends alternate between sailing the Mediterranean, wine tours through Utiel-Requena, and lazy Sundays at your favorite chiringuito."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury penthouse near the City of Arts & Sciences or a restored historic mansion in El Carmen with rooftop terrace",
+        "monthlyCost": 3800
+      },
+      "dining": {
+        "description": "Private chef preparing Valencian and international cuisine, regular Michelin dining, curated wine cellar management",
+        "monthlyCost": 2500
+      },
+      "groceries": {
+        "monthlyCost": 750
+      },
+      "healthcare": {
+        "description": "International VIP health coverage, personal physician, longevity and wellness programs at top clinics",
+        "monthlyCost": 550
+      },
+      "transportation": {
+        "description": "Luxury vehicle lease, occasional private driver, weekend drives to the Costa Blanca",
+        "monthlyCost": 700
+      },
+      "entertainment": {
+        "description": "Private yacht moored at La Marina, art collecting in Ruzafa galleries, VIP season box at Mestalla, exclusive club memberships",
+        "monthlyCost": 1800
+      },
+      "utilities": {
+        "monthlyCost": 300
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, weekly deep cleaning, personal assistant for daily logistics",
+        "monthlyCost": 1200
+      },
+      "luxuryExtras": {
+        "description": "Personal trainer, private Spanish tutors, bespoke tailoring, premium coworking space, yacht marina fees",
+        "monthlyCost": 1600
+      },
+      "lifestyle": "Your penthouse terrace frames the futuristic City of Arts & Sciences at sunset while your private chef prepares an authentic paella Valenciana. Weekends mean sailing your yacht down the coast or driving to a countryside wine estate. You host dinner parties that are the talk of the expat community, blending Valencian tradition with cosmopolitan luxury."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Grand historic estate in the old town or ultra-modern waterfront penthouse with panoramic views from port to mountains",
+        "monthlyCost": 7500
+      },
+      "dining": {
+        "description": "Full-time private chef team, rare wine acquisitions, legendary hosted dinner parties, guest chef residencies from Madrid and Barcelona",
+        "monthlyCost": 4500
+      },
+      "groceries": {
+        "monthlyCost": 1100
+      },
+      "healthcare": {
+        "description": "Global concierge medicine, dedicated medical team, fly-anywhere coverage, biohacking and longevity protocols",
+        "monthlyCost": 1000
+      },
+      "transportation": {
+        "description": "Chauffeured luxury fleet, private jet access for European getaways, superyacht berthing at La Marina",
+        "monthlyCost": 2800
+      },
+      "entertainment": {
+        "description": "Art patronage and gallery curation, private island retreats in the Balearics, cultural festival sponsorship, VIP global experiences",
+        "monthlyCost": 4000
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full household staff: butler, chef team, housekeepers, personal assistant, property manager, gardener",
+        "monthlyCost": 4000
+      },
+      "luxuryExtras": {
+        "description": "Costa Blanca vacation villa management, charitable foundation, bespoke Mediterranean yacht itineraries, art collection curation, personal brand consulting",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At this level, Valencia becomes your Mediterranean kingdom. Your historic estate hosts charity galas and art exhibitions, your superyacht cruises to Ibiza and Sardinia on a whim, and you are a patron of Las Fallas itself. You split time between your old town palace and your Costa Blanca retreat, moving through Valencia's highest circles with effortless grace."
+    }
+  }
+}

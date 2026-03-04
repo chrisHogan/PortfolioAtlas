@@ -3,10 +3,14 @@
   "country": "Mexico",
   "region": "Latin America",
   "slug": "playa-del-carmen",
-  "emoji": "\ud83c\uddf2\ud83c\uddfd",
+  "emoji": "🇲🇽",
   "fireScore": 7.2,
   "tagline": "Caribbean Beach Life on a FIRE Budget",
   "description": "Playa del Carmen offers the rare combination of turquoise Caribbean waters, walkable town center, and a massive international expat community that makes the transition seamless. While pricier than inland Mexico, it remains a fraction of comparable beach destinations in the US or Europe, making it ideal for FIRE retirees who refuse to compromise on beach access.",
+  "tags": {
+    "climate": "tropical",
+    "english": "high"
+  },
   "quickFacts": {
     "visa": "Temporary Resident Visa (1-4 years, renewable; requires proof of income ~$2,500/mo or savings ~$42,000)",
     "timezone": "EST (UTC-5)",

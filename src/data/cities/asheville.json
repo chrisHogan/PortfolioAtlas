@@ -3,10 +3,14 @@
   "country": "United States",
   "region": "North America",
   "slug": "asheville",
-  "emoji": "\ud83c\uddfa\ud83c\uddf8",
+  "emoji": "🇺🇸",
   "fireScore": 6.2,
   "tagline": "Mountain Arts, Craft Beer, and Blue Ridge Serenity",
   "description": "Asheville is a creative haven nestled in the Blue Ridge Mountains, offering a walkable downtown, world-class craft beer scene, and stunning natural beauty in every direction. The cost of living is moderate by US standards, and the four-season mountain climate is hard to beat. For FIRE seekers who value culture, community, and the outdoors over big-city amenities, Asheville delivers.",
+  "tags": {
+    "climate": "subtropical",
+    "english": "high"
+  },
   "quickFacts": {
     "visa": "No visa required for US citizens",
     "timezone": "EST (UTC-5)",

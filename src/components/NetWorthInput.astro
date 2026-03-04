@@ -106,7 +106,15 @@ const { compact = false } = Astro.props;
       e.preventDefault();
       const raw = getRawValue();
       if (raw > 0) {
-        window.location.href = `/calculator?nw=${raw}`;
+        // Preserve existing filter params (loc, climate, eng)
+        const params = new URLSearchParams(window.location.search);
+        const filterParams = new URLSearchParams();
+        filterParams.set('nw', String(raw));
+        for (const key of ['loc', 'climate', 'eng']) {
+          const val = params.get(key);
+          if (val) filterParams.set(key, val);
+        }
+        window.location.href = `/calculator?${filterParams.toString()}`;
       }
     });
 

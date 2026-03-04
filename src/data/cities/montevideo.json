@@ -3,10 +3,14 @@
   "country": "Uruguay",
   "region": "Latin America",
   "slug": "montevideo",
-  "emoji": "\ud83c\uddfa\ud83c\uddfe",
+  "emoji": "🇺🇾",
   "fireScore": 7.5,
   "tagline": "South America's Safest Haven for Your FIRE Portfolio",
   "description": "Montevideo is the quiet achiever of Latin American FIRE destinations — politically stable, remarkably safe, and offering a quality of life that punches well above its weight. Uruguay's progressive policies, strong rule of law, and lack of foreign income taxation make it uniquely attractive for retirees seeking both lifestyle and financial security in South America.",
+  "tags": {
+    "climate": "subtropical",
+    "english": "low"
+  },
   "quickFacts": {
     "visa": "Rentista Visa (requires proof of stable passive income ~$1,500/mo; leads to permanent residency after 3-5 years)",
     "timezone": "UYT (UTC-3)",

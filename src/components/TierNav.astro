@@ -11,6 +11,13 @@ const tiers: TierKey[] = ['1M', '2M', '3M', '5M', '10M'];
       <span class="text-xs font-semibold text-gray-500 uppercase tracking-wider mr-2 shrink-0">
         Portfolio:
       </span>
+      <a
+        id="tier-nav-yours"
+        href="#personalized-tier"
+        class="hidden shrink-0 px-4 py-2 text-sm font-bold rounded-full bg-brand-600 text-white border border-brand-600 hover:bg-brand-700 transition-all"
+      >
+        Your Portfolio
+      </a>
       {tiers.map((tier) => (
         <a
           href={`#tier-${tier}`}
@@ -22,3 +29,12 @@ const tiers: TierKey[] = ['1M', '2M', '3M', '5M', '10M'];
     </div>
   </div>
 </nav>
+
+<script>
+  (function() {
+    const params = new URLSearchParams(window.location.search);
+    if (!params.get('nw')) return;
+    const pill = document.getElementById('tier-nav-yours');
+    if (pill) pill.classList.remove('hidden');
+  })();
+</script>

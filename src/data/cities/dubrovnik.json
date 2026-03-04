@@ -3,10 +3,14 @@
   "country": "Croatia",
   "region": "Europe",
   "slug": "dubrovnik",
-  "emoji": "\ud83c\udded\ud83c\uddf7",
+  "emoji": "🇭🇷",
   "fireScore": 7,
   "tagline": "The Pearl of the Adriatic for Mediterranean Early Retirement",
   "description": "Dubrovnik offers a fairy-tale Adriatic lifestyle with Croatia's EU membership providing straightforward residency pathways for Europeans and favorable digital nomad and passive income visa options. With stunning medieval architecture, crystal-clear waters, and costs well below Western Europe, it's an increasingly compelling FIRE destination for those seeking Mediterranean beauty without the price tag.",
+  "tags": {
+    "climate": "mediterranean",
+    "english": "high"
+  },
   "quickFacts": {
     "visa": "Digital Nomad Visa (1 year, renewable) or Temporary Stay permit for financially independent persons. Croatia joined Schengen in 2023. EU citizens have freedom of movement.",
     "timezone": "UTC+1 (CET) / UTC+2 (CEST summer)",

@@ -1,0 +1,194 @@
+{
+  "name": "Des Moines",
+  "country": "United States",
+  "region": "North America",
+  "slug": "des-moines",
+  "emoji": "🇺🇸",
+  "fireScore": 6.8,
+  "tagline": "Insurance Capital with Farm-to-Table Charm and Midwestern Value",
+  "description": "Des Moines is one of America's most underrated FIRE destinations, combining a remarkably low cost of living with a revitalized downtown, thriving farm-to-table dining scene, and an extensive network of bike trails. As the insurance capital of the country, the city has a stable economy and a growing cultural identity. The Des Moines Riverwalk, Pappajohn Sculpture Park, and a booming East Village neighborhood make this much more than just cornfields and cubicles.",
+  "tags": {
+    "climate": "continental",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "CST (UTC-6)",
+    "language": "English",
+    "internetSpeed": "150+ Mbps average",
+    "safetyRating": "High – consistently ranked among safest mid-size US cities",
+    "nearestAirport": "Des Moines International Airport (DSM)",
+    "climate": "Continental with hot, humid summers and cold, snowy winters",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "50°F / 10°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in the East Village or Sherman Hill neighborhood",
+        "monthlyCost": 950
+      },
+      "dining": {
+        "description": "Casual dining 2x/week at local spots like Zombie Burger or Fong's Pizza",
+        "monthlyCost": 180
+      },
+      "groceries": {
+        "monthlyCost": 340
+      },
+      "healthcare": {
+        "description": "ACA marketplace Silver plan through Iowa's exchange",
+        "monthlyCost": 480
+      },
+      "transportation": {
+        "description": "Paid-off car with basic insurance; biking viable on 80+ miles of trails",
+        "monthlyCost": 220
+      },
+      "entertainment": {
+        "description": "Biking the trails, free sculpture park visits, farmers market browsing; occasional show",
+        "monthlyCost": 80
+      },
+      "utilities": {
+        "monthlyCost": 130
+      },
+      "lifestyle": "Des Moines at $1M is genuinely comfortable thanks to some of the lowest rents in any US metro. You can live in a walkable downtown neighborhood, bike everywhere on the extensive trail network, and enjoy the farmers market every Saturday. Healthcare is the biggest expense, but the low baseline costs give you breathing room that most cities simply cannot match."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "2BR apartment downtown or a small house in Beaverdale or Ingersoll",
+        "monthlyCost": 1500
+      },
+      "dining": {
+        "description": "Dining out 3-4x/week; enjoying the growing East Village restaurant scene",
+        "monthlyCost": 400
+      },
+      "groceries": {
+        "monthlyCost": 420
+      },
+      "healthcare": {
+        "description": "ACA Gold plan with dental and vision; comfortable deductible",
+        "monthlyCost": 580
+      },
+      "transportation": {
+        "description": "Reliable car for Iowa winters, full coverage insurance, bike for summer commuting",
+        "monthlyCost": 340
+      },
+      "entertainment": {
+        "description": "Iowa Cubs games, Des Moines Art Center membership, gym, live music at Wooly's",
+        "monthlyCost": 220
+      },
+      "utilities": {
+        "monthlyCost": 160
+      },
+      "lifestyle": "This is the Des Moines sweet spot. You can afford a charming Beaverdale bungalow or a stylish downtown apartment, eat out regularly at the city's surprisingly excellent restaurant scene, and enjoy Iowa Cubs games on summer evenings. The low cost of living means your $2M stretches further here than almost anywhere else in America."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR home in the Waterbury neighborhood or West Des Moines with a two-car garage",
+        "monthlyCost": 2400
+      },
+      "dining": {
+        "description": "Regular fine dining at Alba, Centro, and 801 Chophouse; wine tasting events",
+        "monthlyCost": 650
+      },
+      "groceries": {
+        "monthlyCost": 520
+      },
+      "healthcare": {
+        "description": "Premium private health insurance with low deductibles and full dental/vision",
+        "monthlyCost": 700
+      },
+      "transportation": {
+        "description": "Late-model SUV for winter driving, premium insurance, occasional ride shares",
+        "monthlyCost": 450
+      },
+      "entertainment": {
+        "description": "Iowa Wild hockey, Des Moines Symphony season tickets, golf club, spa visits",
+        "monthlyCost": 400
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "lifestyle": "At $10K per month in Des Moines, you are living extremely well by any standard. A spacious home in a top neighborhood, regular fine dining, season tickets to cultural events, and a generous entertainment budget. You will have significant surplus each month, which is rare in most US metros at this budget level."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Custom home in Glen Oaks or a luxury property in West Des Moines with acreage",
+        "monthlyCost": 4500
+      },
+      "dining": {
+        "description": "Fine dining several times per week, private chef for entertaining, farm partnerships",
+        "monthlyCost": 1100
+      },
+      "groceries": {
+        "monthlyCost": 650
+      },
+      "healthcare": {
+        "description": "Concierge medicine at Iowa Clinic, executive wellness, comprehensive private insurance",
+        "monthlyCost": 900
+      },
+      "transportation": {
+        "description": "Luxury SUV, second vehicle, premium everything for Iowa's variable weather",
+        "monthlyCost": 750
+      },
+      "entertainment": {
+        "description": "Country club membership, Drake Bulldogs booster, philanthropy events, private golf",
+        "monthlyCost": 750
+      },
+      "utilities": {
+        "monthlyCost": 280
+      },
+      "domesticHelp": {
+        "description": "Weekly deep cleaning, landscaping, snow removal, seasonal yard service",
+        "monthlyCost": 550
+      },
+      "luxuryExtras": {
+        "description": "Lake Okoboji cabin weekends, quarterly travel, art collecting, community philanthropy",
+        "monthlyCost": 1400
+      },
+      "lifestyle": "Des Moines at $5M is elite Midwestern living at its finest. A stunning home with all the space you want, deep involvement in the community through philanthropy and the arts, weekends at a lake cabin, and enough surplus to travel extensively. Iowa's moderate taxes and rock-bottom cost of living mean your money goes extraordinarily far."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Trophy estate in Glen Oaks or a sprawling compound in West Des Moines with land",
+        "monthlyCost": 8000
+      },
+      "dining": {
+        "description": "Full-time personal chef, exclusive wine dinners, catered events and galas",
+        "monthlyCost": 2200
+      },
+      "groceries": {
+        "monthlyCost": 850
+      },
+      "healthcare": {
+        "description": "Top-tier concierge practice, medical travel for specialists, full wellness team",
+        "monthlyCost": 1200
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, private car service, chartered flights from DSM",
+        "monthlyCost": 1400
+      },
+      "entertainment": {
+        "description": "Major philanthropy, international travel, art collecting, exclusive club memberships",
+        "monthlyCost": 2000
+      },
+      "utilities": {
+        "monthlyCost": 420
+      },
+      "domesticHelp": {
+        "description": "Full-time property manager, housekeeper, personal assistant, groundskeeper",
+        "monthlyCost": 3800
+      },
+      "luxuryExtras": {
+        "description": "Second home at Lake Okoboji, first-class international travel, angel investing, foundation work",
+        "monthlyCost": 4800
+      },
+      "lifestyle": "At $10M in Des Moines you are royalty in one of the most livable cities in America. A grand estate, a personal chef sourcing from Iowa's incredible farms, deep philanthropic impact in the community, and chartered flights to anywhere. The combination of ultra-low living costs and your generous budget creates a life of extraordinary comfort and influence."
+    }
+  }
+}

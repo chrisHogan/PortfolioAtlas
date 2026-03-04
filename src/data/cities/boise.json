@@ -3,10 +3,14 @@
   "country": "United States",
   "region": "North America",
   "slug": "boise",
-  "emoji": "\ud83c\uddfa\ud83c\uddf8",
+  "emoji": "🇺🇸",
   "fireScore": 6.5,
   "tagline": "Affordable Mountain Living in the Heart of Idaho",
   "description": "Boise offers an unbeatable combination of outdoor recreation, low crime, and a cost of living well below most Western US cities. The Boise Foothills are your backyard, the Boise River Greenbelt runs through town, and world-class skiing is just two hours away. Idaho's flat income tax and affordable housing make every FIRE dollar stretch further.",
+  "tags": {
+    "climate": "continental",
+    "english": "high"
+  },
   "quickFacts": {
     "visa": "No visa required for US citizens",
     "timezone": "MST (UTC-7)",

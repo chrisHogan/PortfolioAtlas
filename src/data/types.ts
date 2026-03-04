@@ -1,3 +1,10 @@
+export type ClimateTag = 'tropical' | 'subtropical' | 'mediterranean' | 'continental' | 'desert' | 'arid';
+
+export interface CityTags {
+  climate: ClimateTag;
+  english: 'high' | 'moderate' | 'low';
+}
+
 export interface CityQuickFacts {
   visa: string;
   timezone: string;
@@ -63,6 +70,7 @@ export interface CityData {
   fireScore: number;
   tagline: string;
   description: string;
+  tags: CityTags;
   quickFacts: CityQuickFacts;
   tiers: Record<TierKey, TierCostBreakdown>;
 }

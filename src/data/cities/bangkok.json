@@ -7,6 +7,10 @@
   "fireScore": 8,
   "tagline": "World-Class City Living at a Fraction of the Price — Retire in Bangkok, Thailand",
   "description": "Bangkok delivers the energy, cuisine, and infrastructure of a global megacity at Southeast Asian prices. With its legendary street food, ultra-modern malls, excellent hospitals, and a massive international expat scene, Bangkok offers FIRE retirees a vibrant urban lifestyle that punches far above its cost.",
+  "tags": {
+    "climate": "tropical",
+    "english": "moderate"
+  },
   "quickFacts": {
     "visa": "60-day tourist visa on arrival; Long-Term Resident (LTR) visa for retirees with $80K+ income or $1M+ assets; Thai Elite visa ($15K–$30K) for 5–20 year stays",
     "timezone": "UTC+7 (Indochina Time)",

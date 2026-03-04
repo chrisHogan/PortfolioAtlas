@@ -1,0 +1,194 @@
+{
+  "name": "Knoxville",
+  "country": "United States",
+  "region": "North America",
+  "slug": "knoxville",
+  "emoji": "🇺🇸",
+  "fireScore": 6.8,
+  "tagline": "Gateway to the Smokies, University Town Energy, and No State Income Tax",
+  "description": "Knoxville is a hidden gem for FIRE seekers who want affordable living, stunning natural beauty, and the cultural energy of a major university town. Nestled at the doorstep of Great Smoky Mountains National Park -- America's most visited national park -- Knoxville offers four distinct seasons, a revitalized downtown with excellent restaurants and breweries, and Tennessee's zero state income tax on earned income. Housing costs remain remarkably low for a city of its quality, making your nest egg stretch further than almost anywhere in the eastern United States.",
+  "tags": {
+    "climate": "subtropical",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "EST (UTC-5)",
+    "language": "English",
+    "internetSpeed": "150+ Mbps average",
+    "safetyRating": "Moderate – safe university district and suburbs, typical downtown caution",
+    "nearestAirport": "McGhee Tyson Airport (TYS)",
+    "climate": "Humid subtropical with warm summers and cool, mild winters",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "58°F / 14°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in Bearden, North Knoxville, or near the university campus",
+        "monthlyCost": 1050
+      },
+      "dining": {
+        "description": "Casual dining at Market Square spots and Southern meat-and-threes 2-3x/week; mostly cooking at home",
+        "monthlyCost": 200
+      },
+      "groceries": {
+        "monthlyCost": 340
+      },
+      "healthcare": {
+        "description": "ACA marketplace Silver plan; Tennessee marketplace options are reasonable",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "Paid-off car with basic insurance and gas; car needed for Smokies access",
+        "monthlyCost": 250
+      },
+      "entertainment": {
+        "description": "Free hiking in the Smokies, Ijams Nature Center, Market Square events, UT sports on budget tickets",
+        "monthlyCost": 80
+      },
+      "utilities": {
+        "monthlyCost": 140
+      },
+      "lifestyle": "Knoxville is one of the best places in America to stretch a $1M portfolio. Housing is genuinely cheap, the Smoky Mountains are free to enter, and the revitalized Market Square downtown offers affordable eats and live music most weekends. You will live modestly but surrounded by extraordinary natural beauty. Tennessee charges no state income tax, which adds real value at every withdrawal."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "2BR home in West Knoxville, Sequoyah Hills, or a renovated condo in the Old City",
+        "monthlyCost": 1700
+      },
+      "dining": {
+        "description": "Regular dining at downtown restaurants like OliBea and The Plaid Apron 3-4x/week; Saturday farmers market",
+        "monthlyCost": 450
+      },
+      "groceries": {
+        "monthlyCost": 420
+      },
+      "healthcare": {
+        "description": "ACA Gold plan with dental and vision; access to UT Medical Center for specialized care",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "Reliable car with full coverage, gas, and maintenance for regular Smokies excursions",
+        "monthlyCost": 370
+      },
+      "entertainment": {
+        "description": "UT Vols football season tickets, Knoxville Symphony, brewery tours, fly fishing trips",
+        "monthlyCost": 280
+      },
+      "utilities": {
+        "monthlyCost": 160
+      },
+      "lifestyle": "At $2M, Knoxville becomes a truly wonderful place to live. You can settle into a charming home in tree-lined Sequoyah Hills, enjoy the downtown food scene regularly, cheer on the Vols on fall Saturdays, and spend your weekdays hiking world-class trails in the Smokies. The combination of low cost, natural beauty, and university-town culture is hard to beat anywhere."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR home in Farragut, a lakefront property on Fort Loudoun Lake, or an upscale Sequoyah Hills home",
+        "monthlyCost": 2600
+      },
+      "dining": {
+        "description": "Fine dining at The Lonesome Dove, J.C. Holdway, and Kaizen; regular wine dinners and chef's tables",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 550
+      },
+      "healthcare": {
+        "description": "Premium private health insurance with comprehensive coverage; UT Medical Center concierge options",
+        "monthlyCost": 700
+      },
+      "transportation": {
+        "description": "Late-model SUV for mountain adventures, premium insurance, occasional boat rental on the Tennessee River",
+        "monthlyCost": 450
+      },
+      "entertainment": {
+        "description": "Premium UT football tickets, Blackberry Farm day visits, private fly fishing guides, Knox Symphony season seats",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 220
+      },
+      "lifestyle": "At $10K per month in Knoxville, you are living exceptionally well for the region. A beautiful lakefront or hillside home, regular reservations at James Beard-recognized restaurants, premium seats at Neyland Stadium, and guided adventures deep in the Smokies. Day trips to the legendary Blackberry Farm become a regular indulgence. Your dollar goes extraordinarily far here."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury lakefront estate on Fort Loudoun Lake, or a historic mansion in Sequoyah Hills",
+        "monthlyCost": 4200
+      },
+      "dining": {
+        "description": "Private chef for dinner parties, fine dining multiple nights per week, Blackberry Farm dining experiences",
+        "monthlyCost": 1200
+      },
+      "groceries": {
+        "monthlyCost": 650
+      },
+      "healthcare": {
+        "description": "Concierge medicine, executive health screenings, premium private insurance with zero deductibles",
+        "monthlyCost": 900
+      },
+      "transportation": {
+        "description": "Luxury SUV, boat on Fort Loudoun Lake, premium insurance, detailing service",
+        "monthlyCost": 800
+      },
+      "entertainment": {
+        "description": "UT skybox access, Blackberry Farm overnight stays, private guided Smokies experiences, arts patronage",
+        "monthlyCost": 850
+      },
+      "utilities": {
+        "monthlyCost": 300
+      },
+      "domesticHelp": {
+        "description": "Bi-weekly house cleaning, landscaping, dock maintenance, occasional personal assistant",
+        "monthlyCost": 650
+      },
+      "luxuryExtras": {
+        "description": "Regular Blackberry Farm retreats, quarterly travel, wine collecting, university philanthropy",
+        "monthlyCost": 1300
+      },
+      "lifestyle": "You are living Knoxville's ultimate lifestyle. A stunning lakefront estate with your own boat dock, regular stays at the world-renowned Blackberry Farm, skybox seats as the Vols roar in Neyland Stadium, and a private chef who sources from East Tennessee's incredible local farms. The surplus lets you invest in the community and travel extensively."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Grand lakefront estate on Tellico or Fort Loudoun Lake, or a historic compound in West Knoxville",
+        "monthlyCost": 7500
+      },
+      "dining": {
+        "description": "Full-time personal chef, catered events, private Blackberry Farm experiences, exclusive wine dinners",
+        "monthlyCost": 2500
+      },
+      "groceries": {
+        "monthlyCost": 850
+      },
+      "healthcare": {
+        "description": "Top concierge medical practice, executive wellness, specialist access at Vanderbilt via short drive",
+        "monthlyCost": 1400
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, private boat on the lake, personal driver, chartered flights from TYS",
+        "monthlyCost": 1500
+      },
+      "entertainment": {
+        "description": "Major university philanthropy, private suite at Neyland Stadium, national park conservation funding, international travel",
+        "monthlyCost": 2500
+      },
+      "utilities": {
+        "monthlyCost": 450
+      },
+      "domesticHelp": {
+        "description": "Full-time estate manager, housekeeper, personal assistant, dock and grounds crew, boat captain",
+        "monthlyCost": 3800
+      },
+      "luxuryExtras": {
+        "description": "Blackberry Farm membership, first-class international travel, Smoky Mountain conservation philanthropy, art collecting",
+        "monthlyCost": 4800
+      },
+      "lifestyle": "At $10M, East Tennessee becomes your private mountain kingdom. A sweeping lakefront estate, a personal chef crafting Appalachian-inspired fine dining, your own boat for lake days, and deep philanthropic involvement with the university and the Smokies. With no state income tax and a cost of living that leaves enormous surplus even at this spending level, Knoxville may be America's best-kept FIRE secret."
+    }
+  }
+}

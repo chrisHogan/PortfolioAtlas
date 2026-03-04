@@ -1,0 +1,194 @@
+{
+  "name": "Fargo",
+  "country": "United States",
+  "region": "North America",
+  "slug": "fargo",
+  "emoji": "🇺🇸",
+  "fireScore": 7.2,
+  "tagline": "Ultra-Affordable Plains Living with Midwestern Heart",
+  "description": "Fargo consistently ranks among the most affordable cities in the United States, and its friendly, tight-knit community makes it easy to build a rich social life on a lean budget. North Dakota does not tax Social Security or most retirement income, adding significant value for FIRE retirees. The winters are long and cold, but the cultural scene is surprisingly vibrant with a thriving downtown, local breweries, and a university-town energy. For those who can embrace the cold, Fargo offers one of the best cost-to-quality-of-life ratios in the country.",
+  "tags": {
+    "climate": "continental",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "CST (UTC-6)",
+    "language": "English",
+    "internetSpeed": "120+ Mbps average",
+    "safetyRating": "High – consistently ranked among the safest mid-size US cities",
+    "nearestAirport": "Hector International Airport (FAR)",
+    "climate": "Continental with long, cold winters and warm summers; significant snowfall November through March",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "42°F / 6°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in downtown Fargo or the near-south neighborhood",
+        "monthlyCost": 850
+      },
+      "dining": {
+        "description": "Casual dining 2x/week at local spots; hearty Midwestern fare; mostly home cooking",
+        "monthlyCost": 180
+      },
+      "groceries": {
+        "monthlyCost": 320
+      },
+      "healthcare": {
+        "description": "ACA marketplace Silver plan; North Dakota premiums are moderate",
+        "monthlyCost": 460
+      },
+      "transportation": {
+        "description": "Paid-off car with basic insurance; snow tires essential for winter",
+        "monthlyCost": 220
+      },
+      "entertainment": {
+        "description": "Walking the riverwalk, Fargo Theatre films, library events, community gatherings",
+        "monthlyCost": 70
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "Fargo at $1M is remarkably comfortable. Housing costs are among the lowest in the nation, and the friendly community makes it easy to build a social life without spending money. You will cook at home often, bundle up for winter walks along the Red River, and enjoy the vibrant downtown scene on a shoestring. The tax advantages on retirement income are a real bonus."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "2BR house in a south Fargo neighborhood or a nice apartment in the downtown core",
+        "monthlyCost": 1350
+      },
+      "dining": {
+        "description": "Dining out 3-4x/week; enjoying Fargo's growing craft brewery and restaurant scene",
+        "monthlyCost": 380
+      },
+      "groceries": {
+        "monthlyCost": 380
+      },
+      "healthcare": {
+        "description": "ACA Gold plan with dental and vision; comfortable deductible",
+        "monthlyCost": 560
+      },
+      "transportation": {
+        "description": "Reliable AWD vehicle for winter driving, full coverage insurance, winter tires",
+        "monthlyCost": 350
+      },
+      "entertainment": {
+        "description": "NDSU Bison football tickets, Fargo-Moorhead Symphony, gym membership, cross-country skiing",
+        "monthlyCost": 220
+      },
+      "utilities": {
+        "monthlyCost": 175
+      },
+      "lifestyle": "This is Fargo's sweet spot and it feels genuinely abundant. You can own or rent a comfortable house, eat out regularly at places like Mezzaluna and HoDo, cheer on the Bison, and still have plenty left over. The low cost of living means your $2M portfolio could last decades with room to spare. Winters are cold but the warm community more than compensates."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR home in Osgood or Prairie Heights with a large yard and modern finishes",
+        "monthlyCost": 2200
+      },
+      "dining": {
+        "description": "Regular fine dining at HoDo, Mezzaluna, and Rosewild; wine dinners and food events",
+        "monthlyCost": 650
+      },
+      "groceries": {
+        "monthlyCost": 480
+      },
+      "healthcare": {
+        "description": "Premium private insurance with comprehensive coverage and low deductibles",
+        "monthlyCost": 680
+      },
+      "transportation": {
+        "description": "Late-model SUV for all-season driving, premium insurance",
+        "monthlyCost": 450
+      },
+      "entertainment": {
+        "description": "Season tickets to NDSU and FM RedHawks, country club membership, winter resort trips",
+        "monthlyCost": 400
+      },
+      "utilities": {
+        "monthlyCost": 230
+      },
+      "lifestyle": "At $10K a month in Fargo you are living at the very top of what the city offers. A spacious, modern home, regular fine dining, season tickets to everything, and enough left over for regular winter getaways to warmer climates. Your money goes extraordinarily far here, and the strong community roots make the lifestyle deeply satisfying."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Custom-built home in South Fargo or a luxury property in the Osgood area",
+        "monthlyCost": 4200
+      },
+      "dining": {
+        "description": "Private chef for weekly dinners, regular fine dining, exclusive wine events",
+        "monthlyCost": 1000
+      },
+      "groceries": {
+        "monthlyCost": 620
+      },
+      "healthcare": {
+        "description": "Concierge medical practice, premium insurance, wellness programs",
+        "monthlyCost": 850
+      },
+      "transportation": {
+        "description": "Luxury SUV, second vehicle, flights from FAR to Minneapolis and beyond",
+        "monthlyCost": 750
+      },
+      "entertainment": {
+        "description": "Country club membership, winter resort vacations, Minneapolis trips for concerts and sports",
+        "monthlyCost": 700
+      },
+      "utilities": {
+        "monthlyCost": 300
+      },
+      "domesticHelp": {
+        "description": "Weekly deep cleaning, snow removal, lawn care, property maintenance",
+        "monthlyCost": 550
+      },
+      "luxuryExtras": {
+        "description": "Winter home in Arizona or Florida, quarterly travel, community philanthropy",
+        "monthlyCost": 1800
+      },
+      "lifestyle": "At this budget Fargo becomes your affordable home base with a snowbird escape built in. A beautiful custom home for the warm months, a winter retreat in the Sun Belt, and deep community involvement the rest of the year. The tax advantages on retirement income make your $5M portfolio stretch remarkably far."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Premier estate in South Fargo or a sprawling custom property with every amenity",
+        "monthlyCost": 7500
+      },
+      "dining": {
+        "description": "Personal chef, exclusive catered events, private wine dinners, farm partnerships",
+        "monthlyCost": 2200
+      },
+      "groceries": {
+        "monthlyCost": 800
+      },
+      "healthcare": {
+        "description": "Top concierge practice, executive wellness retreats, medical travel for specialists",
+        "monthlyCost": 1100
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, private car service, chartered flights from FAR",
+        "monthlyCost": 1400
+      },
+      "entertainment": {
+        "description": "Major philanthropic events, international travel, private club memberships, VIP sports experiences",
+        "monthlyCost": 1800
+      },
+      "utilities": {
+        "monthlyCost": 420
+      },
+      "domesticHelp": {
+        "description": "Full-time estate manager, housekeeper, personal assistant, snow and grounds crew",
+        "monthlyCost": 3800
+      },
+      "luxuryExtras": {
+        "description": "Luxury winter home, first-class international travel, art collection, foundation giving",
+        "monthlyCost": 5500
+      },
+      "lifestyle": "At $10M in Fargo you are the quiet titan of the Northern Plains. A magnificent estate, a luxury winter home to escape the cold, first-class travel on a whim, and the ability to be a transformative philanthropic force in a community that deeply values generosity. Your money goes further here than almost anywhere else in the country."
+    }
+  }
+}

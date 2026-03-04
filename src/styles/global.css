@@ -50,4 +50,16 @@
   .city-card {
     @apply bg-white rounded-2xl shadow-sm border border-sand-200 overflow-hidden hover:shadow-lg transition-all duration-300 hover:-translate-y-1;
   }
+
+  .filter-btn {
+    @apply cursor-pointer select-none;
+  }
+
+  .filter-btn.active {
+    @apply bg-brand-600 text-white shadow-sm;
+  }
+
+  .filter-btn:not(.active) {
+    @apply text-gray-600 hover:bg-sand-100;
+  }
 }

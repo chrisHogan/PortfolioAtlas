@@ -3,10 +3,14 @@
   "country": "Hungary",
   "region": "Europe",
   "slug": "budapest",
-  "emoji": "\ud83c\udded\ud83c\uddfa",
+  "emoji": "🇭🇺",
   "fireScore": 8,
   "tagline": "Europe's Best-Kept Secret for Affordable Luxury Retirement",
   "description": "Budapest delivers a grand European capital experience at Eastern European prices, making it one of the continent's most compelling FIRE destinations. Thermal baths, ruin bars, Art Nouveau architecture, and a booming food scene come at 40-60% less than Western Europe. Hungary's residency-by-investment options and low cost of living stretch your FIRE portfolio remarkably far.",
+  "tags": {
+    "climate": "continental",
+    "english": "moderate"
+  },
   "quickFacts": {
     "visa": "Residency Bond Program or Guest Investor Visa for non-EU citizens. EU citizens have freedom of movement. White Card (long-term residence) available after 5 years.",
     "timezone": "UTC+1 (CET) / UTC+2 (CEST summer)",

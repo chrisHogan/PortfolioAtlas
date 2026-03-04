@@ -3,10 +3,14 @@
   "country": "Portugal",
   "region": "Europe",
   "slug": "lisbon",
-  "emoji": "\ud83c\uddf5\ud83c\uddf9",
+  "emoji": "🇵🇹",
   "fireScore": 8,
   "tagline": "Europe's Sunniest Capital for Early Retirement",
   "description": "Lisbon has become the undisputed FIRE capital of Europe, offering the D7 passive income visa, the NHR tax regime with potential zero-tax on foreign income, and a thriving expat community. With 300 days of sunshine, world-class seafood, and living costs a fraction of Western Europe, it delivers first-world infrastructure at developing-world prices.",
+  "tags": {
+    "climate": "mediterranean",
+    "english": "high"
+  },
   "quickFacts": {
     "visa": "D7 Passive Income Visa (renewable, path to citizenship in 5 years). NHR tax regime offers 10-year tax benefits on foreign income.",
     "timezone": "UTC+0 (WET) / UTC+1 (WEST summer)",

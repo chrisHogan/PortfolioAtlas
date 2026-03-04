@@ -1,0 +1,194 @@
+{
+  "name": "Raleigh",
+  "country": "United States",
+  "region": "North America",
+  "slug": "raleigh",
+  "emoji": "🇺🇸",
+  "fireScore": 5.8,
+  "tagline": "Research Triangle Excellence with Four Mild Seasons",
+  "description": "Raleigh sits at the heart of the Research Triangle, surrounded by top-tier universities, world-class healthcare systems, and a thriving tech economy. The cost of living is moderate by East Coast standards, and the city offers four distinct but mild seasons with stunning fall foliage and pleasant springs. For FIRE seekers who value access to excellent medical care, a highly educated community, and a blend of urban amenities with Southern charm, Raleigh is hard to beat.",
+  "tags": {
+    "climate": "subtropical",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "EST (UTC-5)",
+    "language": "English",
+    "internetSpeed": "200+ Mbps average",
+    "safetyRating": "Moderate to High – safe suburbs; typical metro considerations downtown",
+    "nearestAirport": "Raleigh-Durham International Airport (RDU)",
+    "climate": "Humid subtropical with mild winters, warm summers, and beautiful fall and spring seasons",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "60°F / 16°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in Southeast Raleigh or near Brier Creek",
+        "monthlyCost": 1300
+      },
+      "dining": {
+        "description": "Casual dining 2x/week at local spots; food trucks and breweries",
+        "monthlyCost": 210
+      },
+      "groceries": {
+        "monthlyCost": 370
+      },
+      "healthcare": {
+        "description": "ACA marketplace Silver plan; excellent Duke and UNC hospitals nearby",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "Paid-off car with basic insurance; car needed but some areas bikeable",
+        "monthlyCost": 250
+      },
+      "entertainment": {
+        "description": "Free museums on Hillsborough Street, greenway hiking, NC State games on the cheap",
+        "monthlyCost": 80
+      },
+      "utilities": {
+        "monthlyCost": 145
+      },
+      "lifestyle": "Raleigh at $1M is a tight but workable proposition. The proximity to world-class hospitals means excellent healthcare access even on a budget plan. You will cook most meals, take advantage of Raleigh's many free museums and greenways, and live modestly. The mild climate keeps utility costs reasonable year-round."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "2BR apartment in North Hills or a townhome in Cary or Apex",
+        "monthlyCost": 1900
+      },
+      "dining": {
+        "description": "Dining out 3-4x/week; enjoying the vibrant food scene in downtown and North Hills",
+        "monthlyCost": 480
+      },
+      "groceries": {
+        "monthlyCost": 440
+      },
+      "healthcare": {
+        "description": "ACA Gold plan with dental and vision; Duke and UNC systems within easy reach",
+        "monthlyCost": 620
+      },
+      "transportation": {
+        "description": "Reliable car, full coverage insurance, occasional use of Raleigh's growing transit",
+        "monthlyCost": 370
+      },
+      "entertainment": {
+        "description": "Carolina Hurricanes games, DPAC shows in Durham, gym membership, museum memberships",
+        "monthlyCost": 250
+      },
+      "utilities": {
+        "monthlyCost": 170
+      },
+      "lifestyle": "The $2M budget opens up Raleigh beautifully. A comfortable home in a top suburb like Cary or Apex, regular dining at the Triangle's excellent restaurants, and full engagement with the cultural scene. Weekend drives to the Blue Ridge or the Outer Banks are easy, and the university atmosphere keeps things intellectually vibrant."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR home in Cameron Village, Five Points, or a newer home in West Cary",
+        "monthlyCost": 2800
+      },
+      "dining": {
+        "description": "Regular fine dining at Poole's Diner, Death & Taxes, and Second Empire; wine events",
+        "monthlyCost": 750
+      },
+      "groceries": {
+        "monthlyCost": 550
+      },
+      "healthcare": {
+        "description": "Premium private insurance with low deductibles; access to Duke and UNC medical centers",
+        "monthlyCost": 750
+      },
+      "transportation": {
+        "description": "Late-model car, premium insurance, occasional weekend trips to the mountains or coast",
+        "monthlyCost": 500
+      },
+      "entertainment": {
+        "description": "Hurricanes season tickets, PNC Arena events, golf club, spa visits, museum patron level",
+        "monthlyCost": 450
+      },
+      "utilities": {
+        "monthlyCost": 220
+      },
+      "lifestyle": "At $10K per month, Raleigh delivers a rich and varied life. A beautiful home in a walkable historic neighborhood, dinners at award-winning restaurants, season tickets to NHL hockey, and the freedom to explore the mountains and coast on weekends. The combination of moderate costs and world-class healthcare access is exceptional."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury home in Hayes Barton, Oakwood, or a custom build in Cary's Prestonwood",
+        "monthlyCost": 5200
+      },
+      "dining": {
+        "description": "Private chef for dinner parties, regular fine dining across the Triangle, wine club memberships",
+        "monthlyCost": 1200
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "Concierge medicine with Duke or UNC physicians, executive wellness, premium insurance",
+        "monthlyCost": 950
+      },
+      "transportation": {
+        "description": "Luxury vehicle, second car, flights from RDU to major hubs, premium insurance",
+        "monthlyCost": 800
+      },
+      "entertainment": {
+        "description": "Country club membership, Hurricanes box seats, DPAC patron, private golf, Carolina Ballet",
+        "monthlyCost": 800
+      },
+      "utilities": {
+        "monthlyCost": 300
+      },
+      "domesticHelp": {
+        "description": "Weekly deep cleaning, landscaping, pool service, seasonal maintenance",
+        "monthlyCost": 650
+      },
+      "luxuryExtras": {
+        "description": "Outer Banks beach house weekends, quarterly travel, university philanthropy, art collecting",
+        "monthlyCost": 1400
+      },
+      "lifestyle": "Raleigh at $5M is a sophisticated life with extraordinary healthcare access. A stunning home in one of the Triangle's most prestigious neighborhoods, concierge medicine at Duke or UNC, deep cultural involvement, and easy escapes to the coast or mountains. The educated community and mild climate make this an ideal place for an engaged retirement."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Grand estate in Hayes Barton or a luxury compound in Cary with acreage",
+        "monthlyCost": 9500
+      },
+      "dining": {
+        "description": "Full-time personal chef, exclusive wine dinners, catered university and charity events",
+        "monthlyCost": 2600
+      },
+      "groceries": {
+        "monthlyCost": 900
+      },
+      "healthcare": {
+        "description": "Top-tier concierge practice at Duke or UNC, executive wellness, specialist access on demand",
+        "monthlyCost": 1300
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, private car service, chartered flights from RDU",
+        "monthlyCost": 1500
+      },
+      "entertainment": {
+        "description": "Major university philanthropy, international travel, art patronage, exclusive events",
+        "monthlyCost": 2000
+      },
+      "utilities": {
+        "monthlyCost": 450
+      },
+      "domesticHelp": {
+        "description": "Full-time estate manager, housekeeper, personal assistant, groundskeeper",
+        "monthlyCost": 4200
+      },
+      "luxuryExtras": {
+        "description": "Second home on the Outer Banks, first-class international travel, endowed university chairs, foundation work",
+        "monthlyCost": 4800
+      },
+      "lifestyle": "At $10M in Raleigh, you have access to arguably the best healthcare corridor in America and the intellectual vibrancy of three world-class universities. A grand estate, a beach home on the Outer Banks, concierge medicine at Duke, and transformative philanthropy through the Triangle's universities and hospitals. This is the pinnacle of an intellectually rich and medically secure retirement."
+    }
+  }
+}

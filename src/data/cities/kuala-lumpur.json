@@ -7,6 +7,10 @@
   "fireScore": 8,
   "tagline": "Modern Infrastructure Meets Tropical Affordability — Retire Smart in Kuala Lumpur, Malaysia",
   "description": "Kuala Lumpur is the Goldilocks of Southeast Asian FIRE destinations — more developed than Vietnam, more affordable than Singapore, and remarkably English-friendly. With world-class malls, excellent healthcare, diverse cuisine from three major cultures, and the popular MM2H visa program, KL is ideal for retirees who want comfort without compromise.",
+  "tags": {
+    "climate": "tropical",
+    "english": "high"
+  },
   "quickFacts": {
     "visa": "90-day visa-free entry for most nationalities; Malaysia My Second Home (MM2H) program for long-term residency with ~$90K fixed deposit requirement; DE Rantau digital nomad visa available",
     "timezone": "UTC+8 (Malaysia Time)",

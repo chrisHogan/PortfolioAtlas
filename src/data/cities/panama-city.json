@@ -1,0 +1,194 @@
+{
+  "name": "Panama City",
+  "country": "Panama",
+  "region": "Latin America",
+  "slug": "panama-city",
+  "emoji": "🇵🇦",
+  "fireScore": 7.0,
+  "tagline": "The Miami of Central America — Tax-Free FIRE Living on the Canal",
+  "description": "Panama City is a modern, cosmopolitan capital that punches well above its weight for FIRE retirees. The country uses the US dollar, offers one of the world's most generous retirement visa programs (Pensionado), and imposes no tax on foreign-sourced income. Add a stunning skyline, the Canal Zone, excellent healthcare, and direct flights to North America, and you have a compelling base for building your next chapter.",
+  "tags": {
+    "climate": "tropical",
+    "english": "moderate"
+  },
+  "quickFacts": {
+    "visa": "Pensionado Visa (requires $1,000/mo pension; among the world's best retirement visa programs). Friendly Nations Visa also available. Territorial tax system — no tax on foreign income.",
+    "timezone": "UTC-5 (Eastern Standard Time, no daylight saving)",
+    "language": "Spanish",
+    "internetSpeed": "50-200 Mbps (fiber in urban areas)",
+    "safetyRating": "Moderate — safe in expat neighborhoods like Clayton, Casco Viejo, and Costa del Este; standard urban caution elsewhere",
+    "nearestAirport": "Tocumen International Airport (PTY) — 30 min from city center; major hub with direct flights across the Americas",
+    "climate": "Tropical with a dry season (Dec-Apr) and wet season (May-Nov). Hot and humid year-round.",
+    "englishFriendly": "Moderate",
+    "currency": "United States Dollar (USD) / Panamanian Balboa (PAB, pegged 1:1)",
+    "averageTemp": "27°C / 81°F"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Furnished 1-bedroom apartment in El Cangrejo or San Francisco with pool and security",
+        "monthlyCost": 850
+      },
+      "dining": {
+        "description": "Fondas (local lunch spots) for $3-5, casual restaurants, ceviche at the fish market, canal-side cafés",
+        "monthlyCost": 400
+      },
+      "groceries": {
+        "monthlyCost": 300
+      },
+      "healthcare": {
+        "description": "Private insurance with access to quality hospitals like Hospital Punta Pacifica (affiliated with Johns Hopkins)",
+        "monthlyCost": 200
+      },
+      "transportation": {
+        "description": "Metro system and MetroBus network, supplemented with occasional Uber rides",
+        "monthlyCost": 70
+      },
+      "entertainment": {
+        "description": "Casco Viejo walking tours, Amador Causeway sunsets, Canal visitor center, local expat meetups, beach day trips",
+        "monthlyCost": 200
+      },
+      "utilities": {
+        "monthlyCost": 120
+      },
+      "lifestyle": "Panama City on a lean budget works better than you might expect. Your modern apartment has a pool and skyline views, the metro whisks you across town for pennies, and $4 fondas serve heaping plates of rice, beans, and carne. Weekends mean watching ships transit the Canal, wandering Casco Viejo's restored plazas, and taking the causeway to catch a Pacific sunset."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Spacious 2-bedroom in Costa del Este or Punta Pacífica with ocean views, gym, and concierge",
+        "monthlyCost": 1500
+      },
+      "dining": {
+        "description": "Regular dining at Casco Viejo's acclaimed restaurants, rooftop bars, weekend brunch at international spots",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 450
+      },
+      "healthcare": {
+        "description": "Comprehensive private insurance covering Hospital Nacional and Punta Pacifica, dental included",
+        "monthlyCost": 300
+      },
+      "transportation": {
+        "description": "Frequent Uber and taxi use, weekend car rental for beach and highland trips",
+        "monthlyCost": 180
+      },
+      "entertainment": {
+        "description": "Beach trips to San Blas Islands, gym membership, Canal cruises, rooftop pool clubs, weekend trips to Boquete",
+        "monthlyCost": 600
+      },
+      "utilities": {
+        "monthlyCost": 160
+      },
+      "lifestyle": "At $2M, Panama City shines. Your Punta Pacífica apartment overlooks the Pacific and the ships queuing for the Canal. You dine at Casco Viejo's inventive restaurants, take weekend trips to the San Blas Islands or the cool highlands of Boquete, and enjoy a tax-free lifestyle that lets more of your portfolio stay invested. The international community is vibrant and growing."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Luxury 3-bedroom penthouse in Punta Pacífica or a renovated colonial gem in Casco Viejo with rooftop terrace",
+        "monthlyCost": 2800
+      },
+      "dining": {
+        "description": "Fine dining at Maito and Donde José, private wine dinners, curated Panamanian gastronomy experiences",
+        "monthlyCost": 1400
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "Premium international insurance, executive health checks, dental specialists, wellness programs",
+        "monthlyCost": 450
+      },
+      "transportation": {
+        "description": "Leased SUV, Uber for evenings out, domestic flights to Bocas del Toro and the San Blas",
+        "monthlyCost": 450
+      },
+      "entertainment": {
+        "description": "Golf membership at Summit or Tucan, sailing club, VIP cultural events, weekend island getaways",
+        "monthlyCost": 1000
+      },
+      "utilities": {
+        "monthlyCost": 220
+      },
+      "lifestyle": "Your Casco Viejo penthouse terrace overlooks the old city rooftops and the Pacific beyond. You dine at Latin America's top restaurants mid-week, play golf at Summit on Saturday, and charter a boat to pristine San Blas islands on Sunday. Panama's territorial tax system means your investment gains stay untouched. This is sophisticated tropical living at its finest."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Ultra-luxury waterfront penthouse in Avenida Balboa or a private compound in Clayton surrounded by rainforest",
+        "monthlyCost": 4200
+      },
+      "dining": {
+        "description": "Private chef for daily meals, regular Michelin-caliber dining, curated wine collection, exclusive supper clubs",
+        "monthlyCost": 2200
+      },
+      "groceries": {
+        "monthlyCost": 750
+      },
+      "healthcare": {
+        "description": "VIP international health coverage, personal physician, medical evacuation coverage to US if needed",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "Luxury vehicle with part-time driver, domestic charter flights, yacht access for island hopping",
+        "monthlyCost": 900
+      },
+      "entertainment": {
+        "description": "Private island day charters to San Blas, elite golf and yacht club memberships, art collecting, VIP Carnival access",
+        "monthlyCost": 1600
+      },
+      "utilities": {
+        "monthlyCost": 300
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper/cook, weekly deep cleaning, personal assistant for administrative tasks",
+        "monthlyCost": 1000
+      },
+      "luxuryExtras": {
+        "description": "Bocas del Toro beach house rental, private Spanish instruction, bespoke suits from local tailors, premium coworking at tower offices",
+        "monthlyCost": 1700
+      },
+      "lifestyle": "Your Avenida Balboa penthouse frames the entire Pacific coastline and the Canal entrance. Your private chef prepares ceviche with fish caught that morning, and your driver takes you to Clayton's rainforest trails for afternoon hikes. Weekends mean island hopping by private charter or retreating to your Bocas del Toro beach house. Panama's zero foreign income tax makes this lifestyle remarkably capital-efficient."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Landmark waterfront estate or top-floor penthouse in the city's most exclusive tower, plus a private island retreat in the San Blas or Bocas del Toro",
+        "monthlyCost": 8000
+      },
+      "dining": {
+        "description": "Private chef team, imported ingredients, legendary hosted dinner parties, guest chef experiences from across Latin America",
+        "monthlyCost": 4000
+      },
+      "groceries": {
+        "monthlyCost": 1100
+      },
+      "healthcare": {
+        "description": "Global concierge medicine, dedicated medical team, fly-to-Miami coverage, longevity and biohacking programs",
+        "monthlyCost": 1000
+      },
+      "transportation": {
+        "description": "Chauffeured luxury fleet, private jet charter for regional travel, superyacht access in the Pacific and Caribbean",
+        "monthlyCost": 3000
+      },
+      "entertainment": {
+        "description": "Art patronage, private island retreats, Canal-side cultural event sponsorship, VIP global experiences, philanthropic galas",
+        "monthlyCost": 3800
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full household staff: butler, chef team, housekeepers, driver, personal assistant, estate and island property manager",
+        "monthlyCost": 3500
+      },
+      "luxuryExtras": {
+        "description": "Private island maintenance, art collection curation, charitable foundation, bespoke yacht itineraries through the San Blas archipelago, investment in Panamanian real estate",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At this level, Panama City is your gateway to a two-ocean empire. Your penthouse towers over the Canal, your private island in the San Blas is an unspoiled paradise, and your superyacht cruises between the Pacific and Caribbean through one of the world's great engineering marvels. You host the city's most anticipated galas, support local arts and conservation, and enjoy a completely tax-free existence on foreign income. Panama at $10M is a life without limits."
+    }
+  }
+}

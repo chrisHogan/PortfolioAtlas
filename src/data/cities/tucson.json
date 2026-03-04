@@ -3,10 +3,14 @@
   "country": "United States",
   "region": "North America",
   "slug": "tucson",
-  "emoji": "\ud83c\uddfa\ud83c\uddf8",
+  "emoji": "🇺🇸",
   "fireScore": 7.0,
   "tagline": "Desert Sunshine, Low Costs, and 350 Days of Blue Sky",
   "description": "Tucson is one of the most affordable cities in the American West, offering stunning Sonoran Desert landscapes, a UNESCO-designated food scene, and over 350 days of sunshine per year. Arizona has a flat income tax rate that keeps more money in your pocket, and housing costs are remarkably low compared to Phoenix and other Sun Belt cities. For FIRE retirees who love warm weather and wide-open spaces, Tucson is a hidden gem.",
+  "tags": {
+    "climate": "desert",
+    "english": "high"
+  },
   "quickFacts": {
     "visa": "No visa required for US citizens",
     "timezone": "MST (UTC-7, no daylight saving time)",

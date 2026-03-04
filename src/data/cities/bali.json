@@ -7,6 +7,10 @@
   "fireScore": 8,
   "tagline": "Tropical Paradise Meets Affordable Retirement — Live the Dream in Bali, Indonesia",
   "description": "Bali combines spiritual tranquility, jaw-dropping natural beauty, and a thriving international community at remarkably low costs. From the rice terraces of Ubud to the surf breaks of Canggu, Bali offers FIRE retirees a lifestyle centered on wellness, creativity, and outdoor living that feels like a permanent vacation.",
+  "tags": {
+    "climate": "tropical",
+    "english": "moderate"
+  },
   "quickFacts": {
     "visa": "30-day visa on arrival (extendable to 60 days); B211A social visa for 6-month stays; Second Home Visa for those with $130K+ in savings; retirement visa (KITAS) for 55+ with $1,500/mo proof of income",
     "timezone": "UTC+8 (Central Indonesia Time)",

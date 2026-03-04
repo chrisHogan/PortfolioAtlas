@@ -3,10 +3,14 @@
   "country": "Colombia",
   "region": "Latin America",
   "slug": "medellin",
-  "emoji": "\ud83c\udde8\ud83c\uddf4",
+  "emoji": "🇨🇴",
   "fireScore": 8.5,
   "tagline": "The City of Eternal Spring Where Your Dollar Blooms",
   "description": "Medellín delivers arguably the best value proposition in Latin America for FIRE retirees — perfect year-round weather, dramatically low costs, excellent private healthcare, and a booming innovation scene. Once infamous, the city has transformed into a global hotspot for digital nomads and early retirees seeking first-world amenities at developing-world prices.",
+  "tags": {
+    "climate": "subtropical",
+    "english": "moderate"
+  },
   "quickFacts": {
     "visa": "Colombia Retirement Visa (Visa M - Jubilado; requires pension or income ~$750/mo, renewable annually)",
     "timezone": "COT (UTC-5)",

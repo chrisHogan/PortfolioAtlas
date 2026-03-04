@@ -1,0 +1,194 @@
+{
+  "name": "San José",
+  "country": "Costa Rica",
+  "region": "Latin America",
+  "slug": "san-jose-cr",
+  "emoji": "🇨🇷",
+  "fireScore": 6.5,
+  "tagline": "Pura Vida Living in Central America's Most Stable Democracy",
+  "description": "San José is the gateway to Costa Rica's legendary Pura Vida lifestyle — a sprawling capital surrounded by volcanoes, cloud forests, and some of the planet's richest biodiversity. While not a beach town itself, San José offers excellent healthcare, a stable democratic government, established expat infrastructure, and the popular Pensionado retirement visa. The Central Valley's eternal spring climate and proximity to both Pacific and Caribbean coasts make it a practical, comfortable base for FIRE retirees seeking tropical living with First World services.",
+  "tags": {
+    "climate": "tropical",
+    "english": "moderate"
+  },
+  "quickFacts": {
+    "visa": "Pensionado visa for retirees with $1,000+/month guaranteed income. Rentista visa for those with $2,500+/month. Permanent residency after 3 years.",
+    "timezone": "UTC-6 (Central Standard Time, no daylight saving)",
+    "language": "Spanish (English spoken in expat areas and medical facilities)",
+    "internetSpeed": "50-100 Mbps (fiber available in metro area)",
+    "safetyRating": "Moderate — petty theft common in downtown areas, safer in suburbs like Escazú and Santa Ana; avoid walking alone at night in central San José",
+    "nearestAirport": "Juan Santamaría International Airport (SJO) — 20 min from city center",
+    "climate": "Tropical highland with eternal spring weather (18-26°C year-round). Dry season Dec-Apr, rainy season May-Nov with afternoon showers.",
+    "englishFriendly": "Moderate",
+    "currency": "Costa Rican Colón (CRC) / US Dollar widely accepted",
+    "averageTemp": "22°C / 72°F"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Comfortable 1-bedroom apartment in Escazú or Sabana area with security, close to shops and restaurants",
+        "monthlyCost": 800
+      },
+      "dining": {
+        "description": "Daily casados at local sodas, occasional dining out at neighborhood restaurants, strong coffee culture at local cafés",
+        "monthlyCost": 400
+      },
+      "groceries": {
+        "monthlyCost": 350
+      },
+      "healthcare": {
+        "description": "CAJA public healthcare enrollment plus affordable private insurance supplement for faster specialist access at CIMA or Clínica Bíblica",
+        "monthlyCost": 200
+      },
+      "transportation": {
+        "description": "Local bus system, occasional Uber or taxi rides around the Central Valley",
+        "monthlyCost": 100
+      },
+      "entertainment": {
+        "description": "Weekend trips to nearby volcanoes and cloud forests, farmers markets, National Theater performances, neighborhood parks",
+        "monthlyCost": 250
+      },
+      "utilities": {
+        "monthlyCost": 120
+      },
+      "lifestyle": "San José on a million is the Pura Vida promise delivered — spring-like weather every day, a plate of gallo pinto and casado for a few dollars, and weekend adventures to volcanoes and waterfalls within an hour's drive. You'll join the thriving expat community for coffee meetups, rely on excellent and affordable healthcare, and discover that retirement in Costa Rica's Central Valley is as relaxed as everyone says."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Modern 2-bedroom apartment or townhouse in Escazú or Santa Ana with mountain views, pool, and gated security",
+        "monthlyCost": 1400
+      },
+      "dining": {
+        "description": "Regular dining at Escazú's international restaurants, weekend brunches, craft beer scene, farm-to-table Tico cuisine",
+        "monthlyCost": 750
+      },
+      "groceries": {
+        "monthlyCost": 450
+      },
+      "healthcare": {
+        "description": "Comprehensive private insurance covering CIMA Hospital, dental, vision, and prescription medications with minimal wait times",
+        "monthlyCost": 350
+      },
+      "transportation": {
+        "description": "Leased compact car for Central Valley exploration, Uber for evenings out, weekend drives to the coast",
+        "monthlyCost": 300
+      },
+      "entertainment": {
+        "description": "Zip-lining and rafting weekends, Pacific coast beach trips, Arenal hot springs, expat social clubs, farmers market tours",
+        "monthlyCost": 550
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "At two million, Costa Rica truly shines. Your Escazú apartment has mountain views and a pool, your car unlocks both coasts within three hours, and your weekends alternate between Pacific surf and Caribbean vibes. The healthcare is genuinely excellent — CIMA Hospital rivals anything in the US — and your social calendar is packed with the expat community's hiking groups, dinner clubs, and volunteer projects."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Luxury 3-bedroom house in Santa Ana or Escazú hills with private garden, pool, and sweeping Central Valley views",
+        "monthlyCost": 2500
+      },
+      "dining": {
+        "description": "Fine dining at San José's best restaurants, personal chef occasionally, curated coffee experiences at premium fincas, weekend coastal seafood trips",
+        "monthlyCost": 1300
+      },
+      "groceries": {
+        "monthlyCost": 550
+      },
+      "healthcare": {
+        "description": "Premium private insurance with international coverage, concierge medical services at CIMA and Clínica Bíblica, wellness retreats",
+        "monthlyCost": 450
+      },
+      "transportation": {
+        "description": "Owned SUV for mountain and coastal drives, Uber for city outings, domestic flights to Guanacaste and Osa Peninsula",
+        "monthlyCost": 500
+      },
+      "entertainment": {
+        "description": "Premium eco-lodge weekends, private nature tours, National Theater season tickets, country club membership, surfing lessons on both coasts",
+        "monthlyCost": 900
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "lifestyle": "Three million in Costa Rica means a gorgeous hillside home with a pool overlooking the Central Valley, a kitchen stocked with the world's best coffee, and every weekend a new adventure — zip-lining over cloud forests, surfing in Nosara, or soaking in volcanic hot springs. You've become a regular at the country's best eco-lodges, your healthcare is world-class, and the Pura Vida lifestyle has become genuinely yours."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury estate in the Escazú hills or Santa Ana with private pool, tropical gardens, guest house, and panoramic valley views",
+        "monthlyCost": 4000
+      },
+      "dining": {
+        "description": "Private chef specializing in fusion Tico-international cuisine, fine dining as routine, curated Costa Rican coffee collection, premium wine cellar",
+        "monthlyCost": 2000
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "International concierge medicine, private physician, wellness retreats at premium jungle spas, anti-aging protocols",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "Luxury SUV, private driver available, domestic charter flights to beach destinations, regular private transfers",
+        "monthlyCost": 800
+      },
+      "entertainment": {
+        "description": "Private nature reserves tours, deep-sea fishing charters, exclusive eco-lodge access, art collecting from Costa Rican artists, philanthropy",
+        "monthlyCost": 1500
+      },
+      "utilities": {
+        "monthlyCost": 280
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, gardener for estate grounds, pool maintenance, personal assistant",
+        "monthlyCost": 900
+      },
+      "luxuryExtras": {
+        "description": "Private Spanish tutor, personal trainer, bespoke eco-adventure planning, conservation project involvement, premium country club membership",
+        "monthlyCost": 1300
+      },
+      "lifestyle": "Your Escazú estate is a tropical paradise — hummingbirds visit your infinity pool, your private chef turns the morning's farmers market haul into art, and your weekends involve charter flights to remote eco-lodges. You've invested in a local conservation project, your name is known in Costa Rica's philanthropic circles, and the Pura Vida lifestyle has elevated from philosophy to daily practice."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Ultra-luxury compound in the Central Valley hills with multiple residences, infinity pool, helipad, and a secondary beachfront property on the Pacific coast",
+        "monthlyCost": 8000
+      },
+      "dining": {
+        "description": "Full-time private chef team, rare coffee and cacao sourcing, legendary dinner parties with international guests, farm-to-table experiences at your own organic garden",
+        "monthlyCost": 3800
+      },
+      "groceries": {
+        "monthlyCost": 1100
+      },
+      "healthcare": {
+        "description": "Global VIP medical coverage, dedicated wellness team, private jungle spa facility, fly-anywhere specialist access, longevity programs",
+        "monthlyCost": 1000
+      },
+      "transportation": {
+        "description": "Chauffeured luxury fleet, private helicopter for coast-to-coast travel, yacht charter on the Pacific, private jet for international trips",
+        "monthlyCost": 2800
+      },
+      "entertainment": {
+        "description": "Major conservation patronage, private wildlife reserves, art foundation, hosting international environmental summits, deep-sea sportfishing yacht",
+        "monthlyCost": 3500
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full estate staff: butler, chef team, housekeepers, groundskeepers, driver, personal assistant, estate manager, security",
+        "monthlyCost": 3500
+      },
+      "luxuryExtras": {
+        "description": "Private nature reserve ownership, conservation foundation, organic farm development, bespoke Central American travel experiences, rare coffee estate investment",
+        "monthlyCost": 4800
+      },
+      "lifestyle": "You are Costa Rica's ultimate Pura Vida success story — a compound in the hills, a beach house on the Pacific, and a conservation foundation that protects thousands of acres of rainforest. Your helicopter whisks you between volcanoes and coastlines, your private reserve hosts researchers from around the world, and your dinner parties under the canopy bring together conservationists, artists, and diplomats. You haven't just retired to Costa Rica — you've become one of its greatest champions."
+    }
+  }
+}

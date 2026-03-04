@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import CityHero from '../../components/CityHero.astro';
 import TierNav from '../../components/TierNav.astro';
 import TierBreakdown from '../../components/TierBreakdown.astro';
+import PersonalizedTier from '../../components/PersonalizedTier.astro';
 import QuickFacts from '../../components/QuickFacts.astro';
 import ComparisonCTA from '../../components/ComparisonCTA.astro';
 import { allCities, getCityBySlug, getAllSlugs } from '../../data/cities/index';
@@ -43,6 +44,8 @@ const tiers: TierKey[] = ['1M', '2M', '3M', '5M', '10M'];
             for housing, food, healthcare, entertainment, and more in {city.name}.
           </p>
         </div>
+
+        <PersonalizedTier city={city} />
 
         {tiers.map((tierKey) => (
           <TierBreakdown tierKey={tierKey} tier={city.tiers[tierKey]} cityName={city.name} />

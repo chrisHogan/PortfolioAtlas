@@ -1,0 +1,194 @@
+{
+  "name": "George Town",
+  "country": "Malaysia",
+  "region": "Southeast Asia",
+  "slug": "george-town",
+  "emoji": "🇲🇾",
+  "fireScore": 8.5,
+  "tagline": "UNESCO Heritage and Hawker Stalls — Where Multicultural Asia Meets FIRE Freedom",
+  "description": "George Town on the island of Penang is one of Southeast Asia's most compelling FIRE destinations. This UNESCO World Heritage city delivers the best street food on the planet, a deeply multicultural Malay-Chinese-Indian-European character, excellent English proficiency, and a cost of living that lets even lean-FIRE retirees live remarkably well. Malaysia's MM2H visa program and modern healthcare infrastructure seal the deal.",
+  "tags": {
+    "climate": "tropical",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "Malaysia My Second Home (MM2H) program for long-term residency (financial requirements apply). Digital nomad visa (DE Rantau) also available. Tourist visa-free for many nationalities up to 90 days.",
+    "timezone": "UTC+8 (Malaysia Standard Time)",
+    "language": "Malay, English, Mandarin, Tamil, Hokkien",
+    "internetSpeed": "50-300 Mbps (fiber widely available)",
+    "safetyRating": "Safe — low crime rates, standard precautions for petty theft in tourist areas",
+    "nearestAirport": "Penang International Airport (PEN) — 20 min from George Town; direct flights to KL, Singapore, Bangkok, and more",
+    "climate": "Tropical equatorial — hot and humid year-round with monsoon rains (Sep-Nov). Consistent temperatures.",
+    "englishFriendly": "High",
+    "currency": "Malaysian Ringgit (MYR)",
+    "averageTemp": "28°C / 82°F"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Modern 1-bedroom condo in Gurney Drive area or a character-filled shophouse apartment in the heritage zone",
+        "monthlyCost": 450
+      },
+      "dining": {
+        "description": "World-famous hawker food daily — char kway teow, laksa, and nasi kandar for $1-3 per meal; kopitiam coffee culture",
+        "monthlyCost": 300
+      },
+      "groceries": {
+        "monthlyCost": 200
+      },
+      "healthcare": {
+        "description": "Basic private insurance with access to Penang's excellent hospitals like Gleneagles and Loh Guan Lye",
+        "monthlyCost": 120
+      },
+      "transportation": {
+        "description": "Grab rides across the island, RapidPenang bus system, bicycle for heritage zone exploration",
+        "monthlyCost": 70
+      },
+      "entertainment": {
+        "description": "Heritage trail walking, temple visits, Penang Hill hikes, street art hunting, beach days at Batu Ferringhi",
+        "monthlyCost": 180
+      },
+      "utilities": {
+        "monthlyCost": 80
+      },
+      "lifestyle": "George Town at $1M is an absolute gift. You eat some of the world's best food for a couple of dollars at hawker stalls, wander through centuries of history every morning, and cool off at hilltop temples or palm-lined beaches in the afternoon. English is widely spoken, the locals are warm, and the multicultural fabric of the city means you never run out of festivals, flavors, or stories."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Spacious 2-bedroom condo with sea views in Tanjung Tokong or a beautifully restored heritage shophouse",
+        "monthlyCost": 800
+      },
+      "dining": {
+        "description": "Hawker favorites plus regular meals at upscale restaurants, weekend dim sum feasts, craft cocktail bars",
+        "monthlyCost": 600
+      },
+      "groceries": {
+        "monthlyCost": 350
+      },
+      "healthcare": {
+        "description": "Comprehensive private insurance covering Gleneagles and Island Hospital, dental and vision included",
+        "monthlyCost": 220
+      },
+      "transportation": {
+        "description": "Own scooter or car, regular Grab rides, weekend ferry trips to Langkawi",
+        "monthlyCost": 150
+      },
+      "entertainment": {
+        "description": "Gym membership, diving trips to Pulau Payar, cooking classes, weekend trips to Cameron Highlands and Langkawi",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 120
+      },
+      "lifestyle": "With $2M in George Town, life is genuinely luxurious by local standards. Your sea-view condo is a short walk from the heritage zone's best hawker stalls, you take cooking classes to master laksa, and weekends mean island hopping to Langkawi or escaping to the cool Cameron Highlands for tea plantations and strawberry farms. The expat community is welcoming and international."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Luxury 3-bedroom seafront condo in Gurney Drive or a grand restored colonial bungalow with tropical garden",
+        "monthlyCost": 1500
+      },
+      "dining": {
+        "description": "Fine dining at Penang's top restaurants, private cooking experiences, curated food tours, weekend brunches at heritage hotels",
+        "monthlyCost": 1100
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "Premium international insurance, executive health screenings at Gleneagles, wellness and preventive programs",
+        "monthlyCost": 350
+      },
+      "transportation": {
+        "description": "Leased car, Grab for evenings, domestic flights to KL and Langkawi, weekend road trips to Ipoh",
+        "monthlyCost": 300
+      },
+      "entertainment": {
+        "description": "Golf at Penang Golf Club, yacht club membership, cultural festival VIP access, scuba diving expeditions, spa retreats",
+        "monthlyCost": 900
+      },
+      "utilities": {
+        "monthlyCost": 180
+      },
+      "lifestyle": "Your colonial bungalow's verandah overlooks a lush tropical garden while you sip teh tarik and plan the day. Lunch is a hawker crawl through your favorite stalls, afternoon is a round of golf, and evening means cocktails at a rooftop bar overlooking the Malacca Strait. Weekends see you diving off Langkawi or exploring Ipoh's cave temples. George Town at $3M is an embarrassment of riches."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Stunning waterfront penthouse on Gurney Drive or a sprawling heritage mansion with pool in the heart of George Town",
+        "monthlyCost": 2800
+      },
+      "dining": {
+        "description": "Private chef preparing multicultural Malaysian cuisine, regular fine dining, curated wine collection, hosted dinner parties",
+        "monthlyCost": 1800
+      },
+      "groceries": {
+        "monthlyCost": 650
+      },
+      "healthcare": {
+        "description": "VIP international coverage, personal physician, Gleneagles concierge access, wellness and longevity programs",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "Luxury vehicle with part-time driver, domestic flights, private ferry charters to islands",
+        "monthlyCost": 600
+      },
+      "entertainment": {
+        "description": "Yacht charters around Langkawi, premium golf memberships, art collecting in heritage galleries, VIP cultural festival access",
+        "monthlyCost": 1500
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper/cook, part-time gardener, weekly deep cleaning and laundry service",
+        "monthlyCost": 600
+      },
+      "luxuryExtras": {
+        "description": "Langkawi beach villa rental, private Malay and Mandarin tutors, bespoke batik wardrobe, premium spa memberships, charitable projects",
+        "monthlyCost": 1500
+      },
+      "lifestyle": "Your heritage mansion in the heart of George Town is a showpiece — restored Peranakan tiles, a private pool in the courtyard, and a chef who can prepare nasi lemak, dim sum, and biryani with equal mastery. Your driver takes you to the yacht club for weekend sails around Langkawi, and your art collection draws from Penang's vibrant creative scene. Living at this level in George Town feels like being a character in a Somerset Maugham novel, updated for the modern age."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Grand waterfront estate or landmark heritage compound in George Town, plus a private retreat villa on Langkawi",
+        "monthlyCost": 5500
+      },
+      "dining": {
+        "description": "Private chef team spanning Malay, Chinese, Indian, and Western cuisines, legendary multicultural dinner parties, rare wine cellar",
+        "monthlyCost": 3500
+      },
+      "groceries": {
+        "monthlyCost": 900
+      },
+      "healthcare": {
+        "description": "Global concierge medicine, dedicated medical team, fly-anywhere coverage, longevity and biohacking programs",
+        "monthlyCost": 800
+      },
+      "transportation": {
+        "description": "Luxury vehicle collection, full-time chauffeur, private yacht, charter flights to KL and regional destinations",
+        "monthlyCost": 2000
+      },
+      "entertainment": {
+        "description": "Art patronage and gallery ownership, private island experiences, philanthropic foundations, international travel, cultural festival sponsorship",
+        "monthlyCost": 3500
+      },
+      "utilities": {
+        "monthlyCost": 400
+      },
+      "domesticHelp": {
+        "description": "Full household staff: chef team, housekeepers, gardener, driver, property manager for both Penang and Langkawi homes",
+        "monthlyCost": 2500
+      },
+      "luxuryExtras": {
+        "description": "Langkawi retreat management, heritage building restoration projects, charitable foundation for Penang arts and education, bespoke yacht itineraries through the Andaman Sea",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At $10M in George Town, you are a patron of one of Asia's most culturally rich cities. Your heritage compound hosts exhibitions and multicultural feasts that are the talk of the island, your private yacht cruises the Andaman Sea to hidden Thai and Burmese islands, and your Langkawi retreat is a tropical paradise. You fund heritage restoration, support local artists, and move through a world where Chinese, Malay, Indian, and European traditions interweave seamlessly — and you are at the center of it all."
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "name": "San Antonio",
+  "country": "United States",
+  "region": "North America",
+  "slug": "san-antonio",
+  "emoji": "🇺🇸",
+  "fireScore": 6.2,
+  "tagline": "River Walk Charm, Tex-Mex Heaven, and No State Income Tax",
+  "description": "San Antonio is one of America's most underrated FIRE destinations, offering big-city amenities with a remarkably low cost of living and zero state income tax. The iconic River Walk, a deeply rooted Tex-Mex food culture, and centuries of Spanish colonial history give the city a character unlike anywhere else in the country. With affordable housing, warm weather, and a genuine sense of community, San Antonio rewards budget-conscious retirees with a rich and flavorful daily life.",
+  "tags": {
+    "climate": "subtropical",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "CST (UTC-6)",
+    "language": "English",
+    "internetSpeed": "200+ Mbps average",
+    "safetyRating": "Moderate – typical large US city with safe suburban areas",
+    "nearestAirport": "San Antonio International Airport (SAT)",
+    "climate": "Subtropical with hot summers and mild winters",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "69°F / 21°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in Alamo Heights fringe, Southtown, or the Medical Center area",
+        "monthlyCost": 1200
+      },
+      "dining": {
+        "description": "Breakfast tacos and Tex-Mex joints 2-3x/week; cooking at home for most meals",
+        "monthlyCost": 220
+      },
+      "groceries": {
+        "monthlyCost": 350
+      },
+      "healthcare": {
+        "description": "ACA marketplace Silver plan; Texas has no state exchange, costs can be higher",
+        "monthlyCost": 550
+      },
+      "transportation": {
+        "description": "Paid-off car with basic insurance and gas; car is necessary in San Antonio",
+        "monthlyCost": 260
+      },
+      "entertainment": {
+        "description": "Free River Walk strolls, the Alamo and missions, park trails, occasional Spurs game on a deal",
+        "monthlyCost": 80
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "San Antonio is one of the best US cities for stretching a $1M nest egg. Housing is genuinely affordable, breakfast tacos cost a few dollars, and the River Walk is free to enjoy every single day. You will live simply but well -- the city's deep cultural heritage means there is always something to explore without spending a dime. Zero state income tax is the cherry on top."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "2BR apartment in the Pearl District area, or a nice home in Alamo Heights or Terrell Hills",
+        "monthlyCost": 1900
+      },
+      "dining": {
+        "description": "Regular dining at Pearl District restaurants and River Walk spots 3-4x/week; weekend barbecue pilgrimages",
+        "monthlyCost": 500
+      },
+      "groceries": {
+        "monthlyCost": 450
+      },
+      "healthcare": {
+        "description": "ACA Gold plan with dental and vision add-ons; access to excellent military medical facilities if eligible",
+        "monthlyCost": 650
+      },
+      "transportation": {
+        "description": "Reliable mid-range car, full coverage insurance, gas and maintenance",
+        "monthlyCost": 380
+      },
+      "entertainment": {
+        "description": "Spurs season tickets (upper level), San Antonio Museum of Art membership, live music at Gruene Hall",
+        "monthlyCost": 280
+      },
+      "utilities": {
+        "monthlyCost": 170
+      },
+      "lifestyle": "At $2M, San Antonio becomes deeply comfortable. The Pearl District -- a converted brewery turned into the city's culinary and cultural heart -- becomes your regular hangout. You can afford Spurs tickets, weekend drives to the Hill Country for wine and barbecue, and a solid home in one of the city's most charming neighborhoods. This budget goes remarkably far here."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR home in Olmos Park, Monte Vista, or a modern condo overlooking the River Walk",
+        "monthlyCost": 2800
+      },
+      "dining": {
+        "description": "Fine dining at Mixtli, Cured, and The Granary; regular River Walk dining; catered Tex-Mex feasts",
+        "monthlyCost": 850
+      },
+      "groceries": {
+        "monthlyCost": 550
+      },
+      "healthcare": {
+        "description": "Premium private health insurance with comprehensive coverage and low deductibles",
+        "monthlyCost": 750
+      },
+      "transportation": {
+        "description": "Late-model SUV, premium insurance, weekend road trips to Fredericksburg and the Hill Country",
+        "monthlyCost": 450
+      },
+      "entertainment": {
+        "description": "Premium Spurs tickets, golf club access, San Antonio Symphony season tickets, spa treatments",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 230
+      },
+      "lifestyle": "At this tier, San Antonio's incredible value proposition really shines. A beautiful historic home in one of the city's grand old neighborhoods, regular reservations at Mixtli -- the celebrated pre-Columbian tasting menu experience -- and premium seats to watch the Spurs. Weekend drives through wildflower-covered Hill Country become a beloved ritual."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury estate in Terrell Hills, a renovated King William mansion, or upscale condo at The Broadway",
+        "monthlyCost": 4500
+      },
+      "dining": {
+        "description": "Private chef for dinner parties, fine dining multiple nights per week, exclusive wine pairing events",
+        "monthlyCost": 1300
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "Concierge medicine, executive health screenings, premium private insurance with no deductibles",
+        "monthlyCost": 1000
+      },
+      "transportation": {
+        "description": "Luxury vehicle, premium insurance, detailing service, Hill Country ranch vehicle",
+        "monthlyCost": 800
+      },
+      "entertainment": {
+        "description": "Courtside Spurs tickets, San Antonio Country Club membership, philanthropy galas, art collecting",
+        "monthlyCost": 900
+      },
+      "utilities": {
+        "monthlyCost": 300
+      },
+      "domesticHelp": {
+        "description": "Bi-weekly house cleaning, landscaping, pool service, personal assistant tasks",
+        "monthlyCost": 700
+      },
+      "luxuryExtras": {
+        "description": "Hill Country ranch weekends, quarterly travel, wine cellar curation, philanthropic giving",
+        "monthlyCost": 1400
+      },
+      "lifestyle": "You are living like San Antonio royalty. A grand home in the historic King William District or a manicured estate in Terrell Hills, courtside at Spurs games, and a private chef who has mastered both Tex-Mex and fine European cuisine. Your surplus funds a Hill Country retreat and generous philanthropy in a city that deeply values community."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Historic estate in Alamo Heights or a sprawling Hill Country ranch compound minutes from the city",
+        "monthlyCost": 8500
+      },
+      "dining": {
+        "description": "Full-time personal chef, catered events, private dining experiences, exclusive culinary travel",
+        "monthlyCost": 2800
+      },
+      "groceries": {
+        "monthlyCost": 900
+      },
+      "healthcare": {
+        "description": "Top-tier concierge medical practice, executive wellness programs, holistic health specialists",
+        "monthlyCost": 1500
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, ranch vehicles, private car service, chartered flights from SAT",
+        "monthlyCost": 1500
+      },
+      "entertainment": {
+        "description": "Private suite at the AT&T Center, major philanthropy, art collecting, international travel, exclusive events",
+        "monthlyCost": 2500
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full-time estate manager, housekeeper, personal assistant, ranch hand, grounds and pool crew",
+        "monthlyCost": 4000
+      },
+      "luxuryExtras": {
+        "description": "Hill Country ranch operation, first-class international travel, art patronage, angel investing, major philanthropy",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At $10M, San Antonio gives you a life that blends Texas grandeur with deep cultural roots. A magnificent estate in the city and a working Hill Country ranch, a personal chef who sources from local farms, private suites for Spurs games, and enough surplus to become one of the city's great philanthropic benefactors. Texas's zero income tax ensures every withdrawal dollar is yours."
+    }
+  }
+}

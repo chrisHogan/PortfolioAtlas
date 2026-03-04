@@ -1,0 +1,194 @@
+{
+  "name": "Greenville",
+  "country": "United States",
+  "region": "North America",
+  "slug": "greenville",
+  "emoji": "🇺🇸",
+  "fireScore": 7.0,
+  "tagline": "Revitalized Southern Charm at the Foot of the Blue Ridge",
+  "description": "Greenville has transformed from a quiet textile town into one of the South's most vibrant small cities. Falls Park on the Reedy anchors a walkable downtown filled with excellent restaurants, galleries, and boutiques. The Blue Ridge foothills are minutes away, housing costs remain well below the national average, and South Carolina's low taxes make every FIRE dollar go further. For retirees seeking culture, nature, and affordability in one polished package, Greenville delivers.",
+  "tags": {
+    "climate": "subtropical",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "EST (UTC-5)",
+    "language": "English",
+    "internetSpeed": "150+ Mbps average",
+    "safetyRating": "Moderate – safe downtown core; standard precautions in outlying areas",
+    "nearestAirport": "Greenville-Spartanburg International Airport (GSP)",
+    "climate": "Humid subtropical with mild winters, warm summers, and moderate rainfall year-round",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "60°F / 16°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in the Village of West Greenville or Nicholtown area",
+        "monthlyCost": 1100
+      },
+      "dining": {
+        "description": "Casual meals out 2x/week; Southern diners and taco trucks; mostly home cooking",
+        "monthlyCost": 200
+      },
+      "groceries": {
+        "monthlyCost": 350
+      },
+      "healthcare": {
+        "description": "ACA marketplace Silver plan; South Carolina premiums are moderate",
+        "monthlyCost": 480
+      },
+      "transportation": {
+        "description": "Paid-off car with basic insurance; car essential in the Upstate",
+        "monthlyCost": 230
+      },
+      "entertainment": {
+        "description": "Walking the Swamp Rabbit Trail, free Falls Park visits, library events; occasional movie",
+        "monthlyCost": 80
+      },
+      "utilities": {
+        "monthlyCost": 130
+      },
+      "lifestyle": "Life on $3,333 in Greenville is tight but doable thanks to low housing costs. You can enjoy the beautiful Swamp Rabbit Trail, wander Falls Park daily, and grab a meal on Main Street once a week. Healthcare takes a meaningful chunk, but the abundance of free outdoor activities keeps life rich without spending much."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "2BR apartment downtown or a small house in the Augusta Road neighborhood",
+        "monthlyCost": 1700
+      },
+      "dining": {
+        "description": "Dining on Main Street 3-4x/week; enjoying Greenville's acclaimed restaurant scene",
+        "monthlyCost": 450
+      },
+      "groceries": {
+        "monthlyCost": 420
+      },
+      "healthcare": {
+        "description": "ACA Gold plan with dental and vision; comfortable deductible",
+        "monthlyCost": 580
+      },
+      "transportation": {
+        "description": "Reliable car for Blue Ridge day trips, full coverage insurance",
+        "monthlyCost": 340
+      },
+      "entertainment": {
+        "description": "Peace Center shows, Greenville Drive baseball, yoga studio, mountain hiking trips",
+        "monthlyCost": 230
+      },
+      "utilities": {
+        "monthlyCost": 155
+      },
+      "lifestyle": "This is Greenville's sweet spot. You can live in a charming neighborhood near downtown, fully enjoy the booming culinary scene on Main Street, catch shows at the Peace Center, and spend weekends hiking in the Blue Ridge foothills. The low cost of living means your money stretches far without feeling pinched."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR home in the North Main or Earle Street area with a yard and mountain views",
+        "monthlyCost": 2800
+      },
+      "dining": {
+        "description": "Regular dining at Jianna, Nose Dive, and Soby's; wine dinners and tasting events",
+        "monthlyCost": 750
+      },
+      "groceries": {
+        "monthlyCost": 520
+      },
+      "healthcare": {
+        "description": "Premium private insurance with comprehensive coverage and low deductibles",
+        "monthlyCost": 700
+      },
+      "transportation": {
+        "description": "Late-model SUV for mountain excursions, premium insurance",
+        "monthlyCost": 480
+      },
+      "entertainment": {
+        "description": "Peace Center season tickets, golf club membership, art classes, Clemson football trips",
+        "monthlyCost": 420
+      },
+      "utilities": {
+        "monthlyCost": 210
+      },
+      "lifestyle": "At $10K a month in Greenville you are living beautifully. A spacious home in one of the city's best neighborhoods, regular fine dining downtown, season tickets to the arts, and weekend drives into the mountains. Greenville punches well above its weight for this budget compared to larger Southern cities."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Custom home in the Chanticleer or Paris Mountain area or a luxury downtown condo",
+        "monthlyCost": 5000
+      },
+      "dining": {
+        "description": "Private chef for weekly dinners, regular fine dining, exclusive wine club memberships",
+        "monthlyCost": 1200
+      },
+      "groceries": {
+        "monthlyCost": 650
+      },
+      "healthcare": {
+        "description": "Concierge medical practice, premium insurance, integrative wellness services",
+        "monthlyCost": 900
+      },
+      "transportation": {
+        "description": "Luxury SUV, second vehicle, occasional flights from GSP to major hubs",
+        "monthlyCost": 750
+      },
+      "entertainment": {
+        "description": "Country club membership, private fly-fishing guides, arts patronage, Clemson suite tickets",
+        "monthlyCost": 750
+      },
+      "utilities": {
+        "monthlyCost": 300
+      },
+      "domesticHelp": {
+        "description": "Weekly deep cleaning, lawn and garden service, property maintenance",
+        "monthlyCost": 650
+      },
+      "luxuryExtras": {
+        "description": "Mountain cabin getaways, quarterly travel, art collecting, community philanthropy",
+        "monthlyCost": 1400
+      },
+      "lifestyle": "You are living at the top of Greenville society. A stunning home near Paris Mountain, deep involvement in the arts and dining scene, fly-fishing on pristine Upstate streams, and enough resources to be a generous community patron. Greenville at this level rivals cities three times its size for quality of life."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Grand estate on Paris Mountain or sprawling property in the Cliffs communities",
+        "monthlyCost": 9000
+      },
+      "dining": {
+        "description": "Personal chef, exclusive catered events, private wine dinners, farm partnerships",
+        "monthlyCost": 2500
+      },
+      "groceries": {
+        "monthlyCost": 850
+      },
+      "healthcare": {
+        "description": "Top concierge practice, executive wellness retreats, specialists on demand",
+        "monthlyCost": 1200
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, private car service, chartered flights from GSP",
+        "monthlyCost": 1400
+      },
+      "entertainment": {
+        "description": "Major arts patronage, private concert bookings, international travel, exclusive club events",
+        "monthlyCost": 2000
+      },
+      "utilities": {
+        "monthlyCost": 450
+      },
+      "domesticHelp": {
+        "description": "Full-time estate manager, housekeeper, personal assistant, groundskeeper",
+        "monthlyCost": 4200
+      },
+      "luxuryExtras": {
+        "description": "Second home on the coast, first-class travel, art gallery sponsorships, foundation giving",
+        "monthlyCost": 4800
+      },
+      "lifestyle": "At $10M in Greenville you command a lifestyle that combines Southern elegance with mountain grandeur. A magnificent estate, a personal chef sourcing from Upstate farms, patronage of the Peace Center and local galleries, and the freedom to jet off whenever the mood strikes. Greenville at this level is a hidden gem of American luxury living."
+    }
+  }
+}

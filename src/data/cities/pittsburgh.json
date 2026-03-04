@@ -1,0 +1,194 @@
+{
+  "name": "Pittsburgh",
+  "country": "United States",
+  "region": "North America",
+  "slug": "pittsburgh",
+  "emoji": "🇺🇸",
+  "fireScore": 6.5,
+  "tagline": "Bridges, Rivers, and World-Class Hospitals at Northeast Prices You Can Afford",
+  "description": "Pittsburgh has reinvented itself from a steel city into a thriving hub of healthcare, technology, and culture, all while keeping costs remarkably low for a major Northeastern metro. With world-class hospitals like UPMC and Allegheny Health Network, over 440 bridges spanning three rivers, revitalized neighborhoods like Lawrenceville and the Strip District, and a passionate sports culture, Pittsburgh offers big-city amenities at a fraction of what you would pay in Philadelphia, Boston, or New York.",
+  "tags": {
+    "climate": "continental",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "EST (UTC-5)",
+    "language": "English",
+    "internetSpeed": "150+ Mbps average",
+    "safetyRating": "Moderate to High – safe neighborhoods throughout; typical urban considerations",
+    "nearestAirport": "Pittsburgh International Airport (PIT)",
+    "climate": "Continental with cold, snowy winters and warm, humid summers; overcast skies common",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "52°F / 11°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in Bloomfield, Brookline, or Beechview",
+        "monthlyCost": 1050
+      },
+      "dining": {
+        "description": "Casual dining 2x/week at Strip District spots and neighborhood pierogis joints",
+        "monthlyCost": 200
+      },
+      "groceries": {
+        "monthlyCost": 360
+      },
+      "healthcare": {
+        "description": "ACA marketplace Silver plan; access to UPMC and Allegheny Health Network",
+        "monthlyCost": 490
+      },
+      "transportation": {
+        "description": "Pittsburgh Regional Transit bus and T light rail; occasional ride share",
+        "monthlyCost": 180
+      },
+      "entertainment": {
+        "description": "Free Carnegie Museum days, Three Rivers Heritage Trail, Point State Park, library events",
+        "monthlyCost": 80
+      },
+      "utilities": {
+        "monthlyCost": 140
+      },
+      "lifestyle": "Pittsburgh at $1M is one of the best deals in the Northeast. Rents in neighborhoods like Brookline and Beechview are shockingly low, public transit actually works here, and the city is loaded with free cultural offerings. You get access to world-class hospitals, a vibrant food scene, and stunning river views without the crushing costs of other Northeastern cities."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "2BR apartment in Lawrenceville or Shadyside, or a row house in Polish Hill",
+        "monthlyCost": 1700
+      },
+      "dining": {
+        "description": "Dining out 3-4x/week; enjoying Lawrenceville's booming restaurant scene and Strip District",
+        "monthlyCost": 450
+      },
+      "groceries": {
+        "monthlyCost": 430
+      },
+      "healthcare": {
+        "description": "ACA Gold plan with dental and vision; UPMC is one of the best health systems in America",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "Reliable car for hill navigation, full coverage insurance, transit pass for downtown",
+        "monthlyCost": 350
+      },
+      "entertainment": {
+        "description": "Steelers and Penguins games, Carnegie Museum membership, indie concerts, gym membership",
+        "monthlyCost": 240
+      },
+      "utilities": {
+        "monthlyCost": 165
+      },
+      "lifestyle": "This is Pittsburgh's sweet spot. You can afford a trendy Lawrenceville apartment or a charming Shadyside place, eat out regularly at the city's incredible restaurant renaissance, and catch Penguins or Steelers games. The cultural scene punches way above its weight with Carnegie Museums, world-class theater, and a thriving arts community."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR home in Squirrel Hill, Mt. Lebanon, or a renovated row house in the Mexican War Streets",
+        "monthlyCost": 2600
+      },
+      "dining": {
+        "description": "Regular fine dining at Altius, Morcilla, and Casbah; chef's tasting events and wine dinners",
+        "monthlyCost": 700
+      },
+      "groceries": {
+        "monthlyCost": 530
+      },
+      "healthcare": {
+        "description": "Premium private insurance with low deductibles; UPMC concierge-lite access",
+        "monthlyCost": 720
+      },
+      "transportation": {
+        "description": "Late-model AWD vehicle for Pittsburgh's hills and winters, premium insurance",
+        "monthlyCost": 480
+      },
+      "entertainment": {
+        "description": "Steelers season tickets, Pittsburgh Symphony season, Phipps Conservatory patron, golf club",
+        "monthlyCost": 420
+      },
+      "utilities": {
+        "monthlyCost": 210
+      },
+      "lifestyle": "At $10K per month, Pittsburgh is extraordinary. A spacious home in one of the city's best neighborhoods, season tickets to multiple sports and cultural institutions, regular fine dining, and significant monthly surplus. Few Northeastern cities offer this combination of quality and value."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury home in Fox Chapel, Sewickley, or a renovated mansion on Grandview Avenue",
+        "monthlyCost": 4800
+      },
+      "dining": {
+        "description": "Private chef for entertaining, fine dining multiple nights per week, exclusive wine events",
+        "monthlyCost": 1100
+      },
+      "groceries": {
+        "monthlyCost": 680
+      },
+      "healthcare": {
+        "description": "UPMC concierge medicine, executive wellness at Magee, comprehensive private insurance",
+        "monthlyCost": 900
+      },
+      "transportation": {
+        "description": "Luxury vehicle, second car, premium insurance, occasional flights from PIT",
+        "monthlyCost": 780
+      },
+      "entertainment": {
+        "description": "Private box at PNC Park, Pittsburgh Symphony patron, Phipps donor, country club membership",
+        "monthlyCost": 780
+      },
+      "utilities": {
+        "monthlyCost": 290
+      },
+      "domesticHelp": {
+        "description": "Weekly deep cleaning, landscaping, snow removal, seasonal home maintenance",
+        "monthlyCost": 600
+      },
+      "luxuryExtras": {
+        "description": "Seven Springs ski weekends, quarterly travel, art collecting, Carnegie philanthropic events",
+        "monthlyCost": 1400
+      },
+      "lifestyle": "Pittsburgh at $5M is elite Northeastern living at Midwestern prices. A stunning home with river or city views, concierge medicine at one of America's best hospital systems, private box seats for the Steelers, and deep involvement in Pittsburgh's remarkable cultural institutions. The city's affordability means your money creates an extraordinary life here."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Grand estate in Fox Chapel or Sewickley Heights, or a penthouse with three-river views",
+        "monthlyCost": 9000
+      },
+      "dining": {
+        "description": "Full-time personal chef, exclusive wine dinners, catered events at home and private clubs",
+        "monthlyCost": 2400
+      },
+      "groceries": {
+        "monthlyCost": 900
+      },
+      "healthcare": {
+        "description": "Top-tier UPMC concierge practice, executive wellness, specialist access on demand",
+        "monthlyCost": 1200
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, private car service, chartered flights from PIT",
+        "monthlyCost": 1500
+      },
+      "entertainment": {
+        "description": "Major Carnegie philanthropy, international travel, art collecting, Steelers ownership-level access",
+        "monthlyCost": 2000
+      },
+      "utilities": {
+        "monthlyCost": 450
+      },
+      "domesticHelp": {
+        "description": "Full-time estate manager, housekeeper, personal assistant, driver, groundskeeper",
+        "monthlyCost": 4200
+      },
+      "luxuryExtras": {
+        "description": "Second home in the Laurel Highlands, first-class international travel, angel investing, major philanthropy",
+        "monthlyCost": 4800
+      },
+      "lifestyle": "At $10M in Pittsburgh you are a titan of one of America's great comeback cities. A grand estate in Fox Chapel, world-class healthcare at UPMC on your terms, transformative philanthropy through the Carnegie institutions, and the satisfaction of living in a city that has reinvented itself. Few places offer this combination of cultural depth, medical excellence, and sheer affordability at the top."
+    }
+  }
+}

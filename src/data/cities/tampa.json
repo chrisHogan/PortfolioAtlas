@@ -1,0 +1,194 @@
+{
+  "name": "Tampa",
+  "country": "United States",
+  "region": "North America",
+  "slug": "tampa",
+  "emoji": "🇺🇸",
+  "fireScore": 5.6,
+  "tagline": "Waterfront Living, Zero State Tax, and a Booming Food Scene",
+  "description": "Tampa delivers an irresistible combination of Gulf Coast waterfront living, zero state income tax, and a culinary renaissance that has put the city on the national food map. With year-round warm weather, proximity to world-class beaches, and a rapidly growing downtown, Tampa offers FIRE seekers a vibrant urban lifestyle at a fraction of what comparable coastal cities demand. The city's diverse neighborhoods range from the historic charm of Ybor City to the polished waterfront of Harbour Island, giving retirees real options at every budget level.",
+  "tags": {
+    "climate": "subtropical",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "EST (UTC-5)",
+    "language": "English",
+    "internetSpeed": "200+ Mbps average",
+    "safetyRating": "Moderate – varies by neighborhood, improving rapidly downtown",
+    "nearestAirport": "Tampa International Airport (TPA)",
+    "climate": "Subtropical with hot, humid summers and warm, mild winters",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "73°F / 23°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in Seminole Heights, Temple Terrace, or outer South Tampa",
+        "monthlyCost": 1450
+      },
+      "dining": {
+        "description": "Cuban sandwiches from hole-in-the-wall spots and casual dining 2x/week; mostly cooking at home",
+        "monthlyCost": 230
+      },
+      "groceries": {
+        "monthlyCost": 380
+      },
+      "healthcare": {
+        "description": "ACA marketplace Silver plan; Florida premiums can run high without subsidies",
+        "monthlyCost": 550
+      },
+      "transportation": {
+        "description": "Paid-off car with basic insurance and gas; a car is essential in Tampa",
+        "monthlyCost": 270
+      },
+      "entertainment": {
+        "description": "Free Riverwalk strolls, beach days at Clearwater and St. Pete, public parks and kayaking",
+        "monthlyCost": 80
+      },
+      "utilities": {
+        "monthlyCost": 170
+      },
+      "lifestyle": "Tampa on a $1M budget is doable but demands discipline. You will live in a modest apartment outside the trendy core, cook most meals at home, and lean on Tampa Bay's greatest free asset: miles of stunning waterfront. The famous Cuban sandwich shops of West Tampa and Ybor City are wallet-friendly indulgences, and the Riverwalk never charges admission. No state income tax helps every dollar stretch further."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "2BR apartment in Channelside, Hyde Park, or a townhome in Westshore",
+        "monthlyCost": 2100
+      },
+      "dining": {
+        "description": "Regular dining in South Howard (SoHo) and Ybor City 3-4x/week; weekend brunch at waterfront spots",
+        "monthlyCost": 550
+      },
+      "groceries": {
+        "monthlyCost": 450
+      },
+      "healthcare": {
+        "description": "ACA Gold plan with dental and vision; reasonable out-of-pocket costs",
+        "monthlyCost": 650
+      },
+      "transportation": {
+        "description": "Reliable car with full coverage insurance; occasional TECO streetcar rides downtown",
+        "monthlyCost": 400
+      },
+      "entertainment": {
+        "description": "Bucs and Lightning games occasionally, gym membership, paddleboarding on the bay, museum visits",
+        "monthlyCost": 300
+      },
+      "utilities": {
+        "monthlyCost": 190
+      },
+      "lifestyle": "At $2M, Tampa starts to shine. You can afford a comfortable place in one of the walkable urban neighborhoods, enjoy the booming SoHo restaurant scene regularly, and catch a Lightning game without stressing the budget. Weekend beach trips to Clearwater or Anna Maria Island become part of the routine, and you have enough margin to enjoy Tampa's rapidly improving cultural offerings."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR home in South Tampa, a waterfront condo in Harbour Island, or a house in Beach Park",
+        "monthlyCost": 3400
+      },
+      "dining": {
+        "description": "Fine dining at Bern's Steak House, Ulele, and Columbia Restaurant; regular date nights and wine dinners",
+        "monthlyCost": 900
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "Premium private health insurance with low deductibles and comprehensive coverage",
+        "monthlyCost": 750
+      },
+      "transportation": {
+        "description": "Late-model SUV or sedan, premium insurance, occasional boat charter on the bay",
+        "monthlyCost": 500
+      },
+      "entertainment": {
+        "description": "Season tickets to the Lightning, Straz Center performing arts, boating, premium gym membership",
+        "monthlyCost": 550
+      },
+      "utilities": {
+        "monthlyCost": 260
+      },
+      "lifestyle": "Life at $10K per month in Tampa is genuinely excellent. A beautiful home in coveted South Tampa, regular dinners at the legendary Bern's Steak House, season tickets to watch the Lightning, and enough room to explore the bay by boat on weekends. Tampa's combination of waterfront living, zero state tax, and world-class dining makes this tier feel like you have cracked the code."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury waterfront home on Davis Islands, Bayshore Boulevard, or a penthouse in Water Street Tampa",
+        "monthlyCost": 5200
+      },
+      "dining": {
+        "description": "Private chef for entertaining, fine dining multiple nights per week, yacht club dining room",
+        "monthlyCost": 1400
+      },
+      "groceries": {
+        "monthlyCost": 750
+      },
+      "healthcare": {
+        "description": "Concierge medicine at Tampa General, executive health screenings, premium private insurance",
+        "monthlyCost": 1000
+      },
+      "transportation": {
+        "description": "Luxury vehicle, boat slip at the Tampa Yacht Club, occasional private car service",
+        "monthlyCost": 900
+      },
+      "entertainment": {
+        "description": "Premium suite at Bucs games, Palma Ceia Golf & Country Club, deep-sea fishing charters, arts patronage",
+        "monthlyCost": 900
+      },
+      "utilities": {
+        "monthlyCost": 350
+      },
+      "domesticHelp": {
+        "description": "Weekly house cleaning, pool service, landscaping, hurricane preparation service",
+        "monthlyCost": 750
+      },
+      "luxuryExtras": {
+        "description": "Quarterly travel, boat ownership costs, spa retreats, wine club memberships",
+        "monthlyCost": 1500
+      },
+      "lifestyle": "At $5M you are living Tampa's best life. A stunning home along Bayshore Boulevard -- the world's longest continuous sidewalk -- with sweeping bay views, your own boat docked nearby, and regular seats at the best restaurants and sporting events in the city. Florida's zero income tax means your full $16K monthly withdrawal is yours to enjoy."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Bayshore Boulevard estate, Davis Islands waterfront compound, or luxury penthouse with private dock",
+        "monthlyCost": 10000
+      },
+      "dining": {
+        "description": "Full-time personal chef, catered events, private wine dinners, exclusive restaurant experiences",
+        "monthlyCost": 3000
+      },
+      "groceries": {
+        "monthlyCost": 1000
+      },
+      "healthcare": {
+        "description": "Top concierge medical practice, executive wellness programs, specialist access at Moffitt Cancer Center",
+        "monthlyCost": 1500
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, yacht captain, private car service, chartered flights from TPA",
+        "monthlyCost": 1800
+      },
+      "entertainment": {
+        "description": "Luxury box at Raymond James Stadium, major arts and hospital philanthropy, international travel, yacht cruises",
+        "monthlyCost": 2500
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full-time estate manager, housekeeper, personal assistant, boat captain, pool and grounds crew",
+        "monthlyCost": 4500
+      },
+      "luxuryExtras": {
+        "description": "Yacht ownership, first-class international travel, real estate investing, philanthropic giving",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At $10M, Tampa is your personal Gulf Coast kingdom. A sprawling waterfront estate, a private yacht for cruising to the Keys, a personal chef, and deep philanthropic involvement in the community. With Moffitt Cancer Center and Tampa General nearby for world-class healthcare and zero state income tax, this is elite-level living with nothing left to want."
+    }
+  }
+}

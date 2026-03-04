@@ -3,10 +3,14 @@
   "country": "Canada",
   "region": "North America",
   "slug": "quebec-city",
-  "emoji": "\ud83c\udde8\ud83c\udde6",
+  "emoji": "🇨🇦",
   "fireScore": 6.3,
   "tagline": "Old-World European Charm Without Crossing the Atlantic",
   "description": "Quebec City is the closest thing to Europe you can find in North America, with its UNESCO World Heritage Old Town, cobblestone streets, and vibrant Francophone culture. Housing costs are remarkably affordable compared to Montreal or Toronto, and universal healthcare removes one of retirement's biggest financial worries. If you speak (or want to learn) French and love history, architecture, and four-season living, Quebec City is an exceptional FIRE destination.",
+  "tags": {
+    "climate": "continental",
+    "english": "moderate"
+  },
   "quickFacts": {
     "visa": "Canadian citizens: no visa. Others: Express Entry, Provincial Nominee (Quebec has its own immigration system), or visitor permits",
     "timezone": "EST (UTC-5)",

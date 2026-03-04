@@ -1,0 +1,194 @@
+{
+  "name": "Sioux Falls",
+  "country": "United States",
+  "region": "North America",
+  "slug": "sioux-falls",
+  "emoji": "🇺🇸",
+  "fireScore": 7.0,
+  "tagline": "No State Income Tax, Ultra-Low Costs, and Falls Park Beauty",
+  "description": "Sioux Falls is a FIRE powerhouse hiding in plain sight. South Dakota has zero state income tax, and the cost of living here is among the lowest in the nation. The city is anchored by the stunning Falls Park, a revitalized downtown with craft breweries and local restaurants, and an increasingly vibrant cultural scene. With a growing population, excellent healthcare at Sanford and Avera, and endless outdoor recreation along the Big Sioux River, this is one of the smartest places in America to stretch your FIRE portfolio.",
+  "tags": {
+    "climate": "continental",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "CST (UTC-6)",
+    "language": "English",
+    "internetSpeed": "150+ Mbps average",
+    "safetyRating": "High – one of the safest cities in the Upper Midwest",
+    "nearestAirport": "Sioux Falls Regional Airport (FSD)",
+    "climate": "Continental with cold, snowy winters and warm, humid summers",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "46°F / 8°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in the Cathedral District or near Falls Park",
+        "monthlyCost": 850
+      },
+      "dining": {
+        "description": "Casual dining 2x/week at local spots like Phillips Avenue Diner or Fernson Brewing",
+        "monthlyCost": 170
+      },
+      "groceries": {
+        "monthlyCost": 320
+      },
+      "healthcare": {
+        "description": "ACA marketplace Silver plan; South Dakota premiums are reasonable",
+        "monthlyCost": 460
+      },
+      "transportation": {
+        "description": "Paid-off car with basic insurance; car necessary but costs are low",
+        "monthlyCost": 210
+      },
+      "entertainment": {
+        "description": "Falls Park walks, Big Sioux River trails, SculptureWalk, free community events",
+        "monthlyCost": 70
+      },
+      "utilities": {
+        "monthlyCost": 130
+      },
+      "lifestyle": "Sioux Falls at $1M is one of the most comfortable budget-level retirements in the country. No state income tax means your full $3,333 goes to living expenses, and with rents under $900 for a decent one-bedroom, you have real breathing room. The free outdoor attractions are superb, and the community is warm and welcoming."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "2BR apartment downtown or a small house in McKennan Park or All Saints",
+        "monthlyCost": 1350
+      },
+      "dining": {
+        "description": "Dining out 3-4x/week; enjoying downtown's growing food scene on Phillips Avenue",
+        "monthlyCost": 380
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "ACA Gold plan with dental; access to excellent Sanford and Avera systems",
+        "monthlyCost": 560
+      },
+      "transportation": {
+        "description": "Reliable AWD vehicle for winter driving, full coverage insurance",
+        "monthlyCost": 350
+      },
+      "entertainment": {
+        "description": "Washington Pavilion performances, Canaries baseball, gym membership, Great Plains Zoo",
+        "monthlyCost": 200
+      },
+      "utilities": {
+        "monthlyCost": 155
+      },
+      "lifestyle": "This budget unlocks a genuinely comfortable Sioux Falls life. A charming home in the tree-lined McKennan Park neighborhood, regular dining on Phillips Avenue, and full access to the city's cultural offerings. With no state income tax and ultra-low costs, you will likely have significant monthly surplus for travel or additional savings."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR home in Prairie Hills, Southern Hills, or a newer build in southeast Sioux Falls",
+        "monthlyCost": 2200
+      },
+      "dining": {
+        "description": "Regular fine dining at Minervas, Parker's Bistro, and Grille 26; wine events",
+        "monthlyCost": 600
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "Premium private insurance with low deductibles, full dental/vision through Sanford",
+        "monthlyCost": 680
+      },
+      "transportation": {
+        "description": "Late-model SUV for South Dakota winters, premium insurance, seasonal tires",
+        "monthlyCost": 450
+      },
+      "entertainment": {
+        "description": "Denny Sanford Premier Center events, golf club membership, ski trips to Terry Peak",
+        "monthlyCost": 380
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "lifestyle": "At $10K per month in Sioux Falls, you are living among the most comfortable lives in the city. A spacious home, regular fine dining, full cultural engagement, and so much surplus that you could easily fund extensive travel. The zero state income tax and low cost base mean your money has extraordinary purchasing power here."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Custom home in The Bluffs, Lake Lorraine area, or a luxury property with river views",
+        "monthlyCost": 4200
+      },
+      "dining": {
+        "description": "Fine dining several times per week, private chef for entertaining, wine club memberships",
+        "monthlyCost": 1000
+      },
+      "groceries": {
+        "monthlyCost": 630
+      },
+      "healthcare": {
+        "description": "Concierge medicine at Sanford, executive wellness, comprehensive private insurance",
+        "monthlyCost": 850
+      },
+      "transportation": {
+        "description": "Luxury SUV, second vehicle, premium everything for Dakota weather",
+        "monthlyCost": 700
+      },
+      "entertainment": {
+        "description": "Country club membership, Black Hills cabin weekends, philanthropy galas, private golf",
+        "monthlyCost": 700
+      },
+      "utilities": {
+        "monthlyCost": 270
+      },
+      "domesticHelp": {
+        "description": "Weekly deep cleaning, landscaping, snow removal service, seasonal maintenance",
+        "monthlyCost": 500
+      },
+      "luxuryExtras": {
+        "description": "Black Hills cabin, quarterly travel, Sanford Health donor events, art collecting",
+        "monthlyCost": 1300
+      },
+      "lifestyle": "Sioux Falls at $5M is peak Midwestern luxury with zero state income tax amplifying every dollar. A beautiful custom home, weekends in the Black Hills, deep community involvement, and enough surplus for first-class travel. You are living one of the most tax-efficient FIRE lifestyles available anywhere in America."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Trophy property in The Bluffs or a sprawling estate with acreage south of the city",
+        "monthlyCost": 7500
+      },
+      "dining": {
+        "description": "Full-time personal chef, exclusive wine dinners, catered events and private gatherings",
+        "monthlyCost": 2100
+      },
+      "groceries": {
+        "monthlyCost": 800
+      },
+      "healthcare": {
+        "description": "Top-tier concierge practice at Sanford, medical travel for specialists, wellness team",
+        "monthlyCost": 1100
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, private car service, chartered flights from FSD",
+        "monthlyCost": 1400
+      },
+      "entertainment": {
+        "description": "Major philanthropy, international travel, art collecting, exclusive memberships",
+        "monthlyCost": 1800
+      },
+      "utilities": {
+        "monthlyCost": 400
+      },
+      "domesticHelp": {
+        "description": "Full-time property manager, housekeeper, personal assistant, groundskeeper",
+        "monthlyCost": 3600
+      },
+      "luxuryExtras": {
+        "description": "Second home in the Black Hills, first-class international travel, angel investing, foundation work",
+        "monthlyCost": 4500
+      },
+      "lifestyle": "At $10M in Sioux Falls with zero state income tax, you keep every penny of your withdrawals. A grand estate, a second home near Mount Rushmore, chartered flights to anywhere, and the ability to be a transformative philanthropic force in this growing city. This is one of the most tax-efficient ultra-luxury retirements possible in the United States."
+    }
+  }
+}

@@ -1,7 +1,22 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npm install:*)"
+      "Bash(npm install:*)",
+      "Bash(git config:*)",
+      "Bash(brew install:*)",
+      "Bash(npm run:*)",
+      "Bash(node:*)",
+      "Bash(HOMEBREW_NO_AUTO_UPDATE=1 brew install:*)",
+      "Bash(gh auth:*)",
+      "Bash(gh repo:*)",
+      "WebSearch",
+      "Bash(ls:*)",
+      "WebFetch(domain:developers.cloudflare.com)",
+      "Bash(__NEW_LINE_6a2b1505b0b060ab__ python3:*)",
+      "Bash(npx astro:*)",
+      "Bash(export:*)",
+      "Bash(source:*)",
+      "Bash(/bin/bash:*)"
     ]
   }
 }

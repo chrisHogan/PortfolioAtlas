@@ -7,6 +7,10 @@
   "fireScore": 9,
   "tagline": "Southeast Asia's Best-Kept FIRE Secret — Stretch Your Dollar Further in Ho Chi Minh City",
   "description": "Ho Chi Minh City offers arguably the best bang-for-your-buck in all of Southeast Asia. With its explosive energy, legendary street food culture, rapidly modernizing infrastructure, and rock-bottom costs, Saigon rewards FIRE retirees who crave authentic immersion and a dollar that goes further than almost anywhere else on earth.",
+  "tags": {
+    "climate": "tropical",
+    "english": "low"
+  },
   "quickFacts": {
     "visa": "E-visa for 90 days (single or multiple entry); 3-month tourist visa extendable; investor visa available; digital nomad-friendly but no dedicated long-term retirement visa yet",
     "timezone": "UTC+7 (Indochina Time)",

@@ -1,0 +1,194 @@
+{
+  "name": "Da Nang",
+  "country": "Vietnam",
+  "region": "Southeast Asia",
+  "slug": "da-nang",
+  "emoji": "🇻🇳",
+  "fireScore": 8.8,
+  "tagline": "Beach, Mountains, and Bowl of Pho — Ultra-Affordable FIRE on Vietnam's Central Coast",
+  "description": "Da Nang is rapidly emerging as Southeast Asia's most exciting FIRE destination. Perched between pristine beaches and the Marble Mountains, this coastal city delivers incredible food, warm weather, a growing expat scene, and a cost of living so low it almost feels like a cheat code. Vietnam's booming economy and improving infrastructure make Da Nang a forward-looking choice for retirees who want adventure and value in equal measure.",
+  "tags": {
+    "climate": "tropical",
+    "english": "low"
+  },
+  "quickFacts": {
+    "visa": "90-day e-Visa (easily renewable). Long-term options include business visa with work permit or investor visa. Vietnam is developing a retirement visa program.",
+    "timezone": "UTC+7 (Indochina Time)",
+    "language": "Vietnamese",
+    "internetSpeed": "40-100 Mbps (fiber expanding rapidly)",
+    "safetyRating": "Very Safe — extremely low violent crime, one of Vietnam's safest cities",
+    "nearestAirport": "Da Nang International Airport (DAD) — 10 min from city center; direct flights to major Asian hubs",
+    "climate": "Tropical monsoon with dry season (Feb-Aug) and wet season (Sep-Jan). Warm year-round with occasional typhoons in fall.",
+    "englishFriendly": "Low",
+    "currency": "Vietnamese Dong (VND)",
+    "averageTemp": "26°C / 79°F"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Modern 1-bedroom apartment near My Khe Beach or a small house in a local neighborhood with rooftop terrace",
+        "monthlyCost": 350
+      },
+      "dining": {
+        "description": "Street food heaven — pho, banh mi, and com tam daily for $1-2 per meal; local seafood restaurants on weekends",
+        "monthlyCost": 250
+      },
+      "groceries": {
+        "monthlyCost": 150
+      },
+      "healthcare": {
+        "description": "Basic private insurance with access to Da Nang's expanding private hospitals and clinics",
+        "monthlyCost": 100
+      },
+      "transportation": {
+        "description": "Rented motorbike for daily use, Grab rides for longer trips across the city",
+        "monthlyCost": 60
+      },
+      "entertainment": {
+        "description": "Beach days at My Khe, Marble Mountains hiking, Son Tra Peninsula exploration, expat meetups, café culture",
+        "monthlyCost": 150
+      },
+      "utilities": {
+        "monthlyCost": 60
+      },
+      "lifestyle": "Da Nang at $1M is a revelation. You wake up ten minutes from one of Asia's best beaches, eat a bowl of pho that costs less than a dollar and tastes like heaven, and spend afternoons exploring the Marble Mountains or surfing at My Khe. The expat community is small but tight-knit, and your dollar stretches so far that saving on a $1M portfolio is genuinely possible."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Spacious 2-bedroom beachfront apartment or a modern villa in a quiet residential area with pool access",
+        "monthlyCost": 600
+      },
+      "dining": {
+        "description": "Mix of incredible street food, upscale Vietnamese restaurants, international dining, and weekend seafood feasts",
+        "monthlyCost": 500
+      },
+      "groceries": {
+        "monthlyCost": 250
+      },
+      "healthcare": {
+        "description": "Comprehensive private insurance covering top hospitals, dental included, annual health checks",
+        "monthlyCost": 200
+      },
+      "transportation": {
+        "description": "Own motorbike plus regular Grab car rides, weekend road trips to Hoi An and Hue",
+        "monthlyCost": 120
+      },
+      "entertainment": {
+        "description": "Gym membership, surfing lessons, weekend trips to Hoi An and the Ba Na Hills, Vietnamese cooking classes, scuba diving",
+        "monthlyCost": 400
+      },
+      "utilities": {
+        "monthlyCost": 100
+      },
+      "lifestyle": "With $2M, Da Nang becomes incredibly comfortable. Your beachfront apartment means morning swims before breakfast, you eat at the best restaurants in town without checking prices, and weekends mean road-tripping to the ancient streets of Hoi An or the imperial citadel in Hue. Vietnamese cooking classes become a passion, and the beach lifestyle keeps you healthy and happy."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Luxury 3-bedroom beachfront villa with private pool, garden, and panoramic ocean views",
+        "monthlyCost": 1100
+      },
+      "dining": {
+        "description": "Fine dining at Da Nang's top restaurants, private chef for special occasions, curated food tours across central Vietnam",
+        "monthlyCost": 900
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "Premium international insurance with medical evacuation, access to Bangkok or Singapore hospitals for major procedures",
+        "monthlyCost": 350
+      },
+      "transportation": {
+        "description": "Leased car or SUV, Grab for evenings, domestic flights to Hanoi and Ho Chi Minh City, weekend road trips",
+        "monthlyCost": 300
+      },
+      "entertainment": {
+        "description": "Golf at premium courses, surf school, spa retreats, Ba Na Hills VIP experiences, weekend island trips to Cham Islands",
+        "monthlyCost": 800
+      },
+      "utilities": {
+        "monthlyCost": 180
+      },
+      "lifestyle": "Your private beachfront villa is the stuff of Instagram dreams — infinity pool overlooking the East Sea, morning yoga on the terrace, and a short drive to world-class golf. You fly to Hanoi or Saigon for long weekends, charter boats to the Cham Islands, and dine on the freshest seafood imaginable. At $3M in Da Nang, you live like royalty on a budget that would get you a modest condo in most US cities."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Stunning oceanfront estate in the Son Tra area or a luxury compound near My Khe with pool, gardens, and sea views",
+        "monthlyCost": 2200
+      },
+      "dining": {
+        "description": "Full-time private chef preparing Vietnamese and international cuisine, regular fine dining, curated wine collection",
+        "monthlyCost": 1500
+      },
+      "groceries": {
+        "monthlyCost": 550
+      },
+      "healthcare": {
+        "description": "VIP international coverage with Bumrungrad Bangkok access, personal physician, executive wellness programs",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "Luxury vehicle with part-time driver, domestic flights, private transfers, weekend road trips in comfort",
+        "monthlyCost": 500
+      },
+      "entertainment": {
+        "description": "Premium golf memberships, private yacht charters to Cham Islands, art collecting, exclusive beach club access",
+        "monthlyCost": 1300
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper/cook, part-time gardener, weekly laundry and deep cleaning service",
+        "monthlyCost": 500
+      },
+      "luxuryExtras": {
+        "description": "Hoi An tailor-made wardrobe, private Vietnamese language tutor, premium spa memberships, charitable community projects",
+        "monthlyCost": 1300
+      },
+      "lifestyle": "Your oceanfront compound is a private paradise — a full-time chef prepares pho that rivals Hanoi's best alongside Thai and Italian dishes, your driver takes you to Son Tra's monkey-filled forests for afternoon hikes, and weekends mean yacht charters to deserted islands. Your Hoi An tailor keeps your wardrobe immaculate. In Da Nang at $5M, you live an extraordinary life that would cost ten times as much in California."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Sprawling beachfront estate with multiple villas, infinity pool, and direct beach access, plus a heritage property in Hoi An's old town",
+        "monthlyCost": 4500
+      },
+      "dining": {
+        "description": "Private chef team, rare imported ingredients, legendary dinner parties featuring the best of Vietnamese cuisine, guest chef residencies",
+        "monthlyCost": 3000
+      },
+      "groceries": {
+        "monthlyCost": 800
+      },
+      "healthcare": {
+        "description": "Global concierge medicine, dedicated medical team, fly-anywhere coverage, longevity and biohacking programs",
+        "monthlyCost": 800
+      },
+      "transportation": {
+        "description": "Luxury vehicle fleet, full-time chauffeur, private jet charter for regional travel, superyacht access",
+        "monthlyCost": 2000
+      },
+      "entertainment": {
+        "description": "Philanthropic projects supporting local communities, private island retreats, art patronage, international travel across Asia and beyond",
+        "monthlyCost": 3500
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full household staff: chef team, housekeepers, gardener, driver, property manager, personal assistant",
+        "monthlyCost": 1800
+      },
+      "luxuryExtras": {
+        "description": "Hoi An heritage property management, charitable foundation for local education, bespoke yacht itineraries along the Vietnamese coast, art collection curation",
+        "monthlyCost": 4500
+      },
+      "lifestyle": "At $10M in Da Nang, you preside over a beachfront compound that is part private resort, part philanthropic headquarters. Your chef team sources ingredients from mountain villages and coastal fishermen, your yacht cruises the central coast discovering hidden beaches, and your charitable foundation transforms local schools. You split time between your Da Nang estate and your beautifully restored Hoi An heritage home. Vietnam at this level is a life of breathtaking beauty and profound purpose."
+    }
+  }
+}

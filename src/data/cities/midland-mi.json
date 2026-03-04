@@ -1,0 +1,194 @@
+{
+  "name": "Midland",
+  "country": "United States",
+  "region": "North America",
+  "slug": "midland-mi",
+  "emoji": "🇺🇸",
+  "fireScore": 7.5,
+  "tagline": "Small-Town Charm with World-Class Amenities in Michigan's Heartland",
+  "description": "Midland is a hidden gem in central Michigan, shaped by the presence of Dow Chemical's global headquarters into a small city with amenities far beyond its size. The Dow Gardens and Whiting Forest canopy walk are world-class, the Center for the Arts hosts Broadway-caliber performances, and housing costs are astonishingly low. For FIRE retirees seeking an extremely affordable, safe, and culturally rich small-town lifestyle, Midland offers a rare combination that is hard to find elsewhere in America.",
+  "tags": {
+    "climate": "continental",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "EST (UTC-5)",
+    "language": "English",
+    "internetSpeed": "100+ Mbps average",
+    "safetyRating": "High – very safe small city with strong community bonds",
+    "nearestAirport": "MBS International Airport (MBS) / Bishop International Airport (FNT)",
+    "climate": "Continental with cold, snowy winters and warm, humid summers; four distinct seasons",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "46°F / 8°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment or small rental house near downtown Midland",
+        "monthlyCost": 750
+      },
+      "dining": {
+        "description": "Casual dining 2x/week at local restaurants; mostly home cooking",
+        "monthlyCost": 170
+      },
+      "groceries": {
+        "monthlyCost": 310
+      },
+      "healthcare": {
+        "description": "ACA marketplace Silver plan; Michigan premiums are moderate",
+        "monthlyCost": 470
+      },
+      "transportation": {
+        "description": "Paid-off car with basic insurance; car necessary in a small Michigan city",
+        "monthlyCost": 210
+      },
+      "entertainment": {
+        "description": "Dow Gardens visits, Tridge walks along the river, library programs; occasional Center for the Arts show",
+        "monthlyCost": 70
+      },
+      "utilities": {
+        "monthlyCost": 140
+      },
+      "lifestyle": "Midland at $1M is exceptionally comfortable for a budget this lean. Housing is astonishingly affordable, Dow Gardens and the Whiting Forest canopy walk provide world-class beauty for minimal cost, and the tight-knit community welcomes newcomers warmly. You will cook at home often, but the low baseline costs mean less financial stress than in almost any other American city."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "2BR house in a quiet Midland neighborhood or near the Tridge area",
+        "monthlyCost": 1200
+      },
+      "dining": {
+        "description": "Dining out 3-4x/week at local favorites; Midland Brewing Company and Whiting Forest cafe",
+        "monthlyCost": 350
+      },
+      "groceries": {
+        "monthlyCost": 370
+      },
+      "healthcare": {
+        "description": "ACA Gold plan with dental and vision; comfortable deductible",
+        "monthlyCost": 560
+      },
+      "transportation": {
+        "description": "Reliable car for Michigan road trips, full coverage insurance, winter tires",
+        "monthlyCost": 330
+      },
+      "entertainment": {
+        "description": "Center for the Arts season tickets, Dow Gardens membership, gym, cross-country skiing",
+        "monthlyCost": 200
+      },
+      "utilities": {
+        "monthlyCost": 170
+      },
+      "lifestyle": "This is the Midland sweet spot and it feels genuinely abundant. You can own a comfortable home outright in a few years, enjoy the Center for the Arts regularly, dine out without worry, and take road trips to Traverse City or Mackinac Island on weekends. The community involvement opportunities are endless, and your $2M portfolio has extraordinary longevity here."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR home in the Adams or Eastlawn neighborhood with mature trees and a large yard",
+        "monthlyCost": 2000
+      },
+      "dining": {
+        "description": "Regular fine dining at the best local restaurants; wine events and special culinary experiences",
+        "monthlyCost": 600
+      },
+      "groceries": {
+        "monthlyCost": 460
+      },
+      "healthcare": {
+        "description": "Premium private insurance with comprehensive coverage and low deductibles",
+        "monthlyCost": 680
+      },
+      "transportation": {
+        "description": "Late-model SUV for all-season driving, premium insurance",
+        "monthlyCost": 440
+      },
+      "entertainment": {
+        "description": "Arts patronage, golf membership at Currie Golf Course, Great Lakes trips, cultural events",
+        "monthlyCost": 380
+      },
+      "utilities": {
+        "monthlyCost": 210
+      },
+      "lifestyle": "At $10K a month in Midland you are living at the top of the community. A beautiful home in the best neighborhood, arts patronage, regular trips to Traverse City and the Great Lakes, and the freedom to support local causes generously. Your money goes incredibly far, and the Dow-funded amenities make this small town feel like a much larger city."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Custom home on a large lot in Midland's premier neighborhood or lakefront property nearby",
+        "monthlyCost": 3800
+      },
+      "dining": {
+        "description": "Private chef for weekly dinners, fine dining, catered gatherings for friends",
+        "monthlyCost": 900
+      },
+      "groceries": {
+        "monthlyCost": 580
+      },
+      "healthcare": {
+        "description": "Concierge medical practice, premium insurance, wellness programs",
+        "monthlyCost": 850
+      },
+      "transportation": {
+        "description": "Luxury SUV, second vehicle, flights from MBS to Detroit and Chicago hubs",
+        "monthlyCost": 700
+      },
+      "entertainment": {
+        "description": "Major arts patronage, country club membership, Great Lakes sailing, cultural travel",
+        "monthlyCost": 650
+      },
+      "utilities": {
+        "monthlyCost": 280
+      },
+      "domesticHelp": {
+        "description": "Weekly deep cleaning, lawn and garden service, snow removal, property maintenance",
+        "monthlyCost": 500
+      },
+      "luxuryExtras": {
+        "description": "Lakefront cottage, quarterly travel, Dow Gardens major donor events, philanthropy",
+        "monthlyCost": 1500
+      },
+      "lifestyle": "At this level you are Midland royalty. A beautiful custom home, a lakefront cottage for summer weekends, deep involvement with the Center for the Arts and Dow Gardens, and generous community philanthropy. Midland's extraordinary amenities combined with rock-bottom costs make your $5M feel like $10M in a coastal city."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Premier estate in Midland or a sprawling lakefront compound on one of Michigan's inland lakes",
+        "monthlyCost": 6500
+      },
+      "dining": {
+        "description": "Personal chef, exclusive catered events, private wine dinners, farm-to-table sourcing",
+        "monthlyCost": 2000
+      },
+      "groceries": {
+        "monthlyCost": 750
+      },
+      "healthcare": {
+        "description": "Top concierge practice, executive wellness retreats, medical travel for specialists",
+        "monthlyCost": 1100
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, private car service, chartered flights from MBS",
+        "monthlyCost": 1300
+      },
+      "entertainment": {
+        "description": "Transformative arts patronage, international travel, private events, Great Lakes yacht",
+        "monthlyCost": 1800
+      },
+      "utilities": {
+        "monthlyCost": 400
+      },
+      "domesticHelp": {
+        "description": "Full-time estate manager, housekeeper, personal assistant, grounds crew",
+        "monthlyCost": 3700
+      },
+      "luxuryExtras": {
+        "description": "Luxury lake house, first-class travel, major art collection, transformative community giving",
+        "monthlyCost": 5200
+      },
+      "lifestyle": "At $10M in Midland you have the power to shape the community itself. Transformative donations to the Center for the Arts, Dow Gardens, and local schools alongside a magnificent lifestyle that includes a Great Lakes yacht, international travel, and a lakefront compound. In a small town like Midland, this level of wealth creates a lasting legacy."
+    }
+  }
+}

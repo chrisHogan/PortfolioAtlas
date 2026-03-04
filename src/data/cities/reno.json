@@ -1,0 +1,194 @@
+{
+  "name": "Reno",
+  "country": "United States",
+  "region": "North America",
+  "slug": "reno",
+  "emoji": "🇺🇸",
+  "fireScore": 6.0,
+  "tagline": "No State Income Tax, Lake Tahoe Access, and High-Desert Adventure",
+  "description": "Reno has reinvented itself from a casino town into a thriving hub for outdoor enthusiasts and tech workers. Nevada's zero state income tax is a massive draw for FIRE retirees, and Lake Tahoe is just 45 minutes away. The city offers over 300 days of sunshine, a growing food and arts scene, and access to world-class skiing, hiking, and mountain biking. Housing costs have risen but remain well below neighboring California, making Reno a compelling tax-advantaged base for the financially independent.",
+  "tags": {
+    "climate": "arid",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "PST (UTC-8)",
+    "language": "English",
+    "internetSpeed": "150+ Mbps average",
+    "safetyRating": "Moderate – safe in most neighborhoods; standard city precautions downtown",
+    "nearestAirport": "Reno-Tahoe International Airport (RNO)",
+    "climate": "Semi-arid high desert with four seasons; dry summers, snowy winters, and 300+ sunny days",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "52°F / 11°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in the Midtown or Wells Avenue district",
+        "monthlyCost": 1250
+      },
+      "dining": {
+        "description": "Casual Midtown restaurants and tacos 2x/week; mostly home cooking",
+        "monthlyCost": 210
+      },
+      "groceries": {
+        "monthlyCost": 370
+      },
+      "healthcare": {
+        "description": "ACA marketplace Silver plan through Nevada Health Link",
+        "monthlyCost": 490
+      },
+      "transportation": {
+        "description": "Paid-off car with basic insurance; car essential for Tahoe and daily life",
+        "monthlyCost": 250
+      },
+      "entertainment": {
+        "description": "Hiking in the Sierra, Truckee River walks, free Midtown art walks; occasional casino buffet",
+        "monthlyCost": 90
+      },
+      "utilities": {
+        "monthlyCost": 135
+      },
+      "lifestyle": "Reno at $1M is tight but the zero state income tax is a real advantage for FIRE retirees. You can hike the Sierra foothills, walk along the Truckee River, and enjoy Midtown's vibe without spending much. Tahoe day trips are free once you have a car. Budget carefully, but the tax savings alone can make this work."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "2BR apartment in Midtown or a small house in the Southwest Reno area",
+        "monthlyCost": 1850
+      },
+      "dining": {
+        "description": "Dining out 3-4x/week in Midtown and along the Riverwalk; local breweries",
+        "monthlyCost": 480
+      },
+      "groceries": {
+        "monthlyCost": 430
+      },
+      "healthcare": {
+        "description": "ACA Gold plan with dental and vision; manageable deductibles",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "Reliable AWD vehicle for Tahoe winter drives, full coverage insurance",
+        "monthlyCost": 380
+      },
+      "entertainment": {
+        "description": "Mt. Rose ski pass, mountain biking, Artown festival, gym membership, occasional shows",
+        "monthlyCost": 250
+      },
+      "utilities": {
+        "monthlyCost": 165
+      },
+      "lifestyle": "This budget unlocks everything that makes Reno special. A comfortable place in trendy Midtown, a ski pass at Mt. Rose, regular Tahoe weekends, and plenty of dining out. Combined with zero state income tax, your $2M portfolio works harder here than in most Western cities. Weekend trips to Tahoe become a way of life."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR home in Somersett, Caughlin Ranch, or South Reno with mountain views",
+        "monthlyCost": 3000
+      },
+      "dining": {
+        "description": "Regular fine dining at The Depot, Campo, and Reno's best; wine events at local wineries",
+        "monthlyCost": 750
+      },
+      "groceries": {
+        "monthlyCost": 530
+      },
+      "healthcare": {
+        "description": "Premium private insurance with comprehensive coverage and low deductibles",
+        "monthlyCost": 720
+      },
+      "transportation": {
+        "description": "Late-model SUV for mountain roads, premium insurance, snow tires",
+        "monthlyCost": 500
+      },
+      "entertainment": {
+        "description": "Multiple ski passes, golf membership, Burning Man base camp, river rafting trips",
+        "monthlyCost": 450
+      },
+      "utilities": {
+        "monthlyCost": 220
+      },
+      "lifestyle": "At $10K a month with no state income tax, Reno delivers exceptional value. A beautiful home with Sierra views, ski passes at multiple resorts, fine dining in Midtown, and Tahoe as your weekend playground. This is mountain-West living at its finest, with thousands saved annually in taxes compared to neighboring California."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Custom home in Arrowcreek, Montreux, or a luxury Somersett property",
+        "monthlyCost": 5200
+      },
+      "dining": {
+        "description": "Private chef for weekly dinners, fine dining in Reno and Tahoe, exclusive wine events",
+        "monthlyCost": 1200
+      },
+      "groceries": {
+        "monthlyCost": 680
+      },
+      "healthcare": {
+        "description": "Concierge medical practice, premium insurance, executive wellness programs",
+        "monthlyCost": 920
+      },
+      "transportation": {
+        "description": "Luxury SUV, second vehicle, flights from RNO to major West Coast hubs",
+        "monthlyCost": 800
+      },
+      "entertainment": {
+        "description": "Private ski club, Montreux golf membership, heli-skiing, exclusive Tahoe experiences",
+        "monthlyCost": 800
+      },
+      "utilities": {
+        "monthlyCost": 310
+      },
+      "domesticHelp": {
+        "description": "Weekly deep cleaning, snow removal, landscaping, property maintenance",
+        "monthlyCost": 650
+      },
+      "luxuryExtras": {
+        "description": "Tahoe lakefront cabin rentals, quarterly travel, art collecting, philanthropy",
+        "monthlyCost": 1400
+      },
+      "lifestyle": "Reno at $5M is elite Sierra living. A stunning home in a gated mountain community, heli-skiing in the backcountry, private access to Tahoe's best, and all of it tax-free at the state level. You are living the California dream without the California taxes, and keeping hundreds of thousands more in your pocket over time."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Trophy estate in Montreux or Arrowcreek with panoramic Sierra and valley views",
+        "monthlyCost": 9200
+      },
+      "dining": {
+        "description": "Personal chef, exclusive wine dinners, catered events, private dining experiences",
+        "monthlyCost": 2600
+      },
+      "groceries": {
+        "monthlyCost": 880
+      },
+      "healthcare": {
+        "description": "Top-tier concierge practice, medical travel for specialists, full wellness team",
+        "monthlyCost": 1250
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, private car service, chartered flights from RNO",
+        "monthlyCost": 1500
+      },
+      "entertainment": {
+        "description": "Major arts patronage, international ski trips, private events, exclusive club memberships",
+        "monthlyCost": 2100
+      },
+      "utilities": {
+        "monthlyCost": 480
+      },
+      "domesticHelp": {
+        "description": "Full-time estate manager, housekeeper, personal assistant, groundskeeper",
+        "monthlyCost": 4200
+      },
+      "luxuryExtras": {
+        "description": "Tahoe lakefront property, first-class international travel, art collection, major philanthropy",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At $10M in Nevada you pay zero state income tax on every dollar withdrawn, saving potentially hundreds of thousands annually. Add a Sierra estate, a Tahoe lakefront property, chartered flights, and deep philanthropic involvement in the growing Reno community. This is one of the most tax-efficient luxury lifestyles in America."
+    }
+  }
+}

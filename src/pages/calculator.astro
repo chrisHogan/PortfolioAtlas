@@ -21,6 +21,7 @@ const cityData = allCities.map((city) => {
     emoji: city.emoji,
     region: city.region,
     fireScore: city.fireScore,
+    tags: city.tags,
     tiers,
   };
 });
@@ -32,11 +33,13 @@ const tierValues: { key: TierKey; value: number }[] = [
   { key: '5M', value: 5_000_000 },
   { key: '10M', value: 10_000_000 },
 ];
+
+const totalCities = allCities.length;
 ---
 
 <Layout
   title="Net Worth Calculator"
-  description="Enter your portfolio value and see personalized lifestyle breakdowns across 25 cities worldwide."
+  description={`Enter your portfolio value and see personalized lifestyle breakdowns across ${totalCities} cities worldwide.`}
 >
   <!-- Hero -->
   <section class="bg-brand-950 text-white py-12">
@@ -45,7 +48,7 @@ const tierValues: { key: TierKey; value: number }[] = [
         Your Personalized Results
       </h1>
       <p class="text-xl text-sand-300 max-w-2xl mx-auto mb-8">
-        See what your portfolio buys you in 25 cities worldwide.
+        See what your portfolio buys you in {totalCities} cities worldwide.
       </p>
       <NetWorthInput />
     </div>
@@ -61,7 +64,7 @@ const tierValues: { key: TierKey; value: number }[] = [
         Enter Your Portfolio Value
       </h2>
       <p class="text-gray-600 mb-6">
-        Use the input above to enter your net worth and see personalized results across all 25 cities.
+        Use the input above to enter your net worth and see personalized results across all {totalCities} cities.
       </p>
       <p class="text-sm text-gray-500">
         Or <a href="/" class="text-brand-600 hover:underline font-medium">browse preset tiers</a> ($1M–$10M).
@@ -82,7 +85,7 @@ const tierValues: { key: TierKey; value: number }[] = [
         <div class="bg-white rounded-2xl border border-sand-200 p-5 text-center">
           <div class="text-sm text-gray-500 mb-1">Cities with Surplus</div>
           <div id="summary-surplus-count" class="text-2xl font-bold text-emerald-600"></div>
-          <div class="text-xs text-gray-400 mt-1">of 25 destinations</div>
+          <div id="summary-surplus-subtitle" class="text-xs text-gray-400 mt-1"></div>
         </div>
         <div class="bg-white rounded-2xl border border-sand-200 p-5 text-center">
           <div class="text-sm text-gray-500 mb-1">Best Match</div>
@@ -92,10 +95,45 @@ const tierValues: { key: TierKey; value: number }[] = [
       </div>
     </section>
 
+    <!-- Filter Bar -->
+    <section class="container-wide py-4">
+      <div class="flex flex-wrap items-center gap-6">
+        <!-- Location Filter -->
+        <div class="flex items-center gap-2">
+          <span class="text-xs font-semibold text-gray-500 uppercase tracking-wide">Location</span>
+          <div class="flex gap-1">
+            <button data-filter="loc" data-value="" class="filter-btn px-3 py-1.5 text-sm font-medium rounded-full">All</button>
+            <button data-filter="loc" data-value="us" class="filter-btn px-3 py-1.5 text-sm font-medium rounded-full">US Only</button>
+            <button data-filter="loc" data-value="intl" class="filter-btn px-3 py-1.5 text-sm font-medium rounded-full">International</button>
+          </div>
+        </div>
+
+        <!-- Climate Filter -->
+        <div class="flex items-center gap-2">
+          <span class="text-xs font-semibold text-gray-500 uppercase tracking-wide">Climate</span>
+          <div class="flex gap-1">
+            <button data-filter="climate" data-value="" class="filter-btn px-3 py-1.5 text-sm font-medium rounded-full">Any</button>
+            <button data-filter="climate" data-value="warm" class="filter-btn px-3 py-1.5 text-sm font-medium rounded-full">Warm & Sunny</button>
+            <button data-filter="climate" data-value="mild" class="filter-btn px-3 py-1.5 text-sm font-medium rounded-full">Mild & Temperate</button>
+            <button data-filter="climate" data-value="four" class="filter-btn px-3 py-1.5 text-sm font-medium rounded-full">Four Seasons</button>
+          </div>
+        </div>
+
+        <!-- English Filter -->
+        <div class="flex items-center gap-2">
+          <span class="text-xs font-semibold text-gray-500 uppercase tracking-wide">English</span>
+          <div class="flex gap-1">
+            <button data-filter="eng" data-value="" class="filter-btn px-3 py-1.5 text-sm font-medium rounded-full">Any</button>
+            <button data-filter="eng" data-value="yes" class="filter-btn px-3 py-1.5 text-sm font-medium rounded-full">English Essential</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- City Rankings -->
     <section class="container-wide py-8">
       <h2 class="font-serif text-2xl font-bold text-brand-950 mb-6">
-        All Cities Ranked by Surplus
+        Cities Ranked by Best Match
       </h2>
 
       <div class="overflow-x-auto">
@@ -113,6 +151,14 @@ const tierValues: { key: TierKey; value: number }[] = [
           <tbody id="city-rankings"></tbody>
         </table>
       </div>
+
+      <!-- Show More -->
+      <div id="show-more-container" class="text-center py-6 hidden">
+        <button id="show-more-btn" class="px-6 py-2.5 bg-white border border-sand-200 rounded-full text-sm font-medium text-gray-700 hover:bg-sand-50 transition-all">
+          Show 10 more
+        </button>
+        <p id="show-more-count" class="text-xs text-gray-400 mt-2"></p>
+      </div>
     </section>
   </div>
 
@@ -125,7 +171,7 @@ const tierValues: { key: TierKey; value: number }[] = [
   </section>
 </Layout>
 
-<script define:vars={{ cityData, tierValues }}>
+<script define:vars={{ cityData, tierValues, totalCities }}>
   function initCalculator() {
     const params = new URLSearchParams(window.location.search);
     const nwParam = params.get('nw');
@@ -147,6 +193,11 @@ const tierValues: { key: TierKey; value: number }[] = [
     results?.classList.remove('hidden');
 
     const monthlyBudget = Math.round((netWorth * 0.04) / 12);
+
+    // Read filter params
+    const locFilter = params.get('loc') || '';
+    const climateFilter = params.get('climate') || '';
+    const engFilter = params.get('eng') || '';
 
     function getClosestTier(nw) {
       let closest = tierValues[0];
@@ -171,64 +222,201 @@ const tierValues: { key: TierKey; value: number }[] = [
       return 'fire-score-low';
     }
 
+    // Climate filter mapping
+    const warmClimates = ['tropical', 'subtropical', 'desert', 'arid'];
+    const mildClimates = ['mediterranean'];
+    const fourSeasonClimates = ['continental'];
+
+    function passesFilters(city) {
+      // Location filter
+      if (locFilter === 'us' && city.country !== 'United States') return false;
+      if (locFilter === 'intl' && city.country === 'United States') return false;
+
+      // Climate filter
+      if (climateFilter === 'warm' && !warmClimates.includes(city.tags.climate)) return false;
+      if (climateFilter === 'mild' && !mildClimates.includes(city.tags.climate)) return false;
+      if (climateFilter === 'four' && !fourSeasonClimates.includes(city.tags.climate)) return false;
+
+      // English filter
+      if (engFilter === 'yes' && city.tags.english !== 'high') return false;
+
+      return true;
+    }
+
+    // Preference alignment score
+    function getPrefAlignment(city) {
+      let activeFilters = 0;
+      let matched = 0;
+
+      if (locFilter) {
+        activeFilters++;
+        if (locFilter === 'us' && city.country === 'United States') matched++;
+        if (locFilter === 'intl' && city.country !== 'United States') matched++;
+      }
+      if (climateFilter) {
+        activeFilters++;
+        if (climateFilter === 'warm' && warmClimates.includes(city.tags.climate)) matched++;
+        if (climateFilter === 'mild' && mildClimates.includes(city.tags.climate)) matched++;
+        if (climateFilter === 'four' && fourSeasonClimates.includes(city.tags.climate)) matched++;
+      }
+      if (engFilter) {
+        activeFilters++;
+        if (engFilter === 'yes' && city.tags.english === 'high') matched++;
+      }
+
+      return activeFilters === 0 ? 1.0 : matched / activeFilters;
+    }
+
     const closestTier = getClosestTier(netWorth);
 
-    // Compute surplus for each city using closest tier's cost data
-    const ranked = cityData.map((city) => {
+    // Compute surplus for each city
+    const allWithSurplus = cityData.map((city) => {
       const tierData = city.tiers[closestTier];
       const surplus = monthlyBudget - tierData.totalSpend;
-      return { ...city, totalSpend: tierData.totalSpend, surplus, usedTier: closestTier };
-    }).sort((a, b) => b.surplus - a.surplus);
+      const surplusRatio = surplus / monthlyBudget;
+      return { ...city, totalSpend: tierData.totalSpend, surplus, surplusRatio, usedTier: closestTier };
+    });
+
+    // Filter cities
+    const filtered = allWithSurplus.filter(passesFilters);
+
+    // Composite scoring
+    const surplusRatios = filtered.map((c) => c.surplusRatio);
+    const minSurplus = Math.min(...surplusRatios);
+    const maxSurplus = Math.max(...surplusRatios);
+    const surplusRange = maxSurplus - minSurplus || 1;
+
+    const ranked = filtered.map((city) => {
+      const normalizedSurplus = (city.surplusRatio - minSurplus) / surplusRange;
+      const normalizedFire = city.fireScore / 10;
+      const prefAlignment = getPrefAlignment(city);
+      const compositeScore = 0.40 * normalizedSurplus + 0.35 * normalizedFire + 0.25 * prefAlignment;
+      return { ...city, compositeScore };
+    }).sort((a, b) => b.compositeScore - a.compositeScore);
+
+    // Activate filter buttons based on URL params
+    document.querySelectorAll('.filter-btn').forEach((btn) => {
+      const filterName = btn.getAttribute('data-filter');
+      const filterValue = btn.getAttribute('data-value');
+      let currentValue = '';
+      if (filterName === 'loc') currentValue = locFilter;
+      if (filterName === 'climate') currentValue = climateFilter;
+      if (filterName === 'eng') currentValue = engFilter;
+
+      if (filterValue === currentValue) {
+        btn.classList.add('active');
+      }
+    });
+
+    // Filter button click handlers
+    document.querySelectorAll('.filter-btn').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const filterName = btn.getAttribute('data-filter');
+        const filterValue = btn.getAttribute('data-value');
+        const newParams = new URLSearchParams(window.location.search);
+
+        if (filterValue) {
+          newParams.set(filterName, filterValue);
+        } else {
+          newParams.delete(filterName);
+        }
+
+        window.location.href = '/calculator?' + newParams.toString();
+      });
+    });
 
     // Summary cards
     const budgetEl = document.getElementById('summary-budget');
     const surplusCountEl = document.getElementById('summary-surplus-count');
+    const surplusSubEl = document.getElementById('summary-surplus-subtitle');
     const bestEl = document.getElementById('summary-best');
     const bestSurplusEl = document.getElementById('summary-best-surplus');
 
     if (budgetEl) budgetEl.textContent = fmtCurrency(monthlyBudget) + '/mo';
     const surplusCount = ranked.filter((c) => c.surplus >= 0).length;
     if (surplusCountEl) surplusCountEl.textContent = String(surplusCount);
+    if (surplusSubEl) surplusSubEl.textContent = 'of ' + ranked.length + ' matching cities';
     if (ranked.length > 0) {
       if (bestEl) bestEl.textContent = ranked[0].emoji + ' ' + ranked[0].name;
-      if (bestSurplusEl) bestSurplusEl.textContent = '+' + fmtCurrency(ranked[0].surplus) + '/mo surplus';
+      if (bestSurplusEl) {
+        const prefix = ranked[0].surplus >= 0 ? '+' : '';
+        bestSurplusEl.textContent = prefix + fmtCurrency(ranked[0].surplus) + '/mo surplus';
+        if (ranked[0].surplus < 0) bestSurplusEl.className = 'text-xs text-red-600 mt-1';
+      }
     }
 
-    // Render rankings table
+    // Build filter params string for city links
+    const filterParamStr = ['loc', 'climate', 'eng']
+      .filter((k) => params.get(k))
+      .map((k) => k + '=' + params.get(k))
+      .join('&');
+
+    // Progressive disclosure
+    let visibleCount = 10;
     const tbody = document.getElementById('city-rankings');
-    if (!tbody) return;
+    const showMoreContainer = document.getElementById('show-more-container');
+    const showMoreBtn = document.getElementById('show-more-btn');
+    const showMoreCount = document.getElementById('show-more-count');
 
-    ranked.forEach((city, index) => {
-      const tr = document.createElement('tr');
-      tr.className = 'border-b border-sand-100 hover:bg-sand-50 transition-colors';
+    function renderRows() {
+      if (!tbody) return;
+      tbody.innerHTML = '';
 
-      const surplusClass = city.surplus >= 0 ? 'text-emerald-600' : 'text-red-600';
-      const surplusPrefix = city.surplus >= 0 ? '+' : '';
-      const scoreClass = getScoreClass(city.fireScore);
+      const toShow = ranked.slice(0, visibleCount);
+      toShow.forEach((city, index) => {
+        const tr = document.createElement('tr');
+        tr.className = 'border-b border-sand-100 hover:bg-sand-50 transition-colors';
 
-      tr.innerHTML = `
-        <td class="py-3 px-4 text-gray-400 font-medium">${index + 1}</td>
-        <td class="py-3 px-4">
-          <a href="/cities/${city.slug}?nw=${netWorth}" class="flex items-center gap-2 hover:text-brand-600 transition-colors">
-            <span>${city.emoji}</span>
-            <span class="font-medium">${city.name}</span>
-            <span class="text-gray-400 text-xs">${city.country}</span>
-          </a>
-        </td>
-        <td class="text-right py-3 px-4">
-          <span class="inline-flex items-center justify-center w-8 h-8 rounded-full text-white text-xs font-bold ${scoreClass}">
-            ${city.fireScore.toFixed(1)}
-          </span>
-        </td>
-        <td class="text-right py-3 px-4 text-gray-500">$${city.usedTier}</td>
-        <td class="text-right py-3 px-4 font-bold">${fmtCurrency(city.totalSpend)}</td>
-        <td class="text-right py-3 px-4 font-bold ${surplusClass}">
-          ${surplusPrefix}${fmtCurrency(city.surplus)}
-        </td>
-      `;
+        const surplusClass = city.surplus >= 0 ? 'text-emerald-600' : 'text-red-600';
+        const surplusPrefix = city.surplus >= 0 ? '+' : '';
+        const scoreClass = getScoreClass(city.fireScore);
 
-      tbody.appendChild(tr);
-    });
+        const linkParams = 'nw=' + netWorth + (filterParamStr ? '&' + filterParamStr : '');
+
+        tr.innerHTML = `
+          <td class="py-3 px-4 text-gray-400 font-medium">${index + 1}</td>
+          <td class="py-3 px-4">
+            <a href="/cities/${city.slug}?${linkParams}" class="flex items-center gap-2 hover:text-brand-600 transition-colors">
+              <span>${city.emoji}</span>
+              <span class="font-medium">${city.name}</span>
+              <span class="text-gray-400 text-xs">${city.country}</span>
+            </a>
+          </td>
+          <td class="text-right py-3 px-4">
+            <span class="inline-flex items-center justify-center w-8 h-8 rounded-full text-white text-xs font-bold ${scoreClass}">
+              ${city.fireScore.toFixed(1)}
+            </span>
+          </td>
+          <td class="text-right py-3 px-4 text-gray-500">$${city.usedTier}</td>
+          <td class="text-right py-3 px-4 font-bold">${fmtCurrency(city.totalSpend)}</td>
+          <td class="text-right py-3 px-4 font-bold ${surplusClass}">
+            ${surplusPrefix}${fmtCurrency(city.surplus)}
+          </td>
+        `;
+
+        tbody.appendChild(tr);
+      });
+
+      // Update show more button
+      if (showMoreContainer && showMoreBtn && showMoreCount) {
+        if (visibleCount < ranked.length) {
+          showMoreContainer.classList.remove('hidden');
+          const remaining = ranked.length - visibleCount;
+          showMoreCount.textContent = 'Showing ' + visibleCount + ' of ' + ranked.length + ' cities';
+        } else {
+          showMoreContainer.classList.add('hidden');
+        }
+      }
+    }
+
+    if (showMoreBtn) {
+      showMoreBtn.addEventListener('click', () => {
+        visibleCount += 10;
+        renderRows();
+      });
+    }
+
+    renderRows();
   }
 
   initCalculator();

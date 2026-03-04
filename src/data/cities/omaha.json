@@ -1,0 +1,194 @@
+{
+  "name": "Omaha",
+  "country": "United States",
+  "region": "North America",
+  "slug": "omaha",
+  "emoji": "🇺🇸",
+  "fireScore": 6.5,
+  "tagline": "Warren Buffett's Hometown, Incredible Steakhouses, and a Thriving Arts Scene",
+  "description": "Omaha is proof that a low cost of living and a high quality of life are not mutually exclusive. Warren Buffett chose to stay here for a reason: the city offers exceptional value, a surprisingly sophisticated dining and arts scene, and a strong sense of community. Omaha's Old Market district is packed with galleries, restaurants, and live music, while the Henry Doorly Zoo is consistently ranked among the world's best. Housing is remarkably affordable, the steak is legendary, and a growing tech and startup scene gives the city a forward-looking energy that defies Midwestern stereotypes.",
+  "tags": {
+    "climate": "continental",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "CST (UTC-6)",
+    "language": "English",
+    "internetSpeed": "200+ Mbps average",
+    "safetyRating": "Moderate to High – safe suburbs with typical urban core variability",
+    "nearestAirport": "Eppley Airfield (OMA)",
+    "climate": "Continental with hot summers, cold winters, and dramatic seasonal changes",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "51°F / 11°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in Benson, Dundee, or Aksarben Village",
+        "monthlyCost": 1000
+      },
+      "dining": {
+        "description": "Steakhouse happy hours, Old Market casual dining 2-3x/week; cooking at home most nights",
+        "monthlyCost": 210
+      },
+      "groceries": {
+        "monthlyCost": 330
+      },
+      "healthcare": {
+        "description": "ACA marketplace Silver plan; Nebraska marketplace premiums are moderate",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "Paid-off car with basic insurance and gas; car is necessary in Omaha",
+        "monthlyCost": 250
+      },
+      "entertainment": {
+        "description": "Free First Friday art walks in the Old Market, Heartland of America Park, Joslyn Art Museum, public trails",
+        "monthlyCost": 75
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "Omaha is one of the most affordable major cities in America, and $1M goes surprisingly far. You can rent a solid apartment in a hip neighborhood like Benson or Dundee, eat at legendary steakhouses on occasion, and enjoy the Old Market's galleries and live music on a shoestring. Winters are cold and will test your resolve, but the low housing costs and vibrant community culture more than compensate. This budget leaves a small but meaningful cushion."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "2BR home in Dundee, Aksarben, or a renovated condo in the Old Market",
+        "monthlyCost": 1600
+      },
+      "dining": {
+        "description": "Regular dining at Gorat's, V. Mertz, and the Boiler Room 3-4x/week; weekend steakhouse dinners",
+        "monthlyCost": 480
+      },
+      "groceries": {
+        "monthlyCost": 420
+      },
+      "healthcare": {
+        "description": "ACA Gold plan with dental and vision; access to Nebraska Medicine and UNMC",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "Reliable mid-range car, full coverage insurance, gas and maintenance",
+        "monthlyCost": 360
+      },
+      "entertainment": {
+        "description": "Henry Doorly Zoo membership, Omaha Community Playhouse season tickets, Creighton basketball, gym",
+        "monthlyCost": 270
+      },
+      "utilities": {
+        "monthlyCost": 170
+      },
+      "lifestyle": "At $2M, Omaha becomes deeply comfortable and genuinely fun. You can settle into the charming Dundee neighborhood (where Buffett himself lives in a modest home), enjoy the city's nationally acclaimed steakhouses regularly, catch Creighton basketball, and take full advantage of the Old Market arts scene. The Henry Doorly Zoo alone is worth the move. Generous surplus means travel and hobbies are well within reach."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR home in Regency, Rockbrook, or a luxury condo overlooking the Missouri River",
+        "monthlyCost": 2500
+      },
+      "dining": {
+        "description": "Fine dining at The Grey Plume, Dario's Brasserie, and Mahogany Prime; regular steak nights and wine pairings",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 520
+      },
+      "healthcare": {
+        "description": "Premium private insurance with comprehensive coverage through Nebraska Medicine",
+        "monthlyCost": 700
+      },
+      "transportation": {
+        "description": "Late-model SUV, premium insurance, road trips through Nebraska's Sandhills and wine country",
+        "monthlyCost": 430
+      },
+      "entertainment": {
+        "description": "Premium College World Series tickets, Orpheum Theater season pass, private golf club, Joslyn Museum patron",
+        "monthlyCost": 480
+      },
+      "utilities": {
+        "monthlyCost": 220
+      },
+      "lifestyle": "At $10K per month, Omaha delivers an extraordinarily rich life at a price that would barely cover basics in a coastal city. A beautiful home in one of the city's best neighborhoods, regular reservations at James Beard-nominated restaurants, premium seats for the College World Series, and enough surplus to fund travel and hobbies generously. Omaha's value proposition at this tier is nearly unmatched in America."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury estate in Happy Hollow, Fairacres, or a riverfront property in Council Bluffs with Omaha views",
+        "monthlyCost": 4000
+      },
+      "dining": {
+        "description": "Private chef for dinner parties, fine dining multiple nights per week, exclusive Berkshire weekend events",
+        "monthlyCost": 1200
+      },
+      "groceries": {
+        "monthlyCost": 650
+      },
+      "healthcare": {
+        "description": "Concierge medicine through Nebraska Medicine, executive health screenings, comprehensive private insurance",
+        "monthlyCost": 900
+      },
+      "transportation": {
+        "description": "Luxury vehicle, premium insurance, detailing service, weekend road trip vehicle",
+        "monthlyCost": 750
+      },
+      "entertainment": {
+        "description": "Happy Hollow Club membership, Berkshire Hathaway shareholder meeting VIP access, arts patronage, CWS suite",
+        "monthlyCost": 850
+      },
+      "utilities": {
+        "monthlyCost": 300
+      },
+      "domesticHelp": {
+        "description": "Weekly house cleaning, landscaping, snow removal service, occasional personal assistant",
+        "monthlyCost": 650
+      },
+      "luxuryExtras": {
+        "description": "Quarterly travel, wine cellar curation, Berkshire shareholder events, philanthropic giving, art collecting",
+        "monthlyCost": 1300
+      },
+      "lifestyle": "You are living like Omaha's elite. A grand home in the prestigious Happy Hollow area, membership at the city's top country club, a private chef who has mastered prime Nebraska beef, and a front-row seat at the Berkshire Hathaway annual meeting. Your generous surplus funds travel, philanthropy, and investments -- very much in the Buffett spirit of this remarkable city."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Historic estate in Fairacres or a sprawling property along the Missouri River bluffs",
+        "monthlyCost": 7500
+      },
+      "dining": {
+        "description": "Full-time personal chef, catered events, private dining experiences, exclusive culinary travel",
+        "monthlyCost": 2500
+      },
+      "groceries": {
+        "monthlyCost": 850
+      },
+      "healthcare": {
+        "description": "Top-tier concierge practice at UNMC, executive wellness programs, specialist access at Mayo Clinic",
+        "monthlyCost": 1400
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, private car service, chartered flights from OMA, classic car collection",
+        "monthlyCost": 1500
+      },
+      "entertainment": {
+        "description": "Major zoo and arts philanthropy, private suite for CWS, international travel, Berkshire inner-circle events",
+        "monthlyCost": 2500
+      },
+      "utilities": {
+        "monthlyCost": 450
+      },
+      "domesticHelp": {
+        "description": "Full-time estate manager, housekeeper, personal assistant, grounds crew, snow and pool service",
+        "monthlyCost": 3800
+      },
+      "luxuryExtras": {
+        "description": "First-class international travel, major philanthropic endowments, ranch property in the Sandhills, art patronage",
+        "monthlyCost": 4800
+      },
+      "lifestyle": "At $10M, you join Omaha's philanthropic elite -- the city that produced Warren Buffett, whose own modest lifestyle philosophy permeates the culture. A magnificent estate, a personal chef, chartered flights, and deep involvement in the institutions that make Omaha special: the Henry Doorly Zoo, the Joslyn Art Museum, and the university. The enormous surplus at this spending level in Omaha means your wealth continues to compound even as you live lavishly."
+    }
+  }
+}

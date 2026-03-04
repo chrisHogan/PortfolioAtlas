@@ -3,10 +3,14 @@
   "country": "Greece",
   "region": "Europe",
   "slug": "athens",
-  "emoji": "\ud83c\uddec\ud83c\uddf7",
+  "emoji": "🇬🇷",
   "fireScore": 7,
   "tagline": "Ancient Civilization Meets Modern FIRE Living",
   "description": "Athens combines 3,000 years of history with surprisingly affordable Mediterranean living. The Greek Golden Visa program, generous non-dom tax options, and low cost of living make it an increasingly popular FIRE destination. Add island-hopping from Piraeus, year-round sunshine, and some of Europe's best street food, and Athens punches well above its weight.",
+  "tags": {
+    "climate": "mediterranean",
+    "english": "high"
+  },
   "quickFacts": {
     "visa": "Golden Visa via real estate investment (€250K+ in select areas). Financially Independent Person visa also available. Non-dom flat tax option for foreign income.",
     "timezone": "UTC+2 (EET) / UTC+3 (EEST summer)",

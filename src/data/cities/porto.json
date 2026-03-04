@@ -3,10 +3,14 @@
   "country": "Portugal",
   "region": "Europe",
   "slug": "porto",
-  "emoji": "\ud83c\uddf5\ud83c\uddf9",
+  "emoji": "🇵🇹",
   "fireScore": 8,
   "tagline": "Portugal's Riverside Gem for Affordable European Retirement",
   "description": "Porto offers everything Lisbon does for FIRE — the D7 visa, NHR tax benefits, and excellent healthcare — but at 15-20% lower costs with arguably more authentic Portuguese character. The Douro Valley at your doorstep, a UNESCO-listed city center, and a tight-knit expat community make it ideal for those who want substance over flash.",
+  "tags": {
+    "climate": "mediterranean",
+    "english": "moderate"
+  },
   "quickFacts": {
     "visa": "D7 Passive Income Visa (same as Lisbon). NHR tax regime applies nationwide. Path to permanent residency and citizenship.",
     "timezone": "UTC+0 (WET) / UTC+1 (WEST summer)",

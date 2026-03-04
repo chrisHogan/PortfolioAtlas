@@ -1,0 +1,194 @@
+{
+  "name": "Cuenca",
+  "country": "Ecuador",
+  "region": "Latin America",
+  "slug": "cuenca",
+  "emoji": "🇪🇨",
+  "fireScore": 8.5,
+  "tagline": "Colonial Charm and Eternal Spring — Retire on USD in the Andes",
+  "description": "Cuenca is the crown jewel of FIRE retirement in Latin America. This UNESCO World Heritage city in the Ecuadorian Andes offers eternal spring weather, a thriving and welcoming expat community, world-class healthcare at rock-bottom prices, and the enormous advantage of using the US dollar as its currency — eliminating exchange rate risk entirely.",
+  "tags": {
+    "climate": "subtropical",
+    "english": "moderate"
+  },
+  "quickFacts": {
+    "visa": "Retirement Visa (Jubilado; requires $1,400/mo pension income). Investor and Professional visas also available. Path to citizenship after 3 years.",
+    "timezone": "UTC-5 (Ecuador Time)",
+    "language": "Spanish",
+    "internetSpeed": "30-100 Mbps (fiber expanding in urban areas)",
+    "safetyRating": "Safe — one of Ecuador's safest cities, standard precautions in markets and at night",
+    "nearestAirport": "Mariscal Lamar Airport (CUE) — 10 min from city center; connect through Quito or Guayaquil for international flights",
+    "climate": "Subtropical highland with eternal spring — 55-75°F year-round with a mild rainy season (Jan-May)",
+    "englishFriendly": "Moderate",
+    "currency": "United States Dollar (USD)",
+    "averageTemp": "15°C / 59°F"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Furnished 2-bedroom apartment in El Centro or near the Tomebamba River with colonial charm",
+        "monthlyCost": 500
+      },
+      "dining": {
+        "description": "Almuerzos (set lunches) for $2.50-3.50, local restaurants, weekend market food, café culture",
+        "monthlyCost": 300
+      },
+      "groceries": {
+        "monthlyCost": 200
+      },
+      "healthcare": {
+        "description": "IESS public insurance enrollment ($80/mo) plus cash-pay visits to excellent private clinics like Hospital Monte Sinaí",
+        "monthlyCost": 120
+      },
+      "transportation": {
+        "description": "City buses at $0.30/ride, taxis across town for $2-3, walkable historic center",
+        "monthlyCost": 50
+      },
+      "entertainment": {
+        "description": "Cajas National Park hikes, free cathedral visits, expat meetups, local concert scene, river walks",
+        "monthlyCost": 150
+      },
+      "utilities": {
+        "monthlyCost": 60
+      },
+      "lifestyle": "Cuenca is the ultimate lean-FIRE destination. Your charming colonial apartment is a walk from the flower market, $3 almuerzos keep you fed in style, and weekends mean hiking through Cajas National Park's otherworldly páramo landscape. The expat community is large and welcoming, and you never worry about currency conversion — it is all in dollars."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Spacious 3-bedroom apartment or small house in Yanuncay or El Vergel with garden and mountain views",
+        "monthlyCost": 900
+      },
+      "dining": {
+        "description": "Mix of local almuerzos, international restaurants, Italian and sushi spots, regular café brunch",
+        "monthlyCost": 550
+      },
+      "groceries": {
+        "monthlyCost": 350
+      },
+      "healthcare": {
+        "description": "Comprehensive private insurance with Hospital Santa Inés access, dental work, annual checkups",
+        "monthlyCost": 200
+      },
+      "transportation": {
+        "description": "Frequent taxi and rideshare use, weekend car rental for trips to Ingapirca or Guayaquil coast",
+        "monthlyCost": 120
+      },
+      "entertainment": {
+        "description": "Gym membership, Spanish classes, weekend trips to coastal beaches, Cuenca arts scene, cooking classes",
+        "monthlyCost": 400
+      },
+      "utilities": {
+        "monthlyCost": 90
+      },
+      "lifestyle": "With $2M in Cuenca, you live extremely well. Your house in Yanuncay has a garden where hummingbirds visit daily, you eat at international restaurants without checking the bill, and weekends mean road trips to the coast or exploring Inca ruins at Ingapirca. Spanish classes accelerate your integration into a warm and generous local culture."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Luxury 4-bedroom house in Challuabamba or a renovated colonial home in El Centro with courtyard and modern finishes",
+        "monthlyCost": 1800
+      },
+      "dining": {
+        "description": "Fine dining at Cuenca's best restaurants weekly, private cooking classes, curated wine dinners",
+        "monthlyCost": 1000
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "Premium private insurance, top specialists, annual executive health screening, dental implants at a fraction of US cost",
+        "monthlyCost": 350
+      },
+      "transportation": {
+        "description": "Owned or leased SUV for mountain excursions, regular taxi use, domestic flights to Quito and the Galápagos",
+        "monthlyCost": 400
+      },
+      "entertainment": {
+        "description": "Country club membership, guided Galápagos trips, artisan workshop sponsorship, weekend hacienda stays",
+        "monthlyCost": 900
+      },
+      "utilities": {
+        "monthlyCost": 130
+      },
+      "lifestyle": "Your colonial home's interior courtyard is filled with orchids and the sound of a fountain. A short drive takes you to cloud forests, hot springs, or Inca ruins. Cuenca's art and music scene becomes your social orbit, and annual Galápagos trips are comfortably in budget. At this level, you experience the very best Ecuador offers while spending a fraction of what you would in the States."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Stunning hacienda-style estate in the Cuenca countryside or the finest restored colonial mansion in El Centro with rooftop terrace",
+        "monthlyCost": 3000
+      },
+      "dining": {
+        "description": "Private chef preparing Ecuadorian and international cuisine, exclusive hosted dinners, imported ingredients",
+        "monthlyCost": 1800
+      },
+      "groceries": {
+        "monthlyCost": 650
+      },
+      "healthcare": {
+        "description": "Top-tier private insurance with international coverage, fly-to-Miami option for major procedures, personal physician",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "Luxury SUV with part-time driver, domestic flights, private transfers to Guayaquil airport",
+        "monthlyCost": 700
+      },
+      "entertainment": {
+        "description": "Annual Galápagos yacht charter, private cloud forest excursions, art collecting, cultural festival VIP access",
+        "monthlyCost": 1500
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "domesticHelp": {
+        "description": "Full-time live-in housekeeper/cook, part-time gardener, weekly laundry service",
+        "monthlyCost": 600
+      },
+      "luxuryExtras": {
+        "description": "Galápagos property rental, bespoke Panama hat commissions in nearby towns, charitable projects supporting local artisans",
+        "monthlyCost": 1500
+      },
+      "lifestyle": "Your countryside hacienda looks out over a valley of green pastures and the distant Andes. A full-time cook prepares fresh ceviche and locro de papa alongside international favorites, and your driver takes you into the colonial center whenever the mood strikes. Annual Galápagos yacht charters and cloud forest retreats round out a life of extraordinary comfort at prices that still feel surreal."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Grand estate with multiple structures, gardens, and panoramic Andean views, plus a beach property on the Ecuadorian coast",
+        "monthlyCost": 6000
+      },
+      "dining": {
+        "description": "Private chef team, rare ingredient sourcing, legendary dinner parties, wine cellar curation with South American and European bottles",
+        "monthlyCost": 3200
+      },
+      "groceries": {
+        "monthlyCost": 900
+      },
+      "healthcare": {
+        "description": "Global concierge medicine, dedicated medical team, annual US or European health retreats, longevity programs",
+        "monthlyCost": 800
+      },
+      "transportation": {
+        "description": "Luxury vehicle collection, full-time chauffeur, private flights to Quito and Guayaquil, international first-class travel",
+        "monthlyCost": 2500
+      },
+      "entertainment": {
+        "description": "Philanthropic foundations supporting Ecuadorian arts and education, private Galápagos expeditions, international travel, art patronage",
+        "monthlyCost": 3500
+      },
+      "utilities": {
+        "monthlyCost": 400
+      },
+      "domesticHelp": {
+        "description": "Full household staff: chef, two housekeepers, gardener, driver, groundskeeper, personal assistant",
+        "monthlyCost": 2200
+      },
+      "luxuryExtras": {
+        "description": "Coastal vacation home management, cacao plantation investment, Galápagos conservation sponsorship, bespoke cultural tours of Ecuador",
+        "monthlyCost": 4800
+      },
+      "lifestyle": "At $10M in Cuenca, you are one of the most prominent figures in the expatriate community and a beloved patron of local culture. Your Andean estate is legendary for its gardens and hospitality, your coastal retreat offers Pacific sunsets, and your Galápagos conservation work earns international recognition. Ecuador gives back tenfold at this level — an extraordinary life woven deeply into one of the most biodiverse countries on Earth."
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "name": "Chania",
+  "country": "Greece",
+  "region": "Europe",
+  "slug": "chania",
+  "emoji": "🇬🇷",
+  "fireScore": 7.2,
+  "tagline": "Venetian Charm and Cretan Soul on the Mediterranean's Most Beautiful Harbor",
+  "description": "Chania is Crete's crown jewel — a Venetian-era port city where cobblestone alleys open onto one of the Mediterranean's most photographed harbors. Slower-paced and more affordable than Athens, Chania offers world-class Cretan cuisine, crystal-clear waters, and a growing expat community drawn by the island's legendary hospitality. The Greek Golden Visa, mild year-round climate, and deeply rooted food culture make it an irresistible FIRE destination for those who want European living without the European price tag.",
+  "tags": {
+    "climate": "mediterranean",
+    "english": "moderate"
+  },
+  "quickFacts": {
+    "visa": "Golden Visa via real estate investment (€250K+ in select areas). Financially Independent Person visa also available. Non-dom flat tax option for foreign income.",
+    "timezone": "UTC+2 (EET) / UTC+3 (EEST summer)",
+    "language": "Greek",
+    "internetSpeed": "30-100 Mbps (fiber expanding across Crete)",
+    "safetyRating": "Very Safe — extremely low crime, welcoming locals, one of the safest places in Europe",
+    "nearestAirport": "Chania International Airport Ioannis Daskalogiannis (CHQ) — 15 min from city center",
+    "climate": "Mediterranean with mild, rainy winters (10-15°C) and hot, dry summers (26-33°C). 300+ sunny days per year.",
+    "englishFriendly": "Moderate",
+    "currency": "Euro (EUR)",
+    "averageTemp": "19°C / 66°F"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Cozy 1-bedroom apartment in the Old Town or Halepa neighborhood, walking distance to the Venetian harbor",
+        "monthlyCost": 700
+      },
+      "dining": {
+        "description": "Daily meals at family-run tavernas, fresh fish at the harbor, traditional Cretan dakos and lamb, strong raki culture",
+        "monthlyCost": 400
+      },
+      "groceries": {
+        "monthlyCost": 280
+      },
+      "healthcare": {
+        "description": "Public healthcare access plus affordable private insurance for Chania Hospital and specialist visits",
+        "monthlyCost": 130
+      },
+      "transportation": {
+        "description": "Local bus pass and a bicycle for getting around the compact city center, occasional taxi",
+        "monthlyCost": 60
+      },
+      "entertainment": {
+        "description": "Beach days at Balos and Elafonissi, Old Town evening strolls, Samaria Gorge hikes, harbor-side raki with locals",
+        "monthlyCost": 200
+      },
+      "utilities": {
+        "monthlyCost": 110
+      },
+      "lifestyle": "Life in Chania on a million dollars is gloriously simple. Mornings start with Greek coffee overlooking the Venetian harbor, afternoons are for swimming at beaches that rival the Caribbean, and evenings end with slow taverna dinners where the owner insists you try his family's olive oil. The Cretan pace of life was made for early retirement."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Renovated 2-bedroom Venetian townhouse in the Old Town with courtyard, or modern apartment in Nea Chora with sea views",
+        "monthlyCost": 1300
+      },
+      "dining": {
+        "description": "Regular dining at Chania's best restaurants, fresh seafood at harbor tavernas, wine tastings featuring Cretan varietals",
+        "monthlyCost": 750
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "Comprehensive private insurance covering top Cretan clinics and specialists, dental included, medevac to Athens if needed",
+        "monthlyCost": 220
+      },
+      "transportation": {
+        "description": "Rented car for exploring western Crete's beaches and mountain villages, bus pass, occasional ferry to Athens",
+        "monthlyCost": 250
+      },
+      "entertainment": {
+        "description": "Sailing trips along the coast, Cretan cooking classes, wine tours through Kissamos vineyards, White Mountains hiking, beach-hopping excursions",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 140
+      },
+      "lifestyle": "With two million, Chania truly opens up. Your Venetian townhouse has a courtyard perfect for morning yoga, your car unlocks Crete's hidden south-coast beaches, and weekends mean driving through mountain villages where shepherds still make cheese by hand. The expat community is tight-knit, the Cretan table is always full, and the pace is exactly as slow as you want it."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Luxury 3-bedroom villa in Akrotiri with private pool and panoramic views of Souda Bay, or premium restored Venetian mansion in the Old Town",
+        "monthlyCost": 2400
+      },
+      "dining": {
+        "description": "Fine dining at Chania's top restaurants, private cooking experiences with local chefs, curated Cretan wine collection, harbor-front feasts",
+        "monthlyCost": 1300
+      },
+      "groceries": {
+        "monthlyCost": 550
+      },
+      "healthcare": {
+        "description": "Premium private insurance with international coverage, wellness retreats, concierge medical services with Athens specialist access",
+        "monthlyCost": 350
+      },
+      "transportation": {
+        "description": "Owned vehicle for island exploration, domestic flights to Athens, seasonal ferry passes, boat rentals for coastal excursions",
+        "monthlyCost": 400
+      },
+      "entertainment": {
+        "description": "Private sailing charters to Gramvousa and Balos, premium beach club access, art exhibitions in the Old Town, guided archaeological tours",
+        "monthlyCost": 900
+      },
+      "utilities": {
+        "monthlyCost": 190
+      },
+      "lifestyle": "Your Akrotiri villa overlooks Souda Bay, your pool catches every sunset, and your weekends involve sailing to beaches most tourists will never find. You host long Cretan dinners under the olive trees, your wine cellar features rare Cretan vintages, and the island's ancient rhythms — harvest season, olive pressing, Easter feasts — have become your own."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Stunning seafront estate in Akrotiri or Almyrida with private pool, olive groves, and direct beach access, or landmark Venetian palace in the Old Town",
+        "monthlyCost": 3800
+      },
+      "dining": {
+        "description": "Private chef specializing in modern Cretan cuisine, Michelin-quality dining experiences, curated cellar of rare Greek and Cretan wines",
+        "monthlyCost": 2100
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "International concierge medicine, private physician, wellness programs, anti-aging treatments at premium Greek island clinics",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "Luxury vehicle, private boat for coastal exploration, domestic flights, helicopter transfers to Athens when needed",
+        "monthlyCost": 700
+      },
+      "entertainment": {
+        "description": "Private yacht charters through the Cretan coast, exclusive olive oil and wine estate tours, art patronage in Chania's galleries, VIP cultural festival access",
+        "monthlyCost": 1500
+      },
+      "utilities": {
+        "monthlyCost": 260
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, gardener for the estate grounds, pool maintenance, personal assistant",
+        "monthlyCost": 1000
+      },
+      "luxuryExtras": {
+        "description": "Private Greek language tutor, personal trainer, bespoke island-hopping itineraries, olive grove management, premium social memberships",
+        "monthlyCost": 1300
+      },
+      "lifestyle": "Your seafront Cretan estate is the stuff of Mediterranean dreams — olive groves rolling down to a private beach, a chef turning the morning's catch into art, and a boat bobbing at your dock ready for afternoon adventures. You've been adopted by the local community, your olive oil wins awards, and your dinner table under the stars is the most coveted invitation in western Crete."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Ultra-luxury compound on the Akrotiri peninsula with multiple buildings, infinity pool, private beach cove, helipad, and panoramic Aegean views",
+        "monthlyCost": 7500
+      },
+      "dining": {
+        "description": "Full-time private chef team, rare Greek wine collection curation, legendary Cretan feast hosting, guest chef residencies from Athens and beyond",
+        "monthlyCost": 4000
+      },
+      "groceries": {
+        "monthlyCost": 1000
+      },
+      "healthcare": {
+        "description": "Global VIP medical coverage, dedicated wellness team, private longevity programs, fly-anywhere specialist access",
+        "monthlyCost": 900
+      },
+      "transportation": {
+        "description": "Chauffeured luxury fleet, private yacht for Aegean cruising, helicopter transfers, private jet charter for Mediterranean travel",
+        "monthlyCost": 2500
+      },
+      "entertainment": {
+        "description": "Major cultural patronage in Crete, private island excursions, art foundation, hosting international gatherings at your estate, archaeological sponsorship",
+        "monthlyCost": 3800
+      },
+      "utilities": {
+        "monthlyCost": 450
+      },
+      "domesticHelp": {
+        "description": "Full estate staff: butler, chef team, housekeepers, groundskeepers, yacht crew, personal assistant, estate manager",
+        "monthlyCost": 3800
+      },
+      "luxuryExtras": {
+        "description": "Private olive oil production, vineyard investment, archaeological site patronage, charitable foundation supporting Cretan heritage, bespoke Mediterranean experiences",
+        "monthlyCost": 4800
+      },
+      "lifestyle": "You are the modern patron of Crete — your compound rivals anything on Mykonos but with infinitely more soul. Your yacht explores coves that Minoan sailors once navigated, your private olive press produces oil that would make a Cretan grandmother weep with pride, and your philanthropic work preserving Venetian architecture has earned you honorary Chaniote status. This is where civilization began, and you're living at its pinnacle."
+    }
+  }
+}

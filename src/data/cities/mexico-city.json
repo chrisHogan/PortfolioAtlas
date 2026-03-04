@@ -3,10 +3,14 @@
   "country": "Mexico",
   "region": "Latin America",
   "slug": "mexico-city",
-  "emoji": "\ud83c\uddf2\ud83c\uddfd",
+  "emoji": "🇲🇽",
   "fireScore": 8.2,
   "tagline": "World-Class Culture at a Fraction of the Cost",
   "description": "Mexico City offers an unbeatable combination of cosmopolitan living, world-renowned cuisine, and affordable costs that make early retirement stretch remarkably far. With its thriving expat community, excellent healthcare infrastructure, and proximity to the US, CDMX has become one of the most popular FIRE destinations in the Americas.",
+  "tags": {
+    "climate": "subtropical",
+    "english": "moderate"
+  },
   "quickFacts": {
     "visa": "Temporary Resident Visa (1-4 years, renewable; requires proof of income ~$2,500/mo or savings ~$42,000)",
     "timezone": "CST (UTC-6)",
