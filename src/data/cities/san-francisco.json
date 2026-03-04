@@ -1,0 +1,194 @@
+{
+  "name": "San Francisco",
+  "country": "United States",
+  "region": "North America",
+  "slug": "san-francisco",
+  "emoji": "🇺🇸",
+  "fireScore": 3.0,
+  "tagline": "Tech Capital, Iconic Fog, and a World-Class Food Scene by the Golden Gate",
+  "description": "San Francisco is one of the most expensive cities in the United States, but for those who can afford it, the rewards are extraordinary. Perched on a hilly peninsula between the Pacific Ocean and the San Francisco Bay, the city offers a Mediterranean climate, a Michelin-starred food scene rivaling any in the world, and a cultural energy fueled by decades of innovation. FIRE retirees face steep housing costs and California's high state income tax, but gain access to stunning natural beauty, world-class healthcare at UCSF, and a walkable urban core unlike anything else on the West Coast.",
+  "tags": {
+    "climate": "mediterranean",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "PST (UTC-8)",
+    "language": "English",
+    "internetSpeed": "250+ Mbps average",
+    "safetyRating": "Moderate – property crime is high, violent crime varies by neighborhood",
+    "nearestAirport": "San Francisco International Airport (SFO)",
+    "climate": "Mediterranean with cool, foggy summers and mild, wet winters",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "58°F / 14°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Room in a shared house in the Sunset, Richmond, or Outer Mission",
+        "monthlyCost": 1600
+      },
+      "dining": {
+        "description": "Burritos in the Mission, dim sum in the Richmond, and street food; mostly cooking at home",
+        "monthlyCost": 250
+      },
+      "groceries": {
+        "monthlyCost": 450
+      },
+      "healthcare": {
+        "description": "Covered California Silver plan; premiums are high in the Bay Area market",
+        "monthlyCost": 580
+      },
+      "transportation": {
+        "description": "Muni monthly pass, occasional BART trips, no car",
+        "monthlyCost": 120
+      },
+      "entertainment": {
+        "description": "Free hikes in Golden Gate Park and Lands End, museum free days, community events",
+        "monthlyCost": 80
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "San Francisco on a $1M budget is extremely tight. You will likely need a roommate or a very small studio in an outer neighborhood. The upside is that the city's best experiences -- hiking the Presidio, walking across the Golden Gate Bridge, exploring Golden Gate Park -- are completely free. World-class cheap eats in the Mission and Chinatown help keep food costs manageable, and you can get by without a car thanks to Muni and BART."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "1BR apartment in the Inner Sunset, Hayes Valley, or Noe Valley",
+        "monthlyCost": 2800
+      },
+      "dining": {
+        "description": "Dining out 3-4x/week at mid-range restaurants in the Mission, Hayes Valley, and North Beach",
+        "monthlyCost": 650
+      },
+      "groceries": {
+        "monthlyCost": 550
+      },
+      "healthcare": {
+        "description": "Covered California Gold plan with dental and vision; access to UCSF Medical Center",
+        "monthlyCost": 680
+      },
+      "transportation": {
+        "description": "Muni pass, BART, occasional Lyft; still car-free in the city",
+        "monthlyCost": 200
+      },
+      "entertainment": {
+        "description": "Weekend hikes at Muir Woods, gym membership, occasional Giants tickets, comedy shows",
+        "monthlyCost": 300
+      },
+      "utilities": {
+        "monthlyCost": 180
+      },
+      "lifestyle": "At $2M you can finally get your own apartment in a desirable neighborhood and experience San Francisco the way it is meant to be lived. Regular dinners in the Mission and Hayes Valley, weekend trips to Muir Woods or Half Moon Bay, and enough breathing room to enjoy the city's incredible cultural calendar. California income tax takes a bite, but the quality of life is hard to match."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "2BR apartment in Pacific Heights, Marina, or a condo in SoMa with bay views",
+        "monthlyCost": 4200
+      },
+      "dining": {
+        "description": "Regular dining at top restaurants like State Bird Provisions, Zuni Cafe, and Tartine Manufactory",
+        "monthlyCost": 1000
+      },
+      "groceries": {
+        "monthlyCost": 650
+      },
+      "healthcare": {
+        "description": "Premium private health insurance with comprehensive coverage; UCSF and Stanford access",
+        "monthlyCost": 780
+      },
+      "transportation": {
+        "description": "Car-share membership, Muni pass, regular Lyft use, occasional weekend car rental for wine country",
+        "monthlyCost": 400
+      },
+      "entertainment": {
+        "description": "SF Symphony, SFMOMA membership, sailing on the bay, premium gym, Napa day trips",
+        "monthlyCost": 550
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "lifestyle": "At $10K per month, San Francisco becomes genuinely comfortable. A spacious apartment with views, regular dinners at some of the best restaurants in America, weekend trips to Napa and Sonoma, and full access to the city's extraordinary arts and culture scene. You can live in one of the world's great cities and actually enjoy it without constant budget anxiety."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury 3BR in Pacific Heights, a Victorian in Noe Valley, or a penthouse in Russian Hill",
+        "monthlyCost": 6500
+      },
+      "dining": {
+        "description": "Michelin-starred dining multiple nights per week at Quince, Atelier Crenn, and Lazy Bear",
+        "monthlyCost": 1800
+      },
+      "groceries": {
+        "monthlyCost": 800
+      },
+      "healthcare": {
+        "description": "Concierge medicine through UCSF or One Medical, executive health screenings, premium coverage",
+        "monthlyCost": 1000
+      },
+      "transportation": {
+        "description": "Luxury vehicle with garage parking, premium insurance, regular wine country drives",
+        "monthlyCost": 900
+      },
+      "entertainment": {
+        "description": "SF Opera patron, SFMOMA Circle membership, sailing club, exclusive wine dinners, Giants premium seats",
+        "monthlyCost": 1000
+      },
+      "utilities": {
+        "monthlyCost": 350
+      },
+      "domesticHelp": {
+        "description": "Weekly house cleaning, laundry service, personal assistant for errands and scheduling",
+        "monthlyCost": 900
+      },
+      "luxuryExtras": {
+        "description": "Napa wine club memberships, quarterly travel, Tahoe ski weekends, spa retreats",
+        "monthlyCost": 1500
+      },
+      "lifestyle": "At $5M you are experiencing San Francisco at its absolute finest. A stunning home in Pacific Heights with Golden Gate Bridge views, Michelin-starred dinners as a regular occurrence, patron-level access to the opera and museums, and weekend escapes to Napa or Tahoe. California taxes sting, but the lifestyle is world-class and nearly impossible to replicate elsewhere."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Pacific Heights mansion, Sea Cliff estate with ocean views, or a Telegraph Hill penthouse",
+        "monthlyCost": 12000
+      },
+      "dining": {
+        "description": "Personal chef, private dining at the French Laundry and SingleThread, catered events at home",
+        "monthlyCost": 3500
+      },
+      "groceries": {
+        "monthlyCost": 1200
+      },
+      "healthcare": {
+        "description": "Top concierge medical practice at UCSF, executive wellness programs, holistic health services",
+        "monthlyCost": 1500
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles with dedicated garage, private car service, chartered flights from SFO",
+        "monthlyCost": 1800
+      },
+      "entertainment": {
+        "description": "Private box at Oracle Park, SF Symphony board involvement, art collecting, international travel",
+        "monthlyCost": 2500
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, personal assistant, driver, gardener and property maintenance crew",
+        "monthlyCost": 4500
+      },
+      "luxuryExtras": {
+        "description": "Napa vineyard investment, first-class international travel, yacht on the bay, major philanthropy",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At $10M, San Francisco becomes your personal masterpiece. A legendary Pacific Heights mansion or a Sea Cliff estate overlooking the Pacific, a personal chef sourcing from the finest farms in Northern California, and deep involvement in the city's world-renowned arts and tech philanthropy scenes. Even after California taxes, you are living one of the most enviable lives in America."
+    }
+  }
+}

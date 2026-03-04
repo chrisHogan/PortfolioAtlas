@@ -97,10 +97,11 @@ const totalCities = allCities.length;
 
     <!-- Filter Bar -->
     <section class="container-wide py-4">
-      <div class="flex flex-wrap items-center gap-6">
+      <div class="flex flex-wrap items-stretch gap-3">
         <!-- Location Filter -->
-        <div class="flex items-center gap-2">
-          <span class="text-xs font-semibold text-gray-500 uppercase tracking-wide">Location</span>
+        <div class="bg-white rounded-xl border border-sand-200 px-4 py-3 flex items-center gap-3">
+          <span class="text-xs font-bold text-gray-500 uppercase tracking-wide shrink-0">Location</span>
+          <div class="w-px h-5 bg-sand-200"></div>
           <div class="flex gap-1">
             <button data-filter="loc" data-value="" class="filter-btn px-3 py-1.5 text-sm font-medium rounded-full">All</button>
             <button data-filter="loc" data-value="us" class="filter-btn px-3 py-1.5 text-sm font-medium rounded-full">US Only</button>
@@ -109,8 +110,9 @@ const totalCities = allCities.length;
         </div>
 
         <!-- Climate Filter -->
-        <div class="flex items-center gap-2">
-          <span class="text-xs font-semibold text-gray-500 uppercase tracking-wide">Climate</span>
+        <div class="bg-white rounded-xl border border-sand-200 px-4 py-3 flex items-center gap-3">
+          <span class="text-xs font-bold text-gray-500 uppercase tracking-wide shrink-0">Climate</span>
+          <div class="w-px h-5 bg-sand-200"></div>
           <div class="flex gap-1">
             <button data-filter="climate" data-value="" class="filter-btn px-3 py-1.5 text-sm font-medium rounded-full">Any</button>
             <button data-filter="climate" data-value="warm" class="filter-btn px-3 py-1.5 text-sm font-medium rounded-full">Warm & Sunny</button>
@@ -120,8 +122,9 @@ const totalCities = allCities.length;
         </div>
 
         <!-- English Filter -->
-        <div class="flex items-center gap-2">
-          <span class="text-xs font-semibold text-gray-500 uppercase tracking-wide">English</span>
+        <div class="bg-white rounded-xl border border-sand-200 px-4 py-3 flex items-center gap-3">
+          <span class="text-xs font-bold text-gray-500 uppercase tracking-wide shrink-0">English</span>
+          <div class="w-px h-5 bg-sand-200"></div>
           <div class="flex gap-1">
             <button data-filter="eng" data-value="" class="filter-btn px-3 py-1.5 text-sm font-medium rounded-full">Any</button>
             <button data-filter="eng" data-value="yes" class="filter-btn px-3 py-1.5 text-sm font-medium rounded-full">English Essential</button>

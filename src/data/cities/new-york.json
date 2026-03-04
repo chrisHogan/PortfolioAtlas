@@ -1,0 +1,194 @@
+{
+  "name": "New York",
+  "country": "United States",
+  "region": "North America",
+  "slug": "new-york",
+  "emoji": "🇺🇸",
+  "fireScore": 3.2,
+  "tagline": "The World's Cultural Capital — Endless Options at Every Price Point",
+  "description": "New York City is the ultimate test of a FIRE portfolio — brutally expensive but offering an unmatched density of culture, cuisine, and connection. With world-class healthcare at Mount Sinai and NYU Langone, no car needed thanks to the subway, and a social scene that never sleeps, NYC rewards those with the budget to match its ambitions. The high cost of living means your withdrawal rate works harder, but no other city on earth packs this much life per square block.",
+  "tags": {
+    "climate": "continental",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens. Note: New York has state and city income taxes, which reduce FIRE portfolio efficiency compared to no-tax states.",
+    "timezone": "UTC-5 (EST) / UTC-4 (EDT summer)",
+    "language": "English",
+    "internetSpeed": "300-1000 Mbps fiber available via Verizon Fios and Spectrum",
+    "safetyRating": "Moderately Safe — vastly safer than its reputation; safest large city in America by per-capita crime rates",
+    "nearestAirport": "John F. Kennedy International (JFK) — 45 min from Manhattan; LaGuardia (LGA) — 30 min; Newark (EWR) — 35 min",
+    "climate": "Humid continental with cold winters (-3 to 4°C), hot humid summers (24-30°C), and beautiful spring/fall seasons. Four distinct seasons.",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "13°C / 55°F"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Compact studio or room in a shared apartment in Washington Heights, Astoria, or Bushwick — character-rich neighborhoods with long commutes",
+        "monthlyCost": 1600
+      },
+      "dining": {
+        "description": "Dollar-slice pizza, Chinatown dumpling houses, halal carts, and bodega breakfast sandwiches — NYC's best cheap eats are legendary",
+        "monthlyCost": 400
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "ACA marketplace bronze plan through NY State of Health, community health center for routine care",
+        "monthlyCost": 450
+      },
+      "transportation": {
+        "description": "Unlimited MetroCard for subway and bus — this is your lifeline across all five boroughs",
+        "monthlyCost": 135
+      },
+      "entertainment": {
+        "description": "Free museum nights (Met is pay-what-you-wish), Central Park, free concerts in Prospect Park, $30 rush tickets on Broadway",
+        "monthlyCost": 200
+      },
+      "utilities": {
+        "monthlyCost": 130
+      },
+      "lifestyle": "A scrappy, exhilarating life in the world's greatest city on a shoestring. You'll eat $1 dumplings in Flushing, catch free Shakespeare in the Park, and discover that NYC's best experiences — the street life, the people-watching, the sheer energy — cost nothing. It's tight, but ten million people would trade places with you."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "True 1-bedroom apartment in Harlem, Park Slope, Long Island City, or the East Village — a real neighborhood with personality",
+        "monthlyCost": 2600
+      },
+      "dining": {
+        "description": "Regular dinners at neighborhood bistros and ramen spots, weekend brunch culture, cocktail bars in the West Village",
+        "monthlyCost": 900
+      },
+      "groceries": {
+        "monthlyCost": 550
+      },
+      "healthcare": {
+        "description": "ACA silver plan with access to NYU Langone or Mount Sinai network, dental included, manageable deductibles",
+        "monthlyCost": 550
+      },
+      "transportation": {
+        "description": "Unlimited MetroCard plus occasional Lyft rides and Citi Bike membership for crosstown trips",
+        "monthlyCost": 200
+      },
+      "entertainment": {
+        "description": "Broadway shows monthly, MoMA and Whitney memberships, jazz at Village Vanguard, comedy at the Cellar, Mets or Nets games",
+        "monthlyCost": 600
+      },
+      "utilities": {
+        "monthlyCost": 170
+      },
+      "lifestyle": "The real New York experience — a proper apartment in a neighborhood you love, dinners at the restaurants that make food writers swoon, and a cultural calendar that could fill every night of the week. You'll see more live music, theater, and art in a month than most people see in a year. This is the city working for you."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Spacious 1-bedroom or small 2-bedroom in the West Village, Upper West Side, or Brooklyn Heights — classic NYC living at its finest",
+        "monthlyCost": 3800
+      },
+      "dining": {
+        "description": "Regular tables at Balthazar, Gramercy Tavern, and neighborhood gems. Omakase splurges, wine-paired tasting menus, and supper clubs",
+        "monthlyCost": 1500
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "Premium PPO with access to top-tier specialists at Memorial Sloan Kettering and Hospital for Special Surgery, concierge primary care",
+        "monthlyCost": 750
+      },
+      "transportation": {
+        "description": "MetroCard and Citi Bike plus regular Lyft rides, weekend car service to the Hamptons or Hudson Valley",
+        "monthlyCost": 450
+      },
+      "entertainment": {
+        "description": "Orchestra seats on Broadway, premium jazz club tables, Met Opera balcony seats, SoHo gallery openings, seasonal Governors Island events",
+        "monthlyCost": 1100
+      },
+      "utilities": {
+        "monthlyCost": 220
+      },
+      "lifestyle": "A polished Manhattan or brownstone Brooklyn existence where you never say no to the city's offerings. Front-row Broadway seats, a standing reservation at your neighborhood trattoria, and weekends escaping to the Hudson Valley or Hamptons. You live the New York that people write novels about."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury doorman 2-bedroom in Tribeca, a brownstone floor-through in the West Village, or a Park Avenue classic six with Central Park proximity",
+        "monthlyCost": 6000
+      },
+      "dining": {
+        "description": "Private chef for weeknight dinners, Le Bernardin and Eleven Madison Park for special occasions, membership at exclusive dining clubs",
+        "monthlyCost": 2500
+      },
+      "groceries": {
+        "monthlyCost": 900
+      },
+      "healthcare": {
+        "description": "Concierge medicine through Sollis Health or One Medical, full dental and vision, annual executive physical at NYU Langone",
+        "monthlyCost": 1000
+      },
+      "transportation": {
+        "description": "Black car service on demand via Blade or private driver, Jitney membership to the Hamptons, occasional helicopter transfers",
+        "monthlyCost": 1000
+      },
+      "entertainment": {
+        "description": "Patron-level memberships at the Met and MoMA, private box at Madison Square Garden, front-row galas, exclusive art fair previews at Frieze",
+        "monthlyCost": 1600
+      },
+      "utilities": {
+        "monthlyCost": 350
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, weekly deep cleaning, laundry service, dog walker if needed",
+        "monthlyCost": 1500
+      },
+      "luxuryExtras": {
+        "description": "Equinox+ membership, personal stylist, premium co-working at NeueHouse, annual wardrobe refresh, weekend house in Hudson Valley",
+        "monthlyCost": 1817
+      },
+      "lifestyle": "The New York that the rest of the world fantasizes about. Your Tribeca loft or Village brownstone hosts intimate dinner parties, your name is on benefit committee lists, and your weekends alternate between Hamptons beach houses and Hudson Valley retreats. The city's velvet ropes part for you effortlessly."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Trophy penthouse in Tribeca or a full-floor residence on Central Park West with panoramic park and skyline views, white-glove concierge building",
+        "monthlyCost": 12000
+      },
+      "dining": {
+        "description": "Full-time private chef with Michelin pedigree, curated wine cellar, exclusive supper club circuit, flying in truffles and wagyu for dinner parties",
+        "monthlyCost": 5000
+      },
+      "groceries": {
+        "monthlyCost": 1500
+      },
+      "healthcare": {
+        "description": "Elite concierge medical team, longevity protocols, fly-anywhere specialist access, private suite at NYP or Mount Sinai if ever needed",
+        "monthlyCost": 1500
+      },
+      "transportation": {
+        "description": "Full-time private driver with luxury sedan, Blade helicopter membership, NetJets card for East Coast and European hops",
+        "monthlyCost": 3500
+      },
+      "entertainment": {
+        "description": "Board seats at major cultural institutions, private art collection curation, front-row Met Gala tables, philanthropic galas, art patronage",
+        "monthlyCost": 3500
+      },
+      "utilities": {
+        "monthlyCost": 600
+      },
+      "domesticHelp": {
+        "description": "Full household staff: estate manager, private chef, housekeeper, personal assistant, and weekend house caretaker",
+        "monthlyCost": 5000
+      },
+      "luxuryExtras": {
+        "description": "Hamptons estate maintenance, bespoke tailoring at Savile Row on trips, private art advisor, charitable foundation, interior designer on retainer",
+        "monthlyCost": 4733
+      },
+      "lifestyle": "At this level, you are New York. Your Central Park penthouse hosts the fundraisers that make Page Six, your art collection rivals small museums, and your name is synonymous with philanthropy and taste. The Met Gala, Art Basel, and Davos are your social calendar — and your Hamptons compound is where Manhattan's elite escape on your invitation."
+    }
+  }
+}

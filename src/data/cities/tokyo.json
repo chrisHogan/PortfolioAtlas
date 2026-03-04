@@ -1,0 +1,194 @@
+{
+  "name": "Tokyo",
+  "country": "Japan",
+  "region": "East Asia",
+  "slug": "tokyo",
+  "emoji": "🇯🇵",
+  "fireScore": 4.8,
+  "tagline": "Where Ancient Tradition Meets the Future — A Food Paradise with Unmatched Safety in Tokyo, Japan",
+  "description": "Tokyo defies its reputation as unaffordable. While headline rents in Shibuya and Roppongi are steep, neighborhoods like Koenji, Shimokitazawa, and Kita-Senju offer surprisingly reasonable living costs. The world's greatest food city delivers Michelin-level quality at every price point — from $1 ramen bowls to kaiseki masterpieces. Ultra-safe streets, obsessive cleanliness, and a transit system that runs to the second make Tokyo a compelling FIRE destination for those willing to adapt to a low-English environment.",
+  "tags": {
+    "climate": "subtropical",
+    "english": "low"
+  },
+  "quickFacts": {
+    "visa": "90-day tourist visa on arrival for US citizens; no dedicated retirement visa — options include Designated Activities visa, Business Manager visa (requires investment), or Highly Skilled Professional visa",
+    "timezone": "UTC+9 (Japan Standard Time)",
+    "language": "Japanese",
+    "internetSpeed": "200–1000 Mbps (fiber widely available; among the fastest in the world)",
+    "safetyRating": "Extremely Safe — one of the safest major cities on Earth; negligible violent crime",
+    "nearestAirport": "Narita (NRT) for international long-haul; Haneda (HND) for domestic and regional — both with excellent transit links",
+    "climate": "Humid subtropical with four distinct seasons: hot humid summers (Jun–Sep), mild cherry blossom springs, colorful autumns, and cool dry winters",
+    "englishFriendly": "Low",
+    "currency": "Japanese Yen (JPY)",
+    "averageTemp": "16°C / 61°F"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Small 1K or 1DK apartment (250–350 sq ft) in affordable neighborhoods like Kita-Senju, Nakano, or Koenji — functional and clean but compact",
+        "monthlyCost": 750
+      },
+      "dining": {
+        "description": "Outstanding budget dining: gyudon chains, ramen shops, conveyor belt sushi, and izakaya happy hours",
+        "monthlyCost": 500
+      },
+      "groceries": {
+        "monthlyCost": 300
+      },
+      "healthcare": {
+        "description": "National Health Insurance enrollment (mandatory for residents) covering 70% of costs; excellent clinics with modest co-pays",
+        "monthlyCost": 250
+      },
+      "transportation": {
+        "description": "Monthly train/metro pass for commuting plus occasional additional fares — Tokyo's rail system is unmatched",
+        "monthlyCost": 120
+      },
+      "entertainment": {
+        "description": "Free temple and shrine visits, public parks, 100-yen shops, neighborhood festivals, and cheap standing bars (tachinomi)",
+        "monthlyCost": 200
+      },
+      "utilities": {
+        "monthlyCost": 130
+      },
+      "lifestyle": "You live in a tidy shoebox apartment in a quiet residential neighborhood, eating world-class ramen and curry for under $5 and navigating the city via the world's best train system. Tokyo on a tight budget requires embracing the Japanese art of small-space living, but the food alone makes it worthwhile."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Comfortable 1LDK or small 2LDK apartment (450–550 sq ft) in desirable areas like Nakameguro, Kichijoji, or Ebisu",
+        "monthlyCost": 1400
+      },
+      "dining": {
+        "description": "Regular izakaya dinners, mid-range sushi counters, ramen pilgrimages, and weekend brunch at trendy cafes",
+        "monthlyCost": 900
+      },
+      "groceries": {
+        "monthlyCost": 450
+      },
+      "healthcare": {
+        "description": "National Health Insurance plus supplemental private coverage; access to English-speaking clinics like Tokyo Medical and Surgical",
+        "monthlyCost": 350
+      },
+      "transportation": {
+        "description": "Full metro pass, occasional taxis, and weekend Shinkansen day trips to Hakone or Kamakura",
+        "monthlyCost": 200
+      },
+      "entertainment": {
+        "description": "Cinema, live music in Shimokitazawa, museum memberships, onsen visits, and seasonal festivals",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 180
+      },
+      "lifestyle": "At $2M, Tokyo becomes genuinely comfortable. You settle into a hip neighborhood with independent coffee shops and vintage stores, eat omakase for what fast-casual costs in the US, and take bullet trains to hot spring towns on weekends. The city's depth reveals itself — every alley has a hidden gem."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Spacious 2LDK or 3LDK apartment (700–900 sq ft) in premium areas like Aoyama, Daikanyama, or a modern tower in Toyosu with bay views",
+        "monthlyCost": 2500
+      },
+      "dining": {
+        "description": "Michelin-starred sushi counters, kaiseki dinners, high-end tempura, and reservation-only omakase — Tokyo has more Michelin stars than any city on Earth",
+        "monthlyCost": 1500
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "Premium private insurance with access to top hospitals like St. Luke's International; comprehensive annual health screenings (ningen dock)",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "Metro pass, regular taxi use, monthly Shinkansen trips, and occasional domestic flights to Kyoto or Hokkaido",
+        "monthlyCost": 400
+      },
+      "entertainment": {
+        "description": "Kabuki theater, sumo tournaments, premium gym membership, sake tasting courses, and weekend trips to ryokan inns",
+        "monthlyCost": 1000
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "lifestyle": "With $3M, you experience Tokyo's refined side. You live in an architecturally striking neighborhood, dine at legendary sushi counters where the chef knows your name, and spend weekends soaking in onsen overlooking Mt. Fuji. Tokyo's Michelin constellation becomes your personal dining guide."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury high-rise apartment in Minato-ku, Roppongi Hills residence, or a beautifully renovated machiya-style home in a premium neighborhood",
+        "monthlyCost": 4500
+      },
+      "dining": {
+        "description": "Multi-course kaiseki at 3-star restaurants, legendary sushi temples like Saito and Harutaka, private dining rooms, and imported wine pairings",
+        "monthlyCost": 2800
+      },
+      "groceries": {
+        "monthlyCost": 800
+      },
+      "healthcare": {
+        "description": "VIP international healthcare with concierge medical services; annual executive ningen dock at top hospitals; global evacuation coverage",
+        "monthlyCost": 700
+      },
+      "transportation": {
+        "description": "Hired car with driver for city travel, Green Car (first class) Shinkansen, business class domestic flights, occasional helicopter transfers",
+        "monthlyCost": 800
+      },
+      "entertainment": {
+        "description": "Private tea ceremonies, exclusive golf club memberships, front-row sumo seats, gallery openings in Ginza, seasonal trips to Niseko and Okinawa",
+        "monthlyCost": 1800
+      },
+      "utilities": {
+        "monthlyCost": 400
+      },
+      "domesticHelp": {
+        "description": "Part-time housekeeper, weekly deep cleaning service, and bilingual personal assistant for navigating Japanese bureaucracy",
+        "monthlyCost": 1200
+      },
+      "luxuryExtras": {
+        "description": "Bespoke kimono and tailoring in Ginza, premium sake and whisky collection, luxury ryokan weekends, and Japanese art acquisitions",
+        "monthlyCost": 2000
+      },
+      "lifestyle": "At $5M in Tokyo, you unlock a rarified world. Your Roppongi Hills apartment overlooks the skyline, your sushi chef reserves your seat at the counter, and your weekends alternate between Hakone ryokan retreats and Niseko powder days. A bilingual assistant smooths every interaction in this complex, beautiful city."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Ultra-premium penthouse in Azabu-Juban or Roppongi Hills Residence with panoramic Tokyo Tower views; optional second home — a restored farmhouse in the Japanese Alps or a villa on Okinawa",
+        "monthlyCost": 9000
+      },
+      "dining": {
+        "description": "Personal Japanese chef for daily meals, standing reservations at the world's most exclusive sushi counters, private kaiseki experiences, and imported delicacies from Tsukiji outer market",
+        "monthlyCost": 4500
+      },
+      "groceries": {
+        "monthlyCost": 1500
+      },
+      "healthcare": {
+        "description": "Concierge medicine with 24/7 access to top specialists, annual comprehensive screenings, cutting-edge preventive care, and global medical evacuation",
+        "monthlyCost": 1200
+      },
+      "transportation": {
+        "description": "Full-time chauffeur with luxury vehicle, Gran Class Shinkansen, first-class international flights, and private jet charters for regional travel",
+        "monthlyCost": 2500
+      },
+      "entertainment": {
+        "description": "Exclusive club memberships, private art viewings, VIP cultural experiences, international luxury travel, and philanthropic involvement in Japanese arts preservation",
+        "monthlyCost": 4000
+      },
+      "utilities": {
+        "monthlyCost": 700
+      },
+      "domesticHelp": {
+        "description": "Full household staff: live-in housekeeper, personal chef, bilingual executive assistant, full-time driver, and property manager for second home",
+        "monthlyCost": 3500
+      },
+      "luxuryExtras": {
+        "description": "Japanese contemporary art collection, bespoke experiences (private temple access, master craftsman workshops), Niseko ski chalet, premium whisky investments, and charitable patronage",
+        "monthlyCost": 5500
+      },
+      "lifestyle": "With $10M in Tokyo, you inhabit a world where ancient culture and ultra-modern luxury intertwine seamlessly. Your penthouse gazes across the glittering skyline to Mt. Fuji, your chef trained at a 3-star restaurant, and you move between Tokyo high society and serene retreats in the Japanese countryside. Few cities on Earth reward wealth with such depth and refinement."
+    }
+  }
+}

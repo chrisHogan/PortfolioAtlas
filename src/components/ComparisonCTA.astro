@@ -29,10 +29,10 @@ const suggestions = [...samRegion, ...diffRegion].slice(0, 5);
     See how {currentCity.name} stacks up against other popular FIRE destinations.
   </p>
 
-  <div class="flex flex-wrap gap-2 comparison-cta-links">
+  <div class="flex flex-wrap gap-2 comparison-cta-links" data-current-slug={currentCity.slug}>
     {suggestions.map((city) => (
       <a
-        href={`/cities/${city.slug}`}
+        href={`/compare?cities=${currentCity.slug},${city.slug}`}
         class="inline-flex items-center gap-1.5 px-3 py-2 bg-white rounded-full text-sm font-medium text-gray-700 border border-sand-200 hover:border-brand-300 hover:text-brand-600 transition-all"
       >
         <span>{city.emoji}</span>
@@ -53,16 +53,19 @@ const suggestions = [...samRegion, ...diffRegion].slice(0, 5);
 </section>
 
 <script>
-  // Append current URL search params (nw, filters) to suggestion links
+  // Preserve ?nw= param on comparison links
   (function() {
-    const search = window.location.search;
-    if (!search) return;
+    const params = new URLSearchParams(window.location.search);
+    const nw = params.get('nw');
+    if (!nw) return;
     const container = document.querySelector('.comparison-cta-links');
     if (!container) return;
     container.querySelectorAll('a').forEach((a) => {
       const href = a.getAttribute('href');
-      if (href && href.startsWith('/cities/')) {
-        a.setAttribute('href', href + search);
+      if (href && href.startsWith('/compare')) {
+        const url = new URL(href, window.location.origin);
+        url.searchParams.set('nw', nw);
+        a.setAttribute('href', url.pathname + url.search);
       }
     });
   })();

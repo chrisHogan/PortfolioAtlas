@@ -2,17 +2,50 @@
 import Layout from '../layouts/Layout.astro';
 import { allCities } from '../data/cities/index';
 import { TIER_LABELS, formatCurrency, getFireScoreClass, getTotalSpend } from '../data/types';
-import type { TierKey } from '../data/types';
+import type { TierKey, CityData } from '../data/types';
 
 const tiers: TierKey[] = ['1M', '2M', '3M', '5M', '10M'];
+const totalCities = allCities.length;
 
 // Sort cities by FIRE score descending for the default view
 const sortedCities = [...allCities].sort((a, b) => b.fireScore - a.fireScore);
+
+// Build a lightweight JSON blob for client-side comparison rendering
+const cityDataForClient = allCities.map((city) => ({
+  slug: city.slug,
+  name: city.name,
+  country: city.country,
+  emoji: city.emoji,
+  fireScore: city.fireScore,
+  tiers: Object.fromEntries(
+    tiers.map((t) => {
+      const tier = city.tiers[t];
+      const total = getTotalSpend(tier);
+      return [t, {
+        monthlyBudget: tier.monthlyBudget,
+        housing: tier.housing.monthlyCost,
+        dining: tier.dining.monthlyCost,
+        groceries: tier.groceries.monthlyCost,
+        healthcare: tier.healthcare.monthlyCost,
+        transportation: tier.transportation.monthlyCost,
+        entertainment: tier.entertainment.monthlyCost,
+        utilities: tier.utilities.monthlyCost,
+        domesticHelp: tier.domesticHelp?.monthlyCost || 0,
+        luxuryExtras: tier.luxuryExtras?.monthlyCost || 0,
+        totalSpend: total,
+        surplus: tier.monthlyBudget - total,
+        lifestyle: tier.lifestyle,
+      }];
+    })
+  ),
+}));
+
+const cityDataJSON = JSON.stringify(cityDataForClient);
 ---
 
 <Layout
   title="Compare Destinations"
-  description="Compare FIRE lifestyle costs across 25+ cities worldwide. See housing, healthcare, dining, and total monthly costs side by side."
+  description={`Compare FIRE lifestyle costs across ${totalCities}+ cities worldwide. See housing, healthcare, dining, and total monthly costs side by side.`}
 >
   <section class="bg-brand-950 text-white py-16">
     <div class="container-narrow text-center">
@@ -20,66 +53,594 @@ const sortedCities = [...allCities].sort((a, b) => b.fireScore - a.fireScore);
         Compare Destinations
       </h1>
       <p class="text-xl text-sand-300 max-w-2xl mx-auto">
-        See how all 25 cities stack up at each portfolio level. Sorted by FIRE Score.
+        Pick two cities and compare them side by side, or browse all {totalCities} cities below.
       </p>
     </div>
   </section>
 
-  <!-- Comparison Table for each tier -->
-  {tiers.map((tierKey) => (
-    <section class="container-wide py-12" id={`compare-${tierKey}`}>
-      <h2 class="font-serif text-2xl font-bold text-brand-950 mb-6">
-        {TIER_LABELS[tierKey]} Portfolio — {formatCurrency(allCities[0]?.tiers[tierKey]?.monthlyBudget || 0)}/month
-      </h2>
+  <!-- City Picker -->
+  <section class="container-narrow py-8">
+    <div class="bg-white rounded-2xl shadow-sm border border-sand-200 p-6">
+      <div class="flex flex-col sm:flex-row items-center gap-4">
+        <div class="flex-1 w-full relative" id="picker-a">
+          <label class="block text-sm font-semibold text-gray-600 mb-1">City A</label>
+          <input
+            type="text"
+            id="city-input-a"
+            placeholder="Type a city name..."
+            autocomplete="off"
+            class="w-full rounded-lg border border-sand-200 px-4 py-2.5 text-sm font-medium text-gray-800 bg-sand-50 focus:ring-2 focus:ring-brand-500 focus:border-brand-500"
+          />
+          <input type="hidden" id="city-select-a" />
+          <div id="city-dropdown-a" class="city-dropdown hidden"></div>
+        </div>
+        <div class="text-2xl font-bold text-gray-300 mt-5 hidden sm:block">vs</div>
+        <div class="flex-1 w-full relative" id="picker-b">
+          <label class="block text-sm font-semibold text-gray-600 mb-1">City B</label>
+          <input
+            type="text"
+            id="city-input-b"
+            placeholder="Type a city name..."
+            autocomplete="off"
+            class="w-full rounded-lg border border-sand-200 px-4 py-2.5 text-sm font-medium text-gray-800 bg-sand-50 focus:ring-2 focus:ring-brand-500 focus:border-brand-500"
+          />
+          <input type="hidden" id="city-select-b" />
+          <div id="city-dropdown-b" class="city-dropdown hidden"></div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-      <div class="overflow-x-auto">
+  <!-- Side-by-Side Comparison (shown when two cities are selected) -->
+  <section id="comparison-result" class="container-narrow pb-12 hidden">
+    <!-- Tier selector pills -->
+    <div class="flex items-center gap-2 mb-6 overflow-x-auto pb-2">
+      <span class="text-xs font-semibold text-gray-500 uppercase tracking-wider mr-1 shrink-0">Tier:</span>
+      <button
+        id="compare-pill-yours"
+        data-compare-tier="yours"
+        class="compare-tier-pill shrink-0 px-4 py-2 text-sm font-bold rounded-full border transition-all bg-brand-600 text-white border-brand-600 hover:bg-brand-700 hidden"
+        type="button"
+      >
+        Your Portfolio
+      </button>
+      {tiers.map((tier) => (
+        <button
+          data-compare-tier={tier}
+          class="compare-tier-pill shrink-0 px-4 py-2 text-sm font-medium rounded-full border transition-all border-sand-200 text-gray-600 hover:bg-brand-50 hover:text-brand-700 hover:border-brand-200"
+          type="button"
+        >
+          ${tier}
+        </button>
+      ))}
+    </div>
+
+    <div id="comparison-table-container"></div>
+    <div id="comparison-lifestyle-container"></div>
+  </section>
+
+  <!-- All-Cities Tables — collapsed accordions, top 10 shown -->
+  <div class="container-wide py-8">
+    <h2 class="font-serif text-2xl font-bold text-brand-950 mb-6">
+      All {totalCities} Cities by Portfolio Level
+    </h2>
+  </div>
+  {tiers.map((tierKey) => {
+    const top10 = sortedCities.slice(0, 10);
+    const rest = sortedCities.slice(10);
+    return (
+      <section class="container-wide pb-8" id={`compare-${tierKey}`}>
+        <div class="accordion-tier" data-open="false">
+          <button class="accordion-header" type="button" aria-expanded="false">
+            <h3 class="font-serif text-xl font-bold text-brand-950">
+              {TIER_LABELS[tierKey]} Portfolio — {formatCurrency(allCities[0]?.tiers[tierKey]?.monthlyBudget || 0)}/month
+            </h3>
+            <svg class="accordion-chevron w-5 h-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+              <div class="px-6 pb-6 overflow-x-auto">
+                <table class="w-full text-sm">
+                  <thead>
+                    <tr class="border-b-2 border-sand-200">
+                      <th class="text-left py-3 px-4 font-semibold text-gray-600">City</th>
+                      <th class="text-right py-3 px-4 font-semibold text-gray-600">FIRE Score</th>
+                      <th class="text-right py-3 px-4 font-semibold text-gray-600">Housing</th>
+                      <th class="text-right py-3 px-4 font-semibold text-gray-600">Dining</th>
+                      <th class="text-right py-3 px-4 font-semibold text-gray-600">Healthcare</th>
+                      <th class="text-right py-3 px-4 font-semibold text-gray-600">Total Spend</th>
+                      <th class="text-right py-3 px-4 font-semibold text-gray-600">Surplus</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {top10.map((city) => {
+                      const tier = city.tiers[tierKey];
+                      if (!tier) return null;
+                      const total = getTotalSpend(tier);
+                      const surplus = tier.monthlyBudget - total;
+                      const scoreClass = getFireScoreClass(city.fireScore);
+                      return (
+                        <tr class="border-b border-sand-100 hover:bg-sand-50 transition-colors">
+                          <td class="py-3 px-4">
+                            <a href={`/cities/${city.slug}`} class="flex items-center gap-2 hover:text-brand-600 transition-colors">
+                              <span>{city.emoji}</span>
+                              <span class="font-medium">{city.name}</span>
+                              <span class="text-gray-400 text-xs">{city.country}</span>
+                            </a>
+                          </td>
+                          <td class="text-right py-3 px-4">
+                            <span class={`inline-flex items-center justify-center w-8 h-8 rounded-full text-white text-xs font-bold ${scoreClass}`}>
+                              {city.fireScore.toFixed(1)}
+                            </span>
+                          </td>
+                          <td class="text-right py-3 px-4 font-medium">{formatCurrency(tier.housing.monthlyCost)}</td>
+                          <td class="text-right py-3 px-4 font-medium">{formatCurrency(tier.dining.monthlyCost)}</td>
+                          <td class="text-right py-3 px-4 font-medium">{formatCurrency(tier.healthcare.monthlyCost)}</td>
+                          <td class="text-right py-3 px-4 font-bold">{formatCurrency(total)}</td>
+                          <td class:list={['text-right py-3 px-4 font-bold', surplus >= 0 ? 'text-emerald-600' : 'text-red-600']}>
+                            {surplus >= 0 ? '+' : ''}{formatCurrency(surplus)}
+                          </td>
+                        </tr>
+                      );
+                    })}
+                    {rest.map((city) => {
+                      const tier = city.tiers[tierKey];
+                      if (!tier) return null;
+                      const total = getTotalSpend(tier);
+                      const surplus = tier.monthlyBudget - total;
+                      const scoreClass = getFireScoreClass(city.fireScore);
+                      return (
+                        <tr class="border-b border-sand-100 hover:bg-sand-50 transition-colors compare-extra-row hidden" data-tier-table={tierKey}>
+                          <td class="py-3 px-4">
+                            <a href={`/cities/${city.slug}`} class="flex items-center gap-2 hover:text-brand-600 transition-colors">
+                              <span>{city.emoji}</span>
+                              <span class="font-medium">{city.name}</span>
+                              <span class="text-gray-400 text-xs">{city.country}</span>
+                            </a>
+                          </td>
+                          <td class="text-right py-3 px-4">
+                            <span class={`inline-flex items-center justify-center w-8 h-8 rounded-full text-white text-xs font-bold ${scoreClass}`}>
+                              {city.fireScore.toFixed(1)}
+                            </span>
+                          </td>
+                          <td class="text-right py-3 px-4 font-medium">{formatCurrency(tier.housing.monthlyCost)}</td>
+                          <td class="text-right py-3 px-4 font-medium">{formatCurrency(tier.dining.monthlyCost)}</td>
+                          <td class="text-right py-3 px-4 font-medium">{formatCurrency(tier.healthcare.monthlyCost)}</td>
+                          <td class="text-right py-3 px-4 font-bold">{formatCurrency(total)}</td>
+                          <td class:list={['text-right py-3 px-4 font-bold', surplus >= 0 ? 'text-emerald-600' : 'text-red-600']}>
+                            {surplus >= 0 ? '+' : ''}{formatCurrency(surplus)}
+                          </td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
+                {rest.length > 0 && (
+                  <button
+                    type="button"
+                    class="show-more-btn mt-4 w-full py-2 text-sm font-semibold text-brand-600 hover:text-brand-800 border border-sand-200 rounded-lg hover:bg-sand-50 transition-colors"
+                    data-tier-table={tierKey}
+                  >
+                    Show all {totalCities} cities
+                  </button>
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+  })}
+</Layout>
+
+<style>
+  .city-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    max-height: 280px;
+    overflow-y: auto;
+    background: #faf8f5;
+    border: 1px solid #e5e0d8;
+    border-radius: 0.75rem;
+    box-shadow: 0 12px 24px -4px rgba(0,0,0,0.12), 0 4px 8px -2px rgba(0,0,0,0.06);
+    margin-top: 6px;
+    padding: 6px;
+  }
+  .city-dropdown-item {
+    padding: 0.625rem 0.875rem;
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #1f2937;
+    border-radius: 0.5rem;
+    transition: background 0.1s, color 0.1s;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+  .city-dropdown-item + .city-dropdown-item {
+    margin-top: 2px;
+  }
+  .city-dropdown-item:hover,
+  .city-dropdown-item.highlighted {
+    background: #ebe5d9;
+    color: #7c5e2a;
+  }
+  .city-dropdown-empty {
+    padding: 1.25rem 1rem;
+    font-size: 0.875rem;
+    color: #9ca3af;
+    text-align: center;
+  }
+</style>
+
+<script define:vars={{ cityDataJSON }}>
+  const cityData = JSON.parse(cityDataJSON);
+  const cityMap = {};
+  cityData.forEach((c) => { cityMap[c.slug] = c; });
+
+  // Sort by fire score for dropdown display
+  const sortedList = [...cityData].sort((a, b) => b.fireScore - a.fireScore);
+
+  const selectA = document.getElementById('city-select-a');
+  const selectB = document.getElementById('city-select-b');
+  const inputA = document.getElementById('city-input-a');
+  const inputB = document.getElementById('city-input-b');
+  const dropdownA = document.getElementById('city-dropdown-a');
+  const dropdownB = document.getElementById('city-dropdown-b');
+  const resultSection = document.getElementById('comparison-result');
+  const tableContainer = document.getElementById('comparison-table-container');
+  const lifestyleContainer = document.getElementById('comparison-lifestyle-container');
+
+  // Personalized portfolio support
+  const tierValues = [
+    { key: '1M', value: 1000000 },
+    { key: '2M', value: 2000000 },
+    { key: '3M', value: 3000000 },
+    { key: '5M', value: 5000000 },
+    { key: '10M', value: 10000000 },
+  ];
+  const params = new URLSearchParams(window.location.search);
+  const nwParam = params.get('nw');
+  let personalNW = null;
+  let personalBudget = null;
+  let personalClosestTier = null;
+
+  if (nwParam) {
+    personalNW = parseInt(nwParam, 10);
+    if (!isNaN(personalNW) && personalNW > 0) {
+      personalBudget = Math.round((personalNW * 0.04) / 12);
+      // Find closest tier
+      let minDiff = Infinity;
+      for (const tv of tierValues) {
+        const diff = Math.abs(personalNW - tv.value);
+        if (diff < minDiff) { minDiff = diff; personalClosestTier = tv.key; }
+      }
+      // Show the "Your Portfolio" pill and make it active by default
+      const yourPill = document.getElementById('compare-pill-yours');
+      if (yourPill) yourPill.classList.remove('hidden');
+    } else {
+      personalNW = null;
+    }
+  }
+
+  let activeTier = personalNW ? 'yours' : '1M';
+
+  // Set initial active pill styling
+  document.querySelectorAll('.compare-tier-pill').forEach((p) => {
+    const t = p.dataset.compareTier;
+    if (t === activeTier) {
+      p.classList.add('bg-brand-600', 'text-white', 'border-brand-600');
+      p.classList.remove('text-gray-600', 'border-sand-200');
+    }
+  });
+
+  // --- Searchable City Picker ---
+  function setupPicker(input, hidden, dropdown, otherHidden) {
+    let highlightIdx = -1;
+    let filtered = [];
+
+    function render(list) {
+      filtered = list;
+      highlightIdx = -1;
+      if (list.length === 0 && input.value.trim().length > 0) {
+        dropdown.innerHTML = '<div class="city-dropdown-empty">No matching city found.</div>';
+        dropdown.classList.remove('hidden');
+        return;
+      }
+      if (list.length === 0) {
+        dropdown.classList.add('hidden');
+        return;
+      }
+      dropdown.innerHTML = list.map((c, i) =>
+        `<div class="city-dropdown-item" data-slug="${c.slug}" data-index="${i}">${c.emoji} ${c.name}, ${c.country}</div>`
+      ).join('');
+      dropdown.classList.remove('hidden');
+    }
+
+    function selectCity(city) {
+      hidden.value = city.slug;
+      input.value = `${city.emoji} ${city.name}, ${city.country}`;
+      dropdown.classList.add('hidden');
+      renderComparison();
+    }
+
+    function highlight(idx) {
+      highlightIdx = idx;
+      dropdown.querySelectorAll('.city-dropdown-item').forEach((el, i) => {
+        el.classList.toggle('highlighted', i === idx);
+        if (i === idx) el.scrollIntoView({ block: 'nearest' });
+      });
+    }
+
+    input.addEventListener('focus', () => {
+      const q = input.value.trim().toLowerCase();
+      if (!q) {
+        render(sortedList);
+      } else {
+        render(filterCities(q));
+      }
+    });
+
+    input.addEventListener('input', () => {
+      hidden.value = '';
+      const q = input.value.trim().toLowerCase();
+      if (!q) {
+        render(sortedList);
+        return;
+      }
+      render(filterCities(q));
+    });
+
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        if (filtered.length > 0) highlight(Math.min(highlightIdx + 1, filtered.length - 1));
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        if (filtered.length > 0) highlight(Math.max(highlightIdx - 1, 0));
+      } else if (e.key === 'Enter') {
+        e.preventDefault();
+        if (highlightIdx >= 0 && filtered[highlightIdx]) {
+          selectCity(filtered[highlightIdx]);
+        }
+      } else if (e.key === 'Escape') {
+        dropdown.classList.add('hidden');
+      }
+    });
+
+    dropdown.addEventListener('mousedown', (e) => {
+      // Prevent blur from firing before click
+      e.preventDefault();
+    });
+
+    dropdown.addEventListener('click', (e) => {
+      const item = e.target.closest('.city-dropdown-item');
+      if (!item) return;
+      const slug = item.dataset.slug;
+      const city = cityMap[slug];
+      if (city) selectCity(city);
+    });
+
+    input.addEventListener('blur', () => {
+      // Small delay so click can register
+      setTimeout(() => dropdown.classList.add('hidden'), 150);
+    });
+  }
+
+  function filterCities(query) {
+    return sortedList.filter((c) => {
+      const haystack = `${c.name} ${c.country}`.toLowerCase();
+      return haystack.includes(query);
+    });
+  }
+
+  setupPicker(inputA, selectA, dropdownA, selectB);
+  setupPicker(inputB, selectB, dropdownB, selectA);
+
+  // --- Comparison Rendering ---
+  function fmt(n) {
+    return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 0, maximumFractionDigits: 0 }).format(n);
+  }
+
+  function renderComparison() {
+    const slugA = selectA.value;
+    const slugB = selectB.value;
+
+    if (!slugA || !slugB) {
+      resultSection.classList.add('hidden');
+      return;
+    }
+
+    const a = cityMap[slugA];
+    const b = cityMap[slugB];
+    if (!a || !b) return;
+
+    resultSection.classList.remove('hidden');
+
+    // Update URL (preserve nw param)
+    const url = new URL(window.location);
+    url.searchParams.set('cities', `${slugA},${slugB}`);
+    if (personalNW) url.searchParams.set('nw', String(personalNW));
+    window.history.replaceState({}, '', url);
+
+    // Resolve tier data — for "yours", use closest tier costs but custom budget/surplus
+    const tierKeyForData = activeTier === 'yours' ? personalClosestTier : activeTier;
+    const ta = { ...a.tiers[tierKeyForData] };
+    const tb = { ...b.tiers[tierKeyForData] };
+
+    if (activeTier === 'yours' && personalBudget !== null) {
+      ta.monthlyBudget = personalBudget;
+      ta.surplus = personalBudget - ta.totalSpend;
+      tb.monthlyBudget = personalBudget;
+      tb.surplus = personalBudget - tb.totalSpend;
+    }
+
+    const rows = [
+      ['Housing', 'housing'],
+      ['Dining Out', 'dining'],
+      ['Groceries', 'groceries'],
+      ['Healthcare', 'healthcare'],
+      ['Transportation', 'transportation'],
+      ['Entertainment', 'entertainment'],
+      ['Utilities', 'utilities'],
+      ['Domestic Help', 'domesticHelp'],
+      ['Luxury & Extras', 'luxuryExtras'],
+    ];
+
+    let html = `
+      <div class="bg-white rounded-2xl shadow-sm border border-sand-200 overflow-hidden">
         <table class="w-full text-sm">
           <thead>
-            <tr class="border-b-2 border-sand-200">
-              <th class="text-left py-3 px-4 font-semibold text-gray-600">City</th>
-              <th class="text-right py-3 px-4 font-semibold text-gray-600">FIRE Score</th>
-              <th class="text-right py-3 px-4 font-semibold text-gray-600">Housing</th>
-              <th class="text-right py-3 px-4 font-semibold text-gray-600">Dining</th>
-              <th class="text-right py-3 px-4 font-semibold text-gray-600">Healthcare</th>
-              <th class="text-right py-3 px-4 font-semibold text-gray-600">Total Spend</th>
-              <th class="text-right py-3 px-4 font-semibold text-gray-600">Surplus</th>
+            <tr class="border-b-2 border-sand-200 bg-sand-50">
+              <th class="text-left py-3 px-4 font-semibold text-gray-600">Category</th>
+              <th class="text-right py-3 px-4 font-semibold text-gray-800">${a.emoji} ${a.name}</th>
+              <th class="text-right py-3 px-4 font-semibold text-gray-800">${b.emoji} ${b.name}</th>
+              <th class="text-right py-3 px-4 font-semibold text-gray-600">Difference</th>
             </tr>
           </thead>
           <tbody>
-            {sortedCities.map((city) => {
-              const tier = city.tiers[tierKey];
-              if (!tier) return null;
-              const total = getTotalSpend(tier);
-              const surplus = tier.monthlyBudget - total;
-              const scoreClass = getFireScoreClass(city.fireScore);
+    `;
 
-              return (
-                <tr class="border-b border-sand-100 hover:bg-sand-50 transition-colors">
-                  <td class="py-3 px-4">
-                    <a href={`/cities/${city.slug}`} class="flex items-center gap-2 hover:text-brand-600 transition-colors">
-                      <span>{city.emoji}</span>
-                      <span class="font-medium">{city.name}</span>
-                      <span class="text-gray-400 text-xs">{city.country}</span>
-                    </a>
-                  </td>
-                  <td class="text-right py-3 px-4">
-                    <span class={`inline-flex items-center justify-center w-8 h-8 rounded-full text-white text-xs font-bold ${scoreClass}`}>
-                      {city.fireScore.toFixed(1)}
-                    </span>
-                  </td>
-                  <td class="text-right py-3 px-4 font-medium">{formatCurrency(tier.housing.monthlyCost)}</td>
-                  <td class="text-right py-3 px-4 font-medium">{formatCurrency(tier.dining.monthlyCost)}</td>
-                  <td class="text-right py-3 px-4 font-medium">{formatCurrency(tier.healthcare.monthlyCost)}</td>
-                  <td class="text-right py-3 px-4 font-bold">{formatCurrency(total)}</td>
-                  <td class:list={['text-right py-3 px-4 font-bold', surplus >= 0 ? 'text-emerald-600' : 'text-red-600']}>
-                    {surplus >= 0 ? '+' : ''}{formatCurrency(surplus)}
-                  </td>
-                </tr>
-              );
-            })}
+    for (const [label, key] of rows) {
+      const va = ta[key];
+      const vb = tb[key];
+      if (va === 0 && vb === 0) continue;
+      const diff = va - vb;
+      const diffClass = diff < 0 ? 'text-emerald-600' : diff > 0 ? 'text-red-600' : 'text-gray-400';
+      const diffLabel = diff === 0 ? '\u2014' : (diff > 0 ? '+' : '') + fmt(diff);
+      html += `
+        <tr class="border-b border-sand-100">
+          <td class="py-3 px-4 font-medium text-gray-700">${label}</td>
+          <td class="text-right py-3 px-4 font-medium">${fmt(va)}</td>
+          <td class="text-right py-3 px-4 font-medium">${fmt(vb)}</td>
+          <td class="text-right py-3 px-4 font-medium ${diffClass}">${diffLabel}</td>
+        </tr>
+      `;
+    }
+
+    const diffTotal = ta.totalSpend - tb.totalSpend;
+    const diffTotalClass = diffTotal < 0 ? 'text-emerald-600' : diffTotal > 0 ? 'text-red-600' : 'text-gray-400';
+    const diffTotalLabel = diffTotal === 0 ? '\u2014' : (diffTotal > 0 ? '+' : '') + fmt(diffTotal);
+    html += `
+      <tr class="border-b-2 border-sand-200 bg-sand-50 font-bold">
+        <td class="py-3 px-4 text-gray-800">Total Spend</td>
+        <td class="text-right py-3 px-4">${fmt(ta.totalSpend)}</td>
+        <td class="text-right py-3 px-4">${fmt(tb.totalSpend)}</td>
+        <td class="text-right py-3 px-4 ${diffTotalClass}">${diffTotalLabel}</td>
+      </tr>
+    `;
+
+    const diffSurplus = ta.surplus - tb.surplus;
+    const surplusClassA = ta.surplus >= 0 ? 'text-emerald-600' : 'text-red-600';
+    const surplusClassB = tb.surplus >= 0 ? 'text-emerald-600' : 'text-red-600';
+    const diffSurplusClass = diffSurplus > 0 ? 'text-emerald-600' : diffSurplus < 0 ? 'text-red-600' : 'text-gray-400';
+    const diffSurplusLabel = diffSurplus === 0 ? '\u2014' : (diffSurplus > 0 ? '+' : '') + fmt(diffSurplus);
+    html += `
+      <tr class="font-bold">
+        <td class="py-3 px-4 text-gray-800">Monthly Surplus</td>
+        <td class="text-right py-3 px-4 ${surplusClassA}">${ta.surplus >= 0 ? '+' : ''}${fmt(ta.surplus)}</td>
+        <td class="text-right py-3 px-4 ${surplusClassB}">${tb.surplus >= 0 ? '+' : ''}${fmt(tb.surplus)}</td>
+        <td class="text-right py-3 px-4 ${diffSurplusClass}">${diffSurplusLabel}</td>
+      </tr>
+    `;
+
+    html += `
           </tbody>
         </table>
       </div>
-    </section>
-  ))}
-</Layout>
+    `;
+
+    tableContainer.innerHTML = html;
+
+    // Lifestyle description cards
+    const lifestyleA = a.tiers[tierKeyForData].lifestyle;
+    const lifestyleB = b.tiers[tierKeyForData].lifestyle;
+    const tierLabel = activeTier === 'yours' ? 'your portfolio' : '$' + activeTier + ' portfolio';
+
+    lifestyleContainer.innerHTML = `
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
+        <div class="bg-gradient-to-br from-brand-50 to-sand-50 rounded-2xl border border-brand-100 p-5">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="text-lg">${a.emoji}</span>
+            <h4 class="font-serif font-bold text-brand-950">${a.name}</h4>
+          </div>
+          <p class="text-xs font-semibold text-brand-600 uppercase tracking-wide mb-2">Life with ${tierLabel}</p>
+          <p class="text-sm text-gray-700 leading-relaxed">${lifestyleA}</p>
+        </div>
+        <div class="bg-gradient-to-br from-brand-50 to-sand-50 rounded-2xl border border-brand-100 p-5">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="text-lg">${b.emoji}</span>
+            <h4 class="font-serif font-bold text-brand-950">${b.name}</h4>
+          </div>
+          <p class="text-xs font-semibold text-brand-600 uppercase tracking-wide mb-2">Life with ${tierLabel}</p>
+          <p class="text-sm text-gray-700 leading-relaxed">${lifestyleB}</p>
+        </div>
+      </div>
+    `;
+  }
+
+  // Tier pill switching
+  document.querySelectorAll('.compare-tier-pill').forEach((pill) => {
+    pill.addEventListener('click', () => {
+      activeTier = pill.dataset.compareTier;
+      document.querySelectorAll('.compare-tier-pill').forEach((p) => {
+        if (p === pill) {
+          p.classList.add('bg-brand-600', 'text-white', 'border-brand-600');
+          p.classList.remove('text-gray-600', 'border-sand-200');
+        } else {
+          p.classList.remove('bg-brand-600', 'text-white', 'border-brand-600');
+          p.classList.add('text-gray-600', 'border-sand-200');
+        }
+      });
+      renderComparison();
+    });
+  });
+
+  // Pre-populate from URL params
+  (function() {
+    const params = new URLSearchParams(window.location.search);
+    const cities = params.get('cities');
+    if (!cities) return;
+    const [slugA, slugB] = cities.split(',');
+    if (slugA && cityMap[slugA]) {
+      selectA.value = slugA;
+      const ca = cityMap[slugA];
+      inputA.value = `${ca.emoji} ${ca.name}, ${ca.country}`;
+    }
+    if (slugB && cityMap[slugB]) {
+      selectB.value = slugB;
+      const cb = cityMap[slugB];
+      inputB.value = `${cb.emoji} ${cb.name}, ${cb.country}`;
+    }
+    if (slugA && slugB) renderComparison();
+  })();
+
+  // --- All-Cities Accordion + Show More ---
+  // Accordion toggle for compare page tier sections
+  document.querySelectorAll('.container-wide .accordion-tier .accordion-header').forEach((header) => {
+    header.addEventListener('click', () => {
+      const accordion = header.closest('.accordion-tier');
+      if (!accordion) return;
+      const isOpen = accordion.getAttribute('data-open') === 'true';
+      accordion.setAttribute('data-open', isOpen ? 'false' : 'true');
+      header.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
+    });
+  });
+
+  // Show more buttons
+  document.querySelectorAll('.show-more-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const tierKey = btn.dataset.tierTable;
+      document.querySelectorAll(`.compare-extra-row[data-tier-table="${tierKey}"]`).forEach((row) => {
+        row.classList.remove('hidden');
+      });
+      btn.classList.add('hidden');
+    });
+  });
+</script>

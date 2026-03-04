@@ -1,0 +1,194 @@
+{
+  "name": "Victoria",
+  "country": "Canada",
+  "region": "North America",
+  "slug": "victoria",
+  "emoji": "🇨🇦",
+  "fireScore": 5.5,
+  "tagline": "Butchart Gardens, Mild Pacific Breezes, and Island Living North of the Border",
+  "description": "Victoria sits at the southern tip of Vancouver Island, offering Canada's mildest climate, English-style gardens, and a relaxed island pace of life. With universal healthcare, a walkable inner harbor, thriving farm-to-table dining, and year-round outdoor recreation, Victoria delivers exceptional quality of life for retirees who want natural beauty without harsh winters. Housing is pricier than most Canadian cities but still well below Vancouver.",
+  "tags": {
+    "climate": "mediterranean",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "Canadian citizens: no visa. Others: Express Entry, Provincial Nominee Program (BC PNP), or visitor permits for stays under 6 months",
+    "timezone": "PST (UTC-8) / PDT (UTC-7 summer)",
+    "language": "English",
+    "internetSpeed": "100-300 Mbps widely available",
+    "safetyRating": "Very Safe — consistently ranked among Canada's safest cities",
+    "nearestAirport": "Victoria International Airport (YYJ) — 30 min from downtown",
+    "climate": "Mild maritime Mediterranean with warm, dry summers and cool, rainy winters. Rarely drops below freezing. Canada's mildest city.",
+    "englishFriendly": "High",
+    "currency": "Canadian Dollar (CAD)",
+    "averageTemp": "11°C / 51°F"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1-bedroom apartment in Esquimalt or Saanich, away from the tourist harbor but well-connected by bus",
+        "monthlyCost": 1150
+      },
+      "dining": {
+        "description": "Fish and chips on the wharf, casual pub meals, and home cooking with local farm produce",
+        "monthlyCost": 250
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "Universal BC MSP healthcare covers most costs; budget for dental, vision, and prescriptions",
+        "monthlyCost": 150
+      },
+      "transportation": {
+        "description": "BC Transit monthly pass; Victoria is very bikeable with dedicated cycling infrastructure",
+        "monthlyCost": 100
+      },
+      "entertainment": {
+        "description": "Beacon Hill Park walks, free harbor strolls, whale watching from shore, library and community events",
+        "monthlyCost": 120
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "Victoria on a $1M portfolio is genuinely comfortable thanks to universal healthcare and the city's abundance of free natural beauty. You will spend mornings walking through Beacon Hill Park, afternoons cycling along the waterfront, and evenings cooking with fresh produce from local farm stands. Winters are Canada's mildest — more rain than snow — and the island pace keeps life stress-free."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Spacious 2-bedroom apartment in James Bay or Fairfield, walking distance to the Inner Harbour",
+        "monthlyCost": 1900
+      },
+      "dining": {
+        "description": "Regular meals at farm-to-table restaurants, weekend brunches in Oak Bay, craft brewery scene",
+        "monthlyCost": 500
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "Universal MSP coverage plus private supplemental for dental, vision, massage therapy, and faster specialist access",
+        "monthlyCost": 250
+      },
+      "transportation": {
+        "description": "Reliable car for island exploration, BC Ferries trips to Vancouver, full insurance and transit pass",
+        "monthlyCost": 350
+      },
+      "entertainment": {
+        "description": "Royal BC Museum membership, kayaking in the Gorge, whale watching tours, live music at Hermann's Jazz Club",
+        "monthlyCost": 350
+      },
+      "utilities": {
+        "monthlyCost": 180
+      },
+      "lifestyle": "This is Victoria's sweet spot. A lovely Fairfield apartment puts you steps from the ocean, weekend drives take you to Sooke potholes or up-island wineries, and the farm-to-table dining scene rivals cities twice its size. Universal healthcare keeps medical costs minimal, and the mild climate means year-round cycling and gardening."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3-bedroom character home in Oak Bay or waterfront condo in the Inner Harbour with mountain views",
+        "monthlyCost": 3200
+      },
+      "dining": {
+        "description": "Fine dining at Brasserie L'Ecole and Stage Wine Bar, private winery tours in Cowichan Valley, seafood feasts",
+        "monthlyCost": 850
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "Universal coverage plus comprehensive private insurance with executive health screening and wellness services",
+        "monthlyCost": 350
+      },
+      "transportation": {
+        "description": "Late-model vehicle, premium insurance, regular BC Ferries trips, occasional floatplane to Vancouver",
+        "monthlyCost": 500
+      },
+      "entertainment": {
+        "description": "Victoria Golf Club membership, sailing in the Strait of Juan de Fuca, Pacific Opera season tickets, art gallery patronage",
+        "monthlyCost": 650
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "lifestyle": "At $10K per month, Victoria reveals its finest side. A heritage home in prestigious Oak Bay, membership at the oldest golf club in the Pacific Northwest, and regular floatplane hops to Vancouver for weekend culture. The Cowichan Valley wine country becomes your backyard, and your garden rivals Butchart itself."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury waterfront home in Cordova Bay or estate property in the Uplands with ocean and mountain views",
+        "monthlyCost": 5500
+      },
+      "dining": {
+        "description": "Private chef for weekly dinner parties, fine dining as routine, curated BC wine collection, farm-direct sourcing",
+        "monthlyCost": 1400
+      },
+      "groceries": {
+        "monthlyCost": 750
+      },
+      "healthcare": {
+        "description": "Universal coverage plus executive health programs, naturopathic medicine, premium private supplements",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "Luxury SUV, second vehicle, Harbour Air floatplane commutes, BC Ferries comfort class",
+        "monthlyCost": 800
+      },
+      "entertainment": {
+        "description": "Royal Victoria Yacht Club membership, private sailing, art collecting from local galleries, symphony patronage",
+        "monthlyCost": 1000
+      },
+      "utilities": {
+        "monthlyCost": 350
+      },
+      "domesticHelp": {
+        "description": "Weekly house cleaning, gardener for estate grounds, seasonal landscaping, property maintenance",
+        "monthlyCost": 750
+      },
+      "luxuryExtras": {
+        "description": "Cottage on Salt Spring Island, quarterly international travel, boat moorage, philanthropic memberships",
+        "monthlyCost": 1600
+      },
+      "lifestyle": "Victoria at this level is a Pacific Coast dream. A stunning waterfront estate with views of the Olympic Mountains, yacht club membership for weekend sailing, a cottage retreat on one of the Gulf Islands, and the freedom to floatplane to Vancouver on a whim. Universal healthcare keeps your biggest expense off the table, letting you invest in pure quality of life."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Grand estate in the Uplands or waterfront compound in North Saanich with private dock and gardens",
+        "monthlyCost": 9500
+      },
+      "dining": {
+        "description": "Full-time personal chef, exclusive supper club events, private winery dinners, catered garden parties",
+        "monthlyCost": 3000
+      },
+      "groceries": {
+        "monthlyCost": 1000
+      },
+      "healthcare": {
+        "description": "Universal coverage plus concierge medicine, executive wellness team, international medical coverage",
+        "monthlyCost": 800
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, private floatplane charter, yacht, first-class international travel",
+        "monthlyCost": 2000
+      },
+      "entertainment": {
+        "description": "Major arts philanthropy, private sailing regattas, international travel, exclusive golf and yacht memberships",
+        "monthlyCost": 2800
+      },
+      "utilities": {
+        "monthlyCost": 600
+      },
+      "domesticHelp": {
+        "description": "Full estate staff: housekeeper, chef, gardener, property manager, personal assistant",
+        "monthlyCost": 5000
+      },
+      "luxuryExtras": {
+        "description": "Multiple Gulf Island properties, private yacht, art patronage, charitable foundation, bespoke travel experiences",
+        "monthlyCost": 5500
+      },
+      "lifestyle": "At $10M, you become one of Victoria's most prominent residents. A grand Uplands estate with manicured English gardens, a private yacht exploring the Gulf Islands, and deep philanthropic ties to the Royal BC Museum and University of Victoria. Your chef sources directly from island farms and Pacific waters, and your garden party invitations are the most coveted on the island."
+    }
+  }
+}

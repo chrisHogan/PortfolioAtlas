@@ -1,0 +1,194 @@
+{
+  "name": "Amsterdam",
+  "country": "Netherlands",
+  "region": "Europe",
+  "slug": "amsterdam",
+  "emoji": "🇳🇱",
+  "fireScore": 4.2,
+  "tagline": "Canal-Laced Charm, World-Class Cycling, and Liberal Dutch Design Culture",
+  "description": "Amsterdam combines 17th-century canal beauty with cutting-edge design, a famously tolerant culture, and one of the world's most bike-friendly urban environments. Nearly everyone speaks excellent English, the healthcare system is superb, and the compact city size means everything is accessible by bicycle. Housing is expensive and competitive, but the quality of life — anchored by cycling, culture, and gezelligheid — is exceptional.",
+  "tags": {
+    "climate": "continental",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "Non-EU citizens need a residence permit. Options include the DAFT treaty (US citizens), orientation year visa, or highly skilled migrant visa. No specific retiree visa.",
+    "timezone": "CET (UTC+1) / CEST (UTC+2 summer)",
+    "language": "Dutch",
+    "internetSpeed": "200-1000 Mbps fiber widely available",
+    "safetyRating": "Safe — low violent crime; watch for bicycle theft and tourist-area pickpocketing",
+    "nearestAirport": "Amsterdam Schiphol Airport (AMS) — 20 min from city center by train",
+    "climate": "Maritime temperate with cool summers (17-22°C) and cold, damp winters (1-6°C). Frequent wind, cloud cover, and rain year-round.",
+    "englishFriendly": "High",
+    "currency": "Euro (EUR)",
+    "averageTemp": "10°C / 50°F"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Compact 1-bedroom apartment in Amsterdam Noord or Nieuw-West, outside the canal ring but well-connected by ferry and metro",
+        "monthlyCost": 1300
+      },
+      "dining": {
+        "description": "Indonesian rijsttafel at neighborhood spots, bruin cafe meals, market herring, and mostly cooking at home",
+        "monthlyCost": 300
+      },
+      "groceries": {
+        "monthlyCost": 350
+      },
+      "healthcare": {
+        "description": "Mandatory Dutch health insurance (basisverzekering) with own-risk deductible; comprehensive basic coverage",
+        "monthlyCost": 180
+      },
+      "transportation": {
+        "description": "A good Dutch bicycle — your primary transport — plus an OV-chipkaart for occasional tram and metro rides",
+        "monthlyCost": 60
+      },
+      "entertainment": {
+        "description": "Vondelpark strolls, free ferry rides across the IJ, museum card for €65/year, brown cafe evenings, canal-side reading",
+        "monthlyCost": 150
+      },
+      "utilities": {
+        "monthlyCost": 170
+      },
+      "lifestyle": "Amsterdam on $1M is tight but surprisingly livable thanks to the Dutch cycling culture eliminating transport costs and mandatory insurance keeping healthcare affordable. You will cycle past 17th-century canal houses daily, enjoy affordable Indonesian food (Amsterdam's hidden gem), and discover that the best things in Amsterdam — Vondelpark, canal walks, free ferry rides — cost nothing."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Attractive 2-bedroom apartment in De Pijp, Jordaan, or Oud-West — the city's most charming neighborhoods",
+        "monthlyCost": 2200
+      },
+      "dining": {
+        "description": "Regular dinners at top Indonesian and Surinamese restaurants, wine bars along the canals, weekend brunch culture",
+        "monthlyCost": 650
+      },
+      "groceries": {
+        "monthlyCost": 450
+      },
+      "healthcare": {
+        "description": "Mandatory basic insurance plus aanvullende verzekering (supplemental) for dental, physiotherapy, and mental health",
+        "monthlyCost": 280
+      },
+      "transportation": {
+        "description": "Quality Dutch city bike, OV-chipkaart for trains, occasional car rental for countryside trips to Haarlem or Utrecht",
+        "monthlyCost": 150
+      },
+      "entertainment": {
+        "description": "Concertgebouw performances, Rijksmuseum and Stedelijk memberships, jazz at Bimhuis, canal boat tours with friends",
+        "monthlyCost": 450
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "lifestyle": "This is Amsterdam at its best. A canal-side apartment in the Jordaan or a sunny flat in De Pijp, cycling to the Concertgebouw for world-class classical music, and weekend train trips to charming Dutch towns. The Museumkaart gives you unlimited access to every museum in the Netherlands. This is the Dutch good life — elegant, efficient, and deeply civilized."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Spacious canal house apartment in the Grachtengordel or premium loft in a converted warehouse on the Eastern Docklands",
+        "monthlyCost": 3500
+      },
+      "dining": {
+        "description": "Michelin-starred dining at Ciel Bleu and &moshik, private canal boat dinners, curated Dutch and French wine experiences",
+        "monthlyCost": 1200
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "Premium insurance package with private clinic access, comprehensive dental, physiotherapy, and international referrals",
+        "monthlyCost": 400
+      },
+      "transportation": {
+        "description": "Premium e-bike, OV-chipkaart first class, occasional taxi, weekend car for North Sea coast trips",
+        "monthlyCost": 300
+      },
+      "entertainment": {
+        "description": "Concertgebouw season tickets, private gallery openings, sailing on the Loosdrechtse Plassen, IDFA film festival VIP",
+        "monthlyCost": 850
+      },
+      "utilities": {
+        "monthlyCost": 280
+      },
+      "lifestyle": "Living in a canal house apartment is the quintessential Amsterdam dream, and at this budget it is yours. Season tickets to the Concertgebouw put you in one of the world's finest concert halls weekly, Michelin dining becomes routine, and weekend sailing on Dutch lakes rounds out a life of refined simplicity. The Dutch have perfected understated luxury — and you are living it."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Full-floor canal house on Herengracht or Keizersgracht, or a luxury penthouse in Zuidas with panoramic city views",
+        "monthlyCost": 5500
+      },
+      "dining": {
+        "description": "Personal chef for canal house dinner parties, Michelin two-star dining, private wine cellar in the basement vault",
+        "monthlyCost": 1800
+      },
+      "groceries": {
+        "monthlyCost": 800
+      },
+      "healthcare": {
+        "description": "Premium international insurance, private physician, executive wellness program, specialist fast-track",
+        "monthlyCost": 550
+      },
+      "transportation": {
+        "description": "Luxury e-bike, leased premium car, first-class Thalys to Paris and Brussels, private boat on the canals",
+        "monthlyCost": 700
+      },
+      "entertainment": {
+        "description": "Patron memberships at the Rijksmuseum and Stedelijk, private canal boat, Soho House Amsterdam, art collecting at TEFAF",
+        "monthlyCost": 1300
+      },
+      "utilities": {
+        "monthlyCost": 400
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, weekly deep cleaning, laundry service, canal house maintenance",
+        "monthlyCost": 1200
+      },
+      "luxuryExtras": {
+        "description": "Private Dutch language tutor, art acquisition budget, weekend house in Bloemendaal, personal trainer, bespoke cycling gear",
+        "monthlyCost": 1600
+      },
+      "lifestyle": "A full-floor Herengracht canal house is among Europe's most prestigious addresses, and your life matches. Dinner parties in your vaulted cellar, a private canal boat for summer evenings, and patron-level access to the Rijksmuseum. Weekends alternate between your Bloemendaal beach house and first-class train journeys to Paris. This is Dutch golden-age living, reimagined."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Entire historic canal house on the Golden Bend (Herengracht) with private garden and boat mooring, fully restored",
+        "monthlyCost": 9500
+      },
+      "dining": {
+        "description": "Full-time private chef, exclusive supper club circuit, Michelin three-star dining, curated wine collection managed by sommelier",
+        "monthlyCost": 3800
+      },
+      "groceries": {
+        "monthlyCost": 1100
+      },
+      "healthcare": {
+        "description": "Global concierge medicine, private wellness team, executive longevity programs, fly-anywhere treatment coverage",
+        "monthlyCost": 900
+      },
+      "transportation": {
+        "description": "Chauffeured luxury vehicle, private canal barge, first-class European rail, chartered flights from Schiphol",
+        "monthlyCost": 2000
+      },
+      "entertainment": {
+        "description": "Major arts patronage at the Rijksmuseum and Concertgebouw, TEFAF art collecting, private sailing yacht on the IJsselmeer",
+        "monthlyCost": 3200
+      },
+      "utilities": {
+        "monthlyCost": 600
+      },
+      "domesticHelp": {
+        "description": "Full household staff: housekeeper, chef, personal assistant, canal house manager, boat captain",
+        "monthlyCost": 4500
+      },
+      "luxuryExtras": {
+        "description": "Multiple properties including beach house, international art collection, philanthropic foundation, vintage boat restoration, bespoke travel",
+        "monthlyCost": 5200
+      },
+      "lifestyle": "At $10M you own a piece of Amsterdam's soul — a grand canal house on the Golden Bend, one of the most exclusive addresses in Europe. Your restored 17th-century mansion hosts charity galas and art exhibitions, your private barge glides through canals you practically own the views of, and your philanthropy shapes the cultural institutions that define this city. This is Amsterdam at its most magnificent."
+    }
+  }
+}

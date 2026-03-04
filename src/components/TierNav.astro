@@ -1,6 +1,5 @@
 ---
 import type { TierKey } from '../data/types';
-import { TIER_LABELS } from '../data/types';
 
 const tiers: TierKey[] = ['1M', '2M', '3M', '5M', '10M'];
 ---
@@ -11,20 +10,22 @@ const tiers: TierKey[] = ['1M', '2M', '3M', '5M', '10M'];
       <span class="text-xs font-semibold text-gray-500 uppercase tracking-wider mr-2 shrink-0">
         Portfolio:
       </span>
-      <a
+      <button
         id="tier-nav-yours"
-        href="#personalized-tier"
-        class="hidden shrink-0 px-4 py-2 text-sm font-bold rounded-full bg-brand-600 text-white border border-brand-600 hover:bg-brand-700 transition-all"
+        data-tier-target="personalized"
+        class="hidden shrink-0 px-4 py-2 text-sm font-bold rounded-full bg-brand-600 text-white border border-brand-600 hover:bg-brand-700 transition-all tier-nav-pill"
+        type="button"
       >
         Your Portfolio
-      </a>
+      </button>
       {tiers.map((tier) => (
-        <a
-          href={`#tier-${tier}`}
-          class="shrink-0 px-4 py-2 text-sm font-medium rounded-full border border-sand-200 text-gray-600 hover:bg-brand-50 hover:text-brand-700 hover:border-brand-200 transition-all"
+        <button
+          data-tier-target={tier}
+          class="shrink-0 px-4 py-2 text-sm font-medium rounded-full border border-sand-200 text-gray-600 hover:bg-brand-50 hover:text-brand-700 hover:border-brand-200 transition-all tier-nav-pill"
+          type="button"
         >
           ${tier}
-        </a>
+        </button>
       ))}
     </div>
   </div>
@@ -33,8 +34,67 @@ const tiers: TierKey[] = ['1M', '2M', '3M', '5M', '10M'];
 <script>
   (function() {
     const params = new URLSearchParams(window.location.search);
-    if (!params.get('nw')) return;
-    const pill = document.getElementById('tier-nav-yours');
-    if (pill) pill.classList.remove('hidden');
+    if (params.get('nw')) {
+      const pill = document.getElementById('tier-nav-yours');
+      if (pill) pill.classList.remove('hidden');
+    }
+
+    // Nav pill click: open matching accordion, close others, scroll into view
+    document.querySelectorAll('.tier-nav-pill').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const target = (btn as HTMLButtonElement).dataset.tierTarget;
+        if (!target) return;
+
+        // Handle personalized tier separately (it's not an accordion)
+        if (target === 'personalized') {
+          const el = document.getElementById('personalized-tier');
+          if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          return;
+        }
+
+        // Open accordion for this tier
+        const accordion = document.querySelector(`.accordion-tier[data-tier="${target}"]`) as HTMLElement;
+        if (!accordion) return;
+
+        // Close all other accordions
+        document.querySelectorAll('.accordion-tier').forEach((el) => {
+          if (el !== accordion) {
+            el.setAttribute('data-open', 'false');
+            const headerBtn = el.querySelector('.accordion-header') as HTMLButtonElement;
+            if (headerBtn) headerBtn.setAttribute('aria-expanded', 'false');
+          }
+        });
+
+        // Open this one
+        accordion.setAttribute('data-open', 'true');
+        const headerBtn = accordion.querySelector('.accordion-header') as HTMLButtonElement;
+        if (headerBtn) headerBtn.setAttribute('aria-expanded', 'true');
+
+        // Scroll into view
+        accordion.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+        // Update active pill styles
+        updateActivePill(target);
+      });
+    });
+
+    function updateActivePill(activeTier: string) {
+      document.querySelectorAll('.tier-nav-pill').forEach((pill) => {
+        const target = (pill as HTMLButtonElement).dataset.tierTarget;
+        if (target === activeTier) {
+          pill.classList.add('bg-brand-600', 'text-white', 'border-brand-600');
+          pill.classList.remove('text-gray-600', 'border-sand-200');
+        } else {
+          pill.classList.remove('bg-brand-600', 'text-white', 'border-brand-600');
+          pill.classList.add('text-gray-600', 'border-sand-200');
+        }
+      });
+    }
+
+    // Set initial active pill to match whatever accordion is open
+    const openAccordion = document.querySelector('.accordion-tier[data-open="true"]');
+    if (openAccordion) {
+      updateActivePill(openAccordion.getAttribute('data-tier') || '');
+    }
   })();
 </script>

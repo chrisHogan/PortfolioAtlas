@@ -1,0 +1,194 @@
+{
+  "name": "Los Angeles",
+  "country": "United States",
+  "region": "North America",
+  "slug": "los-angeles",
+  "emoji": "🇺🇸",
+  "fireScore": 3.8,
+  "tagline": "Sunshine, Beaches, and the Entertainment Capital of the World",
+  "description": "Los Angeles offers FIRE retirees 284 days of sunshine, world-class beaches, and a creative energy found nowhere else. The sprawling metropolis demands a car, which adds cost, but rewards with incredible ethnic food diversity, hiking in the Santa Monica Mountains, and a laid-back lifestyle that makes every day feel like vacation. California's state income tax hits portfolios hard, but the weather, culture, and outdoor access create an undeniable quality of life.",
+  "tags": {
+    "climate": "mediterranean",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens. California has high state income tax (up to 13.3%), which significantly impacts FIRE withdrawal strategies.",
+    "timezone": "UTC-8 (PST) / UTC-7 (PDT summer)",
+    "language": "English",
+    "internetSpeed": "200-1000 Mbps fiber available via AT&T and Spectrum",
+    "safetyRating": "Moderately Safe — varies widely by neighborhood; many areas are very safe with typical big-city awareness needed",
+    "nearestAirport": "Los Angeles International Airport (LAX) — 25 min from downtown; Burbank (BUR) — 20 min from Hollywood",
+    "climate": "Mediterranean with dry, warm summers (25-35°C) and mild, occasionally wet winters (10-18°C). Sunshine 284 days per year.",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "18°C / 64°F"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Small 1-bedroom apartment in Koreatown, East Hollywood, or the San Fernando Valley — livable but far from the beach",
+        "monthlyCost": 1500
+      },
+      "dining": {
+        "description": "Incredible taco trucks, Korean BBQ in K-Town, Thai Town noodle spots, and pho in the SGV — LA's cheap eats rival any city on earth",
+        "monthlyCost": 400
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "Covered California bronze plan, community clinic visits for routine care",
+        "monthlyCost": 420
+      },
+      "transportation": {
+        "description": "Older reliable car with insurance and gas — a car is essentially mandatory in LA. Metro for occasional trips",
+        "monthlyCost": 350
+      },
+      "entertainment": {
+        "description": "Free beach days in Malibu and Venice, hiking Runyon Canyon and Griffith Park, free museum days at the Getty and Broad",
+        "monthlyCost": 150
+      },
+      "utilities": {
+        "monthlyCost": 130
+      },
+      "lifestyle": "A sun-drenched life on a tight budget where the beach and mountains are your free playground. You'll eat the best tacos of your life for $3, hike to the Hollywood sign before breakfast, and watch the sunset over the Pacific from a lifeguard tower. The apartment is modest, but the backyard is the entire California coast."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Nice 1-bedroom in Silver Lake, Mar Vista, or a studio in Santa Monica — walkable neighborhoods with personality and some coastal proximity",
+        "monthlyCost": 2200
+      },
+      "dining": {
+        "description": "Brunch at Sqirl, dinners at neighborhood favorites in Silver Lake and Echo Park, regular sushi, farmers market meals on weekends",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 550
+      },
+      "healthcare": {
+        "description": "Covered California silver plan with access to Cedars-Sinai or UCLA Health network, dental and vision included",
+        "monthlyCost": 520
+      },
+      "transportation": {
+        "description": "Reliable car with insurance, gas, and parking. Occasional Lyft for nights out, e-bike for neighborhood errands",
+        "monthlyCost": 450
+      },
+      "entertainment": {
+        "description": "Surf lessons in Malibu, Hollywood Bowl season under the stars, LACMA membership, comedy at the Laugh Factory, Dodgers games",
+        "monthlyCost": 550
+      },
+      "utilities": {
+        "monthlyCost": 160
+      },
+      "lifestyle": "The real LA experience — a cute apartment in a neighborhood with great coffee shops and vintage stores, weekend mornings at the farmers market, afternoons at the beach, and evenings at the Hollywood Bowl with a bottle of wine. You're living the California dream that people move across the country for."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Spacious 2-bedroom in West Hollywood, a bungalow in Venice, or a modern apartment in Santa Monica with ocean breezes",
+        "monthlyCost": 3500
+      },
+      "dining": {
+        "description": "Regular dinners at Bestia, Gjelina, and Providence. Omakase at Sushi Ginza Onodera, wine tastings in Malibu Canyon vineyards",
+        "monthlyCost": 1400
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "Premium PPO with Cedars-Sinai or UCLA Health, concierge primary care, annual executive physical, full dental",
+        "monthlyCost": 700
+      },
+      "transportation": {
+        "description": "Leased mid-range car (Tesla Model 3 or similar), premium insurance, weekend road trips up the PCH to Santa Barbara",
+        "monthlyCost": 600
+      },
+      "entertainment": {
+        "description": "VIP Hollywood Bowl box, surfboard and wetsuit collection, Lakers or Rams games, private yoga sessions, weekend wine country trips",
+        "monthlyCost": 1000
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "lifestyle": "A polished LA life where you wake up to ocean air, surf before lunch, and make dinner reservations at the spots that define California cuisine. Your Venice bungalow or Santa Monica apartment puts the beach at your doorstep, and weekends mean road-tripping the PCH to wine country or Joshua Tree."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Modern architectural home in the Hollywood Hills, beachfront apartment in Malibu, or a luxury condo in Century City with skyline views",
+        "monthlyCost": 5500
+      },
+      "dining": {
+        "description": "Private chef for weeknight meals, regular Nobu and n/naka omakase, exclusive wine dinners, hosted poolside dinner parties",
+        "monthlyCost": 2200
+      },
+      "groceries": {
+        "monthlyCost": 850
+      },
+      "healthcare": {
+        "description": "Concierge medicine at UCLA Executive Health or Cedars-Sinai VIP, longevity clinic membership, full wellness team",
+        "monthlyCost": 950
+      },
+      "transportation": {
+        "description": "Leased luxury vehicle (Porsche Cayenne or Tesla Model X), premium parking, occasional private car service for events",
+        "monthlyCost": 900
+      },
+      "entertainment": {
+        "description": "Soho House membership, courtside Lakers seats occasionally, private surf instructor, Coachella VIP, film premiere invitations",
+        "monthlyCost": 1500
+      },
+      "utilities": {
+        "monthlyCost": 350
+      },
+      "domesticHelp": {
+        "description": "Weekly housekeeper, pool maintenance, gardener and landscaping for the property",
+        "monthlyCost": 1400
+      },
+      "luxuryExtras": {
+        "description": "Personal trainer, private Pilates, wardrobe stylist, premium beach club membership, annual Coachella and film festival VIP passes",
+        "monthlyCost": 1700
+      },
+      "lifestyle": "The Hollywood Hills lifestyle that defines aspirational California living. Your glass-walled home overlooks the city lights, your private chef sources from the Santa Monica farmers market, and your weekends split between Malibu beach days and desert escapes to Palm Springs. You're on the guest list for screenings and gallery openings across the Westside."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Iconic estate in Bel Air, Brentwood, or beachfront compound in Malibu with pool, guest house, and panoramic ocean or canyon views",
+        "monthlyCost": 12000
+      },
+      "dining": {
+        "description": "Full-time private chef with farm-to-table sourcing, curated wine cellar, exclusive private dining clubs, hosted charity dinners for 50",
+        "monthlyCost": 4500
+      },
+      "groceries": {
+        "monthlyCost": 1300
+      },
+      "healthcare": {
+        "description": "Elite concierge medical team, anti-aging and longevity protocols, fly-anywhere specialist access, private wellness retreats",
+        "monthlyCost": 1500
+      },
+      "transportation": {
+        "description": "Chauffeured luxury vehicle, exotic car collection, private jet charter for Aspen or Cabo weekends, helicopter to avoid the 405",
+        "monthlyCost": 3000
+      },
+      "entertainment": {
+        "description": "Film production investments, Oscar after-party circuit, philanthropic galas, private art collection, courtside season tickets for Lakers",
+        "monthlyCost": 3800
+      },
+      "utilities": {
+        "monthlyCost": 600
+      },
+      "domesticHelp": {
+        "description": "Full estate staff: house manager, private chef, housekeeper, gardener/pool technician, personal assistant, and security",
+        "monthlyCost": 5000
+      },
+      "luxuryExtras": {
+        "description": "Interior designer on retainer, bespoke wardrobe curation, art advisor, charitable foundation, Malibu vineyard investment, wellness concierge",
+        "monthlyCost": 4333
+      },
+      "lifestyle": "At this level, you inhabit the LA that the world sees on screen. Your Bel Air estate hosts charity galas under the stars, your Malibu compound is where industry moguls decompress on your invitation, and your name appears on museum wings and film credits alike. Private jets to Aspen, courtside with celebrities, and a life that blurs the line between luxury and legend."
+    }
+  }
+}

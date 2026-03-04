@@ -1,0 +1,194 @@
+{
+  "name": "Seattle",
+  "country": "United States",
+  "region": "North America",
+  "slug": "seattle",
+  "emoji": "🇺🇸",
+  "fireScore": 4.5,
+  "tagline": "Pacific Northwest Tech Hub with Coffee, Rain, and Mountain Views",
+  "description": "Seattle offers FIRE retirees a unique blend of tech-driven culture, stunning natural beauty, and urban sophistication. With no state income tax, world-class healthcare from systems like UW Medicine and Swedish, and easy access to the Cascades and Puget Sound, it rewards those who embrace the drizzle. The cost of living is steep, but the quality of life — from Pike Place Market mornings to Olympic Mountain sunsets — is hard to match.",
+  "tags": {
+    "climate": "continental",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens. No state income tax — significant advantage for FIRE retirees drawing from investment portfolios.",
+    "timezone": "UTC-8 (PST) / UTC-7 (PDT summer)",
+    "language": "English",
+    "internetSpeed": "200-1000 Mbps fiber widely available via CenturyLink and Xfinity",
+    "safetyRating": "Moderately Safe — typical large US city with safe residential neighborhoods",
+    "nearestAirport": "Seattle-Tacoma International Airport (SEA) — 25 min from downtown",
+    "climate": "Oceanic with mild, wet winters (3-8°C) and dry, warm summers (18-27°C). Overcast 200+ days per year but less total rainfall than many East Coast cities.",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "11°C / 52°F"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Studio or small 1-bedroom apartment in Northgate, Beacon Hill, or Rainier Valley — functional but far from the trendy core",
+        "monthlyCost": 1500
+      },
+      "dining": {
+        "description": "Pho and teriyaki spots in the International District, coffee at indie roasters, occasional happy hour at a neighborhood pub",
+        "monthlyCost": 400
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "ACA marketplace bronze plan with moderate deductible, community health center visits",
+        "monthlyCost": 450
+      },
+      "transportation": {
+        "description": "ORCA card for Link Light Rail and Metro buses covering the greater Seattle area",
+        "monthlyCost": 100
+      },
+      "entertainment": {
+        "description": "Free First Thursday art walks, hiking in Discovery Park and Carkeek Park, library events, free summer concerts",
+        "monthlyCost": 200
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "A lean but livable existence in one of America's most beautiful metro areas. You'll ride the light rail to Pike Place for produce, hike rain-soaked trails on weekends, and nurse a cortado at a neighborhood roaster while watching the clouds roll over the Olympics. Tight on budget but rich in natural splendor."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Modern 1-bedroom apartment in Capitol Hill, Fremont, or Ballard with in-unit laundry and mountain or water glimpses",
+        "monthlyCost": 2100
+      },
+      "dining": {
+        "description": "Regular meals at Ballard's seafood restaurants, weekend brunch in Capitol Hill, wine bars in Wallingford",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "ACA silver plan with lower deductible, access to UW Medicine or Swedish specialists, dental and vision included",
+        "monthlyCost": 550
+      },
+      "transportation": {
+        "description": "ORCA pass plus occasional Lyft rides and weekend car rental for mountain trips to Rainier or the San Juans",
+        "monthlyCost": 250
+      },
+      "entertainment": {
+        "description": "Seattle Symphony season tickets, kayaking on Lake Union, ski days at Snoqualmie, membership at the Seattle Art Museum",
+        "monthlyCost": 600
+      },
+      "utilities": {
+        "monthlyCost": 180
+      },
+      "lifestyle": "A genuinely comfortable Seattle life in a walkable neighborhood where you know your barista by name. You'll catch shows at the Crocodile, paddle Lake Union on summer evenings, and make spontaneous runs to the San Juan Islands. The city's best experiences — from farm-to-table dining to mountain weekends — are comfortably within reach."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Spacious 2-bedroom condo in Queen Anne, South Lake Union, or waterfront Ballard with skyline and Puget Sound views",
+        "monthlyCost": 3200
+      },
+      "dining": {
+        "description": "Canlis-level tasting menus, regular omakase at Shiro's, wine dinners at Walla Walla-connected restaurants, private chef for special occasions",
+        "monthlyCost": 1400
+      },
+      "groceries": {
+        "monthlyCost": 650
+      },
+      "healthcare": {
+        "description": "Premium PPO plan with broad network, concierge primary care, comprehensive dental, annual executive physicals at Virginia Mason",
+        "monthlyCost": 700
+      },
+      "transportation": {
+        "description": "Leased hybrid SUV for mountain access plus ORCA pass for city transit, occasional float plane to the San Juans",
+        "monthlyCost": 550
+      },
+      "entertainment": {
+        "description": "Seahawks season tickets, ski pass at Crystal Mountain, sailing lessons on Puget Sound, regular theater at ACT and the 5th Avenue",
+        "monthlyCost": 1000
+      },
+      "utilities": {
+        "monthlyCost": 220
+      },
+      "lifestyle": "An elevated Pacific Northwest lifestyle where you split time between a gorgeous Queen Anne condo and the mountains. Dinner reservations at the city's best tables come easily, your Crystal Mountain ski pass gets heavy use, and summer means sailing the Sound. Seattle's natural grandeur is your daily backdrop."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury waterfront condo in downtown or a renovated Craftsman in Magnolia or Madison Park with Cascade Range panoramas",
+        "monthlyCost": 5000
+      },
+      "dining": {
+        "description": "Private chef twice weekly, curated wine club memberships, regular Canlis and Bateau dinners, hosted crab feasts on the deck",
+        "monthlyCost": 2200
+      },
+      "groceries": {
+        "monthlyCost": 800
+      },
+      "healthcare": {
+        "description": "Platinum concierge medicine through One Medical or Forward, international travel coverage, wellness coaching, full dental and vision",
+        "monthlyCost": 900
+      },
+      "transportation": {
+        "description": "Leased luxury SUV (Range Rover or similar), harbor seaplane commuter pass, occasional private boat charters",
+        "monthlyCost": 900
+      },
+      "entertainment": {
+        "description": "Broadmoor Golf Club membership, private box at Climate Pledge Arena, heli-skiing in the Cascades, patron-level museum memberships",
+        "monthlyCost": 1500
+      },
+      "utilities": {
+        "monthlyCost": 300
+      },
+      "domesticHelp": {
+        "description": "Weekly housekeeper, biweekly deep cleaning, gardener for the property, seasonal window washing",
+        "monthlyCost": 1400
+      },
+      "luxuryExtras": {
+        "description": "Personal trainer at Equinox, private sailing instructor, premium co-working at WeWork, annual gear refresh for skiing and hiking",
+        "monthlyCost": 1600
+      },
+      "lifestyle": "The quintessential Pacific Northwest dream fully realized. Your Madison Park home hosts dinner parties overlooking Lake Washington, your weekends rotate between heli-skiing, sailing, and island retreats. You're a regular at Canlis, a patron of the arts, and your life moves seamlessly between urban sophistication and wilderness adventure."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Waterfront estate on Lake Washington or Mercer Island with private dock, or a penthouse in the Four Seasons Private Residences downtown",
+        "monthlyCost": 10000
+      },
+      "dining": {
+        "description": "Full-time private chef, curated cellar of Washington and Burgundy wines, exclusive supper clubs, flying in Copper River salmon and Kumamoto oysters",
+        "monthlyCost": 4000
+      },
+      "groceries": {
+        "monthlyCost": 1200
+      },
+      "healthcare": {
+        "description": "Elite concierge medical team, longevity clinic membership, fly-anywhere specialist access, cutting-edge wellness protocols",
+        "monthlyCost": 1500
+      },
+      "transportation": {
+        "description": "Chauffeured luxury vehicle, NetJets fractional share for West Coast hops, private yacht moored at Shilshole Bay Marina",
+        "monthlyCost": 3000
+      },
+      "entertainment": {
+        "description": "Part owner of a winery in Walla Walla, philanthropic board seats, private island retreat in the San Juans, patron of Seattle Opera and Pacific Northwest Ballet",
+        "monthlyCost": 4000
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full household staff: estate manager, housekeeper, private chef, gardener, and personal assistant",
+        "monthlyCost": 4500
+      },
+      "luxuryExtras": {
+        "description": "Winery partnership in Woodinville, bespoke outdoor gear collection, interior designer on retainer, private art advisor, charitable foundation management",
+        "monthlyCost": 4633
+      },
+      "lifestyle": "At this level, you don't just live in Seattle — you shape its cultural landscape. Your Lake Washington estate hosts fundraising galas, your Walla Walla winery pours at exclusive events, and your name graces the donor walls of the symphony and ballet. Summers mean your San Juan retreat; winters mean heli-skiing followed by private chef dinners with views of Rainier."
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "name": "Singapore",
+  "country": "Singapore",
+  "region": "Southeast Asia",
+  "slug": "singapore",
+  "emoji": "🇸🇬",
+  "fireScore": 4.0,
+  "tagline": "The Garden City Where Hawker Food Is Paradise and All of Asia Is Your Backyard — Retire in Singapore",
+  "description": "Singapore is a paradox for FIRE retirees: housing and car ownership are among the world's most expensive, yet you can eat an award-winning plate of chicken rice for $3 at a hawker center. This ultra-modern city-state combines tropical garden beauty, world-class healthcare, absolute safety, and seamless efficiency. As Asia's premier hub, weekend flights to Bali, Bangkok, and Tokyo are cheap and plentiful. English is widely spoken, the rule of law is ironclad, and the food — from Michelin-starred hawker stalls to cutting-edge fine dining — is legendary.",
+  "tags": {
+    "climate": "tropical",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "90-day tourist visa on arrival for US citizens; no dedicated retirement visa — long-term options include Employment Pass, EntrePass (entrepreneurs), or Global Investor Programme (S$10M+ investment for permanent residency)",
+    "timezone": "UTC+8 (Singapore Standard Time)",
+    "language": "English, Mandarin, Malay, Tamil (English is the primary business and government language)",
+    "internetSpeed": "300–1000 Mbps (among the fastest and most reliable in the world)",
+    "safetyRating": "Extremely Safe — consistently ranked among the safest cities globally; near-zero violent crime",
+    "nearestAirport": "Singapore Changi (SIN) — consistently voted world's best airport; gateway to all of Asia and Oceania",
+    "climate": "Equatorial tropical with consistent heat and humidity year-round; frequent afternoon thunderstorms; no distinct seasons",
+    "englishFriendly": "High",
+    "currency": "Singapore Dollar (SGD)",
+    "averageTemp": "27°C / 81°F"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Room in a shared HDB flat or a small studio apartment in outlying areas like Woodlands, Jurong, or Tampines",
+        "monthlyCost": 1000
+      },
+      "dining": {
+        "description": "Hawker center meals daily — chicken rice, laksa, char kway teow, and roti prata — some of the best food on Earth for $3–5 per meal",
+        "monthlyCost": 400
+      },
+      "groceries": {
+        "monthlyCost": 300
+      },
+      "healthcare": {
+        "description": "Subsidized polyclinic visits; basic private insurance for hospital coverage; Singapore's public healthcare is excellent and affordable",
+        "monthlyCost": 200
+      },
+      "transportation": {
+        "description": "MRT and bus system with EZ-Link card — spotless, air-conditioned, and covering the entire island",
+        "monthlyCost": 100
+      },
+      "entertainment": {
+        "description": "Gardens by the Bay (free outdoor areas), East Coast Park cycling, free community events, and hawker center socializing",
+        "monthlyCost": 200
+      },
+      "utilities": {
+        "monthlyCost": 120
+      },
+      "lifestyle": "Singapore on $1M means mastering the hawker center lifestyle — and that's not a sacrifice, it's a privilege. You eat like royalty for pocket change, ride spotless trains across a garden city, and live in the safest urban environment on Earth. Housing is the squeeze, but the food and infrastructure more than compensate."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Comfortable 1-bedroom or small 2-bedroom HDB flat or entry-level condo in areas like Toa Payoh, Queenstown, or Tiong Bahru",
+        "monthlyCost": 1800
+      },
+      "dining": {
+        "description": "Mix of hawker centers, coffee shops, and mid-range restaurants — omakase at neighborhood sushi bars, seafood at East Coast, and weekend dim sum",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 450
+      },
+      "healthcare": {
+        "description": "Comprehensive private insurance (Integrated Shield Plan upgrade); access to excellent private hospitals like Mount Elizabeth and Gleneagles",
+        "monthlyCost": 350
+      },
+      "transportation": {
+        "description": "MRT and bus daily, supplemented by Grab rides; no need for a car — Singapore is designed to be car-free",
+        "monthlyCost": 180
+      },
+      "entertainment": {
+        "description": "Swimming, gym membership, weekend trips to Sentosa, cinema, museum visits, and budget flights to regional destinations",
+        "monthlyCost": 550
+      },
+      "utilities": {
+        "monthlyCost": 180
+      },
+      "lifestyle": "At $2M, Singapore opens up nicely. You settle into a charming neighborhood like Tiong Bahru with its art deco HDB blocks and indie cafes, eat brilliantly across hawker and restaurant tiers, and take cheap weekend flights to Bali or Langkawi. The efficiency and safety of daily life is remarkable — everything just works."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "2-bedroom condo with pool and gym in desirable districts like River Valley, Holland Village, or Bukit Timah",
+        "monthlyCost": 2800
+      },
+      "dining": {
+        "description": "Fine dining at Burnt Ends, Odette, and Labyrinth mixed with beloved hawker favorites; Singapore's food scene spans Michelin stars to $3 masterpieces",
+        "monthlyCost": 1500
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "Premium private insurance with full hospital and specialist coverage; executive health screening packages at Raffles Medical",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "MRT and regular Grab rides; occasional luxury taxi; budget flights around Southeast Asia for weekend getaways",
+        "monthlyCost": 350
+      },
+      "entertainment": {
+        "description": "Marina Bay Sands events, Singapore Symphony Orchestra, premium gym, diving trips to Tioman, and frequent regional travel",
+        "monthlyCost": 1100
+      },
+      "utilities": {
+        "monthlyCost": 280
+      },
+      "lifestyle": "With $3M, you enjoy Singapore's sweet spot — a pool-and-gym condo in a leafy neighborhood, world-class dining whenever you want it, and the entire Southeast Asian region as your weekend playground. Singapore's combination of tropical beauty, culinary excellence, and frictionless daily life is hard to beat at this budget."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury condo or landed property in prime District 9, 10, or 11 — Orchard, Tanglin, or a black-and-white colonial bungalow in Dempsey",
+        "monthlyCost": 5000
+      },
+      "dining": {
+        "description": "Standing reservations at Odette, Burnt Ends, and Les Amis; private dining experiences; imported Japanese wagyu and French wine pairings",
+        "monthlyCost": 2500
+      },
+      "groceries": {
+        "monthlyCost": 800
+      },
+      "healthcare": {
+        "description": "VIP healthcare with concierge services at Mount Elizabeth; annual comprehensive screenings; international medical evacuation coverage",
+        "monthlyCost": 700
+      },
+      "transportation": {
+        "description": "Hired car with driver (owning a car in Singapore costs $100K+ in COE alone); business class flights around Asia",
+        "monthlyCost": 900
+      },
+      "entertainment": {
+        "description": "Singapore Island Country Club membership, yacht charters to Indonesian islands, Formula 1 Grand Prix paddock access, and luxury resort weekends across the region",
+        "monthlyCost": 1800
+      },
+      "utilities": {
+        "monthlyCost": 400
+      },
+      "domesticHelp": {
+        "description": "Live-in foreign domestic worker (common and well-regulated in Singapore), plus weekly professional cleaning service",
+        "monthlyCost": 800
+      },
+      "luxuryExtras": {
+        "description": "Bespoke tailoring on Savile Row visits, premium whisky and wine collection, luxury island resort weekends, and art acquisitions at Singapore Art Week",
+        "monthlyCost": 2000
+      },
+      "lifestyle": "At $5M in Singapore, you live in colonial elegance or gleaming modernity, dine at Asia's finest restaurants, and jet around the region in business class on weekends. Your live-in helper manages the household while you enjoy the F1 Grand Prix from the paddock and sail to private Indonesian islands. Singapore's luxury infrastructure is world-class."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Good Class Bungalow (GCB) in Nassim Road or Cluny Park — Singapore's most exclusive landed properties — or a trophy penthouse at Marina Bay or Orchard with skyline views",
+        "monthlyCost": 10000
+      },
+      "dining": {
+        "description": "Private chef sourcing from global suppliers, exclusive supper clubs, standing tables at every top restaurant, and curated wine dinners with rare vintages",
+        "monthlyCost": 4500
+      },
+      "groceries": {
+        "monthlyCost": 1500
+      },
+      "healthcare": {
+        "description": "Concierge medical team with 24/7 specialist access, cutting-edge preventive diagnostics, global coverage, and premium wellness retreats",
+        "monthlyCost": 1200
+      },
+      "transportation": {
+        "description": "Luxury vehicle with full-time driver (COE and all costs covered), first-class international flights, private jet charters for regional travel, and yacht transfers",
+        "monthlyCost": 3000
+      },
+      "entertainment": {
+        "description": "Elite memberships at Sentosa Golf Club and Singapore Polo Club, superyacht access, private art viewings, philanthropic galas, and international luxury travel",
+        "monthlyCost": 4000
+      },
+      "utilities": {
+        "monthlyCost": 700
+      },
+      "domesticHelp": {
+        "description": "Full household staff: live-in helper, private chef, driver, gardener, and personal executive assistant",
+        "monthlyCost": 2800
+      },
+      "luxuryExtras": {
+        "description": "Contemporary Asian art collection, bespoke global travel, Sentosa waterfront entertaining, premium wine vault, rare watch collection, and philanthropic foundation",
+        "monthlyCost": 5500
+      },
+      "lifestyle": "With $10M in Singapore, you occupy the pinnacle of Asian luxury. Your Good Class Bungalow sits behind lush tropical gardens in the most exclusive neighborhood on the island, your chef rivals any restaurant, and your social calendar spans polo matches, art fairs, and yacht weekends across the archipelago. Singapore rewards wealth with safety, efficiency, and access to all of Asia — it is the ultimate base for a luxurious life in the East."
+    }
+  }
+}

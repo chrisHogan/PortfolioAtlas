@@ -57,6 +57,28 @@ import albuquerque from './albuquerque.json';
 import reno from './reno.json';
 import fargo from './fargo.json';
 import midlandMI from './midland-mi.json';
+import seattle from './seattle.json';
+import newYork from './new-york.json';
+import losAngeles from './los-angeles.json';
+import chicago from './chicago.json';
+import miami from './miami.json';
+import sanFrancisco from './san-francisco.json';
+import denver from './denver.json';
+import victoria from './victoria.json';
+
+// Europe (new)
+import paris from './paris.json';
+import london from './london.json';
+import amsterdam from './amsterdam.json';
+
+// East Asia
+import tokyo from './tokyo.json';
+
+// Oceania
+import sydney from './sydney.json';
+
+// Southeast Asia (new)
+import singapore from './singapore.json';
 
 // Middle East
 import dubai from './dubai.json';
@@ -71,6 +93,7 @@ export const allCities: CityData[] = [
   daNang,
   georgeTown,
   cebu,
+  singapore,
   // Europe
   lisbon,
   porto,
@@ -81,6 +104,9 @@ export const allCities: CityData[] = [
   valencia,
   chania,
   tbilisi,
+  paris,
+  london,
+  amsterdam,
   // Latin America
   mexicoCity,
   medellin,
@@ -115,6 +141,18 @@ export const allCities: CityData[] = [
   reno,
   fargo,
   midlandMI,
+  seattle,
+  newYork,
+  losAngeles,
+  chicago,
+  miami,
+  sanFrancisco,
+  denver,
+  victoria,
+  // East Asia
+  tokyo,
+  // Oceania
+  sydney,
   // Middle East
   dubai,
 ] as CityData[];

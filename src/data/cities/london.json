@@ -1,0 +1,194 @@
+{
+  "name": "London",
+  "country": "United Kingdom",
+  "region": "Europe",
+  "slug": "london",
+  "emoji": "🇬🇧",
+  "fireScore": 3.0,
+  "tagline": "World Financial Center, West End Theatre, and Centuries of Living History",
+  "description": "London is one of the world's great cities — a global financial capital with unmatched theater, world-class museums, and a dizzying diversity of cuisine and culture. The NHS provides universal healthcare, and the city's public transit system is among the best on earth. However, London is brutally expensive for housing and dining, making it a challenging FIRE destination unless your portfolio is substantial.",
+  "tags": {
+    "climate": "continental",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "Non-UK citizens need a visa. Options include Global Talent, Innovator Founder, or family visas. No dedicated retiree visa; private means visas are limited.",
+    "timezone": "GMT (UTC+0) / BST (UTC+1 summer)",
+    "language": "English",
+    "internetSpeed": "100-900 Mbps fiber widely available",
+    "safetyRating": "Moderate — generally safe but petty crime exists in crowded tourist areas",
+    "nearestAirport": "Heathrow Airport (LHR) — 45 min from central London; also Gatwick (LGW), City (LCY), Stansted (STN)",
+    "climate": "Temperate maritime with cool summers (18-23°C) and mild winters (3-8°C). Frequent overcast skies and drizzle year-round.",
+    "englishFriendly": "High",
+    "currency": "British Pound Sterling (GBP)",
+    "averageTemp": "11°C / 52°F"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Small 1-bedroom flat in Zone 3 or 4 — areas like Lewisham, Walthamstow, or Tooting",
+        "monthlyCost": 1400
+      },
+      "dining": {
+        "description": "Pub meals, market street food, and budget-friendly chains; mostly cooking at home with supermarket deals",
+        "monthlyCost": 300
+      },
+      "groceries": {
+        "monthlyCost": 350
+      },
+      "healthcare": {
+        "description": "NHS provides free healthcare for residents; budget covers dental, optical, and prescription top-ups",
+        "monthlyCost": 100
+      },
+      "transportation": {
+        "description": "Monthly Oyster card or Travelcard for Zones 1-3 covering Tube, bus, and Overground",
+        "monthlyCost": 200
+      },
+      "entertainment": {
+        "description": "Free museums (British Museum, Tate, National Gallery), Hyde Park walks, discounted theatre tickets from TKTS booth",
+        "monthlyCost": 150
+      },
+      "utilities": {
+        "monthlyCost": 170
+      },
+      "lifestyle": "London on $1M requires discipline, but the city's extraordinary free offerings make it viable. The British Museum, National Gallery, and Tate Modern cost nothing, and a Sunday roast at a proper pub is one of life's great pleasures. Your flat will be in an outer zone, but the Tube connects you to everything. The NHS is a massive financial advantage."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Comfortable 2-bedroom flat in Zone 2 — Clapham, Islington, or Bermondsey with good transport links",
+        "monthlyCost": 2400
+      },
+      "dining": {
+        "description": "Regular gastropub dinners, Borough Market weekends, curry nights on Brick Lane, Sunday roasts at quality pubs",
+        "monthlyCost": 700
+      },
+      "groceries": {
+        "monthlyCost": 450
+      },
+      "healthcare": {
+        "description": "NHS plus private health insurance for faster specialist appointments and private GP access",
+        "monthlyCost": 250
+      },
+      "transportation": {
+        "description": "Zones 1-4 Travelcard, occasional black cab rides, weekend train trips to the Cotswolds or Brighton",
+        "monthlyCost": 300
+      },
+      "entertainment": {
+        "description": "West End theatre season, membership at the Barbican or Southbank Centre, cricket at Lord's, pub quiz culture",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "lifestyle": "Now London starts to shine. A flat in a vibrant Zone 2 neighborhood puts you in the thick of the city's energy, with West End shows, world-class markets, and incredible global cuisine all within reach. Weekend trains whisk you to the English countryside, and the NHS keeps your healthcare costs minimal. This is comfortable, cultured London living."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Elegant 2-3 bedroom flat in Kensington, Notting Hill, or a converted warehouse in Shoreditch",
+        "monthlyCost": 4000
+      },
+      "dining": {
+        "description": "Michelin-starred dining at The Ledbury and Brat, private dining rooms, afternoon tea at Claridge's",
+        "monthlyCost": 1300
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "Premium private insurance with access to Harley Street specialists, comprehensive dental and wellness",
+        "monthlyCost": 400
+      },
+      "transportation": {
+        "description": "Unlimited Oyster travel, regular Uber, first-class rail to Edinburgh or Paris via Eurostar",
+        "monthlyCost": 500
+      },
+      "entertainment": {
+        "description": "Royal Opera House season tickets, Wimbledon debenture seats, membership at the V&A and Royal Academy, Soho House",
+        "monthlyCost": 900
+      },
+      "utilities": {
+        "monthlyCost": 280
+      },
+      "lifestyle": "An elevated London life in one of the world's most desirable neighborhoods. Your Kensington flat is steps from museums and parks, Michelin-starred restaurants become regular haunts, and your cultural calendar overflows with opera, theatre, and gallery openings. First-class Eurostar trips to Paris make continental weekends effortless."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury flat in Mayfair or Chelsea, or a Georgian townhouse in Belgravia with private garden access",
+        "monthlyCost": 6000
+      },
+      "dining": {
+        "description": "Personal chef for dinner parties, regular Michelin two-star dining, private members' club dining at The Arts Club",
+        "monthlyCost": 2000
+      },
+      "groceries": {
+        "monthlyCost": 800
+      },
+      "healthcare": {
+        "description": "International private insurance, Harley Street concierge physician, executive health checks, wellness retreats",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "Chauffeur service, leased luxury vehicle, first-class Eurostar, domestic helicopter transfers",
+        "monthlyCost": 1000
+      },
+      "entertainment": {
+        "description": "Private boxes at the Royal Albert Hall, Ascot Royal Enclosure, art collecting at Frieze London, Annabel's membership",
+        "monthlyCost": 1500
+      },
+      "utilities": {
+        "monthlyCost": 400
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, weekly deep cleaning, personal shopper at Harrods, concierge services",
+        "monthlyCost": 1400
+      },
+      "luxuryExtras": {
+        "description": "Cotswolds weekend cottage, Savile Row tailoring, personal trainer, art acquisition fund, Henley regatta hospitality",
+        "monthlyCost": 1700
+      },
+      "lifestyle": "London's most exclusive circles open at this level. A Mayfair address, private members' clubs like Annabel's and The Arts Club, Ascot in the Royal Enclosure, and a weekend cottage in the Cotswolds. Your personal chef hosts legendary dinner parties, and your Savile Row wardrobe ensures you look the part at every gala and gallery opening."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Grand townhouse in Belgravia or Knightsbridge, or a penthouse overlooking Hyde Park with full concierge",
+        "monthlyCost": 11000
+      },
+      "dining": {
+        "description": "Full-time private chef, three-Michelin-star dining as routine, private wine cellar managed by a sommelier",
+        "monthlyCost": 4000
+      },
+      "groceries": {
+        "monthlyCost": 1200
+      },
+      "healthcare": {
+        "description": "Global concierge medicine, dedicated medical team, Harley Street on-call, anti-aging and longevity programs",
+        "monthlyCost": 1000
+      },
+      "transportation": {
+        "description": "Full-time chauffeur with Bentley or Rolls-Royce, private jet for European travel, helicopter to country estate",
+        "monthlyCost": 2800
+      },
+      "entertainment": {
+        "description": "Major arts philanthropy at the Tate and National Theatre, royal event invitations, Wimbledon Centre Court, private yacht at Henley",
+        "monthlyCost": 3500
+      },
+      "utilities": {
+        "monthlyCost": 600
+      },
+      "domesticHelp": {
+        "description": "Full household staff: butler, housekeeper, chef, personal assistant, driver, nanny or estate manager",
+        "monthlyCost": 4800
+      },
+      "luxuryExtras": {
+        "description": "Country estate in the Cotswolds, Savile Row and Bond Street wardrobes, art collection, philanthropic trust, box at Lord's",
+        "monthlyCost": 4433
+      },
+      "lifestyle": "At $10M London becomes your personal stage. A Belgravia townhouse staffed to perfection, a country estate for weekends, and a social calendar that intersects with royalty, finance, and the arts. Your name graces the donor walls of the Tate and National Theatre, your Rolls whisks you between Mayfair and Knightsbridge, and life unfolds with the grandeur London has perfected over centuries."
+    }
+  }
+}

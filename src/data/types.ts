@@ -59,7 +59,7 @@ export interface TierCostBreakdown {
 
 export type TierKey = '1M' | '2M' | '3M' | '5M' | '10M';
 
-export type Region = 'Southeast Asia' | 'Europe' | 'Latin America' | 'North America' | 'Middle East';
+export type Region = 'Southeast Asia' | 'East Asia' | 'Oceania' | 'Europe' | 'Latin America' | 'North America' | 'Middle East';
 
 export interface CityData {
   name: string;
@@ -96,6 +96,8 @@ export const REGION_ORDER: Region[] = [
   'Europe',
   'Latin America',
   'Southeast Asia',
+  'East Asia',
+  'Oceania',
   'Middle East',
 ];
 

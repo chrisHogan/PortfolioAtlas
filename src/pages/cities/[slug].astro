@@ -52,6 +52,61 @@ const tiers: TierKey[] = ['1M', '2M', '3M', '5M', '10M'];
         ))}
       </div>
 
+      <script>
+        // Accordion state machine: open first tier by default, mutual exclusion on click
+        (function() {
+          const accordions = document.querySelectorAll('.accordion-tier');
+          if (accordions.length === 0) return;
+
+          function openAccordion(el: Element) {
+            el.setAttribute('data-open', 'true');
+            const btn = el.querySelector('.accordion-header') as HTMLButtonElement;
+            if (btn) btn.setAttribute('aria-expanded', 'true');
+          }
+
+          function closeAccordion(el: Element) {
+            el.setAttribute('data-open', 'false');
+            const btn = el.querySelector('.accordion-header') as HTMLButtonElement;
+            if (btn) btn.setAttribute('aria-expanded', 'false');
+          }
+
+          // Only open first tier if there's no personalized tier (no ?nw= param)
+          const hasPersonalized = new URLSearchParams(window.location.search).get('nw');
+          if (!hasPersonalized) {
+            openAccordion(accordions[0]);
+          }
+
+          // Click-to-toggle with mutual exclusion
+          accordions.forEach((accordion) => {
+            const header = accordion.querySelector('.accordion-header');
+            if (!header) return;
+            header.addEventListener('click', () => {
+              const isOpen = accordion.getAttribute('data-open') === 'true';
+              // Close all
+              accordions.forEach((el) => closeAccordion(el));
+              // If it was closed, open it
+              if (!isOpen) {
+                openAccordion(accordion);
+              }
+              // Update nav pills
+              const activeTier = accordion.getAttribute('data-open') === 'true'
+                ? accordion.getAttribute('data-tier') || ''
+                : '';
+              document.querySelectorAll('.tier-nav-pill').forEach((pill) => {
+                const target = (pill as HTMLButtonElement).dataset.tierTarget;
+                if (target === activeTier) {
+                  pill.classList.add('bg-brand-600', 'text-white', 'border-brand-600');
+                  pill.classList.remove('text-gray-600', 'border-sand-200');
+                } else {
+                  pill.classList.remove('bg-brand-600', 'text-white', 'border-brand-600');
+                  pill.classList.add('text-gray-600', 'border-sand-200');
+                }
+              });
+            });
+          });
+        })();
+      </script>
+
       <!-- Sidebar -->
       <div class="space-y-8">
         <QuickFacts facts={city.quickFacts} cityName={city.name} />

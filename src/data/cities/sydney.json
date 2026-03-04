@@ -1,0 +1,194 @@
+{
+  "name": "Sydney",
+  "country": "Australia",
+  "region": "Oceania",
+  "slug": "sydney",
+  "emoji": "🇦🇺",
+  "fireScore": 3.8,
+  "tagline": "Harbor Life, World-Class Beaches, and Endless Outdoor Culture — Retire in Sydney, Australia",
+  "description": "Sydney is one of the world's most beautiful cities, built around a dazzling harbor and flanked by iconic beaches from Bondi to Manly. The lifestyle is irresistibly outdoorsy — surfing before work, coastal walks at sunset, and weekend escapes to the Blue Mountains. The catch? It's expensive. Housing costs rival London and San Francisco, and the general cost of living is high. But for those who can afford it, Sydney delivers a quality of life that few cities can match, with excellent healthcare, strong safety, and a relaxed yet cosmopolitan culture.",
+  "tags": {
+    "climate": "subtropical",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No dedicated retirement visa; options include Subclass 600 Visitor visa (up to 12 months), Investor Retirement visa (Subclass 405, closed to new applicants), or Significant Investor visa (Subclass 188, requires A$5M+ investment)",
+    "timezone": "UTC+10/+11 (Australian Eastern Standard/Daylight Time)",
+    "language": "English",
+    "internetSpeed": "50–250 Mbps (NBN fiber and fixed wireless; improving but variable by area)",
+    "safetyRating": "Very Safe — low crime rates, well-policed, safe for solo walkers at night in most areas",
+    "nearestAirport": "Sydney Kingsford Smith (SYD) — major international hub with direct flights to Asia, Americas, and Europe",
+    "climate": "Humid subtropical with warm summers (Dec–Feb), mild winters (Jun–Aug), and over 300 days of sunshine per year",
+    "englishFriendly": "High",
+    "currency": "Australian Dollar (AUD)",
+    "averageTemp": "18°C / 64°F"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Small studio or 1-bedroom apartment in outer suburbs like Parramatta, Bankstown, or Hurstville — functional but far from the harbor",
+        "monthlyCost": 1100
+      },
+      "dining": {
+        "description": "Budget dining at food courts, Vietnamese pho shops in Cabramatta, pub meal specials, and occasional fish and chips",
+        "monthlyCost": 400
+      },
+      "groceries": {
+        "monthlyCost": 350
+      },
+      "healthcare": {
+        "description": "Medicare access for eligible residents covering GP visits and public hospital care; private insurance for shorter wait times is a stretch at this budget",
+        "monthlyCost": 200
+      },
+      "transportation": {
+        "description": "Opal card for trains, buses, and ferries — Sydney's public transit is extensive but distances are long",
+        "monthlyCost": 150
+      },
+      "entertainment": {
+        "description": "Free beach days, coastal walks (Bondi to Coogee is free), public parks, and community events",
+        "monthlyCost": 180
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "Sydney on $1M is a stretch — you live in the western suburbs and commute to the harbor for weekend beach days. The beaches and coastal walks are free, and the multicultural food scene in the suburbs is excellent and affordable. But housing eats most of your budget, and inner-city life is out of reach."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "1-bedroom or small 2-bedroom apartment in middle-ring suburbs like Newtown, Marrickville, or Manly — walkable neighborhoods with character",
+        "monthlyCost": 1800
+      },
+      "dining": {
+        "description": "Regular dining at Sydney's diverse restaurant scene — Thai in Newtown, Italian in Leichhardt, seafood at the Fish Market, and weekend brunch culture",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "Medicare plus mid-tier private health insurance for hospital cover and shorter surgical wait times",
+        "monthlyCost": 350
+      },
+      "transportation": {
+        "description": "Opal card for daily transit, occasional Uber rides, and weekend ferry trips across the harbor",
+        "monthlyCost": 220
+      },
+      "entertainment": {
+        "description": "Surf lessons, gym membership, cinema, weekend hikes in the Blue Mountains, and live music in Newtown",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "lifestyle": "At $2M, you access Sydney's genuine charm. A Newtown apartment puts you near quirky bars and excellent Thai food, while Manly offers a beachside village feel just a ferry ride from the CBD. Weekend mornings mean coffee at a local cafe followed by a surf or coastal walk — the quintessential Sydney life."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "2-bedroom apartment with harbor or ocean glimpses in sought-after areas like Surry Hills, Potts Point, Bondi, or a Manly beachfront unit",
+        "monthlyCost": 2800
+      },
+      "dining": {
+        "description": "Fine dining at hatted restaurants like Quay, Ester, and Fred's; waterfront seafood lunches; and Sydney's thriving wine bar scene",
+        "monthlyCost": 1400
+      },
+      "groceries": {
+        "monthlyCost": 650
+      },
+      "healthcare": {
+        "description": "Comprehensive private health insurance with top hospital cover; access to leading specialists in Macquarie Street medical precinct",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "Mix of transit, Uber, and occasional car rental for Blue Mountains and Hunter Valley weekends",
+        "monthlyCost": 400
+      },
+      "entertainment": {
+        "description": "Sydney Opera House season tickets, sailing on the harbor, premium gym, wine tours in the Hunter Valley, and weekend escapes to the South Coast",
+        "monthlyCost": 1100
+      },
+      "utilities": {
+        "monthlyCost": 280
+      },
+      "lifestyle": "With $3M, you live the Sydney dream. A Bondi apartment with ocean air, dinner at hatted restaurants overlooking the harbor, and weekends sailing or driving down to pristine South Coast beaches. The Opera House becomes your regular haunt, and the city's natural beauty is right outside your door."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury waterfront apartment in Point Piper, Elizabeth Bay, or Mosman with harbor bridge and Opera House views; alternatively a large Bondi Beach penthouse",
+        "monthlyCost": 5000
+      },
+      "dining": {
+        "description": "Regular dining at Sydney's top restaurants — Quay, Tetsuya's, and Bennelong; private dining experiences and premium wine pairings from Barossa and Margaret River",
+        "monthlyCost": 2200
+      },
+      "groceries": {
+        "monthlyCost": 800
+      },
+      "healthcare": {
+        "description": "Top-tier private insurance with no-gap cover; concierge GP services; annual executive health assessments at premium clinics",
+        "monthlyCost": 700
+      },
+      "transportation": {
+        "description": "Leased luxury vehicle, private water taxi across the harbor, domestic business class flights to Melbourne and Queensland",
+        "monthlyCost": 900
+      },
+      "entertainment": {
+        "description": "Private box at the SCG for cricket and AFL, premium Opera House seats, yacht charter days, golf at Royal Sydney, and frequent trips to Byron Bay and the Whitsundays",
+        "monthlyCost": 1800
+      },
+      "utilities": {
+        "monthlyCost": 400
+      },
+      "domesticHelp": {
+        "description": "Weekly housekeeper, fortnightly gardener, and personal concierge service for bookings and errands",
+        "monthlyCost": 1100
+      },
+      "luxuryExtras": {
+        "description": "Bespoke fashion from Australian designers, premium wine cellar, luxury resort weekends in Byron and Hamilton Island, and harbor-side entertaining",
+        "monthlyCost": 2000
+      },
+      "lifestyle": "At $5M in Sydney, you command the harbor lifestyle at its finest. Water taxis whisk you to dinner at Bennelong beneath the Opera House sails, weekends mean sailing or a flight to Byron Bay, and your apartment view — the bridge, the harbor, the Opera House — never gets old. Sydney's outdoor luxury is unmatched."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Trophy waterfront home or penthouse in Point Piper, Vaucluse, or Palm Beach with private jetty and panoramic harbor views; optional second property — a Byron Bay hinterland estate or a Great Barrier Reef island retreat",
+        "monthlyCost": 10000
+      },
+      "dining": {
+        "description": "Private chef for daily meals, exclusive wine dinners, pop-up experiences by top chefs, and standing tables at every hatted restaurant in the city",
+        "monthlyCost": 4000
+      },
+      "groceries": {
+        "monthlyCost": 1500
+      },
+      "healthcare": {
+        "description": "Concierge medical care with 24/7 specialist access, preventive genomic screening, international medical evacuation, and premium wellness programs",
+        "monthlyCost": 1200
+      },
+      "transportation": {
+        "description": "Luxury vehicle collection, full-time driver, private water taxi account, first-class international flights, and chartered seaplane to Palm Beach",
+        "monthlyCost": 2500
+      },
+      "entertainment": {
+        "description": "Platinum memberships at Royal Sydney Golf Club and Cruising Yacht Club, private island getaways on the Reef, art collecting, philanthropic galas, and international luxury travel",
+        "monthlyCost": 4000
+      },
+      "utilities": {
+        "monthlyCost": 700
+      },
+      "domesticHelp": {
+        "description": "Full household staff: live-in housekeeper, private chef, gardener, pool maintenance, driver, and property manager for second home",
+        "monthlyCost": 3500
+      },
+      "luxuryExtras": {
+        "description": "Superyacht syndicate membership, Australian contemporary art collection, bespoke travel to the Kimberley and Antarctic, premium wine vault, and charitable foundation",
+        "monthlyCost": 5500
+      },
+      "lifestyle": "With $10M in Sydney, you inhabit the rarefied world of Point Piper and Vaucluse — where the harbor is your front yard and the Pacific your backyard. Your chef sources from the Sydney Fish Market each morning, your yacht is moored at the Cruising Yacht Club, and weekends mean seaplane flights to your Palm Beach retreat. Sydney's natural grandeur and cosmopolitan polish combine into one of the world's great luxury lifestyles."
+    }
+  }
+}
