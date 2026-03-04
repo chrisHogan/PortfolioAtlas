@@ -1,0 +1,121 @@
+---
+import Layout from '../layouts/Layout.astro';
+import CityCard from '../components/CityCard.astro';
+import { allCities, getCitiesByRegion } from '../data/cities/index';
+import { REGION_ORDER } from '../data/types';
+---
+
+<Layout title="Home">
+  <!-- Hero -->
+  <section class="relative bg-brand-950 text-white overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-brand-950 via-brand-900 to-brand-800"></div>
+    <div class="absolute inset-0 opacity-5">
+      <div class="absolute inset-0" style="background-image: radial-gradient(circle at 25px 25px, white 2px, transparent 0); background-size: 50px 50px;"></div>
+    </div>
+
+    <div class="relative container-narrow py-20 md:py-32 text-center">
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif font-bold mb-6 leading-tight">
+        What Can Your Portfolio<br />
+        <span class="text-brand-300">Buy You Around the World?</span>
+      </h1>
+      <p class="text-xl md:text-2xl text-sand-300 max-w-3xl mx-auto mb-10 leading-relaxed">
+        See exactly what a <strong class="text-white">$1M to $10M portfolio</strong> gets you in
+        25 cities worldwide. Real costs. Real lifestyles. Zero guesswork.
+      </p>
+
+      <div class="flex flex-wrap justify-center gap-3">
+        {REGION_ORDER.map((region) => (
+          <a
+            href={`#${region.toLowerCase().replace(/\s+/g, '-')}`}
+            class="px-5 py-2.5 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full text-sm font-medium text-white hover:bg-white/20 transition-all"
+          >
+            {region}
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="container-narrow py-16">
+    <div class="text-center mb-12">
+      <h2 class="font-serif text-3xl font-bold text-brand-950 mb-4">How It Works</h2>
+      <p class="text-gray-600 max-w-2xl mx-auto">
+        We calculate your monthly budget using the 4% safe withdrawal rate, then break down exactly
+        what that money buys in each city.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="text-center">
+        <div class="w-14 h-14 bg-brand-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
+          <span class="text-2xl">💰</span>
+        </div>
+        <h3 class="font-serif font-bold text-lg mb-2">Pick Your Portfolio</h3>
+        <p class="text-sm text-gray-600">
+          We show lifestyle breakdowns at $1M, $2M, $3M, $5M, and $10M using a 4% withdrawal rate.
+        </p>
+      </div>
+      <div class="text-center">
+        <div class="w-14 h-14 bg-brand-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
+          <span class="text-2xl">🌍</span>
+        </div>
+        <h3 class="font-serif font-bold text-lg mb-2">Explore Destinations</h3>
+        <p class="text-sm text-gray-600">
+          Browse 25+ cities across 5 regions with real cost data for housing, food, healthcare, and more.
+        </p>
+      </div>
+      <div class="text-center">
+        <div class="w-14 h-14 bg-brand-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
+          <span class="text-2xl">📊</span>
+        </div>
+        <h3 class="font-serif font-bold text-lg mb-2">Compare & Decide</h3>
+        <p class="text-sm text-gray-600">
+          See your monthly surplus or deficit at each tier and find the perfect city for your FIRE lifestyle.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- City Grid by Region -->
+  {REGION_ORDER.map((region) => {
+    const cities = getCitiesByRegion(region);
+    const regionSlug = region.toLowerCase().replace(/\s+/g, '-');
+    return (
+      <section id={regionSlug} class="container-wide py-12">
+        <div class="flex items-center gap-4 mb-8">
+          <h2 class="font-serif text-2xl font-bold text-brand-950">{region}</h2>
+          <div class="flex-1 h-px bg-sand-200"></div>
+          <span class="text-sm text-gray-500 font-medium">{cities.length} cities</span>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          {cities.map((city) => (
+            <CityCard city={city} />
+          ))}
+        </div>
+      </section>
+    );
+  })}
+
+  <!-- Bottom CTA -->
+  <section class="container-narrow py-16 text-center">
+    <div class="bg-brand-950 rounded-3xl p-10 md:p-16 text-white">
+      <h2 class="font-serif text-3xl md:text-4xl font-bold mb-4">
+        Ready to Plan Your FIRE Lifestyle?
+      </h2>
+      <p class="text-sand-300 max-w-2xl mx-auto mb-8 text-lg">
+        Explore 25 destinations and find the perfect city where your portfolio goes the furthest.
+      </p>
+      <a
+        href="#north-america"
+        class="inline-flex items-center gap-2 px-8 py-3 bg-white text-brand-950 font-semibold rounded-full hover:bg-sand-100 transition-colors"
+      >
+        Start Exploring
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </a>
+    </div>
+  </section>
+</Layout>

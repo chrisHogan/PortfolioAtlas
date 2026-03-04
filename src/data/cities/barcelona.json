@@ -1,0 +1,190 @@
+{
+  "name": "Barcelona",
+  "country": "Spain",
+  "region": "Europe",
+  "slug": "barcelona",
+  "emoji": "\ud83c\uddea\ud83c\uddf8",
+  "fireScore": 6,
+  "tagline": "Mediterranean Cosmopolitan Living on a FIRE Budget",
+  "description": "Barcelona offers an unmatched blend of beach, culture, architecture, and gastronomy that few cities can rival. While pricier than Eastern or Southern European alternatives, Spain's non-lucrative visa and Beckham Law tax regime make it viable for FIRE retirees who want world-class urban living with a Mediterranean soul.",
+  "quickFacts": {
+    "visa": "Non-Lucrative Visa (no work allowed, must show sufficient funds). Beckham Law may reduce taxes for new residents. Path to residency and citizenship.",
+    "timezone": "UTC+1 (CET) / UTC+2 (CEST summer)",
+    "language": "Catalan and Spanish",
+    "internetSpeed": "100-600 Mbps fiber widely available",
+    "safetyRating": "Safe — standard big-city precautions for pickpocketing in tourist zones",
+    "nearestAirport": "Barcelona-El Prat Airport (BCN) — 25 min from city center",
+    "climate": "Mediterranean with mild winters (10-15°C) and hot summers (25-32°C). 2,500+ hours of sunshine per year.",
+    "englishFriendly": "High",
+    "currency": "Euro (EUR)",
+    "averageTemp": "18°C / 64°F"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Compact 1-bedroom in Gracia or Sants, charming neighborhood but smaller space for the budget",
+        "monthlyCost": 1200
+      },
+      "dining": {
+        "description": "Menu del dia lunches at local restaurants, tapas bars in the evening, coffee at neighborhood cafes",
+        "monthlyCost": 500
+      },
+      "groceries": {
+        "monthlyCost": 350
+      },
+      "healthcare": {
+        "description": "Public healthcare via social security enrollment, supplemented with basic private insurance for faster access",
+        "monthlyCost": 180
+      },
+      "transportation": {
+        "description": "T-Casual metro/bus passes and Bicing bike-share membership for daily commuting",
+        "monthlyCost": 55
+      },
+      "entertainment": {
+        "description": "Beach days at Barceloneta, free museum Sundays, Gothic Quarter wandering, Montjuic sunsets",
+        "monthlyCost": 250
+      },
+      "utilities": {
+        "monthlyCost": 140
+      },
+      "lifestyle": "Barcelona on a budget means living like a savvy local rather than a tourist. You'll master the art of the 12-euro menu del dia, spend weekends at the beach or hiking Montjuic, and discover that Gaudi's masterpieces look even better from a neighborhood cafe. Tight but absolutely worth it."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Bright 2-bedroom apartment in Eixample with high ceilings and a small balcony overlooking a tree-lined street",
+        "monthlyCost": 2000
+      },
+      "dining": {
+        "description": "Regular dining at Barcelona's celebrated tapas bars and restaurants, weekend paella at the beach, vermouth hour ritual",
+        "monthlyCost": 1000
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "Comprehensive private insurance covering top hospitals like Clinica Teknon and Quironsalud, dental included",
+        "monthlyCost": 280
+      },
+      "transportation": {
+        "description": "Monthly transit pass, Bicing, occasional taxi rides, weekend car rental for Costa Brava trips",
+        "monthlyCost": 150
+      },
+      "entertainment": {
+        "description": "FC Barcelona matches, concerts at Palau de la Musica, wine tasting in Penedes, sailing on weekends",
+        "monthlyCost": 600
+      },
+      "utilities": {
+        "monthlyCost": 170
+      },
+      "lifestyle": "The Barcelona dream realized. Your Eixample apartment is a short walk from everything — La Boqueria for morning shopping, the beach for afternoon swims, and Gracia's plazas for evening vermouth. Weekends mean Costa Brava coves or Penedes wine country. This is why people move to Barcelona."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Spacious 3-bedroom in upper Eixample or Sarria-Sant Gervasi with terrace, modernista details, and natural light",
+        "monthlyCost": 3000
+      },
+      "dining": {
+        "description": "Michelin-starred dining at Disfrutar and Tickets, private cooking classes, curated Catalan gastronomy experiences",
+        "monthlyCost": 1600
+      },
+      "groceries": {
+        "monthlyCost": 650
+      },
+      "healthcare": {
+        "description": "Premium private insurance with international coverage, executive health checks at top clinics, mental wellness support",
+        "monthlyCost": 400
+      },
+      "transportation": {
+        "description": "Leased car for weekend escapes, metro pass, regular Cabify rides across the city",
+        "monthlyCost": 400
+      },
+      "entertainment": {
+        "description": "VIP FC Barcelona experiences, private sailing charters, exclusive beach club memberships, front-row Primavera Sound",
+        "monthlyCost": 1100
+      },
+      "utilities": {
+        "monthlyCost": 220
+      },
+      "lifestyle": "Barcelona at its finest — a terrace apartment in the city's most elegant quarter, dinners at restaurants that make global top-50 lists, and weekends sailing the Mediterranean. Your social calendar is a mix of gallery openings, rooftop parties, and lazy Sundays at exclusive beach clubs."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury penthouse in Passeig de Gracia or a renovated modernista mansion in Pedralbes with private pool",
+        "monthlyCost": 5000
+      },
+      "dining": {
+        "description": "Private chef for daily meals, regular Michelin tasting menus, curated wine collection with personal sommelier",
+        "monthlyCost": 2800
+      },
+      "groceries": {
+        "monthlyCost": 800
+      },
+      "healthcare": {
+        "description": "International VIP health coverage, personal physician, cutting-edge treatments, wellness and longevity programs",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "Luxury vehicle lease, private driver for city travel, helicopter transfers to Costa Brava villa",
+        "monthlyCost": 900
+      },
+      "entertainment": {
+        "description": "Private yacht moored at Port Olympic, art collecting in El Born galleries, box seats at Camp Nou, exclusive club memberships",
+        "monthlyCost": 2000
+      },
+      "utilities": {
+        "monthlyCost": 350
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, weekly deep cleaning, personal assistant, laundry and wardrobe management",
+        "monthlyCost": 1400
+      },
+      "luxuryExtras": {
+        "description": "Personal trainer, private Spanish and Catalan tutors, bespoke tailoring, premium co-working at OneCoWork, yacht marina fees",
+        "monthlyCost": 1800
+      },
+      "lifestyle": "Living on Passeig de Gracia means Gaudi is literally your neighbor. Your private chef prepares Catalan feasts, your yacht awaits at Port Olympic, and your weekends alternate between your Costa Brava retreat and VIP experiences across the city. Barcelona's elite circles welcome you."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Historic modernista estate in Pedralbes or ultra-luxury waterfront penthouse with 360-degree views from Barceloneta to Tibidabo",
+        "monthlyCost": 9000
+      },
+      "dining": {
+        "description": "Full-time private chef team, rare wine collection management, hosting legendary dinner parties, guest chef residencies",
+        "monthlyCost": 5000
+      },
+      "groceries": {
+        "monthlyCost": 1200
+      },
+      "healthcare": {
+        "description": "Global concierge medicine, dedicated medical team, fly-anywhere coverage, biohacking and longevity protocols",
+        "monthlyCost": 1200
+      },
+      "transportation": {
+        "description": "Chauffeured luxury fleet, private jet charter for Mediterranean island hopping, superyacht access",
+        "monthlyCost": 3000
+      },
+      "entertainment": {
+        "description": "Art patronage and gallery ownership, private island retreats in Balearics, front-row fashion week, hosting cultural festivals",
+        "monthlyCost": 4500
+      },
+      "utilities": {
+        "monthlyCost": 600
+      },
+      "domesticHelp": {
+        "description": "Full household staff: butler, chef team, housekeepers, gardener, personal assistant, estate manager",
+        "monthlyCost": 4500
+      },
+      "luxuryExtras": {
+        "description": "Art acquisition fund, Balearic vacation property management, charitable foundation, bespoke Mediterranean yacht itineraries, personal brand management",
+        "monthlyCost": 5500
+      },
+      "lifestyle": "At this level, Barcelona is your private Mediterranean playground. Your modernista estate hosts gallery openings and charity galas, your superyacht cruises to Mallorca and Ibiza on whim, and your name is woven into the fabric of the city's cultural scene. You're not just living in Barcelona — you're one of its patrons."
+    }
+  }
+}

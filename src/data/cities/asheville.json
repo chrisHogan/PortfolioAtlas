@@ -1,0 +1,190 @@
+{
+  "name": "Asheville",
+  "country": "United States",
+  "region": "North America",
+  "slug": "asheville",
+  "emoji": "\ud83c\uddfa\ud83c\uddf8",
+  "fireScore": 6.2,
+  "tagline": "Mountain Arts, Craft Beer, and Blue Ridge Serenity",
+  "description": "Asheville is a creative haven nestled in the Blue Ridge Mountains, offering a walkable downtown, world-class craft beer scene, and stunning natural beauty in every direction. The cost of living is moderate by US standards, and the four-season mountain climate is hard to beat. For FIRE seekers who value culture, community, and the outdoors over big-city amenities, Asheville delivers.",
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "EST (UTC-5)",
+    "language": "English",
+    "internetSpeed": "150+ Mbps average",
+    "safetyRating": "Moderate – safe downtown; typical small-city considerations",
+    "nearestAirport": "Asheville Regional Airport (AVL)",
+    "climate": "Humid subtropical moderated by elevation; mild summers, cool winters",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "56°F / 13°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in West Asheville or the South Slope area",
+        "monthlyCost": 1300
+      },
+      "dining": {
+        "description": "Occasional brewery visits and casual dining 2x/week; mostly home cooking",
+        "monthlyCost": 220
+      },
+      "groceries": {
+        "monthlyCost": 380
+      },
+      "healthcare": {
+        "description": "ACA marketplace Silver plan; North Carolina premiums are mid-range",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "Paid-off car with basic insurance; car helpful for mountain access",
+        "monthlyCost": 250
+      },
+      "entertainment": {
+        "description": "Hiking the Blue Ridge Parkway, free gallery walks, street music; occasional show",
+        "monthlyCost": 80
+      },
+      "utilities": {
+        "monthlyCost": 140
+      },
+      "lifestyle": "Life on $3,333 in Asheville is manageable but leaves little room for extras. You can enjoy the incredible free hiking, catch buskers on the street, and hit a brewery once or twice a week. But healthcare eats a big chunk, and any major car repair or dental bill will sting. Budget carefully and lean into the free outdoor lifestyle."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "2BR apartment downtown or a small cottage in Montford or Kenilworth",
+        "monthlyCost": 1900
+      },
+      "dining": {
+        "description": "Enjoying Asheville's celebrated food scene 3-4x/week; farm-to-table restaurants",
+        "monthlyCost": 500
+      },
+      "groceries": {
+        "monthlyCost": 450
+      },
+      "healthcare": {
+        "description": "ACA Gold plan with dental and vision; comfortable deductible",
+        "monthlyCost": 620
+      },
+      "transportation": {
+        "description": "Reliable car for Blue Ridge Parkway drives, full coverage insurance",
+        "monthlyCost": 350
+      },
+      "entertainment": {
+        "description": "Orange Peel concerts, pottery classes, river tubing, brewery tours, yoga studio",
+        "monthlyCost": 250
+      },
+      "utilities": {
+        "monthlyCost": 165
+      },
+      "lifestyle": "This is the Asheville sweet spot. You can afford a charming place in a historic neighborhood, fully enjoy the incredible farm-to-table dining scene, and take art or music classes. Weekends are spent hiking Pisgah National Forest or floating the French Broad River. Life feels rich and creative."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR home in North Asheville or Biltmore Forest area with mountain views",
+        "monthlyCost": 3000
+      },
+      "dining": {
+        "description": "Regular dining at top restaurants like Cúrate, Rhubarb, and Chai Pani; wine dinners",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 550
+      },
+      "healthcare": {
+        "description": "Premium private insurance with comprehensive coverage and low deductibles",
+        "monthlyCost": 750
+      },
+      "transportation": {
+        "description": "Late-model AWD vehicle for mountain roads, premium insurance",
+        "monthlyCost": 500
+      },
+      "entertainment": {
+        "description": "Season passes to local venues, art collecting at River Arts District, golf, spa days",
+        "monthlyCost": 450
+      },
+      "utilities": {
+        "monthlyCost": 230
+      },
+      "lifestyle": "At $10K a month, Asheville becomes your personal mountain retreat. A beautiful home with views of the Blue Ridge, dinners at Asheville's James Beard-recognized restaurants, art purchases from local studios, and total freedom to explore the surrounding national forests. This is mountain living done right."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Custom mountain home in Biltmore Forest or a luxury property in Clyde or Black Mountain",
+        "monthlyCost": 5500
+      },
+      "dining": {
+        "description": "Private chef for weekly dinner parties, regular fine dining, farm partnerships",
+        "monthlyCost": 1300
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "Concierge medical practice in Asheville, premium insurance, integrative wellness",
+        "monthlyCost": 950
+      },
+      "transportation": {
+        "description": "Luxury SUV, second vehicle, flights from AVL to major hubs",
+        "monthlyCost": 800
+      },
+      "entertainment": {
+        "description": "Private art studio, country club membership, fly-fishing guides, music patronage",
+        "monthlyCost": 800
+      },
+      "utilities": {
+        "monthlyCost": 320
+      },
+      "domesticHelp": {
+        "description": "Weekly deep cleaning, gardening service, property maintenance",
+        "monthlyCost": 700
+      },
+      "luxuryExtras": {
+        "description": "Art collecting, quarterly travel, Biltmore Estate events, philanthropy",
+        "monthlyCost": 1400
+      },
+      "lifestyle": "You are living as mountain aristocracy. A stunning home overlooking the Blue Ridge, involvement in Asheville's vibrant arts community, private fly-fishing on stocked streams, and enough left over to support local artists and causes. Asheville at this level is one of the most beautiful lives in America."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Grand estate in Biltmore Forest or sprawling mountain compound with acreage",
+        "monthlyCost": 9500
+      },
+      "dining": {
+        "description": "Personal chef, exclusive wine dinners, catered gatherings, farm-to-table everything",
+        "monthlyCost": 2800
+      },
+      "groceries": {
+        "monthlyCost": 900
+      },
+      "healthcare": {
+        "description": "Top concierge practice, executive wellness retreats, specialists on demand",
+        "monthlyCost": 1300
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, private car service, chartered flights from AVL",
+        "monthlyCost": 1500
+      },
+      "entertainment": {
+        "description": "Major arts patronage, private concert bookings, international travel, exclusive events",
+        "monthlyCost": 2200
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full-time estate manager, housekeeper, personal assistant, groundskeeper",
+        "monthlyCost": 4500
+      },
+      "luxuryExtras": {
+        "description": "Second home, first-class travel, art gallery sponsorships, community foundation",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At $10M in Asheville you can live like the Vanderbilts who built Biltmore Estate. A grand mountain property, a personal chef sourcing from local farms, patronage of the arts community, and deep philanthropic involvement. The Blue Ridge Mountains are your private backdrop for an extraordinary retired life."
+    }
+  }
+}

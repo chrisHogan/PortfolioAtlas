@@ -1,0 +1,50 @@
+---
+import type { CityData } from '../data/types';
+import { getFireScoreClass, formatCurrency, TIER_MONTHLY_BUDGET } from '../data/types';
+
+interface Props {
+  city: CityData;
+}
+
+const { city } = Astro.props;
+const scoreClass = getFireScoreClass(city.fireScore);
+const lowestCost = city.tiers['1M'].housing.monthlyCost + city.tiers['1M'].dining.monthlyCost + city.tiers['1M'].groceries.monthlyCost;
+---
+
+<a href={`/cities/${city.slug}`} class="city-card block group">
+  <!-- Color bar at top -->
+  <div class="h-2 bg-gradient-to-r from-brand-500 to-brand-600"></div>
+
+  <div class="p-5">
+    <div class="flex items-start justify-between mb-3">
+      <div class="flex items-center gap-2">
+        <span class="text-2xl">{city.emoji}</span>
+        <div>
+          <h3 class="font-serif font-bold text-lg text-brand-950 group-hover:text-brand-600 transition-colors">
+            {city.name}
+          </h3>
+          <p class="text-sm text-gray-500">{city.country}</p>
+        </div>
+      </div>
+      <div class={`fire-score w-10 h-10 text-sm ${scoreClass}`}>
+        {city.fireScore.toFixed(1)}
+      </div>
+    </div>
+
+    <p class="text-sm text-gray-600 mb-4 line-clamp-2">
+      {city.tagline}
+    </p>
+
+    <div class="flex items-center justify-between pt-3 border-t border-sand-100">
+      <div>
+        <p class="text-xs text-gray-500">Starting from</p>
+        <p class="text-sm font-bold text-brand-700">
+          {formatCurrency(lowestCost)}<span class="text-xs font-normal text-gray-500">/mo basics</span>
+        </p>
+      </div>
+      <span class="text-xs font-medium text-brand-600 bg-brand-50 px-3 py-1 rounded-full">
+        {city.region}
+      </span>
+    </div>
+  </div>
+</a>

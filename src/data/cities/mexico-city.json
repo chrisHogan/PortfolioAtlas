@@ -1,0 +1,190 @@
+{
+  "name": "Mexico City",
+  "country": "Mexico",
+  "region": "Latin America",
+  "slug": "mexico-city",
+  "emoji": "\ud83c\uddf2\ud83c\uddfd",
+  "fireScore": 8.2,
+  "tagline": "World-Class Culture at a Fraction of the Cost",
+  "description": "Mexico City offers an unbeatable combination of cosmopolitan living, world-renowned cuisine, and affordable costs that make early retirement stretch remarkably far. With its thriving expat community, excellent healthcare infrastructure, and proximity to the US, CDMX has become one of the most popular FIRE destinations in the Americas.",
+  "quickFacts": {
+    "visa": "Temporary Resident Visa (1-4 years, renewable; requires proof of income ~$2,500/mo or savings ~$42,000)",
+    "timezone": "CST (UTC-6)",
+    "language": "Spanish",
+    "internetSpeed": "55 Mbps average",
+    "safetyRating": "Moderate — safe in expat-popular colonias like Roma, Condesa, Polanco",
+    "nearestAirport": "Mexico City International Airport (MEX)",
+    "climate": "Subtropical highland — mild year-round with rainy summers",
+    "englishFriendly": "Moderate",
+    "currency": "Mexican Peso (MXN)",
+    "averageTemp": "64°F / 18°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in Roma Norte or Condesa, modern building with good internet",
+        "monthlyCost": 750
+      },
+      "dining": {
+        "description": "Street tacos and fondas daily, occasional sit-down restaurants on weekends",
+        "monthlyCost": 450
+      },
+      "groceries": {
+        "monthlyCost": 300
+      },
+      "healthcare": {
+        "description": "IMSS public insurance plus occasional private clinic visits",
+        "monthlyCost": 150
+      },
+      "transportation": {
+        "description": "Metro, Metrobús, and occasional Uber rides across the city",
+        "monthlyCost": 100
+      },
+      "entertainment": {
+        "description": "Museums (many free on Sundays), parks, local bars, and cultural events",
+        "monthlyCost": 200
+      },
+      "utilities": {
+        "monthlyCost": 80
+      },
+      "lifestyle": "You wake up in a cozy Roma Norte apartment, grab a $1 cafe de olla from the corner stand, and spend mornings working from a trendy coffee shop. Afternoons are for exploring Chapultepec Park or catching a free museum exhibit. Evenings mean incredible $3 tacos al pastor from a bustling street stand and mezcal at a neighborhood cantina."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Spacious 2BR apartment in Condesa or Polanco with rooftop access and doorman",
+        "monthlyCost": 1400
+      },
+      "dining": {
+        "description": "Mix of excellent mid-range restaurants, trendy cafes, and street food adventures",
+        "monthlyCost": 900
+      },
+      "groceries": {
+        "monthlyCost": 450
+      },
+      "healthcare": {
+        "description": "Premium private insurance with access to top hospitals like ABC or Médica Sur",
+        "monthlyCost": 300
+      },
+      "transportation": {
+        "description": "Regular Uber use, occasional car rental for weekend trips to Valle de Bravo",
+        "monthlyCost": 250
+      },
+      "entertainment": {
+        "description": "Theater, concerts at Auditorio Nacional, gym membership, weekend day trips",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 120
+      },
+      "lifestyle": "Life in Condesa feels effortless — morning jogs through Parque México, brunch at a farm-to-table spot, afternoons at a coworking space or art gallery. You dine at acclaimed restaurants like Contramar without guilt and take weekend escapes to San Miguel de Allende or Oaxaca. The cultural richness of a 22-million-person megacity is yours at a fraction of what NYC or London would cost."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Luxury 2-3BR penthouse in Polanco or renovated colonial home in Coyoacán with terrace",
+        "monthlyCost": 2500
+      },
+      "dining": {
+        "description": "Fine dining at Pujol-caliber restaurants weekly, plus daily restaurant meals",
+        "monthlyCost": 1400
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "Top-tier private insurance, concierge medical services, annual executive checkups",
+        "monthlyCost": 450
+      },
+      "transportation": {
+        "description": "Personal driver on call, premium Uber Black, occasional domestic flights",
+        "monthlyCost": 500
+      },
+      "entertainment": {
+        "description": "VIP concert tickets, premium gym and spa memberships, cooking classes, golf",
+        "monthlyCost": 900
+      },
+      "utilities": {
+        "monthlyCost": 180
+      },
+      "lifestyle": "Your Polanco penthouse has sweeping city views and a private terrace for entertaining. Mornings start with a personal trainer, followed by lunch at world-ranked restaurants that would cost triple in Manhattan. Weekends might mean a flight to the Oaxacan coast or a mezcal tasting in Tepoztlán. You live at the intersection of old-world charm and modern luxury, surrounded by art, history, and extraordinary food."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Stunning penthouse in Polanco or large colonial estate in San Ángel with garden and security",
+        "monthlyCost": 4500
+      },
+      "dining": {
+        "description": "World-class dining nightly — Quintonil, Rosetta, Máximo Bistrot are regular haunts",
+        "monthlyCost": 2200
+      },
+      "groceries": {
+        "monthlyCost": 800
+      },
+      "healthcare": {
+        "description": "Platinum private insurance, US-trained specialists on retainer, medical tourism coordination",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "Full-time private driver, leased luxury vehicle, domestic flights as needed",
+        "monthlyCost": 1200
+      },
+      "entertainment": {
+        "description": "Box seats at events, country club membership, art collecting, wine cellar curation",
+        "monthlyCost": 1500
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper/cook, part-time gardener, and weekly deep cleaning service",
+        "monthlyCost": 1200
+      },
+      "luxuryExtras": {
+        "description": "Weekend homes in Valle de Bravo or Tulum, private chef for dinner parties, art gallery openings",
+        "monthlyCost": 2000
+      },
+      "lifestyle": "You've built an extraordinary life that Mexico City's elite would envy. A full staff manages your San Ángel estate while you split time between the capital and a beach house in Tulum. Your social calendar is packed with gallery openings, charity galas, and dinners prepared by private chefs. This is billionaire-adjacent living funded by what would barely cover a modest life in San Francisco."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Landmark property — restored hacienda in San Ángel or ultra-luxury penthouse in Nuevo Polanco with full staff quarters",
+        "monthlyCost": 8000
+      },
+      "dining": {
+        "description": "Private chef for daily meals, plus unlimited fine dining at Mexico's best restaurants and exclusive pop-ups",
+        "monthlyCost": 4000
+      },
+      "groceries": {
+        "monthlyCost": 1200
+      },
+      "healthcare": {
+        "description": "Global concierge healthcare, annual checkups at Mayo Clinic, wellness retreats, personal nutritionist",
+        "monthlyCost": 1200
+      },
+      "transportation": {
+        "description": "Chauffeur-driven luxury vehicle, private jet charters for regional travel, helicopter transfers",
+        "monthlyCost": 3000
+      },
+      "entertainment": {
+        "description": "Patron of the arts, private museum tours, exclusive club memberships, yacht weekends in Acapulco",
+        "monthlyCost": 3500
+      },
+      "utilities": {
+        "monthlyCost": 400
+      },
+      "domesticHelp": {
+        "description": "Full household staff: chef, housekeeper, driver, gardener, personal assistant, and security",
+        "monthlyCost": 3500
+      },
+      "luxuryExtras": {
+        "description": "Multiple properties across Mexico, art collection, philanthropy, wine importing hobby, bespoke travel",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "You are living like Mexican old money — a restored colonial estate with full staff, a private chef who trained at Pujol, and a social life that orbits the city's cultural elite. Weekends alternate between your Acapulco villa and your Valle de Bravo lakehouse. You fund art exhibitions, host legendary dinner parties, and travel by private charter. Mexico City at this level is genuinely one of the finest places on earth to be wealthy."
+    }
+  }
+}

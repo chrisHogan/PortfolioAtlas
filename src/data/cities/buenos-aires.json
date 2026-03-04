@@ -1,0 +1,190 @@
+{
+  "name": "Buenos Aires",
+  "country": "Argentina",
+  "region": "Latin America",
+  "slug": "buenos-aires",
+  "emoji": "\ud83c\udde6\ud83c\uddf7",
+  "fireScore": 7.8,
+  "tagline": "European Elegance at South American Prices",
+  "description": "Buenos Aires is the Paris of South America — grand architecture, world-class steak and wine, and a cultural scene that rivals any global capital. Argentina's economic volatility means the dollar stretches extraordinarily far, making it possible to live a genuinely luxurious life on a modest FIRE budget, though currency fluctuations add an element of unpredictability.",
+  "quickFacts": {
+    "visa": "Rentista Visa (requires proof of stable income ~$1,500/mo from abroad; renewable annually) or Pensionado Visa for retirees",
+    "timezone": "ART (UTC-3)",
+    "language": "Spanish (Rioplatense)",
+    "internetSpeed": "50 Mbps average",
+    "safetyRating": "Moderate — safe in Palermo, Recoleta, Belgrano; pickpocketing common in tourist areas",
+    "nearestAirport": "Ezeiza International Airport (EZE)",
+    "climate": "Humid subtropical — hot summers, mild winters, four distinct seasons",
+    "englishFriendly": "Moderate",
+    "currency": "Argentine Peso (ARS) — significant parallel exchange rate ('blue dollar') benefits foreigners",
+    "averageTemp": "64°F / 18°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Charming 1BR apartment in Palermo Soho or San Telmo with original hardwood floors",
+        "monthlyCost": 500
+      },
+      "dining": {
+        "description": "Daily parrilla steaks, empanadas, neighborhood cafes, and abundant red wine",
+        "monthlyCost": 400
+      },
+      "groceries": {
+        "monthlyCost": 220
+      },
+      "healthcare": {
+        "description": "Obra social (prepaid health plan) with solid coverage at private clinics",
+        "monthlyCost": 100
+      },
+      "transportation": {
+        "description": "Subte (metro), colectivo buses, and occasional Cabify rides across the city",
+        "monthlyCost": 60
+      },
+      "entertainment": {
+        "description": "Milongas (tango halls), free museum days, bookshop cafes, fútbol matches, park picnics",
+        "monthlyCost": 250
+      },
+      "utilities": {
+        "monthlyCost": 50
+      },
+      "lifestyle": "Buenos Aires at this budget is a revelation — a thick bife de chorizo with a bottle of Malbec for $10, live tango in a century-old milonga for pocket change, and an apartment in a neighborhood that looks like it belongs in a Wes Anderson film. You spend mornings reading in ornate cafes, afternoons wandering San Telmo's antique markets, and evenings at asados with new friends. The city's famous late-night culture costs almost nothing to enjoy."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Spacious 2BR apartment in Palermo Hollywood or Recoleta with balcony overlooking tree-lined streets",
+        "monthlyCost": 900
+      },
+      "dining": {
+        "description": "Top-tier parrillas like Don Julio regularly, craft cocktail bars, international cuisine",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 350
+      },
+      "healthcare": {
+        "description": "Premium prepaga plan (Swiss Medical or OSDE 310) with excellent hospital access",
+        "monthlyCost": 200
+      },
+      "transportation": {
+        "description": "Regular Cabify use, occasional car rental for estancia day trips and wine country visits",
+        "monthlyCost": 150
+      },
+      "entertainment": {
+        "description": "Teatro Colón opera tickets, tango lessons, gym membership, weekend trips to Tigre Delta",
+        "monthlyCost": 600
+      },
+      "utilities": {
+        "monthlyCost": 80
+      },
+      "lifestyle": "Recoleta or Palermo becomes your stage — you attend world-class opera at Teatro Colón for the price of a movie ticket back home, take private tango lessons, and dine at restaurants that would carry Michelin stars in any other city. Weekends might mean a boat ride through the Tigre Delta or a wine-fueled asado at a friend's estancia. You're living the porteño dream at a level most locals aspire to."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Luxury 3BR apartment in Recoleta or Puerto Madero with river views, pool, and premium amenities",
+        "monthlyCost": 1800
+      },
+      "dining": {
+        "description": "Fine dining at Tegui, Aramburu, and Proper weekly; unlimited parrilla and wine exploration",
+        "monthlyCost": 1400
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "Top-tier OSDE 510 plan with concierge-level service at Hospital Alemán or Italiano",
+        "monthlyCost": 350
+      },
+      "transportation": {
+        "description": "Personal driver available, premium car service, domestic flights to Patagonia and Mendoza",
+        "monthlyCost": 400
+      },
+      "entertainment": {
+        "description": "Box seats at Teatro Colón, polo matches, wine club memberships, estancia weekends",
+        "monthlyCost": 1100
+      },
+      "utilities": {
+        "monthlyCost": 120
+      },
+      "lifestyle": "At $10K/month in Buenos Aires, you are living like aristocracy. Your Recoleta apartment has the kind of grandeur — marble lobbies, French balconies — that costs millions in Paris. You attend polo matches at the Campo Argentino, take long weekends in Mendoza's wine country, and your regular table at the city's closed-door restaurants (puertas cerradas) is the envy of food journalists worldwide."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Penthouse in Puerto Madero's most exclusive tower or historic mansion apartment in Recoleta with terrace garden",
+        "monthlyCost": 3500
+      },
+      "dining": {
+        "description": "Private chef access, unlimited fine dining, imported wines, exclusive closed-door restaurant circuit",
+        "monthlyCost": 2200
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "Platinum prepaga with international coverage, concierge medicine, annual wellness retreats",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "Full-time driver, luxury vehicle, domestic flights, weekend helicopter to estancia",
+        "monthlyCost": 1000
+      },
+      "entertainment": {
+        "description": "Polo club membership, art collecting at arteBA, opera box season tickets, Patagonia fishing trips",
+        "monthlyCost": 1700
+      },
+      "utilities": {
+        "monthlyCost": 180
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper and cook, part-time laundress and personal assistant",
+        "monthlyCost": 800
+      },
+      "luxuryExtras": {
+        "description": "Private estancia weekends, wine cellar curation, art collection, bespoke leather goods and tailoring",
+        "monthlyCost": 2000
+      },
+      "lifestyle": "Your Puerto Madero penthouse overlooks the Río de la Plata, and your social calendar reads like a society column — polo at Palermo, opera premieres, gallery openings, and private wine tastings with Mendoza's top winemakers. A full-time cook prepares perfect asado while you entertain on your terrace. Buenos Aires at this level is genuinely one of the world's great luxuries — Old World sophistication at a New World price."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Historic Recoleta palace apartment or sprawling Puerto Madero duplex penthouse with staff quarters and private terrace garden",
+        "monthlyCost": 6500
+      },
+      "dining": {
+        "description": "Full-time private chef specializing in Argentine-French fusion, curated wine cellar, exclusive dining societies",
+        "monthlyCost": 3500
+      },
+      "groceries": {
+        "monthlyCost": 1000
+      },
+      "healthcare": {
+        "description": "Global concierge healthcare, annual checkups in the US or Europe, personal trainer, longevity medicine",
+        "monthlyCost": 900
+      },
+      "transportation": {
+        "description": "Luxury fleet with chauffeur, private jet charters to Patagonia and Uruguay, helicopter on call",
+        "monthlyCost": 3000
+      },
+      "entertainment": {
+        "description": "Polo team ownership, art patronage, private box at La Bombonera, Antarctic expedition planning",
+        "monthlyCost": 3800
+      },
+      "utilities": {
+        "monthlyCost": 300
+      },
+      "domesticHelp": {
+        "description": "Complete household staff: private chef, butler, two housekeepers, driver, personal assistant, security",
+        "monthlyCost": 2800
+      },
+      "luxuryExtras": {
+        "description": "Estancia ownership in Pampas, Patagonian fishing lodge, rare wine investments, philanthropy in Argentine arts",
+        "monthlyCost": 5500
+      },
+      "lifestyle": "You inhabit the world of Argentine old money — a palace apartment in Recoleta, a working estancia in the Pampas where gauchos ride your horses, and a fishing lodge in Patagonia that makes world travelers weep with envy. Your private chef trained under Francis Mallmann, your wine cellar rivals Catena Zapata's, and your polo team competes in the Open. Buenos Aires at $33K/month is a life of incomprehensible richness, and it still costs less than a modest apartment in Manhattan."
+    }
+  }
+}

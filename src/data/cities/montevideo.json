@@ -1,0 +1,190 @@
+{
+  "name": "Montevideo",
+  "country": "Uruguay",
+  "region": "Latin America",
+  "slug": "montevideo",
+  "emoji": "\ud83c\uddfa\ud83c\uddfe",
+  "fireScore": 7.5,
+  "tagline": "South America's Safest Haven for Your FIRE Portfolio",
+  "description": "Montevideo is the quiet achiever of Latin American FIRE destinations — politically stable, remarkably safe, and offering a quality of life that punches well above its weight. Uruguay's progressive policies, strong rule of law, and lack of foreign income taxation make it uniquely attractive for retirees seeking both lifestyle and financial security in South America.",
+  "quickFacts": {
+    "visa": "Rentista Visa (requires proof of stable passive income ~$1,500/mo; leads to permanent residency after 3-5 years)",
+    "timezone": "UYT (UTC-3)",
+    "language": "Spanish (Rioplatense)",
+    "internetSpeed": "48 Mbps average",
+    "safetyRating": "Good — safest capital in South America; standard urban caution in Ciudad Vieja at night",
+    "nearestAirport": "Carrasco International Airport (MVD)",
+    "climate": "Humid subtropical — warm summers, mild winters, moderate rainfall year-round",
+    "englishFriendly": "Low",
+    "currency": "Uruguayan Peso (UYU)",
+    "averageTemp": "62°F / 17°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in Pocitos or Ciudad Vieja near the Rambla waterfront promenade",
+        "monthlyCost": 650
+      },
+      "dining": {
+        "description": "Parrilla lunches, chivito sandwiches, neighborhood cafes, and weekend asados",
+        "monthlyCost": 420
+      },
+      "groceries": {
+        "monthlyCost": 320
+      },
+      "healthcare": {
+        "description": "Mutualista (private health cooperative) membership with comprehensive coverage",
+        "monthlyCost": 130
+      },
+      "transportation": {
+        "description": "Bus system, walking along the Rambla, occasional taxi and rideshare",
+        "monthlyCost": 80
+      },
+      "entertainment": {
+        "description": "Beach days at Pocitos, Mercado del Puerto visits, mate in the park, live murga music",
+        "monthlyCost": 220
+      },
+      "utilities": {
+        "monthlyCost": 100
+      },
+      "lifestyle": "You wake up in Pocitos, grab your thermos of mate, and join the morning walkers along the Rambla — Montevideo's glorious 22-kilometer waterfront promenade. Lunch is a massive chivito sandwich for $6, afternoons are for reading in Parque Rodó, and evenings mean a perfectly grilled entrecôte with Tannat wine at a neighborhood parrilla. Life moves at a gentle pace in the world's most underrated capital."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Modern 2BR apartment in Punta Carretas or Pocitos with ocean views and building amenities",
+        "monthlyCost": 1200
+      },
+      "dining": {
+        "description": "Regular meals at Mercado del Puerto, quality restaurants in Carrasco, craft beer scene",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 450
+      },
+      "healthcare": {
+        "description": "Premium mutualista plan with Hospital Británico or Médica Uruguaya access",
+        "monthlyCost": 250
+      },
+      "transportation": {
+        "description": "Frequent taxi and rideshare, occasional car rental for beach trips to José Ignacio",
+        "monthlyCost": 200
+      },
+      "entertainment": {
+        "description": "Teatro Solís performances, wine tastings at Bodega Bouza, beach clubs, weekend Colonia trips",
+        "monthlyCost": 550
+      },
+      "utilities": {
+        "monthlyCost": 130
+      },
+      "lifestyle": "Punta Carretas is your home base — a leafy, safe neighborhood where you walk to the beach, browse the former-prison-turned-shopping-mall, and sip Tannat at sunset overlooking the Río de la Plata. Weekends mean wine tasting at Bodega Bouza, day trips to charming Colonia del Sacramento, or the drive to Punta del Este for the glamorous beach scene. Uruguay's stability and safety make it feel like the Switzerland of South America."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Luxury 3BR penthouse in Carrasco or waterfront Punta Carretas with terrace and premium finishes",
+        "monthlyCost": 2200
+      },
+      "dining": {
+        "description": "Fine dining at Francis, Escaramuza, and Jacinto regularly; unlimited asado and Tannat",
+        "monthlyCost": 1300
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "Top-tier mutualista with specialist access, dental work, annual executive checkups",
+        "monthlyCost": 400
+      },
+      "transportation": {
+        "description": "Leased vehicle, occasional driver, domestic flights, ferry to Buenos Aires",
+        "monthlyCost": 500
+      },
+      "entertainment": {
+        "description": "Golf club membership, Punta del Este weekends, sailing, cultural season tickets",
+        "monthlyCost": 1000
+      },
+      "utilities": {
+        "monthlyCost": 170
+      },
+      "lifestyle": "Your Carrasco penthouse — in Montevideo's most elegant neighborhood of tree-lined streets and art deco mansions — is the perfect base for a refined life. You play golf at Club de Golf del Uruguay, attend opening nights at Teatro Solís, and spend long weekends at your favorite boutique hotel in José Ignacio. Uruguay rewards patience and taste, and at this budget, both are amply satisfied."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Elegant villa in Carrasco with garden, pool, and security, or premium penthouse with 180° ocean views",
+        "monthlyCost": 4000
+      },
+      "dining": {
+        "description": "Private chef access, Montevideo's best restaurants without limits, imported wines, Punta del Este dining scene",
+        "monthlyCost": 2000
+      },
+      "groceries": {
+        "monthlyCost": 750
+      },
+      "healthcare": {
+        "description": "Platinum mutualista, international coverage add-on, concierge-level medical coordination",
+        "monthlyCost": 550
+      },
+      "transportation": {
+        "description": "Luxury vehicle with occasional driver, private ferry crossings, charter flights to Punta del Este",
+        "monthlyCost": 1000
+      },
+      "entertainment": {
+        "description": "Country club memberships, art collecting, Punta del Este social season, yacht club, equestrian",
+        "monthlyCost": 1500
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper and cook, part-time gardener and pool maintenance",
+        "monthlyCost": 900
+      },
+      "luxuryExtras": {
+        "description": "Beach house in José Ignacio, Tannat wine collection, bespoke estancia experiences, art gallery patronage",
+        "monthlyCost": 1800
+      },
+      "lifestyle": "Your Carrasco villa is a sanctuary of mature gardens and quiet luxury, while your José Ignacio beach house is the summer escape that Uruguayan society dreams of. You move between Montevideo's cultural season and Punta del Este's glamorous social scene, attending gallery openings and charity polo matches. Uruguay's political stability and zero tax on foreign income mean your wealth is as secure as your lifestyle is enviable."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Historic Carrasco estate with extensive grounds, or dual properties — Montevideo mansion and José Ignacio beachfront compound",
+        "monthlyCost": 7500
+      },
+      "dining": {
+        "description": "Full-time private chef, exclusive dining clubs, curated wine cellar, hosted asado events for 30+",
+        "monthlyCost": 3500
+      },
+      "groceries": {
+        "monthlyCost": 1100
+      },
+      "healthcare": {
+        "description": "Global concierge healthcare, annual international checkups, personal wellness staff, longevity program",
+        "monthlyCost": 1000
+      },
+      "transportation": {
+        "description": "Luxury vehicle collection with chauffeur, private flights, yacht for Río de la Plata crossings",
+        "monthlyCost": 2800
+      },
+      "entertainment": {
+        "description": "Philanthropic foundations, art patronage, polo sponsorship, exclusive social clubs, Antarctic voyage",
+        "monthlyCost": 3500
+      },
+      "utilities": {
+        "monthlyCost": 400
+      },
+      "domesticHelp": {
+        "description": "Full household staff across properties: chef, housekeepers, groundskeepers, driver, personal assistant, security",
+        "monthlyCost": 3000
+      },
+      "luxuryExtras": {
+        "description": "José Ignacio beachfront estate, working estancia investment, Uruguayan Tannat vineyard, art collection, yacht mooring",
+        "monthlyCost": 4500
+      },
+      "lifestyle": "You are part of Uruguay's quiet elite — a Carrasco estate that hosts legendary asados, a José Ignacio compound where international artists and diplomats gather each summer, and perhaps a small Tannat vineyard producing your personal label. Uruguay's discretion suits your temperament: no flash, no pretension, just deep, enduring quality. Your wealth benefits from zero foreign income tax while your life benefits from South America's most stable, progressive, and genuinely civilized society."
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "name": "Medellín",
+  "country": "Colombia",
+  "region": "Latin America",
+  "slug": "medellin",
+  "emoji": "\ud83c\udde8\ud83c\uddf4",
+  "fireScore": 8.5,
+  "tagline": "The City of Eternal Spring Where Your Dollar Blooms",
+  "description": "Medellín delivers arguably the best value proposition in Latin America for FIRE retirees — perfect year-round weather, dramatically low costs, excellent private healthcare, and a booming innovation scene. Once infamous, the city has transformed into a global hotspot for digital nomads and early retirees seeking first-world amenities at developing-world prices.",
+  "quickFacts": {
+    "visa": "Colombia Retirement Visa (Visa M - Jubilado; requires pension or income ~$750/mo, renewable annually)",
+    "timezone": "COT (UTC-5)",
+    "language": "Spanish",
+    "internetSpeed": "45 Mbps average",
+    "safetyRating": "Moderate — very safe in El Poblado, Laureles, Envigado; standard urban caution elsewhere",
+    "nearestAirport": "José María Córdova International Airport (MDE)",
+    "climate": "Tropical highland — eternal spring, 70-82°F year-round with two rainy seasons",
+    "englishFriendly": "Moderate",
+    "currency": "Colombian Peso (COP)",
+    "averageTemp": "72°F / 22°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Furnished 1BR apartment in Laureles or Envigado with mountain views",
+        "monthlyCost": 550
+      },
+      "dining": {
+        "description": "Menu del día lunches ($3-4), local restaurants, arepa stands, and weekend brunch",
+        "monthlyCost": 380
+      },
+      "groceries": {
+        "monthlyCost": 250
+      },
+      "healthcare": {
+        "description": "EPS public insurance enrollment plus supplemental prepagada plan",
+        "monthlyCost": 120
+      },
+      "transportation": {
+        "description": "Metro system, integrated bus network, and occasional taxi or InDriver rides",
+        "monthlyCost": 80
+      },
+      "entertainment": {
+        "description": "Parque Arví hikes, free cultural events, salsa clubs, local brewery scene",
+        "monthlyCost": 200
+      },
+      "utilities": {
+        "monthlyCost": 70
+      },
+      "lifestyle": "You settle into Laureles, the neighborhood locals prefer — mornings at a corner bakery with a tinto and fresh pan de bono, afternoons exploring the city's incredible street art and green spaces. Your apartment has floor-to-ceiling windows framing the Aburrá Valley. Evenings mean $5 multi-course meals and salsa dancing in Parque Lleras — all on a budget that would barely cover rent in most US cities."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Modern 2BR apartment in El Poblado or upscale Laureles with pool, gym, and security",
+        "monthlyCost": 1100
+      },
+      "dining": {
+        "description": "Regular meals at El Poblado's international restaurants, craft cocktail bars, and coffee tours",
+        "monthlyCost": 750
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "Premium prepagada plan with top clinics like Clínica Las Américas or Pablo Tobón Uribe",
+        "monthlyCost": 250
+      },
+      "transportation": {
+        "description": "Frequent taxi and rideshare use, weekend car rentals for trips to Guatapé or Jardín",
+        "monthlyCost": 180
+      },
+      "entertainment": {
+        "description": "Gym membership, Spanish classes, weekend finca trips, concerts, and coffee farm tours",
+        "monthlyCost": 550
+      },
+      "utilities": {
+        "monthlyCost": 100
+      },
+      "lifestyle": "El Poblado becomes your leafy, walkable home base — you take Spanish classes in the morning, work out at a modern gym, and have lunch at a different international restaurant each day. Weekends are for renting a finca in the countryside with friends or taking the scenic drive to Guatapé's stunning lakeside. Colombia's world-famous coffee tastes even better when you visit the farms yourself."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Luxury 3BR penthouse in El Poblado's Golden Mile with panoramic valley views and concierge",
+        "monthlyCost": 2200
+      },
+      "dining": {
+        "description": "Fine dining at Carmen, El Cielo, and OCI weekly; daily restaurant meals without hesitation",
+        "monthlyCost": 1200
+      },
+      "groceries": {
+        "monthlyCost": 550
+      },
+      "healthcare": {
+        "description": "Top-tier prepagada, dental implant work, annual wellness retreats in Santa Marta",
+        "monthlyCost": 400
+      },
+      "transportation": {
+        "description": "Personal driver, premium rideshares, domestic flights to Cartagena and Bogotá",
+        "monthlyCost": 450
+      },
+      "entertainment": {
+        "description": "Country club membership, paragliding, VIP events at Colombiamoda, adventure travel",
+        "monthlyCost": 1000
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "From your penthouse terrace, you watch paragliders float over the valley as the sun sets behind the Andes. Your trainer meets you at the building gym, then it's a leisurely brunch at a farm-to-table restaurant. Life here is an effortless blend of adventure and sophistication — one weekend you're diving in the Rosario Islands off Cartagena, the next you're at a private coffee cupping with a championship barista."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Ultra-luxury penthouse in El Tesoro area or sprawling finca-style home in Envigado hills with private pool",
+        "monthlyCost": 3800
+      },
+      "dining": {
+        "description": "Unlimited fine dining, private chef experiences, wine pairing dinners, culinary tours",
+        "monthlyCost": 2000
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "Platinum healthcare with US-standard specialists, medical concierge, cosmetic procedures",
+        "monthlyCost": 550
+      },
+      "transportation": {
+        "description": "Full-time driver with SUV, domestic flights, helicopter tours to coffee country",
+        "monthlyCost": 1000
+      },
+      "entertainment": {
+        "description": "Exclusive club memberships, adventure sports, art collecting, Feria de las Flores VIP access",
+        "monthlyCost": 1500
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "domesticHelp": {
+        "description": "Full-time live-in housekeeper, cook, and part-time gardener for your property",
+        "monthlyCost": 900
+      },
+      "luxuryExtras": {
+        "description": "Weekend finca in coffee region, private salsa instructor, bespoke Colombian emerald jewelry",
+        "monthlyCost": 1800
+      },
+      "lifestyle": "You live in the hills above the city in a sprawling modern home with an infinity pool overlooking the valley. A full-time cook prepares traditional bandeja paisa alongside international cuisine, and your driver takes you wherever the mood strikes. Your weekend finca in the coffee triangle is the envy of every visitor. Colombia rewards this budget with a lifestyle that feels genuinely lavish."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Estate property in the hills of El Retiro or Las Palmas with multiple structures, pool, and 360° mountain views",
+        "monthlyCost": 7000
+      },
+      "dining": {
+        "description": "Private chef daily, exclusive supper clubs, regional culinary expeditions, imported wines",
+        "monthlyCost": 3500
+      },
+      "groceries": {
+        "monthlyCost": 1000
+      },
+      "healthcare": {
+        "description": "Global concierge healthcare, annual US checkups, longevity medicine, personal wellness team",
+        "monthlyCost": 1000
+      },
+      "transportation": {
+        "description": "Luxury vehicle fleet with full-time chauffeur, private flights, yacht charters in Cartagena",
+        "monthlyCost": 2800
+      },
+      "entertainment": {
+        "description": "Philanthropic foundations, art patronage, exclusive social clubs, adventure expeditions to the Amazon",
+        "monthlyCost": 3500
+      },
+      "utilities": {
+        "monthlyCost": 350
+      },
+      "domesticHelp": {
+        "description": "Complete household staff: chef, two housekeepers, driver, groundskeeper, personal assistant, security",
+        "monthlyCost": 2800
+      },
+      "luxuryExtras": {
+        "description": "Multiple properties (Cartagena beach house, coffee finca, city penthouse), emerald mine investment, polo club",
+        "monthlyCost": 5500
+      },
+      "lifestyle": "At this level, Medellín transforms from a city you live in to a kingdom you preside over. Your hilltop estate hosts legendary parties under the stars, your Cartagena beach house is a quick private flight away, and your coffee finca produces award-winning beans. You fund local arts programs, sponsor emerging Colombian designers, and move through a world of extraordinary privilege in one of the most beautiful settings on earth."
+    }
+  }
+}

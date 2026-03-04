@@ -1,0 +1,76 @@
+---
+const currentPath = Astro.url.pathname;
+---
+
+<header class="bg-white/80 backdrop-blur-md border-b border-sand-200 sticky top-0 z-50">
+  <nav class="container-wide flex items-center justify-between h-16">
+    <a href="/" class="flex items-center gap-2 group">
+      <div class="w-8 h-8 bg-brand-600 rounded-lg flex items-center justify-center">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </div>
+      <span class="font-serif font-bold text-xl text-brand-950 group-hover:text-brand-700 transition-colors">
+        Portfolio<span class="text-brand-600">Atlas</span>
+      </span>
+    </a>
+
+    <div class="hidden md:flex items-center gap-8">
+      <a
+        href="/"
+        class:list={[
+          'text-sm font-medium transition-colors',
+          currentPath === '/' ? 'text-brand-600' : 'text-gray-600 hover:text-brand-600',
+        ]}
+      >
+        Destinations
+      </a>
+      <a
+        href="/compare"
+        class:list={[
+          'text-sm font-medium transition-colors',
+          currentPath === '/compare' ? 'text-brand-600' : 'text-gray-600 hover:text-brand-600',
+        ]}
+      >
+        Compare
+      </a>
+      <a
+        href="/about"
+        class:list={[
+          'text-sm font-medium transition-colors',
+          currentPath === '/about' ? 'text-brand-600' : 'text-gray-600 hover:text-brand-600',
+        ]}
+      >
+        About
+      </a>
+    </div>
+
+    <!-- Mobile menu button -->
+    <button
+      id="mobile-menu-btn"
+      class="md:hidden p-2 text-gray-600 hover:text-brand-600"
+      aria-label="Toggle menu"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div id="mobile-menu" class="hidden md:hidden border-t border-sand-200 bg-white">
+    <div class="container-wide py-4 flex flex-col gap-3">
+      <a href="/" class="text-sm font-medium text-gray-600 hover:text-brand-600 py-1">Destinations</a>
+      <a href="/compare" class="text-sm font-medium text-gray-600 hover:text-brand-600 py-1">Compare</a>
+      <a href="/about" class="text-sm font-medium text-gray-600 hover:text-brand-600 py-1">About</a>
+    </div>
+  </div>
+</header>
+
+<script>
+  const btn = document.getElementById('mobile-menu-btn');
+  const menu = document.getElementById('mobile-menu');
+  btn?.addEventListener('click', () => {
+    menu?.classList.toggle('hidden');
+  });
+</script>

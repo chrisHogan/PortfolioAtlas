@@ -1,0 +1,190 @@
+{
+  "name": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "slug": "dubai",
+  "emoji": "\ud83c\udde6\ud83c\uddea",
+  "fireScore": 5.2,
+  "tagline": "Zero Income Tax, World-Class Luxury, and Year-Round Sunshine",
+  "description": "Dubai offers a unique FIRE proposition: zero income tax on your withdrawals combined with world-class infrastructure, safety, and connectivity. The city is a global hub with direct flights to virtually everywhere, a cosmopolitan expat community, and amenities that range from futuristic skyscrapers to pristine beaches. While the cost of living is higher than most FIRE destinations, the tax savings can offset this significantly for high-net-worth retirees.",
+  "quickFacts": {
+    "visa": "Multiple residency options: 10-year Golden Visa for property investment (AED 2M+), 5-year retirement visa (requirements apply), or freelancer/remote work visas",
+    "timezone": "GST (UTC+4)",
+    "language": "Arabic (official); English is the lingua franca and widely spoken everywhere",
+    "internetSpeed": "200+ Mbps average",
+    "safetyRating": "Very High – one of the safest cities in the world; extremely low crime",
+    "nearestAirport": "Dubai International Airport (DXB) – world's busiest international airport",
+    "climate": "Hot desert with very hot, humid summers (40°C+) and mild, pleasant winters",
+    "englishFriendly": "High",
+    "currency": "AED (1 USD ~ 3.67 AED)",
+    "averageTemp": "84°F / 29°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Studio or small 1BR apartment in International City, Discovery Gardens, or Al Nahda",
+        "monthlyCost": 1500
+      },
+      "dining": {
+        "description": "Shawarma spots, Indian restaurants, and food courts 3x/week; cooking at home otherwise",
+        "monthlyCost": 300
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "Basic mandatory health insurance; limited coverage, higher co-pays",
+        "monthlyCost": 250
+      },
+      "transportation": {
+        "description": "Dubai Metro and bus system; occasional taxi; no car at this budget",
+        "monthlyCost": 150
+      },
+      "entertainment": {
+        "description": "Beach access (free), mall walking, community events; very limited nightlife budget",
+        "monthlyCost": 80
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "lifestyle": "Dubai on $1M is a challenge and not what most people envision when they think of the city. You will live in a basic apartment in an outer neighborhood, rely on public transit, and eat at the excellent but modest Indian and Pakistani restaurants that serve the city's working population. The beach is free and gorgeous, but the glitzy Dubai lifestyle is out of reach. The zero income tax advantage is minimal at this withdrawal level."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "1BR apartment in Dubai Marina, JLT, or Business Bay with city or partial marina views",
+        "monthlyCost": 2000
+      },
+      "dining": {
+        "description": "Mid-range dining 3-4x/week; enjoying Dubai's diverse international restaurant scene",
+        "monthlyCost": 600
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "Comprehensive health insurance with good hospital network and reasonable deductibles",
+        "monthlyCost": 400
+      },
+      "transportation": {
+        "description": "Compact car rental or owned vehicle, fuel, Salik tolls, parking, insurance",
+        "monthlyCost": 500
+      },
+      "entertainment": {
+        "description": "Beach clubs on occasion, gym membership, desert trips, cinema, brunches",
+        "monthlyCost": 300
+      },
+      "utilities": {
+        "monthlyCost": 280
+      },
+      "lifestyle": "At $2M, Dubai starts to make sense. You can afford a modern apartment in one of the desirable marina-area communities, drive your own car, and enjoy the city's incredible diversity of cuisines. Weekend brunches -- a Dubai institution -- are within reach, and you can join the beach-club scene occasionally. Zero income tax means your full $6,667 monthly withdrawal is yours to spend."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Spacious 2BR in Dubai Marina, Palm Jumeirah, or Downtown Dubai with stunning views",
+        "monthlyCost": 3200
+      },
+      "dining": {
+        "description": "Regular dining at celebrity-chef restaurants, Friday brunches at 5-star hotels",
+        "monthlyCost": 1000
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "Premium health insurance with access to top hospitals like Mediclinic and Cleveland Clinic Abu Dhabi",
+        "monthlyCost": 550
+      },
+      "transportation": {
+        "description": "Mid-range SUV (Nissan Patrol or similar), full insurance, fuel, tolls",
+        "monthlyCost": 650
+      },
+      "entertainment": {
+        "description": "Beach club memberships, desert safaris, golf, spa treatments, live events at Dubai Opera",
+        "monthlyCost": 600
+      },
+      "utilities": {
+        "monthlyCost": 350
+      },
+      "lifestyle": "This is the Dubai life that draws people from around the world. A beautiful apartment overlooking the marina or Burj Khalifa, regular dining at restaurants by Nobu and Zuma, Friday brunches at five-star hotels, and beach club memberships for the winter months. The zero-tax advantage at $10K per month saves you thousands annually compared to most US or European cities."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury 3BR penthouse in Downtown Dubai, or a villa on Palm Jumeirah with private beach",
+        "monthlyCost": 5500
+      },
+      "dining": {
+        "description": "Fine dining at Michelin-starred restaurants multiple times per week, catered dinner parties",
+        "monthlyCost": 1800
+      },
+      "groceries": {
+        "monthlyCost": 750
+      },
+      "healthcare": {
+        "description": "VIP health insurance with direct access to top specialists, executive wellness programs",
+        "monthlyCost": 700
+      },
+      "transportation": {
+        "description": "Luxury vehicle (Mercedes, Range Rover), premium insurance, private driver for events",
+        "monthlyCost": 1000
+      },
+      "entertainment": {
+        "description": "Premium beach and yacht clubs, golf at Emirates Golf Club, VIP event access, spa retreats",
+        "monthlyCost": 1000
+      },
+      "utilities": {
+        "monthlyCost": 450
+      },
+      "domesticHelp": {
+        "description": "Full-time live-in maid, regular deep cleaning service, driver on call",
+        "monthlyCost": 1200
+      },
+      "luxuryExtras": {
+        "description": "Yacht charter weekends, first-class travel, designer shopping, Maldives getaways",
+        "monthlyCost": 2000
+      },
+      "lifestyle": "Dubai at $5M is where the city truly shines. A Palm Jumeirah villa with private beach access, a luxury car, a live-in maid, VIP everything, and the freedom to jet off to the Maldives or Europe on a whim. Zero income tax on your $16,667 monthly withdrawal means you keep every dirham. This is the cosmopolitan luxury lifestyle Dubai was built for."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Ultra-luxury villa on Palm Jumeirah, Emirates Hills estate, or Jumeirah Bay Island residence",
+        "monthlyCost": 10000
+      },
+      "dining": {
+        "description": "Personal chef, exclusive dining at the world's best restaurants, private events on yachts",
+        "monthlyCost": 3500
+      },
+      "groceries": {
+        "monthlyCost": 1000
+      },
+      "healthcare": {
+        "description": "Royal-tier health coverage, executive wellness, international medical access, anti-aging clinics",
+        "monthlyCost": 1000
+      },
+      "transportation": {
+        "description": "Multiple luxury and exotic vehicles, full-time chauffeur, helicopter transfers available",
+        "monthlyCost": 2000
+      },
+      "entertainment": {
+        "description": "Exclusive club memberships, yacht ownership, art collecting, Dubai World Cup VIP, philanthropy",
+        "monthlyCost": 2500
+      },
+      "utilities": {
+        "monthlyCost": 600
+      },
+      "domesticHelp": {
+        "description": "Full household staff: housekeeper, chef, nanny/PA, driver, gardener, pool maintenance",
+        "monthlyCost": 4000
+      },
+      "luxuryExtras": {
+        "description": "Private yacht, exotic car collection, first-class global travel, art gallery, real estate portfolio",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At $10M, Dubai delivers a lifestyle that few cities on Earth can match. An Emirates Hills estate, a private yacht, exotic cars, a full household staff, and access to the most exclusive experiences in the region. With zero income tax, every cent of your $33,333 monthly withdrawal is yours. Dubai's position as a global hub means London, Mumbai, and Singapore are all a direct flight away."
+    }
+  }
+}

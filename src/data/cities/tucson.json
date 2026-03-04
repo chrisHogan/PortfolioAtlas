@@ -1,0 +1,190 @@
+{
+  "name": "Tucson",
+  "country": "United States",
+  "region": "North America",
+  "slug": "tucson",
+  "emoji": "\ud83c\uddfa\ud83c\uddf8",
+  "fireScore": 7.0,
+  "tagline": "Desert Sunshine, Low Costs, and 350 Days of Blue Sky",
+  "description": "Tucson is one of the most affordable cities in the American West, offering stunning Sonoran Desert landscapes, a UNESCO-designated food scene, and over 350 days of sunshine per year. Arizona has a flat income tax rate that keeps more money in your pocket, and housing costs are remarkably low compared to Phoenix and other Sun Belt cities. For FIRE retirees who love warm weather and wide-open spaces, Tucson is a hidden gem.",
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "MST (UTC-7, no daylight saving time)",
+    "language": "English / Spanish widely spoken",
+    "internetSpeed": "150+ Mbps average",
+    "safetyRating": "Moderate – varies by neighborhood; central and northeast areas are safest",
+    "nearestAirport": "Tucson International Airport (TUS)",
+    "climate": "Hot desert with mild winters; summers exceed 100°F but humidity is very low",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "70°F / 21°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in Midtown, Sam Hughes, or a casita near the University",
+        "monthlyCost": 1000
+      },
+      "dining": {
+        "description": "Sonoran hot dogs, taquerias, and casual dining 2-3x/week",
+        "monthlyCost": 220
+      },
+      "groceries": {
+        "monthlyCost": 350
+      },
+      "healthcare": {
+        "description": "ACA marketplace Silver plan; Arizona premiums are moderate",
+        "monthlyCost": 480
+      },
+      "transportation": {
+        "description": "Paid-off car with basic insurance; car is essential in Tucson's spread-out layout",
+        "monthlyCost": 250
+      },
+      "entertainment": {
+        "description": "Hiking Sabino Canyon and Saguaro National Park, free desert trails, community events",
+        "monthlyCost": 80
+      },
+      "utilities": {
+        "monthlyCost": 160
+      },
+      "lifestyle": "Tucson is one of the few US cities where $1M genuinely works. Low rent, cheap and amazing Mexican food, and thousands of acres of free desert hiking make this budget feel comfortable rather than desperate. Summer A/C bills are the one catch, but the rest of the year is utility-light. Expect a simple, sun-drenched life."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "2BR home in the Catalina Foothills or a nice place in Sam Hughes with character",
+        "monthlyCost": 1700
+      },
+      "dining": {
+        "description": "Regular dining at Tucson's UNESCO-recognized food scene; upscale Southwestern cuisine",
+        "monthlyCost": 500
+      },
+      "groceries": {
+        "monthlyCost": 420
+      },
+      "healthcare": {
+        "description": "ACA Gold plan with dental and vision; comfortable coverage",
+        "monthlyCost": 580
+      },
+      "transportation": {
+        "description": "Reliable car, full coverage insurance, gas for desert road trips",
+        "monthlyCost": 380
+      },
+      "entertainment": {
+        "description": "Desert Museum membership, horseback riding, stargazing tours, pool access, gym",
+        "monthlyCost": 250
+      },
+      "utilities": {
+        "monthlyCost": 190
+      },
+      "lifestyle": "This is Tucson at its best. A home with desert views in the Foothills, dinners at places like BATA and Cafe Poca Cosa, and weekends exploring places like Kartchner Caverns or Mount Lemmon. The dry heat is manageable with a good pool or A/C, and your dollar goes remarkably far in southern Arizona."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR home with pool in the Catalina Foothills or Oro Valley with mountain views",
+        "monthlyCost": 2800
+      },
+      "dining": {
+        "description": "Fine dining at top restaurants, private wine tastings, weekly date nights",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 550
+      },
+      "healthcare": {
+        "description": "Premium private insurance with comprehensive coverage and wellness programs",
+        "monthlyCost": 700
+      },
+      "transportation": {
+        "description": "Late-model SUV, premium insurance, road trips to Sedona and the Grand Canyon",
+        "monthlyCost": 500
+      },
+      "entertainment": {
+        "description": "Country club or resort membership, golf, spa treatments, art gallery openings",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 280
+      },
+      "lifestyle": "A beautiful desert home with a private pool, dinner under the stars at Tucson's finest restaurants, and the freedom to explore Arizona's national parks every weekend. At this budget you live like a desert king or queen, and the Catalina Foothills provide one of the most dramatic backdrops for daily life anywhere in America."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury desert estate in the Foothills or a custom hacienda in Tanque Verde Valley",
+        "monthlyCost": 5000
+      },
+      "dining": {
+        "description": "Private chef, exclusive dining experiences, catered desert dinner parties",
+        "monthlyCost": 1300
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "Concierge medicine, executive wellness, comprehensive private insurance",
+        "monthlyCost": 900
+      },
+      "transportation": {
+        "description": "Luxury SUV, second vehicle, occasional flights to Phoenix or LA",
+        "monthlyCost": 800
+      },
+      "entertainment": {
+        "description": "Premium resort memberships, private desert tours, art collecting, Tucson Gem Show VIP",
+        "monthlyCost": 800
+      },
+      "utilities": {
+        "monthlyCost": 350
+      },
+      "domesticHelp": {
+        "description": "Pool service, weekly house cleaning, landscaping, handyman on call",
+        "monthlyCost": 700
+      },
+      "luxuryExtras": {
+        "description": "Quarterly travel, spa retreats, Western art collecting, ranch experiences",
+        "monthlyCost": 1500
+      },
+      "lifestyle": "Tucson at $5M is a desert paradise. A stunning hacienda-style estate with mountain panoramas, a private pool and spa, a personal chef creating Southwestern cuisine, and VIP access to the world-famous Tucson Gem Show. Arizona's low taxes mean your wealth stretches even further."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Sprawling desert compound with guest house, or multiple properties including a ranch",
+        "monthlyCost": 9000
+      },
+      "dining": {
+        "description": "Full-time personal chef, exclusive wine cellar, catered events and galas",
+        "monthlyCost": 2500
+      },
+      "groceries": {
+        "monthlyCost": 900
+      },
+      "healthcare": {
+        "description": "Top concierge practice, Mayo Clinic access in Scottsdale, full wellness team",
+        "monthlyCost": 1300
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, private car service, chartered flights",
+        "monthlyCost": 1500
+      },
+      "entertainment": {
+        "description": "Art patronage, private desert retreats, international travel, museum board involvement",
+        "monthlyCost": 2200
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full-time estate staff including housekeeper, groundskeeper, personal assistant",
+        "monthlyCost": 4500
+      },
+      "luxuryExtras": {
+        "description": "Ranch property, first-class international travel, art collection, philanthropy, horse stables",
+        "monthlyCost": 5500
+      },
+      "lifestyle": "At $10M Tucson becomes your private desert kingdom. A sprawling estate with panoramic mountain views, horse stables, a personal chef, and deep involvement in Tucson's arts and conservation community. With proximity to the Mayo Clinic in Scottsdale and Arizona's favorable tax treatment, this is one of the best high-net-worth retirement lifestyles in the American West."
+    }
+  }
+}

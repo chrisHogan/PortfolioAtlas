@@ -1,0 +1,190 @@
+{
+  "name": "Austin",
+  "country": "United States",
+  "region": "North America",
+  "slug": "austin",
+  "emoji": "\ud83c\uddfa\ud83c\uddf8",
+  "fireScore": 5.8,
+  "tagline": "Live Music, No State Income Tax, and Year-Round Sunshine",
+  "description": "Austin combines a vibrant cultural scene with zero state income tax, making it a compelling domestic FIRE destination. The city offers world-class dining, outdoor recreation along the Colorado River, and a booming tech economy if you ever want to un-retire. While housing costs have risen sharply, Austin still undercuts coastal cities and rewards careful budgeting with an exceptional quality of life.",
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "CST (UTC-6)",
+    "language": "English",
+    "internetSpeed": "200+ Mbps average",
+    "safetyRating": "Moderate – typical mid-size US city",
+    "nearestAirport": "Austin-Bergstrom International (AUS)",
+    "climate": "Subtropical with hot summers and mild winters",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "68°F / 20°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in a central neighborhood like East Riverside or North Loop",
+        "monthlyCost": 1600
+      },
+      "dining": {
+        "description": "Taco trucks and casual eateries 2-3x/week; mostly cooking at home",
+        "monthlyCost": 250
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "ACA marketplace Silver plan; Texas has no state exchange so costs run higher",
+        "monthlyCost": 550
+      },
+      "transportation": {
+        "description": "Older paid-off car with insurance, gas, and basic maintenance",
+        "monthlyCost": 280
+      },
+      "entertainment": {
+        "description": "Free live music on 6th Street, Barton Springs, parks; occasional concert ticket",
+        "monthlyCost": 100
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "This is a tight budget in Austin. You can survive but you will feel the squeeze, especially in summer when electric bills spike from A/C. Expect to cook most meals, take advantage of Austin's abundant free entertainment, and drive a modest car. You will live comfortably enough but without much margin for surprises."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Nice 2BR apartment in South Lamar, Mueller, or a condo in East Austin",
+        "monthlyCost": 2200
+      },
+      "dining": {
+        "description": "Dining out 3-4x/week at mid-range restaurants; weekend brunch culture",
+        "monthlyCost": 600
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "ACA Gold plan with lower deductibles; dental and vision add-ons",
+        "monthlyCost": 650
+      },
+      "transportation": {
+        "description": "Reliable mid-range car, full coverage insurance, gas and upkeep",
+        "monthlyCost": 400
+      },
+      "entertainment": {
+        "description": "ACL and SXSW tickets, paddle boarding on Lady Bird Lake, gym membership",
+        "monthlyCost": 300
+      },
+      "utilities": {
+        "monthlyCost": 180
+      },
+      "lifestyle": "A comfortable Austin life opens up at this level. You can enjoy the city's famous food scene regularly, catch live music several nights a week, and keep a solid car for exploring the Hill Country on weekends. Healthcare is covered without constant worry, and you still have breathing room for travel or hobbies."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR house in Travis Heights, Zilker, or a modern condo downtown",
+        "monthlyCost": 3200
+      },
+      "dining": {
+        "description": "Regular dining at top Austin restaurants like Uchi, Emmer & Rye; daily coffee shop visits",
+        "monthlyCost": 900
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "Premium ACA plan or private health insurance with comprehensive coverage",
+        "monthlyCost": 750
+      },
+      "transportation": {
+        "description": "Late-model SUV or sedan, premium insurance, occasional rideshare",
+        "monthlyCost": 500
+      },
+      "entertainment": {
+        "description": "Season tickets, boat rental on Lake Travis, premium gym, regular live events",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "lifestyle": "Life is genuinely great at this tier. You can rent a house in one of Austin's most desirable neighborhoods, dine at the best restaurants without flinching, and fully immerse yourself in the music and outdoor culture. Weekend trips to Fredericksburg wine country or Big Bend are easy additions to your routine."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Upscale 4BR home in Westlake, Tarrytown, or a luxury downtown high-rise",
+        "monthlyCost": 5000
+      },
+      "dining": {
+        "description": "Fine dining multiple times per week, private chef for occasional dinner parties",
+        "monthlyCost": 1500
+      },
+      "groceries": {
+        "monthlyCost": 800
+      },
+      "healthcare": {
+        "description": "Concierge medicine or top-tier private insurance with no-deductible plans",
+        "monthlyCost": 1000
+      },
+      "transportation": {
+        "description": "Luxury vehicle (Tesla, BMW), premium insurance, detailing service",
+        "monthlyCost": 800
+      },
+      "entertainment": {
+        "description": "VIP festival passes, country club membership, lake house weekends, premium experiences",
+        "monthlyCost": 1000
+      },
+      "utilities": {
+        "monthlyCost": 350
+      },
+      "domesticHelp": {
+        "description": "Bi-weekly house cleaning, landscaping service, occasional personal assistant tasks",
+        "monthlyCost": 800
+      },
+      "luxuryExtras": {
+        "description": "Quarterly domestic travel, premium wine subscriptions, spa days, philanthropy",
+        "monthlyCost": 1500
+      },
+      "lifestyle": "You are living Austin's best life. A beautiful home in the hills or a sleek downtown penthouse, dinners at the city's top-tier restaurants, VIP access at ACL and F1. You can be generous with friends and family and still invest surplus back into your portfolio."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Estate home in Barton Creek or Lake Austin waterfront property",
+        "monthlyCost": 10000
+      },
+      "dining": {
+        "description": "Personal chef, exclusive dining experiences, catered events at home",
+        "monthlyCost": 3000
+      },
+      "groceries": {
+        "monthlyCost": 1000
+      },
+      "healthcare": {
+        "description": "Top-tier concierge medical practice, executive health screenings, holistic wellness",
+        "monthlyCost": 1500
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, dedicated driver for events, private car service",
+        "monthlyCost": 1500
+      },
+      "entertainment": {
+        "description": "Private box at UT games, philanthropic galas, art collecting, international travel",
+        "monthlyCost": 2500
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, personal assistant, pool and grounds maintenance crew",
+        "monthlyCost": 4000
+      },
+      "luxuryExtras": {
+        "description": "First-class international travel, ranch property, boat on Lake Travis, angel investing",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At this level Austin becomes your personal playground. A sprawling estate on Lake Austin, a personal chef, courtside seats, and enough left over to fund startups or causes you care about. Texas's zero income tax means every dollar of your withdrawals stays with you."
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "name": "Lisbon",
+  "country": "Portugal",
+  "region": "Europe",
+  "slug": "lisbon",
+  "emoji": "\ud83c\uddf5\ud83c\uddf9",
+  "fireScore": 8,
+  "tagline": "Europe's Sunniest Capital for Early Retirement",
+  "description": "Lisbon has become the undisputed FIRE capital of Europe, offering the D7 passive income visa, the NHR tax regime with potential zero-tax on foreign income, and a thriving expat community. With 300 days of sunshine, world-class seafood, and living costs a fraction of Western Europe, it delivers first-world infrastructure at developing-world prices.",
+  "quickFacts": {
+    "visa": "D7 Passive Income Visa (renewable, path to citizenship in 5 years). NHR tax regime offers 10-year tax benefits on foreign income.",
+    "timezone": "UTC+0 (WET) / UTC+1 (WEST summer)",
+    "language": "Portuguese",
+    "internetSpeed": "100-500 Mbps fiber widely available",
+    "safetyRating": "Very Safe — 6th safest country globally (Global Peace Index)",
+    "nearestAirport": "Lisbon Humberto Delgado Airport (LIS) — 15 min from city center",
+    "climate": "Mediterranean with mild winters (10-15°C) and warm summers (25-30°C). Over 300 days of sunshine per year.",
+    "englishFriendly": "High",
+    "currency": "Euro (EUR)",
+    "averageTemp": "17°C / 63°F"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Modern 1-bedroom apartment in Arroios or Benfica, away from tourist center but well-connected by metro",
+        "monthlyCost": 1100
+      },
+      "dining": {
+        "description": "Local tascas and cafes for most meals, occasional splurge at a mid-range restaurant. Daily pastel de nata and espresso ritual.",
+        "monthlyCost": 450
+      },
+      "groceries": {
+        "monthlyCost": 300
+      },
+      "healthcare": {
+        "description": "Public SNS healthcare plus basic private insurance supplement for faster specialist access",
+        "monthlyCost": 150
+      },
+      "transportation": {
+        "description": "Monthly Navegante pass covering metro, bus, tram, and train across greater Lisbon",
+        "monthlyCost": 45
+      },
+      "entertainment": {
+        "description": "Free miradouro sunsets, neighborhood fado nights, museum visits on free Sundays, beach trips to Cascais",
+        "monthlyCost": 200
+      },
+      "utilities": {
+        "monthlyCost": 120
+      },
+      "lifestyle": "A comfortable but mindful life in one of Europe's most affordable capitals. You'll sip bica at neighborhood cafes, ride trams through Alfama, and enjoy fresh grilled sardines at local tascas. Budget-conscious but never feeling deprived — Lisbon's free pleasures are its best ones."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Spacious 2-bedroom apartment in Principe Real or Santos with river views and updated kitchen",
+        "monthlyCost": 1800
+      },
+      "dining": {
+        "description": "Regular dining at Lisbon's celebrated restaurants, weekend brunches in Chiado, wine tastings in Bairro Alto",
+        "monthlyCost": 900
+      },
+      "groceries": {
+        "monthlyCost": 450
+      },
+      "healthcare": {
+        "description": "Comprehensive private health insurance with top-tier hospitals like CUF Descobertas, dental included",
+        "monthlyCost": 250
+      },
+      "transportation": {
+        "description": "Navegante pass plus occasional Bolt rides and weekend car rentals for Sintra and Alentejo trips",
+        "monthlyCost": 150
+      },
+      "entertainment": {
+        "description": "Surf lessons in Ericeira, cultural memberships, live music at Musicbox, regular Benfica or Sporting matches",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 160
+      },
+      "lifestyle": "A genuinely rich daily life in one of Europe's most beautiful cities. You'll have a gorgeous flat in a sought-after neighborhood, dine at the restaurants foodies fly in for, and spend weekends surfing or exploring hilltop villages. This is Lisbon's sweet spot — luxurious without being extravagant."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Premium 3-bedroom apartment in Chiado or a renovated townhouse in Estrela with terrace and parking",
+        "monthlyCost": 2800
+      },
+      "dining": {
+        "description": "Fine dining at Michelin-starred venues like Belcanto, private wine dinners, chef's table experiences across the city",
+        "monthlyCost": 1500
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "Premium private insurance with international coverage, concierge medicine, annual executive health checks",
+        "monthlyCost": 400
+      },
+      "transportation": {
+        "description": "Leased mid-range car plus Navegante pass, regular Bolt Premium rides",
+        "monthlyCost": 400
+      },
+      "entertainment": {
+        "description": "Golf at Oitavos Dunes, sailing on the Tagus, VIP concert tickets, weekend getaways to the Azores or Madeira",
+        "monthlyCost": 1000
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "lifestyle": "An elevated Lisbon experience that opens doors to the city's finest offerings. Your Chiado address puts you steps from world-class dining and culture, while weekends might mean sailing the Tagus or flying to the Azores. You live like Lisbon's creative elite — refined taste without pretension."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury penthouse in Avenida da Liberdade or historic palacete in Lapa with panoramic Tagus river views",
+        "monthlyCost": 4500
+      },
+      "dining": {
+        "description": "Personal chef for weekly dinner parties, Michelin tasting menus as routine, curated Portuguese wine collection",
+        "monthlyCost": 2500
+      },
+      "groceries": {
+        "monthlyCost": 800
+      },
+      "healthcare": {
+        "description": "International premium insurance, dedicated private physician, wellness retreats, specialized treatments",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "Leased luxury vehicle (BMW/Mercedes), private transfers, occasional helicopter to Algarve",
+        "monthlyCost": 800
+      },
+      "entertainment": {
+        "description": "Private yacht charters, exclusive golf memberships, box seats at cultural events, art collecting",
+        "monthlyCost": 1800
+      },
+      "utilities": {
+        "monthlyCost": 300
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, weekly deep cleaning, laundry and ironing service",
+        "monthlyCost": 1200
+      },
+      "luxuryExtras": {
+        "description": "Personal trainer, private Portuguese tutor, annual wardrobe refresh, premium co-working membership at Second Home",
+        "monthlyCost": 1500
+      },
+      "lifestyle": "Lisbon's aristocratic lifestyle made accessible. Your Lapa palacete or Liberdade penthouse is the backdrop for dinner parties with Lisbon's cultural set, prepared by your personal chef. Weekends alternate between Algarve escapes and private sailing — you've joined the city's most exclusive circles."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Restored historic mansion in Lapa or ultra-luxury duplex penthouse on Avenida da Liberdade with concierge services",
+        "monthlyCost": 8000
+      },
+      "dining": {
+        "description": "Full-time private chef, curated wine cellar, exclusive supper club memberships, flying in ingredients from across Europe",
+        "monthlyCost": 4500
+      },
+      "groceries": {
+        "monthlyCost": 1200
+      },
+      "healthcare": {
+        "description": "Global concierge medicine, dedicated wellness team, fly-anywhere-for-treatment coverage, anti-aging protocols",
+        "monthlyCost": 1200
+      },
+      "transportation": {
+        "description": "Chauffeured luxury vehicle, private jet charter for European hops, vintage car collection",
+        "monthlyCost": 2500
+      },
+      "entertainment": {
+        "description": "Philanthropic engagements, art patronage, private island retreats in Azores, front-row at Lisbon Fashion Week",
+        "monthlyCost": 4000
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full household staff: housekeeper, cook, gardener, personal assistant, and estate manager",
+        "monthlyCost": 4000
+      },
+      "luxuryExtras": {
+        "description": "Interior designer on retainer, bespoke tailoring, private art curation, charitable foundation management, vintage port collection",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At this level you're not just living in Lisbon — you're shaping it. Your restored palace hosts charity galas and art exhibitions, your name appears on museum donor walls, and your weekends are split between your Azores retreat and Algarve estate. This is legacy-level living in one of Europe's most gracious capitals."
+    }
+  }
+}

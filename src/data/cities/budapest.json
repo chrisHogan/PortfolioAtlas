@@ -1,0 +1,190 @@
+{
+  "name": "Budapest",
+  "country": "Hungary",
+  "region": "Europe",
+  "slug": "budapest",
+  "emoji": "\ud83c\udded\ud83c\uddfa",
+  "fireScore": 8,
+  "tagline": "Europe's Best-Kept Secret for Affordable Luxury Retirement",
+  "description": "Budapest delivers a grand European capital experience at Eastern European prices, making it one of the continent's most compelling FIRE destinations. Thermal baths, ruin bars, Art Nouveau architecture, and a booming food scene come at 40-60% less than Western Europe. Hungary's residency-by-investment options and low cost of living stretch your FIRE portfolio remarkably far.",
+  "quickFacts": {
+    "visa": "Residency Bond Program or Guest Investor Visa for non-EU citizens. EU citizens have freedom of movement. White Card (long-term residence) available after 5 years.",
+    "timezone": "UTC+1 (CET) / UTC+2 (CEST summer)",
+    "language": "Hungarian",
+    "internetSpeed": "100-500 Mbps fiber widely available, excellent 5G coverage",
+    "safetyRating": "Safe — low violent crime, standard pickpocket awareness in tourist zones",
+    "nearestAirport": "Budapest Ferenc Liszt International Airport (BUD) — 30 min from city center",
+    "climate": "Continental with cold winters (-2 to 5°C) and warm summers (22-30°C). Distinct four seasons with beautiful spring and autumn.",
+    "englishFriendly": "Moderate",
+    "currency": "Hungarian Forint (HUF)",
+    "averageTemp": "12°C / 54°F"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Spacious 1-bedroom apartment in District VII (Jewish Quarter) or District IX, with high ceilings and character",
+        "monthlyCost": 650
+      },
+      "dining": {
+        "description": "Daily Hungarian comfort food at local etkezdes, ruin bar evenings, strong coffee culture, affordable wine from Eger and Villany",
+        "monthlyCost": 400
+      },
+      "groceries": {
+        "monthlyCost": 250
+      },
+      "healthcare": {
+        "description": "Private health insurance with access to excellent Hungarian hospitals and specialists at a fraction of Western costs",
+        "monthlyCost": 120
+      },
+      "transportation": {
+        "description": "BKK monthly pass for metro, tram, bus, and suburban rail — one of Europe's best transit systems",
+        "monthlyCost": 35
+      },
+      "entertainment": {
+        "description": "Daily thermal bath soaks at Szechenyi or Gellert, ruin bar hopping, Danube promenades, Margaret Island cycling, free museum days",
+        "monthlyCost": 200
+      },
+      "utilities": {
+        "monthlyCost": 100
+      },
+      "lifestyle": "Budapest on a million dollars feels like a small fortune. You'll soak in opulent thermal baths every morning, lunch on hearty goulash for under five euros, and spend evenings in fairy-lit ruin bars. With the Danube at your doorstep and a grand European capital as your playground, this is FIRE living at its most efficient."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Elegant 2-bedroom apartment on Andrassy Avenue or the Castle District with period details, parquet floors, and Danube views",
+        "monthlyCost": 1200
+      },
+      "dining": {
+        "description": "Regular dining at Budapest's top restaurants like Borkonyha and Stand25, wine bar culture, weekend brunch at New York Cafe",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 380
+      },
+      "healthcare": {
+        "description": "Comprehensive private insurance covering top hospitals, dental tourism-quality care at local prices, wellness spa treatments",
+        "monthlyCost": 200
+      },
+      "transportation": {
+        "description": "BKK pass plus regular Bolt rides and weekend car rentals for Lake Balaton and wine country trips",
+        "monthlyCost": 120
+      },
+      "entertainment": {
+        "description": "Hungarian State Opera season tickets, thermal bath VIP access, Danube river cruises, ruin bar culture, Budapest Festival Orchestra concerts",
+        "monthlyCost": 450
+      },
+      "utilities": {
+        "monthlyCost": 130
+      },
+      "lifestyle": "Budapest's golden sweet spot. Your Andrassy Avenue apartment is a stone's throw from the Opera, thermal baths are your daily wellness ritual, and the city's Michelin-starred restaurants are genuinely affordable. Weekend drives to Lake Balaton or Eger wine country remind you why Central Europe is FIRE's best-kept secret."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Luxury 3-bedroom in a restored Art Nouveau building on the Buda hills or premium Danube-front apartment in District V with Parliament views",
+        "monthlyCost": 2200
+      },
+      "dining": {
+        "description": "Fine dining at Michelin-starred Costes and Onyx, private Tokaj wine tastings, personal chef for weekly Hungarian feasts",
+        "monthlyCost": 1400
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "Premium private insurance with international coverage, executive health checks, world-class dental and cosmetic care",
+        "monthlyCost": 300
+      },
+      "transportation": {
+        "description": "Leased mid-range car, BKK pass, regular Bolt Premium rides, weekend trips to Vienna by train (2.5 hours)",
+        "monthlyCost": 300
+      },
+      "entertainment": {
+        "description": "Private thermal bath sessions, VIP Opera box, Danube yacht evenings, art gallery circuit in the Palace District, sailing on Lake Balaton",
+        "monthlyCost": 800
+      },
+      "utilities": {
+        "monthlyCost": 180
+      },
+      "lifestyle": "At this budget in Budapest, you live like Central European aristocracy. Your Art Nouveau apartment has Danube views that rival any in Europe, your cultural calendar overflows with opera and orchestral performances, and your thermal bath routine would make a Habsburg jealous. Ten thousand a month here buys what thirty thousand does in Paris."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Historic villa in the Buda hills with garden and city views, or landmark penthouse overlooking the Chain Bridge and Parliament",
+        "monthlyCost": 3500
+      },
+      "dining": {
+        "description": "Private chef specializing in modern Hungarian cuisine, Michelin dining as routine, curated Hungarian wine cellar with rare Tokaj Aszu vintages",
+        "monthlyCost": 2000
+      },
+      "groceries": {
+        "monthlyCost": 650
+      },
+      "healthcare": {
+        "description": "International concierge medicine, private physician, thermal spa wellness programs, longevity treatments at premium Budapest clinics",
+        "monthlyCost": 450
+      },
+      "transportation": {
+        "description": "Luxury vehicle, private driver, first-class Vienna-Budapest rail, occasional private flights to European capitals",
+        "monthlyCost": 600
+      },
+      "entertainment": {
+        "description": "Private Danube yacht, exclusive social club memberships, art collecting from Hungarian contemporary artists, VIP access to Budapest Festival Orchestra",
+        "monthlyCost": 1500
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, gardener for villa grounds, weekly deep cleaning, personal assistant, laundry service",
+        "monthlyCost": 900
+      },
+      "luxuryExtras": {
+        "description": "Private Hungarian tutor, personal trainer, thermal spa VIP membership, bespoke Central European travel planning, premium co-working at Kubik",
+        "monthlyCost": 1200
+      },
+      "lifestyle": "Your Buda hills villa overlooks a city that feels like an open-air museum. A private chef turns paprika and foie gras into art, your Danube yacht hosts sunset champagne cruises past the illuminated Parliament, and your social circle spans Budapest's cultural elite. The Habsburg lifestyle, democratized by FIRE math."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Restored historic castle or grand mansion in the Buda hills with full estate grounds, or ultra-luxury compound on Castle Hill",
+        "monthlyCost": 6500
+      },
+      "dining": {
+        "description": "Full-time private chef team, world-class wine cellar including vertical Tokaj collections, legendary dinner parties in your ballroom, guest chef series",
+        "monthlyCost": 3800
+      },
+      "groceries": {
+        "monthlyCost": 900
+      },
+      "healthcare": {
+        "description": "Global VIP medical coverage, personal wellness team, thermal hydrotherapy programs, fly-anywhere treatment, cutting-edge longevity protocols",
+        "monthlyCost": 800
+      },
+      "transportation": {
+        "description": "Chauffeured luxury fleet, private jet charter for European travel, vintage car collection, private Danube yacht",
+        "monthlyCost": 2000
+      },
+      "entertainment": {
+        "description": "Opera and orchestra patronage, art foundation, hosting international cultural events at your estate, private thermal bath restoration project",
+        "monthlyCost": 3500
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full estate staff: butler, chef team, housekeepers, groundskeepers, driver, personal assistant, estate manager",
+        "monthlyCost": 3200
+      },
+      "luxuryExtras": {
+        "description": "Art acquisition fund, historic property restoration, charitable foundation supporting Hungarian arts, Tokaj vineyard ownership, bespoke Central European experiences",
+        "monthlyCost": 4500
+      },
+      "lifestyle": "You've restored a Buda castle to its former glory and filled it with Hungarian art and international guests. Your ballroom hosts charity galas for the Budapest Opera, your Tokaj vineyard produces private-label Aszu, and your foundation supports the next generation of Hungarian artists. This is the grandeur of the Austro-Hungarian Empire, reborn through modern wealth."
+    }
+  }
+}

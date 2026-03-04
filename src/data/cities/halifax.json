@@ -1,0 +1,190 @@
+{
+  "name": "Halifax",
+  "country": "Canada",
+  "region": "North America",
+  "slug": "halifax",
+  "emoji": "\ud83c\udde8\ud83c\udde6",
+  "fireScore": 6.0,
+  "tagline": "Maritime Charm, Ocean Views, and Canada's Most Affordable Coast",
+  "description": "Halifax is the cultural and economic hub of Atlantic Canada, offering a walkable waterfront downtown, a thriving food scene built on fresh seafood, and housing costs far below Toronto or Vancouver. Universal healthcare, a strong sense of community, and proximity to stunning Nova Scotian coastline make Halifax an underrated FIRE destination for those who enjoy maritime living and four-season outdoor recreation.",
+  "quickFacts": {
+    "visa": "Canadian citizens: no visa. Others: various options including Express Entry, Provincial Nominee Program (Nova Scotia), or retirement-friendly visitor permits",
+    "timezone": "AST (UTC-4)",
+    "language": "English",
+    "internetSpeed": "100+ Mbps average",
+    "safetyRating": "High – one of Canada's safest cities",
+    "nearestAirport": "Halifax Stanfield International Airport (YHZ)",
+    "climate": "Humid continental with cold, snowy winters and warm summers; ocean-moderated",
+    "englishFriendly": "High",
+    "currency": "CAD (1 USD ~ 1.36 CAD)",
+    "averageTemp": "45°F / 7°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in Clayton Park, Fairview, or Dartmouth (across the harbor)",
+        "monthlyCost": 1000
+      },
+      "dining": {
+        "description": "Fish and chips spots, pub nights, and casual dining 2x/week; mostly cooking at home",
+        "monthlyCost": 200
+      },
+      "groceries": {
+        "monthlyCost": 380
+      },
+      "healthcare": {
+        "description": "Universal healthcare covers most costs for residents; budget for dental, vision, prescriptions",
+        "monthlyCost": 150
+      },
+      "transportation": {
+        "description": "Halifax Transit bus pass or a paid-off car; the city is walkable downtown",
+        "monthlyCost": 200
+      },
+      "entertainment": {
+        "description": "Waterfront walks, Point Pleasant Park, free festivals, library; occasional live music",
+        "monthlyCost": 80
+      },
+      "utilities": {
+        "monthlyCost": 160
+      },
+      "lifestyle": "Halifax on $1M is genuinely comfortable thanks to universal healthcare slashing one of the biggest US retirement costs. Rent is reasonable, the waterfront is free to enjoy year-round, and the city's maritime culture delivers a cozy, community-oriented lifestyle. Winters are cold and snowy, but the pub culture and indoor scene keep spirits high."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "2BR apartment on the Halifax waterfront or a townhome in the South End",
+        "monthlyCost": 1700
+      },
+      "dining": {
+        "description": "Regular dining at waterfront restaurants, lobster dinners, Halifax brewery scene",
+        "monthlyCost": 450
+      },
+      "groceries": {
+        "monthlyCost": 450
+      },
+      "healthcare": {
+        "description": "Universal coverage plus private supplemental for dental, vision, massage, prescriptions",
+        "monthlyCost": 250
+      },
+      "transportation": {
+        "description": "Reliable car for exploring Nova Scotia, winter tires, full insurance",
+        "monthlyCost": 350
+      },
+      "entertainment": {
+        "description": "Neptune Theatre season pass, sailing lessons, live music on Argyle Street, gym membership",
+        "monthlyCost": 280
+      },
+      "utilities": {
+        "monthlyCost": 190
+      },
+      "lifestyle": "This is Halifax at its best. A waterfront apartment where you can watch ships roll into the harbor, fresh lobster dinners multiple times a week, and weekend drives along the stunning Cabot Trail or Peggy's Cove. The combination of affordable living and universal healthcare makes your money go further than you would expect."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR heritage home in the South End or a waterfront property in Bedford or Eastern Passage",
+        "monthlyCost": 2800
+      },
+      "dining": {
+        "description": "Fine dining at Stories, Bar Kismet, and Brooklyn Warehouse; regular seafood feasts",
+        "monthlyCost": 750
+      },
+      "groceries": {
+        "monthlyCost": 550
+      },
+      "healthcare": {
+        "description": "Universal coverage plus comprehensive private insurance for enhanced care and faster access",
+        "monthlyCost": 350
+      },
+      "transportation": {
+        "description": "Late-model AWD vehicle, premium insurance, ferry pass for harbor crossings",
+        "monthlyCost": 450
+      },
+      "entertainment": {
+        "description": "Sailing club membership, cottage weekends, art gallery patronage, ski trips to Martock",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "lifestyle": "Life in Halifax at $10K per month is outstanding. A heritage home in one of Canada's most walkable neighborhoods, regular dining at the city's top-rated restaurants, a sailing membership on the harbor, and weekend escapes to a cottage on the South Shore. Healthcare is covered, and your only real splurge decisions are how much lobster to eat."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury waterfront home in Northwest Arm or a custom build in Bedford with ocean views",
+        "monthlyCost": 5000
+      },
+      "dining": {
+        "description": "Private chef for weekly dinners, fine dining multiple nights, wine club memberships",
+        "monthlyCost": 1200
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "Universal coverage plus executive health programs and premium private supplements",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "Luxury SUV, second vehicle, flights from YHZ to Toronto or international destinations",
+        "monthlyCost": 750
+      },
+      "entertainment": {
+        "description": "Royal Nova Scotia Yacht Squadron membership, arts patronage, private sailing, golf club",
+        "monthlyCost": 800
+      },
+      "utilities": {
+        "monthlyCost": 350
+      },
+      "domesticHelp": {
+        "description": "Weekly house cleaning, snow removal, landscaping, property maintenance",
+        "monthlyCost": 650
+      },
+      "luxuryExtras": {
+        "description": "Cottage on the South Shore, quarterly international travel, boat ownership, philanthropy",
+        "monthlyCost": 1500
+      },
+      "lifestyle": "At this level Halifax becomes a maritime dream. A stunning waterfront property on Northwest Arm, membership at the prestigious yacht club, a cottage for summer weekends, and the freedom to travel extensively while calling one of Canada's most charming cities home. Healthcare costs remain minimal thanks to universal coverage."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Estate property on the Northwest Arm or waterfront compound in Chester or Mahone Bay",
+        "monthlyCost": 8500
+      },
+      "dining": {
+        "description": "Full-time personal chef, exclusive dining events, catered parties with Atlantic seafood",
+        "monthlyCost": 2500
+      },
+      "groceries": {
+        "monthlyCost": 900
+      },
+      "healthcare": {
+        "description": "Universal coverage plus top private supplements, executive wellness, medical travel if needed",
+        "monthlyCost": 700
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, private car service, chartered flights, yacht",
+        "monthlyCost": 1500
+      },
+      "entertainment": {
+        "description": "Major arts and maritime philanthropy, international travel, private sailing regattas",
+        "monthlyCost": 2200
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full-time estate manager, housekeeper, groundskeeper, personal assistant, boat captain",
+        "monthlyCost": 4500
+      },
+      "luxuryExtras": {
+        "description": "Multiple properties, first-class international travel, yacht, art collecting, community foundation",
+        "monthlyCost": 5500
+      },
+      "lifestyle": "At $10M, Halifax and Nova Scotia become your personal maritime kingdom. An estate on the water, a private yacht for exploring the Atlantic coast, a chef sourcing the freshest lobster and scallops daily, and deep roots in the community. The combination of universal healthcare, natural beauty, and old-world maritime charm creates an extraordinary life."
+    }
+  }
+}

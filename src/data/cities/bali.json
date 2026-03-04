@@ -1,0 +1,190 @@
+{
+  "name": "Bali",
+  "country": "Indonesia",
+  "region": "Southeast Asia",
+  "slug": "bali",
+  "emoji": "🇮🇩",
+  "fireScore": 8,
+  "tagline": "Tropical Paradise Meets Affordable Retirement — Live the Dream in Bali, Indonesia",
+  "description": "Bali combines spiritual tranquility, jaw-dropping natural beauty, and a thriving international community at remarkably low costs. From the rice terraces of Ubud to the surf breaks of Canggu, Bali offers FIRE retirees a lifestyle centered on wellness, creativity, and outdoor living that feels like a permanent vacation.",
+  "quickFacts": {
+    "visa": "30-day visa on arrival (extendable to 60 days); B211A social visa for 6-month stays; Second Home Visa for those with $130K+ in savings; retirement visa (KITAS) for 55+ with $1,500/mo proof of income",
+    "timezone": "UTC+8 (Central Indonesia Time)",
+    "language": "Bahasa Indonesia (Balinese locally)",
+    "internetSpeed": "30–100 Mbps (varies by area; best in Canggu and Seminyak)",
+    "safetyRating": "Very Safe — low crime; main risks are motorbike accidents and petty theft",
+    "nearestAirport": "Ngurah Rai International Airport (DPS) — direct flights to Singapore, Kuala Lumpur, Sydney, Tokyo",
+    "climate": "Tropical with dry season (Apr–Oct) and wet season (Nov–Mar)",
+    "englishFriendly": "Moderate",
+    "currency": "Indonesian Rupiah (IDR)",
+    "averageTemp": "27°C / 81°F"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Cozy 1-bedroom villa or apartment in Ubud or Sanur with garden access",
+        "monthlyCost": 450
+      },
+      "dining": {
+        "description": "Local warungs for daily meals — nasi goreng, mie ayam, and fresh juices; occasional café dining in Ubud",
+        "monthlyCost": 350
+      },
+      "groceries": {
+        "monthlyCost": 200
+      },
+      "healthcare": {
+        "description": "Basic international insurance; outpatient care at BIMC or local clinics; serious issues require evacuation to Singapore",
+        "monthlyCost": 200
+      },
+      "transportation": {
+        "description": "Rented scooter for daily travel around the island",
+        "monthlyCost": 70
+      },
+      "entertainment": {
+        "description": "Yoga classes, temple ceremonies, beach days, rice terrace hikes, and local cultural events",
+        "monthlyCost": 200
+      },
+      "utilities": {
+        "monthlyCost": 80
+      },
+      "lifestyle": "You wake up to the sound of roosters and gamelan music in a small villa surrounded by rice paddies. Mornings start with a yoga class and a smoothie bowl, afternoons are for exploring temples or surfing, and dinner is a $2 plate of nasi campur at your favorite warung. Bali at $1M is simple, spiritual, and deeply nourishing."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Charming 2-bedroom private villa with pool in Ubud, Canggu, or Sanur",
+        "monthlyCost": 900
+      },
+      "dining": {
+        "description": "Mix of warungs and the thriving Canggu/Ubud café scene — avocado toast, organic bowls, and excellent Indonesian cuisine",
+        "monthlyCost": 700
+      },
+      "groceries": {
+        "monthlyCost": 350
+      },
+      "healthcare": {
+        "description": "Comprehensive international health insurance with coverage at BIMC and Siloam hospitals",
+        "monthlyCost": 300
+      },
+      "transportation": {
+        "description": "Scooter plus Grab car for longer trips; occasional driver hire for day trips",
+        "monthlyCost": 150
+      },
+      "entertainment": {
+        "description": "Unlimited yoga studio membership, surf lessons, diving trips, weekend excursions to Nusa islands, live music",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 120
+      },
+      "lifestyle": "At $2M, Bali becomes a tropical dream with real comfort. You have your own pool villa, split time between Ubud's artistic calm and Canggu's buzzy beach scene, and enjoy a social life built around surf sessions, sunset cocktails, and farm-to-table dining. Weekend trips to the Gili Islands or Nusa Penida keep things exciting."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Spacious luxury 3-bedroom villa with private pool, lush tropical garden, and ocean or valley views in Seminyak, Ubud, or Uluwatu",
+        "monthlyCost": 1800
+      },
+      "dining": {
+        "description": "Fine dining at top Bali restaurants like Locavore and Mozaic; beach club lunches at Potato Head and Sundaya",
+        "monthlyCost": 1300
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "Premium international insurance with Singapore evacuation coverage; annual health screenings",
+        "monthlyCost": 450
+      },
+      "transportation": {
+        "description": "Private driver on retainer; scooter for quick trips; domestic flights to other Indonesian islands",
+        "monthlyCost": 350
+      },
+      "entertainment": {
+        "description": "Private yoga instructor, premium beach club memberships, scuba diving certifications, weekend luxury resort stays",
+        "monthlyCost": 1000
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "lifestyle": "With $3M, you experience Bali's luxury layer. Your sprawling villa overlooks terraced rice fields, you dine at Asia's 50 Best restaurants, and your weekends alternate between Uluwatu cliff-top sundowners and private boat trips to hidden islands. Bali at this level is a wellness resort you never have to leave."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Architect-designed luxury compound with infinity pool, outdoor pavilion, and panoramic views in prime Uluwatu, Ubud ridge, or beachfront Seminyak",
+        "monthlyCost": 3000
+      },
+      "dining": {
+        "description": "Private chef preparing organic local and international cuisine daily; fine dining at top establishments for special occasions",
+        "monthlyCost": 2200
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "Top-tier global insurance; executive health checks in Singapore twice yearly; holistic wellness programs",
+        "monthlyCost": 650
+      },
+      "transportation": {
+        "description": "Full-time private driver with luxury SUV; domestic flights; speedboat charters to neighboring islands",
+        "monthlyCost": 600
+      },
+      "entertainment": {
+        "description": "Private surf coaching, exclusive wellness retreats, art studio space, regular trips to Komodo, Raja Ampat, and Lombok",
+        "monthlyCost": 1800
+      },
+      "utilities": {
+        "monthlyCost": 350
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, private chef, gardener, and pool maintenance staff",
+        "monthlyCost": 800
+      },
+      "luxuryExtras": {
+        "description": "Balinese spa treatments weekly, custom surfboard shaping, private ceremonies with local priests, art collecting from Ubud galleries",
+        "monthlyCost": 1600
+      },
+      "lifestyle": "At $5M, Bali becomes your personal paradise. Your architect-designed compound has a dedicated staff, your private chef sources ingredients from organic farms, and you split your time between surfing, spiritual practices, and exploring the Indonesian archipelago by boat. It is an unparalleled quality of life in one of the world's most beautiful settings."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Ultra-luxury beachfront estate or cliff-top compound with multiple pavilions, infinity pool, private beach access, and guest villas; possible second property in Ubud",
+        "monthlyCost": 6000
+      },
+      "dining": {
+        "description": "Private chef team with rotating international menus, imported wines and ingredients, exclusive supper clubs with visiting chefs",
+        "monthlyCost": 3500
+      },
+      "groceries": {
+        "monthlyCost": 1200
+      },
+      "healthcare": {
+        "description": "Concierge global healthcare; quarterly wellness retreats; immediate access to top specialists in Singapore or Bangkok",
+        "monthlyCost": 1000
+      },
+      "transportation": {
+        "description": "Luxury vehicle fleet, full-time driver, private yacht access, helicopter transfers, first-class international flights",
+        "monthlyCost": 2500
+      },
+      "entertainment": {
+        "description": "Private island day trips, commissioning local artisans, hosting cultural events, international luxury travel, philanthropy through local foundations",
+        "monthlyCost": 4000
+      },
+      "utilities": {
+        "monthlyCost": 600
+      },
+      "domesticHelp": {
+        "description": "Complete estate staff including chef, butler, multiple housekeepers, gardeners, driver, security, and property manager",
+        "monthlyCost": 2200
+      },
+      "luxuryExtras": {
+        "description": "Private yoga and meditation masters, art patronage, custom furniture commissions, yacht charters through the archipelago, eco-tourism investments",
+        "monthlyCost": 5500
+      },
+      "lifestyle": "With $10M in Bali, you live in a compound that rivals the finest boutique resorts in the world — except it is entirely yours. A full estate staff attends to every detail, your yacht takes you island-hopping through the Indonesian archipelago, and you've become a patron of the local arts scene. Bali at this level is not just retirement; it is living art."
+    }
+  }
+}

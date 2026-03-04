@@ -1,0 +1,190 @@
+{
+  "name": "Playa del Carmen",
+  "country": "Mexico",
+  "region": "Latin America",
+  "slug": "playa-del-carmen",
+  "emoji": "\ud83c\uddf2\ud83c\uddfd",
+  "fireScore": 7.2,
+  "tagline": "Caribbean Beach Life on a FIRE Budget",
+  "description": "Playa del Carmen offers the rare combination of turquoise Caribbean waters, walkable town center, and a massive international expat community that makes the transition seamless. While pricier than inland Mexico, it remains a fraction of comparable beach destinations in the US or Europe, making it ideal for FIRE retirees who refuse to compromise on beach access.",
+  "quickFacts": {
+    "visa": "Temporary Resident Visa (1-4 years, renewable; requires proof of income ~$2,500/mo or savings ~$42,000)",
+    "timezone": "EST (UTC-5)",
+    "language": "Spanish (English widely spoken)",
+    "internetSpeed": "40 Mbps average",
+    "safetyRating": "Moderate — generally safe in tourist zones and residential areas; exercise standard caution",
+    "nearestAirport": "Cancún International Airport (CUN) — 45 min drive",
+    "climate": "Tropical — hot and humid with a rainy season June-November, hurricane risk",
+    "englishFriendly": "High",
+    "currency": "Mexican Peso (MXN)",
+    "averageTemp": "81°F / 27°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR condo near 5th Avenue or in Playacar Phase 2, walking distance to beach",
+        "monthlyCost": 900
+      },
+      "dining": {
+        "description": "Mix of local taco joints and casual beachfront spots; cooking at home most nights",
+        "monthlyCost": 450
+      },
+      "groceries": {
+        "monthlyCost": 350
+      },
+      "healthcare": {
+        "description": "IMSS public insurance with occasional private clinic visits in Cancún",
+        "monthlyCost": 150
+      },
+      "transportation": {
+        "description": "Bicycle as primary transport, colectivos for longer trips, occasional taxi",
+        "monthlyCost": 80
+      },
+      "entertainment": {
+        "description": "Beach days, snorkeling, cenote visits, 5th Avenue people-watching, sunset drinks",
+        "monthlyCost": 250
+      },
+      "utilities": {
+        "monthlyCost": 120
+      },
+      "lifestyle": "You roll out of bed, walk five minutes to the Caribbean, and spend mornings swimming in impossibly clear water. Afternoons are for exploring cenotes or cycling along the coast. Budget is tighter here than inland Mexico — you cook at home often and favor the local taco stands over tourist restaurants — but you're living steps from one of the world's most beautiful coastlines every single day."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Modern 2BR condo in Playacar or beachfront building with pool, rooftop, and security",
+        "monthlyCost": 1600
+      },
+      "dining": {
+        "description": "Regular beachfront dining, fresh ceviche lunches, international restaurants on 5th Avenue",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 450
+      },
+      "healthcare": {
+        "description": "Private insurance with access to Hospiten and other quality Riviera Maya clinics",
+        "monthlyCost": 280
+      },
+      "transportation": {
+        "description": "Scooter rental, taxis, ADO bus for Cancún trips, occasional car rental for ruins visits",
+        "monthlyCost": 200
+      },
+      "entertainment": {
+        "description": "Scuba diving certification, beach clubs, yoga retreats, weekend trips to Tulum and Cozumel",
+        "monthlyCost": 600
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "Your poolside condo is a two-minute walk from the beach, and you take full advantage — morning yoga on the sand, midday dip in a cenote, afternoon ceviche at your favorite beachfront palapa. Weekends mean island-hopping to Cozumel for world-class diving or exploring Mayan ruins at Cobá. The international community means friends from every continent, and the vibe is permanently relaxed."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Luxury 2-3BR penthouse in beachfront complex with private rooftop plunge pool and ocean views",
+        "monthlyCost": 3000
+      },
+      "dining": {
+        "description": "Fine dining at Playa's best restaurants nightly, beach club lunches, private chef occasionally",
+        "monthlyCost": 1300
+      },
+      "groceries": {
+        "monthlyCost": 550
+      },
+      "healthcare": {
+        "description": "Premium private insurance, wellness-focused healthcare, Cancún specialist access",
+        "monthlyCost": 400
+      },
+      "transportation": {
+        "description": "Leased SUV for Riviera Maya exploration, private airport transfers, ferry passes",
+        "monthlyCost": 500
+      },
+      "entertainment": {
+        "description": "Premium beach club memberships, kitesurfing lessons, spa days, catamaran sailing trips",
+        "monthlyCost": 1000
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "lifestyle": "Your penthouse rooftop has its own plunge pool overlooking the Caribbean — the kind of view people pay $500/night for at resorts. You split days between beach clubs, diving excursions, and leisurely long lunches. A private guide takes you to hidden cenotes the tourists never find. This is the Riviera Maya at its absolute best, with the freedom to say yes to every adventure that presents itself."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Beachfront villa in Playacar or exclusive gated community with private pool, garden, and direct beach access",
+        "monthlyCost": 5000
+      },
+      "dining": {
+        "description": "Private chef several nights a week, unlimited resort-quality dining, wine collection",
+        "monthlyCost": 2200
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "Platinum private insurance, concierge medicine, annual US checkups, wellness retreats",
+        "monthlyCost": 550
+      },
+      "transportation": {
+        "description": "Luxury SUV with occasional driver, private transfers, yacht day-charters",
+        "monthlyCost": 1000
+      },
+      "entertainment": {
+        "description": "VIP access at all beach clubs, private yacht excursions, deep-sea fishing, golf at Grand Coral",
+        "monthlyCost": 1500
+      },
+      "utilities": {
+        "monthlyCost": 300
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, part-time cook, pool and garden maintenance staff",
+        "monthlyCost": 1000
+      },
+      "luxuryExtras": {
+        "description": "Private catamaran charters, exclusive Tulum club memberships, bespoke Mayan cultural experiences",
+        "monthlyCost": 1800
+      },
+      "lifestyle": "Your beachfront villa has a private path to the sand, a pool surrounded by tropical gardens, and a full-time staff that keeps everything running. Mornings start with fresh juice by the pool, afternoons on your chartered catamaran, evenings with a private chef preparing freshly caught lobster. The Riviera Maya's luxury scene caters to you personally — this is resort living without ever checking out."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Oceanfront estate in exclusive Mayakoba or Playacar enclave with multiple buildings, infinity pool, and private beach",
+        "monthlyCost": 9000
+      },
+      "dining": {
+        "description": "Full-time private chef, exclusive restaurant access, imported delicacies, curated wine cellar",
+        "monthlyCost": 4000
+      },
+      "groceries": {
+        "monthlyCost": 1200
+      },
+      "healthcare": {
+        "description": "Global concierge healthcare, anti-aging treatments, private wellness facility, medical flights if needed",
+        "monthlyCost": 1000
+      },
+      "transportation": {
+        "description": "Luxury vehicle collection, yacht ownership, helicopter transfers to Cancún airport, private flights",
+        "monthlyCost": 3500
+      },
+      "entertainment": {
+        "description": "Private island day trips, world-class golf, exclusive art events, deep-sea sportfishing yacht",
+        "monthlyCost": 3500
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full estate staff: chef, housekeepers, groundskeepers, driver, boat captain, personal assistant",
+        "monthlyCost": 3200
+      },
+      "luxuryExtras": {
+        "description": "Yacht mooring, Mayakoba resort memberships, private archaeological tours, philanthropic projects in Mayan communities",
+        "monthlyCost": 4500
+      },
+      "lifestyle": "Your Mayakoba estate is a private paradise — an infinity pool melts into Caribbean views, a personal chef prepares three meals daily from the freshest catch, and your yacht captain has the boat ready whenever the mood strikes. You host unforgettable gatherings under palapa roofs with the sound of waves as your soundtrack. At this level, the Riviera Maya is not just a retirement destination — it's your personal tropical empire."
+    }
+  }
+}

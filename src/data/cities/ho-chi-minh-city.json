@@ -1,0 +1,190 @@
+{
+  "name": "Ho Chi Minh City",
+  "country": "Vietnam",
+  "region": "Southeast Asia",
+  "slug": "ho-chi-minh-city",
+  "emoji": "🇻🇳",
+  "fireScore": 9,
+  "tagline": "Southeast Asia's Best-Kept FIRE Secret — Stretch Your Dollar Further in Ho Chi Minh City",
+  "description": "Ho Chi Minh City offers arguably the best bang-for-your-buck in all of Southeast Asia. With its explosive energy, legendary street food culture, rapidly modernizing infrastructure, and rock-bottom costs, Saigon rewards FIRE retirees who crave authentic immersion and a dollar that goes further than almost anywhere else on earth.",
+  "quickFacts": {
+    "visa": "E-visa for 90 days (single or multiple entry); 3-month tourist visa extendable; investor visa available; digital nomad-friendly but no dedicated long-term retirement visa yet",
+    "timezone": "UTC+7 (Indochina Time)",
+    "language": "Vietnamese",
+    "internetSpeed": "50–150 Mbps (fiber available in most urban areas)",
+    "safetyRating": "Safe — very low violent crime; bag-snatching from motorbikes is the primary concern",
+    "nearestAirport": "Tan Son Nhat International Airport (SGN) — direct flights to major Asian and some European/Australian cities",
+    "climate": "Tropical with dry season (Dec–Apr) and wet season (May–Nov); consistently hot and humid",
+    "englishFriendly": "Low",
+    "currency": "Vietnamese Dong (VND)",
+    "averageTemp": "28°C / 82°F"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Modern 1-bedroom apartment in Binh Thanh or District 2 (Thu Duc) with pool and basic amenities",
+        "monthlyCost": 400
+      },
+      "dining": {
+        "description": "Pho, banh mi, and com tam from street stalls daily; occasional Western or Japanese restaurant meals",
+        "monthlyCost": 300
+      },
+      "groceries": {
+        "monthlyCost": 180
+      },
+      "healthcare": {
+        "description": "Basic private insurance; outpatient visits at FV Hospital or Columbia Asia",
+        "monthlyCost": 150
+      },
+      "transportation": {
+        "description": "Rented motorbike or daily Grab bike rides across the city",
+        "monthlyCost": 70
+      },
+      "entertainment": {
+        "description": "Bia hoi street beer sessions, War Remnants Museum, rooftop bars, weekend trips to Cu Chi Tunnels or Mekong Delta",
+        "monthlyCost": 200
+      },
+      "utilities": {
+        "monthlyCost": 70
+      },
+      "lifestyle": "You dive headfirst into Saigon's organized chaos — your morning starts with a $1.50 bowl of the best pho you've ever tasted, you work from a buzzing café in District 1, and evenings are spent on tiny plastic chairs sharing bia hoi with locals. At $1M, HCMC delivers an incredibly rich, authentic life with money to spare."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Spacious 2-bedroom apartment in Thao Dien (District 2) or a modern serviced apartment in District 1",
+        "monthlyCost": 750
+      },
+      "dining": {
+        "description": "Vietnamese street food mixed with the booming District 1 and District 2 restaurant scene — Vietnamese, Korean, French, and fusion",
+        "monthlyCost": 650
+      },
+      "groceries": {
+        "monthlyCost": 300
+      },
+      "healthcare": {
+        "description": "Comprehensive private insurance with full access to FV Hospital, one of Vietnam's best",
+        "monthlyCost": 250
+      },
+      "transportation": {
+        "description": "Own motorbike plus regular Grab car rides; occasional domestic flights to Da Nang or Phu Quoc",
+        "monthlyCost": 150
+      },
+      "entertainment": {
+        "description": "Gym membership, cooking classes, weekend trips to beach towns, vibrant nightlife, live music scene",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 120
+      },
+      "lifestyle": "At $2M, Saigon transforms from thrilling to truly comfortable. You live in the leafy, family-friendly Thao Dien area, enjoy the rapidly expanding café and restaurant culture, and take cheap Vietjet flights to Phu Quoc or Da Nang for beach weekends. The social scene is vibrant and the value is unbeatable."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Luxury 3-bedroom apartment in a premium Thao Dien compound or a high-rise penthouse in District 1 with skyline views",
+        "monthlyCost": 1400
+      },
+      "dining": {
+        "description": "Saigon's top restaurants — French colonial fine dining, rooftop restaurants, Japanese omakase, and the best Vietnamese cuisine in the country",
+        "monthlyCost": 1200
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "Premium international insurance; VIP access at FV Hospital; dental and vision included; regional coverage",
+        "monthlyCost": 400
+      },
+      "transportation": {
+        "description": "Hired car and driver for daily use; domestic flights; occasional regional travel to Cambodia, Laos, or Thailand",
+        "monthlyCost": 350
+      },
+      "entertainment": {
+        "description": "Premium gym, golf at Long Thanh or Vietnam Golf & Country Club, spa days, weekend luxury resort stays across Vietnam",
+        "monthlyCost": 1000
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "lifestyle": "With $3M in HCMC, you live among the city's cosmopolitan elite. You dine at the colonial-era restaurants along Dong Khoi street, have a driver take you to golf at Vietnam's best courses, and fly off to Ha Long Bay or Hoi An whenever the mood strikes. Saigon's luxury tier is shockingly affordable compared to any Western city."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Grand villa in Thao Dien compound with private pool and garden, or top-floor penthouse in the Landmark 81 area",
+        "monthlyCost": 2500
+      },
+      "dining": {
+        "description": "Private chef specializing in Vietnamese and French cuisine; fine dining out several times weekly at top establishments",
+        "monthlyCost": 2000
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "Top-tier global insurance with Singapore and Bangkok evacuation; executive health checks; personalized wellness plans",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "Luxury vehicle with full-time driver; domestic first-class flights; regional business-class travel",
+        "monthlyCost": 600
+      },
+      "entertainment": {
+        "description": "Elite golf memberships, private art gallery tours, luxury resort stays across Vietnam, regular regional travel",
+        "monthlyCost": 1700
+      },
+      "utilities": {
+        "monthlyCost": 300
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper and cook, part-time gardener, nanny or personal assistant",
+        "monthlyCost": 600
+      },
+      "luxuryExtras": {
+        "description": "Bespoke ao dai tailoring, Vietnamese art collection, premium spa memberships, wine collection, philanthropic work with local charities",
+        "monthlyCost": 1500
+      },
+      "lifestyle": "At $5M in HCMC, you live a life that would cost four to five times as much in the West. Your Thao Dien villa has a private chef who prepares both Vietnamese and French cuisine, your driver navigates the city's energy for you, and you've built meaningful connections through philanthropy and the arts. Vietnam's explosive growth makes this an exciting place to be wealthy."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Palatial riverside villa in Thao Dien or An Phu with extensive grounds, pool, and guest house; optional beach property in Da Nang or Phu Quoc",
+        "monthlyCost": 4500
+      },
+      "dining": {
+        "description": "Private chef team, imported delicacies, exclusive dining events, hosting elaborate dinner parties blending Vietnamese and international cuisines",
+        "monthlyCost": 3500
+      },
+      "groceries": {
+        "monthlyCost": 1200
+      },
+      "healthcare": {
+        "description": "Concierge global healthcare; quarterly executive screenings in Singapore; 24/7 private doctor access; full family coverage",
+        "monthlyCost": 1000
+      },
+      "transportation": {
+        "description": "Luxury vehicle fleet, full-time chauffeur, first-class international travel, private charter flights within Vietnam",
+        "monthlyCost": 2000
+      },
+      "entertainment": {
+        "description": "Exclusive memberships, contemporary Vietnamese art collecting, philanthropic foundations, luxury travel worldwide, private cultural experiences",
+        "monthlyCost": 4000
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Complete household staff including chef, housekeeper, gardener, driver, security guard, and property manager",
+        "monthlyCost": 1800
+      },
+      "luxuryExtras": {
+        "description": "Vietnamese art patronage and gallery support, real estate investments, bespoke travel curation, charitable foundations focused on education and healthcare",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "With $10M in Ho Chi Minh City, you live like royalty in one of the world's most dynamic and rapidly growing cities. Your riverside estate is fully staffed, you patronize Vietnam's burgeoning contemporary art scene, and you move seamlessly between Saigon, your beach house, and international destinations. Vietnam's growth story makes this an incredibly exciting place to build a legacy."
+    }
+  }
+}

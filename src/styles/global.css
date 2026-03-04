@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans text-gray-800 bg-sand-50 antialiased;
+  }
+
+  h1, h2, h3 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .container-narrow {
+    @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .container-wide {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .fire-score {
+    @apply inline-flex items-center justify-center w-12 h-12 rounded-full text-white font-bold text-lg;
+  }
+
+  .fire-score-high {
+    @apply bg-emerald-500;
+  }
+
+  .fire-score-mid {
+    @apply bg-amber-500;
+  }
+
+  .fire-score-low {
+    @apply bg-red-500;
+  }
+
+  .tier-card {
+    @apply bg-white rounded-2xl shadow-sm border border-sand-200 p-6 hover:shadow-md transition-shadow;
+  }
+
+  .city-card {
+    @apply bg-white rounded-2xl shadow-sm border border-sand-200 overflow-hidden hover:shadow-lg transition-all duration-300 hover:-translate-y-1;
+  }
+}

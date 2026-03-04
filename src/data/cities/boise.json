@@ -1,0 +1,190 @@
+{
+  "name": "Boise",
+  "country": "United States",
+  "region": "North America",
+  "slug": "boise",
+  "emoji": "\ud83c\uddfa\ud83c\uddf8",
+  "fireScore": 6.5,
+  "tagline": "Affordable Mountain Living in the Heart of Idaho",
+  "description": "Boise offers an unbeatable combination of outdoor recreation, low crime, and a cost of living well below most Western US cities. The Boise Foothills are your backyard, the Boise River Greenbelt runs through town, and world-class skiing is just two hours away. Idaho's flat income tax and affordable housing make every FIRE dollar stretch further.",
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "MST (UTC-7)",
+    "language": "English",
+    "internetSpeed": "150+ Mbps average",
+    "safetyRating": "High – consistently ranked among safest US cities",
+    "nearestAirport": "Boise Airport (BOI)",
+    "climate": "Semi-arid with four distinct seasons; snowy winters and warm, dry summers",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "52°F / 11°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in the Bench or Garden City area",
+        "monthlyCost": 1200
+      },
+      "dining": {
+        "description": "Casual dining 2x/week; local brewpubs and taco spots",
+        "monthlyCost": 200
+      },
+      "groceries": {
+        "monthlyCost": 380
+      },
+      "healthcare": {
+        "description": "ACA marketplace Silver plan through Your Health Idaho exchange",
+        "monthlyCost": 480
+      },
+      "transportation": {
+        "description": "Paid-off car with basic insurance; Boise is very car-dependent",
+        "monthlyCost": 250
+      },
+      "entertainment": {
+        "description": "Hiking the Foothills, Greenbelt biking, library; occasional movie night",
+        "monthlyCost": 100
+      },
+      "utilities": {
+        "monthlyCost": 140
+      },
+      "lifestyle": "Boise at $1M is genuinely doable thanks to lower rents and cheap outdoor recreation. You will cook most meals, drive an older car, and rely on Idaho's incredible free public lands for entertainment. It is a simple but satisfying life if you love the outdoors and do not need city flash."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "2BR apartment in the North End or a small house in West Boise",
+        "monthlyCost": 1800
+      },
+      "dining": {
+        "description": "Dining out 3-4x/week; enjoying Boise's growing restaurant scene on 8th Street",
+        "monthlyCost": 450
+      },
+      "groceries": {
+        "monthlyCost": 450
+      },
+      "healthcare": {
+        "description": "ACA Gold plan with dental; manageable deductibles",
+        "monthlyCost": 580
+      },
+      "transportation": {
+        "description": "Reliable AWD vehicle for winter driving, full insurance coverage",
+        "monthlyCost": 380
+      },
+      "entertainment": {
+        "description": "Bogus Basin ski pass, mountain biking gear, Treefort Music Fest, gym membership",
+        "monthlyCost": 250
+      },
+      "utilities": {
+        "monthlyCost": 170
+      },
+      "lifestyle": "This budget unlocks Boise's sweet spot. You can afford a place in the coveted North End with its tree-lined streets, eat out regularly at spots like Fork and KIN, and buy a season ski pass without guilt. Weekend road trips to Sun Valley or McCall are within easy reach."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR home in the North End, Harris Ranch, or a Foothills property with views",
+        "monthlyCost": 2800
+      },
+      "dining": {
+        "description": "Regular fine dining at Chandlers, Richard's, and Boise's best; wine tasting events",
+        "monthlyCost": 700
+      },
+      "groceries": {
+        "monthlyCost": 550
+      },
+      "healthcare": {
+        "description": "Premium private health insurance with low deductibles and full dental/vision",
+        "monthlyCost": 700
+      },
+      "transportation": {
+        "description": "Late-model SUV ideal for mountain roads, premium insurance, seasonal tires",
+        "monthlyCost": 500
+      },
+      "entertainment": {
+        "description": "Multiple ski passes, fly fishing trips, BSU season tickets, golf membership",
+        "monthlyCost": 450
+      },
+      "utilities": {
+        "monthlyCost": 220
+      },
+      "lifestyle": "You are living large by Boise standards. A beautiful home with mountain views, a capable SUV for backcountry adventures, and the freedom to enjoy everything from the city's thriving food scene to multi-day backcountry skiing trips. This budget provides a genuinely luxurious Idaho lifestyle."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Custom home in the Boise Foothills or a large estate in Eagle or Meridian",
+        "monthlyCost": 5000
+      },
+      "dining": {
+        "description": "Fine dining several times per week, wine club memberships, catered gatherings",
+        "monthlyCost": 1200
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "Concierge medicine practice, executive wellness, comprehensive private insurance",
+        "monthlyCost": 900
+      },
+      "transportation": {
+        "description": "Luxury SUV (Land Rover, Lexus), second vehicle, premium everything",
+        "monthlyCost": 800
+      },
+      "entertainment": {
+        "description": "Private ski lessons, heli-skiing trips, club memberships, BSU booster level",
+        "monthlyCost": 800
+      },
+      "utilities": {
+        "monthlyCost": 300
+      },
+      "domesticHelp": {
+        "description": "Weekly house cleaning, landscaping, snow removal service",
+        "monthlyCost": 600
+      },
+      "luxuryExtras": {
+        "description": "Sun Valley cabin weekends, quarterly travel, outdoor gear upgrades, philanthropy",
+        "monthlyCost": 1500
+      },
+      "lifestyle": "Boise at this level is elite mountain-West living. A stunning foothills home, heli-skiing in the Sawtooths, private fly-fishing guides on the Middle Fork, and enough left over to be a pillar of the community. Idaho's low taxes let you keep the vast majority of your withdrawals."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Trophy property in the Boise Foothills or a compound in Eagle with acreage",
+        "monthlyCost": 9000
+      },
+      "dining": {
+        "description": "Personal chef, exclusive wine dinners, catered events and parties",
+        "monthlyCost": 2500
+      },
+      "groceries": {
+        "monthlyCost": 900
+      },
+      "healthcare": {
+        "description": "Top-tier concierge practice, medical travel for specialists, full wellness team",
+        "monthlyCost": 1200
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, private car service, occasional chartered flights",
+        "monthlyCost": 1500
+      },
+      "entertainment": {
+        "description": "International ski trips, private river access, art collecting, major philanthropy",
+        "monthlyCost": 2000
+      },
+      "utilities": {
+        "monthlyCost": 450
+      },
+      "domesticHelp": {
+        "description": "Full-time property manager, housekeeper, personal assistant",
+        "monthlyCost": 4000
+      },
+      "luxuryExtras": {
+        "description": "Second home in Sun Valley, first-class international travel, ranch land, angel investing",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At $10M you can own the Idaho dream and then some. A sprawling estate with mountain views, a second home in Sun Valley, chartered flights to avoid the drive, and deep involvement in Boise's growing philanthropic scene. You are essentially living a resort lifestyle year-round in one of America's most beautiful settings."
+    }
+  }
+}

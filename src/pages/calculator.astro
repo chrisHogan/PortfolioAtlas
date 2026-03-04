@@ -1,0 +1,235 @@
+---
+import Layout from '../layouts/Layout.astro';
+import NetWorthInput from '../components/NetWorthInput.astro';
+import { allCities } from '../data/cities/index';
+import { formatCurrency, getTotalSpend, getFireScoreClass, TIER_MONTHLY_BUDGET } from '../data/types';
+import type { TierKey } from '../data/types';
+
+// Pre-compute city cost data for client-side use
+const cityData = allCities.map((city) => {
+  const tiers: Record<string, { totalSpend: number; tierBudget: number }> = {};
+  for (const [key, tier] of Object.entries(city.tiers)) {
+    tiers[key] = {
+      totalSpend: getTotalSpend(tier),
+      tierBudget: tier.monthlyBudget,
+    };
+  }
+  return {
+    name: city.name,
+    country: city.country,
+    slug: city.slug,
+    emoji: city.emoji,
+    region: city.region,
+    fireScore: city.fireScore,
+    tiers,
+  };
+});
+
+const tierValues: { key: TierKey; value: number }[] = [
+  { key: '1M', value: 1_000_000 },
+  { key: '2M', value: 2_000_000 },
+  { key: '3M', value: 3_000_000 },
+  { key: '5M', value: 5_000_000 },
+  { key: '10M', value: 10_000_000 },
+];
+---
+
+<Layout
+  title="Net Worth Calculator"
+  description="Enter your portfolio value and see personalized lifestyle breakdowns across 25 cities worldwide."
+>
+  <!-- Hero -->
+  <section class="bg-brand-950 text-white py-12">
+    <div class="container-narrow text-center">
+      <h1 class="font-serif text-4xl md:text-5xl font-bold mb-4">
+        Your Personalized Results
+      </h1>
+      <p class="text-xl text-sand-300 max-w-2xl mx-auto mb-8">
+        See what your portfolio buys you in 25 cities worldwide.
+      </p>
+      <NetWorthInput />
+    </div>
+  </section>
+
+  <!-- Fallback: shown when no ?nw= param -->
+  <section id="calc-fallback" class="container-narrow py-16 text-center hidden">
+    <div class="max-w-xl mx-auto">
+      <div class="w-16 h-16 bg-brand-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+        <span class="text-3xl">💰</span>
+      </div>
+      <h2 class="font-serif text-2xl font-bold text-brand-950 mb-3">
+        Enter Your Portfolio Value
+      </h2>
+      <p class="text-gray-600 mb-6">
+        Use the input above to enter your net worth and see personalized results across all 25 cities.
+      </p>
+      <p class="text-sm text-gray-500">
+        Or <a href="/" class="text-brand-600 hover:underline font-medium">browse preset tiers</a> ($1M–$10M).
+      </p>
+    </div>
+  </section>
+
+  <!-- Results: shown when ?nw= is present -->
+  <div id="calc-results" class="hidden">
+    <!-- Summary Cards -->
+    <section class="container-narrow py-8">
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <div class="bg-white rounded-2xl border border-sand-200 p-5 text-center">
+          <div class="text-sm text-gray-500 mb-1">Monthly Budget</div>
+          <div id="summary-budget" class="text-2xl font-bold text-brand-600"></div>
+          <div class="text-xs text-gray-400 mt-1">4% safe withdrawal rate</div>
+        </div>
+        <div class="bg-white rounded-2xl border border-sand-200 p-5 text-center">
+          <div class="text-sm text-gray-500 mb-1">Cities with Surplus</div>
+          <div id="summary-surplus-count" class="text-2xl font-bold text-emerald-600"></div>
+          <div class="text-xs text-gray-400 mt-1">of 25 destinations</div>
+        </div>
+        <div class="bg-white rounded-2xl border border-sand-200 p-5 text-center">
+          <div class="text-sm text-gray-500 mb-1">Best Match</div>
+          <div id="summary-best" class="text-2xl font-bold text-brand-950"></div>
+          <div id="summary-best-surplus" class="text-xs text-emerald-600 mt-1"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- City Rankings -->
+    <section class="container-wide py-8">
+      <h2 class="font-serif text-2xl font-bold text-brand-950 mb-6">
+        All Cities Ranked by Surplus
+      </h2>
+
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="border-b-2 border-sand-200">
+              <th class="text-left py-3 px-4 font-semibold text-gray-600">#</th>
+              <th class="text-left py-3 px-4 font-semibold text-gray-600">City</th>
+              <th class="text-right py-3 px-4 font-semibold text-gray-600">FIRE Score</th>
+              <th class="text-right py-3 px-4 font-semibold text-gray-600">Using Tier</th>
+              <th class="text-right py-3 px-4 font-semibold text-gray-600">Total Spend</th>
+              <th class="text-right py-3 px-4 font-semibold text-gray-600">Surplus</th>
+            </tr>
+          </thead>
+          <tbody id="city-rankings"></tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <!-- Bottom CTA -->
+  <section class="container-narrow py-16 text-center">
+    <p class="text-sm text-gray-500">
+      Want to see detailed breakdowns? <a href="/" class="text-brand-600 hover:underline font-medium">Browse all destinations</a>
+      or <a href="/compare" class="text-brand-600 hover:underline font-medium">compare cities side by side</a>.
+    </p>
+  </section>
+</Layout>
+
+<script define:vars={{ cityData, tierValues }}>
+  function initCalculator() {
+    const params = new URLSearchParams(window.location.search);
+    const nwParam = params.get('nw');
+
+    const fallback = document.getElementById('calc-fallback');
+    const results = document.getElementById('calc-results');
+
+    if (!nwParam) {
+      fallback?.classList.remove('hidden');
+      return;
+    }
+
+    const netWorth = parseInt(nwParam, 10);
+    if (isNaN(netWorth) || netWorth <= 0) {
+      fallback?.classList.remove('hidden');
+      return;
+    }
+
+    results?.classList.remove('hidden');
+
+    const monthlyBudget = Math.round((netWorth * 0.04) / 12);
+
+    function getClosestTier(nw) {
+      let closest = tierValues[0];
+      let minDiff = Math.abs(nw - closest.value);
+      for (const tier of tierValues) {
+        const diff = Math.abs(nw - tier.value);
+        if (diff < minDiff) {
+          minDiff = diff;
+          closest = tier;
+        }
+      }
+      return closest.key;
+    }
+
+    function fmtCurrency(n) {
+      return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 0, maximumFractionDigits: 0 }).format(n);
+    }
+
+    function getScoreClass(score) {
+      if (score >= 7.5) return 'fire-score-high';
+      if (score >= 5.5) return 'fire-score-mid';
+      return 'fire-score-low';
+    }
+
+    const closestTier = getClosestTier(netWorth);
+
+    // Compute surplus for each city using closest tier's cost data
+    const ranked = cityData.map((city) => {
+      const tierData = city.tiers[closestTier];
+      const surplus = monthlyBudget - tierData.totalSpend;
+      return { ...city, totalSpend: tierData.totalSpend, surplus, usedTier: closestTier };
+    }).sort((a, b) => b.surplus - a.surplus);
+
+    // Summary cards
+    const budgetEl = document.getElementById('summary-budget');
+    const surplusCountEl = document.getElementById('summary-surplus-count');
+    const bestEl = document.getElementById('summary-best');
+    const bestSurplusEl = document.getElementById('summary-best-surplus');
+
+    if (budgetEl) budgetEl.textContent = fmtCurrency(monthlyBudget) + '/mo';
+    const surplusCount = ranked.filter((c) => c.surplus >= 0).length;
+    if (surplusCountEl) surplusCountEl.textContent = String(surplusCount);
+    if (ranked.length > 0) {
+      if (bestEl) bestEl.textContent = ranked[0].emoji + ' ' + ranked[0].name;
+      if (bestSurplusEl) bestSurplusEl.textContent = '+' + fmtCurrency(ranked[0].surplus) + '/mo surplus';
+    }
+
+    // Render rankings table
+    const tbody = document.getElementById('city-rankings');
+    if (!tbody) return;
+
+    ranked.forEach((city, index) => {
+      const tr = document.createElement('tr');
+      tr.className = 'border-b border-sand-100 hover:bg-sand-50 transition-colors';
+
+      const surplusClass = city.surplus >= 0 ? 'text-emerald-600' : 'text-red-600';
+      const surplusPrefix = city.surplus >= 0 ? '+' : '';
+      const scoreClass = getScoreClass(city.fireScore);
+
+      tr.innerHTML = `
+        <td class="py-3 px-4 text-gray-400 font-medium">${index + 1}</td>
+        <td class="py-3 px-4">
+          <a href="/cities/${city.slug}?nw=${netWorth}" class="flex items-center gap-2 hover:text-brand-600 transition-colors">
+            <span>${city.emoji}</span>
+            <span class="font-medium">${city.name}</span>
+            <span class="text-gray-400 text-xs">${city.country}</span>
+          </a>
+        </td>
+        <td class="text-right py-3 px-4">
+          <span class="inline-flex items-center justify-center w-8 h-8 rounded-full text-white text-xs font-bold ${scoreClass}">
+            ${city.fireScore.toFixed(1)}
+          </span>
+        </td>
+        <td class="text-right py-3 px-4 text-gray-500">$${city.usedTier}</td>
+        <td class="text-right py-3 px-4 font-bold">${fmtCurrency(city.totalSpend)}</td>
+        <td class="text-right py-3 px-4 font-bold ${surplusClass}">
+          ${surplusPrefix}${fmtCurrency(city.surplus)}
+        </td>
+      `;
+
+      tbody.appendChild(tr);
+    });
+  }
+
+  initCalculator();
+</script>

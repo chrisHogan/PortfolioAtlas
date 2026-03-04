@@ -1,0 +1,85 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { allCities } from '../data/cities/index';
+import { TIER_LABELS, formatCurrency, getFireScoreClass, getTotalSpend } from '../data/types';
+import type { TierKey } from '../data/types';
+
+const tiers: TierKey[] = ['1M', '2M', '3M', '5M', '10M'];
+
+// Sort cities by FIRE score descending for the default view
+const sortedCities = [...allCities].sort((a, b) => b.fireScore - a.fireScore);
+---
+
+<Layout
+  title="Compare Destinations"
+  description="Compare FIRE lifestyle costs across 25+ cities worldwide. See housing, healthcare, dining, and total monthly costs side by side."
+>
+  <section class="bg-brand-950 text-white py-16">
+    <div class="container-narrow text-center">
+      <h1 class="font-serif text-4xl md:text-5xl font-bold mb-4">
+        Compare Destinations
+      </h1>
+      <p class="text-xl text-sand-300 max-w-2xl mx-auto">
+        See how all 25 cities stack up at each portfolio level. Sorted by FIRE Score.
+      </p>
+    </div>
+  </section>
+
+  <!-- Comparison Table for each tier -->
+  {tiers.map((tierKey) => (
+    <section class="container-wide py-12" id={`compare-${tierKey}`}>
+      <h2 class="font-serif text-2xl font-bold text-brand-950 mb-6">
+        {TIER_LABELS[tierKey]} Portfolio — {formatCurrency(allCities[0]?.tiers[tierKey]?.monthlyBudget || 0)}/month
+      </h2>
+
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="border-b-2 border-sand-200">
+              <th class="text-left py-3 px-4 font-semibold text-gray-600">City</th>
+              <th class="text-right py-3 px-4 font-semibold text-gray-600">FIRE Score</th>
+              <th class="text-right py-3 px-4 font-semibold text-gray-600">Housing</th>
+              <th class="text-right py-3 px-4 font-semibold text-gray-600">Dining</th>
+              <th class="text-right py-3 px-4 font-semibold text-gray-600">Healthcare</th>
+              <th class="text-right py-3 px-4 font-semibold text-gray-600">Total Spend</th>
+              <th class="text-right py-3 px-4 font-semibold text-gray-600">Surplus</th>
+            </tr>
+          </thead>
+          <tbody>
+            {sortedCities.map((city) => {
+              const tier = city.tiers[tierKey];
+              if (!tier) return null;
+              const total = getTotalSpend(tier);
+              const surplus = tier.monthlyBudget - total;
+              const scoreClass = getFireScoreClass(city.fireScore);
+
+              return (
+                <tr class="border-b border-sand-100 hover:bg-sand-50 transition-colors">
+                  <td class="py-3 px-4">
+                    <a href={`/cities/${city.slug}`} class="flex items-center gap-2 hover:text-brand-600 transition-colors">
+                      <span>{city.emoji}</span>
+                      <span class="font-medium">{city.name}</span>
+                      <span class="text-gray-400 text-xs">{city.country}</span>
+                    </a>
+                  </td>
+                  <td class="text-right py-3 px-4">
+                    <span class={`inline-flex items-center justify-center w-8 h-8 rounded-full text-white text-xs font-bold ${scoreClass}`}>
+                      {city.fireScore.toFixed(1)}
+                    </span>
+                  </td>
+                  <td class="text-right py-3 px-4 font-medium">{formatCurrency(tier.housing.monthlyCost)}</td>
+                  <td class="text-right py-3 px-4 font-medium">{formatCurrency(tier.dining.monthlyCost)}</td>
+                  <td class="text-right py-3 px-4 font-medium">{formatCurrency(tier.healthcare.monthlyCost)}</td>
+                  <td class="text-right py-3 px-4 font-bold">{formatCurrency(total)}</td>
+                  <td class:list={['text-right py-3 px-4 font-bold', surplus >= 0 ? 'text-emerald-600' : 'text-red-600']}>
+                    {surplus >= 0 ? '+' : ''}{formatCurrency(surplus)}
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  ))}
+</Layout>

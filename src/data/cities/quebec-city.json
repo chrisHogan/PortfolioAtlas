@@ -1,0 +1,190 @@
+{
+  "name": "Quebec City",
+  "country": "Canada",
+  "region": "North America",
+  "slug": "quebec-city",
+  "emoji": "\ud83c\udde8\ud83c\udde6",
+  "fireScore": 6.3,
+  "tagline": "Old-World European Charm Without Crossing the Atlantic",
+  "description": "Quebec City is the closest thing to Europe you can find in North America, with its UNESCO World Heritage Old Town, cobblestone streets, and vibrant Francophone culture. Housing costs are remarkably affordable compared to Montreal or Toronto, and universal healthcare removes one of retirement's biggest financial worries. If you speak (or want to learn) French and love history, architecture, and four-season living, Quebec City is an exceptional FIRE destination.",
+  "quickFacts": {
+    "visa": "Canadian citizens: no visa. Others: Express Entry, Provincial Nominee (Quebec has its own immigration system), or visitor permits",
+    "timezone": "EST (UTC-5)",
+    "language": "French (primary); English understood in tourist areas but French is essential for daily life",
+    "internetSpeed": "100+ Mbps average",
+    "safetyRating": "Very High – one of the safest cities in North America",
+    "nearestAirport": "Quebec City Jean Lesage International Airport (YQB)",
+    "climate": "Humid continental with cold, snowy winters and warm, pleasant summers",
+    "englishFriendly": "Moderate",
+    "currency": "CAD (1 USD ~ 1.36 CAD)",
+    "averageTemp": "41°F / 5°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in Limoilou, Saint-Sauveur, or Charlesbourg; charming older buildings",
+        "monthlyCost": 750
+      },
+      "dining": {
+        "description": "Bistro meals, poutine spots, and boulangeries 2-3x/week; mostly cooking at home",
+        "monthlyCost": 200
+      },
+      "groceries": {
+        "monthlyCost": 350
+      },
+      "healthcare": {
+        "description": "RAMQ universal coverage for residents; budget for dental, prescriptions, and vision",
+        "monthlyCost": 130
+      },
+      "transportation": {
+        "description": "RTC bus pass or a paid-off car; the Old Town is very walkable",
+        "monthlyCost": 180
+      },
+      "entertainment": {
+        "description": "Free Old Town exploring, Plains of Abraham walks, Carnaval events, library, community centers",
+        "monthlyCost": 80
+      },
+      "utilities": {
+        "monthlyCost": 130
+      },
+      "lifestyle": "Quebec City is one of the best $1M FIRE cities in North America. Cheap rent, universal healthcare, and a walkable city center where you can stroll cobblestone streets and visit centuries-old churches for free. You will cook most meals but the boulangeries sell incredible bread for pocket change. Learning French is part of the adventure and the community is welcoming."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "2BR apartment in Saint-Jean-Baptiste or Montcalm, steps from the Old Town",
+        "monthlyCost": 1200
+      },
+      "dining": {
+        "description": "Regular dining at bistros and brasseries 3-4x/week; weekend brunch culture",
+        "monthlyCost": 450
+      },
+      "groceries": {
+        "monthlyCost": 420
+      },
+      "healthcare": {
+        "description": "RAMQ universal coverage plus private supplemental for dental, vision, prescriptions, physiotherapy",
+        "monthlyCost": 220
+      },
+      "transportation": {
+        "description": "Reliable car for Laurentian mountain trips, winter tires, full insurance",
+        "monthlyCost": 330
+      },
+      "entertainment": {
+        "description": "Theatre tickets, cross-country skiing, Festival d'ete, Musee national, gym and swimming",
+        "monthlyCost": 280
+      },
+      "utilities": {
+        "monthlyCost": 160
+      },
+      "lifestyle": "At $2M, Quebec City becomes a European-style dream life. You can afford a beautiful apartment in one of the most charming neighborhoods in North America, dine at classic bistros regularly, and spend weekends skiing in the Laurentians or exploring Ile d'Orleans. The cultural calendar is packed year-round with festivals, theatre, and music."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR heritage apartment in Old Quebec or a home in Sillery with St. Lawrence River views",
+        "monthlyCost": 2200
+      },
+      "dining": {
+        "description": "Fine dining at Laurie Raphael, Chez Muffy, and Initiale; regular gastronomic experiences",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 530
+      },
+      "healthcare": {
+        "description": "RAMQ universal coverage plus comprehensive private insurance for enhanced and faster access",
+        "monthlyCost": 320
+      },
+      "transportation": {
+        "description": "Late-model AWD vehicle for winter, premium insurance, weekend cottage drives",
+        "monthlyCost": 450
+      },
+      "entertainment": {
+        "description": "Season tickets to orchestras and theatre, ski passes at Mont-Sainte-Anne and Le Massif, art collecting",
+        "monthlyCost": 550
+      },
+      "utilities": {
+        "monthlyCost": 220
+      },
+      "lifestyle": "Living in Old Quebec at $10K per month is like being a permanent resident in a European fairy tale. A heritage apartment within the old walls, gastronomic dinners at Quebec's finest restaurants, skiing at world-class resorts, and summers on Ile d'Orleans picking strawberries. Healthcare is covered, and you can save or travel with the substantial surplus."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury heritage property in Old Quebec or a grand home in Sillery with river views and gardens",
+        "monthlyCost": 4500
+      },
+      "dining": {
+        "description": "Private chef for dinner parties, fine dining multiple nights, wine-pairing experiences",
+        "monthlyCost": 1200
+      },
+      "groceries": {
+        "monthlyCost": 680
+      },
+      "healthcare": {
+        "description": "RAMQ universal plus executive health programs and premium private supplements",
+        "monthlyCost": 420
+      },
+      "transportation": {
+        "description": "Luxury vehicle, second car for summer, flights from YQB to Montreal or international",
+        "monthlyCost": 700
+      },
+      "entertainment": {
+        "description": "Arts patronage, private ski lessons, exclusive cultural events, spa and wellness retreats",
+        "monthlyCost": 800
+      },
+      "utilities": {
+        "monthlyCost": 300
+      },
+      "domesticHelp": {
+        "description": "Weekly house cleaning, snow removal, gardening, property maintenance",
+        "monthlyCost": 600
+      },
+      "luxuryExtras": {
+        "description": "Charlevoix cottage, quarterly European travel, art collecting, philanthropy",
+        "monthlyCost": 1500
+      },
+      "lifestyle": "Quebec City at $5M is aristocratic Canadian living. A magnificent heritage property, a cottage in beautiful Charlevoix, dining at the city's Michelin-worthy restaurants, and enough surplus for regular trips to France. The city's small size means you become a known and valued member of the cultural community."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Grand heritage estate in Old Quebec or a riverfront compound in Sillery or Cap-Rouge",
+        "monthlyCost": 8000
+      },
+      "dining": {
+        "description": "Full-time personal chef, exclusive gastronomic events, catered soirees",
+        "monthlyCost": 2300
+      },
+      "groceries": {
+        "monthlyCost": 900
+      },
+      "healthcare": {
+        "description": "RAMQ universal plus top private coverage, executive wellness, specialist access",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, private car service, chartered flights, chauffeur",
+        "monthlyCost": 1400
+      },
+      "entertainment": {
+        "description": "Major cultural philanthropy, international travel, private events at historic venues",
+        "monthlyCost": 2200
+      },
+      "utilities": {
+        "monthlyCost": 450
+      },
+      "domesticHelp": {
+        "description": "Full-time estate staff, housekeeper, personal assistant, driver, property manager",
+        "monthlyCost": 4200
+      },
+      "luxuryExtras": {
+        "description": "Multiple properties including Charlevoix and Paris, first-class travel, art patron, community foundation",
+        "monthlyCost": 5500
+      },
+      "lifestyle": "At $10M, Quebec City offers a life that rivals European aristocracy. A grand heritage estate within the old walls, a Charlevoix country property, a Paris pied-a-terre, and deep involvement as a patron of Quebec's celebrated cultural institutions. Universal healthcare, incredible safety, and 400 years of history make this one of the most unique high-net-worth lifestyles in the world."
+    }
+  }
+}

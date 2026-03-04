@@ -1,0 +1,90 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout
+  title="About"
+  description="Learn about PortfolioAtlas — how we calculate FIRE lifestyle costs and why we built this resource."
+>
+  <div class="container-narrow py-16 md:py-24">
+    <div class="max-w-3xl mx-auto">
+      <h1 class="font-serif text-4xl md:text-5xl font-bold text-brand-950 mb-6">
+        About PortfolioAtlas
+      </h1>
+
+      <div class="prose prose-lg max-w-none text-gray-700 space-y-6">
+        <p class="text-xl text-gray-600 leading-relaxed">
+          PortfolioAtlas answers one simple question: <strong>"If I retire with $X, what kind of
+          life can I actually live?"</strong> We break it down city by city, dollar by dollar.
+        </p>
+
+        <h2 class="font-serif text-2xl font-bold text-brand-950 mt-12 mb-4">How We Calculate</h2>
+        <p>
+          Every city page shows lifestyle breakdowns at five portfolio tiers: <strong>$1M, $2M, $3M,
+          $5M, and $10M</strong>. We use the widely-accepted <strong>4% safe withdrawal rate</strong>
+          (the "Trinity Study" rule) to calculate your monthly budget:
+        </p>
+
+        <div class="bg-brand-50 rounded-xl p-6 my-6 border border-brand-100">
+          <div class="grid grid-cols-1 sm:grid-cols-5 gap-4 text-center">
+            <div>
+              <div class="text-sm text-gray-500">$1M</div>
+              <div class="font-bold text-brand-700">$3,333/mo</div>
+            </div>
+            <div>
+              <div class="text-sm text-gray-500">$2M</div>
+              <div class="font-bold text-brand-700">$6,667/mo</div>
+            </div>
+            <div>
+              <div class="text-sm text-gray-500">$3M</div>
+              <div class="font-bold text-brand-700">$10,000/mo</div>
+            </div>
+            <div>
+              <div class="text-sm text-gray-500">$5M</div>
+              <div class="font-bold text-brand-700">$16,667/mo</div>
+            </div>
+            <div>
+              <div class="text-sm text-gray-500">$10M</div>
+              <div class="font-bold text-brand-700">$33,333/mo</div>
+            </div>
+          </div>
+        </div>
+
+        <p>
+          For each tier, we research and estimate realistic monthly costs for housing, groceries,
+          dining out, healthcare, transportation, entertainment, utilities, and — at higher
+          tiers — domestic help and luxury extras.
+        </p>
+
+        <h2 class="font-serif text-2xl font-bold text-brand-950 mt-12 mb-4">The FIRE Score</h2>
+        <p>
+          Each city receives a <strong>FIRE Score from 1 to 10</strong> based on a combination of
+          factors: overall cost of living, healthcare quality and accessibility, safety, ease of
+          obtaining residency, English friendliness, internet infrastructure, and how far your
+          money goes relative to lifestyle quality.
+        </p>
+        <p>
+          A higher score means your portfolio stretches further while maintaining a high quality
+          of life. Cities in Southeast Asia and Latin America tend to score highest, while
+          North American and Western European cities score lower due to higher costs — but may
+          offer other advantages like proximity to family or familiar culture.
+        </p>
+
+        <h2 class="font-serif text-2xl font-bold text-brand-950 mt-12 mb-4">Important Disclaimers</h2>
+        <p>
+          The cost data on PortfolioAtlas is researched and estimated for informational purposes
+          only. Actual costs vary based on personal lifestyle choices, exchange rate fluctuations,
+          inflation, and individual circumstances.
+        </p>
+        <p>
+          This site does not provide financial, tax, or legal advice. Always consult with qualified
+          professionals — a financial advisor, tax specialist, and immigration attorney — before
+          making any relocation or retirement decisions.
+        </p>
+        <p>
+          Cost data reflects approximate values as of early 2026 and will be periodically reviewed.
+        </p>
+      </div>
+    </div>
+  </div>
+</Layout>

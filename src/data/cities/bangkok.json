@@ -1,0 +1,190 @@
+{
+  "name": "Bangkok",
+  "country": "Thailand",
+  "region": "Southeast Asia",
+  "slug": "bangkok",
+  "emoji": "🇹🇭",
+  "fireScore": 8,
+  "tagline": "World-Class City Living at a Fraction of the Price — Retire in Bangkok, Thailand",
+  "description": "Bangkok delivers the energy, cuisine, and infrastructure of a global megacity at Southeast Asian prices. With its legendary street food, ultra-modern malls, excellent hospitals, and a massive international expat scene, Bangkok offers FIRE retirees a vibrant urban lifestyle that punches far above its cost.",
+  "quickFacts": {
+    "visa": "60-day tourist visa on arrival; Long-Term Resident (LTR) visa for retirees with $80K+ income or $1M+ assets; Thai Elite visa ($15K–$30K) for 5–20 year stays",
+    "timezone": "UTC+7 (Indochina Time)",
+    "language": "Thai",
+    "internetSpeed": "100–500 Mbps (fiber widely available in condos)",
+    "safetyRating": "Safe — standard big-city precautions advised; low violent crime",
+    "nearestAirport": "Suvarnabhumi (BKK) and Don Mueang (DMK) — major international hub with flights worldwide",
+    "climate": "Tropical wet with hot season (Mar–May), rainy season (Jun–Oct), and cool season (Nov–Feb)",
+    "englishFriendly": "Moderate",
+    "currency": "Thai Baht (THB)",
+    "averageTemp": "29°C / 84°F"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Studio or small 1-bedroom condo near BTS/MRT with pool and gym in areas like On Nut or Bang Na",
+        "monthlyCost": 550
+      },
+      "dining": {
+        "description": "Street food staples like pad krapow and som tam daily; occasional mall food courts",
+        "monthlyCost": 400
+      },
+      "groceries": {
+        "monthlyCost": 250
+      },
+      "healthcare": {
+        "description": "Basic private insurance covering outpatient visits; access to hospitals like Phyathai or Saint Louis",
+        "monthlyCost": 180
+      },
+      "transportation": {
+        "description": "BTS/MRT monthly pass supplemented by occasional Grab rides",
+        "monthlyCost": 120
+      },
+      "entertainment": {
+        "description": "Weekend markets, temple visits, rooftop happy hours, free cultural events",
+        "monthlyCost": 200
+      },
+      "utilities": {
+        "monthlyCost": 100
+      },
+      "lifestyle": "You live in a compact but modern condo steps from the Skytrain, eating incredible street food for a dollar a plate and exploring a new neighborhood every weekend. Bangkok at $1M is tight but thrilling — you trade space for access to one of the world's most dynamic cities."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Well-appointed 1-bedroom or 2-bedroom condo in Thong Lo, Ekkamai, or Ari with full facilities",
+        "monthlyCost": 1000
+      },
+      "dining": {
+        "description": "Regular restaurant dining across Thai, Japanese, and international cuisines; occasional hotel brunches",
+        "monthlyCost": 900
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "Comprehensive private insurance with Bumrungrad or Bangkok Hospital access",
+        "monthlyCost": 300
+      },
+      "transportation": {
+        "description": "BTS/MRT plus regular Grab rides and occasional taxi trips",
+        "monthlyCost": 200
+      },
+      "entertainment": {
+        "description": "Premium gym, cinema, nightlife in Thong Lo, weekend trips to Hua Hin or Koh Samet",
+        "monthlyCost": 600
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "At $2M, Bangkok opens up beautifully. You settle into the trendy Thong Lo area with its Japanese restaurants, craft cocktail bars, and leafy sois. Weekend beach escapes are easy, healthcare is world-class, and you can dine out every single night at excellent restaurants without worrying about your budget."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Spacious 2-bedroom luxury condo in Sukhumvit, Sathorn, or Riverside with skyline views and premium amenities",
+        "monthlyCost": 1800
+      },
+      "dining": {
+        "description": "Fine dining at Michelin-starred restaurants, omakase bars, rooftop restaurants, and hotel dining rooms",
+        "monthlyCost": 1500
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "Premium international insurance; executive health packages at Bumrungrad; dental and vision included",
+        "monthlyCost": 450
+      },
+      "transportation": {
+        "description": "Combination of BTS, Grab, and hired car; occasional domestic flights to islands and Chiang Mai",
+        "monthlyCost": 400
+      },
+      "entertainment": {
+        "description": "Members-only clubs, premium spa treatments, Muay Thai training, sailing club, frequent domestic travel",
+        "monthlyCost": 1200
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "lifestyle": "With $3M, you experience Bangkok's glamorous side. You live in a stunning high-rise with Chao Phraya River views, dine at Gaggan alumni restaurants, and have a social life that revolves around rooftop bars and private events. Bangkok's Michelin scene is your playground, and island-hopping weekends are routine."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Penthouse condo or luxury serviced residence in prime Sathorn or Sukhumvit; alternatively a large house in upscale Nichada Thani",
+        "monthlyCost": 3500
+      },
+      "dining": {
+        "description": "Personal chef for weekday meals; Michelin restaurants and exclusive chef's table experiences on weekends",
+        "monthlyCost": 2500
+      },
+      "groceries": {
+        "monthlyCost": 800
+      },
+      "healthcare": {
+        "description": "VIP hospital packages at Bumrungrad with personal health coordinator; global evacuation coverage",
+        "monthlyCost": 700
+      },
+      "transportation": {
+        "description": "Leased luxury sedan with part-time driver; domestic first-class flights; helicopter transfers to resorts",
+        "monthlyCost": 800
+      },
+      "entertainment": {
+        "description": "Royal Bangkok Sports Club membership, art gallery openings, yacht charters to nearby islands, international travel",
+        "monthlyCost": 2000
+      },
+      "utilities": {
+        "monthlyCost": 400
+      },
+      "domesticHelp": {
+        "description": "Live-in maid, part-time cook, and weekly deep-cleaning service",
+        "monthlyCost": 900
+      },
+      "luxuryExtras": {
+        "description": "Bespoke suits from Bangkok tailors, premium wellness retreats, luxury hotel staycations, fine wine collection",
+        "monthlyCost": 1800
+      },
+      "lifestyle": "At $5M in Bangkok, you live like a titan of industry. Penthouse living with a personal driver, regular chef's table dinners, and weekends on private yachts to the Gulf islands. Bangkok's luxury scene is world-class and remarkably accessible — you'd need $15M+ for this lifestyle in New York or London."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Ultra-luxury penthouse on the Chao Phraya or sprawling mansion in Nichada Thani with private pool and gardens; optional second residence on a Thai island",
+        "monthlyCost": 7000
+      },
+      "dining": {
+        "description": "Private chef team, imported delicacies, exclusive supper clubs, and Michelin dining as a weekly routine",
+        "monthlyCost": 4000
+      },
+      "groceries": {
+        "monthlyCost": 1500
+      },
+      "healthcare": {
+        "description": "Concierge medical service with 24/7 access to top specialists; annual comprehensive screenings; global coverage",
+        "monthlyCost": 1200
+      },
+      "transportation": {
+        "description": "Luxury vehicle fleet, full-time chauffeur, first-class international flights, private jet charters for regional travel",
+        "monthlyCost": 2500
+      },
+      "entertainment": {
+        "description": "Elite club memberships, private island retreats, art collecting, philanthropic galas, frequent international luxury travel",
+        "monthlyCost": 4000
+      },
+      "utilities": {
+        "monthlyCost": 600
+      },
+      "domesticHelp": {
+        "description": "Full household staff: chef, housekeeper, nanny/assistant, driver, gardener, and security",
+        "monthlyCost": 2500
+      },
+      "luxuryExtras": {
+        "description": "Art patronage, private island weekends, bespoke fashion, investment in Bangkok real estate, charitable foundations",
+        "monthlyCost": 6000
+      },
+      "lifestyle": "With $10M in Bangkok, you command a lifestyle that most people associate with old-money dynasties. Your penthouse overlooks the river, your staff anticipates every need, and you move between Bangkok high society, island retreats, and international travel with effortless grace. Bangkok is one of the best cities on earth to be wealthy in."
+    }
+  }
+}

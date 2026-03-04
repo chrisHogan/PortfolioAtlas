@@ -1,0 +1,45 @@
+---
+import type { CityQuickFacts } from '../data/types';
+
+interface Props {
+  facts: CityQuickFacts;
+  cityName: string;
+}
+
+const { facts, cityName } = Astro.props;
+
+const factItems = [
+  { label: 'Visa', value: facts.visa, icon: '📋' },
+  { label: 'Currency', value: facts.currency, icon: '💰' },
+  { label: 'Language', value: facts.language, icon: '🗣️' },
+  { label: 'Climate', value: facts.climate, icon: '🌡️' },
+  { label: 'Avg. Temperature', value: facts.averageTemp, icon: '☀️' },
+  { label: 'Timezone', value: facts.timezone, icon: '🕐' },
+  { label: 'Internet Speed', value: facts.internetSpeed, icon: '📶' },
+  { label: 'Safety', value: facts.safetyRating, icon: '🛡️' },
+  { label: 'English Friendly', value: facts.englishFriendly, icon: '🇬🇧' },
+  { label: 'Nearest Airport', value: facts.nearestAirport, icon: '✈️' },
+];
+---
+
+<aside class="bg-white rounded-2xl shadow-sm border border-sand-200 p-6">
+  <h3 class="font-serif text-xl font-bold text-brand-950 mb-6">
+    Quick Facts: {cityName}
+  </h3>
+
+  <dl class="space-y-4">
+    {factItems.map((item) => (
+      <div class="flex items-start gap-3">
+        <span class="text-lg mt-0.5 shrink-0">{item.icon}</span>
+        <div>
+          <dt class="text-xs font-semibold text-gray-500 uppercase tracking-wider">
+            {item.label}
+          </dt>
+          <dd class="text-sm font-medium text-gray-800 mt-0.5">
+            {item.value}
+          </dd>
+        </div>
+      </div>
+    ))}
+  </dl>
+</aside>

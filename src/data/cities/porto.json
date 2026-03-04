@@ -1,0 +1,190 @@
+{
+  "name": "Porto",
+  "country": "Portugal",
+  "region": "Europe",
+  "slug": "porto",
+  "emoji": "\ud83c\uddf5\ud83c\uddf9",
+  "fireScore": 8,
+  "tagline": "Portugal's Riverside Gem for Affordable European Retirement",
+  "description": "Porto offers everything Lisbon does for FIRE — the D7 visa, NHR tax benefits, and excellent healthcare — but at 15-20% lower costs with arguably more authentic Portuguese character. The Douro Valley at your doorstep, a UNESCO-listed city center, and a tight-knit expat community make it ideal for those who want substance over flash.",
+  "quickFacts": {
+    "visa": "D7 Passive Income Visa (same as Lisbon). NHR tax regime applies nationwide. Path to permanent residency and citizenship.",
+    "timezone": "UTC+0 (WET) / UTC+1 (WEST summer)",
+    "language": "Portuguese",
+    "internetSpeed": "100-300 Mbps fiber widely available",
+    "safetyRating": "Very Safe — low crime, walkable neighborhoods, strong community feel",
+    "nearestAirport": "Francisco Sa Carneiro Airport (OPO) — 20 min from city center",
+    "climate": "Oceanic with mild, rainy winters (8-14°C) and warm, dry summers (20-27°C). More rain than Lisbon.",
+    "englishFriendly": "Moderate",
+    "currency": "Euro (EUR)",
+    "averageTemp": "15°C / 59°F"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Charming 1-bedroom apartment in Cedofeita or Bonfim, walkable neighborhoods with local character",
+        "monthlyCost": 900
+      },
+      "dining": {
+        "description": "Daily francesinha or bifana at local spots, espresso culture, affordable wine with every meal",
+        "monthlyCost": 400
+      },
+      "groceries": {
+        "monthlyCost": 280
+      },
+      "healthcare": {
+        "description": "Public SNS healthcare access plus basic private supplement. Hospital de Sao Joao nearby.",
+        "monthlyCost": 130
+      },
+      "transportation": {
+        "description": "Andante monthly pass for metro, bus, and tram across greater Porto",
+        "monthlyCost": 40
+      },
+      "entertainment": {
+        "description": "Douro riverfront walks, free port wine cellar tours, Livraria Lello visits, beach days at Matosinhos",
+        "monthlyCost": 180
+      },
+      "utilities": {
+        "monthlyCost": 110
+      },
+      "lifestyle": "A warm, authentic Portuguese life at an unbeatable price. Your mornings start with a galao at the corner cafe, afternoons browsing Bolhao Market, and evenings watching the sunset over the Douro with a glass of port. Porto rewards the budget-conscious with its best treasures — all free."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Renovated 2-bedroom in Foz do Douro near the ocean or a stylish flat in Ribeira with river views",
+        "monthlyCost": 1500
+      },
+      "dining": {
+        "description": "Regular meals at Porto's acclaimed restaurants, weekend Douro Valley wine lunches, seafood feasts in Matosinhos",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "Full private insurance covering CUF Porto and Hospital da Luz, dental and vision included",
+        "monthlyCost": 220
+      },
+      "transportation": {
+        "description": "Andante pass plus Bolt rides and weekend car rentals for Douro Valley explorations",
+        "monthlyCost": 130
+      },
+      "entertainment": {
+        "description": "FC Porto season tickets, surf lessons at Matosinhos, Casa da Musica concerts, Douro wine tours",
+        "monthlyCost": 450
+      },
+      "utilities": {
+        "monthlyCost": 140
+      },
+      "lifestyle": "Porto's sweet spot where comfort meets culture. You'll live in a beautifully tiled apartment near the river, spend weekends tasting wine in the Douro Valley, and enjoy a social calendar filled with concerts at Casa da Musica and long seafood lunches by the ocean. Porto's best life, without trying too hard."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Luxury 3-bedroom in Foz do Douro with ocean views, or a restored townhouse in Miragaia with private garden",
+        "monthlyCost": 2400
+      },
+      "dining": {
+        "description": "Fine dining at The Yeatman and DOP, private Douro Valley tastings, personal wine advisor building your cellar",
+        "monthlyCost": 1400
+      },
+      "groceries": {
+        "monthlyCost": 550
+      },
+      "healthcare": {
+        "description": "Premium private insurance with international coverage, executive health screenings, dental implant coverage",
+        "monthlyCost": 350
+      },
+      "transportation": {
+        "description": "Leased car for Douro Valley access, public transit pass, regular Bolt Premium",
+        "monthlyCost": 350
+      },
+      "entertainment": {
+        "description": "Private Douro River cruises, golf at Estela, VIP box at Dragao Stadium, art gallery openings",
+        "monthlyCost": 900
+      },
+      "utilities": {
+        "monthlyCost": 180
+      },
+      "lifestyle": "An enviable Porto lifestyle that blends ocean living with wine country access. Your Foz apartment overlooks the Atlantic, weekends mean private Douro cruises past terraced vineyards, and your growing port collection rivals the best cellars in Vila Nova de Gaia. Sophisticated, soulful, and uniquely Porto."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Historic quinta (estate) in Foz or a premium penthouse overlooking the Douro with private terrace and parking",
+        "monthlyCost": 3800
+      },
+      "dining": {
+        "description": "Private chef specializing in Portuguese cuisine, Michelin dining as routine, curated wine experiences across northern Portugal",
+        "monthlyCost": 2200
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "International concierge medicine, private physician, wellness retreats in Geres National Park",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "Luxury vehicle for Douro Valley drives, private transfers, occasional charter flights to Lisbon or Madeira",
+        "monthlyCost": 700
+      },
+      "entertainment": {
+        "description": "Own a small Douro vineyard plot, private river yacht, exclusive club memberships, patronage of Porto arts scene",
+        "monthlyCost": 1600
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, weekly gardener, laundry service, personal assistant for errands",
+        "monthlyCost": 1100
+      },
+      "luxuryExtras": {
+        "description": "Private Portuguese tutor, personal sommelier, bespoke Douro Valley experiences, premium gym and spa membership",
+        "monthlyCost": 1400
+      },
+      "lifestyle": "You've become part of Porto's landed gentry. Your historic quinta hosts wine dinners for the city's elite, your personal sommelier manages your growing Douro collection, and weekends mean driving your luxury SUV through vineyard-lined valleys to your own plot. Porto's aristocratic tradition, reimagined for the FIRE generation."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Restored Douro Valley wine estate with guesthouse, or landmark oceanfront villa in Foz do Douro",
+        "monthlyCost": 7000
+      },
+      "dining": {
+        "description": "Full-time private chef, curated international wine cellar, hosting elaborate dinner parties, flying in guest chefs",
+        "monthlyCost": 4000
+      },
+      "groceries": {
+        "monthlyCost": 1000
+      },
+      "healthcare": {
+        "description": "Global VIP medical coverage, private wellness team, fly-anywhere treatment access, longevity programs",
+        "monthlyCost": 1000
+      },
+      "transportation": {
+        "description": "Chauffeured luxury vehicle, helicopter transfers to Douro estate, private jet for European travel",
+        "monthlyCost": 2200
+      },
+      "entertainment": {
+        "description": "Own and operate boutique Douro winery, art collection patronage, private sailing yacht, philanthropic events",
+        "monthlyCost": 3500
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full estate staff: housekeeper, chef, gardener, estate manager, vineyard workers, personal assistant",
+        "monthlyCost": 3800
+      },
+      "luxuryExtras": {
+        "description": "Winery operations budget, art acquisition fund, bespoke travel curation, charitable foundation in Porto",
+        "monthlyCost": 4500
+      },
+      "lifestyle": "You own a piece of the Douro Valley — literally. Your boutique winery produces award-winning vintages, your oceanfront villa hosts international guests, and your name is synonymous with Porto's cultural renaissance. This is not just retirement; it's building a legacy in one of Europe's most soulful regions."
+    }
+  }
+}

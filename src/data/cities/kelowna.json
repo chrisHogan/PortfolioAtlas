@@ -1,0 +1,190 @@
+{
+  "name": "Kelowna",
+  "country": "Canada",
+  "region": "North America",
+  "slug": "kelowna",
+  "emoji": "\ud83c\udde8\ud83c\udde6",
+  "fireScore": 5.5,
+  "tagline": "Lakeside Wine Country in the Heart of British Columbia",
+  "description": "Kelowna sits on the shores of Okanagan Lake surrounded by vineyards, orchards, and mountains, offering a lifestyle that rivals Napa Valley at a fraction of the cost. Universal healthcare, four-season outdoor recreation from skiing to water sports, and a booming food-and-wine scene make Kelowna increasingly popular with early retirees. Housing has risen but still undercuts Vancouver dramatically.",
+  "quickFacts": {
+    "visa": "Canadian citizens: no visa. Others: Express Entry, Provincial Nominee Program (BC PNP), or visitor permits",
+    "timezone": "PST (UTC-8)",
+    "language": "English",
+    "internetSpeed": "100+ Mbps average",
+    "safetyRating": "High – safe lakeside community with low violent crime",
+    "nearestAirport": "Kelowna International Airport (YLW)",
+    "climate": "Semi-arid with hot, dry summers and cold, snowy winters; the sunniest city in BC",
+    "englishFriendly": "High",
+    "currency": "CAD (1 USD ~ 1.36 CAD)",
+    "averageTemp": "48°F / 9°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in Rutland or the Highway 97 corridor; further from the lake",
+        "monthlyCost": 1150
+      },
+      "dining": {
+        "description": "Casual dining and pub meals 2x/week; wine tasting at free or low-cost cellar doors",
+        "monthlyCost": 220
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "BC MSP universal coverage; budget for dental, vision, and prescriptions not covered",
+        "monthlyCost": 150
+      },
+      "transportation": {
+        "description": "Paid-off car with basic insurance; car is necessary for winery visits and ski trips",
+        "monthlyCost": 250
+      },
+      "entertainment": {
+        "description": "Lake beach access (free), hiking Knox Mountain, community events; occasional winery visit",
+        "monthlyCost": 80
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "Kelowna on $1M is doable but requires discipline. You will live further from the lakefront, cook most meals, and take advantage of the incredible free outdoor recreation -- beaches, hiking trails, and mountain views are everywhere. Universal healthcare is a huge advantage over US cities at this budget level. Wine tasting is cheap therapy."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "2BR condo in downtown Kelowna or Pandosy Village with partial lake views",
+        "monthlyCost": 1800
+      },
+      "dining": {
+        "description": "Regular winery lunches, farm-to-table dining 3-4x/week, Okanagan culinary scene",
+        "monthlyCost": 500
+      },
+      "groceries": {
+        "monthlyCost": 480
+      },
+      "healthcare": {
+        "description": "BC MSP universal coverage plus extended health benefits for dental, vision, massage",
+        "monthlyCost": 250
+      },
+      "transportation": {
+        "description": "Reliable AWD vehicle for winter and ski trips, full insurance, seasonal tires",
+        "monthlyCost": 380
+      },
+      "entertainment": {
+        "description": "Big White ski pass, golf membership, lake kayaking, yoga studio, wine club",
+        "monthlyCost": 300
+      },
+      "utilities": {
+        "monthlyCost": 180
+      },
+      "lifestyle": "This is the Kelowna life people move here for. A nice condo near the lake, regular winery lunches with stunning vineyard views, a ski pass for winter, and summer evenings paddleboarding on Okanagan Lake. The food scene has exploded with farm-to-table restaurants, and healthcare is covered. Life feels like a permanent vacation."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR lakefront condo or a home in the Mission or Upper Mission with Okanagan Lake views",
+        "monthlyCost": 3200
+      },
+      "dining": {
+        "description": "Fine dining at top wineries like Mission Hill and Quails' Gate; regular multi-course dinners",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 580
+      },
+      "healthcare": {
+        "description": "Universal coverage plus comprehensive private insurance for enhanced access",
+        "monthlyCost": 350
+      },
+      "transportation": {
+        "description": "Late-model SUV, premium insurance, summer convertible for wine-country cruising",
+        "monthlyCost": 500
+      },
+      "entertainment": {
+        "description": "Premium ski passes, golf club membership, sailing, wine tours, spa and wellness",
+        "monthlyCost": 550
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "lifestyle": "Kelowna at $10K per month is wine-country living at its finest. A home with lake views, dinners at award-winning winery restaurants, skiing at Big White all winter, and summers spent on the lake. The Okanagan lifestyle is often compared to Provence or Tuscany, and at this budget you are living it fully."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury lakefront home in the Mission or a vineyard property in the Okanagan",
+        "monthlyCost": 5500
+      },
+      "dining": {
+        "description": "Private chef, exclusive winemaker dinners, catered events with Okanagan wines",
+        "monthlyCost": 1300
+      },
+      "groceries": {
+        "monthlyCost": 720
+      },
+      "healthcare": {
+        "description": "Universal coverage plus executive health programs and premium private supplements",
+        "monthlyCost": 450
+      },
+      "transportation": {
+        "description": "Luxury SUV, summer sports car, flights from YLW to Vancouver or international",
+        "monthlyCost": 800
+      },
+      "entertainment": {
+        "description": "Exclusive golf and yacht club memberships, heli-skiing, private wine tours, arts patronage",
+        "monthlyCost": 850
+      },
+      "utilities": {
+        "monthlyCost": 350
+      },
+      "domesticHelp": {
+        "description": "Weekly house cleaning, landscaping, pool and hot tub service, snow removal",
+        "monthlyCost": 700
+      },
+      "luxuryExtras": {
+        "description": "Vineyard investment, quarterly international travel, boat on Okanagan Lake, ski chalet",
+        "monthlyCost": 1600
+      },
+      "lifestyle": "Kelowna at $5M is a world-class wine-country lifestyle. A lakefront estate, your own boat, heli-skiing in the Monashees, exclusive winemaker dinners, and possibly even a small vineyard of your own. Universal healthcare keeps medical costs negligible, and the natural beauty is unmatched in North America."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Lakefront estate with private dock, or a vineyard compound with guest accommodations",
+        "monthlyCost": 9000
+      },
+      "dining": {
+        "description": "Full-time personal chef, exclusive wine experiences, catered harvest parties",
+        "monthlyCost": 2500
+      },
+      "groceries": {
+        "monthlyCost": 950
+      },
+      "healthcare": {
+        "description": "Universal coverage plus top private supplements, executive wellness, medical travel",
+        "monthlyCost": 650
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, yacht on the lake, private car service, chartered flights",
+        "monthlyCost": 1600
+      },
+      "entertainment": {
+        "description": "Winery ownership or partnership, international travel, arts patronage, exclusive experiences",
+        "monthlyCost": 2200
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full-time estate manager, housekeeper, vineyard staff, personal assistant, boat captain",
+        "monthlyCost": 4500
+      },
+      "luxuryExtras": {
+        "description": "Working vineyard, multiple properties, first-class travel, art collection, philanthropy",
+        "monthlyCost": 5500
+      },
+      "lifestyle": "At $10M, Kelowna becomes your private wine-country estate. A lakefront compound with private dock, your own producing vineyard, a yacht for cruising Okanagan Lake, and first-class travel whenever the mood strikes. With universal healthcare and stunning natural beauty, this is arguably the most beautiful high-net-worth retirement lifestyle in Canada."
+    }
+  }
+}

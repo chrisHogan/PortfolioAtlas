@@ -1,0 +1,57 @@
+---
+import type { CityData } from '../data/types';
+import { getFireScoreClass } from '../data/types';
+
+interface Props {
+  city: CityData;
+}
+
+const { city } = Astro.props;
+const scoreClass = getFireScoreClass(city.fireScore);
+---
+
+<section class="relative bg-brand-950 text-white overflow-hidden">
+  <!-- Gradient overlay -->
+  <div class="absolute inset-0 bg-gradient-to-br from-brand-950/95 via-brand-900/80 to-brand-800/70"></div>
+
+  <!-- Decorative pattern -->
+  <div class="absolute inset-0 opacity-5">
+    <div class="absolute inset-0" style="background-image: radial-gradient(circle at 25px 25px, white 2px, transparent 0); background-size: 50px 50px;"></div>
+  </div>
+
+  <div class="relative container-narrow py-16 md:py-24">
+    <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-8">
+      <div class="flex-1">
+        <div class="flex items-center gap-3 mb-4">
+          <span class="text-4xl">{city.emoji}</span>
+          <span class="text-sm font-medium text-brand-300 bg-brand-800/50 px-3 py-1 rounded-full">
+            {city.region}
+          </span>
+        </div>
+
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif font-bold mb-3">
+          {city.name}
+        </h1>
+
+        <p class="text-xl md:text-2xl text-brand-200 font-serif italic mb-6">
+          {city.country}
+        </p>
+
+        <p class="text-lg text-sand-300 max-w-2xl leading-relaxed">
+          {city.tagline}
+        </p>
+      </div>
+
+      <div class="flex flex-col items-center gap-2">
+        <div class={`fire-score w-20 h-20 text-2xl ${scoreClass}`}>
+          {city.fireScore.toFixed(1)}
+        </div>
+        <span class="text-sm text-brand-300 font-medium">FIRE Score</span>
+      </div>
+    </div>
+
+    <p class="mt-8 text-sand-400 max-w-3xl leading-relaxed">
+      {city.description}
+    </p>
+  </div>
+</section>

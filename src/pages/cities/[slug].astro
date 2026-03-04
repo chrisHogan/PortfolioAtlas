@@ -1,0 +1,59 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import CityHero from '../../components/CityHero.astro';
+import TierNav from '../../components/TierNav.astro';
+import TierBreakdown from '../../components/TierBreakdown.astro';
+import QuickFacts from '../../components/QuickFacts.astro';
+import ComparisonCTA from '../../components/ComparisonCTA.astro';
+import { allCities, getCityBySlug, getAllSlugs } from '../../data/cities/index';
+import type { TierKey } from '../../data/types';
+
+export function getStaticPaths() {
+  return getAllSlugs().map((slug) => ({ params: { slug } }));
+}
+
+const { slug } = Astro.params;
+const city = getCityBySlug(slug!);
+
+if (!city) {
+  return Astro.redirect('/404');
+}
+
+const tiers: TierKey[] = ['1M', '2M', '3M', '5M', '10M'];
+---
+
+<Layout
+  title={`Retire in ${city.name}, ${city.country} — What Your Portfolio Buys You`}
+  description={`Discover what a $1M to $10M portfolio gets you in ${city.name}, ${city.country}. Full lifestyle breakdowns including housing, healthcare, dining, and more.`}
+>
+  <CityHero city={city} />
+  <TierNav />
+
+  <div class="container-narrow py-12">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      <!-- Main content: Tier breakdowns -->
+      <div class="lg:col-span-2 space-y-8">
+        <div class="mb-8">
+          <h2 class="font-serif text-3xl font-bold text-brand-950 mb-3">
+            What Your Portfolio Gets You in {city.name}
+          </h2>
+          <p class="text-gray-600 leading-relaxed">
+            We break down the lifestyle you can afford at five portfolio levels, using a
+            <strong>4% safe withdrawal rate</strong>. Each tier shows realistic monthly costs
+            for housing, food, healthcare, entertainment, and more in {city.name}.
+          </p>
+        </div>
+
+        {tiers.map((tierKey) => (
+          <TierBreakdown tierKey={tierKey} tier={city.tiers[tierKey]} cityName={city.name} />
+        ))}
+      </div>
+
+      <!-- Sidebar -->
+      <div class="space-y-8">
+        <QuickFacts facts={city.quickFacts} cityName={city.name} />
+        <ComparisonCTA currentCity={city} allCities={allCities} />
+      </div>
+    </div>
+  </div>
+</Layout>

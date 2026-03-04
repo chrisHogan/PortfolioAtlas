@@ -1,0 +1,190 @@
+{
+  "name": "Chiang Mai",
+  "country": "Thailand",
+  "region": "Southeast Asia",
+  "slug": "chiang-mai",
+  "emoji": "🇹🇭",
+  "fireScore": 9,
+  "tagline": "The Original Digital Nomad Capital — Retire for Less in Thailand's Rose of the North",
+  "description": "Chiang Mai is the undisputed champion of affordable FIRE living in Southeast Asia. With a thriving expat community, world-class temples, lush mountain scenery, and a cost of living that lets you stretch every dollar, it remains the gold standard for early retirees seeking quality of life on a modest portfolio.",
+  "quickFacts": {
+    "visa": "60-day tourist visa on arrival; Long-Term Resident (LTR) visa available for retirees with $80K+ income or $1M+ assets; Thai Elite visa ($15K–$30K) for 5–20 year stays",
+    "timezone": "UTC+7 (Indochina Time)",
+    "language": "Thai",
+    "internetSpeed": "50–200 Mbps (fiber widely available)",
+    "safetyRating": "Very Safe — low violent crime, occasional petty theft in tourist areas",
+    "nearestAirport": "Chiang Mai International Airport (CNX) — direct flights to Bangkok, Singapore, Kuala Lumpur",
+    "climate": "Tropical savanna with three seasons: hot (Mar–May), rainy (Jun–Oct), cool (Nov–Feb)",
+    "englishFriendly": "Moderate",
+    "currency": "Thai Baht (THB)",
+    "averageTemp": "25°C / 77°F"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Modern 1-bedroom condo in Nimman or Old City area with pool and gym access",
+        "monthlyCost": 400
+      },
+      "dining": {
+        "description": "Street food and local Thai restaurants daily; occasional Western café meals",
+        "monthlyCost": 350
+      },
+      "groceries": {
+        "monthlyCost": 200
+      },
+      "healthcare": {
+        "description": "Basic private insurance covering outpatient visits at quality hospitals like Ram Hospital",
+        "monthlyCost": 150
+      },
+      "transportation": {
+        "description": "Rented scooter or songthaew rides around the city",
+        "monthlyCost": 80
+      },
+      "entertainment": {
+        "description": "Coworking space membership, temple visits, weekend markets, and local hiking",
+        "monthlyCost": 150
+      },
+      "utilities": {
+        "monthlyCost": 80
+      },
+      "lifestyle": "You wake up in a clean, modern condo near Nimman Road, grab a 40-baht pad thai from a street vendor, and spend the afternoon exploring Doi Suthep or browsing the Sunday Walking Street market. Life is simple, social, and deeply affordable — you can live well on a $1M portfolio and still save for splurges."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Spacious 2-bedroom condo or small townhouse in a desirable neighborhood with modern amenities",
+        "monthlyCost": 700
+      },
+      "dining": {
+        "description": "Mix of Thai street food, upscale local restaurants, and regular Western dining",
+        "monthlyCost": 700
+      },
+      "groceries": {
+        "monthlyCost": 350
+      },
+      "healthcare": {
+        "description": "Comprehensive private health insurance with dental; access to top-tier hospitals",
+        "monthlyCost": 250
+      },
+      "transportation": {
+        "description": "Own scooter plus occasional Grab car rides and weekend road trips",
+        "monthlyCost": 150
+      },
+      "entertainment": {
+        "description": "Gym membership, regular Thai cooking classes, weekend trips to Pai or Chiang Rai, streaming services",
+        "monthlyCost": 400
+      },
+      "utilities": {
+        "monthlyCost": 120
+      },
+      "lifestyle": "With $2M, Chiang Mai becomes genuinely comfortable. You enjoy brunch at trendy Nimman cafés, take weekend trips to Pai's hot springs, and can afford a well-furnished two-bedroom place with room for a home office. You eat out whenever you want without checking the bill, and healthcare is excellent."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Luxury 3-bedroom pool villa in the outskirts or premium high-rise condo with city views",
+        "monthlyCost": 1200
+      },
+      "dining": {
+        "description": "Fine dining at top restaurants several times a week; regular sushi, Italian, and Thai tasting menus",
+        "monthlyCost": 1200
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "Premium international health insurance with full coverage including medical evacuations",
+        "monthlyCost": 400
+      },
+      "transportation": {
+        "description": "Leased car or SUV, Grab for nights out, occasional domestic flights",
+        "monthlyCost": 350
+      },
+      "entertainment": {
+        "description": "Premium gym, golf memberships, spa days, cultural festivals, weekend trips across northern Thailand",
+        "monthlyCost": 800
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "lifestyle": "At $3M you live like Chiang Mai royalty. You're in a private pool villa surrounded by rice paddies, dining at the best restaurants in the city without a second thought, and flying to Bangkok or the islands on a whim. Your social calendar is packed with yoga retreats, golf outings, and dinner parties with a close-knit expat community."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Stunning private estate or luxury villa compound with pool, gardens, and mountain views",
+        "monthlyCost": 2500
+      },
+      "dining": {
+        "description": "Private chef for most meals plus frequent fine dining at Chiang Mai's top establishments",
+        "monthlyCost": 2000
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "Top-tier international insurance with Bumrungrad Bangkok access and annual executive health checks",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "Owned or leased luxury vehicle, private driver available, regular domestic flights",
+        "monthlyCost": 600
+      },
+      "entertainment": {
+        "description": "Country club memberships, private yoga instruction, art collecting, regular travel across Southeast Asia",
+        "monthlyCost": 1500
+      },
+      "utilities": {
+        "monthlyCost": 300
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper/cook, part-time gardener, and regular laundry service",
+        "monthlyCost": 700
+      },
+      "luxuryExtras": {
+        "description": "Monthly spa packages, bespoke tailoring, premium wine subscriptions, charitable donations to local temples",
+        "monthlyCost": 1500
+      },
+      "lifestyle": "With $5M in Chiang Mai, you live an extraordinary life that would cost five times as much in the US. Your private villa has a full-time staff, your personal chef prepares both Thai and international cuisine, and you hop between Chiang Mai and Bangkok as casually as commuting. You're a pillar of the local expat community and can afford to give back generously."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Sprawling luxury compound with multiple buildings, infinity pool, and panoramic Doi Suthep views; possibly a second condo in Bangkok",
+        "monthlyCost": 5000
+      },
+      "dining": {
+        "description": "Personal chef team, imported ingredients flown in, plus unlimited fine dining and private dinner parties",
+        "monthlyCost": 3500
+      },
+      "groceries": {
+        "monthlyCost": 1200
+      },
+      "healthcare": {
+        "description": "Concierge-level global health coverage; annual checkups at Bumrungrad; access to specialists anywhere in Asia",
+        "monthlyCost": 1000
+      },
+      "transportation": {
+        "description": "Luxury vehicle collection, full-time personal driver, frequent first-class domestic flights and regional travel",
+        "monthlyCost": 1500
+      },
+      "entertainment": {
+        "description": "Exclusive memberships, private art studio, philanthropic projects, regular international travel across Asia and beyond",
+        "monthlyCost": 3000
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full household staff including chef, housekeeper, gardener, driver, and property manager",
+        "monthlyCost": 1800
+      },
+      "luxuryExtras": {
+        "description": "Bespoke wellness programs, art commissions, luxury shopping trips to Bangkok, charitable foundations, investment in local businesses",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At $10M in Chiang Mai, you are living an ultra-luxurious life that rivals billionaire retreats anywhere in the world — but with the warmth and charm of northern Thailand. You maintain a compound with full staff, travel first-class across Asia on a whim, and have become a philanthropic force in the local community. There is literally nothing you cannot afford here."
+    }
+  }
+}

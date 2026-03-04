@@ -1,0 +1,190 @@
+{
+  "name": "Kuala Lumpur",
+  "country": "Malaysia",
+  "region": "Southeast Asia",
+  "slug": "kuala-lumpur",
+  "emoji": "🇲🇾",
+  "fireScore": 8,
+  "tagline": "Modern Infrastructure Meets Tropical Affordability — Retire Smart in Kuala Lumpur, Malaysia",
+  "description": "Kuala Lumpur is the Goldilocks of Southeast Asian FIRE destinations — more developed than Vietnam, more affordable than Singapore, and remarkably English-friendly. With world-class malls, excellent healthcare, diverse cuisine from three major cultures, and the popular MM2H visa program, KL is ideal for retirees who want comfort without compromise.",
+  "quickFacts": {
+    "visa": "90-day visa-free entry for most nationalities; Malaysia My Second Home (MM2H) program for long-term residency with ~$90K fixed deposit requirement; DE Rantau digital nomad visa available",
+    "timezone": "UTC+8 (Malaysia Time)",
+    "language": "Malay (Bahasa Melayu); English widely spoken",
+    "internetSpeed": "100–500 Mbps (fiber widely available)",
+    "safetyRating": "Safe — petty crime in tourist areas; generally safe for expats in residential neighborhoods",
+    "nearestAirport": "Kuala Lumpur International Airport (KUL) — major Southeast Asian hub with extensive global connections",
+    "climate": "Tropical rainforest — hot and humid year-round with afternoon thunderstorms",
+    "englishFriendly": "High",
+    "currency": "Malaysian Ringgit (MYR)",
+    "averageTemp": "28°C / 82°F"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Furnished 1-bedroom condo with pool and gym in areas like Bangsar South, Mont Kiara fringe, or Cheras",
+        "monthlyCost": 500
+      },
+      "dining": {
+        "description": "Hawker centers and mamak stalls daily — roti canai, nasi lemak, char kway teow; occasional mall dining",
+        "monthlyCost": 400
+      },
+      "groceries": {
+        "monthlyCost": 250
+      },
+      "healthcare": {
+        "description": "Basic private insurance with access to excellent private hospitals like Gleneagles and Prince Court",
+        "monthlyCost": 170
+      },
+      "transportation": {
+        "description": "LRT/MRT/Monorail monthly pass plus Grab rides",
+        "monthlyCost": 100
+      },
+      "entertainment": {
+        "description": "Mall culture, public parks, Batu Caves visits, local cinema, weekend trips to Cameron Highlands",
+        "monthlyCost": 200
+      },
+      "utilities": {
+        "monthlyCost": 100
+      },
+      "lifestyle": "You settle into a modern condo with a pool and gym, eat world-class hawker food for $2 a meal, and take the efficient LRT to explore one of Asia's most diverse cities. KL at $1M is comfortable, connected, and blessedly English-speaking — a soft landing for first-time expats in Asia."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Spacious 2-bedroom condo in Mont Kiara, Bangsar, or KLCC area with premium facilities and city views",
+        "monthlyCost": 900
+      },
+      "dining": {
+        "description": "Diverse dining from Malay, Chinese, and Indian cuisines plus upscale restaurants and craft coffee scene",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "Comprehensive private insurance covering inpatient and outpatient care at top-tier hospitals",
+        "monthlyCost": 280
+      },
+      "transportation": {
+        "description": "Regular Grab rides, occasional car rental for weekend trips to highlands or beaches",
+        "monthlyCost": 200
+      },
+      "entertainment": {
+        "description": "Premium gym, golf at affordable Malaysian courses, weekend trips to Langkawi or Penang, cultural events",
+        "monthlyCost": 550
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "At $2M, KL is truly comfortable. You live in a spacious condo in the leafy expat enclave of Mont Kiara, enjoy the incredible culinary diversity of Malay, Chinese, and Indian food, and take cheap AirAsia flights to Langkawi or Penang for the weekend. Healthcare is excellent and communication is never a problem."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Luxury 3-bedroom condo in KLCC with Petronas Twin Towers views, or a spacious semi-detached house in Bangsar or Damansara Heights",
+        "monthlyCost": 1600
+      },
+      "dining": {
+        "description": "Fine dining at restaurants like Dewakan and DC by Darren Chin; hotel high teas; regular omakase and tasting menus",
+        "monthlyCost": 1400
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "Premium international insurance with VIP hospital access; comprehensive annual health screenings",
+        "monthlyCost": 400
+      },
+      "transportation": {
+        "description": "Leased car for daily use, Grab for nights out, domestic flights for weekend getaways",
+        "monthlyCost": 400
+      },
+      "entertainment": {
+        "description": "Country club membership, premium spa treatments, weekend resort stays at Genting Highlands, arts and theater scene",
+        "monthlyCost": 1000
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "lifestyle": "With $3M in KL, you're living at a level that would require double the budget in most Western cities. Your condo has Twin Towers views, you dine at Malaysia's Michelin-equivalent restaurants, and you have a car for spontaneous road trips to the Cameron Highlands tea plantations or Malacca's historic streets."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury bungalow in Damansara Heights or Kenny Hills with private garden and pool, or a penthouse in KLCC's most prestigious tower",
+        "monthlyCost": 3000
+      },
+      "dining": {
+        "description": "Private chef for weekday meals; exclusive restaurant dining and private supper clubs on weekends",
+        "monthlyCost": 2200
+      },
+      "groceries": {
+        "monthlyCost": 800
+      },
+      "healthcare": {
+        "description": "Top-tier global insurance with Prince Court Medical Centre VIP access; quarterly executive health checks",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "Luxury sedan owned or leased, part-time driver, regular domestic flights, occasional trips to Singapore",
+        "monthlyCost": 700
+      },
+      "entertainment": {
+        "description": "Royal Selangor Golf Club, art collecting at KL galleries, luxury resort weekends, frequent travel across Malaysia and the region",
+        "monthlyCost": 1800
+      },
+      "utilities": {
+        "monthlyCost": 350
+      },
+      "domesticHelp": {
+        "description": "Full-time live-in maid, part-time cook, gardener for the property",
+        "monthlyCost": 700
+      },
+      "luxuryExtras": {
+        "description": "Bespoke tailoring, premium wine and whisky collections, luxury hotel staycations at the Four Seasons and Mandarin Oriental, private event hosting",
+        "monthlyCost": 1600
+      },
+      "lifestyle": "At $5M in KL, you live in a stunning bungalow in one of the city's most exclusive neighborhoods with full domestic staff. Malaysia's world-class golf courses are your backyard, Singapore is a short flight away for luxury shopping, and your social circle includes KL's cosmopolitan elite. The value for money is extraordinary."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Grand colonial bungalow in Kenny Hills or ultra-luxury penthouse in The Four Seasons Place; optional holiday home in Langkawi or Cameron Highlands",
+        "monthlyCost": 5500
+      },
+      "dining": {
+        "description": "Private chef team, imported ingredients, exclusive dining experiences, hosting lavish dinner parties with personal sommelier",
+        "monthlyCost": 4000
+      },
+      "groceries": {
+        "monthlyCost": 1300
+      },
+      "healthcare": {
+        "description": "Concierge-level healthcare with 24/7 specialist access; annual executive screenings at top regional hospitals; global medevac",
+        "monthlyCost": 1000
+      },
+      "transportation": {
+        "description": "Luxury vehicle collection, full-time chauffeur, first-class flights regionally, private jet charters for special trips",
+        "monthlyCost": 2000
+      },
+      "entertainment": {
+        "description": "Elite memberships, philanthropic galas, art patronage, international luxury travel, private island retreats",
+        "monthlyCost": 4000
+      },
+      "utilities": {
+        "monthlyCost": 600
+      },
+      "domesticHelp": {
+        "description": "Full household staff including chef, butler, housekeeper, driver, gardener, and security",
+        "monthlyCost": 2200
+      },
+      "luxuryExtras": {
+        "description": "Private art collection curation, bespoke travel experiences, investment in Malaysian property portfolio, charitable foundations, exclusive club memberships",
+        "monthlyCost": 5500
+      },
+      "lifestyle": "With $10M in Kuala Lumpur, you occupy the very top of Malaysian society. Your colonial mansion in Kenny Hills is staffed by a professional household team, you host galas for the city's elite, and you split your time between KL, a Langkawi beach estate, and first-class travel across Asia. Malaysia's tax advantages make this lifestyle even more compelling."
+    }
+  }
+}
