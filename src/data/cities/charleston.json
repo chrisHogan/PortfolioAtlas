@@ -1,0 +1,194 @@
+{
+  "name": "Charleston",
+  "country": "United States",
+  "region": "North America",
+  "slug": "charleston",
+  "emoji": "🇺🇸",
+  "fireScore": 5.6,
+  "tagline": "Southern Charm, Historic Architecture, and Lowcountry Living",
+  "description": "Charleston is consistently ranked among America's most beautiful and hospitable cities. Its cobblestone streets, antebellum architecture, and world-class dining scene create a unique atmosphere that blends history with modern sophistication. The cost of living is moderate by coastal standards, South Carolina has relatively low taxes, and the subtropical climate allows for year-round outdoor enjoyment. The Lowcountry's beaches, marshlands, and waterways provide endless recreation for FIRE retirees.",
+  "tags": {
+    "climate": "subtropical",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "EST (UTC-5)",
+    "language": "English",
+    "internetSpeed": "150+ Mbps average",
+    "safetyRating": "Moderate – safe in historic and suburban areas",
+    "nearestAirport": "Charleston International (CHS)",
+    "climate": "Subtropical with hot, humid summers and mild winters",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "65°F / 18°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in West Ashley, North Charleston, or James Island",
+        "monthlyCost": 1450
+      },
+      "dining": {
+        "description": "Casual Lowcountry fare 2-3x/week; shrimp and grits spots and BBQ joints",
+        "monthlyCost": 250
+      },
+      "groceries": {
+        "monthlyCost": 380
+      },
+      "healthcare": {
+        "description": "ACA Silver plan on the SC marketplace; MUSC provides excellent regional care",
+        "monthlyCost": 520
+      },
+      "transportation": {
+        "description": "Older paid-off car with insurance and gas; Charleston requires a car",
+        "monthlyCost": 280
+      },
+      "entertainment": {
+        "description": "Free walks on the Battery, beach days at Folly Beach, historic district strolls",
+        "monthlyCost": 100
+      },
+      "utilities": {
+        "monthlyCost": 160
+      },
+      "lifestyle": "Charleston on a tight budget is manageable thanks to South Carolina's lower taxes and reasonable costs outside downtown. You will live in a suburban neighborhood but can still enjoy the historic district's free attractions, beautiful beaches, and affordable Lowcountry seafood. Summer humidity and A/C costs are the main budget challenges."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "2BR apartment in downtown Charleston, Mount Pleasant, or Sullivan's Island area",
+        "monthlyCost": 2200
+      },
+      "dining": {
+        "description": "Dining out 3-4x/week at Charleston's celebrated restaurants and oyster bars",
+        "monthlyCost": 600
+      },
+      "groceries": {
+        "monthlyCost": 480
+      },
+      "healthcare": {
+        "description": "ACA Gold plan with dental and vision; access to MUSC's renowned medical center",
+        "monthlyCost": 620
+      },
+      "transportation": {
+        "description": "Reliable mid-range car, full coverage insurance, gas for beach and island trips",
+        "monthlyCost": 380
+      },
+      "entertainment": {
+        "description": "Spoleto Festival tickets, kayaking in the marshes, gym membership, golf",
+        "monthlyCost": 300
+      },
+      "utilities": {
+        "monthlyCost": 190
+      },
+      "lifestyle": "At this budget Charleston reveals its full charm. You can live downtown or near the beach, enjoy the James Beard Award-winning restaurant scene regularly, and participate in cultural events like Spoleto Festival. Weekends kayaking through the salt marshes or lounging at Isle of Palms are the norm."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Historic home south of Broad Street, or a waterfront house on Sullivan's Island",
+        "monthlyCost": 3500
+      },
+      "dining": {
+        "description": "Regular dining at FIG, Husk, and The Ordinary; frequent oyster roasts with friends",
+        "monthlyCost": 900
+      },
+      "groceries": {
+        "monthlyCost": 580
+      },
+      "healthcare": {
+        "description": "Premium private insurance with comprehensive MUSC network access",
+        "monthlyCost": 720
+      },
+      "transportation": {
+        "description": "Late-model SUV, premium insurance, boat fuel for harbor excursions",
+        "monthlyCost": 480
+      },
+      "entertainment": {
+        "description": "Golf club membership, sailing on Charleston Harbor, Spoleto patron, premium gym",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 260
+      },
+      "lifestyle": "Charleston at this level is spectacular. A historic home in the city's most coveted neighborhoods, regular meals at nationally acclaimed restaurants, and weekend sailing in the harbor. The blend of history, culture, and coastal living is unmatched anywhere in the American South."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Grand historic home south of Broad, or beachfront estate on Kiawah Island",
+        "monthlyCost": 5000
+      },
+      "dining": {
+        "description": "Fine dining weekly, private chef for Lowcountry dinner parties, wine cellar",
+        "monthlyCost": 1400
+      },
+      "groceries": {
+        "monthlyCost": 750
+      },
+      "healthcare": {
+        "description": "Concierge medicine at MUSC; executive wellness and preventive care programs",
+        "monthlyCost": 950
+      },
+      "transportation": {
+        "description": "Luxury vehicle, boat for harbor and island hopping, premium insurance",
+        "monthlyCost": 800
+      },
+      "entertainment": {
+        "description": "Kiawah golf membership, yacht club, Spoleto Festival patron, private tours",
+        "monthlyCost": 1000
+      },
+      "utilities": {
+        "monthlyCost": 350
+      },
+      "domesticHelp": {
+        "description": "Weekly cleaning, garden maintenance, boat upkeep, personal assistant",
+        "monthlyCost": 750
+      },
+      "luxuryExtras": {
+        "description": "Quarterly travel, antique collecting, historic preservation philanthropy, spa retreats",
+        "monthlyCost": 1400
+      },
+      "lifestyle": "You are living Charleston's grandest lifestyle. A historic mansion with a piazza overlooking the harbor, membership at Kiawah's exclusive golf courses, and the ability to host elegant Lowcountry dinner parties. Southern hospitality meets refined luxury at every turn."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Landmark historic estate south of Broad or private compound on Kiawah Island",
+        "monthlyCost": 10000
+      },
+      "dining": {
+        "description": "Personal chef specializing in Lowcountry cuisine, exclusive wine events, catered soirees",
+        "monthlyCost": 2800
+      },
+      "groceries": {
+        "monthlyCost": 1000
+      },
+      "healthcare": {
+        "description": "Top-tier concierge practice at MUSC, executive health screenings, specialist access",
+        "monthlyCost": 1400
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, private yacht, driver for events and travel",
+        "monthlyCost": 1800
+      },
+      "entertainment": {
+        "description": "Philanthropic galas, art and antique collecting, international travel, private club memberships",
+        "monthlyCost": 2500
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, estate manager, personal assistant, boat captain, garden staff",
+        "monthlyCost": 4200
+      },
+      "luxuryExtras": {
+        "description": "Historic preservation endowments, European travel, second home, charitable foundation",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At this level Charleston is your personal Southern kingdom. A landmark estate, a private yacht for cruising the ACE Basin, and the ability to shape the city's cultural and preservation efforts through major philanthropy. You live among centuries of history while enjoying every modern luxury."
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "name": "San Jose",
+  "country": "United States",
+  "region": "North America",
+  "slug": "san-jose-ca",
+  "emoji": "🇺🇸",
+  "fireScore": 4.3,
+  "tagline": "Silicon Valley's Capital with Perfect Weather and Sky-High Costs",
+  "description": "San Jose sits at the heart of Silicon Valley, offering Mediterranean weather, incredible ethnic food diversity, and proximity to the Pacific coast and Sierra Nevada mountains. However, its astronomical housing costs and California's high state income tax make it one of the most challenging FIRE destinations in America. You need a significantly larger portfolio here than almost anywhere else, but in return you get year-round sunshine, world-class tech infrastructure, and a culturally rich community shaped by immigration from around the globe.",
+  "tags": {
+    "climate": "mediterranean",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "PST (UTC-8)",
+    "language": "English / Spanish / Vietnamese widely spoken",
+    "internetSpeed": "300+ Mbps average",
+    "safetyRating": "Moderate to Good – safer than most large US cities",
+    "nearestAirport": "San Jose Mineta International Airport (SJC)",
+    "climate": "Mediterranean with warm dry summers and mild wet winters",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "60°F / 16°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Shared housing or a studio apartment in East San Jose or outer neighborhoods",
+        "monthlyCost": 1800
+      },
+      "dining": {
+        "description": "Cheap pho, tacos, and ethnic eateries 2x/week; cooking at home is essential",
+        "monthlyCost": 200
+      },
+      "groceries": {
+        "monthlyCost": 420
+      },
+      "healthcare": {
+        "description": "ACA marketplace Silver plan through Covered California",
+        "monthlyCost": 480
+      },
+      "transportation": {
+        "description": "Older paid-off car with insurance, gas; VTA light rail when possible",
+        "monthlyCost": 280
+      },
+      "entertainment": {
+        "description": "Free parks and trails, Alum Rock Park hikes, community events",
+        "monthlyCost": 50
+      },
+      "utilities": {
+        "monthlyCost": 100
+      },
+      "lifestyle": "Frankly, $3,333/month in San Jose is survival mode. Housing alone consumes over half your budget, and California income tax takes a further bite. You will need roommates or a tiny studio in a less desirable area. The upside is incredible weather that keeps utility bills low and endless free outdoor activities. But this is not a comfortable retirement here."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "1BR apartment in Campbell, Willow Glen, or central San Jose",
+        "monthlyCost": 2800
+      },
+      "dining": {
+        "description": "Regular dining at San Jose's diverse restaurant scene; Vietnamese, Mexican, Japanese",
+        "monthlyCost": 500
+      },
+      "groceries": {
+        "monthlyCost": 520
+      },
+      "healthcare": {
+        "description": "ACA Gold plan with dental and vision through Covered California",
+        "monthlyCost": 580
+      },
+      "transportation": {
+        "description": "Reliable car with full coverage insurance, occasional Caltrain to SF",
+        "monthlyCost": 400
+      },
+      "entertainment": {
+        "description": "SAP Center events, Sharks games, hiking in the Santa Cruz Mountains, wine tasting",
+        "monthlyCost": 250
+      },
+      "utilities": {
+        "monthlyCost": 130
+      },
+      "lifestyle": "At $2M you can manage a modest but decent San Jose life. A small apartment in a nice neighborhood, regular dining at the incredible ethnic restaurants, and weekend trips to Santa Cruz or the wine country. It works, but you will feel the California tax burden and will not have much margin for extras."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "2BR condo in Willow Glen, Santana Row area, or a small house in Cambrian",
+        "monthlyCost": 3800
+      },
+      "dining": {
+        "description": "Regular dining at top South Bay restaurants, Santana Row spots, Japantown izakayas",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 650
+      },
+      "healthcare": {
+        "description": "Premium private insurance with Stanford Health or El Camino Health access",
+        "monthlyCost": 700
+      },
+      "transportation": {
+        "description": "Late-model car, premium insurance, occasional rideshare and Caltrain",
+        "monthlyCost": 500
+      },
+      "entertainment": {
+        "description": "Sharks season tickets, performing arts, hiking gear, wine club memberships, beach trips",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 180
+      },
+      "lifestyle": "At $10K/month San Jose becomes genuinely comfortable. You can live in a desirable neighborhood, enjoy the extraordinary diversity of cuisines, and take full advantage of the Bay Area's natural beauty. Weekend drives to Big Sur, Napa, or Tahoe are routine. This is the minimum for a truly enjoyable Silicon Valley retirement."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "3BR house in Los Gatos, Almaden Valley, or Saratoga foothills",
+        "monthlyCost": 5500
+      },
+      "dining": {
+        "description": "Fine dining in Los Gatos and Palo Alto, private chef occasionally, wine dinners in Napa",
+        "monthlyCost": 1500
+      },
+      "groceries": {
+        "monthlyCost": 800
+      },
+      "healthcare": {
+        "description": "Concierge medicine through Stanford Health executive program",
+        "monthlyCost": 1000
+      },
+      "transportation": {
+        "description": "Luxury EV (Tesla, Rivian), premium insurance, occasional rideshare",
+        "monthlyCost": 800
+      },
+      "entertainment": {
+        "description": "Premium Sharks and 49ers tickets, private wine tours, golf memberships, cultural events",
+        "monthlyCost": 900
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "domesticHelp": {
+        "description": "Bi-weekly house cleaning, landscaping, occasional personal assistant",
+        "monthlyCost": 900
+      },
+      "luxuryExtras": {
+        "description": "Napa wine weekends, quarterly luxury travel, tech conference attendance, philanthropy",
+        "monthlyCost": 1500
+      },
+      "lifestyle": "Now San Jose starts to make real sense as a FIRE destination. A beautiful home in the foothills, Stanford-level healthcare, and full access to everything the Bay Area offers. The weather is perfect, the food scene is world-class, and you are a short drive from the coast, wine country, and the mountains."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Luxury estate in Saratoga, Los Gatos hills, or a modern mansion in Silver Creek",
+        "monthlyCost": 12000
+      },
+      "dining": {
+        "description": "Personal chef, exclusive dining at Manresa and Plumed Horse, catered events",
+        "monthlyCost": 3000
+      },
+      "groceries": {
+        "monthlyCost": 1200
+      },
+      "healthcare": {
+        "description": "Top-tier Stanford concierge medicine, executive wellness, holistic care",
+        "monthlyCost": 1500
+      },
+      "transportation": {
+        "description": "Multiple luxury EVs, private car service, occasional charter flights",
+        "monthlyCost": 1800
+      },
+      "entertainment": {
+        "description": "Private suite at Levi's Stadium, art collecting, VC event circuit, international first-class travel",
+        "monthlyCost": 2500
+      },
+      "utilities": {
+        "monthlyCost": 400
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, personal assistant, gardener, property management",
+        "monthlyCost": 4500
+      },
+      "luxuryExtras": {
+        "description": "Napa vineyard membership, first-class international travel, angel investing, major philanthropy",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At $10M San Jose becomes a Silicon Valley dream. A stunning estate in the hills above the valley, personal chef, Stanford concierge medicine, and the social capital to attend exclusive tech and venture events. California taxes take a significant bite, but the lifestyle, weather, and access to innovation culture are unmatched."
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "name": "Málaga",
+  "country": "Spain",
+  "region": "Europe",
+  "slug": "malaga",
+  "emoji": "🇪🇸",
+  "fireScore": 7.0,
+  "tagline": "Costa del Sol Sunshine with Authentic Spanish Culture",
+  "description": "Málaga has transformed from a sleepy Andalusian port into one of Europe's most desirable cities, combining 300 days of sunshine, world-class museums, and a thriving food scene with costs well below Northern Europe. Picasso's birthplace offers stunning beaches, a revitalized historic center, and excellent connectivity via its international airport. The growing expat community and Spain's non-lucrative visa make it an increasingly popular FIRE destination.",
+  "tags": {
+    "climate": "mediterranean",
+    "english": "moderate"
+  },
+  "quickFacts": {
+    "visa": "Schengen visa (90 days); Non-Lucrative Visa for retirees (1 year, renewable)",
+    "timezone": "CET (UTC+1)",
+    "language": "Spanish, English growing in tourist and expat areas",
+    "internetSpeed": "80-150 Mbps average",
+    "safetyRating": "High – very safe city with typical tourist-area petty theft",
+    "nearestAirport": "Málaga-Costa del Sol Airport (AGP)",
+    "climate": "Mediterranean with hot dry summers and mild winters",
+    "englishFriendly": "Moderate",
+    "currency": "EUR (Euro)",
+    "averageTemp": "66°F / 19°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in Soho or El Perchel, walkable to the historic center and beach",
+        "monthlyCost": 950
+      },
+      "dining": {
+        "description": "Tapas bars and chiringuitos (beach bars) 3-4x/week; espetos de sardinas on the beach",
+        "monthlyCost": 300
+      },
+      "groceries": {
+        "monthlyCost": 300
+      },
+      "healthcare": {
+        "description": "Spanish public healthcare (with residency) or affordable private insurance",
+        "monthlyCost": 200
+      },
+      "transportation": {
+        "description": "Walking and bus in compact city center; excellent public transit",
+        "monthlyCost": 50
+      },
+      "entertainment": {
+        "description": "Beach days, Picasso Museum, free flamenco, tapas crawls, Malagueta beach volleyball",
+        "monthlyCost": 150
+      },
+      "utilities": {
+        "monthlyCost": 120
+      },
+      "lifestyle": "Málaga on a lean budget is still a wonderful life. Tapas culture means eating out is cheap and social, the beaches are free, and the year-round sunshine keeps spirits high. Spanish public healthcare is excellent if you qualify, and the compact center means a car is unnecessary."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Modern 2BR apartment in the historic center, Pedregalejo, or El Palo with sea views",
+        "monthlyCost": 1500
+      },
+      "dining": {
+        "description": "Regular dining at top tapas bars, seafood restaurants on the paseo, and Michelin-recommended spots",
+        "monthlyCost": 550
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "Premium private insurance with Quirónsalud and Vithas hospital access",
+        "monthlyCost": 250
+      },
+      "transportation": {
+        "description": "Own car for coastal drives to Nerja, Marbella, and the white villages",
+        "monthlyCost": 150
+      },
+      "entertainment": {
+        "description": "Flamenco shows, Semana Santa festivals, sailing, gym, day trips to Granada and Ronda",
+        "monthlyCost": 300
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "Málaga truly comes alive at this budget. A lovely apartment with sea views, daily tapas culture, a car for exploring the spectacular Andalusian countryside, and regular cultural experiences. The quality of life rivals the French Riviera at a fraction of the cost."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Luxury 3BR penthouse in the historic center or beachfront apartment in El Limonar",
+        "monthlyCost": 2800
+      },
+      "dining": {
+        "description": "Fine dining at José Carlos García (Michelin star), El Pimpi VIP, and rooftop restaurants",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "International health insurance with EU-wide coverage and private hospital access",
+        "monthlyCost": 350
+      },
+      "transportation": {
+        "description": "Own car, AVE high-speed train to Madrid, budget flights across Europe",
+        "monthlyCost": 250
+      },
+      "entertainment": {
+        "description": "Premium golf on the Costa del Sol, sailing, exclusive cultural events, European weekend trips",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "lifestyle": "A luxury penthouse overlooking the Mediterranean, Michelin-starred dining, golf on world-class courses, and the cultural riches of Andalusia at your doorstep. Málaga at this level offers a lifestyle that would cost significantly more in Barcelona, and the sunshine is even better."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Grand villa in El Candado or luxury penthouse with panoramic sea and mountain views",
+        "monthlyCost": 4500
+      },
+      "dining": {
+        "description": "Private chef plus fine dining across the Costa del Sol; exclusive wine experiences",
+        "monthlyCost": 1200
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "VIP concierge medical with access to top Spanish and European hospitals",
+        "monthlyCost": 450
+      },
+      "transportation": {
+        "description": "Luxury vehicle, first-class AVE to Madrid, flights across Europe",
+        "monthlyCost": 400
+      },
+      "entertainment": {
+        "description": "Premium golf memberships, yacht club, exclusive Andalusian experiences, European cultural tours",
+        "monthlyCost": 700
+      },
+      "utilities": {
+        "monthlyCost": 280
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, part-time cook, gardener, pool maintenance",
+        "monthlyCost": 800
+      },
+      "luxuryExtras": {
+        "description": "Mediterranean yacht charters, first-class European travel, Andalusian finca weekends, art collecting",
+        "monthlyCost": 2000
+      },
+      "lifestyle": "You are living the Costa del Sol dream at its finest. A stunning villa with sea views, a private chef, full domestic staff, and the means to enjoy everything from Marbella's glamour to Granada's Alhambra. The Spanish lifestyle at this level is deeply enviable."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Grand beachfront estate or historic finca with modernized luxury in the Málaga hills",
+        "monthlyCost": 8000
+      },
+      "dining": {
+        "description": "Personal chef team, exclusive dining events, private wine cellar with sommelier",
+        "monthlyCost": 2500
+      },
+      "groceries": {
+        "monthlyCost": 800
+      },
+      "healthcare": {
+        "description": "Elite European health plan, personal physician, executive wellness program",
+        "monthlyCost": 700
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, chauffeur, yacht, private European flights",
+        "monthlyCost": 1500
+      },
+      "entertainment": {
+        "description": "Yacht Mediterranean cruises, exclusive golf, art patronage, flamenco and cultural sponsorship",
+        "monthlyCost": 2000
+      },
+      "utilities": {
+        "monthlyCost": 400
+      },
+      "domesticHelp": {
+        "description": "Full estate staff: chef, butler, housekeepers, groundskeepers, pool team, driver, personal assistant",
+        "monthlyCost": 2500
+      },
+      "luxuryExtras": {
+        "description": "Yacht ownership, Andalusian cortijo estate, first-class global travel, art collection, philanthropic foundation",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At this level in Málaga you are living like Andalusian aristocracy. A grand estate, a Mediterranean yacht, full staff, and the resources to patronize the region's rich cultural heritage. Spain's Golden Visa program and favorable tax treaties add financial sophistication to an already extraordinary lifestyle."
+    }
+  }
+}

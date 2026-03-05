@@ -1,0 +1,194 @@
+{
+  "name": "Kathmandu",
+  "country": "Nepal",
+  "region": "South Asia",
+  "slug": "kathmandu",
+  "emoji": "🇳🇵",
+  "fireScore": 8.0,
+  "tagline": "Himalayan Culture and Adventure at Rock-Bottom Costs",
+  "description": "Kathmandu is a city of ancient temples, stunning mountain views, and one of the lowest costs of living in the world. Nestled in a valley surrounded by the Himalayas, it offers a unique blend of Hindu and Buddhist culture, world-class trekking, and a growing modern infrastructure. For FIRE seekers willing to embrace a different pace of life, Kathmandu delivers extraordinary value and unforgettable experiences.",
+  "tags": {
+    "climate": "subtropical",
+    "english": "low"
+  },
+  "quickFacts": {
+    "visa": "Visa on arrival (15/30/90 days); renewable up to 150 days/year",
+    "timezone": "NPT (UTC+5:45)",
+    "language": "Nepali, with some English in tourist areas",
+    "internetSpeed": "15-30 Mbps average",
+    "safetyRating": "Moderate – generally safe; watch for petty theft and traffic",
+    "nearestAirport": "Tribhuvan International Airport (KTM)",
+    "climate": "Subtropical with monsoon season and cool winters",
+    "englishFriendly": "Low",
+    "currency": "NPR (Nepalese Rupee)",
+    "averageTemp": "64°F / 18°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Spacious 2BR apartment in Lazimpat or Jhamsikhel with mountain views",
+        "monthlyCost": 400
+      },
+      "dining": {
+        "description": "Dal bhat at local restaurants daily; momos and Newari cuisine 4-5x/week",
+        "monthlyCost": 150
+      },
+      "groceries": {
+        "monthlyCost": 150
+      },
+      "healthcare": {
+        "description": "Private health insurance covering Norvic and Grande hospitals",
+        "monthlyCost": 100
+      },
+      "transportation": {
+        "description": "Local buses, shared taxis, and occasional ride-hailing",
+        "monthlyCost": 60
+      },
+      "entertainment": {
+        "description": "Temple visits, hiking in the valley, yoga classes, Thamel nightlife",
+        "monthlyCost": 80
+      },
+      "utilities": {
+        "monthlyCost": 50
+      },
+      "lifestyle": "In Kathmandu, $1M makes you genuinely wealthy. A comfortable apartment with Himalayan views, daily restaurant meals, and regular trekking adventures are all easily affordable. The biggest adjustment is the city's pollution and chaotic traffic, but the cultural richness and mountain access more than compensate."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Large 3BR house or apartment in Budhanilkantha or Sanepa with garden",
+        "monthlyCost": 700
+      },
+      "dining": {
+        "description": "Mix of upscale restaurants in Durbarmarg and Thamel; international cuisine options",
+        "monthlyCost": 300
+      },
+      "groceries": {
+        "monthlyCost": 250
+      },
+      "healthcare": {
+        "description": "Premium private insurance with medical evacuation coverage to Delhi or Bangkok",
+        "monthlyCost": 200
+      },
+      "transportation": {
+        "description": "Own motorbike or small car; occasional domestic flights to Pokhara",
+        "monthlyCost": 150
+      },
+      "entertainment": {
+        "description": "Guided treks, rafting trips, mountain biking, cultural festivals, regular Pokhara getaways",
+        "monthlyCost": 200
+      },
+      "utilities": {
+        "monthlyCost": 70
+      },
+      "lifestyle": "At this budget you can live exceptionally well in Kathmandu. A beautiful house with a garden, a personal vehicle, regular trekking expeditions in the Himalayas, and fine dining whenever you wish. You can afford domestic flights to Nepal's stunning destinations and have significant savings surplus."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Premium 4BR villa in Budhanilkantha or luxury apartment in Maharajgunj",
+        "monthlyCost": 1200
+      },
+      "dining": {
+        "description": "Finest restaurants in Kathmandu, boutique cafes, regular dinner parties at home",
+        "monthlyCost": 500
+      },
+      "groceries": {
+        "monthlyCost": 350
+      },
+      "healthcare": {
+        "description": "International health insurance with coverage at top hospitals in Delhi, Bangkok, and Singapore",
+        "monthlyCost": 350
+      },
+      "transportation": {
+        "description": "Own SUV for mountain roads, domestic flights, helicopter tours",
+        "monthlyCost": 300
+      },
+      "entertainment": {
+        "description": "Helicopter tours to Everest Base Camp, luxury trekking, paragliding in Pokhara, cultural immersion",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 100
+      },
+      "lifestyle": "You are living at the very top of Kathmandu society. A luxurious villa, your own vehicle for mountain excursions, helicopter trips to Everest, and access to every premium experience Nepal offers. The enormous surplus means you can travel internationally frequently while maintaining your Himalayan home base."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Sprawling estate in Budhanilkantha or custom-built villa with panoramic Himalayan views",
+        "monthlyCost": 2000
+      },
+      "dining": {
+        "description": "Private chef plus regular dining at Kathmandu's finest restaurants and hotels",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "VIP concierge medical service with Singapore and Bangkok hospital access",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "Luxury SUV with driver, regular domestic flights, helicopter charters",
+        "monthlyCost": 500
+      },
+      "entertainment": {
+        "description": "Private Everest expeditions, luxury lodge trekking, international travel, cultural patronage",
+        "monthlyCost": 700
+      },
+      "utilities": {
+        "monthlyCost": 120
+      },
+      "domesticHelp": {
+        "description": "Full-time cook, housekeeper, gardener, driver, and security guard",
+        "monthlyCost": 400
+      },
+      "luxuryExtras": {
+        "description": "First-class international travel, luxury trekking expeditions, philanthropy, property investments",
+        "monthlyCost": 2500
+      },
+      "lifestyle": "This budget is extraordinary in Nepal. A stunning estate with full staff, private helicopter access to the Himalayas, and the means to fund community projects. Most of your budget will go unspent, making this an incredible base for both adventure and wealth preservation."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Grand estate compound with guest houses, or multiple properties including a Pokhara lakeside retreat",
+        "monthlyCost": 3500
+      },
+      "dining": {
+        "description": "Personal chef team, catered events, exclusive dining experiences",
+        "monthlyCost": 1500
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "Elite global health plan, personal physician, annual executive screening in Singapore",
+        "monthlyCost": 800
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles with dedicated drivers, private helicopter, international first-class flights",
+        "monthlyCost": 1500
+      },
+      "entertainment": {
+        "description": "Private mountaineering expeditions, global luxury travel, art collecting, cultural festival patronage",
+        "monthlyCost": 2000
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "domesticHelp": {
+        "description": "Full compound staff: chef, butler, housekeepers, gardeners, security team, personal assistant, driver team",
+        "monthlyCost": 1000
+      },
+      "luxuryExtras": {
+        "description": "Philanthropic foundation, property development, private expedition sponsorship, global first-class travel",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At this level you could practically build your own village in Nepal. Multiple properties, a full compound staff, private expeditions, and the resources to make a significant philanthropic impact. Nepal becomes a spectacular and deeply affordable anchor for a global lifestyle."
+    }
+  }
+}

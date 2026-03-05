@@ -1,0 +1,194 @@
+{
+  "name": "Rome",
+  "country": "Italy",
+  "region": "Europe",
+  "slug": "rome",
+  "emoji": "🇮🇹",
+  "fireScore": 5.8,
+  "tagline": "Eternal City Living with La Dolce Vita on Any Budget",
+  "description": "Rome offers a rare combination of world-class history, culture, and cuisine at prices that undercut most Western European capitals. The city rewards slow living — long espresso breaks, evening passeggiata, and neighborhood trattorias where a full meal costs less than a London appetizer. While bureaucracy and language barriers can be frustrating, Rome's quality of life and central Mediterranean location make it a compelling FIRE destination for those willing to embrace Italian rhythms.",
+  "tags": {
+    "climate": "mediterranean",
+    "english": "moderate"
+  },
+  "quickFacts": {
+    "visa": "90-day Schengen visa-free for US citizens; Elective Residency Visa for long-term stays",
+    "timezone": "CET (UTC+1)",
+    "language": "Italian",
+    "internetSpeed": "80+ Mbps average",
+    "safetyRating": "Moderate – petty theft in tourist areas; otherwise safe",
+    "nearestAirport": "Leonardo da Vinci–Fiumicino Airport (FCO)",
+    "climate": "Mediterranean with hot dry summers and mild wet winters",
+    "englishFriendly": "Moderate",
+    "currency": "EUR",
+    "averageTemp": "60°F / 15.5°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Small 1BR apartment in an outer neighborhood like Garbatella, Pigneto, or Centocelle",
+        "monthlyCost": 900
+      },
+      "dining": {
+        "description": "Pizza al taglio and trattoria lunches 2-3x/week; mostly cooking at home with market produce",
+        "monthlyCost": 250
+      },
+      "groceries": {
+        "monthlyCost": 350
+      },
+      "healthcare": {
+        "description": "Italian national health enrollment (SSN) if resident; private basic plan otherwise",
+        "monthlyCost": 200
+      },
+      "transportation": {
+        "description": "Monthly ATAC transit pass covering metro, bus, and tram",
+        "monthlyCost": 35
+      },
+      "entertainment": {
+        "description": "Free museums on first Sundays, passeggiata, piazza life, parks on the Appian Way",
+        "monthlyCost": 100
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "A lean but genuinely rewarding life in Rome. You will cook with fresh market ingredients, ride the metro, and enjoy the city's free cultural wealth — from ancient ruins to neighborhood festivals. Budget is tight but the daily rhythms of Roman life make it feel richer than the numbers suggest."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Spacious 2BR apartment in Trastevere, Testaccio, or Monti with character",
+        "monthlyCost": 1600
+      },
+      "dining": {
+        "description": "Dining out 4-5x/week at neighborhood trattorias and osterias; aperitivo culture",
+        "monthlyCost": 500
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "Private health insurance with good hospital coverage and specialist access",
+        "monthlyCost": 300
+      },
+      "transportation": {
+        "description": "Transit pass plus occasional car-sharing or taxi for day trips",
+        "monthlyCost": 100
+      },
+      "entertainment": {
+        "description": "Opera tickets at Teatro dell'Opera, museum memberships, cooking classes, weekend trips",
+        "monthlyCost": 300
+      },
+      "utilities": {
+        "monthlyCost": 180
+      },
+      "lifestyle": "This is where Rome truly shines. You can live in a beautiful old neighborhood, eat world-class food daily, and still have budget for weekend escapes to the Amalfi Coast or Tuscany. The combination of Italian cuisine, walkable streets, and cultural access makes this tier feel luxurious by most global standards."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Elegant 3BR apartment near Piazza Navona, the Pantheon, or in Parioli with terrace views",
+        "monthlyCost": 2800
+      },
+      "dining": {
+        "description": "Fine dining at Michelin-starred restaurants regularly, daily espresso bar ritual, wine tastings",
+        "monthlyCost": 1000
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "Premium private insurance with access to top clinics like Policlinico Gemelli",
+        "monthlyCost": 400
+      },
+      "transportation": {
+        "description": "Leased Fiat or Vespa, insurance, plus train travel for regional exploration",
+        "monthlyCost": 350
+      },
+      "entertainment": {
+        "description": "Season opera tickets, private gallery openings, premium gym, frequent weekend getaways",
+        "monthlyCost": 600
+      },
+      "utilities": {
+        "monthlyCost": 220
+      },
+      "lifestyle": "Life at this level in Rome is genuinely magnificent. A grand apartment with views over terracotta rooftops, dinners at the city's finest restaurants, and easy access to all of Italy by high-speed rail. You are living the life that most tourists only dream about during their one-week visit."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury penthouse in Centro Storico or a historic villa apartment in Aventino with private garden",
+        "monthlyCost": 4500
+      },
+      "dining": {
+        "description": "Regular Michelin dining, private chef for dinner parties, exclusive enoteca memberships",
+        "monthlyCost": 1800
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "VIP private healthcare with concierge service and international hospital network access",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "Luxury car with parking garage, first-class Trenitalia for travel, occasional private driver",
+        "monthlyCost": 700
+      },
+      "entertainment": {
+        "description": "Private museum tours, exclusive cultural events, yacht charters on the Tyrrhenian Sea",
+        "monthlyCost": 1000
+      },
+      "utilities": {
+        "monthlyCost": 300
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, weekly laundry service, garden maintenance",
+        "monthlyCost": 1200
+      },
+      "luxuryExtras": {
+        "description": "Tuscan villa weekends, first-class European travel, Italian art collecting, premium wine cellar",
+        "monthlyCost": 2000
+      },
+      "lifestyle": "You are living like Roman nobility. A stunning apartment in the heart of one of history's greatest cities, staff to manage daily life, and access to experiences most people only read about. Weekend drives to Umbrian hill towns and summers on the Sardinian coast are routine."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Grand palazzo apartment overlooking a major piazza or private villa on the Appia Antica",
+        "monthlyCost": 9000
+      },
+      "dining": {
+        "description": "Personal chef, private dining at Rome's most exclusive restaurants, catered soirées",
+        "monthlyCost": 3000
+      },
+      "groceries": {
+        "monthlyCost": 1000
+      },
+      "healthcare": {
+        "description": "Top-tier international concierge medicine with global evacuation coverage",
+        "monthlyCost": 1000
+      },
+      "transportation": {
+        "description": "Luxury vehicles, full-time driver, first-class international travel, helicopter transfers",
+        "monthlyCost": 2000
+      },
+      "entertainment": {
+        "description": "Private Vatican tours, philanthropy galas, art patronage, Mediterranean yacht charters",
+        "monthlyCost": 3000
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full household staff including chef, housekeeper, personal assistant, and groundskeeper",
+        "monthlyCost": 5000
+      },
+      "luxuryExtras": {
+        "description": "Private jet access, Italian vineyard investment, international art acquisitions, philanthropic foundation",
+        "monthlyCost": 5500
+      },
+      "lifestyle": "At this tier, Rome is your private museum. You live in spaces that rival the finest palazzi, host legendary dinner parties, and move through the city as a patron of its arts and culture. The Eternal City rewards wealth with experiences that simply cannot be bought anywhere else on Earth."
+    }
+  }
+}

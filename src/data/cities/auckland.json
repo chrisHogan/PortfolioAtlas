@@ -1,0 +1,194 @@
+{
+  "name": "Auckland",
+  "country": "New Zealand",
+  "region": "Oceania",
+  "slug": "auckland",
+  "emoji": "🇳🇿",
+  "fireScore": 5.3,
+  "tagline": "City of Sails with Stunning Nature at Your Doorstep",
+  "description": "Auckland is a city uniquely blessed by geography — built across volcanic hills between two harbours, with world-class beaches, rainforest walks, and vineyard regions all within an hour's drive. New Zealand's largest city offers a relaxed pace of life, clean air, excellent healthcare, and a growing food and wine scene. While housing costs are steep and some goods are expensive due to geographic isolation, Auckland rewards residents with an outdoor lifestyle, safety, and natural beauty that few cities can rival.",
+  "tags": {
+    "climate": "mediterranean",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "90-day visa waiver for US citizens; various resident visas including investor and retirement categories",
+    "timezone": "NZST (UTC+12)",
+    "language": "English / Te Reo Maori",
+    "internetSpeed": "100+ Mbps average",
+    "safetyRating": "High – very safe with low crime rates",
+    "nearestAirport": "Auckland Airport (AKL)",
+    "climate": "Mild oceanic/mediterranean with warm summers and mild, wet winters",
+    "englishFriendly": "High",
+    "currency": "NZD",
+    "averageTemp": "59°F / 15°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in Mt Eden, Kingsland, or outer suburbs like Henderson or Manukau",
+        "monthlyCost": 1100
+      },
+      "dining": {
+        "description": "Fish and chips, Asian eateries on Dominion Road, casual cafes 2-3x/week",
+        "monthlyCost": 250
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "Public healthcare system covers hospital visits; GP visits partially subsidized",
+        "monthlyCost": 200
+      },
+      "transportation": {
+        "description": "AT HOP card for buses, trains, and ferries; Auckland is car-dependent in outer areas",
+        "monthlyCost": 120
+      },
+      "entertainment": {
+        "description": "Free beach days at Piha and Mission Bay, volcanic cone hikes, museum visits",
+        "monthlyCost": 100
+      },
+      "utilities": {
+        "monthlyCost": 170
+      },
+      "lifestyle": "Auckland on a lean budget requires careful planning, but the payoff is access to some of the world's most beautiful natural scenery for free. You will cook at home often and live modestly, but weekends on black sand beaches, volcanic cone hikes, and harbour walks make the lifestyle feel far richer than the budget suggests."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "2BR apartment in Ponsonby, Grey Lynn, or a house in Mt Albert with a garden",
+        "monthlyCost": 1800
+      },
+      "dining": {
+        "description": "Regular brunch at Ponsonby cafes, dining on the Viaduct, wine bar evenings",
+        "monthlyCost": 550
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "Southern Cross private health insurance for faster specialist access and dental",
+        "monthlyCost": 350
+      },
+      "transportation": {
+        "description": "Reliable car for beach trips and regional exploration; AT HOP for commuting",
+        "monthlyCost": 300
+      },
+      "entertainment": {
+        "description": "Waiheke Island ferry trips, sailing, gym membership, weekend trips to Coromandel",
+        "monthlyCost": 400
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "lifestyle": "This is where Auckland life becomes genuinely wonderful. A nice home in a leafy inner suburb, regular dining at the city's excellent cafes and restaurants, and easy weekend escapes to Waiheke Island, the Coromandel Peninsula, or Northland beaches. The outdoor lifestyle — sailing, surfing, hiking — is accessible and magnificent."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Spacious 3BR home in Herne Bay, Devonport, or Remuera with harbour views",
+        "monthlyCost": 3000
+      },
+      "dining": {
+        "description": "Fine dining at top Auckland restaurants like Pasture and Sidart, Waiheke vineyard lunches",
+        "monthlyCost": 900
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "Premium Southern Cross plan with comprehensive cover and short wait times",
+        "monthlyCost": 450
+      },
+      "transportation": {
+        "description": "Quality SUV for outdoor adventures, city transit pass, domestic flights to Queenstown",
+        "monthlyCost": 500
+      },
+      "entertainment": {
+        "description": "America's Cup sailing events, premium gym, ski trips to Ruapehu, wine club memberships",
+        "monthlyCost": 700
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "lifestyle": "Auckland at this budget is outstanding. A beautiful home with harbour views, regular dining at world-class restaurants, and the freedom to explore New Zealand's incredible landscape — from Bay of Islands sailing to Tongariro Alpine Crossing. The combination of urban sophistication and raw natural beauty is Auckland's superpower."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury waterfront property in Herne Bay, or a premium home on the North Shore with panoramic views",
+        "monthlyCost": 5000
+      },
+      "dining": {
+        "description": "Regular fine dining, private chef for entertaining, exclusive wine and food events",
+        "monthlyCost": 1500
+      },
+      "groceries": {
+        "monthlyCost": 750
+      },
+      "healthcare": {
+        "description": "VIP private healthcare with concierge GP and international coverage",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "Luxury SUV, boat for harbour use, first-class domestic travel",
+        "monthlyCost": 900
+      },
+      "entertainment": {
+        "description": "Yacht club membership, exclusive golf at Gulf Harbour, helicopter tours, premium ski season",
+        "monthlyCost": 1100
+      },
+      "utilities": {
+        "monthlyCost": 350
+      },
+      "domesticHelp": {
+        "description": "Weekly housekeeper, gardener, occasional personal assistant",
+        "monthlyCost": 900
+      },
+      "luxuryExtras": {
+        "description": "Waiheke vineyard weekends, first-class international travel, luxury lodge stays, philanthropy",
+        "monthlyCost": 1800
+      },
+      "lifestyle": "You are living Auckland's finest life. A stunning waterfront property, a boat on the harbour, and access to New Zealand's most exclusive experiences from heli-skiing to luxury lodge stays. Auckland's combination of harbour living and proximity to some of the world's most dramatic landscapes creates a lifestyle that is simultaneously sophisticated and adventurous."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Grand waterfront estate in Herne Bay or a clifftop mansion in Takapuna with panoramic harbour views",
+        "monthlyCost": 10000
+      },
+      "dining": {
+        "description": "Personal chef, private dining at New Zealand's finest restaurants, catered events",
+        "monthlyCost": 3000
+      },
+      "groceries": {
+        "monthlyCost": 1000
+      },
+      "healthcare": {
+        "description": "Top-tier concierge medicine with international hospital network and executive wellness",
+        "monthlyCost": 800
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, yacht, helicopter access, first-class international travel",
+        "monthlyCost": 2500
+      },
+      "entertainment": {
+        "description": "Private yacht charters, exclusive sporting events, art patronage, luxury travel worldwide",
+        "monthlyCost": 3000
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full household staff including housekeeper, chef, personal assistant, gardener, and boat captain",
+        "monthlyCost": 4500
+      },
+      "luxuryExtras": {
+        "description": "Luxury lodge circuit, vineyard ownership, international travel, philanthropic foundation",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At this tier Auckland becomes the gateway to the ultimate New Zealand lifestyle. A grand estate on the harbour, a private yacht, helicopter access to remote lodges, and the ability to experience everything this extraordinarily beautiful country offers. New Zealand's clean, safe, and stunning environment combined with Auckland's cosmopolitan amenities create a life of rare quality."
+    }
+  }
+}

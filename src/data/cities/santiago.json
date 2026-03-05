@@ -1,0 +1,194 @@
+{
+  "name": "Santiago",
+  "country": "Chile",
+  "region": "Latin America",
+  "slug": "santiago",
+  "emoji": "🇨🇱",
+  "fireScore": 6.5,
+  "tagline": "Andean Views, World-Class Wine, and South America's Most Stable Economy",
+  "description": "Santiago is the cosmopolitan capital of Chile, South America's most economically stable and developed nation. Nestled in a valley with the snow-capped Andes as a dramatic backdrop, the city offers excellent infrastructure, a booming food and wine scene, reliable healthcare, and easy access to both ski resorts and Pacific beaches within 90 minutes. While not as cheap as other Latin American capitals, Santiago delivers exceptional value for a modern, safe, and well-connected city with First World amenities.",
+  "tags": {
+    "climate": "mediterranean",
+    "english": "low"
+  },
+  "quickFacts": {
+    "visa": "90-day visa-free for US citizens; Temporary Residence Visa for retirees",
+    "timezone": "CLT (UTC-4)",
+    "language": "Spanish",
+    "internetSpeed": "100+ Mbps average",
+    "safetyRating": "Moderate-High – one of the safest major cities in South America",
+    "nearestAirport": "Arturo Merino Benitez International Airport (SCL)",
+    "climate": "Mediterranean with hot dry summers and cool wet winters",
+    "englishFriendly": "Low",
+    "currency": "CLP",
+    "averageTemp": "57°F / 14°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in Nunoa, Santiago Centro, or Providencia on a quieter street",
+        "monthlyCost": 600
+      },
+      "dining": {
+        "description": "Menu del dia set lunches, empanada shops, casual dining 3x/week; cooking at home",
+        "monthlyCost": 200
+      },
+      "groceries": {
+        "monthlyCost": 250
+      },
+      "healthcare": {
+        "description": "FONASA public health system plus affordable private clinic visits",
+        "monthlyCost": 150
+      },
+      "transportation": {
+        "description": "BIP card for Metro and Transantiago buses; the Metro system is modern and efficient",
+        "monthlyCost": 40
+      },
+      "entertainment": {
+        "description": "Free Cerro San Cristobal hikes, Barrio Italia markets, local wine, park life",
+        "monthlyCost": 100
+      },
+      "utilities": {
+        "monthlyCost": 100
+      },
+      "lifestyle": "Santiago on a lean budget is quite manageable thanks to affordable transit, cheap local produce, and reasonable rents. You will cook at home often and stick to local haunts, but the daily quality of life — Andean views, excellent Metro, beautiful parks, and affordable wine — makes it feel like much more. Learning Spanish is essential for navigating daily life."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Modern 2BR apartment in Providencia or Las Condes with Andean views",
+        "monthlyCost": 1100
+      },
+      "dining": {
+        "description": "Regular dining at Providencia and Bellavista restaurants, wine bars, weekend asados",
+        "monthlyCost": 450
+      },
+      "groceries": {
+        "monthlyCost": 350
+      },
+      "healthcare": {
+        "description": "ISAPRE private health insurance with good hospital and specialist access",
+        "monthlyCost": 250
+      },
+      "transportation": {
+        "description": "Metro pass plus occasional car rental for ski and beach weekends",
+        "monthlyCost": 150
+      },
+      "entertainment": {
+        "description": "Wine tours in Maipo Valley, ski days at Valle Nevado, cultural events, gym membership",
+        "monthlyCost": 350
+      },
+      "utilities": {
+        "monthlyCost": 130
+      },
+      "lifestyle": "Santiago opens up beautifully at this budget. A nice apartment in one of the city's best neighborhoods, regular dining at excellent restaurants, and the freedom to ski the Andes in winter and hit the beach in summer. Chile's world-class wine scene becomes a regular pleasure, and the city's growing cultural offerings keep life interesting year-round."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Spacious 3BR apartment in Vitacura or a house in Lo Barnechea near the mountains",
+        "monthlyCost": 2000
+      },
+      "dining": {
+        "description": "Fine dining at Borago and Ambrosio, premium wine experiences, private asado gatherings",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 450
+      },
+      "healthcare": {
+        "description": "Premium ISAPRE plan with access to top hospitals like Clinica Alemana and Clinica Las Condes",
+        "monthlyCost": 350
+      },
+      "transportation": {
+        "description": "Owned car for mountain and coast access, Metro for city commuting, domestic flights",
+        "monthlyCost": 400
+      },
+      "entertainment": {
+        "description": "Season ski pass, premium wine club, cultural subscriptions, Patagonia trips",
+        "monthlyCost": 600
+      },
+      "utilities": {
+        "monthlyCost": 180
+      },
+      "lifestyle": "Santiago at this budget is genuinely excellent. A beautiful home near the mountains, regular fine dining at South America's most acclaimed restaurants, ski season passes, and the freedom to explore Chile's extraordinary landscapes from Atacama to Patagonia. The combination of mountain living, wine culture, and urban sophistication is hard to beat."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury house in Vitacura or Lo Barnechea with pool and Andean panoramas",
+        "monthlyCost": 3500
+      },
+      "dining": {
+        "description": "Personal chef for entertaining, regular fine dining, exclusive wine cellar, catered events",
+        "monthlyCost": 1200
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "VIP private healthcare with concierge medical service and international coverage",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "Luxury SUV, second car, private driver available, first-class domestic travel",
+        "monthlyCost": 700
+      },
+      "entertainment": {
+        "description": "Exclusive ski club membership, private vineyard tours, cultural patronage, luxury travel within Chile",
+        "monthlyCost": 900
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "domesticHelp": {
+        "description": "Full-time nana (housekeeper/cook), gardener, pool maintenance; live-in help is traditional",
+        "monthlyCost": 700
+      },
+      "luxuryExtras": {
+        "description": "First-class international travel, Patagonia lodge stays, wine collecting, philanthropy",
+        "monthlyCost": 2000
+      },
+      "lifestyle": "You are living among Santiago's elite in the foothills of the Andes. A luxurious home with mountain views, full domestic staff, and access to Chile's most exclusive experiences — from private vineyard tastings to helicopter skiing. Santiago's position between the Andes and the Pacific means extraordinary weekend adventures are always within reach."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Grand estate in Lo Barnechea or a luxury compound in Chicureo with panoramic Andean views",
+        "monthlyCost": 6000
+      },
+      "dining": {
+        "description": "Personal chef team, private dining at Chile's finest restaurants, exclusive wine experiences",
+        "monthlyCost": 2000
+      },
+      "groceries": {
+        "monthlyCost": 800
+      },
+      "healthcare": {
+        "description": "Top-tier international concierge medicine with global hospital network",
+        "monthlyCost": 700
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, full-time driver, private aviation access, first-class international",
+        "monthlyCost": 1500
+      },
+      "entertainment": {
+        "description": "Heli-skiing, private Patagonia expeditions, art collecting, international cultural events",
+        "monthlyCost": 3000
+      },
+      "utilities": {
+        "monthlyCost": 400
+      },
+      "domesticHelp": {
+        "description": "Full estate staff including chef, housekeepers, security, groundskeepers, and driver",
+        "monthlyCost": 2000
+      },
+      "luxuryExtras": {
+        "description": "Private jet travel, vineyard ownership, Patagonia lodge, international philanthropy",
+        "monthlyCost": 5500
+      },
+      "lifestyle": "At this tier Santiago offers a life of Andean grandeur. A sprawling estate with mountain views, full staff, private aviation, and the resources to explore Chile's extraordinary geography — from the world's driest desert to its most dramatic glaciers. Chile's stability, natural beauty, and growing cultural scene create a life of rare quality and adventure."
+    }
+  }
+}

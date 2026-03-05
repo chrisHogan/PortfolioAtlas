@@ -1,0 +1,194 @@
+{
+  "name": "Colombo",
+  "country": "Sri Lanka",
+  "region": "South Asia",
+  "slug": "colombo",
+  "emoji": "🇱🇰",
+  "fireScore": 7.8,
+  "tagline": "Tropical Island Capital with Unbeatable Value",
+  "description": "Colombo is Sri Lanka's vibrant capital, offering a blend of colonial architecture, Buddhist temples, and modern development along the Indian Ocean coast. The cost of living is remarkably low, and the city serves as a gateway to Sri Lanka's stunning beaches, hill country, and wildlife. A growing expat community and improving infrastructure make it an increasingly attractive FIRE destination.",
+  "tags": {
+    "climate": "tropical",
+    "english": "moderate"
+  },
+  "quickFacts": {
+    "visa": "ETA visa on arrival (30 days); extendable to 6 months",
+    "timezone": "IST (UTC+5:30)",
+    "language": "Sinhala, Tamil, English",
+    "internetSpeed": "25-40 Mbps average",
+    "safetyRating": "Moderate – generally safe; be aware of petty crime in tourist areas",
+    "nearestAirport": "Bandaranaike International Airport (CMB)",
+    "climate": "Tropical with two monsoon seasons",
+    "englishFriendly": "Moderate",
+    "currency": "LKR (Sri Lankan Rupee)",
+    "averageTemp": "81°F / 27°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Modern 2BR apartment in Colombo 4 (Bambalapitiya) or Colombo 6 (Wellawatte)",
+        "monthlyCost": 550
+      },
+      "dining": {
+        "description": "Local rice and curry restaurants 4-5x/week; street food and kottu roti spots",
+        "monthlyCost": 200
+      },
+      "groceries": {
+        "monthlyCost": 200
+      },
+      "healthcare": {
+        "description": "Private health insurance with access to Nawaloka and Lanka Hospitals",
+        "monthlyCost": 150
+      },
+      "transportation": {
+        "description": "Tuk-tuks and buses for daily commute; occasional ride-hailing via PickMe",
+        "monthlyCost": 80
+      },
+      "entertainment": {
+        "description": "Galle Face Green walks, temple visits, beach trips to Mount Lavinia, cinema",
+        "monthlyCost": 100
+      },
+      "utilities": {
+        "monthlyCost": 60
+      },
+      "lifestyle": "Your dollar stretches impressively in Colombo. A comfortable apartment, daily restaurant meals of authentic Sri Lankan cuisine, and access to beautiful beaches just minutes away. The moderate English environment means you can navigate daily life without difficulty."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Spacious 3BR apartment in Colombo 3 (Kollupitiya) or modern condo in Colombo 7",
+        "monthlyCost": 1000
+      },
+      "dining": {
+        "description": "Mix of upscale restaurants at Colombo Fort, boutique cafes, and local favorites",
+        "monthlyCost": 400
+      },
+      "groceries": {
+        "monthlyCost": 300
+      },
+      "healthcare": {
+        "description": "Premium private insurance covering top Colombo hospitals and specialist care",
+        "monthlyCost": 200
+      },
+      "transportation": {
+        "description": "Own small car or regular ride-hailing; weekend trips to Kandy and Galle",
+        "monthlyCost": 200
+      },
+      "entertainment": {
+        "description": "Gym membership, diving trips to Hikkaduwa, cultural events, weekend getaways to hill country",
+        "monthlyCost": 250
+      },
+      "utilities": {
+        "monthlyCost": 80
+      },
+      "lifestyle": "A very comfortable existence in Colombo with a modern apartment in a prime neighborhood, regular dining at the city's best restaurants, and the freedom to explore Sri Lanka's incredible diversity of landscapes on weekends. You will live better than most local professionals."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Luxury 4BR apartment or penthouse in Colombo 3 or beachfront in Mount Lavinia",
+        "monthlyCost": 1800
+      },
+      "dining": {
+        "description": "Fine dining at Ministry of Crab, Nihonbashi, and hotel restaurants; regular entertaining",
+        "monthlyCost": 700
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "International health insurance with coverage across South and Southeast Asia",
+        "monthlyCost": 350
+      },
+      "transportation": {
+        "description": "Own car with occasional driver, ride-hailing, domestic flights to Jaffna and Trincomalee",
+        "monthlyCost": 350
+      },
+      "entertainment": {
+        "description": "Surfing trips, luxury wellness retreats, wildlife safaris, premium gym and club memberships",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 120
+      },
+      "lifestyle": "At this budget you experience the finest Colombo has to offer. A luxury apartment with ocean views, dining at the island's most celebrated restaurants, and weekend getaways to boutique hotels across Sri Lanka. You will have significant surplus to save or invest."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury villa in Colombo 7 or oceanfront property in the southern coast suburbs",
+        "monthlyCost": 3000
+      },
+      "dining": {
+        "description": "Private chef plus regular fine dining at Colombo's top restaurants and hotels",
+        "monthlyCost": 1000
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "VIP concierge medical with access to Singapore hospitals for major procedures",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "Luxury vehicle with driver, domestic flights, seaplane transfers",
+        "monthlyCost": 600
+      },
+      "entertainment": {
+        "description": "Private whale watching, luxury safari lodges, yacht charters, international travel",
+        "monthlyCost": 800
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "domesticHelp": {
+        "description": "Full-time cook, housekeeper, gardener, and driver",
+        "monthlyCost": 500
+      },
+      "luxuryExtras": {
+        "description": "International first-class travel, luxury hotel stays, philanthropy, art collecting",
+        "monthlyCost": 2000
+      },
+      "lifestyle": "You are living at the pinnacle of Sri Lankan luxury. A beautiful villa with full staff, a personal chef, and a chauffeur-driven car. The island's best experiences are at your fingertips, from private beach villas to exclusive wildlife encounters, with enormous surplus for global travel."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Sprawling estate compound in Colombo 7 or beachfront villa complex on the south coast",
+        "monthlyCost": 5000
+      },
+      "dining": {
+        "description": "Personal chef team, catered events, exclusive dining experiences",
+        "monthlyCost": 2000
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "Elite global health plan, personal wellness team, annual executive health screening in Singapore",
+        "monthlyCost": 800
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, full-time chauffeur, private seaplane and helicopter charters",
+        "monthlyCost": 1200
+      },
+      "entertainment": {
+        "description": "Private island retreats, art patronage, exclusive cultural events, luxury global travel",
+        "monthlyCost": 2000
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "domesticHelp": {
+        "description": "Full household staff: chef, butler, housekeepers, gardeners, security team, personal assistant",
+        "monthlyCost": 1500
+      },
+      "luxuryExtras": {
+        "description": "Property portfolio, yacht, first-class global travel, philanthropic foundations, tea estate investment",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At this level in Sri Lanka, your wealth is extraordinary by local standards. Multiple properties, a full staff, philanthropic endeavors, and the ability to live a truly global lifestyle with Sri Lanka as your tropical home base. Most of your budget will go unspent or into investments."
+    }
+  }
+}

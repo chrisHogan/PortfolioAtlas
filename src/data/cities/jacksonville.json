@@ -1,0 +1,194 @@
+{
+  "name": "Jacksonville",
+  "country": "United States",
+  "region": "North America",
+  "slug": "jacksonville",
+  "emoji": "🇺🇸",
+  "fireScore": 6.0,
+  "tagline": "Beach Living, No State Income Tax, and Florida's Most Affordable Major City",
+  "description": "Jacksonville is Florida's largest city by area, offering miles of Atlantic beaches, a revitalizing downtown, and some of the most affordable housing in the Sunshine State. With no state income tax, a growing food scene in the Five Points and Riverside neighborhoods, and easy access to both St. Augustine and Amelia Island, Jacksonville is an underrated FIRE destination that combines beach-town living with big-city infrastructure.",
+  "tags": {
+    "climate": "subtropical",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "EST (UTC-5)",
+    "language": "English",
+    "internetSpeed": "150+ Mbps average",
+    "safetyRating": "Moderate – varies by neighborhood",
+    "nearestAirport": "Jacksonville International Airport (JAX)",
+    "climate": "Subtropical with hot humid summers and mild winters",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "68°F / 20°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in Riverside, Murray Hill, or Arlington",
+        "monthlyCost": 1250
+      },
+      "dining": {
+        "description": "Casual seafood shacks, taco spots, and diners 2-3x/week; mostly cooking at home",
+        "monthlyCost": 230
+      },
+      "groceries": {
+        "monthlyCost": 370
+      },
+      "healthcare": {
+        "description": "ACA marketplace Silver plan through Florida exchange",
+        "monthlyCost": 530
+      },
+      "transportation": {
+        "description": "Older paid-off car with insurance and gas; a car is essential in Jacksonville",
+        "monthlyCost": 270
+      },
+      "entertainment": {
+        "description": "Beach days, Riverwalk strolls, free concerts at the Landing, fishing from piers",
+        "monthlyCost": 80
+      },
+      "utilities": {
+        "monthlyCost": 170
+      },
+      "lifestyle": "Jacksonville at the $1M level is genuinely manageable thanks to Florida's zero income tax and lower housing costs compared to Tampa or Miami. You will live simply but can enjoy the beach lifestyle year-round. Summer humidity means A/C is non-negotiable, but otherwise your dollar stretches further here than most Florida cities."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Spacious 2BR in San Marco, Avondale, or a condo near Jacksonville Beach",
+        "monthlyCost": 1900
+      },
+      "dining": {
+        "description": "Regular dining at Riverside and beach restaurants; weekend brunch culture",
+        "monthlyCost": 500
+      },
+      "groceries": {
+        "monthlyCost": 470
+      },
+      "healthcare": {
+        "description": "ACA Gold plan with dental and vision add-ons",
+        "monthlyCost": 620
+      },
+      "transportation": {
+        "description": "Reliable mid-range car with full coverage insurance",
+        "monthlyCost": 380
+      },
+      "entertainment": {
+        "description": "Jaguars games, surfing gear, gym membership, day trips to St. Augustine and Amelia Island",
+        "monthlyCost": 280
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "lifestyle": "At $6,667/month Jacksonville becomes very comfortable. You can live in a charming neighborhood like San Marco, eat out regularly at the growing restaurant scene, and fully embrace the beach lifestyle. Weekend trips to historic St. Augustine or the quiet beauty of Amelia Island are easy and affordable."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR waterfront home in Ortega, San Jose, or a beachfront condo in Ponte Vedra",
+        "monthlyCost": 2800
+      },
+      "dining": {
+        "description": "Top Jacksonville restaurants like Restaurant Orsay, Town Hall, and Cowford Chophouse regularly",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "Premium private insurance with comprehensive coverage through Mayo Clinic Jacksonville",
+        "monthlyCost": 700
+      },
+      "transportation": {
+        "description": "Late-model SUV, premium insurance, occasional rideshare",
+        "monthlyCost": 480
+      },
+      "entertainment": {
+        "description": "Boat ownership, TPC Sawgrass access, premium Jaguars tickets, fishing charters",
+        "monthlyCost": 550
+      },
+      "utilities": {
+        "monthlyCost": 280
+      },
+      "lifestyle": "Life is excellent at this tier in Jacksonville. A waterfront home, a boat for fishing the St. Johns River or Intracoastal, access to world-class golf at TPC Sawgrass, and Mayo Clinic healthcare. Jacksonville's affordability means $10K/month buys a lifestyle that would cost $15K in South Florida."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury waterfront estate in Epping Forest, San Jose, or oceanfront in Ponte Vedra Beach",
+        "monthlyCost": 4500
+      },
+      "dining": {
+        "description": "Fine dining multiple times weekly, private chef for entertaining, wine club memberships",
+        "monthlyCost": 1300
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "Concierge medicine through Mayo Clinic Jacksonville executive program",
+        "monthlyCost": 1000
+      },
+      "transportation": {
+        "description": "Luxury vehicle, premium insurance, boat maintenance and marina fees",
+        "monthlyCost": 900
+      },
+      "entertainment": {
+        "description": "TPC Sawgrass membership, deep-sea fishing, premium sporting events, cultural arts",
+        "monthlyCost": 900
+      },
+      "utilities": {
+        "monthlyCost": 380
+      },
+      "domesticHelp": {
+        "description": "Bi-weekly house cleaning, landscaping, pool and dock maintenance, occasional assistant",
+        "monthlyCost": 800
+      },
+      "luxuryExtras": {
+        "description": "Quarterly luxury travel, yacht upgrades, premium golf trips, philanthropy",
+        "monthlyCost": 1500
+      },
+      "lifestyle": "At this level Jacksonville's waterfront lifestyle reaches its peak. An estate on the river or oceanfront in Ponte Vedra, membership at TPC Sawgrass, a well-appointed boat, and Mayo Clinic concierge care. Florida's zero income tax means your $5M portfolio works as hard as possible."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Oceanfront estate in Ponte Vedra or historic riverfront mansion in Ortega",
+        "monthlyCost": 9000
+      },
+      "dining": {
+        "description": "Personal chef, exclusive private dining experiences, catered events at home",
+        "monthlyCost": 2800
+      },
+      "groceries": {
+        "monthlyCost": 1000
+      },
+      "healthcare": {
+        "description": "Top-tier Mayo Clinic concierge medicine, executive wellness, holistic care",
+        "monthlyCost": 1500
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, yacht with captain, private car service",
+        "monthlyCost": 2000
+      },
+      "entertainment": {
+        "description": "Private box at EverBank Stadium, international fishing trips, art collecting, philanthropy",
+        "monthlyCost": 2500
+      },
+      "utilities": {
+        "monthlyCost": 550
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, personal assistant, boat crew, grounds and pool maintenance team",
+        "monthlyCost": 4200
+      },
+      "luxuryExtras": {
+        "description": "First-class international travel, yacht trips through the Keys, charitable foundations, real estate investing",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "Jacksonville at the $10M level is a water lover's paradise. An oceanfront estate, a fully crewed yacht, world-class healthcare at Mayo Clinic, and the freedom to travel internationally whenever you wish. The zero state income tax makes this one of the most tax-efficient luxury lifestyles in America."
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "name": "Hong Kong",
+  "country": "China",
+  "region": "East Asia",
+  "slug": "hong-kong",
+  "emoji": "🇭🇰",
+  "fireScore": 4.8,
+  "tagline": "Asia's World City — Dazzling but Demanding on the Wallet",
+  "description": "Hong Kong is one of the most expensive cities on Earth, driven primarily by astronomical housing costs on a small, mountainous territory. Yet it also offers tax-free shopping, Michelin-starred street food, one of the world's best MTR systems, and an electric cultural energy that blends East and West like nowhere else. English is widely spoken, healthcare is excellent, and the food scene is legendary. For those with sufficient portfolios, Hong Kong delivers a lifestyle that is hard to replicate anywhere else in Asia.",
+  "tags": {
+    "climate": "subtropical",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "90-day visa-free for US citizens; various employment and investment visas for long-term stays",
+    "timezone": "HKT (UTC+8)",
+    "language": "Cantonese / English",
+    "internetSpeed": "250+ Mbps average",
+    "safetyRating": "Very High – extremely low violent crime",
+    "nearestAirport": "Hong Kong International Airport (HKG)",
+    "climate": "Subtropical with hot humid summers and cool dry winters",
+    "englishFriendly": "High",
+    "currency": "HKD",
+    "averageTemp": "74°F / 23°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Tiny studio or subdivided flat in Sham Shui Po, Mong Kok, or outer New Territories",
+        "monthlyCost": 1500
+      },
+      "dining": {
+        "description": "Dai pai dong street stalls, cha chaan teng cafes, and local noodle shops daily",
+        "monthlyCost": 350
+      },
+      "groceries": {
+        "monthlyCost": 300
+      },
+      "healthcare": {
+        "description": "Public hospital system — long waits but very affordable; basic private insurance supplement",
+        "monthlyCost": 200
+      },
+      "transportation": {
+        "description": "Octopus card for MTR, buses, and ferries — the system is superb",
+        "monthlyCost": 80
+      },
+      "entertainment": {
+        "description": "Hiking trails on Lantau and Dragon's Back, free temple visits, harbor walks",
+        "monthlyCost": 100
+      },
+      "utilities": {
+        "monthlyCost": 120
+      },
+      "lifestyle": "Hong Kong on a $1M portfolio is genuinely challenging. Your apartment will be very small — think 200-300 square feet — and you will need to be disciplined about spending. However, the street food is incredible and cheap, the hiking is world-class and free, and the MTR gets you anywhere fast. It is a thrilling city even on a tight budget, but space is the constant compromise."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Small 1BR apartment in Wan Chai, Sheung Wan, or a decent flat in Tsim Sha Tsui",
+        "monthlyCost": 2500
+      },
+      "dining": {
+        "description": "Mix of street food and mid-range restaurants; dim sum brunches, izakayas, and rooftop bars",
+        "monthlyCost": 700
+      },
+      "groceries": {
+        "monthlyCost": 450
+      },
+      "healthcare": {
+        "description": "Private health insurance with access to quality private hospitals and clinics",
+        "monthlyCost": 350
+      },
+      "transportation": {
+        "description": "Octopus card plus occasional taxis and weekend ferries to outlying islands",
+        "monthlyCost": 120
+      },
+      "entertainment": {
+        "description": "Junk boat trips, gym membership, cultural events, weekend trips to Macau or Lamma Island",
+        "monthlyCost": 350
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "At this level Hong Kong starts to become enjoyable rather than merely survivable. You can afford a proper apartment in a lively neighborhood, eat well at the city's incredible range of restaurants, and participate in the social scene. Your apartment will still be compact by Western standards, but you will be living in one of the world's most exciting cities with real comfort."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "2BR apartment in Mid-Levels, Happy Valley, or a spacious flat in Kennedy Town",
+        "monthlyCost": 4000
+      },
+      "dining": {
+        "description": "Regular fine dining, private kitchen restaurants, Michelin dim sum, cocktail bars in Central",
+        "monthlyCost": 1200
+      },
+      "groceries": {
+        "monthlyCost": 550
+      },
+      "healthcare": {
+        "description": "Comprehensive private insurance with access to top hospitals like Matilda and Adventist",
+        "monthlyCost": 450
+      },
+      "transportation": {
+        "description": "MTR and taxis freely; occasional car hire for New Territories exploration",
+        "monthlyCost": 250
+      },
+      "entertainment": {
+        "description": "Junk boat charters, premium gym, art gallery openings, weekend trips to Shenzhen or Macau",
+        "monthlyCost": 600
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "lifestyle": "This is where Hong Kong truly rewards you. A real apartment in an exciting neighborhood, the ability to enjoy the city's legendary restaurant scene without counting every dollar, and weekend escapes to the islands or across the border to mainland China. The energy, convenience, and cultural richness of Hong Kong at this level is unmatched."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Spacious 3BR apartment on The Peak, in Repulse Bay, or a premium flat in Pokfulam",
+        "monthlyCost": 6500
+      },
+      "dining": {
+        "description": "Michelin-starred restaurants weekly, private dining clubs, premium wine and sake collections",
+        "monthlyCost": 2000
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "VIP private healthcare with same-day specialist access and international evacuation coverage",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "Premium car with parking (a true luxury in HK), taxis freely, first-class regional travel",
+        "monthlyCost": 1000
+      },
+      "entertainment": {
+        "description": "Private junk boat charters, exclusive club memberships (China Club, Hong Kong Club), premium events",
+        "monthlyCost": 1200
+      },
+      "utilities": {
+        "monthlyCost": 300
+      },
+      "domesticHelp": {
+        "description": "Full-time live-in domestic helper (common in HK), weekly deep cleaning service",
+        "monthlyCost": 800
+      },
+      "luxuryExtras": {
+        "description": "First-class travel across Asia, luxury shopping, art collecting, exclusive wine auctions",
+        "monthlyCost": 1500
+      },
+      "lifestyle": "You are now living Hong Kong as it was meant to be experienced by the well-heeled. A spacious apartment with harbour or ocean views — a genuine rarity — a live-in helper, and access to the city's most exclusive clubs and restaurants. Hong Kong's position as Asia's crossroads means weekend trips to Tokyo, Bali, or Bangkok are effortless."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Luxury house on The Peak or a premium seafront property in Stanley or Deep Water Bay",
+        "monthlyCost": 13000
+      },
+      "dining": {
+        "description": "Personal chef, private dining at the city's most exclusive restaurants, hosted wine dinners",
+        "monthlyCost": 3500
+      },
+      "groceries": {
+        "monthlyCost": 1000
+      },
+      "healthcare": {
+        "description": "Top-tier concierge medicine with international hospital network and wellness programs",
+        "monthlyCost": 800
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles with driver, first-class international travel, helicopter transfers",
+        "monthlyCost": 2500
+      },
+      "entertainment": {
+        "description": "Art Basel VIP, private yacht, exclusive memberships, philanthropic galas, international events",
+        "monthlyCost": 3000
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Multiple live-in staff including helper, cook, driver, and personal assistant",
+        "monthlyCost": 3000
+      },
+      "luxuryExtras": {
+        "description": "Private jet access, yacht berth, fine art acquisitions, international property, philanthropy",
+        "monthlyCost": 4000
+      },
+      "lifestyle": "At this level Hong Kong is a glittering playground. A house on The Peak with panoramic harbour views, a full staff, a private yacht moored at Aberdeen Marina, and VIP access to Art Basel and every major event. Hong Kong's unique position at the intersection of East and West, combined with its low tax regime, makes it one of the world's ultimate addresses for the truly wealthy."
+    }
+  }
+}

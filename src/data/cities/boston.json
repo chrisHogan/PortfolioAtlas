@@ -1,0 +1,194 @@
+{
+  "name": "Boston",
+  "country": "United States",
+  "region": "North America",
+  "slug": "boston",
+  "emoji": "🇺🇸",
+  "fireScore": 4.5,
+  "tagline": "World-Class Healthcare, History, and New England Charm",
+  "description": "Boston is one of America's most expensive cities but rewards residents with exceptional healthcare access, walkable neighborhoods, rich history, and a vibrant intellectual culture anchored by Harvard and MIT. The city's compact size, excellent public transit, and four distinct seasons create a European feel rare in the US. FIRE retirees face high housing and healthcare costs, but those who value culture, education, and medical access will find Boston hard to beat.",
+  "tags": {
+    "climate": "continental",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "EST (UTC-5)",
+    "language": "English",
+    "internetSpeed": "200+ Mbps average",
+    "safetyRating": "Moderate – safe in most neighborhoods, typical urban caution advised",
+    "nearestAirport": "Boston Logan International (BOS)",
+    "climate": "Continental with cold, snowy winters and warm, humid summers",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "51°F / 11°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Studio or small 1BR in Dorchester, Revere, or Quincy (outside city center)",
+        "monthlyCost": 1800
+      },
+      "dining": {
+        "description": "Cheap eats in Chinatown and food courts 2x/week; mostly cooking at home",
+        "monthlyCost": 200
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "Massachusetts Health Connector Silver plan; MA has strong ACA marketplace",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "MBTA monthly pass (subway and bus); no car needed",
+        "monthlyCost": 100
+      },
+      "entertainment": {
+        "description": "Freedom Trail walks, free museum days, Boston Common and Public Garden",
+        "monthlyCost": 80
+      },
+      "utilities": {
+        "monthlyCost": 160
+      },
+      "lifestyle": "Boston on a $1M portfolio is very tight. You will need to live in an outer neighborhood and rely heavily on the T for transportation. The upside is excellent public transit, free cultural attractions, and some of the best healthcare access in the country. Winters will test your budget with heating costs, but summers along the Charles River are priceless."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "1BR or 2BR apartment in Jamaica Plain, Somerville, or Cambridge",
+        "monthlyCost": 2800
+      },
+      "dining": {
+        "description": "Dining out 3-4x/week in the North End, South End, and Cambridge",
+        "monthlyCost": 600
+      },
+      "groceries": {
+        "monthlyCost": 550
+      },
+      "healthcare": {
+        "description": "MA Health Connector Gold plan with dental; access to world-class hospitals",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "MBTA pass with occasional Uber; still no car needed in Cambridge/Somerville",
+        "monthlyCost": 200
+      },
+      "entertainment": {
+        "description": "Red Sox standing room tickets, museum memberships, gym, harbor cruises",
+        "monthlyCost": 350
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "lifestyle": "At this level Boston becomes genuinely enjoyable. You can live in a charming neighborhood like Jamaica Plain or Cambridge, enjoy the legendary Italian restaurants in the North End, and attend Red Sox games. The city's walkability and transit system mean you can skip car ownership entirely."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "2BR condo in Back Bay, Beacon Hill brownstone, or waterfront Seaport unit",
+        "monthlyCost": 4000
+      },
+      "dining": {
+        "description": "Regular dining at top restaurants like Oleana, No. 9 Park, Neptune Oyster",
+        "monthlyCost": 900
+      },
+      "groceries": {
+        "monthlyCost": 650
+      },
+      "healthcare": {
+        "description": "Premium private insurance with Mass General and Brigham & Women's networks",
+        "monthlyCost": 750
+      },
+      "transportation": {
+        "description": "Zipcar membership, frequent rideshare, MBTA pass, occasional weekend car rental",
+        "monthlyCost": 350
+      },
+      "entertainment": {
+        "description": "Red Sox season tickets, BSO subscriptions, sailing on the Charles, premium gym",
+        "monthlyCost": 550
+      },
+      "utilities": {
+        "monthlyCost": 280
+      },
+      "lifestyle": "Boston at this budget is a dream for history and culture lovers. A Beacon Hill brownstone or Back Bay condo puts you in the heart of one of America's most walkable cities. You can enjoy world-class dining, Red Sox games from proper seats, and weekend drives to Cape Cod or the Berkshires."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury brownstone in Beacon Hill, premium Seaport penthouse, or Brookline estate",
+        "monthlyCost": 6000
+      },
+      "dining": {
+        "description": "Fine dining multiple times per week, private chef for dinner parties",
+        "monthlyCost": 1500
+      },
+      "groceries": {
+        "monthlyCost": 800
+      },
+      "healthcare": {
+        "description": "Concierge medicine at Mass General; executive health programs at Dana-Farber",
+        "monthlyCost": 1100
+      },
+      "transportation": {
+        "description": "Luxury vehicle for weekends, private car service, premium parking",
+        "monthlyCost": 800
+      },
+      "entertainment": {
+        "description": "Red Sox box seats, BSO patron membership, sailing club, Nantucket weekends",
+        "monthlyCost": 1000
+      },
+      "utilities": {
+        "monthlyCost": 400
+      },
+      "domesticHelp": {
+        "description": "Weekly deep cleaning, seasonal property maintenance, personal assistant",
+        "monthlyCost": 900
+      },
+      "luxuryExtras": {
+        "description": "Cape Cod summer rental, ski weekends in Vermont, art collecting, philanthropy",
+        "monthlyCost": 1500
+      },
+      "lifestyle": "You are living Boston's finest at this level. A stunning Beacon Hill brownstone, dinners at the city's most exclusive restaurants, and weekends on Nantucket or Martha's Vineyard. Access to the best hospitals in the world provides unmatched peace of mind for your retirement years."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Historic Beacon Hill mansion, waterfront estate in Marblehead, or Seaport triplex",
+        "monthlyCost": 12000
+      },
+      "dining": {
+        "description": "Personal chef, exclusive wine dinners, catered events in historic settings",
+        "monthlyCost": 3000
+      },
+      "groceries": {
+        "monthlyCost": 1200
+      },
+      "healthcare": {
+        "description": "Top-tier concierge at Partners Healthcare, executive screenings, international medical access",
+        "monthlyCost": 1500
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, private driver, classic car storage",
+        "monthlyCost": 1800
+      },
+      "entertainment": {
+        "description": "Private box at Fenway, philanthropic galas at the MFA, Harvard club membership",
+        "monthlyCost": 2500
+      },
+      "utilities": {
+        "monthlyCost": 600
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, personal assistant, property manager, seasonal estate staff",
+        "monthlyCost": 4500
+      },
+      "luxuryExtras": {
+        "description": "Cape Cod summer home, first-class international travel, art patronage, endowment giving",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At this level Boston becomes a gilded New England experience. A historic mansion, private box at Fenway Park, and the ability to support Harvard and the MFA as a major patron. Summers on the Cape and winters in the Caribbean, all anchored by the finest healthcare system in the world."
+    }
+  }
+}

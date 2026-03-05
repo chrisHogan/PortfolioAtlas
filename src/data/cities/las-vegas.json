@@ -1,0 +1,194 @@
+{
+  "name": "Las Vegas",
+  "country": "United States",
+  "region": "North America",
+  "slug": "las-vegas",
+  "emoji": "🇺🇸",
+  "fireScore": 5.4,
+  "tagline": "No State Income Tax, Endless Entertainment, and Desert Sun",
+  "description": "Las Vegas offers FIRE retirees a unique combination of zero state income tax, surprisingly affordable housing outside the Strip corridor, and world-class entertainment at every price point. The desert climate means low humidity and over 300 sunny days per year. While the city's reputation centers on gambling, locals enjoy a growing food scene, Red Rock Canyon hiking, and easy access to Utah's national parks.",
+  "tags": {
+    "climate": "desert",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "PST (UTC-8)",
+    "language": "English",
+    "internetSpeed": "200+ Mbps average",
+    "safetyRating": "Moderate – varies by neighborhood",
+    "nearestAirport": "Harry Reid International Airport (LAS)",
+    "climate": "Desert with extremely hot summers and mild winters",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "67°F / 19°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in Henderson or Summerlin South",
+        "monthlyCost": 1350
+      },
+      "dining": {
+        "description": "Cheap casino buffets and fast-casual spots 2-3x/week; mostly cooking at home",
+        "monthlyCost": 250
+      },
+      "groceries": {
+        "monthlyCost": 380
+      },
+      "healthcare": {
+        "description": "ACA marketplace Silver plan; Nevada exchange options are moderate",
+        "monthlyCost": 520
+      },
+      "transportation": {
+        "description": "Older paid-off car with insurance and gas; a car is essential here",
+        "monthlyCost": 280
+      },
+      "entertainment": {
+        "description": "Free Strip walks, Red Rock Canyon hikes, occasional discounted show tickets",
+        "monthlyCost": 100
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "lifestyle": "Living on $3,333/month in Vegas means staying well outside the tourist corridor and resisting the temptation to gamble. You can manage it, especially with cheap dining options and free entertainment everywhere. Summer electric bills for A/C will be a major expense, but overall costs are lower than most Western cities."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Nice 2BR apartment in Summerlin or a condo in Green Valley",
+        "monthlyCost": 1900
+      },
+      "dining": {
+        "description": "Mid-range restaurants 3-4x/week; occasional Strip dining deals",
+        "monthlyCost": 550
+      },
+      "groceries": {
+        "monthlyCost": 480
+      },
+      "healthcare": {
+        "description": "ACA Gold plan with dental and vision coverage",
+        "monthlyCost": 620
+      },
+      "transportation": {
+        "description": "Reliable mid-range car with full coverage insurance",
+        "monthlyCost": 400
+      },
+      "entertainment": {
+        "description": "Regular show tickets, gym membership, golf at public courses, day trips to Valley of Fire",
+        "monthlyCost": 350
+      },
+      "utilities": {
+        "monthlyCost": 230
+      },
+      "lifestyle": "At this budget Vegas really starts to shine. You can enjoy the endless entertainment options, dine well several times a week, and live in a comfortable suburban community. Weekend trips to Zion, Grand Canyon, or Death Valley are easy additions. No state income tax keeps more money in your pocket."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR house in Summerlin or Southern Highlands with a pool",
+        "monthlyCost": 2800
+      },
+      "dining": {
+        "description": "Fine dining on the Strip at restaurants by celebrity chefs; regular sushi and steakhouse visits",
+        "monthlyCost": 900
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "Premium private health insurance with comprehensive coverage",
+        "monthlyCost": 750
+      },
+      "transportation": {
+        "description": "Late-model SUV, premium insurance, occasional rideshare to the Strip",
+        "monthlyCost": 500
+      },
+      "entertainment": {
+        "description": "Premium show seats, golf club membership, spa visits, regular concerts and events",
+        "monthlyCost": 600
+      },
+      "utilities": {
+        "monthlyCost": 300
+      },
+      "lifestyle": "This is the sweet spot for Vegas living. A house with a pool in a master-planned community, celebrity-chef dinners whenever you want, front-row seats at Cirque du Soleil, and plenty left over for road trips across the Southwest. The zero income tax advantage really compounds at this spending level."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury home in The Ridges, MacDonald Highlands, or a high-rise condo on the Strip",
+        "monthlyCost": 4800
+      },
+      "dining": {
+        "description": "VIP dining experiences at Joël Robuchon, Bazaar Meat; private chef for home entertaining",
+        "monthlyCost": 1500
+      },
+      "groceries": {
+        "monthlyCost": 750
+      },
+      "healthcare": {
+        "description": "Concierge medicine with executive health screenings",
+        "monthlyCost": 1000
+      },
+      "transportation": {
+        "description": "Luxury vehicle, premium insurance, car detailing service",
+        "monthlyCost": 800
+      },
+      "entertainment": {
+        "description": "VIP nightlife, premium golf club, courtside NBA seats, exclusive shows and events",
+        "monthlyCost": 1000
+      },
+      "utilities": {
+        "monthlyCost": 400
+      },
+      "domesticHelp": {
+        "description": "Bi-weekly deep cleaning, pool service, landscaping, occasional personal assistant",
+        "monthlyCost": 900
+      },
+      "luxuryExtras": {
+        "description": "High-roller experiences, quarterly luxury travel, spa packages, fine wine collection",
+        "monthlyCost": 1800
+      },
+      "lifestyle": "Vegas rolls out the red carpet at this tier. A stunning home in a gated community with Strip views, VIP treatment everywhere you go, and the best shows and dining the city offers. You can enjoy the high-roller lifestyle without actually gambling your retirement away."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Custom estate in The Summit or penthouse suite in a luxury Strip tower",
+        "monthlyCost": 10000
+      },
+      "dining": {
+        "description": "Personal chef, exclusive private dining rooms, catered events and parties",
+        "monthlyCost": 3000
+      },
+      "groceries": {
+        "monthlyCost": 1000
+      },
+      "healthcare": {
+        "description": "Top-tier concierge medical practice, executive wellness programs, holistic care",
+        "monthlyCost": 1500
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, private car service, occasional charter flights",
+        "monthlyCost": 1800
+      },
+      "entertainment": {
+        "description": "Private casino hosts, front-row everything, art collecting, international travel, philanthropy",
+        "monthlyCost": 2500
+      },
+      "utilities": {
+        "monthlyCost": 600
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, personal assistant, pool and grounds maintenance team",
+        "monthlyCost": 4000
+      },
+      "luxuryExtras": {
+        "description": "Private jet trips, luxury suite entertaining, real estate investments, charitable foundations",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At $33K/month Las Vegas becomes your personal entertainment empire. A sprawling estate or iconic penthouse, a personal chef, VIP everything, and the freedom to fly private to LA or Aspen on a whim. Nevada's zero income tax means your $10M portfolio works harder than almost anywhere else in the country."
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "name": "Accra",
+  "country": "Ghana",
+  "region": "Africa",
+  "slug": "accra",
+  "emoji": "🇬🇭",
+  "fireScore": 7.2,
+  "tagline": "West Africa's Friendliest City with Beaches, Culture, and Growing Modernity",
+  "description": "Accra is one of Africa's most welcoming cities for expats, with English as the official language, a stable democracy, and a warm, open culture that makes newcomers feel at home quickly. The city offers Atlantic Ocean beaches, a vibrant nightlife and music scene rooted in highlife and afrobeats, and a rapidly modernizing infrastructure. For FIRE retirees, Accra delivers strong value with affordable housing, excellent tropical fruit and seafood, and a growing community of international residents. Ghana's Year of Return initiative has made the country especially popular with African American retirees.",
+  "tags": {
+    "climate": "tropical",
+    "english": "moderate"
+  },
+  "quickFacts": {
+    "visa": "Visa required for US citizens; available on arrival or online; long-term residence permits available",
+    "timezone": "GMT (UTC+0)",
+    "language": "English (official) / Twi / Ga",
+    "internetSpeed": "20-40 Mbps average",
+    "safetyRating": "Good – one of the safest countries in West Africa",
+    "nearestAirport": "Kotoka International Airport (ACC)",
+    "climate": "Tropical savanna with hot temperatures year-round and a rainy season",
+    "englishFriendly": "Moderate – English is official but local languages dominate daily life",
+    "currency": "GHS (Ghanaian Cedi)",
+    "averageTemp": "80°F / 27°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Modern 2BR apartment in East Legon, Osu, or Airport Residential with security",
+        "monthlyCost": 650
+      },
+      "dining": {
+        "description": "Regular dining at chop bars and local restaurants; jollof rice, banku, and grilled tilapia daily",
+        "monthlyCost": 180
+      },
+      "groceries": {
+        "monthlyCost": 220
+      },
+      "healthcare": {
+        "description": "Private health insurance with access to Nyaho Medical Centre and other private clinics",
+        "monthlyCost": 200
+      },
+      "transportation": {
+        "description": "Uber and Bolt daily; much easier than owning a car in Accra traffic",
+        "monthlyCost": 150
+      },
+      "entertainment": {
+        "description": "Labadi Beach, live highlife and afrobeats shows, Art Centre markets, Aburi Botanical Gardens",
+        "monthlyCost": 130
+      },
+      "utilities": {
+        "monthlyCost": 120
+      },
+      "lifestyle": "Accra at $3,333/month offers a very comfortable life. You can live in a modern, secure apartment in one of the best neighborhoods, eat incredible Ghanaian food daily, and enjoy the beach and nightlife regularly. The warmth of Ghanaian people makes daily life a joy. Power outages (dumsor) can be an annoyance, but a generator or inverter solves this."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Spacious 3BR house in Cantonments, East Legon, or Trasacco Valley with garden and security",
+        "monthlyCost": 1380
+      },
+      "dining": {
+        "description": "Regular dining at Accra's best restaurants like Buka, Santoku, and The Republic; beach bars",
+        "monthlyCost": 350
+      },
+      "groceries": {
+        "monthlyCost": 300
+      },
+      "healthcare": {
+        "description": "Comprehensive private insurance with dental, specialist, and international evacuation coverage",
+        "monthlyCost": 300
+      },
+      "transportation": {
+        "description": "Reliable SUV with insurance for both city driving and road trips along the coast",
+        "monthlyCost": 280
+      },
+      "entertainment": {
+        "description": "Beach club memberships, weekend trips to Cape Coast and Elmina, Ada Foah, Volta Region, gym, live music",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 180
+      },
+      "lifestyle": "At $6,667/month Accra delivers a genuinely luxurious West African lifestyle. A beautiful house with a garden, full-time domestic help, beach weekends, and regular exploration of Ghana's rich history and coastline. The expat community is vibrant and welcoming, and your budget places you firmly in the upper tier of Accra society."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Luxury 4BR villa in Trasacco Valley, Airport Hills, or a beachfront property in La",
+        "monthlyCost": 2600
+      },
+      "dining": {
+        "description": "Fine dining at top Accra restaurants, private dinner parties, imported wine and spirits",
+        "monthlyCost": 500
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "Premium private insurance with international coverage and medical evacuation",
+        "monthlyCost": 400
+      },
+      "transportation": {
+        "description": "Late-model SUV, full insurance, private driver for daily errands",
+        "monthlyCost": 400
+      },
+      "entertainment": {
+        "description": "Exclusive club memberships, premium beach clubs, luxury coastal retreats, art collecting, Chale Wote festival VIP",
+        "monthlyCost": 800
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "lifestyle": "At $10K/month you are living at the very top of Accra society. A stunning villa with full staff, a cook who prepares fresh Ghanaian and international dishes daily, a private driver, and the resources to explore every corner of Ghana and West Africa. The combination of tropical warmth, cultural richness, and genuine community is hard to replicate anywhere."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Grand estate in Trasacco Valley or exclusive beachfront compound with pool and gardens",
+        "monthlyCost": 3500
+      },
+      "dining": {
+        "description": "Personal chef, exclusive dining experiences, catered events at home",
+        "monthlyCost": 700
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "Top-tier international private insurance with global coverage and concierge service",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "Luxury SUV, full-time driver, domestic flights to Kumasi and Tamale",
+        "monthlyCost": 500
+      },
+      "entertainment": {
+        "description": "Exclusive memberships, art patronage, Afrobeats concerts, international travel, beach events",
+        "monthlyCost": 600
+      },
+      "utilities": {
+        "monthlyCost": 350
+      },
+      "domesticHelp": {
+        "description": "Full household staff: housekeeper, chef, gardener, security team, driver, personal assistant",
+        "monthlyCost": 650
+      },
+      "luxuryExtras": {
+        "description": "First-class international travel, real estate investments, major philanthropy, cultural sponsorship",
+        "monthlyCost": 2000
+      },
+      "lifestyle": "Accra at $16,667/month is living like Ghanaian royalty. A grand compound with full staff, a personal chef, first-class travel, and the social capital to host major cultural events. Ghana's stability and warmth make this an incredibly rewarding place to build a philanthropic legacy while enjoying an extraordinary quality of daily life."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Trophy estate in Trasacco Valley or private beachfront compound with guest houses",
+        "monthlyCost": 5500
+      },
+      "dining": {
+        "description": "Personal chef team, exclusive private dining, catered diplomatic-level events",
+        "monthlyCost": 1200
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "Top-tier international concierge medicine, executive wellness, global medical evacuation",
+        "monthlyCost": 700
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, full-time driver team, private charter flights",
+        "monthlyCost": 1000
+      },
+      "entertainment": {
+        "description": "Major cultural patronage, international art collecting, global philanthropy, event hosting",
+        "monthlyCost": 1800
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full estate staff: multiple housekeepers, chef team, security detail, drivers, personal assistant, property manager",
+        "monthlyCost": 1800
+      },
+      "luxuryExtras": {
+        "description": "Real estate portfolio, first-class global travel, major educational and community philanthropy, business investments",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At $33K/month in Accra you have the resources to live magnificently and make a transformative impact. A grand estate with a full staff, the ability to fund schools, healthcare, and cultural programs, first-class global travel, and a lifestyle that blends luxury with deep purpose. Ghana's welcoming culture and stable democracy make this one of Africa's most rewarding places to build a meaningful legacy."
+    }
+  }
+}

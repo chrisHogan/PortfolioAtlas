@@ -1,0 +1,194 @@
+{
+  "name": "Charlotte",
+  "country": "United States",
+  "region": "North America",
+  "slug": "charlotte",
+  "emoji": "🇺🇸",
+  "fireScore": 5.8,
+  "tagline": "Banking Capital of the South with Big-City Amenities and Southern Charm",
+  "description": "Charlotte delivers a surprising amount of big-city polish at mid-tier prices. As the second-largest financial center in the US, it offers excellent infrastructure, a growing food and brewery scene, and easy access to both the Blue Ridge Mountains and Carolina beaches. North Carolina's moderate tax burden and affordable housing make it a practical FIRE destination for those who want urban convenience without coastal price tags.",
+  "tags": {
+    "climate": "subtropical",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "EST (UTC-5)",
+    "language": "English",
+    "internetSpeed": "200+ Mbps average",
+    "safetyRating": "Moderate – typical large US city",
+    "nearestAirport": "Charlotte Douglas International Airport (CLT)",
+    "climate": "Subtropical with hot humid summers and mild winters",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "61°F / 16°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in Plaza Midwood, NoDa, or University area",
+        "monthlyCost": 1400
+      },
+      "dining": {
+        "description": "Casual Southern restaurants and food trucks 2-3x/week; mostly cooking at home",
+        "monthlyCost": 250
+      },
+      "groceries": {
+        "monthlyCost": 380
+      },
+      "healthcare": {
+        "description": "ACA marketplace Silver plan through NC exchange",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "Older paid-off car with insurance and gas; LYNX light rail for uptown trips",
+        "monthlyCost": 270
+      },
+      "entertainment": {
+        "description": "Free festivals, greenway trails, brewery happy hours, Panthers watch parties",
+        "monthlyCost": 100
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "Charlotte on a $1M portfolio is doable but tight. You will need to be strategic about housing location and cook most meals at home. The good news is Charlotte has plenty of free entertainment, excellent greenway trails, and a mild enough climate that utility bills stay reasonable most of the year."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Spacious 2BR apartment in South End or Dilworth, or a townhome in Ballantyne",
+        "monthlyCost": 2100
+      },
+      "dining": {
+        "description": "Regular dinners at mid-range restaurants in South End; weekend brunch spots",
+        "monthlyCost": 550
+      },
+      "groceries": {
+        "monthlyCost": 480
+      },
+      "healthcare": {
+        "description": "ACA Gold plan with dental and vision add-ons",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "Reliable mid-range car with full coverage; occasional LYNX rail use",
+        "monthlyCost": 380
+      },
+      "entertainment": {
+        "description": "Hornets and Panthers games, brewery tours, Whitewater Center membership, concerts at PNC",
+        "monthlyCost": 300
+      },
+      "utilities": {
+        "monthlyCost": 180
+      },
+      "lifestyle": "This budget unlocks a genuinely comfortable Charlotte life. You can live in a trendy neighborhood, enjoy the booming food and craft beer scene regularly, and take weekend trips to the mountains or coast. The Whitewater Center alone offers world-class outdoor recreation at your doorstep."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR house in Myers Park, Eastover, or a luxury condo in uptown Charlotte",
+        "monthlyCost": 3000
+      },
+      "dining": {
+        "description": "Top Charlotte restaurants like The Stanley, Haymaker, and Steak 48 regularly",
+        "monthlyCost": 850
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "Premium private insurance with comprehensive coverage and low deductibles",
+        "monthlyCost": 700
+      },
+      "transportation": {
+        "description": "Late-model sedan or SUV, premium insurance, occasional rideshare",
+        "monthlyCost": 500
+      },
+      "entertainment": {
+        "description": "Season tickets, private golf, spa memberships, regular weekend mountain getaways",
+        "monthlyCost": 550
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "lifestyle": "At $10K/month Charlotte delivers an excellent quality of life. A beautiful home in one of the tree-lined historic neighborhoods, the best dining the city offers, and easy weekend escapes to Asheville, the Outer Banks, or the Blue Ridge Parkway. Charlotte punches well above its weight at this budget level."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury home in Quail Hollow, SouthPark estate, or penthouse condo uptown",
+        "monthlyCost": 4500
+      },
+      "dining": {
+        "description": "Fine dining multiple times weekly, private chef for dinner parties, wine club memberships",
+        "monthlyCost": 1400
+      },
+      "groceries": {
+        "monthlyCost": 750
+      },
+      "healthcare": {
+        "description": "Concierge medicine with Novant or Atrium Health executive program",
+        "monthlyCost": 1000
+      },
+      "transportation": {
+        "description": "Luxury vehicle, premium insurance, car detailing service",
+        "monthlyCost": 750
+      },
+      "entertainment": {
+        "description": "Country club membership, premium Panthers and Hornets seats, golf trips, cultural events",
+        "monthlyCost": 1000
+      },
+      "utilities": {
+        "monthlyCost": 350
+      },
+      "domesticHelp": {
+        "description": "Bi-weekly house cleaning, landscaping, pool service, occasional personal assistant",
+        "monthlyCost": 800
+      },
+      "luxuryExtras": {
+        "description": "Quarterly luxury travel, Lake Norman boat weekends, premium wine, philanthropy",
+        "monthlyCost": 1500
+      },
+      "lifestyle": "Charlotte becomes truly luxurious at this level. A stately home near the country clubs, membership at Quail Hollow, premium seats at every sporting event, and enough budget to enjoy Lake Norman weekends and mountain retreats whenever the mood strikes."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Estate home in Myers Park or lakefront property on Lake Norman",
+        "monthlyCost": 9000
+      },
+      "dining": {
+        "description": "Personal chef, exclusive private dining, catered events and galas",
+        "monthlyCost": 2800
+      },
+      "groceries": {
+        "monthlyCost": 1000
+      },
+      "healthcare": {
+        "description": "Top-tier concierge medicine, executive wellness programs, holistic care",
+        "monthlyCost": 1500
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, dedicated driver, private car service",
+        "monthlyCost": 1500
+      },
+      "entertainment": {
+        "description": "Private box at Bank of America Stadium, art collecting, philanthropic galas, international travel",
+        "monthlyCost": 2500
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, personal assistant, grounds and pool maintenance team",
+        "monthlyCost": 4000
+      },
+      "luxuryExtras": {
+        "description": "First-class international travel, lake house, private event hosting, angel investing, charitable giving",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At this tier you are living among Charlotte's banking elite. A sprawling estate in one of the city's most prestigious neighborhoods, a personal chef, private box seats, and the social capital to host major charitable events. Charlotte's lower cost base means your $10M goes further than it would in New York or San Francisco."
+    }
+  }
+}

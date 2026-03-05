@@ -1,0 +1,194 @@
+{
+  "name": "Melbourne",
+  "country": "Australia",
+  "region": "Oceania",
+  "slug": "melbourne",
+  "emoji": "🇦🇺",
+  "fireScore": 5.2,
+  "tagline": "Coffee Culture, Sports Obsessed, and Endlessly Livable",
+  "description": "Melbourne consistently ranks among the world's most livable cities, and for good reason. The city offers an extraordinary food and coffee scene, world-class sports events (Australian Open, F1, AFL), vibrant arts and music, and a relaxed yet cosmopolitan atmosphere. While housing costs are significant and the overall cost of living is high by global standards, Melbourne rewards residents with excellent public services, universal healthcare through Medicare, and a quality of life that few cities can match.",
+  "tags": {
+    "climate": "mediterranean",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "ETA for short visits; various long-term visa options including retirement and investor visas",
+    "timezone": "AEST (UTC+10)",
+    "language": "English",
+    "internetSpeed": "80+ Mbps average (NBN)",
+    "safetyRating": "High – safe with typical urban precautions",
+    "nearestAirport": "Melbourne Airport (MEL)",
+    "climate": "Mediterranean with warm summers and cool winters; famously changeable weather",
+    "englishFriendly": "High",
+    "currency": "AUD",
+    "averageTemp": "59°F / 15°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in Footscray, Brunswick West, or outer suburbs near a train line",
+        "monthlyCost": 1200
+      },
+      "dining": {
+        "description": "Cheap eats on Lygon Street or Victoria Street; coffee shop culture 3-4x/week",
+        "monthlyCost": 250
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "Medicare covers most GP and hospital visits; basic private extras for dental",
+        "monthlyCost": 200
+      },
+      "transportation": {
+        "description": "Myki card for tram, train, and bus; free tram zone in CBD",
+        "monthlyCost": 100
+      },
+      "entertainment": {
+        "description": "Free galleries at NGV, beach trips to St Kilda, park barbecues, street art walks",
+        "monthlyCost": 100
+      },
+      "utilities": {
+        "monthlyCost": 160
+      },
+      "lifestyle": "Melbourne on a lean budget is tight but doable, especially with Medicare covering health basics. You will cook at home often but can still enjoy the city's famously affordable multicultural cheap eats. The free tram zone, free museums, and beach access mean you never run out of things to do. Expect to live in the inner suburbs rather than premium neighborhoods."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "2BR apartment in Fitzroy, Carlton, or South Yarra with character",
+        "monthlyCost": 2000
+      },
+      "dining": {
+        "description": "Regular dining in Melbourne's laneway restaurants, brunch culture, wine bars",
+        "monthlyCost": 600
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "Medicare plus private health insurance for shorter wait times and dental/optical",
+        "monthlyCost": 350
+      },
+      "transportation": {
+        "description": "Myki pass plus occasional car-share or ride-hail; weekend drives on the Great Ocean Road",
+        "monthlyCost": 200
+      },
+      "entertainment": {
+        "description": "AFL season tickets, comedy festival shows, gym membership, Yarra Valley wine trips",
+        "monthlyCost": 400
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "lifestyle": "Melbourne really comes alive at this budget. You can live in one of the trendy inner suburbs, fully embrace the coffee and brunch culture, catch AFL matches at the MCG, and explore the stunning coastline and wine regions on weekends. The city's incredible diversity of food, art, and sport makes every week feel packed with discovery."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Spacious 3BR house in Richmond, Prahran, or a modern apartment in Southbank with river views",
+        "monthlyCost": 3200
+      },
+      "dining": {
+        "description": "Fine dining at hatted restaurants like Attica and Lume, regular wine bar visits, private chef nights",
+        "monthlyCost": 1000
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "Premium private health insurance with top hospital choice and comprehensive extras",
+        "monthlyCost": 450
+      },
+      "transportation": {
+        "description": "Owned car for regional trips, Myki for city travel, occasional domestic flights",
+        "monthlyCost": 450
+      },
+      "entertainment": {
+        "description": "Australian Open tickets, F1 Grand Prix, premium gym, sailing on Port Phillip Bay",
+        "monthlyCost": 700
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "lifestyle": "Life is superb at this level. A lovely home in a prime inner suburb, meals at Melbourne's celebrated fine dining scene, and the freedom to attend every major sporting and cultural event the city hosts. Weekend drives to the Mornington Peninsula or Great Ocean Road become a natural part of your rhythm."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury 4BR home in Toorak, Brighton, or a premium penthouse in the CBD",
+        "monthlyCost": 5000
+      },
+      "dining": {
+        "description": "Regular dining at Melbourne's best restaurants, private chef, exclusive wine club memberships",
+        "monthlyCost": 1800
+      },
+      "groceries": {
+        "monthlyCost": 750
+      },
+      "healthcare": {
+        "description": "Top-tier private insurance with concierge GP service and international coverage",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "Luxury vehicle, premium insurance, occasional first-class domestic flights",
+        "monthlyCost": 800
+      },
+      "entertainment": {
+        "description": "Corporate box at MCG, Australian Open platinum passes, yacht club membership, art collecting",
+        "monthlyCost": 1200
+      },
+      "utilities": {
+        "monthlyCost": 350
+      },
+      "domesticHelp": {
+        "description": "Weekly housekeeper, gardener, occasional personal assistant",
+        "monthlyCost": 1000
+      },
+      "luxuryExtras": {
+        "description": "Mornington Peninsula weekends, first-class travel, premium wine cellar, philanthropy",
+        "monthlyCost": 1800
+      },
+      "lifestyle": "You are living Melbourne at its absolute finest. A beautiful home in Toorak or Brighton, corporate hospitality at every major event, and the ability to fully immerse in the city's world-class food, wine, and arts scene. Melbourne's combination of cosmopolitan culture and beachside relaxation is unbeatable at this tier."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Grand estate in Toorak or a waterfront mansion in Brighton with harbour views",
+        "monthlyCost": 10000
+      },
+      "dining": {
+        "description": "Personal chef, private dining at Australia's finest restaurants, catered events at home",
+        "monthlyCost": 3000
+      },
+      "groceries": {
+        "monthlyCost": 1000
+      },
+      "healthcare": {
+        "description": "VIP concierge medicine with international network access and executive wellness programs",
+        "monthlyCost": 900
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, dedicated driver, first-class international travel, charter flights",
+        "monthlyCost": 2000
+      },
+      "entertainment": {
+        "description": "Private boxes at MCG and Rod Laver Arena, art patronage, yacht ownership, international events",
+        "monthlyCost": 3000
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full household staff including housekeeper, chef, personal assistant, gardener, and pool maintenance",
+        "monthlyCost": 5000
+      },
+      "luxuryExtras": {
+        "description": "Vineyard investment in Yarra Valley, first-class international travel, fine art, philanthropy",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At this level Melbourne becomes your personal kingdom. A grand estate in one of Australia's most prestigious suburbs, a full staff, private boxes at every major event, and a wine collection that rivals commercial cellars. The relaxed Australian lifestyle combined with world-class sophistication creates a unique and deeply satisfying existence."
+    }
+  }
+}

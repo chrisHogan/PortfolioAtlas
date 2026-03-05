@@ -1,0 +1,194 @@
+{
+  "name": "Nice",
+  "country": "France",
+  "region": "Europe",
+  "slug": "nice",
+  "emoji": "🇫🇷",
+  "fireScore": 5.5,
+  "tagline": "French Riviera Elegance Where the Alps Meet the Sea",
+  "description": "Nice is the jewel of the French Riviera, combining Mediterranean beaches, Belle Époque architecture, and a world-class culinary scene with the cultural depth of France. It is significantly more expensive than Eastern or Southern European alternatives, but the quality of life, healthcare, infrastructure, and sheer beauty are among the best in the world. The Promenade des Anglais, the old town markets, and proximity to Monaco and the Alps make Nice an aspirational FIRE destination.",
+  "tags": {
+    "climate": "mediterranean",
+    "english": "moderate"
+  },
+  "quickFacts": {
+    "visa": "Schengen visa (90 days); Long-Stay Visa for retirees available",
+    "timezone": "CET (UTC+1)",
+    "language": "French, English spoken in tourist areas and by younger generation",
+    "internetSpeed": "100-200 Mbps average",
+    "safetyRating": "Moderate-High – safe city with typical tourist-area precautions",
+    "nearestAirport": "Nice Côte d'Azur Airport (NCE)",
+    "climate": "Mediterranean with warm dry summers and mild winters",
+    "englishFriendly": "Moderate",
+    "currency": "EUR (Euro)",
+    "averageTemp": "61°F / 16°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Small studio or 1BR apartment in Libération or the northern hills, away from the coast",
+        "monthlyCost": 1200
+      },
+      "dining": {
+        "description": "Socca and pan bagnat from Vieux Nice stands; occasional bistro meal; mostly cooking at home",
+        "monthlyCost": 300
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "French public healthcare (PUMA) if eligible; among the best in the world",
+        "monthlyCost": 350
+      },
+      "transportation": {
+        "description": "Tram and bus pass; Nice has an excellent and expanding tram system",
+        "monthlyCost": 50
+      },
+      "entertainment": {
+        "description": "Promenade des Anglais walks, Cours Saleya market, free museum days, beach time",
+        "monthlyCost": 100
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "Nice on a tight budget requires discipline. You will live in a modest apartment away from the glamorous waterfront, cook most meals at home, and take advantage of the city's many free pleasures. The French Riviera lifestyle is still accessible through the beaches, markets, and sheer beauty, but luxury is out of reach."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Nice 1-2BR apartment in the Carré d'Or, Musiciens quarter, or near the Port",
+        "monthlyCost": 2000
+      },
+      "dining": {
+        "description": "Regular dining at Niçois restaurants, wine bars, and Cours Saleya bistros",
+        "monthlyCost": 600
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "French public healthcare plus complementary private mutuelle for full coverage",
+        "monthlyCost": 400
+      },
+      "transportation": {
+        "description": "Tram pass plus occasional car rental for Provençal countryside and Alpine excursions",
+        "monthlyCost": 100
+      },
+      "entertainment": {
+        "description": "Opera, jazz festivals, Nice Carnival, day trips to Monaco and Èze, gym membership",
+        "monthlyCost": 300
+      },
+      "utilities": {
+        "monthlyCost": 180
+      },
+      "lifestyle": "Nice becomes truly enjoyable at this budget. A centrally located apartment, regular dining out on superb French cuisine, and the ability to explore the entire Côte d'Azur. The combination of French culture, Mediterranean climate, and Alpine proximity creates a uniquely rich lifestyle."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Elegant 2-3BR apartment on the Promenade des Anglais or in Cimiez with gardens",
+        "monthlyCost": 3500
+      },
+      "dining": {
+        "description": "Fine dining at JAN, Flaveur, and La Petite Maison; regular wine and cheese evenings",
+        "monthlyCost": 1000
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "Premium French healthcare with top-tier private hospital access at Lenval and Saint-George",
+        "monthlyCost": 450
+      },
+      "transportation": {
+        "description": "Own car for Riviera drives, train to Paris and Italy, occasional flights",
+        "monthlyCost": 250
+      },
+      "entertainment": {
+        "description": "Nice Opera, Monaco Grand Prix viewing, skiing in Isola 2000, sailing, premium cultural events",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "lifestyle": "An elegant apartment on the Promenade, Michelin-caliber dining, skiing in winter and sailing in summer, and the entire Riviera as your playground. This is the classic Nice lifestyle that has attracted artists and aristocrats for centuries, and it remains magnificent."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury apartment overlooking the Baie des Anges or a villa in Mont Boron with sea views",
+        "monthlyCost": 5500
+      },
+      "dining": {
+        "description": "Private chef plus Michelin-starred dining across the Riviera; wine cellar curation",
+        "monthlyCost": 1500
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "VIP concierge medical with access to the finest French and European hospitals",
+        "monthlyCost": 550
+      },
+      "transportation": {
+        "description": "Luxury vehicle, TGV first-class to Paris, helicopter to Monaco, European flights",
+        "monthlyCost": 600
+      },
+      "entertainment": {
+        "description": "Front-row at Cannes Film Festival, Monaco GP, private yacht excursions, Alpine heli-skiing",
+        "monthlyCost": 800
+      },
+      "utilities": {
+        "monthlyCost": 350
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, part-time chef, gardener",
+        "monthlyCost": 1000
+      },
+      "luxuryExtras": {
+        "description": "Riviera yacht charters, first-class Paris weekends, Provence wine estate visits, art collecting",
+        "monthlyCost": 1800
+      },
+      "lifestyle": "You are living the French Riviera dream as it was meant to be lived. A stunning sea-view residence, private chef, Michelin dining, and the social calendar of one of the world's most glamorous coastlines. Monaco is a short drive away, and the Alps are just behind you."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Grand Belle Époque villa in Cimiez or oceanfront estate on Cap Ferrat",
+        "monthlyCost": 12000
+      },
+      "dining": {
+        "description": "Personal chef team, exclusive Riviera dining events, private wine cellar and sommelier",
+        "monthlyCost": 3000
+      },
+      "groceries": {
+        "monthlyCost": 1000
+      },
+      "healthcare": {
+        "description": "Elite French concierge medical, personal physician, executive wellness at Princesse Grace Hospital Monaco",
+        "monthlyCost": 800
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, chauffeur, yacht, helicopter service, private jet charters",
+        "monthlyCost": 2000
+      },
+      "entertainment": {
+        "description": "VIP Cannes and Monaco events, yacht Mediterranean cruises, art patronage, exclusive cultural galas",
+        "monthlyCost": 2500
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full estate staff: chef, butler, housekeepers, groundskeepers, driver, boat captain, personal assistant",
+        "monthlyCost": 3500
+      },
+      "luxuryExtras": {
+        "description": "Yacht ownership, Provence estate, first-class global travel, art collection, philanthropic foundation",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At this level on the Côte d'Azur you join the ranks of the international elite who have made this coastline legendary. A villa that could grace the cover of Architectural Digest, a yacht in the harbor, VIP at every Riviera event, and the incomparable beauty of the French Mediterranean as your daily backdrop."
+    }
+  }
+}

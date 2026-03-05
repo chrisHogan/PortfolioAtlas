@@ -1,0 +1,194 @@
+{
+  "name": "Salt Lake City",
+  "country": "United States",
+  "region": "North America",
+  "slug": "salt-lake-city",
+  "emoji": "🇺🇸",
+  "fireScore": 5.8,
+  "tagline": "World-Class Skiing, Outdoor Paradise, and Affordable Mountain Living",
+  "description": "Salt Lake City offers unrivaled access to outdoor recreation with seven world-class ski resorts within 45 minutes and five national parks within a day's drive. The city has modernized rapidly with a growing food and craft beer scene, excellent public transit including light rail, and a cost of living well below other mountain West cities like Denver or Boulder. Utah's business-friendly tax environment and strong economy provide stability, while the dramatic Wasatch Mountain backdrop makes even the daily commute scenic.",
+  "tags": {
+    "climate": "continental",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "MST (UTC-7)",
+    "language": "English",
+    "internetSpeed": "200+ Mbps average",
+    "safetyRating": "Good – lower crime rates than most comparably sized US cities",
+    "nearestAirport": "Salt Lake City International (SLC)",
+    "climate": "Continental with cold, snowy winters and hot, dry summers",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "52°F / 11°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in Sugar House, Murray, or South Salt Lake",
+        "monthlyCost": 1350
+      },
+      "dining": {
+        "description": "Casual dining 2-3x/week; growing food scene with affordable ethnic options",
+        "monthlyCost": 230
+      },
+      "groceries": {
+        "monthlyCost": 370
+      },
+      "healthcare": {
+        "description": "ACA Silver plan on the Utah marketplace; Intermountain Healthcare nearby",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "TRAX light rail and bus pass; SLC has solid transit for a Western city",
+        "monthlyCost": 130
+      },
+      "entertainment": {
+        "description": "Hiking in the Wasatch, free temple district tours, city creek canyon walks",
+        "monthlyCost": 100
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "Salt Lake City on a tight budget is quite livable thanks to affordable housing and good transit. The Wasatch Mountains provide endless free recreation just minutes from downtown. You will cook at home most days and skip the ski passes, but hiking, trail running, and exploring Utah's stunning landscapes cost nothing."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Nice 2BR in The Avenues, 9th & 9th, or Liberty Park area",
+        "monthlyCost": 2000
+      },
+      "dining": {
+        "description": "Dining out 3-4x/week at SLC's increasingly sophisticated restaurant scene",
+        "monthlyCost": 500
+      },
+      "groceries": {
+        "monthlyCost": 460
+      },
+      "healthcare": {
+        "description": "ACA Gold plan with dental and vision; Intermountain and University of Utah access",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "Reliable Subaru or similar for mountain access, insurance, transit pass",
+        "monthlyCost": 380
+      },
+      "entertainment": {
+        "description": "Ski passes at Snowbird/Brighton, gym membership, national park road trips, Jazz tickets",
+        "monthlyCost": 350
+      },
+      "utilities": {
+        "monthlyCost": 190
+      },
+      "lifestyle": "At this budget Salt Lake City truly shines. You can live in one of the city's charming walkable neighborhoods, hold season ski passes, and explore Utah's five national parks on weekend road trips. The emerging food and craft beer scene provides plenty of variety for dining out."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR house in Federal Heights, Millcreek, or a modern condo in downtown SLC",
+        "monthlyCost": 3000
+      },
+      "dining": {
+        "description": "Regular dining at top spots like HSL, Current, and Valter's Osteria; daily cafe culture",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 560
+      },
+      "healthcare": {
+        "description": "Premium private insurance with University of Utah Health and Intermountain networks",
+        "monthlyCost": 700
+      },
+      "transportation": {
+        "description": "Late-model SUV for canyon driving, premium insurance, ski rack equipped",
+        "monthlyCost": 450
+      },
+      "entertainment": {
+        "description": "Ikon ski pass, mountain biking gear, Jazz season tickets, premium gym, Sundance trips",
+        "monthlyCost": 520
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "lifestyle": "Salt Lake City at this level is an outdoor enthusiast's dream. A beautiful home near the canyons, premium ski passes, and the freedom to road trip to Moab, Zion, or Bryce Canyon on a whim. The Sundance Film Festival in nearby Park City becomes a regular January highlight."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury home in the East Bench, Emigration Canyon, or a Park City ski-in/ski-out condo",
+        "monthlyCost": 4800
+      },
+      "dining": {
+        "description": "Fine dining in SLC and Park City, private chef for mountain dinner parties",
+        "monthlyCost": 1300
+      },
+      "groceries": {
+        "monthlyCost": 720
+      },
+      "healthcare": {
+        "description": "Concierge medicine at University of Utah Health; executive wellness programs",
+        "monthlyCost": 950
+      },
+      "transportation": {
+        "description": "Luxury SUV (Land Rover, Porsche Cayenne), premium insurance, detailing",
+        "monthlyCost": 780
+      },
+      "entertainment": {
+        "description": "Private ski club membership, Sundance VIP passes, helicopter skiing, Jazz courtside",
+        "monthlyCost": 1000
+      },
+      "utilities": {
+        "monthlyCost": 350
+      },
+      "domesticHelp": {
+        "description": "Weekly cleaning, snow removal, landscaping, personal assistant tasks",
+        "monthlyCost": 750
+      },
+      "luxuryExtras": {
+        "description": "Quarterly travel, mountain biking custom builds, Sundance Institute patron, philanthropy",
+        "monthlyCost": 1350
+      },
+      "lifestyle": "You are living the ultimate mountain lifestyle. A stunning home with Wasatch views, a Park City ski condo, and VIP access to Sundance. Helicopter skiing in the backcountry and road trips through the most beautiful national parks in America are your new normal."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Mountain estate in Emigration Canyon, or a luxury compound in Deer Valley/Park City",
+        "monthlyCost": 9500
+      },
+      "dining": {
+        "description": "Personal chef, exclusive mountain dining experiences, catered ski lodge events",
+        "monthlyCost": 2500
+      },
+      "groceries": {
+        "monthlyCost": 1000
+      },
+      "healthcare": {
+        "description": "Top-tier concierge at U of U Health, executive screenings, specialist VIP access",
+        "monthlyCost": 1400
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, private driver, helicopter access for skiing",
+        "monthlyCost": 1600
+      },
+      "entertainment": {
+        "description": "Sundance trustee, private ski lodge, international adventure travel, Jazz ownership-level access",
+        "monthlyCost": 2300
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, estate manager, personal assistant, grounds and snow crew",
+        "monthlyCost": 3800
+      },
+      "luxuryExtras": {
+        "description": "Heli-skiing packages, first-class international travel, ranch property, Sundance endowment",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At this level the entire Wasatch Range becomes your playground. A mountain estate, a Deer Valley ski compound, and helicopter access to untouched powder. Trustee-level involvement at Sundance and the ability to fund conservation of Utah's spectacular landscapes give your wealth real purpose in a breathtaking setting."
+    }
+  }
+}

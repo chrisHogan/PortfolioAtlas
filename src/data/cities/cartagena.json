@@ -1,0 +1,194 @@
+{
+  "name": "Cartagena",
+  "country": "Colombia",
+  "region": "Latin America",
+  "slug": "cartagena",
+  "emoji": "🇨🇴",
+  "fireScore": 7.5,
+  "tagline": "Caribbean Charm, Colonial Beauty, and Remarkable Affordability",
+  "description": "Cartagena is a jewel of the Caribbean coast — a UNESCO World Heritage walled city with colorful colonial architecture, warm turquoise waters, and a vibrant cultural scene rooted in Afro-Caribbean, Spanish, and indigenous traditions. The cost of living is remarkably low, healthcare is surprisingly good through Colombia's well-regarded system, and the food scene blends fresh seafood with tropical flavors. While English is limited and the tropical heat is relentless, Cartagena rewards adventurous retirees with a rich, affordable, and deeply atmospheric life.",
+  "tags": {
+    "climate": "tropical",
+    "english": "low"
+  },
+  "quickFacts": {
+    "visa": "90-day visa-free for US citizens (extendable to 180 days); retirement visa available",
+    "timezone": "COT (UTC-5)",
+    "language": "Spanish",
+    "internetSpeed": "50+ Mbps average",
+    "safetyRating": "Moderate – safe in tourist areas; standard urban precautions advised",
+    "nearestAirport": "Rafael Nunez International Airport (CTG)",
+    "climate": "Tropical with year-round heat and a rainy season from May to November",
+    "englishFriendly": "Low",
+    "currency": "COP",
+    "averageTemp": "82°F / 28°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "2BR apartment in Bocagrande or a charming flat in Getsemani near the walled city",
+        "monthlyCost": 600
+      },
+      "dining": {
+        "description": "Fresh seafood at local restaurants, street food arepas and empanadas, casual dining 4-5x/week",
+        "monthlyCost": 200
+      },
+      "groceries": {
+        "monthlyCost": 200
+      },
+      "healthcare": {
+        "description": "Colombian EPS health system enrollment plus basic private supplement — excellent value",
+        "monthlyCost": 150
+      },
+      "transportation": {
+        "description": "Local buses and taxis; Cartagena is walkable in the historic center",
+        "monthlyCost": 50
+      },
+      "entertainment": {
+        "description": "Beach days on Playa Blanca, salsa dancing, colonial city walks, sunset drinks on the wall",
+        "monthlyCost": 100
+      },
+      "utilities": {
+        "monthlyCost": 120
+      },
+      "lifestyle": "Cartagena at this budget is genuinely comfortable — far more than what $3,333/month buys in most cities. You can live in a nice apartment, eat fresh seafood daily, enjoy the Caribbean beaches, and still have money left over. Learning Spanish is essential and hugely rewarding. The tropical rhythm of life here — slow mornings, long lunches, evening strolls on the city walls — is intoxicating."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Beautiful 3BR colonial apartment in the Walled City or a modern condo in Castillogrande with ocean views",
+        "monthlyCost": 1200
+      },
+      "dining": {
+        "description": "Regular dining at Cartagena's best restaurants, ceviche bars, rooftop terraces, seafood feasts",
+        "monthlyCost": 400
+      },
+      "groceries": {
+        "monthlyCost": 300
+      },
+      "healthcare": {
+        "description": "Premium private insurance with access to top clinics and specialists in Cartagena",
+        "monthlyCost": 250
+      },
+      "transportation": {
+        "description": "Private car or scooter plus occasional boat trips to Rosario Islands",
+        "monthlyCost": 150
+      },
+      "entertainment": {
+        "description": "Island hopping, diving trips, salsa lessons, cultural festivals, weekend trips to Minca",
+        "monthlyCost": 300
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "At this level Cartagena becomes truly luxurious by local standards. A stunning colonial apartment or ocean-view condo, regular dining at the city's finest restaurants, and easy access to Caribbean islands and mountain retreats. You are living a life that most people associate with high wealth, but at a fraction of the cost. The surplus gives you real financial security and travel flexibility."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Restored colonial mansion apartment in Centro Historico or a premium penthouse in Bocagrande",
+        "monthlyCost": 2000
+      },
+      "dining": {
+        "description": "Fine dining at Carmen and Celele, private chef for dinner parties, premium cocktail bars",
+        "monthlyCost": 700
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "Top-tier private insurance with international coverage and medical tourism options",
+        "monthlyCost": 350
+      },
+      "transportation": {
+        "description": "Private car with driver for city travel, boat access for island trips, domestic flights",
+        "monthlyCost": 300
+      },
+      "entertainment": {
+        "description": "Private island day trips, scuba diving, cultural patronage, music festivals, travel across Colombia",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 180
+      },
+      "lifestyle": "At $10,000/month in Cartagena you are living like royalty. A magnificent colonial apartment, a private driver, regular fine dining, and the ability to island-hop at will. Colombia's incredible geographic diversity means weekend trips to coffee country, Amazon jungle, or Andean highlands are all within reach. This budget puts you in the top echelon of Cartagena life."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Entire restored colonial house in the Walled City or a luxury beachfront villa on Baru Island",
+        "monthlyCost": 3500
+      },
+      "dining": {
+        "description": "Personal chef, exclusive dining experiences, premium wine collection, catered events",
+        "monthlyCost": 1000
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "VIP international health coverage with concierge medical service",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "Luxury car with full-time driver, private boat for island access, domestic first-class flights",
+        "monthlyCost": 600
+      },
+      "entertainment": {
+        "description": "Private yacht charters, exclusive cultural events, scuba and fishing expeditions, philanthropic work",
+        "monthlyCost": 800
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, cook, gardener, and security; live-in help is common and affordable",
+        "monthlyCost": 700
+      },
+      "luxuryExtras": {
+        "description": "International first-class travel, Caribbean yacht trips, art collecting, foundation work in Colombia",
+        "monthlyCost": 2000
+      },
+      "lifestyle": "You are living one of the most extraordinary lives available anywhere at this price point. A private colonial mansion in a UNESCO World Heritage city, full staff, a boat for Caribbean island hopping, and the ability to travel Colombia's incredible landscapes at will. The gap between what this budget buys here versus in a Western city is staggering."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Grand colonial estate in Centro Historico or a private island compound near Rosario Islands",
+        "monthlyCost": 6000
+      },
+      "dining": {
+        "description": "Personal chef team, private dining experiences, imported wine cellar, lavish entertaining",
+        "monthlyCost": 2000
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "Top-tier international concierge medicine with global evacuation and wellness programs",
+        "monthlyCost": 700
+      },
+      "transportation": {
+        "description": "Multiple vehicles with driver, private yacht, chartered flights, first-class international travel",
+        "monthlyCost": 1500
+      },
+      "entertainment": {
+        "description": "Private island retreats, deep-sea fishing yacht, cultural patronage, international events",
+        "monthlyCost": 2500
+      },
+      "utilities": {
+        "monthlyCost": 400
+      },
+      "domesticHelp": {
+        "description": "Full estate staff including chef, multiple housekeepers, security, gardener, boat captain",
+        "monthlyCost": 2000
+      },
+      "luxuryExtras": {
+        "description": "Private jet access, island property development, international art acquisitions, major philanthropy",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At this level Cartagena offers a Caribbean fantasy made real. A private compound or island retreat, a yacht, full staff, and the ability to shape the community through philanthropy and cultural investment. The warmth of Colombian culture combined with Caribbean beauty and your resources creates a life of extraordinary richness and purpose."
+    }
+  }
+}

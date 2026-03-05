@@ -1,0 +1,194 @@
+{
+  "name": "Tallinn",
+  "country": "Estonia",
+  "region": "Europe",
+  "slug": "tallinn",
+  "emoji": "🇪🇪",
+  "fireScore": 7.3,
+  "tagline": "Medieval Charm Meets Digital Innovation in the Baltics",
+  "description": "Tallinn is Europe's most digitally advanced capital, where a UNESCO-listed medieval Old Town coexists with cutting-edge e-governance and a thriving startup scene. Estonia's e-Residency program and business-friendly environment attract global nomads, while the low cost of living, excellent internet, and high safety make it ideal for FIRE retirees. Winters are long and dark, but the stunning summers, Baltic Sea coastline, and sauna culture more than compensate.",
+  "tags": {
+    "climate": "continental",
+    "english": "moderate"
+  },
+  "quickFacts": {
+    "visa": "Schengen visa rules (90 days); e-Residency and D-visa for long-term stays",
+    "timezone": "EET (UTC+2)",
+    "language": "Estonian, English very widely spoken",
+    "internetSpeed": "100-200 Mbps average",
+    "safetyRating": "High – very safe with low crime rates",
+    "nearestAirport": "Lennart Meri Tallinn Airport (TLL)",
+    "climate": "Continental with short warm summers and long cold winters",
+    "englishFriendly": "Moderate",
+    "currency": "EUR (Euro)",
+    "averageTemp": "43°F / 6°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in Kalamaja or Kristiine, trendy neighborhoods near the Old Town",
+        "monthlyCost": 850
+      },
+      "dining": {
+        "description": "Estonian comfort food and Nordic-inspired cafes 3-4x/week; hearty soups and rye bread",
+        "monthlyCost": 300
+      },
+      "groceries": {
+        "monthlyCost": 300
+      },
+      "healthcare": {
+        "description": "Estonian health insurance or private plan; high-quality healthcare system",
+        "monthlyCost": 200
+      },
+      "transportation": {
+        "description": "Free public transit for Tallinn residents; excellent bus and tram network",
+        "monthlyCost": 20
+      },
+      "entertainment": {
+        "description": "Old Town exploration, sauna culture, Baltic beach walks, free museum days, cozy cafes",
+        "monthlyCost": 150
+      },
+      "utilities": {
+        "monthlyCost": 160
+      },
+      "lifestyle": "Tallinn is one of Europe's best-kept secrets for value. Free public transit, affordable housing, and a high quality of life in a safe, connected city. Winters are harsh but the sauna culture, Christmas markets, and cozy cafe scene make them bearable. Summers along the Baltic coast are genuinely beautiful."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Modern 2BR apartment in Kalamaja, Rotermanni quarter, or near Kadriorg Park",
+        "monthlyCost": 1400
+      },
+      "dining": {
+        "description": "Regular dining at top Estonian restaurants, New Nordic cuisine, craft beer bars",
+        "monthlyCost": 500
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "Premium private insurance with access to top clinics and EU healthcare network",
+        "monthlyCost": 250
+      },
+      "transportation": {
+        "description": "Free public transit plus car rental for trips to Lahemaa National Park and countryside",
+        "monthlyCost": 80
+      },
+      "entertainment": {
+        "description": "Opera at Estonia Theatre, spa weekends in Pärnu, island trips to Saaremaa, gym membership",
+        "monthlyCost": 300
+      },
+      "utilities": {
+        "monthlyCost": 180
+      },
+      "lifestyle": "Tallinn becomes genuinely luxurious at this level for a European capital. A modern apartment in a hip neighborhood, New Nordic dining, spa culture, and budget flights to the rest of Europe. The city's digital infrastructure means everything is seamless, from banking to healthcare appointments."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Luxury 3BR apartment in the Old Town or a renovated townhouse in Kadriorg",
+        "monthlyCost": 2500
+      },
+      "dining": {
+        "description": "Fine dining at Noa, 180°, and other top restaurants; wine tasting events",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "International health insurance with EU-wide coverage and specialist access",
+        "monthlyCost": 350
+      },
+      "transportation": {
+        "description": "Own car for countryside excursions, ferry to Helsinki, flights across Europe",
+        "monthlyCost": 200
+      },
+      "entertainment": {
+        "description": "VIP cultural events, exclusive spa retreats, Baltic sailing, European weekend getaways",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 220
+      },
+      "lifestyle": "Living in a medieval Old Town apartment or elegant Kadriorg townhouse while dining at some of the best restaurants in the Nordics is extraordinary. The low costs leave massive surplus for travel, and Helsinki is just a 2-hour ferry ride away for additional cosmopolitan variety."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Historic Old Town mansion or luxury waterfront penthouse in Noblessner",
+        "monthlyCost": 4000
+      },
+      "dining": {
+        "description": "Private chef plus Michelin-level dining across Tallinn; exclusive supper clubs",
+        "monthlyCost": 1200
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "VIP concierge medical with access to top Nordic and EU hospitals",
+        "monthlyCost": 400
+      },
+      "transportation": {
+        "description": "Luxury vehicle, first-class European travel, private ferry and flight charters",
+        "monthlyCost": 400
+      },
+      "entertainment": {
+        "description": "Private cultural experiences, Baltic yacht charters, exclusive Nordic spa retreats",
+        "monthlyCost": 700
+      },
+      "utilities": {
+        "monthlyCost": 280
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, part-time cook, personal assistant",
+        "monthlyCost": 700
+      },
+      "luxuryExtras": {
+        "description": "Baltic yacht cruises, first-class Scandinavian travel, art collecting, Estonian tech investments",
+        "monthlyCost": 2000
+      },
+      "lifestyle": "A historic mansion in one of Europe's most beautiful medieval cities, with full staff and access to the finest Nordic culture. Estonia's flat tax system and digital-first governance make managing your finances seamless, while the surplus at this level is remarkable for a European capital."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Grand Old Town palazzo or waterfront estate with private dock",
+        "monthlyCost": 7000
+      },
+      "dining": {
+        "description": "Personal chef team, exclusive Nordic dining experiences, catered events",
+        "monthlyCost": 2500
+      },
+      "groceries": {
+        "monthlyCost": 800
+      },
+      "healthcare": {
+        "description": "Elite Nordic health plan, personal physician, executive wellness in Helsinki or Stockholm",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "Luxury yacht, multiple vehicles, chauffeur, private European flights",
+        "monthlyCost": 1200
+      },
+      "entertainment": {
+        "description": "Baltic yacht cruises, art patronage, exclusive cultural events, luxury Nordic travel",
+        "monthlyCost": 2000
+      },
+      "utilities": {
+        "monthlyCost": 350
+      },
+      "domesticHelp": {
+        "description": "Full household staff: chef, butler, housekeepers, driver, personal assistant, groundskeeper",
+        "monthlyCost": 2200
+      },
+      "luxuryExtras": {
+        "description": "Baltic island property, yacht ownership, first-class global travel, Estonian tech startup investing, philanthropy",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At this level in Tallinn you are among the city's most prominent residents. A grand historic property, a yacht on the Baltic, full staff, and the resources to patronize the arts and invest in Estonia's renowned tech ecosystem. The combination of medieval beauty and digital modernity is uniquely Tallinn."
+    }
+  }
+}

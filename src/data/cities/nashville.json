@@ -1,0 +1,194 @@
+{
+  "name": "Nashville",
+  "country": "United States",
+  "region": "North America",
+  "slug": "nashville",
+  "emoji": "🇺🇸",
+  "fireScore": 5.7,
+  "tagline": "Music City, No State Income Tax, and Southern Hospitality",
+  "description": "Nashville combines zero state income tax with a booming cultural scene, world-class healthcare, and genuine Southern hospitality. The city's music heritage extends far beyond country — it is a hub for rock, indie, and Americana. Nashville's food scene has exploded in recent years, and the cost of living, while rising, remains well below coastal cities. Excellent hospitals like Vanderbilt make it particularly attractive for retirees who value medical access.",
+  "tags": {
+    "climate": "subtropical",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "CST (UTC-6)",
+    "language": "English",
+    "internetSpeed": "200+ Mbps average",
+    "safetyRating": "Moderate – safe in most neighborhoods with typical urban caution",
+    "nearestAirport": "Nashville International (BNA)",
+    "climate": "Subtropical with hot summers and mild to cool winters",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "59°F / 15°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in Madison, Antioch, or Donelson — outside the trendy core",
+        "monthlyCost": 1400
+      },
+      "dining": {
+        "description": "Hot chicken joints and casual BBQ 2-3x/week; mostly cooking at home",
+        "monthlyCost": 250
+      },
+      "groceries": {
+        "monthlyCost": 380
+      },
+      "healthcare": {
+        "description": "ACA Silver plan; Tennessee has no exchange but federal marketplace works well",
+        "monthlyCost": 530
+      },
+      "transportation": {
+        "description": "Older paid-off car with insurance and gas; Nashville requires a car",
+        "monthlyCost": 280
+      },
+      "entertainment": {
+        "description": "Free live music on Broadway and in honky-tonks, Centennial Park, Shelby Bottoms trails",
+        "monthlyCost": 100
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "Nashville on a tight budget benefits enormously from no state income tax and abundant free entertainment. The honky-tonks on Lower Broadway never charge a cover, and the city's parks are excellent. You will live in an outer neighborhood and cook most meals, but affordable hot chicken and BBQ keep dining out within reach."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Nice 2BR apartment in East Nashville, Germantown, or The Nations",
+        "monthlyCost": 2100
+      },
+      "dining": {
+        "description": "Dining out 3-4x/week at Nashville's trending restaurants and brunch spots",
+        "monthlyCost": 550
+      },
+      "groceries": {
+        "monthlyCost": 480
+      },
+      "healthcare": {
+        "description": "ACA Gold plan with dental and vision; Vanderbilt and St. Thomas network access",
+        "monthlyCost": 630
+      },
+      "transportation": {
+        "description": "Reliable mid-range car, full coverage insurance, gas for day trips",
+        "monthlyCost": 380
+      },
+      "entertainment": {
+        "description": "Ryman Auditorium shows, Grand Ole Opry, gym membership, Titans or Predators tickets",
+        "monthlyCost": 300
+      },
+      "utilities": {
+        "monthlyCost": 180
+      },
+      "lifestyle": "At this budget Nashville is a blast. You can live in one of the city's trendy, walkable neighborhoods and fully participate in the music, food, and sports scenes. Regular shows at the Ryman, weekend trips to the Smoky Mountains, and no state income tax eating into your withdrawals make this a sweet spot."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR house in 12 South, Sylvan Park, or a modern condo in the Gulch",
+        "monthlyCost": 3200
+      },
+      "dining": {
+        "description": "Regular dining at top spots like Catbird Seat, The Catbird Seat, Bastion; daily coffee ritual",
+        "monthlyCost": 850
+      },
+      "groceries": {
+        "monthlyCost": 580
+      },
+      "healthcare": {
+        "description": "Premium private insurance with Vanderbilt network access and comprehensive coverage",
+        "monthlyCost": 730
+      },
+      "transportation": {
+        "description": "Late-model SUV, premium insurance, weekend drives to the mountains",
+        "monthlyCost": 480
+      },
+      "entertainment": {
+        "description": "Season tickets to Predators or Titans, VIP concert access, premium gym, golf",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 240
+      },
+      "lifestyle": "Nashville at this tier is genuinely excellent. A house in one of the most desirable neighborhoods, the city's best restaurants on speed dial, and VIP access to Music City's legendary entertainment. Weekend drives through the Tennessee countryside or to Great Smoky Mountains National Park are effortless."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury home in Belle Meade, Green Hills, or a penthouse in the Gulch",
+        "monthlyCost": 5000
+      },
+      "dining": {
+        "description": "Fine dining multiple times per week, private chef for dinner parties",
+        "monthlyCost": 1400
+      },
+      "groceries": {
+        "monthlyCost": 750
+      },
+      "healthcare": {
+        "description": "Concierge medicine at Vanderbilt; executive wellness and preventive programs",
+        "monthlyCost": 950
+      },
+      "transportation": {
+        "description": "Luxury vehicle (Mercedes, Tesla), premium insurance, detailing service",
+        "monthlyCost": 780
+      },
+      "entertainment": {
+        "description": "VIP boxes at Bridgestone Arena, exclusive songwriter rounds, country club membership",
+        "monthlyCost": 1000
+      },
+      "utilities": {
+        "monthlyCost": 350
+      },
+      "domesticHelp": {
+        "description": "Bi-weekly deep cleaning, landscaping, pool maintenance, errand service",
+        "monthlyCost": 750
+      },
+      "luxuryExtras": {
+        "description": "Quarterly travel, private music events, bourbon collection, philanthropy",
+        "monthlyCost": 1400
+      },
+      "lifestyle": "You are living Nashville's elite lifestyle. A stunning Belle Meade estate, private songwriter rounds in your living room, and VIP access to every major event in Music City. Tennessee's zero income tax means your portfolio works harder, and the surplus lets you invest or give generously."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Estate in Belle Meade, historic mansion in Oak Hill, or private compound outside the city",
+        "monthlyCost": 9500
+      },
+      "dining": {
+        "description": "Personal chef, exclusive dining experiences, catered events with Nashville's top talent",
+        "monthlyCost": 2800
+      },
+      "groceries": {
+        "monthlyCost": 1000
+      },
+      "healthcare": {
+        "description": "Top-tier concierge at Vanderbilt, executive health screenings, holistic wellness",
+        "monthlyCost": 1400
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, private driver, classic car collection",
+        "monthlyCost": 1500
+      },
+      "entertainment": {
+        "description": "Private suite at Bridgestone Arena, music industry philanthropy, art collecting, international travel",
+        "monthlyCost": 2500
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, personal assistant, estate groundskeeper, pool and property manager",
+        "monthlyCost": 4000
+      },
+      "luxuryExtras": {
+        "description": "First-class international travel, recording studio investment, ranch property, angel investing",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At this level Nashville becomes your personal Music City kingdom. A sprawling estate, private concerts in your home, and the ability to shape Nashville's cultural landscape through philanthropy. Zero state income tax on your $10M portfolio means extraordinary purchasing power in a city that loves to celebrate life."
+    }
+  }
+}

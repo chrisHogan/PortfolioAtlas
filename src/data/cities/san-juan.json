@@ -1,0 +1,194 @@
+{
+  "name": "San Juan",
+  "country": "Puerto Rico",
+  "region": "Caribbean",
+  "slug": "san-juan",
+  "emoji": "🇵🇷",
+  "fireScore": 6.2,
+  "tagline": "Caribbean Living with US Citizenship Benefits",
+  "description": "San Juan offers the rare combination of tropical Caribbean living under the American flag. No passport needed, no currency exchange, and access to US banking and healthcare systems, all wrapped in 500 years of Spanish colonial history. Act 60 tax incentives make it especially attractive for investors, though the cost of living is moderate by Caribbean standards. Old San Juan's colorful streets and the island's stunning beaches make it a genuinely special place to call home.",
+  "tags": {
+    "climate": "tropical",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required – US territory",
+    "timezone": "AST (UTC-4)",
+    "language": "Spanish, English",
+    "internetSpeed": "80-150 Mbps average",
+    "safetyRating": "Moderate – tourist areas are safe; exercise caution elsewhere",
+    "nearestAirport": "Luis Muñoz Marín International Airport (SJU)",
+    "climate": "Tropical maritime with warm temperatures year-round",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "82°F / 28°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in Santurce or Condado area; small but walkable to the beach",
+        "monthlyCost": 1300
+      },
+      "dining": {
+        "description": "Local fondas and food kiosks in Piñones 2-3x/week; mostly cooking at home",
+        "monthlyCost": 250
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "ACA marketplace plan; costs similar to mainland US",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "Older car with insurance; some public transit and Uber available",
+        "monthlyCost": 250
+      },
+      "entertainment": {
+        "description": "Beach days, Old San Juan walks, salsa clubs, free festivals",
+        "monthlyCost": 100
+      },
+      "utilities": {
+        "monthlyCost": 180
+      },
+      "lifestyle": "This is a tight budget for San Juan, where groceries and utilities cost more than the mainland US. You can manage with a modest apartment and careful spending, but there is little room for extras. The beach is free, though, and the cultural richness of Old San Juan costs nothing to enjoy."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Nice 2BR condo in Condado or Isla Verde with ocean views or pool access",
+        "monthlyCost": 2200
+      },
+      "dining": {
+        "description": "Regular dining in Condado and Old San Juan restaurants; weekend brunch culture",
+        "monthlyCost": 500
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "ACA Gold plan with good coverage at Ashford Presbyterian and other hospitals",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "Reliable car with full coverage; island road trips on weekends",
+        "monthlyCost": 350
+      },
+      "entertainment": {
+        "description": "Surfing in Rincón, day trips to El Yunque, dining and nightlife, gym membership",
+        "monthlyCost": 250
+      },
+      "utilities": {
+        "monthlyCost": 220
+      },
+      "lifestyle": "San Juan becomes genuinely enjoyable at this budget. A comfortable condo near the beach, regular restaurant meals featuring the island's fantastic cuisine, and the freedom to explore Puerto Rico's rain forests, bioluminescent bays, and surfing beaches on weekends."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Luxury 3BR condo in Condado high-rise or renovated townhouse in Old San Juan",
+        "monthlyCost": 3500
+      },
+      "dining": {
+        "description": "Fine dining at Marmalade, 1919, and Cocina Abierta; regular entertaining",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "Premium health plan or private insurance with comprehensive coverage",
+        "monthlyCost": 700
+      },
+      "transportation": {
+        "description": "Late-model SUV, premium insurance, occasional inter-island flights",
+        "monthlyCost": 450
+      },
+      "entertainment": {
+        "description": "Deep-sea fishing, yacht club membership, premium gym, cultural events and festivals",
+        "monthlyCost": 450
+      },
+      "utilities": {
+        "monthlyCost": 280
+      },
+      "lifestyle": "At this level you experience the best San Juan has to offer. A stunning home in one of the most beautiful neighborhoods in the Caribbean, world-class dining, and easy access to the island's natural wonders. The US legal framework adds security and convenience that few Caribbean destinations can match."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Oceanfront penthouse in Condado or historic mansion in Old San Juan",
+        "monthlyCost": 5500
+      },
+      "dining": {
+        "description": "Private chef for daily meals plus regular fine dining at the island's top restaurants",
+        "monthlyCost": 1200
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "Concierge medicine with mainland US specialist access; comprehensive private insurance",
+        "monthlyCost": 900
+      },
+      "transportation": {
+        "description": "Luxury vehicle, premium insurance, inter-island private flights",
+        "monthlyCost": 600
+      },
+      "entertainment": {
+        "description": "Private yacht charters, deep-sea fishing, golf club membership, Caribbean island hopping",
+        "monthlyCost": 800
+      },
+      "utilities": {
+        "monthlyCost": 350
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, part-time cook, gardener, and pool maintenance",
+        "monthlyCost": 1000
+      },
+      "luxuryExtras": {
+        "description": "Caribbean yacht trips, first-class mainland travel, Act 60 tax optimization, philanthropy",
+        "monthlyCost": 1500
+      },
+      "lifestyle": "You are living Caribbean luxury with American convenience. A breathtaking oceanfront home, full domestic staff, a private chef, and the ease of US banking and legal systems. Act 60 tax incentives can make this tier even more financially rewarding for qualifying investors."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Beachfront estate in Dorado Beach or historic compound in Old San Juan",
+        "monthlyCost": 10000
+      },
+      "dining": {
+        "description": "Personal chef team, exclusive catered events, private wine cellar management",
+        "monthlyCost": 2500
+      },
+      "groceries": {
+        "monthlyCost": 1000
+      },
+      "healthcare": {
+        "description": "Elite concierge medical, private physician on retainer, executive wellness program",
+        "monthlyCost": 1200
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, private boat, chartered flights between islands and mainland",
+        "monthlyCost": 1500
+      },
+      "entertainment": {
+        "description": "Private yacht, deep-sea sport fishing, golf at Dorado Beach, global luxury travel",
+        "monthlyCost": 2500
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full estate staff: chef, butler, housekeepers, groundskeepers, security, boat captain, personal assistant",
+        "monthlyCost": 3500
+      },
+      "luxuryExtras": {
+        "description": "Yacht ownership, first-class global travel, art collecting, real estate investment, philanthropic foundation",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At this tier San Juan rivals any luxury destination in the world, with the massive added benefit of US territory tax advantages. A beachfront estate, a yacht, full staff, and the resources to live an extraordinary Caribbean life while maintaining all the protections of American citizenship."
+    }
+  }
+}

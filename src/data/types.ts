@@ -59,7 +59,7 @@ export interface TierCostBreakdown {
 
 export type TierKey = '1M' | '2M' | '3M' | '5M' | '10M';
 
-export type Region = 'Southeast Asia' | 'East Asia' | 'Oceania' | 'Europe' | 'Latin America' | 'North America' | 'Middle East';
+export type Region = 'Southeast Asia' | 'East Asia' | 'Oceania' | 'Europe' | 'Latin America' | 'North America' | 'Middle East' | 'Africa' | 'South Asia' | 'Caribbean';
 
 export interface CityData {
   name: string;
@@ -97,8 +97,11 @@ export const REGION_ORDER: Region[] = [
   'Latin America',
   'Southeast Asia',
   'East Asia',
+  'South Asia',
   'Oceania',
   'Middle East',
+  'Africa',
+  'Caribbean',
 ];
 
 export function getFireScoreClass(score: number): string {

@@ -1,0 +1,194 @@
+{
+  "name": "Quito",
+  "country": "Ecuador",
+  "region": "Latin America",
+  "slug": "quito",
+  "emoji": "🇪🇨",
+  "fireScore": 7.8,
+  "tagline": "Colonial Splendor at 9,000 Feet with Unbeatable Value",
+  "description": "Quito sits in a dramatic Andean valley at 9,350 feet, offering spring-like weather year-round, a stunning UNESCO-listed colonial center, and some of the lowest costs of living in the Americas. Ecuador uses the US dollar (eliminating currency risk), offers affordable residency visas, and has a surprisingly robust healthcare system at a fraction of US costs. The Galapagos Islands, Amazon rainforest, and Pacific beaches are all accessible from this highland capital, making Quito an extraordinary base for adventurous FIRE retirees.",
+  "tags": {
+    "climate": "subtropical",
+    "english": "low"
+  },
+  "quickFacts": {
+    "visa": "90-day visa-free for US citizens; Pensioner Visa with $1,375/month income requirement",
+    "timezone": "ECT (UTC-5)",
+    "language": "Spanish",
+    "internetSpeed": "40+ Mbps average",
+    "safetyRating": "Moderate – improving; standard precautions in certain neighborhoods",
+    "nearestAirport": "Mariscal Sucre International Airport (UIO)",
+    "climate": "Spring-like year-round due to altitude; mild days and cool nights",
+    "englishFriendly": "Low",
+    "currency": "USD",
+    "averageTemp": "58°F / 14°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Spacious 2BR apartment in La Floresta, Gonzalez Suarez, or Cumbaya",
+        "monthlyCost": 500
+      },
+      "dining": {
+        "description": "Almuerzos (set lunch) at local restaurants daily, ceviche shops, casual dining 3-4x/week",
+        "monthlyCost": 200
+      },
+      "groceries": {
+        "monthlyCost": 200
+      },
+      "healthcare": {
+        "description": "IESS public health insurance plus affordable private clinic visits; excellent value",
+        "monthlyCost": 100
+      },
+      "transportation": {
+        "description": "Ecovia bus system and taxis; both are extremely affordable",
+        "monthlyCost": 40
+      },
+      "entertainment": {
+        "description": "Colonial center walks, Mitad del Mundo visits, local markets, hiking Pichincha volcano",
+        "monthlyCost": 100
+      },
+      "utilities": {
+        "monthlyCost": 80
+      },
+      "lifestyle": "Quito at this budget is remarkably comfortable. You can rent a spacious apartment in a desirable neighborhood, eat out daily on local set menus, and enjoy some of the most dramatic mountain scenery on Earth — all for well under budget. The US dollar currency eliminates exchange rate worry, and the surplus gives you a genuine safety net. Learning Spanish transforms the experience from good to extraordinary."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Beautiful 3BR apartment in Gonzalez Suarez with Andean valley views, or a house in Cumbaya",
+        "monthlyCost": 1000
+      },
+      "dining": {
+        "description": "Regular dining at Quito's best restaurants, farm-to-table experiences, wine dinners",
+        "monthlyCost": 400
+      },
+      "groceries": {
+        "monthlyCost": 300
+      },
+      "healthcare": {
+        "description": "Premium private insurance with access to top hospitals like Hospital Metropolitano",
+        "monthlyCost": 200
+      },
+      "transportation": {
+        "description": "Own car for weekend trips to cloud forests and hot springs; city taxis for daily use",
+        "monthlyCost": 200
+      },
+      "entertainment": {
+        "description": "Weekend trips to Mindo cloud forest, hot springs, Galapagos savings fund, hiking, cultural events",
+        "monthlyCost": 300
+      },
+      "utilities": {
+        "monthlyCost": 100
+      },
+      "lifestyle": "At this budget Quito becomes extraordinarily generous. A beautiful apartment with mountain views, a car for exploring Ecuador's incredible geography, and more than enough for regular dining out and weekend adventures. You can fund an annual Galapagos trip and still have substantial savings. The combination of perfect weather, low costs, and natural beauty is unmatched."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Luxury penthouse in Gonzalez Suarez or a large house with garden in the Cumbaya valley",
+        "monthlyCost": 1800
+      },
+      "dining": {
+        "description": "Fine dining at top restaurants, private chef for weekly dinner parties, premium cocktail bars",
+        "monthlyCost": 600
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "Top-tier private insurance with international coverage and concierge service",
+        "monthlyCost": 300
+      },
+      "transportation": {
+        "description": "Quality SUV for mountain drives, city car, domestic flights to coast and Amazon",
+        "monthlyCost": 350
+      },
+      "entertainment": {
+        "description": "Galapagos cruises, Amazon lodge stays, Andean trekking, cultural patronage, spa retreats",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 130
+      },
+      "lifestyle": "At $10,000/month in Quito you are living an extraordinarily full life. A luxury home with panoramic Andean views, regular fine dining, a car for mountain exploration, and the budget for bucket-list experiences like Galapagos cruises and Amazon expeditions multiple times per year. Few places on Earth offer this combination of beauty, adventure, and value."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Grand estate in Cumbaya or a luxury compound in the Tumbaco valley with mountain panoramas",
+        "monthlyCost": 2500
+      },
+      "dining": {
+        "description": "Personal chef, exclusive dining events, premium imported wine collection, catered gatherings",
+        "monthlyCost": 900
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "VIP private healthcare with international hospital network and medical evacuation",
+        "monthlyCost": 400
+      },
+      "transportation": {
+        "description": "Luxury SUV, second vehicle, private driver, chartered flights within Ecuador",
+        "monthlyCost": 600
+      },
+      "entertainment": {
+        "description": "Private Galapagos yacht charters, luxury Amazon lodges, Andean horseback expeditions",
+        "monthlyCost": 800
+      },
+      "utilities": {
+        "monthlyCost": 180
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, cook, gardener, and security; live-in staff is affordable",
+        "monthlyCost": 600
+      },
+      "luxuryExtras": {
+        "description": "First-class international travel, Galapagos yacht charters, hacienda weekends, philanthropy",
+        "monthlyCost": 2500
+      },
+      "lifestyle": "You are living an almost unimaginably rich life for this budget. A grand estate with Andean views, full staff, a private driver, and regular access to some of Earth's most extraordinary natural wonders — the Galapagos, the Amazon, and the Andes. The gap between cost and quality of life in Ecuador at this tier is perhaps the widest anywhere in the world."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Historic hacienda estate with extensive grounds in the Cumbaya or Tumbaco valley",
+        "monthlyCost": 4500
+      },
+      "dining": {
+        "description": "Personal chef team, private dining experiences, imported delicacies, lavish entertaining",
+        "monthlyCost": 1500
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "Top-tier international concierge medicine with global network and evacuation coverage",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, full-time driver, private aircraft access, first-class international",
+        "monthlyCost": 1200
+      },
+      "entertainment": {
+        "description": "Private Galapagos expeditions, Amazon research station access, international cultural events",
+        "monthlyCost": 2500
+      },
+      "utilities": {
+        "monthlyCost": 300
+      },
+      "domesticHelp": {
+        "description": "Full estate staff including chef, housekeepers, groundskeepers, security team, and driver",
+        "monthlyCost": 1500
+      },
+      "luxuryExtras": {
+        "description": "Private jet travel, conservation philanthropy, Galapagos research funding, international art",
+        "monthlyCost": 8000
+      },
+      "lifestyle": "At this level Ecuador becomes your personal nature reserve. A grand hacienda estate, a full staff, private access to the Galapagos and Amazon, and the resources to make a meaningful impact through conservation and philanthropy. The sheer natural wealth of Ecuador combined with your financial resources creates opportunities for a life of extraordinary purpose and beauty."
+    }
+  }
+}

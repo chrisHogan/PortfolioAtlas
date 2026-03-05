@@ -1,0 +1,194 @@
+{
+  "name": "Portland",
+  "country": "United States",
+  "region": "North America",
+  "slug": "portland",
+  "emoji": "🇺🇸",
+  "fireScore": 5.3,
+  "tagline": "No Sales Tax, Craft Culture, and Pacific Northwest Beauty",
+  "description": "Portland offers a unique blend of progressive culture, no state sales tax, and easy access to the Pacific Northwest's stunning natural landscapes. The city is famous for its food cart scene, craft breweries, and bike-friendly infrastructure. While Oregon does have a state income tax, Portland's relatively moderate cost of living compared to Seattle or San Francisco, combined with its walkability and cultural richness, makes it an appealing FIRE destination for those who love gray skies and green landscapes.",
+  "tags": {
+    "climate": "continental",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "PST (UTC-8)",
+    "language": "English",
+    "internetSpeed": "200+ Mbps average",
+    "safetyRating": "Moderate – some urban challenges but generally safe neighborhoods",
+    "nearestAirport": "Portland International (PDX)",
+    "climate": "Mild continental with wet winters and warm, dry summers",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "53°F / 12°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in outer SE Portland, Beaverton, or Milwaukie",
+        "monthlyCost": 1500
+      },
+      "dining": {
+        "description": "Food carts 2-3x/week and occasional brewery visits; mostly cooking at home",
+        "monthlyCost": 250
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "Oregon Health Plan or ACA Silver plan; Oregon's marketplace is competitive",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "TriMet monthly pass plus occasional bike commuting; no car needed in many areas",
+        "monthlyCost": 200
+      },
+      "entertainment": {
+        "description": "Free hiking at Forest Park, Powell's bookstore browsing, brewery happy hours",
+        "monthlyCost": 100
+      },
+      "utilities": {
+        "monthlyCost": 140
+      },
+      "lifestyle": "Portland on a tight budget is doable thanks to excellent public transit, no sales tax, and an abundance of affordable food carts. You will live in an outer neighborhood but still have easy access to downtown. Expect to cook at home often and take advantage of Portland's many free outdoor activities in Forest Park and along the Willamette."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Nice 2BR apartment in Hawthorne, Alberta, or inner SE Portland",
+        "monthlyCost": 2100
+      },
+      "dining": {
+        "description": "Dining out 3-4x/week at Portland's famous restaurants and food halls",
+        "monthlyCost": 550
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "ACA Gold plan with dental and vision; good provider networks in Portland",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "Reliable car plus TriMet pass; Portland is very bikeable in dry months",
+        "monthlyCost": 350
+      },
+      "entertainment": {
+        "description": "Gym membership, ski pass for Mt. Hood, concert tickets, brewery tours",
+        "monthlyCost": 300
+      },
+      "utilities": {
+        "monthlyCost": 170
+      },
+      "lifestyle": "At this budget Portland really opens up. You can live in one of the city's most walkable, culturally rich neighborhoods and enjoy the restaurant scene that put Portland on the map. Weekend trips to Mt. Hood for skiing or the Oregon Coast are easy additions to your lifestyle without budget stress."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR house in Sellwood, Laurelhurst, or a Pearl District loft",
+        "monthlyCost": 3200
+      },
+      "dining": {
+        "description": "Regular dining at top Portland restaurants like Canard, Langbaan; daily coffee ritual",
+        "monthlyCost": 850
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "Premium private insurance with OHSU network access and comprehensive coverage",
+        "monthlyCost": 700
+      },
+      "transportation": {
+        "description": "Late-model Subaru or EV, full coverage insurance, occasional rideshare",
+        "monthlyCost": 450
+      },
+      "entertainment": {
+        "description": "Timbers season tickets, Mt. Hood ski pass, premium gym, wine country weekends",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "lifestyle": "Life is excellent at this tier in Portland. You can rent a charming house in one of the city's best neighborhoods, dine at Michelin-recognized restaurants regularly, and fully embrace the outdoor culture with ski passes and coast trips. The Pearl District and Alberta Arts District become your regular haunts."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury home in the West Hills, Lake Oswego, or a premium Pearl District penthouse",
+        "monthlyCost": 5000
+      },
+      "dining": {
+        "description": "Fine dining multiple times per week, private chef for special occasions",
+        "monthlyCost": 1400
+      },
+      "groceries": {
+        "monthlyCost": 800
+      },
+      "healthcare": {
+        "description": "Concierge medicine through OHSU; executive wellness and preventive programs",
+        "monthlyCost": 950
+      },
+      "transportation": {
+        "description": "Luxury EV (Tesla, Rivian), premium insurance, detailing service",
+        "monthlyCost": 750
+      },
+      "entertainment": {
+        "description": "VIP Timbers and Trail Blazers tickets, private ski lodge, wine club memberships",
+        "monthlyCost": 1000
+      },
+      "utilities": {
+        "monthlyCost": 350
+      },
+      "domesticHelp": {
+        "description": "Bi-weekly deep cleaning, landscaping, occasional personal assistant",
+        "monthlyCost": 800
+      },
+      "luxuryExtras": {
+        "description": "Quarterly travel, Willamette Valley wine investments, spa retreats, charitable giving",
+        "monthlyCost": 1400
+      },
+      "lifestyle": "Portland becomes a true playground at this level. A stunning home in the West Hills with forest views, VIP access to the city's cultural events, and weekends at your favorite Willamette Valley wineries. You can be generous and still grow your portfolio with the surplus."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Estate property in Dunthorpe, waterfront home on the Willamette, or West Hills compound",
+        "monthlyCost": 10000
+      },
+      "dining": {
+        "description": "Personal chef, private wine dinners, catered events featuring local ingredients",
+        "monthlyCost": 2800
+      },
+      "groceries": {
+        "monthlyCost": 1100
+      },
+      "healthcare": {
+        "description": "Top-tier concierge practice at OHSU, executive health screenings, holistic wellness",
+        "monthlyCost": 1500
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, private car service, classic car collection",
+        "monthlyCost": 1500
+      },
+      "entertainment": {
+        "description": "Private box at Moda Center, art collecting, philanthropic galas, international travel",
+        "monthlyCost": 2500
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, personal assistant, estate groundskeeper, property manager",
+        "monthlyCost": 4000
+      },
+      "luxuryExtras": {
+        "description": "First-class international travel, vineyard ownership, charitable foundation, angel investing",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At this level Portland is your personal canvas. An estate surrounded by old-growth forest, a private vineyard in the Willamette Valley, and the ability to shape the city's cultural scene through philanthropy. Oregon's natural beauty becomes your private backyard while you maintain a globally connected lifestyle."
+    }
+  }
+}

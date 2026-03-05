@@ -1,0 +1,194 @@
+{
+  "name": "Philadelphia",
+  "country": "United States",
+  "region": "North America",
+  "slug": "philadelphia",
+  "emoji": "🇺🇸",
+  "fireScore": 5.4,
+  "tagline": "Affordable Northeast, World-Class Dining, and Deep American History",
+  "description": "Philadelphia offers the cultural richness of a major Northeast city at a fraction of New York or Boston prices. The birthplace of American independence has transformed into a food destination with a thriving restaurant scene, excellent museums, and passionate sports culture. SEPTA provides solid public transit, and many neighborhoods are remarkably walkable. The combination of relatively affordable housing, no sales tax on clothing and groceries, and proximity to both New York and D.C. makes Philly a smart FIRE choice for those who want an urban East Coast lifestyle.",
+  "tags": {
+    "climate": "continental",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "EST (UTC-5)",
+    "language": "English",
+    "internetSpeed": "200+ Mbps average",
+    "safetyRating": "Moderate – safe in many neighborhoods; standard urban awareness needed",
+    "nearestAirport": "Philadelphia International (PHL)",
+    "climate": "Continental with warm, humid summers and cold winters",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "55°F / 13°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in Fishtown, South Philly, or Manayunk",
+        "monthlyCost": 1400
+      },
+      "dining": {
+        "description": "Cheesesteaks, Reading Terminal Market, and BYOB restaurants 2-3x/week",
+        "monthlyCost": 240
+      },
+      "groceries": {
+        "monthlyCost": 380
+      },
+      "healthcare": {
+        "description": "ACA Silver plan via Pennie marketplace; Penn Medicine and Jefferson nearby",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "SEPTA monthly pass for subway, bus, and regional rail; many areas walkable",
+        "monthlyCost": 120
+      },
+      "entertainment": {
+        "description": "Free First Fridays at galleries, Schuylkill River Trail runs, Fairmount Park",
+        "monthlyCost": 100
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "Philadelphia is one of the most affordable major cities in the Northeast at this budget. BYOB restaurants keep dining out cheap, SEPTA eliminates car costs, and there is no sales tax on groceries or clothing. You can live in a trendy neighborhood and enjoy a genuinely urban lifestyle without coastal-city prices."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Nice 2BR in Rittenhouse Square area, Northern Liberties, or Fairmount",
+        "monthlyCost": 2200
+      },
+      "dining": {
+        "description": "Dining out 3-4x/week at Philly's acclaimed BYOB scene and top restaurants",
+        "monthlyCost": 550
+      },
+      "groceries": {
+        "monthlyCost": 470
+      },
+      "healthcare": {
+        "description": "ACA Gold plan with dental and vision; access to Penn Medicine and CHOP networks",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "SEPTA pass plus occasional Uber; weekend car rental for shore trips",
+        "monthlyCost": 200
+      },
+      "entertainment": {
+        "description": "Eagles or Phillies tickets, Philadelphia Museum of Art membership, gym, Jersey Shore weekends",
+        "monthlyCost": 350
+      },
+      "utilities": {
+        "monthlyCost": 180
+      },
+      "lifestyle": "At this budget Philly is a fantastic deal. You can live near Rittenhouse Square — one of the best urban parks in America — and enjoy a restaurant scene that rivals cities twice the price. Weekend trips to the Jersey Shore and easy Amtrak access to New York and D.C. add enormous value."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Rittenhouse Square condo, Society Hill townhouse, or a Chestnut Hill home",
+        "monthlyCost": 3200
+      },
+      "dining": {
+        "description": "Regular dining at top restaurants like Zahav, Vernick, Vetri Cucina; daily cafe stops",
+        "monthlyCost": 850
+      },
+      "groceries": {
+        "monthlyCost": 580
+      },
+      "healthcare": {
+        "description": "Premium private insurance with Penn Medicine network and comprehensive coverage",
+        "monthlyCost": 720
+      },
+      "transportation": {
+        "description": "Late-model car for suburban and shore trips, SEPTA for daily errands, premium insurance",
+        "monthlyCost": 400
+      },
+      "entertainment": {
+        "description": "Eagles season tickets, Philadelphia Orchestra subscriptions, premium gym, Brandywine Valley trips",
+        "monthlyCost": 520
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "lifestyle": "Philadelphia at this tier is outstanding. A prime address in Rittenhouse or Society Hill, regular meals at some of America's best restaurants, and season tickets to your favorite Philly sports teams. The city's walkability means you can do everything on foot and save the car for weekend getaways."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury Rittenhouse penthouse, historic Main Line estate, or Society Hill mansion",
+        "monthlyCost": 5000
+      },
+      "dining": {
+        "description": "Fine dining multiple times per week, private chef for dinner parties",
+        "monthlyCost": 1400
+      },
+      "groceries": {
+        "monthlyCost": 750
+      },
+      "healthcare": {
+        "description": "Concierge medicine at Penn Medicine; executive wellness at Jefferson",
+        "monthlyCost": 1000
+      },
+      "transportation": {
+        "description": "Luxury vehicle, private car service, Acela first-class to NYC and DC",
+        "monthlyCost": 800
+      },
+      "entertainment": {
+        "description": "Eagles box seats, Philadelphia Museum of Art patron, Main Line country club, premium experiences",
+        "monthlyCost": 1000
+      },
+      "utilities": {
+        "monthlyCost": 350
+      },
+      "domesticHelp": {
+        "description": "Weekly deep cleaning, landscaping, personal assistant, seasonal maintenance",
+        "monthlyCost": 800
+      },
+      "luxuryExtras": {
+        "description": "Quarterly travel, art collecting, Brandywine Valley outings, philanthropy",
+        "monthlyCost": 1400
+      },
+      "lifestyle": "You are living Philadelphia's finest. A stunning Rittenhouse penthouse or historic Main Line estate, patron-level access to world-class museums, and box seats at the Linc. First-class Acela to New York for dinner and back makes the entire Northeast Corridor your playground."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Historic Rittenhouse mansion, grand Main Line estate, or Chestnut Hill landmark property",
+        "monthlyCost": 10000
+      },
+      "dining": {
+        "description": "Personal chef, exclusive wine dinners, catered events in historic settings",
+        "monthlyCost": 2800
+      },
+      "groceries": {
+        "monthlyCost": 1100
+      },
+      "healthcare": {
+        "description": "Top-tier concierge at Penn Medicine, executive screenings, specialist VIP access",
+        "monthlyCost": 1500
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, private driver, first-class rail access",
+        "monthlyCost": 1500
+      },
+      "entertainment": {
+        "description": "Private suite at stadiums, museum trustee events, international travel, art patronage",
+        "monthlyCost": 2500
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, estate manager, personal assistant, property staff",
+        "monthlyCost": 4200
+      },
+      "luxuryExtras": {
+        "description": "First-class international travel, shore house, museum endowments, charitable foundation",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At this level Philadelphia offers old-money elegance with modern energy. A landmark estate, trustee-level involvement at the Philadelphia Museum of Art and the Orchestra, and the ability to shape the city's cultural future. The Main Line lifestyle combined with Philly's gritty authenticity creates something uniquely appealing."
+    }
+  }
+}

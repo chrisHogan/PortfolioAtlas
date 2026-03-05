@@ -1,0 +1,194 @@
+{
+  "name": "Barbados",
+  "country": "Barbados",
+  "region": "Caribbean",
+  "slug": "barbados",
+  "emoji": "🇧🇧",
+  "fireScore": 5.5,
+  "tagline": "Refined Caribbean Island Life with British Heritage",
+  "description": "Barbados is the most polished island in the Caribbean, blending pristine beaches with British colonial heritage, excellent infrastructure, and a welcoming Welcome Stamp visa for remote workers and retirees. The cost of living is significantly higher than most Caribbean islands due to heavy import duties, but the quality of life, safety, and English-speaking culture make it a premium destination. Rum, cricket, and turquoise waters define the Bajan lifestyle.",
+  "tags": {
+    "climate": "tropical",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "Welcome Stamp visa (12 months, renewable); standard tourist visa 6 months",
+    "timezone": "AST (UTC-4)",
+    "language": "English, Bajan Creole",
+    "internetSpeed": "50-100 Mbps average",
+    "safetyRating": "High – one of the safest Caribbean islands",
+    "nearestAirport": "Grantley Adams International Airport (BGI)",
+    "climate": "Tropical maritime with consistent trade winds",
+    "englishFriendly": "High",
+    "currency": "BBD (Barbados Dollar, pegged to USD at 2:1)",
+    "averageTemp": "81°F / 27°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in Worthing or Hastings on the south coast; basic but near the beach",
+        "monthlyCost": 1200
+      },
+      "dining": {
+        "description": "Local Bajan food: fish cutters, macaroni pie at rum shops 2-3x/week; mostly cooking at home",
+        "monthlyCost": 250
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "Basic private health insurance; Queen Elizabeth Hospital available for emergencies",
+        "monthlyCost": 400
+      },
+      "transportation": {
+        "description": "Public minibuses (cheap and frequent) plus occasional taxi",
+        "monthlyCost": 100
+      },
+      "entertainment": {
+        "description": "Beach life, Friday night fish fry at Oistins, cricket matches, hiking",
+        "monthlyCost": 80
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "lifestyle": "Barbados is expensive for the Caribbean, and this budget is tight. Groceries cost roughly double mainland US prices due to import duties. You can live simply near the beach and enjoy the incredible Bajan culture, but there is little room for extras. Cooking at home and taking local buses keep costs manageable."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Nice 2BR apartment in Christ Church or St. James with pool access",
+        "monthlyCost": 2200
+      },
+      "dining": {
+        "description": "Regular dining at Champers, Tides, and south coast restaurants; rum shop culture",
+        "monthlyCost": 500
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "Comprehensive private insurance covering Bayview Hospital and Sandy Crest Medical",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "Small rental car or own vehicle; island is only 21 miles long",
+        "monthlyCost": 250
+      },
+      "entertainment": {
+        "description": "Catamaran cruises, snorkeling, Crop Over festival, golf, beach clubs",
+        "monthlyCost": 200
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "lifestyle": "Life becomes comfortable and enjoyable at this level. A nice apartment with pool access, regular dining at excellent restaurants, and a car to explore the entire island easily. The west coast's platinum coast is accessible for special occasions, and the Bajan social scene opens up."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR villa with pool on the west or south coast, or luxury beachfront condo",
+        "monthlyCost": 3500
+      },
+      "dining": {
+        "description": "Fine dining on the Platinum Coast at The Cliff, Lone Star; regular entertaining at home",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "Premium international insurance with medical evacuation to Miami or Martinique",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "Own car, premium insurance; occasional island-hopping flights",
+        "monthlyCost": 350
+      },
+      "entertainment": {
+        "description": "Sailing, premium golf at Sandy Lane or Apes Hill, spa days, Crop Over VIP",
+        "monthlyCost": 400
+      },
+      "utilities": {
+        "monthlyCost": 300
+      },
+      "lifestyle": "Barbados at its best becomes accessible here. A villa with pool, dining at the world-famous west coast restaurants, sailing excursions, and a full social calendar. The island's compact size means everything is within 30 minutes, and the quality of life is genuinely world-class."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury beachfront villa on the west coast or estate home in Sandy Lane area",
+        "monthlyCost": 6000
+      },
+      "dining": {
+        "description": "Private chef plus fine dining at The Cliff, Cin Cin, and exclusive hotel restaurants",
+        "monthlyCost": 1200
+      },
+      "groceries": {
+        "monthlyCost": 800
+      },
+      "healthcare": {
+        "description": "Concierge medical with Miami specialist access; comprehensive international coverage",
+        "monthlyCost": 700
+      },
+      "transportation": {
+        "description": "Luxury vehicle, inter-island private flights, occasional yacht charter",
+        "monthlyCost": 500
+      },
+      "entertainment": {
+        "description": "Sandy Lane golf, yacht charters, polo matches, VIP Crop Over, Caribbean island hopping",
+        "monthlyCost": 700
+      },
+      "utilities": {
+        "monthlyCost": 400
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, cook, gardener, and pool maintenance",
+        "monthlyCost": 1200
+      },
+      "luxuryExtras": {
+        "description": "Caribbean yacht cruises, first-class travel to UK and US, art collecting, philanthropy",
+        "monthlyCost": 1500
+      },
+      "lifestyle": "You are living the classic Barbados luxury lifestyle alongside celebrities and business magnates on the platinum coast. A stunning beachfront villa, full staff, fine dining nightly, and the social calendar of one of the Caribbean's most exclusive communities."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Sandy Lane estate or sprawling beachfront compound on the platinum coast",
+        "monthlyCost": 12000
+      },
+      "dining": {
+        "description": "Personal chef team, exclusive catered events, private dining experiences",
+        "monthlyCost": 2500
+      },
+      "groceries": {
+        "monthlyCost": 1000
+      },
+      "healthcare": {
+        "description": "Elite concierge medical, private physician, executive health program with Miami access",
+        "monthlyCost": 1000
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, private yacht, chartered inter-island and transatlantic flights",
+        "monthlyCost": 1500
+      },
+      "entertainment": {
+        "description": "Private yacht, Sandy Lane membership, polo, art collecting, exclusive global events",
+        "monthlyCost": 2500
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full estate staff: chef, butler, housekeepers, groundskeepers, pool team, security, personal assistant",
+        "monthlyCost": 3500
+      },
+      "luxuryExtras": {
+        "description": "Yacht ownership, first-class global travel, Barbados property portfolio, philanthropic foundation",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At this level you join the ranks of the global elite who have made Barbados their home. Sandy Lane neighbors, a private yacht, full estate staff, and the kind of Caribbean lifestyle that most people only see in magazines. Barbados rewards this level of investment with genuine world-class living."
+    }
+  }
+}

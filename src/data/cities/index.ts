@@ -10,6 +10,19 @@ import hoChiMinhCity from './ho-chi-minh-city.json';
 import daNang from './da-nang.json';
 import georgeTown from './george-town.json';
 import cebu from './cebu.json';
+import singapore from './singapore.json';
+
+// East Asia
+import tokyo from './tokyo.json';
+import seoul from './seoul.json';
+import taipei from './taipei.json';
+import hongKong from './hong-kong.json';
+
+// South Asia
+import goa from './goa.json';
+import colombo from './colombo.json';
+import kathmandu from './kathmandu.json';
+import delhi from './delhi.json';
 
 // Europe
 import lisbon from './lisbon.json';
@@ -21,6 +34,16 @@ import budapest from './budapest.json';
 import valencia from './valencia.json';
 import chania from './chania.json';
 import tbilisi from './tbilisi.json';
+import paris from './paris.json';
+import london from './london.json';
+import amsterdam from './amsterdam.json';
+import prague from './prague.json';
+import split from './split.json';
+import tallinn from './tallinn.json';
+import malaga from './malaga.json';
+import nice from './nice.json';
+import rome from './rome.json';
+import edinburgh from './edinburgh.json';
 
 // Latin America
 import mexicoCity from './mexico-city.json';
@@ -32,6 +55,14 @@ import cuenca from './cuenca.json';
 import panamaCity from './panama-city.json';
 import sanJoseCR from './san-jose-cr.json';
 import lakeChapala from './lake-chapala.json';
+import cartagena from './cartagena.json';
+import quito from './quito.json';
+import santiago from './santiago.json';
+
+// Caribbean
+import sanJuan from './san-juan.json';
+import barbados from './barbados.json';
+import cozumel from './cozumel.json';
 
 // North America
 import austin from './austin.json';
@@ -65,23 +96,41 @@ import miami from './miami.json';
 import sanFrancisco from './san-francisco.json';
 import denver from './denver.json';
 import victoria from './victoria.json';
-
-// Europe (new)
-import paris from './paris.json';
-import london from './london.json';
-import amsterdam from './amsterdam.json';
-
-// East Asia
-import tokyo from './tokyo.json';
+import sanDiego from './san-diego.json';
+import portland from './portland.json';
+import boston from './boston.json';
+import honolulu from './honolulu.json';
+import charleston from './charleston.json';
+import savannah from './savannah.json';
+import nashville from './nashville.json';
+import scottsdale from './scottsdale.json';
+import washingtonDC from './washington-dc.json';
+import philadelphia from './philadelphia.json';
+import minneapolis from './minneapolis.json';
+import saltLakeCity from './salt-lake-city.json';
+import lasVegas from './las-vegas.json';
+import charlotte from './charlotte.json';
+import jacksonville from './jacksonville.json';
+import santaFe from './santa-fe.json';
+import fortWorth from './fort-worth.json';
+import sanJoseCA from './san-jose-ca.json';
 
 // Oceania
 import sydney from './sydney.json';
-
-// Southeast Asia (new)
-import singapore from './singapore.json';
+import melbourne from './melbourne.json';
+import auckland from './auckland.json';
 
 // Middle East
 import dubai from './dubai.json';
+import muscat from './muscat.json';
+import amman from './amman.json';
+
+// Africa
+import capeTown from './cape-town.json';
+import marrakech from './marrakech.json';
+import nairobi from './nairobi.json';
+import accra from './accra.json';
+import tunis from './tunis.json';
 
 export const allCities: CityData[] = [
   // Southeast Asia
@@ -94,6 +143,16 @@ export const allCities: CityData[] = [
   georgeTown,
   cebu,
   singapore,
+  // East Asia
+  tokyo,
+  seoul,
+  taipei,
+  hongKong,
+  // South Asia
+  goa,
+  colombo,
+  kathmandu,
+  delhi,
   // Europe
   lisbon,
   porto,
@@ -107,6 +166,13 @@ export const allCities: CityData[] = [
   paris,
   london,
   amsterdam,
+  prague,
+  split,
+  tallinn,
+  malaga,
+  nice,
+  rome,
+  edinburgh,
   // Latin America
   mexicoCity,
   medellin,
@@ -117,6 +183,13 @@ export const allCities: CityData[] = [
   panamaCity,
   sanJoseCR,
   lakeChapala,
+  cartagena,
+  quito,
+  santiago,
+  // Caribbean
+  sanJuan,
+  barbados,
+  cozumel,
   // North America
   austin,
   boise,
@@ -149,12 +222,38 @@ export const allCities: CityData[] = [
   sanFrancisco,
   denver,
   victoria,
-  // East Asia
-  tokyo,
+  sanDiego,
+  portland,
+  boston,
+  honolulu,
+  charleston,
+  savannah,
+  nashville,
+  scottsdale,
+  washingtonDC,
+  philadelphia,
+  minneapolis,
+  saltLakeCity,
+  lasVegas,
+  charlotte,
+  jacksonville,
+  santaFe,
+  fortWorth,
+  sanJoseCA,
   // Oceania
   sydney,
+  melbourne,
+  auckland,
   // Middle East
   dubai,
+  muscat,
+  amman,
+  // Africa
+  capeTown,
+  marrakech,
+  nairobi,
+  accra,
+  tunis,
 ] as CityData[];
 
 export function getCityBySlug(slug: string): CityData | undefined {

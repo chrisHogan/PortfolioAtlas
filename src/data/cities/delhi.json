@@ -1,0 +1,194 @@
+{
+  "name": "Delhi",
+  "country": "India",
+  "region": "South Asia",
+  "slug": "delhi",
+  "emoji": "🇮🇳",
+  "fireScore": 7.5,
+  "tagline": "Imperial History and Modern Energy at Incredible Value",
+  "description": "Delhi is India's sprawling capital, a megacity where Mughal monuments stand alongside gleaming malls and a world-class metro system. The cost of living is astonishingly low by Western standards, and the city offers some of the best food, healthcare, and cultural experiences in South Asia. Air quality and traffic congestion are real challenges, but for FIRE seekers who can look past them, Delhi delivers unmatched bang for the buck.",
+  "tags": {
+    "climate": "subtropical",
+    "english": "moderate"
+  },
+  "quickFacts": {
+    "visa": "India e-Tourist Visa (up to 5 years); no dedicated retirement visa",
+    "timezone": "IST (UTC+5:30)",
+    "language": "Hindi, English, Punjabi",
+    "internetSpeed": "40-80 Mbps average",
+    "safetyRating": "Moderate – exercise normal caution; avoid isolated areas at night",
+    "nearestAirport": "Indira Gandhi International Airport (DEL)",
+    "climate": "Subtropical with extreme summers and cool winters",
+    "englishFriendly": "Moderate",
+    "currency": "INR (Indian Rupee)",
+    "averageTemp": "77°F / 25°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "2BR apartment in a decent South Delhi colony like Saket or Malviya Nagar",
+        "monthlyCost": 500
+      },
+      "dining": {
+        "description": "Street food paradise: chaat, paranthas, and dhabas 5-6x/week; occasional restaurant meals",
+        "monthlyCost": 200
+      },
+      "groceries": {
+        "monthlyCost": 200
+      },
+      "healthcare": {
+        "description": "Private health insurance with access to Max and Fortis hospital networks",
+        "monthlyCost": 150
+      },
+      "transportation": {
+        "description": "Delhi Metro (excellent network) plus auto-rickshaws and Uber/Ola",
+        "monthlyCost": 80
+      },
+      "entertainment": {
+        "description": "Mughal monument visits, Lodi Garden walks, Dilli Haat markets, cinema",
+        "monthlyCost": 100
+      },
+      "utilities": {
+        "monthlyCost": 70
+      },
+      "lifestyle": "Delhi on this budget is surprisingly comfortable. The world-class metro gets you everywhere cheaply, street food is legendary and costs almost nothing, and the city's historical sites are mostly free. A/C costs push up summer bills, and air quality is a real concern, but the sheer value is hard to beat."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Spacious 3BR apartment in Greater Kailash, Vasant Kunj, or a modern Gurgaon high-rise",
+        "monthlyCost": 900
+      },
+      "dining": {
+        "description": "Regular dining at Khan Market restaurants, Hauz Khas cafes, and Old Delhi food tours",
+        "monthlyCost": 400
+      },
+      "groceries": {
+        "monthlyCost": 300
+      },
+      "healthcare": {
+        "description": "Premium insurance covering Apollo, Medanta, and other top-tier hospitals",
+        "monthlyCost": 200
+      },
+      "transportation": {
+        "description": "Own small car or regular Uber/Ola; metro for convenience",
+        "monthlyCost": 200
+      },
+      "entertainment": {
+        "description": "Theatre at National School of Drama, art galleries, gym membership, weekend trips to Agra and Jaipur",
+        "monthlyCost": 250
+      },
+      "utilities": {
+        "monthlyCost": 100
+      },
+      "lifestyle": "At this level Delhi becomes genuinely enjoyable. A large apartment in a good neighborhood, regular dining at excellent restaurants, and the freedom to explore the Golden Triangle on weekends. You can afford a car to escape the metro crush and access Delhi's vibrant cultural scene fully."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Luxury 4BR apartment in Defence Colony, Jor Bagh, or a premium Gurgaon tower",
+        "monthlyCost": 1800
+      },
+      "dining": {
+        "description": "Fine dining at Indian Accent, Bukhara, and other world-renowned Delhi restaurants",
+        "monthlyCost": 700
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "International health insurance with coverage across Asia; concierge-level care",
+        "monthlyCost": 350
+      },
+      "transportation": {
+        "description": "Own car with part-time driver, occasional domestic flights",
+        "monthlyCost": 400
+      },
+      "entertainment": {
+        "description": "Premium club memberships, spa retreats in Rishikesh, cultural events, weekend Himalayan getaways",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "You live among Delhi's elite at this budget. A luxury apartment in the city's most coveted neighborhoods, dining at restaurants that rank among Asia's best, and a car with driver to navigate the city in comfort. The surplus allows for frequent domestic and international travel."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Grand bungalow in Lutyens' Delhi zone or ultra-luxury penthouse in Gurgaon",
+        "monthlyCost": 3500
+      },
+      "dining": {
+        "description": "Personal chef for daily meals, fine dining several times per week, catered events",
+        "monthlyCost": 1000
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "VIP concierge medical with dedicated physician; international hospital access",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "Luxury sedan with full-time chauffeur, domestic flights, occasional chartered travel",
+        "monthlyCost": 600
+      },
+      "entertainment": {
+        "description": "Premium club memberships, polo matches, art collecting, luxury Himalayan retreats",
+        "monthlyCost": 800
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "domesticHelp": {
+        "description": "Full-time cook, housekeeper, driver, gardener, and part-time personal assistant",
+        "monthlyCost": 600
+      },
+      "luxuryExtras": {
+        "description": "First-class international travel, luxury resort stays, philanthropy, property investments",
+        "monthlyCost": 2000
+      },
+      "lifestyle": "At $5M in Delhi you live the life of the city's old-money elite. A grand residence with a full staff, a chauffeur-driven luxury car, and access to exclusive clubs and cultural events. Delhi's position as a gateway to the Himalayas and Rajasthan adds adventure to the luxury."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Palatial farmhouse in Chhatarpur or historic bungalow in the diplomatic enclave",
+        "monthlyCost": 6000
+      },
+      "dining": {
+        "description": "Personal chef team, exclusive supper clubs, private dining experiences",
+        "monthlyCost": 2500
+      },
+      "groceries": {
+        "monthlyCost": 800
+      },
+      "healthcare": {
+        "description": "Elite global health plan, personal physician on retainer, executive wellness program",
+        "monthlyCost": 1000
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, dedicated chauffeur team, private jet charters for travel",
+        "monthlyCost": 1500
+      },
+      "entertainment": {
+        "description": "Polo club ownership stakes, art patronage, exclusive cultural galas, luxury global travel",
+        "monthlyCost": 2500
+      },
+      "utilities": {
+        "monthlyCost": 300
+      },
+      "domesticHelp": {
+        "description": "Full estate staff: chef team, butler, housekeepers, gardeners, security, drivers, personal assistant",
+        "monthlyCost": 1500
+      },
+      "luxuryExtras": {
+        "description": "Property empire, philanthropic foundation, first-class global travel, art and antique collection",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At this level in Delhi, you are among the most privileged people in a city of 30 million. A sprawling estate, a personal staff of a dozen, and the resources to influence culture and community. India's low costs mean your surplus is staggering, even as you live in absolute luxury."
+    }
+  }
+}

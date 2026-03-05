@@ -1,0 +1,194 @@
+{
+  "name": "Savannah",
+  "country": "United States",
+  "region": "North America",
+  "slug": "savannah",
+  "emoji": "🇺🇸",
+  "fireScore": 6.0,
+  "tagline": "Moss-Draped Squares, Affordable Southern Charm, and Coastal Access",
+  "description": "Savannah offers one of the best value propositions among charming Southern cities. Its iconic moss-draped squares, historic architecture, and walkable downtown create a storybook setting at a fraction of the cost of nearby Charleston. Georgia's moderate tax burden and Savannah's genuinely affordable housing make it an excellent FIRE destination. The city's art scene, excellent seafood, and proximity to Tybee Island beaches round out a compelling retirement package.",
+  "tags": {
+    "climate": "subtropical",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "EST (UTC-5)",
+    "language": "English",
+    "internetSpeed": "150+ Mbps average",
+    "safetyRating": "Moderate – safe in historic and suburban areas; some rougher pockets",
+    "nearestAirport": "Savannah/Hilton Head International (SAV)",
+    "climate": "Subtropical with hot, humid summers and mild, short winters",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "66°F / 19°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in Midtown, Thunderbolt, or the Starland District",
+        "monthlyCost": 1250
+      },
+      "dining": {
+        "description": "Casual Southern fare 2-3x/week; meat-and-three spots and seafood shacks",
+        "monthlyCost": 230
+      },
+      "groceries": {
+        "monthlyCost": 370
+      },
+      "healthcare": {
+        "description": "ACA Silver plan on the Georgia marketplace; Memorial Health nearby",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "Older paid-off car with insurance and gas; Savannah is partly walkable",
+        "monthlyCost": 260
+      },
+      "entertainment": {
+        "description": "Free walks through the 22 squares, Forsyth Park, Tybee Island beach days",
+        "monthlyCost": 100
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "Savannah is one of the more comfortable cities at this budget level. Housing is genuinely affordable, the historic district is free to explore endlessly, and Tybee Island is a short drive away. Summer A/C costs are the main budget hit, but the low cost of living leaves more breathing room than most US cities."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "2BR apartment in the Historic District, Victorian District, or Ardsley Park",
+        "monthlyCost": 1900
+      },
+      "dining": {
+        "description": "Dining out 3-4x/week at River Street restaurants and local favorites",
+        "monthlyCost": 500
+      },
+      "groceries": {
+        "monthlyCost": 450
+      },
+      "healthcare": {
+        "description": "ACA Gold plan with dental and vision; solid regional hospital access",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "Reliable mid-range car, insurance, gas for beach and day trip outings",
+        "monthlyCost": 350
+      },
+      "entertainment": {
+        "description": "SCAD museum events, ghost tours, Tybee pier fishing, gym, live music on River Street",
+        "monthlyCost": 280
+      },
+      "utilities": {
+        "monthlyCost": 180
+      },
+      "lifestyle": "At this budget Savannah becomes a true delight. You can live in or near the Historic District, enjoy the city's excellent restaurant scene, and spend weekends at Tybee Island without a second thought. The SCAD art scene and regular festivals keep the cultural calendar full year-round."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Historic rowhouse on a square, or a waterfront home on Wilmington Island",
+        "monthlyCost": 3000
+      },
+      "dining": {
+        "description": "Regular dining at The Grey, Elizabeth on 37th, and The Olde Pink House",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 550
+      },
+      "healthcare": {
+        "description": "Premium private insurance with comprehensive coverage; specialist access in town",
+        "monthlyCost": 700
+      },
+      "transportation": {
+        "description": "Late-model SUV, premium insurance, boat fuel for river excursions",
+        "monthlyCost": 450
+      },
+      "entertainment": {
+        "description": "Golf club membership, boating on the Intracoastal Waterway, SCAD patron, premium gym",
+        "monthlyCost": 480
+      },
+      "utilities": {
+        "monthlyCost": 230
+      },
+      "lifestyle": "Savannah at this level is magical. A historic home on one of the famous squares, dinners at James Beard-nominated restaurants, and lazy weekends boating the marshes and waterways. The city's intimate scale means you quickly become part of the social fabric and feel genuinely at home."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Grand historic mansion on Monterey Square or beachfront estate on Tybee Island",
+        "monthlyCost": 4500
+      },
+      "dining": {
+        "description": "Fine dining weekly, private chef for Southern supper parties, wine events",
+        "monthlyCost": 1300
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "Concierge medicine; executive wellness programs; easy access to specialists",
+        "monthlyCost": 900
+      },
+      "transportation": {
+        "description": "Luxury vehicle, boat for the Intracoastal Waterway, premium insurance",
+        "monthlyCost": 750
+      },
+      "entertainment": {
+        "description": "Private club memberships, Savannah Film Festival patron, deep-sea fishing charters",
+        "monthlyCost": 900
+      },
+      "utilities": {
+        "monthlyCost": 320
+      },
+      "domesticHelp": {
+        "description": "Weekly cleaning, garden and grounds maintenance, personal assistant",
+        "monthlyCost": 700
+      },
+      "luxuryExtras": {
+        "description": "Quarterly travel, historic preservation philanthropy, art collecting, spa retreats",
+        "monthlyCost": 1300
+      },
+      "lifestyle": "You are living Savannah's grandest lifestyle. A magnificent mansion draped in Spanish moss, private boat access to the barrier islands, and the ability to host legendary Southern dinner parties. Your dollar stretches remarkably far here compared to other charming coastal cities."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Landmark historic estate on a prime square or waterfront compound with dock access",
+        "monthlyCost": 8500
+      },
+      "dining": {
+        "description": "Personal chef specializing in Lowcountry cuisine, exclusive wine dinners, catered events",
+        "monthlyCost": 2500
+      },
+      "groceries": {
+        "monthlyCost": 1000
+      },
+      "healthcare": {
+        "description": "Top-tier concierge practice, executive health screenings, specialist travel access",
+        "monthlyCost": 1400
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, private yacht, driver for events",
+        "monthlyCost": 1600
+      },
+      "entertainment": {
+        "description": "Philanthropic galas, SCAD art patronage, international travel, private club memberships",
+        "monthlyCost": 2200
+      },
+      "utilities": {
+        "monthlyCost": 450
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, estate manager, personal assistant, grounds crew, boat captain",
+        "monthlyCost": 3800
+      },
+      "luxuryExtras": {
+        "description": "Historic preservation endowments, European travel, barrier island retreat, charitable foundation",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At this level Savannah becomes your personal Southern estate. A landmark mansion, a yacht for cruising the waterways, and the ability to be a major patron of the city's arts and preservation efforts. The combination of affordability and elegance means your money creates an outsized lifestyle here."
+    }
+  }
+}

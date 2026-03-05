@@ -1,0 +1,194 @@
+{
+  "name": "Goa",
+  "country": "India",
+  "region": "South Asia",
+  "slug": "goa",
+  "emoji": "🇮🇳",
+  "fireScore": 8.2,
+  "tagline": "Beach Paradise Living on a Fraction of Western Costs",
+  "description": "Goa is India's premier coastal retreat, blending Portuguese colonial charm with tropical beaches and an incredibly low cost of living. A thriving expat community, world-class seafood, and a laid-back vibe make it one of the most attractive FIRE destinations in Asia. From the lively beach shacks of North Goa to the quieter coves of the South, retirees can stretch their portfolios further here than almost anywhere else on Earth.",
+  "tags": {
+    "climate": "tropical",
+    "english": "moderate"
+  },
+  "quickFacts": {
+    "visa": "India e-Tourist Visa (up to 5 years); retirement visa not available",
+    "timezone": "IST (UTC+5:30)",
+    "language": "Konkani, English, Hindi",
+    "internetSpeed": "30-50 Mbps average",
+    "safetyRating": "Moderate – generally safe for tourists and expats",
+    "nearestAirport": "Goa International Airport (GOI)",
+    "climate": "Tropical with monsoon season June-September",
+    "englishFriendly": "Moderate",
+    "currency": "INR (Indian Rupee)",
+    "averageTemp": "82°F / 28°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Spacious 2BR apartment or small villa in Anjuna or Mapusa area",
+        "monthlyCost": 500
+      },
+      "dining": {
+        "description": "Beach shack meals and local Goan restaurants 4-5x/week; thalis under $2",
+        "monthlyCost": 200
+      },
+      "groceries": {
+        "monthlyCost": 200
+      },
+      "healthcare": {
+        "description": "Comprehensive private health insurance with access to Manipal Hospital Goa",
+        "monthlyCost": 150
+      },
+      "transportation": {
+        "description": "Rented scooter or motorbike, the standard Goa transport",
+        "monthlyCost": 80
+      },
+      "entertainment": {
+        "description": "Beach life, yoga classes, night markets, occasional live music events",
+        "monthlyCost": 100
+      },
+      "utilities": {
+        "monthlyCost": 60
+      },
+      "lifestyle": "At this budget you live better than most locals in Goa. A comfortable apartment near the beach, daily restaurant meals of fresh seafood, and plenty left over for hobbies and socializing. The warm expat community and low costs mean your $1M portfolio feels like much more here."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Beautiful 3BR villa with pool in Assagao or Vagator",
+        "monthlyCost": 1200
+      },
+      "dining": {
+        "description": "Mix of upscale beach restaurants, boutique cafes, and fine dining in Panjim",
+        "monthlyCost": 400
+      },
+      "groceries": {
+        "monthlyCost": 300
+      },
+      "healthcare": {
+        "description": "Premium private insurance covering top hospitals in Goa and Mumbai",
+        "monthlyCost": 200
+      },
+      "transportation": {
+        "description": "Own scooter plus occasional taxi and ride-hailing for longer trips",
+        "monthlyCost": 150
+      },
+      "entertainment": {
+        "description": "Surfing lessons, premium yoga retreats, weekend trips to spice plantations and waterfalls",
+        "monthlyCost": 250
+      },
+      "utilities": {
+        "monthlyCost": 80
+      },
+      "lifestyle": "Life becomes genuinely luxurious at this level by Goan standards. A private villa with a pool, regular dining at the best restaurants, and the freedom to explore all of Goa's culture and nature without thinking about cost. You can easily travel to other parts of India on weekends."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Stunning 4BR luxury villa with pool and garden in Siolim or Candolim",
+        "monthlyCost": 2000
+      },
+      "dining": {
+        "description": "Daily fine dining at top restaurants like Bomra's and Gunpowder; regular entertaining",
+        "monthlyCost": 700
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "Top-tier international health insurance with medical evacuation coverage",
+        "monthlyCost": 350
+      },
+      "transportation": {
+        "description": "Own car with driver for daily use, plus scooter for casual trips",
+        "monthlyCost": 300
+      },
+      "entertainment": {
+        "description": "Private yacht trips, premium wellness retreats, cultural festivals, weekend getaways to Hampi",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 120
+      },
+      "lifestyle": "You are living at the absolute top of Goan society. A palatial villa, a car with driver, dining at every top-tier restaurant, and the means to fly anywhere in India on a whim. At this level you have enormous surplus to reinvest or use for international travel and philanthropy."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Oceanfront estate or heritage Portuguese villa with full amenities in prime North Goa",
+        "monthlyCost": 3500
+      },
+      "dining": {
+        "description": "Personal chef for daily meals plus fine dining experiences across Goa",
+        "monthlyCost": 1000
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "VIP concierge medical service, international coverage including Singapore and Bangkok hospitals",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "Luxury SUV with full-time driver, plus own scooter for leisure rides",
+        "monthlyCost": 500
+      },
+      "entertainment": {
+        "description": "Private beach parties, art collecting, premium wellness programs, domestic and international travel",
+        "monthlyCost": 800
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "domesticHelp": {
+        "description": "Full-time cook, housekeeper, gardener, and part-time driver",
+        "monthlyCost": 600
+      },
+      "luxuryExtras": {
+        "description": "Regular international travel, yacht charters, bespoke experiences, philanthropy in local communities",
+        "monthlyCost": 2000
+      },
+      "lifestyle": "At $5M in Goa you live like royalty. A stunning estate with a full household staff, a private chef, luxury vehicles, and the ability to jet off to Mumbai, Dubai, or Southeast Asia whenever the mood strikes. Your surplus grows faster than you can spend it."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Sprawling beachfront compound or restored Portuguese mansion with guest houses",
+        "monthlyCost": 5000
+      },
+      "dining": {
+        "description": "Private chef team, catered events, exclusive dining experiences flown in from Mumbai",
+        "monthlyCost": 2000
+      },
+      "groceries": {
+        "monthlyCost": 800
+      },
+      "healthcare": {
+        "description": "Elite international health plan, personal wellness consultant, annual executive health screening abroad",
+        "monthlyCost": 800
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, full-time chauffeur, chartered flights to Mumbai and Delhi",
+        "monthlyCost": 1200
+      },
+      "entertainment": {
+        "description": "Private island excursions, art patronage, exclusive cultural events, first-class international travel",
+        "monthlyCost": 2000
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "domesticHelp": {
+        "description": "Full household staff including chef, butler, housekeepers, gardeners, security, and personal assistant",
+        "monthlyCost": 1500
+      },
+      "luxuryExtras": {
+        "description": "Property investments, philanthropy, first-class global travel, yacht ownership, art collection",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "This budget in Goa is almost absurd in its luxury. You could own multiple properties, employ a full staff, fund local charities, and still have enormous surplus. Most retirees at this level split time between Goa and international destinations, using Goa as a spectacular and affordable home base."
+    }
+  }
+}

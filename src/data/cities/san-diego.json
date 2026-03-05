@@ -1,0 +1,194 @@
+{
+  "name": "San Diego",
+  "country": "United States",
+  "region": "North America",
+  "slug": "san-diego",
+  "emoji": "🇺🇸",
+  "fireScore": 5.5,
+  "tagline": "Perfect Weather, Beach Living, and Laid-Back California Vibes",
+  "description": "San Diego offers arguably the best climate in the United States, with year-round sunshine and mild temperatures that rarely dip below 50°F. The city blends world-class beaches, a thriving craft beer scene, and proximity to the Mexican border for affordable day trips. While California taxes and housing costs are real headwinds for FIRE retirees, the quality of life and outdoor lifestyle are hard to beat anywhere in the country.",
+  "tags": {
+    "climate": "subtropical",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "PST (UTC-8)",
+    "language": "English",
+    "internetSpeed": "200+ Mbps average",
+    "safetyRating": "Moderate – safe by large US city standards",
+    "nearestAirport": "San Diego International (SAN)",
+    "climate": "Subtropical Mediterranean with warm, dry summers and mild winters",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "64°F / 18°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Studio or small 1BR apartment in City Heights, El Cajon, or National City",
+        "monthlyCost": 1700
+      },
+      "dining": {
+        "description": "Fish tacos and casual Mexican food 2-3x/week; mostly cooking at home",
+        "monthlyCost": 250
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "Covered California Silver plan; California's exchange offers competitive rates",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "Older paid-off car with insurance and gas; trolley for downtown trips",
+        "monthlyCost": 280
+      },
+      "entertainment": {
+        "description": "Free beach days, Balboa Park museums (free Tuesdays), hiking Torrey Pines",
+        "monthlyCost": 80
+      },
+      "utilities": {
+        "monthlyCost": 120
+      },
+      "lifestyle": "San Diego on a tight budget means living further from the coast but still enjoying the incredible weather and free outdoor activities. You will cook most meals at home but can indulge in affordable Mexican food regularly. Expect a modest apartment and a careful approach to spending, but the beach is always free."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Nice 1BR or 2BR apartment in North Park, Hillcrest, or Pacific Beach",
+        "monthlyCost": 2500
+      },
+      "dining": {
+        "description": "Dining out 3-4x/week at mid-range spots in Little Italy and North Park",
+        "monthlyCost": 600
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "Covered California Gold plan with dental and vision",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "Reliable mid-range car, full coverage insurance, occasional Uber",
+        "monthlyCost": 400
+      },
+      "entertainment": {
+        "description": "Zoo and SeaWorld passes, surfing gear, gym membership, craft brewery hopping",
+        "monthlyCost": 300
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "At this level you can live in one of San Diego's walkable, vibrant neighborhoods and enjoy the restaurant scene regularly. Surfing, hiking, and exploring craft breweries become part of your weekly routine. You have room for weekend trips to Anza-Borrego or Baja Mexico without stressing the budget."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR house in Mission Hills, Point Loma, or a beachfront condo in La Jolla",
+        "monthlyCost": 3800
+      },
+      "dining": {
+        "description": "Regular meals at top restaurants like Juniper & Ivy, Addison; daily cafe visits",
+        "monthlyCost": 900
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "Premium private insurance with comprehensive coverage and low deductibles",
+        "monthlyCost": 750
+      },
+      "transportation": {
+        "description": "Late-model SUV or convertible, premium insurance, parking garage spot",
+        "monthlyCost": 550
+      },
+      "entertainment": {
+        "description": "Padres season tickets, sailing club, premium gym, golf at Torrey Pines",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "lifestyle": "San Diego truly shines at this budget level. You can live near the coast, dine at the city's best restaurants, and pursue premium outdoor activities like sailing and golf at Torrey Pines. Weekend drives up the Pacific Coast Highway or wine tasting in Temecula are easy indulgences."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury oceanfront home in La Jolla, Del Mar, or Coronado",
+        "monthlyCost": 5500
+      },
+      "dining": {
+        "description": "Fine dining at Michelin-starred restaurants, private chef for dinner parties",
+        "monthlyCost": 1500
+      },
+      "groceries": {
+        "monthlyCost": 800
+      },
+      "healthcare": {
+        "description": "Concierge medicine at Scripps or UCSD Health; executive wellness programs",
+        "monthlyCost": 1000
+      },
+      "transportation": {
+        "description": "Luxury vehicle (Porsche, Tesla), premium insurance, valet and detailing",
+        "monthlyCost": 850
+      },
+      "entertainment": {
+        "description": "Yacht club membership, VIP Padres box, premium golf memberships, art events",
+        "monthlyCost": 1000
+      },
+      "utilities": {
+        "monthlyCost": 350
+      },
+      "domesticHelp": {
+        "description": "Weekly deep cleaning, landscaping, pool maintenance, errand service",
+        "monthlyCost": 900
+      },
+      "luxuryExtras": {
+        "description": "Quarterly luxury travel, wine collection, spa memberships, philanthropy",
+        "monthlyCost": 1500
+      },
+      "lifestyle": "You are living the San Diego dream at this level. A stunning home steps from the ocean, membership at exclusive yacht and golf clubs, and dinners at the finest restaurants. The mild weather means you enjoy your outdoor lifestyle twelve months a year with zero compromise."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Beachfront estate in La Jolla Shores or a Coronado waterfront compound",
+        "monthlyCost": 11000
+      },
+      "dining": {
+        "description": "Personal chef, exclusive wine dinners, catered events with ocean views",
+        "monthlyCost": 3000
+      },
+      "groceries": {
+        "monthlyCost": 1200
+      },
+      "healthcare": {
+        "description": "Top-tier concierge practice at Scripps, executive screenings, wellness retreats",
+        "monthlyCost": 1500
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, private car service, classic car hobby",
+        "monthlyCost": 1800
+      },
+      "entertainment": {
+        "description": "Private yacht, art collecting, philanthropic galas, international travel",
+        "monthlyCost": 2500
+      },
+      "utilities": {
+        "monthlyCost": 600
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, personal assistant, estate manager, pool and garden crew",
+        "monthlyCost": 4500
+      },
+      "luxuryExtras": {
+        "description": "First-class international travel, second home in Baja, yacht upkeep, angel investing",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At this budget San Diego becomes a private paradise. A sprawling beachfront estate, a personal yacht, and access to the most exclusive clubs in Southern California. The perfect climate and proximity to LA, Mexico, and the Pacific Rim make this an unmatched base for the ultra-wealthy FIRE lifestyle."
+    }
+  }
+}

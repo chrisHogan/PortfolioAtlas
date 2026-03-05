@@ -1,0 +1,194 @@
+{
+  "name": "Cape Town",
+  "country": "South Africa",
+  "region": "Africa",
+  "slug": "cape-town",
+  "emoji": "🇿🇦",
+  "fireScore": 7.5,
+  "tagline": "Stunning Natural Beauty, World-Class Wine, and Remarkable Affordability",
+  "description": "Cape Town is consistently ranked among the most beautiful cities in the world, and for FIRE retirees the value proposition is extraordinary. Table Mountain, pristine beaches, a thriving food and wine scene, and modern infrastructure come at a fraction of Western prices. The rand's weakness against the dollar means your portfolio stretches remarkably far. English is widely spoken, healthcare quality is high at private facilities, and the Mediterranean climate delivers mild winters and warm, dry summers. Load-shedding (rolling blackouts) remains an occasional nuisance but is increasingly managed with solar and battery solutions.",
+  "tags": {
+    "climate": "mediterranean",
+    "english": "moderate"
+  },
+  "quickFacts": {
+    "visa": "90-day visa-free stay for US citizens; retirement visa available",
+    "timezone": "SAST (UTC+2)",
+    "language": "English / Afrikaans / Xhosa",
+    "internetSpeed": "50-100 Mbps average (fiber areas)",
+    "safetyRating": "Moderate – exercise caution, avoid certain areas at night",
+    "nearestAirport": "Cape Town International Airport (CPT)",
+    "climate": "Mediterranean with warm dry summers and mild wet winters",
+    "englishFriendly": "Moderate – English widely spoken but Afrikaans and Xhosa common",
+    "currency": "ZAR (South African Rand)",
+    "averageTemp": "63°F / 17°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Modern 2BR apartment in Observatory, Woodstock, or Sea Point",
+        "monthlyCost": 800
+      },
+      "dining": {
+        "description": "Regular dining at diverse restaurants, braai spots, and cafes 4-5x/week",
+        "monthlyCost": 250
+      },
+      "groceries": {
+        "monthlyCost": 250
+      },
+      "healthcare": {
+        "description": "Private medical aid (Discovery Health) with hospital and day-to-day cover",
+        "monthlyCost": 300
+      },
+      "transportation": {
+        "description": "Used car with insurance, fuel, and MyCiTi bus for commuting",
+        "monthlyCost": 200
+      },
+      "entertainment": {
+        "description": "Beach days, Table Mountain hikes, Kirstenbosch concerts, wine tasting in Stellenbosch",
+        "monthlyCost": 150
+      },
+      "utilities": {
+        "monthlyCost": 100
+      },
+      "lifestyle": "Cape Town at $3,333/month is an extraordinarily rich life by local standards. You can live in a trendy neighborhood, dine out regularly, enjoy world-class natural beauty every day, and afford private healthcare. The rand exchange rate means your dollar goes very far. This buys a lifestyle that would require $7,000+ in most US cities."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Spacious 3BR apartment in Camps Bay, Green Point, or a house in Constantia",
+        "monthlyCost": 1600
+      },
+      "dining": {
+        "description": "Regular dining at top Cape Town restaurants like La Colombe, The Test Kitchen, and Kloof Street spots",
+        "monthlyCost": 450
+      },
+      "groceries": {
+        "monthlyCost": 350
+      },
+      "healthcare": {
+        "description": "Comprehensive private medical aid with specialist and dental coverage",
+        "monthlyCost": 400
+      },
+      "transportation": {
+        "description": "Reliable car with comprehensive insurance, fuel, and maintenance",
+        "monthlyCost": 300
+      },
+      "entertainment": {
+        "description": "Wine estate memberships, surfing, premium Kirstenbosch events, Cape Point excursions, Franschhoek weekends",
+        "monthlyCost": 450
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "At $6,667/month Cape Town delivers a genuinely luxurious life. A beautiful apartment with ocean or mountain views, regular fine dining, wine estate memberships, and part-time domestic help. You can explore the entire Western Cape region on weekends and still have significant savings buffer. This is upper-middle-class Cape Town living at its best."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Luxury 4BR house in Camps Bay, Clifton, or a wine estate property in Constantia",
+        "monthlyCost": 2800
+      },
+      "dining": {
+        "description": "Top-tier restaurants like La Colombe, FYN, and Salsify regularly; private wine dinners",
+        "monthlyCost": 650
+      },
+      "groceries": {
+        "monthlyCost": 450
+      },
+      "healthcare": {
+        "description": "Premium private medical aid with full specialist, dental, and alternative therapy coverage",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "Late-model SUV, comprehensive insurance, fuel; occasional private driver",
+        "monthlyCost": 400
+      },
+      "entertainment": {
+        "description": "Premium wine club memberships, private golf, sailing, safari trips to Kruger, art gallery openings",
+        "monthlyCost": 800
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "lifestyle": "This is elite Cape Town living. A stunning home with Atlantic Ocean views, full-time domestic help, safari holidays, and access to one of the world's best food and wine scenes. At $10K/month you are in the top tier of Cape Town society and can enjoy virtually everything the city and country offer."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Oceanfront villa in Clifton, Bantry Bay, or a luxury wine estate in the Winelands",
+        "monthlyCost": 4000
+      },
+      "dining": {
+        "description": "Personal chef, exclusive dining experiences, private wine estate dinners, catered events",
+        "monthlyCost": 1000
+      },
+      "groceries": {
+        "monthlyCost": 550
+      },
+      "healthcare": {
+        "description": "Top-tier private medical aid with concierge service, international coverage",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "Luxury vehicle, comprehensive insurance, private driver on call",
+        "monthlyCost": 600
+      },
+      "entertainment": {
+        "description": "Exclusive golf club memberships, yacht charter, helicopter tours, art collecting, philanthropy",
+        "monthlyCost": 800
+      },
+      "utilities": {
+        "monthlyCost": 300
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, cook, gardener, security guard, pool maintenance",
+        "monthlyCost": 700
+      },
+      "luxuryExtras": {
+        "description": "Private safari lodges, first-class international travel, luxury wine collecting, charitable giving",
+        "monthlyCost": 2000
+      },
+      "lifestyle": "At $16,667/month in Cape Town you are living like royalty. A Clifton villa with crashing waves below, a private chef, a staff of domestic helpers, helicopter tours of the peninsula, and private safari lodges in Kruger or the Sabi Sands. Your dollar buys a level of luxury here that would cost three times as much in Europe or the US."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Trophy estate in Clifton, Fresnaye, or a private Winelands compound with vineyards",
+        "monthlyCost": 7000
+      },
+      "dining": {
+        "description": "Personal chef team, exclusive private dining, catered events and charity galas",
+        "monthlyCost": 1800
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "Top-tier private concierge medicine, international medevac coverage, executive wellness",
+        "monthlyCost": 800
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, full-time driver, helicopter charter account",
+        "monthlyCost": 1200
+      },
+      "entertainment": {
+        "description": "Yacht ownership, private game reserves, art collecting, international philanthropy, cultural patronage",
+        "monthlyCost": 2000
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full household staff: housekeeper, chef, gardener, security team, personal assistant, driver",
+        "monthlyCost": 2000
+      },
+      "luxuryExtras": {
+        "description": "Private game lodge ownership, yacht, first-class global travel, vineyard operations, major philanthropy",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At $33K/month Cape Town offers a lifestyle that rivals anywhere on earth. A world-class estate with sweeping ocean views, a full household staff, your own game lodge for safaris, a yacht in the harbor, and the resources to make a meaningful philanthropic impact across Southern Africa. Very few places on the planet offer this combination of beauty, culture, and value."
+    }
+  }
+}

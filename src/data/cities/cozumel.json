@@ -1,0 +1,194 @@
+{
+  "name": "Cozumel",
+  "country": "Mexico",
+  "region": "Caribbean",
+  "slug": "cozumel",
+  "emoji": "🇲🇽",
+  "fireScore": 7.0,
+  "tagline": "World-Class Diving and Island Life at Mexican Prices",
+  "description": "Cozumel is a laid-back Caribbean island off the Yucatan coast, famous for its world-class coral reefs and crystal-clear waters. Unlike the party scene of nearby Cancun, Cozumel maintains a relaxed, small-town feel with a genuine Mexican community alongside a friendly expat population. The cost of living is remarkably low for a Caribbean island, thanks to Mexican pricing on everything from healthcare to tacos. If you love diving, snorkeling, or simply living on island time, Cozumel is hard to beat.",
+  "tags": {
+    "climate": "tropical",
+    "english": "moderate"
+  },
+  "quickFacts": {
+    "visa": "Tourist visa 180 days; Temporary Resident visa (1-4 years) available",
+    "timezone": "EST (UTC-5)",
+    "language": "Spanish, English widely spoken in tourist areas",
+    "internetSpeed": "30-60 Mbps average",
+    "safetyRating": "High – one of Mexico's safest destinations",
+    "nearestAirport": "Cozumel International Airport (CZM)",
+    "climate": "Tropical with hurricane season June-November",
+    "englishFriendly": "Moderate",
+    "currency": "MXN (Mexican Peso)",
+    "averageTemp": "82°F / 28°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "2BR apartment or small house in town near the main plaza",
+        "monthlyCost": 700
+      },
+      "dining": {
+        "description": "Tacos, ceviche, and cochinita pibil at local fondas 4-5x/week; seafood aplenty",
+        "monthlyCost": 250
+      },
+      "groceries": {
+        "monthlyCost": 300
+      },
+      "healthcare": {
+        "description": "Mexican private health insurance (IMSS or private); hospital on island plus Cancun for specialists",
+        "monthlyCost": 200
+      },
+      "transportation": {
+        "description": "Scooter or bicycle for island life; occasional taxi",
+        "monthlyCost": 80
+      },
+      "entertainment": {
+        "description": "Snorkeling, beach days, sunset pier walks, dive club social nights, local festivals",
+        "monthlyCost": 150
+      },
+      "utilities": {
+        "monthlyCost": 100
+      },
+      "lifestyle": "Island life on a budget works beautifully in Cozumel. A comfortable apartment in town, daily fresh seafood, and endless ocean activities keep you happy without breaking the bank. The expat community is welcoming, and the pace of life is gloriously slow. Hurricane season requires some planning."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Nice 2BR condo with ocean views or small house with pool on the quieter side of the island",
+        "monthlyCost": 1300
+      },
+      "dining": {
+        "description": "Mix of local restaurants, beachfront dining, and the island's best seafood spots",
+        "monthlyCost": 450
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "Premium Mexican private insurance with access to Cancun's excellent hospitals",
+        "monthlyCost": 250
+      },
+      "transportation": {
+        "description": "Own car or golf cart (island standard); ferry to Playa del Carmen for variety",
+        "monthlyCost": 150
+      },
+      "entertainment": {
+        "description": "Unlimited diving packages, fishing charters, Mayan ruin day trips, regular Playa del Carmen visits",
+        "monthlyCost": 300
+      },
+      "utilities": {
+        "monthlyCost": 130
+      },
+      "lifestyle": "Cozumel becomes a true paradise at this level. A beautiful condo with ocean views, unlimited diving on the world's second-largest reef, and enough budget to explore the Yucatan Peninsula regularly. The island's size means you know everyone, creating a genuine community feeling."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Beachfront 3BR villa with pool or luxury condo in a resort-style complex",
+        "monthlyCost": 2500
+      },
+      "dining": {
+        "description": "Fine dining at Kinta, Buccanos, and beachfront restaurants; regular entertaining",
+        "monthlyCost": 700
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "International health insurance with medical evacuation coverage to Houston or Miami",
+        "monthlyCost": 400
+      },
+      "transportation": {
+        "description": "Own car, boat slip rental, ferry passes, occasional flights to Cancun or Mexico City",
+        "monthlyCost": 300
+      },
+      "entertainment": {
+        "description": "Own boat for diving and fishing, golf, Mayan archaeological tours, mainland Mexico travel",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 180
+      },
+      "lifestyle": "You are living the ultimate Cozumel dream. A beachfront villa, your own boat for exploring the reef, and the freedom to enjoy everything the Yucatan offers. At this budget you have tremendous surplus on a Mexican island, allowing for significant savings and mainland travel."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Oceanfront estate with private dock and pool, or luxury compound on the east side",
+        "monthlyCost": 4000
+      },
+      "dining": {
+        "description": "Private chef for daily meals, fine dining island-wide, catered events at home",
+        "monthlyCost": 1000
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "VIP concierge medical covering Mexico, US, and international hospitals",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "Own boat, car, flights to mainland; occasional private charters",
+        "monthlyCost": 500
+      },
+      "entertainment": {
+        "description": "Private dive expeditions, deep-sea fishing, yacht charters, archaeological tours, international travel",
+        "monthlyCost": 700
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, cook, gardener, and boat maintenance crew",
+        "monthlyCost": 600
+      },
+      "luxuryExtras": {
+        "description": "Yacht charters, first-class international travel, Yucatan property investments, philanthropy",
+        "monthlyCost": 1800
+      },
+      "lifestyle": "At $5M on Cozumel you are island royalty. An oceanfront estate with private dock, a personal chef, full staff, and your own boat for daily reef adventures. The combination of Mexican affordability and Caribbean beauty creates an extraordinary lifestyle with massive surplus."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Grand beachfront compound with guest houses, private dock, and oceanfront pool",
+        "monthlyCost": 6000
+      },
+      "dining": {
+        "description": "Personal chef team, exclusive catered events, private dining experiences flown in from mainland",
+        "monthlyCost": 2000
+      },
+      "groceries": {
+        "monthlyCost": 800
+      },
+      "healthcare": {
+        "description": "Elite international health plan, personal physician visits, executive wellness at Houston Medical Center",
+        "monthlyCost": 800
+      },
+      "transportation": {
+        "description": "Luxury yacht, multiple vehicles, private flights between Cozumel, Cancun, and Mexico City",
+        "monthlyCost": 1500
+      },
+      "entertainment": {
+        "description": "Yacht cruises through Caribbean, deep-sea sport fishing, global luxury travel, marine conservation patronage",
+        "monthlyCost": 2000
+      },
+      "utilities": {
+        "monthlyCost": 350
+      },
+      "domesticHelp": {
+        "description": "Full estate staff: chef, butler, housekeepers, groundskeepers, boat crew, security, personal assistant",
+        "monthlyCost": 1500
+      },
+      "luxuryExtras": {
+        "description": "Yacht ownership, island property portfolio, marine conservation funding, first-class global travel",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "This budget on a small Mexican island is almost unimaginable in its excess. A waterfront compound, a luxury yacht, full staff, and the resources to fund marine conservation along the reef. Most retirees at this level use Cozumel as a spectacular home base for a global lifestyle."
+    }
+  }
+}

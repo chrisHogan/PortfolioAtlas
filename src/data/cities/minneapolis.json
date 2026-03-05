@@ -1,0 +1,194 @@
+{
+  "name": "Minneapolis",
+  "country": "United States",
+  "region": "North America",
+  "slug": "minneapolis",
+  "emoji": "🇺🇸",
+  "fireScore": 5.5,
+  "tagline": "City of Lakes, Arts Excellence, and Midwestern Value",
+  "description": "Minneapolis punches well above its weight in culture, dining, and outdoor recreation. The Chain of Lakes, extensive bike trails, and one of the best park systems in the nation make it an outdoor lover's paradise — even in winter with cross-country skiing and ice fishing. The Twin Cities boast more theater seats per capita than anywhere outside New York, and the dining scene rivals cities twice its size. Housing is affordable by major metro standards, and while winters are brutal, the city has adapted with skyways and a resilient, community-oriented culture.",
+  "tags": {
+    "climate": "continental",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "CST (UTC-6)",
+    "language": "English",
+    "internetSpeed": "200+ Mbps average",
+    "safetyRating": "Moderate – safe in most neighborhoods; standard urban awareness needed",
+    "nearestAirport": "Minneapolis-St. Paul International (MSP)",
+    "climate": "Continental with cold, snowy winters and warm, humid summers",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "46°F / 8°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in Uptown, Northeast Minneapolis, or St. Paul's Mac-Groveland",
+        "monthlyCost": 1300
+      },
+      "dining": {
+        "description": "Diverse ethnic food 2-3x/week in Eat Street and Lake Street corridors",
+        "monthlyCost": 230
+      },
+      "groceries": {
+        "monthlyCost": 380
+      },
+      "healthcare": {
+        "description": "MNsure Silver plan; Minnesota's marketplace is well-run with good options",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "Metro Transit monthly pass; excellent light rail and bus system; summer biking",
+        "monthlyCost": 130
+      },
+      "entertainment": {
+        "description": "Free Chain of Lakes recreation, sculpture garden at the Walker, park concerts",
+        "monthlyCost": 100
+      },
+      "utilities": {
+        "monthlyCost": 170
+      },
+      "lifestyle": "Minneapolis on a tight budget is surprisingly manageable. Housing is affordable, public transit is solid, and the city's parks and lakes provide endless free recreation. Winter heating costs are the main budget challenge, but the skyway system and indoor culture keep life pleasant year-round. The ethnic food scene along Eat Street is a budget diner's dream."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Nice 2BR in Linden Hills, North Loop, or a condo near the Chain of Lakes",
+        "monthlyCost": 2000
+      },
+      "dining": {
+        "description": "Dining out 3-4x/week at Minneapolis's diverse and acclaimed restaurant scene",
+        "monthlyCost": 550
+      },
+      "groceries": {
+        "monthlyCost": 470
+      },
+      "healthcare": {
+        "description": "MNsure Gold plan with dental and vision; Mayo Clinic just 90 minutes away",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "Reliable car for winter, transit pass for summer, Nice Ride bike share",
+        "monthlyCost": 350
+      },
+      "entertainment": {
+        "description": "Guthrie Theater subscriptions, Vikings or Twins tickets, cross-country skiing, gym",
+        "monthlyCost": 300
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "lifestyle": "At this budget Minneapolis is a real treat. You can live near the lakes, enjoy the nationally recognized theater and dining scenes, and participate fully in both summer and winter outdoor culture. Weekends at the Boundary Waters or North Shore of Lake Superior are easy getaways."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR house in Kenwood, Linden Hills, or a luxury North Loop loft",
+        "monthlyCost": 3000
+      },
+      "dining": {
+        "description": "Regular dining at top spots like Owamni, Spoon and Stable, Travail; daily coffee shops",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 580
+      },
+      "healthcare": {
+        "description": "Premium private insurance with Mayo Clinic and U of M Health network access",
+        "monthlyCost": 700
+      },
+      "transportation": {
+        "description": "Late-model Subaru or SUV for winters, premium insurance, summer biking",
+        "monthlyCost": 430
+      },
+      "entertainment": {
+        "description": "Walker Art Center patron, Vikings season tickets, ski passes at Buck Hill/Afton Alps, premium gym",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 260
+      },
+      "lifestyle": "Minneapolis at this level is exceptional. A beautiful home near the Chain of Lakes, patron-level access to the Walker and Guthrie, and full participation in both summer lake culture and winter sports. The city's food scene is among the most creative in the Midwest, and it is all yours."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Lakefront home on Lake of the Isles, estate in Kenwood, or luxury downtown penthouse",
+        "monthlyCost": 4800
+      },
+      "dining": {
+        "description": "Fine dining multiple times per week, private chef for dinner parties",
+        "monthlyCost": 1300
+      },
+      "groceries": {
+        "monthlyCost": 750
+      },
+      "healthcare": {
+        "description": "Concierge medicine at U of M Health or Abbott Northwestern; executive wellness",
+        "monthlyCost": 950
+      },
+      "transportation": {
+        "description": "Luxury SUV for winters, second vehicle for summer, premium insurance",
+        "monthlyCost": 750
+      },
+      "entertainment": {
+        "description": "VIP Vikings box, Guthrie Theater patron, private lake cabin weekends, country club",
+        "monthlyCost": 950
+      },
+      "utilities": {
+        "monthlyCost": 350
+      },
+      "domesticHelp": {
+        "description": "Weekly deep cleaning, snow removal, landscaping, personal assistant",
+        "monthlyCost": 750
+      },
+      "luxuryExtras": {
+        "description": "Boundary Waters cabin, quarterly travel, art collecting, Minneapolis Foundation giving",
+        "monthlyCost": 1350
+      },
+      "lifestyle": "You are living Minneapolis at its finest. A lakefront home, a cabin up north, and patron-level involvement in one of America's most vibrant arts communities. The Twin Cities' unique combination of natural beauty and cultural sophistication creates a lifestyle that few cities can match."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Historic lakefront estate on Lake of the Isles or grand Kenwood mansion",
+        "monthlyCost": 9000
+      },
+      "dining": {
+        "description": "Personal chef, exclusive wine events, catered lake house gatherings",
+        "monthlyCost": 2500
+      },
+      "groceries": {
+        "monthlyCost": 1000
+      },
+      "healthcare": {
+        "description": "Top-tier concierge at U of M Health, Mayo Clinic VIP access, executive wellness",
+        "monthlyCost": 1400
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, private driver, floatplane for north woods trips",
+        "monthlyCost": 1500
+      },
+      "entertainment": {
+        "description": "Private suite at U.S. Bank Stadium, Walker Art Center trustee, international travel, philanthropy",
+        "monthlyCost": 2300
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, estate manager, personal assistant, snow and grounds crew",
+        "monthlyCost": 3800
+      },
+      "luxuryExtras": {
+        "description": "North Shore lakefront property, first-class travel, art foundation, charitable endowments",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At this level Minneapolis is your personal Great Lakes kingdom. A magnificent lakefront estate, trustee roles at the Walker and Guthrie, and a private retreat on the North Shore of Lake Superior. Minnesota's strong civic culture means your philanthropy has real, visible impact on a community that values it deeply."
+    }
+  }
+}

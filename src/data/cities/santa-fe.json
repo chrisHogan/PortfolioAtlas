@@ -1,0 +1,194 @@
+{
+  "name": "Santa Fe",
+  "country": "United States",
+  "region": "North America",
+  "slug": "santa-fe",
+  "emoji": "🇺🇸",
+  "fireScore": 5.3,
+  "tagline": "Art Capital of the Southwest with Adobe Charm and High Desert Beauty",
+  "description": "Santa Fe is unlike any other American city. The oldest state capital in the US blends centuries of Native American, Spanish, and Anglo cultures into a world-renowned art scene, distinctive adobe architecture, and a food culture built around New Mexican chile. At 7,000 feet elevation, summers are cool and winters bring crisp mountain air and skiing. Housing costs are above average for New Mexico but well below coastal cities, making it a compelling FIRE choice for those who value culture and natural beauty over nightlife and big-city bustle.",
+  "tags": {
+    "climate": "arid",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "MST (UTC-7)",
+    "language": "English / Spanish widely spoken",
+    "internetSpeed": "100+ Mbps average",
+    "safetyRating": "Moderate to Good – low violent crime",
+    "nearestAirport": "Santa Fe Regional (SAF) or Albuquerque International Sunport (ABQ, 65 mi)",
+    "climate": "High desert arid with cool summers and cold winters",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "50°F / 10°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment or small casita on the south side of town",
+        "monthlyCost": 1350
+      },
+      "dining": {
+        "description": "Casual New Mexican spots and taco stands 2-3x/week; cooking at home with Hatch chile",
+        "monthlyCost": 250
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "ACA marketplace Silver plan through New Mexico exchange",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "Older paid-off car with insurance and gas; essential for living here",
+        "monthlyCost": 260
+      },
+      "entertainment": {
+        "description": "Free gallery openings on Canyon Road, hiking in the Sangre de Cristos, plaza people-watching",
+        "monthlyCost": 80
+      },
+      "utilities": {
+        "monthlyCost": 140
+      },
+      "lifestyle": "Santa Fe on a tight budget requires discipline, but the payoff is living in one of America's most beautiful and culturally rich small cities. Free Friday gallery walks, stunning hiking, and a dry climate that keeps utility bills low all help. You will feel the squeeze on dining out and housing, but the quality of daily life is hard to beat."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Charming 2BR adobe home near the Railyard district or in the historic east side",
+        "monthlyCost": 2100
+      },
+      "dining": {
+        "description": "Regular meals at mid-range restaurants like Paloma, Tomasita's, and the Shed",
+        "monthlyCost": 500
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "ACA Gold plan with dental and vision coverage",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "Reliable SUV for mountain roads, full coverage insurance",
+        "monthlyCost": 400
+      },
+      "entertainment": {
+        "description": "Santa Fe Opera tickets, ski pass at Ski Santa Fe, art classes, Indian Market weekend",
+        "monthlyCost": 300
+      },
+      "utilities": {
+        "monthlyCost": 170
+      },
+      "lifestyle": "At this level Santa Fe becomes genuinely wonderful. You can rent a beautiful adobe, attend the world-famous opera, ski in winter, and hike in summer. The art scene is endless, the food is extraordinary, and the pace of life is deeply restorative. Weekend trips to Taos or Bandelier add variety."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR custom adobe home in the historic east side or foothills with mountain views",
+        "monthlyCost": 3200
+      },
+      "dining": {
+        "description": "Top Santa Fe restaurants like Geronimo, Terra, and Sazon regularly; wine dinners",
+        "monthlyCost": 850
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "Premium private health insurance with Christus St. Vincent preferred access",
+        "monthlyCost": 700
+      },
+      "transportation": {
+        "description": "Late-model 4WD SUV, premium insurance, occasional Albuquerque airport shuttle",
+        "monthlyCost": 500
+      },
+      "entertainment": {
+        "description": "Premium opera seats, art collecting, yoga retreats, ski season pass, gallery memberships",
+        "monthlyCost": 550
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "lifestyle": "This is the ideal Santa Fe experience. A stunning adobe with kiva fireplaces and mountain views, front-row opera seats under the stars, a growing art collection, and the freedom to explore every corner of northern New Mexico. The creative energy of this city is unmatched at any price."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury compound on Museum Hill, Las Campanas estate, or historic Canyon Road property",
+        "monthlyCost": 5000
+      },
+      "dining": {
+        "description": "Fine dining at Geronimo and Sazon regularly, private chef for entertaining, wine cellar curation",
+        "monthlyCost": 1300
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "Concierge medicine, executive wellness programs, alternative healing modalities",
+        "monthlyCost": 950
+      },
+      "transportation": {
+        "description": "Luxury SUV, premium insurance, occasional private car to Albuquerque airport",
+        "monthlyCost": 700
+      },
+      "entertainment": {
+        "description": "Major art collecting, patron-level opera and museum memberships, private ski lessons, cultural travel",
+        "monthlyCost": 1000
+      },
+      "utilities": {
+        "monthlyCost": 350
+      },
+      "domesticHelp": {
+        "description": "Bi-weekly deep cleaning, landscaping, property caretaker for adobe maintenance",
+        "monthlyCost": 800
+      },
+      "luxuryExtras": {
+        "description": "Significant art purchases, international travel, spa retreats, philanthropic giving to arts organizations",
+        "monthlyCost": 1500
+      },
+      "lifestyle": "Santa Fe at this tier is a collector's and aesthete's dream. A museum-quality home filled with art you love, patron-level access to the opera and galleries, and the deep satisfaction of supporting the creative community that makes this city magical. Your home becomes a destination in its own right."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Sprawling estate at Las Campanas with golf course and mountain views, or historic compound on Canyon Road",
+        "monthlyCost": 9500
+      },
+      "dining": {
+        "description": "Personal chef specializing in New Mexican cuisine, exclusive dining events, catered gallery openings",
+        "monthlyCost": 2800
+      },
+      "groceries": {
+        "monthlyCost": 1000
+      },
+      "healthcare": {
+        "description": "Top-tier concierge medicine, executive wellness, naturopathic and holistic care",
+        "monthlyCost": 1400
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, private car service, charter flights from Santa Fe Regional",
+        "monthlyCost": 1800
+      },
+      "entertainment": {
+        "description": "Major philanthropic arts patronage, private gallery events, international art fair travel, guest ranch weekends",
+        "monthlyCost": 2500
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, personal assistant, property management team, grounds crew",
+        "monthlyCost": 4000
+      },
+      "luxuryExtras": {
+        "description": "Museum-level art acquisitions, first-class international travel, ranch property in Taos, charitable foundations",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At this level you become one of Santa Fe's cultural pillars. A world-class private art collection, a stunning compound that hosts artists and dignitaries, philanthropic leadership in the arts community, and the freedom to jet off to Art Basel or Venice Biennale whenever inspiration calls. Santa Fe rewards wealth with meaning, not just comfort."
+    }
+  }
+}

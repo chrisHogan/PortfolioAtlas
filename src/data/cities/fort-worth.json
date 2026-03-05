@@ -1,0 +1,194 @@
+{
+  "name": "Fort Worth",
+  "country": "United States",
+  "region": "North America",
+  "slug": "fort-worth",
+  "emoji": "🇺🇸",
+  "fireScore": 6.2,
+  "tagline": "Cowtown Culture, No State Income Tax, and Genuine Texas Affordability",
+  "description": "Fort Worth delivers authentic Texas culture with significantly more affordability than its neighbor Dallas. The Stockyards, world-class museums along the Cultural District, and a revitalized downtown with craft breweries and live music make it far more than a cowboy town. With zero state income tax and housing costs well below the national average, Fort Worth is one of the most practical FIRE destinations in America for those who want big-city amenities without the big-city price tag.",
+  "tags": {
+    "climate": "subtropical",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No visa required for US citizens",
+    "timezone": "CST (UTC-6)",
+    "language": "English",
+    "internetSpeed": "200+ Mbps average",
+    "safetyRating": "Moderate – typical large US city",
+    "nearestAirport": "Dallas/Fort Worth International Airport (DFW)",
+    "climate": "Subtropical with hot summers and mild winters",
+    "englishFriendly": "High",
+    "currency": "USD",
+    "averageTemp": "65°F / 18°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in Near Southside, Fairmount, or Arlington Heights",
+        "monthlyCost": 1200
+      },
+      "dining": {
+        "description": "BBQ joints, Tex-Mex spots, and casual diners 2-3x/week; mostly cooking at home",
+        "monthlyCost": 230
+      },
+      "groceries": {
+        "monthlyCost": 370
+      },
+      "healthcare": {
+        "description": "ACA marketplace Silver plan; Texas has no state exchange so costs run higher",
+        "monthlyCost": 540
+      },
+      "transportation": {
+        "description": "Older paid-off car with insurance and gas; essential for getting around",
+        "monthlyCost": 260
+      },
+      "entertainment": {
+        "description": "Free Stockyards cattle drives, Trinity River trails, Kimbell Art Museum free collection",
+        "monthlyCost": 80
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "Fort Worth is one of the best places in America to stretch a $1M portfolio. Housing is genuinely affordable, the BBQ and Tex-Mex are cheap and incredible, and there is plenty of free entertainment from the Stockyards to the museum district. No state income tax is the cherry on top. Summer A/C bills are the main budget buster."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Nice 2BR in the Cultural District, Southside, or a house in Ridglea Hills",
+        "monthlyCost": 1800
+      },
+      "dining": {
+        "description": "Regular dining at Magnolia Avenue restaurants, Stockyards steakhouses, Sundance Square spots",
+        "monthlyCost": 500
+      },
+      "groceries": {
+        "monthlyCost": 470
+      },
+      "healthcare": {
+        "description": "ACA Gold plan with dental and vision add-ons",
+        "monthlyCost": 640
+      },
+      "transportation": {
+        "description": "Reliable mid-range truck or SUV with full coverage insurance",
+        "monthlyCost": 380
+      },
+      "entertainment": {
+        "description": "TCU football, rodeo tickets, Kimbell and Modern memberships, live music at Billy Bob's",
+        "monthlyCost": 280
+      },
+      "utilities": {
+        "monthlyCost": 180
+      },
+      "lifestyle": "This budget turns Fort Worth into a wonderful place to live. You can enjoy the thriving Magnolia Avenue scene, attend TCU football games, and eat some of the best BBQ and steak in Texas whenever you want. Weekend drives through the Hill Country or trips to Big Bend round out a genuinely excellent lifestyle."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "3BR home in Rivercrest, Westover Hills, or a luxury condo downtown",
+        "monthlyCost": 2800
+      },
+      "dining": {
+        "description": "Top Fort Worth restaurants like Grace, Clay Pigeon, and Lonesome Dove regularly",
+        "monthlyCost": 850
+      },
+      "groceries": {
+        "monthlyCost": 580
+      },
+      "healthcare": {
+        "description": "Premium private insurance with access to top DFW medical centers",
+        "monthlyCost": 720
+      },
+      "transportation": {
+        "description": "Late-model truck or luxury SUV, premium insurance, occasional rideshare",
+        "monthlyCost": 500
+      },
+      "entertainment": {
+        "description": "Colonial Country Club events, premium TCU and Rangers tickets, art collecting, rodeo VIP",
+        "monthlyCost": 550
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "lifestyle": "Fort Worth at $10K/month is outstanding. A beautiful home in one of the city's historic neighborhoods, the best steaks and fine dining in Texas, premium access to sports and cultural events, and the satisfaction of knowing your money goes further here than almost any major metro. Fort Worth punches way above its weight."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury estate in Westover Hills, Rivercrest, or a penthouse in the West 7th district",
+        "monthlyCost": 4500
+      },
+      "dining": {
+        "description": "Fine dining multiple times weekly, private chef for ranch-style entertaining, wine club",
+        "monthlyCost": 1400
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "Concierge medicine through Baylor Scott & White or Texas Health executive program",
+        "monthlyCost": 1000
+      },
+      "transportation": {
+        "description": "Luxury truck and sedan, premium insurance, detailing service",
+        "monthlyCost": 800
+      },
+      "entertainment": {
+        "description": "Country club membership, premium Cowboys and Rangers tickets, horse-related activities, cultural patronage",
+        "monthlyCost": 950
+      },
+      "utilities": {
+        "monthlyCost": 350
+      },
+      "domesticHelp": {
+        "description": "Bi-weekly house cleaning, landscaping, pool service, occasional personal assistant",
+        "monthlyCost": 750
+      },
+      "luxuryExtras": {
+        "description": "Ranch weekends, luxury travel, premium Western art collecting, philanthropic giving",
+        "monthlyCost": 1500
+      },
+      "lifestyle": "At this budget Fort Worth reveals its upper-crust side. A stately home in one of the city's old-money neighborhoods, memberships at Colonial or Shady Oaks, ranch weekends, and the kind of generous Texas hospitality that comes naturally when money is not a concern. Zero income tax amplifies every dollar."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Historic estate in Rivercrest or sprawling ranch property in the surrounding countryside",
+        "monthlyCost": 9000
+      },
+      "dining": {
+        "description": "Personal chef, exclusive private dining, catered events and ranch gatherings",
+        "monthlyCost": 2800
+      },
+      "groceries": {
+        "monthlyCost": 1000
+      },
+      "healthcare": {
+        "description": "Top-tier concierge medicine, executive wellness programs, holistic care",
+        "monthlyCost": 1500
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, ranch trucks, private car service, charter flights from Meacham",
+        "monthlyCost": 1800
+      },
+      "entertainment": {
+        "description": "Private suite at AT&T Stadium, major philanthropic events, Western art collecting, international travel",
+        "monthlyCost": 2500
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, personal assistant, ranch hands, property management team",
+        "monthlyCost": 4000
+      },
+      "luxuryExtras": {
+        "description": "Working ranch operations, first-class international travel, major art acquisitions, charitable foundations",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "Fort Worth at the $10M tier is old Texas money come to life. A grand estate or working ranch, a private suite at Cowboys games, leadership roles in the city's cultural institutions, and the freedom to live out every Texas dream imaginable. With no state income tax, your portfolio works harder than almost anywhere in the country."
+    }
+  }
+}

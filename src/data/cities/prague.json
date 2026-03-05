@@ -1,0 +1,194 @@
+{
+  "name": "Prague",
+  "country": "Czech Republic",
+  "region": "Europe",
+  "slug": "prague",
+  "emoji": "🇨🇿",
+  "fireScore": 7.2,
+  "tagline": "Fairy-Tale Architecture and Central European Charm at a Discount",
+  "description": "Prague is one of Europe's most beautiful cities, with medieval architecture, a world-class beer culture, and a cost of living well below Western Europe. The city has excellent public transport, fast internet, and a growing international community. While it lacks the beaches of Southern Europe, Prague compensates with stunning seasons, incredible cultural offerings, and a central location that makes all of Europe accessible by train or budget flight.",
+  "tags": {
+    "climate": "continental",
+    "english": "moderate"
+  },
+  "quickFacts": {
+    "visa": "Schengen visa rules (90 days); long-term visa or Zivno license for extended stays",
+    "timezone": "CET (UTC+1)",
+    "language": "Czech, English widely spoken in Prague",
+    "internetSpeed": "80-150 Mbps average",
+    "safetyRating": "High – one of Europe's safest capitals",
+    "nearestAirport": "Václav Havel Airport Prague (PRG)",
+    "climate": "Continental with warm summers and cold, snowy winters",
+    "englishFriendly": "Moderate",
+    "currency": "CZK (Czech Koruna)",
+    "averageTemp": "50°F / 10°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "1BR apartment in Vinohrady or Žižkov, popular expat neighborhoods",
+        "monthlyCost": 1000
+      },
+      "dining": {
+        "description": "Traditional Czech pubs and restaurants 3-4x/week; beer is cheaper than water",
+        "monthlyCost": 300
+      },
+      "groceries": {
+        "monthlyCost": 300
+      },
+      "healthcare": {
+        "description": "Public health insurance or comprehensive private plan; Czech healthcare is excellent",
+        "monthlyCost": 250
+      },
+      "transportation": {
+        "description": "Monthly transit pass covers metro, trams, and buses citywide",
+        "monthlyCost": 30
+      },
+      "entertainment": {
+        "description": "Charles Bridge walks, beer gardens, free concerts, galleries, parks",
+        "monthlyCost": 150
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "Prague is remarkably affordable for a world-class European capital. Public transit is outstanding and nearly free, Czech pub meals are hearty and cheap, and the cultural offerings rival cities costing three times as much. Winters are cold and gray, but the Christmas markets and cozy pubs make them magical."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Spacious 2BR apartment in Vinohrady, Letná, or a modern flat in Karlín",
+        "monthlyCost": 1600
+      },
+      "dining": {
+        "description": "Mix of upscale restaurants, international cuisine, and traditional Czech dining",
+        "monthlyCost": 500
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "Premium private insurance with top Prague hospitals; dental tourism is a bonus",
+        "monthlyCost": 300
+      },
+      "transportation": {
+        "description": "Transit pass plus occasional car rental for countryside trips",
+        "monthlyCost": 80
+      },
+      "entertainment": {
+        "description": "Opera at the National Theatre, jazz clubs, spa weekends, trips to Český Krumlov and Kutná Hora",
+        "monthlyCost": 300
+      },
+      "utilities": {
+        "monthlyCost": 180
+      },
+      "lifestyle": "Prague truly shines at this budget. A beautiful apartment in a leafy neighborhood, regular dining at excellent restaurants, opera and concert tickets, and budget flights to anywhere in Europe. The city's beauty never gets old, and the central location makes weekend trips effortless."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Luxury 3BR apartment in Prague 1 Old Town or a renovated penthouse in Malá Strana",
+        "monthlyCost": 2800
+      },
+      "dining": {
+        "description": "Fine dining at La Degustation, Field, and other Michelin-starred restaurants; wine bars",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "International health insurance with coverage across Europe",
+        "monthlyCost": 400
+      },
+      "transportation": {
+        "description": "Own car for countryside trips, transit pass, occasional train travel across Europe",
+        "monthlyCost": 200
+      },
+      "entertainment": {
+        "description": "VIP concert tickets, private castle tours, premium spa retreats, European weekend getaways",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "lifestyle": "Living in the historic heart of Prague with a luxury apartment overlooking centuries-old architecture is genuinely extraordinary. Michelin-star dining, world-class culture, and a lifestyle that would cost triple in Paris or London. Significant surplus allows for regular European travel."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Historic townhouse in Malá Strana or luxury penthouse with castle views",
+        "monthlyCost": 4500
+      },
+      "dining": {
+        "description": "Private chef plus Michelin-starred dining; exclusive wine cellar experiences",
+        "monthlyCost": 1200
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "VIP concierge medical with access to top European hospitals",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "Luxury vehicle, first-class European train travel, occasional private flights",
+        "monthlyCost": 400
+      },
+      "entertainment": {
+        "description": "Private opera boxes, art collecting, exclusive cultural events, luxury European travel",
+        "monthlyCost": 700
+      },
+      "utilities": {
+        "monthlyCost": 300
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, part-time cook, personal assistant",
+        "monthlyCost": 800
+      },
+      "luxuryExtras": {
+        "description": "First-class European travel, Czech countryside estate weekends, art patronage, philanthropy",
+        "monthlyCost": 2000
+      },
+      "lifestyle": "A historic Prague townhouse with full staff, Michelin dining on demand, and the resources to experience the finest culture in Central Europe. The cost advantage over Western Europe means your surplus grows substantially even as you live a truly premium lifestyle."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Grand historic palace apartment or villa estate in Prague 6 diplomatic quarter",
+        "monthlyCost": 8000
+      },
+      "dining": {
+        "description": "Personal chef team, exclusive dining events, private wine cellar and sommelier",
+        "monthlyCost": 2500
+      },
+      "groceries": {
+        "monthlyCost": 800
+      },
+      "healthcare": {
+        "description": "Elite European health plan, personal physician, annual executive screening",
+        "monthlyCost": 700
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, chauffeur, first-class European rail, private flights",
+        "monthlyCost": 1200
+      },
+      "entertainment": {
+        "description": "Art collecting, philharmonic patronage, exclusive castle events, luxury European grand tours",
+        "monthlyCost": 2000
+      },
+      "utilities": {
+        "monthlyCost": 400
+      },
+      "domesticHelp": {
+        "description": "Full household staff: chef, butler, housekeepers, driver, personal assistant, groundskeeper",
+        "monthlyCost": 2500
+      },
+      "luxuryExtras": {
+        "description": "Czech castle or chateau purchase, first-class global travel, art collection, philanthropic foundation",
+        "monthlyCost": 5000
+      },
+      "lifestyle": "At this budget in Prague you could literally own a castle in the Czech countryside. A grand residence in the city, full staff, patronage of the arts, and a lifestyle that would make Bohemian royalty envious. The cost differential versus Western Europe makes your wealth go extraordinarily far."
+    }
+  }
+}
