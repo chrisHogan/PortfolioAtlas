@@ -109,4 +109,78 @@
   .filter-btn:not(.active) {
     @apply text-gray-600 hover:bg-sand-100;
   }
+
+  /* Mode Toggle */
+  .mode-toggle {
+    @apply inline-flex bg-white/10 backdrop-blur-sm rounded-full p-1 border border-white/20;
+  }
+
+  .mode-toggle-btn {
+    @apply px-6 py-2 text-sm font-semibold rounded-full transition-all cursor-pointer select-none;
+  }
+
+  .mode-toggle-btn.active {
+    @apply bg-white text-brand-950 shadow-sm;
+  }
+
+  .mode-toggle-btn:not(.active) {
+    @apply text-white/70 hover:text-white;
+  }
+
+  /* Lifestyle Filter Pills (min threshold) */
+  .lifestyle-pill {
+    @apply bg-white text-gray-400;
+  }
+
+  .lifestyle-pill.at-min {
+    @apply bg-brand-600 text-white border-brand-600 font-bold;
+  }
+
+  .lifestyle-pill.above-min {
+    @apply bg-brand-100 text-brand-700 border-brand-200;
+  }
+
+  .lifestyle-pill:not(.at-min):not(.above-min):hover {
+    @apply bg-sand-50 text-gray-600;
+  }
+
+  /* Confidence Gauge */
+  .confidence-gauge {
+    @apply w-full h-4 rounded-full bg-sand-200 overflow-hidden;
+  }
+
+  .confidence-gauge-fill {
+    @apply h-full rounded-full transition-all duration-700 ease-out;
+  }
+
+  .confidence-gauge-fill.gauge-green {
+    @apply bg-emerald-500;
+  }
+
+  .confidence-gauge-fill.gauge-amber {
+    @apply bg-amber-500;
+  }
+
+  .confidence-gauge-fill.gauge-red {
+    @apply bg-red-500;
+  }
+
+  /* Range Slider */
+  .fire-slider {
+    @apply w-full h-2 rounded-full appearance-none cursor-pointer bg-sand-200;
+  }
+
+  .fire-slider::-webkit-slider-thumb {
+    @apply appearance-none w-5 h-5 rounded-full bg-brand-600 border-2 border-white shadow-md;
+  }
+
+  .fire-slider::-moz-range-thumb {
+    @apply w-5 h-5 rounded-full bg-brand-600 border-2 border-white shadow-md;
+    border: 2px solid white;
+  }
+
+  /* Currency Input */
+  .fire-currency-input {
+    @apply w-full rounded-xl pl-8 pr-4 py-3 text-lg font-bold bg-white border border-sand-200 text-gray-900 focus:outline-none focus:ring-2 focus:ring-brand-400;
+  }
 }

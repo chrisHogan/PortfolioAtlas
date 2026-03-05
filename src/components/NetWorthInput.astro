@@ -95,10 +95,17 @@ const { compact = false } = Astro.props;
 
     input.addEventListener('input', () => {
       const pos = input.selectionStart || 0;
-      const oldLen = input.value.length;
+      // Count digits before cursor in the old value
+      const digitsBefore = input.value.slice(0, pos).replace(/[^0-9]/g, '').length;
       input.value = formatWithCommas(input.value);
-      const newLen = input.value.length;
-      input.setSelectionRange(pos + (newLen - oldLen), pos + (newLen - oldLen));
+      // Find the position after the same number of digits in the new value
+      let newPos = 0;
+      let counted = 0;
+      for (let i = 0; i < input.value.length && counted < digitsBefore; i++) {
+        if (/[0-9]/.test(input.value[i])) counted++;
+        newPos = i + 1;
+      }
+      input.setSelectionRange(newPos, newPos);
       updatePreview();
     });
 

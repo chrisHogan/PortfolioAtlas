@@ -104,6 +104,7 @@ const cityDataJSON = JSON.stringify(cityDataForClient);
       >
         Your Portfolio
       </button>
+      <span id="compare-yours-detail" class="text-xs text-gray-400 font-medium shrink-0 hidden"></span>
       {tiers.map((tier) => (
         <button
           data-compare-tier={tier}
@@ -324,6 +325,15 @@ const cityDataJSON = JSON.stringify(cityDataForClient);
       // Show the "Your Portfolio" pill and make it active by default
       const yourPill = document.getElementById('compare-pill-yours');
       if (yourPill) yourPill.classList.remove('hidden');
+      // Show portfolio detail
+      const detailEl = document.getElementById('compare-yours-detail');
+      if (detailEl) {
+        const fmtNW = personalNW >= 1000000
+          ? '$' + (personalNW / 1000000).toFixed(personalNW % 1000000 === 0 ? 0 : 1) + 'M'
+          : '$' + personalNW.toLocaleString('en-US');
+        detailEl.textContent = fmtNW + ' \u2192 ' + fmt(personalBudget) + '/mo';
+        detailEl.classList.remove('hidden');
+      }
     } else {
       personalNW = null;
     }
@@ -586,6 +596,7 @@ const cityDataJSON = JSON.stringify(cityDataForClient);
   }
 
   // Tier pill switching
+  const yoursDetailEl = document.getElementById('compare-yours-detail');
   document.querySelectorAll('.compare-tier-pill').forEach((pill) => {
     pill.addEventListener('click', () => {
       activeTier = pill.dataset.compareTier;
@@ -598,6 +609,10 @@ const cityDataJSON = JSON.stringify(cityDataForClient);
           p.classList.add('text-gray-600', 'border-sand-200');
         }
       });
+      // Show/hide portfolio detail when switching tiers
+      if (yoursDetailEl) {
+        yoursDetailEl.classList.toggle('hidden', activeTier !== 'yours');
+      }
       renderComparison();
     });
   });
