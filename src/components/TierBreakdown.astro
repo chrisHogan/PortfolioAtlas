@@ -14,6 +14,16 @@ const totalSpend = getTotalSpend(tier);
 
 const surplus = tier.monthlyBudget - totalSpend;
 
+const TIER_LIFESTYLE: Record<TierKey, string> = {
+  '1M': 'Budget',
+  '2M': 'Budget+',
+  '3M': 'Comfortable',
+  '5M': 'Premium',
+  '10M': 'Luxury',
+};
+
+const lifestyleLabel = TIER_LIFESTYLE[tierKey];
+
 const costItems = [
   { label: 'Housing', cost: tier.housing.monthlyCost, description: tier.housing.description, color: 'bg-brand-500' },
   { label: 'Dining Out', cost: tier.dining.monthlyCost, description: tier.dining.description, color: 'bg-amber-500' },
@@ -46,10 +56,13 @@ if (tier.luxuryExtras) {
 <div class="accordion-tier" id={`tier-${tierKey}`} data-tier={tierKey} data-open="false">
   <!-- Accordion Header (always visible) -->
   <button class="accordion-header" type="button" aria-expanded="false">
-    <div class="flex items-center gap-3">
+    <div class="flex items-center gap-3 flex-wrap">
       <h3 class="font-serif text-xl font-bold text-brand-950">
         {TIER_LABELS[tierKey]} Portfolio
       </h3>
+      <span class="text-xs font-semibold px-2 py-0.5 rounded-full bg-brand-100 text-brand-700">
+        {lifestyleLabel} Lifestyle
+      </span>
       <span class="text-sm text-gray-500">
         {formatCurrency(tier.monthlyBudget)}/mo
       </span>
