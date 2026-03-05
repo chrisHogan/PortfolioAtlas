@@ -2,23 +2,37 @@
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import '../styles/global.css';
+import { allCities } from '../data/cities/index';
 
 interface Props {
   title: string;
   description?: string;
   ogImage?: string;
   canonicalUrl?: string;
+  jsonLd?: object | object[];
 }
+
+const totalCities = allCities.length;
 
 const {
   title,
-  description = 'Discover what your investment portfolio can buy you in cities around the world. Compare lifestyles, costs, and FIRE potential across 50 destinations.',
+  description = `Discover what your investment portfolio can buy you in ${totalCities} cities around the world. Compare lifestyles, costs, and FIRE potential across top retirement destinations.`,
   ogImage = '/og-default.png',
   canonicalUrl,
+  jsonLd,
 } = Astro.props;
 
 const siteTitle = title === 'Home' ? 'PortfolioAtlas — What Can Your Portfolio Buy You?' : `${title} | PortfolioAtlas`;
-const canonical = canonicalUrl || Astro.url.href;
+
+// Canonical URL: strip query params for clean canonical
+const canonicalBase = new URL(Astro.url.pathname, Astro.site || 'https://portfolioatlas.org');
+const canonical = canonicalUrl || canonicalBase.href;
+
+// Ensure OG image is absolute
+const ogImageAbsolute = ogImage.startsWith('http') ? ogImage : new URL(ogImage, Astro.site || 'https://portfolioatlas.org').href;
+
+// JSON-LD: support single object or array
+const jsonLdScripts = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
 ---
 
 <!doctype html>
@@ -32,19 +46,26 @@ const canonical = canonicalUrl || Astro.url.href;
     <!-- Open Graph -->
     <meta property="og:title" content={siteTitle} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content={ogImage} />
+    <meta property="og:image" content={ogImageAbsolute} />
+    <meta property="og:image:alt" content={`${title} — PortfolioAtlas`} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonical} />
     <meta property="og:site_name" content="PortfolioAtlas" />
+    <meta property="og:locale" content="en_US" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={siteTitle} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image" content={ogImageAbsolute} />
 
     <link rel="canonical" href={canonical} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Structured Data -->
+    {jsonLdScripts.map((ld) => (
+      <script type="application/ld+json" set:html={JSON.stringify(ld)} />
+    ))}
 
     <title>{siteTitle}</title>
   </head>

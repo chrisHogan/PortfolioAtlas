@@ -6,7 +6,10 @@ import TierBreakdown from '../../components/TierBreakdown.astro';
 import PersonalizedTier from '../../components/PersonalizedTier.astro';
 import QuickFacts from '../../components/QuickFacts.astro';
 import ComparisonCTA from '../../components/ComparisonCTA.astro';
+import CityFAQ from '../../components/CityFAQ.astro';
+import RelatedCities from '../../components/RelatedCities.astro';
 import { allCities, getCityBySlug, getAllSlugs } from '../../data/cities/index';
+import { formatCurrency, getTotalSpend } from '../../data/types';
 import type { TierKey } from '../../data/types';
 
 export function getStaticPaths() {
@@ -21,11 +24,93 @@ if (!city) {
 }
 
 const tiers: TierKey[] = ['1M', '2M', '3M', '5M', '10M'];
+
+// JSON-LD structured data
+const siteUrl = 'https://portfolioatlas.org';
+const pageUrl = `${siteUrl}/cities/${city.slug}/`;
+
+const tier1M = city.tiers['1M'];
+const tier3M = city.tiers['3M'];
+const totalSpend1M = getTotalSpend(tier1M);
+const totalSpend3M = getTotalSpend(tier3M);
+
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  'itemListElement': [
+    { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': siteUrl },
+    { '@type': 'ListItem', 'position': 2, 'name': city.name, 'item': pageUrl },
+  ],
+};
+
+const placeLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Place',
+  'name': `${city.name}, ${city.country}`,
+  'description': city.description,
+  'url': pageUrl,
+  'address': {
+    '@type': 'PostalAddress',
+    'addressLocality': city.name,
+    'addressCountry': city.country,
+  },
+};
+
+const faqQuestions = [
+  {
+    question: `What is the cost of living in ${city.name}, ${city.country} for retirees?`,
+    answer: `With a $1M portfolio (${formatCurrency(tier1M.monthlyBudget)}/month at 4% withdrawal rate), monthly living costs in ${city.name} total roughly ${formatCurrency(totalSpend1M)}, covering housing, dining, groceries, healthcare, transportation, entertainment, and utilities. With a $3M portfolio (${formatCurrency(tier3M.monthlyBudget)}/month), you can expect to spend about ${formatCurrency(totalSpend3M)}/month for a significantly more comfortable lifestyle.`,
+  },
+  {
+    question: `How much does housing cost in ${city.name}?`,
+    answer: `Housing in ${city.name} ranges from ${formatCurrency(tier1M.housing.monthlyCost)}/month to ${formatCurrency(tier3M.housing.monthlyCost)}/month depending on lifestyle level. At higher portfolio levels ($5M+), luxury options are available from ${formatCurrency(city.tiers['5M'].housing.monthlyCost)}/month.`,
+  },
+  {
+    question: `What is healthcare like in ${city.name} for expats and retirees?`,
+    answer: `Healthcare in ${city.name} costs approximately ${formatCurrency(tier1M.healthcare.monthlyCost)} to ${formatCurrency(tier3M.healthcare.monthlyCost)}/month depending on coverage level. ${tier1M.healthcare.description}.`,
+  },
+  {
+    question: `Do I need a visa to retire in ${city.name}, ${city.country}?`,
+    answer: city.quickFacts.visa,
+  },
+  {
+    question: `What is the weather like in ${city.name}?`,
+    answer: `${city.quickFacts.climate} The average temperature is ${city.quickFacts.averageTemp}.`,
+  },
+  {
+    question: `Is ${city.name} English-friendly?`,
+    answer: `English proficiency in ${city.name} is rated "${city.quickFacts.englishFriendly}." The primary language is ${city.quickFacts.language}.`,
+  },
+  {
+    question: `How safe is ${city.name} for retirees?`,
+    answer: city.quickFacts.safetyRating,
+  },
+  {
+    question: `Can I retire in ${city.name} with $1 million?`,
+    answer: `With a $1M portfolio generating ${formatCurrency(tier1M.monthlyBudget)}/month at a 4% safe withdrawal rate, your monthly expenses in ${city.name} would be approximately ${formatCurrency(totalSpend1M)}. That leaves a ${totalSpend1M <= tier1M.monthlyBudget ? `surplus of ${formatCurrency(tier1M.monthlyBudget - totalSpend1M)}/month` : `deficit of ${formatCurrency(totalSpend1M - tier1M.monthlyBudget)}/month`}. ${tier1M.lifestyle}`,
+  },
+];
+
+const faqLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  'mainEntity': faqQuestions.map((faq) => ({
+    '@type': 'Question',
+    'name': faq.question,
+    'acceptedAnswer': {
+      '@type': 'Answer',
+      'text': faq.answer,
+    },
+  })),
+};
+
+const jsonLd = [breadcrumbLd, placeLd, faqLd];
 ---
 
 <Layout
   title={`Retire in ${city.name}, ${city.country} — What Your Portfolio Buys You`}
   description={`Discover what a $1M to $10M portfolio gets you in ${city.name}, ${city.country}. Full lifestyle breakdowns including housing, healthcare, dining, and more.`}
+  jsonLd={jsonLd}
 >
   <CityHero city={city} />
   <TierNav />
@@ -50,6 +135,9 @@ const tiers: TierKey[] = ['1M', '2M', '3M', '5M', '10M'];
         {tiers.map((tierKey) => (
           <TierBreakdown tierKey={tierKey} tier={city.tiers[tierKey]} cityName={city.name} />
         ))}
+
+        <CityFAQ city={city} />
+        <RelatedCities currentCity={city} allCities={allCities} />
       </div>
 
       <script>

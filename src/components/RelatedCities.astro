@@ -1,0 +1,106 @@
+---
+import type { CityData } from '../data/types';
+import { formatCurrency, getTotalSpend } from '../data/types';
+
+interface Props {
+  currentCity: CityData;
+  allCities: CityData[];
+}
+
+const { currentCity, allCities } = Astro.props;
+
+// Same region cities (exclude current)
+const sameRegion = allCities
+  .filter((c) => c.region === currentCity.region && c.slug !== currentCity.slug)
+  .sort((a, b) => b.fireScore - a.fireScore)
+  .slice(0, 4);
+
+// Top cities from other regions by FIRE score
+const otherRegions = allCities
+  .filter((c) => c.region !== currentCity.region)
+  .sort((a, b) => b.fireScore - a.fireScore)
+  .slice(0, 4);
+
+const currentTotal1M = getTotalSpend(currentCity.tiers['1M']);
+---
+
+<section class="mt-8 pt-8 border-t border-sand-200">
+  <h2 class="font-serif text-2xl font-bold text-brand-950 mb-4">
+    How {currentCity.name} Compares to Other Destinations
+  </h2>
+
+  {sameRegion.length > 0 && (
+    <div class="mb-6">
+      <h3 class="text-sm font-bold text-gray-500 uppercase tracking-wide mb-3">
+        Other Cities in {currentCity.region}
+      </h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        {sameRegion.map((city) => {
+          const total = getTotalSpend(city.tiers['1M']);
+          const diff = total - currentTotal1M;
+          const cheaper = diff < 0;
+          return (
+            <a
+              href={`/cities/${city.slug}`}
+              class="flex items-center justify-between p-3 bg-white rounded-xl border border-sand-200 hover:border-brand-200 hover:shadow-sm transition-all group"
+            >
+              <div class="flex items-center gap-2">
+                <span class="text-lg">{city.emoji}</span>
+                <div>
+                  <span class="text-sm font-medium text-gray-800 group-hover:text-brand-600 transition-colors">
+                    {city.name}, {city.country}
+                  </span>
+                  <span class="block text-xs text-gray-500">
+                    {formatCurrency(total)}/mo at $1M tier
+                  </span>
+                </div>
+              </div>
+              <span class:list={['text-xs font-semibold', cheaper ? 'text-emerald-600' : 'text-red-500']}>
+                {cheaper ? `${formatCurrency(Math.abs(diff))} less` : `${formatCurrency(diff)} more`}
+              </span>
+            </a>
+          );
+        })}
+      </div>
+    </div>
+  )}
+
+  <div>
+    <h3 class="text-sm font-bold text-gray-500 uppercase tracking-wide mb-3">
+      Popular Destinations Worldwide
+    </h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+      {otherRegions.map((city) => {
+        const total = getTotalSpend(city.tiers['1M']);
+        const diff = total - currentTotal1M;
+        const cheaper = diff < 0;
+        return (
+          <a
+            href={`/cities/${city.slug}`}
+            class="flex items-center justify-between p-3 bg-white rounded-xl border border-sand-200 hover:border-brand-200 hover:shadow-sm transition-all group"
+          >
+            <div class="flex items-center gap-2">
+              <span class="text-lg">{city.emoji}</span>
+              <div>
+                <span class="text-sm font-medium text-gray-800 group-hover:text-brand-600 transition-colors">
+                  {city.name}, {city.country}
+                </span>
+                <span class="block text-xs text-gray-500">
+                  {city.region} — {formatCurrency(total)}/mo at $1M
+                </span>
+              </div>
+            </div>
+            <span class:list={['text-xs font-semibold', cheaper ? 'text-emerald-600' : 'text-red-500']}>
+              {cheaper ? `${formatCurrency(Math.abs(diff))} less` : `${formatCurrency(diff)} more`}
+            </span>
+          </a>
+        );
+      })}
+    </div>
+  </div>
+
+  <p class="mt-6 text-sm text-gray-500">
+    Explore all <a href="/" class="text-brand-600 hover:underline font-medium">{allCities.length} retirement destinations</a>
+    or <a href="/compare" class="text-brand-600 hover:underline font-medium">compare cities side by side</a>.
+  </p>
+</section>

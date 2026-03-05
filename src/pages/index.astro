@@ -6,9 +6,22 @@ import { allCities, getCitiesByRegion } from '../data/cities/index';
 import { REGION_ORDER } from '../data/types';
 
 const totalCities = allCities.length;
+
+const orgLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  'name': 'PortfolioAtlas',
+  'url': 'https://portfolioatlas.org',
+  'description': `Discover what your investment portfolio can buy you in ${totalCities} cities around the world. Compare lifestyles, costs, and FIRE potential.`,
+  'potentialAction': {
+    '@type': 'SearchAction',
+    'target': 'https://portfolioatlas.org/compare?cities={search_term_string}',
+    'query-input': 'required name=search_term_string',
+  },
+};
 ---
 
-<Layout title="Home">
+<Layout title="Home" jsonLd={orgLd}>
   <!-- Hero -->
   <section class="relative bg-brand-950 text-white overflow-hidden">
     <div class="absolute inset-0 bg-gradient-to-br from-brand-950 via-brand-900 to-brand-800"></div>
