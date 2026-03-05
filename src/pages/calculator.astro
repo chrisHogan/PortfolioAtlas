@@ -238,14 +238,14 @@ const totalCities = allCities.length;
       </div>
 
       <!-- Lifestyle Filter (minimum threshold) -->
-      <div class="bg-white rounded-xl border border-sand-200 px-4 py-3 flex items-center gap-3">
+      <div class="bg-white rounded-xl border border-sand-200 px-4 py-3 flex items-center gap-3 overflow-x-auto">
         <span class="text-xs font-bold text-gray-500 uppercase tracking-wide shrink-0">Min. Lifestyle</span>
-        <div class="w-px h-5 bg-sand-200"></div>
-        <div class="flex gap-0" id="lifestyle-filter-pills">
-          <button data-min-lifestyle="budget" data-level="1" class="lifestyle-pill px-3 py-1.5 text-sm font-medium rounded-l-full border border-r-0 border-sand-200 cursor-pointer select-none transition-all">Budget</button>
-          <button data-min-lifestyle="comfortable" data-level="2" class="lifestyle-pill px-3 py-1.5 text-sm font-medium border border-r-0 border-sand-200 cursor-pointer select-none transition-all">Comfortable</button>
-          <button data-min-lifestyle="premium" data-level="3" class="lifestyle-pill px-3 py-1.5 text-sm font-medium border border-r-0 border-sand-200 cursor-pointer select-none transition-all">Premium</button>
-          <button data-min-lifestyle="luxury" data-level="4" class="lifestyle-pill px-3 py-1.5 text-sm font-medium rounded-r-full border border-sand-200 cursor-pointer select-none transition-all">Luxury</button>
+        <div class="w-px h-5 bg-sand-200 shrink-0"></div>
+        <div class="flex gap-0 shrink-0" id="lifestyle-filter-pills">
+          <button data-min-lifestyle="budget" data-level="1" class="lifestyle-pill px-2 sm:px-3 py-1.5 text-xs sm:text-sm font-medium rounded-l-full border border-r-0 border-sand-200 cursor-pointer select-none transition-all whitespace-nowrap">Budget</button>
+          <button data-min-lifestyle="comfortable" data-level="2" class="lifestyle-pill px-2 sm:px-3 py-1.5 text-xs sm:text-sm font-medium border border-r-0 border-sand-200 cursor-pointer select-none transition-all whitespace-nowrap">Comfortable</button>
+          <button data-min-lifestyle="premium" data-level="3" class="lifestyle-pill px-2 sm:px-3 py-1.5 text-xs sm:text-sm font-medium border border-r-0 border-sand-200 cursor-pointer select-none transition-all whitespace-nowrap">Premium</button>
+          <button data-min-lifestyle="luxury" data-level="4" class="lifestyle-pill px-2 sm:px-3 py-1.5 text-xs sm:text-sm font-medium rounded-r-full border border-sand-200 cursor-pointer select-none transition-all whitespace-nowrap">Luxury</button>
         </div>
       </div>
     </div>
@@ -991,7 +991,10 @@ const totalCities = allCities.length;
         noCitiesEl?.classList.remove('hidden');
         if (bestEl) bestEl.textContent = '—';
         if (bestSurplusEl) bestSurplusEl.textContent = 'No matches with current filters';
-        tbody.innerHTML = '';
+        if (tbody) tbody.innerHTML = '';
+        const filteredCountEl = document.getElementById('filtered-count');
+        if (filteredCountEl) filteredCountEl.textContent = '0 cities';
+        document.getElementById('show-more-container')?.classList.add('hidden');
       } else {
         noCitiesEl?.classList.add('hidden');
         if (bestEl) bestEl.textContent = ranked[0].emoji + ' ' + ranked[0].name;
@@ -1041,6 +1044,13 @@ const totalCities = allCities.length;
       } else {
         if (bestEl) bestEl.textContent = '—';
         if (bestSurplusEl) bestSurplusEl.textContent = 'No matches with current filters';
+      }
+
+      const noCitiesEl = document.getElementById('fire-no-cities');
+      if (ranked.length === 0) {
+        noCitiesEl?.classList.remove('hidden');
+      } else {
+        noCitiesEl?.classList.add('hidden');
       }
 
       const tbody = document.getElementById('city-rankings');
