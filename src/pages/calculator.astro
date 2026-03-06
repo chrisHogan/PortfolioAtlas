@@ -199,6 +199,13 @@ const totalCities = allCities.length;
         <div id="summary-best-surplus" class="text-xs text-emerald-600 mt-1"></div>
       </div>
     </div>
+
+    <!-- Lifestyle Reach Breakdown -->
+    <div id="lifestyle-reach" class="mt-4 bg-white rounded-2xl border border-sand-200 p-5 hidden">
+      <div class="text-sm font-semibold text-gray-700 mb-3">Your Lifestyle Reach</div>
+      <div class="space-y-2" id="lifestyle-reach-bars"></div>
+      <p class="text-xs text-gray-400 mt-3">Percentage of cities where your budget covers each lifestyle level.</p>
+    </div>
   </section>
 
   <!-- Filter Bar (narrows the surplus cities) -->
@@ -420,6 +427,42 @@ const totalCities = allCities.length;
         }
       }
       return null; // can't afford even Budget
+    }
+
+    // ─── Lifestyle reach breakdown ───
+    function renderLifestyleReach(monthlyBudget) {
+      const container = document.getElementById('lifestyle-reach');
+      const barsEl = document.getElementById('lifestyle-reach-bars');
+      if (!container || !barsEl) return;
+
+      // Count how many cities qualify at each lifestyle level minimum
+      const levels = [
+        { key: '1M', label: 'Budget', color: 'bg-gray-400' },
+        { key: '3M', label: 'Comfortable', color: 'bg-brand-400' },
+        { key: '5M', label: 'Premium', color: 'bg-brand-600' },
+        { key: '10M', label: 'Luxury', color: 'bg-brand-800' },
+      ];
+
+      const total = cityData.length;
+      const counts = levels.map((level) => {
+        const count = cityData.filter((city) => {
+          const tierData = city.tiers[level.key];
+          return tierData && monthlyBudget >= tierData.totalSpend;
+        }).length;
+        return { ...level, count, pct: total > 0 ? Math.round((count / total) * 100) : 0 };
+      });
+
+      barsEl.innerHTML = counts.map((l) =>
+        `<div class="flex items-center gap-3">
+          <span class="text-xs font-medium text-gray-600 w-24 shrink-0">${l.label}</span>
+          <div class="flex-1 h-5 bg-sand-100 rounded-full overflow-hidden">
+            <div class="${l.color} h-full rounded-full transition-all duration-500" style="width: ${l.pct}%"></div>
+          </div>
+          <span class="text-xs font-bold text-gray-700 w-16 text-right">${l.pct}% <span class="font-normal text-gray-400">(${l.count})</span></span>
+        </div>`
+      ).join('');
+
+      container.classList.remove('hidden');
     }
 
     // ─── Rank cities with composite scoring ───
@@ -1006,6 +1049,7 @@ const totalCities = allCities.length;
       if (budgetEl) budgetEl.textContent = fmtCurrency(sim.monthlyBudget) + '/mo';
       if (surplusCountEl) surplusCountEl.textContent = String(surplusCount);
       if (surplusSubEl) surplusSubEl.textContent = 'of ' + totalCities + ' cities';
+      renderLifestyleReach(sim.monthlyBudget);
 
       if (ranked.length === 0) {
         noCitiesEl?.classList.remove('hidden');
@@ -1055,6 +1099,7 @@ const totalCities = allCities.length;
       if (budgetEl) budgetEl.textContent = fmtCurrency(monthlyBudget) + '/mo';
       if (surplusCountEl) surplusCountEl.textContent = String(surplusCount);
       if (surplusSubEl) surplusSubEl.textContent = 'of ' + totalCities + ' cities';
+      renderLifestyleReach(monthlyBudget);
       if (ranked.length > 0) {
         if (bestEl) bestEl.textContent = ranked[0].emoji + ' ' + ranked[0].name;
         if (bestSurplusEl) {
