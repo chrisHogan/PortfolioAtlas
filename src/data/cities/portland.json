@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "portland",
   "emoji": "🇺🇸",
-  "fireScore": 5.3,
+  "fireScore": 6.6,
   "tagline": "No Sales Tax, Craft Culture, and Pacific Northwest Beauty",
   "description": "Portland offers a unique blend of progressive culture, no state sales tax, and easy access to the Pacific Northwest's stunning natural landscapes. The city is famous for its food cart scene, craft breweries, and bike-friendly infrastructure. While Oregon does have a state income tax, Portland's relatively moderate cost of living compared to Seattle or San Francisco, combined with its walkability and cultural richness, makes it an appealing FIRE destination for those who love gray skies and green landscapes.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level Portland is your personal canvas. An estate surrounded by old-growth forest, a private vineyard in the Willamette Valley, and the ability to shape the city's cultural scene through philanthropy. Oregon's natural beauty becomes your private backyard while you maintain a globally connected lifestyle."
     }
+  },
+  "scores": {
+    "safety": 4,
+    "healthcare": 8,
+    "infrastructure": 7,
+    "expatFriendliness": 8
   }
 }

@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "minneapolis",
   "emoji": "🇺🇸",
-  "fireScore": 5.5,
+  "fireScore": 7.4,
   "tagline": "City of Lakes, Arts Excellence, and Midwestern Value",
   "description": "Minneapolis punches well above its weight in culture, dining, and outdoor recreation. The Chain of Lakes, extensive bike trails, and one of the best park systems in the nation make it an outdoor lover's paradise — even in winter with cross-country skiing and ice fishing. The Twin Cities boast more theater seats per capita than anywhere outside New York, and the dining scene rivals cities twice its size. Housing is affordable by major metro standards, and while winters are brutal, the city has adapted with skyways and a resilient, community-oriented culture.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level Minneapolis is your personal Great Lakes kingdom. A magnificent lakefront estate, trustee roles at the Walker and Guthrie, and a private retreat on the North Shore of Lake Superior. Minnesota's strong civic culture means your philanthropy has real, visible impact on a community that values it deeply."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 9,
+    "infrastructure": 8,
+    "expatFriendliness": 8
   }
 }

@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "salt-lake-city",
   "emoji": "🇺🇸",
-  "fireScore": 5.8,
+  "fireScore": 7.4,
   "tagline": "World-Class Skiing, Outdoor Paradise, and Affordable Mountain Living",
   "description": "Salt Lake City offers unrivaled access to outdoor recreation with seven world-class ski resorts within 45 minutes and five national parks within a day's drive. The city has modernized rapidly with a growing food and craft beer scene, excellent public transit including light rail, and a cost of living well below other mountain West cities like Denver or Boulder. Utah's business-friendly tax environment and strong economy provide stability, while the dramatic Wasatch Mountain backdrop makes even the daily commute scenic.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level the entire Wasatch Range becomes your playground. A mountain estate, a Deer Valley ski compound, and helicopter access to untouched powder. Trustee-level involvement at Sundance and the ability to fund conservation of Utah's spectacular landscapes give your wealth real purpose in a breathtaking setting."
     }
+  },
+  "scores": {
+    "safety": 6,
+    "healthcare": 8,
+    "infrastructure": 7,
+    "expatFriendliness": 9
   }
 }

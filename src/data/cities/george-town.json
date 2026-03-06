@@ -4,7 +4,7 @@
   "region": "Southeast Asia",
   "slug": "george-town",
   "emoji": "🇲🇾",
-  "fireScore": 8.5,
+  "fireScore": 6.7,
   "tagline": "UNESCO Heritage and Hawker Stalls — Where Multicultural Asia Meets FIRE Freedom",
   "description": "George Town on the island of Penang is one of Southeast Asia's most compelling FIRE destinations. This UNESCO World Heritage city delivers the best street food on the planet, a deeply multicultural Malay-Chinese-Indian-European character, excellent English proficiency, and a cost of living that lets even lean-FIRE retirees live remarkably well. Malaysia's MM2H visa program and modern healthcare infrastructure seal the deal.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M in George Town, you are a patron of one of Asia's most culturally rich cities. Your heritage compound hosts exhibitions and multicultural feasts that are the talk of the island, your private yacht cruises the Andaman Sea to hidden Thai and Burmese islands, and your Langkawi retreat is a tropical paradise. You fund heritage restoration, support local artists, and move through a world where Chinese, Malay, Indian, and European traditions interweave seamlessly — and you are at the center of it all."
     }
+  },
+  "scores": {
+    "safety": 6,
+    "healthcare": 7,
+    "infrastructure": 6,
+    "expatFriendliness": 8
   }
 }

@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "victoria",
   "emoji": "🇨🇦",
-  "fireScore": 5.5,
+  "fireScore": 8,
   "tagline": "Butchart Gardens, Mild Pacific Breezes, and Island Living North of the Border",
   "description": "Victoria sits at the southern tip of Vancouver Island, offering Canada's mildest climate, English-style gardens, and a relaxed island pace of life. With universal healthcare, a walkable inner harbor, thriving farm-to-table dining, and year-round outdoor recreation, Victoria delivers exceptional quality of life for retirees who want natural beauty without harsh winters. Housing is pricier than most Canadian cities but still well below Vancouver.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M, you become one of Victoria's most prominent residents. A grand Uplands estate with manicured English gardens, a private yacht exploring the Gulf Islands, and deep philanthropic ties to the Royal BC Museum and University of Victoria. Your chef sources directly from island farms and Pacific waters, and your garden party invitations are the most coveted on the island."
     }
+  },
+  "scores": {
+    "safety": 8,
+    "healthcare": 8,
+    "infrastructure": 7,
+    "expatFriendliness": 9
   }
 }

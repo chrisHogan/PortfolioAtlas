@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "los-angeles",
   "emoji": "🇺🇸",
-  "fireScore": 3.8,
+  "fireScore": 7.4,
   "tagline": "Sunshine, Beaches, and the Entertainment Capital of the World",
   "description": "Los Angeles offers FIRE retirees 284 days of sunshine, world-class beaches, and a creative energy found nowhere else. The sprawling metropolis demands a car, which adds cost, but rewards with incredible ethnic food diversity, hiking in the Santa Monica Mountains, and a laid-back lifestyle that makes every day feel like vacation. California's state income tax hits portfolios hard, but the weather, culture, and outdoor access create an undeniable quality of life.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level, you inhabit the LA that the world sees on screen. Your Bel Air estate hosts charity galas under the stars, your Malibu compound is where industry moguls decompress on your invitation, and your name appears on museum wings and film credits alike. Private jets to Aspen, courtside with celebrities, and a life that blurs the line between luxury and legend."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 9,
+    "infrastructure": 7,
+    "expatFriendliness": 9
   }
 }

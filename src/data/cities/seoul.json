@@ -4,7 +4,7 @@
   "region": "East Asia",
   "slug": "seoul",
   "emoji": "🇰🇷",
-  "fireScore": 6.5,
+  "fireScore": 8.6,
   "tagline": "High-Tech Megacity with World-Class Healthcare and Street Food",
   "description": "Seoul is a dynamic, hyper-connected metropolis where ancient palaces sit alongside neon-lit tech districts. The city offers some of the world's best healthcare at a fraction of US costs, an unrivaled public transit system, and a food scene that ranges from $2 street stalls to Michelin-starred fine dining. While housing in premium districts is expensive, overall cost of living remains moderate for a global capital, making Seoul an increasingly popular FIRE destination for those who love urban energy and Asian culture.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level Seoul delivers a rarefied existence that combines Korean sophistication with global luxury. A penthouse overlooking the Han River, a dedicated staff, and access to Asia's most exclusive experiences. Seoul's position as a cultural and economic powerhouse means your network and lifestyle rival anything available in Tokyo or Singapore."
     }
+  },
+  "scores": {
+    "safety": 9,
+    "healthcare": 9,
+    "infrastructure": 10,
+    "expatFriendliness": 6
   }
 }

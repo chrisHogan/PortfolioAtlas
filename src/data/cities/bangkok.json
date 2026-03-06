@@ -4,7 +4,7 @@
   "region": "Southeast Asia",
   "slug": "bangkok",
   "emoji": "🇹🇭",
-  "fireScore": 8,
+  "fireScore": 7.2,
   "tagline": "World-Class City Living at a Fraction of the Price — Retire in Bangkok, Thailand",
   "description": "Bangkok delivers the energy, cuisine, and infrastructure of a global megacity at Southeast Asian prices. With its legendary street food, ultra-modern malls, excellent hospitals, and a massive international expat scene, Bangkok offers FIRE retirees a vibrant urban lifestyle that punches far above its cost.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "With $10M in Bangkok, you command a lifestyle that most people associate with old-money dynasties. Your penthouse overlooks the river, your staff anticipates every need, and you move between Bangkok high society, island retreats, and international travel with effortless grace. Bangkok is one of the best cities on earth to be wealthy in."
     }
+  },
+  "scores": {
+    "safety": 6,
+    "healthcare": 8,
+    "infrastructure": 7,
+    "expatFriendliness": 8
   }
 }

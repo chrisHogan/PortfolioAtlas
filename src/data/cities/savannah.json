@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "savannah",
   "emoji": "🇺🇸",
-  "fireScore": 6.0,
+  "fireScore": 6.8,
   "tagline": "Moss-Draped Squares, Affordable Southern Charm, and Coastal Access",
   "description": "Savannah offers one of the best value propositions among charming Southern cities. Its iconic moss-draped squares, historic architecture, and walkable downtown create a storybook setting at a fraction of the cost of nearby Charleston. Georgia's moderate tax burden and Savannah's genuinely affordable housing make it an excellent FIRE destination. The city's art scene, excellent seafood, and proximity to Tybee Island beaches round out a compelling retirement package.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level Savannah becomes your personal Southern estate. A landmark mansion, a yacht for cruising the waterways, and the ability to be a major patron of the city's arts and preservation efforts. The combination of affordability and elegance means your money creates an outsized lifestyle here."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 7,
+    "infrastructure": 7,
+    "expatFriendliness": 9
   }
 }

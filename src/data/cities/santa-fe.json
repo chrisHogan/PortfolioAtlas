@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "santa-fe",
   "emoji": "🇺🇸",
-  "fireScore": 5.3,
+  "fireScore": 6.6,
   "tagline": "Art Capital of the Southwest with Adobe Charm and High Desert Beauty",
   "description": "Santa Fe is unlike any other American city. The oldest state capital in the US blends centuries of Native American, Spanish, and Anglo cultures into a world-renowned art scene, distinctive adobe architecture, and a food culture built around New Mexican chile. At 7,000 feet elevation, summers are cool and winters bring crisp mountain air and skiing. Housing costs are above average for New Mexico but well below coastal cities, making it a compelling FIRE choice for those who value culture and natural beauty over nightlife and big-city bustle.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level you become one of Santa Fe's cultural pillars. A world-class private art collection, a stunning compound that hosts artists and dignitaries, philanthropic leadership in the arts community, and the freedom to jet off to Art Basel or Venice Biennale whenever inspiration calls. Santa Fe rewards wealth with meaning, not just comfort."
     }
+  },
+  "scores": {
+    "safety": 6,
+    "healthcare": 6,
+    "infrastructure": 6,
+    "expatFriendliness": 9
   }
 }

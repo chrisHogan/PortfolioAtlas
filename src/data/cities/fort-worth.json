@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "fort-worth",
   "emoji": "🇺🇸",
-  "fireScore": 6.2,
+  "fireScore": 6.9,
   "tagline": "Cowtown Culture, No State Income Tax, and Genuine Texas Affordability",
   "description": "Fort Worth delivers authentic Texas culture with significantly more affordability than its neighbor Dallas. The Stockyards, world-class museums along the Cultural District, and a revitalized downtown with craft breweries and live music make it far more than a cowboy town. With zero state income tax and housing costs well below the national average, Fort Worth is one of the most practical FIRE destinations in America for those who want big-city amenities without the big-city price tag.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "Fort Worth at the $10M tier is old Texas money come to life. A grand estate or working ranch, a private suite at Cowboys games, leadership roles in the city's cultural institutions, and the freedom to live out every Texas dream imaginable. With no state income tax, your portfolio works harder than almost anywhere in the country."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 8,
+    "infrastructure": 7,
+    "expatFriendliness": 8
   }
 }

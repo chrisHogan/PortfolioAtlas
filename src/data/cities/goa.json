@@ -4,7 +4,7 @@
   "region": "South Asia",
   "slug": "goa",
   "emoji": "🇮🇳",
-  "fireScore": 8.2,
+  "fireScore": 5.1,
   "tagline": "Beach Paradise Living on a Fraction of Western Costs",
   "description": "Goa is India's premier coastal retreat, blending Portuguese colonial charm with tropical beaches and an incredibly low cost of living. A thriving expat community, world-class seafood, and a laid-back vibe make it one of the most attractive FIRE destinations in Asia. From the lively beach shacks of North Goa to the quieter coves of the South, retirees can stretch their portfolios further here than almost anywhere else on Earth.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "This budget in Goa is almost absurd in its luxury. You could own multiple properties, employ a full staff, fund local charities, and still have enormous surplus. Most retirees at this level split time between Goa and international destinations, using Goa as a spectacular and affordable home base."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 4,
+    "infrastructure": 4,
+    "expatFriendliness": 8
   }
 }

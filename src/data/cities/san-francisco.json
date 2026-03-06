@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "san-francisco",
   "emoji": "🇺🇸",
-  "fireScore": 3.0,
+  "fireScore": 7.6,
   "tagline": "Tech Capital, Iconic Fog, and a World-Class Food Scene by the Golden Gate",
   "description": "San Francisco is one of the most expensive cities in the United States, but for those who can afford it, the rewards are extraordinary. Perched on a hilly peninsula between the Pacific Ocean and the San Francisco Bay, the city offers a Mediterranean climate, a Michelin-starred food scene rivaling any in the world, and a cultural energy fueled by decades of innovation. FIRE retirees face steep housing costs and California's high state income tax, but gain access to stunning natural beauty, world-class healthcare at UCSF, and a walkable urban core unlike anything else on the West Coast.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M, San Francisco becomes your personal masterpiece. A legendary Pacific Heights mansion or a Sea Cliff estate overlooking the Pacific, a personal chef sourcing from the finest farms in Northern California, and deep involvement in the city's world-renowned arts and tech philanthropy scenes. Even after California taxes, you are living one of the most enviable lives in America."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 9,
+    "infrastructure": 8,
+    "expatFriendliness": 9
   }
 }

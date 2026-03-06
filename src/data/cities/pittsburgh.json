@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "pittsburgh",
   "emoji": "🇺🇸",
-  "fireScore": 6.5,
+  "fireScore": 6.9,
   "tagline": "Bridges, Rivers, and World-Class Hospitals at Northeast Prices You Can Afford",
   "description": "Pittsburgh has reinvented itself from a steel city into a thriving hub of healthcare, technology, and culture, all while keeping costs remarkably low for a major Northeastern metro. With world-class hospitals like UPMC and Allegheny Health Network, over 440 bridges spanning three rivers, revitalized neighborhoods like Lawrenceville and the Strip District, and a passionate sports culture, Pittsburgh offers big-city amenities at a fraction of what you would pay in Philadelphia, Boston, or New York.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M in Pittsburgh you are a titan of one of America's great comeback cities. A grand estate in Fox Chapel, world-class healthcare at UPMC on your terms, transformative philanthropy through the Carnegie institutions, and the satisfaction of living in a city that has reinvented itself. Few places offer this combination of cultural depth, medical excellence, and sheer affordability at the top."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 8,
+    "infrastructure": 7,
+    "expatFriendliness": 8
   }
 }

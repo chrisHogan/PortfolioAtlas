@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "philadelphia",
   "emoji": "🇺🇸",
-  "fireScore": 5.4,
+  "fireScore": 6.9,
   "tagline": "Affordable Northeast, World-Class Dining, and Deep American History",
   "description": "Philadelphia offers the cultural richness of a major Northeast city at a fraction of New York or Boston prices. The birthplace of American independence has transformed into a food destination with a thriving restaurant scene, excellent museums, and passionate sports culture. SEPTA provides solid public transit, and many neighborhoods are remarkably walkable. The combination of relatively affordable housing, no sales tax on clothing and groceries, and proximity to both New York and D.C. makes Philly a smart FIRE choice for those who want an urban East Coast lifestyle.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level Philadelphia offers old-money elegance with modern energy. A landmark estate, trustee-level involvement at the Philadelphia Museum of Art and the Orchestra, and the ability to shape the city's cultural future. The Main Line lifestyle combined with Philly's gritty authenticity creates something uniquely appealing."
     }
+  },
+  "scores": {
+    "safety": 4,
+    "healthcare": 9,
+    "infrastructure": 7,
+    "expatFriendliness": 8
   }
 }

@@ -4,7 +4,7 @@
   "region": "Southeast Asia",
   "slug": "ho-chi-minh-city",
   "emoji": "🇻🇳",
-  "fireScore": 9,
+  "fireScore": 5.7,
   "tagline": "Southeast Asia's Best-Kept FIRE Secret — Stretch Your Dollar Further in Ho Chi Minh City",
   "description": "Ho Chi Minh City offers arguably the best bang-for-your-buck in all of Southeast Asia. With its explosive energy, legendary street food culture, rapidly modernizing infrastructure, and rock-bottom costs, Saigon rewards FIRE retirees who crave authentic immersion and a dollar that goes further than almost anywhere else on earth.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "With $10M in Ho Chi Minh City, you live like royalty in one of the world's most dynamic and rapidly growing cities. Your riverside estate is fully staffed, you patronize Vietnam's burgeoning contemporary art scene, and you move seamlessly between Saigon, your beach house, and international destinations. Vietnam's growth story makes this an incredibly exciting place to build a legacy."
     }
+  },
+  "scores": {
+    "safety": 6,
+    "healthcare": 5,
+    "infrastructure": 5,
+    "expatFriendliness": 7
   }
 }

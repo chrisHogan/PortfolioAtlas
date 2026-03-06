@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "chicago",
   "emoji": "🇺🇸",
-  "fireScore": 5.2,
+  "fireScore": 7.3,
   "tagline": "World-Class Architecture, Deep Dish, and a Stunning Lakefront — At Half the Coastal Price",
   "description": "Chicago is the FIRE retiree's secret weapon among major US cities — genuine big-city culture, dining, and architecture at roughly half the cost of New York or San Francisco. The lakefront rivals any coastal city, the food scene punches above its weight with more Michelin stars than LA, and neighborhoods like Logan Square and Wicker Park hum with creative energy. The trade-off is winter: brutal cold from December through March pushes up utility bills and tests your resolve. But those who stay are rewarded with magical summers and a city that fiercely earns its keep.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level, you are Chicago royalty. Your Lake Shore Drive mansion hosts the charity galas that define the social season, your name is etched on the Art Institute's donor walls, and your influence shapes the city's cultural future. Summers mean your Lake Geneva compound and yacht; winters mean jetting to warmer climates while your staff keeps the estate running. Chicago's civic elite counts you among its own."
     }
+  },
+  "scores": {
+    "safety": 4,
+    "healthcare": 9,
+    "infrastructure": 8,
+    "expatFriendliness": 9
   }
 }

@@ -4,7 +4,7 @@
   "region": "Africa",
   "slug": "accra",
   "emoji": "🇬🇭",
-  "fireScore": 7.2,
+  "fireScore": 5.2,
   "tagline": "West Africa's Friendliest City with Beaches, Culture, and Growing Modernity",
   "description": "Accra is one of Africa's most welcoming cities for expats, with English as the official language, a stable democracy, and a warm, open culture that makes newcomers feel at home quickly. The city offers Atlantic Ocean beaches, a vibrant nightlife and music scene rooted in highlife and afrobeats, and a rapidly modernizing infrastructure. For FIRE retirees, Accra delivers strong value with affordable housing, excellent tropical fruit and seafood, and a growing community of international residents. Ghana's Year of Return initiative has made the country especially popular with African American retirees.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $33K/month in Accra you have the resources to live magnificently and make a transformative impact. A grand estate with a full staff, the ability to fund schools, healthcare, and cultural programs, first-class global travel, and a lifestyle that blends luxury with deep purpose. Ghana's welcoming culture and stable democracy make this one of Africa's most rewarding places to build a meaningful legacy."
     }
+  },
+  "scores": {
+    "safety": 6,
+    "healthcare": 4,
+    "infrastructure": 4,
+    "expatFriendliness": 7
   }
 }

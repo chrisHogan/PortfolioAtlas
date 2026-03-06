@@ -4,7 +4,7 @@
   "region": "Oceania",
   "slug": "sydney",
   "emoji": "🇦🇺",
-  "fireScore": 3.8,
+  "fireScore": 8.2,
   "tagline": "Harbor Life, World-Class Beaches, and Endless Outdoor Culture — Retire in Sydney, Australia",
   "description": "Sydney is one of the world's most beautiful cities, built around a dazzling harbor and flanked by iconic beaches from Bondi to Manly. The lifestyle is irresistibly outdoorsy — surfing before work, coastal walks at sunset, and weekend escapes to the Blue Mountains. The catch? It's expensive. Housing costs rival London and San Francisco, and the general cost of living is high. But for those who can afford it, Sydney delivers a quality of life that few cities can match, with excellent healthcare, strong safety, and a relaxed yet cosmopolitan culture.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "With $10M in Sydney, you inhabit the rarefied world of Point Piper and Vaucluse — where the harbor is your front yard and the Pacific your backyard. Your chef sources from the Sydney Fish Market each morning, your yacht is moored at the Cruising Yacht Club, and weekends mean seaplane flights to your Palm Beach retreat. Sydney's natural grandeur and cosmopolitan polish combine into one of the world's great luxury lifestyles."
     }
+  },
+  "scores": {
+    "safety": 7,
+    "healthcare": 9,
+    "infrastructure": 8,
+    "expatFriendliness": 9
   }
 }

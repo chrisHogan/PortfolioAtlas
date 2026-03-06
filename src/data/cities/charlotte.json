@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "charlotte",
   "emoji": "🇺🇸",
-  "fireScore": 5.8,
+  "fireScore": 6.9,
   "tagline": "Banking Capital of the South with Big-City Amenities and Southern Charm",
   "description": "Charlotte delivers a surprising amount of big-city polish at mid-tier prices. As the second-largest financial center in the US, it offers excellent infrastructure, a growing food and brewery scene, and easy access to both the Blue Ridge Mountains and Carolina beaches. North Carolina's moderate tax burden and affordable housing make it a practical FIRE destination for those who want urban convenience without coastal price tags.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this tier you are living among Charlotte's banking elite. A sprawling estate in one of the city's most prestigious neighborhoods, a personal chef, private box seats, and the social capital to host major charitable events. Charlotte's lower cost base means your $10M goes further than it would in New York or San Francisco."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 8,
+    "infrastructure": 7,
+    "expatFriendliness": 8
   }
 }

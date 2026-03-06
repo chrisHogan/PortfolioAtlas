@@ -4,7 +4,7 @@
   "region": "Latin America",
   "slug": "lake-chapala",
   "emoji": "🇲🇽",
-  "fireScore": 8.0,
+  "fireScore": 5.6,
   "tagline": "Mexico's Premier Expat Haven with Perfect Climate and Lakeside Charm",
   "description": "Lake Chapala is home to the largest American and Canadian expat community in Mexico, and for good reason. Nestled in the mountains of Jalisco at 5,000 feet elevation, the area enjoys what many call the world's best climate — warm days, cool nights, and almost no humidity year-round. The towns of Ajijic and Chapala along the lakeshore offer established English-speaking infrastructure, excellent healthcare access via nearby Guadalajara, and a deeply welcoming community that has perfected the art of affordable, high-quality retirement living.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "You are Lake Chapala's patron saint — your compound is the most magnificent estate on the lake, your charitable foundation transforms local communities, and your private tequila label is the toast of Jalisco. Helicopter rides reveal the volcanic landscape, your guest casitas host friends and family from around the world in perpetual comfort, and your legendary fiestas under the stars have become the social event of the expatriate calendar. At ten million, Lake Chapala isn't just home — it's your kingdom."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 5,
+    "infrastructure": 4,
+    "expatFriendliness": 9
   }
 }

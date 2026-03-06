@@ -4,7 +4,7 @@
   "region": "Middle East",
   "slug": "amman",
   "emoji": "🇯🇴",
-  "fireScore": 6.8,
+  "fireScore": 6.3,
   "tagline": "Ancient History, Warm Hospitality, and Surprising Affordability",
   "description": "Amman is a sprawling, hilly capital that bridges the ancient and modern Middle East. Built over Roman ruins and Nabataean trade routes, the city offers affordable living, excellent Arabic cuisine, warm Jordanian hospitality, and proximity to bucket-list sites like Petra, the Dead Sea, and Wadi Rum. Healthcare is strong and affordable by Western standards, and English is widely spoken in educated circles. While summers are hot and the city lacks coastal access, Amman rewards curious retirees with deep cultural richness and genuine value.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level Amman becomes the center of a truly regal Middle Eastern existence. A palatial estate, a full staff, private access to some of humanity's greatest archaeological treasures, and the resources to make a lasting impact through cultural preservation and philanthropy. Jordan's warmth, history, and strategic location create a life of extraordinary depth and meaning."
     }
+  },
+  "scores": {
+    "safety": 7,
+    "healthcare": 6,
+    "infrastructure": 6,
+    "expatFriendliness": 6
   }
 }

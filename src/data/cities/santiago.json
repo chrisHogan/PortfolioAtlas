@@ -4,7 +4,7 @@
   "region": "Latin America",
   "slug": "santiago",
   "emoji": "🇨🇱",
-  "fireScore": 6.5,
+  "fireScore": 6,
   "tagline": "Andean Views, World-Class Wine, and South America's Most Stable Economy",
   "description": "Santiago is the cosmopolitan capital of Chile, South America's most economically stable and developed nation. Nestled in a valley with the snow-capped Andes as a dramatic backdrop, the city offers excellent infrastructure, a booming food and wine scene, reliable healthcare, and easy access to both ski resorts and Pacific beaches within 90 minutes. While not as cheap as other Latin American capitals, Santiago delivers exceptional value for a modern, safe, and well-connected city with First World amenities.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this tier Santiago offers a life of Andean grandeur. A sprawling estate with mountain views, full staff, private aviation, and the resources to explore Chile's extraordinary geography — from the world's driest desert to its most dramatic glaciers. Chile's stability, natural beauty, and growing cultural scene create a life of rare quality and adventure."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 7,
+    "infrastructure": 7,
+    "expatFriendliness": 5
   }
 }

@@ -4,7 +4,7 @@
   "region": "Europe",
   "slug": "split",
   "emoji": "🇭🇷",
-  "fireScore": 7.0,
+  "fireScore": 6.8,
   "tagline": "Ancient Roman Palace Meets Adriatic Beach Life",
   "description": "Split is Croatia's second city, built in and around the ruins of Diocletian's Palace on the stunning Dalmatian coast. The combination of Roman history, crystal-clear Adriatic waters, Mediterranean cuisine, and a cost of living below Western Europe makes it an increasingly popular destination for expats and retirees. Island hopping to Hvar, Brač, and Vis is a way of life here, and the city's cafe culture and outdoor lifestyle are hard to resist.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level you could own an island in the Adriatic alongside your Split estate. A luxury yacht, full staff, and the resources to experience the Mediterranean at its absolute finest. Croatia's combination of beauty, safety, and EU membership makes it an ideal base for this extraordinary lifestyle."
     }
+  },
+  "scores": {
+    "safety": 8,
+    "healthcare": 6,
+    "infrastructure": 6,
+    "expatFriendliness": 7
   }
 }

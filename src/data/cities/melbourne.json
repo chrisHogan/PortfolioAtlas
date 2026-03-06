@@ -4,7 +4,7 @@
   "region": "Oceania",
   "slug": "melbourne",
   "emoji": "🇦🇺",
-  "fireScore": 5.2,
+  "fireScore": 8.5,
   "tagline": "Coffee Culture, Sports Obsessed, and Endlessly Livable",
   "description": "Melbourne consistently ranks among the world's most livable cities, and for good reason. The city offers an extraordinary food and coffee scene, world-class sports events (Australian Open, F1, AFL), vibrant arts and music, and a relaxed yet cosmopolitan atmosphere. While housing costs are significant and the overall cost of living is high by global standards, Melbourne rewards residents with excellent public services, universal healthcare through Medicare, and a quality of life that few cities can match.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level Melbourne becomes your personal kingdom. A grand estate in one of Australia's most prestigious suburbs, a full staff, private boxes at every major event, and a wine collection that rivals commercial cellars. The relaxed Australian lifestyle combined with world-class sophistication creates a unique and deeply satisfying existence."
     }
+  },
+  "scores": {
+    "safety": 8,
+    "healthcare": 9,
+    "infrastructure": 8,
+    "expatFriendliness": 9
   }
 }

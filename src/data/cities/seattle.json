@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "seattle",
   "emoji": "🇺🇸",
-  "fireScore": 4.5,
+  "fireScore": 7.6,
   "tagline": "Pacific Northwest Tech Hub with Coffee, Rain, and Mountain Views",
   "description": "Seattle offers FIRE retirees a unique blend of tech-driven culture, stunning natural beauty, and urban sophistication. With no state income tax, world-class healthcare from systems like UW Medicine and Swedish, and easy access to the Cascades and Puget Sound, it rewards those who embrace the drizzle. The cost of living is steep, but the quality of life — from Pike Place Market mornings to Olympic Mountain sunsets — is hard to match.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level, you don't just live in Seattle — you shape its cultural landscape. Your Lake Washington estate hosts fundraising galas, your Walla Walla winery pours at exclusive events, and your name graces the donor walls of the symphony and ballet. Summers mean your San Juan retreat; winters mean heli-skiing followed by private chef dinners with views of Rainier."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 9,
+    "infrastructure": 8,
+    "expatFriendliness": 9
   }
 }

@@ -4,7 +4,7 @@
   "region": "Europe",
   "slug": "london",
   "emoji": "🇬🇧",
-  "fireScore": 3.0,
+  "fireScore": 8.6,
   "tagline": "World Financial Center, West End Theatre, and Centuries of Living History",
   "description": "London is one of the world's great cities — a global financial capital with unmatched theater, world-class museums, and a dizzying diversity of cuisine and culture. The NHS provides universal healthcare, and the city's public transit system is among the best on earth. However, London is brutally expensive for housing and dining, making it a challenging FIRE destination unless your portfolio is substantial.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M London becomes your personal stage. A Belgravia townhouse staffed to perfection, a country estate for weekends, and a social calendar that intersects with royalty, finance, and the arts. Your name graces the donor walls of the Tate and National Theatre, your Rolls whisks you between Mayfair and Knightsbridge, and life unfolds with the grandeur London has perfected over centuries."
     }
+  },
+  "scores": {
+    "safety": 7,
+    "healthcare": 9,
+    "infrastructure": 9,
+    "expatFriendliness": 10
   }
 }

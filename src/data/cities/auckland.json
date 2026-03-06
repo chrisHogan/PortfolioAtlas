@@ -4,7 +4,7 @@
   "region": "Oceania",
   "slug": "auckland",
   "emoji": "🇳🇿",
-  "fireScore": 5.3,
+  "fireScore": 8.2,
   "tagline": "City of Sails with Stunning Nature at Your Doorstep",
   "description": "Auckland is a city uniquely blessed by geography — built across volcanic hills between two harbours, with world-class beaches, rainforest walks, and vineyard regions all within an hour's drive. New Zealand's largest city offers a relaxed pace of life, clean air, excellent healthcare, and a growing food and wine scene. While housing costs are steep and some goods are expensive due to geographic isolation, Auckland rewards residents with an outdoor lifestyle, safety, and natural beauty that few cities can rival.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this tier Auckland becomes the gateway to the ultimate New Zealand lifestyle. A grand estate on the harbour, a private yacht, helicopter access to remote lodges, and the ability to experience everything this extraordinarily beautiful country offers. New Zealand's clean, safe, and stunning environment combined with Auckland's cosmopolitan amenities create a life of rare quality."
     }
+  },
+  "scores": {
+    "safety": 8,
+    "healthcare": 8,
+    "infrastructure": 8,
+    "expatFriendliness": 9
   }
 }

@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "sarasota",
   "emoji": "🇺🇸",
-  "fireScore": 5.5,
+  "fireScore": 7.7,
   "tagline": "Gulf Coast Beaches, Zero State Tax, and Cultural Richness",
   "description": "Sarasota pairs some of the most beautiful beaches in America with zero state income tax, making it a top-tier domestic FIRE destination. The city punches well above its weight culturally, with world-class performing arts, the Ringling Museum, and a thriving food scene. While Florida housing costs have climbed, Sarasota still offers better value than Miami or Naples with arguably better quality of life.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M, Sarasota is your private Gulf Coast empire. A beachfront estate on one of the world's most beautiful beaches, a private yacht, a personal chef, and deep involvement in the community's celebrated arts institutions. With zero state tax and world-class healthcare nearby in Tampa, this is the pinnacle of Florida retirement."
     }
+  },
+  "scores": {
+    "safety": 7,
+    "healthcare": 8,
+    "infrastructure": 7,
+    "expatFriendliness": 9
   }
 }

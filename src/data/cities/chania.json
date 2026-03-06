@@ -4,7 +4,7 @@
   "region": "Europe",
   "slug": "chania",
   "emoji": "🇬🇷",
-  "fireScore": 7.2,
+  "fireScore": 6.3,
   "tagline": "Venetian Charm and Cretan Soul on the Mediterranean's Most Beautiful Harbor",
   "description": "Chania is Crete's crown jewel — a Venetian-era port city where cobblestone alleys open onto one of the Mediterranean's most photographed harbors. Slower-paced and more affordable than Athens, Chania offers world-class Cretan cuisine, crystal-clear waters, and a growing expat community drawn by the island's legendary hospitality. The Greek Golden Visa, mild year-round climate, and deeply rooted food culture make it an irresistible FIRE destination for those who want European living without the European price tag.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "You are the modern patron of Crete — your compound rivals anything on Mykonos but with infinitely more soul. Your yacht explores coves that Minoan sailors once navigated, your private olive press produces oil that would make a Cretan grandmother weep with pride, and your philanthropic work preserving Venetian architecture has earned you honorary Chaniote status. This is where civilization began, and you're living at its pinnacle."
     }
+  },
+  "scores": {
+    "safety": 8,
+    "healthcare": 5,
+    "infrastructure": 5,
+    "expatFriendliness": 7
   }
 }

@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "quebec-city",
   "emoji": "🇨🇦",
-  "fireScore": 6.3,
+  "fireScore": 7.7,
   "tagline": "Old-World European Charm Without Crossing the Atlantic",
   "description": "Quebec City is the closest thing to Europe you can find in North America, with its UNESCO World Heritage Old Town, cobblestone streets, and vibrant Francophone culture. Housing costs are remarkably affordable compared to Montreal or Toronto, and universal healthcare removes one of retirement's biggest financial worries. If you speak (or want to learn) French and love history, architecture, and four-season living, Quebec City is an exceptional FIRE destination.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M, Quebec City offers a life that rivals European aristocracy. A grand heritage estate within the old walls, a Charlevoix country property, a Paris pied-a-terre, and deep involvement as a patron of Quebec's celebrated cultural institutions. Universal healthcare, incredible safety, and 400 years of history make this one of the most unique high-net-worth lifestyles in the world."
     }
+  },
+  "scores": {
+    "safety": 9,
+    "healthcare": 8,
+    "infrastructure": 7,
+    "expatFriendliness": 6
   }
 }

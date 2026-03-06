@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "albuquerque",
   "emoji": "🇺🇸",
-  "fireScore": 6.8,
+  "fireScore": 6.3,
   "tagline": "High Desert Beauty, Ancient Culture, and Balloon-Filled Skies",
   "description": "Albuquerque sits at the crossroads of Native American and Hispanic heritage in a stunning high-desert landscape at the foot of the Sandia Mountains. The cost of living is remarkably low for a metro of nearly one million, sunshine is abundant with over 310 days per year, and the cultural richness is unmatched. From the International Balloon Fiesta to Old Town's centuries-old adobe architecture, Albuquerque offers FIRE retirees a deeply affordable and uniquely beautiful place to call home.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M in Albuquerque you command a desert empire. A magnificent hacienda beneath the Sandias, a second home on Canyon Road in Santa Fe, a world-class art collection, and deep philanthropic involvement with Native American and Hispanic cultural institutions. The Land of Enchantment earns its name at this level."
     }
+  },
+  "scores": {
+    "safety": 4,
+    "healthcare": 7,
+    "infrastructure": 7,
+    "expatFriendliness": 8
   }
 }

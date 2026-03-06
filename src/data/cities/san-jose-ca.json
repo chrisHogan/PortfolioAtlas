@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "san-jose-ca",
   "emoji": "🇺🇸",
-  "fireScore": 4.3,
+  "fireScore": 7.9,
   "tagline": "Silicon Valley's Capital with Perfect Weather and Sky-High Costs",
   "description": "San Jose sits at the heart of Silicon Valley, offering Mediterranean weather, incredible ethnic food diversity, and proximity to the Pacific coast and Sierra Nevada mountains. However, its astronomical housing costs and California's high state income tax make it one of the most challenging FIRE destinations in America. You need a significantly larger portfolio here than almost anywhere else, but in return you get year-round sunshine, world-class tech infrastructure, and a culturally rich community shaped by immigration from around the globe.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M San Jose becomes a Silicon Valley dream. A stunning estate in the hills above the valley, personal chef, Stanford concierge medicine, and the social capital to attend exclusive tech and venture events. California taxes take a significant bite, but the lifestyle, weather, and access to innovation culture are unmatched."
     }
+  },
+  "scores": {
+    "safety": 6,
+    "healthcare": 9,
+    "infrastructure": 8,
+    "expatFriendliness": 9
   }
 }

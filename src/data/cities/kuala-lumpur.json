@@ -4,7 +4,7 @@
   "region": "Southeast Asia",
   "slug": "kuala-lumpur",
   "emoji": "🇲🇾",
-  "fireScore": 8,
+  "fireScore": 7.9,
   "tagline": "Modern Infrastructure Meets Tropical Affordability — Retire Smart in Kuala Lumpur, Malaysia",
   "description": "Kuala Lumpur is the Goldilocks of Southeast Asian FIRE destinations — more developed than Vietnam, more affordable than Singapore, and remarkably English-friendly. With world-class malls, excellent healthcare, diverse cuisine from three major cultures, and the popular MM2H visa program, KL is ideal for retirees who want comfort without compromise.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "With $10M in Kuala Lumpur, you occupy the very top of Malaysian society. Your colonial mansion in Kenny Hills is staffed by a professional household team, you host galas for the city's elite, and you split your time between KL, a Langkawi beach estate, and first-class travel across Asia. Malaysia's tax advantages make this lifestyle even more compelling."
     }
+  },
+  "scores": {
+    "safety": 7,
+    "healthcare": 8,
+    "infrastructure": 8,
+    "expatFriendliness": 9
   }
 }

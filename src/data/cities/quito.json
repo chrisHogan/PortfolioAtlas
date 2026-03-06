@@ -4,7 +4,7 @@
   "region": "Latin America",
   "slug": "quito",
   "emoji": "🇪🇨",
-  "fireScore": 7.8,
+  "fireScore": 4.5,
   "tagline": "Colonial Splendor at 9,000 Feet with Unbeatable Value",
   "description": "Quito sits in a dramatic Andean valley at 9,350 feet, offering spring-like weather year-round, a stunning UNESCO-listed colonial center, and some of the lowest costs of living in the Americas. Ecuador uses the US dollar (eliminating currency risk), offers affordable residency visas, and has a surprisingly robust healthcare system at a fraction of US costs. The Galapagos Islands, Amazon rainforest, and Pacific beaches are all accessible from this highland capital, making Quito an extraordinary base for adventurous FIRE retirees.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level Ecuador becomes your personal nature reserve. A grand hacienda estate, a full staff, private access to the Galapagos and Amazon, and the resources to make a meaningful impact through conservation and philanthropy. The sheer natural wealth of Ecuador combined with your financial resources creates opportunities for a life of extraordinary purpose and beauty."
     }
+  },
+  "scores": {
+    "safety": 4,
+    "healthcare": 5,
+    "infrastructure": 4,
+    "expatFriendliness": 5
   }
 }

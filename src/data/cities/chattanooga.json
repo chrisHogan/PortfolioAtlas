@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "chattanooga",
   "emoji": "🇺🇸",
-  "fireScore": 7.0,
+  "fireScore": 6.6,
   "tagline": "Gig City with the Fastest Internet, No State Income Tax, and Outdoor Paradise",
   "description": "Chattanooga is a FIRE dream: no state income tax, the fastest municipal internet in the United States courtesy of EPB Fiber Optics, and a cost of living well below the national average. Nestled along the Tennessee River at the base of Lookout Mountain, the city has transformed from an industrial center into an outdoor recreation capital with world-class rock climbing, mountain biking, and paddling. The revitalized downtown features excellent restaurants, a thriving arts scene, and the stunning Tennessee Aquarium.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M in Chattanooga with zero state income tax, you live atop one of the most beautiful mountains in the Southeast with a lifestyle to match. A grand mountaintop estate, a personal chef, a second home in the Smokies, chartered flights to anywhere, and the ability to be a transformative philanthropic force in this dynamic city. The combination of natural beauty, tax efficiency, and low costs creates one of the most compelling ultra-luxury retirements in America."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 7,
+    "infrastructure": 7,
+    "expatFriendliness": 8
   }
 }

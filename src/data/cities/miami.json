@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "miami",
   "emoji": "🇺🇸",
-  "fireScore": 4.0,
+  "fireScore": 7.1,
   "tagline": "Beach Life, Latin Culture, and Zero State Income Tax",
   "description": "Miami is a sun-drenched, cosmopolitan city where Latin American flair meets American ambition on the shores of Biscayne Bay. With no state income tax, year-round tropical weather, and one of the most dynamic food scenes in the country, Miami offers FIRE retirees a genuinely international lifestyle without leaving the United States. Housing costs are high and rising fast, especially in waterfront neighborhoods, but the trade-off is direct access to world-class beaches, a thriving arts district in Wynwood, and a multicultural energy that makes every day feel like a vacation.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M, Miami is your personal tropical empire. A legendary address on Star Island or Fisher Island, a private yacht for cruising to the Bahamas, a personal chef, and deep involvement in the city's thriving arts and philanthropic scene. With world-class healthcare, zero state income tax, and endless sunshine, this is elite coastal living at its finest."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 8,
+    "infrastructure": 7,
+    "expatFriendliness": 9
   }
 }

@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "knoxville",
   "emoji": "🇺🇸",
-  "fireScore": 6.8,
+  "fireScore": 6.7,
   "tagline": "Gateway to the Smokies, University Town Energy, and No State Income Tax",
   "description": "Knoxville is a hidden gem for FIRE seekers who want affordable living, stunning natural beauty, and the cultural energy of a major university town. Nestled at the doorstep of Great Smoky Mountains National Park -- America's most visited national park -- Knoxville offers four distinct seasons, a revitalized downtown with excellent restaurants and breweries, and Tennessee's zero state income tax on earned income. Housing costs remain remarkably low for a city of its quality, making your nest egg stretch further than almost anywhere in the eastern United States.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M, East Tennessee becomes your private mountain kingdom. A sweeping lakefront estate, a personal chef crafting Appalachian-inspired fine dining, your own boat for lake days, and deep philanthropic involvement with the university and the Smokies. With no state income tax and a cost of living that leaves enormous surplus even at this spending level, Knoxville may be America's best-kept FIRE secret."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 8,
+    "infrastructure": 6,
+    "expatFriendliness": 8
   }
 }

@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "san-diego",
   "emoji": "🇺🇸",
-  "fireScore": 5.5,
+  "fireScore": 7.9,
   "tagline": "Perfect Weather, Beach Living, and Laid-Back California Vibes",
   "description": "San Diego offers arguably the best climate in the United States, with year-round sunshine and mild temperatures that rarely dip below 50°F. The city blends world-class beaches, a thriving craft beer scene, and proximity to the Mexican border for affordable day trips. While California taxes and housing costs are real headwinds for FIRE retirees, the quality of life and outdoor lifestyle are hard to beat anywhere in the country.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this budget San Diego becomes a private paradise. A sprawling beachfront estate, a personal yacht, and access to the most exclusive clubs in Southern California. The perfect climate and proximity to LA, Mexico, and the Pacific Rim make this an unmatched base for the ultra-wealthy FIRE lifestyle."
     }
+  },
+  "scores": {
+    "safety": 6,
+    "healthcare": 9,
+    "infrastructure": 8,
+    "expatFriendliness": 9
   }
 }

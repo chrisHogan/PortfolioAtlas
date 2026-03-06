@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "reno",
   "emoji": "🇺🇸",
-  "fireScore": 6.0,
+  "fireScore": 6.8,
   "tagline": "No State Income Tax, Lake Tahoe Access, and High-Desert Adventure",
   "description": "Reno has reinvented itself from a casino town into a thriving hub for outdoor enthusiasts and tech workers. Nevada's zero state income tax is a massive draw for FIRE retirees, and Lake Tahoe is just 45 minutes away. The city offers over 300 days of sunshine, a growing food and arts scene, and access to world-class skiing, hiking, and mountain biking. Housing costs have risen but remain well below neighboring California, making Reno a compelling tax-advantaged base for the financially independent.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M in Nevada you pay zero state income tax on every dollar withdrawn, saving potentially hundreds of thousands annually. Add a Sierra estate, a Tahoe lakefront property, chartered flights, and deep philanthropic involvement in the growing Reno community. This is one of the most tax-efficient luxury lifestyles in America."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 7,
+    "infrastructure": 7,
+    "expatFriendliness": 9
   }
 }

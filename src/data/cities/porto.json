@@ -4,7 +4,7 @@
   "region": "Europe",
   "slug": "porto",
   "emoji": "🇵🇹",
-  "fireScore": 8,
+  "fireScore": 7.5,
   "tagline": "Portugal's Riverside Gem for Affordable European Retirement",
   "description": "Porto offers everything Lisbon does for FIRE — the D7 visa, NHR tax benefits, and excellent healthcare — but at 15-20% lower costs with arguably more authentic Portuguese character. The Douro Valley at your doorstep, a UNESCO-listed city center, and a tight-knit expat community make it ideal for those who want substance over flash.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "You own a piece of the Douro Valley — literally. Your boutique winery produces award-winning vintages, your oceanfront villa hosts international guests, and your name is synonymous with Porto's cultural renaissance. This is not just retirement; it's building a legacy in one of Europe's most soulful regions."
     }
+  },
+  "scores": {
+    "safety": 8,
+    "healthcare": 7,
+    "infrastructure": 7,
+    "expatFriendliness": 8
   }
 }

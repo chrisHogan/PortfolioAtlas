@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "nashville",
   "emoji": "🇺🇸",
-  "fireScore": 5.7,
+  "fireScore": 6.9,
   "tagline": "Music City, No State Income Tax, and Southern Hospitality",
   "description": "Nashville combines zero state income tax with a booming cultural scene, world-class healthcare, and genuine Southern hospitality. The city's music heritage extends far beyond country — it is a hub for rock, indie, and Americana. Nashville's food scene has exploded in recent years, and the cost of living, while rising, remains well below coastal cities. Excellent hospitals like Vanderbilt make it particularly attractive for retirees who value medical access.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level Nashville becomes your personal Music City kingdom. A sprawling estate, private concerts in your home, and the ability to shape Nashville's cultural landscape through philanthropy. Zero state income tax on your $10M portfolio means extraordinary purchasing power in a city that loves to celebrate life."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 8,
+    "infrastructure": 7,
+    "expatFriendliness": 8
   }
 }

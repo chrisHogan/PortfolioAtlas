@@ -4,7 +4,7 @@
   "region": "Europe",
   "slug": "tallinn",
   "emoji": "🇪🇪",
-  "fireScore": 7.3,
+  "fireScore": 7.5,
   "tagline": "Medieval Charm Meets Digital Innovation in the Baltics",
   "description": "Tallinn is Europe's most digitally advanced capital, where a UNESCO-listed medieval Old Town coexists with cutting-edge e-governance and a thriving startup scene. Estonia's e-Residency program and business-friendly environment attract global nomads, while the low cost of living, excellent internet, and high safety make it ideal for FIRE retirees. Winters are long and dark, but the stunning summers, Baltic Sea coastline, and sauna culture more than compensate.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level in Tallinn you are among the city's most prominent residents. A grand historic property, a yacht on the Baltic, full staff, and the resources to patronize the arts and invest in Estonia's renowned tech ecosystem. The combination of medieval beauty and digital modernity is uniquely Tallinn."
     }
+  },
+  "scores": {
+    "safety": 8,
+    "healthcare": 7,
+    "infrastructure": 8,
+    "expatFriendliness": 7
   }
 }

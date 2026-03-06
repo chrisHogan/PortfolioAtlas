@@ -4,7 +4,7 @@
   "region": "Southeast Asia",
   "slug": "singapore",
   "emoji": "🇸🇬",
-  "fireScore": 4.0,
+  "fireScore": 9.8,
   "tagline": "The Garden City Where Hawker Food Is Paradise and All of Asia Is Your Backyard — Retire in Singapore",
   "description": "Singapore is a paradox for FIRE retirees: housing and car ownership are among the world's most expensive, yet you can eat an award-winning plate of chicken rice for $3 at a hawker center. This ultra-modern city-state combines tropical garden beauty, world-class healthcare, absolute safety, and seamless efficiency. As Asia's premier hub, weekend flights to Bali, Bangkok, and Tokyo are cheap and plentiful. English is widely spoken, the rule of law is ironclad, and the food — from Michelin-starred hawker stalls to cutting-edge fine dining — is legendary.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "With $10M in Singapore, you occupy the pinnacle of Asian luxury. Your Good Class Bungalow sits behind lush tropical gardens in the most exclusive neighborhood on the island, your chef rivals any restaurant, and your social calendar spans polo matches, art fairs, and yacht weekends across the archipelago. Singapore rewards wealth with safety, efficiency, and access to all of Asia — it is the ultimate base for a luxurious life in the East."
     }
+  },
+  "scores": {
+    "safety": 10,
+    "healthcare": 10,
+    "infrastructure": 10,
+    "expatFriendliness": 9
   }
 }

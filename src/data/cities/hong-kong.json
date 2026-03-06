@@ -4,7 +4,7 @@
   "region": "East Asia",
   "slug": "hong-kong",
   "emoji": "🇭🇰",
-  "fireScore": 4.8,
+  "fireScore": 8.9,
   "tagline": "Asia's World City — Dazzling but Demanding on the Wallet",
   "description": "Hong Kong is one of the most expensive cities on Earth, driven primarily by astronomical housing costs on a small, mountainous territory. Yet it also offers tax-free shopping, Michelin-starred street food, one of the world's best MTR systems, and an electric cultural energy that blends East and West like nowhere else. English is widely spoken, healthcare is excellent, and the food scene is legendary. For those with sufficient portfolios, Hong Kong delivers a lifestyle that is hard to replicate anywhere else in Asia.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level Hong Kong is a glittering playground. A house on The Peak with panoramic harbour views, a full staff, a private yacht moored at Aberdeen Marina, and VIP access to Art Basel and every major event. Hong Kong's unique position at the intersection of East and West, combined with its low tax regime, makes it one of the world's ultimate addresses for the truly wealthy."
     }
+  },
+  "scores": {
+    "safety": 8,
+    "healthcare": 9,
+    "infrastructure": 10,
+    "expatFriendliness": 9
   }
 }

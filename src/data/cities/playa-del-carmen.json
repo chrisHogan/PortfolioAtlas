@@ -4,7 +4,7 @@
   "region": "Latin America",
   "slug": "playa-del-carmen",
   "emoji": "🇲🇽",
-  "fireScore": 7.2,
+  "fireScore": 5.3,
   "tagline": "Caribbean Beach Life on a FIRE Budget",
   "description": "Playa del Carmen offers the rare combination of turquoise Caribbean waters, walkable town center, and a massive international expat community that makes the transition seamless. While pricier than inland Mexico, it remains a fraction of comparable beach destinations in the US or Europe, making it ideal for FIRE retirees who refuse to compromise on beach access.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "Your Mayakoba estate is a private paradise — an infinity pool melts into Caribbean views, a personal chef prepares three meals daily from the freshest catch, and your yacht captain has the boat ready whenever the mood strikes. You host unforgettable gatherings under palapa roofs with the sound of waves as your soundtrack. At this level, the Riviera Maya is not just a retirement destination — it's your personal tropical empire."
     }
+  },
+  "scores": {
+    "safety": 4,
+    "healthcare": 5,
+    "infrastructure": 5,
+    "expatFriendliness": 8
   }
 }

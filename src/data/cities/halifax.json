@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "halifax",
   "emoji": "🇨🇦",
-  "fireScore": 6.0,
+  "fireScore": 7.5,
   "tagline": "Maritime Charm, Ocean Views, and Canada's Most Affordable Coast",
   "description": "Halifax is the cultural and economic hub of Atlantic Canada, offering a walkable waterfront downtown, a thriving food scene built on fresh seafood, and housing costs far below Toronto or Vancouver. Universal healthcare, a strong sense of community, and proximity to stunning Nova Scotian coastline make Halifax an underrated FIRE destination for those who enjoy maritime living and four-season outdoor recreation.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M, Halifax and Nova Scotia become your personal maritime kingdom. An estate on the water, a private yacht for exploring the Atlantic coast, a chef sourcing the freshest lobster and scallops daily, and deep roots in the community. The combination of universal healthcare, natural beauty, and old-world maritime charm creates an extraordinary life."
     }
+  },
+  "scores": {
+    "safety": 8,
+    "healthcare": 7,
+    "infrastructure": 7,
+    "expatFriendliness": 8
   }
 }

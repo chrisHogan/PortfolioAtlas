@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "greenville",
   "emoji": "🇺🇸",
-  "fireScore": 7.0,
+  "fireScore": 6.7,
   "tagline": "Revitalized Southern Charm at the Foot of the Blue Ridge",
   "description": "Greenville has transformed from a quiet textile town into one of the South's most vibrant small cities. Falls Park on the Reedy anchors a walkable downtown filled with excellent restaurants, galleries, and boutiques. The Blue Ridge foothills are minutes away, housing costs remain well below the national average, and South Carolina's low taxes make every FIRE dollar go further. For retirees seeking culture, nature, and affordability in one polished package, Greenville delivers.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M in Greenville you command a lifestyle that combines Southern elegance with mountain grandeur. A magnificent estate, a personal chef sourcing from Upstate farms, patronage of the Peace Center and local galleries, and the freedom to jet off whenever the mood strikes. Greenville at this level is a hidden gem of American luxury living."
     }
+  },
+  "scores": {
+    "safety": 6,
+    "healthcare": 7,
+    "infrastructure": 6,
+    "expatFriendliness": 8
   }
 }

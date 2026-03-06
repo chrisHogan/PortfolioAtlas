@@ -4,7 +4,7 @@
   "region": "Europe",
   "slug": "prague",
   "emoji": "🇨🇿",
-  "fireScore": 7.2,
+  "fireScore": 7.7,
   "tagline": "Fairy-Tale Architecture and Central European Charm at a Discount",
   "description": "Prague is one of Europe's most beautiful cities, with medieval architecture, a world-class beer culture, and a cost of living well below Western Europe. The city has excellent public transport, fast internet, and a growing international community. While it lacks the beaches of Southern Europe, Prague compensates with stunning seasons, incredible cultural offerings, and a central location that makes all of Europe accessible by train or budget flight.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this budget in Prague you could literally own a castle in the Czech countryside. A grand residence in the city, full staff, patronage of the arts, and a lifestyle that would make Bohemian royalty envious. The cost differential versus Western Europe makes your wealth go extraordinarily far."
     }
+  },
+  "scores": {
+    "safety": 8,
+    "healthcare": 7,
+    "infrastructure": 8,
+    "expatFriendliness": 8
   }
 }

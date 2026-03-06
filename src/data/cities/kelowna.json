@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "kelowna",
   "emoji": "🇨🇦",
-  "fireScore": 5.5,
+  "fireScore": 7.3,
   "tagline": "Lakeside Wine Country in the Heart of British Columbia",
   "description": "Kelowna sits on the shores of Okanagan Lake surrounded by vineyards, orchards, and mountains, offering a lifestyle that rivals Napa Valley at a fraction of the cost. Universal healthcare, four-season outdoor recreation from skiing to water sports, and a booming food-and-wine scene make Kelowna increasingly popular with early retirees. Housing has risen but still undercuts Vancouver dramatically.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M, Kelowna becomes your private wine-country estate. A lakefront compound with private dock, your own producing vineyard, a yacht for cruising Okanagan Lake, and first-class travel whenever the mood strikes. With universal healthcare and stunning natural beauty, this is arguably the most beautiful high-net-worth retirement lifestyle in Canada."
     }
+  },
+  "scores": {
+    "safety": 8,
+    "healthcare": 7,
+    "infrastructure": 7,
+    "expatFriendliness": 7
   }
 }

@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "sioux-falls",
   "emoji": "🇺🇸",
-  "fireScore": 7.0,
+  "fireScore": 6.3,
   "tagline": "No State Income Tax, Ultra-Low Costs, and Falls Park Beauty",
   "description": "Sioux Falls is a FIRE powerhouse hiding in plain sight. South Dakota has zero state income tax, and the cost of living here is among the lowest in the nation. The city is anchored by the stunning Falls Park, a revitalized downtown with craft breweries and local restaurants, and an increasingly vibrant cultural scene. With a growing population, excellent healthcare at Sanford and Avera, and endless outdoor recreation along the Big Sioux River, this is one of the smartest places in America to stretch your FIRE portfolio.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M in Sioux Falls with zero state income tax, you keep every penny of your withdrawals. A grand estate, a second home near Mount Rushmore, chartered flights to anywhere, and the ability to be a transformative philanthropic force in this growing city. This is one of the most tax-efficient ultra-luxury retirements possible in the United States."
     }
+  },
+  "scores": {
+    "safety": 7,
+    "healthcare": 6,
+    "infrastructure": 5,
+    "expatFriendliness": 7
   }
 }

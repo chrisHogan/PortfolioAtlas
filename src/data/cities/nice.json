@@ -4,7 +4,7 @@
   "region": "Europe",
   "slug": "nice",
   "emoji": "🇫🇷",
-  "fireScore": 5.5,
+  "fireScore": 7.8,
   "tagline": "French Riviera Elegance Where the Alps Meet the Sea",
   "description": "Nice is the jewel of the French Riviera, combining Mediterranean beaches, Belle Époque architecture, and a world-class culinary scene with the cultural depth of France. It is significantly more expensive than Eastern or Southern European alternatives, but the quality of life, healthcare, infrastructure, and sheer beauty are among the best in the world. The Promenade des Anglais, the old town markets, and proximity to Monaco and the Alps make Nice an aspirational FIRE destination.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level on the Côte d'Azur you join the ranks of the international elite who have made this coastline legendary. A villa that could grace the cover of Architectural Digest, a yacht in the harbor, VIP at every Riviera event, and the incomparable beauty of the French Mediterranean as your daily backdrop."
     }
+  },
+  "scores": {
+    "safety": 7,
+    "healthcare": 9,
+    "infrastructure": 8,
+    "expatFriendliness": 7
   }
 }

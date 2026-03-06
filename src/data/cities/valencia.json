@@ -4,7 +4,7 @@
   "region": "Europe",
   "slug": "valencia",
   "emoji": "🇪🇸",
-  "fireScore": 7.5,
+  "fireScore": 7.8,
   "tagline": "Mediterranean Living at Half the Price of Barcelona",
   "description": "Valencia offers everything expats love about coastal Spain — paella on the beach, world-class architecture at the City of Arts & Sciences, and a genuine Mediterranean lifestyle — but at a fraction of Barcelona or Madrid prices. Spain's third-largest city combines historic charm with modern innovation, making it one of Europe's best-kept FIRE secrets.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level, Valencia becomes your Mediterranean kingdom. Your historic estate hosts charity galas and art exhibitions, your superyacht cruises to Ibiza and Sardinia on a whim, and you are a patron of Las Fallas itself. You split time between your old town palace and your Costa Blanca retreat, moving through Valencia's highest circles with effortless grace."
     }
+  },
+  "scores": {
+    "safety": 8,
+    "healthcare": 8,
+    "infrastructure": 7,
+    "expatFriendliness": 8
   }
 }

@@ -4,7 +4,7 @@
   "region": "Middle East",
   "slug": "dubai",
   "emoji": "🇦🇪",
-  "fireScore": 5.2,
+  "fireScore": 8.7,
   "tagline": "Zero Income Tax, World-Class Luxury, and Year-Round Sunshine",
   "description": "Dubai offers a unique FIRE proposition: zero income tax on your withdrawals combined with world-class infrastructure, safety, and connectivity. The city is a global hub with direct flights to virtually everywhere, a cosmopolitan expat community, and amenities that range from futuristic skyscrapers to pristine beaches. While the cost of living is higher than most FIRE destinations, the tax savings can offset this significantly for high-net-worth retirees.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M, Dubai delivers a lifestyle that few cities on Earth can match. An Emirates Hills estate, a private yacht, exotic cars, a full household staff, and access to the most exclusive experiences in the region. With zero income tax, every cent of your $33,333 monthly withdrawal is yours. Dubai's position as a global hub means London, Mumbai, and Singapore are all a direct flight away."
     }
+  },
+  "scores": {
+    "safety": 9,
+    "healthcare": 8,
+    "infrastructure": 9,
+    "expatFriendliness": 9
   }
 }

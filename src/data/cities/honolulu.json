@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "honolulu",
   "emoji": "🇺🇸",
-  "fireScore": 4.2,
+  "fireScore": 7.7,
   "tagline": "Island Paradise with Year-Round Warmth and Aloha Spirit",
   "description": "Honolulu offers a tropical island lifestyle without leaving the United States. The trade winds, stunning beaches, and laid-back culture create an unmatched quality of life. However, the extreme cost of living — driven by housing prices, imported goods, and limited supply — makes it one of the most challenging FIRE destinations in the US. Those who can afford it enjoy world-class surfing, hiking, and a multicultural food scene influenced by Japanese, Filipino, and Polynesian traditions.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this budget Honolulu becomes your private island paradise. A beachfront estate, a personal yacht for inter-island cruising, and helicopter access to any beach in Hawaii. Your proximity to Asia and the Pacific Rim opens up extraordinary travel and cultural experiences unavailable from the mainland."
     }
+  },
+  "scores": {
+    "safety": 7,
+    "healthcare": 8,
+    "infrastructure": 7,
+    "expatFriendliness": 9
   }
 }

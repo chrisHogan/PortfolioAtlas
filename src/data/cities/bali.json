@@ -4,7 +4,7 @@
   "region": "Southeast Asia",
   "slug": "bali",
   "emoji": "🇮🇩",
-  "fireScore": 8,
+  "fireScore": 6.2,
   "tagline": "Tropical Paradise Meets Affordable Retirement — Live the Dream in Bali, Indonesia",
   "description": "Bali combines spiritual tranquility, jaw-dropping natural beauty, and a thriving international community at remarkably low costs. From the rice terraces of Ubud to the surf breaks of Canggu, Bali offers FIRE retirees a lifestyle centered on wellness, creativity, and outdoor living that feels like a permanent vacation.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "With $10M in Bali, you live in a compound that rivals the finest boutique resorts in the world — except it is entirely yours. A full estate staff attends to every detail, your yacht takes you island-hopping through the Indonesian archipelago, and you've become a patron of the local arts scene. Bali at this level is not just retirement; it is living art."
     }
+  },
+  "scores": {
+    "safety": 7,
+    "healthcare": 5,
+    "infrastructure": 4,
+    "expatFriendliness": 9
   }
 }

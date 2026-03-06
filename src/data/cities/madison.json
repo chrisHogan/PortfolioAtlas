@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "madison",
   "emoji": "🇺🇸",
-  "fireScore": 5.5,
+  "fireScore": 7.5,
   "tagline": "Isthmus Living, Progressive Culture, and Four Beautiful Seasons",
   "description": "Madison is a rare American city built on an isthmus between two pristine lakes, home to a world-class university, and consistently ranked among the best places to live in the country. The city combines Midwestern friendliness with progressive cultural energy, exceptional healthcare through UW Health, and a food scene that punches far above its weight class. While Wisconsin does have a state income tax, Madison compensates with outstanding quality of life, safety, and access to nature that few cities can match. Four distinct seasons keep life dynamic, from summer sailing to winter cross-country skiing.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M, Madison transforms into your private lakeside estate. A magnificent home in Maple Bluff where governors have been your neighbors, a yacht on Lake Mendota, a personal chef, and deep philanthropic ties to the university and the arts community. Weekend retreats to your Door County cottage and international travel fill the calendar. Madison's intellectual culture and natural beauty provide a richness that money alone cannot buy."
     }
+  },
+  "scores": {
+    "safety": 7,
+    "healthcare": 8,
+    "infrastructure": 7,
+    "expatFriendliness": 8
   }
 }

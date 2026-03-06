@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "boise",
   "emoji": "🇺🇸",
-  "fireScore": 6.5,
+  "fireScore": 7.2,
   "tagline": "Affordable Mountain Living in the Heart of Idaho",
   "description": "Boise offers an unbeatable combination of outdoor recreation, low crime, and a cost of living well below most Western US cities. The Boise Foothills are your backyard, the Boise River Greenbelt runs through town, and world-class skiing is just two hours away. Idaho's flat income tax and affordable housing make every FIRE dollar stretch further.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M you can own the Idaho dream and then some. A sprawling estate with mountain views, a second home in Sun Valley, chartered flights to avoid the drive, and deep involvement in Boise's growing philanthropic scene. You are essentially living a resort lifestyle year-round in one of America's most beautiful settings."
     }
+  },
+  "scores": {
+    "safety": 7,
+    "healthcare": 7,
+    "infrastructure": 7,
+    "expatFriendliness": 8
   }
 }

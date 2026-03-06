@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "scottsdale",
   "emoji": "🇺🇸",
-  "fireScore": 5.2,
+  "fireScore": 8.2,
   "tagline": "Desert Luxury, World-Class Golf, and 300 Days of Sunshine",
   "description": "Scottsdale offers a resort-quality lifestyle in the Sonoran Desert with over 300 days of sunshine per year. Known for its world-class golf courses, spa culture, and vibrant Old Town, Scottsdale attracts retirees who want outdoor living without the humidity of the Southeast. Arizona has no tax on Social Security and a flat income tax rate, making it tax-friendly. While summer heat is extreme, the dry climate and stunning desert landscapes provide a unique quality of life that draws snowbirds and permanent residents alike.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level Scottsdale becomes a private desert oasis. A sprawling Paradise Valley estate, Mayo Clinic as your personal healthcare provider, and memberships at every top golf club in the valley. The Arizona lifestyle at this budget is pure luxury, with world-class sunsets as the nightly backdrop."
     }
+  },
+  "scores": {
+    "safety": 8,
+    "healthcare": 8,
+    "infrastructure": 8,
+    "expatFriendliness": 9
   }
 }

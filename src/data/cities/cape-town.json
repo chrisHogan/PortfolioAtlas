@@ -4,7 +4,7 @@
   "region": "Africa",
   "slug": "cape-town",
   "emoji": "🇿🇦",
-  "fireScore": 7.5,
+  "fireScore": 5.3,
   "tagline": "Stunning Natural Beauty, World-Class Wine, and Remarkable Affordability",
   "description": "Cape Town is consistently ranked among the most beautiful cities in the world, and for FIRE retirees the value proposition is extraordinary. Table Mountain, pristine beaches, a thriving food and wine scene, and modern infrastructure come at a fraction of Western prices. The rand's weakness against the dollar means your portfolio stretches remarkably far. English is widely spoken, healthcare quality is high at private facilities, and the Mediterranean climate delivers mild winters and warm, dry summers. Load-shedding (rolling blackouts) remains an occasional nuisance but is increasingly managed with solar and battery solutions.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $33K/month Cape Town offers a lifestyle that rivals anywhere on earth. A world-class estate with sweeping ocean views, a full household staff, your own game lodge for safaris, a yacht in the harbor, and the resources to make a meaningful philanthropic impact across Southern Africa. Very few places on the planet offer this combination of beauty, culture, and value."
     }
+  },
+  "scores": {
+    "safety": 3,
+    "healthcare": 6,
+    "infrastructure": 6,
+    "expatFriendliness": 7
   }
 }

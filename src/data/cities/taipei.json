@@ -4,7 +4,7 @@
   "region": "East Asia",
   "slug": "taipei",
   "emoji": "🇹🇼",
-  "fireScore": 7.2,
+  "fireScore": 8.3,
   "tagline": "Night Markets, National Health Insurance, and Incredible Value",
   "description": "Taipei is one of Asia's best-kept secrets for FIRE retirees. The city combines jaw-droppingly affordable healthcare through Taiwan's National Health Insurance, one of the world's best food scenes (from $3 night market feasts to Michelin restaurants), and a safe, efficient urban environment with excellent public transit. The cost of living is remarkably low for the quality of life on offer, and the Taiwanese people are famously welcoming to foreigners.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this tier Taipei becomes a launchpad for the ultimate Asian lifestyle. An architectural masterpiece of a home, a full staff, and access to experiences across East Asia that most people cannot imagine. Taiwan's central position, incredible food culture, and warm people make it an unparalleled base for a life of purpose and pleasure."
     }
+  },
+  "scores": {
+    "safety": 9,
+    "healthcare": 8,
+    "infrastructure": 9,
+    "expatFriendliness": 7
   }
 }

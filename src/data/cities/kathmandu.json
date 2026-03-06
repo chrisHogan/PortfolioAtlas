@@ -4,7 +4,7 @@
   "region": "South Asia",
   "slug": "kathmandu",
   "emoji": "🇳🇵",
-  "fireScore": 8.0,
+  "fireScore": 4.2,
   "tagline": "Himalayan Culture and Adventure at Rock-Bottom Costs",
   "description": "Kathmandu is a city of ancient temples, stunning mountain views, and one of the lowest costs of living in the world. Nestled in a valley surrounded by the Himalayas, it offers a unique blend of Hindu and Buddhist culture, world-class trekking, and a growing modern infrastructure. For FIRE seekers willing to embrace a different pace of life, Kathmandu delivers extraordinary value and unforgettable experiences.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level you could practically build your own village in Nepal. Multiple properties, a full compound staff, private expeditions, and the resources to make a significant philanthropic impact. Nepal becomes a spectacular and deeply affordable anchor for a global lifestyle."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 3,
+    "infrastructure": 3,
+    "expatFriendliness": 6
   }
 }

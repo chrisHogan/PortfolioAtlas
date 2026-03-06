@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "new-york",
   "emoji": "🇺🇸",
-  "fireScore": 3.2,
+  "fireScore": 7.9,
   "tagline": "The World's Cultural Capital — Endless Options at Every Price Point",
   "description": "New York City is the ultimate test of a FIRE portfolio — brutally expensive but offering an unmatched density of culture, cuisine, and connection. With world-class healthcare at Mount Sinai and NYU Langone, no car needed thanks to the subway, and a social scene that never sleeps, NYC rewards those with the budget to match its ambitions. The high cost of living means your withdrawal rate works harder, but no other city on earth packs this much life per square block.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level, you are New York. Your Central Park penthouse hosts the fundraisers that make Page Six, your art collection rivals small museums, and your name is synonymous with philanthropy and taste. The Met Gala, Art Basel, and Davos are your social calendar — and your Hamptons compound is where Manhattan's elite escape on your invitation."
     }
+  },
+  "scores": {
+    "safety": 6,
+    "healthcare": 9,
+    "infrastructure": 8,
+    "expatFriendliness": 9
   }
 }

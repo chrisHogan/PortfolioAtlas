@@ -4,7 +4,7 @@
   "region": "Africa",
   "slug": "tunis",
   "emoji": "🇹🇳",
-  "fireScore": 7.6,
+  "fireScore": 4,
   "tagline": "Mediterranean Charm, French-Arab Culture, and Incredible Value on the North African Coast",
   "description": "Tunis blends Mediterranean sophistication with North African warmth and affordability. The ancient medina is a UNESCO World Heritage Site, the ruins of Carthage sit on the city's outskirts, and the beaches of La Marsa and Sidi Bou Said are among the most beautiful in the Mediterranean. French colonial architecture, excellent cuisine fusing Arab and French traditions, and a mild Mediterranean climate make Tunis a hidden gem for FIRE retirees. Costs are remarkably low, French is essential (English is limited), and the expat community is small but growing.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $33K/month in Tunis you are living a life of extraordinary grandeur on the Mediterranean. A palatial compound overlooking the sea where Carthage once stood, a full estate staff, a yacht, and the resources to fund meaningful change across Tunisia. The surplus at this level is enormous, enabling transformative philanthropy, real estate investment, and a global travel schedule that spans continents."
     }
+  },
+  "scores": {
+    "safety": 4,
+    "healthcare": 4,
+    "infrastructure": 4,
+    "expatFriendliness": 4
   }
 }

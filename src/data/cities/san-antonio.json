@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "san-antonio",
   "emoji": "🇺🇸",
-  "fireScore": 6.2,
+  "fireScore": 6.8,
   "tagline": "River Walk Charm, Tex-Mex Heaven, and No State Income Tax",
   "description": "San Antonio is one of America's most underrated FIRE destinations, offering big-city amenities with a remarkably low cost of living and zero state income tax. The iconic River Walk, a deeply rooted Tex-Mex food culture, and centuries of Spanish colonial history give the city a character unlike anywhere else in the country. With affordable housing, warm weather, and a genuine sense of community, San Antonio rewards budget-conscious retirees with a rich and flavorful daily life.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M, San Antonio gives you a life that blends Texas grandeur with deep cultural roots. A magnificent estate in the city and a working Hill Country ranch, a personal chef who sources from local farms, private suites for Spurs games, and enough surplus to become one of the city's great philanthropic benefactors. Texas's zero income tax ensures every withdrawal dollar is yours."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 7,
+    "infrastructure": 7,
+    "expatFriendliness": 9
   }
 }

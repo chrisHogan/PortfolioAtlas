@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "asheville",
   "emoji": "🇺🇸",
-  "fireScore": 6.2,
+  "fireScore": 6.7,
   "tagline": "Mountain Arts, Craft Beer, and Blue Ridge Serenity",
   "description": "Asheville is a creative haven nestled in the Blue Ridge Mountains, offering a walkable downtown, world-class craft beer scene, and stunning natural beauty in every direction. The cost of living is moderate by US standards, and the four-season mountain climate is hard to beat. For FIRE seekers who value culture, community, and the outdoors over big-city amenities, Asheville delivers.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M in Asheville you can live like the Vanderbilts who built Biltmore Estate. A grand mountain property, a personal chef sourcing from local farms, patronage of the arts community, and deep philanthropic involvement. The Blue Ridge Mountains are your private backdrop for an extraordinary retired life."
     }
+  },
+  "scores": {
+    "safety": 6,
+    "healthcare": 7,
+    "infrastructure": 6,
+    "expatFriendliness": 8
   }
 }

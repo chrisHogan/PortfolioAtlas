@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "omaha",
   "emoji": "🇺🇸",
-  "fireScore": 6.5,
+  "fireScore": 7.2,
   "tagline": "Warren Buffett's Hometown, Incredible Steakhouses, and a Thriving Arts Scene",
   "description": "Omaha is proof that a low cost of living and a high quality of life are not mutually exclusive. Warren Buffett chose to stay here for a reason: the city offers exceptional value, a surprisingly sophisticated dining and arts scene, and a strong sense of community. Omaha's Old Market district is packed with galleries, restaurants, and live music, while the Henry Doorly Zoo is consistently ranked among the world's best. Housing is remarkably affordable, the steak is legendary, and a growing tech and startup scene gives the city a forward-looking energy that defies Midwestern stereotypes.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M, you join Omaha's philanthropic elite -- the city that produced Warren Buffett, whose own modest lifestyle philosophy permeates the culture. A magnificent estate, a personal chef, chartered flights, and deep involvement in the institutions that make Omaha special: the Henry Doorly Zoo, the Joslyn Art Museum, and the university. The enormous surplus at this spending level in Omaha means your wealth continues to compound even as you live lavishly."
     }
+  },
+  "scores": {
+    "safety": 6,
+    "healthcare": 8,
+    "infrastructure": 7,
+    "expatFriendliness": 8
   }
 }

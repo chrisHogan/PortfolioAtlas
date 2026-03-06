@@ -4,7 +4,7 @@
   "region": "South Asia",
   "slug": "delhi",
   "emoji": "🇮🇳",
-  "fireScore": 7.5,
+  "fireScore": 4.5,
   "tagline": "Imperial History and Modern Energy at Incredible Value",
   "description": "Delhi is India's sprawling capital, a megacity where Mughal monuments stand alongside gleaming malls and a world-class metro system. The cost of living is astonishingly low by Western standards, and the city offers some of the best food, healthcare, and cultural experiences in South Asia. Air quality and traffic congestion are real challenges, but for FIRE seekers who can look past them, Delhi delivers unmatched bang for the buck.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level in Delhi, you are among the most privileged people in a city of 30 million. A sprawling estate, a personal staff of a dozen, and the resources to influence culture and community. India's low costs mean your surplus is staggering, even as you live in absolute luxury."
     }
+  },
+  "scores": {
+    "safety": 3,
+    "healthcare": 6,
+    "infrastructure": 4,
+    "expatFriendliness": 5
   }
 }

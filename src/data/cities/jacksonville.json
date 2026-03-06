@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "jacksonville",
   "emoji": "🇺🇸",
-  "fireScore": 6.0,
+  "fireScore": 6.6,
   "tagline": "Beach Living, No State Income Tax, and Florida's Most Affordable Major City",
   "description": "Jacksonville is Florida's largest city by area, offering miles of Atlantic beaches, a revitalizing downtown, and some of the most affordable housing in the Sunshine State. With no state income tax, a growing food scene in the Five Points and Riverside neighborhoods, and easy access to both St. Augustine and Amelia Island, Jacksonville is an underrated FIRE destination that combines beach-town living with big-city infrastructure.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "Jacksonville at the $10M level is a water lover's paradise. An oceanfront estate, a fully crewed yacht, world-class healthcare at Mayo Clinic, and the freedom to travel internationally whenever you wish. The zero state income tax makes this one of the most tax-efficient luxury lifestyles in America."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 7,
+    "infrastructure": 7,
+    "expatFriendliness": 8
   }
 }

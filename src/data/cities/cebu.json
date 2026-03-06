@@ -4,7 +4,7 @@
   "region": "Southeast Asia",
   "slug": "cebu",
   "emoji": "🇵🇭",
-  "fireScore": 8.8,
+  "fireScore": 5.2,
   "tagline": "Island Paradise Where Your Dollar Goes the Furthest in Asia",
   "description": "Cebu is the Philippines' most livable island city — a thriving metro surrounded by world-class diving, pristine beaches, and turquoise waters, where English is spoken natively and the cost of living is astonishingly low. The SRRV retirement visa makes long-term residency straightforward, the healthcare system is strong and affordable, and the Filipino warmth creates one of the most welcoming expat communities in Asia. For FIRE retirees who want tropical island living without sacrificing connectivity or English-language comfort, Cebu is hard to beat.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "You live the ultimate island life — your oceanfront estate has a private beach, a yacht at the dock, and a staff that anticipates your every need. Your marine conservation foundation protects the reefs you fell in love with, your private island getaway is the envy of the Philippines' elite, and your philanthropic work in local education has made you a beloved figure in the Cebuano community. Ten million in the Philippines doesn't just buy luxury — it buys legacy."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 5,
+    "infrastructure": 4,
+    "expatFriendliness": 7
   }
 }

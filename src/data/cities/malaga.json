@@ -4,7 +4,7 @@
   "region": "Europe",
   "slug": "malaga",
   "emoji": "🇪🇸",
-  "fireScore": 7.0,
+  "fireScore": 7.8,
   "tagline": "Costa del Sol Sunshine with Authentic Spanish Culture",
   "description": "Málaga has transformed from a sleepy Andalusian port into one of Europe's most desirable cities, combining 300 days of sunshine, world-class museums, and a thriving food scene with costs well below Northern Europe. Picasso's birthplace offers stunning beaches, a revitalized historic center, and excellent connectivity via its international airport. The growing expat community and Spain's non-lucrative visa make it an increasingly popular FIRE destination.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level in Málaga you are living like Andalusian aristocracy. A grand estate, a Mediterranean yacht, full staff, and the resources to patronize the region's rich cultural heritage. Spain's Golden Visa program and favorable tax treaties add financial sophistication to an already extraordinary lifestyle."
     }
+  },
+  "scores": {
+    "safety": 8,
+    "healthcare": 8,
+    "infrastructure": 7,
+    "expatFriendliness": 8
   }
 }

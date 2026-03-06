@@ -4,7 +4,7 @@
   "region": "Europe",
   "slug": "lisbon",
   "emoji": "🇵🇹",
-  "fireScore": 8,
+  "fireScore": 7.5,
   "tagline": "Europe's Sunniest Capital for Early Retirement",
   "description": "Lisbon has become the undisputed FIRE capital of Europe, offering the D7 passive income visa, the NHR tax regime with potential zero-tax on foreign income, and a thriving expat community. With 300 days of sunshine, world-class seafood, and living costs a fraction of Western Europe, it delivers first-world infrastructure at developing-world prices.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level you're not just living in Lisbon — you're shaping it. Your restored palace hosts charity galas and art exhibitions, your name appears on museum donor walls, and your weekends are split between your Azores retreat and Algarve estate. This is legacy-level living in one of Europe's most gracious capitals."
     }
+  },
+  "scores": {
+    "safety": 8,
+    "healthcare": 7,
+    "infrastructure": 7,
+    "expatFriendliness": 8
   }
 }

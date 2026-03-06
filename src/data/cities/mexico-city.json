@@ -4,7 +4,7 @@
   "region": "Latin America",
   "slug": "mexico-city",
   "emoji": "🇲🇽",
-  "fireScore": 8.2,
+  "fireScore": 5.9,
   "tagline": "World-Class Culture at a Fraction of the Cost",
   "description": "Mexico City offers an unbeatable combination of cosmopolitan living, world-renowned cuisine, and affordable costs that make early retirement stretch remarkably far. With its thriving expat community, excellent healthcare infrastructure, and proximity to the US, CDMX has become one of the most popular FIRE destinations in the Americas.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "You are living like Mexican old money — a restored colonial estate with full staff, a private chef who trained at Pujol, and a social life that orbits the city's cultural elite. Weekends alternate between your Acapulco villa and your Valle de Bravo lakehouse. You fund art exhibitions, host legendary dinner parties, and travel by private charter. Mexico City at this level is genuinely one of the finest places on earth to be wealthy."
     }
+  },
+  "scores": {
+    "safety": 4,
+    "healthcare": 7,
+    "infrastructure": 6,
+    "expatFriendliness": 7
   }
 }

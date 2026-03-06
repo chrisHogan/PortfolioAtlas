@@ -4,7 +4,7 @@
   "region": "Europe",
   "slug": "budapest",
   "emoji": "🇭🇺",
-  "fireScore": 8,
+  "fireScore": 7,
   "tagline": "Europe's Best-Kept Secret for Affordable Luxury Retirement",
   "description": "Budapest delivers a grand European capital experience at Eastern European prices, making it one of the continent's most compelling FIRE destinations. Thermal baths, ruin bars, Art Nouveau architecture, and a booming food scene come at 40-60% less than Western Europe. Hungary's residency-by-investment options and low cost of living stretch your FIRE portfolio remarkably far.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "You've restored a Buda castle to its former glory and filled it with Hungarian art and international guests. Your ballroom hosts charity galas for the Budapest Opera, your Tokaj vineyard produces private-label Aszu, and your foundation supports the next generation of Hungarian artists. This is the grandeur of the Austro-Hungarian Empire, reborn through modern wealth."
     }
+  },
+  "scores": {
+    "safety": 7,
+    "healthcare": 7,
+    "infrastructure": 7,
+    "expatFriendliness": 7
   }
 }

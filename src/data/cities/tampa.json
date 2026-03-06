@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "tampa",
   "emoji": "🇺🇸",
-  "fireScore": 5.6,
+  "fireScore": 6.9,
   "tagline": "Waterfront Living, Zero State Tax, and a Booming Food Scene",
   "description": "Tampa delivers an irresistible combination of Gulf Coast waterfront living, zero state income tax, and a culinary renaissance that has put the city on the national food map. With year-round warm weather, proximity to world-class beaches, and a rapidly growing downtown, Tampa offers FIRE seekers a vibrant urban lifestyle at a fraction of what comparable coastal cities demand. The city's diverse neighborhoods range from the historic charm of Ybor City to the polished waterfront of Harbour Island, giving retirees real options at every budget level.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M, Tampa is your personal Gulf Coast kingdom. A sprawling waterfront estate, a private yacht for cruising to the Keys, a personal chef, and deep philanthropic involvement in the community. With Moffitt Cancer Center and Tampa General nearby for world-class healthcare and zero state income tax, this is elite-level living with nothing left to want."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 8,
+    "infrastructure": 7,
+    "expatFriendliness": 8
   }
 }

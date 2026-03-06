@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "las-vegas",
   "emoji": "🇺🇸",
-  "fireScore": 5.4,
+  "fireScore": 6.6,
   "tagline": "No State Income Tax, Endless Entertainment, and Desert Sun",
   "description": "Las Vegas offers FIRE retirees a unique combination of zero state income tax, surprisingly affordable housing outside the Strip corridor, and world-class entertainment at every price point. The desert climate means low humidity and over 300 sunny days per year. While the city's reputation centers on gambling, locals enjoy a growing food scene, Red Rock Canyon hiking, and easy access to Utah's national parks.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $33K/month Las Vegas becomes your personal entertainment empire. A sprawling estate or iconic penthouse, a personal chef, VIP everything, and the freedom to fly private to LA or Aspen on a whim. Nevada's zero income tax means your $10M portfolio works harder than almost anywhere else in the country."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 7,
+    "infrastructure": 7,
+    "expatFriendliness": 8
   }
 }

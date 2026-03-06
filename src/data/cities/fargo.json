@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "fargo",
   "emoji": "🇺🇸",
-  "fireScore": 7.2,
+  "fireScore": 7,
   "tagline": "Ultra-Affordable Plains Living with Midwestern Heart",
   "description": "Fargo consistently ranks among the most affordable cities in the United States, and its friendly, tight-knit community makes it easy to build a rich social life on a lean budget. North Dakota does not tax Social Security or most retirement income, adding significant value for FIRE retirees. The winters are long and cold, but the cultural scene is surprisingly vibrant with a thriving downtown, local breweries, and a university-town energy. For those who can embrace the cold, Fargo offers one of the best cost-to-quality-of-life ratios in the country.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M in Fargo you are the quiet titan of the Northern Plains. A magnificent estate, a luxury winter home to escape the cold, first-class travel on a whim, and the ability to be a transformative philanthropic force in a community that deeply values generosity. Your money goes further here than almost anywhere else in the country."
     }
+  },
+  "scores": {
+    "safety": 7,
+    "healthcare": 7,
+    "infrastructure": 6,
+    "expatFriendliness": 8
   }
 }

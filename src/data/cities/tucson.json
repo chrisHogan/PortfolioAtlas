@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "tucson",
   "emoji": "🇺🇸",
-  "fireScore": 7.0,
+  "fireScore": 6.4,
   "tagline": "Desert Sunshine, Low Costs, and 350 Days of Blue Sky",
   "description": "Tucson is one of the most affordable cities in the American West, offering stunning Sonoran Desert landscapes, a UNESCO-designated food scene, and over 350 days of sunshine per year. Arizona has a flat income tax rate that keeps more money in your pocket, and housing costs are remarkably low compared to Phoenix and other Sun Belt cities. For FIRE retirees who love warm weather and wide-open spaces, Tucson is a hidden gem.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M Tucson becomes your private desert kingdom. A sprawling estate with panoramic mountain views, horse stables, a personal chef, and deep involvement in Tucson's arts and conservation community. With proximity to the Mayo Clinic in Scottsdale and Arizona's favorable tax treatment, this is one of the best high-net-worth retirement lifestyles in the American West."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 7,
+    "infrastructure": 6,
+    "expatFriendliness": 8
   }
 }

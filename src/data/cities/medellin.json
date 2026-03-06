@@ -4,7 +4,7 @@
   "region": "Latin America",
   "slug": "medellin",
   "emoji": "🇨🇴",
-  "fireScore": 8.5,
+  "fireScore": 5.4,
   "tagline": "The City of Eternal Spring Where Your Dollar Blooms",
   "description": "Medellín delivers arguably the best value proposition in Latin America for FIRE retirees — perfect year-round weather, dramatically low costs, excellent private healthcare, and a booming innovation scene. Once infamous, the city has transformed into a global hotspot for digital nomads and early retirees seeking first-world amenities at developing-world prices.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level, Medellín transforms from a city you live in to a kingdom you preside over. Your hilltop estate hosts legendary parties under the stars, your Cartagena beach house is a quick private flight away, and your coffee finca produces award-winning beans. You fund local arts programs, sponsor emerging Colombian designers, and move through a world of extraordinary privilege in one of the most beautiful settings on earth."
     }
+  },
+  "scores": {
+    "safety": 4,
+    "healthcare": 6,
+    "infrastructure": 5,
+    "expatFriendliness": 7
   }
 }

@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "austin",
   "emoji": "🇺🇸",
-  "fireScore": 5.8,
+  "fireScore": 7.4,
   "tagline": "Live Music, No State Income Tax, and Year-Round Sunshine",
   "description": "Austin combines a vibrant cultural scene with zero state income tax, making it a compelling domestic FIRE destination. The city offers world-class dining, outdoor recreation along the Colorado River, and a booming tech economy if you ever want to un-retire. While housing costs have risen sharply, Austin still undercuts coastal cities and rewards careful budgeting with an exceptional quality of life.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level Austin becomes your personal playground. A sprawling estate on Lake Austin, a personal chef, courtside seats, and enough left over to fund startups or causes you care about. Texas's zero income tax means every dollar of your withdrawals stays with you."
     }
+  },
+  "scores": {
+    "safety": 6,
+    "healthcare": 8,
+    "infrastructure": 7,
+    "expatFriendliness": 9
   }
 }

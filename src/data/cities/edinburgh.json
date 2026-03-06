@@ -4,7 +4,7 @@
   "region": "Europe",
   "slug": "edinburgh",
   "emoji": "🇬🇧",
-  "fireScore": 5.5,
+  "fireScore": 8.2,
   "tagline": "Historic Charm, World-Class Festivals, and Scottish Grit",
   "description": "Edinburgh pairs stunning medieval and Georgian architecture with a thriving cultural scene anchored by the world-famous Fringe Festival. As Scotland's capital, it offers excellent healthcare through the NHS, walkable neighborhoods, and easy access to the Highlands. While weather can be grey and costs are higher than much of Scotland, Edinburgh remains more affordable than London and rewards residents with a uniquely literary, artistic quality of life.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level Edinburgh offers a life of aristocratic elegance. A grand historic property, full household staff, and the kind of cultural patronage that has defined Edinburgh society for centuries. You move between your city townhouse and Highland retreat with the ease of a Scottish laird, anchored by one of the world's most beautiful and cultured cities."
     }
+  },
+  "scores": {
+    "safety": 8,
+    "healthcare": 8,
+    "infrastructure": 8,
+    "expatFriendliness": 9
   }
 }

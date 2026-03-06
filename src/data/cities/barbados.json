@@ -4,7 +4,7 @@
   "region": "Caribbean",
   "slug": "barbados",
   "emoji": "🇧🇧",
-  "fireScore": 5.5,
+  "fireScore": 5.9,
   "tagline": "Refined Caribbean Island Life with British Heritage",
   "description": "Barbados is the most polished island in the Caribbean, blending pristine beaches with British colonial heritage, excellent infrastructure, and a welcoming Welcome Stamp visa for remote workers and retirees. The cost of living is significantly higher than most Caribbean islands due to heavy import duties, but the quality of life, safety, and English-speaking culture make it a premium destination. Rum, cricket, and turquoise waters define the Bajan lifestyle.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level you join the ranks of the global elite who have made Barbados their home. Sandy Lane neighbors, a private yacht, full estate staff, and the kind of Caribbean lifestyle that most people only see in magazines. Barbados rewards this level of investment with genuine world-class living."
     }
+  },
+  "scores": {
+    "safety": 6,
+    "healthcare": 5,
+    "infrastructure": 5,
+    "expatFriendliness": 8
   }
 }

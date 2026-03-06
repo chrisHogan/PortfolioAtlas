@@ -4,7 +4,7 @@
   "region": "Southeast Asia",
   "slug": "chiang-mai",
   "emoji": "🇹🇭",
-  "fireScore": 9,
+  "fireScore": 7.2,
   "tagline": "The Original Digital Nomad Capital — Retire for Less in Thailand's Rose of the North",
   "description": "Chiang Mai is the undisputed champion of affordable FIRE living in Southeast Asia. With a thriving expat community, world-class temples, lush mountain scenery, and a cost of living that lets you stretch every dollar, it remains the gold standard for early retirees seeking quality of life on a modest portfolio.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M in Chiang Mai, you are living an ultra-luxurious life that rivals billionaire retreats anywhere in the world — but with the warmth and charm of northern Thailand. You maintain a compound with full staff, travel first-class across Asia on a whim, and have become a philanthropic force in the local community. There is literally nothing you cannot afford here."
     }
+  },
+  "scores": {
+    "safety": 7,
+    "healthcare": 7,
+    "infrastructure": 6,
+    "expatFriendliness": 9
   }
 }

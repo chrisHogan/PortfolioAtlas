@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "washington-dc",
   "emoji": "🇺🇸",
-  "fireScore": 4.6,
+  "fireScore": 7.6,
   "tagline": "Free Museums, World-Class Culture, and the Heart of American History",
   "description": "Washington D.C. is one of the few cities in the world where you can visit dozens of world-class museums entirely for free. The Smithsonian Institution, National Gallery of Art, and countless monuments make it a cultural powerhouse. The Metro system is one of the best in the US, and the city's diverse neighborhoods offer everything from Georgetown's Federal architecture to Adams Morgan's international dining. Housing is expensive and DC has its own income tax, but the unmatched access to free culture and excellent transit partially offset the costs for FIRE retirees.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level Washington D.C. becomes your stage on the world scene. A historic mansion in Kalorama, board-level involvement at the Smithsonian and Kennedy Center, and a social calendar that includes ambassadorial events and galas. The capital's unique blend of power, culture, and history is yours to shape."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 9,
+    "infrastructure": 8,
+    "expatFriendliness": 9
   }
 }

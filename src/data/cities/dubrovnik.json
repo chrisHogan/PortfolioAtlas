@@ -4,7 +4,7 @@
   "region": "Europe",
   "slug": "dubrovnik",
   "emoji": "🇭🇷",
-  "fireScore": 7,
+  "fireScore": 6.9,
   "tagline": "The Pearl of the Adriatic for Mediterranean Early Retirement",
   "description": "Dubrovnik offers a fairy-tale Adriatic lifestyle with Croatia's EU membership providing straightforward residency pathways for Europeans and favorable digital nomad and passive income visa options. With stunning medieval architecture, crystal-clear waters, and costs well below Western Europe, it's an increasingly compelling FIRE destination for those seeking Mediterranean beauty without the price tag.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "Your restored fortress is not just a home — it's a cultural landmark. You host world-class performances within medieval walls, your superyacht charts the entire Dalmatian coast, and your preservation foundation ensures this UNESCO treasure endures. Living in Dubrovnik at this level means becoming part of its thousand-year story."
     }
+  },
+  "scores": {
+    "safety": 9,
+    "healthcare": 6,
+    "infrastructure": 6,
+    "expatFriendliness": 6
   }
 }

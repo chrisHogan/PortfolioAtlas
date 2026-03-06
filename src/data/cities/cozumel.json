@@ -4,7 +4,7 @@
   "region": "Caribbean",
   "slug": "cozumel",
   "emoji": "🇲🇽",
-  "fireScore": 7.0,
+  "fireScore": 5.2,
   "tagline": "World-Class Diving and Island Life at Mexican Prices",
   "description": "Cozumel is a laid-back Caribbean island off the Yucatan coast, famous for its world-class coral reefs and crystal-clear waters. Unlike the party scene of nearby Cancun, Cozumel maintains a relaxed, small-town feel with a genuine Mexican community alongside a friendly expat population. The cost of living is remarkably low for a Caribbean island, thanks to Mexican pricing on everything from healthcare to tacos. If you love diving, snorkeling, or simply living on island time, Cozumel is hard to beat.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "This budget on a small Mexican island is almost unimaginable in its excess. A waterfront compound, a luxury yacht, full staff, and the resources to fund marine conservation along the reef. Most retirees at this level use Cozumel as a spectacular home base for a global lifestyle."
     }
+  },
+  "scores": {
+    "safety": 6,
+    "healthcare": 4,
+    "infrastructure": 4,
+    "expatFriendliness": 7
   }
 }

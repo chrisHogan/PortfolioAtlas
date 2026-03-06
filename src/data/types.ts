@@ -61,6 +61,13 @@ export type TierKey = '1M' | '2M' | '3M' | '5M' | '10M';
 
 export type Region = 'Southeast Asia' | 'East Asia' | 'Oceania' | 'Europe' | 'Latin America' | 'North America' | 'Middle East' | 'Africa' | 'South Asia' | 'Caribbean';
 
+export interface CityScores {
+  safety: number;
+  healthcare: number;
+  infrastructure: number;
+  expatFriendliness: number;
+}
+
 export interface CityData {
   name: string;
   country: string;
@@ -68,11 +75,17 @@ export interface CityData {
   slug: string;
   emoji: string;
   fireScore: number;
+  scores: CityScores;
   tagline: string;
   description: string;
   tags: CityTags;
   quickFacts: CityQuickFacts;
   tiers: Record<TierKey, TierCostBreakdown>;
+}
+
+export function computeFireScore(scores: CityScores): number {
+  const raw = 0.30 * scores.safety + 0.30 * scores.healthcare + 0.20 * scores.infrastructure + 0.20 * scores.expatFriendliness;
+  return Math.round(raw * 10) / 10;
 }
 
 export const TIER_LABELS: Record<TierKey, string> = {

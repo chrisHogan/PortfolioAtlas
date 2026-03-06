@@ -4,7 +4,7 @@
   "region": "Europe",
   "slug": "athens",
   "emoji": "🇬🇷",
-  "fireScore": 7,
+  "fireScore": 6.5,
   "tagline": "Ancient Civilization Meets Modern FIRE Living",
   "description": "Athens combines 3,000 years of history with surprisingly affordable Mediterranean living. The Greek Golden Visa program, generous non-dom tax options, and low cost of living make it an increasingly popular FIRE destination. Add island-hopping from Piraeus, year-round sunshine, and some of Europe's best street food, and Athens punches well above its weight.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "You live as the modern Onassis — a private island in the Cyclades, a yacht cutting through the Aegean, and an Athens estate where world leaders and artists dine under the Parthenon's gaze. Your philanthropic work preserving Greek heritage ensures your name joins the ancient ones this land remembers. Mythic-scale living."
     }
+  },
+  "scores": {
+    "safety": 7,
+    "healthcare": 6,
+    "infrastructure": 6,
+    "expatFriendliness": 7
   }
 }

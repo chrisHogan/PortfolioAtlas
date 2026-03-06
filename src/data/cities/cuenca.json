@@ -4,7 +4,7 @@
   "region": "Latin America",
   "slug": "cuenca",
   "emoji": "🇪🇨",
-  "fireScore": 8.5,
+  "fireScore": 5.9,
   "tagline": "Colonial Charm and Eternal Spring — Retire on USD in the Andes",
   "description": "Cuenca is the crown jewel of FIRE retirement in Latin America. This UNESCO World Heritage city in the Ecuadorian Andes offers eternal spring weather, a thriving and welcoming expat community, world-class healthcare at rock-bottom prices, and the enormous advantage of using the US dollar as its currency — eliminating exchange rate risk entirely.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M in Cuenca, you are one of the most prominent figures in the expatriate community and a beloved patron of local culture. Your Andean estate is legendary for its gardens and hospitality, your coastal retreat offers Pacific sunsets, and your Galápagos conservation work earns international recognition. Ecuador gives back tenfold at this level — an extraordinary life woven deeply into one of the most biodiverse countries on Earth."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 6,
+    "infrastructure": 5,
+    "expatFriendliness": 8
   }
 }

@@ -4,7 +4,7 @@
   "region": "Europe",
   "slug": "rome",
   "emoji": "🇮🇹",
-  "fireScore": 5.8,
+  "fireScore": 6.6,
   "tagline": "Eternal City Living with La Dolce Vita on Any Budget",
   "description": "Rome offers a rare combination of world-class history, culture, and cuisine at prices that undercut most Western European capitals. The city rewards slow living — long espresso breaks, evening passeggiata, and neighborhood trattorias where a full meal costs less than a London appetizer. While bureaucracy and language barriers can be frustrating, Rome's quality of life and central Mediterranean location make it a compelling FIRE destination for those willing to embrace Italian rhythms.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this tier, Rome is your private museum. You live in spaces that rival the finest palazzi, host legendary dinner parties, and move through the city as a patron of its arts and culture. The Eternal City rewards wealth with experiences that simply cannot be bought anywhere else on Earth."
     }
+  },
+  "scores": {
+    "safety": 7,
+    "healthcare": 7,
+    "infrastructure": 6,
+    "expatFriendliness": 6
   }
 }

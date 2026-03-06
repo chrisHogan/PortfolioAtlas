@@ -4,7 +4,7 @@
   "region": "Europe",
   "slug": "amsterdam",
   "emoji": "🇳🇱",
-  "fireScore": 4.2,
+  "fireScore": 8.7,
   "tagline": "Canal-Laced Charm, World-Class Cycling, and Liberal Dutch Design Culture",
   "description": "Amsterdam combines 17th-century canal beauty with cutting-edge design, a famously tolerant culture, and one of the world's most bike-friendly urban environments. Nearly everyone speaks excellent English, the healthcare system is superb, and the compact city size means everything is accessible by bicycle. Housing is expensive and competitive, but the quality of life — anchored by cycling, culture, and gezelligheid — is exceptional.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M you own a piece of Amsterdam's soul — a grand canal house on the Golden Bend, one of the most exclusive addresses in Europe. Your restored 17th-century mansion hosts charity galas and art exhibitions, your private barge glides through canals you practically own the views of, and your philanthropy shapes the cultural institutions that define this city. This is Amsterdam at its most magnificent."
     }
+  },
+  "scores": {
+    "safety": 8,
+    "healthcare": 9,
+    "infrastructure": 9,
+    "expatFriendliness": 9
   }
 }

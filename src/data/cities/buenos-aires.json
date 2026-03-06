@@ -4,7 +4,7 @@
   "region": "Latin America",
   "slug": "buenos-aires",
   "emoji": "🇦🇷",
-  "fireScore": 7.8,
+  "fireScore": 6.2,
   "tagline": "European Elegance at South American Prices",
   "description": "Buenos Aires is the Paris of South America — grand architecture, world-class steak and wine, and a cultural scene that rivals any global capital. Argentina's economic volatility means the dollar stretches extraordinarily far, making it possible to live a genuinely luxurious life on a modest FIRE budget, though currency fluctuations add an element of unpredictability.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "You inhabit the world of Argentine old money — a palace apartment in Recoleta, a working estancia in the Pampas where gauchos ride your horses, and a fishing lodge in Patagonia that makes world travelers weep with envy. Your private chef trained under Francis Mallmann, your wine cellar rivals Catena Zapata's, and your polo team competes in the Open. Buenos Aires at $33K/month is a life of incomprehensible richness, and it still costs less than a modest apartment in Manhattan."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 7,
+    "infrastructure": 6,
+    "expatFriendliness": 7
   }
 }

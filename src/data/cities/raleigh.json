@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "raleigh",
   "emoji": "🇺🇸",
-  "fireScore": 5.8,
+  "fireScore": 7.4,
   "tagline": "Research Triangle Excellence with Four Mild Seasons",
   "description": "Raleigh sits at the heart of the Research Triangle, surrounded by top-tier universities, world-class healthcare systems, and a thriving tech economy. The cost of living is moderate by East Coast standards, and the city offers four distinct but mild seasons with stunning fall foliage and pleasant springs. For FIRE seekers who value access to excellent medical care, a highly educated community, and a blend of urban amenities with Southern charm, Raleigh is hard to beat.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M in Raleigh, you have access to arguably the best healthcare corridor in America and the intellectual vibrancy of three world-class universities. A grand estate, a beach home on the Outer Banks, concierge medicine at Duke, and transformative philanthropy through the Triangle's universities and hospitals. This is the pinnacle of an intellectually rich and medically secure retirement."
     }
+  },
+  "scores": {
+    "safety": 6,
+    "healthcare": 8,
+    "infrastructure": 7,
+    "expatFriendliness": 9
   }
 }

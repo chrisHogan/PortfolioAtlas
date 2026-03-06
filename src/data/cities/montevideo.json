@@ -4,7 +4,7 @@
   "region": "Latin America",
   "slug": "montevideo",
   "emoji": "🇺🇾",
-  "fireScore": 7.5,
+  "fireScore": 5.7,
   "tagline": "South America's Safest Haven for Your FIRE Portfolio",
   "description": "Montevideo is the quiet achiever of Latin American FIRE destinations — politically stable, remarkably safe, and offering a quality of life that punches well above its weight. Uruguay's progressive policies, strong rule of law, and lack of foreign income taxation make it uniquely attractive for retirees seeking both lifestyle and financial security in South America.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "You are part of Uruguay's quiet elite — a Carrasco estate that hosts legendary asados, a José Ignacio compound where international artists and diplomats gather each summer, and perhaps a small Tannat vineyard producing your personal label. Uruguay's discretion suits your temperament: no flash, no pretension, just deep, enduring quality. Your wealth benefits from zero foreign income tax while your life benefits from South America's most stable, progressive, and genuinely civilized society."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 6,
+    "infrastructure": 6,
+    "expatFriendliness": 6
   }
 }

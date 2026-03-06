@@ -4,7 +4,7 @@
   "region": "Southeast Asia",
   "slug": "da-nang",
   "emoji": "🇻🇳",
-  "fireScore": 8.8,
+  "fireScore": 6.5,
   "tagline": "Beach, Mountains, and Bowl of Pho — Ultra-Affordable FIRE on Vietnam's Central Coast",
   "description": "Da Nang is rapidly emerging as Southeast Asia's most exciting FIRE destination. Perched between pristine beaches and the Marble Mountains, this coastal city delivers incredible food, warm weather, a growing expat scene, and a cost of living so low it almost feels like a cheat code. Vietnam's booming economy and improving infrastructure make Da Nang a forward-looking choice for retirees who want adventure and value in equal measure.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M in Da Nang, you preside over a beachfront compound that is part private resort, part philanthropic headquarters. Your chef team sources ingredients from mountain villages and coastal fishermen, your yacht cruises the central coast discovering hidden beaches, and your charitable foundation transforms local schools. You split time between your Da Nang estate and your beautifully restored Hoi An heritage home. Vietnam at this level is a life of breathtaking beauty and profound purpose."
     }
+  },
+  "scores": {
+    "safety": 8,
+    "healthcare": 5,
+    "infrastructure": 6,
+    "expatFriendliness": 7
   }
 }

@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "boston",
   "emoji": "🇺🇸",
-  "fireScore": 4.5,
+  "fireScore": 8.2,
   "tagline": "World-Class Healthcare, History, and New England Charm",
   "description": "Boston is one of America's most expensive cities but rewards residents with exceptional healthcare access, walkable neighborhoods, rich history, and a vibrant intellectual culture anchored by Harvard and MIT. The city's compact size, excellent public transit, and four distinct seasons create a European feel rare in the US. FIRE retirees face high housing and healthcare costs, but those who value culture, education, and medical access will find Boston hard to beat.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level Boston becomes a gilded New England experience. A historic mansion, private box at Fenway Park, and the ability to support Harvard and the MFA as a major patron. Summers on the Cape and winters in the Caribbean, all anchored by the finest healthcare system in the world."
     }
+  },
+  "scores": {
+    "safety": 6,
+    "healthcare": 10,
+    "infrastructure": 8,
+    "expatFriendliness": 9
   }
 }

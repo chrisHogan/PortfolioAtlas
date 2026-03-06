@@ -4,7 +4,7 @@
   "region": "East Asia",
   "slug": "tokyo",
   "emoji": "🇯🇵",
-  "fireScore": 4.8,
+  "fireScore": 9,
   "tagline": "Where Ancient Tradition Meets the Future — A Food Paradise with Unmatched Safety in Tokyo, Japan",
   "description": "Tokyo defies its reputation as unaffordable. While headline rents in Shibuya and Roppongi are steep, neighborhoods like Koenji, Shimokitazawa, and Kita-Senju offer surprisingly reasonable living costs. The world's greatest food city delivers Michelin-level quality at every price point — from $1 ramen bowls to kaiseki masterpieces. Ultra-safe streets, obsessive cleanliness, and a transit system that runs to the second make Tokyo a compelling FIRE destination for those willing to adapt to a low-English environment.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "With $10M in Tokyo, you inhabit a world where ancient culture and ultra-modern luxury intertwine seamlessly. Your penthouse gazes across the glittering skyline to Mt. Fuji, your chef trained at a 3-star restaurant, and you move between Tokyo high society and serene retreats in the Japanese countryside. Few cities on Earth reward wealth with such depth and refinement."
     }
+  },
+  "scores": {
+    "safety": 10,
+    "healthcare": 10,
+    "infrastructure": 10,
+    "expatFriendliness": 5
   }
 }

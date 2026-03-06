@@ -4,7 +4,7 @@
   "region": "Latin America",
   "slug": "san-jose-cr",
   "emoji": "🇨🇷",
-  "fireScore": 6.5,
+  "fireScore": 5.7,
   "tagline": "Pura Vida Living in Central America's Most Stable Democracy",
   "description": "San José is the gateway to Costa Rica's legendary Pura Vida lifestyle — a sprawling capital surrounded by volcanoes, cloud forests, and some of the planet's richest biodiversity. While not a beach town itself, San José offers excellent healthcare, a stable democratic government, established expat infrastructure, and the popular Pensionado retirement visa. The Central Valley's eternal spring climate and proximity to both Pacific and Caribbean coasts make it a practical, comfortable base for FIRE retirees seeking tropical living with First World services.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "You are Costa Rica's ultimate Pura Vida success story — a compound in the hills, a beach house on the Pacific, and a conservation foundation that protects thousands of acres of rainforest. Your helicopter whisks you between volcanoes and coastlines, your private reserve hosts researchers from around the world, and your dinner parties under the canopy bring together conservationists, artists, and diplomats. You haven't just retired to Costa Rica — you've become one of its greatest champions."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 6,
+    "infrastructure": 5,
+    "expatFriendliness": 7
   }
 }

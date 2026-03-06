@@ -4,7 +4,7 @@
   "region": "Caribbean",
   "slug": "san-juan",
   "emoji": "🇵🇷",
-  "fireScore": 6.2,
+  "fireScore": 5.6,
   "tagline": "Caribbean Living with US Citizenship Benefits",
   "description": "San Juan offers the rare combination of tropical Caribbean living under the American flag. No passport needed, no currency exchange, and access to US banking and healthcare systems, all wrapped in 500 years of Spanish colonial history. Act 60 tax incentives make it especially attractive for investors, though the cost of living is moderate by Caribbean standards. Old San Juan's colorful streets and the island's stunning beaches make it a genuinely special place to call home.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this tier San Juan rivals any luxury destination in the world, with the massive added benefit of US territory tax advantages. A beachfront estate, a yacht, full staff, and the resources to live an extraordinary Caribbean life while maintaining all the protections of American citizenship."
     }
+  },
+  "scores": {
+    "safety": 4,
+    "healthcare": 6,
+    "infrastructure": 5,
+    "expatFriendliness": 8
   }
 }

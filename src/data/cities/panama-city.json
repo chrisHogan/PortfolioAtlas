@@ -4,7 +4,7 @@
   "region": "Latin America",
   "slug": "panama-city",
   "emoji": "🇵🇦",
-  "fireScore": 7.0,
+  "fireScore": 6.1,
   "tagline": "The Miami of Central America — Tax-Free FIRE Living on the Canal",
   "description": "Panama City is a modern, cosmopolitan capital that punches well above its weight for FIRE retirees. The country uses the US dollar, offers one of the world's most generous retirement visa programs (Pensionado), and imposes no tax on foreign-sourced income. Add a stunning skyline, the Canal Zone, excellent healthcare, and direct flights to North America, and you have a compelling base for building your next chapter.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level, Panama City is your gateway to a two-ocean empire. Your penthouse towers over the Canal, your private island in the San Blas is an unspoiled paradise, and your superyacht cruises between the Pacific and Caribbean through one of the world's great engineering marvels. You host the city's most anticipated galas, support local arts and conservation, and enjoy a completely tax-free existence on foreign income. Panama at $10M is a life without limits."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 6,
+    "infrastructure": 6,
+    "expatFriendliness": 8
   }
 }

@@ -4,7 +4,7 @@
   "region": "Europe",
   "slug": "paris",
   "emoji": "🇫🇷",
-  "fireScore": 3.5,
+  "fireScore": 7.7,
   "tagline": "Art, Cuisine, and Romance in the World's Most Celebrated City",
   "description": "Paris needs no introduction — the City of Light offers unrivaled art, architecture, gastronomy, and cultural depth. While expensive by European standards, Paris rewards those who can afford it with a quality of life few cities can match. World-class healthcare, exceptional public transit, and a lifestyle built around beauty, conversation, and long meals make it a dream for culturally-minded retirees willing to pay the premium.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M you inhabit the Paris of legend. A grand private mansion with courtyard garden, a staff that anticipates your every need, and a social calendar woven through the city's most prestigious cultural institutions. Your name appears on museum donor walls, your château hosts harvest dinners for friends, and your life is a masterwork of French art de vivre."
     }
+  },
+  "scores": {
+    "safety": 6,
+    "healthcare": 9,
+    "infrastructure": 9,
+    "expatFriendliness": 7
   }
 }

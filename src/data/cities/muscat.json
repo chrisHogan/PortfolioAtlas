@@ -4,7 +4,7 @@
   "region": "Middle East",
   "slug": "muscat",
   "emoji": "🇴🇲",
-  "fireScore": 6.0,
+  "fireScore": 7.4,
   "tagline": "Arabian Elegance, Desert Mountains, and Genuine Hospitality",
   "description": "Muscat is the Middle East's best-kept secret — a strikingly beautiful capital wedged between the Hajar Mountains and the Arabian Sea, offering a unique blend of traditional Omani culture and modern comfort. Unlike flashier Gulf neighbors, Muscat is understated, safe, and genuinely welcoming to foreigners. The cost of living is moderate by Gulf standards, there is no income tax, healthcare is good, and the natural surroundings — from dramatic wadis to pristine beaches — are spectacular. English is widely understood, making daily life accessible for Western expats.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this tier Muscat delivers an Arabian fantasy of extraordinary taste. A private waterfront compound, a yacht cruising the fjords of Musandam, full staff, and the resources to explore Oman's most remote and beautiful corners by helicopter or private expedition. Oman's combination of natural grandeur, genuine cultural depth, and zero income tax creates one of the Gulf's most compelling ultra-luxury lifestyles."
     }
+  },
+  "scores": {
+    "safety": 9,
+    "healthcare": 7,
+    "infrastructure": 7,
+    "expatFriendliness": 6
   }
 }

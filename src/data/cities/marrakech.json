@@ -4,7 +4,7 @@
   "region": "Africa",
   "slug": "marrakech",
   "emoji": "🇲🇦",
-  "fireScore": 7.8,
+  "fireScore": 4.9,
   "tagline": "Ancient Medina Magic, Stunning Riads, and Extraordinary Value",
   "description": "Marrakech is a sensory feast that offers FIRE retirees an incredibly affordable, culturally immersive lifestyle. The ancient medina, Atlas Mountain backdrop, and world-renowned food scene create a daily experience unlike anywhere else on earth. Housing costs are remarkably low, especially for the quality of traditional riad living. French is the primary second language, though English is growing in tourist areas. The city attracts a large international expat community, modern private healthcare is available, and Morocco offers a straightforward long-stay visa process for retirees.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $33K/month in Marrakech you are living in a literal palace with a staff of a dozen, hosting international guests, and funding meaningful charitable work across Morocco. The surplus at this level is enormous, allowing for significant real estate investment, philanthropic impact, and a travel schedule that spans the globe. Nowhere else on earth offers this combination of cultural richness, beauty, and extraordinary value."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 4,
+    "infrastructure": 5,
+    "expatFriendliness": 6
   }
 }

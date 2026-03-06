@@ -4,7 +4,7 @@
   "region": "Latin America",
   "slug": "cartagena",
   "emoji": "🇨🇴",
-  "fireScore": 7.5,
+  "fireScore": 5.4,
   "tagline": "Caribbean Charm, Colonial Beauty, and Remarkable Affordability",
   "description": "Cartagena is a jewel of the Caribbean coast — a UNESCO World Heritage walled city with colorful colonial architecture, warm turquoise waters, and a vibrant cultural scene rooted in Afro-Caribbean, Spanish, and indigenous traditions. The cost of living is remarkably low, healthcare is surprisingly good through Colombia's well-regarded system, and the food scene blends fresh seafood with tropical flavors. While English is limited and the tropical heat is relentless, Cartagena rewards adventurous retirees with a rich, affordable, and deeply atmospheric life.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level Cartagena offers a Caribbean fantasy made real. A private compound or island retreat, a yacht, full staff, and the ability to shape the community through philanthropy and cultural investment. The warmth of Colombian culture combined with Caribbean beauty and your resources creates a life of extraordinary richness and purpose."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 5,
+    "infrastructure": 5,
+    "expatFriendliness": 7
   }
 }

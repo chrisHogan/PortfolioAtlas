@@ -4,7 +4,7 @@
   "region": "Europe",
   "slug": "tbilisi",
   "emoji": "🇬🇪",
-  "fireScore": 9.0,
+  "fireScore": 6,
   "tagline": "Ultra-Affordable European Capital with 8,000 Years of Wine and Warmth",
   "description": "Tbilisi is the FIRE world's best-kept secret — a stunningly affordable European capital where ancient sulfur baths, 8,000-year-old wine traditions, and jaw-dropping Caucasus mountain scenery come at a fraction of the cost of anywhere in Western Europe. Georgia's digital nomad-friendly visa policies, zero tax on foreign income for most residents, legendary hospitality, and a food scene that rivals any Mediterranean city make Tbilisi arguably the highest-value FIRE destination on the planet.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "You are the modern patron of the Caucasus — your estate produces award-winning qvevri wine, your foundation preserves Georgia's ancient polyphonic singing tradition, and your dinner table hosts ambassadors, artists, and adventurers from around the world. Your helicopter reveals landscapes that haven't changed since the Silk Road, your Black Sea yacht explores coastlines that Greek mythologists wrote about, and your philanthropic legacy is woven into the fabric of a nation that has perfected hospitality over eight thousand years of winemaking."
     }
+  },
+  "scores": {
+    "safety": 7,
+    "healthcare": 5,
+    "infrastructure": 5,
+    "expatFriendliness": 7
   }
 }

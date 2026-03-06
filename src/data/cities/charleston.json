@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "charleston",
   "emoji": "🇺🇸",
-  "fireScore": 5.6,
+  "fireScore": 7.1,
   "tagline": "Southern Charm, Historic Architecture, and Lowcountry Living",
   "description": "Charleston is consistently ranked among America's most beautiful and hospitable cities. Its cobblestone streets, antebellum architecture, and world-class dining scene create a unique atmosphere that blends history with modern sophistication. The cost of living is moderate by coastal standards, South Carolina has relatively low taxes, and the subtropical climate allows for year-round outdoor enjoyment. The Lowcountry's beaches, marshlands, and waterways provide endless recreation for FIRE retirees.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level Charleston is your personal Southern kingdom. A landmark estate, a private yacht for cruising the ACE Basin, and the ability to shape the city's cultural and preservation efforts through major philanthropy. You live among centuries of history while enjoying every modern luxury."
     }
+  },
+  "scores": {
+    "safety": 6,
+    "healthcare": 7,
+    "infrastructure": 7,
+    "expatFriendliness": 9
   }
 }

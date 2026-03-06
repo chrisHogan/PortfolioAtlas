@@ -4,7 +4,7 @@
   "region": "South Asia",
   "slug": "colombo",
   "emoji": "🇱🇰",
-  "fireScore": 7.8,
+  "fireScore": 4.8,
   "tagline": "Tropical Island Capital with Unbeatable Value",
   "description": "Colombo is Sri Lanka's vibrant capital, offering a blend of colonial architecture, Buddhist temples, and modern development along the Indian Ocean coast. The cost of living is remarkably low, and the city serves as a gateway to Sri Lanka's stunning beaches, hill country, and wildlife. A growing expat community and improving infrastructure make it an increasingly attractive FIRE destination.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At this level in Sri Lanka, your wealth is extraordinary by local standards. Multiple properties, a full staff, philanthropic endeavors, and the ability to live a truly global lifestyle with Sri Lanka as your tropical home base. Most of your budget will go unspent or into investments."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 5,
+    "infrastructure": 4,
+    "expatFriendliness": 5
   }
 }

@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "midland-mi",
   "emoji": "🇺🇸",
-  "fireScore": 7.5,
+  "fireScore": 6.7,
   "tagline": "Small-Town Charm with World-Class Amenities in Michigan's Heartland",
   "description": "Midland is a hidden gem in central Michigan, shaped by the presence of Dow Chemical's global headquarters into a small city with amenities far beyond its size. The Dow Gardens and Whiting Forest canopy walk are world-class, the Center for the Arts hosts Broadway-caliber performances, and housing costs are astonishingly low. For FIRE retirees seeking an extremely affordable, safe, and culturally rich small-town lifestyle, Midland offers a rare combination that is hard to find elsewhere in America.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M in Midland you have the power to shape the community itself. Transformative donations to the Center for the Arts, Dow Gardens, and local schools alongside a magnificent lifestyle that includes a Great Lakes yacht, international travel, and a lakefront compound. In a small town like Midland, this level of wealth creates a lasting legacy."
     }
+  },
+  "scores": {
+    "safety": 7,
+    "healthcare": 6,
+    "infrastructure": 6,
+    "expatFriendliness": 8
   }
 }

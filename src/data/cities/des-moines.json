@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "des-moines",
   "emoji": "🇺🇸",
-  "fireScore": 6.8,
+  "fireScore": 6.9,
   "tagline": "Insurance Capital with Farm-to-Table Charm and Midwestern Value",
   "description": "Des Moines is one of America's most underrated FIRE destinations, combining a remarkably low cost of living with a revitalized downtown, thriving farm-to-table dining scene, and an extensive network of bike trails. As the insurance capital of the country, the city has a stable economy and a growing cultural identity. The Des Moines Riverwalk, Pappajohn Sculpture Park, and a booming East Village neighborhood make this much more than just cornfields and cubicles.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M in Des Moines you are royalty in one of the most livable cities in America. A grand estate, a personal chef sourcing from Iowa's incredible farms, deep philanthropic impact in the community, and chartered flights to anywhere. The combination of ultra-low living costs and your generous budget creates a life of extraordinary comfort and influence."
     }
+  },
+  "scores": {
+    "safety": 6,
+    "healthcare": 7,
+    "infrastructure": 7,
+    "expatFriendliness": 8
   }
 }

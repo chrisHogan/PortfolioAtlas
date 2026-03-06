@@ -4,7 +4,7 @@
   "region": "North America",
   "slug": "denver",
   "emoji": "🇺🇸",
-  "fireScore": 5.0,
+  "fireScore": 7.3,
   "tagline": "Mile-High Mountain Living, Craft Beer Culture, and 300 Days of Sunshine",
   "description": "Denver sits at the foot of the Rocky Mountains, offering FIRE retirees an unmatched combination of outdoor adventure, urban culture, and over 300 days of sunshine per year. The city has evolved far beyond its frontier roots into a sophisticated metro with a thriving craft beer scene, excellent farm-to-table dining, and world-class skiing just 90 minutes away. Housing costs have climbed significantly in recent years but remain well below coastal cities, and Colorado's flat state income tax keeps the overall tax burden moderate. For anyone who values hiking, biking, skiing, and an active lifestyle, Denver is hard to beat.",
   "tags": {
@@ -190,5 +190,11 @@
       },
       "lifestyle": "At $10M, Denver is your gateway to the best of both worlds. A sprawling Cherry Hills estate with mountain views, a personal chef, a second home in Aspen, and the ability to charter flights from Centennial Airport for weekend getaways. You are deeply embedded in Denver's philanthropic community, with private boxes at Broncos and Avalanche games and the Rocky Mountains as your personal playground."
     }
+  },
+  "scores": {
+    "safety": 5,
+    "healthcare": 8,
+    "infrastructure": 8,
+    "expatFriendliness": 9
   }
 }
