@@ -1,8 +1,5 @@
 import type { TierKey } from '../data/types';
-import { TIER_MONTHLY_BUDGET } from '../data/types';
-
-const WITHDRAWAL_RATE = 0.04;
-const MONTHS_PER_YEAR = 12;
+import { TIER_MONTHLY_BUDGET, SAFE_WITHDRAWAL_RATE } from '../data/types';
 
 const TIER_VALUES: { key: TierKey; value: number }[] = [
   { key: '1M', value: 1_000_000 },
@@ -13,7 +10,7 @@ const TIER_VALUES: { key: TierKey; value: number }[] = [
 ];
 
 export function getMonthlyBudget(netWorth: number): number {
-  return Math.round((netWorth * WITHDRAWAL_RATE) / MONTHS_PER_YEAR);
+  return Math.round((netWorth * SAFE_WITHDRAWAL_RATE) / 12);
 }
 
 export function getClosestTierKey(netWorth: number): TierKey {
