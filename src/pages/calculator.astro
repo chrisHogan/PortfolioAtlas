@@ -475,7 +475,7 @@ const totalCities = allCities.length;
       const thClass = 'py-3 px-4 font-semibold text-gray-600 cursor-pointer hover:text-brand-600 select-none transition-colors';
       const headerTips = {
         city: 'City and country',
-        confidence: 'Monte Carlo simulation: % chance your portfolio lasts through retirement at this city\u2019s cost of living',
+        confidence: 'Monte Carlo simulation: % of scenarios where your portfolio lasts through retirement at this city\u2019s cost of living',
         fireScore: 'Overall retirement-readiness score (1\u201310) based on cost of living, safety, healthcare, infrastructure, and expat friendliness',
         lifestyle: 'The best lifestyle you can afford here: Budget (essentials), Comfortable (solid middle-class), Premium (upscale), or Luxury (top-tier)',
         totalSpend: 'Estimated monthly cost of living at your lifestyle level in this city',
@@ -523,7 +523,7 @@ const totalCities = allCities.length;
         if (!thead) return;
         const tip = (key) => headerTips[key] ? ` title="${headerTips[key]}"` : '';
         const confHeader = showConfidence
-          ? `<th class="text-right ${thClass}" data-sort="confidence"${tip('confidence')}>Confidence${sortArrow('confidence')}</th>`
+          ? `<th class="text-right ${thClass}" data-sort="confidence"${tip('confidence')}>Success Rate${sortArrow('confidence')}</th>`
           : '';
         thead.innerHTML = `
           <tr class="border-b-2 border-sand-200">
