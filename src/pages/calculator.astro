@@ -20,6 +20,7 @@ const cityData = allCities.map((city) => {
     emoji: city.emoji,
     region: city.region,
     fireScore: city.fireScore,
+    tagline: city.tagline,
     tags: city.tags,
     tiers,
   };
@@ -664,7 +665,7 @@ const totalCities = allCities.length;
 
           tr.innerHTML = `
             <td class="py-3 px-4 text-gray-400 font-medium hidden sm:table-cell">${index + 1}</td>
-            <td class="py-3 px-4 sticky left-0 bg-white z-10">
+            <td class="py-3 px-4 sticky left-0 bg-white z-10" title="${city.tagline}">
               <a href="/cities/${city.slug}?${linkParams}" class="flex items-center gap-2 hover:text-brand-600 transition-colors">
                 <span>${city.emoji}</span>
                 <span class="font-medium">${city.name}</span>
@@ -672,7 +673,7 @@ const totalCities = allCities.length;
               </a>
             </td>
             ${confCell}
-            <td class="text-right py-3 px-4">
+            <td class="text-right py-3 px-4" title="${city.tagline}">
               <span class="inline-flex items-center justify-center w-8 h-8 rounded-full text-white text-xs font-bold ${scoreClass}">
                 ${city.fireScore.toFixed(1)}
               </span>

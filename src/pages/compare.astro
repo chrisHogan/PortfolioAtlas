@@ -17,6 +17,8 @@ const cityDataForClient = allCities.map((city) => ({
   country: city.country,
   emoji: city.emoji,
   fireScore: city.fireScore,
+  tagline: city.tagline,
+  scores: city.scores,
   tiers: Object.fromEntries(
     tiers.map((t) => {
       const tier = city.tiers[t];
@@ -147,11 +149,11 @@ const cityDataJSON = JSON.stringify(cityDataForClient);
                   <thead>
                     <tr class="border-b-2 border-sand-200">
                       <th class="text-left py-3 px-4 font-semibold text-gray-600">City</th>
-                      <th class="text-right py-3 px-4 font-semibold text-gray-600">FIRE Score</th>
+                      <th class="text-right py-3 px-4 font-semibold text-gray-600 cursor-pointer hover:text-brand-600 select-none transition-colors tier-sort-header" data-sort-key="fireScore">FIRE Score <span class="inline-block w-3 text-center">▼</span></th>
                       <th class="text-right py-3 px-4 font-semibold text-gray-600">Housing</th>
                       <th class="text-right py-3 px-4 font-semibold text-gray-600">Dining</th>
                       <th class="text-right py-3 px-4 font-semibold text-gray-600">Healthcare</th>
-                      <th class="text-right py-3 px-4 font-semibold text-gray-600">Total Spend</th>
+                      <th class="text-right py-3 px-4 font-semibold text-gray-600 cursor-pointer hover:text-brand-600 select-none transition-colors tier-sort-header" data-sort-key="totalSpend">Total Spend <span class="inline-block w-3 text-center invisible">▲</span></th>
                       <th class="text-right py-3 px-4 font-semibold text-gray-600">Surplus</th>
                     </tr>
                   </thead>
@@ -163,15 +165,15 @@ const cityDataJSON = JSON.stringify(cityDataForClient);
                       const surplus = tier.monthlyBudget - total;
                       const scoreClass = getFireScoreClass(city.fireScore);
                       return (
-                        <tr class="border-b border-sand-100 hover:bg-sand-50 transition-colors">
-                          <td class="py-3 px-4">
+                        <tr class="border-b border-sand-100 hover:bg-sand-50 transition-colors" data-fire-score={city.fireScore} data-total-spend={total}>
+                          <td class="py-3 px-4" title={city.tagline}>
                             <a href={`/cities/${city.slug}`} class="flex items-center gap-2 hover:text-brand-600 transition-colors">
                               <span>{city.emoji}</span>
                               <span class="font-medium">{city.name}</span>
                               <span class="text-gray-400 text-xs">{city.country}</span>
                             </a>
                           </td>
-                          <td class="text-right py-3 px-4">
+                          <td class="text-right py-3 px-4" title={city.tagline}>
                             <span class={`inline-flex items-center justify-center w-8 h-8 rounded-full text-white text-xs font-bold ${scoreClass}`}>
                               {city.fireScore.toFixed(1)}
                             </span>
@@ -193,15 +195,15 @@ const cityDataJSON = JSON.stringify(cityDataForClient);
                       const surplus = tier.monthlyBudget - total;
                       const scoreClass = getFireScoreClass(city.fireScore);
                       return (
-                        <tr class="border-b border-sand-100 hover:bg-sand-50 transition-colors compare-extra-row hidden" data-tier-table={tierKey}>
-                          <td class="py-3 px-4">
+                        <tr class="border-b border-sand-100 hover:bg-sand-50 transition-colors compare-extra-row hidden" data-tier-table={tierKey} data-fire-score={city.fireScore} data-total-spend={total}>
+                          <td class="py-3 px-4" title={city.tagline}>
                             <a href={`/cities/${city.slug}`} class="flex items-center gap-2 hover:text-brand-600 transition-colors">
                               <span>{city.emoji}</span>
                               <span class="font-medium">{city.name}</span>
                               <span class="text-gray-400 text-xs">{city.country}</span>
                             </a>
                           </td>
-                          <td class="text-right py-3 px-4">
+                          <td class="text-right py-3 px-4" title={city.tagline}>
                             <span class={`inline-flex items-center justify-center w-8 h-8 rounded-full text-white text-xs font-bold ${scoreClass}`}>
                               {city.fireScore.toFixed(1)}
                             </span>
@@ -537,6 +539,42 @@ const cityDataJSON = JSON.stringify(cityDataForClient);
           <tbody>
     `;
 
+    // Quality-of-life comparison rows (FIRE score components)
+    const qualityRows = [
+      ['Safety', 'safety'],
+      ['Healthcare', 'healthcare'],
+      ['Infrastructure', 'infrastructure'],
+      ['Expat Friendliness', 'expatFriendliness'],
+    ];
+
+    for (const [label, key] of qualityRows) {
+      const sa = a.scores[key];
+      const sb = b.scores[key];
+      const winner = sa > sb ? 'a' : sb > sa ? 'b' : 'tie';
+      const badgeA = winner === 'a' ? ' 👑' : '';
+      const badgeB = winner === 'b' ? ' 👑' : '';
+      html += `
+        <tr class="border-b border-sand-100 bg-brand-50/30">
+          <td class="py-2.5 px-4 font-medium text-gray-700">${label}</td>
+          <td class="text-right py-2.5 px-4 font-medium${winner === 'a' ? ' text-brand-700' : ''}">${sa}/10${badgeA}</td>
+          <td class="text-right py-2.5 px-4 font-medium${winner === 'b' ? ' text-brand-700' : ''}">${sb}/10${badgeB}</td>
+          <td class="text-right py-2.5 px-4 text-gray-400 text-xs">${winner === 'tie' ? 'Tie' : ''}</td>
+        </tr>
+      `;
+    }
+
+    // FIRE Score summary row
+    const fireWinner = a.fireScore > b.fireScore ? 'a' : b.fireScore > a.fireScore ? 'b' : 'tie';
+    html += `
+      <tr class="border-b-2 border-sand-200 bg-brand-50/30 font-bold">
+        <td class="py-2.5 px-4 text-gray-800">FIRE Score</td>
+        <td class="text-right py-2.5 px-4${fireWinner === 'a' ? ' text-brand-700' : ''}">${a.fireScore.toFixed(1)}${fireWinner === 'a' ? ' 👑' : ''}</td>
+        <td class="text-right py-2.5 px-4${fireWinner === 'b' ? ' text-brand-700' : ''}">${b.fireScore.toFixed(1)}${fireWinner === 'b' ? ' 👑' : ''}</td>
+        <td class="text-right py-2.5 px-4 text-gray-400 text-xs">${fireWinner === 'tie' ? 'Tie' : ''}</td>
+      </tr>
+    `;
+
+    // Cost breakdown rows
     for (const [label, key] of rows) {
       const va = ta[key];
       const vb = tb[key];
@@ -676,6 +714,38 @@ const cityDataJSON = JSON.stringify(cityDataForClient);
         row.classList.remove('hidden');
       });
       btn.classList.add('hidden');
+    });
+  });
+
+  // Sortable columns for all-cities tier tables
+  document.querySelectorAll('.tier-sort-header').forEach((th) => {
+    th.addEventListener('click', () => {
+      const table = th.closest('table');
+      const tbody = table.querySelector('tbody');
+      const key = th.dataset.sortKey;
+      const attr = key === 'fireScore' ? 'data-fire-score' : 'data-total-spend';
+
+      // Determine sort direction from current arrow
+      const arrow = th.querySelector('span');
+      const wasDesc = arrow.textContent.trim() === '▼';
+      const asc = wasDesc; // flip
+
+      // Reset all arrows in this table's header
+      th.closest('tr').querySelectorAll('.tier-sort-header span').forEach((s) => {
+        s.classList.add('invisible');
+      });
+      arrow.classList.remove('invisible');
+      arrow.textContent = asc ? '▲' : '▼';
+
+      // Sort all rows (both visible and hidden extra rows)
+      const rows = Array.from(tbody.querySelectorAll('tr'));
+      rows.sort((a, b) => {
+        const va = parseFloat(a.getAttribute(attr));
+        const vb = parseFloat(b.getAttribute(attr));
+        if (key === 'fireScore') return asc ? va - vb : vb - va;
+        return asc ? va - vb : vb - va;
+      });
+      rows.forEach((row) => tbody.appendChild(row));
     });
   });
 </script>
