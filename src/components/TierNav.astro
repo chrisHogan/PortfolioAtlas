@@ -6,6 +6,7 @@ const tiers: TierKey[] = ['1M', '2M', '3M', '5M', '10M'];
 
 <nav class="bg-white sticky top-16 z-40 border-b border-sand-200 shadow-sm">
   <div class="container-narrow">
+    <div class="relative">
     <div class="flex items-center gap-1 overflow-x-auto py-3 scrollbar-hide">
       <span class="text-xs font-semibold text-gray-500 uppercase tracking-wider mr-2 shrink-0">
         Portfolio:
@@ -27,6 +28,9 @@ const tiers: TierKey[] = ['1M', '2M', '3M', '5M', '10M'];
           ${tier}
         </button>
       ))}
+    </div>
+    <!-- Scroll hint: right-edge gradient fade, visible only on small screens -->
+    <div class="pointer-events-none absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-white to-transparent sm:hidden" aria-hidden="true"></div>
     </div>
   </div>
 </nav>

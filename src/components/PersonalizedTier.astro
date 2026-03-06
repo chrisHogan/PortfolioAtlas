@@ -1,6 +1,6 @@
 ---
 import type { CityData, TierKey } from '../data/types';
-import { formatCurrency, getTotalSpend, TIER_LABELS } from '../data/types';
+import { formatCurrency, getTotalSpend, TIER_LABELS, SAFE_WITHDRAWAL_RATE } from '../data/types';
 
 interface Props {
   city: CityData;
@@ -124,7 +124,7 @@ for (const [key, tier] of Object.entries(city.tiers)) {
   </div>
 </div>
 
-<script define:vars={{ tierValues }}>
+<script define:vars={{ tierValues, SAFE_WITHDRAWAL_RATE }}>
   function initPersonalizedTier() {
     const params = new URLSearchParams(window.location.search);
     const nwParam = params.get('nw');
@@ -149,7 +149,7 @@ for (const [key, tier] of Object.entries(city.tiers)) {
       }
     }
 
-    const monthlyBudget = Math.round((netWorth * 0.04) / 12);
+    const monthlyBudget = Math.round((netWorth * SAFE_WITHDRAWAL_RATE) / 12);
     const data = tierCosts[closestKey];
     if (!data) return;
 

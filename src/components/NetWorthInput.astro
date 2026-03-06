@@ -64,6 +64,8 @@ const { compact = false } = Astro.props;
 </div>
 
 <script>
+  const SAFE_WITHDRAWAL_RATE = 0.04;
+
   function initNetWorthInput() {
     const input = document.getElementById('nw-input') as HTMLInputElement;
     const form = document.getElementById('nw-form') as HTMLFormElement;
@@ -85,7 +87,7 @@ const { compact = false } = Astro.props;
     function updatePreview() {
       const raw = getRawValue();
       if (raw > 0 && preview && previewAmount) {
-        const monthly = Math.round((raw * 0.04) / 12);
+        const monthly = Math.round((raw * SAFE_WITHDRAWAL_RATE) / 12);
         previewAmount.textContent = '$' + monthly.toLocaleString('en-US');
         preview.classList.remove('hidden');
       } else if (preview) {

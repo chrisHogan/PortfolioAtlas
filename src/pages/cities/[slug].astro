@@ -136,7 +136,7 @@ const jsonLd = [breadcrumbLd, placeLd, faqLd];
           <TierBreakdown tierKey={tierKey} tier={city.tiers[tierKey]} cityName={city.name} />
         ))}
 
-        <CityFAQ city={city} />
+        <CityFAQ city={city} faqs={faqQuestions} />
         <RelatedCities currentCity={city} allCities={allCities} />
       </div>
 
@@ -170,12 +170,11 @@ const jsonLd = [breadcrumbLd, placeLd, faqLd];
             if (!header) return;
             header.addEventListener('click', () => {
               const isOpen = accordion.getAttribute('data-open') === 'true';
-              // Close all
+              // If already open, do nothing — keep it visible
+              if (isOpen) return;
+              // Close all others, then open this one
               accordions.forEach((el) => closeAccordion(el));
-              // If it was closed, open it
-              if (!isOpen) {
-                openAccordion(accordion);
-              }
+              openAccordion(accordion);
               // Update nav pills
               const activeTier = accordion.getAttribute('data-open') === 'true'
                 ? accordion.getAttribute('data-tier') || ''

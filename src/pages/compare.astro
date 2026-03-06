@@ -1,7 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { allCities } from '../data/cities/index';
-import { TIER_LABELS, formatCurrency, getFireScoreClass, getTotalSpend } from '../data/types';
+import { TIER_LABELS, formatCurrency, getFireScoreClass, getTotalSpend, SAFE_WITHDRAWAL_RATE } from '../data/types';
 import type { TierKey, CityData } from '../data/types';
 
 const tiers: TierKey[] = ['1M', '2M', '3M', '5M', '10M'];
@@ -280,7 +280,7 @@ const cityDataJSON = JSON.stringify(cityDataForClient);
   }
 </style>
 
-<script define:vars={{ cityDataJSON }}>
+<script define:vars={{ cityDataJSON, SAFE_WITHDRAWAL_RATE }}>
   const cityData = JSON.parse(cityDataJSON);
   const cityMap = {};
   cityData.forEach((c) => { cityMap[c.slug] = c; });
@@ -315,7 +315,7 @@ const cityDataJSON = JSON.stringify(cityDataForClient);
   if (nwParam) {
     personalNW = parseInt(nwParam, 10);
     if (!isNaN(personalNW) && personalNW > 0) {
-      personalBudget = Math.round((personalNW * 0.04) / 12);
+      personalBudget = Math.round((personalNW * SAFE_WITHDRAWAL_RATE) / 12);
       // Find closest tier
       let minDiff = Infinity;
       for (const tv of tierValues) {
@@ -467,6 +467,18 @@ const cityDataJSON = JSON.stringify(cityDataForClient);
       return;
     }
 
+    // Prevent comparing a city to itself
+    if (slugA === slugB) {
+      resultSection.classList.remove('hidden');
+      tableContainer.innerHTML = `
+        <div class="bg-amber-50 border border-amber-200 rounded-2xl p-6 text-center">
+          <p class="text-amber-800 font-semibold">Select two different cities to compare.</p>
+        </div>
+      `;
+      lifestyleContainer.innerHTML = '';
+      return;
+    }
+
     const a = cityMap[slugA];
     const b = cityMap[slugB];
     if (!a || !b) return;
@@ -483,6 +495,14 @@ const cityDataJSON = JSON.stringify(cityDataForClient);
     const tierKeyForData = activeTier === 'yours' ? personalClosestTier : activeTier;
     const ta = { ...a.tiers[tierKeyForData] };
     const tb = { ...b.tiers[tierKeyForData] };
+
+    // Ensure totalSpend is a valid number (compute from categories if missing)
+    if (typeof ta.totalSpend !== 'number' || isNaN(ta.totalSpend)) {
+      ta.totalSpend = (ta.housing || 0) + (ta.dining || 0) + (ta.groceries || 0) + (ta.healthcare || 0) + (ta.transportation || 0) + (ta.entertainment || 0) + (ta.utilities || 0) + (ta.domesticHelp || 0) + (ta.luxuryExtras || 0);
+    }
+    if (typeof tb.totalSpend !== 'number' || isNaN(tb.totalSpend)) {
+      tb.totalSpend = (tb.housing || 0) + (tb.dining || 0) + (tb.groceries || 0) + (tb.healthcare || 0) + (tb.transportation || 0) + (tb.entertainment || 0) + (tb.utilities || 0) + (tb.domesticHelp || 0) + (tb.luxuryExtras || 0);
+    }
 
     if (activeTier === 'yours' && personalBudget !== null) {
       ta.monthlyBudget = personalBudget;

@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import NetWorthInput from '../components/NetWorthInput.astro';
 import { allCities } from '../data/cities/index';
-import { formatCurrency, getTotalSpend, getFireScoreClass, TIER_MONTHLY_BUDGET } from '../data/types';
+import { formatCurrency, getTotalSpend, getFireScoreClass, TIER_MONTHLY_BUDGET, SAFE_WITHDRAWAL_RATE } from '../data/types';
 
 // Pre-compute city cost data for client-side use
 const cityData = allCities.map((city) => {
@@ -194,7 +194,7 @@ const totalCities = allCities.length;
         <div id="summary-surplus-subtitle" class="text-xs text-gray-400 mt-1"></div>
       </div>
       <div class="bg-white rounded-2xl border border-sand-200 p-5 text-center">
-        <div class="text-sm text-gray-500 mb-1">Best Match</div>
+        <div class="text-sm text-gray-500 mb-1">Top Ranked</div>
         <div id="summary-best" class="text-2xl font-bold text-brand-950"></div>
         <div id="summary-best-surplus" class="text-xs text-emerald-600 mt-1"></div>
       </div>
@@ -209,9 +209,9 @@ const totalCities = allCities.length;
         <span class="text-xs font-bold text-gray-500 uppercase tracking-wide shrink-0">Location</span>
         <div class="w-px h-5 bg-sand-200"></div>
         <div class="flex gap-1">
-          <button data-filter="loc" data-value="" class="filter-btn px-3 py-1.5 text-sm font-medium rounded-full">All</button>
-          <button data-filter="loc" data-value="us" class="filter-btn px-3 py-1.5 text-sm font-medium rounded-full">US Only</button>
-          <button data-filter="loc" data-value="intl" class="filter-btn px-3 py-1.5 text-sm font-medium rounded-full">International</button>
+          <button data-filter="loc" data-value="" class="filter-btn px-3 py-2 text-sm font-medium rounded-full">All</button>
+          <button data-filter="loc" data-value="us" class="filter-btn px-3 py-2 text-sm font-medium rounded-full">US Only</button>
+          <button data-filter="loc" data-value="intl" class="filter-btn px-3 py-2 text-sm font-medium rounded-full">International</button>
         </div>
       </div>
 
@@ -220,10 +220,10 @@ const totalCities = allCities.length;
         <span class="text-xs font-bold text-gray-500 uppercase tracking-wide shrink-0">Climate</span>
         <div class="w-px h-5 bg-sand-200"></div>
         <div class="flex gap-1">
-          <button data-filter="climate" data-value="" class="filter-btn px-3 py-1.5 text-sm font-medium rounded-full">Any</button>
-          <button data-filter="climate" data-value="warm" class="filter-btn px-3 py-1.5 text-sm font-medium rounded-full">Warm & Sunny</button>
-          <button data-filter="climate" data-value="mild" class="filter-btn px-3 py-1.5 text-sm font-medium rounded-full">Mild & Temperate</button>
-          <button data-filter="climate" data-value="four" class="filter-btn px-3 py-1.5 text-sm font-medium rounded-full">Four Seasons</button>
+          <button data-filter="climate" data-value="" class="filter-btn px-3 py-2 text-sm font-medium rounded-full">Any</button>
+          <button data-filter="climate" data-value="warm" class="filter-btn px-3 py-2 text-sm font-medium rounded-full">Warm & Sunny</button>
+          <button data-filter="climate" data-value="mild" class="filter-btn px-3 py-2 text-sm font-medium rounded-full">Mild & Temperate</button>
+          <button data-filter="climate" data-value="four" class="filter-btn px-3 py-2 text-sm font-medium rounded-full">Four Seasons</button>
         </div>
       </div>
 
@@ -232,8 +232,8 @@ const totalCities = allCities.length;
         <span class="text-xs font-bold text-gray-500 uppercase tracking-wide shrink-0">English</span>
         <div class="w-px h-5 bg-sand-200"></div>
         <div class="flex gap-1">
-          <button data-filter="eng" data-value="" class="filter-btn px-3 py-1.5 text-sm font-medium rounded-full">Any</button>
-          <button data-filter="eng" data-value="yes" class="filter-btn px-3 py-1.5 text-sm font-medium rounded-full">English Essential</button>
+          <button data-filter="eng" data-value="" class="filter-btn px-3 py-2 text-sm font-medium rounded-full">Any</button>
+          <button data-filter="eng" data-value="yes" class="filter-btn px-3 py-2 text-sm font-medium rounded-full">English Essential</button>
         </div>
       </div>
 
@@ -242,14 +242,14 @@ const totalCities = allCities.length;
         <span class="text-xs font-bold text-gray-500 uppercase tracking-wide shrink-0">Min. Lifestyle</span>
         <div class="w-px h-5 bg-sand-200 shrink-0"></div>
         <div class="flex gap-0 shrink-0" id="lifestyle-filter-pills">
-          <button data-min-lifestyle="budget" data-level="1" class="lifestyle-pill px-2 sm:px-3 py-1.5 text-xs sm:text-sm font-medium rounded-l-full border border-r-0 border-sand-200 cursor-pointer select-none transition-all whitespace-nowrap">Budget</button>
-          <button data-min-lifestyle="comfortable" data-level="2" class="lifestyle-pill px-2 sm:px-3 py-1.5 text-xs sm:text-sm font-medium border border-r-0 border-sand-200 cursor-pointer select-none transition-all whitespace-nowrap">Comfortable</button>
-          <button data-min-lifestyle="premium" data-level="3" class="lifestyle-pill px-2 sm:px-3 py-1.5 text-xs sm:text-sm font-medium border border-r-0 border-sand-200 cursor-pointer select-none transition-all whitespace-nowrap">Premium</button>
-          <button data-min-lifestyle="luxury" data-level="4" class="lifestyle-pill px-2 sm:px-3 py-1.5 text-xs sm:text-sm font-medium rounded-r-full border border-sand-200 cursor-pointer select-none transition-all whitespace-nowrap">Luxury</button>
+          <button data-min-lifestyle="budget" data-level="1" class="lifestyle-pill px-2 sm:px-3 py-2 text-xs sm:text-sm font-medium rounded-l-full border border-r-0 border-sand-200 cursor-pointer select-none transition-all whitespace-nowrap">Budget</button>
+          <button data-min-lifestyle="comfortable" data-level="2" class="lifestyle-pill px-2 sm:px-3 py-2 text-xs sm:text-sm font-medium border border-r-0 border-sand-200 cursor-pointer select-none transition-all whitespace-nowrap">Comfortable</button>
+          <button data-min-lifestyle="premium" data-level="3" class="lifestyle-pill px-2 sm:px-3 py-2 text-xs sm:text-sm font-medium border border-r-0 border-sand-200 cursor-pointer select-none transition-all whitespace-nowrap">Premium</button>
+          <button data-min-lifestyle="luxury" data-level="4" class="lifestyle-pill px-2 sm:px-3 py-2 text-xs sm:text-sm font-medium rounded-r-full border border-sand-200 cursor-pointer select-none transition-all whitespace-nowrap">Luxury</button>
         </div>
       </div>
     </div>
-    <p id="lifestyle-filter-desc" class="container-wide text-xs text-gray-400 mt-2"></p>
+    <p id="lifestyle-filter-desc" class="container-wide text-xs text-gray-400 mt-2">Essentials covered — modest apartment, local food, public transit, and basic healthcare.</p>
   </section>
 
   <!-- City Table (filtered results) -->
@@ -275,8 +275,8 @@ const totalCities = allCities.length;
         <table class="w-full text-sm">
           <thead id="city-rankings-head">
             <tr class="border-b-2 border-sand-200">
-              <th class="text-left py-3 px-4 font-semibold text-gray-600">#</th>
-              <th class="text-left py-3 px-4 font-semibold text-gray-600">City</th>
+              <th class="text-left py-3 px-4 font-semibold text-gray-600 hidden sm:table-cell">#</th>
+              <th class="text-left py-3 px-4 font-semibold text-gray-600 sticky left-0 bg-white z-10">City</th>
               <th class="text-right py-3 px-4 font-semibold text-gray-600">FIRE Score</th>
               <th class="text-right py-3 px-4 font-semibold text-gray-600">Lifestyle</th>
               <th class="text-right py-3 px-4 font-semibold text-gray-600">Total Spend</th>
@@ -306,7 +306,7 @@ const totalCities = allCities.length;
   </section>
 </Layout>
 
-<script define:vars={{ cityData, totalCities }}>
+<script define:vars={{ cityData, totalCities, SAFE_WITHDRAWAL_RATE }}>
   function initCalculator() {
     const params = new URLSearchParams(window.location.search);
 
@@ -448,6 +448,17 @@ const totalCities = allCities.length;
       }).sort((a, b) => b.compositeScore - a.compositeScore);
     }
 
+    // ─── Show More button (attached once) ───
+    let visibleCount = 10;
+    let currentRenderFn = null;
+    const showMoreBtnGlobal = document.getElementById('show-more-btn');
+    if (showMoreBtnGlobal) {
+      showMoreBtnGlobal.addEventListener('click', () => {
+        visibleCount += 10;
+        if (currentRenderFn) currentRenderFn();
+      });
+    }
+
     // ─── Render city table rows ───
     function renderRows(ranked, tbody, netWorthForLinks, showConfidence) {
       if (!tbody) return;
@@ -516,8 +527,8 @@ const totalCities = allCities.length;
           : '';
         thead.innerHTML = `
           <tr class="border-b-2 border-sand-200">
-            <th class="text-left py-3 px-4 font-semibold text-gray-600">#</th>
-            <th class="text-left ${thClass}" data-sort="city"${tip('city')}>City${sortArrow('city')}</th>
+            <th class="text-left py-3 px-4 font-semibold text-gray-600 hidden sm:table-cell">#</th>
+            <th class="text-left sticky left-0 bg-white z-10 ${thClass}" data-sort="city"${tip('city')}>City${sortArrow('city')}</th>
             ${confHeader}
             <th class="text-right ${thClass}" data-sort="fireScore"${tip('fireScore')}>FIRE Score${sortArrow('fireScore')}</th>
             <th class="text-right ${thClass}" data-sort="lifestyle"${tip('lifestyle')}>Lifestyle${sortArrow('lifestyle')}</th>
@@ -532,10 +543,7 @@ const totalCities = allCities.length;
       buildHeader();
 
       const showMoreContainer = document.getElementById('show-more-container');
-      const showMoreBtn = document.getElementById('show-more-btn');
       const showMoreCount = document.getElementById('show-more-count');
-
-      let visibleCount = 10;
 
       const filterParamStr = ['loc', 'climate', 'eng']
         .filter((k) => activeFilters[k])
@@ -579,8 +587,8 @@ const totalCities = allCities.length;
             : '';
 
           tr.innerHTML = `
-            <td class="py-3 px-4 text-gray-400 font-medium">${index + 1}</td>
-            <td class="py-3 px-4">
+            <td class="py-3 px-4 text-gray-400 font-medium hidden sm:table-cell">${index + 1}</td>
+            <td class="py-3 px-4 sticky left-0 bg-white z-10">
               <a href="/cities/${city.slug}?${linkParams}" class="flex items-center gap-2 hover:text-brand-600 transition-colors">
                 <span>${city.emoji}</span>
                 <span class="font-medium">${city.name}</span>
@@ -612,16 +620,8 @@ const totalCities = allCities.length;
         }
       }
 
-      if (showMoreBtn) {
-        // Remove old listeners by cloning
-        const newBtn = showMoreBtn.cloneNode(true);
-        showMoreBtn.parentNode.replaceChild(newBtn, showMoreBtn);
-        newBtn.addEventListener('click', () => {
-          visibleCount += 10;
-          render();
-        });
-      }
-
+      visibleCount = 10;
+      currentRenderFn = render;
       render();
     }
 
@@ -737,12 +737,18 @@ const totalCities = allCities.length;
 
     modeQuickBtn?.addEventListener('click', () => {
       setMode('quick');
+      // Save quickNetWorth before modifying params (nw may not be in URL if we were in FIRE mode)
+      const savedNw = quickNetWorth;
       // Update URL
       const newParams = new URLSearchParams(window.location.search);
       newParams.delete('mode');
       // Remove FIRE params
       for (const k of ['savings', 'contrib', 'return', 'vol', 'yrs', 'duration', 'inflation', 'lifestyle']) {
         newParams.delete(k);
+      }
+      // Re-add nw if we had it stored from a previous quick mode session
+      if (savedNw && !newParams.has('nw')) {
+        newParams.set('nw', String(savedNw));
       }
       const qs = newParams.toString();
       history.replaceState(null, '', '/calculator' + (qs ? '?' + qs : ''));
@@ -833,7 +839,7 @@ const totalCities = allCities.length;
 
       portfolios.sort((a, b) => a - b);
       const median = portfolios[Math.floor(NUM_RUNS / 2)];
-      const monthlyBudget = Math.round(((median * 0.04) + contrib) / 12);
+      const monthlyBudget = Math.round(((median * SAFE_WITHDRAWAL_RATE) + contrib) / 12);
 
       return { portfolios, median, monthlyBudget, contrib, NUM_RUNS };
     }
@@ -902,9 +908,23 @@ const totalCities = allCities.length;
       sim.retireDuration = retireDuration;
       sim.inflationRate = inflationRate;
 
+      // Pre-compute confidence for all cities (once per simulation run)
+      sim.confidenceCache = {};
+      cityData.forEach((city) => {
+        // Use budget tier (1M) as baseline for confidence — the actual tier used
+        // will be determined per filter, but confidence per city/spend is cached by slug+tier
+        for (const tier of lifestyleTiers) {
+          const tierData = city.tiers[tier.key];
+          if (tierData) {
+            const cacheKey = city.slug + '|' + tier.key;
+            const annualSpend = tierData.totalSpend * 12;
+            sim.confidenceCache[cacheKey] = getCityConfidence(sim, annualSpend, annualReturn, volatility, retireDuration, inflationRate);
+          }
+        }
+      });
+
       // Store for re-rendering on filter changes
       lastSimResult = sim;
-
 
       // Update URL params
       params.set('mode', 'fire');
@@ -964,10 +984,10 @@ const totalCities = allCities.length;
       // Filtered for the table (applies lifestyle minimum + location/climate/english)
       const ranked = rankCities(sim.monthlyBudget, lifestyle, filters);
 
-      // Compute per-city confidence
+      // Look up cached confidence (computed once per simulation run)
       ranked.forEach((city) => {
-        const annualSpend = city.totalSpend * 12;
-        city.confidence = getCityConfidence(sim, annualSpend, sim.annualReturn, sim.volatility, sim.retireDuration, sim.inflationRate);
+        const cacheKey = city.slug + '|' + city.usedTier;
+        city.confidence = (sim.confidenceCache && sim.confidenceCache[cacheKey]) || 0;
       });
 
       const noCitiesEl = document.getElementById('fire-no-cities');
@@ -1011,7 +1031,7 @@ const totalCities = allCities.length;
       summaryCards?.classList.remove('hidden');
       filterBar?.classList.remove('hidden');
 
-      const monthlyBudget = Math.round((netWorth * 0.04) / 12);
+      const monthlyBudget = Math.round((netWorth * SAFE_WITHDRAWAL_RATE) / 12);
       const filters = getActiveFilters();
 
       const minLifestyle = activeFilters.lifestyle || 'budget';
@@ -1120,6 +1140,20 @@ const totalCities = allCities.length;
         sim.volatility = volatility;
         sim.retireDuration = retireDuration;
         sim.inflationRate = inflationRate;
+
+        // Pre-compute confidence for all cities (once per simulation run)
+        sim.confidenceCache = {};
+        cityData.forEach((city) => {
+          for (const tier of lifestyleTiers) {
+            const tierData = city.tiers[tier.key];
+            if (tierData) {
+              const cacheKey = city.slug + '|' + tier.key;
+              const annualSpend = tierData.totalSpend * 12;
+              sim.confidenceCache[cacheKey] = getCityConfidence(sim, annualSpend, annualReturn, volatility, retireDuration, inflationRate);
+            }
+          }
+        });
+
         lastSimResult = sim;
         displayFireResults(sim);
       }

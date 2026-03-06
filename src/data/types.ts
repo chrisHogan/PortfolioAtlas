@@ -83,6 +83,8 @@ export const TIER_LABELS: Record<TierKey, string> = {
   '10M': '$10 Million',
 };
 
+export const SAFE_WITHDRAWAL_RATE = 0.04;
+
 export const TIER_MONTHLY_BUDGET: Record<TierKey, number> = {
   '1M': 3333,
   '2M': 6667,

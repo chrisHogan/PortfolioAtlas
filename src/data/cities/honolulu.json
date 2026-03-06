@@ -28,7 +28,7 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Small studio in Kalihi, Salt Lake, or a shared housing arrangement in town",
-        "monthlyCost": 1700
+        "monthlyCost": 1600
       },
       "dining": {
         "description": "Plate lunches and poke bowls 2-3x/week; mostly cooking at home with rice and fish",
@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "Honolulu on a $1M portfolio is a real stretch. Groceries and housing are among the most expensive in the US since nearly everything is imported. You will live modestly in a small apartment, but the trade-off is daily access to some of the world's most beautiful beaches and hiking trails — all free."
+      "lifestyle": "Honolulu on a $1M portfolio requires discipline. Groceries and housing are among the most expensive in the US since nearly everything is imported. You will live modestly in a small studio or shared arrangement, cook most meals at home, and rely on public transit — but the trade-off is daily access to some of the world's most beautiful beaches and hiking trails, all free."
     },
     "2M": {
       "monthlyBudget": 6667,

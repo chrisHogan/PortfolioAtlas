@@ -91,8 +91,8 @@
         "monthlyCost": 2800
       },
       "dining": {
-        "description": "Fine dining at Burnt Ends, Odette, and Labyrinth mixed with beloved hawker favorites; Singapore's food scene spans Michelin stars to $3 masterpieces",
-        "monthlyCost": 1500
+        "description": "Regular restaurant dining at neighborhood gems and popular spots like Burnt Ends and Labyrinth, mixed with beloved hawker favorites; nice meals out several times a week without fine dining every night",
+        "monthlyCost": 1200
       },
       "groceries": {
         "monthlyCost": 600
