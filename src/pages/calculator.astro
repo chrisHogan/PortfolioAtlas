@@ -202,9 +202,10 @@ const totalCities = allCities.length;
 
     <!-- Lifestyle Reach Breakdown -->
     <div id="lifestyle-reach" class="mt-4 bg-white rounded-2xl border border-sand-200 p-5 hidden">
-      <div class="text-sm font-semibold text-gray-700 mb-3">Your Lifestyle Reach</div>
+      <div id="lifestyle-reach-header" class="text-sm font-semibold text-gray-700 mb-1"></div>
+      <p id="lifestyle-reach-desc" class="text-xs text-gray-400 mb-3"></p>
       <div class="space-y-2" id="lifestyle-reach-bars"></div>
-      <p class="text-xs text-gray-400 mt-3">Percentage of cities where your budget covers each lifestyle level.</p>
+      <div id="lifestyle-reach-cta" class="mt-4 text-center"></div>
     </div>
   </section>
 
@@ -433,9 +434,11 @@ const totalCities = allCities.length;
     function renderLifestyleReach(monthlyBudget) {
       const container = document.getElementById('lifestyle-reach');
       const barsEl = document.getElementById('lifestyle-reach-bars');
+      const headerEl = document.getElementById('lifestyle-reach-header');
+      const descEl = document.getElementById('lifestyle-reach-desc');
+      const ctaEl = document.getElementById('lifestyle-reach-cta');
       if (!container || !barsEl) return;
 
-      // Count how many cities qualify at each lifestyle level minimum
       const levels = [
         { key: '1M', label: 'Budget', color: 'bg-gray-400' },
         { key: '3M', label: 'Comfortable', color: 'bg-brand-400' },
@@ -452,6 +455,27 @@ const totalCities = allCities.length;
         return { ...level, count, pct: total > 0 ? Math.round((count / total) * 100) : 0 };
       });
 
+      const budgetCount = counts[0].count;
+
+      // Header and description based on affordability
+      if (headerEl) {
+        if (budgetCount === 0) {
+          headerEl.textContent = 'You\u2019re not quite there yet';
+        } else {
+          headerEl.textContent = 'Your Retirement Reach';
+        }
+      }
+
+      if (descEl) {
+        if (budgetCount === 0) {
+          descEl.textContent = 'Your current portfolio doesn\u2019t cover the cost of living in any of our ' + total + ' cities. Keep saving and investing \u2014 you\u2019re building toward FIRE.';
+        } else if (budgetCount < 10) {
+          descEl.textContent = 'You can retire in a handful of cities today. Increasing your savings or extending your timeline will unlock more options.';
+        } else {
+          descEl.textContent = 'Here\u2019s how your portfolio stacks up across 100+ of the top FIRE destinations worldwide.';
+        }
+      }
+
       barsEl.innerHTML = counts.map((l) =>
         `<div class="flex items-center gap-3">
           <span class="text-xs font-medium text-gray-600 w-24 shrink-0">${l.label}</span>
@@ -461,6 +485,15 @@ const totalCities = allCities.length;
           <span class="text-xs font-bold text-gray-700 w-16 text-right">${l.pct}% <span class="font-normal text-gray-400">(${l.count})</span></span>
         </div>`
       ).join('');
+
+      // CTA below the chart
+      if (ctaEl) {
+        if (budgetCount === 0) {
+          ctaEl.innerHTML = '<p class="text-sm text-gray-500">Try increasing your savings, adding annual contributions, or extending your timeline in the <strong>FIRE Planner</strong> above to see what\u2019s possible.</p>';
+        } else {
+          ctaEl.innerHTML = '<p class="text-base font-semibold text-brand-700">Explore your retirement options below \u2193</p>';
+        }
+      }
 
       container.classList.remove('hidden');
     }
