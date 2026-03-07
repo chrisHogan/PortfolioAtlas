@@ -107,10 +107,13 @@ const orgLd = {
     const regionSlug = region.toLowerCase().replace(/\s+/g, '-');
     return (
       <section id={regionSlug} class="container-wide py-12">
-        <div class="flex items-center gap-4 mb-8">
-          <h2 class="font-serif text-2xl font-bold text-brand-950">{region}</h2>
-          <div class="flex-1 h-px bg-sand-200"></div>
-          <span class="text-sm text-gray-500 font-medium">{cities.length} cities</span>
+        <div class="mb-8">
+          <div class="flex items-center gap-4">
+            <h2 class="font-serif text-2xl font-bold text-brand-950">{region}</h2>
+            <div class="flex-1 h-px bg-sand-200"></div>
+            <span class="text-sm text-gray-500 font-medium">{cities.length} cities</span>
+          </div>
+          <p class="text-sm text-gray-500 mt-1">Top-rated FIRE destinations in {region}</p>
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
