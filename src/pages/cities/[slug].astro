@@ -56,6 +56,8 @@ const placeLd = {
   },
 };
 
+const isDomestic = city.country === 'United States';
+
 const faqQuestions = [
   {
     question: `What is the cost of living in ${city.name}, ${city.country} for retirees?`,
@@ -66,21 +68,21 @@ const faqQuestions = [
     answer: `Housing in ${city.name} ranges from ${formatCurrency(tier1M.housing.monthlyCost)}/month to ${formatCurrency(tier3M.housing.monthlyCost)}/month depending on lifestyle level. At higher portfolio levels ($5M+), luxury options are available from ${formatCurrency(city.tiers['5M'].housing.monthlyCost)}/month.`,
   },
   {
-    question: `What is healthcare like in ${city.name} for expats and retirees?`,
+    question: `What is healthcare like in ${city.name} for ${isDomestic ? 'retirees' : 'expats and retirees'}?`,
     answer: `Healthcare in ${city.name} costs approximately ${formatCurrency(tier1M.healthcare.monthlyCost)} to ${formatCurrency(tier3M.healthcare.monthlyCost)}/month depending on coverage level. ${tier1M.healthcare.description}.`,
   },
-  {
+  ...(!isDomestic ? [{
     question: `Do I need a visa to retire in ${city.name}, ${city.country}?`,
     answer: city.quickFacts.visa,
-  },
+  }] : []),
   {
     question: `What is the weather like in ${city.name}?`,
     answer: `${city.quickFacts.climate} The average temperature is ${city.quickFacts.averageTemp}.`,
   },
-  {
+  ...(!isDomestic ? [{
     question: `Is ${city.name} English-friendly?`,
     answer: `English proficiency in ${city.name} is rated "${city.quickFacts.englishFriendly}." The primary language is ${city.quickFacts.language}.`,
-  },
+  }] : []),
   {
     question: `How safe is ${city.name} for retirees?`,
     answer: city.quickFacts.safetyRating,
@@ -170,11 +172,12 @@ const jsonLd = [breadcrumbLd, placeLd, faqLd];
             if (!header) return;
             header.addEventListener('click', () => {
               const isOpen = accordion.getAttribute('data-open') === 'true';
-              // If already open, do nothing — keep it visible
-              if (isOpen) return;
-              // Close all others, then open this one
+              // Close all others
               accordions.forEach((el) => closeAccordion(el));
-              openAccordion(accordion);
+              // Toggle: if it was closed, open it; if it was open, leave it closed
+              if (!isOpen) {
+                openAccordion(accordion);
+              }
               // Update nav pills
               const activeTier = accordion.getAttribute('data-open') === 'true'
                 ? accordion.getAttribute('data-tier') || ''

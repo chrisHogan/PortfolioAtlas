@@ -42,12 +42,17 @@ const scoreClass = getFireScoreClass(city.fireScore);
         </p>
       </div>
 
-      <div class="flex flex-col items-center gap-2">
-        <div class={`fire-score w-20 h-20 text-2xl ${scoreClass}`}>
+      <a href="/about#fire-score" class="group relative flex flex-col items-center gap-2 cursor-pointer" title="Learn how FIRE Scores are calculated">
+        <div class={`fire-score w-20 h-20 text-2xl ${scoreClass} group-hover:scale-110 transition-transform duration-200`}>
           {city.fireScore.toFixed(1)}
         </div>
-        <span class="text-sm text-brand-300 font-medium">FIRE Score</span>
-      </div>
+        <span class="text-sm text-brand-300 font-medium group-hover:text-white transition-colors text-center underline decoration-dotted decoration-brand-400/50 underline-offset-2 group-hover:decoration-white/50">
+          FIRE Score
+        </span>
+        <span class="absolute -bottom-10 left-1/2 -translate-x-1/2 whitespace-nowrap text-xs bg-white text-gray-700 px-3 py-1.5 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+          Based on safety, healthcare, infrastructure &amp; expat friendliness
+        </span>
+      </a>
     </div>
 
     <p class="mt-8 text-sand-400 max-w-3xl leading-relaxed">
