@@ -1,0 +1,54 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import BlogCard from '../../components/BlogCard.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('blog')).sort(
+  (a, b) => b.data.date.getTime() - a.data.date.getTime()
+);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Blog',
+  'name': 'PortfolioAtlas Blog',
+  'description': 'FIRE strategy guides, city spotlights, and retirement planning insights for location-independent living.',
+  'url': 'https://portfolioatlas.org/blog',
+};
+---
+
+<Layout
+  title="Blog"
+  description="FIRE strategy guides, city spotlights, and retirement planning insights. Learn where your portfolio goes the furthest."
+  jsonLd={jsonLd}
+>
+  <!-- Hero -->
+  <section class="bg-brand-950 text-white py-16">
+    <div class="container-wide text-center">
+      <h1 class="font-serif text-4xl md:text-5xl font-bold mb-4">
+        The FIRE Atlas Blog
+      </h1>
+      <p class="text-lg text-sand-300 max-w-2xl mx-auto">
+        Strategy guides, city deep-dives, and insights to help you plan your ideal FIRE lifestyle anywhere in the world.
+      </p>
+    </div>
+  </section>
+
+  <!-- Posts Grid -->
+  <section class="container-wide py-12">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {posts.map((post) => (
+        <BlogCard
+          title={post.data.title}
+          description={post.data.description}
+          date={post.data.date}
+          tags={post.data.tags}
+          slug={post.slug}
+        />
+      ))}
+    </div>
+
+    {posts.length === 0 && (
+      <p class="text-center text-gray-500 py-12">No posts yet. Check back soon!</p>
+    )}
+  </section>
+</Layout>

@@ -1,0 +1,119 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+
+const formattedDate = post.data.date.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+
+const siteUrl = 'https://portfolioatlas.org';
+const pageUrl = `${siteUrl}/blog/${post.slug}`;
+
+const articleLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  'headline': post.data.title,
+  'description': post.data.description,
+  'datePublished': post.data.date.toISOString(),
+  'author': {
+    '@type': 'Organization',
+    'name': 'PortfolioAtlas',
+    'url': siteUrl,
+  },
+  'publisher': {
+    '@type': 'Organization',
+    'name': 'PortfolioAtlas',
+    'url': siteUrl,
+  },
+  'mainEntityOfPage': {
+    '@type': 'WebPage',
+    '@id': pageUrl,
+  },
+  'url': pageUrl,
+};
+
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  'itemListElement': [
+    { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': siteUrl },
+    { '@type': 'ListItem', 'position': 2, 'name': 'Blog', 'item': `${siteUrl}/blog` },
+    { '@type': 'ListItem', 'position': 3, 'name': post.data.title, 'item': pageUrl },
+  ],
+};
+---
+
+<Layout
+  title={post.data.title}
+  description={post.data.description}
+  jsonLd={[articleLd, breadcrumbLd]}
+>
+  <article class="py-12">
+    <div class="container-narrow">
+      <!-- Breadcrumb -->
+      <nav class="text-sm text-gray-500 mb-8" aria-label="Breadcrumb">
+        <ol class="flex items-center gap-2">
+          <li><a href="/" class="hover:text-brand-600 transition-colors">Home</a></li>
+          <li class="text-gray-400">/</li>
+          <li><a href="/blog" class="hover:text-brand-600 transition-colors">Blog</a></li>
+          <li class="text-gray-400">/</li>
+          <li class="text-gray-700 truncate max-w-[200px]">{post.data.title}</li>
+        </ol>
+      </nav>
+
+      <!-- Post Header -->
+      <header class="mb-10">
+        <h1 class="font-serif text-3xl md:text-4xl font-bold text-brand-950 mb-4">
+          {post.data.title}
+        </h1>
+        <div class="flex flex-wrap items-center gap-4 text-sm text-gray-500">
+          <time datetime={post.data.date.toISOString().split('T')[0]}>{formattedDate}</time>
+          <div class="flex flex-wrap gap-2">
+            {post.data.tags.map((tag) => (
+              <span class="text-xs font-medium text-brand-600 bg-brand-50 px-3 py-1 rounded-full">
+                {tag}
+              </span>
+            ))}
+          </div>
+        </div>
+      </header>
+
+      <!-- Post Content -->
+      <div class="blog-prose prose prose-lg max-w-none prose-headings:font-serif prose-headings:text-brand-950 prose-a:text-brand-600 hover:prose-a:text-brand-700 prose-img:rounded-xl">
+        <Content />
+      </div>
+
+      <!-- CTA -->
+      <div class="mt-12 p-6 bg-brand-50 rounded-2xl border border-brand-100">
+        <h3 class="font-serif font-bold text-lg text-brand-950 mb-2">Find Your FIRE Destination</h3>
+        <p class="text-sm text-gray-600 mb-4">
+          Use our tools to discover where your portfolio goes the furthest.
+        </p>
+        <div class="flex flex-wrap gap-3">
+          <a href="/calculator" class="inline-flex items-center px-4 py-2 bg-brand-600 text-white text-sm font-medium rounded-lg hover:bg-brand-700 transition-colors">
+            FIRE Calculator
+          </a>
+          <a href="/compare" class="inline-flex items-center px-4 py-2 bg-white text-brand-600 text-sm font-medium rounded-lg border border-brand-200 hover:bg-brand-50 transition-colors">
+            Compare Cities
+          </a>
+          <a href="/" class="inline-flex items-center px-4 py-2 bg-white text-brand-600 text-sm font-medium rounded-lg border border-brand-200 hover:bg-brand-50 transition-colors">
+            Browse Destinations
+          </a>
+        </div>
+      </div>
+    </div>
+  </article>
+</Layout>
