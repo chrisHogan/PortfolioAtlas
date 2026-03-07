@@ -1,6 +1,6 @@
 ---
 title: "Best Cities to Retire on $1 Million"
-description: "Discover where a $1M investment portfolio goes the furthest. We break down the 4% rule, monthly budgets, and highlight 10 cities across the globe where you can retire comfortably on a million-dollar nest egg."
+description: "Discover where a $1M portfolio goes furthest. We break down the 4% rule and highlight 10 cities where you can retire comfortably on a million dollars."
 date: 2026-03-06
 tags: ["fire-strategy", "budget", "retirement"]
 ---
@@ -98,6 +98,6 @@ With $1 million and the 4% rule, you have $3,333/month to work with. In at least
 
 ## What's Next?
 
-Use our [FIRE Calculator](/calculator) to model your personal numbers across any portfolio size, or [compare cities side-by-side](/compare) to see how these destinations stack up on the metrics that matter to you.
+Use our [FIRE Calculator](/) to model your personal numbers across any portfolio size, or [compare cities side-by-side](/compare) to see how these destinations stack up on the metrics that matter to you.
 
 Want a deeper look at a specific city? Start with our spotlight on [why Bangkok is a top FIRE destination](/blog/why-bangkok-is-a-top-fire-destination).

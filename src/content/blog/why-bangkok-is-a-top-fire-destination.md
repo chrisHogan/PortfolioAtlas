@@ -1,6 +1,6 @@
 ---
 title: "Why Bangkok Is a Top FIRE Destination"
-description: "A deep dive into Bangkok as a FIRE retirement destination: cost of living breakdown, world-class healthcare, visa options, expat community, and what daily life actually looks like for retirees."
+description: "Bangkok as a FIRE retirement destination: cost of living breakdown, world-class healthcare, visa options, expat community, and daily life for retirees."
 date: 2026-02-20
 tags: ["city-spotlight", "southeast-asia", "thailand"]
 ---
@@ -157,6 +157,6 @@ Bangkok earns strong marks across every dimension on PortfolioAtlas:
 
 ---
 
-Ready to explore Bangkok's full cost breakdown across different portfolio sizes? [View Bangkok's city page](/cities/bangkok) for a detailed tier-by-tier analysis, or use the [FIRE Calculator](/calculator) to see exactly how your specific portfolio would perform.
+Ready to explore Bangkok's full cost breakdown across different portfolio sizes? [View Bangkok's city page](/cities/bangkok) for a detailed tier-by-tier analysis, or use the [FIRE Calculator](/) to see exactly how your specific portfolio would perform.
 
 Looking for more cities like this? Read our guide to the [best cities to retire on $1 million](/blog/best-cities-to-retire-on-1-million).

@@ -7,7 +7,7 @@ const { compact = false } = Astro.props;
 ---
 
 <div class="net-worth-input" data-compact={compact ? 'true' : undefined}>
-  <form id="nw-form" action="/calculator" method="GET" class={compact ? '' : 'max-w-lg mx-auto'}>
+  <form id="nw-form" action="/" method="GET" class={compact ? '' : 'max-w-lg mx-auto'}>
     <label for="nw-input" class={`block font-semibold mb-2 ${compact ? 'text-sm text-gray-700' : 'text-lg text-white'}`}>
       Enter your portfolio value
     </label>
@@ -123,7 +123,7 @@ const { compact = false } = Astro.props;
           const val = params.get(key);
           if (val) filterParams.set(key, val);
         }
-        window.location.href = `/calculator?${filterParams.toString()}`;
+        window.location.href = `/?${filterParams.toString()}`;
       }
     });
 
@@ -137,9 +137,15 @@ const { compact = false } = Astro.props;
       });
     });
 
-    // Pre-fill from URL if on calculator page
+    // Pre-fill from URL or localStorage
     const params = new URLSearchParams(window.location.search);
-    const nw = params.get('nw');
+    let nw = params.get('nw');
+    if (!nw) {
+      try {
+        const stored = localStorage.getItem('pa_calc');
+        if (stored) { const s = JSON.parse(stored); if (s && s.nw) nw = String(s.nw); }
+      } catch (e) {}
+    }
     if (nw) {
       const val = parseInt(nw, 10);
       if (val > 0) {

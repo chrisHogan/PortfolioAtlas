@@ -10,6 +10,7 @@ interface Props {
   ogImage?: string;
   canonicalUrl?: string;
   jsonLd?: object | object[];
+  noindex?: boolean;
 }
 
 const totalCities = allCities.length;
@@ -20,6 +21,7 @@ const {
   ogImage = '/og-default.png',
   canonicalUrl,
   jsonLd,
+  noindex = false,
 } = Astro.props;
 
 const siteTitle = title === 'Home' ? 'Where Can I Retire With $1M–$10M? | PortfolioAtlas' : `${title} | PortfolioAtlas`;
@@ -42,6 +44,7 @@ const jsonLdScripts = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
     <meta name="generator" content={Astro.generator} />
+    {noindex && <meta name="robots" content="noindex" />}
 
     <!-- Open Graph -->
     <meta property="og:title" content={siteTitle} />

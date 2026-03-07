@@ -1,0 +1,2 @@
+# Redirect old calculator URL to homepage (calculator is now the homepage)
+/calculator  /  301

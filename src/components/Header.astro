@@ -23,15 +23,6 @@ const currentPath = Astro.url.pathname;
           currentPath === '/' ? 'text-brand-600' : 'text-gray-600 hover:text-brand-600',
         ]}
       >
-        Destinations
-      </a>
-      <a
-        href="/calculator"
-        class:list={[
-          'text-sm font-medium transition-colors',
-          currentPath.startsWith('/calculator') ? 'text-brand-600' : 'text-gray-600 hover:text-brand-600',
-        ]}
-      >
         Calculator
       </a>
       <a
@@ -84,8 +75,7 @@ const currentPath = Astro.url.pathname;
   <!-- Mobile menu -->
   <div id="mobile-menu" class="hidden md:hidden border-t border-sand-200 bg-white">
     <div class="container-wide py-4 flex flex-col gap-3">
-      <a href="/" class="text-sm font-medium text-gray-600 hover:text-brand-600 py-1">Destinations</a>
-      <a href="/calculator" class="text-sm font-medium text-gray-600 hover:text-brand-600 py-1">Calculator</a>
+      <a href="/" class="text-sm font-medium text-gray-600 hover:text-brand-600 py-1">Calculator</a>
       <a href="/compare" class="text-sm font-medium text-gray-600 hover:text-brand-600 py-1">Compare</a>
       <a href="/blog" class="text-sm font-medium text-gray-600 hover:text-brand-600 py-1">Blog</a>
       <a href="/about" class="text-sm font-medium text-gray-600 hover:text-brand-600 py-1">About</a>
@@ -100,10 +90,16 @@ const currentPath = Astro.url.pathname;
     menu?.classList.toggle('hidden');
   });
 
-  // Show net worth badge if ?nw= is in URL
+  // Show net worth badge from URL or localStorage
   (function() {
     const params = new URLSearchParams(window.location.search);
-    const nw = params.get('nw');
+    let nw = params.get('nw');
+    if (!nw) {
+      try {
+        const stored = localStorage.getItem('pa_calc');
+        if (stored) { const s = JSON.parse(stored); if (s && s.nw) nw = String(s.nw); }
+      } catch (e) {}
+    }
     if (!nw) return;
     const val = parseInt(nw, 10);
     if (isNaN(val) || val <= 0) return;

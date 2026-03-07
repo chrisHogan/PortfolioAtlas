@@ -1,10 +1,20 @@
 ---
 import Layout from '../layouts/Layout.astro';
+
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  'itemListElement': [
+    { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': 'https://portfolioatlas.org' },
+    { '@type': 'ListItem', 'position': 2, 'name': 'About', 'item': 'https://portfolioatlas.org/about' },
+  ],
+};
 ---
 
 <Layout
   title="About"
   description="Learn about PortfolioAtlas — how we calculate FIRE lifestyle costs and why we built this resource."
+  jsonLd={breadcrumbLd}
 >
   <div class="container-narrow py-16 md:py-24">
     <div class="max-w-3xl mx-auto">
