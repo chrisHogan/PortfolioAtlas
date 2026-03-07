@@ -1,5 +1,5 @@
 ---
-const currentPath = Astro.url.pathname;
+const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
 ---
 
 <header class="bg-white/80 backdrop-blur-md border-b border-sand-200 sticky top-0 z-50">
@@ -75,10 +75,10 @@ const currentPath = Astro.url.pathname;
   <!-- Mobile menu -->
   <div id="mobile-menu" class="hidden md:hidden border-t border-sand-200 bg-white">
     <div class="container-wide py-4 flex flex-col gap-3">
-      <a href="/" class="text-sm font-medium text-gray-600 hover:text-brand-600 py-1">Calculator</a>
-      <a href="/compare" class="text-sm font-medium text-gray-600 hover:text-brand-600 py-1">Compare</a>
-      <a href="/blog" class="text-sm font-medium text-gray-600 hover:text-brand-600 py-1">Blog</a>
-      <a href="/about" class="text-sm font-medium text-gray-600 hover:text-brand-600 py-1">About</a>
+      <a href="/" class:list={['text-sm font-medium py-1', currentPath === '/' ? 'text-brand-600' : 'text-gray-600 hover:text-brand-600']}>Calculator</a>
+      <a href="/compare" class:list={['text-sm font-medium py-1', currentPath === '/compare' ? 'text-brand-600' : 'text-gray-600 hover:text-brand-600']}>Compare</a>
+      <a href="/blog" class:list={['text-sm font-medium py-1', currentPath.startsWith('/blog') ? 'text-brand-600' : 'text-gray-600 hover:text-brand-600']}>Blog</a>
+      <a href="/about" class:list={['text-sm font-medium py-1', currentPath === '/about' ? 'text-brand-600' : 'text-gray-600 hover:text-brand-600']}>About</a>
     </div>
   </div>
 </header>
