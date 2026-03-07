@@ -70,6 +70,35 @@ import Layout from '../layouts/Layout.astro';
           how good is it to actually live there?"
         </p>
 
+        <h2 id="monte-carlo" class="font-serif text-2xl font-bold text-brand-950 mt-12 mb-4 scroll-mt-24">Monte Carlo Simulation</h2>
+        <p>
+          The <strong>FIRE Planner</strong> uses a Monte Carlo simulation to stress-test your
+          retirement plan against real-world uncertainty. Instead of assuming a single fixed return
+          every year, we run <strong>2,000 randomized scenarios</strong> where annual market returns
+          vary based on the expected return and volatility you set.
+        </p>
+        <p>
+          For each scenario, we simulate two phases:
+        </p>
+        <ol>
+          <li><strong>Accumulation</strong> — your portfolio grows (or shrinks) each year with
+          random market returns plus your annual contributions, until you reach retirement.</li>
+          <li><strong>Withdrawal</strong> — you draw down living expenses (adjusted for inflation
+          each year) while the portfolio continues to experience random market returns. If the
+          portfolio hits zero before the end of your retirement duration, that scenario "fails."</li>
+        </ol>
+        <p>
+          The <strong>Success Rate</strong> is the percentage of scenarios where your portfolio
+          survived the full retirement duration. For example, 90% means your money lasted in 1,800
+          out of 2,000 simulated futures.
+        </p>
+        <p>
+          Because each scenario is randomly generated, reaching exactly 100% is nearly impossible —
+          there will almost always be a few extreme worst-case sequences that deplete the portfolio.
+          A success rate of <strong>90–95% is considered very conservative</strong> and is widely
+          used as a planning target in the FIRE community.
+        </p>
+
         <h2 class="font-serif text-2xl font-bold text-brand-950 mt-12 mb-4">Important Disclaimers</h2>
         <p>
           The cost data on PortfolioAtlas is researched and estimated for informational purposes

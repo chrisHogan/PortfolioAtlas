@@ -155,6 +155,10 @@ const calcLd = {
         <button id="fire-run-btn" type="button" class="px-10 py-3 bg-brand-600 text-white font-semibold rounded-xl hover:bg-brand-700 transition-colors text-lg">
           Run Simulation
         </button>
+        <p class="text-xs text-gray-400 mt-3 max-w-md mx-auto">
+          Runs a <a href="/about#monte-carlo" class="text-brand-600 hover:underline">Monte Carlo simulation</a>
+          with 2,000 randomized market scenarios to estimate your Success Rate — how likely your portfolio is to last through retirement.
+        </p>
       </div>
     </div>
   </section>
@@ -207,6 +211,7 @@ const calcLd = {
       </div>
       <div class="bg-white rounded-2xl border border-sand-200 p-5 text-center">
         <div class="text-sm text-gray-500 mb-1">Cities You Can FIRE In</div>
+        <div class="text-[10px] text-gray-400 -mt-0.5 mb-0.5">at any lifestyle level</div>
         <div id="summary-surplus-count" class="text-2xl font-bold text-emerald-600"></div>
         <div id="summary-surplus-subtitle" class="text-xs text-gray-400 mt-1"></div>
       </div>
@@ -230,51 +235,64 @@ const calcLd = {
   <section id="filter-bar" class="container-wide py-4 hidden">
     <div class="flex flex-wrap items-stretch gap-3">
       <!-- Location Filter -->
-      <div class="bg-white rounded-xl border border-sand-200 px-4 py-3 flex items-center gap-3">
+      <div class="bg-white rounded-xl border border-sand-200 px-4 py-3 flex items-center gap-3 overflow-x-auto">
         <span class="text-xs font-bold text-gray-500 uppercase tracking-wide shrink-0">Location</span>
-        <div class="w-px h-5 bg-sand-200"></div>
-        <div class="flex gap-1">
-          <button data-filter="loc" data-value="" class="filter-btn px-3 py-2 text-sm font-medium rounded-full">All</button>
-          <button data-filter="loc" data-value="us" class="filter-btn px-3 py-2 text-sm font-medium rounded-full">US Only</button>
-          <button data-filter="loc" data-value="intl" class="filter-btn px-3 py-2 text-sm font-medium rounded-full">International</button>
+        <div class="w-px h-5 bg-sand-200 shrink-0"></div>
+        <div class="flex gap-1 shrink-0">
+          <button data-filter="loc" data-value="" class="filter-btn px-3 py-2 text-sm font-medium rounded-full whitespace-nowrap">All</button>
+          <button data-filter="loc" data-value="us" class="filter-btn px-3 py-2 text-sm font-medium rounded-full whitespace-nowrap">US Only</button>
+          <button data-filter="loc" data-value="intl" class="filter-btn px-3 py-2 text-sm font-medium rounded-full whitespace-nowrap">International</button>
         </div>
       </div>
 
       <!-- Climate Filter -->
-      <div class="bg-white rounded-xl border border-sand-200 px-4 py-3 flex items-center gap-3">
+      <div class="bg-white rounded-xl border border-sand-200 px-4 py-3 flex items-center gap-3 overflow-x-auto">
         <span class="text-xs font-bold text-gray-500 uppercase tracking-wide shrink-0">Climate</span>
-        <div class="w-px h-5 bg-sand-200"></div>
-        <div class="flex gap-1">
-          <button data-filter="climate" data-value="" class="filter-btn px-3 py-2 text-sm font-medium rounded-full">Any</button>
-          <button data-filter="climate" data-value="warm" class="filter-btn px-3 py-2 text-sm font-medium rounded-full">Warm & Sunny</button>
-          <button data-filter="climate" data-value="mild" class="filter-btn px-3 py-2 text-sm font-medium rounded-full">Mild & Temperate</button>
-          <button data-filter="climate" data-value="four" class="filter-btn px-3 py-2 text-sm font-medium rounded-full">Four Seasons</button>
+        <div class="w-px h-5 bg-sand-200 shrink-0"></div>
+        <div class="flex gap-1 shrink-0">
+          <button data-filter="climate" data-value="" class="filter-btn px-3 py-2 text-sm font-medium rounded-full whitespace-nowrap">Any</button>
+          <button data-filter="climate" data-value="warm" class="filter-btn px-3 py-2 text-sm font-medium rounded-full whitespace-nowrap">Warm & Sunny</button>
+          <button data-filter="climate" data-value="mild" class="filter-btn px-3 py-2 text-sm font-medium rounded-full whitespace-nowrap">Mild & Temperate</button>
+          <button data-filter="climate" data-value="four" class="filter-btn px-3 py-2 text-sm font-medium rounded-full whitespace-nowrap">Four Seasons</button>
         </div>
       </div>
 
       <!-- English Filter -->
-      <div class="bg-white rounded-xl border border-sand-200 px-4 py-3 flex items-center gap-3">
+      <div class="bg-white rounded-xl border border-sand-200 px-4 py-3 flex items-center gap-3 overflow-x-auto">
         <span class="text-xs font-bold text-gray-500 uppercase tracking-wide shrink-0">English</span>
-        <div class="w-px h-5 bg-sand-200"></div>
-        <div class="flex gap-1">
-          <button data-filter="eng" data-value="" class="filter-btn px-3 py-2 text-sm font-medium rounded-full">Any</button>
-          <button data-filter="eng" data-value="yes" class="filter-btn px-3 py-2 text-sm font-medium rounded-full">English Essential</button>
+        <div class="w-px h-5 bg-sand-200 shrink-0"></div>
+        <div class="flex gap-1 shrink-0">
+          <button data-filter="eng" data-value="" class="filter-btn px-3 py-2 text-sm font-medium rounded-full whitespace-nowrap">Any</button>
+          <button data-filter="eng" data-value="yes" class="filter-btn px-3 py-2 text-sm font-medium rounded-full whitespace-nowrap">English Essential</button>
         </div>
       </div>
 
       <!-- Lifestyle Filter (minimum threshold) -->
-      <div class="bg-white rounded-xl border border-sand-200 px-4 py-3 flex items-center gap-3 overflow-x-auto">
-        <span class="text-xs font-bold text-gray-500 uppercase tracking-wide shrink-0">Min. Lifestyle</span>
-        <div class="w-px h-5 bg-sand-200 shrink-0"></div>
-        <div class="flex gap-0 shrink-0" id="lifestyle-filter-pills">
-          <button data-min-lifestyle="budget" data-level="1" class="lifestyle-pill px-2 sm:px-3 py-2 text-xs sm:text-sm font-medium rounded-l-full border border-r-0 border-sand-200 cursor-pointer select-none transition-all whitespace-nowrap">Budget</button>
-          <button data-min-lifestyle="comfortable" data-level="2" class="lifestyle-pill px-2 sm:px-3 py-2 text-xs sm:text-sm font-medium border border-r-0 border-sand-200 cursor-pointer select-none transition-all whitespace-nowrap">Comfortable</button>
-          <button data-min-lifestyle="premium" data-level="3" class="lifestyle-pill px-2 sm:px-3 py-2 text-xs sm:text-sm font-medium border border-r-0 border-sand-200 cursor-pointer select-none transition-all whitespace-nowrap">Premium</button>
-          <button data-min-lifestyle="luxury" data-level="4" class="lifestyle-pill px-2 sm:px-3 py-2 text-xs sm:text-sm font-medium rounded-r-full border border-sand-200 cursor-pointer select-none transition-all whitespace-nowrap">Luxury</button>
+      <div class="bg-white rounded-xl border border-sand-200 px-4 py-3 overflow-x-auto">
+        <div class="flex items-center gap-3">
+          <span class="text-xs font-bold text-gray-500 uppercase tracking-wide shrink-0">Min. Lifestyle</span>
+          <div class="w-px h-5 bg-sand-200 shrink-0"></div>
+          <div class="flex gap-0 shrink-0" id="lifestyle-filter-pills">
+            <button data-min-lifestyle="budget" data-level="1" class="lifestyle-pill px-2 sm:px-3 py-2 text-xs sm:text-sm font-medium rounded-l-full border border-r-0 border-sand-200 cursor-pointer select-none transition-all whitespace-nowrap">Budget</button>
+            <button data-min-lifestyle="comfortable" data-level="2" class="lifestyle-pill px-2 sm:px-3 py-2 text-xs sm:text-sm font-medium border border-r-0 border-sand-200 cursor-pointer select-none transition-all whitespace-nowrap">Comfortable</button>
+            <button data-min-lifestyle="premium" data-level="3" class="lifestyle-pill px-2 sm:px-3 py-2 text-xs sm:text-sm font-medium border border-r-0 border-sand-200 cursor-pointer select-none transition-all whitespace-nowrap">Premium</button>
+            <button data-min-lifestyle="luxury" data-level="4" class="lifestyle-pill px-2 sm:px-3 py-2 text-xs sm:text-sm font-medium rounded-r-full border border-sand-200 cursor-pointer select-none transition-all whitespace-nowrap">Luxury</button>
+          </div>
         </div>
+        <p id="lifestyle-filter-desc" class="text-xs text-gray-400 mt-2">Essentials covered — modest apartment, local food, public transit, and basic healthcare.</p>
+      </div>
+
+      <!-- Min. Success Rate — FIRE mode only -->
+      <div id="success-rate-filter" class="hidden bg-white rounded-xl border border-sand-200 px-4 py-3 w-full">
+        <div class="flex items-center gap-3">
+          <span class="text-xs font-bold text-gray-500 uppercase tracking-wide shrink-0">Min. Success Rate</span>
+          <div class="w-px h-5 bg-sand-200 shrink-0"></div>
+          <input type="range" id="success-rate-slider" min="50" max="100" value="90" step="1" class="fire-slider flex-1" />
+          <span id="success-rate-value" class="text-sm font-bold text-brand-700 w-10 text-right">90%</span>
+        </div>
+        <p id="success-rate-desc" class="text-xs text-gray-400 mt-2">90% is recommended — the percentage of <a href="/about#monte-carlo" class="text-brand-600 hover:underline">Monte Carlo</a> simulated scenarios where your portfolio lasts through retirement.</p>
       </div>
     </div>
-    <p id="lifestyle-filter-desc" class="container-wide text-xs text-gray-400 mt-2">Essentials covered — modest apartment, local food, public transit, and basic healthcare.</p>
   </section>
 
   <!-- City Table (filtered results) -->
@@ -283,7 +301,7 @@ const calcLd = {
     <div id="fire-no-cities" class="container-wide pt-8 hidden">
       <div class="bg-amber-50 border border-amber-200 rounded-2xl p-6 text-center">
         <p class="text-amber-800 font-semibold mb-1">No affordable cities for this lifestyle level</p>
-        <p class="text-amber-600 text-sm">Try a different lifestyle level, increase contributions, or extend your timeline.</p>
+        <p class="text-amber-600 text-sm">Try lowering your success rate threshold, adjusting the lifestyle level, increasing contributions, or extending your timeline.</p>
       </div>
     </div>
 
@@ -366,6 +384,7 @@ const calcLd = {
       climate: params.get('climate') || '',
       eng: params.get('eng') || '',
       lifestyle: params.get('lifestyle') || 'budget',
+      minSuccessRate: parseInt(params.get('sr') || '90', 10),
     };
 
     function getActiveFilters() {
@@ -391,6 +410,7 @@ const calcLd = {
       if (activeFilters.climate) newParams.set('climate', activeFilters.climate);
       if (activeFilters.eng) newParams.set('eng', activeFilters.eng);
       if (activeFilters.lifestyle && activeFilters.lifestyle !== 'budget') newParams.set('lifestyle', activeFilters.lifestyle);
+      if (currentMode === 'fire' && activeFilters.minSuccessRate !== 90) newParams.set('sr', String(activeFilters.minSuccessRate));
       const qs = newParams.toString();
       history.replaceState(null, '', '/calculator' + (qs ? '?' + qs : ''));
     }
@@ -445,6 +465,21 @@ const calcLd = {
         }
       }
       return null; // can't afford even Budget
+    }
+
+    // For FIRE mode: find the best tier that meets both budget AND confidence threshold
+    function getBestConfidentTier(city, monthlyBudget, minConfidence, confidenceCache) {
+      for (const tier of lifestyleTiers) {
+        const tierData = city.tiers[tier.key];
+        if (tierData && monthlyBudget >= tierData.totalSpend) {
+          const cacheKey = city.slug + '|' + tier.key;
+          const conf = confidenceCache[cacheKey];
+          if (conf !== undefined && conf >= minConfidence) {
+            return tier;
+          }
+        }
+      }
+      return null; // No tier meets both budget AND confidence threshold
     }
 
     // ─── Lifestyle reach breakdown ───
@@ -806,6 +841,7 @@ const calcLd = {
 
     function setMode(mode) {
       currentMode = mode;
+      const successRateFilter = document.getElementById('success-rate-filter');
       if (mode === 'fire') {
         modeQuickBtn?.classList.remove('active');
         modeFireBtn?.classList.add('active');
@@ -816,6 +852,8 @@ const calcLd = {
         results?.classList.add('hidden');
         summaryCards?.classList.add('hidden');
         filterBar?.classList.add('hidden');
+        // Show success rate slider
+        successRateFilter?.classList.remove('hidden');
       } else {
         modeFireBtn?.classList.remove('active');
         modeQuickBtn?.classList.add('active');
@@ -825,6 +863,8 @@ const calcLd = {
         summaryCards?.classList.add('hidden');
         filterBar?.classList.add('hidden');
         document.getElementById('fire-no-cities')?.classList.add('hidden');
+        // Hide success rate slider
+        successRateFilter?.classList.add('hidden');
       }
     }
 
@@ -1075,13 +1115,30 @@ const calcLd = {
       const surplusCount = allAffordable.length;
 
       // Filtered for the table (applies lifestyle minimum + location/climate/english)
-      const ranked = rankCities(sim.monthlyBudget, lifestyle, filters);
+      // In FIRE mode, use confidence-aware tier selection
+      const minConf = activeFilters.minSuccessRate;
+      const minLevel = minLifestyleLevels[lifestyle] || 1;
 
-      // Look up cached confidence (computed once per simulation run)
-      ranked.forEach((city) => {
-        const cacheKey = city.slug + '|' + city.usedTier;
-        city.confidence = (sim.confidenceCache && sim.confidenceCache[cacheKey]) || 0;
-      });
+      const ranked = cityData
+        .filter((city) => passesFilters(city, filters))
+        .map((city) => {
+          const best = getBestConfidentTier(city, sim.monthlyBudget, minConf, sim.confidenceCache);
+          if (!best || best.level < minLevel) return null;
+          const tierData = city.tiers[best.key];
+          const surplus = sim.monthlyBudget - tierData.totalSpend;
+          const surplusRatio = sim.monthlyBudget > 0 ? surplus / sim.monthlyBudget : 0;
+          const cacheKey = city.slug + '|' + best.key;
+          const confidence = (sim.confidenceCache && sim.confidenceCache[cacheKey]) || 0;
+          return { ...city, totalSpend: tierData.totalSpend, surplus, surplusRatio, usedTier: best.key, lifestyleLabel: best.label, lifestyleLevel: best.level, confidence };
+        })
+        .filter(Boolean)
+        .map((city) => {
+          const normalizedFire = city.fireScore / 10;
+          const prefAlignment = getPrefAlignment(city, filters);
+          const compositeScore = 0.60 * normalizedFire + 0.40 * prefAlignment;
+          return { ...city, compositeScore };
+        })
+        .sort((a, b) => b.compositeScore - a.compositeScore);
 
       const noCitiesEl = document.getElementById('fire-no-cities');
       const tbody = document.getElementById('city-rankings');
@@ -1098,7 +1155,7 @@ const calcLd = {
 
       if (budgetEl) budgetEl.textContent = fmtCurrency(sim.monthlyBudget) + '/mo';
       if (surplusCountEl) surplusCountEl.textContent = String(surplusCount);
-      if (surplusSubEl) surplusSubEl.textContent = 'of ' + totalCities + ' cities';
+      if (surplusSubEl) surplusSubEl.textContent = 'budget to luxury';
       renderLifestyleReach(sim.monthlyBudget);
 
       if (ranked.length === 0) {
@@ -1148,7 +1205,7 @@ const calcLd = {
 
       if (budgetEl) budgetEl.textContent = fmtCurrency(monthlyBudget) + '/mo';
       if (surplusCountEl) surplusCountEl.textContent = String(surplusCount);
-      if (surplusSubEl) surplusSubEl.textContent = 'of ' + totalCities + ' cities';
+      if (surplusSubEl) surplusSubEl.textContent = 'budget to luxury';
       renderLifestyleReach(monthlyBudget);
       if (ranked.length > 0) {
         if (bestEl) bestEl.textContent = ranked[0].emoji + ' ' + ranked[0].name;
@@ -1228,6 +1285,19 @@ const calcLd = {
       activeFilters.lifestyle = lifestyle;
       syncLifestylePills();
 
+      // Restore success rate
+      const srParam = params.get('sr');
+      if (srParam) {
+        const sr = parseInt(srParam, 10);
+        if (sr >= 50 && sr <= 100) {
+          activeFilters.minSuccessRate = sr;
+          const srSlider = document.getElementById('success-rate-slider');
+          const srValue = document.getElementById('success-rate-value');
+          if (srSlider) srSlider.value = String(sr);
+          if (srValue) srValue.textContent = sr + '%';
+        }
+      }
+
       // Run simulation
       if (savings > 0 || contrib > 0) {
         const sim = runAccumulation(savings, contrib, annualReturn, volatility, yrsToRetire);
@@ -1254,9 +1324,42 @@ const calcLd = {
       }
     }
 
+    // ─── Success Rate Slider Setup ───
+    function setupSuccessRateSlider() {
+      const slider = document.getElementById('success-rate-slider');
+      const valueEl = document.getElementById('success-rate-value');
+      if (!slider || !valueEl) return;
+
+      // Restore from URL param
+      slider.value = String(activeFilters.minSuccessRate);
+      valueEl.textContent = activeFilters.minSuccessRate + '%';
+
+      const descEl = document.getElementById('success-rate-desc');
+      const mcLink = '<a href="/about#monte-carlo" class="text-brand-600 hover:underline">Monte Carlo</a>';
+      function updateSuccessRateDesc(val) {
+        if (!descEl) return;
+        if (val === 100) {
+          descEl.innerHTML = 'Because we use a ' + mcLink + ' simulation, 100% is nearly impossible. We recommend 90% or 95% as very conservative.';
+        } else {
+          descEl.innerHTML = '90% is recommended \u2014 the percentage of ' + mcLink + ' simulated scenarios where your portfolio lasts through retirement.';
+        }
+      }
+      updateSuccessRateDesc(activeFilters.minSuccessRate);
+
+      slider.addEventListener('input', () => {
+        const val = parseInt(slider.value, 10);
+        valueEl.textContent = val + '%';
+        activeFilters.minSuccessRate = val;
+        updateSuccessRateDesc(val);
+        updateURL();
+        reRender();
+      });
+    }
+
     // ─── Initialize ───
     setupFilterButtons();
     setupLifestylePills();
+    setupSuccessRateSlider();
     setMode(currentMode);
 
     if (currentMode === 'fire') {
