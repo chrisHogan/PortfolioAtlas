@@ -7,21 +7,33 @@ import { REGION_ORDER } from '../data/types';
 
 const totalCities = allCities.length;
 
-const orgLd = {
+const websiteLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   'name': 'PortfolioAtlas',
   'url': 'https://portfolioatlas.org',
-  'description': `Discover what your investment portfolio can buy you in 100+ cities around the world. Compare lifestyles, costs, and FIRE potential.`,
+  'description': `Enter your portfolio value and see exactly what you can afford in ${totalCities}+ cities worldwide. Built on the 4% rule.`,
   'potentialAction': {
     '@type': 'SearchAction',
     'target': 'https://portfolioatlas.org/compare?cities={search_term_string}',
     'query-input': 'required name=search_term_string',
   },
 };
+
+const orgLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  'name': 'PortfolioAtlas',
+  'url': 'https://portfolioatlas.org',
+  'description': `FIRE retirement planning tool comparing cost of living across ${totalCities}+ cities worldwide.`,
+};
 ---
 
-<Layout title="Home" jsonLd={orgLd}>
+<Layout
+  title="Home"
+  description={`Enter your portfolio value and see exactly what you can afford in ${totalCities}+ cities worldwide. Built on the 4% rule.`}
+  jsonLd={[websiteLd, orgLd]}
+>
   <!-- Hero -->
   <section class="relative bg-brand-950 text-white overflow-hidden">
     <div class="absolute inset-0 bg-gradient-to-br from-brand-950 via-brand-900 to-brand-800"></div>
