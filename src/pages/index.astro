@@ -61,8 +61,8 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
 ---
 
 <Layout
-  title="Where Can You Retire? | FIRE Calculator"
-  description={`Enter your portfolio value and see where in the world you can retire. Compare FIRE Numbers across 100+ cities worldwide.`}
+  title="Where Can Your Portfolio Buy You Freedom?"
+  description="See exactly where in the world your investment portfolio can sustain your retirement. 100+ cities, real FIRE numbers, Monte Carlo analysis."
   jsonLd={[websiteLd, calcLd]}
 >
   <!-- Hero: Two inputs only -->
@@ -107,6 +107,62 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
                 {value >= 1_000_000 ? `$${value / 1_000_000}M` : `$${value / 1_000}K`}
               </button>
             ))}
+          </div>
+        </div>
+
+        <!-- Optional projection inputs -->
+        <div class="mb-8 pt-5 border-t border-white/10">
+          <p class="text-xs font-medium text-sand-400 uppercase tracking-wider mb-4">Optional: refine your projections</p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <!-- Annual Savings from Work -->
+            <div>
+              <label for="savings-input" class="block text-xs font-medium text-sand-300 mb-1.5">
+                Annual savings from work
+              </label>
+              <div class="relative">
+                <span class="absolute left-3 top-1/2 -translate-y-1/2 text-brand-300 text-sm font-bold">$</span>
+                <input
+                  type="text"
+                  id="savings-input"
+                  inputmode="numeric"
+                  placeholder="e.g. $30,000/year from your salary"
+                  autocomplete="off"
+                  class="w-full pl-8 pr-3 py-2.5 text-sm font-bold rounded-lg bg-white/10 backdrop-blur-sm border border-white/15 text-white placeholder-white/25 focus:outline-none focus:ring-2 focus:ring-brand-400"
+                />
+              </div>
+              <p id="savings-error" class="text-xs text-red-400 mt-1 hidden"></p>
+              <p class="text-[11px] text-sand-500 mt-1.5 leading-snug">How much you save each year from working. We'll use this to show when cities become affordable as your portfolio grows.</p>
+            </div>
+
+            <!-- Passive Income in Retirement -->
+            <div>
+              <label for="passive-input" class="block text-xs font-medium text-sand-300 mb-1.5">
+                Passive income in retirement
+                <span class="relative group inline-block ml-1 cursor-help align-middle">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 text-sand-400 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  <span class="pointer-events-none absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-64 rounded-lg bg-brand-950 text-white text-[11px] leading-snug px-3 py-2 shadow-lg opacity-0 group-hover:opacity-100 transition-opacity z-50">
+                    Assumes this income continues indefinitely and keeps pace with inflation. Fixed income sources like pensions may provide less protection over time.
+                  </span>
+                </span>
+              </label>
+              <div class="relative">
+                <span class="absolute left-3 top-1/2 -translate-y-1/2 text-brand-300 text-sm font-bold">$</span>
+                <input
+                  type="text"
+                  id="passive-input"
+                  inputmode="numeric"
+                  placeholder="e.g. $24,000/year from rental income"
+                  autocomplete="off"
+                  class="w-full pl-8 pr-3 py-2.5 text-sm font-bold rounded-lg bg-white/10 backdrop-blur-sm border border-white/15 text-white placeholder-white/25 focus:outline-none focus:ring-2 focus:ring-brand-400"
+                />
+              </div>
+              <p id="passive-error" class="text-xs text-red-400 mt-1 hidden"></p>
+              <p id="passive-warn" class="text-xs text-amber-400 mt-1 hidden"></p>
+              <p class="text-[11px] text-sand-500 mt-1.5 leading-snug">Rental income, dividends, pension, or any income that continues after you stop working. Reduces the portfolio you need to retire.</p>
+            </div>
           </div>
         </div>
 
@@ -158,7 +214,15 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     <div class="bg-white border-b border-sand-200 sticky top-16 z-30">
       <div class="container-narrow py-4">
         <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-          <p id="results-summary" class="text-lg font-serif font-bold text-brand-950"></p>
+          <div class="flex items-center gap-3">
+            <p id="results-summary" class="text-lg font-serif font-bold text-brand-950"></p>
+            <button id="share-btn" type="button" class="shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded-full border border-sand-200 text-gray-600 hover:bg-sand-50 hover:border-brand-300 transition-all" title="Copy shareable link">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+              </svg>
+              Share
+            </button>
+          </div>
           <!-- Inline lifestyle toggle for results page -->
           <div class="flex items-center gap-1">
             {ALL_LIFESTYLE_TIERS.map((tier) => (
@@ -255,13 +319,13 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
         <label class="block text-sm font-semibold text-gray-700 mb-2">Lifestyle level</label>
         <div class="grid grid-cols-3 gap-2">
           <button type="button" data-reverse-tier="budget" class="reverse-tier-btn px-3 py-3 rounded-xl border border-sand-200 text-center hover:border-brand-400 transition-colors">
-            <div class="text-sm font-bold text-brand-950">Budget</div>
+            <div class="text-sm font-bold text-brand-950">Lean FIRE</div>
           </button>
           <button type="button" data-reverse-tier="comfortable" class="reverse-tier-btn px-3 py-3 rounded-xl border border-sand-200 text-center hover:border-brand-400 transition-colors">
-            <div class="text-sm font-bold text-brand-950">Comfortable</div>
+            <div class="text-sm font-bold text-brand-950">FIRE</div>
           </button>
           <button type="button" data-reverse-tier="luxury" class="reverse-tier-btn px-3 py-3 rounded-xl border border-sand-200 text-center hover:border-brand-400 transition-colors">
-            <div class="text-sm font-bold text-brand-950">Luxury</div>
+            <div class="text-sm font-bold text-brand-950">Fat FIRE</div>
           </button>
         </div>
       </div>
@@ -288,6 +352,13 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
       </div>
     </div>
   </section>
+
+  <!-- Toast notification -->
+  <div id="toast" class="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 hidden">
+    <div class="bg-brand-950 text-white text-sm font-medium px-5 py-2.5 rounded-full shadow-lg">
+      Link copied!
+    </div>
+  </div>
 
   <!-- Bottom CTA -->
   <section class="container-narrow py-12 text-center">
@@ -345,6 +416,8 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   // ─── State ───
   let portfolio = 0;
   let lifestyle = 'comfortable';
+  let annualSavings = 0;
+  let passiveIncome = 0;
   let visibleCount = 12;
   const filters = { loc: '', climate: '', eng: '' };
 
@@ -434,6 +507,61 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     portfolioInput.setSelectionRange(newPos, newPos);
   });
 
+  // ─── Optional Input Formatting & Validation ───
+  const savingsInput = document.getElementById('savings-input');
+  const passiveInput = document.getElementById('passive-input');
+  const savingsError = document.getElementById('savings-error');
+  const passiveError = document.getElementById('passive-error');
+  const passiveWarn = document.getElementById('passive-warn');
+
+  function setupOptionalInput(input, errorEl, onChange) {
+    if (!input) return;
+    input.addEventListener('input', () => {
+      // Clear validation on typing
+      if (errorEl) errorEl.classList.add('hidden');
+      const raw = input.value;
+      // Check for negative sign before stripping
+      if (raw.includes('-')) {
+        if (errorEl) { errorEl.textContent = 'Please enter a positive number'; errorEl.classList.remove('hidden'); }
+        input.value = raw.replace(/-/g, '');
+        return;
+      }
+      // Check for non-numeric (letters etc) before stripping
+      if (raw.replace(/[,\s$]/g, '').length > 0 && !/[0-9]/.test(raw)) {
+        if (errorEl) { errorEl.textContent = 'Please enter a number'; errorEl.classList.remove('hidden'); }
+      }
+      const pos = input.selectionStart || 0;
+      const digitsBefore = input.value.slice(0, pos).replace(/[^0-9]/g, '').length;
+      input.value = formatWithCommas(input.value);
+      let newPos = 0;
+      let counted = 0;
+      for (let i = 0; i < input.value.length && counted < digitsBefore; i++) {
+        if (/[0-9]/.test(input.value[i])) counted++;
+        newPos = i + 1;
+      }
+      input.setSelectionRange(newPos, newPos);
+    });
+    input.addEventListener('change', () => {
+      const val = parseInt((input.value || '').replace(/[^0-9]/g, ''), 10) || 0;
+      onChange(val);
+      if (portfolio > 0) renderResults();
+    });
+  }
+
+  setupOptionalInput(savingsInput, savingsError, (val) => { annualSavings = val; });
+  setupOptionalInput(passiveInput, passiveError, (val) => {
+    passiveIncome = val;
+    // Warn if > $1M
+    if (passiveWarn) {
+      if (val > 1_000_000) {
+        passiveWarn.textContent = "That's a large passive income \u2014 double-check this is an annual figure, not a total portfolio value.";
+        passiveWarn.classList.remove('hidden');
+      } else {
+        passiveWarn.classList.add('hidden');
+      }
+    }
+  });
+
   // Quick-select buttons
   document.querySelectorAll('.quick-btn').forEach((btn) => {
     btn.addEventListener('click', () => {
@@ -515,6 +643,8 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
       return;
     }
     portfolio = raw;
+    annualSavings = parseInt((savingsInput?.value || '').replace(/[^0-9]/g, ''), 10) || 0;
+    passiveIncome = parseInt((passiveInput?.value || '').replace(/[^0-9]/g, ''), 10) || 0;
     saveState();
     renderResults();
     resultsSection.scrollIntoView({ behavior: 'smooth' });
@@ -533,6 +663,41 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     visibleCount += 12;
     renderResults();
   });
+
+  // ─── Passive Income Adjustment ───
+  function adjustFireNumber(baseFireNumber, passive) {
+    if (!passive || passive <= 0) return baseFireNumber;
+    // adjustedAnnualCost = (baseFireNumber * 0.04) - passiveIncome
+    // adjustedFireNumber = adjustedAnnualCost / 0.04
+    // = baseFireNumber - passiveIncome / 0.04
+    // = baseFireNumber - passiveIncome * 25
+    return Math.max(0, baseFireNumber - passive / SAFE_WITHDRAWAL_RATE);
+  }
+
+  // ─── Years Until Affordable ───
+  function yearsUntilAffordable(currentPortfolio, fireNumber, savings) {
+    if (savings <= 0 || currentPortfolio >= fireNumber) return null;
+    let p = currentPortfolio;
+    for (let y = 1; y <= 30; y++) {
+      p = (p + savings) * 1.07;
+      if (p >= fireNumber) return y;
+    }
+    return null; // >30 years
+  }
+
+  function getYearsHTML(years) {
+    if (years === null) return '';
+    let colorClass;
+    if (years <= 3) colorClass = 'text-amber-600';
+    else if (years <= 10) colorClass = 'text-gray-500';
+    else colorClass = 'text-gray-400';
+    return `<div class="mt-1 group/tip relative inline-block">
+      <span class="text-xs font-medium ${colorClass} cursor-help">Affordable in ~${years} ${years === 1 ? 'year' : 'years'}</span>
+      <div class="absolute bottom-full left-0 mb-1 hidden group-hover/tip:block z-10 w-56 px-3 py-2 text-[10px] text-white bg-gray-800 rounded-lg shadow-lg">
+        Estimate assumes 7% annual growth and your stated savings rate. Actual results will vary.
+      </div>
+    </div>`;
+  }
 
   // ─── Filter Logic ───
   function passesFilters(city) {
@@ -555,11 +720,13 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
       .filter(passesFilters)
       .map((city) => {
         const tierData = city.tiers[lifestyle];
-        const fireNumber = tierData.fireNumber;
+        const baseFireNumber = tierData.fireNumber;
+        const fireNumber = adjustFireNumber(baseFireNumber, passiveIncome);
         const monthlyCost = tierData.monthlyCost;
+        const fullyCovered = passiveIncome > 0 && fireNumber === 0;
         const affordable = portfolio >= fireNumber;
         const gap = portfolio - fireNumber;
-        return { ...city, fireNumber, monthlyCost, affordable, gap };
+        return { ...city, fireNumber, monthlyCost, affordable, gap, fullyCovered };
       })
       .sort((a, b) => {
         // Affordable first, then by FIRE score
@@ -571,7 +738,8 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
       });
 
     const affordableCount = sorted.filter((c) => c.affordable).length;
-    const lifestyleLabel = lifestyle.charAt(0).toUpperCase() + lifestyle.slice(1);
+    const lifestyleLabelMap = { budget: 'Lean FIRE', comfortable: 'FIRE', luxury: 'Fat FIRE' };
+    const lifestyleLabel = lifestyleLabelMap[lifestyle] || lifestyle;
 
     // Update summary
     if (summaryEl) {
@@ -597,9 +765,17 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
           `<span class="text-[10px] font-medium px-2 py-0.5 rounded-full ${getTagColorClient(t.cat, t.label)}">${t.label}</span>`
         ).join('');
 
-        const signalHTML = city.affordable
-          ? '<div class="flex items-center gap-1.5 mt-1"><svg class="w-4 h-4 text-emerald-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-sm font-semibold text-emerald-600">You can retire here</span></div>'
-          : `<p class="text-sm text-gray-500 mt-1">Need ${fmtCompact(Math.abs(city.gap))} more</p>`;
+        const years = !city.affordable && annualSavings > 0 ? yearsUntilAffordable(portfolio, city.fireNumber, annualSavings) : null;
+        const yearsProjection = getYearsHTML(years);
+
+        let signalHTML;
+        if (city.fullyCovered) {
+          signalHTML = '<div class="flex items-center gap-1.5 mt-1"><svg class="w-4 h-4 text-emerald-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-sm font-semibold text-emerald-600">Fully covered by passive income</span></div>';
+        } else if (city.affordable) {
+          signalHTML = '<div class="flex items-center gap-1.5 mt-1"><svg class="w-4 h-4 text-emerald-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-sm font-semibold text-emerald-600">You can retire here</span></div>';
+        } else {
+          signalHTML = `<p class="text-sm text-gray-500 mt-1">Need ${fmtCompact(Math.abs(city.gap))} more</p>${yearsProjection}`;
+        }
 
         const barColor = city.affordable ? 'from-emerald-400 to-emerald-500' : 'from-brand-500 to-brand-600';
 
@@ -647,22 +823,29 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   }
 
   // ─── URL & State Persistence ───
+  const tierToUrlKey = { budget: 'leanfire', comfortable: 'fire', luxury: 'fatfire' };
+  const urlKeyToTier = { leanfire: 'budget', fire: 'comfortable', fatfire: 'luxury' };
+
   function saveState() {
     try {
       localStorage.setItem('pa_calc', JSON.stringify({
         nw: portfolio,
         lifestyle: lifestyle,
+        save: annualSavings || undefined,
+        passiveIncome: passiveIncome || undefined,
       }));
     } catch (e) {}
   }
 
   function updateURL() {
     const params = new URLSearchParams();
-    if (portfolio > 0) params.set('nw', String(portfolio));
-    if (lifestyle !== 'comfortable') params.set('lifestyle', lifestyle);
-    if (filters.loc) params.set('loc', filters.loc);
+    if (portfolio > 0) params.set('portfolio', String(portfolio));
+    if (lifestyle !== 'comfortable') params.set('tier', tierToUrlKey[lifestyle] || lifestyle);
+    if (filters.loc) params.set('region', filters.loc);
     if (filters.climate) params.set('climate', filters.climate);
     if (filters.eng) params.set('eng', filters.eng);
+    if (annualSavings > 0) params.set('save', String(annualSavings));
+    if (passiveIncome > 0) params.set('passive', String(passiveIncome));
     const qs = params.toString();
     history.replaceState(null, '', '/' + (qs ? '?' + qs : ''));
     saveState();
@@ -671,9 +854,18 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   // ─── Restore from URL / localStorage ───
   function restore() {
     const params = new URLSearchParams(window.location.search);
-    let nw = parseInt(params.get('nw') || '0', 10);
-    let ls = params.get('lifestyle') || '';
+    // Support new params (portfolio, tier, region) with fallback to old (nw, lifestyle, loc)
+    let nw = parseInt(params.get('portfolio') || params.get('nw') || '0', 10);
+    let tierParam = params.get('tier') || '';
+    let ls = tierParam ? (urlKeyToTier[tierParam] || '') : (params.get('lifestyle') || '');
     let restored = false;
+    const hasUrlParams = params.get('portfolio') || params.get('nw');
+
+    // Restore annual savings and passive income from URL
+    const saveParam = parseInt(params.get('save') || '0', 10);
+    if (saveParam > 0) annualSavings = saveParam;
+    const passiveParam = parseInt(params.get('passive') || '0', 10);
+    if (passiveParam > 0) passiveIncome = passiveParam;
 
     // Try localStorage if no URL params
     if (!nw) {
@@ -682,13 +874,22 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
         if (stored.nw && stored.nw > 0) {
           nw = stored.nw;
           if (!ls && stored.lifestyle) ls = stored.lifestyle;
+          if (!annualSavings && stored.save) annualSavings = stored.save;
+          if (!passiveIncome && stored.passiveIncome) passiveIncome = stored.passiveIncome;
           restored = true;
         }
+      } catch (e) {}
+    } else {
+      // URL had portfolio — check localStorage for any missing optional fields
+      try {
+        const stored = JSON.parse(localStorage.getItem('pa_calc') || '{}');
+        if (!annualSavings && stored.save) annualSavings = stored.save;
+        if (!passiveIncome && stored.passiveIncome) passiveIncome = stored.passiveIncome;
       } catch (e) {}
     }
 
     // Restore filters from URL
-    if (params.get('loc')) filters.loc = params.get('loc');
+    if (params.get('region') || params.get('loc')) filters.loc = params.get('region') || params.get('loc');
     if (params.get('climate')) filters.climate = params.get('climate');
     if (params.get('eng')) filters.eng = params.get('eng');
 
@@ -713,6 +914,19 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
         btn.classList.toggle('text-white/70', !isActive);
       });
       syncResultsLifestyle();
+    }
+
+    // Restore optional inputs
+    if (annualSavings > 0 && savingsInput) {
+      savingsInput.value = annualSavings.toLocaleString('en-US');
+    }
+    if (passiveIncome > 0 && passiveInput) {
+      passiveInput.value = passiveIncome.toLocaleString('en-US');
+      // Show warning if > $1M
+      if (passiveIncome > 1_000_000 && passiveWarn) {
+        passiveWarn.textContent = "That's a large passive income \u2014 double-check this is an annual figure, not a total portfolio value.";
+        passiveWarn.classList.remove('hidden');
+      }
     }
 
     if (nw > 0) {
@@ -823,6 +1037,18 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
       resultsSection?.scrollIntoView({ behavior: 'smooth' });
     });
   }
+
+  // ─── Share Button ───
+  const shareBtn = document.getElementById('share-btn');
+  const toast = document.getElementById('toast');
+  shareBtn?.addEventListener('click', () => {
+    navigator.clipboard.writeText(window.location.href).then(() => {
+      if (toast) {
+        toast.classList.remove('hidden');
+        setTimeout(() => toast.classList.add('hidden'), 2000);
+      }
+    });
+  });
 
   // ─── Init ───
   setupReverseFlow();

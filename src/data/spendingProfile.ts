@@ -123,11 +123,11 @@ export const DEFAULT_SPENDING_PROFILE: Record<string, string> = {
 // Tier descriptions — concrete lifestyle descriptions replacing abstract labels.
 // Used on city cards, comparison tool, and tier selection UI.
 export const TIER_DESCRIPTIONS: Record<string, string> = {
-  Budget: 'Modest 1-bedroom rental, cooking most meals at home, local transport only, minimal extras',
-  'Budget+': 'Comfortable 1-bedroom, a mix of home cooking and dining out, basic healthcare',
-  Comfortable: 'Nice 1-bedroom in a good neighborhood, dining out a few times a week, occasional weekend trips',
+  'Lean FIRE': 'Modest 1-bedroom rental, cooking most meals at home, local transport only, minimal extras',
+  'Lean FIRE+': 'Comfortable 1-bedroom, a mix of home cooking and dining out, basic healthcare',
+  'FIRE': 'Nice 1-bedroom in a good neighborhood, dining out a few times a week, occasional weekend trips',
   Premium: 'Spacious apartment or house, regular dining out, travel several times a year, quality health coverage',
-  Luxury: 'Premium apartment or house, regular fine dining, frequent travel, full private health coverage',
+  'Fat FIRE': 'Premium apartment or house, regular fine dining, frequent travel, full private health coverage',
 };
 
 // Data recency and confidence configuration

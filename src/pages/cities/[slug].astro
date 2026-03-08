@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import CityHero from '../../components/CityHero.astro';
+import FireStatusCard from '../../components/FireStatusCard.astro';
 import ComparisonCTA from '../../components/ComparisonCTA.astro';
 import CityFAQ from '../../components/CityFAQ.astro';
 import RelatedCities from '../../components/RelatedCities.astro';
@@ -69,11 +70,11 @@ const isDomestic = city.country === 'United States';
 const faqQuestions = [
   {
     question: `What is the FIRE Number for ${city.name}, ${city.country}?`,
-    answer: `The FIRE Number for ${city.name} ranges from ${formatFireNumber(fireNumbers.budget.fireNumber)} (Budget lifestyle) to ${formatFireNumber(fireNumbers.luxury.fireNumber)} (Luxury lifestyle). A Comfortable retirement requires a portfolio of approximately ${formatFireNumber(fireNumbers.comfortable.fireNumber)}, based on estimated monthly costs of ${formatCurrency(fireNumbers.comfortable.monthlyCost)} and a 4% safe withdrawal rate.`,
+    answer: `The FIRE Number for ${city.name} ranges from ${formatFireNumber(fireNumbers.budget.fireNumber)} (Lean FIRE lifestyle) to ${formatFireNumber(fireNumbers.luxury.fireNumber)} (Fat FIRE lifestyle). A FIRE retirement requires a portfolio of approximately ${formatFireNumber(fireNumbers.comfortable.fireNumber)}, based on estimated monthly costs of ${formatCurrency(fireNumbers.comfortable.monthlyCost)} and a 4% safe withdrawal rate.`,
   },
   {
     question: `How much does it cost to retire in ${city.name}?`,
-    answer: `Monthly living costs in ${city.name} range from ${formatCurrency(totalSpend1M)} (Budget) to ${formatCurrency(totalSpend3M)} (Comfortable), covering housing, dining, groceries, healthcare, transportation, entertainment, and utilities.`,
+    answer: `Monthly living costs in ${city.name} range from ${formatCurrency(totalSpend1M)} (Lean FIRE) to ${formatCurrency(totalSpend3M)} (FIRE), covering housing, dining, groceries, healthcare, transportation, entertainment, and utilities.`,
   },
   {
     question: `What is healthcare like in ${city.name} for ${isDomestic ? 'retirees' : 'expats and retirees'}?`,
@@ -129,7 +130,7 @@ const tagEntries = Object.entries(displayTags) as [string, string][];
 
 <Layout
   title={`Retire in ${city.name} — FIRE Number & Cost of Living`}
-  description={`FIRE Number for ${city.name}: ${formatFireNumber(fireNumbers.budget.fireNumber)} (Budget) to ${formatFireNumber(fireNumbers.luxury.fireNumber)} (Luxury). See what your portfolio gets you.`}
+  description={`FIRE Number for ${city.name}: ${formatFireNumber(fireNumbers.budget.fireNumber)} (Lean FIRE) to ${formatFireNumber(fireNumbers.luxury.fireNumber)} (Fat FIRE). See what your portfolio gets you.`}
   jsonLd={jsonLd}
 >
   <CityHero city={city} />
@@ -205,6 +206,9 @@ const tagEntries = Object.entries(displayTags) as [string, string][];
             </a>
           </div>
         </section>
+
+        <!-- Personalized FIRE Status Card (shown client-side when portfolio is set) -->
+        <FireStatusCard cityName={city.name} country={city.country} fireNumbers={fireNumbers} />
 
         <!-- 2. Lifestyle Descriptions -->
         <section>
@@ -348,19 +352,35 @@ const tagEntries = Object.entries(displayTags) as [string, string][];
 <script>
   // Client-side: compare user's portfolio against FIRE Numbers
   (function() {
+    const SWR = 0.04;
     let portfolio = 0;
+    let userPassiveIncome = 0;
 
-    // Read portfolio from URL or localStorage
+    // Read portfolio and passive income from URL or localStorage
     const params = new URLSearchParams(window.location.search);
-    const nwParam = params.get('nw');
+    const nwParam = params.get('portfolio') || params.get('nw');
     if (nwParam) {
       portfolio = parseInt(nwParam, 10) || 0;
     }
+    const passiveParam = parseInt(params.get('passive') || '0', 10);
+    if (passiveParam > 0) userPassiveIncome = passiveParam;
+
     if (!portfolio) {
       try {
         const stored = JSON.parse(localStorage.getItem('pa_calc') || '{}');
         if (stored.nw && stored.nw > 0) portfolio = stored.nw;
+        if (!userPassiveIncome && stored.passiveIncome) userPassiveIncome = stored.passiveIncome;
       } catch (e) {}
+    } else if (!userPassiveIncome) {
+      try {
+        const stored = JSON.parse(localStorage.getItem('pa_calc') || '{}');
+        if (stored.passiveIncome) userPassiveIncome = stored.passiveIncome;
+      } catch (e) {}
+    }
+
+    function adjustFN(base: number): number {
+      if (!userPassiveIncome || userPassiveIncome <= 0) return base;
+      return Math.max(0, base - userPassiveIncome / SWR);
     }
 
     const rows = document.querySelectorAll('.fire-row');
@@ -368,9 +388,7 @@ const tagEntries = Object.entries(displayTags) as [string, string][];
     const statusHeader = document.getElementById('status-header');
 
     if (!portfolio || portfolio <= 0) {
-      // Show prompt to enter portfolio
       if (prompt) prompt.classList.remove('hidden');
-      // Hide status column header text
       if (statusHeader) statusHeader.textContent = '';
       return;
     }
@@ -385,17 +403,29 @@ const tagEntries = Object.entries(displayTags) as [string, string][];
       return '$' + n.toLocaleString();
     }
 
-    // Update FIRE Numbers table with status indicators
+    // Update FIRE Numbers table with adjusted values and status indicators
     rows.forEach((row) => {
-      const fireNumber = parseInt(row.getAttribute('data-fire-number') || '0', 10);
+      const baseFireNumber = parseInt(row.getAttribute('data-fire-number') || '0', 10);
+      const adjustedFN = adjustFN(baseFireNumber);
+      const fullyCovered = userPassiveIncome > 0 && adjustedFN === 0;
       const statusCell = row.querySelector('.fire-status');
+      const fireNumberCell = row.querySelector('td:nth-child(2) span');
+
+      // Update displayed FIRE Number if adjusted
+      if (userPassiveIncome > 0 && fireNumberCell) {
+        (fireNumberCell as HTMLElement).textContent = fullyCovered ? '$0' : fmt(adjustedFN);
+      }
+
       if (!statusCell) return;
 
-      if (portfolio >= fireNumber) {
+      if (fullyCovered) {
+        statusCell.innerHTML = '<span class="inline-flex items-center gap-1.5 text-emerald-600 font-semibold text-sm"><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Fully covered by passive income</span>';
+        (row as HTMLElement).classList.add('bg-emerald-50/50');
+      } else if (portfolio >= adjustedFN) {
         statusCell.innerHTML = '<span class="inline-flex items-center gap-1.5 text-emerald-600 font-semibold text-sm"><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>You can retire here</span>';
         (row as HTMLElement).classList.add('bg-emerald-50/50');
       } else {
-        const gap = fireNumber - portfolio;
+        const gap = adjustedFN - portfolio;
         statusCell.innerHTML = `<span class="text-sm text-gray-500">Need ${fmt(gap)} more</span>`;
       }
     });
@@ -406,23 +436,21 @@ const tagEntries = Object.entries(displayTags) as [string, string][];
       const tier = desc.getAttribute('data-tier') as string;
       const row = document.querySelector(`.fire-row[data-tier="${tier}"]`);
       if (!row) return;
-      const fireNumber = parseInt(row.getAttribute('data-fire-number') || '0', 10);
-      if (portfolio >= fireNumber) {
+      const baseFireNumber = parseInt(row.getAttribute('data-fire-number') || '0', 10);
+      const adjustedFN = adjustFN(baseFireNumber);
+      if (portfolio >= adjustedFN) {
         (desc as HTMLElement).classList.add('border-emerald-200', 'bg-emerald-50/30');
         (desc as HTMLElement).classList.remove('border-sand-200');
       }
     });
 
     // Monte Carlo confidence estimate (simplified)
-    // Uses a basic formula based on portfolio vs cost ratio
-    // Real Monte Carlo would require full simulation
     const confSection = document.getElementById('confidence-detail');
     const confText = document.getElementById('confidence-text');
     const confValue = document.getElementById('confidence-value');
     const confBar = document.getElementById('confidence-bar');
 
     if (confSection && confText && confValue && confBar) {
-      // Find the best affordable tier
       const tiers = ['luxury', 'comfortable', 'budget'] as const;
       let bestTier: string | null = null;
       let bestFireNumber = 0;
@@ -430,25 +458,28 @@ const tagEntries = Object.entries(displayTags) as [string, string][];
       for (const tier of tiers) {
         const row = document.querySelector(`.fire-row[data-tier="${tier}"]`);
         if (!row) continue;
-        const fn = parseInt(row.getAttribute('data-fire-number') || '0', 10);
-        if (portfolio >= fn) {
+        const baseFN = parseInt(row.getAttribute('data-fire-number') || '0', 10);
+        const fn = adjustFN(baseFN);
+        if (fn === 0 || portfolio >= fn) {
           bestTier = tier;
           bestFireNumber = fn;
           break;
         }
       }
 
-      if (bestTier && bestFireNumber > 0) {
-        // Simple confidence estimate based on portfolio/FIRE Number ratio
-        // This is a rough heuristic, not a full Monte Carlo
-        const ratio = portfolio / bestFireNumber;
+      if (bestTier !== null) {
         let confidence: number;
-        if (ratio >= 2.0) confidence = 99;
-        else if (ratio >= 1.5) confidence = 96;
-        else if (ratio >= 1.25) confidence = 93;
-        else if (ratio >= 1.1) confidence = 88;
-        else if (ratio >= 1.0) confidence = 82;
-        else confidence = Math.max(50, Math.round(ratio * 82));
+        if (bestFireNumber === 0) {
+          confidence = 99; // Fully covered by passive income
+        } else {
+          const ratio = portfolio / bestFireNumber;
+          if (ratio >= 2.0) confidence = 99;
+          else if (ratio >= 1.5) confidence = 96;
+          else if (ratio >= 1.25) confidence = 93;
+          else if (ratio >= 1.1) confidence = 88;
+          else if (ratio >= 1.0) confidence = 82;
+          else confidence = Math.max(50, Math.round(ratio * 82));
+        }
 
         confText.classList.add('hidden');
         confSection.classList.remove('hidden');

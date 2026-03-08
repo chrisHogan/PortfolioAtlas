@@ -119,7 +119,7 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
   // Show net worth badge from URL or localStorage
   (function() {
     const params = new URLSearchParams(window.location.search);
-    let nw = params.get('nw');
+    let nw = params.get('portfolio') || params.get('nw');
     if (!nw) {
       try {
         const stored = localStorage.getItem('pa_calc');

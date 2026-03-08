@@ -15,11 +15,11 @@ const { tierKey, tier, cityName } = Astro.props;
 const totalSpend = getTotalSpend(tier);
 
 const TIER_LIFESTYLE: Record<TierKey, string> = {
-  '1M': 'Budget',
-  '2M': 'Budget+',
-  '3M': 'Comfortable',
+  '1M': 'Lean FIRE',
+  '2M': 'Lean FIRE+',
+  '3M': 'FIRE',
   '5M': 'Premium',
-  '10M': 'Luxury',
+  '10M': 'Fat FIRE',
 };
 
 const lifestyleLabel = TIER_LIFESTYLE[tierKey];

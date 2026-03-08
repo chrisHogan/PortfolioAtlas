@@ -1,0 +1,207 @@
+---
+import { ALL_LIFESTYLE_TIERS, LIFESTYLE_LABELS, formatFireNumber } from '../data/fireNumber';
+import type { LifestyleTier } from '../data/fireNumber';
+
+interface Props {
+  cityName: string;
+  country: string;
+  fireNumbers: Record<LifestyleTier, { fireNumber: number; monthlyCost: number }>;
+}
+
+const { cityName, country, fireNumbers } = Astro.props;
+---
+
+<div id="fire-status-card" class="hidden bg-gradient-to-br from-brand-50 to-sand-50 rounded-2xl border border-brand-100 shadow-sm p-6 sm:p-8">
+  <h3 id="fire-status-headline" class="font-serif text-xl sm:text-2xl font-bold text-brand-950 mb-5"></h3>
+
+  <div class="space-y-2.5 mb-5">
+    {ALL_LIFESTYLE_TIERS.map((tier) => {
+      const data = fireNumbers[tier];
+      return (
+        <div
+          class="fire-status-row flex items-center justify-between py-2.5 px-4 rounded-xl transition-colors"
+          data-tier={tier}
+          data-fire-number={data ? data.fireNumber : ''}
+        >
+          <span class="text-sm font-semibold text-brand-950">{LIFESTYLE_LABELS[tier]}</span>
+          <span class="fire-status-signal text-sm font-medium"></span>
+        </div>
+      );
+    })}
+  </div>
+
+  <p id="fire-status-portfolio" class="text-xs text-gray-400 mb-5"></p>
+
+  <div class="relative inline-block">
+    <button
+      id="fire-status-share"
+      type="button"
+      class="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold rounded-xl bg-brand-600 text-white hover:bg-brand-700 transition-colors"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+      </svg>
+      Share This
+    </button>
+    <div id="fire-status-toast" class="absolute -top-10 left-1/2 -translate-x-1/2 hidden">
+      <div class="bg-brand-950 text-white text-xs font-medium px-4 py-2 rounded-full shadow-lg whitespace-nowrap">
+        Link copied!
+      </div>
+    </div>
+  </div>
+</div>
+
+<script define:vars={{ cityName, country }}>
+  (function() {
+    const SWR = 0.04;
+    const GROWTH_RATE = 0.07;
+    const MAX_YEARS = 30;
+    let portfolio = 0;
+    let userPassiveIncome = 0;
+    let annualSavings = 0;
+
+    const params = new URLSearchParams(window.location.search);
+    const nwParam = params.get('portfolio') || params.get('nw');
+    if (nwParam) {
+      portfolio = parseInt(nwParam, 10) || 0;
+    }
+    const passiveParam = parseInt(params.get('passive') || '0', 10);
+    if (passiveParam > 0) userPassiveIncome = passiveParam;
+    const saveParam = parseInt(params.get('save') || '0', 10);
+    if (saveParam > 0) annualSavings = saveParam;
+
+    if (!portfolio) {
+      try {
+        const stored = JSON.parse(localStorage.getItem('pa_calc') || '{}');
+        if (stored.nw && stored.nw > 0) portfolio = stored.nw;
+        if (!userPassiveIncome && stored.passiveIncome) userPassiveIncome = stored.passiveIncome;
+        if (!annualSavings && stored.save) annualSavings = stored.save;
+      } catch (e) {}
+    } else {
+      try {
+        const stored = JSON.parse(localStorage.getItem('pa_calc') || '{}');
+        if (!userPassiveIncome && stored.passiveIncome) userPassiveIncome = stored.passiveIncome;
+        if (!annualSavings && stored.save) annualSavings = stored.save;
+      } catch (e) {}
+    }
+
+    if (!portfolio || portfolio <= 0) return;
+
+    const card = document.getElementById('fire-status-card');
+    if (!card) return;
+
+    function adjustFN(base) {
+      if (!userPassiveIncome || userPassiveIncome <= 0) return base;
+      return Math.max(0, base - userPassiveIncome / SWR);
+    }
+
+    function fmtGap(n) {
+      if (n >= 1_000_000) {
+        const m = n / 1_000_000;
+        return '$' + m.toFixed(1).replace(/\.0$/, '') + 'M';
+      }
+      const rounded = Math.round(n / 10_000) * 10_000;
+      if (rounded >= 1_000) return '$' + Math.round(rounded / 1_000) + 'K';
+      return '$' + rounded.toLocaleString();
+    }
+
+    function yearsUntil(current, target, savings) {
+      if (current >= target) return 0;
+      if (!savings && GROWTH_RATE <= 0) return Infinity;
+      let bal = current;
+      for (let y = 1; y <= MAX_YEARS; y++) {
+        bal = bal * (1 + GROWTH_RATE) + savings;
+        if (bal >= target) return y;
+      }
+      return Infinity;
+    }
+
+    function fmtPortfolio(n) {
+      return new Intl.NumberFormat('en-US', {
+        style: 'currency',
+        currency: 'USD',
+        minimumFractionDigits: 0,
+        maximumFractionDigits: 0,
+      }).format(n);
+    }
+
+    const rows = card.querySelectorAll('.fire-status-row');
+    let anySustainable = false;
+
+    rows.forEach((row) => {
+      const fireNumberStr = row.getAttribute('data-fire-number');
+      const signal = row.querySelector('.fire-status-signal');
+      if (!signal) return;
+
+      if (!fireNumberStr) {
+        signal.textContent = 'Data unavailable';
+        signal.classList.add('text-gray-400');
+        row.classList.add('bg-gray-50');
+        return;
+      }
+
+      const baseFireNumber = parseInt(fireNumberStr, 10);
+      if (isNaN(baseFireNumber) || baseFireNumber <= 0) {
+        signal.textContent = 'Data unavailable';
+        signal.classList.add('text-gray-400');
+        row.classList.add('bg-gray-50');
+        return;
+      }
+
+      const adjustedFN = adjustFN(baseFireNumber);
+      const fullyCovered = userPassiveIncome > 0 && adjustedFN === 0;
+
+      if (fullyCovered) {
+        anySustainable = true;
+        signal.innerHTML = '<span class="inline-flex items-center gap-1.5 text-emerald-600">&#x2705; Fully covered by passive income</span>';
+        row.classList.add('bg-emerald-50/60');
+      } else if (portfolio >= adjustedFN) {
+        anySustainable = true;
+        signal.innerHTML = '<span class="inline-flex items-center gap-1.5 text-emerald-600">&#x2705; Sustainable</span>';
+        row.classList.add('bg-emerald-50/60');
+      } else {
+        const gap = adjustedFN - portfolio;
+        let label = gap < 10_000 ? 'Almost there' : ('Need ' + fmtGap(gap) + ' more');
+        if (annualSavings > 0 || GROWTH_RATE > 0) {
+          const years = yearsUntil(portfolio, adjustedFN, annualSavings);
+          if (years <= MAX_YEARS) {
+            label += ` · ~${years}yr${years !== 1 ? 's' : ''}`;
+          } else if (annualSavings > 0) {
+            label += ' · 30+ yrs';
+          }
+        }
+        signal.innerHTML = `<span class="text-gray-500">${label}</span>`;
+        row.classList.add('bg-white/60');
+      }
+    });
+
+    const headline = document.getElementById('fire-status-headline');
+    if (headline) {
+      headline.textContent = anySustainable
+        ? `You could retire in ${cityName}, ${country} today.`
+        : `You're on your way to ${cityName}, ${country}.`;
+    }
+
+    const portfolioLine = document.getElementById('fire-status-portfolio');
+    if (portfolioLine) {
+      portfolioLine.textContent = `Portfolio: ${fmtPortfolio(portfolio)}`;
+    }
+
+    card.classList.remove('hidden');
+
+    const shareBtn = document.getElementById('fire-status-share');
+    const toast = document.getElementById('fire-status-toast');
+    shareBtn?.addEventListener('click', () => {
+      const url = new URL(window.location.href);
+      if (!url.searchParams.get('portfolio') && !url.searchParams.get('nw')) {
+        url.searchParams.set('portfolio', String(portfolio));
+      }
+      navigator.clipboard.writeText(url.toString()).then(() => {
+        if (toast) {
+          toast.classList.remove('hidden');
+          setTimeout(() => toast.classList.add('hidden'), 2000);
+        }
+      });
+    });
+  })();
+</script>

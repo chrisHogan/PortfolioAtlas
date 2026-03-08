@@ -19,9 +19,9 @@ export const LIFESTYLE_TIER_MAP: Record<LifestyleTier, TierKey> = {
 };
 
 export const LIFESTYLE_LABELS: Record<LifestyleTier, string> = {
-  budget: 'Budget',
-  comfortable: 'Comfortable',
-  luxury: 'Luxury',
+  budget: 'Lean FIRE',
+  comfortable: 'FIRE',
+  luxury: 'Fat FIRE',
 };
 
 export const LIFESTYLE_DESCRIPTIONS: Record<LifestyleTier, string> = {
