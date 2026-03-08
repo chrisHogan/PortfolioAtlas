@@ -1,5 +1,3 @@
-import { Resend } from 'resend';
-
 const RATE_LIMIT_WINDOW = 60 * 60 * 1000;
 const RATE_LIMIT_MAX = 5;
 const ipSubmissions = new Map();
@@ -23,55 +21,54 @@ function isRateLimited(ip) {
   return false;
 }
 
-export default async function handler(req, res) {
-  // CORS headers
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+function jsonResponse(data, status = 200) {
+  return new Response(JSON.stringify(data), {
+    status,
+    headers: { 'Content-Type': 'application/json' },
+  });
+}
 
-  if (req.method === 'OPTIONS') {
-    return res.status(200).end();
-  }
-
-  if (req.method !== 'POST') {
-    return res.status(405).json({ error: 'Method not allowed' });
-  }
+export async function onRequestPost(context) {
+  const { request, env } = context;
 
   const ip =
-    (req.headers['x-forwarded-for'] || '').split(',')[0].trim() ||
-    req.headers['x-real-ip'] ||
+    request.headers.get('cf-connecting-ip') ||
+    request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() ||
     'unknown';
 
   if (isRateLimited(ip)) {
-    return res.status(429).json({ error: 'rate_limited' });
+    return jsonResponse({ error: 'rate_limited' }, 429);
   }
 
-  const { message: rawMessage, name: rawName, email: rawEmail } = req.body || {};
+  let body;
+  try {
+    body = await request.json();
+  } catch {
+    return jsonResponse({ error: 'Invalid request body' }, 400);
+  }
 
-  const message = stripHtml(rawMessage || '');
-  const name = stripHtml(rawName || '');
-  const email = stripHtml(rawEmail || '');
+  const message = stripHtml(body.message || '');
+  const name = stripHtml(body.name || '');
+  const email = stripHtml(body.email || '');
 
   if (!message || message.length === 0) {
-    return res.status(400).json({ error: 'Message is required' });
+    return jsonResponse({ error: 'Message is required' }, 400);
   }
 
   if (message.length > 2000) {
-    return res.status(400).json({ error: 'Message too long (max 2000 characters)' });
+    return jsonResponse({ error: 'Message too long (max 2000 characters)' }, 400);
   }
 
   if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-    return res.status(400).json({ error: 'Invalid email format' });
+    return jsonResponse({ error: 'Invalid email format' }, 400);
   }
 
-  const apiKey = process.env.RESEND_API_KEY;
+  const apiKey = env.RESEND_API_KEY;
   console.log('[feedback] RESEND_API_KEY present:', !!apiKey, '| length:', apiKey?.length || 0);
   if (!apiKey) {
-    console.error('[feedback] RESEND_API_KEY is not set');
-    return res.status(500).json({ error: 'Server configuration error' });
+    console.error('[feedback] RESEND_API_KEY is not set in environment');
+    return jsonResponse({ error: 'Server configuration error' }, 500);
   }
-
-  const resend = new Resend(apiKey);
 
   const subject = name ? `Feedback from ${name}` : 'New feedback on PortfolioAtlas';
 
@@ -91,25 +88,33 @@ export default async function handler(req, res) {
   `;
 
   try {
-    const result = await resend.emails.send({
-      from: 'PortfolioAtlas Feedback <feedback@portfolioatlas.org>',
-      to: 'chris@portfolioatlas.org',
-      subject,
-      html: htmlBody,
-      replyTo: email || undefined,
+    const resendRes = await fetch('https://api.resend.com/emails', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${apiKey}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        from: 'PortfolioAtlas Feedback <feedback@portfolioatlas.org>',
+        to: 'chris@portfolioatlas.org',
+        subject,
+        html: htmlBody,
+        reply_to: email || undefined,
+      }),
     });
 
-    console.log('[feedback] Resend response:', JSON.stringify(result, null, 2));
+    const result = await resendRes.json();
+    console.log('[feedback] Resend status:', resendRes.status, '| response:', JSON.stringify(result));
 
-    if (result.error) {
-      console.error('[feedback] Resend API error:', JSON.stringify(result.error));
-      return res.status(500).json({ error: 'Failed to send email' });
+    if (!resendRes.ok) {
+      console.error('[feedback] Resend API error:', resendRes.status, JSON.stringify(result));
+      return jsonResponse({ error: 'Failed to send email' }, 500);
     }
 
-    console.log('[feedback] Email sent, id:', result.data?.id);
-    return res.status(200).json({ success: true });
+    console.log('[feedback] Email sent, id:', result.id);
+    return jsonResponse({ success: true });
   } catch (err) {
     console.error('[feedback] Exception:', err.message || err);
-    return res.status(500).json({ error: 'Failed to send email' });
+    return jsonResponse({ error: 'Failed to send email' }, 500);
   }
 }
