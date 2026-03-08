@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 80
       },
-      "lifestyle": "You wake up to the sound of roosters and gamelan music in a small villa surrounded by rice paddies. Mornings start with a yoga class and a smoothie bowl, afternoons are for exploring temples or surfing, and dinner is a $2 plate of nasi campur at your favorite warung. Bali at $1M is simple, spiritual, and deeply nourishing."
+      "lifestyle": "A small 1-bedroom villa or apartment in Ubud or Sanur with garden access. Eating mostly at local warungs, which are cheap and good. Getting around by scooter. Basic international health insurance, though serious medical issues require evacuation to Singapore. Yoga classes and beach days are cheap or free. Comfortable on a daily basis, but imported goods and Western dining add up quickly."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 120
       },
-      "lifestyle": "At $2M, Bali becomes a tropical dream with real comfort. You have your own pool villa, split time between Ubud's artistic calm and Canggu's buzzy beach scene, and enjoy a social life built around surf sessions, sunset cocktails, and farm-to-table dining. Weekend trips to the Gili Islands or Nusa Penida keep things exciting."
+      "lifestyle": "A 2-bedroom private villa with pool in Ubud, Canggu, or Sanur. Eating at the growing cafe and restaurant scene several times a week alongside local warungs. Scooter plus Grab for longer trips. Comprehensive international health insurance. Weekend trips to the Gili Islands or Nusa Penida. Life is comfortable and social, with good variety in dining and activities."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "With $3M, you experience Bali's luxury layer. Your sprawling villa overlooks terraced rice fields, you dine at Asia's 50 Best restaurants, and your weekends alternate between Uluwatu cliff-top sundowners and private boat trips to hidden islands. Bali at this level is a wellness resort you never have to leave."
+      "lifestyle": "A spacious 3-bedroom villa with private pool and valley or ocean views in Seminyak, Ubud, or Uluwatu. Regular dining at Bali's top restaurants like Locavore. A driver on retainer for getting around the island. Premium international health insurance with Singapore evacuation coverage. Domestic flights to other Indonesian islands for weekend trips. This budget covers a genuinely affluent life in Bali with regular travel."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Balinese spa treatments weekly, custom surfboard shaping, private ceremonies with local priests, art collecting from Ubud galleries",
         "monthlyCost": 1600
       },
-      "lifestyle": "At $5M, Bali becomes your personal paradise. Your architect-designed compound has a dedicated staff, your private chef sources ingredients from organic farms, and you split your time between surfing, spiritual practices, and exploring the Indonesian archipelago by boat. It is an unparalleled quality of life in one of the world's most beautiful settings."
+      "lifestyle": "A large, well-designed villa with infinity pool and panoramic views in a prime location. A housekeeper, a cook for most meals, and a gardener. A full-time driver with a nice SUV. Business class flights for longer trips and regular domestic travel across the Indonesian archipelago. Premium global health insurance with executive checkups in Singapore. Daily life is very comfortable, though Bali's infrastructure limitations — roads, internet, medical facilities — are real regardless of budget."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Private yoga and meditation masters, art patronage, custom furniture commissions, yacht charters through the archipelago, eco-tourism investments",
         "monthlyCost": 5500
       },
-      "lifestyle": "With $10M in Bali, you live in a compound that rivals the finest boutique resorts in the world — except it is entirely yours. A full estate staff attends to every detail, your yacht takes you island-hopping through the Indonesian archipelago, and you've become a patron of the local arts scene. Bali at this level is not just retirement; it is living art."
+      "lifestyle": "A premium beachfront or cliff-top estate with multiple pavilions and possibly a second property in Ubud. A housekeeper, a cook a few times a week, a gardener, and a driver. First-class flights internationally and regular travel across Indonesia. Concierge global healthcare with immediate access to Singapore or Bangkok specialists. This budget far exceeds what Bali's market can absorb — you live at the top of what the island offers, but the island's limited fine-dining scene, patchy infrastructure, and remote location remain real factors."
     }
   },
   "scores": {

@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 120
       },
-      "lifestyle": "You roll out of bed, walk five minutes to the Caribbean, and spend mornings swimming in impossibly clear water. Afternoons are for exploring cenotes or cycling along the coast. Budget is tighter here than inland Mexico — you cook at home often and favor the local taco stands over tourist restaurants — but you're living steps from one of the world's most beautiful coastlines every single day."
+      "lifestyle": "A one-bedroom near 5th Avenue or in Playacar keeps you within walking distance of the beach. The budget is tighter than inland Mexico — you cook at home most nights, stick to local taco joints over tourist restaurants, and get around by bicycle or colectivo. The tradeoff is daily access to Caribbean water, cenotes on weekends, and a large English-speaking expat community."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "Your poolside condo is a two-minute walk from the beach, and you take full advantage — morning yoga on the sand, midday dip in a cenote, afternoon ceviche at your favorite beachfront palapa. Weekends mean island-hopping to Cozumel for world-class diving or exploring Mayan ruins at Cobá. The international community means friends from every continent, and the vibe is permanently relaxed."
+      "lifestyle": "A modern two-bedroom condo in Playacar or a beachfront building with pool access provides a comfortable home base. You dine out at beachfront restaurants and 5th Avenue spots several times a week, carry private health insurance, and rent a scooter or car for weekend trips to Cozumel, Tulum, or Mayan ruins. The international community is large, and daily beach access is a genuine perk of this location."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "Your condo's rooftop pool overlooks the Caribbean — the kind of view people pay $500/night for at resorts. You split days between beach clubs, diving excursions, and leisurely long lunches. A private guide takes you to hidden cenotes the tourists never find. This is the Riviera Maya at its absolute best, with the freedom to say yes to every adventure that presents itself."
+      "lifestyle": "A large condo in a beachfront complex with rooftop pool and ocean views serves as your base. You dine at Playa's best restaurants regularly, lease an SUV for exploring the Riviera Maya, and take diving and sailing trips on weekends. Beach club memberships, kitesurfing lessons, and spa visits are comfortably in budget. Housing takes a larger share here than inland Mexico, but the coastal lifestyle justifies the premium."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Private catamaran charters, exclusive Tulum club memberships, bespoke Mayan cultural experiences",
         "monthlyCost": 1800
       },
-      "lifestyle": "Your beachfront villa has a private path to the sand, a pool surrounded by tropical gardens, and a full-time staff that keeps everything running. Mornings start with fresh juice by the pool, afternoons on your chartered catamaran, evenings with a private chef preparing freshly caught lobster. The Riviera Maya's luxury scene caters to you personally — this is resort living without ever checking out."
+      "lifestyle": "A beachfront villa in Playacar with private pool, garden, and direct beach access anchors daily life. A housekeeper manages the house, a cook comes several evenings a week, and you dine at the area's best restaurants without hesitation. A leased SUV handles land transport, and chartered catamaran or boat trips are a regular weekend activity. Business class flights for international travel are standard."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Yacht mooring, Mayakoba resort memberships, private archaeological tours, philanthropic projects in Mayan communities",
         "monthlyCost": 4500
       },
-      "lifestyle": "Your Mayakoba estate is a private paradise — an infinity pool melts into Caribbean views, a personal chef prepares three meals daily from the freshest catch, and your yacht captain has the boat ready whenever the mood strikes. You host unforgettable gatherings under palapa roofs with the sound of waves as your soundtrack. At this level, the Riviera Maya is not just a retirement destination — it's your personal tropical empire."
+      "lifestyle": "A large oceanfront property in Mayakoba or Playacar with pool, gardens, and staff quarters provides a premium home base. A cook handles daily meals, housekeeping staff maintain the property, and you dine at the Riviera Maya's top restaurants freely. First class flights, regular boat outings, and a fully staffed home mean you rarely think about logistics. This is a high level of comfort for a beach location, though the Riviera Maya's resort-town character means it lacks the urban depth of a major city."
     }
   },
   "scores": {

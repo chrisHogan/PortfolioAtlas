@@ -1,6 +1,7 @@
 ---
 import type { CityData, TierKey } from '../data/types';
-import { formatCurrency, getTotalSpend, TIER_LABELS, SAFE_WITHDRAWAL_RATE } from '../data/types';
+import { formatCurrency, getTotalSpend, SAFE_WITHDRAWAL_RATE } from '../data/types';
+import { SUSTAINABILITY_FOOTNOTE } from '../data/sustainability';
 
 interface Props {
   city: CityData;
@@ -17,11 +18,12 @@ const tierValues: { key: TierKey; value: number }[] = [
 ];
 
 // Pre-compute tier data for client-side
-const tierCosts: Record<string, { totalSpend: number; budget: number }> = {};
+const tierCosts: Record<string, { totalSpend: number; budget: number; lifestyle: string }> = {};
 for (const [key, tier] of Object.entries(city.tiers)) {
   tierCosts[key] = {
     totalSpend: getTotalSpend(tier),
     budget: tier.monthlyBudget,
+    lifestyle: tier.lifestyle,
   };
 }
 ---
@@ -48,71 +50,14 @@ for (const [key, tier] of Object.entries(city.tiers)) {
         <p id="pt-subtitle" class="text-sm text-gray-500 mt-1"></p>
       </div>
       <div class="text-right">
+        <div class="text-xs text-gray-500 mb-0.5">Available per month</div>
         <div id="pt-budget" class="text-2xl font-bold text-brand-600"></div>
-        <div class="text-xs text-gray-500">per month</div>
       </div>
     </div>
 
-    <!-- Cost Breakdown - we show costs from the closest tier -->
-    <div id="pt-costs" class="space-y-3 mb-6">
-      {(['1M', '2M', '3M', '5M', '10M'] as TierKey[]).map((tierKey) => {
-        const tier = city.tiers[tierKey];
-        const costItems = [
-          { label: 'Housing', cost: tier.housing.monthlyCost, desc: tier.housing.description, color: 'bg-brand-500' },
-          { label: 'Dining Out', cost: tier.dining.monthlyCost, desc: tier.dining.description, color: 'bg-amber-500' },
-          { label: 'Groceries', cost: tier.groceries.monthlyCost, desc: null, color: 'bg-emerald-500' },
-          { label: 'Healthcare', cost: tier.healthcare.monthlyCost, desc: tier.healthcare.description, color: 'bg-red-400' },
-          { label: 'Transportation', cost: tier.transportation.monthlyCost, desc: tier.transportation.description, color: 'bg-purple-500' },
-          { label: 'Entertainment', cost: tier.entertainment.monthlyCost, desc: tier.entertainment.description, color: 'bg-pink-500' },
-          { label: 'Utilities', cost: tier.utilities.monthlyCost, desc: null, color: 'bg-gray-400' },
-        ];
-        if (tier.domesticHelp) {
-          costItems.push({ label: 'Domestic Help', cost: tier.domesticHelp.monthlyCost, desc: tier.domesticHelp.description, color: 'bg-teal-500' });
-        }
-        if (tier.luxuryExtras) {
-          costItems.push({ label: 'Luxury & Extras', cost: tier.luxuryExtras.monthlyCost, desc: tier.luxuryExtras.description, color: 'bg-yellow-500' });
-        }
-
-        return (
-          <div class="hidden" data-pt-tier={tierKey}>
-            {costItems.map((item) => (
-              <div class="group mb-3">
-                <div class="flex items-center justify-between mb-1">
-                  <div class="flex items-center gap-2">
-                    <div class={`w-3 h-3 rounded-full ${item.color}`}></div>
-                    <span class="text-sm font-medium text-gray-700">{item.label}</span>
-                  </div>
-                  <span class="text-sm font-semibold text-gray-900">
-                    {formatCurrency(item.cost)}
-                  </span>
-                </div>
-                {item.desc && (
-                  <p class="text-xs text-gray-500 ml-5 leading-relaxed">
-                    {item.desc}
-                  </p>
-                )}
-              </div>
-            ))}
-          </div>
-        );
-      })}
-    </div>
-
-    <!-- Total & Surplus -->
-    <div class="bg-brand-50 rounded-xl p-4 mb-6">
-      <div class="flex justify-between items-center mb-2">
-        <span class="text-sm font-medium text-gray-600">Total Monthly Spend</span>
-        <span id="pt-total" class="text-lg font-bold text-gray-900"></span>
-      </div>
-      <div class="flex justify-between items-center">
-        <span id="pt-surplus-label" class="text-sm font-medium text-gray-600"></span>
-        <span id="pt-surplus" class="text-lg font-bold"></span>
-      </div>
-    </div>
-
-    <!-- Lifestyle -->
+    <!-- Lifestyle Description -->
     {(['1M', '2M', '3M', '5M', '10M'] as TierKey[]).map((tierKey) => (
-      <div class="bg-brand-50 rounded-xl p-4 hidden" data-pt-lifestyle={tierKey}>
+      <div class="bg-brand-50 rounded-xl p-5 mb-5 hidden" data-pt-lifestyle={tierKey}>
         <h4 class="text-sm font-semibold text-brand-800 mb-2">
           What life looks like in {city.name}
         </h4>
@@ -121,6 +66,22 @@ for (const [key, tier] of Object.entries(city.tiers)) {
         </p>
       </div>
     ))}
+
+    <!-- Total cost + sustainability signal -->
+    <div class="bg-brand-50 rounded-xl p-4 mb-4">
+      <div class="flex justify-between items-center mb-2">
+        <span class="text-sm font-medium text-gray-600">Estimated Monthly Cost</span>
+        <span id="pt-total" class="text-lg font-bold text-gray-900"></span>
+      </div>
+      <div id="pt-signal" class="pt-2 border-t border-brand-100"></div>
+    </div>
+
+    <p class="text-[10px] text-gray-400 mb-2">
+      Costs are estimates and vary by personal spending habits, exchange rates, and lifestyle choices.
+    </p>
+    <p class="text-[10px] text-gray-400">
+      {SUSTAINABILITY_FOOTNOTE}
+    </p>
   </div>
 </div>
 
@@ -153,8 +114,6 @@ for (const [key, tier] of Object.entries(city.tiers)) {
     const data = tierCosts[closestKey];
     if (!data) return;
 
-    const surplus = monthlyBudget - data.totalSpend;
-
     function fmtCurrency(n) {
       return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 0, maximumFractionDigits: 0 }).format(n);
     }
@@ -177,22 +136,21 @@ for (const [key, tier] of Object.entries(city.tiers)) {
     const totalEl = document.getElementById('pt-total');
     if (totalEl) totalEl.textContent = fmtCurrency(data.totalSpend);
 
-    const surplusLabel = document.getElementById('pt-surplus-label');
-    if (surplusLabel) surplusLabel.textContent = surplus >= 0 ? 'Monthly Surplus' : 'Monthly Deficit';
-
-    const surplusEl = document.getElementById('pt-surplus');
-    if (surplusEl) {
-      surplusEl.textContent = (surplus >= 0 ? '+' : '') + fmtCurrency(surplus);
-      surplusEl.className = 'text-lg font-bold ' + (surplus >= 0 ? 'text-emerald-600' : 'text-red-600');
+    // Sustainability signal
+    const ratio = data.totalSpend / monthlyBudget;
+    let label: string, colorClass: string, dotClass: string;
+    if (ratio <= 0.95) {
+      label = 'Sustainable'; colorClass = 'text-emerald-600'; dotClass = 'bg-emerald-500';
+    } else if (ratio <= 1.0) {
+      label = 'Borderline'; colorClass = 'text-amber-600'; dotClass = 'bg-amber-400';
+    } else {
+      label = 'Not sustainable'; colorClass = 'text-gray-500'; dotClass = 'bg-gray-400';
     }
 
-    // Show the correct tier's cost breakdown
-    const tierSections = container.querySelectorAll('[data-pt-tier]');
-    tierSections.forEach((el) => {
-      if (el.getAttribute('data-pt-tier') === closestKey) {
-        el.classList.remove('hidden');
-      }
-    });
+    const signalEl = document.getElementById('pt-signal');
+    if (signalEl) {
+      signalEl.innerHTML = `<div class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full ${dotClass}"></span><span class="text-sm font-semibold ${colorClass}">${label}</span></div>`;
+    }
 
     // Show the correct tier's lifestyle
     const lifestyleSections = container.querySelectorAll('[data-pt-lifestyle]');

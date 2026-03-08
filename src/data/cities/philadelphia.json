@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "Philadelphia is one of the most affordable major cities in the Northeast at this budget. BYOB restaurants keep dining out cheap, SEPTA eliminates car costs, and there is no sales tax on groceries or clothing. You can live in a trendy neighborhood and enjoy a genuinely urban lifestyle without coastal-city prices."
+      "lifestyle": "You can rent a one-bedroom in Fishtown or South Philly and rely on SEPTA instead of owning a car, which keeps costs down significantly. Philly's BYOB restaurant culture makes dining out affordable a couple of times a week, and there is no sales tax on groceries or clothing. Free gallery nights, the Schuylkill River Trail, and Fairmount Park provide regular entertainment."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "At this budget Philly is a fantastic deal. You can live near Rittenhouse Square — one of the best urban parks in America — and enjoy a restaurant scene that rivals cities twice the price. Weekend trips to the Jersey Shore and easy Amtrak access to New York and D.C. add enormous value."
+      "lifestyle": "You can rent a nice apartment near Rittenhouse Square or in Northern Liberties and eat out several times a week at the restaurant scene that has put Philly on the national food map. Eagles or Phillies tickets, weekend trips to the Jersey Shore, and Amtrak access to New York and D.C. are all within budget. Philadelphia offers a lot of urban life for the money compared to Boston or New York."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "Philadelphia at this tier is outstanding. A prime address in Rittenhouse or Society Hill, regular meals at some of America's best restaurants, and season tickets to your favorite Philly sports teams. The city's walkability means you can do everything on foot and save the car for weekend getaways."
+      "lifestyle": "You can rent a condo in Rittenhouse Square or a townhouse in Society Hill, and dine regularly at restaurants like Zahav and Vernick. Eagles season tickets, a Philadelphia Orchestra subscription, and a car for weekend drives to Brandywine Valley or the shore all fit comfortably. Good private insurance through the Penn Medicine network and the city's walkability make daily life convenient."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Quarterly travel, art collecting, Brandywine Valley outings, philanthropy",
         "monthlyCost": 1400
       },
-      "lifestyle": "You are living Philadelphia's finest. A stunning Rittenhouse penthouse or historic Main Line estate, patron-level access to world-class museums, and box seats at the Linc. First-class Acela to New York for dinner and back makes the entire Northeast Corridor your playground."
+      "lifestyle": "A large Rittenhouse penthouse or a historic home on the Main Line, regular dining at Philadelphia's best restaurants, and a housekeeper who comes weekly. Concierge medicine at Penn Medicine, a nice car, and business class Acela to New York or D.C. are standard. Museum patron memberships, box seats at Eagles games, and weekend trips to the shore round out the budget."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "First-class international travel, shore house, museum endowments, charitable foundation",
         "monthlyCost": 5000
       },
-      "lifestyle": "At this level Philadelphia offers old-money elegance with modern energy. A landmark estate, trustee-level involvement at the Philadelphia Museum of Art and the Orchestra, and the ability to shape the city's cultural future. The Main Line lifestyle combined with Philly's gritty authenticity creates something uniquely appealing."
+      "lifestyle": "Premium housing in Rittenhouse or a grand Main Line estate, regular fine dining, a cook who comes several times a week, and a housekeeper. First class travel, full concierge healthcare at Penn Medicine, and a private suite at the stadiums. Philadelphia's relatively affordable cost base means this budget goes further than it would in New York, with easy Acela access to Manhattan when you want it."
     }
   },
   "scores": {

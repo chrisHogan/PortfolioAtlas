@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 130
       },
-      "lifestyle": "A sun-drenched life on a tight budget where the beach and mountains are your free playground. You'll eat the best tacos of your life for $3, hike to the Hollywood sign before breakfast, and watch the sunset over the Pacific from a lifeguard tower. The apartment is modest, but the backyard is the entire California coast."
+      "lifestyle": "A modest apartment in Koreatown or the Valley, well away from the beach. You need a car, which eats into an already tight budget, and California's high state income tax reduces your effective spending power. The tradeoff is year-round sunshine, excellent cheap ethnic food, and free access to beaches and hiking trails. You cook most meals at home and keep entertainment costs low by taking advantage of the outdoors."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 160
       },
-      "lifestyle": "The real LA experience — a cute apartment in a neighborhood with great coffee shops and vintage stores, weekend mornings at the farmers market, afternoons at the beach, and evenings at the Hollywood Bowl with a bottle of wine. You're living the California dream that people move across the country for."
+      "lifestyle": "A nice one-bedroom in Silver Lake or Mar Vista, with some coastal proximity. You eat out several times a week at good mid-range restaurants, visit the farmers market on weekends, and catch shows at the Hollywood Bowl in summer. A reliable car with insurance is a fixed cost. California income tax takes a noticeable bite, but you live well, with regular beach days and enough budget for occasional trips up the coast."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "A polished LA life where you wake up to ocean air, surf before lunch, and make dinner reservations at the spots that define California cuisine. Your Venice bungalow or Santa Monica apartment puts the beach at your doorstep, and weekends mean road-tripping the PCH to wine country or Joshua Tree."
+      "lifestyle": "A spacious apartment in West Hollywood or Santa Monica, or a small house in Venice. You dine regularly at well-regarded restaurants, drive a decent car, and take weekend trips up the PCH to Santa Barbara or out to Joshua Tree. At $10,000 a month you are living comfortably in a good neighborhood with real breathing room for entertainment and travel. California taxes remain a factor, but the quality of life is high."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Personal trainer, private Pilates, wardrobe stylist, premium beach club membership, annual Coachella and film festival VIP passes",
         "monthlyCost": 1700
       },
-      "lifestyle": "The Hollywood Hills lifestyle that defines aspirational California living. Your glass-walled home overlooks the city lights, your private chef sources from the Santa Monica farmers market, and your weekends split between Malibu beach days and desert escapes to Palm Springs. You're on the guest list for screenings and gallery openings across the Westside."
+      "lifestyle": "A large home in the Hollywood Hills or a luxury apartment in Century City, with a nice car for getting around. You eat at the city's best restaurants regularly, have a housekeeper come weekly, and take weekend trips to Palm Springs or Malibu without budgeting for them. Business class flights for longer travel are comfortable at this budget. California's 13.3% top income tax rate is the main drawback, but the day-to-day lifestyle is genuinely affluent."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Interior designer on retainer, bespoke wardrobe curation, art advisor, charitable foundation, Malibu vineyard investment, wellness concierge",
         "monthlyCost": 4333
       },
-      "lifestyle": "At this level, you inhabit the LA that the world sees on screen. Your Bel Air estate hosts charity galas under the stars, your Malibu compound is where industry moguls decompress on your invitation, and your name appears on museum wings and film credits alike. Private jets to Aspen, courtside with celebrities, and a life that blurs the line between luxury and legend."
+      "lifestyle": "A large home in Bel Air, Brentwood, or beachfront in Malibu with a pool and guest house. You have a housekeeper, a cook who comes in several times a week, and a nice car. You dine at top restaurants frequently, travel first class, and support local arts institutions as a donor. This is comfortable, established wealth in a city where the weather and outdoor access are hard to beat. Even at this budget, California taxes take a significant share."
     }
   },
   "scores": {

@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 80
       },
-      "lifestyle": "Marrakech at $3,333/month is an extraordinarily rich experience. You can live in a gorgeous riad with a courtyard, eat incredible Moroccan food daily, visit the hammam weekly, and still have over half your budget left for savings or travel. The cultural immersion is total and the cost of living is a fraction of the West. Learning basic French is strongly recommended."
+      "lifestyle": "A renovated 2-bedroom riad in the medina or a modern apartment in Gueliz. Eating tagine, couscous, and street food at local restaurants most days, with weekly hammam visits. Getting around by petit taxi. Private health insurance covering local clinics. Atlas Mountain day hikes on weekends. French is essential for daily life. Comfortable and deeply affordable, with plenty of budget left over each month."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 120
       },
-      "lifestyle": "At this budget Marrakech becomes a paradise. A stunning riad with a plunge pool and rooftop terrace, regular meals at the city's best restaurants, spa days, and weekend drives to the Atlas Mountains or Atlantic coast. You are living at a level that would cost $12,000+ per month in a European city, with a depth of cultural experience Europe cannot match."
+      "lifestyle": "A spacious riad with rooftop terrace in the medina or a well-appointed apartment in Hivernage. Regular dining at restaurants like Nomad, Le Jardin, and Al Fassia. A car for weekend trips to the Atlas Mountains and the Atlantic coast. Comprehensive private health insurance. Hammam and spa visits, cooking workshops, and golf at Royal Golf. Day-to-day life is very comfortable with a large monthly margin."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "At $10K/month in Marrakech you are living at a level most people only experience at five-star resort hotels. A villa with a private pool and gardens, a full-time cook preparing fresh Moroccan cuisine, luxury desert experiences, and the freedom to explore the entire country. This is an absurdly high quality of life for the price."
+      "lifestyle": "A villa in the Palmeraie with pool and gardens, or a grand restored riad in the medina. Regular dining at top restaurants and hotel restaurants like La Mamounia. A late-model SUV for mountain and desert trips, with an occasional driver. Premium health insurance with international coverage and medical evacuation. Sahara desert trips and European weekend getaways. This budget goes very far in Marrakech, with substantial margin each month."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "First-class international travel, luxury Sahara expeditions, Moroccan riad investments, philanthropy",
         "monthlyCost": 2000
       },
-      "lifestyle": "Marrakech at $16,667/month is palatial living. A sprawling estate with multiple staff, a personal chef creating Moroccan feasts, private Sahara desert camps, and first-class flights to Paris whenever the mood strikes. You are essentially living the life of Moroccan royalty at a fraction of what this lifestyle would cost anywhere in Europe."
+      "lifestyle": "A large estate villa in the Palmeraie with pool and gardens, a housekeeper, cook, gardener, and driver. A luxury SUV, business class flights to Paris and other European cities, and top-tier international health insurance. Regular dining at the best restaurants and hotel dining rooms. Domestic flights to Casablanca and Fez for weekends. Marrakech's low costs mean this budget provides a very high quality of life with a large margin."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Riad portfolio investments, private jet travel, Sahara glamping lodge, major philanthropy across Morocco",
         "monthlyCost": 5000
       },
-      "lifestyle": "At $33K/month in Marrakech you are living in a literal palace with a staff of a dozen, hosting international guests, and funding meaningful charitable work across Morocco. The surplus at this level is enormous, allowing for significant real estate investment, philanthropic impact, and a travel schedule that spans the globe. Nowhere else on earth offers this combination of cultural richness, beauty, and extraordinary value."
+      "lifestyle": "A large estate in the Palmeraie or a restored historic riad with full household staff including multiple housekeepers, a cook several times a week, security, and drivers. Multiple vehicles, first class international flights, and top-tier global health coverage with European hospital access. Regular fine dining and entertaining. Marrakech's extremely low costs mean the vast majority of this budget goes unspent. Most people at this level travel extensively and use Marrakech as a beautiful, affordable home base."
     }
   },
   "scores": {

@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 130
       },
-      "lifestyle": "A scrappy, exhilarating life in the world's greatest city on a shoestring. You'll eat $1 dumplings in Flushing, catch free Shakespeare in the Park, and discover that NYC's best experiences — the street life, the people-watching, the sheer energy — cost nothing. It's tight, but ten million people would trade places with you."
+      "lifestyle": "A tight budget in one of the most expensive cities in the country. You share an apartment or rent a small studio in an outer neighborhood, cook most meals at home, and rely on the subway to get everywhere. The upside is real: free museums, cheap dumplings in Flushing, and Central Park cost nothing. But $3,333 a month in NYC means watching every dollar, and state plus city income taxes shrink your effective budget further."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 170
       },
-      "lifestyle": "The real New York experience — a proper apartment in a neighborhood you love, dinners at the restaurants that make food writers swoon, and a cultural calendar that could fill every night of the week. You'll see more live music, theater, and art in a month than most people see in a year. This is the city working for you."
+      "lifestyle": "You can afford your own one-bedroom in a good neighborhood like the East Village or Park Slope, eat out several times a week at solid restaurants, and attend Broadway shows or jazz clubs regularly. You live comfortably without extravagance. A Citi Bike membership and MetroCard keep you mobile, and the cultural density means there is always something to do. New York's combined state and city taxes are a real drag on this budget, but the lifestyle is genuinely enjoyable."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 220
       },
-      "lifestyle": "A polished Manhattan or brownstone Brooklyn existence where you never say no to the city's offerings. Front-row Broadway seats, a standing reservation at your neighborhood trattoria, and weekends escaping to the Hudson Valley or Hamptons. You live the New York that people write novels about."
+      "lifestyle": "A comfortable apartment in the West Village, Upper West Side, or Brooklyn Heights puts you in a desirable part of the city. You dine at well-regarded restaurants several nights a week, hold museum memberships, and see orchestra-level Broadway shows regularly. Weekend trips to the Hudson Valley or Long Island are feasible. At $10,000 a month, New York is genuinely affluent living, though still not lavish by Manhattan standards."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Equinox+ membership, personal stylist, premium co-working at NeueHouse, annual wardrobe refresh, weekend house in Hudson Valley",
         "monthlyCost": 1817
       },
-      "lifestyle": "The New York that the rest of the world fantasizes about. Your Tribeca loft or Village brownstone hosts intimate dinner parties, your name is on benefit committee lists, and your weekends alternate between Hamptons beach houses and Hudson Valley retreats. The city's velvet ropes part for you effortlessly."
+      "lifestyle": "A large apartment in a doorman building in Tribeca or a floor-through in the West Village. You dine at top restaurants regularly, have a housekeeper several times a week, and fly business class for longer trips. Weekends might mean a rental in the Hamptons or Hudson Valley. This is upper-affluent New York -- you live very well and rarely think about restaurant prices, but you are renting, not buying, in the most expensive neighborhoods."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Hamptons estate maintenance, bespoke tailoring at Savile Row on trips, private art advisor, charitable foundation, interior designer on retainer",
         "monthlyCost": 4733
       },
-      "lifestyle": "At this level, you are New York. Your Central Park penthouse hosts the fundraisers that make Page Six, your art collection rivals small museums, and your name is synonymous with philanthropy and taste. Art Basel, charity galas, and Davos are your social calendar — and your Hamptons compound is where Manhattan's elite escape on your invitation."
+      "lifestyle": "A premium apartment on Central Park West or a large Tribeca residence in a white-glove building. You have a housekeeper, eat at the city's best restaurants without hesitation, and travel business or first class. A cook comes in several times a week. You support cultural institutions as a donor and attend galas comfortably. This is the life of a successful professional who never worries about money in New York -- wealthy and comfortable, not ostentatious."
     }
   },
   "scores": {

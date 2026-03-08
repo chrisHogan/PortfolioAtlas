@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 160
       },
-      "lifestyle": "Charleston on a tight budget is manageable thanks to South Carolina's lower taxes and reasonable costs outside downtown. You will live in a suburban neighborhood but can still enjoy the historic district's free attractions, beautiful beaches, and affordable Lowcountry seafood. Summer humidity and A/C costs are the main budget challenges."
+      "lifestyle": "You will live in West Ashley, James Island, or North Charleston rather than downtown, and housing takes a large share of the budget. Free walks on the Battery, beach days at Folly Beach, and affordable shrimp-and-grits spots keep life enjoyable. Summer A/C bills are a real cost to plan for. This is tight but workable if you cook at home most nights."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 190
       },
-      "lifestyle": "At this budget Charleston reveals its full charm. You can live downtown or near the beach, enjoy the James Beard Award-winning restaurant scene regularly, and participate in cultural events like Spoleto Festival. Weekends kayaking through the salt marshes or lounging at Isle of Palms are the norm."
+      "lifestyle": "A two-bedroom downtown or near the beach in Mount Pleasant puts the city's restaurant scene within easy reach. Dining out three or four times a week at Charleston's well-known restaurants and oyster bars is comfortable at this budget. Weekends involve kayaking the salt marshes, beach time at Isle of Palms, and events like Spoleto Festival."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 260
       },
-      "lifestyle": "Charleston at this level is spectacular. A historic home in the city's most coveted neighborhoods, regular meals at nationally acclaimed restaurants, and weekend sailing in the harbor. The blend of history, culture, and coastal living is unmatched anywhere in the American South."
+      "lifestyle": "A historic home south of Broad or a waterfront place on Sullivan's Island is within reach. Regular dinners at FIG, Husk, and The Ordinary fit the budget comfortably, and you can afford a golf membership and weekend sailing in the harbor. This is a genuinely affluent Charleston life with room for regular travel."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Quarterly travel, antique collecting, historic preservation philanthropy, spa retreats",
         "monthlyCost": 1400
       },
-      "lifestyle": "You are living Charleston's grandest lifestyle. A historic mansion with a piazza overlooking the harbor, membership at Kiawah's exclusive golf courses, and the ability to host elegant Lowcountry dinner parties. Southern hospitality meets refined luxury at every turn."
+      "lifestyle": "A large historic home south of Broad with a piazza, or a beachfront property on Kiawah Island. A housekeeper comes weekly, you dine at the city's best restaurants several times a week, and a golf membership at Kiawah is affordable. Business class travel and regular entertaining are comfortable at this budget. Charleston's high-end real estate absorbs a fair share, but daily life feels very well-appointed."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Historic preservation endowments, European travel, second home, charitable foundation",
         "monthlyCost": 5000
       },
-      "lifestyle": "At this level Charleston is your personal Southern kingdom. A landmark estate, a private yacht for cruising the ACE Basin, and the ability to shape the city's cultural and preservation efforts through major philanthropy. You live among centuries of history while enjoying every modern luxury."
+      "lifestyle": "A landmark historic home or a large Kiawah Island property, regular domestic staff including a housekeeper and property manager, and a cook who comes in several times a week. First-class travel, fine dining whenever you like, and a boat for exploring the harbor and barrier islands. Charleston's preservation community and cultural scene offer real ways to get involved. Housing at this level absorbs a meaningful share, but the overall lifestyle is very comfortable."
     }
   },
   "scores": {

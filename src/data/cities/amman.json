@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 120
       },
-      "lifestyle": "Amman on a lean budget is surprisingly comfortable. You can rent a spacious apartment, eat magnificent Jordanian food daily, and enjoy the city's layered history on foot. The warmth of Jordanian hospitality — you will be invited for tea and mansaf regularly — makes the experience richer than any budget number suggests. Day trips to the Dead Sea and Jerash are cheap and unforgettable."
+      "lifestyle": "A 2-bedroom apartment in Jabal Amman or Sweifieh, eating falafel, hummus, and mansaf at local restaurants most days, and getting around by taxi and ride-hailing since public transit is limited. Affordable private health insurance covering Jordan's well-regarded hospitals. Day trips to the Dead Sea and Jerash are cheap. Comfortable and affordable, though dining at upscale restaurants and frequent travel would stretch the budget."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "At this budget Amman becomes a fantastic base for exploring one of the world's most historically rich regions. A comfortable apartment in an upscale neighborhood, regular dining at excellent restaurants, and the car access needed to visit Petra, Wadi Rum, and the Dead Sea regularly. Jordan's central location also enables easy weekend flights to Egypt, Lebanon, and Turkey."
+      "lifestyle": "A modern 3-bedroom apartment in Abdoun or Deir Ghbar, dining out at good restaurants and mezze spots several times a week, and your own car for trips to the Dead Sea, Petra, and Wadi Rum. Premium private health insurance with specialist coverage. Weekend flights to Cairo, Beirut, or Istanbul are affordable. Day-to-day life is comfortable with a reasonable monthly cushion."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "Life at $10,000/month in Amman is luxurious by local standards. A beautiful villa, regular fine dining, and the budget to experience Jordan's world-class archaeological sites in premium style — private guides at Petra, luxury tented camps in Wadi Rum, and spa weekends at the Dead Sea. Few places offer such a concentration of bucket-list experiences so affordably."
+      "lifestyle": "A large villa in Abdoun or a premium apartment in the Abdali district. Regular dining at top restaurants like Fakhreldin and Sufra, an SUV for desert and Dead Sea trips, and flights to Aqaba. International health insurance with concierge service. Weekend trips to Wadi Rum tented camps and Dead Sea resorts are comfortable additions. This budget goes far in Amman, with significant margin each month."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "First-class regional travel, luxury Dead Sea property access, antiquities study, philanthropy",
         "monthlyCost": 2000
       },
-      "lifestyle": "You are living like Amman's elite in a grand villa with full staff and the resources to experience Jordan and the wider region in premium style. Private tours of Petra by candlelight, luxury camps under Wadi Rum's stars, and easy access to the broader Middle East make this an extraordinarily rich life at a price that would buy a modest existence in a Western capital."
+      "lifestyle": "A large villa in Abdoun or Dabouq with pool and garden, a housekeeper, cook, and driver. A luxury SUV for desert trips, business class flights for international travel, and premium healthcare with international hospital access. Regular dining at Amman's best restaurants and private guided tours at Petra and other sites. Amman's moderate costs leave a large margin at this budget level."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Private jet access, Dead Sea luxury compound, archaeological philanthropy, international art",
         "monthlyCost": 6500
       },
-      "lifestyle": "At this level Amman becomes the center of a truly regal Middle Eastern existence. A palatial estate, a full staff, private access to some of humanity's greatest archaeological treasures, and the resources to make a lasting impact through cultural preservation and philanthropy. Jordan's warmth, history, and strategic location create a life of extraordinary depth and meaning."
+      "lifestyle": "A large estate in Dabouq or Abdoun with full household staff including a housekeeper, cook, drivers, and security. Multiple vehicles, first class international flights, and top-tier global health coverage. Dining at any restaurant in Jordan without a thought. This budget vastly exceeds Amman's cost of living, leaving the majority unspent. Most people at this level travel extensively and maintain Amman as a comfortable, affordable home base in the region."
     }
   },
   "scores": {

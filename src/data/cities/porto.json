@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 110
       },
-      "lifestyle": "A warm, authentic Portuguese life at an unbeatable price. Your mornings start with a galao at the corner cafe, afternoons browsing Bolhao Market, and evenings watching the sunset over the Douro with a glass of port. Porto rewards the budget-conscious with its best treasures — all free."
+      "lifestyle": "A 1-bedroom in a walkable neighborhood like Cedofeita or Bonfim, away from the tourist center. Cooking at home most of the time with affordable market produce, eating out at local spots a couple of times a week. Getting around on the Andante transit pass. Public healthcare with a basic private supplement. Porto is 15-20% cheaper than Lisbon, so this budget covers the basics comfortably with modest room for socializing."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 140
       },
-      "lifestyle": "Porto's sweet spot where comfort meets culture. You'll live in a beautifully tiled apartment near the river, spend weekends tasting wine in the Douro Valley, and enjoy a social calendar filled with concerts at Casa da Musica and long seafood lunches by the ocean. Porto's best life, without trying too hard."
+      "lifestyle": "A renovated 2-bedroom in Foz do Douro near the ocean or a stylish flat in Ribeira with river views. Dining out regularly at good restaurants and weekend seafood lunches in Matosinhos. Full private health insurance with dental. A car rental on weekends for Douro Valley drives. Concerts at Casa da Musica, surf lessons, and FC Porto matches. Day-to-day life is easy and the budget covers regular enjoyment without stress."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "An enviable Porto lifestyle that blends ocean living with wine country access. Your Foz apartment overlooks the Atlantic, weekends mean private Douro cruises past terraced vineyards, and your growing port collection rivals the best cellars in Vila Nova de Gaia. Sophisticated, soulful, and uniquely Porto."
+      "lifestyle": "A large apartment in Foz do Douro with ocean views, or a restored townhouse in Miragaia. Dining at the city's best restaurants several times a week, including places like The Yeatman. A leased car for regular Douro Valley trips, premium private healthcare, and regional flights a few times a year. Porto's lower costs mean this budget delivers a genuinely affluent life with plenty of room for travel and entertainment."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Private Portuguese tutor, personal sommelier, bespoke Douro Valley experiences, premium gym and spa membership",
         "monthlyCost": 1400
       },
-      "lifestyle": "You've become part of Porto's landed gentry. Your historic quinta hosts wine dinners for the city's elite, your personal sommelier manages your growing Douro collection, and weekends mean driving your luxury SUV through vineyard-lined valleys to your own plot. Porto's aristocratic tradition, reimagined for the FIRE generation."
+      "lifestyle": "A premium penthouse overlooking the Douro or a historic property in Foz with a private terrace. Regular dining at top restaurants, a cleaner several times a week, and business class for longer flights. A luxury car for Douro Valley drives and premium private healthcare. In a city as affordable as Porto, this budget provides an upper-affluent life with very few constraints on daily spending."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Winery operations budget, art acquisition fund, bespoke travel curation, charitable foundation in Porto",
         "monthlyCost": 4500
       },
-      "lifestyle": "You own a piece of the Douro Valley — literally. Your boutique winery produces award-winning vintages, your oceanfront villa hosts international guests, and your name is synonymous with Porto's cultural renaissance. This is not just retirement; it's building a legacy in one of Europe's most soulful regions."
+      "lifestyle": "A landmark oceanfront villa in Foz do Douro or a restored Douro Valley estate with a guesthouse. A cook a few times a week, a full-time housekeeper, and premium healthcare with no wait times. Business class as default, first class for longer trips. A nice car and driver when needed. Porto is affordable enough that this budget covers everything comfortably, though the city has fewer ultra-premium services than Lisbon or larger capitals."
     }
   },
   "scores": {

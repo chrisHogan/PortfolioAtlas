@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 70
       },
-      "lifestyle": "Delhi on this budget is surprisingly comfortable. The world-class metro gets you everywhere cheaply, street food is legendary and costs almost nothing, and the city's historical sites are mostly free. A/C costs push up summer bills, and air quality is a real concern, but the sheer value is hard to beat."
+      "lifestyle": "A 2-bedroom apartment in a decent South Delhi colony like Saket, getting around on the excellent metro system plus auto-rickshaws. Eating at dhabas and street food stalls most days, with occasional restaurant meals. Private health insurance covering Max and Fortis hospitals. A/C costs spike significantly in Delhi's extreme summers, and air quality in winter is a serious concern, but day-to-day costs are very low."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 100
       },
-      "lifestyle": "At this level Delhi becomes genuinely enjoyable. A large apartment in a good neighborhood, regular dining at excellent restaurants, and the freedom to explore the Golden Triangle on weekends. You can afford a car to escape the metro crush and access Delhi's vibrant cultural scene fully."
+      "lifestyle": "A spacious apartment in Greater Kailash or a modern Gurgaon high-rise, dining at Khan Market restaurants and Hauz Khas cafes several times a week, and your own car or regular Uber. Premium health insurance covering Apollo and Medanta hospitals. Weekend trips to Agra and Jaipur are affordable. Day-to-day life is comfortable and you have a solid financial cushion each month."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "You live among Delhi's elite at this budget. A luxury apartment in the city's most coveted neighborhoods, dining at restaurants that rank among Asia's best, and a car with driver to navigate the city in comfort. The surplus allows for frequent domestic and international travel."
+      "lifestyle": "A large apartment in Defence Colony or Jor Bagh, regular dining at world-class restaurants like Indian Accent and Bukhara, and a car with part-time driver. International health insurance with concierge-level care. Weekend trips to the Himalayas or Rajasthan by domestic flight. This budget stretches very far in Delhi, leaving substantial margin for international travel or savings."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "First-class international travel, luxury resort stays, philanthropy, property investments",
         "monthlyCost": 2000
       },
-      "lifestyle": "At $5M in Delhi you live the life of the city's old-money elite. A grand residence with a full staff, a chauffeur-driven luxury car, and access to exclusive clubs and cultural events. Delhi's position as a gateway to the Himalayas and Rajasthan adds adventure to the luxury."
+      "lifestyle": "A large bungalow or penthouse in a premium area, a luxury car with full-time driver, and a housekeeper, cook, and gardener. Regular dining at Delhi's top restaurants and business class flights for longer trips. Premium healthcare with a dedicated physician. Delhi's low costs relative to this budget mean a very large monthly margin, even living at the top end of the market."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Property empire, philanthropic foundation, first-class global travel, art and antique collection",
         "monthlyCost": 5000
       },
-      "lifestyle": "At this level in Delhi, you are among the most privileged people in a city of 30 million. A sprawling estate, a personal staff of a dozen, and the resources to influence culture and community. India's low costs mean your surplus is staggering, even as you live in absolute luxury."
+      "lifestyle": "A large farmhouse in Chhatarpur or a historic bungalow in the diplomatic enclave, with full household staff including a housekeeper, a cook several times a week, drivers, and a gardener. Multiple vehicles, first class international flights, and top-tier global health coverage. Dining at any restaurant in the city without a thought. Delhi's costs are so low relative to this budget that the vast majority goes unspent each month."
     }
   },
   "scores": {

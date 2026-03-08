@@ -30,40 +30,36 @@ const breadcrumbLd = {
 
         <h2 class="font-serif text-2xl font-bold text-brand-950 mt-12 mb-4">How We Calculate</h2>
         <p>
-          Every city page shows lifestyle breakdowns at five portfolio tiers: <strong>$1M, $2M, $3M,
-          $5M, and $10M</strong>. We use the widely-accepted <strong>4% safe withdrawal rate</strong>
-          (the "Trinity Study" rule) to calculate your monthly budget:
+          We use the widely-accepted <strong>4% safe withdrawal rate</strong>
+          (the "Trinity Study" rule) to determine the <strong>FIRE Number</strong> — the portfolio
+          value needed to sustain a given lifestyle in a given city indefinitely.
         </p>
 
         <div class="bg-brand-50 rounded-xl p-6 my-6 border border-brand-100">
-          <div class="grid grid-cols-1 sm:grid-cols-5 gap-4 text-center">
+          <p class="text-sm text-gray-600 text-center mb-4">
+            <strong>FIRE Number</strong> = Annual Living Cost &divide; 0.04 = Monthly Cost &times; 300
+          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-center">
             <div>
-              <div class="text-sm text-gray-500">$1M</div>
-              <div class="font-bold text-brand-700">$3,333/mo</div>
+              <div class="text-sm text-gray-500">Budget</div>
+              <div class="text-xs text-gray-400">Modest living, local transport</div>
             </div>
             <div>
-              <div class="text-sm text-gray-500">$2M</div>
-              <div class="font-bold text-brand-700">$6,667/mo</div>
+              <div class="text-sm text-gray-500">Comfortable</div>
+              <div class="text-xs text-gray-400">Nice apartment, dining out regularly</div>
             </div>
             <div>
-              <div class="text-sm text-gray-500">$3M</div>
-              <div class="font-bold text-brand-700">$10,000/mo</div>
-            </div>
-            <div>
-              <div class="text-sm text-gray-500">$5M</div>
-              <div class="font-bold text-brand-700">$16,667/mo</div>
-            </div>
-            <div>
-              <div class="text-sm text-gray-500">$10M</div>
-              <div class="font-bold text-brand-700">$33,333/mo</div>
+              <div class="text-sm text-gray-500">Luxury</div>
+              <div class="text-xs text-gray-400">Premium living, frequent travel</div>
             </div>
           </div>
         </div>
 
         <p>
-          For each tier, we research and estimate realistic monthly costs for housing, groceries,
+          For each lifestyle tier, we research and estimate realistic monthly costs for housing, groceries,
           dining out, healthcare, transportation, entertainment, utilities, and — at higher
-          tiers — domestic help and luxury extras.
+          tiers — domestic help and luxury extras. The FIRE Number tells you the portfolio
+          value needed to cover those costs using the 4% rule.
         </p>
 
         <h2 id="fire-score" class="font-serif text-2xl font-bold text-brand-950 mt-12 mb-4 scroll-mt-24">The FIRE Score</h2>

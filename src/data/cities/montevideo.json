@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 100
       },
-      "lifestyle": "You wake up in Pocitos, grab your thermos of mate, and join the morning walkers along the Rambla — Montevideo's glorious 22-kilometer waterfront promenade. Lunch is a massive chivito sandwich for $6, afternoons are for reading in Parque Rodó, and evenings mean a perfectly grilled entrecôte with Tannat wine at a neighborhood parrilla. Life moves at a gentle pace in the world's most underrated capital."
+      "lifestyle": "A one-bedroom in Pocitos or Ciudad Vieja puts you near the Rambla waterfront promenade, where morning walks with mate are a local ritual. Lunch at a neighborhood parrilla or chivito stand is affordable, and buses cover the city well. The budget is comfortable but modest — you cook at home regularly and keep entertainment low-key. Montevideo's pace is slower than Buenos Aires, and English is not widely spoken."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 130
       },
-      "lifestyle": "Punta Carretas is your home base — a leafy, safe neighborhood where you walk to the beach, browse the former-prison-turned-shopping-mall, and sip Tannat at sunset overlooking the Río de la Plata. Weekends mean wine tasting at Bodega Bouza, day trips to charming Colonia del Sacramento, or the drive to Punta del Este for the glamorous beach scene. Uruguay's stability and safety make it feel like the Switzerland of South America."
+      "lifestyle": "A modern two-bedroom in Punta Carretas or Pocitos with ocean views gives you a safe, walkable neighborhood as a base. You dine out at Mercado del Puerto and good local restaurants several times a week, carry private health insurance, and rent a car for weekend trips to Colonia del Sacramento or Punta del Este. Uruguay's political stability and low crime are real advantages that justify its higher costs compared to Buenos Aires."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 170
       },
-      "lifestyle": "Your Carrasco penthouse — in Montevideo's most elegant neighborhood of tree-lined streets and art deco mansions — is the perfect base for a refined life. You play golf at Club de Golf del Uruguay, attend opening nights at Teatro Solís, and spend long weekends at your favorite boutique hotel in José Ignacio. Uruguay rewards patience and taste, and at this budget, both are amply satisfied."
+      "lifestyle": "A large penthouse in Carrasco or waterfront Punta Carretas with a terrace puts you in Montevideo's most desirable area. You dine at restaurants like Francis and Escaramuza regularly, own or lease a car, and take weekend trips to José Ignacio or the ferry to Buenos Aires. Golf club membership, Teatro Solís season tickets, and premium health insurance are comfortably covered. This is a genuinely affluent life in a safe, stable city."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Beach house in José Ignacio, Tannat wine collection, bespoke estancia experiences, art gallery patronage",
         "monthlyCost": 1800
       },
-      "lifestyle": "Your Carrasco villa is a sanctuary of mature gardens and quiet luxury, while your José Ignacio beach house is the summer escape that Uruguayan society dreams of. You move between Montevideo's cultural season and Punta del Este's glamorous social scene, attending gallery openings and charity polo matches. Uruguay's political stability and zero tax on foreign income mean your wealth is as secure as your lifestyle is enviable."
+      "lifestyle": "A villa in Carrasco with garden, pool, and security provides a spacious home in Montevideo's most elegant neighborhood. A housekeeper and cook manage the household, and you dine at the city's best restaurants without thinking about cost. Business class for longer flights, a luxury car, and regular trips to Punta del Este or José Ignacio are standard. Uruguay's zero tax on foreign income is a meaningful financial advantage at this tier."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "José Ignacio beachfront estate, working estancia investment, Uruguayan Tannat vineyard, art collection, yacht mooring",
         "monthlyCost": 4500
       },
-      "lifestyle": "You are part of Uruguay's quiet elite — a Carrasco estate that hosts legendary asados, a José Ignacio compound where international artists and diplomats gather each summer, and perhaps a small Tannat vineyard producing your personal label. Uruguay's discretion suits your temperament: no flash, no pretension, just deep, enduring quality. Your wealth benefits from zero foreign income tax while your life benefits from South America's most stable, progressive, and genuinely civilized society."
+      "lifestyle": "A large Carrasco estate or dual properties in Montevideo and José Ignacio anchor a well-staffed, comfortable life. A cook handles daily meals, housekeeping and grounds staff maintain the property, and a driver provides transportation. You dine freely, fly business class internationally, and entertain regularly. Uruguay's stability, safety, and zero foreign income tax make this a financially sound base, though the city's smaller scale means less cultural depth than Buenos Aires or Santiago."
     }
   },
   "scores": {

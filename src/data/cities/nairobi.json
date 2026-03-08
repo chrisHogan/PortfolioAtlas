@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 100
       },
-      "lifestyle": "Nairobi at $3,333/month provides an excellent quality of life. You can live in a secure, modern apartment in an upscale neighborhood, dine out regularly, and enjoy world-class wildlife experiences on your doorstep. The year-round mild climate means no heating or A/C costs. You will have significant surplus for travel and savings."
+      "lifestyle": "A modern 2-bedroom apartment with security in Kilimani or Westlands. Getting around by Uber and Bolt, which is cheaper and easier than driving yourself in Nairobi traffic. Eating at local restaurants and cafes several times a week. Private health insurance covering Nairobi Hospital and Aga Khan. Nairobi National Park visits and Karura Forest hikes on weekends. The year-round mild highland climate means no heating or cooling costs. Comfortable, with a reasonable buffer each month."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "At this budget Nairobi becomes genuinely luxurious by local standards. A beautiful home in leafy Karen with a garden, full-time domestic help, regular safari weekends, and access to all the city's best dining and entertainment. You can fly to the coast for beach weekends and still have substantial savings. This is upper-class Kenyan living."
+      "lifestyle": "A spacious townhouse or apartment in Karen or Westlands with a garden, an SUV for weekend game drives, and regular dining at restaurants like Talisman and Carnivore. Comprehensive private health insurance with evacuation coverage. Safari weekends and domestic flights to the coast for beach trips are affordable. A cleaner a few times a week. Comfortable and well above average for Nairobi, with a solid monthly margin."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "At $10K/month in Nairobi you are living among the city's elite. A beautiful home in Muthaiga or Karen with full staff, membership at the most prestigious clubs, luxury safari experiences whenever you wish, and the resources to support Kenya's remarkable conservation efforts. This is a deeply fulfilling and adventurous retirement."
+      "lifestyle": "A large house in Karen, Runda, or Muthaiga with manicured grounds, a Land Cruiser for safaris, and a driver for city errands. Regular dining at Nairobi's top restaurants and country club membership. Premium health insurance with international coverage. Stays at good safari lodges in the Maasai Mara a few times a year and flights to Zanzibar or the coast. Significant monthly margin at Nairobi's cost of living."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Private conservancy shares, first-class international travel, major wildlife philanthropy, luxury retreats",
         "monthlyCost": 2000
       },
-      "lifestyle": "Nairobi at $16,667/month is the quintessential Out of Africa dream realized. A magnificent estate with a full staff, private conservancy access for intimate wildlife encounters, the social scene of Kenya's most exclusive clubs, and the resources to make a real difference in conservation. First-class flights to London, Dubai, or Cape Town are routine."
+      "lifestyle": "A large property in Muthaiga or Karen with a housekeeper, cook, gardener, and driver. A nice SUV, business class flights for international travel, and top-tier health insurance with global coverage. Private conservancy access for wildlife experiences and membership at the best clubs. Regular dining at any restaurant in the city. Nairobi's moderate costs leave a large margin at this budget level."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Private conservancy ownership, bush plane, first-class global travel, major conservation philanthropy",
         "monthlyCost": 5000
       },
-      "lifestyle": "At $33K/month Kenya becomes your private wildlife kingdom. A grand Nairobi estate plus a private ranch in Laikipia where elephants roam, a bush plane to fly between them, a full estate staff, and the philanthropic clout to shape East Africa's conservation future. This is one of the most unique and meaningful high-net-worth lifestyles on the planet."
+      "lifestyle": "A large estate in Muthaiga or Runda with full household staff including a housekeeper, cook, security, and drivers. Multiple vehicles, first class international flights, and top-tier global health coverage. Regular fine dining, premium club memberships, and stays at the best safari lodges and conservancies. Nairobi's costs are moderate, so this budget far exceeds what you can spend locally. Most people at this level travel extensively and invest in conservation or community projects."
     }
   },
   "scores": {

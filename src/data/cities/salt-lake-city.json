@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "Salt Lake City on a tight budget is quite livable thanks to affordable housing and good transit. The Wasatch Mountains provide endless free recreation just minutes from downtown. You will cook at home most days and skip the ski passes, but hiking, trail running, and exploring Utah's stunning landscapes cost nothing."
+      "lifestyle": "You can rent a one-bedroom in Sugar House or Murray and use TRAX light rail for daily transit. Cooking at home is the norm, and ski passes are likely out of reach at this budget. The trade-off is that hiking and trail running in the Wasatch foothills are free and minutes from your door. City Creek Canyon and the Bonneville Shoreline Trail provide year-round outdoor access at no cost."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 190
       },
-      "lifestyle": "At this budget Salt Lake City truly shines. You can live in one of the city's charming walkable neighborhoods, hold season ski passes, and explore Utah's five national parks on weekend road trips. The emerging food and craft beer scene provides plenty of variety for dining out."
+      "lifestyle": "You can rent a nice apartment in the Avenues or 9th & 9th and eat out several times a week at SLC's growing restaurant and brewery scene. Season ski passes at Snowbird or Brighton fit the budget, along with a car for weekend road trips to Utah's national parks. Jazz tickets and a gym membership round out a lifestyle built around the outdoors."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "Salt Lake City at this level is an outdoor enthusiast's dream. A beautiful home near the canyons, premium ski passes, and the freedom to road trip to Moab, Zion, or Bryce Canyon on a whim. The Sundance Film Festival in nearby Park City becomes a regular January highlight."
+      "lifestyle": "You can rent a house in Federal Heights or Millcreek near the canyon mouths, and dine regularly at Salt Lake's best restaurants. An Ikon pass for skiing, Jazz season tickets, and road trips to Moab, Zion, or Bryce Canyon all fit the budget. Good private healthcare through the University of Utah Health network and regular travel, including Sundance Film Festival in Park City each January, round things out."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Quarterly travel, mountain biking custom builds, Sundance Institute patron, philanthropy",
         "monthlyCost": 1350
       },
-      "lifestyle": "You are living the ultimate mountain lifestyle. A stunning home with Wasatch views, a Park City ski condo, and VIP access to Sundance. Helicopter skiing in the backcountry and road trips through the most beautiful national parks in America are your new normal."
+      "lifestyle": "A large home on the East Bench with Wasatch views or a ski-in/ski-out condo in Park City, regular dining at the best restaurants in both SLC and Park City, and a housekeeper who comes weekly. Concierge medicine at University of Utah Health, a nice SUV, and business class flights for longer trips are standard. Premium ski club access and Jazz courtside seats fit comfortably."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Heli-skiing packages, first-class international travel, ranch property, Sundance endowment",
         "monthlyCost": 5000
       },
-      "lifestyle": "At this level the entire Wasatch Range becomes your playground. A mountain estate, a Deer Valley ski compound, and helicopter access to untouched powder. Trustee-level involvement at Sundance and the ability to fund conservation of Utah's spectacular landscapes give your wealth real purpose in a breathtaking setting."
+      "lifestyle": "Premium housing in Emigration Canyon or a large property in Deer Valley, regular fine dining, a cook who comes several times a week, and a housekeeper. First class travel, full concierge healthcare, and the freedom to ski any resort in Utah without thinking about cost. Salt Lake's moderate cost of living means this budget covers everything comfortably, including regular trips to the national parks and a second property in Park City if desired."
     }
   },
   "scores": {

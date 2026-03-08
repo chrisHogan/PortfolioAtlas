@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 130
       },
-      "lifestyle": "Split on a budget is surprisingly doable. The city is compact and walkable, beaches are free, and traditional konoba meals are affordable and delicious. Summer is glorious but crowded with tourists; winter is quiet and mild. The biggest challenge is finding good year-round rental housing."
+      "lifestyle": "Split is compact and walkable, which keeps transport costs low. A one-bedroom in Spinut or Manuš puts you near the Old Town, and konoba meals and free beaches make daily life affordable. Summer is crowded with tourists and winter is quiet, so the city has two very different personalities. Finding a reliable year-round rental can be challenging since many landlords prefer summer tourist income."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 160
       },
-      "lifestyle": "Split opens up beautifully at this budget. A lovely apartment near the sea, regular dining on fresh Adriatic seafood, island hopping on weekends, and a car for exploring the Dalmatian coast. The Mediterranean lifestyle here is authentic and deeply satisfying, with far less cost than Italy or southern France."
+      "lifestyle": "A nice apartment near the Old Town or in Žnjan with sea views, a car for Dalmatian coast drives, and regular dining at seafood restaurants. Weekend catamaran ferries to Hvar and Brač are easy and affordable. Good private health insurance is within budget. Split offers a genuine Mediterranean lifestyle at significantly lower cost than comparable Italian or French coastal cities."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "Living inside a Roman palace or overlooking the Adriatic from a luxury villa is the kind of experience that money cannot buy in most places. In Split, it is accessible at this budget. World-class seafood, sailing, island hopping, and a deeply Mediterranean pace of life with significant surplus."
+      "lifestyle": "A large apartment inside Diocletian's Palace or a sea-view villa in the Meje neighborhood, regular dining at restaurants like Dvor and Zoi, and your own car for coast trips. Seasonal boat rentals for island visits, international health coverage, and European travel are all within budget. Split's restaurant scene is growing but still limited compared to larger cities, and the margin at this level is significant."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Adriatic yacht cruises, first-class European travel, Dalmatian property investments, art collecting",
         "monthlyCost": 1800
       },
-      "lifestyle": "You are living the Dalmatian dream at its finest. A waterfront villa, your own boat, a private chef preparing fresh Adriatic catch daily, and the freedom to sail to any island on a whim. Croatia's natural beauty is staggering, and at this budget you experience every bit of it."
+      "lifestyle": "A waterfront villa in Meje or Stobreč, your own sailboat or motorboat, a housekeeper, and business class flights across Europe. A cook comes in a few times a week to prepare Dalmatian meals. Premium healthcare through EU networks in Vienna or Munich is accessible. The coast and islands are the main attraction, and the budget leaves a large margin given Split's cost of living."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Yacht ownership, Dalmatian island property, first-class global travel, philanthropic foundation, wine estate",
         "monthlyCost": 5000
       },
-      "lifestyle": "At this level you could own an island in the Adriatic alongside your Split estate. A luxury yacht, full staff, and the resources to experience the Mediterranean at its absolute finest. Croatia's combination of beauty, safety, and EU membership makes it an ideal base for this extraordinary lifestyle."
+      "lifestyle": "A grand waterfront property with private dock, a cook, regular housekeeping, a nice boat, and first-class travel. You can dine at the best restaurants along the Dalmatian coast and carry comprehensive international healthcare. Split is a mid-sized city, so at this budget the practical constraint is the same as other smaller Mediterranean towns: there are limited ways to spend this much locally, and frequent travel becomes part of the lifestyle by default."
     }
   },
   "scores": {

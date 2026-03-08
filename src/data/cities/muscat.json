@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "Muscat on a lean budget is manageable thanks to no income tax and affordable local food. A car is essential — the city is spread along the coast and public transit is minimal. The beaches and mountain wadis provide stunning free entertainment, and the Omani people are among the friendliest in the Gulf. Summer heat (May-September) is brutal, so A/C costs spike significantly."
+      "lifestyle": "A 1-bedroom apartment in Al Khuwair or Bausher and a used car, which is essential since Muscat has minimal public transit. Eating at local Omani and Indian restaurants a few times a week, cooking at home otherwise. Basic private health insurance. The beaches and mountain wadis are free and spectacular. Summer heat from May to September is extreme and pushes A/C costs up significantly. Manageable but tight, with no income tax helping stretch the budget."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "At this level Muscat becomes a genuinely wonderful place to live. A comfortable apartment near the beach, regular dining at good international restaurants, and the SUV access needed to explore Oman's extraordinary landscapes — turquoise wadis, towering canyons, and empty desert. The absence of income tax stretches every dollar further."
+      "lifestyle": "A 2-bedroom apartment in Qurum or Shatti Al Qurum near the beach, a mid-range SUV for exploring wadis and desert terrain, and dining out at good international restaurants several times a week. Comprehensive private health insurance. Diving trips to the Daymaniyat Islands and desert camping on weekends. No income tax helps the budget go further. Day-to-day life is comfortable and you have room for regular regional travel."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 300
       },
-      "lifestyle": "Muscat at this tier is exceptional. A beautiful villa or beach apartment, a proper 4x4 for exploring the country's dramatic terrain, and access to the luxury resort scene that Oman does so well. Weekend drives to Jebel Shams (Oman's Grand Canyon), turtle watching at Ras al Jinz, and diving in crystal-clear waters become your routine."
+      "lifestyle": "A villa in Al Mouj or a beachfront apartment in Shatti Al Qurum. A Land Cruiser or similar SUV for off-road trips to Jebel Shams, Ras al Jinz, and the wadis, plus a second city car. Regular dining at top hotel restaurants like Al Bustan Palace and The Chedi. Premium health insurance with international coverage. Golf club membership and diving trips. Oman's moderate Gulf costs leave a comfortable monthly buffer."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "First-class international travel, luxury Oman resort stays, yacht charters, philanthropy",
         "monthlyCost": 2000
       },
-      "lifestyle": "You are living Muscat's finest expatriate life. A luxury villa with marina views, full staff, a fleet of premium vehicles for exploring Oman's stunning landscapes, and access to the country's most exclusive experiences. Oman's genuine hospitality, safety, and natural beauty create a quality of life that outshines flashier Gulf neighbors."
+      "lifestyle": "A large villa in Al Mouj with marina access, a housekeeper, cook, gardener, and driver. A Range Rover or similar for desert and mountain trips, business class flights for international travel, and premium healthcare with international evacuation coverage. Regular dining at Muscat's best restaurants and golf or yacht club membership. Oman's safety, natural beauty, and moderate Gulf costs make this a high quality of life with meaningful margin."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Private jet access, luxury expedition travel, real estate investments, major philanthropy",
         "monthlyCost": 5500
       },
-      "lifestyle": "At this tier Muscat delivers an Arabian fantasy of extraordinary taste. A private waterfront compound, a yacht cruising the fjords of Musandam, full staff, and the resources to explore Oman's most remote and beautiful corners by helicopter or private expedition. Oman's combination of natural grandeur, genuine cultural depth, and zero income tax creates one of the Gulf's most compelling ultra-luxury lifestyles."
+      "lifestyle": "A large waterfront villa in Al Mouj or a private property with beach access in Yiti, with full household staff including a housekeeper, cook, and driver. Multiple vehicles, first class international flights, and top-tier global health coverage. Regular fine dining, boat trips along the coast and to Musandam, and membership at the best clubs. No income tax and Muscat's moderate costs leave a large margin, though housing at the top end absorbs a meaningful share of the budget."
     }
   },
   "scores": {

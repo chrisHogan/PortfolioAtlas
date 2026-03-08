@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 120
       },
-      "lifestyle": "Accra at $3,333/month offers a very comfortable life. You can live in a modern, secure apartment in one of the best neighborhoods, eat incredible Ghanaian food daily, and enjoy the beach and nightlife regularly. The warmth of Ghanaian people makes daily life a joy. Power outages (dumsor) can be an annoyance, but a generator or inverter solves this."
+      "lifestyle": "A modern 2-bedroom apartment with security in East Legon or Osu. Getting around by Uber and Bolt, eating jollof rice and grilled tilapia at local restaurants most days. Private health insurance covering Nyaho Medical Centre and private clinics. Labadi Beach on weekends and live music in the evenings. Power outages (dumsor) are a real nuisance, but an inverter helps. Comfortable and affordable, with a modest buffer each month."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "At $6,667/month Accra delivers a genuinely luxurious West African lifestyle. A beautiful house with a garden, full-time domestic help, beach weekends, and regular exploration of Ghana's rich history and coastline. The expat community is vibrant and welcoming, and your budget places you firmly in the upper tier of Accra society."
+      "lifestyle": "A spacious 3-bedroom house in Cantonments or East Legon with a garden and security. An SUV for both city driving and coastal road trips, dining at good restaurants like Buka and The Republic several times a week. Comprehensive private health insurance with evacuation coverage. Weekend trips to Cape Coast, Elmina, and Ada Foah. A cleaner a few times a week. Comfortable and well above average for Accra, with a solid monthly cushion."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "At $10K/month you are living at the very top of Accra society. A stunning villa with full staff, a cook who prepares fresh Ghanaian and international dishes daily, a private driver, and the resources to explore every corner of Ghana and West Africa. The combination of tropical warmth, cultural richness, and genuine community is hard to replicate anywhere."
+      "lifestyle": "A large villa in Trasacco Valley or Airport Hills with a driver, a cleaner, and a cook several times a week. A late-model SUV, regular dining at Accra's best restaurants, and premium health insurance with international coverage. Beach club memberships and trips along the coast. This budget goes very far in Accra, with significant margin each month for travel or savings."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "First-class international travel, real estate investments, major philanthropy, cultural sponsorship",
         "monthlyCost": 2000
       },
-      "lifestyle": "Accra at $16,667/month is living like Ghanaian royalty. A grand compound with full staff, a personal chef, first-class travel, and the social capital to host major cultural events. Ghana's stability and warmth make this an incredibly rewarding place to build a philanthropic legacy while enjoying an extraordinary quality of daily life."
+      "lifestyle": "A large property in Trasacco Valley or a beachfront house with pool and gardens. A housekeeper, cook, gardener, and driver. A luxury SUV, business class flights for international travel, and top-tier health insurance with global coverage. Regular dining at the best restaurants and club memberships. Accra's moderate costs leave a large margin at this budget. Ghana's stability and welcoming culture make it a strong base for long-term living."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Real estate portfolio, first-class global travel, major educational and community philanthropy, business investments",
         "monthlyCost": 5000
       },
-      "lifestyle": "At $33K/month in Accra you have the resources to live magnificently and make a transformative impact. A grand estate with a full staff, the ability to fund schools, healthcare, and cultural programs, first-class global travel, and a lifestyle that blends luxury with deep purpose. Ghana's welcoming culture and stable democracy make this one of Africa's most rewarding places to build a meaningful legacy."
+      "lifestyle": "A premium property in Trasacco Valley or a large beachfront house with full household staff including a housekeeper, cook, security, and drivers. Multiple vehicles, first class international flights, and top-tier global health coverage. Regular fine dining and entertaining. Accra's costs are far below what this budget provides, so the vast majority goes unspent each month. Most people at this level travel extensively and invest in local community or business projects."
     }
   },
   "scores": {

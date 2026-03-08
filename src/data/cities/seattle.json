@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "A lean but livable existence in one of America's most beautiful metro areas. You'll ride the light rail to Pike Place for produce, hike rain-soaked trails on weekends, and nurse a cortado at a neighborhood roaster while watching the clouds roll over the Olympics. Tight on budget but rich in natural splendor."
+      "lifestyle": "A small apartment in Northgate or Beacon Hill, away from the expensive urban core. You ride the light rail to Pike Place for groceries, hike Discovery Park on weekends, and eat at affordable pho and teriyaki spots in the International District. Washington's zero state income tax is a meaningful advantage on a tight budget. The rain is persistent from October through May, but the natural scenery is genuinely stunning and mostly free to enjoy."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "A genuinely comfortable Seattle life in a walkable neighborhood where you know your barista by name. You'll catch shows at the Crocodile, paddle Lake Union on summer evenings, and make spontaneous runs to the San Juan Islands. The city's best experiences — from farm-to-table dining to mountain weekends — are comfortably within reach."
+      "lifestyle": "A one-bedroom apartment in Capitol Hill, Fremont, or Ballard -- walkable neighborhoods with good restaurants and coffee shops. You eat out several times a week, kayak on Lake Union in summer, and rent a car for weekend trips to Mount Rainier or the San Juans. No state income tax means the full $6,667 budget goes toward living expenses. Seattle's food scene and outdoor access are both strong at this price point."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 220
       },
-      "lifestyle": "An elevated Pacific Northwest lifestyle where you split time between a gorgeous Queen Anne condo and the mountains. Dinner reservations at the city's best tables come easily, your Crystal Mountain ski pass gets heavy use, and summer means sailing the Sound. Seattle's natural grandeur is your daily backdrop."
+      "lifestyle": "A spacious condo in Queen Anne or waterfront Ballard with views of Puget Sound and the mountains. You dine regularly at restaurants like Canlis, hold a ski pass at Crystal Mountain, and sail on the Sound in summer. At $10,000 a month with no state income tax, Seattle is comfortably affluent. The combination of urban dining and culture with immediate access to mountains, water, and islands is the core appeal."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Personal trainer at Equinox, private sailing instructor, premium co-working at WeWork, annual gear refresh for skiing and hiking",
         "monthlyCost": 1600
       },
-      "lifestyle": "The quintessential Pacific Northwest dream fully realized. Your Madison Park home hosts dinner parties overlooking Lake Washington, your weekends rotate between heli-skiing, sailing, and island retreats. You're a regular at Canlis, a patron of the arts, and your life moves seamlessly between urban sophistication and wilderness adventure."
+      "lifestyle": "A large home in Madison Park or Magnolia with views of Lake Washington or the Cascades. You have a housekeeper, drive a luxury SUV for mountain trips, and dine at the city's best restaurants regularly. Business class flights are comfortable at this budget, and weekend trips to the San Juan Islands or ski resorts are routine. No state income tax means the full $16,667 goes toward an upper-affluent lifestyle with both urban and outdoor dimensions."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Winery partnership in Woodinville, bespoke outdoor gear collection, interior designer on retainer, private art advisor, charitable foundation management",
         "monthlyCost": 4633
       },
-      "lifestyle": "At this level, you don't just live in Seattle — you shape its cultural landscape. Your Lake Washington estate hosts fundraising galas, your Walla Walla winery pours at exclusive events, and your name graces the donor walls of the symphony and ballet. Summers mean your San Juan retreat; winters mean heli-skiing followed by private chef dinners with views of Rainier."
+      "lifestyle": "A waterfront estate on Lake Washington or Mercer Island with a private dock, or a premium downtown penthouse. You have a full-time housekeeper, a cook who comes in several times a week, and a personal assistant. You dine wherever you want, travel first class, and support the Seattle Opera and Pacific Northwest Ballet as a donor. No state income tax means the full $33,333 monthly budget is available. A second property in the San Juan Islands or a Walla Walla wine club membership round out a comfortable, nature-oriented wealthy lifestyle."
     }
   },
   "scores": {

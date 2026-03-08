@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 140
       },
-      "lifestyle": "Midland at $1M is exceptionally comfortable for a budget this lean. Housing is astonishingly affordable, Dow Gardens and the Whiting Forest canopy walk provide world-class beauty for minimal cost, and the tight-knit community welcomes newcomers warmly. You will cook at home often, but the low baseline costs mean less financial stress than in almost any other American city."
+      "lifestyle": "A one-bedroom apartment or small rental house near downtown runs about $750, among the lowest in the country. You cook at home most nights, eat out casually a couple of times a week, and visit Dow Gardens and the Whiting Forest canopy walk regularly. A car is necessary. The extremely low cost base means healthcare and transportation are manageable without the constant pressure you would feel in a larger city."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 170
       },
-      "lifestyle": "This is the Midland sweet spot and it feels genuinely abundant. You can own a comfortable home outright in a few years, enjoy the Center for the Arts regularly, dine out without worry, and take road trips to Traverse City or Mackinac Island on weekends. The community involvement opportunities are endless, and your $2M portfolio has extraordinary longevity here."
+      "lifestyle": "A two-bedroom house in a quiet neighborhood near the Tridge area, dining out several times a week, and Center for the Arts season tickets. A reliable car with winter tires handles Michigan road trips to Traverse City or Mackinac Island on weekends. The Dow-funded amenities give this small city cultural options well beyond its size. The low cost base leaves a solid monthly margin."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 210
       },
-      "lifestyle": "At $10K a month in Midland you are living at the top of the community. A beautiful home in the best neighborhood, arts patronage, regular trips to Traverse City and the Great Lakes, and the freedom to support local causes generously. Your money goes incredibly far, and the Dow-funded amenities make this small town feel like a much larger city."
+      "lifestyle": "A spacious three-bedroom home in the Adams or Eastlawn neighborhood, regular fine dining at the best local spots, a golf membership at Currie, and regular trips to Traverse City and the Great Lakes. At Midland prices, $10K a month is well above what most residents spend, leaving large margins for travel, savings, or community giving. The Dow-funded cultural amenities punch well above the city's size."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Lakefront cottage, quarterly travel, Dow Gardens major donor events, philanthropy",
         "monthlyCost": 1500
       },
-      "lifestyle": "At this level you are Midland royalty. A beautiful custom home, a lakefront cottage for summer weekends, deep involvement with the Center for the Arts and Dow Gardens, and generous community philanthropy. Midland's extraordinary amenities combined with rock-bottom costs make your $5M feel like $10M in a coastal city."
+      "lifestyle": "A custom home on a large lot in Midland's best neighborhood or a lakefront property nearby, a housekeeper who comes weekly, and a summer cottage on one of Michigan's inland lakes. Regular fine dining, a country club membership, and business class flights from MBS to Chicago or Detroit hubs are within budget. The low cost base means this spending level covers a very comfortable life with large margins."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Luxury lake house, first-class travel, major art collection, transformative community giving",
         "monthlyCost": 5200
       },
-      "lifestyle": "At $10M in Midland you have the power to shape the community itself. Transformative donations to the Center for the Arts, Dow Gardens, and local schools alongside a magnificent lifestyle that includes a Great Lakes yacht, international travel, and a lakefront compound. In a small town like Midland, this level of wealth creates a lasting legacy."
+      "lifestyle": "A large estate in Midland or a lakefront property on one of Michigan's inland lakes, full-time domestic help including a housekeeper and property manager, and a cook who comes in several times a week. First-class travel, concierge healthcare, and a boat for Great Lakes weekends are all comfortable. In a small city like Midland, this budget goes further than almost anywhere, covering premium living with very large monthly margins."
     }
   },
   "scores": {

@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 120
       },
-      "lifestyle": "Valencia on a lean budget is surprisingly comfortable. You cycle through the Turia gardens to the beach, eat the world's best paella for lunch at a neighborhood spot, and spend evenings wandering Ruzafa's street art scene. The city rewards those who live like locals — and at these prices, you can afford to stay forever."
+      "lifestyle": "A bright 1-bedroom in Ruzafa or Benimaclet, both walkable neighborhoods with local character. Menu del dia lunches and tapas evenings keep dining costs low. Getting around by Valenbisi bike-share and metro. Public healthcare with a basic private supplement. Valencia is one of Spain's most affordable major cities, so this budget covers a comfortable baseline with room for regular cheap meals out and beach days at Malvarrosa."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "The sweet spot for Valencia living. Your Eixample apartment is a ten-minute bike ride from the beach and the City of Arts & Sciences. Weekends mean paella at a beachside restaurant, kayaking through the Albufera wetlands, or catching Valencia CF at Mestalla. You eat out freely, explore constantly, and still have room to save."
+      "lifestyle": "A spacious 2-bedroom in Eixample or El Carmen with a balcony. Dining out at good restaurants several times a week, with weekend paella at beachside spots. Comprehensive private health insurance and a car rental on weekends for trips to the Albufera wetlands or nearby coast. Valencia CF matches at Mestalla and sailing lessons at the marina. Valencia's affordability means this budget delivers a genuinely comfortable life with little day-to-day worry about costs."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "Valencia opens up fully at this level. Your terrace overlooks the old town rooftops, you dine at Michelin-starred restaurants mid-week without flinching, and Las Fallas is experienced from the best seats in the house. Weekends alternate between sailing the Mediterranean, wine tours through Utiel-Requena, and lazy Sundays at your favorite chiringuito."
+      "lifestyle": "An elegant apartment near the Central Market or Gran Via with a terrace and views. Regular dining at top restaurants including places like Ricard Camarena, a leased car for countryside excursions, and premium private healthcare. Sailing club membership at the marina and season tickets at Palau de les Arts. Valencia is affordable enough that this budget delivers a genuinely affluent life with regular travel and no real constraints on daily spending."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Personal trainer, private Spanish tutors, bespoke tailoring, premium coworking space, yacht marina fees",
         "monthlyCost": 1600
       },
-      "lifestyle": "Your penthouse terrace frames the futuristic City of Arts & Sciences at sunset while your private chef prepares an authentic paella Valenciana. Weekends mean sailing your yacht down the coast or driving to a countryside wine estate. You host dinner parties that are the talk of the expat community, blending Valencian tradition with cosmopolitan luxury."
+      "lifestyle": "A luxury penthouse near the City of Arts and Sciences or a restored historic home in El Carmen with a rooftop terrace. Regular dining at the city's best restaurants, a housekeeper several times a week, and business class for longer flights. A luxury car for coastal drives and premium private healthcare. Valencia's low costs mean this budget goes very far -- daily life is upper-affluent with significant room for travel and entertainment."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Costa Blanca vacation villa management, charitable foundation, bespoke Mediterranean yacht itineraries, art collection curation, personal brand consulting",
         "monthlyCost": 5000
       },
-      "lifestyle": "At this level, Valencia becomes your Mediterranean kingdom. Your historic estate hosts charity galas and art exhibitions, your superyacht cruises to Ibiza and Sardinia on a whim, and you are a patron of Las Fallas itself. You split time between your old town palace and your Costa Blanca retreat, moving through Valencia's highest circles with effortless grace."
+      "lifestyle": "A grand historic property in the old town or an ultra-modern waterfront penthouse with panoramic views. A cook several times a week, a full-time housekeeper, and full private healthcare. Business class as default, first class for longer trips. Regular fine dining and a nice car with driver when needed. Valencia is one of the most affordable cities on this list, so this budget exceeds what the city can realistically absorb -- you will likely find it hard to spend this much here without a second property."
     }
   },
   "scores": {

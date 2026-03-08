@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 130
       },
-      "lifestyle": "Des Moines at $1M is genuinely comfortable thanks to some of the lowest rents in any US metro. You can live in a walkable downtown neighborhood, bike everywhere on the extensive trail network, and enjoy the farmers market every Saturday. Healthcare is the biggest expense, but the low baseline costs give you breathing room that most cities simply cannot match."
+      "lifestyle": "A one-bedroom in the East Village or Sherman Hill, cooking most meals at home, and biking on the city's 80-plus miles of trails instead of relying on a car. The Saturday farmers market and free Pappajohn Sculpture Park provide low-cost entertainment. Healthcare on an ACA Silver plan is the largest single expense. Des Moines has some of the lowest rents in any US metro, which gives this budget more breathing room than you would find in most cities."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 160
       },
-      "lifestyle": "This is the Des Moines sweet spot. You can afford a charming Beaverdale bungalow or a stylish downtown apartment, eat out regularly at the city's surprisingly excellent restaurant scene, and enjoy Iowa Cubs games on summer evenings. The low cost of living means your $2M stretches further here than almost anywhere else in America."
+      "lifestyle": "A Beaverdale bungalow or a downtown apartment, dining out several times a week at the growing East Village restaurant scene, and a reliable car for Iowa winters. You can afford Iowa Cubs games, a Des Moines Art Center membership, live music at Wooly's, and a good health plan. A few trips per year are within reach. Des Moines's low cost of living means this budget provides a comfortable, well-rounded life with room for hobbies and savings."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "At $10K per month in Des Moines, you are living extremely well by any standard. A spacious home in a top neighborhood, regular fine dining, season tickets to cultural events, and a generous entertainment budget. You will have significant surplus each month, which is rare in most US metros at this budget level."
+      "lifestyle": "A spacious home in Waterbury or West Des Moines, regular dinners at places like Alba and Centro, and a late-model SUV for winter driving. You can afford premium health insurance, Iowa Wild hockey season tickets, Des Moines Symphony passes, a golf club membership, and regular travel. Des Moines's low costs mean $10K a month goes far here -- you live comfortably in a top neighborhood with meaningful monthly margin."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Lake Okoboji cabin weekends, quarterly travel, art collecting, community philanthropy",
         "monthlyCost": 1400
       },
-      "lifestyle": "Des Moines at $5M is elite Midwestern living at its finest. A stunning home with all the space you want, deep involvement in the community through philanthropy and the arts, weekends at a lake cabin, and enough surplus to travel extensively. Iowa's moderate taxes and rock-bottom cost of living mean your money goes extraordinarily far."
+      "lifestyle": "A large custom home in Glen Oaks or West Des Moines, a housekeeper who comes weekly, concierge medicine at Iowa Clinic, and a nice car. You dine at the city's best restaurants regularly, hold a country club membership, and fly business class for longer trips. Weekend trips to a Lake Okoboji cabin and regular travel are within budget. Des Moines's very low cost of living means this spending level provides a well-appointed life with substantial margin for giving and savings."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Second home at Lake Okoboji, first-class international travel, angel investing, foundation work",
         "monthlyCost": 4800
       },
-      "lifestyle": "At $10M in Des Moines you are royalty in one of the most livable cities in America. A grand estate, a personal chef sourcing from Iowa's incredible farms, deep philanthropic impact in the community, and chartered flights to anywhere. The combination of ultra-low living costs and your generous budget creates a life of extraordinary comfort and influence."
+      "lifestyle": "A large estate in Glen Oaks or a property with acreage in West Des Moines, a cook who comes in several times a week, full-time domestic help, and top-tier concierge healthcare. You travel first class, keep multiple cars, and dine out without checking the bill. A second home at Lake Okoboji is within reach at this budget. In a metro as affordable as Des Moines, this spending level creates enormous margin -- enough for significant charitable giving, a foundation, and ongoing investment while covering every daily expense without thought."
     }
   },
   "scores": {

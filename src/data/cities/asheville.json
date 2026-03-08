@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 140
       },
-      "lifestyle": "Life on $3,333 in Asheville is manageable but leaves little room for extras. You can enjoy the incredible free hiking, catch buskers on the street, and hit a brewery once or twice a week. But healthcare eats a big chunk, and any major car repair or dental bill will sting. Budget carefully and lean into the free outdoor lifestyle."
+      "lifestyle": "A one-bedroom in West Asheville or South Slope, cooking at home most nights, and a paid-off car for access to mountain trailheads. Healthcare on an ACA Silver plan takes a large share of the budget, and unexpected expenses like car repairs or dental work will require careful planning. Free hiking on the Blue Ridge Parkway and the occasional brewery visit are your main entertainment. This is a tight budget in Asheville, but the outdoor access and mild mountain climate make it workable."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 165
       },
-      "lifestyle": "This is the Asheville sweet spot. You can afford a charming place in a historic neighborhood, fully enjoy the incredible farm-to-table dining scene, and take art or music classes. Weekends are spent hiking Pisgah National Forest or floating the French Broad River. Life feels rich and creative."
+      "lifestyle": "A cottage in Montford or a two-bedroom downtown, dining out several times a week at the city's farm-to-table restaurants, and a reliable car for Blue Ridge Parkway drives. You can afford Orange Peel concert tickets, a pottery or yoga class, and a good health plan. Weekends might be spent hiking Pisgah National Forest or floating the French Broad River. This budget provides a comfortable, creative daily life in a walkable small city."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 230
       },
-      "lifestyle": "At $10K a month, Asheville becomes your personal mountain retreat. A beautiful home with views of the Blue Ridge, dinners at Asheville's James Beard-recognized restaurants, art purchases from local studios, and total freedom to explore the surrounding national forests. This is mountain living done right."
+      "lifestyle": "A three-bedroom home in North Asheville or near Biltmore Forest with mountain views, regular dinners at places like Curate and Rhubarb, and a late-model AWD vehicle. You can afford premium health insurance, art purchases from River Arts District studios, a golf membership, and regular travel. This budget provides a genuinely affluent mountain life with room for seasonal activities and weekend getaways deeper into the Blue Ridge."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Art collecting, quarterly travel, Biltmore Estate events, philanthropy",
         "monthlyCost": 1400
       },
-      "lifestyle": "You are living as mountain aristocracy. A stunning home overlooking the Blue Ridge, involvement in Asheville's vibrant arts community, private fly-fishing on stocked streams, and enough left over to support local artists and causes. Asheville at this level is one of the most beautiful lives in America."
+      "lifestyle": "A custom mountain home in Biltmore Forest or Black Mountain, a housekeeper who comes weekly, and concierge medical coverage. You dine at the city's best restaurants regularly, drive a nice SUV, and fly business class for longer trips. Guided fly-fishing, a country club membership, and arts patronage are all within budget. Asheville is a small market, so this level of spending goes far -- you live very comfortably with meaningful margin for travel and giving."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Second home, first-class travel, art gallery sponsorships, community foundation",
         "monthlyCost": 5000
       },
-      "lifestyle": "At $10M in Asheville you can live like the Vanderbilts who built Biltmore Estate. A grand mountain property, a personal chef sourcing from local farms, patronage of the arts community, and deep philanthropic involvement. The Blue Ridge Mountains are your private backdrop for an extraordinary retired life."
+      "lifestyle": "A large estate in Biltmore Forest or a mountain property with acreage, a cook who comes in several times a week, full-time domestic help, and top-tier concierge healthcare. You travel first class, eat at the city's best restaurants without checking prices, and support local arts organizations and conservation efforts. In a small city like Asheville, this budget provides a life where daily costs are never a consideration, with very substantial margin for travel, a second home, and charitable giving."
     }
   },
   "scores": {

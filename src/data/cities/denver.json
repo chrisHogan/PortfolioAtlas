@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 160
       },
-      "lifestyle": "Denver on a $1M budget requires discipline but rewards you with the outdoors. You will live in a modest apartment outside the trendy core, but the Rocky Mountain foothills are free and endlessly accessible. Brewery taprooms offer affordable socializing, and the dry climate keeps utility bills relatively low. Skiing is a splurge at this budget, but hiking season lasts most of the year."
+      "lifestyle": "A modest apartment in an outer neighborhood like Montbello or Aurora. You need a car, and housing plus transportation take up more than half the budget. The upside is that Denver's best asset -- hundreds of free hiking trails in the Front Range foothills -- costs nothing. Brewery taprooms offer affordable socializing, and the 300 days of sunshine help. Ski days are a stretch at this budget, but hiking and biking season runs most of the year."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "At $2M, Denver starts to feel like home. You can afford a comfortable apartment in a walkable neighborhood like Capitol Hill or Baker, enjoy the booming RiNo food scene regularly, and actually hit the slopes a few times each winter. Red Rocks concerts become a summer staple, and you have enough margin to fully embrace the active, outdoor-centric lifestyle Denver is famous for."
+      "lifestyle": "A comfortable apartment in Capitol Hill, Baker, or a townhome near Sloan's Lake. You eat out several times a week in the RiNo food scene, catch Red Rocks concerts in summer, and can afford ski day passes a few times each winter. A reliable car with full coverage is a fixed cost. Colorado's flat state income tax is moderate. The budget supports the active, outdoor-oriented lifestyle Denver is known for without constant constraints."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "Life at $10K per month in Denver is outstanding. A beautiful home in Wash Park or the Highlands, regular dinners at the city's best restaurants, an Ikon Pass for unlimited skiing at Vail and Copper Mountain, and Broncos season tickets. Denver's combination of urban sophistication and immediate mountain access creates a lifestyle that is hard to find anywhere else in the country."
+      "lifestyle": "A three-bedroom house in Wash Park or the Highlands, or a modern condo in LoDo. You dine regularly at the city's best restaurants, hold an Ikon Pass for skiing at Vail and Copper Mountain, and keep Broncos season tickets. A late-model SUV handles mountain trips year-round. At $10,000 a month, Denver is genuinely affluent -- the city's moderate cost of living compared to the coasts means this budget stretches well."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Mountain cabin weekends, first-class ski trips, quarterly travel, premium wine and spirits collecting",
         "monthlyCost": 1500
       },
-      "lifestyle": "At $5M, Denver delivers the ultimate mountain-city lifestyle. A stunning home in Cherry Creek or a sleek LoDo penthouse, regular dinners at the finest restaurants, a luxury SUV loaded for weekend escapes to Aspen or Telluride, and deep involvement in Denver's growing arts and cultural scene. The mountains are your backyard and the city is your playground."
+      "lifestyle": "A large home in Cherry Creek or a penthouse in LoDo. You have a housekeeper, drive a luxury SUV for weekend trips to Aspen or Telluride, and dine at the city's best restaurants without budgeting. Business class flights for longer travel are comfortable at this budget. A country club membership and arts patronage are feasible additions. Denver's moderate cost of living means $16,667 a month goes significantly further than it would in coastal cities."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Mountain estate in Aspen or Vail, first-class international travel, art collecting, philanthropic giving",
         "monthlyCost": 5000
       },
-      "lifestyle": "At $10M, Denver is your gateway to the best of both worlds. A sprawling Cherry Hills estate with mountain views, a personal chef, a second home in Aspen, and the ability to charter flights from Centennial Airport for weekend getaways. You are deeply embedded in Denver's philanthropic community, with private boxes at Broncos and Avalanche games and the Rocky Mountains as your personal playground."
+      "lifestyle": "A large estate in Cherry Hills Village with mountain views. You have a full-time housekeeper, a cook who comes in several times a week, and a personal assistant. You dine wherever you want, travel first class, and hold a private box at Empower Field. A second home in Aspen or Vail is feasible at this budget. You support Denver's arts and hospital institutions as a major donor. The combination of city amenities and immediate Rocky Mountain access defines the lifestyle."
     }
   },
   "scores": {

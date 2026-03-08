@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "Charlotte on a $1M portfolio is doable but tight. You will need to be strategic about housing location and cook most meals at home. The good news is Charlotte has plenty of free entertainment, excellent greenway trails, and a mild enough climate that utility bills stay reasonable most of the year."
+      "lifestyle": "You can rent a one-bedroom in Plaza Midwood or NoDa and cook most meals at home, with casual Southern restaurants and food trucks a couple of times a week. Charlotte's greenway trails and free festivals provide regular entertainment, and the mild climate keeps utility costs moderate. A car is needed for most errands, but the LYNX light rail covers the uptown corridor."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "This budget unlocks a genuinely comfortable Charlotte life. You can live in a trendy neighborhood, enjoy the booming food and craft beer scene regularly, and take weekend trips to the mountains or coast. The Whitewater Center alone offers world-class outdoor recreation at your doorstep."
+      "lifestyle": "You can rent a nice apartment in South End or Dilworth and eat out several times a week at the growing restaurant and brewery scene. Hornets and Panthers games, a Whitewater Center membership, and weekend trips to the Blue Ridge Mountains or Carolina coast are all within budget. Charlotte offers solid urban amenities at prices well below the Northeast corridor."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "At $10K/month Charlotte delivers an excellent quality of life. A beautiful home in one of the tree-lined historic neighborhoods, the best dining the city offers, and easy weekend escapes to Asheville, the Outer Banks, or the Blue Ridge Parkway. Charlotte punches well above its weight at this budget level."
+      "lifestyle": "You can rent a house in Myers Park or Eastover and dine regularly at Charlotte's top restaurants. Season tickets to the Panthers or Hornets, a private golf membership, and regular weekend trips to Asheville or the Outer Banks fit comfortably. Good private healthcare and a late-model car for mountain drives round out a comfortable life in one of Charlotte's tree-lined historic neighborhoods."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Quarterly luxury travel, Lake Norman boat weekends, premium wine, philanthropy",
         "monthlyCost": 1500
       },
-      "lifestyle": "Charlotte becomes truly luxurious at this level. A stately home near the country clubs, membership at Quail Hollow, premium seats at every sporting event, and enough budget to enjoy Lake Norman weekends and mountain retreats whenever the mood strikes."
+      "lifestyle": "A large home in Quail Hollow or SouthPark, regular dining at the city's best restaurants, and a housekeeper who comes several times a week. Concierge medicine through Novant or Atrium Health, a nice car, and business class flights are standard. Country club membership, premium sporting event seats, and Lake Norman boat weekends fit comfortably in the budget."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "First-class international travel, lake house, private event hosting, angel investing, charitable giving",
         "monthlyCost": 5000
       },
-      "lifestyle": "At this tier you are living among Charlotte's banking elite. A sprawling estate in one of the city's most prestigious neighborhoods, a personal chef, private box seats, and the social capital to host major charitable events. Charlotte's lower cost base means your $10M goes further than it would in New York or San Francisco."
+      "lifestyle": "Premium housing in Myers Park or a lakefront property on Lake Norman, regular fine dining, a cook who comes several times a week, and a housekeeper. First class travel, full concierge healthcare, and a private box at Bank of America Stadium for Panthers games. Charlotte's affordable cost base means this budget covers everything without strain, and the city's position as a major financial center provides a social scene oriented around business and philanthropy."
     }
   },
   "scores": {

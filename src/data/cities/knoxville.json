@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 140
       },
-      "lifestyle": "Knoxville is one of the best places in America to stretch a $1M portfolio. Housing is genuinely cheap, the Smoky Mountains are free to enter, and the revitalized Market Square downtown offers affordable eats and live music most weekends. You will live modestly but surrounded by extraordinary natural beauty. Tennessee charges no state income tax, which adds real value at every withdrawal."
+      "lifestyle": "A one-bedroom in Bearden or North Knoxville, cooking most meals at home with occasional Southern meat-and-three dinners on Market Square, and a paid-off car. Great Smoky Mountains National Park charges no entrance fee, so weekend hiking costs little beyond gas. Healthcare on an ACA Silver plan is a significant line item, but Tennessee's zero state income tax helps stretch every withdrawal. This is a modest, outdoors-oriented life in one of the more affordable cities in the eastern US."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 160
       },
-      "lifestyle": "At $2M, Knoxville becomes a truly wonderful place to live. You can settle into a charming home in tree-lined Sequoyah Hills, enjoy the downtown food scene regularly, cheer on the Vols on fall Saturdays, and spend your weekdays hiking world-class trails in the Smokies. The combination of low cost, natural beauty, and university-town culture is hard to beat anywhere."
+      "lifestyle": "A home in Sequoyah Hills or a renovated condo in the Old City, dining out several times a week at downtown spots like OliBea and The Plaid Apron, and a reliable car for regular Smokies trips. You can afford UT Vols football season tickets, Knoxville Symphony concerts, a good health plan, and a few trips per year. The combination of low costs, proximity to the Smokies, and university-town energy makes this a comfortable, well-rounded life."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 220
       },
-      "lifestyle": "At $10K per month in Knoxville, you are living exceptionally well for the region. A beautiful lakefront or hillside home, regular reservations at James Beard-recognized restaurants, premium seats at Neyland Stadium, and guided adventures deep in the Smokies. Day trips to the legendary Blackberry Farm become a regular indulgence. Your dollar goes extraordinarily far here."
+      "lifestyle": "A spacious home in Farragut or a lakefront property on Fort Loudoun Lake, regular dinners at places like The Lonesome Dove and J.C. Holdway, and premium UT football tickets. You can afford a late-model SUV, premium health insurance through UT Medical Center, guided fly-fishing in the Smokies, and occasional visits to Blackberry Farm. Knoxville's low cost of living means this budget leaves real margin each month for travel and savings."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Regular Blackberry Farm retreats, quarterly travel, wine collecting, university philanthropy",
         "monthlyCost": 1300
       },
-      "lifestyle": "You are living Knoxville's ultimate lifestyle. A stunning lakefront estate with your own boat dock, regular stays at the world-renowned Blackberry Farm, skybox seats as the Vols roar in Neyland Stadium, and a private chef who sources from East Tennessee's incredible local farms. The surplus lets you invest in the community and travel extensively."
+      "lifestyle": "A large lakefront home on Fort Loudoun Lake with a boat dock, a housekeeper who comes several times a week, concierge medical coverage, and a nice SUV. You dine at the city's best restaurants regularly, hold UT skybox access, and visit Blackberry Farm for overnight stays. Business class flights from McGhee Tyson and regular travel are within budget. Knoxville's low costs and zero state income tax mean this spending level provides a very comfortable life with substantial margin."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Blackberry Farm membership, first-class international travel, Smoky Mountain conservation philanthropy, art collecting",
         "monthlyCost": 4800
       },
-      "lifestyle": "At $10M, East Tennessee becomes your private mountain kingdom. A sweeping lakefront estate, a personal chef crafting Appalachian-inspired fine dining, your own boat for lake days, and deep philanthropic involvement with the university and the Smokies. With no state income tax and a cost of living that leaves enormous surplus even at this spending level, Knoxville may be America's best-kept FIRE secret."
+      "lifestyle": "A large lakefront estate on Tellico or Fort Loudoun Lake, a cook who comes in several times a week, full-time domestic help, and top-tier concierge healthcare with access to Vanderbilt specialists via a short drive. You travel first class, keep multiple vehicles and a boat, and dine out at the region's best restaurants without checking the bill. In a metro as affordable as Knoxville, this budget creates enormous margin -- enough for a private suite at Neyland Stadium, regular charitable giving to the university and Smokies conservation, and significant ongoing savings."
     }
   },
   "scores": {

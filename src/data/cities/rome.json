@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "A lean but genuinely rewarding life in Rome. You will cook with fresh market ingredients, ride the metro, and enjoy the city's free cultural wealth — from ancient ruins to neighborhood festivals. Budget is tight but the daily rhythms of Roman life make it feel richer than the numbers suggest."
+      "lifestyle": "A small 1-bedroom in an outer neighborhood like Garbatella, Pigneto, or Centocelle. Cooking most meals at home with fresh market produce, eating out at pizza al taglio spots and trattorias a couple of times a week. Getting around on the ATAC transit pass. Italian national health enrollment if resident, or a basic private plan. Rome is relatively affordable, so this budget covers the basics comfortably, though dining out and travel need to be planned."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "This is where Rome truly shines. You can live in a beautiful old neighborhood, eat world-class food daily, and still have budget for weekend escapes to the Amalfi Coast or Tuscany. The combination of Italian cuisine, walkable streets, and cultural access makes this tier feel luxurious by most global standards."
+      "lifestyle": "A spacious 2-bedroom in Trastevere, Testaccio, or Monti with character. Dining out at neighborhood trattorias and osterias 4-5 times a week, with regular aperitivo. Good private health insurance with specialist access. Car-sharing or taxis for day trips, and weekend escapes to the Amalfi Coast or Tuscany by train. Opera tickets and museum memberships. Rome's moderate costs mean this budget delivers a comfortable, food-rich life with room for cultural enjoyment and travel."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 220
       },
-      "lifestyle": "Life at this level in Rome is genuinely magnificent. A grand apartment with views over terracotta rooftops, dinners at the city's finest restaurants, and easy access to all of Italy by high-speed rail. You are living the life that most tourists only dream about during their one-week visit."
+      "lifestyle": "An elegant apartment near Piazza Navona, the Pantheon, or in Parioli with a terrace and rooftop views. Regular dining at top restaurants, a Vespa or small car for getting around, and premium private healthcare at clinics like Policlinico Gemelli. Season opera tickets and frequent weekend getaways by high-speed rail to Florence, Naples, or the coast. Rome's costs are moderate by Western European standards, so this budget delivers a genuinely affluent life with regular dining and travel."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Tuscan villa weekends, first-class European travel, Italian art collecting, premium wine cellar",
         "monthlyCost": 2000
       },
-      "lifestyle": "You are living like Roman nobility. A stunning apartment in the heart of one of history's greatest cities, staff to manage daily life, and access to experiences most people only read about. Weekend drives to Umbrian hill towns and summers on the Sardinian coast are routine."
+      "lifestyle": "A luxury penthouse in Centro Storico or a historic apartment in Aventino with a private garden. Regular dining at the city's best restaurants, a housekeeper several times a week, and business class for longer flights. A luxury car, premium private healthcare, and first-class Trenitalia for travel across Italy. Weekend drives to Umbrian hill towns are routine. Rome's moderate costs mean this budget goes far, providing an upper-affluent life with significant room for travel and entertainment."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Private jet access, Italian vineyard investment, international art acquisitions, philanthropic foundation",
         "monthlyCost": 5500
       },
-      "lifestyle": "At this tier, Rome is your private museum. You live in spaces that rival the finest palazzi, host legendary dinner parties, and move through the city as a patron of its arts and culture. The Eternal City rewards wealth with experiences that simply cannot be bought anywhere else on Earth."
+      "lifestyle": "A grand palazzo apartment overlooking a major piazza or a private villa on the Appia Antica. A cook several times a week, a full-time housekeeper, and full private healthcare with top specialists. Business class as default, first class for longer trips. Regular fine dining and a nice car with driver when needed. Rome is affordable enough at this level that you have significant margin -- a second property in Tuscany or on the coast becomes realistic."
     }
   },
   "scores": {

@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 140
       },
-      "lifestyle": "Paris on a budget is still Paris. Your morning croissant at the corner boulangerie, long walks along the Seine, and free first-Sunday museum visits deliver a cultural richness impossible anywhere else on earth. The apartment will be small — this is Paris, after all — but the city itself becomes your living room."
+      "lifestyle": "A compact studio or small 1-bedroom in the 19th or 20th arrondissement, or in a near suburb like Montreuil. Boulangerie breakfasts and prix fixe lunch menus at neighborhood bistros, cooking most dinners at home. Getting around on the Navigo pass covering metro, bus, and RER. French public healthcare with a mutuelle top-up. Paris is expensive, so the apartment will be small and dining out limited, but free museum Sundays, Seine-side walks, and Luxembourg Gardens make the cultural access remarkable for the cost."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "Now you are truly living the Parisian dream. A beautiful Haussmann apartment in a storied arrondissement, regular dinners at the bistros Parisians actually frequent, and weekend escapes to Champagne country or the châteaux of the Loire. Your Navigo pass unlocks the entire city, and the cultural calendar never runs dry."
+      "lifestyle": "A charming 2-bedroom in the Marais, Saint-Germain-des-Pres, or the 11th with Haussmann details. Dining out at bistros and wine bars several times a week without stress. Comprehensive healthcare with a good mutuelle. Weekend car rentals for Champagne or Loire Valley trips. Opera, jazz clubs, and museum memberships. Paris is expensive, so this is comfortable but not lavish -- you eat well, live centrally, and enjoy the city's culture freely."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "An elevated Parisian existence in the heart of the Left Bank. Your apartment has the kind of ceiling moldings and herringbone floors that interior magazines dream about. Evenings alternate between Michelin-starred tasting menus and intimate wine bars, while weekends bring private tours of galleries and countryside escapes to Normandy."
+      "lifestyle": "An elegant apartment in the 6th or 7th arrondissement with period details, high ceilings, and a balcony. Regular dining at top restaurants including occasional Michelin-starred meals. Premium private healthcare, a car for weekend countryside escapes, and regular taxi rides across the city. Paris's costs are significant, so this is affluent but not unlimited -- you live in a beautiful neighborhood and eat very well, with room for travel and cultural pursuits."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "French language tutor, personal trainer, art acquisition budget, TGV weekend escapes to Provence",
         "monthlyCost": 1600
       },
-      "lifestyle": "At this level Paris opens its most exclusive doors. Your apartment offers Eiffel Tower views that never get old, your personal chef prepares meals with ingredients from Rungis market, and your weekends might mean a TGV to your favorite Provençal village. You attend private gallery openings and salon dinners with Paris's cultural elite."
+      "lifestyle": "A luxury apartment in the 1st or 8th with views, or a historic property in the Marais. Regular dining at the city's best restaurants, a housekeeper several times a week, and business class for longer flights. TGV first-class to the Riviera and Alps, a leased luxury car, and premium private healthcare. Paris is one of Europe's most expensive cities, so even at this level the budget is noticeable, but daily life is high quality with a cleaner, good restaurants, and regular travel."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Château in Bordeaux, haute couture wardrobe, art collection curation, philanthropic foundation, bespoke travel",
         "monthlyCost": 5533
       },
-      "lifestyle": "At $10M you inhabit the Paris of legend. A grand private mansion with courtyard garden, a staff that anticipates your every need, and a social calendar woven through the city's most prestigious cultural institutions. Your name appears on museum donor walls, your château hosts harvest dinners for friends, and your life is a masterwork of French art de vivre."
+      "lifestyle": "A grand apartment on Avenue Montaigne or a restored property in Saint-Germain with a private courtyard. A cook several times a week, a full-time housekeeper, and full private healthcare with top specialists. Business class as default, first class for longer trips. Regular fine dining at the city's three-star restaurants. Paris absorbs large budgets easily, so even at this level the city's costs keep you grounded -- this is a very comfortable, premium life but not an unlimited one."
     }
   },
   "scores": {

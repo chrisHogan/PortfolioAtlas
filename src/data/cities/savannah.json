@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "Savannah is one of the more comfortable cities at this budget level. Housing is genuinely affordable, the historic district is free to explore endlessly, and Tybee Island is a short drive away. Summer A/C costs are the main budget hit, but the low cost of living leaves more breathing room than most US cities."
+      "lifestyle": "A one-bedroom in Midtown or the Starland District runs around $1,250, leaving enough for groceries, a car, and basic health coverage. You cook most meals at home but can afford casual Southern restaurants a couple of times a week. The 22 historic squares and Forsyth Park are free to enjoy daily, and Tybee Island is a short drive. Summer A/C is the biggest recurring cost to watch."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "At this budget Savannah becomes a true delight. You can live in or near the Historic District, enjoy the city's excellent restaurant scene, and spend weekends at Tybee Island without a second thought. The SCAD art scene and regular festivals keep the cultural calendar full year-round."
+      "lifestyle": "A two-bedroom in the Historic District, Victorian District, or Ardsley Park is comfortable at this budget. You can dine out several times a week along River Street and at local favorites, carry good health insurance, and spend weekends at Tybee Island without worrying about costs. SCAD events and live music keep the cultural calendar full."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 230
       },
-      "lifestyle": "Savannah at this level is magical. A historic home on one of the famous squares, dinners at James Beard-nominated restaurants, and lazy weekends boating the marshes and waterways. The city's intimate scale means you quickly become part of the social fabric and feel genuinely at home."
+      "lifestyle": "A historic rowhouse on one of the squares or a waterfront home on Wilmington Island is well within reach. Regular dinners at The Grey and Elizabeth on 37th, a golf membership, and weekend boating on the Intracoastal Waterway fill the calendar. This budget leaves comfortable margin for travel and savings. Savannah's small-city scale makes it easy to build a social circle."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Quarterly travel, historic preservation philanthropy, art collecting, spa retreats",
         "monthlyCost": 1300
       },
-      "lifestyle": "You are living Savannah's grandest lifestyle. A magnificent mansion draped in Spanish moss, private boat access to the barrier islands, and the ability to host legendary Southern dinner parties. Your dollar stretches remarkably far here compared to other charming coastal cities."
+      "lifestyle": "A large historic home on Monterey Square or a beachfront property on Tybee Island, a housekeeper who comes weekly, and regular fine dining. A boat for the Intracoastal Waterway is affordable, and business class flights for longer trips fit the budget. Savannah's lower costs compared to Charleston or the Florida coast mean this level of spending covers a well-staffed, well-traveled life with plenty of margin."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Historic preservation endowments, European travel, barrier island retreat, charitable foundation",
         "monthlyCost": 5000
       },
-      "lifestyle": "At this level Savannah becomes your personal Southern estate. A landmark mansion, a yacht for cruising the waterways, and the ability to be a major patron of the city's arts and preservation efforts. The combination of affordability and elegance means your money creates an outsized lifestyle here."
+      "lifestyle": "A landmark historic home on a prime square, a full-time housekeeper and property manager, and a cook who comes in several times a week. A boat for the waterways, first-class travel, and regular fine dining are all comfortable. Savannah's low cost base means this budget covers premium housing, regular domestic help, and generous travel without feeling stretched."
     }
   },
   "scores": {

@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 120
       },
-      "lifestyle": "Singapore on $1M means mastering the hawker center lifestyle — and that's not a sacrifice, it's a privilege. You eat like royalty for pocket change, ride spotless trains across a garden city, and live in the safest urban environment on Earth. Housing is the squeeze, but the food and infrastructure more than compensate."
+      "lifestyle": "A room in a shared HDB flat or a small studio in an outlying area like Woodlands or Jurong. Eating mostly at hawker centers, where the food is genuinely excellent for $3-5 per meal. Getting around on the spotless MRT and bus system. Basic health coverage through Singapore's subsidized polyclinic system. This is a tight budget for Singapore — housing is the real squeeze, and you will need to be disciplined about restaurant meals, taxis, and entertainment. But the safety, transit, and food quality are hard to match anywhere."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "At $2M, Singapore opens up nicely. You settle into a charming neighborhood like Tiong Bahru with its art deco HDB blocks and indie cafes, eat brilliantly across hawker and restaurant tiers, and take cheap weekend flights to Bali or Langkawi. The efficiency and safety of daily life is remarkable — everything just works."
+      "lifestyle": "A comfortable 1-bedroom or small 2-bedroom HDB flat or entry-level condo in a neighborhood like Tiong Bahru, Toa Payoh, or Queenstown. A mix of hawker centers and mid-range restaurants — neighborhood sushi bars, seafood at East Coast, and weekend dim sum. MRT and bus daily, supplemented by Grab. Comprehensive private health insurance at hospitals like Mount Elizabeth. Cheap weekend flights to Bali or Langkawi. Life is comfortable and efficient, though this budget is middle-class by Singapore standards, not affluent."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 280
       },
-      "lifestyle": "With $3M, you enjoy Singapore's sweet spot — a pool-and-gym condo in a leafy neighborhood, world-class dining whenever you want it, and the entire Southeast Asian region as your weekend playground. Singapore's combination of tropical beauty, culinary excellence, and frictionless daily life is hard to beat at this budget."
+      "lifestyle": "A 2-bedroom condo with pool and gym in a desirable neighborhood like River Valley, Holland Village, or Bukit Timah. Dining at good restaurants several times a week without stress, though regular fine dining would stretch things. MRT and regular Grab rides. Premium private health insurance with executive screening packages. Budget flights around Southeast Asia for weekend getaways. This is Singapore's sweet spot — genuinely comfortable, though the city's high costs mean this does not feel lavish."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Bespoke tailoring on Savile Row visits, premium whisky and wine collection, luxury island resort weekends, and art acquisitions at Singapore Art Week",
         "monthlyCost": 2000
       },
-      "lifestyle": "At $5M in Singapore, you live in colonial elegance or gleaming modernity, dine at Asia's finest restaurants, and jet around the region in business class on weekends. Your live-in helper manages the household while you enjoy the F1 Grand Prix from the paddock and sail to private Indonesian islands. Singapore's luxury infrastructure is world-class."
+      "lifestyle": "A luxury condo or landed property in a prime district — Orchard, Tanglin, or a colonial bungalow area like Dempsey. Regular dining at Singapore's top restaurants, with a hired car and driver since owning a car in Singapore costs over $100K in registration fees alone. A live-in domestic helper, which is common and well-regulated here, plus business class flights around Asia and VIP healthcare at Mount Elizabeth. Genuinely comfortable and high quality, though Singapore's costs mean even this budget requires some choices — it does not feel unlimited."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Contemporary Asian art collection, bespoke global travel, Sentosa waterfront entertaining, premium wine vault, rare watch collection, and philanthropic foundation",
         "monthlyCost": 5500
       },
-      "lifestyle": "With $10M in Singapore, you occupy the pinnacle of Asian luxury. Your Good Class Bungalow sits behind lush tropical gardens in the most exclusive neighborhood on the island, your chef rivals any restaurant, and your social calendar spans polo matches, art fairs, and yacht weekends across the archipelago. Singapore rewards wealth with safety, efficiency, and access to all of Asia — it is the ultimate base for a luxurious life in the East."
+      "lifestyle": "A large premium property — a Good Class Bungalow in Nassim or Cluny, or a penthouse at Marina Bay with skyline views. A live-in helper, a cook a few times a week, and a full-time driver with a luxury car. First-class international flights. Concierge medical care with 24/7 specialist access. Regular fine dining as routine. Singapore's extreme housing costs absorb a significant share even at this level, so while life is very comfortable and frictionless, this is upper-affluent rather than limitless by local standards."
     }
   },
   "scores": {

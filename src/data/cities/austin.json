@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "This is a tight budget in Austin. You can survive but you will feel the squeeze, especially in summer when electric bills spike from A/C. Expect to cook most meals, take advantage of Austin's abundant free entertainment, and drive a modest car. You will live comfortably enough but without much margin for surprises."
+      "lifestyle": "A one-bedroom apartment in East Riverside or North Loop. You need a car, and summer electric bills spike from A/C, which squeezes the budget. You cook most meals and eat at taco trucks a few times a week. The major advantage is Texas's zero state income tax -- every dollar of your $3,333 withdrawal stays with you. Free live music on 6th Street and swimming at Barton Springs keep entertainment costs low."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "A comfortable Austin life opens up at this level. You can enjoy the city's famous food scene regularly, catch live music several nights a week, and keep a solid car for exploring the Hill Country on weekends. Healthcare is covered without constant worry, and you still have breathing room for travel or hobbies."
+      "lifestyle": "A nice two-bedroom in South Lamar, Mueller, or East Austin. You eat out several times a week at mid-range restaurants, attend live music shows regularly, and drive a reliable car for Hill Country weekends. No state income tax means the full $6,667 budget goes toward living expenses. You can afford ACL or SXSW tickets, a gym membership, and paddle boarding on Lady Bird Lake. Healthcare coverage is solid without constant worry."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "Life is genuinely great at this tier. You can rent a house in one of Austin's most desirable neighborhoods, dine at the best restaurants without flinching, and fully immerse yourself in the music and outdoor culture. Weekend trips to Fredericksburg wine country or Big Bend are easy additions to your routine."
+      "lifestyle": "A three-bedroom house in Travis Heights or Zilker, or a modern condo downtown. You dine regularly at top restaurants like Uchi and Emmer & Rye, take weekend trips to Fredericksburg wine country, and rent boats on Lake Travis. At $10,000 a month with no state income tax, Austin is comfortably affluent. The city's music scene, outdoor recreation along the Colorado River, and growing food culture are all easily accessible."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Quarterly domestic travel, premium wine subscriptions, spa days, philanthropy",
         "monthlyCost": 1500
       },
-      "lifestyle": "You are living Austin's best life. A beautiful home in the hills or a sleek downtown penthouse, dinners at the city's top-tier restaurants, VIP access at ACL and F1. You can be generous with friends and family and still invest surplus back into your portfolio."
+      "lifestyle": "A large home in Westlake or Tarrytown, or a luxury downtown high-rise. You have a housekeeper, drive a nice car, and dine at the city's best restaurants without budgeting. Business class flights for longer travel are comfortable at this budget. VIP passes for ACL and the F1 Grand Prix are feasible. Texas's zero state income tax is a major advantage -- $16,667 a month goes very far in Austin compared to what it would buy in California or New York."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "First-class international travel, ranch property, boat on Lake Travis, angel investing",
         "monthlyCost": 5000
       },
-      "lifestyle": "At this level Austin becomes your personal playground. A sprawling estate on Lake Austin, a personal chef, courtside seats, and enough left over to fund startups or causes you care about. Texas's zero income tax means every dollar of your withdrawals stays with you."
+      "lifestyle": "A large estate in Barton Creek or a waterfront property on Lake Austin. You have a full-time housekeeper, a cook who comes in several times a week, and a personal assistant. You dine wherever you want, travel first class, and keep a boat on Lake Travis. Texas's zero state income tax means the full $33,333 monthly budget is available for spending. You support local institutions as a donor and live very comfortably in a city with a relaxed pace and strong food and music culture."
     }
   },
   "scores": {

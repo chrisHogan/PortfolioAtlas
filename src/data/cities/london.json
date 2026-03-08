@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 170
       },
-      "lifestyle": "London on $1M requires discipline, but the city's extraordinary free offerings make it viable. The British Museum, National Gallery, and Tate Modern cost nothing, and a Sunday roast at a proper pub is one of life's great pleasures. Your flat will be in an outer zone, but the Tube connects you to everything. The NHS is a massive financial advantage."
+      "lifestyle": "A small 1-bedroom flat in Zone 3 or 4 -- areas like Lewisham, Walthamstow, or Tooting. Cooking most meals at home, with pub meals and market street food as affordable outings. Getting around on a monthly Oyster card. NHS healthcare is a significant financial advantage. London is brutally expensive, so this budget means real constraints on housing size and dining out, but the free museums, parks, and Tube access to the entire city keep life rich."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "Now London starts to shine. A flat in a vibrant Zone 2 neighborhood puts you in the thick of the city's energy, with West End shows, world-class markets, and incredible global cuisine all within reach. Weekend trains whisk you to the English countryside, and the NHS keeps your healthcare costs minimal. This is comfortable, cultured London living."
+      "lifestyle": "A comfortable 2-bedroom flat in Zone 2 -- Clapham, Islington, or Bermondsey. Dining out at gastropubs and good restaurants several times a week, with Borough Market weekends and curry nights on Brick Lane. Private health insurance supplements the NHS for faster specialist access. Weekend trains to the Cotswolds or Brighton. West End theatre and Barbican or Southbank Centre memberships. London's costs mean this is comfortable but not lavish -- you eat well and live centrally, but the budget has limits."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 280
       },
-      "lifestyle": "An elevated London life in one of the world's most desirable neighborhoods. Your Kensington flat is steps from museums and parks, Michelin-starred restaurants become regular haunts, and your cultural calendar overflows with opera, theatre, and gallery openings. First-class Eurostar trips to Paris make continental weekends effortless."
+      "lifestyle": "An elegant flat in Kensington, Notting Hill, or a converted warehouse in Shoreditch. Regular dining at top restaurants, premium private health insurance with Harley Street access, and first-class Eurostar to Paris. Royal Opera House season tickets, unlimited Oyster travel, and regular Uber rides. London is one of the world's most expensive cities, so even at this budget housing absorbs a large share, but daily life is genuinely affluent with excellent restaurants, culture, and travel."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Cotswolds weekend cottage, Savile Row tailoring, personal trainer, art acquisition fund, Henley regatta hospitality",
         "monthlyCost": 1700
       },
-      "lifestyle": "London's most exclusive circles open at this level. A Mayfair address, private members' clubs like Annabel's and The Arts Club, Ascot in the Royal Enclosure, and a weekend cottage in the Cotswolds. Your personal chef hosts legendary dinner parties, and your Savile Row wardrobe ensures you look the part at every gala and gallery opening."
+      "lifestyle": "A luxury flat in Mayfair or Chelsea, or a Georgian townhouse in Belgravia. Regular dining at the city's best restaurants, a housekeeper several times a week, and business class for longer flights. A leased luxury car, premium private healthcare with a Harley Street physician, and first-class rail travel. London's extreme costs mean even this budget is absorbed quickly -- housing alone takes a large share -- but daily life is high quality with real comfort and access to the city's best."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Country estate in the Cotswolds, Savile Row and Bond Street wardrobes, art collection, philanthropic trust, box at Lord's",
         "monthlyCost": 4433
       },
-      "lifestyle": "At $10M London becomes your personal stage. A Belgravia townhouse staffed to perfection, a country estate for weekends, and a social calendar that intersects with royalty, finance, and the arts. Your name graces the donor walls of the Tate and National Theatre, your Rolls whisks you between Mayfair and Knightsbridge, and life unfolds with the grandeur London has perfected over centuries."
+      "lifestyle": "A grand townhouse in Belgravia or Knightsbridge, or a penthouse overlooking Hyde Park. A cook several times a week, a full-time housekeeper, and full private healthcare with top Harley Street specialists. Business class as default, first class for longer trips. A nice car and driver. Regular fine dining at three-star restaurants. London is arguably the most expensive city on this list, so even at this level the budget has real limits -- but daily life is premium, comfortable, and you rarely think about costs."
     }
   },
   "scores": {

@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 130
       },
-      "lifestyle": "Quebec City is one of the best $1M FIRE cities in North America. Cheap rent, universal healthcare, and a walkable city center where you can stroll cobblestone streets and visit centuries-old churches for free. You will cook most meals but the boulangeries sell incredible bread for pocket change. Learning French is part of the adventure and the community is welcoming."
+      "lifestyle": "Quebec City is one of the more affordable options in North America at this budget. A one-bedroom in Limoilou, Saint-Sauveur, or Charlesbourg is inexpensive, and universal RAMQ healthcare eliminates a major cost. You will cook most meals at home with occasional bistro outings. The Old Town is walkable and free to explore. The main consideration is that French is essential for daily life — English alone will be limiting. Winters are long, cold, and snowy."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 160
       },
-      "lifestyle": "At $2M, Quebec City becomes a European-style dream life. You can afford a beautiful apartment in one of the most charming neighborhoods in North America, dine at classic bistros regularly, and spend weekends skiing in the Laurentians or exploring Ile d'Orleans. The cultural calendar is packed year-round with festivals, theatre, and music."
+      "lifestyle": "A two-bedroom in Saint-Jean-Baptiste or Montcalm, steps from the Old Town. Regular bistro dining, a car for weekend skiing in the Laurentians or trips to Ile d'Orleans, and private supplemental health insurance. The cultural calendar includes theatre, Festival d'ete, and regular music events. The neighborhood feel is walkable and intimate. This budget is comfortable in Quebec City with a solid margin, assuming you speak or are learning French."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 220
       },
-      "lifestyle": "Living in Old Quebec at $10K per month is like being a permanent resident in a European fairy tale. A heritage apartment within the old walls, gastronomic dinners at Quebec's finest restaurants, skiing at world-class resorts, and summers on Ile d'Orleans picking strawberries. Healthcare is covered, and you can save or travel with the substantial surplus."
+      "lifestyle": "A heritage apartment in Old Quebec or a home in Sillery with St. Lawrence River views. Regular fine dining at restaurants like Laurie Raphaël and Chez Muffy, season tickets to the orchestra and theatre, and ski passes at Mont-Sainte-Anne and Le Massif. A good AWD vehicle handles Quebec winters. Universal healthcare keeps medical costs low, and the margin at this level is significant for a city this affordable."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Charlevoix cottage, quarterly European travel, art collecting, philanthropy",
         "monthlyCost": 1500
       },
-      "lifestyle": "Quebec City at $5M is aristocratic Canadian living. A magnificent heritage property, a cottage in beautiful Charlevoix, dining at the city's Michelin-worthy restaurants, and enough surplus for regular trips to France. The city's small size means you become a known and valued member of the cultural community."
+      "lifestyle": "A heritage property in Old Quebec or a grand home in Sillery with river views, a housekeeper, and a cottage in Charlevoix for weekends. Regular fine dining, arts patronage, and business class flights to Montreal, Toronto, or international destinations. Universal healthcare keeps medical costs minimal. Quebec City is small enough that the dining and cultural scene, while high quality, is limited in scale. The margin is very large."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Multiple properties including Charlevoix and Paris, first-class travel, art patron, community foundation",
         "monthlyCost": 5500
       },
-      "lifestyle": "At $10M, Quebec City offers a life that rivals European aristocracy. A grand heritage estate within the old walls, a Charlevoix country property, a Paris pied-a-terre, and deep involvement as a patron of Quebec's celebrated cultural institutions. Universal healthcare, incredible safety, and 400 years of history make this one of the most unique high-net-worth lifestyles in the world."
+      "lifestyle": "A grand heritage estate in Old Quebec or a riverfront compound in Sillery, a cook who comes in several times a week, regular housekeeping, and first-class international travel. A Charlevoix country property for weekends is easily within reach. Quebec City is one of the safest cities in North America with universal healthcare and 400 years of French-Canadian culture. The budget far exceeds what the city can absorb — this level of spending only makes sense if you travel extensively or maintain properties elsewhere."
     }
   },
   "scores": {

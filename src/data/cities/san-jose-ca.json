@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 100
       },
-      "lifestyle": "Frankly, $3,333/month in San Jose is survival mode. Housing alone consumes over half your budget, and California income tax takes a further bite. You will need roommates or a tiny studio in a less desirable area. The upside is incredible weather that keeps utility bills low and endless free outdoor activities. But this is not a comfortable retirement here."
+      "lifestyle": "This budget is very difficult in San Jose. A shared housing situation or a studio in East San Jose takes over half the monthly income, and California state income tax further reduces what is available. You cook at home almost every night and keep entertainment to free activities like hiking Alum Rock Park. The weather is beautiful and utilities are low, but there is little financial margin here."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 130
       },
-      "lifestyle": "At $2M you can manage a modest but decent San Jose life. A small apartment in a nice neighborhood, regular dining at the incredible ethnic restaurants, and weekend trips to Santa Cruz or the wine country. It works, but you will feel the California tax burden and will not have much margin for extras."
+      "lifestyle": "A one-bedroom apartment in Campbell or Willow Glen, regular dining at the diverse Vietnamese, Mexican, and Japanese restaurants, and weekend trips to Santa Cruz or wine country. A reliable car and good health insurance are covered. It works, but California income tax takes a meaningful bite and there is not much room for extras beyond the basics."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "At $10K/month San Jose becomes genuinely comfortable. You can live in a desirable neighborhood, enjoy the extraordinary diversity of cuisines, and take full advantage of the Bay Area's natural beauty. Weekend drives to Big Sur, Napa, or Tahoe are routine. This is the minimum for a truly enjoyable Silicon Valley retirement."
+      "lifestyle": "A two-bedroom condo in Willow Glen or the Santana Row area, regular dining at the South Bay's diverse restaurants and Japantown izakayas, and Sharks season tickets. Weekend drives to Big Sur, Napa, or Tahoe are routine. This is roughly the minimum budget for a genuinely comfortable Silicon Valley life, though California taxes still take a noticeable share."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Napa wine weekends, quarterly luxury travel, tech conference attendance, philanthropy",
         "monthlyCost": 1500
       },
-      "lifestyle": "Now San Jose starts to make real sense as a FIRE destination. A beautiful home in the foothills, Stanford-level healthcare, and full access to everything the Bay Area offers. The weather is perfect, the food scene is world-class, and you are a short drive from the coast, wine country, and the mountains."
+      "lifestyle": "A three-bedroom house in Los Gatos, Almaden Valley, or the Saratoga foothills, concierge healthcare through Stanford, and a cleaner who comes every couple of weeks. Fine dining in Los Gatos and Palo Alto, premium sports tickets, and Napa wine weekends fit the budget. A luxury EV and business class travel for longer trips are comfortable. California taxes reduce the net, but at this level the Bay Area lifestyle is genuinely enjoyable."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Napa vineyard membership, first-class international travel, angel investing, major philanthropy",
         "monthlyCost": 5000
       },
-      "lifestyle": "At $10M San Jose becomes a Silicon Valley dream. A stunning estate in the hills above the valley, personal chef, Stanford concierge medicine, and the social capital to attend exclusive tech and venture events. California taxes take a significant bite, but the lifestyle, weather, and access to innovation culture are unmatched."
+      "lifestyle": "A large home in the Saratoga or Los Gatos hills, full-time domestic help including a housekeeper and personal assistant, and a cook who comes in several times a week. Stanford concierge medicine, first-class travel, and fine dining at Manresa or Plumed Horse whenever you like. California's high income tax takes a significant share at this withdrawal level, which means the effective lifestyle is less lavish than the same budget in a no-income-tax state. Still, the weather, food, and Bay Area access are hard to replicate elsewhere."
     }
   },
   "scores": {

@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "Sydney on $1M is a stretch — you live in the western suburbs and commute to the harbor for weekend beach days. The beaches and coastal walks are free, and the multicultural food scene in the suburbs is excellent and affordable. But housing eats most of your budget, and inner-city life is out of reach."
+      "lifestyle": "This budget is tight in Sydney. You will live in the outer suburbs — Parramatta, Bankstown, or Hurstville — and housing takes a large share of the monthly spend. The multicultural food in these areas is excellent and affordable, and the beaches and coastal walks are free. But inner-city neighborhoods are out of reach, and the commute to the harbor or beaches can be long. Medicare helps significantly with healthcare costs."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "At $2M, you access Sydney's genuine charm. A Newtown apartment puts you near quirky bars and excellent Thai food, while Manly offers a beachside village feel just a ferry ride from the CBD. Weekend mornings mean coffee at a local cafe followed by a surf or coastal walk — the quintessential Sydney life."
+      "lifestyle": "A small apartment in Newtown, Marrickville, or Manly puts you in neighborhoods with real character and walkability. You can dine out several times a week across Sydney's diverse restaurant scene, add private health insurance on top of Medicare, and take weekend trips to the Blue Mountains. The budget is comfortable but not lavish — Sydney is an expensive city, and you will still make tradeoffs on housing size and location."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 280
       },
-      "lifestyle": "With $3M, you live the Sydney dream. A Bondi apartment with ocean air, dinner at hatted restaurants overlooking the harbor, and weekends sailing or driving down to pristine South Coast beaches. The Opera House becomes your regular haunt, and the city's natural beauty is right outside your door."
+      "lifestyle": "A two-bedroom in Surry Hills, Potts Point, or Bondi with harbor or ocean views. Regular dining at hatted restaurants, Opera House season tickets, and comprehensive private health insurance. Weekend trips to the Hunter Valley or South Coast, a gym membership, and occasional car rentals. This is where Sydney starts to feel genuinely comfortable, with the city's best features — harbor, beaches, restaurants — all accessible."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Bespoke fashion from Australian designers, premium wine cellar, luxury resort weekends in Byron and Hamilton Island, and harbor-side entertaining",
         "monthlyCost": 2000
       },
-      "lifestyle": "At $5M in Sydney, you command the harbor lifestyle at its finest. Water taxis whisk you to dinner at Bennelong beneath the Opera House sails, weekends mean sailing or a flight to Byron Bay, and your apartment view — the bridge, the harbor, the Opera House — never gets old. Sydney's outdoor luxury is unmatched."
+      "lifestyle": "A waterfront apartment in Point Piper, Elizabeth Bay, or Mosman with harbor views, a leased luxury car, and regular dining at Sydney's best restaurants. A housekeeper comes weekly, and business class domestic flights to Melbourne or Queensland are routine. Premium private healthcare with no-gap cover and regular sailing or harbor outings round out a very comfortable life. Sydney is expensive, so even at this budget, housing takes a meaningful share."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Superyacht syndicate membership, Australian contemporary art collection, bespoke travel to the Kimberley and Antarctic, premium wine vault, and charitable foundation",
         "monthlyCost": 5500
       },
-      "lifestyle": "With $10M in Sydney, you inhabit the rarefied world of Point Piper and Vaucluse — where the harbor is your front yard and the Pacific your backyard. Your chef sources from the Sydney Fish Market each morning, your yacht is moored at the Cruising Yacht Club, and weekends mean seaplane flights to your Palm Beach retreat. Sydney's natural grandeur and cosmopolitan polish combine into one of the world's great luxury lifestyles."
+      "lifestyle": "A premium waterfront home in Point Piper or Vaucluse with panoramic harbor views, a cook who comes in several times a week, regular housekeeping, and first-class international travel. Concierge healthcare, a nice car, and regular dining at any restaurant in the city without checking prices. Sydney is one of the most expensive cities in this calculator, so while this budget provides a very comfortable life, housing alone takes a significant share. The harbor setting and outdoor lifestyle are the main rewards."
     }
   },
   "scores": {

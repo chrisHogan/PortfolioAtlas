@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 140
       },
-      "lifestyle": "Boise at $1M is genuinely doable thanks to lower rents and cheap outdoor recreation. You will cook most meals, drive an older car, and rely on Idaho's incredible free public lands for entertainment. It is a simple but satisfying life if you love the outdoors and do not need city flash."
+      "lifestyle": "A one-bedroom apartment in the Bench or Garden City, a paid-off car, and cooking at home most nights. Healthcare on an ACA Silver plan takes a meaningful share of the budget. Entertainment leans heavily on free public lands -- the Boise Foothills, the Greenbelt, and nearby BLM land are all accessible without spending much. This is a simple, outdoors-focused life with real budget constraints, but manageable if you do not need urban amenities."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 170
       },
-      "lifestyle": "This budget unlocks Boise's sweet spot. You can afford a place in the coveted North End with its tree-lined streets, eat out regularly at spots like Fork and KIN, and buy a season ski pass without guilt. Weekend road trips to Sun Valley or McCall are within easy reach."
+      "lifestyle": "A place in the tree-lined North End or a small house in West Boise, dining out several times a week on 8th Street, and a reliable AWD vehicle for winter driving. A Bogus Basin ski pass fits comfortably in the budget, and weekend road trips to Sun Valley or McCall are within reach. Good health insurance and a gym membership round things out. This is a comfortable, active life with room for hobbies and a few trips each year."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 220
       },
-      "lifestyle": "You are living large by Boise standards. A beautiful home with mountain views, a capable SUV for backcountry adventures, and the freedom to enjoy everything from the city's thriving food scene to multi-day backcountry skiing trips. This budget provides a genuinely luxurious Idaho lifestyle."
+      "lifestyle": "A three-bedroom home in Harris Ranch or the North End with Foothills views, regular dinners at Chandlers and Richard's, and a late-model SUV for mountain roads. You can afford premium health insurance, a golf membership, BSU season tickets, and multiple ski passes. Weekend fly-fishing trips and regular travel are within budget. This is a genuinely affluent life by Boise standards, with plenty of flexibility for outdoor pursuits and entertainment."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Sun Valley cabin weekends, quarterly travel, outdoor gear upgrades, philanthropy",
         "monthlyCost": 1500
       },
-      "lifestyle": "Boise at this level is elite mountain-West living. A stunning foothills home, heli-skiing in the Sawtooths, private fly-fishing guides on the Middle Fork, and enough left over to be a pillar of the community. Idaho's low taxes let you keep the vast majority of your withdrawals."
+      "lifestyle": "A custom home in the Boise Foothills or a large property in Eagle, a housekeeper who comes weekly, and a nice SUV. You dine at the city's best restaurants regularly, hold concierge medical coverage, and fly business class for longer trips. Guided fly-fishing trips, private ski lessons, and a cabin rental in Sun Valley on weekends are all within budget. Idaho's flat income tax rate keeps more of each withdrawal in your pocket."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Second home in Sun Valley, first-class international travel, ranch land, angel investing",
         "monthlyCost": 5000
       },
-      "lifestyle": "At $10M you can own the Idaho dream and then some. A sprawling estate with mountain views, a second home in Sun Valley, chartered flights to avoid the drive, and deep involvement in Boise's growing philanthropic scene. You are essentially living a resort lifestyle year-round in one of America's most beautiful settings."
+      "lifestyle": "A large property in the Foothills or Eagle with mountain views, a cook who comes in several times a week, full-time domestic help, and top-tier concierge healthcare. You travel first class, keep multiple vehicles, and dine out without thinking about the cost. A second home in Sun Valley is feasible at this budget. Boise is a small enough city that this level of spending puts you among the most comfortable residents in the metro, with significant margin for charitable giving and travel."
     }
   },
   "scores": {

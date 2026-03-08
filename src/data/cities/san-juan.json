@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "This is a tight budget for San Juan, where groceries and utilities cost more than the mainland US. You can manage with a modest apartment and careful spending, but there is little room for extras. The beach is free, though, and the cultural richness of Old San Juan costs nothing to enjoy."
+      "lifestyle": "This is a tight budget for San Juan. Housing in Santurce or Condado takes a large share, groceries cost more than the mainland US due to shipping costs, and healthcare runs at US prices. You cook at home most nights, drive an older car, and keep entertainment to free activities — beaches, Old San Juan walks, and local festivals. The tradeoff is US territory benefits with no passport or visa required."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 220
       },
-      "lifestyle": "San Juan becomes genuinely enjoyable at this budget. A comfortable condo near the beach, regular restaurant meals featuring the island's fantastic cuisine, and the freedom to explore Puerto Rico's rain forests, bioluminescent bays, and surfing beaches on weekends."
+      "lifestyle": "A nice two-bedroom condo in Condado or Isla Verde with ocean views or pool access gives you a comfortable base. You dine out at the island's restaurants several times a week, carry a good ACA health plan, and drive a reliable car for weekend trips to El Yunque, Rincón's surf breaks, or the bioluminescent bays. Costs are moderate by Caribbean standards but higher than mainland Latin America — housing and healthcare take the biggest share."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 280
       },
-      "lifestyle": "At this level you experience the best San Juan has to offer. A stunning home in one of the most beautiful neighborhoods in the Caribbean, world-class dining, and easy access to the island's natural wonders. The US legal framework adds security and convenience that few Caribbean destinations can match."
+      "lifestyle": "A large condo in a Condado high-rise or a renovated townhouse in Old San Juan gives you a premium address. You dine at restaurants like Marmalade and 1919 regularly, drive a late-model SUV, and carry comprehensive private health insurance. Deep-sea fishing, a gym membership, and cultural events fill the social calendar. The US legal and banking framework provides security that most Caribbean destinations lack."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Caribbean yacht trips, first-class mainland travel, Act 60 tax optimization, philanthropy",
         "monthlyCost": 1500
       },
-      "lifestyle": "You are living Caribbean luxury with American convenience. A breathtaking oceanfront home, full domestic staff, a private chef, and the ease of US banking and legal systems. Act 60 tax incentives can make this tier even more financially rewarding for qualifying investors."
+      "lifestyle": "An oceanfront penthouse in Condado or a historic mansion in Old San Juan provides premium Caribbean housing. A housekeeper manages the home, a cook comes several days a week, and you dine at the island's best restaurants freely. Business class flights to the mainland, a nice car, and comprehensive healthcare are all standard. Act 60 tax incentives can provide meaningful tax advantages for qualifying investors at this tier."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Yacht ownership, first-class global travel, art collecting, real estate investment, philanthropic foundation",
         "monthlyCost": 5000
       },
-      "lifestyle": "At this tier San Juan rivals any luxury destination in the world, with the massive added benefit of US territory tax advantages. A beachfront estate, a yacht, full staff, and the resources to live an extraordinary Caribbean life while maintaining all the protections of American citizenship."
+      "lifestyle": "A beachfront estate in Dorado Beach or a historic compound in Old San Juan anchors daily life with full household staff — cook, housekeepers, and groundskeepers. You dine without constraints, fly first class to the mainland, and own a boat for Caribbean island trips. The US territory framework provides banking, legal, and citizenship benefits that no foreign Caribbean destination can match. Housing takes a larger share here than in Latin America, reflecting San Juan's higher real estate costs."
     }
   },
   "scores": {

@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "Victoria on a $1M portfolio is genuinely comfortable thanks to universal healthcare and the city's abundance of free natural beauty. You will spend mornings walking through Beacon Hill Park, afternoons cycling along the waterfront, and evenings cooking with fresh produce from local farm stands. Winters are Canada's mildest — more rain than snow — and the island pace keeps life stress-free."
+      "lifestyle": "Victoria is workable at this budget, helped by universal BC MSP healthcare. A one-bedroom in Esquimalt or Saanich keeps costs manageable, and the city is bikeable with good cycling infrastructure. You will cook most meals at home using local farm produce, with occasional pub meals and fish and chips on the wharf. Victoria has Canada's mildest winters — more rain than snow — though housing costs are higher than many comparable Canadian cities."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "This is Victoria's sweet spot. A lovely Fairfield apartment puts you steps from the ocean, weekend drives take you to Sooke potholes or up-island wineries, and the farm-to-table dining scene rivals cities twice its size. Universal healthcare keeps medical costs minimal, and the mild climate means year-round cycling and gardening."
+      "lifestyle": "A two-bedroom in James Bay or Fairfield, walking distance to the Inner Harbour. Regular dining at farm-to-table restaurants, a car for island exploration and BC Ferries trips to Vancouver, and private supplemental health insurance for dental and vision. The mild climate supports year-round cycling and gardening. Victoria's dining scene is strong for a city its size, and the craft brewery scene adds variety. Universal healthcare keeps baseline medical costs minimal."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "At $10K per month, Victoria reveals its finest side. A heritage home in prestigious Oak Bay, membership at the oldest golf club in the Pacific Northwest, and regular floatplane hops to Vancouver for weekend culture. The Cowichan Valley wine country becomes your backyard, and your garden rivals Butchart itself."
+      "lifestyle": "A character home in Oak Bay or a waterfront condo in the Inner Harbour with mountain views. Fine dining at Brasserie L'Ecole and Stage Wine Bar, golf club membership, and regular floatplane commutes to Vancouver. Winery tours in the Cowichan Valley and sailing in the Strait of Juan de Fuca are easy weekend activities. Comprehensive private health insurance and a good vehicle for island living round out a comfortable lifestyle with solid margin."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Cottage on Salt Spring Island, quarterly international travel, boat moorage, philanthropic memberships",
         "monthlyCost": 1600
       },
-      "lifestyle": "Victoria at this level is a Pacific Coast dream. A stunning waterfront estate with views of the Olympic Mountains, yacht club membership for weekend sailing, a cottage retreat on one of the Gulf Islands, and the freedom to floatplane to Vancouver on a whim. Universal healthcare keeps your biggest expense off the table, letting you invest in pure quality of life."
+      "lifestyle": "A waterfront home in Cordova Bay or an estate in the Uplands with ocean and mountain views, Royal Victoria Yacht Club membership, a housekeeper, and a cottage on Salt Spring Island or another Gulf Island. Regular floatplane trips to Vancouver and business class for longer flights. Universal healthcare keeps medical costs minimal. Victoria is a small city, so the dining and cultural scene is limited compared to Vancouver, but the coastal setting and mild climate are the main draws."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Multiple Gulf Island properties, private yacht, art patronage, charitable foundation, bespoke travel experiences",
         "monthlyCost": 5500
       },
-      "lifestyle": "At $10M, you become one of Victoria's most prominent residents. A grand Uplands estate with manicured English gardens, a private yacht exploring the Gulf Islands, and deep philanthropic ties to the Royal BC Museum and University of Victoria. Your chef sources directly from island farms and Pacific waters, and your garden party invitations are the most coveted on the island."
+      "lifestyle": "A grand estate in the Uplands or a waterfront compound in North Saanich with private dock and English gardens, a cook who comes in several times a week, regular housekeeping, and first-class international travel. A boat for Gulf Island exploration and comprehensive healthcare on top of universal coverage. Victoria is a small city of about 400,000 people in the metro area, so the luxury services and fine dining options are limited. At this budget, most of the spending goes to travel, property, and the quiet comfort of island living."
     }
   },
   "scores": {

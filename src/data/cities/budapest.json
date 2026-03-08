@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 100
       },
-      "lifestyle": "Budapest on a million dollars feels like a small fortune. You'll soak in opulent thermal baths every morning, lunch on hearty goulash for under five euros, and spend evenings in fairy-lit ruin bars. With the Danube at your doorstep and a grand European capital as your playground, this is FIRE living at its most efficient."
+      "lifestyle": "Budapest is one of Europe's most affordable capitals for this budget. A one-bedroom in the Jewish Quarter or District IX is cheap by European standards, leaving room for daily thermal bath visits, meals at local étkezdes, and a full social life in the ruin bar scene. Public transit is excellent and inexpensive. Winters are cold, and Hungarian is a difficult language, but English is workable in central Budapest."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 130
       },
-      "lifestyle": "Budapest's golden sweet spot. Your Andrassy Avenue apartment is a stone's throw from the Opera, thermal baths are your daily wellness ritual, and the city's Michelin-starred restaurants are genuinely affordable. Weekend drives to Lake Balaton or Eger wine country remind you why Central Europe is FIRE's best-kept secret."
+      "lifestyle": "A roomy apartment on Andrássy Avenue or in the Castle District, regular dining at well-regarded restaurants like Borkonyha and Stand25, and weekend trips to Lake Balaton or Eger wine country. You can hold opera season tickets, visit the thermal baths daily, and carry good private health insurance with meaningful budget left over. Budapest offers a genuinely high quality of life at this spending level."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "At this budget in Budapest, you live like Central European aristocracy. Your Art Nouveau apartment has Danube views that rival any in Europe, your cultural calendar overflows with opera and orchestral performances, and your thermal bath routine would make a Habsburg jealous. Ten thousand a month here buys what thirty thousand does in Paris."
+      "lifestyle": "A large apartment in a restored Art Nouveau building on the Buda hills or a Danube-front flat in District V with Parliament views. Regular dining at restaurants like Costes, a leased car for weekend getaways, and international health coverage. Opera and orchestra performances are part of the weekly routine. This budget goes very far in Budapest, leaving substantial room for European travel."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Private Hungarian tutor, personal trainer, thermal spa VIP membership, bespoke Central European travel planning, premium co-working at Kubik",
         "monthlyCost": 1200
       },
-      "lifestyle": "Your Buda hills villa overlooks a city that feels like an open-air museum. A private chef turns paprika and foie gras into art, your Danube yacht hosts sunset champagne cruises past the illuminated Parliament, and your social circle spans Budapest's cultural elite. The Habsburg lifestyle, democratized by FIRE math."
+      "lifestyle": "A villa in the Buda hills with garden and city views, a housekeeper, a nice car, and regular dining at Budapest's best restaurants. Business class flights to European capitals, premium healthcare, and a cook who comes in a few times a week are all comfortably within reach. Budapest does not have the infrastructure to absorb this much spending, so expect a large margin."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Art acquisition fund, historic property restoration, charitable foundation supporting Hungarian arts, Tokaj vineyard ownership, bespoke Central European experiences",
         "monthlyCost": 4500
       },
-      "lifestyle": "You've restored a Buda castle to its former glory and filled it with Hungarian art and international guests. Your ballroom hosts charity galas for the Budapest Opera, your Tokaj vineyard produces private-label Aszu, and your foundation supports the next generation of Hungarian artists. This is the grandeur of the Austro-Hungarian Empire, reborn through modern wealth."
+      "lifestyle": "A grand home in the Buda hills, regular housekeeping, a cook a few times a week, first-class European travel, and fine dining without ever checking the bill. You can carry full international private healthcare and drive a premium car. Realistically, Budapest's cost of living makes it very difficult to spend this much monthly. The margin will be significant, and the city's main limitation is a smaller pool of top-end housing and services compared to Western European capitals."
     }
   },
   "scores": {

@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 80
       },
-      "lifestyle": "You wake up in a clean, modern condo near Nimman Road, grab a 40-baht pad thai from a street vendor, and spend the afternoon exploring Doi Suthep or browsing the Sunday Walking Street market. Life is simple, social, and deeply affordable — you can live well on a $1M portfolio and still save for splurges."
+      "lifestyle": "A clean, modern 1-bedroom in the Nimman area with pool access. Mostly cooking at home with cheap street food a few times a week. Getting around by songthaew and motorbike. Basic private hospital coverage. Comfortable and affordable, though options for Western groceries and nightlife are limited."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 120
       },
-      "lifestyle": "With $2M, Chiang Mai becomes genuinely comfortable. You enjoy brunch at trendy Nimman cafés, take weekend trips to Pai's hot springs, and can afford a well-furnished two-bedroom place with room for a home office. You eat out whenever you want without checking the bill, and healthcare is excellent."
+      "lifestyle": "A well-furnished 2-bedroom condo or townhouse with room for a home office. Dining out several times a week at local and Western restaurants without watching the bill. Own scooter plus Grab for convenience. Good private health insurance and dental. Weekend trips to Pai or Chiang Rai are easy and cheap. Day-to-day life is comfortable and unstressed."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "At $3M you live like Chiang Mai royalty. You're in a private pool villa surrounded by rice paddies, dining at the best restaurants in the city without a second thought, and flying to Bangkok or the islands on a whim. Your social calendar is packed with yoga retreats, golf outings, and dinner parties with a close-knit expat community."
+      "lifestyle": "A private pool villa on the outskirts or a premium high-rise condo with city views. Dining at the best restaurants in Chiang Mai regularly, including good sushi, Italian, and Thai tasting menus. A leased car or SUV for weekend drives through northern Thailand. Premium international health insurance. At this budget in Chiang Mai, very little is out of reach."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Monthly spa packages, bespoke tailoring, premium wine subscriptions, charitable donations to local temples",
         "monthlyCost": 1500
       },
-      "lifestyle": "With $5M in Chiang Mai, you live an extraordinary life that would cost five times as much in the US. Your private villa has a full-time staff, your personal chef prepares both Thai and international cuisine, and you hop between Chiang Mai and Bangkok as casually as commuting. You're a pillar of the local expat community and can afford to give back generously."
+      "lifestyle": "A large villa with pool and gardens in a desirable area. A housekeeper several times a week and a cook for most meals. A nice car with domestic flights to Bangkok or the islands whenever you want. Premium international health insurance with annual executive checkups. This budget goes very far in Chiang Mai — daily life is genuinely affluent with significant room to spare."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Bespoke wellness programs, art commissions, luxury shopping trips to Bangkok, charitable foundations, investment in local businesses",
         "monthlyCost": 5000
       },
-      "lifestyle": "At $10M in Chiang Mai, you are living an ultra-luxurious life that rivals billionaire retreats anywhere in the world — but with the warmth and charm of northern Thailand. You maintain a compound with full staff, travel first-class across Asia on a whim, and have become a philanthropic force in the local community. There is literally nothing you cannot afford here."
+      "lifestyle": "A large, well-appointed property with mountain views and possibly a second condo in Bangkok. A housekeeper, a cook a few times a week, a gardener, and a driver. First-class flights within Asia and business class for longer trips. Concierge-level health coverage. This is far more budget than Chiang Mai can absorb — daily life is very comfortable with no meaningful financial constraints, though the city itself remains a small, quiet place with limited high-end infrastructure."
     }
   },
   "scores": {

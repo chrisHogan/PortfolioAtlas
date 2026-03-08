@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "A genuine big-city life at Midwest prices. You'll ride the L to world-class museums on free days, jog the lakefront trail with the skyline as your backdrop, and eat your way through neighborhoods that each feel like their own city. Winter is real, but so is the pride of surviving it — and the summers make it all worthwhile."
+      "lifestyle": "Chicago's lower cost of living compared to coastal cities means $3,333 a month goes further here. You can get your own one-bedroom in Rogers Park or Pilsen, ride the L to free museum days, and eat well at neighborhood taquerias and dim sum spots. The lakefront trail is free year-round. Winter heating bills are a real budget item, and the cold from December through March is no joke, but summer in Chicago is genuinely rewarding."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 210
       },
-      "lifestyle": "A rich, full life in one of America's most underrated cities. Your Wicker Park apartment puts you steps from some of the best restaurants in the country, summer means rooftop bars and beach volleyball on North Avenue, and a Cubs game at Wrigley is a Tuesday-night casual plan. Chicago's cultural density rivals New York at a fraction of the cost."
+      "lifestyle": "A comfortable apartment in Wicker Park, Logan Square, or Lakeview with walkable access to restaurants and nightlife. You eat out regularly at neighborhood spots, catch Cubs games at Wrigley, and take advantage of Chicago's deep cultural offerings including improv at Second City and live blues. Summer is the payoff -- beach volleyball at North Avenue, rooftop bars, and lakefront festivals. Illinois's 4.95% flat income tax is moderate compared to coastal states."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "An elevated Chicago experience where you're dining at Alinea on a weeknight, sailing Lake Michigan on summer Saturdays, and catching world premieres at Steppenwolf. Your Lincoln Park brownstone or Gold Coast vintage condo puts you at the center of a city that combines Midwest warmth with cosmopolitan sophistication."
+      "lifestyle": "A large apartment in Lincoln Park or a vintage condo in the Gold Coast. You dine at top-tier restaurants like Alinea and Smyth regularly, hold season tickets to the Chicago Symphony, and sail on Lake Michigan in summer. At $10,000 a month, Chicago is genuinely affluent -- the city's lower cost of living compared to New York or SF means this budget buys a lifestyle that would cost significantly more on either coast."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Personal trainer at East Bank Club, private art advisor, premium club membership, annual summer house rental in Lake Geneva",
         "monthlyCost": 1700
       },
-      "lifestyle": "Chicago's elite lifestyle at a price that would barely cover a starter apartment in Manhattan. Your Gold Coast penthouse overlooks the lake, your private box at the United Center entertains friends at Bulls and Blackhawks games, and your summer weekends rotate between your Lake Geneva house and sailing excursions. This is the Midwest's best-kept luxury secret."
+      "lifestyle": "A luxury penthouse in the Gold Coast with lake views, or a renovated Lincoln Park greystone with a private garden. You have a housekeeper, dine at the city's best restaurants without hesitation, and drive a luxury car for weekend trips to Lake Geneva or Michigan wine country. Business class flights for longer travel fit easily within the budget. At $16,667 a month, Chicago delivers an upper-affluent lifestyle that would cost far more in New York or San Francisco."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Interior designer on retainer, bespoke tailoring, charitable foundation management, private art curator, Lake Geneva estate maintenance",
         "monthlyCost": 4233
       },
-      "lifestyle": "At this level, you are Chicago royalty. Your Lake Shore Drive mansion hosts the charity galas that define the social season, your name is etched on the Art Institute's donor walls, and your influence shapes the city's cultural future. Summers mean your Lake Geneva compound and yacht; winters mean jetting to warmer climates while your staff keeps the estate running. Chicago's civic elite counts you among its own."
+      "lifestyle": "A large home on Lake Shore Drive or a historic Gold Coast mansion. You have a full-time housekeeper, a cook who comes in regularly, and a personal assistant. You dine anywhere you want, travel business or first class, and support the Art Institute and Lyric Opera as a major donor. A second home in Lake Geneva or on the Michigan lakefront is feasible. Chicago's relative affordability means this budget goes very far -- you live like established wealth in a world-class city."
     }
   },
   "scores": {

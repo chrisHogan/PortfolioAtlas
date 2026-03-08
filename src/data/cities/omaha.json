@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "Omaha is one of the most affordable major cities in America, and $1M goes surprisingly far. You can rent a solid apartment in a hip neighborhood like Benson or Dundee, eat at legendary steakhouses on occasion, and enjoy the Old Market's galleries and live music on a shoestring. Winters are cold and will test your resolve, but the low housing costs and vibrant community culture more than compensate. This budget leaves a small but meaningful cushion."
+      "lifestyle": "A one-bedroom in Benson, Dundee, or Aksarben Village, cooking at home most nights with occasional steakhouse happy hours and Old Market casual dining. A paid-off car is necessary in Omaha. Free First Friday art walks, the Joslyn Art Museum, and public trails provide low-cost entertainment. Healthcare on an ACA Silver plan takes a meaningful share of the budget. Winters are cold and long, but housing costs are low enough that this budget provides a modest cushion for the unexpected."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 170
       },
-      "lifestyle": "At $2M, Omaha becomes deeply comfortable and genuinely fun. You can settle into the charming Dundee neighborhood (where Buffett himself lives in a modest home), enjoy the city's nationally acclaimed steakhouses regularly, catch Creighton basketball, and take full advantage of the Old Market arts scene. The Henry Doorly Zoo alone is worth the move. Generous surplus means travel and hobbies are well within reach."
+      "lifestyle": "A home in Dundee or a renovated Old Market condo, dining out several times a week at the city's steakhouses and the growing Benson restaurant scene, and a reliable mid-range car. You can afford a Henry Doorly Zoo membership, Creighton basketball tickets, a gym, and a good health plan with access to Nebraska Medicine. A few trips per year and regular hobbies are well within reach. Omaha's low costs mean this budget stretches further than in most US metros."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 220
       },
-      "lifestyle": "At $10K per month, Omaha delivers an extraordinarily rich life at a price that would barely cover basics in a coastal city. A beautiful home in one of the city's best neighborhoods, regular reservations at James Beard-nominated restaurants, premium seats for the College World Series, and enough surplus to fund travel and hobbies generously. Omaha's value proposition at this tier is nearly unmatched in America."
+      "lifestyle": "A spacious home in Regency or Rockbrook, regular dinners at restaurants like The Grey Plume and Dario's Brasserie, and a late-model SUV. You can afford premium health insurance through Nebraska Medicine, a private golf club membership, College World Series tickets, Orpheum Theater season passes, and regular travel. Omaha's low cost of living means $10K a month provides a genuinely affluent life here with significant monthly margin -- something the same budget would not achieve in most coastal cities."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Quarterly travel, wine cellar curation, Berkshire shareholder events, philanthropic giving, art collecting",
         "monthlyCost": 1300
       },
-      "lifestyle": "You are living like Omaha's elite. A grand home in the prestigious Happy Hollow area, membership at the city's top country club, a private chef who has mastered prime Nebraska beef, and a front-row seat at the Berkshire Hathaway annual meeting. Your generous surplus funds travel, philanthropy, and investments -- very much in the Buffett spirit of this remarkable city."
+      "lifestyle": "A large home in the Happy Hollow or Fairacres area, a housekeeper who comes weekly, concierge medicine through Nebraska Medicine, and a nice car. You dine at the city's best restaurants regularly, hold a top country club membership, and fly business class for longer trips. The Berkshire Hathaway annual meeting is a local event. This budget goes very far in Omaha -- you live comfortably with substantial margin for travel, charitable giving, and continued saving."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "First-class international travel, major philanthropic endowments, ranch property in the Sandhills, art patronage",
         "monthlyCost": 4800
       },
-      "lifestyle": "At $10M, you join Omaha's philanthropic elite -- the city that produced Warren Buffett, whose own modest lifestyle philosophy permeates the culture. A magnificent estate, a personal chef, chartered flights, and deep involvement in the institutions that make Omaha special: the Henry Doorly Zoo, the Joslyn Art Museum, and the university. The enormous surplus at this spending level in Omaha means your wealth continues to compound even as you live lavishly."
+      "lifestyle": "A large estate in Fairacres or along the Missouri River bluffs, a cook who comes in several times a week, full-time domestic help, and top-tier concierge healthcare at UNMC with Mayo Clinic specialist access. You travel first class, keep multiple cars, and dine out without thinking about the bill. In a city as affordable as Omaha, this budget creates enormous margin beyond even generous spending -- enough for significant charitable giving to institutions like the Henry Doorly Zoo and Joslyn Art Museum, a second property, and ongoing investment."
     }
   },
   "scores": {

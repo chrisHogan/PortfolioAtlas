@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "Miami on a $1M budget is a stretch. You will live well outside the glamorous core, likely in a modest apartment in Hialeah or Kendall, and lean heavily on Miami's best free asset: the beach. Cuban coffee windows and neighborhood food trucks keep dining affordable, and the year-round warmth means low heating bills, though summer A/C costs add up fast."
+      "lifestyle": "A modest apartment in Hialeah or Kendall, well outside the beach and Brickell areas. You need a car, and housing costs eat up nearly half the budget. Cuban ventanitas and food trucks keep dining cheap, and the beach is free. Florida's zero state income tax is a real advantage at this budget level -- every dollar of your $3,333 monthly withdrawal stays with you. Summer A/C bills are a significant expense, but you never pay for heat."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "At $2M, Miami opens up considerably. You can live in a desirable neighborhood like Coral Gables or Coconut Grove, dine regularly in Brickell's booming restaurant scene, and catch a Heat game without guilt. Weekend trips to the Keys become part of your rhythm, and the city's Latin-infused nightlife and cultural calendar are fully accessible."
+      "lifestyle": "You can afford a comfortable apartment in Coral Gables, Coconut Grove, or Edgewater. You eat out several times a week in Wynwood and Brickell, keep a reliable car, and have room in the budget for Heat games and weekend drives to the Keys. No state income tax means the full $6,667 monthly budget is available to spend. The city's Latin-influenced dining and nightlife scene is accessible without stretching."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 280
       },
-      "lifestyle": "Life at $10K per month in Miami is genuinely excellent. A beautiful home in Coconut Grove or a sleek Brickell condo, regular dinners at the city's best restaurants, and enough breathing room to enjoy Art Basel, boat days on the bay, and weekend road trips to the Keys. Miami's zero state income tax makes every dollar go further."
+      "lifestyle": "A nice house in Coconut Grove or a waterfront condo in Brickell. You dine at good restaurants regularly, drive a late-model car, and have budget for boat rental days on Biscayne Bay and weekend trips to the Keys. At $10,000 a month with no state income tax, Miami is genuinely comfortable. Art Basel events, Heat season tickets, and a premium gym membership all fit within the budget."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Quarterly Caribbean travel, boat ownership costs, spa retreats, art collecting",
         "monthlyCost": 1500
       },
-      "lifestyle": "At $5M you are living Miami at its best. A stunning waterfront property with bay views, your own boat docked at a Biscayne Bay marina, courtside seats at Heat games, and VIP access during Art Basel. The Caribbean is a short flight away for weekend getaways, and Florida's zero income tax means your full monthly withdrawal stays in your pocket."
+      "lifestyle": "A luxury waterfront condo on Brickell Key or a house on Key Biscayne. You have a housekeeper, a nice car, and a boat slip at a Biscayne Bay marina. Dining at top restaurants is routine, and business class flights to the Caribbean or Latin America are easy weekend additions. Florida's zero income tax is a major advantage at this budget -- the full $16,667 monthly withdrawal goes toward lifestyle rather than state taxes."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Yacht ownership, first-class international travel, real estate investing, philanthropic giving, art collecting",
         "monthlyCost": 5000
       },
-      "lifestyle": "At $10M, Miami is your personal tropical empire. A legendary address on Star Island or Fisher Island, a private yacht for cruising to the Bahamas, a personal chef, and deep involvement in the city's thriving arts and philanthropic scene. With world-class healthcare, zero state income tax, and endless sunshine, this is elite coastal living at its finest."
+      "lifestyle": "A large residence on Fisher Island or a penthouse in a luxury Brickell tower. You have a full-time housekeeper, a cook who comes in several times a week, and a personal assistant. You dine wherever you want, travel first class, and own a boat for day trips on Biscayne Bay. Florida's zero state income tax means the full $33,333 monthly budget is available for spending. The lifestyle is wealthy and comfortable, with year-round warm weather and easy access to the Caribbean."
     }
   },
   "scores": {

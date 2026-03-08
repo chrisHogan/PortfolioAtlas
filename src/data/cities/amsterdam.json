@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 170
       },
-      "lifestyle": "Amsterdam on $1M is tight but surprisingly livable thanks to the Dutch cycling culture eliminating transport costs and mandatory insurance keeping healthcare affordable. You will cycle past 17th-century canal houses daily, enjoy affordable Indonesian food (Amsterdam's hidden gem), and discover that the best things in Amsterdam — Vondelpark, canal walks, free ferry rides — cost nothing."
+      "lifestyle": "A compact 1-bedroom in Amsterdam Noord or Nieuw-West, outside the canal ring but connected by ferry and metro. Cooking most meals at home, with Indonesian rijsttafel and bruin cafe meals as affordable dining options. Getting around by bicycle, which is standard here. Mandatory Dutch health insurance covers the basics well. Amsterdam is expensive for housing, so the apartment will be modest, but cycling culture and free attractions like Vondelpark and canal walks keep daily costs manageable."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "This is Amsterdam at its best. A canal-side apartment in the Jordaan or a sunny flat in De Pijp, cycling to the Concertgebouw for world-class classical music, and weekend train trips to charming Dutch towns. The Museumkaart gives you unlimited access to every museum in the Netherlands. This is the Dutch good life — elegant, efficient, and deeply civilized."
+      "lifestyle": "An attractive 2-bedroom in De Pijp, Jordaan, or Oud-West. Dining out at good restaurants and wine bars several times a week. Supplemental health insurance covering dental and physiotherapy. Concertgebouw performances, Rijksmuseum and Stedelijk memberships, and weekend train trips to Haarlem or Utrecht. Amsterdam's housing costs are high, so this budget delivers comfort without extravagance -- you live in a nice neighborhood and eat well, with room for cultural enjoyment and day trips."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 280
       },
-      "lifestyle": "Living in a canal house apartment is the quintessential Amsterdam dream, and at this budget it is yours. Season tickets to the Concertgebouw put you in one of the world's finest concert halls weekly, Michelin dining becomes routine, and weekend sailing on Dutch lakes rounds out a life of refined simplicity. The Dutch have perfected understated luxury — and you are living it."
+      "lifestyle": "A spacious canal house apartment in the Grachtengordel or a premium loft in the Eastern Docklands. Regular dining at top restaurants, a premium e-bike, and first-class train travel. Premium health insurance with private clinic access and Concertgebouw season tickets. Weekend sailing on Dutch lakes and North Sea coast trips by car. Amsterdam's costs mean this is affluent but not unlimited -- housing especially absorbs a large share, but daily life is genuinely comfortable."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Private Dutch language tutor, art acquisition budget, weekend house in Bloemendaal, personal trainer, bespoke cycling gear",
         "monthlyCost": 1600
       },
-      "lifestyle": "A full-floor Herengracht canal house is among Europe's most prestigious addresses, and your life matches. Dinner parties in your vaulted cellar, a private canal boat for summer evenings, and patron-level access to the Rijksmuseum. Weekends alternate between your Bloemendaal beach house and first-class train journeys to Paris. This is Dutch golden-age living, reimagined."
+      "lifestyle": "A full-floor canal house on Herengracht or Keizersgracht, or a luxury penthouse in Zuidas. Regular dining at the city's best restaurants, a housekeeper several times a week, and business class for longer flights. A leased premium car, a private canal boat for summer, and first-class Thalys to Paris and Brussels. Premium international healthcare. Amsterdam's high costs mean even this budget has limits, but daily life is upper-affluent with genuine comfort."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Multiple properties including beach house, international art collection, philanthropic foundation, vintage boat restoration, bespoke travel",
         "monthlyCost": 5200
       },
-      "lifestyle": "At $10M you own a piece of Amsterdam's soul — a grand canal house on the Golden Bend, one of the most exclusive addresses in Europe. Your restored 17th-century mansion hosts charity galas and art exhibitions, your private barge glides through canals you practically own the views of, and your philanthropy shapes the cultural institutions that define this city. This is Amsterdam at its most magnificent."
+      "lifestyle": "An entire historic canal house on the Golden Bend of the Herengracht, fully restored with private garden and boat mooring. A cook a few times a week, a full-time housekeeper, and full private healthcare. Business class as default, first class for longer trips. Regular fine dining and a nice car with driver when needed. Amsterdam is expensive for housing, which absorbs a large chunk, but beyond that this budget covers a fully premium life with patron-level museum memberships and regular European travel."
     }
   },
   "scores": {

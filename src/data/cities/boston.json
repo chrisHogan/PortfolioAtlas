@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 160
       },
-      "lifestyle": "Boston on a $1M portfolio is very tight. You will need to live in an outer neighborhood and rely heavily on the T for transportation. The upside is excellent public transit, free cultural attractions, and some of the best healthcare access in the country. Winters will test your budget with heating costs, but summers along the Charles River are priceless."
+      "lifestyle": "A tight budget in an expensive city. You will need a studio or small apartment in Dorchester or Quincy and rely on the T for transportation. Heating costs in winter are a real line item. The upside is that Boston is compact and walkable, the MBTA eliminates the need for a car, and Massachusetts has a strong ACA marketplace. Free walks along the Freedom Trail, the Public Garden, and the Charles River help keep entertainment costs low."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "At this level Boston becomes genuinely enjoyable. You can live in a charming neighborhood like Jamaica Plain or Cambridge, enjoy the legendary Italian restaurants in the North End, and attend Red Sox games. The city's walkability and transit system mean you can skip car ownership entirely."
+      "lifestyle": "You can afford a one- or two-bedroom apartment in Jamaica Plain, Somerville, or Cambridge. You eat out several times a week in the North End and South End, catch Red Sox games, and hold a museum membership or two. Boston's walkability and transit mean you still do not need a car. Weekend trips to the North Shore or Cape Cod are feasible. Access to world-class hospitals is a significant practical benefit for retirees."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 280
       },
-      "lifestyle": "Boston at this budget is a dream for history and culture lovers. A Beacon Hill brownstone or Back Bay condo puts you in the heart of one of America's most walkable cities. You can enjoy world-class dining, Red Sox games from proper seats, and weekend drives to Cape Cod or the Berkshires."
+      "lifestyle": "A two-bedroom condo in Back Bay or a Beacon Hill brownstone apartment, in the heart of one of America's most walkable cities. You dine regularly at restaurants like Oleana and Neptune Oyster, hold Red Sox season tickets, and take weekend drives to Cape Cod or the Berkshires. At $10,000 a month, Boston feels genuinely comfortable. The proximity to Mass General and Brigham & Women's is a practical draw for anyone prioritizing healthcare access in retirement."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Cape Cod summer rental, ski weekends in Vermont, art collecting, philanthropy",
         "monthlyCost": 1500
       },
-      "lifestyle": "You are living Boston's finest at this level. A stunning Beacon Hill brownstone, dinners at the city's most exclusive restaurants, and weekends on Nantucket or Martha's Vineyard. Access to the best hospitals in the world provides unmatched peace of mind for your retirement years."
+      "lifestyle": "A luxury brownstone in Beacon Hill or a premium Seaport penthouse. You have a housekeeper, dine at the city's best restaurants several times a week, and drive a nice car for weekends on Cape Cod or in the Berkshires. Business class flights for longer trips fit within the budget. Summer rentals on Nantucket or Martha's Vineyard are feasible. Concierge medicine at Mass General or Dana-Farber provides exceptional healthcare access for retirement."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Cape Cod summer home, first-class international travel, art patronage, endowment giving",
         "monthlyCost": 5000
       },
-      "lifestyle": "At this level Boston becomes a gilded New England experience. A historic mansion, private box at Fenway Park, and the ability to support Harvard and the MFA as a major patron. Summers on the Cape and winters in the Caribbean, all anchored by the finest healthcare system in the world."
+      "lifestyle": "A historic Beacon Hill mansion or a waterfront estate in Marblehead. You have a full-time housekeeper, a personal assistant, and a cook who comes in several times a week. You dine wherever you want, travel first class, and hold a private box at Fenway Park. Summers include a Cape Cod or Nantucket house. You support the MFA and BSO as a major donor. Boston's concentration of world-class hospitals means healthcare access is arguably the best in the country."
     }
   },
   "scores": {

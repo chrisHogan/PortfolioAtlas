@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 120
       },
-      "lifestyle": "Seoul is remarkably livable on a lean budget thanks to cheap transit, affordable street food, and Korea's excellent national health insurance. You will eat incredibly well for very little, enjoy world-class public spaces, and have fast internet everywhere. The main squeeze will be apartment size — expect small but functional quarters."
+      "lifestyle": "A studio or small 1-bedroom officetel in Mapo-gu, Seodaemun, or outer Gangnam. Eating mostly at street food stalls and kimbap shops, with Korean BBQ once or twice a week at local spots. Getting around on Seoul's excellent metro and bus system. Korea's National Health Insurance provides strong coverage at very low cost. The apartment will be small, but the transit, food, and internet are genuinely world-class. English is moderate — expect some friction with daily errands."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "At this tier Seoul opens up beautifully. You can live in a vibrant neighborhood, eat out most nights at excellent restaurants, and take full advantage of the city's incredible cultural offerings. Weekend trips to Busan or Jeju by KTX or budget flight are easy additions. Seoul's combination of safety, convenience, and food culture is hard to beat at this price."
+      "lifestyle": "A modern 2-bedroom apartment in Hongdae, Itaewon, or Yeongdeungpo. Dining out at Korean restaurants, Japanese izakayas, and trendy cafes most nights without stress. Transit pass plus occasional taxis and KTX bullet train trips to Busan or Jeju for weekends. National Health Insurance plus supplemental private coverage for dental and vision. Life is comfortable and you have full access to Seoul's deep cultural offerings — the city's combination of safety, food, and convenience is strong at this level."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "Seoul is spectacular at this level. You can live in the prestigious Gangnam area, dine at world-class restaurants that rival Tokyo at half the price, and enjoy Korea's incredible mix of ancient temples and cutting-edge technology. The healthcare alone — world-class at a fraction of US costs — makes this budget feel like it stretches much further than it would elsewhere."
+      "lifestyle": "A large apartment in Gangnam, Seocho, or a luxury officetel in Yongsan. Regular dining at Michelin-starred restaurants, premium Korean BBQ, and omakase sushi. An owned or leased car for daily use with regular KTX travel. Premium private health insurance with VIP access at Samsung Medical Center or Asan. Golf, skiing in Pyeongchang, and luxury spa retreats as regular activities. This is a genuinely affluent lifestyle in Seoul, where high-end dining rivals Tokyo at lower prices."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "First-class regional travel, designer shopping, luxury spa memberships, art collecting",
         "monthlyCost": 2000
       },
-      "lifestyle": "You are living among Seoul's elite in one of Asia's most exclusive neighborhoods. Hannam-dong and Cheongdam offer a lifestyle that blends Korean elegance with global luxury. Private dining, exclusive cultural events, and impeccable service define daily life, all backed by the world's fastest internet and safest streets."
+      "lifestyle": "A luxury apartment in Hannam-dong or Cheongdam-dong, or a premium tower in Songpa. A full-time housekeeper, a luxury car (Genesis or Mercedes) with an occasional private driver, and regular dining at Korea's top restaurants. Business class flights for regional travel and concierge medical service with top specialists. This budget covers a very comfortable, high-quality life in one of Seoul's best neighborhoods, with the city's fast internet, safe streets, and deep cultural scene as daily backdrop."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Private jet to Jeju, luxury resort memberships, fine art acquisitions, philanthropic endeavors",
         "monthlyCost": 6000
       },
-      "lifestyle": "At this level Seoul delivers a rarefied existence that combines Korean sophistication with global luxury. A penthouse overlooking the Han River, a dedicated staff, and access to Asia's most exclusive experiences. Seoul's position as a cultural and economic powerhouse means your network and lifestyle rival anything available in Tokyo or Singapore."
+      "lifestyle": "A penthouse in Hannam The Hill or a luxury villa in UN Village overlooking the Han River. A housekeeper, a cook a few times a week, a personal assistant, and a dedicated driver. First-class international flights. VIP concierge medicine at JCI-accredited hospitals with global coverage. Regular fine dining and travel as routine. Seoul is a major, expensive city, so this budget delivers a very high quality of life rather than a feeling of limitless wealth — but the city's safety, technology, and cultural depth make it a strong base."
     }
   },
   "scores": {

@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 160
       },
-      "lifestyle": "Madison on $1M is tight but livable, thanks to the city's excellent public transit and bike infrastructure that can eliminate car costs entirely. The Dane County Farmers Market -- the largest producer-only market in the nation -- offers affordable fresh food every Saturday on the Capitol Square. Free museums, lakeside paths, and a deep community calendar mean entertainment barely costs a thing. Winter heating bills will test your budget, but the cozy culture of a Midwestern university town makes cold months surprisingly rich."
+      "lifestyle": "A one-bedroom on the east side or in Fitchburg, cooking most meals at home with Saturday trips to the Dane County Farmers Market on the Capitol Square, and biking or busing instead of owning a car. The Chazen Museum and lakeside paths are free. Healthcare on an ACA Silver plan with UW Health access is a significant expense, and winter heating bills add up. This is a tight budget, but Madison's bike infrastructure and strong public amenities make it workable without a car."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 190
       },
-      "lifestyle": "At $2M, Madison's unique charm fully unfolds. You can live near the Capitol or the lakeshore, dine regularly at the city's excellent farm-to-table restaurants, and embrace the seasonal rhythm: sailing and farmers markets in summer, Badger football in fall, cross-country skiing in winter, and craft beer festivals in spring. UW Health gives you access to some of the best healthcare in the Midwest."
+      "lifestyle": "A condo near the Capitol or a home in Middleton, dining out several times a week at the city's farm-to-table restaurants, and a car for winter months combined with biking in summer. You can afford Badgers football tickets, Overture Center performances, a gym membership, and a good health plan through UW Health. The seasonal rhythm keeps things varied -- sailing on Lake Mendota in summer, cross-country skiing in winter. Wisconsin's state income tax is a factor, but the quality of life is strong."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 260
       },
-      "lifestyle": "Life at $10K per month in Madison is genuinely exceptional. A lakefront home where you can step out your back door onto Lake Mendota, season tickets for Badgers games at Camp Randall, reservations at L'Etoile -- the restaurant that pioneered farm-to-table dining in Wisconsin -- and enough margin for ski trips to the north woods. The combination of natural beauty, intellectual culture, and Midwestern warmth is unmatched."
+      "lifestyle": "A lakefront home on Lake Mendota or a house in Shorewood Hills, regular dinners at L'Etoile and Sardine, and Badgers season tickets for football and basketball. You can afford a late-model car, a seasonal boat slip on the lake, premium health insurance through UW Health, and a sailing club membership. Weekend trips to the north woods for skiing or to Door County in summer fit comfortably in the budget. This is a genuinely affluent life in a city with strong intellectual and outdoor culture."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Door County vacation home rental, quarterly travel, university arts patronage, wine cellar curation",
         "monthlyCost": 1300
       },
-      "lifestyle": "You are living Madison's absolute best life. A grand lakefront home with sweeping views of the Capitol dome across the water, your own sailboat docked out back, premium seats for every Badgers game, and a private chef who sources from the farms you visit at the Saturday market. Weekend retreats to Door County and ski lodges in the north woods round out a life of seasonal richness."
+      "lifestyle": "A large lakefront home in Maple Bluff or Bishops Bay with views across the water, a housekeeper who comes weekly, concierge medicine through UW Health, and a nice car. You keep a boat on Lake Mendota, dine at the city's best restaurants regularly, hold premium Badgers seats, and fly business class for longer trips. Weekend getaways to Door County and north woods ski lodges are within budget. Madison is a mid-size market, so this level of spending goes far -- you live very comfortably with room for regular travel and giving."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Door County vacation property, first-class international travel, university endowment gifts, yacht club leadership",
         "monthlyCost": 5000
       },
-      "lifestyle": "At $10M, Madison transforms into your private lakeside estate. A magnificent home in Maple Bluff where governors have been your neighbors, a yacht on Lake Mendota, a personal chef, and deep philanthropic ties to the university and the arts community. Weekend retreats to your Door County cottage and international travel fill the calendar. Madison's intellectual culture and natural beauty provide a richness that money alone cannot buy."
+      "lifestyle": "A large estate in Maple Bluff with private lake frontage, a cook who comes in several times a week, full-time domestic help, and top-tier concierge medicine at UW Health with Mayo Clinic access for specialists. You travel first class, keep a boat on Lake Mendota, and dine at the city's best restaurants without checking the bill. A Door County vacation property is within reach at this budget. In a city Madison's size, this spending level means daily costs are never a thought, with significant margin for university philanthropy, arts support, and ongoing savings."
     }
   },
   "scores": {

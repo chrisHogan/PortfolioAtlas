@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "Honolulu on a $1M portfolio requires discipline. Groceries and housing are among the most expensive in the US since nearly everything is imported. You will live modestly in a small studio or shared arrangement, cook most meals at home, and rely on public transit — but the trade-off is daily access to some of the world's most beautiful beaches and hiking trails, all free."
+      "lifestyle": "This is a tight budget for Honolulu. Groceries and housing are among the most expensive in the US because nearly everything is shipped in. You live in a small studio in Kalihi or Salt Lake, cook most meals at home with rice and fish, and rely on TheBus for transit. The trade-off is real: beaches like Ala Moana and hikes like Diamond Head are free and minutes away."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 220
       },
-      "lifestyle": "At this budget Honolulu becomes genuinely comfortable. You can live in a condo with views, eat your way through the diverse food scene, and afford a car to explore the North Shore and windward side. Weekend snorkeling at Hanauma Bay and sunset surfing at Waikiki become your regular routine."
+      "lifestyle": "You can rent a one-bedroom condo in Waikiki or Ala Moana and eat out several times a week at local poke, ramen, and plate lunch spots. A car lets you explore the North Shore and windward coast on weekends. Snorkeling, surfing, and hiking are regular activities. The high cost of imported goods still limits spending power compared to the mainland, but daily life is comfortable."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 280
       },
-      "lifestyle": "Honolulu at this level is paradise realized. You can live near the ocean, enjoy the island's best restaurants, and pursue premium outdoor activities like scuba diving and golfing at resort courses. Regular inter-island trips to Maui, Kauai, and the Big Island keep things fresh."
+      "lifestyle": "You can rent a two-bedroom condo near Diamond Head or an oceanfront unit in Waikiki, and dine regularly at Honolulu's best restaurants. An SUV for island exploring, inter-island flights to Maui or Kauai, and activities like scuba diving and golf at resort courses all fit within the budget. Good private healthcare and the ability to travel back to the mainland regularly keep island life from feeling isolated."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Inter-island getaways, mainland travel, art collecting, community philanthropy",
         "monthlyCost": 1400
       },
-      "lifestyle": "You are living the Hawaiian dream at this level. A stunning property in Kahala or Lanikai, membership at exclusive clubs, and the freedom to explore all the islands by air or sea. The aloha spirit combined with luxury living creates an unparalleled retirement experience."
+      "lifestyle": "A large oceanfront condo in Kahala or a house in Lanikai, regular dining at resort-quality restaurants, and a housekeeper who comes weekly. Concierge medicine at Queen's Medical Center, a nice SUV, and business class flights back to the mainland are all within budget. Honolulu's high costs mean this tier buys less square footage than on the mainland, but the setting is hard to match."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Private island retreats, first-class Asia-Pacific travel, art patronage, charitable foundation",
         "monthlyCost": 5000
       },
-      "lifestyle": "At this budget Honolulu becomes your private island paradise. A beachfront estate, a personal yacht for inter-island cruising, and helicopter access to any beach in Hawaii. Your proximity to Asia and the Pacific Rim opens up extraordinary travel and cultural experiences unavailable from the mainland."
+      "lifestyle": "Premium beachfront housing in Kahala or along Diamond Head, regular fine dining, a cook who comes several times a week, and a housekeeper. First class flights to the mainland and Asia-Pacific destinations, full concierge healthcare, and the ability to take inter-island trips on a whim. Honolulu's extreme cost of living absorbs more of this budget than a mainland city would, but you live very well without thinking about daily expenses."
     }
   },
   "scores": {

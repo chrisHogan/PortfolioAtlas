@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "Kelowna on $1M is doable but requires discipline. You will live further from the lakefront, cook most meals, and take advantage of the incredible free outdoor recreation -- beaches, hiking trails, and mountain views are everywhere. Universal healthcare is a huge advantage over US cities at this budget level. Wine tasting is cheap therapy."
+      "lifestyle": "This budget works in Kelowna but requires discipline. You will live in Rutland or along the Highway 97 corridor, further from the lake, and cook most meals at home. A car is necessary here — the city is not walkable in the way a European capital is. The free outdoor recreation — beaches, hiking on Knox Mountain, winery cellar-door tastings — is the main payoff. Universal healthcare through BC MSP is a significant cost advantage."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "This is the Kelowna life people move here for. A nice condo near the lake, regular winery lunches with stunning vineyard views, a ski pass for winter, and summer evenings paddleboarding on Okanagan Lake. The food scene has exploded with farm-to-table restaurants, and healthcare is covered. Life feels like a permanent vacation."
+      "lifestyle": "A condo in downtown Kelowna or Pandosy Village with partial lake views, regular winery lunches, a ski pass at Big White for winter, and a reliable AWD vehicle for all seasons. The farm-to-table dining scene has grown significantly, and you can eat out several times a week. Universal healthcare keeps medical costs minimal. Summer evenings on the lake and winter skiing give the lifestyle a distinct seasonal rhythm."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "Kelowna at $10K per month is wine-country living at its finest. A home with lake views, dinners at award-winning winery restaurants, skiing at Big White all winter, and summers spent on the lake. The Okanagan lifestyle is often compared to Provence or Tuscany, and at this budget you are living it fully."
+      "lifestyle": "A home in the Mission or Upper Mission with Okanagan Lake views, fine dining at winery restaurants like Mission Hill and Quails' Gate, and premium ski passes. A good SUV plus possibly a summer convertible for wine-country drives. Golf club membership, sailing, and comprehensive private health insurance are all within budget. The margin is meaningful — Kelowna's cost of living, while rising, is still moderate for a Canadian resort town."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Vineyard investment, quarterly international travel, boat on Okanagan Lake, ski chalet",
         "monthlyCost": 1600
       },
-      "lifestyle": "Kelowna at $5M is a world-class wine-country lifestyle. A lakefront estate, your own boat, heli-skiing in the Monashees, exclusive winemaker dinners, and possibly even a small vineyard of your own. Universal healthcare keeps medical costs negligible, and the natural beauty is unmatched in North America."
+      "lifestyle": "A lakefront home in the Mission, your own boat on Okanagan Lake, a housekeeper, and regular flights from Kelowna to Vancouver or further. Exclusive winemaker dinners, golf and yacht club memberships, and possibly a small vineyard investment. Universal healthcare keeps medical costs negligible. Kelowna is a small city, so dining and cultural options are limited compared to Vancouver or Toronto, but the lake and mountain setting is hard to match."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Working vineyard, multiple properties, first-class travel, art collection, philanthropy",
         "monthlyCost": 5500
       },
-      "lifestyle": "At $10M, Kelowna becomes your private wine-country estate. A lakefront compound with private dock, your own producing vineyard, a yacht for cruising Okanagan Lake, and first-class travel whenever the mood strikes. With universal healthcare and stunning natural beauty, this is arguably the most beautiful high-net-worth retirement lifestyle in Canada."
+      "lifestyle": "A lakefront estate with private dock, a cook who comes in several times a week, regular housekeeping and property management, and first-class international travel. A boat on the lake and possibly a producing vineyard. Kelowna is a small city of about 150,000 people, so at this budget the main constraint is the limited scale of local dining, cultural, and luxury services. Most people at this spending level would use Kelowna as a beautiful home base while traveling frequently."
     }
   },
   "scores": {

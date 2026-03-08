@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 120
       },
-      "lifestyle": "Málaga on a lean budget is still a wonderful life. Tapas culture means eating out is cheap and social, the beaches are free, and the year-round sunshine keeps spirits high. Spanish public healthcare is excellent if you qualify, and the compact center means a car is unnecessary."
+      "lifestyle": "A 1-bedroom in Soho or El Perchel, walkable to the historic center and beach. Eating out at tapas bars and chiringuitos a few times a week, cooking at home otherwise. Getting around on foot and by bus in the compact center. Spanish public healthcare if you qualify, or affordable private insurance. The year-round sunshine and cheap tapas culture make this budget stretch comfortably, though dining and travel require some planning."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "Málaga truly comes alive at this budget. A lovely apartment with sea views, daily tapas culture, a car for exploring the spectacular Andalusian countryside, and regular cultural experiences. The quality of life rivals the French Riviera at a fraction of the cost."
+      "lifestyle": "A modern 2-bedroom in Pedregalejo or El Palo with sea views. Dining out regularly at good tapas bars and seafood restaurants along the paseo. A car for weekend drives to Nerja, Ronda, or Granada. Premium private health insurance with hospital access at Quironsalud. Flamenco shows, sailing, and gym membership. Malaga is affordable enough that this budget covers a comfortable, active life without daily cost concerns."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "A luxury penthouse overlooking the Mediterranean, Michelin-starred dining, golf on world-class courses, and the cultural riches of Andalusia at your doorstep. Málaga at this level offers a lifestyle that would cost significantly more in Barcelona, and the sunshine is even better."
+      "lifestyle": "A large penthouse in the historic center or a beachfront apartment in El Limonar. Regular dining at the city's top restaurants including places like Jose Carlos Garcia, a car for exploring the coast, and premium private healthcare with international coverage. Golf on Costa del Sol courses and weekend trips to Granada or Seville by AVE. Malaga's costs are low enough that this budget delivers a genuinely affluent life with regular travel."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Mediterranean yacht charters, first-class European travel, Andalusian finca weekends, art collecting",
         "monthlyCost": 2000
       },
-      "lifestyle": "You are living the Costa del Sol dream at its finest. A stunning villa with sea views, a private chef, full domestic staff, and the means to enjoy everything from Marbella's glamour to Granada's Alhambra. The Spanish lifestyle at this level is deeply enviable."
+      "lifestyle": "A villa in El Candado or a luxury penthouse with sea and mountain views. Regular dining at the best restaurants on the Costa del Sol, a housekeeper and part-time cook, and business class for longer flights. A luxury car, premium golf memberships, and VIP private healthcare. Malaga's affordability means this budget provides an upper-affluent life with very few constraints and significant room for travel across Europe."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Yacht ownership, Andalusian cortijo estate, first-class global travel, art collection, philanthropic foundation",
         "monthlyCost": 5000
       },
-      "lifestyle": "At this level in Málaga you are living like Andalusian aristocracy. A grand estate, a Mediterranean yacht, full staff, and the resources to patronize the region's rich cultural heritage. Spain's Golden Visa program and favorable tax treaties add financial sophistication to an already extraordinary lifestyle."
+      "lifestyle": "A grand beachfront estate or a modernized historic finca in the Malaga hills. A cook several times a week, a full-time housekeeper, and full private healthcare. Business class as default, first class for longer trips. A nice car and driver when needed. Malaga is affordable enough that this budget far exceeds what the city can realistically absorb -- you will likely need a second property or significant travel spending to use it."
     }
   },
   "scores": {

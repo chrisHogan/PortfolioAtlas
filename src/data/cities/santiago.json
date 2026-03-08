@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 100
       },
-      "lifestyle": "Santiago on a lean budget is quite manageable thanks to affordable transit, cheap local produce, and reasonable rents. You will cook at home often and stick to local haunts, but the daily quality of life — Andean views, excellent Metro, beautiful parks, and affordable wine — makes it feel like much more. Learning Spanish is essential for navigating daily life."
+      "lifestyle": "A one-bedroom in Ñuñoa, Santiago Centro, or a quieter street in Providencia keeps costs manageable in a modern city with excellent Metro service. You cook at home often, eat set lunches at local spots, and enjoy cheap Chilean wine and beautiful parks. The Andes are visible on clear days, and Cerro San Cristóbal is free to hike. Learning Spanish is essential since English is not widely spoken. The budget is tight but workable."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 130
       },
-      "lifestyle": "Santiago opens up beautifully at this budget. A nice apartment in one of the city's best neighborhoods, regular dining at excellent restaurants, and the freedom to ski the Andes in winter and hit the beach in summer. Chile's world-class wine scene becomes a regular pleasure, and the city's growing cultural offerings keep life interesting year-round."
+      "lifestyle": "A modern two-bedroom in Providencia or Las Condes with Andean views gives you a comfortable base in one of the city's best neighborhoods. You dine at good restaurants several times a week, carry ISAPRE private health insurance, and rent a car for weekend ski trips to Valle Nevado in winter or beach trips in summer. Wine tours in the Maipo Valley are an easy day trip. The budget is solid for Santiago's cost of living."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "Santiago at this budget is genuinely excellent. A beautiful home near the mountains, regular fine dining at South America's most acclaimed restaurants, ski season passes, and the freedom to explore Chile's extraordinary landscapes from Atacama to Patagonia. The combination of mountain living, wine culture, and urban sophistication is hard to beat."
+      "lifestyle": "A spacious apartment in Vitacura or a house in Lo Barnechea near the mountains puts you in a premium neighborhood. You dine at restaurants like Boragó and Ambrosia regularly, own a car for mountain and coastal access, and carry top-tier health insurance at Clínica Alemana. Season ski passes, premium wine club memberships, and trips to Patagonia or the Atacama Desert are all comfortably in budget."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "First-class international travel, Patagonia lodge stays, wine collecting, philanthropy",
         "monthlyCost": 2000
       },
-      "lifestyle": "You are living among Santiago's elite in the foothills of the Andes. A luxurious home with mountain views, full domestic staff, and access to Chile's most exclusive experiences — from private vineyard tastings to helicopter skiing. Santiago's position between the Andes and the Pacific means extraordinary weekend adventures are always within reach."
+      "lifestyle": "A large house in Vitacura or Lo Barnechea with pool and Andean panoramas provides generous living space. A housekeeper and cook manage the household, you have a driver available, and dining at the city's finest restaurants is routine. Business class flights, private vineyard tours, and ski club memberships are all standard. Santiago's position between the Andes and the Pacific coast means beaches and mountains are each about 90 minutes away."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Private jet travel, vineyard ownership, Patagonia lodge, international philanthropy",
         "monthlyCost": 5500
       },
-      "lifestyle": "At this tier Santiago offers a life of Andean grandeur. A sprawling estate with mountain views, full staff, private aviation, and the resources to explore Chile's extraordinary geography — from the world's driest desert to its most dramatic glaciers. Chile's stability, natural beauty, and growing cultural scene create a life of rare quality and adventure."
+      "lifestyle": "A grand estate in Lo Barnechea or Chicureo with panoramic Andean views and full household staff — cook, housekeepers, groundskeepers, and driver — anchors daily life. You dine without budget constraints, fly first class internationally, and take trips to Patagonian lodges or the Atacama at will. Chile's economic stability and strong institutions provide a secure base. This budget exceeds what Santiago requires for top-tier living, though the city's higher costs absorb more than cheaper Latin American capitals."
     }
   },
   "scores": {

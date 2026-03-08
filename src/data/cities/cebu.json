@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 100
       },
-      "lifestyle": "A million dollars in Cebu feels like winning the lottery. Your modern condo has a pool and gym, fresh seafood costs almost nothing, and every weekend is a new island adventure. You'll swim with whale sharks for twenty dollars, island-hop to beaches that Instagram influencers fly halfway around the world to photograph, and do it all while speaking English with friendly locals who genuinely enjoy your company."
+      "lifestyle": "A modern 1-bedroom condo in IT Park or Cebu Business Park with pool, gym, and 24/7 security. Eating mostly at local Filipino eateries and fresh seafood BBQ spots, which are very cheap, with Grab and jeepney for getting around. Private health insurance covering Cebu Doctors and Chong Hua Hospital. English is spoken natively, which makes daily life easy, and weekend island-hopping is affordable. Comfortable, though traffic in Cebu City is bad and infrastructure outside the business districts is basic."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 130
       },
-      "lifestyle": "Two million in Cebu unlocks a genuinely luxurious tropical life. Your beachfront condo on Mactan has ocean views, your weekends are filled with world-class diving at Moalboal's sardine run and Malapascua's thresher sharks, and your social calendar is packed with the vibrant international expat community. The Philippines' warmth — both climate and people — makes every day feel like a permanent vacation."
+      "lifestyle": "A spacious 2-bedroom condo in a premium development or a beachfront unit on Mactan Island. Dining out regularly at Filipino, Japanese, Korean, and Western restaurants without watching the bill. Grab rides and a rented scooter for Mactan. Comprehensive private health insurance with dental and annual checkups. Scuba diving trips to Moalboal and Malapascua, and cheap domestic flights to Palawan or Siargao. Life is comfortable, social, and very good value."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "At three million, Cebu transforms into your personal tropical paradise. Your beachfront villa has staff, your weekends involve private boat trips to uninhabited islands, and world-class diving is your Tuesday afternoon activity. You host legendary rooftop barbecues, fly to Palawan for long weekends, and live a lifestyle that would cost five times as much in Hawaii — all while surrounded by some of the warmest, most genuine people you'll ever meet."
+      "lifestyle": "A large beachfront villa on Mactan or a premium penthouse in Cebu Business Park with panoramic views. Regular dining at Cebu's best restaurants and fresh seafood feasts. A leased car with a driver for navigating city traffic. Domestic flights for island exploration and boat transfers to nearby islands. Premium private health insurance with international coverage. This is a genuinely affluent lifestyle — the budget goes very far in Cebu, and diving, beaches, and island trips are easily accessible."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Private Cebuano language tutor, personal trainer, bespoke island exploration planning, marine conservation involvement, premium club memberships",
         "monthlyCost": 1200
       },
-      "lifestyle": "Your Mactan compound is a tropical dream — a private chef prepares fresh catch of the day, your boat captain knows every hidden cove in the Visayas, and your dive instructor is on speed dial for encounters with thresher sharks and whale sharks. You've become a philanthropic force in the local community, your dinner parties are legendary among the expat set, and your island life would make a resort owner jealous."
+      "lifestyle": "A large beachfront property on Mactan with private pool, tropical gardens, and direct ocean access. A full-time housekeeper, cook, gardener, and driver. A private boat for island-hopping around the Visayas. Business class flights for regional travel and regular domestic flights. Premium international health coverage. This budget goes extremely far in Cebu — daily life is very comfortable with all the island amenities you could want, though the city's medical and cultural infrastructure remains limited compared to Manila or regional capitals."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Marine sanctuary sponsorship, private island development, art acquisition fund, charitable foundation supporting Filipino education, bespoke Southeast Asian experiences",
         "monthlyCost": 4800
       },
-      "lifestyle": "You live the ultimate island life — your oceanfront estate has a private beach, a yacht at the dock, and a staff that anticipates your every need. Your marine conservation foundation protects the reefs you fell in love with, your private island getaway is the envy of the Philippines' elite, and your philanthropic work in local education has made you a beloved figure in the Cebuano community. Ten million in the Philippines doesn't just buy luxury — it buys legacy."
+      "lifestyle": "A large oceanfront estate on Mactan with private beach, dock, and multiple structures, or a premium property elsewhere in the Visayas. A housekeeper, a cook a few times a week, a gardener, drivers, and a property manager. First-class international flights and a boat for cruising the Visayan Sea. Full concierge healthcare with fly-anywhere specialist treatment. This is far more money than Cebu's market can absorb — you live at the absolute top of what the island offers, but the Philippines' limited luxury infrastructure, occasional typhoons, and distance from major Asian capitals are real considerations."
     }
   },
   "scores": {

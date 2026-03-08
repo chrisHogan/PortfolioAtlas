@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 100
       },
-      "lifestyle": "Island life on a budget works beautifully in Cozumel. A comfortable apartment in town, daily fresh seafood, and endless ocean activities keep you happy without breaking the bank. The expat community is welcoming, and the pace of life is gloriously slow. Hurricane season requires some planning."
+      "lifestyle": "A two-bedroom apartment or small house in town near the main plaza keeps costs low on this small island. Fresh seafood at local fondas is cheap, a scooter or bicycle handles most transportation, and snorkeling on the reef is practically free. The expat community is welcoming and the pace is slow. Hurricane season from June to November requires planning, and specialist medical care means a ferry trip to the mainland or a flight to Cancún."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 130
       },
-      "lifestyle": "Cozumel becomes a true paradise at this level. A beautiful condo with ocean views, unlimited diving on the world's second-largest reef, and enough budget to explore the Yucatan Peninsula regularly. The island's size means you know everyone, creating a genuine community feeling."
+      "lifestyle": "A nice condo with ocean views or a small house with a pool on the quieter side of the island gives you a comfortable base. You own a car or golf cart, dine at the island's best seafood restaurants several times a week, and carry premium health insurance with access to Cancún's hospitals. Unlimited diving packages on the Mesoamerican reef and regular ferry trips to Playa del Carmen for variety are easily in budget. The island is small — you will know most of the expat community."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "You are living the ultimate Cozumel dream. A beachfront villa, your own boat for exploring the reef, and the freedom to enjoy everything the Yucatan offers. At this budget you have tremendous surplus on a Mexican island, allowing for significant savings and mainland travel."
+      "lifestyle": "A beachfront villa with a pool or a condo in a resort-style complex puts you at the top of the island's housing market. You own a car and a small boat for reef diving and fishing, dine at Kinta and Buccanos regularly, and carry international health insurance. This budget provides substantial margin on a Mexican island — the extra goes to mainland Mexico travel, savings, or flights off-island. The tradeoff is limited dining and cultural options compared to a larger city."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Yacht charters, first-class international travel, Yucatan property investments, philanthropy",
         "monthlyCost": 1800
       },
-      "lifestyle": "At $5M on Cozumel you are island royalty. An oceanfront estate with private dock, a personal chef, full staff, and your own boat for daily reef adventures. The combination of Mexican affordability and Caribbean beauty creates an extraordinary lifestyle with massive surplus."
+      "lifestyle": "An oceanfront estate with a private dock and pool provides a large home by island standards. A housekeeper and cook manage the household, you own a boat for reef diving and fishing, and you dine at the island's restaurants freely. Business class flights handle international travel. This budget significantly exceeds what Cozumel can absorb in spending — the island is small with limited luxury infrastructure, so substantial margin goes to off-island travel and savings."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Yacht ownership, island property portfolio, marine conservation funding, first-class global travel",
         "monthlyCost": 5000
       },
-      "lifestyle": "This budget on a small Mexican island is almost unimaginable in its excess. A waterfront compound, a luxury yacht, full staff, and the resources to fund marine conservation along the reef. Most retirees at this level use Cozumel as a spectacular home base for a global lifestyle."
+      "lifestyle": "A large beachfront compound with guest houses, a dock, and full household staff — cook, housekeepers, and groundskeepers — anchors island life. You own a boat, fly first class internationally, and dine without constraints. Realistically, this budget far exceeds what a small Mexican island can absorb. Most people at this level use Cozumel as one base among several, spending significant time traveling or maintaining properties elsewhere."
     }
   },
   "scores": {

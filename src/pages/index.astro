@@ -1,16 +1,27 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import NetWorthInput from '../components/NetWorthInput.astro';
 import { allCities } from '../data/cities/index';
-import { formatCurrency, getTotalSpend, getFireScoreClass, TIER_MONTHLY_BUDGET, SAFE_WITHDRAWAL_RATE } from '../data/types';
+import { formatCurrency, getTotalSpend, SAFE_WITHDRAWAL_RATE } from '../data/types';
+import {
+  getCityFireNumber,
+  getLifestyleMonthlyCost,
+  formatFireNumber,
+  getCityDisplayTags,
+  getTagColor,
+  LIFESTYLE_LABELS,
+  LIFESTYLE_DESCRIPTIONS,
+  ALL_LIFESTYLE_TIERS,
+} from '../data/fireNumber';
+import type { LifestyleTier } from '../data/fireNumber';
 
-// Pre-compute city cost data for client-side use
+// Pre-compute city data for client-side use
 const cityData = allCities.map((city) => {
-  const tiers: Record<string, { totalSpend: number; tierBudget: number }> = {};
-  for (const [key, tier] of Object.entries(city.tiers)) {
-    tiers[key] = {
-      totalSpend: getTotalSpend(tier),
-      tierBudget: tier.monthlyBudget,
+  const tags = getCityDisplayTags(city);
+  const tiers: Record<string, { fireNumber: number; monthlyCost: number }> = {};
+  for (const lifestyle of ALL_LIFESTYLE_TIERS) {
+    tiers[lifestyle] = {
+      fireNumber: getCityFireNumber(city, lifestyle),
+      monthlyCost: getLifestyleMonthlyCost(city, lifestyle),
     };
   }
   return {
@@ -20,34 +31,18 @@ const cityData = allCities.map((city) => {
     emoji: city.emoji,
     region: city.region,
     fireScore: city.fireScore,
-    tagline: city.tagline,
-    tags: city.tags,
+    tags,
     tiers,
   };
 });
 
-const totalCities = allCities.length;
 
 const websiteLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   'name': 'PortfolioAtlas',
   'url': 'https://portfolioatlas.org',
-  'description': `Enter your portfolio value and see exactly what you can afford in ${totalCities}+ cities worldwide. Built on the 4% rule.`,
-  'potentialAction': {
-    '@type': 'SearchAction',
-    'target': 'https://portfolioatlas.org/compare?cities={search_term_string}',
-    'query-input': 'required name=search_term_string',
-  },
-};
-
-const orgLd = {
-  '@context': 'https://schema.org',
-  '@type': 'Organization',
-  'name': 'PortfolioAtlas',
-  'url': 'https://portfolioatlas.org',
-  'logo': 'https://portfolioatlas.org/og-default.png',
-  'description': `FIRE retirement planning tool comparing cost of living across ${totalCities}+ cities worldwide.`,
+  'description': `Enter your portfolio value and see where in the world you can retire across 100+ cities. Built on the 4% rule.`,
 };
 
 const calcLd = {
@@ -57,1189 +52,779 @@ const calcLd = {
   'url': 'https://portfolioatlas.org',
   'applicationCategory': 'FinanceApplication',
   'operatingSystem': 'Web',
-  'description': `Enter your portfolio value and see personalized retirement lifestyle breakdowns across ${totalCities}+ cities worldwide.`,
-  'offers': {
-    '@type': 'Offer',
-    'price': '0',
-    'priceCurrency': 'USD',
-  },
+  'description': `Enter your portfolio and see where you can retire across 100+ cities worldwide.`,
+  'offers': { '@type': 'Offer', 'price': '0', 'priceCurrency': 'USD' },
 };
+
+const lifestyleLabels = LIFESTYLE_LABELS;
+const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
 ---
 
 <Layout
-  title="Home"
-  description={`Enter your portfolio value and see personalized retirement lifestyle breakdowns across ${totalCities}+ cities worldwide. Built on the 4% safe withdrawal rate.`}
-  jsonLd={[websiteLd, orgLd, calcLd]}
+  title="Where Can You Retire? | FIRE Calculator"
+  description={`Enter your portfolio value and see where in the world you can retire. Compare FIRE Numbers across 100+ cities worldwide.`}
+  jsonLd={[websiteLd, calcLd]}
 >
-  <!-- Hero -->
-  <section class="bg-brand-950 text-white py-12">
+  <!-- Hero: Two inputs only -->
+  <section class="bg-brand-950 text-white py-16 md:py-24">
     <div class="container-narrow text-center">
-      <h1 class="font-serif text-4xl md:text-5xl font-bold mb-4">
-        Your Personalized Results
+      <h1 class="font-serif text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
+        Where Can You Retire?
       </h1>
-      <p class="text-xl text-sand-300 max-w-2xl mx-auto mb-8">
-        See what your portfolio buys you in 100+ cities worldwide.
+      <p class="text-xl text-sand-300 max-w-2xl mx-auto mb-10">
+        Enter your portfolio. See where in the world you can retire. Understand what that life looks like.
       </p>
 
-      <NetWorthInput />
-    </div>
-  </section>
-
-  <!-- Customize Assumptions (collapsible) -->
-  <section id="advanced-section" class="container-narrow py-4">
-    <button id="advanced-toggle" type="button" class="w-full flex items-center justify-between bg-white rounded-xl border border-sand-200 px-5 py-3 hover:bg-sand-50 transition-colors">
-      <div class="flex items-center gap-2">
-        <span class="text-sm font-semibold text-gray-700">Customize Assumptions</span>
-        <span id="advanced-summary" class="text-xs text-gray-400">7% return · 12% volatility · 30yr retirement · 3% inflation</span>
+      <!-- Returning user message -->
+      <div id="welcome-back" class="hidden mb-6">
+        <p class="text-sm text-brand-300">Welcome back — we've saved your last portfolio value.</p>
       </div>
-      <svg id="advanced-chevron" class="w-5 h-5 text-gray-400 transition-transform" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
-    </button>
-    <div id="advanced-panel" class="hidden bg-white rounded-b-2xl border border-t-0 border-sand-200 p-6">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <!-- Annual Contributions -->
-        <div>
-          <label class="block text-sm font-semibold text-gray-700 mb-2">Annual Contributions</label>
+
+      <div class="max-w-xl mx-auto">
+        <!-- Input 1: Portfolio Value -->
+        <div class="mb-6">
+          <label for="portfolio-input" class="block text-lg font-semibold text-white mb-3">
+            Your Portfolio Value
+          </label>
           <div class="relative">
-            <span class="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 font-bold">$</span>
-            <input type="text" id="fire-contrib" inputmode="numeric" value="0" autocomplete="off" class="fire-currency-input" />
+            <span class="absolute left-4 top-1/2 -translate-y-1/2 text-brand-300 text-xl font-bold">$</span>
+            <input
+              type="text"
+              id="portfolio-input"
+              inputmode="numeric"
+              placeholder="2,500,000"
+              autocomplete="off"
+              class="w-full pl-10 pr-4 py-4 text-2xl font-bold rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 text-white placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-brand-400"
+            />
+          </div>
+          <div class="flex flex-wrap justify-center gap-2 mt-3">
+            {[500_000, 1_000_000, 2_000_000, 3_000_000, 5_000_000, 10_000_000].map((value) => (
+              <button
+                type="button"
+                class="quick-btn px-4 py-1.5 text-sm font-medium rounded-full bg-white/10 border border-white/20 text-white/80 hover:bg-white/20 hover:text-white transition-all"
+                data-value={value}
+              >
+                {value >= 1_000_000 ? `$${value / 1_000_000}M` : `$${value / 1_000}K`}
+              </button>
+            ))}
           </div>
         </div>
 
-        <!-- Expected Annual Return -->
-        <div>
-          <label class="block text-sm font-semibold text-gray-700 mb-2">
-            Expected Annual Return: <span id="fire-return-val" class="text-brand-600">7%</span>
+        <!-- Input 2: Lifestyle Selector -->
+        <div class="mb-8">
+          <label class="block text-lg font-semibold text-white mb-3">
+            Lifestyle Level
           </label>
-          <input type="range" id="fire-return" min="1" max="15" value="7" step="0.5" class="fire-slider" />
-          <div class="flex justify-between text-xs text-gray-400 mt-1"><span>1%</span><span>15%</span></div>
-        </div>
-
-        <!-- Years to Retirement -->
-        <div>
-          <label class="block text-sm font-semibold text-gray-700 mb-2">
-            Years to Retirement: <span id="fire-yrs-val" class="text-brand-600">0</span>
-          </label>
-          <input type="range" id="fire-yrs" min="0" max="40" value="0" step="1" class="fire-slider" />
-          <div class="flex justify-between text-xs text-gray-400 mt-1"><span>0 (now)</span><span>40</span></div>
-        </div>
-
-        <!-- Market Volatility -->
-        <div>
-          <label class="block text-sm font-semibold text-gray-700 mb-2">
-            Market Volatility: <span id="fire-vol-val" class="text-brand-600">12%</span>
-          </label>
-          <input type="range" id="fire-vol" min="5" max="25" value="12" step="1" class="fire-slider" />
-          <div class="flex justify-between text-xs text-gray-400 mt-1"><span>5% Smooth</span><span>25% Wild</span></div>
-          <p class="text-xs text-gray-400 mt-1">How bumpy the ride is. Lower = steady bonds-like returns. Higher = stock-market swings. 12% matches a typical stock/bond mix.</p>
-        </div>
-
-        <!-- Inflation Rate -->
-        <div>
-          <label class="block text-sm font-semibold text-gray-700 mb-2">
-            Inflation Rate: <span id="fire-inflation-val" class="text-brand-600">3%</span>
-          </label>
-          <input type="range" id="fire-inflation" min="0" max="8" value="3" step="0.5" class="fire-slider" />
-          <div class="flex justify-between text-xs text-gray-400 mt-1"><span>0%</span><span>8%</span></div>
-          <p class="text-xs text-gray-400 mt-1">How fast prices rise each year. 3% is the historical U.S. average.</p>
-        </div>
-
-        <!-- Retirement Duration -->
-        <div>
-          <label class="block text-sm font-semibold text-gray-700 mb-2">
-            Retirement Duration: <span id="fire-duration-val" class="text-brand-600">30 years</span>
-          </label>
-          <input type="range" id="fire-duration" min="10" max="50" value="30" step="1" class="fire-slider" />
-          <div class="flex justify-between text-xs text-gray-400 mt-1"><span>10</span><span>50</span></div>
-        </div>
-      </div>
-
-      <p class="text-xs text-gray-400 mt-4 text-center">
-        Results use a <a href="/about#monte-carlo" class="text-brand-600 hover:underline">Monte Carlo simulation</a>
-        with 2,000 randomized market scenarios to estimate your Success Rate.
-      </p>
-    </div>
-  </section>
-
-  <!-- Fallback: shown when no ?nw= param -->
-  <section id="calc-fallback" class="container-narrow py-16 text-center hidden">
-    <div class="max-w-xl mx-auto">
-      <div class="w-16 h-16 bg-brand-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
-        <span class="text-3xl">💰</span>
-      </div>
-      <h2 class="font-serif text-2xl font-bold text-brand-950 mb-3">
-        Enter Your Portfolio Value
-      </h2>
-      <p class="text-gray-600 mb-6">
-        Use the input above to enter your net worth and see personalized results across all {totalCities} cities.
-      </p>
-      <p class="text-sm text-gray-500">
-        Use the quick-pick buttons ($1M–$10M) or type your exact amount.
-      </p>
-    </div>
-  </section>
-
-  <!-- Summary Cards (shown when results exist, before filters) -->
-  <section id="summary-cards" class="container-narrow py-8 hidden">
-    <div id="summary-grid" class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-      <div id="projected-card" class="bg-white rounded-2xl border border-sand-200 p-5 text-center hidden">
-        <div class="text-sm text-gray-500 mb-1">Projected Portfolio</div>
-        <div id="fire-projected" class="text-2xl font-bold text-brand-950"></div>
-        <div class="text-xs text-gray-400 mt-1">median at retirement</div>
-      </div>
-      <div class="bg-white rounded-2xl border border-sand-200 p-5 text-center">
-        <div class="text-sm text-gray-500 mb-1">Monthly Budget</div>
-        <div id="summary-budget" class="text-2xl font-bold text-brand-600"></div>
-        <div id="summary-budget-subtitle" class="text-xs text-gray-400 mt-1">4% safe withdrawal rate</div>
-      </div>
-      <div class="bg-white rounded-2xl border border-sand-200 p-5 text-center">
-        <div class="text-sm text-gray-500 mb-1">Cities You Can FIRE In</div>
-        <div class="text-[10px] text-gray-400 -mt-0.5 mb-0.5">at any lifestyle level</div>
-        <div id="summary-surplus-count" class="text-2xl font-bold text-emerald-600"></div>
-        <div id="summary-surplus-subtitle" class="text-xs text-gray-400 mt-1"></div>
-      </div>
-      <div class="bg-white rounded-2xl border border-sand-200 p-5 text-center">
-        <div class="text-sm text-gray-500 mb-1">Top Ranked</div>
-        <div id="summary-best" class="text-2xl font-bold text-brand-950"></div>
-        <div id="summary-best-surplus" class="text-xs text-emerald-600 mt-1"></div>
-      </div>
-    </div>
-
-    <!-- Lifestyle Reach Breakdown -->
-    <div id="lifestyle-reach" class="mt-4 bg-white rounded-2xl border border-sand-200 p-5 hidden">
-      <div id="lifestyle-reach-header" class="text-sm font-semibold text-gray-700 mb-1"></div>
-      <p id="lifestyle-reach-desc" class="text-xs text-gray-400 mb-3"></p>
-      <div class="space-y-2" id="lifestyle-reach-bars"></div>
-      <div id="lifestyle-reach-cta" class="mt-4 text-center"></div>
-    </div>
-  </section>
-
-  <!-- Filter Bar (narrows the surplus cities) -->
-  <section id="filter-bar" class="container-narrow py-4 hidden">
-    <div class="bg-white rounded-2xl border border-sand-200 p-4 space-y-3">
-      <div class="flex flex-wrap items-stretch gap-3">
-        <!-- Location Filter -->
-        <div class="bg-sand-50 rounded-xl px-4 py-3 flex items-center gap-3 overflow-x-auto">
-          <span class="text-xs font-bold text-gray-500 uppercase tracking-wide shrink-0">Location</span>
-          <div class="w-px h-5 bg-sand-200 shrink-0"></div>
-          <div class="flex gap-1 shrink-0">
-            <button data-filter="loc" data-value="" class="filter-btn px-3 py-2 text-sm font-medium rounded-full whitespace-nowrap">All</button>
-            <button data-filter="loc" data-value="us" class="filter-btn px-3 py-2 text-sm font-medium rounded-full whitespace-nowrap">US Only</button>
-            <button data-filter="loc" data-value="intl" class="filter-btn px-3 py-2 text-sm font-medium rounded-full whitespace-nowrap">International</button>
+          <div class="grid grid-cols-3 gap-2">
+            {ALL_LIFESTYLE_TIERS.map((tier) => (
+              <button
+                type="button"
+                class:list={[
+                  'lifestyle-btn px-4 py-3 rounded-xl border text-center transition-all',
+                  tier === 'comfortable'
+                    ? 'bg-white/20 border-white/40 text-white'
+                    : 'bg-white/5 border-white/15 text-white/70 hover:bg-white/10 hover:text-white',
+                ]}
+                data-lifestyle={tier}
+              >
+                <div class="text-sm font-bold">{lifestyleLabels[tier]}</div>
+                <div class="text-[11px] mt-1 opacity-70">{lifestyleDescriptions[tier]}</div>
+              </button>
+            ))}
           </div>
         </div>
 
-        <!-- Climate Filter -->
-        <div class="bg-sand-50 rounded-xl px-4 py-3 flex items-center gap-3 overflow-x-auto">
-          <span class="text-xs font-bold text-gray-500 uppercase tracking-wide shrink-0">Climate</span>
-          <div class="w-px h-5 bg-sand-200 shrink-0"></div>
-          <div class="flex gap-1 shrink-0">
-            <button data-filter="climate" data-value="" class="filter-btn px-3 py-2 text-sm font-medium rounded-full whitespace-nowrap">Any</button>
-            <button data-filter="climate" data-value="warm" class="filter-btn px-3 py-2 text-sm font-medium rounded-full whitespace-nowrap">Warm & Sunny</button>
-            <button data-filter="climate" data-value="mild" class="filter-btn px-3 py-2 text-sm font-medium rounded-full whitespace-nowrap">Mild & Temperate</button>
-            <button data-filter="climate" data-value="four" class="filter-btn px-3 py-2 text-sm font-medium rounded-full whitespace-nowrap">Four Seasons</button>
-          </div>
-        </div>
+        <!-- CTA -->
+        <button
+          type="button"
+          id="explore-btn"
+          class="w-full py-4 text-lg font-bold rounded-xl bg-white text-brand-950 hover:bg-sand-100 transition-colors"
+        >
+          See Where I Can Retire
+        </button>
 
-        <!-- English Filter -->
-        <div class="bg-sand-50 rounded-xl px-4 py-3 flex items-center gap-3 overflow-x-auto">
-          <span class="text-xs font-bold text-gray-500 uppercase tracking-wide shrink-0">English</span>
-          <div class="w-px h-5 bg-sand-200 shrink-0"></div>
-          <div class="flex gap-1 shrink-0">
-            <button data-filter="eng" data-value="" class="filter-btn px-3 py-2 text-sm font-medium rounded-full whitespace-nowrap">Any</button>
-            <button data-filter="eng" data-value="yes" class="filter-btn px-3 py-2 text-sm font-medium rounded-full whitespace-nowrap">English Essential</button>
-          </div>
-        </div>
-
-        <!-- Lifestyle Filter (minimum threshold) -->
-        <div class="bg-sand-50 rounded-xl px-4 py-3 overflow-x-auto">
-          <div class="flex items-center gap-3">
-            <span class="text-xs font-bold text-gray-500 uppercase tracking-wide shrink-0">Min. Lifestyle</span>
-            <div class="w-px h-5 bg-sand-200 shrink-0"></div>
-            <div class="flex gap-0 shrink-0" id="lifestyle-filter-pills">
-              <button data-min-lifestyle="budget" data-level="1" class="lifestyle-pill px-2 sm:px-3 py-2 text-xs sm:text-sm font-medium rounded-l-full border border-r-0 border-sand-200 cursor-pointer select-none transition-all whitespace-nowrap">Budget</button>
-              <button data-min-lifestyle="comfortable" data-level="2" class="lifestyle-pill px-2 sm:px-3 py-2 text-xs sm:text-sm font-medium border border-r-0 border-sand-200 cursor-pointer select-none transition-all whitespace-nowrap">Comfortable</button>
-              <button data-min-lifestyle="premium" data-level="3" class="lifestyle-pill px-2 sm:px-3 py-2 text-xs sm:text-sm font-medium border border-r-0 border-sand-200 cursor-pointer select-none transition-all whitespace-nowrap">Premium</button>
-              <button data-min-lifestyle="luxury" data-level="4" class="lifestyle-pill px-2 sm:px-3 py-2 text-xs sm:text-sm font-medium rounded-r-full border border-sand-200 cursor-pointer select-none transition-all whitespace-nowrap">Luxury</button>
-            </div>
-          </div>
-          <p id="lifestyle-filter-desc" class="text-xs text-gray-400 mt-2">Essentials covered — modest apartment, local food, public transit, and basic healthcare.</p>
-        </div>
-      </div>
-
-      <!-- Min. Success Rate — FIRE mode only -->
-      <div id="success-rate-filter" class="bg-sand-50 rounded-xl px-4 py-3">
-        <div class="flex items-center gap-3">
-          <span class="text-xs font-bold text-gray-500 uppercase tracking-wide shrink-0">Min. Success Rate</span>
-          <div class="w-px h-5 bg-sand-200 shrink-0"></div>
-          <input type="range" id="success-rate-slider" min="50" max="100" value="90" step="1" class="fire-slider flex-1" />
-          <span id="success-rate-value" class="text-sm font-bold text-brand-700 w-10 text-right">90%</span>
-        </div>
-        <p id="success-rate-desc" class="text-xs text-gray-400 mt-2">90% is recommended — the percentage of <a href="/about#monte-carlo" class="text-brand-600 hover:underline">Monte Carlo</a> simulated scenarios where your portfolio lasts through retirement.</p>
+        <p class="mt-4 text-sm text-sand-400">
+          <a href="#reverse-flow" id="reverse-link" class="hover:text-white transition-colors underline decoration-dotted underline-offset-4">
+            Not sure of your number? Calculate what you need →
+          </a>
+        </p>
       </div>
     </div>
   </section>
 
-  <!-- City Table (filtered results) -->
-  <div id="calc-results" class="hidden">
-    <!-- No cities message -->
-    <div id="fire-no-cities" class="container-wide pt-8 hidden">
-      <div class="bg-amber-50 border border-amber-200 rounded-2xl p-6 text-center">
-        <p class="text-amber-800 font-semibold mb-1">No affordable cities for this lifestyle level</p>
-        <p class="text-amber-600 text-sm">Try lowering your success rate threshold, adjusting the lifestyle level, increasing contributions, or extending your timeline.</p>
+  <!-- Results Section (hidden until portfolio is entered) -->
+  <section id="results-section" class="hidden">
+    <!-- Summary line -->
+    <div class="bg-white border-b border-sand-200 sticky top-16 z-30">
+      <div class="container-narrow py-4">
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+          <p id="results-summary" class="text-lg font-serif font-bold text-brand-950"></p>
+          <!-- Inline lifestyle toggle for results page -->
+          <div class="flex items-center gap-1">
+            {ALL_LIFESTYLE_TIERS.map((tier) => (
+              <button
+                type="button"
+                class:list={[
+                  'results-lifestyle-btn px-3 py-1.5 text-xs font-semibold rounded-full border transition-all',
+                  tier === 'comfortable'
+                    ? 'bg-brand-600 text-white border-brand-600'
+                    : 'bg-white text-gray-600 border-sand-200 hover:border-brand-300',
+                ]}
+                data-lifestyle={tier}
+              >
+                {lifestyleLabels[tier]}
+              </button>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
 
-    <!-- City Rankings -->
-    <section class="container-wide py-8">
-      <div class="flex items-baseline gap-3 mb-6">
-        <h2 class="font-serif text-2xl font-bold text-brand-950">
-          Cities Ranked by Best Match
-        </h2>
-        <span id="filtered-count" class="text-sm text-gray-400"></span>
+    <!-- Filters -->
+    <div class="container-narrow py-4">
+      <div class="flex flex-wrap items-center gap-2">
+        <span class="text-xs font-bold text-gray-500 uppercase tracking-wider">Filter:</span>
+        <div class="flex gap-1">
+          <button data-filter="loc" data-value="" class="filter-btn active px-3 py-1.5 text-xs font-medium rounded-full border border-sand-200 transition-all">All</button>
+          <button data-filter="loc" data-value="us" class="filter-btn px-3 py-1.5 text-xs font-medium rounded-full border border-sand-200 transition-all">US Only</button>
+          <button data-filter="loc" data-value="intl" class="filter-btn px-3 py-1.5 text-xs font-medium rounded-full border border-sand-200 transition-all">International</button>
+        </div>
+        <div class="w-px h-5 bg-sand-200"></div>
+        <div class="flex gap-1">
+          <button data-filter="climate" data-value="" class="filter-btn active px-3 py-1.5 text-xs font-medium rounded-full border border-sand-200 transition-all">Any Climate</button>
+          <button data-filter="climate" data-value="warm" class="filter-btn px-3 py-1.5 text-xs font-medium rounded-full border border-sand-200 transition-all">Warm</button>
+          <button data-filter="climate" data-value="mild" class="filter-btn px-3 py-1.5 text-xs font-medium rounded-full border border-sand-200 transition-all">Mild</button>
+        </div>
+        <div class="w-px h-5 bg-sand-200"></div>
+        <div class="flex gap-1">
+          <button data-filter="eng" data-value="" class="filter-btn active px-3 py-1.5 text-xs font-medium rounded-full border border-sand-200 transition-all">Any Language</button>
+          <button data-filter="eng" data-value="yes" class="filter-btn px-3 py-1.5 text-xs font-medium rounded-full border border-sand-200 transition-all">English Essential</button>
+        </div>
       </div>
+    </div>
 
-      <div class="overflow-x-auto">
-        <table class="w-full text-sm">
-          <thead id="city-rankings-head">
-            <tr class="border-b-2 border-sand-200">
-              <th class="text-left py-3 px-4 font-semibold text-gray-600 hidden sm:table-cell">#</th>
-              <th class="text-left py-3 px-4 font-semibold text-gray-600 sticky left-0 bg-white z-10">City</th>
-              <th class="text-right py-3 px-4 font-semibold text-gray-600">FIRE Score</th>
-              <th class="text-right py-3 px-4 font-semibold text-gray-600">Lifestyle</th>
-              <th class="text-right py-3 px-4 font-semibold text-gray-600">Total Spend</th>
-              <th class="text-right py-3 px-4 font-semibold text-gray-600">Surplus</th>
-            </tr>
-          </thead>
-          <tbody id="city-rankings"></tbody>
-        </table>
+    <!-- City Grid -->
+    <div class="container-wide pb-16">
+      <div id="city-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4"></div>
+      <div id="no-cities" class="hidden py-12 text-center">
+        <p class="text-gray-500 font-semibold mb-2">No cities match your criteria</p>
+        <p class="text-sm text-gray-400">Try adjusting your filters or increasing your portfolio.</p>
       </div>
-
-      <!-- Show More -->
-      <div id="show-more-container" class="text-center py-6 hidden">
-        <button id="show-more-btn" class="px-6 py-2.5 bg-white border border-sand-200 rounded-full text-sm font-medium text-gray-700 hover:bg-sand-50 transition-all">
-          Show 10 more
+      <div id="show-more-wrap" class="text-center py-6 hidden">
+        <button id="show-more-btn" type="button" class="px-8 py-2.5 bg-white border border-sand-200 rounded-full text-sm font-medium text-gray-700 hover:bg-sand-50 transition-all">
+          Show more cities
         </button>
         <p id="show-more-count" class="text-xs text-gray-400 mt-2"></p>
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
+
+  <!-- Fallback (shown when no portfolio entered) -->
+  <section id="fallback-section" class="container-narrow py-20">
+    <div class="max-w-2xl mx-auto text-center">
+      <div class="w-16 h-16 bg-brand-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+        <span class="text-3xl">🌍</span>
+      </div>
+      <h2 class="font-serif text-3xl font-bold text-brand-950 mb-4">
+        Discover Your FIRE Destinations
+      </h2>
+      <p class="text-gray-600 mb-6 leading-relaxed">
+        Enter your portfolio value above and we'll show you every city in the world where you can retire.
+        We compare your portfolio against the FIRE Number for each city — the exact amount you need to live there using the 4% rule.
+      </p>
+      <p class="text-sm text-gray-400">
+        Currently tracking 100+ cities across 6 continents.
+      </p>
+    </div>
+  </section>
+
+  <!-- Reverse Flow (secondary, accessible via link) -->
+  <section id="reverse-flow" class="container-narrow py-12 hidden">
+    <div class="bg-white rounded-2xl border border-sand-200 shadow-sm p-6 max-w-2xl mx-auto">
+      <h2 class="font-serif text-xl font-bold text-brand-950 mb-1 text-center">Calculate What You Need</h2>
+      <p class="text-sm text-gray-500 text-center mb-6">Pick a city and lifestyle to see the portfolio required.</p>
+
+      <div class="mb-4 relative">
+        <label class="block text-sm font-semibold text-gray-700 mb-1">Target city</label>
+        <input type="text" id="reverse-city-input" placeholder="Type a city name..." autocomplete="off"
+          class="w-full rounded-xl border border-sand-200 px-4 py-2.5 text-sm font-medium text-gray-800 bg-sand-50 focus:ring-2 focus:ring-brand-500 focus:border-brand-500" />
+        <div id="reverse-city-dropdown" class="reverse-dropdown hidden"></div>
+      </div>
+
+      <div class="mb-6">
+        <label class="block text-sm font-semibold text-gray-700 mb-2">Lifestyle level</label>
+        <div class="grid grid-cols-3 gap-2">
+          <button type="button" data-reverse-tier="budget" class="reverse-tier-btn px-3 py-3 rounded-xl border border-sand-200 text-center hover:border-brand-400 transition-colors">
+            <div class="text-sm font-bold text-brand-950">Budget</div>
+          </button>
+          <button type="button" data-reverse-tier="comfortable" class="reverse-tier-btn px-3 py-3 rounded-xl border border-sand-200 text-center hover:border-brand-400 transition-colors">
+            <div class="text-sm font-bold text-brand-950">Comfortable</div>
+          </button>
+          <button type="button" data-reverse-tier="luxury" class="reverse-tier-btn px-3 py-3 rounded-xl border border-sand-200 text-center hover:border-brand-400 transition-colors">
+            <div class="text-sm font-bold text-brand-950">Luxury</div>
+          </button>
+        </div>
+      </div>
+
+      <div id="reverse-results" class="hidden">
+        <div class="bg-brand-50 rounded-xl p-5 mb-4 text-center">
+          <div class="text-sm text-gray-500 mb-1">FIRE Number needed</div>
+          <div id="reverse-fire-number" class="text-3xl font-bold text-brand-600"></div>
+          <div class="text-sm text-gray-500 mt-2">
+            <span id="reverse-monthly"></span>/mo cost of living
+          </div>
+        </div>
+        <div class="text-center">
+          <button id="reverse-use-value" type="button" class="px-6 py-2.5 bg-brand-600 text-white font-semibold rounded-xl hover:bg-brand-700 transition-colors">
+            Use this as my portfolio →
+          </button>
+        </div>
+      </div>
+
+      <div class="text-center mt-4">
+        <button id="reverse-close" type="button" class="text-sm text-gray-400 hover:text-gray-600">
+          ← Back
+        </button>
+      </div>
+    </div>
+  </section>
 
   <!-- Bottom CTA -->
-  <section class="container-narrow py-16 text-center">
+  <section class="container-narrow py-12 text-center">
     <p class="text-sm text-gray-500">
-      Want to see detailed breakdowns? <a href="/compare" class="text-brand-600 hover:underline font-medium">Compare cities side by side</a>.
+      <a href="/compare" class="text-brand-600 hover:underline font-medium">Compare cities side by side</a>
     </p>
   </section>
 </Layout>
 
-<script define:vars={{ cityData, totalCities, SAFE_WITHDRAWAL_RATE }}>
-  function initCalculator() {
-    const params = new URLSearchParams(window.location.search);
-
-    // ─── Shared Utilities ───
-    function fmtCurrency(n) {
-      return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 0, maximumFractionDigits: 0 }).format(n);
-    }
-
-    function getScoreClass(score) {
-      if (score >= 7.5) return 'fire-score-high';
-      if (score >= 5.5) return 'fire-score-mid';
-      return 'fire-score-low';
-    }
-
-    function formatWithCommas(val) {
-      const num = val.replace(/[^0-9]/g, '');
-      return num.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-    }
-
-    function parseRawCurrency(el) {
-      return parseInt((el.value || '').replace(/[^0-9]/g, ''), 10) || 0;
-    }
-
-    // Climate filter mapping
-    const warmClimates = ['tropical', 'subtropical', 'desert', 'arid'];
-    const mildClimates = ['mediterranean'];
-    const fourSeasonClimates = ['continental'];
-
-    // ─── Filter Logic ───
-    let _stored = null;
-    try { const r = localStorage.getItem('pa_calc'); if (r) _stored = JSON.parse(r); } catch (e) {}
-    const activeFilters = {
-      loc: params.get('loc') || (_stored && _stored.loc) || '',
-      climate: params.get('climate') || (_stored && _stored.climate) || '',
-      eng: params.get('eng') || (_stored && _stored.eng) || '',
-      lifestyle: params.get('lifestyle') || (_stored && _stored.lifestyle) || 'budget',
-      minSuccessRate: parseInt(params.get('sr') || (_stored && _stored.sr) || '90', 10),
-    };
-
-    function getActiveFilters() {
-      return activeFilters;
-    }
-
-    // ─── DOM References ───
-    const fallback = document.getElementById('calc-fallback');
-    const results = document.getElementById('calc-results');
-    const summaryCards = document.getElementById('summary-cards');
-    const filterBar = document.getElementById('filter-bar');
-
-    // ─── Simulation State ───
-    let cachedSim = null;
-    let cachedSimKey = null;
-    let currentSavings = 0;
-
-    // ─── Persist to localStorage ───
-    function saveToLocalStorage() {
-      if (currentSavings <= 0) return;
-      const state = { nw: currentSavings };
-      const contrib = parseRawCurrency(document.getElementById('fire-contrib'));
-      const annualReturn = parseFloat(document.getElementById('fire-return')?.value || '7');
-      const volatility = parseFloat(document.getElementById('fire-vol')?.value || '12');
-      const yrsToRetire = parseInt(document.getElementById('fire-yrs')?.value || '0', 10);
-      const retireDuration = parseInt(document.getElementById('fire-duration')?.value || '30', 10);
-      const inflationRate = parseFloat(document.getElementById('fire-inflation')?.value || '3');
-      if (contrib > 0) state.contrib = contrib;
-      if (annualReturn !== 7) state['return'] = annualReturn;
-      if (volatility !== 12) state.vol = volatility;
-      if (yrsToRetire !== 0) state.yrs = yrsToRetire;
-      if (retireDuration !== 30) state.duration = retireDuration;
-      if (inflationRate !== 3) state.inflation = inflationRate;
-      if (activeFilters.loc) state.loc = activeFilters.loc;
-      if (activeFilters.climate) state.climate = activeFilters.climate;
-      if (activeFilters.eng) state.eng = activeFilters.eng;
-      if (activeFilters.lifestyle && activeFilters.lifestyle !== 'budget') state.lifestyle = activeFilters.lifestyle;
-      if (activeFilters.minSuccessRate !== 90) state.sr = activeFilters.minSuccessRate;
-      try { localStorage.setItem('pa_calc', JSON.stringify(state)); } catch (e) {}
-    }
-
-    // ─── URL Handling ───
-    function updateURL() {
-      const newParams = new URLSearchParams();
-      if (currentSavings > 0) newParams.set('nw', String(currentSavings));
-
-      // Advanced params — only include non-defaults
-      const contrib = parseRawCurrency(document.getElementById('fire-contrib'));
-      const annualReturn = parseFloat(document.getElementById('fire-return')?.value || '7');
-      const volatility = parseFloat(document.getElementById('fire-vol')?.value || '12');
-      const yrsToRetire = parseInt(document.getElementById('fire-yrs')?.value || '0', 10);
-      const retireDuration = parseInt(document.getElementById('fire-duration')?.value || '30', 10);
-      const inflationRate = parseFloat(document.getElementById('fire-inflation')?.value || '3');
-
-      if (contrib > 0) newParams.set('contrib', String(contrib));
-      if (annualReturn !== 7) newParams.set('return', String(annualReturn));
-      if (volatility !== 12) newParams.set('vol', String(volatility));
-      if (yrsToRetire !== 0) newParams.set('yrs', String(yrsToRetire));
-      if (retireDuration !== 30) newParams.set('duration', String(retireDuration));
-      if (inflationRate !== 3) newParams.set('inflation', String(inflationRate));
-
-      // Filters
-      if (activeFilters.loc) newParams.set('loc', activeFilters.loc);
-      if (activeFilters.climate) newParams.set('climate', activeFilters.climate);
-      if (activeFilters.eng) newParams.set('eng', activeFilters.eng);
-      if (activeFilters.lifestyle && activeFilters.lifestyle !== 'budget') newParams.set('lifestyle', activeFilters.lifestyle);
-      if (activeFilters.minSuccessRate !== 90) newParams.set('sr', String(activeFilters.minSuccessRate));
-      const qs = newParams.toString();
-      history.replaceState(null, '', '/' + (qs ? '?' + qs : ''));
-      saveToLocalStorage();
-    }
-
-    function passesFilters(city, filters) {
-      if (filters.loc === 'us' && city.country !== 'United States') return false;
-      if (filters.loc === 'intl' && city.country === 'United States') return false;
-      if (filters.climate === 'warm' && !warmClimates.includes(city.tags.climate)) return false;
-      if (filters.climate === 'mild' && !mildClimates.includes(city.tags.climate)) return false;
-      if (filters.climate === 'four' && !fourSeasonClimates.includes(city.tags.climate)) return false;
-      if (filters.eng === 'yes' && city.tags.english !== 'high') return false;
-      return true;
-    }
-
-    function getPrefAlignment(city, filters) {
-      let activeCount = 0;
-      let matched = 0;
-      if (filters.loc) {
-        activeCount++;
-        if (filters.loc === 'us' && city.country === 'United States') matched++;
-        if (filters.loc === 'intl' && city.country !== 'United States') matched++;
-      }
-      if (filters.climate) {
-        activeCount++;
-        if (filters.climate === 'warm' && warmClimates.includes(city.tags.climate)) matched++;
-        if (filters.climate === 'mild' && mildClimates.includes(city.tags.climate)) matched++;
-        if (filters.climate === 'four' && fourSeasonClimates.includes(city.tags.climate)) matched++;
-      }
-      if (filters.eng) {
-        activeCount++;
-        if (filters.eng === 'yes' && city.tags.english === 'high') matched++;
-      }
-      return activeCount === 0 ? 1.0 : matched / activeCount;
-    }
-
-    // ─── Lifestyle tiers ordered from highest to lowest ───
-    const lifestyleTiers = [
-      { key: '10M', label: 'Luxury', level: 4 },
-      { key: '5M', label: 'Premium', level: 3 },
-      { key: '3M', label: 'Comfortable', level: 2 },
-      { key: '1M', label: 'Budget', level: 1 },
-    ];
-
-    const minLifestyleLevels = { budget: 1, comfortable: 2, premium: 3, luxury: 4 };
-
-    function getBestAffordableTier(city, monthlyBudget) {
-      for (const tier of lifestyleTiers) {
-        const tierData = city.tiers[tier.key];
-        if (tierData && monthlyBudget >= tierData.totalSpend) {
-          return tier;
-        }
-      }
-      return null;
-    }
-
-    function getBestConfidentTier(city, monthlyBudget, minConfidence, confidenceCache) {
-      for (const tier of lifestyleTiers) {
-        const tierData = city.tiers[tier.key];
-        if (tierData && monthlyBudget >= tierData.totalSpend) {
-          const cacheKey = city.slug + '|' + tier.key;
-          const conf = confidenceCache[cacheKey];
-          if (conf !== undefined && conf >= minConfidence) {
-            return tier;
-          }
-        }
-      }
-      return null;
-    }
-
-    // ─── Lifestyle reach breakdown ───
-    function renderLifestyleReach(monthlyBudget) {
-      const container = document.getElementById('lifestyle-reach');
-      const barsEl = document.getElementById('lifestyle-reach-bars');
-      const headerEl = document.getElementById('lifestyle-reach-header');
-      const descEl = document.getElementById('lifestyle-reach-desc');
-      const ctaEl = document.getElementById('lifestyle-reach-cta');
-      if (!container || !barsEl) return;
-
-      const levels = [
-        { key: '1M', label: 'Budget', color: 'bg-gray-400', desc: 'Essentials \u2014 modest apartment, local food, public transit, basic healthcare.' },
-        { key: '3M', label: 'Comfortable', color: 'bg-brand-400', desc: 'Nice apartment, regular dining out, good healthcare, weekend activities.' },
-        { key: '5M', label: 'Premium', color: 'bg-brand-600', desc: 'Spacious home, fine dining, premium healthcare, a car, frequent travel.' },
-        { key: '10M', label: 'Luxury', color: 'bg-brand-800', desc: 'Luxury housing, private healthcare, domestic help, first-class travel.' },
-      ];
-
-      const total = cityData.length;
-      const counts = levels.map((level) => {
-        const count = cityData.filter((city) => {
-          const tierData = city.tiers[level.key];
-          return tierData && monthlyBudget >= tierData.totalSpend;
-        }).length;
-        return { ...level, count, pct: total > 0 ? Math.round((count / total) * 100) : 0 };
-      });
-
-      const budgetCount = counts[0].count;
-
-      if (headerEl) {
-        headerEl.textContent = budgetCount === 0 ? 'You\u2019re not quite there yet' : 'Your Retirement Reach';
-      }
-
-      if (descEl) {
-        if (budgetCount === 0) {
-          descEl.textContent = 'Your current portfolio doesn\u2019t cover the cost of living in any of the cities we track. Keep saving and investing \u2014 you\u2019re building toward FIRE.';
-        } else if (budgetCount < 10) {
-          descEl.textContent = 'Your budget goes further in some places than others. You qualify in a handful of cities today \u2014 increasing your savings or extending your timeline will unlock more.';
-        } else {
-          descEl.textContent = 'Your budget goes further in some places than others. Here\u2019s the lifestyle you can realistically sustain across the cities we track.';
-        }
-      }
-
-      barsEl.innerHTML = counts.map((l) =>
-        `<div class="mb-3">
-          <div class="flex items-center gap-3">
-            <span class="text-xs font-medium text-gray-600 w-24 shrink-0">${l.label}</span>
-            <div class="flex-1 h-5 bg-sand-100 rounded-full overflow-hidden">
-              <div class="${l.color} h-full rounded-full transition-all duration-500" style="width: ${l.pct}%"></div>
-            </div>
-            <span class="text-xs font-bold text-gray-700 w-16 text-right">${l.pct}% <span class="font-normal text-gray-400">(${l.count})</span></span>
-          </div>
-          <p class="text-xs text-gray-400 ml-[108px] mt-1">${l.desc}</p>
-        </div>`
-      ).join('');
-
-      if (ctaEl) {
-        if (budgetCount === 0) {
-          ctaEl.innerHTML = '<p class="text-sm text-gray-500">Try increasing your savings, adding annual contributions, or extending your timeline using <strong>Customize Assumptions</strong> above to see what\u2019s possible.</p>';
-        } else {
-          ctaEl.innerHTML = '<p class="text-base font-semibold text-brand-700">Explore your retirement options below \u2193</p>';
-        }
-      }
-
-      container.classList.remove('hidden');
-    }
-
-    // ─── Rank cities with composite scoring ───
-    function rankCities(monthlyBudget, minLifestyle, filters) {
-      const minLevel = minLifestyleLevels[minLifestyle] || 1;
-
-      const allCitiesRanked = cityData.map((city) => {
-        const best = getBestAffordableTier(city, monthlyBudget);
-        if (!best || best.level < minLevel) return null;
-        const tierData = city.tiers[best.key];
-        const surplus = monthlyBudget - tierData.totalSpend;
-        const surplusRatio = monthlyBudget > 0 ? surplus / monthlyBudget : 0;
-        return { ...city, totalSpend: tierData.totalSpend, surplus, surplusRatio, usedTier: best.key, lifestyleLabel: best.label, lifestyleLevel: best.level };
-      }).filter(Boolean);
-
-      let filtered = allCitiesRanked.filter((c) => passesFilters(c, filters));
-
-      if (filtered.length === 0) return [];
-
-      return filtered.map((city) => {
-        const normalizedFire = city.fireScore / 10;
-        const prefAlignment = getPrefAlignment(city, filters);
-        const compositeScore = 0.60 * normalizedFire + 0.40 * prefAlignment;
-        return { ...city, compositeScore };
-      }).sort((a, b) => b.compositeScore - a.compositeScore);
-    }
-
-    // ─── Show More button (attached once) ───
-    let visibleCount = 10;
-    let currentRenderFn = null;
-    const showMoreBtnGlobal = document.getElementById('show-more-btn');
-    if (showMoreBtnGlobal) {
-      showMoreBtnGlobal.addEventListener('click', () => {
-        visibleCount += 10;
-        if (currentRenderFn) currentRenderFn();
-      });
-    }
-
-    // ─── Render city table rows ───
-    function renderRows(ranked, tbody, netWorthForLinks, showConfidence) {
-      if (!tbody) return;
-      tbody.innerHTML = '';
-
-      const filteredCountEl = document.getElementById('filtered-count');
-      if (filteredCountEl) filteredCountEl.textContent = ranked.length + (ranked.length === 1 ? ' city' : ' cities');
-
-      let sortKey = 'fireScore';
-      let sortAsc = false;
-      const sortArrow = (key) => `<span class="inline-block w-3 text-center${sortKey === key ? '' : ' invisible'}">${sortKey === key ? (sortAsc ? '▲' : '▼') : '▲'}</span>`;
-      const thClass = 'py-3 px-4 font-semibold text-gray-600 cursor-pointer hover:text-brand-600 select-none transition-colors';
-      const headerTips = {
-        city: 'City and country',
-        confidence: 'Monte Carlo simulation: % of scenarios where your portfolio lasts through retirement at this city\u2019s cost of living',
-        fireScore: 'Quality-of-life score (1\u201310) based on safety, healthcare, infrastructure, and expat friendliness — cost of living is handled separately by the affordability filter',
-        lifestyle: 'The best lifestyle you can afford here: Budget (essentials), Comfortable (solid middle-class), Premium (upscale), or Luxury (top-tier)',
-        totalSpend: 'Estimated monthly cost of living at your lifestyle level in this city',
-        surplus: 'How much of your monthly budget remains after covering this city\u2019s cost of living',
-      };
-
-      function sortRanked() {
-        if (sortKey === 'rank') {
-          ranked.sort((a, b) => b.compositeScore - a.compositeScore);
-        } else {
-          ranked.sort((a, b) => {
-            let va, vb;
-            switch (sortKey) {
-              case 'city': va = a.name.toLowerCase(); vb = b.name.toLowerCase(); break;
-              case 'confidence': va = a.confidence || 0; vb = b.confidence || 0; break;
-              case 'fireScore': va = a.fireScore; vb = b.fireScore; break;
-              case 'lifestyle': va = a.lifestyleLevel || 0; vb = b.lifestyleLevel || 0; break;
-              case 'totalSpend': va = a.totalSpend; vb = b.totalSpend; break;
-              case 'surplus': va = a.surplus; vb = b.surplus; break;
-              default: return 0;
-            }
-            if (va < vb) return sortAsc ? -1 : 1;
-            if (va > vb) return sortAsc ? 1 : -1;
-            return 0;
-          });
-        }
-      }
-
-      function handleSort(key) {
-        if (sortKey === key) {
-          sortAsc = !sortAsc;
-        } else {
-          sortKey = key;
-          sortAsc = key === 'city' ? true : false;
-        }
-        sortRanked();
-        buildHeader();
-        render();
-      }
-
-      const thead = document.getElementById('city-rankings-head');
-      function buildHeader() {
-        if (!thead) return;
-        const tip = (key) => headerTips[key] ? ` title="${headerTips[key]}"` : '';
-        const confHeader = showConfidence
-          ? `<th class="text-right ${thClass}" data-sort="confidence"${tip('confidence')}>Success Rate${sortArrow('confidence')}</th>`
-          : '';
-        thead.innerHTML = `
-          <tr class="border-b-2 border-sand-200">
-            <th class="text-left py-3 px-4 font-semibold text-gray-600 hidden sm:table-cell">#</th>
-            <th class="text-left sticky left-0 bg-white z-10 ${thClass}" data-sort="city"${tip('city')}>City${sortArrow('city')}</th>
-            ${confHeader}
-            <th class="text-right ${thClass}" data-sort="fireScore"${tip('fireScore')}>FIRE Score${sortArrow('fireScore')}</th>
-            <th class="text-right ${thClass}" data-sort="lifestyle"${tip('lifestyle')}>Lifestyle${sortArrow('lifestyle')}</th>
-            <th class="text-right ${thClass}" data-sort="totalSpend"${tip('totalSpend')}>Total Spend${sortArrow('totalSpend')}</th>
-            <th class="text-right ${thClass}" data-sort="surplus"${tip('surplus')}>Surplus${sortArrow('surplus')}</th>
-          </tr>
-        `;
-        thead.querySelectorAll('[data-sort]').forEach((th) => {
-          th.addEventListener('click', () => handleSort(th.getAttribute('data-sort')));
-        });
-      }
-      buildHeader();
-
-      const showMoreContainer = document.getElementById('show-more-container');
-      const showMoreCount = document.getElementById('show-more-count');
-
-      const filterParamStr = ['loc', 'climate', 'eng']
-        .filter((k) => activeFilters[k])
-        .map((k) => k + '=' + activeFilters[k])
-        .join('&');
-
-      function getConfidenceColor(conf) {
-        if (conf >= 90) return 'text-emerald-600';
-        if (conf >= 80) return 'text-amber-600';
-        if (conf >= 70) return 'text-orange-600';
-        return 'text-red-600';
-      }
-
-      function getConfidenceBg(conf) {
-        if (conf >= 90) return 'background-color: #10b981';
-        if (conf >= 80) return 'background-color: #f59e0b';
-        if (conf >= 70) return 'background-color: #f97316';
-        return 'background-color: #ef4444';
-      }
-
-      function render() {
-        tbody.innerHTML = '';
-        const toShow = ranked.slice(0, visibleCount);
-        toShow.forEach((city, index) => {
-          const tr = document.createElement('tr');
-          tr.className = 'border-b border-sand-100 hover:bg-sand-50 transition-colors';
-          const surplusClass = city.surplus >= 0 ? 'text-emerald-600' : 'text-red-600';
-          const surplusPrefix = city.surplus >= 0 ? '+' : '';
-          const scoreClass = getScoreClass(city.fireScore);
-          const linkParams = 'nw=' + netWorthForLinks + (filterParamStr ? '&' + filterParamStr : '');
-
-          const confCell = showConfidence
-            ? `<td class="text-right py-3 px-4">
-                <div class="inline-flex items-center gap-1.5">
-                  <div class="w-12 h-2 rounded-full bg-sand-200 overflow-hidden">
-                    <div class="h-full rounded-full" style="width: ${city.confidence}%; ${getConfidenceBg(city.confidence)}"></div>
-                  </div>
-                  <span class="font-bold text-xs ${getConfidenceColor(city.confidence)}">${city.confidence}%</span>
-                </div>
-              </td>`
-            : '';
-
-          tr.innerHTML = `
-            <td class="py-3 px-4 text-gray-400 font-medium hidden sm:table-cell">${index + 1}</td>
-            <td class="py-3 px-4 sticky left-0 bg-white z-10" title="${city.tagline}">
-              <a href="/cities/${city.slug}?${linkParams}" class="flex items-center gap-2 hover:text-brand-600 transition-colors">
-                <span>${city.emoji}</span>
-                <span class="font-medium">${city.name}</span>
-                <span class="text-gray-400 text-xs">${city.country}</span>
-              </a>
-            </td>
-            ${confCell}
-            <td class="text-right py-3 px-4" title="${city.tagline}">
-              <span class="inline-flex items-center justify-center w-8 h-8 rounded-full text-white text-xs font-bold ${scoreClass}">
-                ${city.fireScore.toFixed(1)}
-              </span>
-            </td>
-            <td class="text-right py-3 px-4 text-gray-500">${city.lifestyleLabel}</td>
-            <td class="text-right py-3 px-4 font-bold">${fmtCurrency(city.totalSpend)}</td>
-            <td class="text-right py-3 px-4 font-bold ${surplusClass}">
-              ${surplusPrefix}${fmtCurrency(city.surplus)}
-            </td>
-          `;
-          tbody.appendChild(tr);
-        });
-
-        if (showMoreContainer && showMoreCount) {
-          if (visibleCount < ranked.length) {
-            showMoreContainer.classList.remove('hidden');
-            showMoreCount.textContent = 'Showing ' + visibleCount + ' of ' + ranked.length + ' cities';
-          } else {
-            showMoreContainer.classList.add('hidden');
-          }
-        }
-      }
-
-      visibleCount = 10;
-      currentRenderFn = render;
-      render();
-    }
-
-    // ─── Filter button setup ───
-    function syncFilterButtonStyles() {
-      document.querySelectorAll('.filter-btn').forEach((btn) => {
-        const filterName = btn.getAttribute('data-filter');
-        const filterValue = btn.getAttribute('data-value') || '';
-        const currentValue = activeFilters[filterName] || '';
-        btn.classList.toggle('active', filterValue === currentValue);
-      });
-    }
-
-    function setupFilterButtons() {
-      syncFilterButtonStyles();
-      document.querySelectorAll('.filter-btn').forEach((btn) => {
-        btn.addEventListener('click', () => {
-          const filterName = btn.getAttribute('data-filter');
-          const filterValue = btn.getAttribute('data-value') || '';
-          activeFilters[filterName] = filterValue;
-          syncFilterButtonStyles();
-          updateURL();
-          reRender();
-        });
-      });
-    }
-
-    // ─── Lifestyle filter pills ───
-    const lifestyleLevelMap = { budget: 1, comfortable: 2, premium: 3, luxury: 4 };
-    const lifestyleDescriptions = {
-      budget: 'Essentials covered — modest apartment, local food, public transit, and basic healthcare.',
-      comfortable: 'Solid middle-class — nice apartment, regular dining out, good healthcare, and weekend activities.',
-      premium: 'Upscale living — spacious home, fine dining, premium healthcare, a car, and frequent travel.',
-      luxury: 'Top-tier everything — luxury housing, private healthcare, high-end dining, domestic help, and first-class travel.',
-    };
-    const lifestyleDescEl = document.getElementById('lifestyle-filter-desc');
-
-    function syncLifestylePills() {
-      const minLevel = lifestyleLevelMap[activeFilters.lifestyle] || 1;
-      document.querySelectorAll('.lifestyle-pill').forEach((pill) => {
-        const level = parseInt(pill.getAttribute('data-level'), 10);
-        pill.classList.remove('at-min', 'above-min');
-        if (level === minLevel) pill.classList.add('at-min');
-        else if (level > minLevel) pill.classList.add('above-min');
-      });
-      if (lifestyleDescEl) lifestyleDescEl.textContent = lifestyleDescriptions[activeFilters.lifestyle] || '';
-    }
-
-    function setupLifestylePills() {
-      syncLifestylePills();
-      document.querySelectorAll('.lifestyle-pill').forEach((pill) => {
-        pill.addEventListener('click', () => {
-          activeFilters.lifestyle = pill.getAttribute('data-min-lifestyle');
-          syncLifestylePills();
-          updateURL();
-          reRender();
-        });
-      });
-    }
-
-    // ─── Re-render (filter-only changes, no re-simulation) ───
-    function reRender() {
-      if (cachedSim) renderResults(cachedSim);
-    }
-
-    // ─── Monte Carlo Simulation ───
-    function randomNormal(mean, stdDev) {
-      let u1 = Math.random();
-      while (u1 === 0) u1 = Math.random();
-      const u2 = Math.random();
-      const z = Math.sqrt(-2.0 * Math.log(u1)) * Math.cos(2.0 * Math.PI * u2);
-      return mean + stdDev * z;
-    }
-
-    function runAccumulation(savings, contrib, annualReturn, volatility, yrsToRetire) {
-      const NUM_RUNS = 2000;
-      const portfolios = [];
-
-      for (let run = 0; run < NUM_RUNS; run++) {
-        let portfolio = savings;
-        for (let y = 0; y < yrsToRetire; y++) {
-          const r = randomNormal(annualReturn, volatility);
-          portfolio = portfolio * (1 + r / 100) + contrib;
-          if (portfolio < 0) portfolio = 0;
-        }
-        portfolios.push(portfolio);
-      }
-
-      portfolios.sort((a, b) => a - b);
-      const median = portfolios[Math.floor(NUM_RUNS / 2)];
-      const monthlyBudget = Math.round(((median * SAFE_WITHDRAWAL_RATE) + contrib) / 12);
-
-      return { portfolios, median, monthlyBudget, contrib, NUM_RUNS };
-    }
-
-    function getCityConfidence(sim, annualSpend, annualReturn, volatility, retireDuration, inflationRate) {
-      let survived = 0;
-
-      for (let run = 0; run < sim.NUM_RUNS; run++) {
-        let p = sim.portfolios[run];
-        let withdrawal = annualSpend;
-        let didSurvive = true;
-
-        for (let y = 0; y < retireDuration; y++) {
-          const r = randomNormal(annualReturn, volatility);
-          p = p * (1 + r / 100) - withdrawal + sim.contrib;
-          if (p < 0) { didSurvive = false; break; }
-          withdrawal *= (1 + inflationRate / 100);
-        }
-
-        if (didSurvive) survived++;
-      }
-
-      return Math.round((survived / sim.NUM_RUNS) * 100);
-    }
-
-    // ─── Unified Simulation ───
-    function runAndRender() {
-      if (!currentSavings || currentSavings <= 0) return;
-
-      const contrib = parseRawCurrency(document.getElementById('fire-contrib'));
-      const annualReturn = parseFloat(document.getElementById('fire-return')?.value || '7');
-      const volatility = parseFloat(document.getElementById('fire-vol')?.value || '12');
-      const yrsToRetire = parseInt(document.getElementById('fire-yrs')?.value || '0', 10);
-      const retireDuration = parseInt(document.getElementById('fire-duration')?.value || '30', 10);
-      const inflationRate = parseFloat(document.getElementById('fire-inflation')?.value || '3');
-
-      // Check if sim params changed (skip re-run for filter-only changes)
-      const simKey = [currentSavings, contrib, annualReturn, volatility, yrsToRetire, retireDuration, inflationRate].join('|');
-      if (simKey !== cachedSimKey) {
-        cachedSim = runAccumulation(currentSavings, contrib, annualReturn, volatility, yrsToRetire);
-        cachedSim.annualReturn = annualReturn;
-        cachedSim.volatility = volatility;
-        cachedSim.retireDuration = retireDuration;
-        cachedSim.inflationRate = inflationRate;
-        cachedSim.yrsToRetire = yrsToRetire;
-
-        // Compute confidence cache
-        cachedSim.confidenceCache = {};
-        cityData.forEach((city) => {
-          for (const tier of lifestyleTiers) {
-            const tierData = city.tiers[tier.key];
-            if (tierData) {
-              const cacheKey = city.slug + '|' + tier.key;
-              const annualSpend = tierData.totalSpend * 12;
-              cachedSim.confidenceCache[cacheKey] = getCityConfidence(cachedSim, annualSpend, annualReturn, volatility, retireDuration, inflationRate);
-            }
-          }
-        });
-
-        cachedSimKey = simKey;
-      }
-
-      renderResults(cachedSim);
-    }
-
-    // ─── Unified Render ───
-    function renderResults(sim) {
-      fallback?.classList.add('hidden');
-      summaryCards?.classList.remove('hidden');
-      filterBar?.classList.remove('hidden');
-      results?.classList.remove('hidden');
-
-      const yrsToRetire = sim.yrsToRetire || 0;
-      const lifestyle = activeFilters.lifestyle || 'budget';
-      const filters = getActiveFilters();
-      const minConf = activeFilters.minSuccessRate;
-      const minLevel = minLifestyleLevels[lifestyle] || 1;
-
-      // Projected Portfolio card — only show when years to retirement > 0
-      const projectedCard = document.getElementById('projected-card');
-      const projEl = document.getElementById('fire-projected');
-      const summaryGrid = document.getElementById('summary-grid');
-      if (projectedCard && projEl) {
-        if (yrsToRetire > 0) {
-          projectedCard.classList.remove('hidden');
-          summaryGrid?.classList.remove('sm:grid-cols-3');
-          summaryGrid?.classList.add('sm:grid-cols-4');
-          if (sim.median >= 1_000_000) {
-            projEl.textContent = '$' + (sim.median / 1_000_000).toFixed(1) + 'M';
-          } else {
-            projEl.textContent = fmtCurrency(sim.median);
-          }
-        } else {
-          projectedCard.classList.add('hidden');
-          summaryGrid?.classList.remove('sm:grid-cols-4');
-          summaryGrid?.classList.add('sm:grid-cols-3');
-        }
-      }
-
-      // Budget subtitle
-      const budgetSubEl = document.getElementById('summary-budget-subtitle');
-      if (budgetSubEl) {
-        budgetSubEl.textContent = sim.contrib > 0
-          ? '4% withdrawal + ' + fmtCurrency(Math.round(sim.contrib / 12)) + '/mo contributions'
-          : '4% safe withdrawal rate';
-      }
-
-      // Cities with surplus count (broadest set, no filters)
-      const noFilters = { loc: '', climate: '', eng: '' };
-      const allAffordable = rankCities(sim.monthlyBudget, 'budget', noFilters);
-      const surplusCount = allAffordable.length;
-
-      // Confidence-aware ranking
-      const ranked = cityData
-        .filter((city) => passesFilters(city, filters))
-        .map((city) => {
-          const best = getBestConfidentTier(city, sim.monthlyBudget, minConf, sim.confidenceCache);
-          if (!best || best.level < minLevel) return null;
-          const tierData = city.tiers[best.key];
-          const surplus = sim.monthlyBudget - tierData.totalSpend;
-          const surplusRatio = sim.monthlyBudget > 0 ? surplus / sim.monthlyBudget : 0;
-          const cacheKey = city.slug + '|' + best.key;
-          const confidence = (sim.confidenceCache && sim.confidenceCache[cacheKey]) || 0;
-          return { ...city, totalSpend: tierData.totalSpend, surplus, surplusRatio, usedTier: best.key, lifestyleLabel: best.label, lifestyleLevel: best.level, confidence };
-        })
-        .filter(Boolean)
-        .map((city) => {
-          const normalizedFire = city.fireScore / 10;
-          const prefAlignment = getPrefAlignment(city, filters);
-          const compositeScore = 0.60 * normalizedFire + 0.40 * prefAlignment;
-          return { ...city, compositeScore };
-        })
-        .sort((a, b) => b.compositeScore - a.compositeScore);
-
-      // Update summary cards
-      const budgetEl = document.getElementById('summary-budget');
-      const surplusCountEl = document.getElementById('summary-surplus-count');
-      const surplusSubEl = document.getElementById('summary-surplus-subtitle');
-      const bestEl = document.getElementById('summary-best');
-      const bestSurplusEl = document.getElementById('summary-best-surplus');
-
-      if (budgetEl) budgetEl.textContent = fmtCurrency(sim.monthlyBudget) + '/mo';
-      if (surplusCountEl) surplusCountEl.textContent = String(surplusCount);
-      if (surplusSubEl) surplusSubEl.textContent = 'budget to luxury';
-      renderLifestyleReach(sim.monthlyBudget);
-
-      const noCitiesEl = document.getElementById('fire-no-cities');
-      const tbody = document.getElementById('city-rankings');
-
-      if (ranked.length === 0) {
-        noCitiesEl?.classList.remove('hidden');
-        if (bestEl) bestEl.textContent = '\u2014';
-        if (bestSurplusEl) bestSurplusEl.textContent = 'No matches with current filters';
-        if (tbody) tbody.innerHTML = '';
-        const filteredCountEl = document.getElementById('filtered-count');
-        if (filteredCountEl) filteredCountEl.textContent = '0 cities';
-        document.getElementById('show-more-container')?.classList.add('hidden');
-      } else {
-        noCitiesEl?.classList.add('hidden');
-        if (bestEl) bestEl.textContent = ranked[0].emoji + ' ' + ranked[0].name;
-        if (bestSurplusEl) {
-          bestSurplusEl.textContent = '+' + fmtCurrency(ranked[0].surplus) + '/mo surplus';
-          bestSurplusEl.className = 'text-xs text-emerald-600 mt-1';
-        }
-        renderRows(ranked, tbody, yrsToRetire > 0 ? Math.round(sim.median) : currentSavings, true);
-      }
-    }
-
-    // ─── Debounced auto-run ───
-    let debounceTimer = null;
-    function debouncedRunAndRender() {
-      clearTimeout(debounceTimer);
-      debounceTimer = setTimeout(() => { runAndRender(); updateURL(); }, 500);
-    }
-
-    // ─── Advanced Panel Toggle ───
-    function updateAdvancedSummary() {
-      const summaryEl = document.getElementById('advanced-summary');
-      if (!summaryEl) return;
-      const ret = document.getElementById('fire-return')?.value || '7';
-      const vol = document.getElementById('fire-vol')?.value || '12';
-      const dur = document.getElementById('fire-duration')?.value || '30';
-      const inf = document.getElementById('fire-inflation')?.value || '3';
-      const contrib = parseRawCurrency(document.getElementById('fire-contrib'));
-      const yrs = document.getElementById('fire-yrs')?.value || '0';
-      let parts = [ret + '% return', vol + '% volatility', dur + 'yr retirement', inf + '% inflation'];
-      if (parseInt(yrs, 10) > 0) parts.push(yrs + 'yr to retire');
-      if (contrib > 0) parts.push(fmtCurrency(contrib) + '/yr contributions');
-      summaryEl.textContent = parts.join(' \u00b7 ');
-    }
-
-    function setupAdvancedPanel() {
-      const toggle = document.getElementById('advanced-toggle');
-      const panel = document.getElementById('advanced-panel');
-      const chevron = document.getElementById('advanced-chevron');
-
-      if (toggle && panel && chevron) {
-        toggle.addEventListener('click', () => {
-          panel.classList.toggle('hidden');
-          chevron.classList.toggle('rotate-180');
-        });
-      }
-
-      // Slider value displays + debounced auto-run
-      const sliderConfigs = [
-        { id: 'fire-return', valId: 'fire-return-val', suffix: '%' },
-        { id: 'fire-vol', valId: 'fire-vol-val', suffix: '%' },
-        { id: 'fire-yrs', valId: 'fire-yrs-val', suffix: '' },
-        { id: 'fire-duration', valId: 'fire-duration-val', suffix: ' years' },
-        { id: 'fire-inflation', valId: 'fire-inflation-val', suffix: '%' },
-      ];
-
-      sliderConfigs.forEach(({ id, valId, suffix }) => {
-        const slider = document.getElementById(id);
-        const valEl = document.getElementById(valId);
-        if (slider && valEl) {
-          slider.addEventListener('input', () => {
-            valEl.textContent = slider.value + suffix;
-            updateAdvancedSummary();
-            debouncedRunAndRender();
-          });
-        }
-      });
-
-      // Contributions input formatting + debounced auto-run
-      const contribInput = document.getElementById('fire-contrib');
-      if (contribInput) {
-        contribInput.addEventListener('input', () => {
-          const pos = contribInput.selectionStart || 0;
-          const digitsBefore = contribInput.value.slice(0, pos).replace(/[^0-9]/g, '').length;
-          contribInput.value = formatWithCommas(contribInput.value);
-          let newPos = 0;
-          let counted = 0;
-          for (let i = 0; i < contribInput.value.length && counted < digitsBefore; i++) {
-            if (/[0-9]/.test(contribInput.value[i])) counted++;
-            newPos = i + 1;
-          }
-          contribInput.setSelectionRange(newPos, newPos);
-          updateAdvancedSummary();
-          debouncedRunAndRender();
-        });
-      }
-    }
-
-    // ─── Success Rate Slider Setup ───
-    function setupSuccessRateSlider() {
-      const slider = document.getElementById('success-rate-slider');
-      const valueEl = document.getElementById('success-rate-value');
-      if (!slider || !valueEl) return;
-
-      slider.value = String(activeFilters.minSuccessRate);
-      valueEl.textContent = activeFilters.minSuccessRate + '%';
-
-      const descEl = document.getElementById('success-rate-desc');
-      const mcLink = '<a href="/about#monte-carlo" class="text-brand-600 hover:underline">Monte Carlo</a>';
-      function updateSuccessRateDesc(val) {
-        if (!descEl) return;
-        if (val === 100) {
-          descEl.innerHTML = 'Because we use a ' + mcLink + ' simulation, 100% is nearly impossible. We recommend 90% or 95% as very conservative.';
-        } else {
-          descEl.innerHTML = '90% is recommended \u2014 the percentage of ' + mcLink + ' simulated scenarios where your portfolio lasts through retirement.';
-        }
-      }
-      updateSuccessRateDesc(activeFilters.minSuccessRate);
-
-      slider.addEventListener('input', () => {
-        const val = parseInt(slider.value, 10);
-        valueEl.textContent = val + '%';
-        activeFilters.minSuccessRate = val;
-        updateSuccessRateDesc(val);
-        updateURL();
-        reRender();
-      });
-    }
-
-    // ─── NetWorthInput form interception ───
-    function setupNetWorthInput() {
-      // The NetWorthInput component uses a form that navigates to /?nw=X
-      // Intercept it for instant results without page reload
-      const form = document.querySelector('#nw-form');
-      if (form) {
-        form.addEventListener('submit', (e) => {
-          e.preventDefault();
-          const input = form.querySelector('input[name="nw"]') || form.querySelector('input');
-          if (!input) return;
-          const raw = parseInt((input.value || '').replace(/[^0-9]/g, ''), 10) || 0;
-          if (raw <= 0) return;
-          currentSavings = raw;
-          runAndRender();
-          updateURL();
-        });
-      }
-    }
-
-    // ─── Restore from URL (with localStorage fallback) ───
-    function restoreFromUrl() {
-      // Backwards compat: old FIRE URLs had mode=fire&savings=X
-      const modeParam = params.get('mode');
-      let nw = parseInt(params.get('nw') || '0', 10);
-      if (!nw && modeParam === 'fire') {
-        nw = parseInt(params.get('savings') || '0', 10);
-      }
-
-      // If no URL params, try localStorage
-      let stored = null;
-      const hasUrlParams = nw > 0 || params.get('contrib') || params.get('return') || params.get('vol') || params.get('yrs') || params.get('duration') || params.get('inflation');
-      if (!hasUrlParams) {
-        try {
-          const raw = localStorage.getItem('pa_calc');
-          if (raw) stored = JSON.parse(raw);
-        } catch (e) {}
-      }
-
-      if (!nw && stored && stored.nw) nw = stored.nw;
-
-      // Restore advanced params — URL takes priority, then localStorage, then defaults
-      const setSlider = (id, valId, val, suffix) => {
-        const slider = document.getElementById(id);
-        const valEl = document.getElementById(valId);
-        if (slider) slider.value = String(val);
-        if (valEl) valEl.textContent = val + suffix;
-      };
-
-      const contrib = parseInt(params.get('contrib') || (stored && stored.contrib) || '0', 10);
-      const annualReturn = parseFloat(params.get('return') || (stored && stored['return']) || '7');
-      const volatility = parseFloat(params.get('vol') || (stored && stored.vol) || '12');
-      const yrsToRetire = parseInt(params.get('yrs') || (stored && stored.yrs) || '0', 10);
-      const retireDuration = parseInt(params.get('duration') || (stored && stored.duration) || '30', 10);
-      const inflationRate = parseFloat(params.get('inflation') || (stored && stored.inflation) || '3');
-      const lifestyle = params.get('lifestyle') || (stored && stored.lifestyle) || 'budget';
-
-      // Populate form fields
-      const contribInput = document.getElementById('fire-contrib');
-      if (contribInput && contrib > 0) contribInput.value = contrib.toLocaleString('en-US');
-
-      setSlider('fire-return', 'fire-return-val', annualReturn, '%');
-      setSlider('fire-vol', 'fire-vol-val', volatility, '%');
-      setSlider('fire-yrs', 'fire-yrs-val', yrsToRetire, '');
-      setSlider('fire-duration', 'fire-duration-val', retireDuration, ' years');
-      setSlider('fire-inflation', 'fire-inflation-val', inflationRate, '%');
-
-      // Set lifestyle
-      activeFilters.lifestyle = lifestyle;
-      syncLifestylePills();
-
-      // Restore success rate (already set in activeFilters from URL or localStorage)
-      if (activeFilters.minSuccessRate !== 90) {
-        const sr = activeFilters.minSuccessRate;
-        const srSlider = document.getElementById('success-rate-slider');
-        const srValue = document.getElementById('success-rate-value');
-        if (srSlider) srSlider.value = String(sr);
-        if (srValue) srValue.textContent = sr + '%';
-      }
-
-      // Auto-expand advanced panel if any non-default params
-      const hasAdvanced = contrib > 0 || annualReturn !== 7 || volatility !== 12 || yrsToRetire !== 0 || retireDuration !== 30 || inflationRate !== 3;
-      if (hasAdvanced) {
-        const panel = document.getElementById('advanced-panel');
-        const chevron = document.getElementById('advanced-chevron');
-        if (panel) panel.classList.remove('hidden');
-        if (chevron) chevron.classList.add('rotate-180');
-      }
-
-      updateAdvancedSummary();
-
-      // Run simulation if we have savings
-      if (nw > 0) {
-        currentSavings = nw;
-        runAndRender();
-      } else {
-        fallback?.classList.remove('hidden');
-      }
-    }
-
-    // ─── Initialize ───
-    setupFilterButtons();
-    setupLifestylePills();
-    setupSuccessRateSlider();
-    setupAdvancedPanel();
-    setupNetWorthInput();
-    restoreFromUrl();
+<style>
+  .filter-btn {
+    color: #4b5563;
+    background-color: white;
+    border-color: #e6ddd0;
+  }
+  .filter-btn:hover {
+    background-color: #faf8f5;
+    border-color: #c4bfb5;
+    color: #1f2937;
+  }
+  .filter-btn.active {
+    background-color: #0074c5;
+    color: white;
+    border-color: #0074c5;
+  }
+  .city-card {
+    background: white;
+    border-radius: 1rem;
+    border: 1px solid #e5e0d8;
+    overflow: hidden;
+    transition: box-shadow 0.2s, border-color 0.2s;
+  }
+  .city-card:hover {
+    box-shadow: 0 8px 24px -4px rgba(0,0,0,0.08);
+    border-color: #c4bfb5;
+  }
+  .reverse-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    max-height: 240px;
+    overflow-y: auto;
+    background: #faf8f5;
+    border: 1px solid #e5e0d8;
+    border-radius: 0.75rem;
+    box-shadow: 0 12px 24px -4px rgba(0,0,0,0.12);
+    margin-top: 4px;
+    padding: 4px;
+  }
+</style>
+
+<script define:vars={{ cityData, SAFE_WITHDRAWAL_RATE }}>
+  // ─── State ───
+  let portfolio = 0;
+  let lifestyle = 'comfortable';
+  let visibleCount = 12;
+  const filters = { loc: '', climate: '', eng: '' };
+
+  // Climate mappings
+  const warmClimates = ['Tropical', 'Warm', 'Desert'];
+  const mildClimates = ['Mediterranean', 'Mild'];
+
+  // ─── Helpers ───
+  function fmt(n) {
+    return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 0, maximumFractionDigits: 0 }).format(n);
   }
 
-  initCalculator();
+  function fmtCompact(n) {
+    if (n >= 1_000_000) {
+      const m = n / 1_000_000;
+      return '$' + m.toFixed(2).replace(/\.?0+$/, '') + 'M';
+    }
+    if (n >= 1_000) return '$' + Math.round(n / 1_000) + 'K';
+    return fmt(n);
+  }
+
+  function fmtPortfolio(n) {
+    if (n >= 1_000_000) {
+      const m = n / 1_000_000;
+      return '$' + (m % 1 === 0 ? m.toFixed(0) : m.toFixed(1)) + 'M';
+    }
+    return '$' + Math.round(n / 1_000) + 'K';
+  }
+
+  function formatWithCommas(val) {
+    const num = val.replace(/[^0-9]/g, '');
+    return num.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  }
+
+  function getScoreClass(score) {
+    if (score >= 7.5) return 'fire-score-high';
+    if (score >= 5.5) return 'fire-score-mid';
+    return 'fire-score-low';
+  }
+
+  function getTagColorClient(category, value) {
+    switch (category) {
+      case 'climate':
+        if (['Tropical', 'Warm', 'Desert'].includes(value)) return 'bg-amber-50 text-amber-700';
+        if (value === 'Mediterranean') return 'bg-sky-50 text-sky-700';
+        return 'bg-slate-50 text-slate-600';
+      case 'safety':
+        if (value === 'Very safe') return 'bg-emerald-50 text-emerald-700';
+        if (value === 'Safe') return 'bg-green-50 text-green-700';
+        return 'bg-orange-50 text-orange-600';
+      case 'english':
+        if (value === 'Widely spoken') return 'bg-blue-50 text-blue-700';
+        if (value === 'Common') return 'bg-indigo-50 text-indigo-600';
+        return 'bg-gray-50 text-gray-500';
+      case 'visa':
+        if (value === 'Easy') return 'bg-emerald-50 text-emerald-700';
+        if (value === 'Moderate') return 'bg-amber-50 text-amber-700';
+        return 'bg-red-50 text-red-600';
+      default: return 'bg-gray-50 text-gray-600';
+    }
+  }
+
+  // ─── DOM ───
+  const portfolioInput = document.getElementById('portfolio-input');
+  const exploreBtn = document.getElementById('explore-btn');
+  const resultsSection = document.getElementById('results-section');
+  const fallbackSection = document.getElementById('fallback-section');
+  const cityGrid = document.getElementById('city-grid');
+  const noCities = document.getElementById('no-cities');
+  const summaryEl = document.getElementById('results-summary');
+  const showMoreWrap = document.getElementById('show-more-wrap');
+  const showMoreBtn = document.getElementById('show-more-btn');
+  const showMoreCount = document.getElementById('show-more-count');
+  const welcomeBack = document.getElementById('welcome-back');
+
+  // ─── Input Formatting ───
+  portfolioInput.addEventListener('input', () => {
+    const pos = portfolioInput.selectionStart || 0;
+    const digitsBefore = portfolioInput.value.slice(0, pos).replace(/[^0-9]/g, '').length;
+    portfolioInput.value = formatWithCommas(portfolioInput.value);
+    let newPos = 0;
+    let counted = 0;
+    for (let i = 0; i < portfolioInput.value.length && counted < digitsBefore; i++) {
+      if (/[0-9]/.test(portfolioInput.value[i])) counted++;
+      newPos = i + 1;
+    }
+    portfolioInput.setSelectionRange(newPos, newPos);
+  });
+
+  // Quick-select buttons
+  document.querySelectorAll('.quick-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const value = parseInt(btn.dataset.value, 10);
+      portfolioInput.value = value.toLocaleString('en-US');
+    });
+  });
+
+  // ─── Lifestyle selector (hero) ───
+  document.querySelectorAll('.lifestyle-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      lifestyle = btn.dataset.lifestyle;
+      document.querySelectorAll('.lifestyle-btn').forEach((b) => {
+        const isActive = b === btn;
+        b.classList.toggle('bg-white/20', isActive);
+        b.classList.toggle('border-white/40', isActive);
+        b.classList.toggle('text-white', isActive);
+        b.classList.toggle('bg-white/5', !isActive);
+        b.classList.toggle('border-white/15', !isActive);
+        b.classList.toggle('text-white/70', !isActive);
+      });
+      // Also sync results lifestyle pills
+      syncResultsLifestyle();
+      if (portfolio > 0) renderResults();
+    });
+  });
+
+  // ─── Lifestyle selector (results bar) ───
+  function syncResultsLifestyle() {
+    document.querySelectorAll('.results-lifestyle-btn').forEach((btn) => {
+      const isActive = btn.dataset.lifestyle === lifestyle;
+      btn.classList.toggle('bg-brand-600', isActive);
+      btn.classList.toggle('text-white', isActive);
+      btn.classList.toggle('border-brand-600', isActive);
+      btn.classList.toggle('bg-white', !isActive);
+      btn.classList.toggle('text-gray-600', !isActive);
+      btn.classList.toggle('border-sand-200', !isActive);
+    });
+  }
+
+  document.querySelectorAll('.results-lifestyle-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      lifestyle = btn.dataset.lifestyle;
+      syncResultsLifestyle();
+      // Also sync hero buttons
+      document.querySelectorAll('.lifestyle-btn').forEach((b) => {
+        const isActive = b.dataset.lifestyle === lifestyle;
+        b.classList.toggle('bg-white/20', isActive);
+        b.classList.toggle('border-white/40', isActive);
+        b.classList.toggle('text-white', isActive);
+        b.classList.toggle('bg-white/5', !isActive);
+        b.classList.toggle('border-white/15', !isActive);
+        b.classList.toggle('text-white/70', !isActive);
+      });
+      if (portfolio > 0) renderResults();
+    });
+  });
+
+  // ─── Filter buttons ───
+  document.querySelectorAll('.filter-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const filterName = btn.dataset.filter;
+      const filterValue = btn.dataset.value || '';
+      filters[filterName] = filterValue;
+
+      // Update active styles
+      document.querySelectorAll(`.filter-btn[data-filter="${filterName}"]`).forEach((b) => {
+        b.classList.toggle('active', (b.dataset.value || '') === filterValue);
+      });
+      if (portfolio > 0) renderResults();
+    });
+  });
+
+  // ─── Explore button ───
+  exploreBtn.addEventListener('click', () => {
+    const raw = parseInt((portfolioInput.value || '').replace(/[^0-9]/g, ''), 10) || 0;
+    if (raw <= 0) {
+      portfolioInput.focus();
+      return;
+    }
+    portfolio = raw;
+    saveState();
+    renderResults();
+    resultsSection.scrollIntoView({ behavior: 'smooth' });
+  });
+
+  // Enter key on input
+  portfolioInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      exploreBtn.click();
+    }
+  });
+
+  // Show more
+  showMoreBtn?.addEventListener('click', () => {
+    visibleCount += 12;
+    renderResults();
+  });
+
+  // ─── Filter Logic ───
+  function passesFilters(city) {
+    if (filters.loc === 'us' && city.country !== 'United States') return false;
+    if (filters.loc === 'intl' && city.country === 'United States') return false;
+    if (filters.climate === 'warm' && !warmClimates.includes(city.tags.climate)) return false;
+    if (filters.climate === 'mild' && !mildClimates.includes(city.tags.climate)) return false;
+    if (filters.eng === 'yes' && city.tags.english !== 'Widely spoken') return false;
+    return true;
+  }
+
+  // ─── Render Results ───
+  function renderResults() {
+    fallbackSection?.classList.add('hidden');
+    resultsSection?.classList.remove('hidden');
+    document.getElementById('reverse-flow')?.classList.add('hidden');
+
+    // Compute and sort cities
+    const sorted = cityData
+      .filter(passesFilters)
+      .map((city) => {
+        const tierData = city.tiers[lifestyle];
+        const fireNumber = tierData.fireNumber;
+        const monthlyCost = tierData.monthlyCost;
+        const affordable = portfolio >= fireNumber;
+        const gap = portfolio - fireNumber;
+        return { ...city, fireNumber, monthlyCost, affordable, gap };
+      })
+      .sort((a, b) => {
+        // Affordable first, then by FIRE score
+        if (a.affordable !== b.affordable) return a.affordable ? -1 : 1;
+        // Within affordable: by FIRE score desc
+        // Within unaffordable: by gap (closest to affordable first)
+        if (a.affordable) return b.fireScore - a.fireScore;
+        return b.gap - a.gap; // gap is negative, so larger (less negative) = closer
+      });
+
+    const affordableCount = sorted.filter((c) => c.affordable).length;
+    const lifestyleLabel = lifestyle.charAt(0).toUpperCase() + lifestyle.slice(1);
+
+    // Update summary
+    if (summaryEl) {
+      summaryEl.innerHTML = `Your <strong>${fmtPortfolio(portfolio)}</strong> portfolio unlocks a <strong>${lifestyleLabel}</strong> lifestyle in <strong>${affordableCount}</strong> ${affordableCount === 1 ? 'city' : 'cities'} worldwide.`;
+    }
+
+    // Render cards
+    const toShow = sorted.slice(0, visibleCount);
+
+    if (sorted.length === 0) {
+      cityGrid.innerHTML = '';
+      noCities?.classList.remove('hidden');
+    } else {
+      noCities?.classList.add('hidden');
+      cityGrid.innerHTML = toShow.map((city) => {
+        const tagPills = [
+          { label: city.tags.climate, cat: 'climate' },
+          { label: city.tags.safety, cat: 'safety' },
+          { label: city.tags.english, cat: 'english' },
+        ].filter((t) => t.label).slice(0, 3);
+
+        const tagHTML = tagPills.map((t) =>
+          `<span class="text-[10px] font-medium px-2 py-0.5 rounded-full ${getTagColorClient(t.cat, t.label)}">${t.label}</span>`
+        ).join('');
+
+        const signalHTML = city.affordable
+          ? '<div class="flex items-center gap-1.5 mt-1"><svg class="w-4 h-4 text-emerald-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-sm font-semibold text-emerald-600">You can retire here</span></div>'
+          : `<p class="text-sm text-gray-500 mt-1">Need ${fmtCompact(Math.abs(city.gap))} more</p>`;
+
+        const barColor = city.affordable ? 'from-emerald-400 to-emerald-500' : 'from-brand-500 to-brand-600';
+
+        return `<a href="/cities/${city.slug}" class="city-card block group">
+          <div class="h-2 bg-gradient-to-r ${barColor}"></div>
+          <div class="p-5">
+            <div class="flex items-start justify-between mb-3">
+              <div class="flex items-center gap-2">
+                <span class="text-2xl">${city.emoji}</span>
+                <div>
+                  <h3 class="font-serif font-bold text-lg text-brand-950 group-hover:text-brand-600 transition-colors">${city.name}</h3>
+                  <p class="text-sm text-gray-500">${city.country}</p>
+                </div>
+              </div>
+              <div class="fire-score w-10 h-10 text-sm ${getScoreClass(city.fireScore)}">${city.fireScore.toFixed(1)}</div>
+            </div>
+            <div class="mb-3">
+              <div class="flex items-baseline justify-between">
+                <span class="text-xs text-gray-500">FIRE Number</span>
+                <span class="text-lg font-bold text-brand-700">${fmtCompact(city.fireNumber)}</span>
+              </div>
+              ${signalHTML}
+            </div>
+            <div class="flex flex-wrap gap-1.5 mb-3">${tagHTML}</div>
+            <div class="flex items-center justify-between pt-3 border-t border-sand-100">
+              <p class="text-xs text-gray-400">From ${fmt(city.monthlyCost)}/mo</p>
+              <span class="text-xs font-medium text-brand-600 bg-brand-50 px-3 py-1 rounded-full">${city.region}</span>
+            </div>
+          </div>
+        </a>`;
+      }).join('');
+    }
+
+    // Show more button
+    if (showMoreWrap && showMoreCount) {
+      if (visibleCount < sorted.length) {
+        showMoreWrap.classList.remove('hidden');
+        showMoreCount.textContent = `Showing ${toShow.length} of ${sorted.length} cities`;
+      } else {
+        showMoreWrap.classList.add('hidden');
+      }
+    }
+
+    updateURL();
+  }
+
+  // ─── URL & State Persistence ───
+  function saveState() {
+    try {
+      localStorage.setItem('pa_calc', JSON.stringify({
+        nw: portfolio,
+        lifestyle: lifestyle,
+      }));
+    } catch (e) {}
+  }
+
+  function updateURL() {
+    const params = new URLSearchParams();
+    if (portfolio > 0) params.set('nw', String(portfolio));
+    if (lifestyle !== 'comfortable') params.set('lifestyle', lifestyle);
+    if (filters.loc) params.set('loc', filters.loc);
+    if (filters.climate) params.set('climate', filters.climate);
+    if (filters.eng) params.set('eng', filters.eng);
+    const qs = params.toString();
+    history.replaceState(null, '', '/' + (qs ? '?' + qs : ''));
+    saveState();
+  }
+
+  // ─── Restore from URL / localStorage ───
+  function restore() {
+    const params = new URLSearchParams(window.location.search);
+    let nw = parseInt(params.get('nw') || '0', 10);
+    let ls = params.get('lifestyle') || '';
+    let restored = false;
+
+    // Try localStorage if no URL params
+    if (!nw) {
+      try {
+        const stored = JSON.parse(localStorage.getItem('pa_calc') || '{}');
+        if (stored.nw && stored.nw > 0) {
+          nw = stored.nw;
+          if (!ls && stored.lifestyle) ls = stored.lifestyle;
+          restored = true;
+        }
+      } catch (e) {}
+    }
+
+    // Restore filters from URL
+    if (params.get('loc')) filters.loc = params.get('loc');
+    if (params.get('climate')) filters.climate = params.get('climate');
+    if (params.get('eng')) filters.eng = params.get('eng');
+
+    // Sync filter button styles
+    for (const [key, val] of Object.entries(filters)) {
+      document.querySelectorAll(`.filter-btn[data-filter="${key}"]`).forEach((btn) => {
+        btn.classList.toggle('active', (btn.dataset.value || '') === val);
+      });
+    }
+
+    // Restore lifestyle
+    if (ls && ['budget', 'comfortable', 'luxury'].includes(ls)) {
+      lifestyle = ls;
+      // Sync hero buttons
+      document.querySelectorAll('.lifestyle-btn').forEach((btn) => {
+        const isActive = btn.dataset.lifestyle === lifestyle;
+        btn.classList.toggle('bg-white/20', isActive);
+        btn.classList.toggle('border-white/40', isActive);
+        btn.classList.toggle('text-white', isActive);
+        btn.classList.toggle('bg-white/5', !isActive);
+        btn.classList.toggle('border-white/15', !isActive);
+        btn.classList.toggle('text-white/70', !isActive);
+      });
+      syncResultsLifestyle();
+    }
+
+    if (nw > 0) {
+      portfolio = nw;
+      portfolioInput.value = nw.toLocaleString('en-US');
+
+      if (restored) {
+        welcomeBack?.classList.remove('hidden');
+      }
+
+      renderResults();
+    } else {
+      fallbackSection?.classList.remove('hidden');
+    }
+  }
+
+  // ─── Reverse Flow ───
+  function setupReverseFlow() {
+    const reverseLink = document.getElementById('reverse-link');
+    const reverseFlow = document.getElementById('reverse-flow');
+    const reverseClose = document.getElementById('reverse-close');
+    const reverseInput = document.getElementById('reverse-city-input');
+    const reverseDropdown = document.getElementById('reverse-city-dropdown');
+    const reverseResults = document.getElementById('reverse-results');
+    const reverseUse = document.getElementById('reverse-use-value');
+
+    let selectedCity = null;
+    let selectedTier = null;
+
+    reverseLink?.addEventListener('click', (e) => {
+      e.preventDefault();
+      reverseFlow?.classList.remove('hidden');
+      reverseFlow?.scrollIntoView({ behavior: 'smooth' });
+    });
+
+    reverseClose?.addEventListener('click', () => {
+      reverseFlow?.classList.add('hidden');
+    });
+
+    // City search
+    reverseInput?.addEventListener('input', () => {
+      const q = reverseInput.value.toLowerCase().trim();
+      if (q.length < 2) { reverseDropdown?.classList.add('hidden'); return; }
+      const matches = cityData.filter((c) =>
+        c.name.toLowerCase().includes(q) || c.country.toLowerCase().includes(q)
+      ).slice(0, 8);
+
+      if (!reverseDropdown) return;
+      if (matches.length === 0) {
+        reverseDropdown.innerHTML = '<div class="text-sm text-gray-400 p-3 text-center">No cities found</div>';
+      } else {
+        reverseDropdown.innerHTML = matches.map((c) =>
+          `<div class="flex items-center gap-2 px-3 py-2 text-sm cursor-pointer hover:bg-sand-100 rounded-lg" data-slug="${c.slug}">
+            <span>${c.emoji}</span><span class="font-medium">${c.name}</span><span class="text-gray-400 text-xs">${c.country}</span>
+          </div>`
+        ).join('');
+        reverseDropdown.querySelectorAll('[data-slug]').forEach((item) => {
+          item.addEventListener('click', () => {
+            selectedCity = cityData.find((c) => c.slug === item.dataset.slug);
+            if (selectedCity) {
+              reverseInput.value = selectedCity.name + ', ' + selectedCity.country;
+              reverseDropdown.classList.add('hidden');
+              updateReverse();
+            }
+          });
+        });
+      }
+      reverseDropdown.classList.remove('hidden');
+    });
+
+    reverseInput?.addEventListener('blur', () => {
+      setTimeout(() => reverseDropdown?.classList.add('hidden'), 200);
+    });
+
+    // Tier selection
+    document.querySelectorAll('.reverse-tier-btn').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        selectedTier = btn.dataset.reverseTier;
+        document.querySelectorAll('.reverse-tier-btn').forEach((b) => {
+          b.classList.toggle('border-brand-500', b === btn);
+          b.classList.toggle('bg-brand-50', b === btn);
+          b.classList.toggle('border-sand-200', b !== btn);
+        });
+        updateReverse();
+      });
+    });
+
+    function updateReverse() {
+      if (!selectedCity || !selectedTier) return;
+      const data = selectedCity.tiers[selectedTier];
+      if (!data) return;
+
+      const fireNumEl = document.getElementById('reverse-fire-number');
+      const monthlyEl = document.getElementById('reverse-monthly');
+      if (fireNumEl) fireNumEl.textContent = fmtCompact(data.fireNumber);
+      if (monthlyEl) monthlyEl.textContent = fmt(data.monthlyCost);
+      reverseResults?.classList.remove('hidden');
+    }
+
+    reverseUse?.addEventListener('click', () => {
+      if (!selectedCity || !selectedTier) return;
+      const fn = selectedCity.tiers[selectedTier]?.fireNumber;
+      if (!fn) return;
+      portfolio = fn;
+      portfolioInput.value = fn.toLocaleString('en-US');
+      reverseFlow?.classList.add('hidden');
+      renderResults();
+      resultsSection?.scrollIntoView({ behavior: 'smooth' });
+    });
+  }
+
+  // ─── Init ───
+  setupReverseFlow();
+  restore();
 </script>

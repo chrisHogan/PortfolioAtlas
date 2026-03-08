@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "Scottsdale on a tight budget means living in south Scottsdale or a neighboring city and dealing with significant summer A/C costs. The trade-off is world-class hiking, stunning sunsets, and mild winters that make outdoor living a joy from October through April. You will cook at home often but can enjoy affordable Mexican food regularly."
+      "lifestyle": "You will live in south Scottsdale or a neighboring city like Tempe rather than central Scottsdale, and summer electricity bills are a real line item. From October through April, though, the outdoor living is hard to match — free hiking on Camelback and in the McDowell Sonoran Preserve, mild weather, and affordable Mexican food a couple of times a week. You cook at home most nights and keep entertainment simple."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 220
       },
-      "lifestyle": "At this budget Scottsdale opens up nicely. You can live in a comfortable condo near the action, play golf regularly (though not at private clubs yet), enjoy the spa culture, and catch spring training games. The winter months are absolutely glorious for outdoor living, and your budget handles summer A/C without stress."
+      "lifestyle": "A nice condo near Old Town or the Waterfront puts you close to the restaurants and galleries. You can play golf on public courses regularly, get spa treatments occasionally, and catch Cactus League spring training games. Summer A/C is covered without stress. This is a comfortable, active life with room for dining out several times a week."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 280
       },
-      "lifestyle": "Scottsdale at this budget is the quintessential desert retirement. A beautiful home with mountain views, golf club membership, regular spa visits, and dining at the valley's best restaurants. Art walks along the Marshall Way galleries and sunset hikes on Camelback become weekly rituals."
+      "lifestyle": "A three-bedroom home in Gainey Ranch or McCormick Ranch with mountain views, a golf club membership, and regular dinners at places like Steak 44 and Cafe Bink. Spa visits, art walks along Marshall Way, and sunset hikes are part of the weekly routine. This budget is genuinely affluent by Scottsdale standards, with margin for regular travel."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Quarterly travel, art collecting, wine cellar, charity galas, resort spa memberships",
         "monthlyCost": 1400
       },
-      "lifestyle": "You are living the Scottsdale luxury lifestyle. A stunning desert estate with infinity pool and mountain views, membership at one of the most exclusive golf clubs in America, and Mayo Clinic concierge care. Winter in Scottsdale at this level rivals any resort destination in the world."
+      "lifestyle": "A large home in Paradise Valley or DC Ranch with a pool and mountain views, a private golf club membership at a place like Estancia or Desert Mountain, and concierge medicine through Mayo Clinic Scottsdale. A housekeeper comes several times a week, and business class flights for travel are comfortable in the budget. Pool and grounds maintenance are covered. This is upper-affluent desert living."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "First-class international travel, ranch property in Sedona, art foundation, angel investing",
         "monthlyCost": 5000
       },
-      "lifestyle": "At this level Scottsdale becomes a private desert oasis. A sprawling Paradise Valley estate, Mayo Clinic as your personal healthcare provider, and memberships at every top golf club in the valley. The Arizona lifestyle at this budget is pure luxury, with world-class sunsets as the nightly backdrop."
+      "lifestyle": "A large Paradise Valley estate with Camelback Mountain views, full-time domestic help including a housekeeper and property manager, and a cook who comes in several times a week. Mayo Clinic concierge care, memberships at top valley golf clubs, and first-class travel are all well within budget. Housing takes a sizable share at Scottsdale's premium price points, but the daily life is that of someone who never thinks about routine expenses."
     }
   },
   "scores": {

@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "D.C. on a tight budget is more feasible than you might think, thanks to the incredible amount of free culture. You can visit a different Smithsonian museum every week for a year and never pay a dime. The Metro eliminates car costs, and diverse ethnic food keeps dining affordable. Housing is the main squeeze."
+      "lifestyle": "A studio or small one-bedroom in Columbia Heights, Petworth, or across the river in Arlington. Housing takes up more than half the budget, but the Metro eliminates car costs and the Smithsonian museums are entirely free. You eat affordable Ethiopian and Salvadoran food in Adams Morgan and Mount Pleasant, and cook most meals at home. D.C. has its own income tax, which tightens an already constrained budget."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "At this budget D.C. becomes a cultural playground. You can live in a vibrant, walkable neighborhood, enjoy the global dining scene, and attend performances at the Kennedy Center. Weekend hikes in Shenandoah National Park and cherry blossom season along the Tidal Basin are seasonal highlights."
+      "lifestyle": "You can afford a one- or two-bedroom apartment in Dupont Circle, Capitol Hill, or the U Street Corridor -- walkable, vibrant neighborhoods. You eat out several times a week across D.C.'s diverse international restaurant scene, attend Kennedy Center performances, and take weekend hikes in Shenandoah. The free Smithsonian museums remain a major asset. Bike-share works well in spring and fall for getting around the compact city center."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 260
       },
-      "lifestyle": "D.C. at this level is extraordinary. A Georgetown townhouse or Capitol Hill rowhouse, dinners at Michelin-starred restaurants, and patron-level access to the Kennedy Center and National Gallery. Weekend drives to Virginia wine country and the Chesapeake Bay round out an intellectually rich lifestyle."
+      "lifestyle": "A two-bedroom apartment in Georgetown, a Capitol Hill rowhouse, or a Kalorama condo. You dine regularly at top restaurants like Roses Luxury and Fiola, hold Nationals season tickets, and attend Kennedy Center performances. Weekend drives to Virginia wine country and the Chesapeake Bay are easy additions. At $10,000 a month, D.C. is comfortably affluent, with the added benefit of proximity to Johns Hopkins in nearby Baltimore for specialist healthcare."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Quarterly international travel, art collecting, Virginia horse country weekends, philanthropy",
         "monthlyCost": 1500
       },
-      "lifestyle": "You are living the Georgetown or Embassy Row lifestyle. A stunning historic home, access to the most exclusive cultural events in the nation's capital, and dinner parties that mix art, politics, and diplomacy. D.C. at this level offers a social and intellectual richness unmatched in America."
+      "lifestyle": "A large Georgetown townhouse or a luxury penthouse on the Waterfront. You have a housekeeper, dine at fine restaurants multiple times a week, and drive a nice car for weekends in Virginia horse country or the Chesapeake. Business class flights fit comfortably within the budget. Patron-level involvement at the Kennedy Center and National Gallery is feasible. D.C.'s social scene skews intellectual and policy-oriented, which suits some retirees well."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "First-class international travel, Virginia estate, Smithsonian endowments, charitable foundation",
         "monthlyCost": 5000
       },
-      "lifestyle": "At this level Washington D.C. becomes your stage on the world scene. A historic mansion in Kalorama, board-level involvement at the Smithsonian and Kennedy Center, and a social calendar that includes ambassadorial events and galas. The capital's unique blend of power, culture, and history is yours to shape."
+      "lifestyle": "A historic Kalorama mansion or a Georgetown estate. You have a full-time housekeeper, a personal assistant, and a cook who comes in several times a week. You dine wherever you want, travel first class, and support the Smithsonian and Kennedy Center as a major donor. A weekend property in Virginia is feasible. D.C. at this budget is comfortable, established wealth in a city where the cultural and intellectual offerings are deep."
     }
   },
   "scores": {

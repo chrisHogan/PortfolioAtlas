@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 60
       },
-      "lifestyle": "Your dollar stretches impressively in Colombo. A comfortable apartment, daily restaurant meals of authentic Sri Lankan cuisine, and access to beautiful beaches just minutes away. The moderate English environment means you can navigate daily life without difficulty."
+      "lifestyle": "A modern 2-bedroom apartment in Bambalapitiya or Wellawatte, with rice and curry lunches at local restaurants several times a week. Getting around by tuk-tuk and ride-hailing apps. Private health insurance covering the major Colombo hospitals. Beach trips to Mount Lavinia on weekends. Comfortable and affordable, though imported goods and Western-style dining add up quickly."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 80
       },
-      "lifestyle": "A very comfortable existence in Colombo with a modern apartment in a prime neighborhood, regular dining at the city's best restaurants, and the freedom to explore Sri Lanka's incredible diversity of landscapes on weekends. You will live better than most local professionals."
+      "lifestyle": "A spacious apartment in Kollupitiya or Colombo 7, dining out at good restaurants several times a week, and a small car or regular ride-hailing for getting around. Good private health insurance with specialist coverage. Weekend trips to Kandy, Galle, or the hill country are easily affordable. Day-to-day life is easy and you have a comfortable buffer each month."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 120
       },
-      "lifestyle": "At this budget you experience the finest Colombo has to offer. A luxury apartment with ocean views, dining at the island's most celebrated restaurants, and weekend getaways to boutique hotels across Sri Lanka. You will have significant surplus to save or invest."
+      "lifestyle": "A large apartment or penthouse in Colombo 3 or beachfront in Mount Lavinia. Regular dining at top restaurants like Ministry of Crab and Nihonbashi. Your own car with an occasional driver, domestic flights to Trincomalee or Jaffna, and international health insurance. Surfing trips, wildlife safaris, and boutique hotel weekends around the island. Significant monthly margin at Colombo's cost of living."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "International first-class travel, luxury hotel stays, philanthropy, art collecting",
         "monthlyCost": 2000
       },
-      "lifestyle": "You are living at the pinnacle of Sri Lankan luxury. A beautiful villa with full staff, a personal chef, and a chauffeur-driven car. The island's best experiences are at your fingertips, from private beach villas to exclusive wildlife encounters, with enormous surplus for global travel."
+      "lifestyle": "A large villa in Colombo 7 or along the southern coast with a housekeeper, cook, and gardener. A nice car with driver for daily use, business class flights for international travel, and premium healthcare with access to Singapore hospitals for major procedures. Regular dining at the best restaurants and hotels in Colombo. Sri Lanka's low costs leave a large margin even at this level of comfort."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Property portfolio, yacht, first-class global travel, philanthropic foundations, tea estate investment",
         "monthlyCost": 5000
       },
-      "lifestyle": "At this level in Sri Lanka, your wealth is extraordinary by local standards. Multiple properties, a full staff, philanthropic endeavors, and the ability to live a truly global lifestyle with Sri Lanka as your tropical home base. Most of your budget will go unspent or into investments."
+      "lifestyle": "A premium property in Colombo 7 or a beachfront villa on the south coast with full-time household staff including a housekeeper, a cook several times a week, and a driver. First class flights for international travel, top-tier global health coverage, and dining at any restaurant without thinking about cost. This budget vastly exceeds Colombo's cost of living. Most people at this level use Sri Lanka as an affordable tropical base and travel extensively."
     }
   },
   "scores": {

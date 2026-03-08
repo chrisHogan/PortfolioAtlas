@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "A modest but manageable life in Edinburgh. You will lean on the city's excellent free offerings — world-class museums, stunning hillwalks, and the festival atmosphere that fills the streets each August. Heating costs in winter will be your biggest variable expense, and dining out will be a treat rather than routine."
+      "lifestyle": "A 1-bedroom flat in Leith, Gorgie, or Dalry -- functional neighborhoods but not central. Cooking most meals at home, with pub meals and casual dining a couple of times a week. Getting around by Lothian Buses and on foot. NHS healthcare covers GP visits and hospital care. Edinburgh's winter heating costs are a real variable expense, and dining out will be limited, but the free museums, Arthur's Seat hikes, and August festival atmosphere are genuine perks."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "Edinburgh becomes genuinely delightful at this level. You can live in one of the city's most charming neighborhoods, enjoy Scotland's exceptional restaurant scene, and afford regular escapes to the Highlands or Scottish islands. The combination of walkability, culture, and natural beauty makes every day feel like a well-curated experience."
+      "lifestyle": "A charming 2-bedroom flat in Stockbridge, Bruntsfield, or Marchmont with period features. Dining out at gastropubs and mid-range restaurants several times a week, with whisky bar visits. Private health insurance supplements the NHS for faster specialist access. Weekend car hire for Highland trips and Scottish island getaways. Festival tickets, rugby at Murrayfield, and gym membership. Edinburgh's costs are moderate, so this budget covers a comfortable life with regular dining and travel."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "At this budget you are living Edinburgh's finest everyday life. A beautiful Georgian flat, regular meals at the city's top restaurants, and the freedom to explore Scotland's dramatic landscape whenever the mood strikes. You can fully participate in festival season, join a golf club, and travel to London or the Continent with ease."
+      "lifestyle": "A spacious Georgian flat in New Town or a townhouse in Morningside. Regular dining at top restaurants including occasional meals at places like The Kitchin, a car for Highland exploring, and comprehensive private health insurance. Premium Fringe tickets, golf at historic courses, and first-class train to London. Edinburgh's moderate costs mean this budget delivers a genuinely affluent life with regular travel across Scotland and to the Continent."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Highland lodge weekends, first-class European travel, rare whisky collection, philanthropy",
         "monthlyCost": 2000
       },
-      "lifestyle": "You are living as Edinburgh's gentry. A stunning townhouse in the heart of the city, access to Scotland's most exclusive golf courses and whisky collections, and the ability to host memorable dinner parties in a setting that rivals any in Europe. Weekend retreats to a Highland lodge become part of your rhythm."
+      "lifestyle": "A premium townhouse in New Town or a detached home in The Grange with a private garden. Regular dining at the city's best restaurants, a cleaner several times a week, and business class for longer flights. A luxury SUV for Highland drives, VIP private healthcare, and membership at an exclusive golf club. Weekend retreats to a rented Highland lodge become routine. Edinburgh's moderate costs mean this budget provides an upper-affluent life with significant room for travel and entertainment."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Highland estate access, rare whisky cask investments, private jet travel, philanthropic endeavors",
         "monthlyCost": 5500
       },
-      "lifestyle": "At this level Edinburgh offers a life of aristocratic elegance. A grand historic property, full household staff, and the kind of cultural patronage that has defined Edinburgh society for centuries. You move between your city townhouse and Highland retreat with the ease of a Scottish laird, anchored by one of the world's most beautiful and cultured cities."
+      "lifestyle": "A grand Georgian townhouse in Heriot Row or a country property on Edinburgh's outskirts. A cook a few times a week, a full-time housekeeper, and full private healthcare. Business class as default, first class for longer trips. Regular fine dining and a nice car with driver when needed. Edinburgh is affordable enough that this budget far exceeds typical costs -- a Highland retreat property or significant travel spending becomes realistic to fill the margin."
     }
   },
   "scores": {

@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 70
       },
-      "lifestyle": "Tunis at $3,333/month is extraordinarily comfortable. You can live in a lovely apartment near the Mediterranean, dine out regularly on incredible Tunisian-French fusion cuisine, and explore ancient ruins and blue-and-white coastal villages at your leisure. The surplus allows for significant savings or European travel. Learning French is strongly recommended."
+      "lifestyle": "A spacious 2-bedroom apartment in La Marsa or Carthage with sea views. Eating at local restaurants serving couscous, brik, and grilled fish several times a week, plus daily cafe stops. Getting around by TGM light rail and taxis. Private health insurance covering local clinics. Exploring Carthage ruins and Sidi Bou Said on weekends. French is essential for daily life. Very affordable, with a comfortable budget margin each month."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 120
       },
-      "lifestyle": "At $6,667/month Tunis becomes a Mediterranean paradise at a fraction of European prices. A villa with sea views, domestic help, regular dining at the city's finest restaurants, and the freedom to explore Tunisia's extraordinary diversity from Mediterranean beaches to Saharan oases. Weekday cafe culture and weekend adventures make for an incredibly fulfilling rhythm."
+      "lifestyle": "A 3-bedroom villa in La Marsa or Gammarth with a garden and sea views. A car for exploring the country, regular dining at restaurants like Dar El Jeld and La Closerie, and comprehensive private health insurance. Golf, sailing, and weekend trips to Djerba and the Sahara are within budget. Spa hammam visits and cafe culture fill the weekdays. Day-to-day life is comfortable with a large monthly margin at Tunisian prices."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "At $10K/month in Tunis you are living at the very top of local society. A stunning seafront villa, a full-time cook preparing fresh Tunisian cuisine, luxury desert adventures, and easy flights to Paris, Rome, or Barcelona whenever you want a European fix. The blend of African, Arab, and Mediterranean cultures creates a daily experience of extraordinary richness."
+      "lifestyle": "A large seafront villa in Gammarth or La Marsa, or a restored traditional house in the medina. A late-model car with an occasional driver, regular dining at the best restaurants, and premium health insurance with international coverage and European medical evacuation. Weekend flights to Paris, Rome, or Barcelona are affordable. Sahara camping trips and Carthage Festival events. This budget goes very far in Tunis, with substantial monthly margin."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "First-class European travel, private Sahara lodges, real estate investments, philanthropy",
         "monthlyCost": 2000
       },
-      "lifestyle": "Tunis at $16,667/month is palatial Mediterranean living at African prices. A grand seaside estate with a full staff, a personal chef, first-class flights to Europe, and luxury desert adventures. You are living like a Mediterranean aristocrat for what would barely cover a modest apartment in the south of France."
+      "lifestyle": "A large seaside estate in Gammarth or Sidi Bou Said with pool and gardens. A housekeeper, cook, gardener, and driver. A luxury vehicle, business class flights to European capitals, and top-tier international health insurance with European hospital access. Regular dining at the best restaurants and club memberships. Tunisia's low costs mean this budget provides a very high quality of life with a large margin each month."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Yacht, real estate portfolio, first-class global travel, major educational philanthropy, cultural sponsorship",
         "monthlyCost": 5000
       },
-      "lifestyle": "At $33K/month in Tunis you are living a life of extraordinary grandeur on the Mediterranean. A palatial compound overlooking the sea where Carthage once stood, a full estate staff, a yacht, and the resources to fund meaningful change across Tunisia. The surplus at this level is enormous, enabling transformative philanthropy, real estate investment, and a global travel schedule that spans continents."
+      "lifestyle": "A large seaside property in Gammarth or Sidi Bou Said with full household staff including multiple housekeepers, a cook several times a week, security, and drivers. Multiple vehicles, first class international flights, and top-tier global health coverage with European hospital access. Regular fine dining and entertaining. Tunisia's extremely low costs mean the vast majority of this budget goes unspent. Most people at this level travel extensively and use Tunis as a beautiful, affordable Mediterranean home base."
     }
   },
   "scores": {

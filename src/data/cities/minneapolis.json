@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 170
       },
-      "lifestyle": "Minneapolis on a tight budget is surprisingly manageable. Housing is affordable, public transit is solid, and the city's parks and lakes provide endless free recreation. Winter heating costs are the main budget challenge, but the skyway system and indoor culture keep life pleasant year-round. The ethnic food scene along Eat Street is a budget diner's dream."
+      "lifestyle": "You can rent a one-bedroom in Uptown or Northeast Minneapolis and use Metro Transit for daily commuting. The Chain of Lakes and city parks provide free recreation in summer, and the skyway system keeps errands comfortable in winter. Heating costs are a real line item from November through March. Affordable ethnic restaurants along Eat Street and Lake Street keep dining out within reach a few times a week."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "At this budget Minneapolis is a real treat. You can live near the lakes, enjoy the nationally recognized theater and dining scenes, and participate fully in both summer and winter outdoor culture. Weekends at the Boundary Waters or North Shore of Lake Superior are easy getaways."
+      "lifestyle": "You can rent a nice apartment in Linden Hills or the North Loop and eat out several times a week at the city's increasingly acclaimed restaurants. Guthrie Theater subscriptions, Vikings or Twins games, and a cross-country ski setup for winter are all within budget. Weekend trips to the Boundary Waters or the North Shore of Lake Superior are easy drives from the city."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 260
       },
-      "lifestyle": "Minneapolis at this level is exceptional. A beautiful home near the Chain of Lakes, patron-level access to the Walker and Guthrie, and full participation in both summer lake culture and winter sports. The city's food scene is among the most creative in the Midwest, and it is all yours."
+      "lifestyle": "You can rent a house in Kenwood or Linden Hills near the Chain of Lakes, and dine regularly at top restaurants like Owamni and Spoon and Stable. Walker Art Center membership, Vikings season tickets, and ski passes fit the budget. Good private insurance with access to the University of Minnesota Health network and proximity to Mayo Clinic provide strong healthcare options."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Boundary Waters cabin, quarterly travel, art collecting, Minneapolis Foundation giving",
         "monthlyCost": 1350
       },
-      "lifestyle": "You are living Minneapolis at its finest. A lakefront home, a cabin up north, and patron-level involvement in one of America's most vibrant arts communities. The Twin Cities' unique combination of natural beauty and cultural sophistication creates a lifestyle that few cities can match."
+      "lifestyle": "A large lakefront home on Lake of the Isles or in Kenwood, regular dining at the city's best restaurants, and a housekeeper who comes weekly. Concierge medicine, a nice SUV for winters, and business class flights for longer trips are standard. A cabin on a northern Minnesota lake for summer weekends and patron-level involvement at the Walker and Guthrie round out the budget."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "North Shore lakefront property, first-class travel, art foundation, charitable endowments",
         "monthlyCost": 5000
       },
-      "lifestyle": "At this level Minneapolis is your personal Great Lakes kingdom. A magnificent lakefront estate, trustee roles at the Walker and Guthrie, and a private retreat on the North Shore of Lake Superior. Minnesota's strong civic culture means your philanthropy has real, visible impact on a community that values it deeply."
+      "lifestyle": "Premium lakefront housing on Lake of the Isles, regular fine dining, a cook who comes several times a week, and a housekeeper. First class travel, full concierge healthcare with Mayo Clinic access, and a private suite at U.S. Bank Stadium for Vikings games. A second property on the North Shore of Lake Superior is realistic at this budget. Minneapolis's affordable cost base means this level of spending covers everything without strain."
     }
   },
   "scores": {

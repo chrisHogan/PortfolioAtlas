@@ -2,8 +2,6 @@
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import '../styles/global.css';
-import { allCities } from '../data/cities/index';
-
 interface Props {
   title: string;
   description?: string;
@@ -13,18 +11,16 @@ interface Props {
   noindex?: boolean;
 }
 
-const totalCities = allCities.length;
-
 const {
   title,
-  description = `Discover what your investment portfolio can buy you in ${totalCities} cities around the world. Compare lifestyles, costs, and FIRE potential across top retirement destinations.`,
+  description = 'Discover what your investment portfolio can buy you in 100+ cities around the world. Compare lifestyles, costs, and FIRE potential across top retirement destinations.',
   ogImage = '/og-default.png',
   canonicalUrl,
   jsonLd,
   noindex = false,
 } = Astro.props;
 
-const siteTitle = title === 'Home' ? 'Where Can I Retire With $1M–$10M? | PortfolioAtlas' : `${title} | PortfolioAtlas`;
+const siteTitle = `${title} | PortfolioAtlas`;
 
 // Canonical URL: strip query params for clean canonical
 const canonicalBase = new URL(Astro.url.pathname, Astro.site || 'https://portfolioatlas.org');

@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 140
       },
-      "lifestyle": "Pittsburgh at $1M is one of the best deals in the Northeast. Rents in neighborhoods like Brookline and Beechview are shockingly low, public transit actually works here, and the city is loaded with free cultural offerings. You get access to world-class hospitals, a vibrant food scene, and stunning river views without the crushing costs of other Northeastern cities."
+      "lifestyle": "A one-bedroom in Brookline or Beechview, where rents are well below most Northeastern cities. Pittsburgh's bus and light rail system covers enough of the city that you can avoid owning a car if you choose the right neighborhood. Free Carnegie Museum days, the Three Rivers Heritage Trail, and neighborhood pierogi shops keep costs low. Healthcare on an ACA plan gives you access to UPMC, one of the country's top hospital systems. Winters are cold and gray, but the overall cost of living makes this budget workable."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 165
       },
-      "lifestyle": "This is Pittsburgh's sweet spot. You can afford a trendy Lawrenceville apartment or a charming Shadyside place, eat out regularly at the city's incredible restaurant renaissance, and catch Penguins or Steelers games. The cultural scene punches way above its weight with Carnegie Museums, world-class theater, and a thriving arts community."
+      "lifestyle": "A two-bedroom in Lawrenceville or Shadyside, dining out several times a week at the Strip District and the city's growing restaurant scene, and a car for navigating Pittsburgh's hills. You can afford Penguins or Steelers tickets, a Carnegie Museum membership, and a gym. A good ACA Gold plan with access to UPMC provides solid healthcare coverage. Weekend road trips to the Laurel Highlands or Ohiopyle are within easy reach."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 210
       },
-      "lifestyle": "At $10K per month, Pittsburgh is extraordinary. A spacious home in one of the city's best neighborhoods, season tickets to multiple sports and cultural institutions, regular fine dining, and significant monthly surplus. Few Northeastern cities offer this combination of quality and value."
+      "lifestyle": "A spacious home in Squirrel Hill or Mt. Lebanon, regular dinners at restaurants like Altius and Morcilla, and Steelers season tickets. Premium health insurance through UPMC provides strong coverage. You can keep a late-model AWD vehicle for the hills and winters, join a golf club, and travel several times a year. Pittsburgh's moderate costs mean this budget leaves real margin each month -- something that would not happen in most Northeastern metros at this spending level."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Seven Springs ski weekends, quarterly travel, art collecting, Carnegie philanthropic events",
         "monthlyCost": 1400
       },
-      "lifestyle": "Pittsburgh at $5M is elite Northeastern living at Midwestern prices. A stunning home with river or city views, concierge medicine at one of America's best hospital systems, private box seats for the Steelers, and deep involvement in Pittsburgh's remarkable cultural institutions. The city's affordability means your money creates an extraordinary life here."
+      "lifestyle": "A large home in Fox Chapel or Sewickley with city or river views, concierge medicine through UPMC, and a housekeeper who comes weekly. You dine at the city's best restaurants regularly, drive a nice car, and fly business class for longer trips. A country club membership, Pittsburgh Symphony season tickets, and regular travel are all comfortable within this budget. Pittsburgh's affordability relative to other Northeastern metros means this level of spending provides a very well-appointed life with substantial margin."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Second home in the Laurel Highlands, first-class international travel, angel investing, major philanthropy",
         "monthlyCost": 4800
       },
-      "lifestyle": "At $10M in Pittsburgh you are a titan of one of America's great comeback cities. A grand estate in Fox Chapel, world-class healthcare at UPMC on your terms, transformative philanthropy through the Carnegie institutions, and the satisfaction of living in a city that has reinvented itself. Few places offer this combination of cultural depth, medical excellence, and sheer affordability at the top."
+      "lifestyle": "A large estate in Fox Chapel or a penthouse overlooking the three rivers, top-tier concierge medicine at UPMC, a cook who comes in several times a week, and full-time domestic help. You travel first class, keep multiple cars, and eat at the city's best restaurants without checking the bill. Pittsburgh's low cost of living at this budget level means enormous margin -- enough for a second home in the Laurel Highlands, regular charitable giving, and investments, all while living at a level that would cost far more in Boston or New York."
     }
   },
   "scores": {

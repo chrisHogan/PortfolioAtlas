@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 120
       },
-      "lifestyle": "Hong Kong on a $1M portfolio is genuinely challenging. Your apartment will be very small — think 200-300 square feet — and you will need to be disciplined about spending. However, the street food is incredible and cheap, the hiking is world-class and free, and the MTR gets you anywhere fast. It is a thrilling city even on a tight budget, but space is the constant compromise."
+      "lifestyle": "A very small studio or subdivided flat (200-300 sq ft) in Sham Shui Po, Mong Kok, or the outer New Territories. Eating mostly at dai pai dong street stalls and cha chaan teng cafes, which are cheap and good. Getting around on the MTR, buses, and ferries. Public hospital system for healthcare, which is affordable but has long waits. This is a genuinely tight budget for Hong Kong — housing is the major constraint, and you will need real discipline on spending. The food, hiking trails, and transit quality are the compensations."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "At this level Hong Kong starts to become enjoyable rather than merely survivable. You can afford a proper apartment in a lively neighborhood, eat well at the city's incredible range of restaurants, and participate in the social scene. Your apartment will still be compact by Western standards, but you will be living in one of the world's most exciting cities with real comfort."
+      "lifestyle": "A small 1-bedroom apartment in Wan Chai, Sheung Wan, or a decent flat in Tsim Sha Tsui. A mix of street food and mid-range restaurants — dim sum brunches, izakayas, and rooftop bars. MTR and occasional taxis. Private health insurance at good private hospitals and clinics. Weekend ferries to outlying islands and trips to Macau. The apartment will still be compact by Western standards, but this budget makes Hong Kong genuinely comfortable rather than a constant stretch."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "This is where Hong Kong truly rewards you. A real apartment in an exciting neighborhood, the ability to enjoy the city's legendary restaurant scene without counting every dollar, and weekend escapes to the islands or across the border to mainland China. The energy, convenience, and cultural richness of Hong Kong at this level is unmatched."
+      "lifestyle": "A 2-bedroom apartment in Mid-Levels, Happy Valley, or a spacious flat in Kennedy Town. Regular dining at good restaurants — private kitchen restaurants, Michelin dim sum, cocktail bars in Central — without counting every dollar. MTR and taxis freely. Comprehensive private health insurance at hospitals like Matilda and Adventist. Weekend trips to Macau or across the border to Shenzhen. This is Hong Kong's sweet spot — genuinely comfortable, though the city's high costs mean even this budget requires some awareness."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "First-class travel across Asia, luxury shopping, art collecting, exclusive wine auctions",
         "monthlyCost": 1500
       },
-      "lifestyle": "You are now living Hong Kong as it was meant to be experienced by the well-heeled. A spacious apartment with harbour or ocean views — a genuine rarity — a live-in helper, and access to the city's most exclusive clubs and restaurants. Hong Kong's position as Asia's crossroads means weekend trips to Tokyo, Bali, or Bangkok are effortless."
+      "lifestyle": "A spacious 3-bedroom apartment on The Peak, in Repulse Bay, or a premium flat in Pokfulam — space with views being a genuine luxury in Hong Kong. A full-time live-in domestic helper, which is common and well-regulated here, and a car with parking, which is itself a significant expense in HK. Regular dining at Michelin-starred restaurants, VIP private healthcare, and business class flights around Asia. Genuinely comfortable and high quality, though Hong Kong's extreme housing costs mean even this budget does not feel limitless."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Private jet access, yacht berth, fine art acquisitions, international property, philanthropy",
         "monthlyCost": 4000
       },
-      "lifestyle": "At this level Hong Kong is a glittering playground. A house on The Peak with panoramic harbour views, a full staff, a private yacht moored at Aberdeen Marina, and VIP access to Art Basel and every major event. Hong Kong's unique position at the intersection of East and West, combined with its low tax regime, makes it one of the world's ultimate addresses for the truly wealthy."
+      "lifestyle": "A house on The Peak or a premium seafront property in Stanley or Deep Water Bay — among the most expensive real estate in the world, so housing alone absorbs a large share of this budget. Multiple live-in staff including a helper, cook, and driver. First-class international flights. Top-tier concierge medicine. Regular fine dining as routine. Hong Kong is one of the world's most expensive cities, so even at this level you are upper-affluent rather than unconstrained — but the city's energy, food, safety, connectivity, and position as Asia's crossroads are hard to replicate anywhere."
     }
   },
   "scores": {

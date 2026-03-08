@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 120
       },
-      "lifestyle": "A comfortable but mindful life in one of Europe's most affordable capitals. You'll sip bica at neighborhood cafes, ride trams through Alfama, and enjoy fresh grilled sardines at local tascas. Budget-conscious but never feeling deprived — Lisbon's free pleasures are its best ones."
+      "lifestyle": "A clean 1-bedroom in a residential neighborhood like Arroios, well-connected by metro to the center. Cooking most meals at home with affordable produce from local markets, eating out at tascas a couple of times a week. Getting around on the Navegante transit pass. Public healthcare with a basic private supplement. Comfortable and livable, though dining out and travel require planning around the budget."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 160
       },
-      "lifestyle": "A genuinely rich daily life in one of Europe's most beautiful cities. You'll have a gorgeous flat in a sought-after neighborhood, dine at the restaurants foodies fly in for, and spend weekends surfing or exploring hilltop villages. This is Lisbon's sweet spot — luxurious without being extravagant."
+      "lifestyle": "A spacious 2-bedroom in a desirable area like Principe Real or Santos. Dining out several times a week at good restaurants, with weekend trips to Sintra or the coast by rental car. Comprehensive private health insurance at a hospital like CUF Descobertas. Day-to-day life is easy and you don't need to think much about everyday costs, though Lisbon's rising prices mean this isn't limitless."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "An elevated Lisbon experience that opens doors to the city's finest offerings. Your Chiado address puts you steps from world-class dining and culture, while weekends might mean sailing the Tagus or flying to the Azores. You live like Lisbon's creative elite — refined taste without pretension."
+      "lifestyle": "A large apartment in Chiado or a renovated townhouse in Estrela with a terrace. Dining at good restaurants regularly, including occasional Michelin-starred meals at places like Belcanto. A leased car for weekend drives and regional flights to the Azores or Madeira a few times a year. Premium private healthcare with international coverage. Genuinely affluent living in a city where this budget goes far."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Personal trainer, private Portuguese tutor, annual wardrobe refresh, premium co-working membership at Second Home",
         "monthlyCost": 1500
       },
-      "lifestyle": "Lisbon's aristocratic lifestyle made accessible. Your Lapa palacete or Liberdade penthouse is the backdrop for dinner parties with Lisbon's cultural set, prepared by your personal chef. Weekends alternate between Algarve escapes and private sailing — you've joined the city's most exclusive circles."
+      "lifestyle": "A large penthouse on Avenida da Liberdade or a historic apartment in Lapa with panoramic river views. Regular dining at the city's best restaurants, business class for longer flights, and a cleaner several times a week. A leased BMW or Mercedes for weekend drives to the Algarve. Premium private healthcare and a personal trainer. High-quality daily life with real comfort, and Lisbon's costs mean this budget stretches further than in most Western European capitals."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Interior designer on retainer, bespoke tailoring, private art curation, charitable foundation management, vintage port collection",
         "monthlyCost": 5000
       },
-      "lifestyle": "At this level you're not just living in Lisbon — you're shaping it. Your restored palace hosts charity galas and art exhibitions, your name appears on museum donor walls, and your weekends are split between your Azores retreat and Algarve estate. This is legacy-level living in one of Europe's most gracious capitals."
+      "lifestyle": "A restored historic mansion in Lapa or an ultra-luxury penthouse on Avenida da Liberdade with concierge services. Regular fine dining, a cook a few times a week, and full private healthcare with no wait times. A housekeeper, business class travel as default, and first class for longer trips. A nice car and driver when needed. You never think about money day-to-day, though at this level in Lisbon you're near the ceiling of what the city offers in terms of premium services."
     }
   },
   "scores": {

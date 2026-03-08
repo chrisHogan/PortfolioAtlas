@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 170
       },
-      "lifestyle": "Auckland on a lean budget requires careful planning, but the payoff is access to some of the world's most beautiful natural scenery for free. You will cook at home often and live modestly, but weekends on black sand beaches, volcanic cone hikes, and harbour walks make the lifestyle feel far richer than the budget suggests."
+      "lifestyle": "This budget is tight in Auckland. Housing is expensive, so you will live in Mt Eden, Kingsland, or the outer suburbs and cook at home most nights. The free outdoor recreation — black sand beaches at Piha, volcanic cone hikes, harbour walks — is genuinely world-class and helps stretch the budget. Auckland is car-dependent outside the central area, which adds cost. Public healthcare covers hospital visits, though GP wait times can be long."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "This is where Auckland life becomes genuinely wonderful. A nice home in a leafy inner suburb, regular dining at the city's excellent cafes and restaurants, and easy weekend escapes to Waiheke Island, the Coromandel Peninsula, or Northland beaches. The outdoor lifestyle — sailing, surfing, hiking — is accessible and magnificent."
+      "lifestyle": "A two-bedroom in Ponsonby or Grey Lynn, or a house with a garden in Mt Albert. Regular brunch at Ponsonby cafes, dining on the Viaduct, and a reliable car for beach trips to the Coromandel or Northland. Private health insurance through Southern Cross for faster specialist access, and weekend ferry trips to Waiheke Island. The outdoor lifestyle — sailing, surfing, hiking — is the main draw, and the budget supports it well."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "Auckland at this budget is outstanding. A beautiful home with harbour views, regular dining at world-class restaurants, and the freedom to explore New Zealand's incredible landscape — from Bay of Islands sailing to Tongariro Alpine Crossing. The combination of urban sophistication and raw natural beauty is Auckland's superpower."
+      "lifestyle": "A spacious home in Herne Bay, Devonport, or Remuera with harbour views. Regular dining at top restaurants like Pasture and Sidart, a good SUV for outdoor adventures, and premium health insurance. Domestic flights to Queenstown for skiing and weekend trips to the Bay of Islands are within budget. Auckland's dining scene is smaller than Sydney's or Melbourne's, but the surrounding natural landscape is the real asset at this spending level."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Waiheke vineyard weekends, first-class international travel, luxury lodge stays, philanthropy",
         "monthlyCost": 1800
       },
-      "lifestyle": "You are living Auckland's finest life. A stunning waterfront property, a boat on the harbour, and access to New Zealand's most exclusive experiences from heli-skiing to luxury lodge stays. Auckland's combination of harbour living and proximity to some of the world's most dramatic landscapes creates a lifestyle that is simultaneously sophisticated and adventurous."
+      "lifestyle": "A waterfront property in Herne Bay or on the North Shore, a boat moored in the harbour, a housekeeper, and business class travel when flying internationally. Yacht club membership, premium healthcare, and regular dining at Auckland's best restaurants. New Zealand's geographic isolation means international flights are long and expensive, which is a real consideration. The nearby natural landscape — lodges, ski fields, coastal retreats — is where most of the lifestyle value lies."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Luxury lodge circuit, vineyard ownership, international travel, philanthropic foundation",
         "monthlyCost": 5000
       },
-      "lifestyle": "At this tier Auckland becomes the gateway to the ultimate New Zealand lifestyle. A grand estate on the harbour, a private yacht, helicopter access to remote lodges, and the ability to experience everything this extraordinarily beautiful country offers. New Zealand's clean, safe, and stunning environment combined with Auckland's cosmopolitan amenities create a life of rare quality."
+      "lifestyle": "A grand waterfront estate with harbour views, a cook who comes in several times a week, regular housekeeping, and first-class international travel. A boat on the harbour and access to New Zealand's luxury lodge circuit by helicopter or domestic flight. Auckland is clean, safe, and stunningly located, but it is a mid-sized city with a limited luxury services market. The geographic isolation adds cost and travel time for international trips, which is the main tradeoff at this spending level."
     }
   },
   "scores": {

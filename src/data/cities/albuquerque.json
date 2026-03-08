@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 120
       },
-      "lifestyle": "Albuquerque at $1M is surprisingly comfortable thanks to some of the lowest housing costs among major Western cities. You will eat incredible New Mexican food cheaply, hike the Sandias for free, and soak in 310 days of sunshine. Healthcare is the biggest expense, but the desert lifestyle is inherently low-cost and deeply satisfying."
+      "lifestyle": "A one-bedroom in the University or Nob Hill area runs under $1,000, which is low for a Western metro of this size. You cook at home most nights and eat out at New Mexican restaurants a couple of times a week for not much money. Hiking the Sandia foothills and exploring Old Town are free. Healthcare is the largest expense, and you need a car, but the overall cost base leaves reasonable breathing room."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 145
       },
-      "lifestyle": "This is the Albuquerque sweet spot. You can afford a charming Nob Hill bungalow, eat your way through the city's legendary chile-laden cuisine, take the Sandia Peak Tramway whenever you want, and explore nearby pueblos and national monuments on weekends. The combination of culture, sunshine, and affordability is hard to beat."
+      "lifestyle": "A two-bedroom house in Nob Hill or a townhome in the Northeast Heights, dining out several times a week at Central Avenue restaurants and local breweries, and a Sandia Peak Tramway pass. Weekends involve exploring nearby pueblos, national monuments, and the bosque along the Rio Grande. Good health insurance and a reliable car for day trips are covered with room to spare."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "At $10K a month, Albuquerque becomes extraordinary. A beautiful home with Sandia Mountain views, regular trips to Santa Fe for the opera and Canyon Road galleries, hot air balloon flights, and deep engagement with the city's rich cultural calendar. The desert light alone makes this lifestyle magical."
+      "lifestyle": "A three-bedroom home in Sandia Heights or the North Valley with mountain or bosque views, regular dining at top restaurants like Campo and Los Poblanos, and a late-model SUV for desert and mountain excursions. Trips to Santa Fe for the opera and Canyon Road galleries, a golf membership, and hot air balloon rides are all within budget. This is an affluent life with substantial margin at Albuquerque prices."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Art collecting, quarterly travel, Balloon Fiesta VIP experiences, cultural philanthropy",
         "monthlyCost": 1300
       },
-      "lifestyle": "You are living the high-desert dream at its finest. A stunning adobe compound with mountain views, private hot air balloon flights at sunrise, patronage of the Santa Fe Opera, and art purchases from world-renowned galleries. New Mexico at this level offers a lifestyle of rare beauty and cultural depth."
+      "lifestyle": "A custom adobe home in Sandia Heights or a large North Valley property with acreage, a housekeeper who comes weekly, and concierge healthcare. Regular fine dining in both Albuquerque and Santa Fe, a country club membership, and business class flights for longer travel fit comfortably. Hot air balloon flights, Santa Fe Opera patronage, and occasional art purchases on Canyon Road round out the calendar."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Second home in Santa Fe, first-class travel, major art collection, cultural foundation",
         "monthlyCost": 4800
       },
-      "lifestyle": "At $10M in Albuquerque you command a desert empire. A magnificent hacienda beneath the Sandias, a second home on Canyon Road in Santa Fe, a world-class art collection, and deep philanthropic involvement with Native American and Hispanic cultural institutions. The Land of Enchantment earns its name at this level."
+      "lifestyle": "A large Sandia Heights estate or a sprawling North Valley hacienda, a second home in Santa Fe, full-time domestic help including a housekeeper and property manager, and a cook who comes in several times a week. First-class travel, concierge healthcare, and regular fine dining are all comfortable. Albuquerque's low cost base means this budget provides premium living with very large monthly margins."
     }
   },
   "scores": {

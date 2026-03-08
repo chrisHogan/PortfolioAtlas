@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 80
       },
-      "lifestyle": "Quito at this budget is remarkably comfortable. You can rent a spacious apartment in a desirable neighborhood, eat out daily on local set menus, and enjoy some of the most dramatic mountain scenery on Earth — all for well under budget. The US dollar currency eliminates exchange rate worry, and the surplus gives you a genuine safety net. Learning Spanish transforms the experience from good to extraordinary."
+      "lifestyle": "A spacious two-bedroom in La Floresta, González Suárez, or Cumbayá puts you in a desirable neighborhood at low cost. Daily almuerzos are cheap, taxis and buses are affordable, and IESS public insurance covers basic healthcare. The US dollar currency eliminates exchange rate risk. Learning Spanish is important since English is not widely spoken. The budget leaves meaningful margin, and the Andean scenery at 9,350 feet is striking — though the altitude takes adjustment."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 100
       },
-      "lifestyle": "At this budget Quito becomes extraordinarily generous. A beautiful apartment with mountain views, a car for exploring Ecuador's incredible geography, and more than enough for regular dining out and weekend adventures. You can fund an annual Galapagos trip and still have substantial savings. The combination of perfect weather, low costs, and natural beauty is unmatched."
+      "lifestyle": "A three-bedroom apartment in González Suárez with Andean valley views or a house in Cumbayá gives you a comfortable base. You own a car for weekend trips to cloud forests and hot springs, dine at the city's best restaurants several times a week, and carry premium private insurance at Hospital Metropolitano. An annual Galápagos trip is easily in budget with room for savings. The combination of low costs and dramatic natural surroundings delivers strong value."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 130
       },
-      "lifestyle": "At $10,000/month in Quito you are living an extraordinarily full life. A luxury home with panoramic Andean views, regular fine dining, a car for mountain exploration, and the budget for bucket-list experiences like Galapagos cruises and Amazon expeditions multiple times per year. Few places on Earth offer this combination of beauty, adventure, and value."
+      "lifestyle": "A large penthouse in González Suárez or a house with a garden in the Cumbayá valley puts you at the top of the local housing market. You dine at Quito's best restaurants regularly, own an SUV for mountain drives, and take domestic flights to the coast and Amazon. Galápagos cruises and Amazon lodge stays are in budget multiple times per year. This amount goes very far in Quito, with substantial margin remaining."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "First-class international travel, Galapagos yacht charters, hacienda weekends, philanthropy",
         "monthlyCost": 2500
       },
-      "lifestyle": "You are living an almost unimaginably rich life for this budget. A grand estate with Andean views, full staff, a private driver, and regular access to some of Earth's most extraordinary natural wonders — the Galapagos, the Amazon, and the Andes. The gap between cost and quality of life in Ecuador at this tier is perhaps the widest anywhere in the world."
+      "lifestyle": "A large estate in Cumbayá or the Tumbaco valley with Andean panoramas provides generous space. A housekeeper and cook manage the household, a driver handles transportation, and you dine freely at the city's best restaurants. Business class flights for international travel, private Galápagos charters, and luxury Amazon lodge stays are all comfortably covered. This budget far exceeds Quito's cost of living, producing significant margin for savings or travel."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Private jet travel, conservation philanthropy, Galapagos research funding, international art",
         "monthlyCost": 8000
       },
-      "lifestyle": "At this level Ecuador becomes your personal nature reserve. A grand hacienda estate, a full staff, private access to the Galapagos and Amazon, and the resources to make a meaningful impact through conservation and philanthropy. The sheer natural wealth of Ecuador combined with your financial resources creates opportunities for a life of extraordinary purpose and beauty."
+      "lifestyle": "A grand hacienda estate in the Cumbayá or Tumbaco valley with full household staff — cook, housekeepers, groundskeepers, and driver — anchors daily life. You fly first class internationally, take private Galápagos expeditions, and dine without any budget constraints. This budget is well beyond what Quito requires for a top-tier life. The substantial margin typically goes to savings, international travel, or involvement in Ecuador's conservation and arts communities."
     }
   },
   "scores": {

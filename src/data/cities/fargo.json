@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "Fargo at $1M is remarkably comfortable. Housing costs are among the lowest in the nation, and the friendly community makes it easy to build a social life without spending money. You will cook at home often, bundle up for winter walks along the Red River, and enjoy the vibrant downtown scene on a shoestring. The tax advantages on retirement income are a real bonus."
+      "lifestyle": "Housing runs about $850 for a one-bedroom downtown, which is among the lowest rents of any US city. You cook at home most nights and eat out casually a couple of times a week. Winter walks along the Red River, the Fargo Theatre, and community events fill free time. Heating costs in winter are a real line item, but the overall cost base is low enough that this budget works without constant strain."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 175
       },
-      "lifestyle": "This is Fargo's sweet spot and it feels genuinely abundant. You can own or rent a comfortable house, eat out regularly at places like Mezzaluna and HoDo, cheer on the Bison, and still have plenty left over. The low cost of living means your $2M portfolio could last decades with room to spare. Winters are cold but the warm community more than compensates."
+      "lifestyle": "A two-bedroom house in south Fargo or a nice downtown apartment, dining out several times a week at places like Mezzaluna and HoDo, NDSU Bison football tickets, and a gym membership for the long winters. A reliable AWD vehicle with winter tires is essential. The low cost base leaves a healthy monthly margin, and North Dakota's favorable treatment of retirement income helps further."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 230
       },
-      "lifestyle": "At $10K a month in Fargo you are living at the very top of what the city offers. A spacious, modern home, regular fine dining, season tickets to everything, and enough left over for regular winter getaways to warmer climates. Your money goes extraordinarily far here, and the strong community roots make the lifestyle deeply satisfying."
+      "lifestyle": "A spacious three-bedroom home in Osgood or Prairie Heights, regular dinners at HoDo and Rosewild, season tickets to NDSU and the FM RedHawks, and a late-model SUV. At Fargo prices, $10K a month is well above what most residents spend, leaving significant room for winter getaways to warmer climates and regular travel throughout the year."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Winter home in Arizona or Florida, quarterly travel, community philanthropy",
         "monthlyCost": 1800
       },
-      "lifestyle": "At this budget Fargo becomes your affordable home base with a snowbird escape built in. A beautiful custom home for the warm months, a winter retreat in the Sun Belt, and deep community involvement the rest of the year. The tax advantages on retirement income make your $5M portfolio stretch remarkably far."
+      "lifestyle": "A custom-built home in South Fargo, a housekeeper who comes weekly, and a winter rental in Arizona or Florida to escape the coldest months. Regular fine dining, a country club membership, and trips to Minneapolis for concerts and sports are all within budget. Business class flights for longer travel are comfortable. The low cost base means large monthly margins even with the snowbird setup."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Luxury winter home, first-class international travel, art collection, foundation giving",
         "monthlyCost": 5500
       },
-      "lifestyle": "At $10M in Fargo you are the quiet titan of the Northern Plains. A magnificent estate, a luxury winter home to escape the cold, first-class travel on a whim, and the ability to be a transformative philanthropic force in a community that deeply values generosity. Your money goes further here than almost anywhere else in the country."
+      "lifestyle": "A large custom estate in South Fargo, a winter home in a warmer climate, full-time domestic help including a housekeeper and property manager, and a cook who comes in several times a week. First-class travel, concierge healthcare, and generous community involvement are all well covered. At Fargo costs, this budget provides an extremely comfortable, well-staffed life with very large margins each month."
     }
   },
   "scores": {

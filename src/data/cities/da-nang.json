@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 60
       },
-      "lifestyle": "Da Nang at $1M is a revelation. You wake up ten minutes from one of Asia's best beaches, eat a bowl of pho that costs less than a dollar and tastes like heaven, and spend afternoons exploring the Marble Mountains or surfing at My Khe. The expat community is small but tight-knit, and your dollar stretches so far that saving on a $1M portfolio is genuinely possible."
+      "lifestyle": "A modern 1-bedroom apartment near My Khe Beach or a small house in a local neighborhood. Eating mostly street food — pho, banh mi, and com tam for a dollar or two per meal. Getting around by motorbike with Grab for longer trips. Basic private health insurance at Da Nang's expanding hospital network. The beach and the Marble Mountains are free. Comfortable and very affordable, though English is limited and the expat community is still small."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 100
       },
-      "lifestyle": "With $2M, Da Nang becomes incredibly comfortable. Your beachfront apartment means morning swims before breakfast, you eat at the best restaurants in town without checking prices, and weekends mean road-tripping to the ancient streets of Hoi An or the imperial citadel in Hue. Vietnamese cooking classes become a passion, and the beach lifestyle keeps you healthy and happy."
+      "lifestyle": "A spacious 2-bedroom beachfront apartment or a modern villa with pool access. Dining out regularly at good Vietnamese and international restaurants without watching the bill, with own motorbike plus Grab car for getting around. Comprehensive private health insurance with dental. Weekend road trips to Hoi An and Hue are easy and cheap, and morning swims at My Khe Beach are part of the routine. Day-to-day life is comfortable and relaxed."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "Your private beachfront villa is the stuff of Instagram dreams — infinity pool overlooking the East Sea, morning yoga on the terrace, and a short drive to world-class golf. You fly to Hanoi or Saigon for long weekends, charter boats to the Cham Islands, and dine on the freshest seafood imaginable. At $3M in Da Nang, you live like royalty on a budget that would get you a modest condo in most US cities."
+      "lifestyle": "A large beachfront villa with private pool and ocean views. Dining at Da Nang's best restaurants regularly, with fresh seafood as a staple. A leased car or SUV for getting around, with domestic flights to Hanoi and Ho Chi Minh City. Premium international health insurance with medical evacuation coverage. Golf at good courses nearby. This budget covers a genuinely affluent coastal lifestyle, though Da Nang's fine-dining and entertainment options are limited compared to larger Vietnamese cities."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Hoi An tailor-made wardrobe, private Vietnamese language tutor, premium spa memberships, charitable community projects",
         "monthlyCost": 1300
       },
-      "lifestyle": "Your oceanfront compound is a private paradise — a full-time chef prepares pho that rivals Hanoi's best alongside Thai and Italian dishes, your driver takes you to Son Tra's monkey-filled forests for afternoon hikes, and weekends mean yacht charters to deserted islands. Your Hoi An tailor keeps your wardrobe immaculate. In Da Nang at $5M, you live an extraordinary life that would cost ten times as much in California."
+      "lifestyle": "A large oceanfront property in the Son Tra area or near My Khe with pool, gardens, and sea views. A housekeeper and cook for most meals, plus a luxury car with a part-time driver. Business class for longer flights, regular domestic travel across Vietnam, and VIP international health coverage. This budget goes extremely far in Da Nang — daily life is very comfortable, though the city remains relatively small with limited high-end infrastructure."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Hoi An heritage property management, charitable foundation for local education, bespoke yacht itineraries along the Vietnamese coast, art collection curation",
         "monthlyCost": 4500
       },
-      "lifestyle": "At $10M in Da Nang, you preside over a beachfront compound that is part private resort, part philanthropic headquarters. Your chef team sources ingredients from mountain villages and coastal fishermen, your yacht cruises the central coast discovering hidden beaches, and your charitable foundation transforms local schools. You split time between your Da Nang estate and your beautifully restored Hoi An heritage home. Vietnam at this level is a life of breathtaking beauty and profound purpose."
+      "lifestyle": "A large beachfront estate with direct beach access, plus potentially a heritage property in Hoi An's old town. A housekeeper, a cook a few times a week, a gardener, a driver, and a property manager. First-class flights internationally and frequent domestic travel. Concierge global healthcare. This is far more budget than Da Nang can absorb — you live at the absolute top of what the area offers, but Da Nang is still a mid-size Vietnamese city with limited luxury dining, entertainment, and medical options. The beach and natural setting are the real draw."
     }
   },
   "scores": {

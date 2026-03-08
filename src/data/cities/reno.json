@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 135
       },
-      "lifestyle": "Reno at $1M is tight but the zero state income tax is a real advantage for FIRE retirees. You can hike the Sierra foothills, walk along the Truckee River, and enjoy Midtown's vibe without spending much. Tahoe day trips are free once you have a car. Budget carefully, but the tax savings alone can make this work."
+      "lifestyle": "Housing takes over a third of the budget at around $1,250 for a one-bedroom in Midtown, and you need a car for daily life and Tahoe trips. You cook at home most nights and eat out casually a couple of times a week. The free hiking in the Sierra foothills and walks along the Truckee River keep things enjoyable. No state income tax helps, but this is a tight budget for Reno's rising costs."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 165
       },
-      "lifestyle": "This budget unlocks everything that makes Reno special. A comfortable place in trendy Midtown, a ski pass at Mt. Rose, regular Tahoe weekends, and plenty of dining out. Combined with zero state income tax, your $2M portfolio works harder here than in most Western cities. Weekend trips to Tahoe become a way of life."
+      "lifestyle": "A two-bedroom in Midtown or a small house in Southwest Reno, a ski pass at Mt. Rose, and dining out several times a week at Midtown restaurants and breweries. An AWD vehicle handles winter Tahoe drives, and weekend trips to the lake become routine. Good health insurance is covered, and zero state income tax keeps more money in your pocket compared to neighboring California."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 220
       },
-      "lifestyle": "At $10K a month with no state income tax, Reno delivers exceptional value. A beautiful home with Sierra views, ski passes at multiple resorts, fine dining in Midtown, and Tahoe as your weekend playground. This is mountain-West living at its finest, with thousands saved annually in taxes compared to neighboring California."
+      "lifestyle": "A three-bedroom home in Somersett or Caughlin Ranch with Sierra views, ski passes at multiple resorts, and regular dining at places like The Depot and Campo. A late-model SUV handles mountain roads year-round. Tahoe is your regular weekend destination, and the budget leaves margin for travel and savings. No state income tax saves thousands annually compared to California."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Tahoe lakefront cabin rentals, quarterly travel, art collecting, philanthropy",
         "monthlyCost": 1400
       },
-      "lifestyle": "Reno at $5M is elite Sierra living. A stunning home in a gated mountain community, heli-skiing in the backcountry, private access to Tahoe's best, and all of it tax-free at the state level. You are living the California dream without the California taxes, and keeping hundreds of thousands more in your pocket over time."
+      "lifestyle": "A custom home in Arrowcreek or Montreux with mountain views, a housekeeper who comes several times a week, and concierge healthcare. A private ski club membership, regular fine dining in both Reno and Tahoe, and business class flights from RNO fit the budget. Snow removal and landscaping are covered. Zero state income tax amplifies the spending power significantly."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Tahoe lakefront property, first-class international travel, art collection, major philanthropy",
         "monthlyCost": 5000
       },
-      "lifestyle": "At $10M in Nevada you pay zero state income tax on every dollar withdrawn, saving potentially hundreds of thousands annually. Add a Sierra estate, a Tahoe lakefront property, chartered flights, and deep philanthropic involvement in the growing Reno community. This is one of the most tax-efficient luxury lifestyles in America."
+      "lifestyle": "A large estate in Montreux or Arrowcreek with panoramic Sierra views, a lakefront property near Tahoe, full-time domestic help including a housekeeper and property manager, and a cook who comes in several times a week. First-class travel, concierge healthcare, and fine dining whenever you like are all comfortable. Zero state income tax on every dollar withdrawn makes this one of the more tax-efficient places to hold a large portfolio."
     }
   },
   "scores": {

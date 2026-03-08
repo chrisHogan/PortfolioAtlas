@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "Nashville on a tight budget benefits enormously from no state income tax and abundant free entertainment. The honky-tonks on Lower Broadway never charge a cover, and the city's parks are excellent. You will live in an outer neighborhood and cook most meals, but affordable hot chicken and BBQ keep dining out within reach."
+      "lifestyle": "You live in an outer neighborhood like Madison or Antioch and cook most meals at home, but Nashville's lack of state income tax helps your budget go further. Free live music on Lower Broadway and the city's excellent parks provide regular entertainment at no cost. Dining out is limited to affordable hot chicken and BBQ spots a couple of times a week."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "At this budget Nashville is a blast. You can live in one of the city's trendy, walkable neighborhoods and fully participate in the music, food, and sports scenes. Regular shows at the Ryman, weekend trips to the Smoky Mountains, and no state income tax eating into your withdrawals make this a sweet spot."
+      "lifestyle": "You can rent a nice apartment in East Nashville or Germantown and eat out several times a week at the restaurants driving Nashville's food boom. Shows at the Ryman Auditorium, Predators or Titans games, and weekend drives to the Smoky Mountains fit comfortably in the budget. No state income tax means your full withdrawal stays in your pocket."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 240
       },
-      "lifestyle": "Nashville at this tier is genuinely excellent. A house in one of the most desirable neighborhoods, the city's best restaurants on speed dial, and VIP access to Music City's legendary entertainment. Weekend drives through the Tennessee countryside or to Great Smoky Mountains National Park are effortless."
+      "lifestyle": "You can rent a house in a desirable area like 12 South or Sylvan Park and dine regularly at top Nashville restaurants. Season tickets to the Predators or Titans are within reach, along with regular travel and good private healthcare through the Vanderbilt network. Weekend trips to the Tennessee countryside or Great Smoky Mountains are a natural addition."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Quarterly travel, private music events, bourbon collection, philanthropy",
         "monthlyCost": 1400
       },
-      "lifestyle": "You are living Nashville's elite lifestyle. A stunning Belle Meade estate, private songwriter rounds in your living room, and VIP access to every major event in Music City. Tennessee's zero income tax means your portfolio works harder, and the surplus lets you invest or give generously."
+      "lifestyle": "A large home in Belle Meade or Green Hills, regular dining at Nashville's best restaurants, and a housekeeper several times a week. You can afford concierge medicine at Vanderbilt, a nice car, and business class flights for longer trips. Tennessee's zero income tax keeps your full withdrawal intact, and the budget supports country club membership and regular entertainment."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "First-class international travel, recording studio investment, ranch property, angel investing",
         "monthlyCost": 5000
       },
-      "lifestyle": "At this level Nashville becomes your personal Music City kingdom. A sprawling estate, private concerts in your home, and the ability to shape Nashville's cultural landscape through philanthropy. Zero state income tax on your $10M portfolio means extraordinary purchasing power in a city that loves to celebrate life."
+      "lifestyle": "Premium housing in Belle Meade or Oak Hill, regular fine dining, a cook who comes several times a week, and a housekeeper. Business class or first class travel, full concierge healthcare at Vanderbilt, and a private suite at Bridgestone Arena for concerts and Predators games. Nashville's zero income tax and moderate cost of living mean you never think about day-to-day spending."
     }
   },
   "scores": {

@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 160
       },
-      "lifestyle": "Tallinn is one of Europe's best-kept secrets for value. Free public transit, affordable housing, and a high quality of life in a safe, connected city. Winters are harsh but the sauna culture, Christmas markets, and cozy cafe scene make them bearable. Summers along the Baltic coast are genuinely beautiful."
+      "lifestyle": "A one-bedroom in Kalamaja or Kristiine keeps costs manageable in a walkable, interesting neighborhood. Public transit is free for registered residents, which helps the budget considerably. You can eat at cafes and casual restaurants a few times a week and enjoy Tallinn's sauna culture affordably. Winters are long, dark, and cold — this is the major lifestyle tradeoff. Summers along the Baltic coast are short but pleasant."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "Tallinn becomes genuinely luxurious at this level for a European capital. A modern apartment in a hip neighborhood, New Nordic dining, spa culture, and budget flights to the rest of Europe. The city's digital infrastructure means everything is seamless, from banking to healthcare appointments."
+      "lifestyle": "A modern apartment in Kalamaja, Rotermanni, or near Kadriorg Park puts you in Tallinn's best neighborhoods. Regular dining at good restaurants, spa weekends in Pärnu, and car rentals for trips to Lahemaa National Park are all within budget. Good private health insurance, a gym membership, and budget flights around Europe leave a comfortable margin. Estonia's digital infrastructure makes banking and administration notably easy."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 220
       },
-      "lifestyle": "Living in a medieval Old Town apartment or elegant Kadriorg townhouse while dining at some of the best restaurants in the Nordics is extraordinary. The low costs leave massive surplus for travel, and Helsinki is just a 2-hour ferry ride away for additional cosmopolitan variety."
+      "lifestyle": "A large apartment in the Old Town or a renovated townhouse in Kadriorg, regular dining at Tallinn's top restaurants like Noa and 180 degrees, and your own car for countryside trips. International health coverage and regular European travel, including easy ferry trips to Helsinki. The margin at this level in Tallinn is significant, and the restaurant scene, while growing, is smaller than in larger European capitals."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Baltic yacht cruises, first-class Scandinavian travel, art collecting, Estonian tech investments",
         "monthlyCost": 2000
       },
-      "lifestyle": "A historic mansion in one of Europe's most beautiful medieval cities, with full staff and access to the finest Nordic culture. Estonia's flat tax system and digital-first governance make managing your finances seamless, while the surplus at this level is remarkable for a European capital."
+      "lifestyle": "A historic Old Town property or a waterfront penthouse in Noblessner, a housekeeper, business class European travel, and dining at Tallinn's best restaurants whenever you like. Premium healthcare through Nordic networks is accessible. Estonia's digital governance and flat tax system simplify financial management. The margin is large — Tallinn does not have the luxury infrastructure to absorb this level of spending."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Baltic island property, yacht ownership, first-class global travel, Estonian tech startup investing, philanthropy",
         "monthlyCost": 5000
       },
-      "lifestyle": "At this level in Tallinn you are among the city's most prominent residents. A grand historic property, a yacht on the Baltic, full staff, and the resources to patronize the arts and invest in Estonia's renowned tech ecosystem. The combination of medieval beauty and digital modernity is uniquely Tallinn."
+      "lifestyle": "A grand Old Town property or waterfront estate, a cook who comes in several times a week, regular housekeeping, and first-class travel. You can keep a boat for Baltic summer sailing and carry comprehensive international healthcare. Tallinn is a small capital of under 500,000 people, so the fine dining, cultural, and luxury service options are limited. Most of this budget will go unspent locally, making it best suited to someone who travels extensively and values Tallinn as a quiet, safe home base."
     }
   },
   "scores": {

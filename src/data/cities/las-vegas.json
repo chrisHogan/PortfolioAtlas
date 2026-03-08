@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "Living on $3,333/month in Vegas means staying well outside the tourist corridor and resisting the temptation to gamble. You can manage it, especially with cheap dining options and free entertainment everywhere. Summer electric bills for A/C will be a major expense, but overall costs are lower than most Western cities."
+      "lifestyle": "You live in a suburban area like Henderson or Summerlin South, well away from the Strip, and cook most meals at home. Cheap casino buffet deals and casual restaurants help stretch the dining budget a couple of times a week. Summer electricity bills for air conditioning are a real cost in the desert heat. No state income tax helps, and free entertainment on the Strip is always available if you avoid the gambling floor."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 230
       },
-      "lifestyle": "At this budget Vegas really starts to shine. You can enjoy the endless entertainment options, dine well several times a week, and live in a comfortable suburban community. Weekend trips to Zion, Grand Canyon, or Death Valley are easy additions. No state income tax keeps more money in your pocket."
+      "lifestyle": "You can rent a nice apartment in Summerlin or Green Valley and eat out several times a week at mid-range restaurants, with occasional Strip dining when deals are available. Show tickets, a gym membership, and golf at public courses fit the budget. Weekend road trips to Zion, the Grand Canyon, or Valley of Fire are easy drives. No state income tax means your full withdrawal is yours to spend."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 300
       },
-      "lifestyle": "This is the sweet spot for Vegas living. A house with a pool in a master-planned community, celebrity-chef dinners whenever you want, front-row seats at Cirque du Soleil, and plenty left over for road trips across the Southwest. The zero income tax advantage really compounds at this spending level."
+      "lifestyle": "You can rent a house with a pool in Summerlin or Southern Highlands and dine regularly at the celebrity-chef restaurants on the Strip. Premium show tickets, a golf club membership, and regular spa visits fit comfortably. Good private health insurance and enough room for Southwest road trips round out a comfortable life. Nevada's zero income tax is a meaningful advantage at this spending level."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "High-roller experiences, quarterly luxury travel, spa packages, fine wine collection",
         "monthlyCost": 1800
       },
-      "lifestyle": "Vegas rolls out the red carpet at this tier. A stunning home in a gated community with Strip views, VIP treatment everywhere you go, and the best shows and dining the city offers. You can enjoy the high-roller lifestyle without actually gambling your retirement away."
+      "lifestyle": "A large home in a gated community like The Ridges or MacDonald Highlands, regular dining at the best Strip restaurants, and a housekeeper who comes several times a week. Concierge medicine, a nice car, and business class flights are standard. Premium golf club membership, courtside NBA seats, and the best show tickets in town fit comfortably. Nevada's zero income tax keeps the full withdrawal intact."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Private jet trips, luxury suite entertaining, real estate investments, charitable foundations",
         "monthlyCost": 5000
       },
-      "lifestyle": "At $33K/month Las Vegas becomes your personal entertainment empire. A sprawling estate or iconic penthouse, a personal chef, VIP everything, and the freedom to fly private to LA or Aspen on a whim. Nevada's zero income tax means your $10M portfolio works harder than almost anywhere else in the country."
+      "lifestyle": "Premium housing in The Summit or a penthouse in a luxury Strip tower, regular fine dining, a cook who comes several times a week, and a housekeeper. First class travel, full concierge healthcare, and front-row access to any show or event in the city. Nevada's zero income tax at this spending level is a significant financial advantage. Las Vegas's entertainment infrastructure means there is always something to do without needing to travel far."
     }
   },
   "scores": {

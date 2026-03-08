@@ -4,7 +4,7 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
 
 <header class="bg-white/80 backdrop-blur-md border-b border-sand-200 sticky top-0 z-50">
   <nav class="container-wide flex items-center justify-between h-16">
-    <a href="/" class="flex items-center gap-2 group">
+    <a href="/" id="logo-link" class="flex items-center gap-2 group">
       <div class="w-8 h-8 bg-brand-600 rounded-lg flex items-center justify-center">
         <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -23,7 +23,7 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
           currentPath === '/' ? 'text-brand-600' : 'text-gray-600 hover:text-brand-600',
         ]}
       >
-        Calculator
+        Explore
       </a>
       <a
         href="/compare"
@@ -57,6 +57,11 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
           <path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
         </svg>
         <span id="header-nw-value"></span>
+        <button id="header-reset-btn" type="button" class="ml-1 -mr-1 p-0.5 rounded-full hover:bg-brand-200 transition-colors" aria-label="Reset all data" title="Reset all data">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 text-brand-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
       </span>
     </div>
 
@@ -75,7 +80,7 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
   <!-- Mobile menu -->
   <div id="mobile-menu" class="hidden md:hidden border-t border-sand-200 bg-white">
     <div class="container-wide py-4 flex flex-col gap-3">
-      <a href="/" class:list={['text-sm font-medium py-1', currentPath === '/' ? 'text-brand-600' : 'text-gray-600 hover:text-brand-600']}>Calculator</a>
+      <a href="/" class:list={['text-sm font-medium py-1', currentPath === '/' ? 'text-brand-600' : 'text-gray-600 hover:text-brand-600']}>Explore</a>
       <a href="/compare" class:list={['text-sm font-medium py-1', currentPath === '/compare' ? 'text-brand-600' : 'text-gray-600 hover:text-brand-600']}>Compare</a>
       <a href="/blog" class:list={['text-sm font-medium py-1', currentPath.startsWith('/blog') ? 'text-brand-600' : 'text-gray-600 hover:text-brand-600']}>Blog</a>
       <a href="/about" class:list={['text-sm font-medium py-1', currentPath === '/about' ? 'text-brand-600' : 'text-gray-600 hover:text-brand-600']}>About</a>
@@ -88,6 +93,27 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
   const menu = document.getElementById('mobile-menu');
   btn?.addEventListener('click', () => {
     menu?.classList.toggle('hidden');
+  });
+
+  // Reset all stored state and navigate to clean homepage
+  function resetAll() {
+    try { localStorage.removeItem('pa_calc'); } catch (e) {}
+    window.location.href = '/';
+  }
+
+  // Logo click: clear everything and go to clean homepage
+  const logoLink = document.getElementById('logo-link');
+  logoLink?.addEventListener('click', (e) => {
+    e.preventDefault();
+    resetAll();
+  });
+
+  // Reset button in NW badge
+  const resetBtn = document.getElementById('header-reset-btn');
+  resetBtn?.addEventListener('click', (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    resetAll();
   });
 
   // Show net worth badge from URL or localStorage

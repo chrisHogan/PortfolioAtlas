@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 50
       },
-      "lifestyle": "In Kathmandu, $1M makes you genuinely wealthy. A comfortable apartment with Himalayan views, daily restaurant meals, and regular trekking adventures are all easily affordable. The biggest adjustment is the city's pollution and chaotic traffic, but the cultural richness and mountain access more than compensate."
+      "lifestyle": "A spacious apartment in Lazimpat or Jhamsikhel, eating dal bhat and momos at local restaurants most days, and getting around by shared taxis and ride-hailing. Private health insurance covers the better Kathmandu hospitals. Trekking and hiking in the valley are cheap and accessible. Air pollution, power reliability, and chaotic traffic are real daily tradeoffs, but the cost of living is remarkably low."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 70
       },
-      "lifestyle": "At this budget you can live exceptionally well in Kathmandu. A beautiful house with a garden, a personal vehicle, regular trekking expeditions in the Himalayas, and fine dining whenever you wish. You can afford domestic flights to Nepal's stunning destinations and have significant savings surplus."
+      "lifestyle": "A large house with a garden in Budhanilkantha or Sanepa, your own motorbike or small car, and dining at good restaurants in Durbarmarg and Thamel several times a week. Premium health insurance with medical evacuation coverage to Delhi or Bangkok. Domestic flights to Pokhara and guided treks are comfortably within budget. Significant monthly margin given Kathmandu's low costs."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 100
       },
-      "lifestyle": "You are living at the very top of Kathmandu society. A luxurious villa, your own vehicle for mountain excursions, helicopter trips to Everest, and access to every premium experience Nepal offers. The enormous surplus means you can travel internationally frequently while maintaining your Himalayan home base."
+      "lifestyle": "A large villa in Budhanilkantha or Maharajgunj, an SUV suited to mountain roads, and regular dining at the best restaurants in Kathmandu. International health insurance covering top hospitals in Delhi, Bangkok, and Singapore. Helicopter tours and domestic flights for trekking trips. This budget far exceeds what Kathmandu's cost of living can absorb, leaving room for frequent international travel."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "First-class international travel, luxury trekking expeditions, philanthropy, property investments",
         "monthlyCost": 2500
       },
-      "lifestyle": "This budget is extraordinary in Nepal. A stunning estate with full staff, private helicopter access to the Himalayas, and the means to fund community projects. Most of your budget will go unspent, making this an incredible base for both adventure and wealth preservation."
+      "lifestyle": "A large estate with panoramic Himalayan views, a housekeeper, cook, gardener, and driver. A nice SUV for mountain trips, business class flights for international travel, and premium healthcare with Singapore and Bangkok hospital access. Helicopter tours and lodge-based trekking in the Himalayas are routine. Nepal's extremely low costs mean most of this budget goes unspent each month."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Philanthropic foundation, property development, private expedition sponsorship, global first-class travel",
         "monthlyCost": 5000
       },
-      "lifestyle": "At this level you could practically build your own village in Nepal. Multiple properties, a full compound staff, private expeditions, and the resources to make a significant philanthropic impact. Nepal becomes a spectacular and deeply affordable anchor for a global lifestyle."
+      "lifestyle": "A premium estate with full household staff, multiple vehicles with drivers, and first class international flights. Top-tier global health coverage and a cook several times a week. This budget is far beyond what Nepal's economy can absorb in spending. Most people at this level maintain a Kathmandu home as an affordable base for Himalayan access and travel globally for much of the year."
     }
   },
   "scores": {

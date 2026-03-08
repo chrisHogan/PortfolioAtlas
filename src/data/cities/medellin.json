@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 70
       },
-      "lifestyle": "You settle into Laureles, the neighborhood locals prefer — mornings at a corner bakery with a tinto and fresh pan de bono, afternoons exploring the city's incredible street art and green spaces. Your apartment has floor-to-ceiling windows framing the Aburrá Valley. Evenings mean $5 multi-course meals and salsa dancing in Parque Lleras — all on a budget that would barely cover rent in most US cities."
+      "lifestyle": "A furnished one-bedroom in Laureles or Envigado puts you in a walkable neighborhood with mountain views and affordable daily life. Menu del día lunches run a few dollars, the Metro covers most of the city, and weekend hikes to Parque Arví are practically free. The budget is comfortable here with room to spare, though you are cooking at home regularly and keeping entertainment simple."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 100
       },
-      "lifestyle": "El Poblado becomes your leafy, walkable home base — you take Spanish classes in the morning, work out at a modern gym, and have lunch at a different international restaurant each day. Weekends are for renting a finca in the countryside with friends or taking the scenic drive to Guatapé's stunning lakeside. Colombia's world-famous coffee tastes even better when you visit the farms yourself."
+      "lifestyle": "A modern two-bedroom in El Poblado or upper Laureles with pool and gym gives you a comfortable base. You dine out several times a week at international restaurants, take Spanish classes, and carry good private health insurance. Weekend car rentals for trips to Guatapé or coffee country fincas are easily in budget, and the year-round spring weather means low utility costs."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "From your penthouse terrace, you watch paragliders float over the valley as the sun sets behind the Andes. Your trainer meets you at the building gym, then it's a leisurely brunch at a farm-to-table restaurant. Life here is an effortless blend of adventure and sophistication — one weekend you're diving in the Rosario Islands off Cartagena, the next you're at a private coffee cupping with a championship barista."
+      "lifestyle": "A large penthouse in El Poblado with valley views, a personal trainer, and top-tier health insurance set the daily baseline. You eat at restaurants like Carmen and El Cielo regularly, take domestic flights to Cartagena or Bogotá for long weekends, and have a driver or premium rideshare for daily errands. This budget goes very far in Medellín — you live well above most locals and many expats."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Weekend finca in coffee region, private salsa instructor, bespoke Colombian emerald jewelry",
         "monthlyCost": 1800
       },
-      "lifestyle": "You live in the hills above the city in a sprawling modern home with an infinity pool overlooking the valley. A full-time cook prepares traditional bandeja paisa alongside international cuisine, and your driver takes you wherever the mood strikes. Your weekend finca in the coffee triangle is the envy of every visitor. Colombia rewards this budget with a lifestyle that feels genuinely lavish."
+      "lifestyle": "A large home in the Envigado hills or a top-end El Poblado penthouse with a pool provides generous living space. A housekeeper comes several days a week, you have a driver, and dining at the city's best restaurants is routine. Business class flights for international travel and regular weekend trips to a rented finca in coffee country are comfortably within budget."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Multiple properties (Cartagena beach house, coffee finca, city penthouse), emerald mine investment, polo club",
         "monthlyCost": 5500
       },
-      "lifestyle": "At this level, Medellín transforms from a city you live in to a kingdom you preside over. Your hilltop estate hosts legendary parties under the stars, your Cartagena beach house is a quick private flight away, and your coffee finca produces award-winning beans. You fund local arts programs, sponsor emerging Colombian designers, and move through a world of extraordinary privilege in one of the most beautiful settings on earth."
+      "lifestyle": "A hilltop estate in El Retiro or Las Palmas with panoramic mountain views, a cook who prepares daily meals, a housekeeper, and a driver define daily life. You dine at the best restaurants freely, fly business class internationally, and travel domestically to Cartagena or the coffee region on a whim. This budget far exceeds what Medellín requires for a top-tier life — significant margin goes to savings, travel, or charitable involvement in the local community."
     }
   },
   "scores": {

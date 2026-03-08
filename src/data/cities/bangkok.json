@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 100
       },
-      "lifestyle": "You live in a compact but modern condo steps from the Skytrain, eating incredible street food for a dollar a plate and exploring a new neighborhood every weekend. Bangkok at $1M is tight but thrilling — you trade space for access to one of the world's most dynamic cities."
+      "lifestyle": "A compact studio or small 1-bedroom condo near a BTS or MRT station in an affordable area like On Nut or Bang Na. Eating mostly street food and food court meals, which are genuinely good and cheap. Getting around on public transit with occasional Grab rides. Basic private health insurance. Bangkok is a big, modern city on a tight budget — you get access to great food and infrastructure, but space and dining-out frequency are the tradeoffs."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "At $2M, Bangkok opens up beautifully. You settle into the trendy Thong Lo area with its Japanese restaurants, craft cocktail bars, and leafy sois. Weekend beach escapes are easy, healthcare is world-class, and you can dine out every single night at excellent restaurants without worrying about your budget."
+      "lifestyle": "A well-appointed 1- or 2-bedroom condo in a desirable neighborhood like Thong Lo, Ekkamai, or Ari. Dining out regularly across Thai, Japanese, and international restaurants without watching the bill. BTS and Grab for easy transit. Comprehensive private health insurance with access to hospitals like Bumrungrad. Weekend beach trips to Hua Hin or Koh Samet are easy and affordable. Day-to-day life is comfortable and convenient."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "With $3M, you experience Bangkok's glamorous side. You live in a stunning high-rise with Chao Phraya River views, dine at Gaggan alumni restaurants, and have a social life that revolves around rooftop bars and private events. Bangkok's Michelin scene is your playground, and island-hopping weekends are routine."
+      "lifestyle": "A spacious 2-bedroom in a luxury condo in Sukhumvit, Sathorn, or Riverside with skyline views and premium amenities. Dining at Bangkok's best restaurants several times a week, including Michelin-starred spots and good omakase. A hired car or regular Grab use with occasional domestic flights. Premium international health insurance with executive screening packages. This budget covers a genuinely affluent lifestyle in Bangkok with regular travel."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Bespoke suits from Bangkok tailors, premium wellness retreats, luxury hotel staycations, fine wine collection",
         "monthlyCost": 1800
       },
-      "lifestyle": "At $5M in Bangkok, you live like a titan of industry. Penthouse living with a personal driver, regular chef's table dinners, and weekends on private yachts to the Gulf islands. Bangkok's luxury scene is world-class and remarkably accessible — you'd need $15M+ for this lifestyle in New York or London."
+      "lifestyle": "A penthouse condo or large house in an upscale area like Nichada Thani, with a housekeeper and a part-time cook. A leased luxury car with a part-time driver. Regular dining at Bangkok's top restaurants, business class flights for regional travel, and premium VIP healthcare at Bumrungrad. Bangkok has deep luxury infrastructure, and this budget gives you full access to it."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Art patronage, private island weekends, bespoke fashion, investment in Bangkok real estate, charitable foundations",
         "monthlyCost": 6000
       },
-      "lifestyle": "With $10M in Bangkok, you command a lifestyle that most people associate with old-money dynasties. Your penthouse overlooks the river, your staff anticipates every need, and you move between Bangkok high society, island retreats, and international travel with effortless grace. Bangkok is one of the best cities on earth to be wealthy in."
+      "lifestyle": "A large premium residence — a riverside penthouse or a mansion with private pool and gardens. A housekeeper, a cook a few times a week, and a full-time driver. First-class domestic flights and business class internationally. Concierge medical service with 24/7 specialist access. Regular fine dining as routine. This is more money than Bangkok demands for a top-tier life — you live very well with no financial friction, though it is not the limitless wealth it might feel like in a cheaper city."
     }
   },
   "scores": {

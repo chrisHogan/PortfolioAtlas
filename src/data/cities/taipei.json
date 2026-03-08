@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 100
       },
-      "lifestyle": "Taipei is arguably the best city in the world at this budget level. You eat like royalty at night markets for almost nothing, healthcare is world-class and nearly free, and the MRT gets you everywhere. Your apartment will be modest, but you will be living a rich daily life surrounded by incredible food, safe streets, and natural beauty."
+      "lifestyle": "A 1-bedroom apartment in Zhonghe, Banqiao, or outer Taipei near an MRT station. Eating mostly at night markets and local bento shops — beef noodle soup, dumplings, and stir-fries for a few dollars per meal. Getting around on the clean, fast MRT. Taiwan's National Health Insurance provides world-class coverage at minimal cost. The apartment will be modest, but the food, healthcare, transit, and safety are hard to beat at this price. English is moderate — some adaptation is needed for daily errands."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 130
       },
-      "lifestyle": "This budget unlocks an exceptionally comfortable Taipei life. You can live in the desirable Da'an or Xinyi districts, eat out for every meal if you choose, and explore Taiwan's stunning countryside on weekends via the high-speed rail. The quality of life at this price point is simply unmatched by any other developed Asian city."
+      "lifestyle": "A modern 2-bedroom apartment in the desirable Da'an or Xinyi districts, or a newer building in Zhongshan. Dining out daily at night markets, Japanese restaurants, hot pot spots, and trendy cafes without watching the bill. MRT for daily transit with weekend trips by HSR bullet train to Taichung or Kaohsiung. NHI plus supplemental private insurance. Hot spring trips to Beitou and hiking in the surrounding mountains. Life is comfortable and the value is strong for a developed Asian capital."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "At this level Taipei delivers an extraordinary quality of life. A beautiful apartment near Taipei 101, dining at Asia's most exciting restaurants, and weekend escapes to Taroko Gorge or Kenting beaches. Taiwan's combination of safety, food, healthcare, and natural beauty makes this feel like a $15,000/month lifestyle anywhere else."
+      "lifestyle": "A spacious 3-bedroom apartment in Xinyi District near Taipei 101, or a luxury unit in the expat-friendly Tianmu area. Regular dining at Michelin-starred restaurants like RAW and premium sushi spots. A leased car for mountain trips, with MRT for city travel and regular HSR to other cities. Premium private health insurance with VIP hospital access. Weekend escapes to Taroko Gorge or Kenting beaches. This is a genuinely affluent lifestyle in a city where costs are moderate — very little feels out of reach."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "First-class regional travel, luxury resort stays, rare tea collecting, philanthropy in Taiwan",
         "monthlyCost": 2200
       },
-      "lifestyle": "You are living Taipei's most refined life. A penthouse overlooking the city or a villa in the volcanic mountains of Yangmingshan, with staff to handle daily logistics. Taiwan's extraordinary food culture, from street stalls to three-star restaurants, is your personal dining room. This is one of the highest quality-of-life experiences available anywhere in the world at this price."
+      "lifestyle": "A luxury penthouse in Xinyi or a premium villa in Yangmingshan with mountain views. A full-time housekeeper, a part-time assistant, and a luxury car with a driver for city errands. Regular dining at Taipei's best restaurants, first-class HSR travel, concierge medical service, and business class flights for regional travel. This budget goes far in Taipei — daily life is very comfortable with significant room to spare, and Taiwan's food culture, safety, and natural beauty are hard to match."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Private jet access, international property, rare art and tea acquisitions, philanthropic foundation",
         "monthlyCost": 6000
       },
-      "lifestyle": "At this tier Taipei becomes a launchpad for the ultimate Asian lifestyle. An architectural masterpiece of a home, a full staff, and access to experiences across East Asia that most people cannot imagine. Taiwan's central position, incredible food culture, and warm people make it an unparalleled base for a life of purpose and pleasure."
+      "lifestyle": "A premium residence in One Park Taipei or a large Yangmingshan estate, with a housekeeper, a cook a few times a week, a personal assistant, a driver, and a gardener. First-class international flights, regular travel across East Asia, VIP concierge medicine, and regular fine dining as routine. This is more money than Taipei's market demands for a top-tier life — you live very well with no financial friction. Taipei is a safe, well-run city with deep food culture, though its luxury and entertainment options are more limited than Tokyo, Hong Kong, or Singapore."
     }
   },
   "scores": {

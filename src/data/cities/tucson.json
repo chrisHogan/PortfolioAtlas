@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 160
       },
-      "lifestyle": "Tucson is one of the few US cities where $1M genuinely works. Low rent, cheap and amazing Mexican food, and thousands of acres of free desert hiking make this budget feel comfortable rather than desperate. Summer A/C bills are the one catch, but the rest of the year is utility-light. Expect a simple, sun-drenched life."
+      "lifestyle": "A one-bedroom casita near Midtown or Sam Hughes, cooking at home most nights supplemented by cheap and excellent taquerias, and a paid-off car. Tucson's low rents make this one of the more comfortable $1M cities in the US. Sabino Canyon and Saguaro National Park provide free outdoor recreation year-round. The main budget watch is summer A/C -- electricity bills spike from June through September -- but the rest of the year is utility-light."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 190
       },
-      "lifestyle": "This is Tucson at its best. A home with desert views in the Foothills, dinners at places like BATA and Cafe Poca Cosa, and weekends exploring places like Kartchner Caverns or Mount Lemmon. The dry heat is manageable with a good pool or A/C, and your dollar goes remarkably far in southern Arizona."
+      "lifestyle": "A two-bedroom home in the Catalina Foothills or a place with character in Sam Hughes, dining out several times a week at Tucson's UNESCO-recognized food scene, and a reliable car for desert road trips. You can afford a Desert Museum membership, horseback riding, and a good health plan. Weekends might include drives up Mount Lemmon or trips to Kartchner Caverns. The dry heat is real in summer, but A/C and pool access make it manageable."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 280
       },
-      "lifestyle": "A beautiful desert home with a private pool, dinner under the stars at Tucson's finest restaurants, and the freedom to explore Arizona's national parks every weekend. At this budget you live like a desert king or queen, and the Catalina Foothills provide one of the most dramatic backdrops for daily life anywhere in America."
+      "lifestyle": "A three-bedroom home with a pool in the Catalina Foothills or Oro Valley, regular fine dining at Tucson's best restaurants, and a late-model SUV. Premium health insurance, a resort or country club membership, and regular road trips to Sedona and the Grand Canyon are all within budget. Tucson's low costs mean $10K a month goes far here -- you live comfortably in a desirable area with real room for travel and hobbies."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Quarterly travel, spa retreats, Western art collecting, ranch experiences",
         "monthlyCost": 1500
       },
-      "lifestyle": "Tucson at $5M is a desert paradise. A stunning hacienda-style estate with mountain panoramas, a private pool and spa, a personal chef creating Southwestern cuisine, and VIP access to the world-famous Tucson Gem Show. Arizona's low taxes mean your wealth stretches even further."
+      "lifestyle": "A large desert estate in the Foothills or Tanque Verde Valley with a pool, a housekeeper who comes several times a week, and concierge medical coverage. You dine at the city's best restaurants regularly, drive a nice SUV, and fly business class for longer trips. A resort membership, regular travel, and art collecting from Tucson's galleries are all within budget. Arizona's low taxes let you keep more of each withdrawal."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Ranch property, first-class international travel, art collection, philanthropy, horse stables",
         "monthlyCost": 5500
       },
-      "lifestyle": "At $10M Tucson becomes your private desert kingdom. A sprawling estate with panoramic mountain views, horse stables, a personal chef, and deep involvement in Tucson's arts and conservation community. With proximity to the Mayo Clinic in Scottsdale and Arizona's favorable tax treatment, this is one of the best high-net-worth retirement lifestyles in the American West."
+      "lifestyle": "A large desert property with guest house and mountain views, a cook who comes in several times a week, full-time domestic help, and top-tier concierge healthcare with access to the Mayo Clinic in Scottsdale. You travel first class, keep multiple vehicles, and dine out without thinking about the bill. Tucson's low cost of living means this budget creates enormous margin -- enough for a second property, regular charitable giving to conservation and arts organizations, and travel throughout the year."
     }
   },
   "scores": {

@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 60
       },
-      "lifestyle": "At this budget you live better than most locals in Goa. A comfortable apartment near the beach, daily restaurant meals of fresh seafood, and plenty left over for hobbies and socializing. The warm expat community and low costs mean your $1M portfolio feels like much more here."
+      "lifestyle": "A spacious apartment in the Anjuna or Mapusa area with a scooter for getting around. Cooking at home most days with cheap, fresh produce from local markets, plus beach shack meals and Goan thalis several times a week. Basic private health insurance covers Manipal Hospital. Comfortable and easy, though Western imports and upscale dining are outside the regular budget."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 80
       },
-      "lifestyle": "Life becomes genuinely luxurious at this level by Goan standards. A private villa with a pool, regular dining at the best restaurants, and the freedom to explore all of Goa's culture and nature without thinking about cost. You can easily travel to other parts of India on weekends."
+      "lifestyle": "A villa with a pool in Assagao or Vagator, dining out at good restaurants in Panjim and the beach clubs several times a week, and your own scooter plus taxis for longer trips. Good private health insurance covering Goa and Mumbai hospitals. Weekend trips to other parts of India are easily affordable. Day-to-day life is very comfortable and you rarely think about costs."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 120
       },
-      "lifestyle": "You are living at the absolute top of Goan society. A palatial villa, a car with driver, dining at every top-tier restaurant, and the means to fly anywhere in India on a whim. At this level you have enormous surplus to reinvest or use for international travel and philanthropy."
+      "lifestyle": "A large villa with pool and garden in Siolim or Candolim, a car with driver for daily use, and regular dining at top restaurants like Bomra's and Gunpowder. International health insurance with evacuation coverage. Frequent domestic flights and occasional international trips. This budget goes very far in Goa, leaving significant margin each month."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Regular international travel, yacht charters, bespoke experiences, philanthropy in local communities",
         "monthlyCost": 2000
       },
-      "lifestyle": "At $5M in Goa you live like royalty. A stunning estate with a full household staff, a private chef, luxury vehicles, and the ability to jet off to Mumbai, Dubai, or Southeast Asia whenever the mood strikes. Your surplus grows faster than you can spend it."
+      "lifestyle": "A large oceanfront villa or heritage Portuguese property in prime North Goa. A housekeeper, cook, and gardener several times a week. A nice SUV with a driver, regular dining at Goa's best restaurants, and business class flights for longer trips. Premium healthcare with international coverage. The budget far exceeds what Goa's cost of living can absorb, so expect a large monthly margin."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Property investments, philanthropy, first-class global travel, yacht ownership, art collection",
         "monthlyCost": 5000
       },
-      "lifestyle": "This budget in Goa is almost absurd in its luxury. You could own multiple properties, employ a full staff, fund local charities, and still have enormous surplus. Most retirees at this level split time between Goa and international destinations, using Goa as a spectacular and affordable home base."
+      "lifestyle": "A premium beachfront property with full-time housekeeper, a cook several times a week, and a gardener. A nice car, first class flights for international travel, and dining at any restaurant without a second thought. Full private healthcare with international hospital access. Goa's low costs mean this budget is far more than you can realistically spend here. Most people at this level use Goa as a home base and travel extensively."
     }
   },
   "scores": {

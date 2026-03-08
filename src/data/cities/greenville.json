@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 130
       },
-      "lifestyle": "Life on $3,333 in Greenville is tight but doable thanks to low housing costs. You can enjoy the beautiful Swamp Rabbit Trail, wander Falls Park daily, and grab a meal on Main Street once a week. Healthcare takes a meaningful chunk, but the abundance of free outdoor activities keeps life rich without spending much."
+      "lifestyle": "A one-bedroom in West Greenville or a similar area runs about $1,100, and you cook at home most nights with a casual meal out a couple of times a week. Healthcare takes a real share of the budget. Daily life centers on the Swamp Rabbit Trail, Falls Park, and the free pleasures of a walkable downtown. It is tight but the low cost base makes it workable."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 155
       },
-      "lifestyle": "This is Greenville's sweet spot. You can live in a charming neighborhood near downtown, fully enjoy the booming culinary scene on Main Street, catch shows at the Peace Center, and spend weekends hiking in the Blue Ridge foothills. The low cost of living means your money stretches far without feeling pinched."
+      "lifestyle": "A two-bedroom downtown or a small house in the Augusta Road area, dining out several times a week on Main Street, and shows at the Peace Center. Weekends involve hiking in the Blue Ridge foothills or catching a Greenville Drive game. Good health insurance and a reliable car for mountain day trips are covered, with room left over each month."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 210
       },
-      "lifestyle": "At $10K a month in Greenville you are living beautifully. A spacious home in one of the city's best neighborhoods, regular fine dining downtown, season tickets to the arts, and weekend drives into the mountains. Greenville punches well above its weight for this budget compared to larger Southern cities."
+      "lifestyle": "A spacious three-bedroom in the North Main or Earle Street area with mountain views, regular dinners at Jianna and Soby's, Peace Center season tickets, and a golf membership. A late-model SUV handles mountain excursions, and there is plenty of margin for travel. At Greenville's price level, $10K a month covers a genuinely affluent life that would cost considerably more in larger Southern cities."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Mountain cabin getaways, quarterly travel, art collecting, community philanthropy",
         "monthlyCost": 1400
       },
-      "lifestyle": "You are living at the top of Greenville society. A stunning home near Paris Mountain, deep involvement in the arts and dining scene, fly-fishing on pristine Upstate streams, and enough resources to be a generous community patron. Greenville at this level rivals cities three times its size for quality of life."
+      "lifestyle": "A custom home near Paris Mountain or a luxury downtown condo, a housekeeper who comes weekly, and concierge healthcare. Regular fine dining, a country club membership, and fly-fishing trips on Upstate streams fill the calendar. Business class flights for travel and weekend getaways to a mountain cabin are well within budget. Greenville's low costs make this feel very well-resourced."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Second home on the coast, first-class travel, art gallery sponsorships, foundation giving",
         "monthlyCost": 4800
       },
-      "lifestyle": "At $10M in Greenville you command a lifestyle that combines Southern elegance with mountain grandeur. A magnificent estate, a personal chef sourcing from Upstate farms, patronage of the Peace Center and local galleries, and the freedom to jet off whenever the mood strikes. Greenville at this level is a hidden gem of American luxury living."
+      "lifestyle": "A large estate near Paris Mountain or a property in the Cliffs communities, full-time domestic help including a housekeeper and property manager, and a cook who comes in several times a week sourcing from local Upstate farms. First-class travel, a second home on the coast, and concierge healthcare are all comfortable. Greenville's small-city costs mean this budget covers premium living with very large margins."
     }
   },
   "scores": {

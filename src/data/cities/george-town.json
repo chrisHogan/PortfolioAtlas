@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 80
       },
-      "lifestyle": "George Town at $1M is an absolute gift. You eat some of the world's best food for a couple of dollars at hawker stalls, wander through centuries of history every morning, and cool off at hilltop temples or palm-lined beaches in the afternoon. English is widely spoken, the locals are warm, and the multicultural fabric of the city means you never run out of festivals, flavors, or stories."
+      "lifestyle": "A modern 1-bedroom condo in the Gurney Drive area or a character-filled apartment in the heritage zone. Eating mostly at hawker stalls — char kway teow, laksa, and nasi kandar for a couple of dollars per meal. Getting around by Grab and bus. Basic private health insurance at Penang's good hospitals. English is widely spoken, which makes daily life straightforward. Comfortable and affordable, though the island pace is slow and options for Western groceries are limited."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 120
       },
-      "lifestyle": "With $2M in George Town, life is genuinely luxurious by local standards. Your sea-view condo is a short walk from the heritage zone's best hawker stalls, you take cooking classes to master laksa, and weekends mean island hopping to Langkawi or escaping to the cool Cameron Highlands for tea plantations and strawberry farms. The expat community is welcoming and international."
+      "lifestyle": "A spacious 2-bedroom condo with sea views in Tanjung Tokong, or a restored heritage shophouse. Dining out regularly at both hawker favorites and upscale restaurants without watching the bill. Own scooter or car plus regular Grab rides. Comprehensive private health insurance at Gleneagles and Island Hospital. Weekend trips to Langkawi by ferry or to Cameron Highlands by car. Life is comfortable and you have good variety in dining and activities."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "Your colonial bungalow's verandah overlooks a lush tropical garden while you sip teh tarik and plan the day. Lunch is a hawker crawl through your favorite stalls, afternoon is a round of golf, and evening means cocktails at a rooftop bar overlooking the Malacca Strait. Weekends see you diving off Langkawi or exploring Ipoh's cave temples. George Town at $3M is an embarrassment of riches."
+      "lifestyle": "A large seafront condo in Gurney Drive or a restored colonial bungalow with tropical garden. Regular dining at Penang's best restaurants alongside the hawker stalls you still prefer for lunch. A leased car for daily use and weekend road trips to Ipoh. Premium international health insurance with executive screenings at Gleneagles. Golf at Penang Golf Club. This is a genuinely affluent lifestyle on an island where costs are moderate — very little feels out of reach."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Langkawi beach villa rental, private Malay and Mandarin tutors, bespoke batik wardrobe, premium spa memberships, charitable projects",
         "monthlyCost": 1500
       },
-      "lifestyle": "Your heritage mansion in the heart of George Town is a showpiece — restored Peranakan tiles, a private pool in the courtyard, and a chef who can prepare nasi lemak, dim sum, and biryani with equal mastery. Your driver takes you to the yacht club for weekend sails around Langkawi, and your art collection draws from Penang's vibrant creative scene. Living at this level in George Town feels like being a character in a Somerset Maugham novel, updated for the modern age."
+      "lifestyle": "A waterfront penthouse on Gurney Drive or a large heritage mansion with pool in central George Town. A full-time housekeeper and cook. A luxury car with a part-time driver. Regular dining at the best restaurants and domestic flights to KL and Langkawi. Premium VIP health coverage with concierge access at Gleneagles. This budget goes very far on Penang — daily life is very comfortable, though the island's fine-dining and entertainment options are more limited than KL or Singapore."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Langkawi retreat management, heritage building restoration projects, charitable foundation for Penang arts and education, bespoke yacht itineraries through the Andaman Sea",
         "monthlyCost": 5000
       },
-      "lifestyle": "At $10M in George Town, you are a patron of one of Asia's most culturally rich cities. Your heritage compound hosts exhibitions and multicultural feasts that are the talk of the island, your private yacht cruises the Andaman Sea to hidden Thai and Burmese islands, and your Langkawi retreat is a tropical paradise. You fund heritage restoration, support local artists, and move through a world where Chinese, Malay, Indian, and European traditions interweave seamlessly — and you are at the center of it all."
+      "lifestyle": "A grand waterfront estate or landmark heritage property in George Town, with potentially a retreat villa on Langkawi. A housekeeper, a cook a few times a week, a driver, and a gardener across both properties. First-class flights regionally and business class for longer trips. Concierge global healthcare. This is far more than George Town's market demands — you live at the very top of what the island offers, but Penang remains a small, relaxed island with limited luxury infrastructure compared to major cities."
     }
   },
   "scores": {

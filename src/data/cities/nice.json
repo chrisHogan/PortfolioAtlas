@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "Nice on a tight budget requires discipline. You will live in a modest apartment away from the glamorous waterfront, cook most meals at home, and take advantage of the city's many free pleasures. The French Riviera lifestyle is still accessible through the beaches, markets, and sheer beauty, but luxury is out of reach."
+      "lifestyle": "A small studio or 1-bedroom in Liberation or the northern hills, away from the coast. Cooking most meals at home, with socca and pan bagnat from Vieux Nice stands as affordable eating-out options. Getting around by tram and bus. French public healthcare if eligible. Nice is expensive, so this budget means real trade-offs -- the apartment will be modest and dining out will be occasional, but the beaches, Cours Saleya market, and Promenade des Anglais are free."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "Nice becomes truly enjoyable at this budget. A centrally located apartment, regular dining out on superb French cuisine, and the ability to explore the entire Côte d'Azur. The combination of French culture, Mediterranean climate, and Alpine proximity creates a uniquely rich lifestyle."
+      "lifestyle": "A 1-2 bedroom apartment in the Carre d'Or, Musiciens quarter, or near the Port. Dining out at Nicois restaurants and wine bars several times a week. French public healthcare plus a complementary private mutuelle. Occasional car rental for Provencal countryside and Alpine excursions. Day trips to Monaco and Eze, jazz festivals, and gym membership. Nice's costs are noticeable, so this budget covers a comfortable life but without extravagance."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "An elegant apartment on the Promenade, Michelin-caliber dining, skiing in winter and sailing in summer, and the entire Riviera as your playground. This is the classic Nice lifestyle that has attracted artists and aristocrats for centuries, and it remains magnificent."
+      "lifestyle": "An elegant apartment on the Promenade des Anglais or in Cimiez with gardens. Regular dining at good restaurants, a car for Riviera drives, and premium French healthcare. Skiing at Isola 2000 in winter and sailing in summer. The Riviera's costs are high, so even at this level the budget is not unlimited, but daily life is genuinely comfortable with room for regular dining out and travel."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Riviera yacht charters, first-class Paris weekends, Provence wine estate visits, art collecting",
         "monthlyCost": 1800
       },
-      "lifestyle": "You are living the French Riviera dream as it was meant to be lived. A stunning sea-view residence, private chef, Michelin dining, and the social calendar of one of the world's most glamorous coastlines. Monaco is a short drive away, and the Alps are just behind you."
+      "lifestyle": "A luxury apartment overlooking the Baie des Anges or a villa in Mont Boron with sea views. Regular dining at the Riviera's best restaurants, a cleaner several times a week, and business class for longer flights. A luxury car, premium French healthcare, and TGV first-class to Paris. The Cote d'Azur is expensive, so even at this level you notice the premium, but daily life is high quality with real comfort and few practical constraints."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Yacht ownership, Provence estate, first-class global travel, art collection, philanthropic foundation",
         "monthlyCost": 5000
       },
-      "lifestyle": "At this level on the Côte d'Azur you join the ranks of the international elite who have made this coastline legendary. A villa that could grace the cover of Architectural Digest, a yacht in the harbor, VIP at every Riviera event, and the incomparable beauty of the French Mediterranean as your daily backdrop."
+      "lifestyle": "A grand Belle Epoque villa in Cimiez or an oceanfront property near Cap Ferrat. A cook several times a week, a full-time housekeeper, and full private healthcare with top specialists. Business class as default, first class for longer trips. Regular fine dining and a nice car with driver when needed. The Riviera is one of Europe's most expensive areas, so even at this budget you are not in the same league as the Monaco wealth next door, but daily life is fully premium and comfortable."
     }
   },
   "scores": {

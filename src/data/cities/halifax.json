@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 160
       },
-      "lifestyle": "Halifax on $1M is genuinely comfortable thanks to universal healthcare slashing one of the biggest US retirement costs. Rent is reasonable, the waterfront is free to enjoy year-round, and the city's maritime culture delivers a cozy, community-oriented lifestyle. Winters are cold and snowy, but the pub culture and indoor scene keep spirits high."
+      "lifestyle": "Halifax is one of the more comfortable cities at this budget, largely because universal healthcare eliminates a major expense. A one-bedroom in Clayton Park, Fairview, or Dartmouth is affordable, and the waterfront is free to enjoy year-round. You will cook most meals at home with occasional pub nights and fish-and-chips outings. Winters are cold and snowy with short days, which is the main lifestyle tradeoff."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 190
       },
-      "lifestyle": "This is Halifax at its best. A waterfront apartment where you can watch ships roll into the harbor, fresh lobster dinners multiple times a week, and weekend drives along the stunning Cabot Trail or Peggy's Cove. The combination of affordable living and universal healthcare makes your money go further than you would expect."
+      "lifestyle": "A waterfront apartment or a South End townhome, regular dining at local restaurants including fresh lobster, and a reliable car for weekend drives to Peggy's Cove or along the Cabot Trail. Universal healthcare plus private supplemental for dental and vision keeps medical costs low. The Halifax brewery and live music scene provide regular entertainment. The budget is comfortable here with room to spare."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "Life in Halifax at $10K per month is outstanding. A heritage home in one of Canada's most walkable neighborhoods, regular dining at the city's top-rated restaurants, a sailing membership on the harbor, and weekend escapes to a cottage on the South Shore. Healthcare is covered, and your only real splurge decisions are how much lobster to eat."
+      "lifestyle": "A heritage home in the South End or a waterfront property in Bedford, regular dining at restaurants like Stories and Bar Kismet, and a sailing club membership on the harbor. A good AWD vehicle for Nova Scotia road trips and weekend cottage getaways on the South Shore. Universal healthcare keeps medical costs minimal, and the margin at this level is substantial for a city of this size."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Cottage on the South Shore, quarterly international travel, boat ownership, philanthropy",
         "monthlyCost": 1500
       },
-      "lifestyle": "At this level Halifax becomes a maritime dream. A stunning waterfront property on Northwest Arm, membership at the prestigious yacht club, a cottage for summer weekends, and the freedom to travel extensively while calling one of Canada's most charming cities home. Healthcare costs remain minimal thanks to universal coverage."
+      "lifestyle": "A waterfront home on the Northwest Arm, Royal Nova Scotia Yacht Squadron membership, a cottage on the South Shore, and a nice car. Regular flights from Halifax to Toronto or international destinations, fine dining multiple nights a week, and universal healthcare keeping medical costs negligible. The budget significantly exceeds what Halifax's cost of living requires, leaving a large margin for travel or savings."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Multiple properties, first-class international travel, yacht, art collecting, community foundation",
         "monthlyCost": 5500
       },
-      "lifestyle": "At $10M, Halifax and Nova Scotia become your personal maritime kingdom. An estate on the water, a private yacht for exploring the Atlantic coast, a chef sourcing the freshest lobster and scallops daily, and deep roots in the community. The combination of universal healthcare, natural beauty, and old-world maritime charm creates an extraordinary life."
+      "lifestyle": "An estate on the Northwest Arm or a waterfront compound in Chester or Mahone Bay, a cook who comes in several times a week, regular housekeeping, and first-class international travel. A boat for Atlantic coast cruising and comprehensive private supplements on top of universal healthcare. Halifax is a small city with limited luxury infrastructure, so much of this budget will go unspent. The appeal here is the maritime setting, tight community, and very low stress rather than access to high-end services."
     }
   },
   "scores": {

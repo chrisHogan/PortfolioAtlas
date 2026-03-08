@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 120
       },
-      "lifestyle": "Panama City on a lean budget works better than you might expect. Your modern apartment has a pool and skyline views, the metro whisks you across town for pennies, and $4 fondas serve heaping plates of rice, beans, and carne. Weekends mean watching ships transit the Canal, wandering Casco Viejo's restored plazas, and taking the causeway to catch a Pacific sunset."
+      "lifestyle": "A furnished one-bedroom in El Cangrejo or San Francisco with pool and security provides a modern, comfortable base. The metro and MetroBus are cheap and cover the city well, fondas serve filling meals for a few dollars, and private health insurance at a Johns Hopkins-affiliated hospital is affordable. The budget is manageable but not generous — you cook at home often and keep entertainment simple. The US dollar currency eliminates exchange rate risk."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 160
       },
-      "lifestyle": "At $2M, Panama City shines. Your Punta Pacífica apartment overlooks the Pacific and the ships queuing for the Canal. You dine at Casco Viejo's inventive restaurants, take weekend trips to the San Blas Islands or the cool highlands of Boquete, and enjoy a tax-free lifestyle that lets more of your portfolio stay invested. The international community is vibrant and growing."
+      "lifestyle": "A spacious two-bedroom in Costa del Este or Punta Pacífica with ocean views, gym, and concierge provides a comfortable daily base. You dine at Casco Viejo's restaurants several times a week, take Ubers freely, and carry comprehensive private health insurance. Weekend trips to Boquete's highlands or the San Blas Islands are in budget. Panama's territorial tax system means no tax on foreign income, which is a meaningful financial advantage."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 220
       },
-      "lifestyle": "Your Casco Viejo penthouse terrace overlooks the old city rooftops and the Pacific beyond. You dine at Latin America's top restaurants mid-week, play golf at Summit on Saturday, and charter a boat to pristine San Blas islands on Sunday. Panama's territorial tax system means your investment gains stay untouched. This is sophisticated tropical living at its finest."
+      "lifestyle": "A penthouse in Punta Pacífica or a renovated colonial gem in Casco Viejo with a rooftop terrace puts you in a premium location. You dine at restaurants like Maito and Donde José regularly, lease an SUV, and take domestic flights to Bocas del Toro or the San Blas Islands on weekends. Golf membership at Summit, premium health insurance, and regular dining out are all comfortably covered."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Bocas del Toro beach house rental, private Spanish instruction, bespoke suits from local tailors, premium coworking at tower offices",
         "monthlyCost": 1700
       },
-      "lifestyle": "Your Avenida Balboa penthouse frames the entire Pacific coastline and the Canal entrance. Your private chef prepares ceviche with fish caught that morning, and your driver takes you to Clayton's rainforest trails for afternoon hikes. Weekends mean island hopping by private charter or retreating to your Bocas del Toro beach house. Panama's zero foreign income tax makes this lifestyle remarkably capital-efficient."
+      "lifestyle": "A large waterfront penthouse on Avenida Balboa or a private compound in Clayton surrounded by rainforest provides generous living space. A housekeeper and cook manage daily life, a part-time driver handles transportation, and you dine at the city's best restaurants freely. Business class flights, island-hopping weekends to San Blas or Bocas del Toro, and premium health insurance are all standard. Panama's zero foreign income tax makes this tier notably capital-efficient."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Private island maintenance, art collection curation, charitable foundation, bespoke yacht itineraries through the San Blas archipelago, investment in Panamanian real estate",
         "monthlyCost": 5000
       },
-      "lifestyle": "At this level, Panama City is your gateway to a two-ocean empire. Your penthouse towers over the Canal, your private island in the San Blas is an unspoiled paradise, and your superyacht cruises between the Pacific and Caribbean through one of the world's great engineering marvels. You host the city's most anticipated galas, support local arts and conservation, and enjoy a completely tax-free existence on foreign income. Panama at $10M is a life without limits."
+      "lifestyle": "A top-floor penthouse overlooking the Canal or a waterfront estate anchors daily life, with a cook, housekeeper, and driver handling household logistics. You dine without budget constraints, fly first class internationally, and can maintain a secondary property in the islands. The household is fully staffed and well-run. Panama's zero foreign income tax means this budget preserves capital efficiently, though the city's cultural scene is thinner than larger Latin American capitals."
     }
   },
   "scores": {

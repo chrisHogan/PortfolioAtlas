@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 125
       },
-      "lifestyle": "Chattanooga at $1M is one of the best value FIRE retirements in the Southeast. Zero state income tax means your full $3,333 goes to expenses, and with affordable rents and world-class free outdoor recreation on your doorstep, life is genuinely good on a budget. The ultra-fast EPB internet is a bonus for streaming and staying connected."
+      "lifestyle": "A one-bedroom on the Northshore or Southside runs about $1,000, and with no state income tax the full $3,333 goes to living costs. You cook at home most nights, eat out casually a couple of times a week at places like Champy's, and spend free time hiking Lookout Mountain, climbing at Sunset Rock, or walking the Riverwalk. EPB's fiber internet keeps streaming and connectivity costs low."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "This is Chattanooga's sweet spot. A charming place near the river or at the foot of Lookout Mountain, regular dining at the city's increasingly excellent restaurants, and full engagement with the outdoor scene. Weekends are spent climbing, biking, or paddling the Tennessee River. With no state income tax, you keep every dollar of your surplus."
+      "lifestyle": "A two-bedroom on the Northshore or a cottage in St. Elmo at the base of Lookout Mountain, dining out several times a week at the growing Southside restaurant scene, and a gym or climbing membership. Weekends are for biking, paddling the Tennessee River, or attending events like the Riverbend Festival. No state income tax and affordable costs leave a healthy monthly margin."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "At $10K per month with no state income tax, Chattanooga delivers an incredible quality of life. A beautiful mountain or riverside home, fine dining at the city's best restaurants, and the freedom to fully pursue rock climbing, mountain biking, kayaking, or whatever outdoor passion drives you. The surplus at this budget level is substantial."
+      "lifestyle": "A three-bedroom home on Lookout Mountain or Signal Mountain, or a luxury loft on the Northshore, with regular dinners at places like St. John's and Alleia. A late-model SUV handles mountain roads, and there is room for a golf membership, Tivoli Theatre season tickets, and regular travel. At Chattanooga's cost level with no state income tax, $10K a month covers an affluent life with significant margin."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Smokies cabin weekends, quarterly travel, outdoor gear upgrades, community philanthropy",
         "monthlyCost": 1350
       },
-      "lifestyle": "Chattanooga at $5M is outdoor luxury with zero state income tax. A stunning mountaintop home with valley views, private adventure guides, deep community involvement, and the fastest residential internet in America. Your dollars stretch incredibly far here, leaving generous surplus for travel and giving."
+      "lifestyle": "A custom home on Lookout Mountain or Signal Mountain with valley views, a housekeeper who comes weekly, and regular fine dining at Chattanooga's best restaurants. Weekend trips to a Smokies cabin, business class flights for longer travel, and concierge healthcare are all comfortable in this budget. The low cost base and zero state income tax leave generous room for travel and community involvement."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Second home in the Smokies, first-class international travel, angel investing, foundation work",
         "monthlyCost": 4700
       },
-      "lifestyle": "At $10M in Chattanooga with zero state income tax, you live atop one of the most beautiful mountains in the Southeast with a lifestyle to match. A grand mountaintop estate, a personal chef, a second home in the Smokies, chartered flights to anywhere, and the ability to be a transformative philanthropic force in this dynamic city. The combination of natural beauty, tax efficiency, and low costs creates one of the most compelling ultra-luxury retirements in America."
+      "lifestyle": "A large estate on Lookout Mountain or Signal Mountain, a second home in the Smokies, a full-time housekeeper and property manager, and a cook who comes in several times a week. First-class travel, concierge healthcare with specialist access in Nashville or Atlanta, and generous community involvement are all well covered. At Chattanooga costs with no state income tax, this budget provides a very comfortable, well-staffed life with large monthly margins."
     }
   },
   "scores": {

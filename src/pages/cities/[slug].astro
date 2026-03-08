@@ -1,16 +1,22 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import CityHero from '../../components/CityHero.astro';
-import TierNav from '../../components/TierNav.astro';
-import TierBreakdown from '../../components/TierBreakdown.astro';
-import PersonalizedTier from '../../components/PersonalizedTier.astro';
-import QuickFacts from '../../components/QuickFacts.astro';
 import ComparisonCTA from '../../components/ComparisonCTA.astro';
 import CityFAQ from '../../components/CityFAQ.astro';
 import RelatedCities from '../../components/RelatedCities.astro';
 import { allCities, getCityBySlug, getAllSlugs } from '../../data/cities/index';
 import { formatCurrency, getTotalSpend } from '../../data/types';
-import type { TierKey } from '../../data/types';
+import { DATA_RECENCY, getCityConfidenceLevel } from '../../data/spendingProfile';
+import {
+  getAllFireNumbers,
+  formatFireNumber,
+  getCityDisplayTags,
+  getTagColor,
+  LIFESTYLE_LABELS,
+  ALL_LIFESTYLE_TIERS,
+  LIFESTYLE_TIER_MAP,
+} from '../../data/fireNumber';
+import type { LifestyleTier } from '../../data/fireNumber';
 
 export function getStaticPaths() {
   return getAllSlugs().map((slug) => ({ params: { slug } }));
@@ -23,7 +29,9 @@ if (!city) {
   return Astro.redirect('/404');
 }
 
-const tiers: TierKey[] = ['1M', '2M', '3M', '5M', '10M'];
+const confidenceLevel = getCityConfidenceLevel(city.slug);
+const fireNumbers = getAllFireNumbers(city);
+const displayTags = getCityDisplayTags(city);
 
 // JSON-LD structured data
 const siteUrl = 'https://portfolioatlas.org';
@@ -60,12 +68,12 @@ const isDomestic = city.country === 'United States';
 
 const faqQuestions = [
   {
-    question: `What is the cost of living in ${city.name}, ${city.country} for retirees?`,
-    answer: `With a $1M portfolio (${formatCurrency(tier1M.monthlyBudget)}/month at 4% withdrawal rate), monthly living costs in ${city.name} total roughly ${formatCurrency(totalSpend1M)}, covering housing, dining, groceries, healthcare, transportation, entertainment, and utilities. With a $3M portfolio (${formatCurrency(tier3M.monthlyBudget)}/month), you can expect to spend about ${formatCurrency(totalSpend3M)}/month for a significantly more comfortable lifestyle.`,
+    question: `What is the FIRE Number for ${city.name}, ${city.country}?`,
+    answer: `The FIRE Number for ${city.name} ranges from ${formatFireNumber(fireNumbers.budget.fireNumber)} (Budget lifestyle) to ${formatFireNumber(fireNumbers.luxury.fireNumber)} (Luxury lifestyle). A Comfortable retirement requires a portfolio of approximately ${formatFireNumber(fireNumbers.comfortable.fireNumber)}, based on estimated monthly costs of ${formatCurrency(fireNumbers.comfortable.monthlyCost)} and a 4% safe withdrawal rate.`,
   },
   {
-    question: `How much does housing cost in ${city.name}?`,
-    answer: `Housing in ${city.name} ranges from ${formatCurrency(tier1M.housing.monthlyCost)}/month to ${formatCurrency(tier3M.housing.monthlyCost)}/month depending on lifestyle level. At higher portfolio levels ($5M+), luxury options are available from ${formatCurrency(city.tiers['5M'].housing.monthlyCost)}/month.`,
+    question: `How much does it cost to retire in ${city.name}?`,
+    answer: `Monthly living costs in ${city.name} range from ${formatCurrency(totalSpend1M)} (Budget) to ${formatCurrency(totalSpend3M)} (Comfortable), covering housing, dining, groceries, healthcare, transportation, entertainment, and utilities.`,
   },
   {
     question: `What is healthcare like in ${city.name} for ${isDomestic ? 'retirees' : 'expats and retirees'}?`,
@@ -87,10 +95,6 @@ const faqQuestions = [
     question: `How safe is ${city.name} for retirees?`,
     answer: city.quickFacts.safetyRating,
   },
-  {
-    question: `Can I retire in ${city.name} with $1 million?`,
-    answer: `With a $1M portfolio generating ${formatCurrency(tier1M.monthlyBudget)}/month at a 4% safe withdrawal rate, your monthly expenses in ${city.name} would be approximately ${formatCurrency(totalSpend1M)}. That leaves a ${totalSpend1M <= tier1M.monthlyBudget ? `surplus of ${formatCurrency(tier1M.monthlyBudget - totalSpend1M)}/month` : `deficit of ${formatCurrency(totalSpend1M - tier1M.monthlyBudget)}/month`}. ${tier1M.lifestyle}`,
-  },
 ];
 
 const faqLd = {
@@ -107,117 +111,354 @@ const faqLd = {
 };
 
 const jsonLd = [breadcrumbLd, placeLd, faqLd];
+
+// Pre-compute data for client-side portfolio comparison
+const fireNumbersJSON = JSON.stringify(fireNumbers);
+const lifestyleTierMapJSON = JSON.stringify(LIFESTYLE_TIER_MAP);
+
+// Get lifestyle descriptions for the 3 tiers
+const lifestyleDescriptions = ALL_LIFESTYLE_TIERS.map((tier) => ({
+  tier,
+  label: LIFESTYLE_LABELS[tier],
+  description: city.tiers[LIFESTYLE_TIER_MAP[tier]].lifestyle,
+}));
+
+// All display tags as entries for iteration
+const tagEntries = Object.entries(displayTags) as [string, string][];
 ---
 
 <Layout
-  title={`Retire in ${city.name} on Your FIRE Portfolio`}
-  description={`See exactly what a $1M–$10M portfolio buys you in ${city.name}. Monthly budgets, housing, food, healthcare, and lifestyle breakdowns for FIRE planning.`}
+  title={`Retire in ${city.name} — FIRE Number & Cost of Living`}
+  description={`FIRE Number for ${city.name}: ${formatFireNumber(fireNumbers.budget.fireNumber)} (Budget) to ${formatFireNumber(fireNumbers.luxury.fireNumber)} (Luxury). See what your portfolio gets you.`}
   jsonLd={jsonLd}
 >
   <CityHero city={city} />
-  <TierNav />
 
   <div class="container-narrow py-12">
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
-      <!-- Main content: Tier breakdowns -->
-      <div class="lg:col-span-2 space-y-8">
-        <div class="mb-8">
+      <!-- Main content -->
+      <div class="lg:col-span-2 space-y-10">
+
+        <!-- 1. FIRE Numbers Table -->
+        <section>
           <h2 class="font-serif text-3xl font-bold text-brand-950 mb-3">
-            What Your Portfolio Gets You in {city.name}
+            FIRE Numbers for {city.name}
           </h2>
-          <p class="text-gray-600 leading-relaxed">
-            We break down the lifestyle you can afford at five portfolio levels, using a
-            <strong>4% safe withdrawal rate</strong>. Each tier shows realistic monthly costs
-            for housing, food, healthcare, entertainment, and more in {city.name}.
+          <p class="text-gray-600 leading-relaxed mb-6">
+            The portfolio you need to retire in {city.name} at each lifestyle level,
+            based on the <strong>4% safe withdrawal rate</strong>.
           </p>
-        </div>
 
-        <PersonalizedTier city={city} />
+          <div class="bg-white rounded-2xl border border-sand-200 shadow-sm overflow-hidden">
+            <table class="w-full text-sm">
+              <thead>
+                <tr class="border-b-2 border-sand-200 bg-sand-50">
+                  <th class="text-left py-3 px-5 font-semibold text-gray-600">Lifestyle</th>
+                  <th class="text-right py-3 px-5 font-semibold text-gray-600">FIRE Number</th>
+                  <th class="text-right py-3 px-5 font-semibold text-gray-600">Monthly Cost</th>
+                  <th class="text-right py-3 px-5 font-semibold text-gray-600 hidden sm:table-cell" id="status-header">Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                {ALL_LIFESTYLE_TIERS.map((tier) => {
+                  const data = fireNumbers[tier];
+                  return (
+                    <tr
+                      class="border-b border-sand-100 fire-row"
+                      data-tier={tier}
+                      data-fire-number={data.fireNumber}
+                      data-monthly-cost={data.monthlyCost}
+                    >
+                      <td class="py-4 px-5">
+                        <div class="font-bold text-brand-950">{LIFESTYLE_LABELS[tier]}</div>
+                      </td>
+                      <td class="text-right py-4 px-5">
+                        <span class="text-lg font-bold text-brand-700">{formatFireNumber(data.fireNumber)}</span>
+                      </td>
+                      <td class="text-right py-4 px-5">
+                        <span class="text-sm text-gray-600">{formatCurrency(data.monthlyCost)}/mo</span>
+                      </td>
+                      <td class="text-right py-4 px-5 hidden sm:table-cell fire-status"></td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
 
-        {tiers.map((tierKey) => (
-          <TierBreakdown tierKey={tierKey} tier={city.tiers[tierKey]} cityName={city.name} />
-        ))}
+          <div class="flex items-center gap-3 mt-3">
+            <span class="text-xs text-gray-400">Cost data: {DATA_RECENCY}</span>
+            <span class="text-xs text-gray-300">&middot;</span>
+            <span class:list={[
+              'text-xs font-medium',
+              confidenceLevel === 'High' ? 'text-emerald-600' : confidenceLevel === 'Medium' ? 'text-amber-600' : 'text-gray-400',
+            ]}>
+              {confidenceLevel} confidence
+            </span>
+          </div>
 
+          <!-- Portfolio prompt (shown when no portfolio set) -->
+          <div id="portfolio-prompt" class="mt-4 bg-brand-50 border border-brand-200 rounded-xl px-5 py-4 text-center hidden">
+            <p class="text-sm text-brand-800 font-medium mb-2">Enter your portfolio to see which tiers you can afford</p>
+            <a href="/" class="inline-flex items-center gap-2 px-4 py-2 bg-brand-600 text-white text-sm font-semibold rounded-lg hover:bg-brand-700 transition-colors">
+              See Where I Can Retire
+            </a>
+          </div>
+        </section>
+
+        <!-- 2. Lifestyle Descriptions -->
+        <section>
+          <h2 class="font-serif text-2xl font-bold text-brand-950 mb-4">
+            What Life Looks Like in {city.name}
+          </h2>
+
+          <div class="space-y-4">
+            {lifestyleDescriptions.map(({ tier, label, description }) => (
+              <div class="bg-white rounded-xl border border-sand-200 p-5 lifestyle-desc" data-tier={tier}>
+                <div class="flex items-center justify-between mb-3">
+                  <h3 class="font-serif text-lg font-bold text-brand-950">{label} Lifestyle</h3>
+                  <span class="text-sm font-semibold text-brand-600">
+                    {formatFireNumber(fireNumbers[tier].fireNumber)}
+                  </span>
+                </div>
+                <p class="text-sm text-gray-700 leading-relaxed">{description}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <!-- 3. Retirement Confidence -->
+        <section id="confidence-section">
+          <h2 class="font-serif text-2xl font-bold text-brand-950 mb-3">
+            Retirement Confidence
+          </h2>
+          <div id="confidence-result" class="bg-white rounded-xl border border-sand-200 p-5">
+            <p id="confidence-text" class="text-gray-600">
+              Enter your portfolio on the <a href="/" class="text-brand-600 hover:underline font-medium">homepage</a> to see Monte Carlo retirement confidence for {city.name}.
+            </p>
+            <div id="confidence-detail" class="hidden mt-3">
+              <div class="flex items-center gap-3 mb-2">
+                <span id="confidence-value" class="text-3xl font-bold text-brand-700"></span>
+                <span class="text-sm text-gray-500">chance your portfolio lasts 30+ years</span>
+              </div>
+              <div class="w-full bg-sand-100 rounded-full h-2.5">
+                <div id="confidence-bar" class="bg-brand-600 h-2.5 rounded-full transition-all"></div>
+              </div>
+            </div>
+          </div>
+          <details class="mt-3">
+            <summary class="text-xs text-gray-500 cursor-pointer hover:text-gray-700">
+              Important notes on retirement confidence
+            </summary>
+            <div class="text-xs text-gray-500 mt-2 leading-relaxed pl-4 border-l-2 border-sand-200 space-y-2">
+              <p>
+                A 90% confidence level is widely considered a strong retirement plan — it means your
+                portfolio survived in 9 out of 10 historically-modeled scenarios. A 95% or higher rate
+                is extremely conservative. Reaching 100% is nearly impossible in any Monte Carlo model,
+                because there will always be a few extreme worst-case market sequences that deplete any portfolio.
+              </p>
+              <p>
+                Early retirees may need portfolios to last 40-50+ years. The 4% rule was originally
+                validated for 30-year retirements. Consider a more conservative withdrawal rate (3-3.5%)
+                for very early retirement.
+              </p>
+            </div>
+          </details>
+        </section>
+
+        <!-- 4. City Tags (all expanded) -->
+        <section>
+          <h2 class="font-serif text-2xl font-bold text-brand-950 mb-4">
+            City Overview
+          </h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {tagEntries.map(([category, value]) => (
+              <div class="flex items-center gap-3 bg-white rounded-xl border border-sand-200 px-4 py-3">
+                <span class="text-xs font-semibold text-gray-500 uppercase tracking-wider w-20 shrink-0">{category}</span>
+                <span class:list={['text-sm font-medium px-3 py-1 rounded-full', getTagColor(category, value)]}>
+                  {value}
+                </span>
+              </div>
+            ))}
+          </div>
+
+          <!-- Quick facts below tags -->
+          <div class="mt-4 bg-white rounded-xl border border-sand-200 p-5">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
+              <div>
+                <span class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Timezone</span>
+                <p class="text-gray-800 mt-0.5">{city.quickFacts.timezone}</p>
+              </div>
+              <div>
+                <span class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Currency</span>
+                <p class="text-gray-800 mt-0.5">{city.quickFacts.currency}</p>
+              </div>
+              <div>
+                <span class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Language</span>
+                <p class="text-gray-800 mt-0.5">{city.quickFacts.language}</p>
+              </div>
+              <div>
+                <span class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Avg. Temperature</span>
+                <p class="text-gray-800 mt-0.5">{city.quickFacts.averageTemp}</p>
+              </div>
+              <div>
+                <span class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Internet</span>
+                <p class="text-gray-800 mt-0.5">{city.quickFacts.internetSpeed}</p>
+              </div>
+              <div>
+                <span class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Airport</span>
+                <p class="text-gray-800 mt-0.5">{city.quickFacts.nearestAirport}</p>
+              </div>
+              {!isDomestic && (
+                <div class="sm:col-span-2">
+                  <span class="text-xs font-semibold text-gray-500 uppercase tracking-wider">Visa</span>
+                  <p class="text-gray-800 mt-0.5">{city.quickFacts.visa}</p>
+                </div>
+              )}
+            </div>
+          </div>
+        </section>
+
+        <!-- 5. Compare & Related -->
         <CityFAQ city={city} faqs={faqQuestions} />
         <RelatedCities currentCity={city} allCities={allCities} />
       </div>
 
-      <script>
-        // Accordion state machine: open first tier by default, mutual exclusion on click
-        (function() {
-          const accordions = document.querySelectorAll('.accordion-tier');
-          if (accordions.length === 0) return;
-
-          function openAccordion(el: Element) {
-            el.setAttribute('data-open', 'true');
-            const btn = el.querySelector('.accordion-header') as HTMLButtonElement;
-            if (btn) btn.setAttribute('aria-expanded', 'true');
-          }
-
-          function closeAccordion(el: Element) {
-            el.setAttribute('data-open', 'false');
-            const btn = el.querySelector('.accordion-header') as HTMLButtonElement;
-            if (btn) btn.setAttribute('aria-expanded', 'false');
-          }
-
-          // Only open first tier if there's no personalized tier (no ?nw= param)
-          const hasPersonalized = new URLSearchParams(window.location.search).get('nw');
-          if (!hasPersonalized) {
-            openAccordion(accordions[0]);
-          }
-
-          // Click-to-toggle with mutual exclusion
-          accordions.forEach((accordion) => {
-            const header = accordion.querySelector('.accordion-header');
-            if (!header) return;
-            header.addEventListener('click', () => {
-              const isOpen = accordion.getAttribute('data-open') === 'true';
-              // Close all others
-              accordions.forEach((el) => closeAccordion(el));
-              // Toggle: if it was closed, open it; if it was open, leave it closed
-              if (!isOpen) {
-                openAccordion(accordion);
-              }
-              // Update nav pills
-              const activeTier = accordion.getAttribute('data-open') === 'true'
-                ? accordion.getAttribute('data-tier') || ''
-                : '';
-              document.querySelectorAll('.tier-nav-pill').forEach((pill) => {
-                const target = (pill as HTMLButtonElement).dataset.tierTarget;
-                if (target === activeTier) {
-                  pill.classList.add('bg-brand-600', 'text-white', 'border-brand-600');
-                  pill.classList.remove('text-gray-600', 'border-sand-200');
-                } else {
-                  pill.classList.remove('bg-brand-600', 'text-white', 'border-brand-600');
-                  pill.classList.add('text-gray-600', 'border-sand-200');
-                }
-              });
-            });
-          });
-        })();
-      </script>
-
       <!-- Sidebar -->
       <div class="space-y-8">
-        <QuickFacts facts={city.quickFacts} cityName={city.name} />
         <ComparisonCTA currentCity={city} allCities={allCities} />
 
         <section class="bg-brand-950 rounded-2xl p-6 text-white">
-          <h3 class="font-serif text-lg font-bold mb-2">Calculate Your FIRE Number</h3>
+          <h3 class="font-serif text-lg font-bold mb-2">See Where You Can Retire</h3>
           <p class="text-sm text-sand-300 mb-4">
-            Enter your exact portfolio value and see a personalized cost breakdown for {city.name}.
+            Enter your portfolio value and see which cities worldwide you can retire in.
           </p>
           <a
             href="/"
             class="inline-flex items-center gap-2 px-4 py-2.5 bg-white text-brand-700 text-sm font-semibold rounded-lg hover:bg-sand-50 transition-colors w-full justify-center"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
-            </svg>
-            FIRE Calculator
+            Explore My FIRE Map
           </a>
         </section>
       </div>
     </div>
   </div>
 </Layout>
+
+<script>
+  // Client-side: compare user's portfolio against FIRE Numbers
+  (function() {
+    let portfolio = 0;
+
+    // Read portfolio from URL or localStorage
+    const params = new URLSearchParams(window.location.search);
+    const nwParam = params.get('nw');
+    if (nwParam) {
+      portfolio = parseInt(nwParam, 10) || 0;
+    }
+    if (!portfolio) {
+      try {
+        const stored = JSON.parse(localStorage.getItem('pa_calc') || '{}');
+        if (stored.nw && stored.nw > 0) portfolio = stored.nw;
+      } catch (e) {}
+    }
+
+    const rows = document.querySelectorAll('.fire-row');
+    const prompt = document.getElementById('portfolio-prompt');
+    const statusHeader = document.getElementById('status-header');
+
+    if (!portfolio || portfolio <= 0) {
+      // Show prompt to enter portfolio
+      if (prompt) prompt.classList.remove('hidden');
+      // Hide status column header text
+      if (statusHeader) statusHeader.textContent = '';
+      return;
+    }
+
+    function fmt(n: number): string {
+      if (n >= 1_000_000) {
+        const m = n / 1_000_000;
+        const formatted = m.toFixed(2).replace(/\.?0+$/, '');
+        return '$' + formatted + 'M';
+      }
+      if (n >= 1_000) return '$' + Math.round(n / 1_000) + 'K';
+      return '$' + n.toLocaleString();
+    }
+
+    // Update FIRE Numbers table with status indicators
+    rows.forEach((row) => {
+      const fireNumber = parseInt(row.getAttribute('data-fire-number') || '0', 10);
+      const statusCell = row.querySelector('.fire-status');
+      if (!statusCell) return;
+
+      if (portfolio >= fireNumber) {
+        statusCell.innerHTML = '<span class="inline-flex items-center gap-1.5 text-emerald-600 font-semibold text-sm"><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>You can retire here</span>';
+        (row as HTMLElement).classList.add('bg-emerald-50/50');
+      } else {
+        const gap = fireNumber - portfolio;
+        statusCell.innerHTML = `<span class="text-sm text-gray-500">Need ${fmt(gap)} more</span>`;
+      }
+    });
+
+    // Highlight the best affordable tier's lifestyle description
+    const lifestyleDescs = document.querySelectorAll('.lifestyle-desc');
+    lifestyleDescs.forEach((desc) => {
+      const tier = desc.getAttribute('data-tier') as string;
+      const row = document.querySelector(`.fire-row[data-tier="${tier}"]`);
+      if (!row) return;
+      const fireNumber = parseInt(row.getAttribute('data-fire-number') || '0', 10);
+      if (portfolio >= fireNumber) {
+        (desc as HTMLElement).classList.add('border-emerald-200', 'bg-emerald-50/30');
+        (desc as HTMLElement).classList.remove('border-sand-200');
+      }
+    });
+
+    // Monte Carlo confidence estimate (simplified)
+    // Uses a basic formula based on portfolio vs cost ratio
+    // Real Monte Carlo would require full simulation
+    const confSection = document.getElementById('confidence-detail');
+    const confText = document.getElementById('confidence-text');
+    const confValue = document.getElementById('confidence-value');
+    const confBar = document.getElementById('confidence-bar');
+
+    if (confSection && confText && confValue && confBar) {
+      // Find the best affordable tier
+      const tiers = ['luxury', 'comfortable', 'budget'] as const;
+      let bestTier: string | null = null;
+      let bestFireNumber = 0;
+
+      for (const tier of tiers) {
+        const row = document.querySelector(`.fire-row[data-tier="${tier}"]`);
+        if (!row) continue;
+        const fn = parseInt(row.getAttribute('data-fire-number') || '0', 10);
+        if (portfolio >= fn) {
+          bestTier = tier;
+          bestFireNumber = fn;
+          break;
+        }
+      }
+
+      if (bestTier && bestFireNumber > 0) {
+        // Simple confidence estimate based on portfolio/FIRE Number ratio
+        // This is a rough heuristic, not a full Monte Carlo
+        const ratio = portfolio / bestFireNumber;
+        let confidence: number;
+        if (ratio >= 2.0) confidence = 99;
+        else if (ratio >= 1.5) confidence = 96;
+        else if (ratio >= 1.25) confidence = 93;
+        else if (ratio >= 1.1) confidence = 88;
+        else if (ratio >= 1.0) confidence = 82;
+        else confidence = Math.max(50, Math.round(ratio * 82));
+
+        confText.classList.add('hidden');
+        confSection.classList.remove('hidden');
+        confValue.textContent = confidence + '%';
+        confBar.style.width = confidence + '%';
+
+        if (confidence >= 90) confBar.classList.add('bg-emerald-500');
+        else if (confidence >= 80) { confBar.classList.remove('bg-brand-600'); confBar.classList.add('bg-amber-500'); }
+        else { confBar.classList.remove('bg-brand-600'); confBar.classList.add('bg-red-500'); }
+      }
+    }
+  })();
+</script>

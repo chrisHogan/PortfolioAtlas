@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "Barbados is expensive for the Caribbean, and this budget is tight. Groceries cost roughly double mainland US prices due to import duties. You can live simply near the beach and enjoy the incredible Bajan culture, but there is little room for extras. Cooking at home and taking local buses keep costs manageable."
+      "lifestyle": "This is a tight budget for Barbados. Import duties push groceries to roughly double mainland US prices, utilities are expensive, and even basic private health insurance costs more than in Latin America. A one-bedroom apartment in Worthing or Hastings keeps you near the south coast beaches, but you cook at home most nights and take public minibuses. The beach is free and the Bajan culture is warm, but there is little financial cushion."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "Life becomes comfortable and enjoyable at this level. A nice apartment with pool access, regular dining at excellent restaurants, and a car to explore the entire island easily. The west coast's platinum coast is accessible for special occasions, and the Bajan social scene opens up."
+      "lifestyle": "A nice two-bedroom in Christ Church or St. James with pool access gives you a comfortable base. You own a small car — the island is only 21 miles long, so everything is accessible — and dine at good restaurants like Champers several times a week. Comprehensive private health insurance and catamaran cruises or snorkeling trips are in budget. Costs are still higher than most Caribbean alternatives due to import duties on nearly everything."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 300
       },
-      "lifestyle": "Barbados at its best becomes accessible here. A villa with pool, dining at the world-famous west coast restaurants, sailing excursions, and a full social calendar. The island's compact size means everything is within 30 minutes, and the quality of life is genuinely world-class."
+      "lifestyle": "A three-bedroom villa with a pool on the west or south coast, or a beachfront condo, provides a comfortable home. You dine at west coast restaurants like The Cliff and Lone Star for special occasions, own a car, carry premium international health insurance, and sail or golf regularly. The island's compact size means everything is within 30 minutes. Housing and groceries still take large shares of the budget due to Barbados's high import costs."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Caribbean yacht cruises, first-class travel to UK and US, art collecting, philanthropy",
         "monthlyCost": 1500
       },
-      "lifestyle": "You are living the classic Barbados luxury lifestyle alongside celebrities and business magnates on the platinum coast. A stunning beachfront villa, full staff, fine dining nightly, and the social calendar of one of the Caribbean's most exclusive communities."
+      "lifestyle": "A beachfront villa on the west coast or an estate home near Sandy Lane provides premium island housing. A housekeeper, cook, and gardener manage the property, and you dine at the island's best restaurants without thinking about cost. Golf at Sandy Lane or Apes Hill, a nice car, and business class flights round out a comfortable life. Housing takes a large share even at this tier — Barbados's west coast real estate is among the most expensive in the Caribbean."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Yacht ownership, first-class global travel, Barbados property portfolio, philanthropic foundation",
         "monthlyCost": 5000
       },
-      "lifestyle": "At this level you join the ranks of the global elite who have made Barbados their home. Sandy Lane neighbors, a private yacht, full estate staff, and the kind of Caribbean lifestyle that most people only see in magazines. Barbados rewards this level of investment with genuine world-class living."
+      "lifestyle": "A Sandy Lane estate or sprawling beachfront compound on the platinum coast with full household staff — cook, housekeepers, groundskeepers — anchors daily life. You dine freely, fly first class internationally, own a boat, and have a nice car. Housing takes a very large share of this budget because Barbados's top-end real estate is priced at international luxury levels. The island's safety, English-speaking culture, and established infrastructure make it a polished but expensive Caribbean base."
     }
   },
   "scores": {

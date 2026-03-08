@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "Prague is remarkably affordable for a world-class European capital. Public transit is outstanding and nearly free, Czech pub meals are hearty and cheap, and the cultural offerings rival cities costing three times as much. Winters are cold and gray, but the Christmas markets and cozy pubs make them magical."
+      "lifestyle": "You can live comfortably in Prague on this budget, though you will watch your spending. A one-bedroom in Vinohrady or Žižkov keeps you in walkable, interesting neighborhoods, and the excellent metro and tram system means you rarely need a taxi. Cooking at home most nights and eating at Czech pubs for the rest keeps food costs low. Winters are cold and gray, which is a real tradeoff."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "Prague truly shines at this budget. A beautiful apartment in a leafy neighborhood, regular dining at excellent restaurants, opera and concert tickets, and budget flights to anywhere in Europe. The city's beauty never gets old, and the central location makes weekend trips effortless."
+      "lifestyle": "A spacious apartment in Vinohrady, Letná, or Karlín puts you in some of Prague's best neighborhoods. You can dine out several times a week at good restaurants, hold season tickets to the National Theatre, and take regular weekend trips around Europe on budget airlines. Prague's central location and low cost of living leave a comfortable buffer at this budget."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "Living in the historic heart of Prague with a luxury apartment overlooking centuries-old architecture is genuinely extraordinary. Michelin-star dining, world-class culture, and a lifestyle that would cost triple in Paris or London. Significant surplus allows for regular European travel."
+      "lifestyle": "A large apartment in Prague 1 or Malá Strana puts you in the historic center with restaurants like La Degustation and Field as regular options. You can keep a car for countryside trips, travel around Europe frequently, and carry international health coverage. This budget goes far in Prague, leaving meaningful margin even after a comfortable lifestyle."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "First-class European travel, Czech countryside estate weekends, art patronage, philanthropy",
         "monthlyCost": 2000
       },
-      "lifestyle": "A historic Prague townhouse with full staff, Michelin dining on demand, and the resources to experience the finest culture in Central Europe. The cost advantage over Western Europe means your surplus grows substantially even as you live a truly premium lifestyle."
+      "lifestyle": "A townhouse in Malá Strana or a penthouse with castle views, a housekeeper several times a week, and regular dining at Prague's best restaurants. You can fly business class around Europe, keep a nice car, and carry premium health insurance. Prague's low cost of living relative to the quality means a large margin even at this spending level."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Czech castle or chateau purchase, first-class global travel, art collection, philanthropic foundation",
         "monthlyCost": 5000
       },
-      "lifestyle": "At this budget in Prague you could literally own a castle in the Czech countryside. A grand residence in the city, full staff, patronage of the arts, and a lifestyle that would make Bohemian royalty envious. The cost differential versus Western Europe makes your wealth go extraordinarily far."
+      "lifestyle": "A large villa or premium apartment in the Prague 6 diplomatic quarter, a cook who comes several times a week, regular housekeeping, and first-class travel throughout Europe. You dine at the best restaurants without checking prices and carry comprehensive private healthcare. Much of this budget will go unspent in Prague — the city simply does not have enough ways to spend $33K a month."
     }
   },
   "scores": {

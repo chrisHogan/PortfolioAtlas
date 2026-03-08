@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 120
       },
-      "lifestyle": "A magical budget life on the Adriatic. Your mornings start with strong Croatian coffee overlooking the harbor, afternoons mean swimming in crystal-clear coves, and evenings are spent dining on fresh-caught fish at a family konoba. Dubrovnik's off-season quiet is a retiree's secret paradise."
+      "lifestyle": "A one-bedroom in Lapad or Gruž keeps you a short bus ride from the Old Town at a manageable rent. You can eat at local konobas a few times a week, swim at free beaches, and enjoy the quiet off-season that tourists never see. The budget is workable but not loose — Dubrovnik's tourist economy pushes prices higher than other Croatian cities, and summer crowds are a real factor."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 160
       },
-      "lifestyle": "The Dubrovnik dream fully realized. Your stone apartment echoes centuries of Adriatic history, weekends mean sailing to Korcula or harvesting oysters in Ston, and summer evenings feature open-air Shakespeare within the medieval walls. This is the Mediterranean life at its most romantic and affordable."
+      "lifestyle": "A stone apartment near Ploče Gate or a renovated place in Lapad with sea views. Regular dining at good restaurants like Nautika, car rentals for exploring the Dalmatian coast, and ferry trips to Korčula and Mljet. Good private health insurance and front-row seats at the Dubrovnik Summer Festival are affordable at this level. The city is small, so daily life is walkable and the pace is relaxed."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "From your hillside villa overlooking the Adriatic, Dubrovnik reveals itself as one of Europe's most spectacular places to live. Private sailing trips thread through the Elaphiti archipelago, summer means front-row culture within medieval walls, and your infinity pool frames the same sea views that inspired Lord Byron."
+      "lifestyle": "A villa in the hills above Dubrovnik with Adriatic views and a pool, a car for coast road trips, and regular dining at restaurants like 360 Dubrovnik. Sailing trips through the Elaphiti islands, good international health coverage, and regular European travel are all comfortably within budget. Dubrovnik is small, which means limited restaurant variety compared to larger cities, but the setting and coastal access are hard to match."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Private Croatian language tutor, personal trainer, yacht marina berth, bespoke Dalmatian coast itineraries, premium spa memberships",
         "monthlyCost": 1300
       },
-      "lifestyle": "Owning a palazzo within the walls of Dubrovnik makes you custodian of a living medieval masterpiece. Your private speedboat skips between islands, your chef turns the morning fish market catch into Dalmatian feasts, and your rooftop terrace is the most coveted dinner invitation on the Adriatic."
+      "lifestyle": "A restored stone house within the Old Town walls or a cliffside property with private beach access, a housekeeper, and a cook who comes in several times a week. A speedboat for island access, business class travel, and premium healthcare round out a very comfortable coastal life. Dubrovnik's small size means you will know most of the year-round community, for better or worse."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Medieval restoration fund, Adriatic island property management, art acquisition, cultural preservation foundation, bespoke Mediterranean superyacht itineraries",
         "monthlyCost": 4800
       },
-      "lifestyle": "Your restored fortress is not just a home — it's a cultural landmark. You host world-class performances within medieval walls, your superyacht charts the entire Dalmatian coast, and your preservation foundation ensures this UNESCO treasure endures. Living in Dubrovnik at this level means becoming part of its thousand-year story."
+      "lifestyle": "A landmark property in the Old Town or a clifftop estate with a private cove, regular housekeeping, a cook, and first-class travel. You can keep a boat for Adriatic cruising and dine at the best restaurants along the coast without a second thought. At this budget, Dubrovnik's small-town scale is the main constraint — there are limited ways to spend this much monthly, and you may find yourself traveling often simply because the city's offerings are intimate rather than expansive."
     }
   },
   "scores": {

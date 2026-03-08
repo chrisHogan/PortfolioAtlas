@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 100
       },
-      "lifestyle": "You settle into a modern condo with a pool and gym, eat world-class hawker food for $2 a meal, and take the efficient LRT to explore one of Asia's most diverse cities. KL at $1M is comfortable, connected, and blessedly English-speaking — a soft landing for first-time expats in Asia."
+      "lifestyle": "A furnished 1-bedroom condo with pool and gym in an area like Bangsar South or Cheras. Eating mostly at hawker centers and mamak stalls — roti canai, nasi lemak, and char kway teow for a couple of dollars. Getting around on the LRT/MRT system with Grab rides. Basic private health insurance at good hospitals. English is widely spoken, which makes daily logistics straightforward. Comfortable, though dining out at Western restaurants and imported groceries will stretch the budget."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "At $2M, KL is truly comfortable. You live in a spacious condo in the leafy expat enclave of Mont Kiara, enjoy the incredible culinary diversity of Malay, Chinese, and Indian food, and take cheap AirAsia flights to Langkawi or Penang for the weekend. Healthcare is excellent and communication is never a problem."
+      "lifestyle": "A spacious 2-bedroom condo in Mont Kiara, Bangsar, or the KLCC area with city views. Dining out regularly across Malay, Chinese, and Indian cuisines without watching the bill. Regular Grab rides and occasional car rental for weekend trips to the highlands or beaches. Good private health insurance with access to top hospitals. Cheap AirAsia flights to Langkawi or Penang for weekend getaways. Daily life is easy and you rarely think about costs."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "With $3M in KL, you're living at a level that would require double the budget in most Western cities. Your condo has Twin Towers views, you dine at Malaysia's Michelin-equivalent restaurants, and you have a car for spontaneous road trips to the Cameron Highlands tea plantations or Malacca's historic streets."
+      "lifestyle": "A large condo in KLCC with Petronas Twin Towers views, or a semi-detached house in Bangsar or Damansara Heights. Regular dining at KL's best restaurants like Dewakan and DC by Darren Chin. A leased car for daily use and weekend road trips to Cameron Highlands or Malacca. Premium international health insurance with comprehensive annual screenings. This is a genuinely affluent lifestyle in a city where costs are moderate."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Bespoke tailoring, premium wine and whisky collections, luxury hotel staycations at the Four Seasons and Mandarin Oriental, private event hosting",
         "monthlyCost": 1600
       },
-      "lifestyle": "At $5M in KL, you live in a stunning bungalow in one of the city's most exclusive neighborhoods with full domestic staff. Malaysia's world-class golf courses are your backyard, Singapore is a short flight away for luxury shopping, and your social circle includes KL's cosmopolitan elite. The value for money is extraordinary."
+      "lifestyle": "A large bungalow with private garden and pool in Damansara Heights or Kenny Hills, or a penthouse in KLCC's best tower. A full-time housekeeper, a part-time cook, and a luxury car with a part-time driver. Regular dining at KL's top restaurants, golf at good Malaysian courses, and business class flights to Singapore and around the region. Premium healthcare with VIP hospital access. This budget goes very far in KL."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Private art collection curation, bespoke travel experiences, investment in Malaysian property portfolio, charitable foundations, exclusive club memberships",
         "monthlyCost": 5500
       },
-      "lifestyle": "With $10M in Kuala Lumpur, you occupy the very top of Malaysian society. Your colonial mansion in Kenny Hills is staffed by a professional household team, you host galas for the city's elite, and you split your time between KL, a Langkawi beach estate, and first-class travel across Asia. Malaysia's tax advantages make this lifestyle even more compelling."
+      "lifestyle": "A grand bungalow in Kenny Hills or a premium penthouse, with the option of a holiday home in Langkawi or Cameron Highlands. A housekeeper, a cook a few times a week, a driver, and a gardener. First-class flights regionally and business class for longer international trips. Concierge-level healthcare with 24/7 specialist access. Regular fine dining and travel as routine. This far exceeds what KL demands for a top-tier life — you live at the highest level the city offers with substantial room to spare."
     }
   },
   "scores": {

@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 120
       },
-      "lifestyle": "Athens on a million is a surprisingly rich life. You'll eat souvlaki for two euros, sip freddo espresso with a view of the Parthenon, and catch a ferry to the islands on long weekends. The city's best pleasures — rooftop sunsets, archaeological walks, vibrant street life — cost nothing at all."
+      "lifestyle": "A one-bedroom in Pangrati or Koukaki keeps you within walking distance of the Acropolis and the city's best street food. You will cook at home often but can afford regular taverna meals and cheap souvlaki. Public transit is inexpensive and covers the city well. Many of Athens' best features — rooftop views, archaeological sites, beach access at Vouliagmeni — are free or nearly so. Summer heat is intense, and air conditioning will push up utility costs."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "Athens opens up beautifully at this budget. Your Kolonaki flat places you in the city's chicest neighborhood, weekend ferries whisk you to car-free Hydra in two hours, and your evenings are split between rooftop dining with Acropolis views and live music in Exarchia. The Athenian good life, fully unlocked."
+      "lifestyle": "A nice apartment in Kolonaki or a renovated place in Plaka with a rooftop terrace. You can dine out several times a week at Athens' new-wave tavernas, take regular ferry trips to nearby islands like Hydra and Aegina, and carry good private health insurance. Weekend drives to the Peloponnese are easy. Athens has high English fluency, which makes daily life straightforward for non-Greek speakers."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "A commanding Athenian life with the ancient world at your feet — literally. Your penthouse terrace frames the Acropolis at golden hour, weekends mean chartered boat trips to Aegina's pistachio groves, and your cultural calendar includes front-row seats at one of the world's oldest theaters. Civilized living at its original source."
+      "lifestyle": "A penthouse in Kolonaki with Acropolis views or a villa in the coastal suburb of Glyfada. Regular dining at restaurants like Spondi and Varoulko, a leased car, and international health coverage. Boat day trips to the Saronic islands, tickets at the Epidaurus theater, and regular travel are all within budget. This is a genuinely affluent lifestyle in Athens with room to spare."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Private Greek tutor, personal trainer, yacht marina fees, bespoke island itinerary planning, premium Athens social memberships",
         "monthlyCost": 1400
       },
-      "lifestyle": "Your Vouliagmeni villa rivals anything on the Riviera, but with the Acropolis as your backdrop. A private chef serves fresh-caught seafood on your terrace, your yacht captain knows every hidden cove in the Cyclades, and Athens' cultural elite counts you among their own. Ancient luxury, thoroughly modernized."
+      "lifestyle": "A seafront villa in Vouliagmeni or a restored neoclassical in Plaka, a housekeeper, a cook who comes in several times a week, and a nice car. Business class flights for longer trips, premium healthcare, and regular dining at Athens' best restaurants. You can rent boats for island excursions and travel frequently. The Athenian Riviera offers a coastal lifestyle that compares well to more expensive Mediterranean alternatives."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Private island development, archaeological sponsorship, art acquisition fund, charitable foundation supporting Greek heritage, bespoke Aegean experiences",
         "monthlyCost": 5000
       },
-      "lifestyle": "You live as the modern Onassis — a private island in the Cyclades, a yacht cutting through the Aegean, and an Athens estate where world leaders and artists dine under the Parthenon's gaze. Your philanthropic work preserving Greek heritage ensures your name joins the ancient ones this land remembers. Mythic-scale living."
+      "lifestyle": "A premium property on the Athens Riviera with private beach access, a full-time cook, regular housekeeping, and first-class international travel. You dine wherever you like without thinking about the bill and carry comprehensive global health coverage. You can charter boats for Aegean trips regularly. Athens at this budget is very comfortable, though the luxury infrastructure is thinner than in cities like London or Paris."
     }
   },
   "scores": {

@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 160
       },
-      "lifestyle": "Melbourne on a lean budget is tight but doable, especially with Medicare covering health basics. You will cook at home often but can still enjoy the city's famously affordable multicultural cheap eats. The free tram zone, free museums, and beach access mean you never run out of things to do. Expect to live in the inner suburbs rather than premium neighborhoods."
+      "lifestyle": "This budget is workable in Melbourne but requires discipline. You will live in the inner suburbs — Footscray, Brunswick West — and cook most meals at home, supplemented by the city's affordable multicultural cheap eats. Medicare covers basic health costs, and the free tram zone, free galleries at the NGV, and beach access at St Kilda help keep entertainment affordable. Melbourne's weather is famously changeable, with cool winters that are mild by Canadian standards but gray."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "Melbourne really comes alive at this budget. You can live in one of the trendy inner suburbs, fully embrace the coffee and brunch culture, catch AFL matches at the MCG, and explore the stunning coastline and wine regions on weekends. The city's incredible diversity of food, art, and sport makes every week feel packed with discovery."
+      "lifestyle": "A two-bedroom in Fitzroy, Carlton, or South Yarra puts you in Melbourne's most interesting neighborhoods. Regular dining at laneway restaurants, AFL season tickets at the MCG, a car for Great Ocean Road or Yarra Valley weekends, and private health insurance on top of Medicare. The budget is comfortable without being lavish. Melbourne's food, coffee, and cultural scene provide a genuinely rich daily life at this spending level."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "Life is superb at this level. A lovely home in a prime inner suburb, meals at Melbourne's celebrated fine dining scene, and the freedom to attend every major sporting and cultural event the city hosts. Weekend drives to the Mornington Peninsula or Great Ocean Road become a natural part of your rhythm."
+      "lifestyle": "A spacious house in Richmond or Prahran, or a modern apartment in Southbank with river views. Regular dining at restaurants like Attica, Australian Open and F1 tickets, premium private health insurance, and your own car for regional trips. Weekend drives to the Mornington Peninsula or Great Ocean Road are easy. Melbourne's food and cultural scene is deep enough to support this spending level well."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Mornington Peninsula weekends, first-class travel, premium wine cellar, philanthropy",
         "monthlyCost": 1800
       },
-      "lifestyle": "You are living Melbourne at its absolute finest. A beautiful home in Toorak or Brighton, corporate hospitality at every major event, and the ability to fully immerse in the city's world-class food, wine, and arts scene. Melbourne's combination of cosmopolitan culture and beachside relaxation is unbeatable at this tier."
+      "lifestyle": "A large home in Toorak or Brighton, a weekly housekeeper, a nice car, and regular dining at Melbourne's best restaurants. Corporate box access at the MCG and Rod Laver Arena, business class domestic flights, and premium healthcare with concierge GP service. Regular trips to Mornington Peninsula wineries round out a comfortable upper-tier lifestyle in one of the most livable cities in the world."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Vineyard investment in Yarra Valley, first-class international travel, fine art, philanthropy",
         "monthlyCost": 5000
       },
-      "lifestyle": "At this level Melbourne becomes your personal kingdom. A grand estate in one of Australia's most prestigious suburbs, a full staff, private boxes at every major event, and a wine collection that rivals commercial cellars. The relaxed Australian lifestyle combined with world-class sophistication creates a unique and deeply satisfying existence."
+      "lifestyle": "A grand home in Toorak or a waterfront property in Brighton, a cook who comes in several times a week, regular housekeeping, and first-class international travel. Private boxes at the MCG and Rod Laver Arena, concierge healthcare, and a driver available when needed. Melbourne is expensive, so this budget does get absorbed more fully than in smaller cities, but the lifestyle is less about visible luxury and more about convenience and never worrying about costs."
     }
   },
   "scores": {

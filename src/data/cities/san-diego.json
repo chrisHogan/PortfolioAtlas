@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 120
       },
-      "lifestyle": "San Diego on a tight budget means living further from the coast but still enjoying the incredible weather and free outdoor activities. You will cook most meals at home but can indulge in affordable Mexican food regularly. Expect a modest apartment and a careful approach to spending, but the beach is always free."
+      "lifestyle": "You live inland in City Heights or El Cajon, well away from the coast, and cook most meals at home. Affordable fish tacos and Mexican food provide budget-friendly dining a couple of times a week. California taxes and high housing costs make this a tight budget, but the beaches, Balboa Park, and Torrey Pines trails are free and the weather is reliably good year-round."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "At this level you can live in one of San Diego's walkable, vibrant neighborhoods and enjoy the restaurant scene regularly. Surfing, hiking, and exploring craft breweries become part of your weekly routine. You have room for weekend trips to Anza-Borrego or Baja Mexico without stressing the budget."
+      "lifestyle": "You can rent a nice apartment in North Park or Hillcrest and eat out several times a week at the city's mid-range restaurants and breweries. Surfing, hiking, and beach time become part of the regular routine. Weekend trips to Anza-Borrego or across the border to Baja fit the budget, though California's income tax does take a meaningful cut of your withdrawals."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "San Diego truly shines at this budget level. You can live near the coast, dine at the city's best restaurants, and pursue premium outdoor activities like sailing and golf at Torrey Pines. Weekend drives up the Pacific Coast Highway or wine tasting in Temecula are easy indulgences."
+      "lifestyle": "You can rent a house in Mission Hills or Point Loma, or a condo near the beach in La Jolla, and dine regularly at the city's top restaurants. Padres season tickets, a sailing club membership, or golf at Torrey Pines fit comfortably. Good private healthcare and regular travel round out a comfortable coastal life, though California taxes reduce spending power compared to no-income-tax states."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Quarterly luxury travel, wine collection, spa memberships, philanthropy",
         "monthlyCost": 1500
       },
-      "lifestyle": "You are living the San Diego dream at this level. A stunning home steps from the ocean, membership at exclusive yacht and golf clubs, and dinners at the finest restaurants. The mild weather means you enjoy your outdoor lifestyle twelve months a year with zero compromise."
+      "lifestyle": "A large oceanfront home in La Jolla, Del Mar, or Coronado, regular dining at the city's best restaurants, and a housekeeper who comes weekly. You can afford concierge medicine at Scripps, a nice car, and business class flights. Premium golf memberships and a sailing club are within reach, and the year-round mild weather means outdoor living every day."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "First-class international travel, second home in Baja, yacht upkeep, angel investing",
         "monthlyCost": 5000
       },
-      "lifestyle": "At this budget San Diego becomes a private paradise. A sprawling beachfront estate, a personal yacht, and access to the most exclusive clubs in Southern California. The perfect climate and proximity to LA, Mexico, and the Pacific Rim make this an unmatched base for the ultra-wealthy FIRE lifestyle."
+      "lifestyle": "Premium beachfront housing in La Jolla Shores or Coronado, regular fine dining, a cook who comes several times a week, and a housekeeper. First class travel, full concierge healthcare at Scripps, and the freedom to dine and entertain without thinking about cost. California's high income tax is a real factor at this level, but San Diego's climate and coastal setting are hard to replicate elsewhere."
     }
   },
   "scores": {

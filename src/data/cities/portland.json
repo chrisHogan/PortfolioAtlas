@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 140
       },
-      "lifestyle": "Portland on a tight budget is doable thanks to excellent public transit, no sales tax, and an abundance of affordable food carts. You will live in an outer neighborhood but still have easy access to downtown. Expect to cook at home often and take advantage of Portland's many free outdoor activities in Forest Park and along the Willamette."
+      "lifestyle": "You live in an outer neighborhood like Beaverton or Milwaukie and rely on TriMet for transit, which keeps car costs off the budget. Cooking at home is the norm, with food cart meals a few times a week as an affordable treat. Forest Park and the Willamette River trails provide free recreation, and Portland's lack of sales tax helps on everyday purchases. Oregon's state income tax is a real headwind at any tier."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 170
       },
-      "lifestyle": "At this budget Portland really opens up. You can live in one of the city's most walkable, culturally rich neighborhoods and enjoy the restaurant scene that put Portland on the map. Weekend trips to Mt. Hood for skiing or the Oregon Coast are easy additions to your lifestyle without budget stress."
+      "lifestyle": "You can rent a nice apartment in Hawthorne or Alberta and eat out several times a week at the restaurants that put Portland on the food map. A car makes weekend trips to Mt. Hood or the Oregon Coast easy, and a ski pass fits the budget. The city's walkability and bike infrastructure keep daily life pleasant, though Oregon's income tax takes a noticeable bite."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "Life is excellent at this tier in Portland. You can rent a charming house in one of the city's best neighborhoods, dine at Michelin-recognized restaurants regularly, and fully embrace the outdoor culture with ski passes and coast trips. The Pearl District and Alberta Arts District become your regular haunts."
+      "lifestyle": "You can rent a house in Sellwood or Laurelhurst, or a loft in the Pearl District, and dine regularly at Portland's top restaurants. A Mt. Hood ski pass, Timbers season tickets, and weekend trips to wine country or the coast all fit comfortably. Good private insurance through OHSU rounds out a genuinely comfortable life in one of the most livable cities in the Pacific Northwest."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Quarterly travel, Willamette Valley wine investments, spa retreats, charitable giving",
         "monthlyCost": 1400
       },
-      "lifestyle": "Portland becomes a true playground at this level. A stunning home in the West Hills with forest views, VIP access to the city's cultural events, and weekends at your favorite Willamette Valley wineries. You can be generous and still grow your portfolio with the surplus."
+      "lifestyle": "A large home in the West Hills or Lake Oswego with forest views, regular dining at Portland's best restaurants, and a housekeeper who comes weekly. You can afford concierge medicine at OHSU, a nice car, and business class flights for longer trips. Willamette Valley wine country is an easy weekend drive, and Trail Blazers or Timbers games are regular outings."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "First-class international travel, vineyard ownership, charitable foundation, angel investing",
         "monthlyCost": 5000
       },
-      "lifestyle": "At this level Portland is your personal canvas. An estate surrounded by old-growth forest, a private vineyard in the Willamette Valley, and the ability to shape the city's cultural scene through philanthropy. Oregon's natural beauty becomes your private backyard while you maintain a globally connected lifestyle."
+      "lifestyle": "Premium housing in Dunthorpe or the West Hills, regular fine dining, a cook who comes several times a week, and a housekeeper. First class travel, full concierge healthcare at OHSU, and a private box at Moda Center for Trail Blazers games. Portland's proximity to the coast, Mt. Hood, and wine country means varied weekend getaways without planning. Oregon's income tax is a real cost at this level, but the quality of life is high."
     }
   },
   "scores": {

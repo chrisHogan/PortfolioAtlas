@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 140
       },
-      "lifestyle": "Santa Fe on a tight budget requires discipline, but the payoff is living in one of America's most beautiful and culturally rich small cities. Free Friday gallery walks, stunning hiking, and a dry climate that keeps utility bills low all help. You will feel the squeeze on dining out and housing, but the quality of daily life is hard to beat."
+      "lifestyle": "A small casita or one-bedroom on the south side runs about $1,350, which takes a large share of the budget. You cook at home most nights, using Hatch chile liberally, and eat out at casual New Mexican spots a couple of times a week. Free Friday gallery walks on Canyon Road, hiking in the Sangre de Cristos, and the dry climate keeping utility costs low all help. Housing and healthcare squeeze the margins, but the daily surroundings are striking."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 170
       },
-      "lifestyle": "At this level Santa Fe becomes genuinely wonderful. You can rent a beautiful adobe, attend the world-famous opera, ski in winter, and hike in summer. The art scene is endless, the food is extraordinary, and the pace of life is deeply restorative. Weekend trips to Taos or Bandelier add variety."
+      "lifestyle": "A charming two-bedroom adobe near the Railyard district or on the historic east side, dining out several times a week at places like The Shed and Tomasita's, and Santa Fe Opera tickets in summer. A ski pass at Ski Santa Fe covers winter, and weekend trips to Taos or Bandelier add variety. Good health insurance and a reliable SUV for mountain roads are covered with some room to spare."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "This is the ideal Santa Fe experience. A stunning adobe with kiva fireplaces and mountain views, front-row opera seats under the stars, a growing art collection, and the freedom to explore every corner of northern New Mexico. The creative energy of this city is unmatched at any price."
+      "lifestyle": "A custom three-bedroom adobe on the historic east side or in the foothills with mountain views and kiva fireplaces. Regular dinners at Geronimo and Terra, premium opera seats, and a growing collection of art from Canyon Road galleries. A late-model 4WD SUV handles mountain roads, and there is margin for regular travel. This is a genuinely affluent Santa Fe life."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Significant art purchases, international travel, spa retreats, philanthropic giving to arts organizations",
         "monthlyCost": 1500
       },
-      "lifestyle": "Santa Fe at this tier is a collector's and aesthete's dream. A museum-quality home filled with art you love, patron-level access to the opera and galleries, and the deep satisfaction of supporting the creative community that makes this city magical. Your home becomes a destination in its own right."
+      "lifestyle": "A large home on Museum Hill, a Las Campanas property, or a historic Canyon Road compound. A housekeeper comes a couple of times a week, and there is budget for patron-level opera and museum memberships, regular art purchases, and business class flights for travel. Concierge healthcare and a luxury SUV are covered. Santa Fe's art market and cultural scene offer real ways to spend meaningfully at this level."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Museum-level art acquisitions, first-class international travel, ranch property in Taos, charitable foundations",
         "monthlyCost": 5000
       },
-      "lifestyle": "At this level you become one of Santa Fe's cultural pillars. A world-class private art collection, a stunning compound that hosts artists and dignitaries, philanthropic leadership in the arts community, and the freedom to jet off to Art Basel or Venice Biennale whenever inspiration calls. Santa Fe rewards wealth with meaning, not just comfort."
+      "lifestyle": "A large Las Campanas estate or a historic Canyon Road compound, full-time domestic help including a housekeeper and property manager, and a cook who comes in several times a week specializing in New Mexican cuisine. First-class travel, concierge healthcare, and regular art acquisitions are all comfortable. A ranch property near Taos as a second home is within reach. Santa Fe's small-city costs mean this budget covers premium living with healthy margins."
     }
   },
   "scores": {

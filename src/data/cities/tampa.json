@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 170
       },
-      "lifestyle": "Tampa on a $1M budget is doable but demands discipline. You will live in a modest apartment outside the trendy core, cook most meals at home, and lean on Tampa Bay's greatest free asset: miles of stunning waterfront. The famous Cuban sandwich shops of West Tampa and Ybor City are wallet-friendly indulgences, and the Riverwalk never charges admission. No state income tax helps every dollar stretch further."
+      "lifestyle": "You live in a modest apartment in Seminole Heights or Temple Terrace and cook most meals at home. Cuban sandwich shops in West Tampa and Ybor City provide affordable dining a couple of times a week. The Riverwalk and Tampa Bay's waterfront parks are free, and Florida's zero income tax helps stretch a tight budget. Summer A/C costs are significant, and a car is necessary for most of the city."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 190
       },
-      "lifestyle": "At $2M, Tampa starts to shine. You can afford a comfortable place in one of the walkable urban neighborhoods, enjoy the booming SoHo restaurant scene regularly, and catch a Lightning game without stressing the budget. Weekend beach trips to Clearwater or Anna Maria Island become part of the routine, and you have enough margin to enjoy Tampa's rapidly improving cultural offerings."
+      "lifestyle": "You can rent a nice apartment in Hyde Park or Channelside and eat out several times a week in the SoHo restaurant scene and Ybor City. Lightning games, a gym membership, and weekend beach trips to Clearwater or Anna Maria Island fit the budget. Florida's zero income tax keeps your full withdrawal intact, and Tampa's growing cultural offerings add variety beyond the waterfront."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 260
       },
-      "lifestyle": "Life at $10K per month in Tampa is genuinely excellent. A beautiful home in coveted South Tampa, regular dinners at the legendary Bern's Steak House, season tickets to watch the Lightning, and enough room to explore the bay by boat on weekends. Tampa's combination of waterfront living, zero state tax, and world-class dining makes this tier feel like you have cracked the code."
+      "lifestyle": "You can rent a house in South Tampa or a waterfront condo on Harbour Island, and dine regularly at restaurants like Bern's Steak House and Ulele. Lightning season tickets, a Straz Center performing arts subscription, and weekend boating on the bay all fit comfortably. Good private healthcare and a reliable car for beach trips round out a comfortable waterfront life with no state income tax."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Quarterly travel, boat ownership costs, spa retreats, wine club memberships",
         "monthlyCost": 1500
       },
-      "lifestyle": "At $5M you are living Tampa's best life. A stunning home along Bayshore Boulevard -- the world's longest continuous sidewalk -- with sweeping bay views, your own boat docked nearby, and regular seats at the best restaurants and sporting events in the city. Florida's zero income tax means your full $16K monthly withdrawal is yours to enjoy."
+      "lifestyle": "A large waterfront home on Davis Islands or along Bayshore Boulevard, regular dining at Tampa's best restaurants, and a housekeeper who comes weekly. Concierge medicine at Tampa General, a nice car, and business class flights are standard. A boat slip at the Tampa Yacht Club, country club membership, and premium Bucs tickets fit comfortably. Florida's zero income tax keeps the full withdrawal intact."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Yacht ownership, first-class international travel, real estate investing, philanthropic giving",
         "monthlyCost": 5000
       },
-      "lifestyle": "At $10M, Tampa is your personal Gulf Coast kingdom. A sprawling waterfront estate, a private yacht for cruising to the Keys, a personal chef, and deep philanthropic involvement in the community. With Moffitt Cancer Center and Tampa General nearby for world-class healthcare and zero state income tax, this is elite-level living with nothing left to want."
+      "lifestyle": "Premium waterfront housing along Bayshore Boulevard or on Davis Islands, regular fine dining, a cook who comes several times a week, and a housekeeper. First class travel, full concierge healthcare at Tampa General and access to Moffitt Cancer Center, and a luxury box at Raymond James Stadium. A well-maintained boat for bay and Gulf cruises is a natural addition. Florida's zero income tax at this spending level represents significant annual savings."
     }
   },
   "scores": {

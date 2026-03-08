@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 145
       },
-      "lifestyle": "Raleigh at $1M is a tight but workable proposition. The proximity to world-class hospitals means excellent healthcare access even on a budget plan. You will cook most meals, take advantage of Raleigh's many free museums and greenways, and live modestly. The mild climate keeps utility costs reasonable year-round."
+      "lifestyle": "A one-bedroom apartment in Southeast Raleigh or near Brier Creek, cooking most meals at home, and a paid-off car for getting around. Healthcare on an ACA Silver plan is a significant expense, but proximity to Duke and UNC hospitals means good access even on a budget. Free museums on Hillsborough Street and the city's extensive greenway trails are your main entertainment. The mild climate keeps utility costs manageable."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 170
       },
-      "lifestyle": "The $2M budget opens up Raleigh beautifully. A comfortable home in a top suburb like Cary or Apex, regular dining at the Triangle's excellent restaurants, and full engagement with the cultural scene. Weekend drives to the Blue Ridge or the Outer Banks are easy, and the university atmosphere keeps things intellectually vibrant."
+      "lifestyle": "A townhome in Cary or a two-bedroom in North Hills, dining out several times a week at the Triangle's growing restaurant scene, and a reliable car with full coverage. You can afford Hurricanes hockey tickets, museum memberships, and a few trips a year -- the Blue Ridge and Outer Banks are both within a few hours' drive. Good health insurance through the ACA keeps you covered with Duke and UNC systems nearby."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 220
       },
-      "lifestyle": "At $10K per month, Raleigh delivers a rich and varied life. A beautiful home in a walkable historic neighborhood, dinners at award-winning restaurants, season tickets to NHL hockey, and the freedom to explore the mountains and coast on weekends. The combination of moderate costs and world-class healthcare access is exceptional."
+      "lifestyle": "A three-bedroom home in a walkable neighborhood like Cameron Village or Five Points, regular dinners at places like Poole's Diner and Second Empire, and Hurricanes season tickets. Premium health insurance with access to the Duke and UNC medical systems provides strong coverage. You have room for a golf club membership, regular weekend trips, and a late-model car. This is a comfortable, well-rounded life in a metro with genuinely good healthcare infrastructure."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Outer Banks beach house weekends, quarterly travel, university philanthropy, art collecting",
         "monthlyCost": 1400
       },
-      "lifestyle": "Raleigh at $5M is a sophisticated life with extraordinary healthcare access. A stunning home in one of the Triangle's most prestigious neighborhoods, concierge medicine at Duke or UNC, deep cultural involvement, and easy escapes to the coast or mountains. The educated community and mild climate make this an ideal place for an engaged retirement."
+      "lifestyle": "A large home in Hayes Barton or Prestonwood, concierge medicine through the Duke or UNC systems, and a housekeeper who comes weekly. You dine at the Triangle's best restaurants several nights a week, drive a nice car, and fly business class for longer trips. There is room for a country club membership, regular travel, and weekend getaways to the Outer Banks. The Research Triangle's educated community and access to top-tier healthcare make this a practical, well-supported life."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Second home on the Outer Banks, first-class international travel, endowed university chairs, foundation work",
         "monthlyCost": 4800
       },
-      "lifestyle": "At $10M in Raleigh, you have access to arguably the best healthcare corridor in America and the intellectual vibrancy of three world-class universities. A grand estate, a beach home on the Outer Banks, concierge medicine at Duke, and transformative philanthropy through the Triangle's universities and hospitals. This is the pinnacle of an intellectually rich and medically secure retirement."
+      "lifestyle": "A large estate in Hayes Barton or Cary, a cook who comes in several times a week, regular domestic help, and top-tier concierge medicine at Duke or UNC. You travel first class, keep multiple cars, and dine out without thinking about the bill. A second home on the Outer Banks is within reach at this budget. The Triangle's three research universities and major medical centers mean you are never far from specialists or cultural programming."
     }
   },
   "scores": {

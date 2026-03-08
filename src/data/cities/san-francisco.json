@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "San Francisco on a $1M budget is extremely tight. You will likely need a roommate or a very small studio in an outer neighborhood. The upside is that the city's best experiences -- hiking the Presidio, walking across the Golden Gate Bridge, exploring Golden Gate Park -- are completely free. World-class cheap eats in the Mission and Chinatown help keep food costs manageable, and you can get by without a car thanks to Muni and BART."
+      "lifestyle": "San Francisco on this budget is very constrained. You will likely need a roommate or a small room in the Sunset or Richmond. Dining out is limited to inexpensive spots in the Mission and Chinatown, and you cook most meals at home. The upside is that hiking the Presidio, walking the Golden Gate Bridge, and exploring Golden Gate Park are free, and Muni and BART eliminate the need for a car. California income tax makes an already tight budget tighter."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "At $2M you can finally get your own apartment in a desirable neighborhood and experience San Francisco the way it is meant to be lived. Regular dinners in the Mission and Hayes Valley, weekend trips to Muir Woods or Half Moon Bay, and enough breathing room to enjoy the city's incredible cultural calendar. California income tax takes a bite, but the quality of life is hard to match."
+      "lifestyle": "You can afford your own one-bedroom in a neighborhood like the Inner Sunset, Hayes Valley, or Noe Valley. You eat out three or four times a week at mid-range restaurants, take weekend trips to Muir Woods or Half Moon Bay, and have enough budget for a gym membership and occasional Giants tickets. Still car-free in the city, which saves money. California income tax is a meaningful expense at this level, but the daily quality of life is good."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "At $10K per month, San Francisco becomes genuinely comfortable. A spacious apartment with views, regular dinners at some of the best restaurants in America, weekend trips to Napa and Sonoma, and full access to the city's extraordinary arts and culture scene. You can live in one of the world's great cities and actually enjoy it without constant budget anxiety."
+      "lifestyle": "A spacious apartment in Pacific Heights or the Marina, with room for guests. You dine regularly at restaurants like State Bird Provisions and Zuni Cafe, take weekend drives to Napa and Sonoma, and hold memberships at SFMOMA and the SF Symphony. At $10,000 a month, the city feels genuinely comfortable rather than financially stressful. You can enjoy San Francisco's food and culture scene without constant budget calculations."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Napa wine club memberships, quarterly travel, Tahoe ski weekends, spa retreats",
         "monthlyCost": 1500
       },
-      "lifestyle": "At $5M you are experiencing San Francisco at its absolute finest. A stunning home in Pacific Heights with Golden Gate Bridge views, Michelin-starred dinners as a regular occurrence, patron-level access to the opera and museums, and weekend escapes to Napa or Tahoe. California taxes sting, but the lifestyle is world-class and nearly impossible to replicate elsewhere."
+      "lifestyle": "A large home in Pacific Heights or a renovated Victorian in Noe Valley. You eat at Michelin-starred restaurants multiple times a week, have a housekeeper, and drive a nice car for weekend trips to Napa or Tahoe. Patron-level memberships at the opera and museums are comfortable at this budget. California taxes take a real bite, but the day-to-day lifestyle is upper-affluent with easy access to some of the best food and wine regions in the world."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Napa vineyard investment, first-class international travel, yacht on the bay, major philanthropy",
         "monthlyCost": 5000
       },
-      "lifestyle": "At $10M, San Francisco becomes your personal masterpiece. A legendary Pacific Heights mansion or a Sea Cliff estate overlooking the Pacific, a personal chef sourcing from the finest farms in Northern California, and deep involvement in the city's world-renowned arts and tech philanthropy scenes. Even after California taxes, you are living one of the most enviable lives in America."
+      "lifestyle": "A large home in Pacific Heights or Sea Cliff with views of the bay or ocean. You have a full-time housekeeper, a cook who comes in several times a week, and a personal assistant. You dine at the city's best restaurants regularly, travel first class, and support arts and cultural institutions as a significant donor. Even after California taxes, the budget supports a genuinely wealthy lifestyle anchored by Northern California's natural beauty and food culture."
     }
   },
   "scores": {

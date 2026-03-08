@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 140
       },
-      "lifestyle": "Barcelona on a budget means living like a savvy local rather than a tourist. You'll master the art of the 12-euro menu del dia, spend weekends at the beach or hiking Montjuic, and discover that Gaudi's masterpieces look even better from a neighborhood cafe. Tight but absolutely worth it."
+      "lifestyle": "A compact 1-bedroom in Gracia or Sants -- charming neighborhoods but expect smaller space for the money. Menu del dia lunches and tapas in the evening keep dining affordable. Getting around by metro and Bicing bike-share. Public healthcare with a basic private supplement. Barcelona is not cheap, so this budget requires real trade-offs on apartment size and dining out, but the beach, Montjuic, and neighborhood life are free."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 170
       },
-      "lifestyle": "The Barcelona dream realized. Your Eixample apartment is a short walk from everything — La Boqueria for morning shopping, the beach for afternoon swims, and Gracia's plazas for evening vermouth. Weekends mean Costa Brava coves or Penedes wine country. This is why people move to Barcelona."
+      "lifestyle": "A bright 2-bedroom in Eixample with high ceilings and a balcony. Dining out at tapas bars and good restaurants several times a week without worrying about the bill. Comprehensive private health insurance covering top hospitals. Weekend car rentals for Costa Brava or Penedes wine country trips. FC Barcelona matches and concerts at Palau de la Musica. Barcelona's costs are real, but at this level daily life is comfortable and enjoyable."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 220
       },
-      "lifestyle": "Barcelona at its finest — a terrace apartment in the city's most elegant quarter, dinners at restaurants that make global top-50 lists, and weekends sailing the Mediterranean. Your social calendar is a mix of gallery openings, rooftop parties, and lazy Sundays at exclusive beach clubs."
+      "lifestyle": "A spacious apartment in upper Eixample or Sarria-Sant Gervasi with a terrace and natural light. Regular dining at top restaurants, including occasional meals at places like Disfrutar. A leased car for weekend escapes, premium private healthcare, and several European trips per year. This budget puts you in one of Barcelona's best neighborhoods with a genuinely affluent daily life."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Personal trainer, private Spanish and Catalan tutors, bespoke tailoring, premium co-working at OneCoWork, yacht marina fees",
         "monthlyCost": 1800
       },
-      "lifestyle": "Living on Passeig de Gracia means Gaudi is literally your neighbor. Your private chef prepares Catalan feasts, your yacht awaits at Port Olympic, and your weekends alternate between your Costa Brava retreat and VIP experiences across the city. Barcelona's elite circles welcome you."
+      "lifestyle": "A luxury penthouse on Passeig de Gracia or a renovated home in Pedralbes. Regular dining at the city's best restaurants, a housekeeper several times a week, and business class for longer flights. A leased luxury car, premium private healthcare, and a personal trainer. Barcelona is expensive enough that even at this level you notice the costs, but daily life is high quality with very few practical constraints."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Art acquisition fund, Balearic vacation property management, charitable foundation, bespoke Mediterranean yacht itineraries, personal brand management",
         "monthlyCost": 5500
       },
-      "lifestyle": "At this level, Barcelona is your private Mediterranean playground. Your modernista estate hosts gallery openings and charity galas, your superyacht cruises to Mallorca and Ibiza on whim, and your name is woven into the fabric of the city's cultural scene. You're not just living in Barcelona — you're one of its patrons."
+      "lifestyle": "A historic estate in Pedralbes or an ultra-luxury waterfront penthouse. A cook several times a week, a full-time housekeeper, and full private healthcare with top specialists. Business class as default, first class for longer trips. Regular fine dining at the city's best restaurants and a nice car with driver when needed. Barcelona's high costs absorb more of this budget than cheaper cities would, but daily life is fully comfortable at a premium level."
     }
   },
   "scores": {

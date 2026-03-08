@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 170
       },
-      "lifestyle": "Jacksonville at the $1M level is genuinely manageable thanks to Florida's zero income tax and lower housing costs compared to Tampa or Miami. You will live simply but can enjoy the beach lifestyle year-round. Summer humidity means A/C is non-negotiable, but otherwise your dollar stretches further here than most Florida cities."
+      "lifestyle": "You can rent a one-bedroom in Riverside or Murray Hill and cook most meals at home, with casual seafood and taco spots a couple of times a week. Florida's zero income tax and Jacksonville's lower housing costs compared to Tampa or Miami help stretch the budget. A car is essential given the city's sprawl. Summer A/C bills are a real expense, but the beaches are free and close."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "At $6,667/month Jacksonville becomes very comfortable. You can live in a charming neighborhood like San Marco, eat out regularly at the growing restaurant scene, and fully embrace the beach lifestyle. Weekend trips to historic St. Augustine or the quiet beauty of Amelia Island are easy and affordable."
+      "lifestyle": "You can rent a nice apartment in San Marco or Avondale and eat out several times a week at Riverside restaurants and beach spots. Jaguars games, surfing gear, and weekend trips to St. Augustine or Amelia Island fit the budget. Florida's zero income tax keeps your full withdrawal intact, and Jacksonville's affordability means this budget provides a comfortable beach-adjacent life."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 280
       },
-      "lifestyle": "Life is excellent at this tier in Jacksonville. A waterfront home, a boat for fishing the St. Johns River or Intracoastal, access to world-class golf at TPC Sawgrass, and Mayo Clinic healthcare. Jacksonville's affordability means $10K/month buys a lifestyle that would cost $15K in South Florida."
+      "lifestyle": "You can rent a waterfront home in Ortega or a beachfront condo near Ponte Vedra and dine regularly at Jacksonville's best restaurants. A small boat for the St. Johns River, golf access near TPC Sawgrass, and good private healthcare through Mayo Clinic Jacksonville all fit the budget. Jacksonville's affordability means this tier covers more ground than the same amount in South Florida."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Quarterly luxury travel, yacht upgrades, premium golf trips, philanthropy",
         "monthlyCost": 1500
       },
-      "lifestyle": "At this level Jacksonville's waterfront lifestyle reaches its peak. An estate on the river or oceanfront in Ponte Vedra, membership at TPC Sawgrass, a well-appointed boat, and Mayo Clinic concierge care. Florida's zero income tax means your $5M portfolio works as hard as possible."
+      "lifestyle": "A large waterfront home in Epping Forest or oceanfront in Ponte Vedra Beach, regular dining at the city's best restaurants, and a housekeeper who comes several times a week. Concierge medicine through Mayo Clinic Jacksonville, a nice car, and business class flights are standard. TPC Sawgrass access, a boat with marina fees, and Florida's zero income tax make this a strong-value tier."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "First-class international travel, yacht trips through the Keys, charitable foundations, real estate investing",
         "monthlyCost": 5000
       },
-      "lifestyle": "Jacksonville at the $10M level is a water lover's paradise. An oceanfront estate, a fully crewed yacht, world-class healthcare at Mayo Clinic, and the freedom to travel internationally whenever you wish. The zero state income tax makes this one of the most tax-efficient luxury lifestyles in America."
+      "lifestyle": "Premium oceanfront housing in Ponte Vedra or a historic riverfront property in Ortega, regular fine dining, a cook who comes several times a week, and a housekeeper. First class travel, full concierge healthcare at Mayo Clinic, and a private box at EverBank Stadium for Jaguars games. A well-maintained boat and regular fishing trips are natural additions. Florida's zero income tax at this spending level represents significant annual savings."
     }
   },
   "scores": {

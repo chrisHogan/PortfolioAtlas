@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "San Antonio is one of the best US cities for stretching a $1M nest egg. Housing is genuinely affordable, breakfast tacos cost a few dollars, and the River Walk is free to enjoy every single day. You will live simply but well -- the city's deep cultural heritage means there is always something to explore without spending a dime. Zero state income tax is the cherry on top."
+      "lifestyle": "A modest apartment near the Medical Center or in Southtown, cooking at home most nights with affordable Tex-Mex ingredients, and a paid-off car to get around. The River Walk and the San Antonio Missions are free, and breakfast tacos from local taquerias cost a few dollars. Healthcare takes a meaningful share of the budget, and there is not much room for surprises, but zero state income tax helps every dollar go further."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 170
       },
-      "lifestyle": "At $2M, San Antonio becomes deeply comfortable. The Pearl District -- a converted brewery turned into the city's culinary and cultural heart -- becomes your regular hangout. You can afford Spurs tickets, weekend drives to the Hill Country for wine and barbecue, and a solid home in one of the city's most charming neighborhoods. This budget goes remarkably far here."
+      "lifestyle": "A comfortable home in Alamo Heights or a nice apartment near the Pearl District, where you can dine out several times a week at the area's restaurants and food stalls. A reliable car covers errands and weekend drives to the Hill Country. You can afford Spurs tickets, a good health plan, and a few trips per year. San Antonio's moderate costs mean this budget provides a genuinely comfortable daily life."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 230
       },
-      "lifestyle": "At this tier, San Antonio's incredible value proposition really shines. A beautiful historic home in one of the city's grand old neighborhoods, regular reservations at Mixtli -- the celebrated pre-Columbian tasting menu experience -- and premium seats to watch the Spurs. Weekend drives through wildflower-covered Hill Country become a beloved ritual."
+      "lifestyle": "A spacious home in Olmos Park or Monte Vista, regular dinners at restaurants like Mixtli and Cured, and premium Spurs tickets. You can afford good private health insurance, a late-model SUV, and regular weekend trips to Fredericksburg and the Hill Country wine region. At this budget, San Antonio feels affluent -- you eat well, live in a desirable neighborhood, and have meaningful flexibility for travel and hobbies."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Hill Country ranch weekends, quarterly travel, wine cellar curation, philanthropic giving",
         "monthlyCost": 1400
       },
-      "lifestyle": "You are living like San Antonio royalty. A grand home in the historic King William District or a manicured estate in Terrell Hills, courtside at Spurs games, and a private chef who has mastered both Tex-Mex and fine European cuisine. Your surplus funds a Hill Country retreat and generous philanthropy in a city that deeply values community."
+      "lifestyle": "A large home in Terrell Hills or a renovated King William mansion, a housekeeper several times a week, and a nice car. You dine at the city's best restaurants regularly, hold concierge medical coverage, and fly business class for longer trips. Weekend drives to a Hill Country cabin are easy to budget. San Antonio's low costs and zero state income tax mean this level of spending provides a very comfortable, well-staffed life with significant room for travel and giving."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Hill Country ranch operation, first-class international travel, art patronage, angel investing, major philanthropy",
         "monthlyCost": 5000
       },
-      "lifestyle": "At $10M, San Antonio gives you a life that blends Texas grandeur with deep cultural roots. A magnificent estate in the city and a working Hill Country ranch, a personal chef who sources from local farms, private suites for Spurs games, and enough surplus to become one of the city's great philanthropic benefactors. Texas's zero income tax ensures every withdrawal dollar is yours."
+      "lifestyle": "A large estate in Alamo Heights, a cook who comes in several times a week, regular domestic help, and a premium healthcare plan with concierge access. You dine at the best restaurants in the city without checking prices, travel first class, and keep a nice car or two. In San Antonio, this budget goes very far -- you live as a successful professional who never thinks about daily costs, with plenty left over for charitable giving and regular travel. Texas's zero income tax keeps every withdrawal dollar intact."
     }
   },
   "scores": {

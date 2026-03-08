@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "Fort Worth is one of the best places in America to stretch a $1M portfolio. Housing is genuinely affordable, the BBQ and Tex-Mex are cheap and incredible, and there is plenty of free entertainment from the Stockyards to the museum district. No state income tax is the cherry on top. Summer A/C bills are the main budget buster."
+      "lifestyle": "A one-bedroom in Near Southside, Fairmount, or Arlington Heights runs about $1,200, and you cook at home most nights with BBQ or Tex-Mex out a couple of times a week. The Stockyards cattle drives and the Kimbell Art Museum's permanent collection are free. No state income tax helps, but summer A/C bills are a meaningful expense. Overall a manageable budget with some breathing room."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -82,7 +82,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "This budget turns Fort Worth into a wonderful place to live. You can enjoy the thriving Magnolia Avenue scene, attend TCU football games, and eat some of the best BBQ and steak in Texas whenever you want. Weekend drives through the Hill Country or trips to Big Bend round out a genuinely excellent lifestyle."
+      "lifestyle": "A nice two-bedroom in the Cultural District or Ridglea Hills, regular dining along Magnolia Avenue and at Stockyards steakhouses, and TCU football tickets. A reliable truck or SUV with full coverage is covered. Weekend drives to the Hill Country or trips to Big Bend are affordable. No state income tax and moderate housing costs leave a healthy monthly margin."
     },
     "3M": {
       "monthlyBudget": 10000,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "Fort Worth at $10K/month is outstanding. A beautiful home in one of the city's historic neighborhoods, the best steaks and fine dining in Texas, premium access to sports and cultural events, and the satisfaction of knowing your money goes further here than almost any major metro. Fort Worth punches way above its weight."
+      "lifestyle": "A three-bedroom home in Rivercrest or Westover Hills, regular dinners at restaurants like Grace and Lonesome Dove, and premium TCU and Rangers tickets. A late-model truck or luxury SUV handles daily life. This is a genuinely affluent life by Fort Worth standards, with no state income tax and affordable housing leaving substantial room for travel and saving."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -150,7 +150,7 @@
         "description": "Ranch weekends, luxury travel, premium Western art collecting, philanthropic giving",
         "monthlyCost": 1500
       },
-      "lifestyle": "At this budget Fort Worth reveals its upper-crust side. A stately home in one of the city's old-money neighborhoods, memberships at Colonial or Shady Oaks, ranch weekends, and the kind of generous Texas hospitality that comes naturally when money is not a concern. Zero income tax amplifies every dollar."
+      "lifestyle": "A large home in Westover Hills or Rivercrest, a housekeeper who comes a couple of times a week, and a country club membership at Colonial or Shady Oaks. Regular fine dining, a nice truck and sedan, and business class flights for travel are all within budget. Weekend ranch getaways and concierge healthcare through Baylor Scott and White round things out. No state income tax makes every withdrawal go further."
     },
     "10M": {
       "monthlyBudget": 33333,
@@ -188,7 +188,7 @@
         "description": "Working ranch operations, first-class international travel, major art acquisitions, charitable foundations",
         "monthlyCost": 5000
       },
-      "lifestyle": "Fort Worth at the $10M tier is old Texas money come to life. A grand estate or working ranch, a private suite at Cowboys games, leadership roles in the city's cultural institutions, and the freedom to live out every Texas dream imaginable. With no state income tax, your portfolio works harder than almost anywhere in the country."
+      "lifestyle": "A large Rivercrest estate or a ranch property outside the city, full-time domestic help including a housekeeper and property manager, and a cook who comes in several times a week. First-class travel, premium suite tickets at AT&T Stadium, concierge healthcare, and multiple vehicles are all covered. No state income tax and Fort Worth's moderate costs mean this budget provides very comfortable, well-staffed living with large margins."
     }
   },
   "scores": {
