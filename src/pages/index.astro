@@ -65,13 +65,13 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   description="See exactly where in the world your investment portfolio can sustain your retirement. 100+ cities, real FIRE numbers, Monte Carlo analysis."
   jsonLd={[websiteLd, calcLd]}
 >
-  <!-- Hero: Two inputs only -->
+  <!-- Hero -->
   <section class="bg-brand-950 text-white py-16 md:py-24">
     <div class="container-narrow text-center">
       <h1 class="font-serif text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
         Where Can You Retire?
       </h1>
-      <p class="text-xl text-sand-300 max-w-2xl mx-auto mb-10">
+      <p class="text-xl text-sand-300 max-w-2xl mx-auto mb-12">
         Enter your portfolio. See where in the world you can retire. Understand what that life looks like.
       </p>
 
@@ -80,9 +80,51 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
         <p class="text-sm text-brand-300">Welcome back — we've saved your last portfolio value.</p>
       </div>
 
+      <!-- 1-2-3 Flow Indicator -->
+      <div class="max-w-2xl mx-auto mb-12">
+        <!-- Desktop -->
+        <div class="hidden sm:flex items-start justify-center">
+          <div class="flex flex-col items-center w-36">
+            <div class="step-circle w-14 h-14 rounded-full bg-brand-600/20 ring-2 ring-brand-400/50 flex items-center justify-center text-xl font-bold text-white">1</div>
+            <span class="text-xs font-medium text-sand-300 mt-2.5">Enter your portfolio</span>
+          </div>
+          <div class="flex-shrink-0 mt-7 w-12 flex items-center justify-center">
+            <svg class="w-5 h-5 text-brand-400/50" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" /></svg>
+          </div>
+          <div class="flex flex-col items-center w-36">
+            <div class="step-circle w-14 h-14 rounded-full bg-brand-600/20 ring-2 ring-brand-400/50 flex items-center justify-center text-xl font-bold text-white">2</div>
+            <span class="text-xs font-medium text-sand-300 mt-2.5">Choose your lifestyle</span>
+          </div>
+          <div class="flex-shrink-0 mt-7 w-12 flex items-center justify-center">
+            <svg class="w-5 h-5 text-brand-400/50" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" /></svg>
+          </div>
+          <div class="flex flex-col items-center w-36">
+            <div class="step-circle w-14 h-14 rounded-full bg-brand-600/20 ring-2 ring-brand-400/50 flex items-center justify-center text-xl font-bold text-white">3</div>
+            <span class="text-xs font-medium text-sand-300 mt-2.5">Explore results</span>
+          </div>
+        </div>
+        <!-- Mobile -->
+        <div class="flex sm:hidden flex-col items-center gap-1.5">
+          <div class="flex items-center gap-3">
+            <div class="step-circle w-11 h-11 rounded-full bg-brand-600/20 ring-2 ring-brand-400/50 flex items-center justify-center text-base font-bold text-white">1</div>
+            <span class="text-sm font-medium text-sand-300">Enter your portfolio</span>
+          </div>
+          <svg class="w-4 h-4 text-brand-400/40" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7" /></svg>
+          <div class="flex items-center gap-3">
+            <div class="step-circle w-11 h-11 rounded-full bg-brand-600/20 ring-2 ring-brand-400/50 flex items-center justify-center text-base font-bold text-white">2</div>
+            <span class="text-sm font-medium text-sand-300">Choose your lifestyle</span>
+          </div>
+          <svg class="w-4 h-4 text-brand-400/40" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7" /></svg>
+          <div class="flex items-center gap-3">
+            <div class="step-circle w-11 h-11 rounded-full bg-brand-600/20 ring-2 ring-brand-400/50 flex items-center justify-center text-base font-bold text-white">3</div>
+            <span class="text-sm font-medium text-sand-300">Explore results</span>
+          </div>
+        </div>
+      </div>
+
       <div class="max-w-xl mx-auto">
         <!-- Input 1: Portfolio Value -->
-        <div class="mb-6">
+        <div class="mb-8">
           <label for="portfolio-input" class="block text-lg font-semibold text-white mb-3">
             Your Portfolio Value
           </label>
@@ -110,15 +152,48 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
           </div>
         </div>
 
-        <!-- Optional projection inputs -->
-        <div class="mb-8 pt-5 border-t border-white/10">
-          <p class="text-xs font-medium text-sand-400 uppercase tracking-wider mb-4">Optional: refine your projections</p>
+        <!-- Input 2: Lifestyle Selector -->
+        <div class="mb-8">
+          <label class="block text-lg font-semibold text-white mb-3">
+            Your Lifestyle
+          </label>
+          <div class="grid grid-cols-3 gap-2">
+            {ALL_LIFESTYLE_TIERS.map((tier) => (
+              <button
+                type="button"
+                class:list={[
+                  'lifestyle-btn px-4 py-3 rounded-xl border text-center transition-all',
+                  tier === 'comfortable'
+                    ? 'bg-white/20 border-white/40 text-white'
+                    : 'bg-white/5 border-white/15 text-white/70 hover:bg-white/10 hover:text-white',
+                ]}
+                data-lifestyle={tier}
+              >
+                <div class="text-sm font-bold">{lifestyleLabels[tier]}</div>
+                <div class="text-[11px] mt-1 opacity-70">{lifestyleDescriptions[tier]}</div>
+              </button>
+            ))}
+          </div>
+        </div>
 
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <!-- Input 3: Optional inputs (collapsed by default) -->
+        <div class="mb-8">
+          <button
+            type="button"
+            id="optional-toggle"
+            class="flex items-center justify-center gap-2 w-full py-2 text-xs font-medium text-sand-400 hover:text-sand-200 transition-colors"
+          >
+            <span>Refine your projections (optional)</span>
+            <svg id="optional-chevron" xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+
+          <div id="optional-inputs" class="hidden mt-4 pt-4 border-t border-white/10 space-y-4">
             <!-- Annual Savings from Work -->
             <div>
               <label for="savings-input" class="block text-xs font-medium text-sand-300 mb-1.5">
-                Annual savings from work
+                Annual savings from work (optional)
               </label>
               <div class="relative">
                 <span class="absolute left-3 top-1/2 -translate-y-1/2 text-brand-300 text-sm font-bold">$</span>
@@ -138,7 +213,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
             <!-- Passive Income in Retirement -->
             <div>
               <label for="passive-input" class="block text-xs font-medium text-sand-300 mb-1.5">
-                Passive income in retirement
+                Passive income in retirement (optional)
                 <span class="relative group inline-block ml-1 cursor-help align-middle">
                   <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 text-sand-400 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -166,37 +241,13 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
           </div>
         </div>
 
-        <!-- Input 2: Lifestyle Selector -->
-        <div class="mb-8">
-          <label class="block text-lg font-semibold text-white mb-3">
-            Lifestyle Level
-          </label>
-          <div class="grid grid-cols-3 gap-2">
-            {ALL_LIFESTYLE_TIERS.map((tier) => (
-              <button
-                type="button"
-                class:list={[
-                  'lifestyle-btn px-4 py-3 rounded-xl border text-center transition-all',
-                  tier === 'comfortable'
-                    ? 'bg-white/20 border-white/40 text-white'
-                    : 'bg-white/5 border-white/15 text-white/70 hover:bg-white/10 hover:text-white',
-                ]}
-                data-lifestyle={tier}
-              >
-                <div class="text-sm font-bold">{lifestyleLabels[tier]}</div>
-                <div class="text-[11px] mt-1 opacity-70">{lifestyleDescriptions[tier]}</div>
-              </button>
-            ))}
-          </div>
-        </div>
-
-        <!-- CTA -->
+        <!-- CTA (Step 3) -->
         <button
           type="button"
           id="explore-btn"
-          class="w-full py-4 text-lg font-bold rounded-xl bg-white text-brand-950 hover:bg-sand-100 transition-colors"
+          class="w-full py-4 text-lg font-bold rounded-xl bg-brand-600 text-white hover:bg-brand-700 transition-colors"
         >
-          See Where I Can Retire
+          Explore Where I Can Retire →
         </button>
 
         <p class="mt-4 text-sm text-sand-400">
@@ -369,6 +420,9 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
 </Layout>
 
 <style>
+  .step-circle {
+    box-shadow: 0 0 20px rgba(0, 116, 197, 0.15);
+  }
   .filter-btn {
     color: #4b5563;
     background-color: white;
@@ -492,6 +546,28 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   const showMoreBtn = document.getElementById('show-more-btn');
   const showMoreCount = document.getElementById('show-more-count');
   const welcomeBack = document.getElementById('welcome-back');
+
+  // ─── Optional Toggle ───
+  const optionalToggle = document.getElementById('optional-toggle');
+  const optionalInputs = document.getElementById('optional-inputs');
+  const optionalChevron = document.getElementById('optional-chevron');
+
+  function setOptionalOpen(open) {
+    if (!optionalInputs || !optionalChevron) return;
+    if (open) {
+      optionalInputs.classList.remove('hidden');
+      optionalChevron.style.transform = 'rotate(180deg)';
+    } else {
+      optionalInputs.classList.add('hidden');
+      optionalChevron.style.transform = '';
+    }
+    try { localStorage.setItem('pa_optional_open', open ? '1' : '0'); } catch (e) {}
+  }
+
+  optionalToggle?.addEventListener('click', () => {
+    const isHidden = optionalInputs?.classList.contains('hidden');
+    setOptionalOpen(isHidden);
+  });
 
   // ─── Input Formatting ───
   portfolioInput.addEventListener('input', () => {
