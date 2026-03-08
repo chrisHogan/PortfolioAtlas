@@ -174,7 +174,7 @@
         "monthlyCost": 3500
       },
       "entertainment": {
-        "description": "Board seats at major cultural institutions, private art collection curation, front-row Met Gala tables, philanthropic galas, art patronage",
+        "description": "Board seats at major cultural institutions, private art collection curation, major philanthropic galas, art patronage",
         "monthlyCost": 3500
       },
       "utilities": {
@@ -188,7 +188,7 @@
         "description": "Hamptons estate maintenance, bespoke tailoring at Savile Row on trips, private art advisor, charitable foundation, interior designer on retainer",
         "monthlyCost": 4733
       },
-      "lifestyle": "At this level, you are New York. Your Central Park penthouse hosts the fundraisers that make Page Six, your art collection rivals small museums, and your name is synonymous with philanthropy and taste. The Met Gala, Art Basel, and Davos are your social calendar — and your Hamptons compound is where Manhattan's elite escape on your invitation."
+      "lifestyle": "At this level, you are New York. Your Central Park penthouse hosts the fundraisers that make Page Six, your art collection rivals small museums, and your name is synonymous with philanthropy and taste. Art Basel, charity galas, and Davos are your social calendar — and your Hamptons compound is where Manhattan's elite escape on your invitation."
     }
   },
   "scores": {

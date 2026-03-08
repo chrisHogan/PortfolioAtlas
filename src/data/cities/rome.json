@@ -91,7 +91,7 @@
         "monthlyCost": 2800
       },
       "dining": {
-        "description": "Fine dining at Michelin-starred restaurants regularly, daily espresso bar ritual, wine tastings",
+        "description": "Occasional fine dining at top restaurants, daily espresso bar ritual, wine tastings",
         "monthlyCost": 1000
       },
       "groceries": {

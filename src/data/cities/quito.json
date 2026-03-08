@@ -91,7 +91,7 @@
         "monthlyCost": 1800
       },
       "dining": {
-        "description": "Fine dining at top restaurants, private chef for weekly dinner parties, premium cocktail bars",
+        "description": "Fine dining at top restaurants, catered dinner parties occasionally, premium cocktail bars",
         "monthlyCost": 600
       },
       "groceries": {

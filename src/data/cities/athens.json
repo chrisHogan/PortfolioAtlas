@@ -91,7 +91,7 @@
         "monthlyCost": 2500
       },
       "dining": {
-        "description": "Fine dining at Michelin-starred Spondi and Varoulko, private island dining experiences, personal sommelier for Greek wine exploration",
+        "description": "Fine dining at Spondi and Varoulko, island dining excursions, guided Greek wine tastings",
         "monthlyCost": 1500
       },
       "groceries": {
@@ -106,13 +106,13 @@
         "monthlyCost": 350
       },
       "entertainment": {
-        "description": "Private yacht day trips to Saronic islands, VIP Epidaurus tickets, exclusive beach club memberships, art gallery circuit in Psyrri",
+        "description": "Chartered boat day trips to Saronic islands, VIP Epidaurus tickets, beach club memberships, art gallery circuit in Psyrri",
         "monthlyCost": 1000
       },
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "A commanding Athenian life with the ancient world at your feet — literally. Your penthouse terrace frames the Acropolis at golden hour, weekends mean private yacht trips to Aegina's pistachio groves, and your cultural calendar includes front-row seats at one of the world's oldest theaters. Civilized living at its original source."
+      "lifestyle": "A commanding Athenian life with the ancient world at your feet — literally. Your penthouse terrace frames the Acropolis at golden hour, weekends mean chartered boat trips to Aegina's pistachio groves, and your cultural calendar includes front-row seats at one of the world's oldest theaters. Civilized living at its original source."
     },
     "5M": {
       "monthlyBudget": 16667,

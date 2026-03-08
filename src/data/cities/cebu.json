@@ -91,7 +91,7 @@
         "monthlyCost": 1500
       },
       "dining": {
-        "description": "Fine dining at Cebu's best restaurants, private island seafood feasts, Japanese omakase, personal chef for weekly gatherings",
+        "description": "Fine dining at Cebu's best restaurants, private island seafood feasts, Japanese omakase, catered gatherings",
         "monthlyCost": 1100
       },
       "groceries": {
@@ -106,7 +106,7 @@
         "monthlyCost": 400
       },
       "entertainment": {
-        "description": "Premium dive resort packages, private island day trips, yacht charters, golf at Alta Vista, spa retreats, cultural festival VIP experiences",
+        "description": "Premium dive resort packages, private island day trips, boat charters, golf at Alta Vista, spa retreats, cultural festival VIP experiences",
         "monthlyCost": 900
       },
       "utilities": {

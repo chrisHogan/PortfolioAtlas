@@ -91,7 +91,7 @@
         "monthlyCost": 2800
       },
       "dining": {
-        "description": "Fine dining at La Degustation, Field, and other Michelin-starred restaurants; wine bars",
+        "description": "Fine dining at La Degustation and Field, wine bars and tasting events",
         "monthlyCost": 800
       },
       "groceries": {
@@ -121,7 +121,7 @@
         "monthlyCost": 4500
       },
       "dining": {
-        "description": "Private chef plus Michelin-starred dining; exclusive wine cellar experiences",
+        "description": "Private chef for regular entertaining; exclusive wine cellar experiences",
         "monthlyCost": 1200
       },
       "groceries": {

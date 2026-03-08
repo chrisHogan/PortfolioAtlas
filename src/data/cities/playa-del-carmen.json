@@ -87,11 +87,11 @@
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Luxury 2-3BR penthouse in beachfront complex with private rooftop plunge pool and ocean views",
+        "description": "Luxury 2-3BR condo in beachfront complex with rooftop pool access and ocean views",
         "monthlyCost": 3000
       },
       "dining": {
-        "description": "Fine dining at Playa's best restaurants nightly, beach club lunches, private chef occasionally",
+        "description": "Fine dining at Playa's best restaurants, beach club lunches, catered dinner parties occasionally",
         "monthlyCost": 1300
       },
       "groceries": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "Your penthouse rooftop has its own plunge pool overlooking the Caribbean — the kind of view people pay $500/night for at resorts. You split days between beach clubs, diving excursions, and leisurely long lunches. A private guide takes you to hidden cenotes the tourists never find. This is the Riviera Maya at its absolute best, with the freedom to say yes to every adventure that presents itself."
+      "lifestyle": "Your condo's rooftop pool overlooks the Caribbean — the kind of view people pay $500/night for at resorts. You split days between beach clubs, diving excursions, and leisurely long lunches. A private guide takes you to hidden cenotes the tourists never find. This is the Riviera Maya at its absolute best, with the freedom to say yes to every adventure that presents itself."
     },
     "5M": {
       "monthlyBudget": 16667,

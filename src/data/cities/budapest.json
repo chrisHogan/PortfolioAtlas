@@ -91,7 +91,7 @@
         "monthlyCost": 2200
       },
       "dining": {
-        "description": "Fine dining at Michelin-starred Costes and Onyx, private Tokaj wine tastings, personal chef for weekly Hungarian feasts",
+        "description": "Fine dining at Costes and Onyx, private Tokaj wine tastings, hosted dinner parties with Hungarian feasts",
         "monthlyCost": 1400
       },
       "groceries": {
@@ -106,7 +106,7 @@
         "monthlyCost": 300
       },
       "entertainment": {
-        "description": "Private thermal bath sessions, VIP Opera box, Danube yacht evenings, art gallery circuit in the Palace District, sailing on Lake Balaton",
+        "description": "Private thermal bath sessions, VIP Opera box, Danube river cruise evenings, art gallery circuit in the Palace District, sailing on Lake Balaton",
         "monthlyCost": 800
       },
       "utilities": {
