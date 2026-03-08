@@ -1,6 +1,7 @@
 ---
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import FeedbackButton from '../components/FeedbackButton.astro';
 import '../styles/global.css';
 interface Props {
   title: string;
@@ -74,5 +75,6 @@ const jsonLdScripts = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
       <slot />
     </main>
     <Footer />
+    <FeedbackButton />
   </body>
 </html>

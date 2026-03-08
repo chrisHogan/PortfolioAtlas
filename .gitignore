@@ -4,10 +4,13 @@ node_modules/
 # Build output
 dist/
 .astro/
+.vercel/
 
 # Environment variables
 .env
-.env.*
+.env.local
+.env.production
+!.env.example
 
 # OS files
 .DS_Store
