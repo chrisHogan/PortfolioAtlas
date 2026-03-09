@@ -236,6 +236,52 @@ export function getCityDisplayTags(city: CityData): CityDisplayTags {
   };
 }
 
+// --- Portfolio Fit ---
+
+export type PortfolioFitTier = 'perfect_fit' | 'within_reach' | 'over_resourced' | 'not_affordable';
+
+/** Determine how well a portfolio fits a city's FIRE Number */
+export function getPortfolioFit(portfolioValue: number, cityFireNumber: number): PortfolioFitTier {
+  if (cityFireNumber <= 0) return 'over_resourced';
+  const ratio = portfolioValue / cityFireNumber;
+  if (ratio < 1) return 'not_affordable';
+  if (ratio <= 2.5) return 'perfect_fit';
+  if (ratio <= 5) return 'within_reach';
+  return 'over_resourced';
+}
+
+/** Unlock thresholds for premium cities — portfolio must exceed this for "Now in range" boost */
+export const PREMIUM_UNLOCK_THRESHOLDS: Record<string, number> = {
+  // $3M+ tier
+  'tokyo': 3_000_000,
+  'dubai': 3_000_000,
+  'singapore': 3_000_000,
+  'sydney': 3_000_000,
+  'hong-kong': 3_000_000,
+  'honolulu': 3_000_000,
+  // $2M+ tier
+  'paris': 2_000_000,
+  'amsterdam': 2_000_000,
+  'london': 2_000_000,
+  'new-york': 2_000_000,
+  'san-francisco': 2_000_000,
+  'boston': 2_000_000,
+  'los-angeles': 2_000_000,
+  'nice': 2_000_000,
+  'edinburgh': 2_000_000,
+  'rome': 2_000_000,
+  'barcelona': 2_000_000,
+  'auckland': 2_000_000,
+  'melbourne': 2_000_000,
+  'seoul': 2_000_000,
+  'taipei': 2_000_000,
+  'miami': 2_000_000,
+  'washington-dc': 2_000_000,
+  'seattle': 2_000_000,
+  'san-diego': 2_000_000,
+};
+
+
 /** Get tag pill color classes */
 export function getTagColor(category: string, value: string): string {
   switch (category) {

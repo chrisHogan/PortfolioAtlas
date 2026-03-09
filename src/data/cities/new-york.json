@@ -12,7 +12,7 @@
     "english": "high"
   },
   "quickFacts": {
-    "visa": "No visa required for US citizens. Note: New York has state and city income taxes, which reduce FIRE portfolio efficiency compared to no-tax states.",
+    "visa": "No visa required for US citizens",
     "timezone": "UTC-5 (EST) / UTC-4 (EDT summer)",
     "language": "English",
     "internetSpeed": "300-1000 Mbps fiber available via Verizon Fios and Spectrum",
@@ -21,7 +21,7 @@
     "climate": "Humid continental with cold winters (-3 to 4°C), hot humid summers (24-30°C), and beautiful spring/fall seasons. Four distinct seasons.",
     "englishFriendly": "High",
     "currency": "USD",
-    "averageTemp": "13°C / 55°F"
+    "averageTemp": "55°F / 13°C"
   },
   "tiers": {
     "1M": {

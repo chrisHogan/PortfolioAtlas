@@ -31,6 +31,8 @@ const tagPills = [
   { label: tags.english, category: 'english' },
   { label: tags.visa !== 'Moderate' ? `Visa: ${tags.visa}` : '', category: 'visa' },
 ].filter(t => t.label);
+
+const tagTooltips: Record<string, string> = { climate: 'Climate', safety: 'Safety rating', english: 'English proficiency', visa: 'Visa ease' };
 ---
 
 <a href={`/cities/${city.slug}`} class="city-card block group" data-fire-number={fireNumber}>
@@ -76,7 +78,7 @@ const tagPills = [
     <!-- Tags -->
     <div class="flex flex-wrap gap-1.5 mb-3">
       {tagPills.slice(0, 4).map(({ label, category }) => (
-        <span class:list={['text-[10px] font-medium px-2 py-0.5 rounded-full', getTagColor(category, label)]}>
+        <span title={`${tagTooltips[category] || category}: ${label}`} class:list={['text-[10px] font-medium px-2 py-0.5 rounded-full', getTagColor(category, label)]}>
           {label}
         </span>
       ))}

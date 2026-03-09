@@ -11,6 +11,7 @@ import {
   LIFESTYLE_LABELS,
   LIFESTYLE_DESCRIPTIONS,
   ALL_LIFESTYLE_TIERS,
+  PREMIUM_UNLOCK_THRESHOLDS,
 } from '../data/fireNumber';
 import type { LifestyleTier } from '../data/fireNumber';
 
@@ -33,6 +34,7 @@ const cityData = allCities.map((city) => {
     fireScore: city.fireScore,
     tags,
     tiers,
+    unlockThreshold: PREMIUM_UNLOCK_THRESHOLDS[city.slug] || 0,
   };
 });
 
@@ -318,9 +320,9 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
       </div>
     </div>
 
-    <!-- City Grid -->
+    <!-- City Sections -->
     <div class="container-wide pb-16">
-      <div id="city-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4"></div>
+      <div id="city-sections"></div>
       <div id="no-cities" class="hidden py-12 text-center">
         <p class="text-gray-500 font-semibold mb-2">No cities match your criteria</p>
         <p class="text-sm text-gray-400">Try adjusting your filters or increasing your portfolio.</p>
@@ -539,7 +541,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   const exploreBtn = document.getElementById('explore-btn');
   const resultsSection = document.getElementById('results-section');
   const fallbackSection = document.getElementById('fallback-section');
-  const cityGrid = document.getElementById('city-grid');
+  const citySections = document.getElementById('city-sections');
   const noCities = document.getElementById('no-cities');
   const summaryEl = document.getElementById('results-summary');
   const showMoreWrap = document.getElementById('show-more-wrap');
@@ -785,14 +787,105 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     return true;
   }
 
+  // ─── Portfolio Fit ───
+  function getPortfolioFit(portfolioValue, cityFireNumber) {
+    if (cityFireNumber <= 0) return 'over_resourced';
+    const ratio = portfolioValue / cityFireNumber;
+    if (ratio < 1) return 'not_affordable';
+    if (ratio <= 2.5) return 'perfect_fit';
+    if (ratio <= 5) return 'within_reach';
+    return 'over_resourced';
+  }
+
+  // ─── Region summary helper ───
+  function getRegionSummary(cities) {
+    const regionCounts = {};
+    cities.forEach((c) => { regionCounts[c.region] = (regionCounts[c.region] || 0) + 1; });
+    const sorted = Object.entries(regionCounts).sort((a, b) => b[1] - a[1]);
+    const topRegions = sorted.slice(0, 3).map(([r]) => r);
+    return topRegions.length > 0 ? topRegions.join(', ') : 'various regions';
+  }
+
+  // ─── Build city card HTML ───
+  function buildCardHTML(city) {
+    const tagPills = [
+      { label: city.tags.climate, cat: 'climate' },
+      { label: city.tags.safety, cat: 'safety' },
+      { label: city.tags.english, cat: 'english' },
+    ].filter((t) => t.label).slice(0, 3);
+
+    const tagTooltips = { climate: 'Climate', safety: 'Safety rating', english: 'English proficiency', visa: 'Visa ease' };
+    const tagHTML = tagPills.map((t) =>
+      `<span title="${tagTooltips[t.cat] || t.cat}: ${t.label}" class="text-[10px] font-medium px-2 py-0.5 rounded-full ${getTagColorClient(t.cat, t.label)}">${t.label}</span>`
+    ).join('');
+
+    const years = !city.affordable && annualSavings > 0 ? yearsUntilAffordable(portfolio, city.fireNumber, annualSavings) : null;
+    const yearsProjection = getYearsHTML(years);
+
+    let signalHTML;
+    if (city.fullyCovered) {
+      signalHTML = '<div class="flex items-center gap-1.5 mt-1"><svg class="w-4 h-4 text-emerald-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-sm font-semibold text-emerald-600">Fully covered by passive income</span></div>';
+    } else if (city.fitTier === 'over_resourced') {
+      signalHTML = '<div class="flex items-center gap-1.5 mt-1"><svg class="w-4 h-4 text-gray-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-sm font-medium text-gray-400">Easily affordable</span></div>';
+    } else if (city.affordable) {
+      signalHTML = '<div class="flex items-center gap-1.5 mt-1"><svg class="w-4 h-4 text-emerald-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-sm font-semibold text-emerald-600">You can retire here</span></div>';
+    } else {
+      signalHTML = `<p class="text-sm text-gray-500 mt-1">Need ${fmtCompact(Math.abs(city.gap))} more</p>${yearsProjection}`;
+    }
+
+    // Fit label
+    let fitLabelHTML = '';
+    if (city.fitTier === 'within_reach') {
+      fitLabelHTML = '<span class="text-[10px] font-medium px-2 py-0.5 rounded-full bg-blue-50 text-blue-600">Well within your means</span>';
+    }
+
+    // "Now in range" indicator for premium unlock cities
+    let unlockHTML = '';
+    if (city.justUnlocked) {
+      unlockHTML = '<span class="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-violet-50 text-violet-600 border border-violet-200">Now in range</span>';
+    }
+
+    const isOverResourced = city.fitTier === 'over_resourced';
+    const barColor = isOverResourced ? 'from-gray-300 to-gray-400' : (city.affordable ? 'from-emerald-400 to-emerald-500' : 'from-brand-500 to-brand-600');
+    const cardOpacity = isOverResourced ? 'opacity-70' : '';
+
+    return `<a href="/cities/${city.slug}" class="city-card block group ${cardOpacity}">
+      <div class="h-2 bg-gradient-to-r ${barColor}"></div>
+      <div class="p-5">
+        <div class="flex items-start justify-between mb-3">
+          <div class="flex items-center gap-2">
+            <span class="text-2xl">${city.emoji}</span>
+            <div>
+              <h3 class="font-serif font-bold text-lg text-brand-950 group-hover:text-brand-600 transition-colors">${city.name}</h3>
+              <p class="text-sm text-gray-500">${city.country}</p>
+            </div>
+          </div>
+          <div class="fire-score w-10 h-10 text-sm ${getScoreClass(city.fireScore)}">${city.fireScore.toFixed(1)}</div>
+        </div>
+        <div class="mb-3">
+          <div class="flex items-baseline justify-between">
+            <span class="text-xs text-gray-500">FIRE Number</span>
+            <span class="text-lg font-bold text-brand-700">${fmtCompact(city.fireNumber)}</span>
+          </div>
+          ${signalHTML}
+        </div>
+        <div class="flex flex-wrap gap-1.5 mb-3">${tagHTML} ${fitLabelHTML} ${unlockHTML}</div>
+        <div class="flex items-center justify-between pt-3 border-t border-sand-100">
+          <p class="text-xs text-gray-400">From ${fmt(city.monthlyCost)}/mo</p>
+          <span class="text-xs font-medium text-brand-600 bg-brand-50 px-3 py-1 rounded-full">${city.region}</span>
+        </div>
+      </div>
+    </a>`;
+  }
+
   // ─── Render Results ───
   function renderResults() {
     fallbackSection?.classList.add('hidden');
     resultsSection?.classList.remove('hidden');
     document.getElementById('reverse-flow')?.classList.add('hidden');
 
-    // Compute and sort cities
-    const sorted = cityData
+    // Compute cities with fit data
+    const allComputed = cityData
       .filter(passesFilters)
       .map((city) => {
         const tierData = city.tiers[lifestyle];
@@ -802,94 +895,174 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
         const fullyCovered = passiveIncome > 0 && fireNumber === 0;
         const affordable = portfolio >= fireNumber;
         const gap = portfolio - fireNumber;
-        return { ...city, fireNumber, monthlyCost, affordable, gap, fullyCovered };
-      })
-      .sort((a, b) => {
-        // Affordable first, then by FIRE score
-        if (a.affordable !== b.affordable) return a.affordable ? -1 : 1;
-        // Within affordable: by FIRE score desc
-        // Within unaffordable: by gap (closest to affordable first)
-        if (a.affordable) return b.fireScore - a.fireScore;
-        return b.gap - a.gap; // gap is negative, so larger (less negative) = closer
+        const fitTier = fullyCovered ? 'over_resourced' : getPortfolioFit(portfolio, fireNumber);
+        // "Now in range" — portfolio just crossed unlock threshold AND city is perfect_fit or within_reach
+        const justUnlocked = city.unlockThreshold > 0 && portfolio >= city.unlockThreshold && fitTier === 'perfect_fit';
+        return { ...city, fireNumber, monthlyCost, affordable, gap, fullyCovered, fitTier, justUnlocked };
       });
 
-    const affordableCount = sorted.filter((c) => c.affordable).length;
+    // Bucket into sections
+    const sweetSpot = allComputed.filter((c) => c.fitTier === 'perfect_fit');
+    const withinReach = allComputed.filter((c) => c.fitTier === 'within_reach');
+    const stretchGoals = allComputed.filter((c) => c.fitTier === 'not_affordable');
+    const overResourced = allComputed.filter((c) => c.fitTier === 'over_resourced');
+
+    // Sort within each bucket
+    // Sweet spot: "just unlocked" premium cities first, then by fire score
+    sweetSpot.sort((a, b) => {
+      if (a.justUnlocked !== b.justUnlocked) return a.justUnlocked ? -1 : 1;
+      return b.fireScore - a.fireScore;
+    });
+    withinReach.sort((a, b) => b.fireScore - a.fireScore);
+    stretchGoals.sort((a, b) => b.gap - a.gap); // closest to affordable first
+    overResourced.sort((a, b) => b.fireScore - a.fireScore);
+
+    const totalFiltered = allComputed.length;
+
     const lifestyleLabelMap = { budget: 'Lean FIRE', comfortable: 'FIRE', luxury: 'Fat FIRE' };
     const lifestyleLabel = lifestyleLabelMap[lifestyle] || lifestyle;
 
-    // Update summary
+    // Update summary with portfolio-aware framing
     if (summaryEl) {
-      summaryEl.innerHTML = `Your <strong>${fmtPortfolio(portfolio)}</strong> portfolio unlocks a <strong>${lifestyleLabel}</strong> lifestyle in <strong>${affordableCount}</strong> top FIRE ${affordableCount === 1 ? 'city' : 'cities'} worldwide.`;
+      if (sweetSpot.length > 0) {
+        const regionHint = getRegionSummary(sweetSpot);
+        summaryEl.innerHTML = `<strong>${fmtPortfolio(portfolio)}</strong> portfolio: <strong>${sweetSpot.length}</strong> ${sweetSpot.length === 1 ? 'city' : 'cities'} perfectly matched for <strong>${lifestyleLabel}</strong>, including ${regionHint}`;
+      } else if (withinReach.length > 0) {
+        summaryEl.innerHTML = `Your <strong>${fmtPortfolio(portfolio)}</strong> portfolio easily covers <strong>${withinReach.length}</strong> ${lifestyleLabel} ${withinReach.length === 1 ? 'city' : 'cities'} — consider a higher lifestyle tier`;
+      } else if (stretchGoals.length > 0) {
+        summaryEl.innerHTML = `Your <strong>${fmtPortfolio(portfolio)}</strong> portfolio isn't quite there yet for <strong>${lifestyleLabel}</strong> — <strong>${stretchGoals.length}</strong> ${stretchGoals.length === 1 ? 'city is' : 'cities are'} within reach as you save more`;
+      } else {
+        summaryEl.innerHTML = `Your <strong>${fmtPortfolio(portfolio)}</strong> portfolio at <strong>${lifestyleLabel}</strong>`;
+      }
     }
 
-    // Render cards
-    const toShow = sorted.slice(0, visibleCount);
-
-    if (sorted.length === 0) {
-      cityGrid.innerHTML = '';
+    if (totalFiltered === 0) {
+      citySections.innerHTML = '';
       noCities?.classList.remove('hidden');
-    } else {
-      noCities?.classList.add('hidden');
-      cityGrid.innerHTML = toShow.map((city) => {
-        const tagPills = [
-          { label: city.tags.climate, cat: 'climate' },
-          { label: city.tags.safety, cat: 'safety' },
-          { label: city.tags.english, cat: 'english' },
-        ].filter((t) => t.label).slice(0, 3);
-
-        const tagHTML = tagPills.map((t) =>
-          `<span class="text-[10px] font-medium px-2 py-0.5 rounded-full ${getTagColorClient(t.cat, t.label)}">${t.label}</span>`
-        ).join('');
-
-        const years = !city.affordable && annualSavings > 0 ? yearsUntilAffordable(portfolio, city.fireNumber, annualSavings) : null;
-        const yearsProjection = getYearsHTML(years);
-
-        let signalHTML;
-        if (city.fullyCovered) {
-          signalHTML = '<div class="flex items-center gap-1.5 mt-1"><svg class="w-4 h-4 text-emerald-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-sm font-semibold text-emerald-600">Fully covered by passive income</span></div>';
-        } else if (city.affordable) {
-          signalHTML = '<div class="flex items-center gap-1.5 mt-1"><svg class="w-4 h-4 text-emerald-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-sm font-semibold text-emerald-600">You can retire here</span></div>';
-        } else {
-          signalHTML = `<p class="text-sm text-gray-500 mt-1">Need ${fmtCompact(Math.abs(city.gap))} more</p>${yearsProjection}`;
-        }
-
-        const barColor = city.affordable ? 'from-emerald-400 to-emerald-500' : 'from-brand-500 to-brand-600';
-
-        return `<a href="/cities/${city.slug}" class="city-card block group">
-          <div class="h-2 bg-gradient-to-r ${barColor}"></div>
-          <div class="p-5">
-            <div class="flex items-start justify-between mb-3">
-              <div class="flex items-center gap-2">
-                <span class="text-2xl">${city.emoji}</span>
-                <div>
-                  <h3 class="font-serif font-bold text-lg text-brand-950 group-hover:text-brand-600 transition-colors">${city.name}</h3>
-                  <p class="text-sm text-gray-500">${city.country}</p>
-                </div>
-              </div>
-              <div class="fire-score w-10 h-10 text-sm ${getScoreClass(city.fireScore)}">${city.fireScore.toFixed(1)}</div>
-            </div>
-            <div class="mb-3">
-              <div class="flex items-baseline justify-between">
-                <span class="text-xs text-gray-500">FIRE Number</span>
-                <span class="text-lg font-bold text-brand-700">${fmtCompact(city.fireNumber)}</span>
-              </div>
-              ${signalHTML}
-            </div>
-            <div class="flex flex-wrap gap-1.5 mb-3">${tagHTML}</div>
-            <div class="flex items-center justify-between pt-3 border-t border-sand-100">
-              <p class="text-xs text-gray-400">From ${fmt(city.monthlyCost)}/mo</p>
-              <span class="text-xs font-medium text-brand-600 bg-brand-50 px-3 py-1 rounded-full">${city.region}</span>
-            </div>
-          </div>
-        </a>`;
-      }).join('');
+      showMoreWrap?.classList.add('hidden');
+      updateURL();
+      return;
     }
+    noCities?.classList.add('hidden');
+
+    // Allocate visible slots per section
+    // Each non-empty section gets at least 4 cards so all section headers are visible on load
+    const sectionDefs = [
+      { key: 'perfect_fit', items: sweetSpot },
+      { key: 'within_reach', items: withinReach },
+      { key: 'not_affordable', items: stretchGoals },
+    ].filter((s) => s.items.length > 0);
+
+    const MIN_PER_SECTION = 4;
+    const sectionLimits = {};
+
+    // Pass 1: give each section min(MIN, available items)
+    let used = 0;
+    for (const s of sectionDefs) {
+      sectionLimits[s.key] = Math.min(MIN_PER_SECTION, s.items.length);
+      used += sectionLimits[s.key];
+    }
+
+    // Pass 2: distribute remaining budget in priority order
+    let remaining = Math.max(0, visibleCount - used);
+    for (const s of sectionDefs) {
+      if (remaining <= 0) break;
+      const canGive = s.items.length - sectionLimits[s.key];
+      const give = Math.min(canGive, remaining);
+      sectionLimits[s.key] += give;
+      remaining -= give;
+    }
+
+    const ssVisible = sweetSpot.slice(0, sectionLimits['perfect_fit'] || 0);
+    const wrVisible = withinReach.slice(0, sectionLimits['within_reach'] || 0);
+    const sgVisible = stretchGoals.slice(0, sectionLimits['not_affordable'] || 0);
+    const totalShown = ssVisible.length + wrVisible.length + sgVisible.length;
+
+    // Build sections HTML
+    let html = '';
+
+    // Section: Sweet spot
+    if (ssVisible.length > 0) {
+      html += `<div class="mb-8">
+        <div class="flex items-center gap-3 mb-4">
+          <h2 class="font-serif text-xl font-bold text-brand-950">Your sweet spot</h2>
+          <span class="text-xs font-medium text-gray-400">${sweetSpot.length} ${sweetSpot.length === 1 ? 'city' : 'cities'}</span>
+        </div>
+        <p class="text-sm text-gray-500 mb-4">Cities where your portfolio is the right size — enough to retire comfortably with a healthy buffer.</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+          ${ssVisible.map(buildCardHTML).join('')}
+        </div>
+      </div>`;
+    }
+
+    // Section: Also within reach
+    if (wrVisible.length > 0) {
+      html += `<div class="mb-8">
+        <div class="flex items-center gap-3 mb-4">
+          <h2 class="font-serif text-xl font-bold text-brand-950">Also within reach</h2>
+          <span class="text-xs font-medium text-gray-400">${withinReach.length} ${withinReach.length === 1 ? 'city' : 'cities'}</span>
+        </div>
+        <p class="text-sm text-gray-500 mb-4">Affordable, but your portfolio exceeds what you'd need here. Consider a higher lifestyle tier.</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+          ${wrVisible.map(buildCardHTML).join('')}
+        </div>
+      </div>`;
+    }
+
+    // Section: Stretch goals
+    if (sgVisible.length > 0) {
+      html += `<div class="mb-8">
+        <div class="flex items-center gap-3 mb-4">
+          <h2 class="font-serif text-xl font-bold text-brand-950">Stretch goals</h2>
+          <span class="text-xs font-medium text-gray-400">${stretchGoals.length} ${stretchGoals.length === 1 ? 'city' : 'cities'}</span>
+        </div>
+        <p class="text-sm text-gray-500 mb-4">Not yet affordable — but within reach as your portfolio grows.</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+          ${sgVisible.map(buildCardHTML).join('')}
+        </div>
+      </div>`;
+    }
+
+    // Section: Over-resourced (collapsed)
+    if (overResourced.length > 0) {
+      html += `<div class="mb-8">
+        <button id="over-resourced-toggle" type="button" class="flex items-center gap-2 text-sm font-medium text-gray-400 hover:text-gray-600 transition-colors py-3">
+          <svg id="over-resourced-chevron" xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+          Show ${overResourced.length} budget-friendly ${overResourced.length === 1 ? 'option' : 'options'} below your wealth level
+        </button>
+        <div id="over-resourced-grid" class="hidden mt-4">
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+            ${overResourced.map(buildCardHTML).join('')}
+          </div>
+        </div>
+      </div>`;
+    }
+
+    citySections.innerHTML = html;
+
+    // Wire up over-resourced toggle
+    const orToggle = document.getElementById('over-resourced-toggle');
+    const orGrid = document.getElementById('over-resourced-grid');
+    const orChevron = document.getElementById('over-resourced-chevron');
+    orToggle?.addEventListener('click', () => {
+      const isHidden = orGrid?.classList.contains('hidden');
+      if (isHidden) {
+        orGrid?.classList.remove('hidden');
+        if (orChevron) orChevron.style.transform = 'rotate(90deg)';
+      } else {
+        orGrid?.classList.add('hidden');
+        if (orChevron) orChevron.style.transform = '';
+      }
+    });
 
     // Show more button
+    const totalMain = sweetSpot.length + withinReach.length + stretchGoals.length;
     if (showMoreWrap && showMoreCount) {
-      if (visibleCount < sorted.length) {
+      if (totalShown < totalMain) {
         showMoreWrap.classList.remove('hidden');
-        showMoreCount.textContent = `Showing ${toShow.length} of ${sorted.length} cities`;
+        showMoreCount.textContent = `Showing ${totalShown} of ${totalMain} cities`;
       } else {
         showMoreWrap.classList.add('hidden');
       }

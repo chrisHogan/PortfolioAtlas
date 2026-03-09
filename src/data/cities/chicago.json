@@ -12,7 +12,7 @@
     "english": "high"
   },
   "quickFacts": {
-    "visa": "No visa required for US citizens. Illinois has a flat 4.95% state income tax — moderate compared to coastal states.",
+    "visa": "No visa required for US citizens",
     "timezone": "UTC-6 (CST) / UTC-5 (CDT summer)",
     "language": "English",
     "internetSpeed": "200-1000 Mbps fiber available via AT&T and Xfinity",
@@ -21,7 +21,7 @@
     "climate": "Humid continental with frigid winters (-10 to -1°C) and warm, humid summers (22-30°C). Lake effect moderates temperatures near the shore. Spectacular fall foliage.",
     "englishFriendly": "High",
     "currency": "USD",
-    "averageTemp": "10°C / 50°F"
+    "averageTemp": "50°F / 10°C"
   },
   "tiers": {
     "1M": {

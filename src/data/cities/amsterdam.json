@@ -12,7 +12,7 @@
     "english": "high"
   },
   "quickFacts": {
-    "visa": "Non-EU citizens need a residence permit. Options include the DAFT treaty (US citizens), orientation year visa, or highly skilled migrant visa. No specific retiree visa.",
+    "visa": "90-day Schengen visa-free for US citizens. DAFT treaty allows US citizens to obtain self-employed residency. No dedicated retirement visa — most retirees use tourist visa renewals or the orientation year permit.",
     "timezone": "CET (UTC+1) / CEST (UTC+2 summer)",
     "language": "Dutch",
     "internetSpeed": "200-1000 Mbps fiber widely available",
@@ -21,7 +21,7 @@
     "climate": "Maritime temperate with cool summers (17-22°C) and cold, damp winters (1-6°C). Frequent wind, cloud cover, and rain year-round.",
     "englishFriendly": "High",
     "currency": "Euro (EUR)",
-    "averageTemp": "10°C / 50°F"
+    "averageTemp": "50°F / 10°C"
   },
   "tiers": {
     "1M": {

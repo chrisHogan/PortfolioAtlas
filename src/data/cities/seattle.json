@@ -12,7 +12,7 @@
     "english": "high"
   },
   "quickFacts": {
-    "visa": "No visa required for US citizens. No state income tax — significant advantage for FIRE retirees drawing from investment portfolios.",
+    "visa": "No visa required for US citizens",
     "timezone": "UTC-8 (PST) / UTC-7 (PDT summer)",
     "language": "English",
     "internetSpeed": "200-1000 Mbps fiber widely available via CenturyLink and Xfinity",
@@ -21,7 +21,7 @@
     "climate": "Oceanic with mild, wet winters (3-8°C) and dry, warm summers (18-27°C). Overcast 200+ days per year but less total rainfall than many East Coast cities.",
     "englishFriendly": "High",
     "currency": "USD",
-    "averageTemp": "11°C / 52°F"
+    "averageTemp": "52°F / 11°C"
   },
   "tiers": {
     "1M": {

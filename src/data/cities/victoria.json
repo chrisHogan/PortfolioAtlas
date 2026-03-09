@@ -12,7 +12,7 @@
     "english": "high"
   },
   "quickFacts": {
-    "visa": "Canadian citizens: no visa. Others: Express Entry, Provincial Nominee Program (BC PNP), or visitor permits for stays under 6 months",
+    "visa": "No visa required for Canadian citizens. Others: Super Visa (for parents/grandparents, up to 5 years) or Visitor Record extensions. No dedicated retirement visa — Canada lacks a retiree-specific immigration pathway.",
     "timezone": "PST (UTC-8) / PDT (UTC-7 summer)",
     "language": "English",
     "internetSpeed": "100-300 Mbps widely available",
@@ -21,7 +21,7 @@
     "climate": "Mild maritime Mediterranean with warm, dry summers and cool, rainy winters. Rarely drops below freezing. Canada's mildest city.",
     "englishFriendly": "High",
     "currency": "Canadian Dollar (CAD)",
-    "averageTemp": "11°C / 51°F"
+    "averageTemp": "51°F / 11°C"
   },
   "tiers": {
     "1M": {
