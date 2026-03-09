@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR apartment in a central neighborhood like East Riverside or North Loop",
-        "monthlyCost": 1600
+        "monthlyCost": 2075
       },
       "dining": {
         "description": "Taco trucks and casual eateries 2-3x/week; mostly cooking at home",
-        "monthlyCost": 250
+        "monthlyCost": 325
       },
       "groceries": {
-        "monthlyCost": 400
+        "monthlyCost": 525
       },
       "healthcare": {
         "description": "ACA marketplace Silver plan; Texas has no state exchange so costs run higher",
-        "monthlyCost": 550
+        "monthlyCost": 700
       },
       "transportation": {
         "description": "Older paid-off car with insurance, gas, and basic maintenance",
-        "monthlyCost": 280
+        "monthlyCost": 350
       },
       "entertainment": {
         "description": "Free live music on 6th Street, Barton Springs, parks; occasional concert ticket",
-        "monthlyCost": 100
+        "monthlyCost": 125
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 200
       },
       "lifestyle": "A one-bedroom apartment in East Riverside or North Loop. You need a car, and summer electric bills spike from A/C, which squeezes the budget. You cook most meals and eat at taco trucks a few times a week. The major advantage is Texas's zero state income tax -- every dollar of your $3,333 withdrawal stays with you. Free live music on 6th Street and swimming at Barton Springs keep entertainment costs low."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Nice 2BR apartment in South Lamar, Mueller, or a condo in East Austin",
-        "monthlyCost": 2200
+        "monthlyCost": 2675
       },
       "dining": {
         "description": "Dining out 3-4x/week at mid-range restaurants; weekend brunch culture",
-        "monthlyCost": 600
+        "monthlyCost": 725
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 600
       },
       "healthcare": {
         "description": "ACA Gold plan with lower deductibles; dental and vision add-ons",
-        "monthlyCost": 650
+        "monthlyCost": 800
       },
       "transportation": {
         "description": "Reliable mid-range car, full coverage insurance, gas and upkeep",
-        "monthlyCost": 400
+        "monthlyCost": 500
       },
       "entertainment": {
         "description": "ACL and SXSW tickets, paddle boarding on Lady Bird Lake, gym membership",
-        "monthlyCost": 300
+        "monthlyCost": 375
       },
       "utilities": {
-        "monthlyCost": 180
+        "monthlyCost": 225
       },
       "lifestyle": "A nice two-bedroom in South Lamar, Mueller, or East Austin. You eat out several times a week at mid-range restaurants, attend live music shows regularly, and drive a reliable car for Hill Country weekends. No state income tax means the full $6,667 budget goes toward living expenses. You can afford ACL or SXSW tickets, a gym membership, and paddle boarding on Lady Bird Lake. Healthcare coverage is solid without constant worry."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "3BR house in Travis Heights, Zilker, or a modern condo downtown",
-        "monthlyCost": 3200
+        "monthlyCost": 3450
       },
       "dining": {
         "description": "Regular dining at top Austin restaurants like Uchi, Emmer & Rye; daily coffee shop visits",
-        "monthlyCost": 900
+        "monthlyCost": 975
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 650
       },
       "healthcare": {
         "description": "Premium ACA plan or private health insurance with comprehensive coverage",
-        "monthlyCost": 750
+        "monthlyCost": 800
       },
       "transportation": {
         "description": "Late-model SUV or sedan, premium insurance, occasional rideshare",
-        "monthlyCost": 500
+        "monthlyCost": 525
       },
       "entertainment": {
         "description": "Season tickets, boat rental on Lake Travis, premium gym, regular live events",
-        "monthlyCost": 500
+        "monthlyCost": 525
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 275
       },
       "lifestyle": "A three-bedroom house in Travis Heights or Zilker, or a modern condo downtown. You dine regularly at top restaurants like Uchi and Emmer & Rye, take weekend trips to Fredericksburg wine country, and rent boats on Lake Travis. At $10,000 a month with no state income tax, Austin is comfortably affluent. The city's music scene, outdoor recreation along the Colorado River, and growing food culture are all easily accessible."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Upscale 4BR home in Westlake, Tarrytown, or a luxury downtown high-rise",
-        "monthlyCost": 5000
+        "monthlyCost": 4575
       },
       "dining": {
         "description": "Fine dining multiple times per week, private chef for occasional dinner parties",
-        "monthlyCost": 1500
+        "monthlyCost": 1400
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 750
       },
       "healthcare": {
         "description": "Concierge medicine or top-tier private insurance with no-deductible plans",
-        "monthlyCost": 1000
+        "monthlyCost": 925
       },
       "transportation": {
         "description": "Luxury vehicle (Tesla, BMW), premium insurance, detailing service",
-        "monthlyCost": 800
+        "monthlyCost": 750
       },
       "entertainment": {
         "description": "VIP festival passes, country club membership, lake house weekends, premium experiences",
-        "monthlyCost": 1000
+        "monthlyCost": 925
       },
       "utilities": {
-        "monthlyCost": 350
+        "monthlyCost": 325
       },
       "domesticHelp": {
         "description": "Bi-weekly house cleaning, landscaping service, occasional personal assistant tasks",
-        "monthlyCost": 800
+        "monthlyCost": 750
       },
       "luxuryExtras": {
         "description": "Quarterly domestic travel, premium wine subscriptions, spa days, philanthropy",
-        "monthlyCost": 1500
+        "monthlyCost": 1400
       },
       "lifestyle": "A large home in Westlake or Tarrytown, or a luxury downtown high-rise. You have a housekeeper, drive a nice car, and dine at the city's best restaurants without budgeting. Business class flights for longer travel are comfortable at this budget. VIP passes for ACL and the F1 Grand Prix are feasible. Texas's zero state income tax is a major advantage -- $16,667 a month goes very far in Austin compared to what it would buy in California or New York."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Estate home in Barton Creek or Lake Austin waterfront property",
-        "monthlyCost": 10000
+        "monthlyCost": 6450
       },
       "dining": {
         "description": "Personal chef, exclusive dining experiences, catered events at home",
-        "monthlyCost": 3000
+        "monthlyCost": 1925
       },
       "groceries": {
-        "monthlyCost": 1000
+        "monthlyCost": 650
       },
       "healthcare": {
         "description": "Top-tier concierge medical practice, executive health screenings, holistic wellness",
-        "monthlyCost": 1500
+        "monthlyCost": 975
       },
       "transportation": {
         "description": "Multiple luxury vehicles, dedicated driver for events, private car service",
-        "monthlyCost": 1500
+        "monthlyCost": 975
       },
       "entertainment": {
         "description": "Private box at UT games, philanthropic galas, art collecting, international travel",
-        "monthlyCost": 2500
+        "monthlyCost": 1600
       },
       "utilities": {
-        "monthlyCost": 500
+        "monthlyCost": 325
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, personal assistant, pool and grounds maintenance crew",
-        "monthlyCost": 4000
+        "monthlyCost": 2575
       },
       "luxuryExtras": {
         "description": "First-class international travel, ranch property, boat on Lake Travis, angel investing",
-        "monthlyCost": 5000
+        "monthlyCost": 3225
       },
       "lifestyle": "A large estate in Barton Creek or a waterfront property on Lake Austin. You have a full-time housekeeper, a cook who comes in several times a week, and a personal assistant. You dine wherever you want, travel first class, and keep a boat on Lake Travis. Texas's zero state income tax means the full $33,333 monthly budget is available for spending. You support local institutions as a donor and live very comfortably in a city with a relaxed pace and strong food and music culture."
     }

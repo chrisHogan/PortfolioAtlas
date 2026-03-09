@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR apartment in the Cathedral District or near Falls Park",
-        "monthlyCost": 850
+        "monthlyCost": 1100
       },
       "dining": {
         "description": "Casual dining 2x/week at local spots like Phillips Avenue Diner or Fernson Brewing",
-        "monthlyCost": 170
+        "monthlyCost": 225
       },
       "groceries": {
-        "monthlyCost": 320
+        "monthlyCost": 425
       },
       "healthcare": {
         "description": "ACA marketplace Silver plan; South Dakota premiums are reasonable",
-        "monthlyCost": 460
+        "monthlyCost": 600
       },
       "transportation": {
         "description": "Paid-off car with basic insurance; car necessary but costs are low",
-        "monthlyCost": 210
+        "monthlyCost": 275
       },
       "entertainment": {
         "description": "Falls Park walks, Big Sioux River trails, SculptureWalk, free community events",
-        "monthlyCost": 70
+        "monthlyCost": 100
       },
       "utilities": {
-        "monthlyCost": 130
+        "monthlyCost": 175
       },
       "lifestyle": "You can rent a decent one-bedroom near Falls Park or the Cathedral District for under $900 and still cover groceries, a car, and healthcare with room to spare. No state income tax helps every dollar stretch further. Evenings and weekends revolve around the trails along the Big Sioux River, Falls Park, and low-key dining at local spots. It is a modest life but a genuinely comfortable one by budget-tier standards."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "2BR apartment downtown or a small house in McKennan Park or All Saints",
-        "monthlyCost": 1350
+        "monthlyCost": 1600
       },
       "dining": {
         "description": "Dining out 3-4x/week; enjoying downtown's growing food scene on Phillips Avenue",
-        "monthlyCost": 380
+        "monthlyCost": 450
       },
       "groceries": {
-        "monthlyCost": 400
+        "monthlyCost": 475
       },
       "healthcare": {
         "description": "ACA Gold plan with dental; access to excellent Sanford and Avera systems",
-        "monthlyCost": 560
+        "monthlyCost": 675
       },
       "transportation": {
         "description": "Reliable AWD vehicle for winter driving, full coverage insurance",
-        "monthlyCost": 350
+        "monthlyCost": 425
       },
       "entertainment": {
         "description": "Washington Pavilion performances, Canaries baseball, gym membership, Great Plains Zoo",
-        "monthlyCost": 200
+        "monthlyCost": 250
       },
       "utilities": {
-        "monthlyCost": 155
+        "monthlyCost": 175
       },
       "lifestyle": "A two-bedroom house in a tree-lined neighborhood like McKennan Park or All Saints is well within reach. You can eat out several times a week on Phillips Avenue, keep a reliable AWD vehicle for winter, and carry solid health insurance. The low cost base and zero state income tax leave a healthy margin each month for travel or saving."
     },
@@ -99,7 +99,7 @@
       },
       "healthcare": {
         "description": "Premium private insurance with low deductibles, full dental/vision through Sanford",
-        "monthlyCost": 680
+        "monthlyCost": 675
       },
       "transportation": {
         "description": "Late-model SUV for South Dakota winters, premium insurance, seasonal tires",
@@ -107,7 +107,7 @@
       },
       "entertainment": {
         "description": "Denny Sanford Premier Center events, golf club membership, ski trips to Terry Peak",
-        "monthlyCost": 380
+        "monthlyCost": 375
       },
       "utilities": {
         "monthlyCost": 200
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Custom home in The Bluffs, Lake Lorraine area, or a luxury property with river views",
-        "monthlyCost": 4200
+        "monthlyCost": 3150
       },
       "dining": {
         "description": "Fine dining several times per week, private chef for entertaining, wine club memberships",
-        "monthlyCost": 1000
+        "monthlyCost": 750
       },
       "groceries": {
-        "monthlyCost": 630
+        "monthlyCost": 475
       },
       "healthcare": {
         "description": "Concierge medicine at Sanford, executive wellness, comprehensive private insurance",
-        "monthlyCost": 850
+        "monthlyCost": 625
       },
       "transportation": {
         "description": "Luxury SUV, second vehicle, premium everything for Dakota weather",
-        "monthlyCost": 700
+        "monthlyCost": 525
       },
       "entertainment": {
         "description": "Country club membership, Black Hills cabin weekends, philanthropy galas, private golf",
-        "monthlyCost": 700
+        "monthlyCost": 525
       },
       "utilities": {
-        "monthlyCost": 270
+        "monthlyCost": 200
       },
       "domesticHelp": {
         "description": "Weekly deep cleaning, landscaping, snow removal service, seasonal maintenance",
-        "monthlyCost": 500
+        "monthlyCost": 375
       },
       "luxuryExtras": {
         "description": "Black Hills cabin, quarterly travel, Sanford Health donor events, art collecting",
-        "monthlyCost": 1300
+        "monthlyCost": 975
       },
       "lifestyle": "A large custom home in The Bluffs or Lake Lorraine area, a housekeeper several times a week, and regular dining at the city's best restaurants. Weekend trips to a cabin in the Black Hills are easy to budget, and business class flights for longer travel are comfortable at this spend level. Zero state income tax means you keep more of every withdrawal."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Trophy property in The Bluffs or a sprawling estate with acreage south of the city",
-        "monthlyCost": 7500
+        "monthlyCost": 3700
       },
       "dining": {
         "description": "Full-time personal chef, exclusive wine dinners, catered events and private gatherings",
-        "monthlyCost": 2100
+        "monthlyCost": 1050
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 400
       },
       "healthcare": {
         "description": "Top-tier concierge practice at Sanford, medical travel for specialists, wellness team",
-        "monthlyCost": 1100
+        "monthlyCost": 550
       },
       "transportation": {
         "description": "Multiple luxury vehicles, private car service, chartered flights from FSD",
-        "monthlyCost": 1400
+        "monthlyCost": 700
       },
       "entertainment": {
         "description": "Major philanthropy, international travel, art collecting, exclusive memberships",
-        "monthlyCost": 1800
+        "monthlyCost": 900
       },
       "utilities": {
-        "monthlyCost": 400
+        "monthlyCost": 200
       },
       "domesticHelp": {
         "description": "Full-time property manager, housekeeper, personal assistant, groundskeeper",
-        "monthlyCost": 3600
+        "monthlyCost": 1775
       },
       "luxuryExtras": {
         "description": "Second home in the Black Hills, first-class international travel, angel investing, foundation work",
-        "monthlyCost": 4500
+        "monthlyCost": 2225
       },
       "lifestyle": "A premium home on acreage south of the city, a second property in the Black Hills, a cook who comes in several times a week, and regular domestic help. First-class flights and frequent travel are well within budget. At Sioux Falls costs with no state income tax, this level of spending covers a very comfortable, well-staffed life with large margins each month."
     }

@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR apartment in Seminole Heights, Temple Terrace, or outer South Tampa",
-        "monthlyCost": 1450
+        "monthlyCost": 1900
       },
       "dining": {
         "description": "Cuban sandwiches from hole-in-the-wall spots and casual dining 2x/week; mostly cooking at home",
-        "monthlyCost": 230
+        "monthlyCost": 300
       },
       "groceries": {
-        "monthlyCost": 380
+        "monthlyCost": 500
       },
       "healthcare": {
         "description": "ACA marketplace Silver plan; Florida premiums can run high without subsidies",
-        "monthlyCost": 550
+        "monthlyCost": 725
       },
       "transportation": {
         "description": "Paid-off car with basic insurance and gas; a car is essential in Tampa",
-        "monthlyCost": 270
+        "monthlyCost": 350
       },
       "entertainment": {
         "description": "Free Riverwalk strolls, beach days at Clearwater and St. Pete, public parks and kayaking",
-        "monthlyCost": 80
+        "monthlyCost": 100
       },
       "utilities": {
-        "monthlyCost": 170
+        "monthlyCost": 225
       },
       "lifestyle": "You live in a modest apartment in Seminole Heights or Temple Terrace and cook most meals at home. Cuban sandwich shops in West Tampa and Ybor City provide affordable dining a couple of times a week. The Riverwalk and Tampa Bay's waterfront parks are free, and Florida's zero income tax helps stretch a tight budget. Summer A/C costs are significant, and a car is necessary for most of the city."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "2BR apartment in Channelside, Hyde Park, or a townhome in Westshore",
-        "monthlyCost": 2100
+        "monthlyCost": 2550
       },
       "dining": {
         "description": "Regular dining in South Howard (SoHo) and Ybor City 3-4x/week; weekend brunch at waterfront spots",
-        "monthlyCost": 550
+        "monthlyCost": 675
       },
       "groceries": {
-        "monthlyCost": 450
+        "monthlyCost": 550
       },
       "healthcare": {
         "description": "ACA Gold plan with dental and vision; reasonable out-of-pocket costs",
-        "monthlyCost": 650
+        "monthlyCost": 775
       },
       "transportation": {
         "description": "Reliable car with full coverage insurance; occasional TECO streetcar rides downtown",
-        "monthlyCost": 400
+        "monthlyCost": 475
       },
       "entertainment": {
         "description": "Bucs and Lightning games occasionally, gym membership, paddleboarding on the bay, museum visits",
-        "monthlyCost": 300
+        "monthlyCost": 350
       },
       "utilities": {
-        "monthlyCost": 190
+        "monthlyCost": 225
       },
       "lifestyle": "You can rent a nice apartment in Hyde Park or Channelside and eat out several times a week in the SoHo restaurant scene and Ybor City. Lightning games, a gym membership, and weekend beach trips to Clearwater or Anna Maria Island fit the budget. Florida's zero income tax keeps your full withdrawal intact, and Tampa's growing cultural offerings add variety beyond the waterfront."
     },
@@ -88,18 +88,18 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "3BR home in South Tampa, a waterfront condo in Harbour Island, or a house in Beach Park",
-        "monthlyCost": 3400
+        "monthlyCost": 3350
       },
       "dining": {
         "description": "Fine dining at Bern's Steak House, Ulele, and Columbia Restaurant; regular date nights and wine dinners",
-        "monthlyCost": 900
+        "monthlyCost": 875
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 575
       },
       "healthcare": {
         "description": "Premium private health insurance with low deductibles and comprehensive coverage",
-        "monthlyCost": 750
+        "monthlyCost": 725
       },
       "transportation": {
         "description": "Late-model SUV or sedan, premium insurance, occasional boat charter on the bay",
@@ -107,10 +107,10 @@
       },
       "entertainment": {
         "description": "Season tickets to the Lightning, Straz Center performing arts, boating, premium gym membership",
-        "monthlyCost": 550
+        "monthlyCost": 525
       },
       "utilities": {
-        "monthlyCost": 260
+        "monthlyCost": 250
       },
       "lifestyle": "You can rent a house in South Tampa or a waterfront condo on Harbour Island, and dine regularly at restaurants like Bern's Steak House and Ulele. Lightning season tickets, a Straz Center performing arts subscription, and weekend boating on the bay all fit comfortably. Good private healthcare and a reliable car for beach trips round out a comfortable waterfront life with no state income tax."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury waterfront home on Davis Islands, Bayshore Boulevard, or a penthouse in Water Street Tampa",
-        "monthlyCost": 5200
+        "monthlyCost": 4600
       },
       "dining": {
         "description": "Private chef for entertaining, fine dining multiple nights per week, yacht club dining room",
-        "monthlyCost": 1400
+        "monthlyCost": 1225
       },
       "groceries": {
-        "monthlyCost": 750
+        "monthlyCost": 650
       },
       "healthcare": {
         "description": "Concierge medicine at Tampa General, executive health screenings, premium private insurance",
-        "monthlyCost": 1000
+        "monthlyCost": 875
       },
       "transportation": {
         "description": "Luxury vehicle, boat slip at the Tampa Yacht Club, occasional private car service",
-        "monthlyCost": 900
+        "monthlyCost": 775
       },
       "entertainment": {
         "description": "Premium suite at Bucs games, Palma Ceia Golf & Country Club, deep-sea fishing charters, arts patronage",
-        "monthlyCost": 900
+        "monthlyCost": 775
       },
       "utilities": {
-        "monthlyCost": 350
+        "monthlyCost": 300
       },
       "domesticHelp": {
         "description": "Weekly house cleaning, pool service, landscaping, hurricane preparation service",
-        "monthlyCost": 750
+        "monthlyCost": 650
       },
       "luxuryExtras": {
         "description": "Quarterly travel, boat ownership costs, spa retreats, wine club memberships",
-        "monthlyCost": 1500
+        "monthlyCost": 1300
       },
       "lifestyle": "A large waterfront home on Davis Islands or along Bayshore Boulevard, regular dining at Tampa's best restaurants, and a housekeeper who comes weekly. Concierge medicine at Tampa General, a nice car, and business class flights are standard. A boat slip at the Tampa Yacht Club, country club membership, and premium Bucs tickets fit comfortably. Florida's zero income tax keeps the full withdrawal intact."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Bayshore Boulevard estate, Davis Islands waterfront compound, or luxury penthouse with private dock",
-        "monthlyCost": 10000
+        "monthlyCost": 5925
       },
       "dining": {
         "description": "Full-time personal chef, catered events, private wine dinners, exclusive restaurant experiences",
-        "monthlyCost": 3000
+        "monthlyCost": 1775
       },
       "groceries": {
-        "monthlyCost": 1000
+        "monthlyCost": 600
       },
       "healthcare": {
         "description": "Top concierge medical practice, executive wellness programs, specialist access at Moffitt Cancer Center",
-        "monthlyCost": 1500
+        "monthlyCost": 900
       },
       "transportation": {
         "description": "Multiple luxury vehicles, yacht captain, private car service, chartered flights from TPA",
-        "monthlyCost": 1800
+        "monthlyCost": 1075
       },
       "entertainment": {
         "description": "Luxury box at Raymond James Stadium, major arts and hospital philanthropy, international travel, yacht cruises",
-        "monthlyCost": 2500
+        "monthlyCost": 1475
       },
       "utilities": {
-        "monthlyCost": 500
+        "monthlyCost": 300
       },
       "domesticHelp": {
         "description": "Full-time estate manager, housekeeper, personal assistant, boat captain, pool and grounds crew",
-        "monthlyCost": 4500
+        "monthlyCost": 2675
       },
       "luxuryExtras": {
         "description": "Yacht ownership, first-class international travel, real estate investing, philanthropic giving",
-        "monthlyCost": 5000
+        "monthlyCost": 2975
       },
       "lifestyle": "Premium waterfront housing along Bayshore Boulevard or on Davis Islands, regular fine dining, a cook who comes several times a week, and a housekeeper. First class travel, full concierge healthcare at Tampa General and access to Moffitt Cancer Center, and a luxury box at Raymond James Stadium. A well-maintained boat for bay and Gulf cruises is a natural addition. Florida's zero income tax at this spending level represents significant annual savings."
     }

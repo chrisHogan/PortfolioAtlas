@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR apartment in downtown Fargo or the near-south neighborhood",
-        "monthlyCost": 850
+        "monthlyCost": 1100
       },
       "dining": {
         "description": "Casual dining 2x/week at local spots; hearty Midwestern fare; mostly home cooking",
-        "monthlyCost": 180
+        "monthlyCost": 225
       },
       "groceries": {
-        "monthlyCost": 320
+        "monthlyCost": 400
       },
       "healthcare": {
         "description": "ACA marketplace Silver plan; North Dakota premiums are moderate",
-        "monthlyCost": 460
+        "monthlyCost": 600
       },
       "transportation": {
         "description": "Paid-off car with basic insurance; snow tires essential for winter",
-        "monthlyCost": 220
+        "monthlyCost": 275
       },
       "entertainment": {
         "description": "Walking the riverwalk, Fargo Theatre films, library events, community gatherings",
-        "monthlyCost": 70
+        "monthlyCost": 100
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 200
       },
       "lifestyle": "Housing runs about $850 for a one-bedroom downtown, which is among the lowest rents of any US city. You cook at home most nights and eat out casually a couple of times a week. Winter walks along the Red River, the Fargo Theatre, and community events fill free time. Heating costs in winter are a real line item, but the overall cost base is low enough that this budget works without constant strain."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "2BR house in a south Fargo neighborhood or a nice apartment in the downtown core",
-        "monthlyCost": 1350
+        "monthlyCost": 1600
       },
       "dining": {
         "description": "Dining out 3-4x/week; enjoying Fargo's growing craft brewery and restaurant scene",
-        "monthlyCost": 380
+        "monthlyCost": 450
       },
       "groceries": {
-        "monthlyCost": 380
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "ACA Gold plan with dental and vision; comfortable deductible",
-        "monthlyCost": 560
+        "monthlyCost": 675
       },
       "transportation": {
         "description": "Reliable AWD vehicle for winter driving, full coverage insurance, winter tires",
-        "monthlyCost": 350
+        "monthlyCost": 425
       },
       "entertainment": {
         "description": "NDSU Bison football tickets, Fargo-Moorhead Symphony, gym membership, cross-country skiing",
-        "monthlyCost": 220
+        "monthlyCost": 250
       },
       "utilities": {
-        "monthlyCost": 175
+        "monthlyCost": 200
       },
       "lifestyle": "A two-bedroom house in south Fargo or a nice downtown apartment, dining out several times a week at places like Mezzaluna and HoDo, NDSU Bison football tickets, and a gym membership for the long winters. A reliable AWD vehicle with winter tires is essential. The low cost base leaves a healthy monthly margin, and North Dakota's favorable treatment of retirement income helps further."
     },
@@ -88,18 +88,18 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "3BR home in Osgood or Prairie Heights with a large yard and modern finishes",
-        "monthlyCost": 2200
+        "monthlyCost": 2125
       },
       "dining": {
         "description": "Regular fine dining at HoDo, Mezzaluna, and Rosewild; wine dinners and food events",
         "monthlyCost": 650
       },
       "groceries": {
-        "monthlyCost": 480
+        "monthlyCost": 475
       },
       "healthcare": {
         "description": "Premium private insurance with comprehensive coverage and low deductibles",
-        "monthlyCost": 680
+        "monthlyCost": 675
       },
       "transportation": {
         "description": "Late-model SUV for all-season driving, premium insurance",
@@ -110,7 +110,7 @@
         "monthlyCost": 400
       },
       "utilities": {
-        "monthlyCost": 230
+        "monthlyCost": 225
       },
       "lifestyle": "A spacious three-bedroom home in Osgood or Prairie Heights, regular dinners at HoDo and Rosewild, season tickets to NDSU and the FM RedHawks, and a late-model SUV. At Fargo prices, $10K a month is well above what most residents spend, leaving significant room for winter getaways to warmer climates and regular travel throughout the year."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Custom-built home in South Fargo or a luxury property in the Osgood area",
-        "monthlyCost": 4200
+        "monthlyCost": 2950
       },
       "dining": {
         "description": "Private chef for weekly dinners, regular fine dining, exclusive wine events",
-        "monthlyCost": 1000
+        "monthlyCost": 700
       },
       "groceries": {
-        "monthlyCost": 620
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "Concierge medical practice, premium insurance, wellness programs",
-        "monthlyCost": 850
+        "monthlyCost": 600
       },
       "transportation": {
         "description": "Luxury SUV, second vehicle, flights from FAR to Minneapolis and beyond",
-        "monthlyCost": 750
+        "monthlyCost": 525
       },
       "entertainment": {
         "description": "Country club membership, winter resort vacations, Minneapolis trips for concerts and sports",
-        "monthlyCost": 700
+        "monthlyCost": 500
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 200
       },
       "domesticHelp": {
         "description": "Weekly deep cleaning, snow removal, lawn care, property maintenance",
-        "monthlyCost": 550
+        "monthlyCost": 400
       },
       "luxuryExtras": {
         "description": "Winter home in Arizona or Florida, quarterly travel, community philanthropy",
-        "monthlyCost": 1800
+        "monthlyCost": 1275
       },
       "lifestyle": "A custom-built home in South Fargo, a housekeeper who comes weekly, and a winter rental in Arizona or Florida to escape the coldest months. Regular fine dining, a country club membership, and trips to Minneapolis for concerts and sports are all within budget. Business class flights for longer travel are comfortable. The low cost base means large monthly margins even with the snowbird setup."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Premier estate in South Fargo or a sprawling custom property with every amenity",
-        "monthlyCost": 7500
+        "monthlyCost": 3525
       },
       "dining": {
         "description": "Personal chef, exclusive catered events, private wine dinners, farm partnerships",
-        "monthlyCost": 2200
+        "monthlyCost": 1025
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 375
       },
       "healthcare": {
         "description": "Top concierge practice, executive wellness retreats, medical travel for specialists",
-        "monthlyCost": 1100
+        "monthlyCost": 525
       },
       "transportation": {
         "description": "Multiple luxury vehicles, private car service, chartered flights from FAR",
-        "monthlyCost": 1400
+        "monthlyCost": 650
       },
       "entertainment": {
         "description": "Major philanthropic events, international travel, private club memberships, VIP sports experiences",
-        "monthlyCost": 1800
+        "monthlyCost": 850
       },
       "utilities": {
-        "monthlyCost": 420
+        "monthlyCost": 200
       },
       "domesticHelp": {
         "description": "Full-time estate manager, housekeeper, personal assistant, snow and grounds crew",
-        "monthlyCost": 3800
+        "monthlyCost": 1775
       },
       "luxuryExtras": {
         "description": "Luxury winter home, first-class international travel, art collection, foundation giving",
-        "monthlyCost": 5500
+        "monthlyCost": 2575
       },
       "lifestyle": "A large custom estate in South Fargo, a winter home in a warmer climate, full-time domestic help including a housekeeper and property manager, and a cook who comes in several times a week. First-class travel, concierge healthcare, and generous community involvement are all well covered. At Fargo costs, this budget provides an extremely comfortable, well-staffed life with very large margins each month."
     }

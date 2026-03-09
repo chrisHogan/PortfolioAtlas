@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR apartment in Sugar House, Murray, or South Salt Lake",
-        "monthlyCost": 1350
+        "monthlyCost": 1725
       },
       "dining": {
         "description": "Casual dining 2-3x/week; growing food scene with affordable ethnic options",
-        "monthlyCost": 230
+        "monthlyCost": 300
       },
       "groceries": {
-        "monthlyCost": 370
+        "monthlyCost": 475
       },
       "healthcare": {
         "description": "ACA Silver plan on the Utah marketplace; Intermountain Healthcare nearby",
-        "monthlyCost": 500
+        "monthlyCost": 650
       },
       "transportation": {
         "description": "TRAX light rail and bus pass; SLC has solid transit for a Western city",
-        "monthlyCost": 130
+        "monthlyCost": 175
       },
       "entertainment": {
         "description": "Hiking in the Wasatch, free temple district tours, city creek canyon walks",
-        "monthlyCost": 100
+        "monthlyCost": 125
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 200
       },
       "lifestyle": "You can rent a one-bedroom in Sugar House or Murray and use TRAX light rail for daily transit. Cooking at home is the norm, and ski passes are likely out of reach at this budget. The trade-off is that hiking and trail running in the Wasatch foothills are free and minutes from your door. City Creek Canyon and the Bonneville Shoreline Trail provide year-round outdoor access at no cost."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Nice 2BR in The Avenues, 9th & 9th, or Liberty Park area",
-        "monthlyCost": 2000
+        "monthlyCost": 2225
       },
       "dining": {
         "description": "Dining out 3-4x/week at SLC's increasingly sophisticated restaurant scene",
-        "monthlyCost": 500
+        "monthlyCost": 575
       },
       "groceries": {
-        "monthlyCost": 460
+        "monthlyCost": 525
       },
       "healthcare": {
         "description": "ACA Gold plan with dental and vision; Intermountain and University of Utah access",
-        "monthlyCost": 600
+        "monthlyCost": 675
       },
       "transportation": {
         "description": "Reliable Subaru or similar for mountain access, insurance, transit pass",
-        "monthlyCost": 380
+        "monthlyCost": 425
       },
       "entertainment": {
         "description": "Ski passes at Snowbird/Brighton, gym membership, national park road trips, Jazz tickets",
-        "monthlyCost": 350
+        "monthlyCost": 400
       },
       "utilities": {
-        "monthlyCost": 190
+        "monthlyCost": 225
       },
       "lifestyle": "You can rent a nice apartment in the Avenues or 9th & 9th and eat out several times a week at SLC's growing restaurant and brewery scene. Season ski passes at Snowbird or Brighton fit the budget, along with a car for weekend road trips to Utah's national parks. Jazz tickets and a gym membership round out a lifestyle built around the outdoors."
     },
@@ -88,14 +88,14 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "3BR house in Federal Heights, Millcreek, or a modern condo in downtown SLC",
-        "monthlyCost": 3000
+        "monthlyCost": 2925
       },
       "dining": {
         "description": "Regular dining at top spots like HSL, Current, and Valter's Osteria; daily cafe culture",
         "monthlyCost": 800
       },
       "groceries": {
-        "monthlyCost": 560
+        "monthlyCost": 550
       },
       "healthcare": {
         "description": "Premium private insurance with University of Utah Health and Intermountain networks",
@@ -107,7 +107,7 @@
       },
       "entertainment": {
         "description": "Ikon ski pass, mountain biking gear, Jazz season tickets, premium gym, Sundance trips",
-        "monthlyCost": 520
+        "monthlyCost": 525
       },
       "utilities": {
         "monthlyCost": 250
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury home in the East Bench, Emigration Canyon, or a Park City ski-in/ski-out condo",
-        "monthlyCost": 4800
+        "monthlyCost": 3925
       },
       "dining": {
         "description": "Fine dining in SLC and Park City, private chef for mountain dinner parties",
-        "monthlyCost": 1300
+        "monthlyCost": 1075
       },
       "groceries": {
-        "monthlyCost": 720
+        "monthlyCost": 600
       },
       "healthcare": {
         "description": "Concierge medicine at University of Utah Health; executive wellness programs",
-        "monthlyCost": 950
+        "monthlyCost": 775
       },
       "transportation": {
         "description": "Luxury SUV (Land Rover, Porsche Cayenne), premium insurance, detailing",
-        "monthlyCost": 780
+        "monthlyCost": 650
       },
       "entertainment": {
         "description": "Private ski club membership, Sundance VIP passes, helicopter skiing, Jazz courtside",
-        "monthlyCost": 1000
+        "monthlyCost": 825
       },
       "utilities": {
-        "monthlyCost": 350
+        "monthlyCost": 300
       },
       "domesticHelp": {
         "description": "Weekly cleaning, snow removal, landscaping, personal assistant tasks",
-        "monthlyCost": 750
+        "monthlyCost": 625
       },
       "luxuryExtras": {
         "description": "Quarterly travel, mountain biking custom builds, Sundance Institute patron, philanthropy",
-        "monthlyCost": 1350
+        "monthlyCost": 1125
       },
       "lifestyle": "A large home on the East Bench with Wasatch views or a ski-in/ski-out condo in Park City, regular dining at the best restaurants in both SLC and Park City, and a housekeeper who comes weekly. Concierge medicine at University of Utah Health, a nice SUV, and business class flights for longer trips are standard. Premium ski club access and Jazz courtside seats fit comfortably."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Mountain estate in Emigration Canyon, or a luxury compound in Deer Valley/Park City",
-        "monthlyCost": 9500
+        "monthlyCost": 5375
       },
       "dining": {
         "description": "Personal chef, exclusive mountain dining experiences, catered ski lodge events",
-        "monthlyCost": 2500
+        "monthlyCost": 1400
       },
       "groceries": {
-        "monthlyCost": 1000
+        "monthlyCost": 550
       },
       "healthcare": {
         "description": "Top-tier concierge at U of U Health, executive screenings, specialist VIP access",
-        "monthlyCost": 1400
+        "monthlyCost": 775
       },
       "transportation": {
         "description": "Multiple luxury vehicles, private driver, helicopter access for skiing",
-        "monthlyCost": 1600
+        "monthlyCost": 900
       },
       "entertainment": {
         "description": "Sundance trustee, private ski lodge, international adventure travel, Jazz ownership-level access",
-        "monthlyCost": 2300
+        "monthlyCost": 1300
       },
       "utilities": {
-        "monthlyCost": 500
+        "monthlyCost": 275
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, estate manager, personal assistant, grounds and snow crew",
-        "monthlyCost": 3800
+        "monthlyCost": 2125
       },
       "luxuryExtras": {
         "description": "Heli-skiing packages, first-class international travel, ranch property, Sundance endowment",
-        "monthlyCost": 5000
+        "monthlyCost": 2800
       },
       "lifestyle": "Premium housing in Emigration Canyon or a large property in Deer Valley, regular fine dining, a cook who comes several times a week, and a housekeeper. First class travel, full concierge healthcare, and the freedom to ski any resort in Utah without thinking about cost. Salt Lake's moderate cost of living means this budget covers everything comfortably, including regular trips to the national parks and a second property in Park City if desired."
     }

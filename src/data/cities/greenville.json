@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR apartment in the Village of West Greenville or Nicholtown area",
-        "monthlyCost": 1100
+        "monthlyCost": 1400
       },
       "dining": {
         "description": "Casual meals out 2x/week; Southern diners and taco trucks; mostly home cooking",
-        "monthlyCost": 200
+        "monthlyCost": 250
       },
       "groceries": {
-        "monthlyCost": 350
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "ACA marketplace Silver plan; South Carolina premiums are moderate",
-        "monthlyCost": 480
+        "monthlyCost": 625
       },
       "transportation": {
         "description": "Paid-off car with basic insurance; car essential in the Upstate",
-        "monthlyCost": 230
+        "monthlyCost": 300
       },
       "entertainment": {
         "description": "Walking the Swamp Rabbit Trail, free Falls Park visits, library events; occasional movie",
-        "monthlyCost": 80
+        "monthlyCost": 100
       },
       "utilities": {
-        "monthlyCost": 130
+        "monthlyCost": 175
       },
       "lifestyle": "A one-bedroom in West Greenville or a similar area runs about $1,100, and you cook at home most nights with a casual meal out a couple of times a week. Healthcare takes a real share of the budget. Daily life centers on the Swamp Rabbit Trail, Falls Park, and the free pleasures of a walkable downtown. It is tight but the low cost base makes it workable."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "2BR apartment downtown or a small house in the Augusta Road neighborhood",
-        "monthlyCost": 1700
+        "monthlyCost": 2000
       },
       "dining": {
         "description": "Dining on Main Street 3-4x/week; enjoying Greenville's acclaimed restaurant scene",
-        "monthlyCost": 450
+        "monthlyCost": 525
       },
       "groceries": {
-        "monthlyCost": 420
+        "monthlyCost": 500
       },
       "healthcare": {
         "description": "ACA Gold plan with dental and vision; comfortable deductible",
-        "monthlyCost": 580
+        "monthlyCost": 675
       },
       "transportation": {
         "description": "Reliable car for Blue Ridge day trips, full coverage insurance",
-        "monthlyCost": 340
+        "monthlyCost": 400
       },
       "entertainment": {
         "description": "Peace Center shows, Greenville Drive baseball, yoga studio, mountain hiking trips",
-        "monthlyCost": 230
+        "monthlyCost": 275
       },
       "utilities": {
-        "monthlyCost": 155
+        "monthlyCost": 175
       },
       "lifestyle": "A two-bedroom downtown or a small house in the Augusta Road area, dining out several times a week on Main Street, and shows at the Peace Center. Weekends involve hiking in the Blue Ridge foothills or catching a Greenville Drive game. Good health insurance and a reliable car for mountain day trips are covered, with room left over each month."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "3BR home in the North Main or Earle Street area with a yard and mountain views",
-        "monthlyCost": 2800
+        "monthlyCost": 2650
       },
       "dining": {
         "description": "Regular dining at Jianna, Nose Dive, and Soby's; wine dinners and tasting events",
-        "monthlyCost": 750
+        "monthlyCost": 725
       },
       "groceries": {
-        "monthlyCost": 520
+        "monthlyCost": 500
       },
       "healthcare": {
         "description": "Premium private insurance with comprehensive coverage and low deductibles",
-        "monthlyCost": 700
+        "monthlyCost": 675
       },
       "transportation": {
         "description": "Late-model SUV for mountain excursions, premium insurance",
-        "monthlyCost": 480
+        "monthlyCost": 450
       },
       "entertainment": {
         "description": "Peace Center season tickets, golf club membership, art classes, Clemson football trips",
-        "monthlyCost": 420
+        "monthlyCost": 400
       },
       "utilities": {
-        "monthlyCost": 210
+        "monthlyCost": 200
       },
       "lifestyle": "A spacious three-bedroom in the North Main or Earle Street area with mountain views, regular dinners at Jianna and Soby's, Peace Center season tickets, and a golf membership. A late-model SUV handles mountain excursions, and there is plenty of margin for travel. At Greenville's price level, $10K a month covers a genuinely affluent life that would cost considerably more in larger Southern cities."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Custom home in the Chanticleer or Paris Mountain area or a luxury downtown condo",
-        "monthlyCost": 5000
+        "monthlyCost": 3750
       },
       "dining": {
         "description": "Private chef for weekly dinners, regular fine dining, exclusive wine club memberships",
-        "monthlyCost": 1200
+        "monthlyCost": 900
       },
       "groceries": {
-        "monthlyCost": 650
+        "monthlyCost": 500
       },
       "healthcare": {
         "description": "Concierge medical practice, premium insurance, integrative wellness services",
-        "monthlyCost": 900
+        "monthlyCost": 675
       },
       "transportation": {
         "description": "Luxury SUV, second vehicle, occasional flights from GSP to major hubs",
-        "monthlyCost": 750
+        "monthlyCost": 575
       },
       "entertainment": {
         "description": "Country club membership, private fly-fishing guides, arts patronage, Clemson suite tickets",
-        "monthlyCost": 750
+        "monthlyCost": 575
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 225
       },
       "domesticHelp": {
         "description": "Weekly deep cleaning, lawn and garden service, property maintenance",
-        "monthlyCost": 650
+        "monthlyCost": 500
       },
       "luxuryExtras": {
         "description": "Mountain cabin getaways, quarterly travel, art collecting, community philanthropy",
-        "monthlyCost": 1400
+        "monthlyCost": 1050
       },
       "lifestyle": "A custom home near Paris Mountain or a luxury downtown condo, a housekeeper who comes weekly, and concierge healthcare. Regular fine dining, a country club membership, and fly-fishing trips on Upstate streams fill the calendar. Business class flights for travel and weekend getaways to a mountain cabin are well within budget. Greenville's low costs make this feel very well-resourced."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Grand estate on Paris Mountain or sprawling property in the Cliffs communities",
-        "monthlyCost": 9000
+        "monthlyCost": 4575
       },
       "dining": {
         "description": "Personal chef, exclusive catered events, private wine dinners, farm partnerships",
-        "monthlyCost": 2500
+        "monthlyCost": 1275
       },
       "groceries": {
-        "monthlyCost": 850
+        "monthlyCost": 425
       },
       "healthcare": {
         "description": "Top concierge practice, executive wellness retreats, specialists on demand",
-        "monthlyCost": 1200
+        "monthlyCost": 600
       },
       "transportation": {
         "description": "Multiple luxury vehicles, private car service, chartered flights from GSP",
-        "monthlyCost": 1400
+        "monthlyCost": 725
       },
       "entertainment": {
         "description": "Major arts patronage, private concert bookings, international travel, exclusive club events",
-        "monthlyCost": 2000
+        "monthlyCost": 1025
       },
       "utilities": {
-        "monthlyCost": 450
+        "monthlyCost": 225
       },
       "domesticHelp": {
         "description": "Full-time estate manager, housekeeper, personal assistant, groundskeeper",
-        "monthlyCost": 4200
+        "monthlyCost": 2150
       },
       "luxuryExtras": {
         "description": "Second home on the coast, first-class travel, art gallery sponsorships, foundation giving",
-        "monthlyCost": 4800
+        "monthlyCost": 2450
       },
       "lifestyle": "A large estate near Paris Mountain or a property in the Cliffs communities, full-time domestic help including a housekeeper and property manager, and a cook who comes in several times a week sourcing from local Upstate farms. First-class travel, a second home on the coast, and concierge healthcare are all comfortable. Greenville's small-city costs mean this budget covers premium living with very large margins."
     }

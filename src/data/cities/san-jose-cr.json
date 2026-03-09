@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Comfortable 1-bedroom apartment in Escazú or Sabana area with security, close to shops and restaurants",
-        "monthlyCost": 800
+        "monthlyCost": 1075
       },
       "dining": {
         "description": "Daily casados at local sodas, occasional dining out at neighborhood restaurants, strong coffee culture at local cafés",
-        "monthlyCost": 400
+        "monthlyCost": 525
       },
       "groceries": {
-        "monthlyCost": 350
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "CAJA public healthcare enrollment plus affordable private insurance supplement for faster specialist access at CIMA or Clínica Bíblica",
-        "monthlyCost": 200
+        "monthlyCost": 250
       },
       "transportation": {
         "description": "Local bus system, occasional Uber or taxi rides around the Central Valley",
-        "monthlyCost": 100
+        "monthlyCost": 125
       },
       "entertainment": {
         "description": "Weekend trips to nearby volcanoes and cloud forests, farmers markets, National Theater performances, neighborhood parks",
-        "monthlyCost": 250
+        "monthlyCost": 325
       },
       "utilities": {
-        "monthlyCost": 120
+        "monthlyCost": 150
       },
       "lifestyle": "A one-bedroom apartment in Escazú or the Sabana area with security gives you a base in a safe suburb. Casados at local sodas cost a few dollars, the CAJA public healthcare system provides basic coverage, and weekend trips to nearby volcanoes or cloud forests are cheap by bus or shared ride. The budget is comfortable but modest — you cook at home regularly, rely on public transit, and keep entertainment low-cost."
     },
@@ -58,11 +58,11 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Modern 2-bedroom apartment or townhouse in Escazú or Santa Ana with mountain views, pool, and gated security",
-        "monthlyCost": 1400
+        "monthlyCost": 1450
       },
       "dining": {
         "description": "Regular dining at Escazú's international restaurants, weekend brunches, craft beer scene, farm-to-table Tico cuisine",
-        "monthlyCost": 750
+        "monthlyCost": 775
       },
       "groceries": {
         "monthlyCost": 450
@@ -77,7 +77,7 @@
       },
       "entertainment": {
         "description": "Zip-lining and rafting weekends, Pacific coast beach trips, Arenal hot springs, expat social clubs, farmers market tours",
-        "monthlyCost": 550
+        "monthlyCost": 575
       },
       "utilities": {
         "monthlyCost": 150
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Luxury 3-bedroom house in Santa Ana or Escazú hills with private garden, pool, and sweeping Central Valley views",
-        "monthlyCost": 2500
+        "monthlyCost": 1950
       },
       "dining": {
         "description": "Fine dining at San José's best restaurants, personal chef occasionally, curated coffee experiences at premium fincas, weekend coastal seafood trips",
-        "monthlyCost": 1300
+        "monthlyCost": 1025
       },
       "groceries": {
-        "monthlyCost": 550
+        "monthlyCost": 425
       },
       "healthcare": {
         "description": "Premium private insurance with international coverage, concierge medical services at CIMA and Clínica Bíblica, wellness retreats",
-        "monthlyCost": 450
+        "monthlyCost": 350
       },
       "transportation": {
         "description": "Owned SUV for mountain and coastal drives, Uber for city outings, domestic flights to Guanacaste and Osa Peninsula",
-        "monthlyCost": 500
+        "monthlyCost": 400
       },
       "entertainment": {
         "description": "Premium eco-lodge weekends, private nature tours, National Theater season tickets, country club membership, surfing lessons on both coasts",
-        "monthlyCost": 900
+        "monthlyCost": 700
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 150
       },
       "lifestyle": "A house in the Santa Ana or Escazú hills with a private garden, pool, and Central Valley views anchors daily life. You own an SUV for coastal and mountain drives, dine at the city's best restaurants regularly, and carry premium international health insurance. Weekend trips to eco-lodges in Arenal, surfing in Nosara, or the Osa Peninsula are comfortably in budget, and domestic flights save time on longer trips."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury estate in the Escazú hills or Santa Ana with private pool, tropical gardens, guest house, and panoramic valley views",
-        "monthlyCost": 4000
+        "monthlyCost": 2575
       },
       "dining": {
         "description": "Private chef specializing in fusion Tico-international cuisine, fine dining as routine, curated Costa Rican coffee collection, premium wine cellar",
-        "monthlyCost": 2000
+        "monthlyCost": 1300
       },
       "groceries": {
-        "monthlyCost": 700
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "International concierge medicine, private physician, wellness retreats at premium jungle spas, anti-aging protocols",
-        "monthlyCost": 600
+        "monthlyCost": 375
       },
       "transportation": {
         "description": "Luxury SUV, private driver available, domestic charter flights to beach destinations, regular private transfers",
-        "monthlyCost": 800
+        "monthlyCost": 525
       },
       "entertainment": {
         "description": "Private nature reserves tours, deep-sea fishing charters, exclusive eco-lodge access, art collecting from Costa Rican artists, philanthropy",
-        "monthlyCost": 1500
+        "monthlyCost": 975
       },
       "utilities": {
-        "monthlyCost": 280
+        "monthlyCost": 175
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, gardener for estate grounds, pool maintenance, personal assistant",
-        "monthlyCost": 900
+        "monthlyCost": 575
       },
       "luxuryExtras": {
         "description": "Private Spanish tutor, personal trainer, bespoke eco-adventure planning, conservation project involvement, premium country club membership",
-        "monthlyCost": 1300
+        "monthlyCost": 850
       },
       "lifestyle": "A large estate in the Escazú hills with a pool, tropical gardens, and guest house provides generous space. A housekeeper manages the home, a cook comes several days a week, and a driver handles transportation. You dine at the best restaurants freely, fly business class for international trips, and take charter flights to remote beach or rainforest destinations. Premium healthcare and a nice car round out a comfortable, well-staffed daily life."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Ultra-luxury compound in the Central Valley hills with multiple residences, infinity pool, helipad, and a secondary beachfront property on the Pacific coast",
-        "monthlyCost": 8000
+        "monthlyCost": 3325
       },
       "dining": {
         "description": "Full-time private chef team, rare coffee and cacao sourcing, legendary dinner parties with international guests, farm-to-table experiences at your own organic garden",
-        "monthlyCost": 3800
+        "monthlyCost": 1575
       },
       "groceries": {
-        "monthlyCost": 1100
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "Global VIP medical coverage, dedicated wellness team, private jungle spa facility, fly-anywhere specialist access, longevity programs",
-        "monthlyCost": 1000
+        "monthlyCost": 425
       },
       "transportation": {
         "description": "Chauffeured luxury fleet, private helicopter for coast-to-coast travel, yacht charter on the Pacific, private jet for international trips",
-        "monthlyCost": 2800
+        "monthlyCost": 1150
       },
       "entertainment": {
         "description": "Major conservation patronage, private wildlife reserves, art foundation, hosting international environmental summits, deep-sea sportfishing yacht",
-        "monthlyCost": 3500
+        "monthlyCost": 1450
       },
       "utilities": {
-        "monthlyCost": 500
+        "monthlyCost": 200
       },
       "domesticHelp": {
         "description": "Full estate staff: butler, chef team, housekeepers, groundskeepers, driver, personal assistant, estate manager, security",
-        "monthlyCost": 3500
+        "monthlyCost": 1450
       },
       "luxuryExtras": {
         "description": "Private nature reserve ownership, conservation foundation, organic farm development, bespoke Central American travel experiences, rare coffee estate investment",
-        "monthlyCost": 4800
+        "monthlyCost": 1975
       },
       "lifestyle": "A large compound in the Central Valley hills plus a secondary beachfront property on the Pacific coast gives you two distinct homes. A cook, housekeeper, groundskeeping staff, and driver manage daily logistics. You fly first class internationally, dine without any budget constraints, and have the resources to support conservation or community projects. This budget significantly exceeds Costa Rica's cost ceiling — substantial margin goes to savings, additional travel, or philanthropic work."
     }

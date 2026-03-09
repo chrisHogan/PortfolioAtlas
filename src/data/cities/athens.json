@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Bright 1-bedroom apartment in Pangrati or Koukaki, walkable to the Acropolis and local markets",
-        "monthlyCost": 850
+        "monthlyCost": 1325
       },
       "dining": {
         "description": "Daily souvlaki and taverna meals, coffee culture at neighborhood kafeneia, affordable mezze spreads",
-        "monthlyCost": 450
+        "monthlyCost": 675
       },
       "groceries": {
-        "monthlyCost": 300
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "Public EOPYY healthcare plus affordable private insurance supplement for faster specialist access",
-        "monthlyCost": 140
+        "monthlyCost": 200
       },
       "transportation": {
         "description": "Monthly Athens transit pass covering metro, bus, tram, and suburban rail",
-        "monthlyCost": 30
+        "monthlyCost": 50
       },
       "entertainment": {
         "description": "Free ancient ruins exploration, rooftop bars with Acropolis views, beach trips to Vouliagmeni, neighborhood festivals",
-        "monthlyCost": 220
+        "monthlyCost": 325
       },
       "utilities": {
-        "monthlyCost": 120
+        "monthlyCost": 175
       },
       "lifestyle": "A one-bedroom in Pangrati or Koukaki keeps you within walking distance of the Acropolis and the city's best street food. You will cook at home often but can afford regular taverna meals and cheap souvlaki. Public transit is inexpensive and covers the city well. Many of Athens' best features — rooftop views, archaeological sites, beach access at Vouliagmeni — are free or nearly so. Summer heat is intense, and air conditioning will push up utility costs."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Stylish 2-bedroom in Kolonaki or renovated neoclassical in Plaka with Acropolis views from the terrace",
-        "monthlyCost": 1500
+        "monthlyCost": 1700
       },
       "dining": {
         "description": "Regular dining at Athens' new-wave tavernas, weekend seafood at Mikrolimano in Piraeus, rooftop cocktail bars",
-        "monthlyCost": 850
+        "monthlyCost": 975
       },
       "groceries": {
-        "monthlyCost": 450
+        "monthlyCost": 525
       },
       "healthcare": {
         "description": "Comprehensive private insurance covering top hospitals like Hygeia and Metropolitan, dental and vision included",
-        "monthlyCost": 240
+        "monthlyCost": 275
       },
       "transportation": {
         "description": "Transit pass plus regular taxi rides and weekend car rentals for Peloponnese and island ferry trips",
-        "monthlyCost": 150
+        "monthlyCost": 175
       },
       "entertainment": {
         "description": "Epidaurus summer theater festival, island-hopping weekends to Hydra and Aegina, Athens Riviera beach clubs, live rebetiko music",
-        "monthlyCost": 550
+        "monthlyCost": 625
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 175
       },
       "lifestyle": "A nice apartment in Kolonaki or a renovated place in Plaka with a rooftop terrace. You can dine out several times a week at Athens' new-wave tavernas, take regular ferry trips to nearby islands like Hydra and Aegina, and carry good private health insurance. Weekend drives to the Peloponnese are easy. Athens has high English fluency, which makes daily life straightforward for non-Greek speakers."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Premium 3-bedroom penthouse in Kolonaki with panoramic Acropolis and Lycabettus views, or villa in Glyfada near the coast",
-        "monthlyCost": 2500
+        "monthlyCost": 2075
       },
       "dining": {
         "description": "Fine dining at Spondi and Varoulko, island dining excursions, guided Greek wine tastings",
-        "monthlyCost": 1500
+        "monthlyCost": 1275
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 500
       },
       "healthcare": {
         "description": "Premium private insurance with international coverage, executive health checks, concierge medical services",
-        "monthlyCost": 380
+        "monthlyCost": 325
       },
       "transportation": {
         "description": "Leased vehicle for coastal drives, transit pass, regular Beat/Uber rides, seasonal fast ferry passes",
-        "monthlyCost": 350
+        "monthlyCost": 300
       },
       "entertainment": {
         "description": "Chartered boat day trips to Saronic islands, VIP Epidaurus tickets, beach club memberships, art gallery circuit in Psyrri",
-        "monthlyCost": 1000
+        "monthlyCost": 850
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 175
       },
       "lifestyle": "A penthouse in Kolonaki with Acropolis views or a villa in the coastal suburb of Glyfada. Regular dining at restaurants like Spondi and Varoulko, a leased car, and international health coverage. Boat day trips to the Saronic islands, tickets at the Epidaurus theater, and regular travel are all within budget. This is a genuinely affluent lifestyle in Athens with room to spare."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Seafront villa in Vouliagmeni or landmark neoclassical mansion in Plaka, fully restored with modern luxury amenities",
-        "monthlyCost": 4200
+        "monthlyCost": 2775
       },
       "dining": {
         "description": "Private chef specializing in modern Greek cuisine, Michelin tasting menus weekly, curated wine cellar of rare Greek vintages",
-        "monthlyCost": 2300
+        "monthlyCost": 1550
       },
       "groceries": {
-        "monthlyCost": 750
+        "monthlyCost": 500
       },
       "healthcare": {
         "description": "International concierge medicine, private physician, wellness retreats on Greek islands, anti-aging protocols",
-        "monthlyCost": 550
+        "monthlyCost": 375
       },
       "transportation": {
         "description": "Luxury vehicle, private transfers, seasonal yacht charter for island exploration, helicopter to Mykonos",
-        "monthlyCost": 800
+        "monthlyCost": 550
       },
       "entertainment": {
         "description": "Private island retreats, exclusive Athens social club memberships, art collection from Greek contemporary artists, philanthropy",
-        "monthlyCost": 1700
+        "monthlyCost": 1150
       },
       "utilities": {
-        "monthlyCost": 280
+        "monthlyCost": 200
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, gardener for villa grounds, weekly deep cleaning, personal assistant",
-        "monthlyCost": 1100
+        "monthlyCost": 750
       },
       "luxuryExtras": {
         "description": "Private Greek tutor, personal trainer, yacht marina fees, bespoke island itinerary planning, premium Athens social memberships",
-        "monthlyCost": 1400
+        "monthlyCost": 950
       },
       "lifestyle": "A seafront villa in Vouliagmeni or a restored neoclassical in Plaka, a housekeeper, a cook who comes in several times a week, and a nice car. Business class flights for longer trips, premium healthcare, and regular dining at Athens' best restaurants. You can rent boats for island excursions and travel frequently. The Athenian Riviera offers a coastal lifestyle that compares well to more expensive Mediterranean alternatives."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Ultra-luxury compound in Athens Riviera (Vouliagmeni/Lagonissi) with private beach access, or historic Plaka mansion with museum-quality restoration",
-        "monthlyCost": 8000
+        "monthlyCost": 3550
       },
       "dining": {
         "description": "Full-time private chef team, rare Greek wine collection curation, hosting legendary symposia-style dinner parties, guest chef residencies",
-        "monthlyCost": 4500
+        "monthlyCost": 1975
       },
       "groceries": {
-        "monthlyCost": 1100
+        "monthlyCost": 475
       },
       "healthcare": {
         "description": "Global VIP medical coverage, dedicated wellness team, private island health retreats, cutting-edge longevity programs",
-        "monthlyCost": 1100
+        "monthlyCost": 475
       },
       "transportation": {
         "description": "Chauffeured luxury fleet, private yacht for Aegean cruising, helicopter transfers, private jet charter for Mediterranean travel",
-        "monthlyCost": 2800
+        "monthlyCost": 1225
       },
       "entertainment": {
         "description": "Major archaeological patronage, private island ownership in Cyclades, art foundation, hosting international cultural events at your estate",
-        "monthlyCost": 4000
+        "monthlyCost": 1775
       },
       "utilities": {
-        "monthlyCost": 500
+        "monthlyCost": 225
       },
       "domesticHelp": {
         "description": "Full estate staff: butler, chef team, housekeepers, groundskeeper, yacht crew, personal assistant, estate manager",
-        "monthlyCost": 4200
+        "monthlyCost": 1850
       },
       "luxuryExtras": {
         "description": "Private island development, archaeological sponsorship, art acquisition fund, charitable foundation supporting Greek heritage, bespoke Aegean experiences",
-        "monthlyCost": 5000
+        "monthlyCost": 2200
       },
       "lifestyle": "A premium property on the Athens Riviera with private beach access, a full-time cook, regular housekeeping, and first-class international travel. You dine wherever you like without thinking about the bill and carry comprehensive global health coverage. You can charter boats for Aegean trips regularly. Athens at this budget is very comfortable, though the luxury infrastructure is thinner than in cities like London or Paris."
     }

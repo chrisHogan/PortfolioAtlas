@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Compact studio or room in a shared apartment in Washington Heights, Astoria, or Bushwick — character-rich neighborhoods with long commutes",
-        "monthlyCost": 1600
+        "monthlyCost": 4025
       },
       "dining": {
         "description": "Dollar-slice pizza, Chinatown dumpling houses, halal carts, and bodega breakfast sandwiches — NYC's best cheap eats are legendary",
-        "monthlyCost": 400
+        "monthlyCost": 1000
       },
       "groceries": {
-        "monthlyCost": 400
+        "monthlyCost": 1000
       },
       "healthcare": {
         "description": "ACA marketplace bronze plan through NY State of Health, community health center for routine care",
-        "monthlyCost": 450
+        "monthlyCost": 1125
       },
       "transportation": {
         "description": "Unlimited MetroCard for subway and bus — this is your lifeline across all five boroughs",
-        "monthlyCost": 135
+        "monthlyCost": 325
       },
       "entertainment": {
         "description": "Free museum nights (Met is pay-what-you-wish), Central Park, free concerts in Prospect Park, $30 rush tickets on Broadway",
-        "monthlyCost": 200
+        "monthlyCost": 500
       },
       "utilities": {
-        "monthlyCost": 130
+        "monthlyCost": 325
       },
       "lifestyle": "A tight budget in one of the most expensive cities in the country. You share an apartment or rent a small studio in an outer neighborhood, cook most meals at home, and rely on the subway to get everywhere. The upside is real: free museums, cheap dumplings in Flushing, and Central Park cost nothing. But $3,333 a month in NYC means watching every dollar, and state plus city income taxes shrink your effective budget further."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "True 1-bedroom apartment in Harlem, Park Slope, Long Island City, or the East Village — a real neighborhood with personality",
-        "monthlyCost": 2600
+        "monthlyCost": 5075
       },
       "dining": {
         "description": "Regular dinners at neighborhood bistros and ramen spots, weekend brunch culture, cocktail bars in the West Village",
-        "monthlyCost": 900
+        "monthlyCost": 1775
       },
       "groceries": {
-        "monthlyCost": 550
+        "monthlyCost": 1075
       },
       "healthcare": {
         "description": "ACA silver plan with access to NYU Langone or Mount Sinai network, dental included, manageable deductibles",
-        "monthlyCost": 550
+        "monthlyCost": 1075
       },
       "transportation": {
         "description": "Unlimited MetroCard plus occasional Lyft rides and Citi Bike membership for crosstown trips",
-        "monthlyCost": 200
+        "monthlyCost": 400
       },
       "entertainment": {
         "description": "Broadway shows monthly, MoMA and Whitney memberships, jazz at Village Vanguard, comedy at the Cellar, Mets or Nets games",
-        "monthlyCost": 600
+        "monthlyCost": 1175
       },
       "utilities": {
-        "monthlyCost": 170
+        "monthlyCost": 325
       },
       "lifestyle": "You can afford your own one-bedroom in a good neighborhood like the East Village or Park Slope, eat out several times a week at solid restaurants, and attend Broadway shows or jazz clubs regularly. You live comfortably without extravagance. A Citi Bike membership and MetroCard keep you mobile, and the cultural density means there is always something to do. New York's combined state and city taxes are a real drag on this budget, but the lifestyle is genuinely enjoyable."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Spacious 1-bedroom or small 2-bedroom in the West Village, Upper West Side, or Brooklyn Heights — classic NYC living at its finest",
-        "monthlyCost": 3800
+        "monthlyCost": 5750
       },
       "dining": {
         "description": "Regular tables at Balthazar, Gramercy Tavern, and neighborhood gems. Omakase splurges, wine-paired tasting menus, and supper clubs",
-        "monthlyCost": 1500
+        "monthlyCost": 2300
       },
       "groceries": {
-        "monthlyCost": 700
+        "monthlyCost": 1075
       },
       "healthcare": {
         "description": "Premium PPO with access to top-tier specialists at Memorial Sloan Kettering and Hospital for Special Surgery, concierge primary care",
-        "monthlyCost": 750
+        "monthlyCost": 1150
       },
       "transportation": {
         "description": "MetroCard and Citi Bike plus regular Lyft rides, weekend car service to the Hamptons or Hudson Valley",
-        "monthlyCost": 450
+        "monthlyCost": 675
       },
       "entertainment": {
         "description": "Orchestra seats on Broadway, premium jazz club tables, Met Opera balcony seats, SoHo gallery openings, seasonal Governors Island events",
-        "monthlyCost": 1100
+        "monthlyCost": 1700
       },
       "utilities": {
-        "monthlyCost": 220
+        "monthlyCost": 350
       },
       "lifestyle": "A comfortable apartment in the West Village, Upper West Side, or Brooklyn Heights puts you in a desirable part of the city. You dine at well-regarded restaurants several nights a week, hold museum memberships, and see orchestra-level Broadway shows regularly. Weekend trips to the Hudson Valley or Long Island are feasible. At $10,000 a month, New York is genuinely affluent living, though still not lavish by Manhattan standards."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury doorman 2-bedroom in Tribeca, a brownstone floor-through in the West Village, or a Park Avenue classic six with Central Park proximity",
-        "monthlyCost": 6000
+        "monthlyCost": 8450
       },
       "dining": {
         "description": "Private chef for weeknight dinners, Le Bernardin and Eleven Madison Park for special occasions, membership at exclusive dining clubs",
-        "monthlyCost": 2500
+        "monthlyCost": 3500
       },
       "groceries": {
-        "monthlyCost": 900
+        "monthlyCost": 1275
       },
       "healthcare": {
         "description": "Concierge medicine through Sollis Health or One Medical, full dental and vision, annual executive physical at NYU Langone",
-        "monthlyCost": 1000
+        "monthlyCost": 1400
       },
       "transportation": {
         "description": "Black car service on demand via Blade or private driver, Jitney membership to the Hamptons, occasional helicopter transfers",
-        "monthlyCost": 1000
+        "monthlyCost": 1400
       },
       "entertainment": {
         "description": "Patron-level memberships at the Met and MoMA, private box at Madison Square Garden, front-row galas, exclusive art fair previews at Frieze",
-        "monthlyCost": 1600
+        "monthlyCost": 2225
       },
       "utilities": {
-        "monthlyCost": 350
+        "monthlyCost": 500
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, weekly deep cleaning, laundry service, dog walker if needed",
-        "monthlyCost": 1500
+        "monthlyCost": 2100
       },
       "luxuryExtras": {
         "description": "Equinox+ membership, personal stylist, premium co-working at NeueHouse, annual wardrobe refresh, weekend house in Hudson Valley",
-        "monthlyCost": 1817
+        "monthlyCost": 2550
       },
       "lifestyle": "A large apartment in a doorman building in Tribeca or a floor-through in the West Village. You dine at top restaurants regularly, have a housekeeper several times a week, and fly business class for longer trips. Weekends might mean a rental in the Hamptons or Hudson Valley. This is upper-affluent New York -- you live very well and rarely think about restaurant prices, but you are renting, not buying, in the most expensive neighborhoods."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Trophy penthouse in Tribeca or a full-floor residence on Central Park West with panoramic park and skyline views, white-glove concierge building",
-        "monthlyCost": 12000
+        "monthlyCost": 12525
       },
       "dining": {
         "description": "Full-time private chef with Michelin pedigree, curated wine cellar, exclusive supper club circuit, flying in truffles and wagyu for dinner parties",
-        "monthlyCost": 5000
+        "monthlyCost": 5225
       },
       "groceries": {
-        "monthlyCost": 1500
+        "monthlyCost": 1550
       },
       "healthcare": {
         "description": "Elite concierge medical team, longevity protocols, fly-anywhere specialist access, private suite at NYP or Mount Sinai if ever needed",
-        "monthlyCost": 1500
+        "monthlyCost": 1550
       },
       "transportation": {
         "description": "Full-time private driver with luxury sedan, Blade helicopter membership, NetJets card for East Coast and European hops",
-        "monthlyCost": 3500
+        "monthlyCost": 3675
       },
       "entertainment": {
         "description": "Board seats at major cultural institutions, private art collection curation, major philanthropic galas, art patronage",
-        "monthlyCost": 3500
+        "monthlyCost": 3675
       },
       "utilities": {
-        "monthlyCost": 600
+        "monthlyCost": 625
       },
       "domesticHelp": {
         "description": "Full household staff: estate manager, private chef, housekeeper, personal assistant, and weekend house caretaker",
-        "monthlyCost": 5000
+        "monthlyCost": 5225
       },
       "luxuryExtras": {
         "description": "Hamptons estate maintenance, bespoke tailoring at Savile Row on trips, private art advisor, charitable foundation, interior designer on retainer",
-        "monthlyCost": 4733
+        "monthlyCost": 4950
       },
       "lifestyle": "A premium apartment on Central Park West or a large Tribeca residence in a white-glove building. You have a housekeeper, eat at the city's best restaurants without hesitation, and travel business or first class. A cook comes in several times a week. You support cultural institutions as a donor and attend galas comfortably. This is the life of a successful professional who never worries about money in New York -- wealthy and comfortable, not ostentatious."
     }

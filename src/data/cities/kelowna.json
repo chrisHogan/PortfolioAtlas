@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR apartment in Rutland or the Highway 97 corridor; further from the lake",
-        "monthlyCost": 1150
+        "monthlyCost": 1775
       },
       "dining": {
         "description": "Casual dining and pub meals 2x/week; wine tasting at free or low-cost cellar doors",
-        "monthlyCost": 220
+        "monthlyCost": 325
       },
       "groceries": {
-        "monthlyCost": 400
+        "monthlyCost": 600
       },
       "healthcare": {
         "description": "BC MSP universal coverage; budget for dental, vision, and prescriptions not covered",
-        "monthlyCost": 150
+        "monthlyCost": 225
       },
       "transportation": {
         "description": "Paid-off car with basic insurance; car is necessary for winery visits and ski trips",
-        "monthlyCost": 250
+        "monthlyCost": 375
       },
       "entertainment": {
         "description": "Lake beach access (free), hiking Knox Mountain, community events; occasional winery visit",
-        "monthlyCost": 80
+        "monthlyCost": 125
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 225
       },
       "lifestyle": "This budget works in Kelowna but requires discipline. You will live in Rutland or along the Highway 97 corridor, further from the lake, and cook most meals at home. A car is necessary here — the city is not walkable in the way a European capital is. The free outdoor recreation — beaches, hiking on Knox Mountain, winery cellar-door tastings — is the main payoff. Universal healthcare through BC MSP is a significant cost advantage."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "2BR condo in downtown Kelowna or Pandosy Village with partial lake views",
-        "monthlyCost": 1800
+        "monthlyCost": 2325
       },
       "dining": {
         "description": "Regular winery lunches, farm-to-table dining 3-4x/week, Okanagan culinary scene",
-        "monthlyCost": 500
+        "monthlyCost": 650
       },
       "groceries": {
-        "monthlyCost": 480
+        "monthlyCost": 625
       },
       "healthcare": {
         "description": "BC MSP universal coverage plus extended health benefits for dental, vision, massage",
-        "monthlyCost": 250
+        "monthlyCost": 325
       },
       "transportation": {
         "description": "Reliable AWD vehicle for winter and ski trips, full insurance, seasonal tires",
-        "monthlyCost": 380
+        "monthlyCost": 500
       },
       "entertainment": {
         "description": "Big White ski pass, golf membership, lake kayaking, yoga studio, wine club",
-        "monthlyCost": 300
+        "monthlyCost": 400
       },
       "utilities": {
-        "monthlyCost": 180
+        "monthlyCost": 225
       },
       "lifestyle": "A condo in downtown Kelowna or Pandosy Village with partial lake views, regular winery lunches, a ski pass at Big White for winter, and a reliable AWD vehicle for all seasons. The farm-to-table dining scene has grown significantly, and you can eat out several times a week. Universal healthcare keeps medical costs minimal. Summer evenings on the lake and winter skiing give the lifestyle a distinct seasonal rhythm."
     },
@@ -88,14 +88,14 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "3BR lakefront condo or a home in the Mission or Upper Mission with Okanagan Lake views",
-        "monthlyCost": 3200
+        "monthlyCost": 3175
       },
       "dining": {
         "description": "Fine dining at top wineries like Mission Hill and Quails' Gate; regular multi-course dinners",
         "monthlyCost": 800
       },
       "groceries": {
-        "monthlyCost": 580
+        "monthlyCost": 575
       },
       "healthcare": {
         "description": "Universal coverage plus comprehensive private insurance for enhanced access",
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury lakefront home in the Mission or a vineyard property in the Okanagan",
-        "monthlyCost": 5500
+        "monthlyCost": 4425
       },
       "dining": {
         "description": "Private chef, exclusive winemaker dinners, catered events with Okanagan wines",
-        "monthlyCost": 1300
+        "monthlyCost": 1050
       },
       "groceries": {
-        "monthlyCost": 720
+        "monthlyCost": 575
       },
       "healthcare": {
         "description": "Universal coverage plus executive health programs and premium private supplements",
-        "monthlyCost": 450
+        "monthlyCost": 375
       },
       "transportation": {
         "description": "Luxury SUV, summer sports car, flights from YLW to Vancouver or international",
-        "monthlyCost": 800
+        "monthlyCost": 650
       },
       "entertainment": {
         "description": "Exclusive golf and yacht club memberships, heli-skiing, private wine tours, arts patronage",
-        "monthlyCost": 850
+        "monthlyCost": 675
       },
       "utilities": {
-        "monthlyCost": 350
+        "monthlyCost": 275
       },
       "domesticHelp": {
         "description": "Weekly house cleaning, landscaping, pool and hot tub service, snow removal",
-        "monthlyCost": 700
+        "monthlyCost": 575
       },
       "luxuryExtras": {
         "description": "Vineyard investment, quarterly international travel, boat on Okanagan Lake, ski chalet",
-        "monthlyCost": 1600
+        "monthlyCost": 1300
       },
       "lifestyle": "A lakefront home in the Mission, your own boat on Okanagan Lake, a housekeeper, and regular flights from Kelowna to Vancouver or further. Exclusive winemaker dinners, golf and yacht club memberships, and possibly a small vineyard investment. Universal healthcare keeps medical costs negligible. Kelowna is a small city, so dining and cultural options are limited compared to Vancouver or Toronto, but the lake and mountain setting is hard to match."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Lakefront estate with private dock, or a vineyard compound with guest accommodations",
-        "monthlyCost": 9000
+        "monthlyCost": 5100
       },
       "dining": {
         "description": "Full-time personal chef, exclusive wine experiences, catered harvest parties",
-        "monthlyCost": 2500
+        "monthlyCost": 1425
       },
       "groceries": {
-        "monthlyCost": 950
+        "monthlyCost": 525
       },
       "healthcare": {
         "description": "Universal coverage plus top private supplements, executive wellness, medical travel",
-        "monthlyCost": 650
+        "monthlyCost": 375
       },
       "transportation": {
         "description": "Multiple luxury vehicles, yacht on the lake, private car service, chartered flights",
-        "monthlyCost": 1600
+        "monthlyCost": 900
       },
       "entertainment": {
         "description": "Winery ownership or partnership, international travel, arts patronage, exclusive experiences",
-        "monthlyCost": 2200
+        "monthlyCost": 1250
       },
       "utilities": {
-        "monthlyCost": 500
+        "monthlyCost": 275
       },
       "domesticHelp": {
         "description": "Full-time estate manager, housekeeper, vineyard staff, personal assistant, boat captain",
-        "monthlyCost": 4500
+        "monthlyCost": 2550
       },
       "luxuryExtras": {
         "description": "Working vineyard, multiple properties, first-class travel, art collection, philanthropy",
-        "monthlyCost": 5500
+        "monthlyCost": 3100
       },
       "lifestyle": "A lakefront estate with private dock, a cook who comes in several times a week, regular housekeeping and property management, and first-class international travel. A boat on the lake and possibly a producing vineyard. Kelowna is a small city of about 150,000 people, so at this budget the main constraint is the limited scale of local dining, cultural, and luxury services. Most people at this spending level would use Kelowna as a beautiful home base while traveling frequently."
     }

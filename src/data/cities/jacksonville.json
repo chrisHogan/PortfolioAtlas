@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR apartment in Riverside, Murray Hill, or Arlington",
-        "monthlyCost": 1250
+        "monthlyCost": 1550
       },
       "dining": {
         "description": "Casual seafood shacks, taco spots, and diners 2-3x/week; mostly cooking at home",
-        "monthlyCost": 230
+        "monthlyCost": 275
       },
       "groceries": {
-        "monthlyCost": 370
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "ACA marketplace Silver plan through Florida exchange",
-        "monthlyCost": 530
+        "monthlyCost": 650
       },
       "transportation": {
         "description": "Older paid-off car with insurance and gas; a car is essential in Jacksonville",
-        "monthlyCost": 270
+        "monthlyCost": 325
       },
       "entertainment": {
         "description": "Beach days, Riverwalk strolls, free concerts at the Landing, fishing from piers",
-        "monthlyCost": 80
+        "monthlyCost": 100
       },
       "utilities": {
-        "monthlyCost": 170
+        "monthlyCost": 200
       },
       "lifestyle": "You can rent a one-bedroom in Riverside or Murray Hill and cook most meals at home, with casual seafood and taco spots a couple of times a week. Florida's zero income tax and Jacksonville's lower housing costs compared to Tampa or Miami help stretch the budget. A car is essential given the city's sprawl. Summer A/C bills are a real expense, but the beaches are free and close."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Spacious 2BR in San Marco, Avondale, or a condo near Jacksonville Beach",
-        "monthlyCost": 1900
+        "monthlyCost": 2125
       },
       "dining": {
         "description": "Regular dining at Riverside and beach restaurants; weekend brunch culture",
-        "monthlyCost": 500
+        "monthlyCost": 575
       },
       "groceries": {
-        "monthlyCost": 470
+        "monthlyCost": 525
       },
       "healthcare": {
         "description": "ACA Gold plan with dental and vision add-ons",
-        "monthlyCost": 620
+        "monthlyCost": 700
       },
       "transportation": {
         "description": "Reliable mid-range car with full coverage insurance",
-        "monthlyCost": 380
+        "monthlyCost": 425
       },
       "entertainment": {
         "description": "Jaguars games, surfing gear, gym membership, day trips to St. Augustine and Amelia Island",
-        "monthlyCost": 280
+        "monthlyCost": 325
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 225
       },
       "lifestyle": "You can rent a nice apartment in San Marco or Avondale and eat out several times a week at Riverside restaurants and beach spots. Jaguars games, surfing gear, and weekend trips to St. Augustine or Amelia Island fit the budget. Florida's zero income tax keeps your full withdrawal intact, and Jacksonville's affordability means this budget provides a comfortable beach-adjacent life."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "3BR waterfront home in Ortega, San Jose, or a beachfront condo in Ponte Vedra",
-        "monthlyCost": 2800
+        "monthlyCost": 2700
       },
       "dining": {
         "description": "Top Jacksonville restaurants like Restaurant Orsay, Town Hall, and Cowford Chophouse regularly",
-        "monthlyCost": 800
+        "monthlyCost": 775
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 575
       },
       "healthcare": {
         "description": "Premium private insurance with comprehensive coverage through Mayo Clinic Jacksonville",
-        "monthlyCost": 700
+        "monthlyCost": 675
       },
       "transportation": {
         "description": "Late-model SUV, premium insurance, occasional rideshare",
-        "monthlyCost": 480
+        "monthlyCost": 475
       },
       "entertainment": {
         "description": "Boat ownership, TPC Sawgrass access, premium Jaguars tickets, fishing charters",
-        "monthlyCost": 550
+        "monthlyCost": 525
       },
       "utilities": {
-        "monthlyCost": 280
+        "monthlyCost": 275
       },
       "lifestyle": "You can rent a waterfront home in Ortega or a beachfront condo near Ponte Vedra and dine regularly at Jacksonville's best restaurants. A small boat for the St. Johns River, golf access near TPC Sawgrass, and good private healthcare through Mayo Clinic Jacksonville all fit the budget. Jacksonville's affordability means this tier covers more ground than the same amount in South Florida."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury waterfront estate in Epping Forest, San Jose, or oceanfront in Ponte Vedra Beach",
-        "monthlyCost": 4500
+        "monthlyCost": 3600
       },
       "dining": {
         "description": "Fine dining multiple times weekly, private chef for entertaining, wine club memberships",
-        "monthlyCost": 1300
+        "monthlyCost": 1050
       },
       "groceries": {
-        "monthlyCost": 700
+        "monthlyCost": 550
       },
       "healthcare": {
         "description": "Concierge medicine through Mayo Clinic Jacksonville executive program",
-        "monthlyCost": 1000
+        "monthlyCost": 800
       },
       "transportation": {
         "description": "Luxury vehicle, premium insurance, boat maintenance and marina fees",
-        "monthlyCost": 900
+        "monthlyCost": 725
       },
       "entertainment": {
         "description": "TPC Sawgrass membership, deep-sea fishing, premium sporting events, cultural arts",
-        "monthlyCost": 900
+        "monthlyCost": 725
       },
       "utilities": {
-        "monthlyCost": 380
+        "monthlyCost": 300
       },
       "domesticHelp": {
         "description": "Bi-weekly house cleaning, landscaping, pool and dock maintenance, occasional assistant",
-        "monthlyCost": 800
+        "monthlyCost": 650
       },
       "luxuryExtras": {
         "description": "Quarterly luxury travel, yacht upgrades, premium golf trips, philanthropy",
-        "monthlyCost": 1500
+        "monthlyCost": 1200
       },
       "lifestyle": "A large waterfront home in Epping Forest or oceanfront in Ponte Vedra Beach, regular dining at the city's best restaurants, and a housekeeper who comes several times a week. Concierge medicine through Mayo Clinic Jacksonville, a nice car, and business class flights are standard. TPC Sawgrass access, a boat with marina fees, and Florida's zero income tax make this a strong-value tier."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Oceanfront estate in Ponte Vedra or historic riverfront mansion in Ortega",
-        "monthlyCost": 9000
+        "monthlyCost": 4700
       },
       "dining": {
         "description": "Personal chef, exclusive private dining experiences, catered events at home",
-        "monthlyCost": 2800
+        "monthlyCost": 1475
       },
       "groceries": {
-        "monthlyCost": 1000
+        "monthlyCost": 525
       },
       "healthcare": {
         "description": "Top-tier Mayo Clinic concierge medicine, executive wellness, holistic care",
-        "monthlyCost": 1500
+        "monthlyCost": 800
       },
       "transportation": {
         "description": "Multiple luxury vehicles, yacht with captain, private car service",
-        "monthlyCost": 2000
+        "monthlyCost": 1050
       },
       "entertainment": {
         "description": "Private box at EverBank Stadium, international fishing trips, art collecting, philanthropy",
-        "monthlyCost": 2500
+        "monthlyCost": 1325
       },
       "utilities": {
-        "monthlyCost": 550
+        "monthlyCost": 300
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, personal assistant, boat crew, grounds and pool maintenance team",
-        "monthlyCost": 4200
+        "monthlyCost": 2200
       },
       "luxuryExtras": {
         "description": "First-class international travel, yacht trips through the Keys, charitable foundations, real estate investing",
-        "monthlyCost": 5000
+        "monthlyCost": 2625
       },
       "lifestyle": "Premium oceanfront housing in Ponte Vedra or a historic riverfront property in Ortega, regular fine dining, a cook who comes several times a week, and a housekeeper. First class travel, full concierge healthcare at Mayo Clinic, and a private box at EverBank Stadium for Jaguars games. A well-maintained boat and regular fishing trips are natural additions. Florida's zero income tax at this spending level represents significant annual savings."
     }

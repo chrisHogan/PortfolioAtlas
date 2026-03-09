@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Small studio or 1-bedroom apartment in outer suburbs like Parramatta, Bankstown, or Hurstville — functional but far from the harbor",
-        "monthlyCost": 1100
+        "monthlyCost": 2275
       },
       "dining": {
         "description": "Budget dining at food courts, Vietnamese pho shops in Cabramatta, pub meal specials, and occasional fish and chips",
-        "monthlyCost": 400
+        "monthlyCost": 850
       },
       "groceries": {
-        "monthlyCost": 350
+        "monthlyCost": 725
       },
       "healthcare": {
         "description": "Medicare access for eligible residents covering GP visits and public hospital care; private insurance for shorter wait times is a stretch at this budget",
-        "monthlyCost": 200
+        "monthlyCost": 425
       },
       "transportation": {
         "description": "Opal card for trains, buses, and ferries — Sydney's public transit is extensive but distances are long",
-        "monthlyCost": 150
+        "monthlyCost": 325
       },
       "entertainment": {
         "description": "Free beach days, coastal walks (Bondi to Coogee is free), public parks, and community events",
-        "monthlyCost": 180
+        "monthlyCost": 375
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 325
       },
       "lifestyle": "This budget is tight in Sydney. You will live in the outer suburbs — Parramatta, Bankstown, or Hurstville — and housing takes a large share of the monthly spend. The multicultural food in these areas is excellent and affordable, and the beaches and coastal walks are free. But inner-city neighborhoods are out of reach, and the commute to the harbor or beaches can be long. Medicare helps significantly with healthcare costs."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "1-bedroom or small 2-bedroom apartment in middle-ring suburbs like Newtown, Marrickville, or Manly — walkable neighborhoods with character",
-        "monthlyCost": 1800
+        "monthlyCost": 2975
       },
       "dining": {
         "description": "Regular dining at Sydney's diverse restaurant scene — Thai in Newtown, Italian in Leichhardt, seafood at the Fish Market, and weekend brunch culture",
-        "monthlyCost": 800
+        "monthlyCost": 1325
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 825
       },
       "healthcare": {
         "description": "Medicare plus mid-tier private health insurance for hospital cover and shorter surgical wait times",
-        "monthlyCost": 350
+        "monthlyCost": 575
       },
       "transportation": {
         "description": "Opal card for daily transit, occasional Uber rides, and weekend ferry trips across the harbor",
-        "monthlyCost": 220
+        "monthlyCost": 350
       },
       "entertainment": {
         "description": "Surf lessons, gym membership, cinema, weekend hikes in the Blue Mountains, and live music in Newtown",
-        "monthlyCost": 500
+        "monthlyCost": 825
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 325
       },
       "lifestyle": "A small apartment in Newtown, Marrickville, or Manly puts you in neighborhoods with real character and walkability. You can dine out several times a week across Sydney's diverse restaurant scene, add private health insurance on top of Medicare, and take weekend trips to the Blue Mountains. The budget is comfortable but not lavish — Sydney is an expensive city, and you will still make tradeoffs on housing size and location."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "2-bedroom apartment with harbor or ocean glimpses in sought-after areas like Surry Hills, Potts Point, Bondi, or a Manly beachfront unit",
-        "monthlyCost": 2800
+        "monthlyCost": 3450
       },
       "dining": {
         "description": "Fine dining at hatted restaurants like Quay, Ester, and Fred's; waterfront seafood lunches; and Sydney's thriving wine bar scene",
-        "monthlyCost": 1400
+        "monthlyCost": 1725
       },
       "groceries": {
-        "monthlyCost": 650
+        "monthlyCost": 800
       },
       "healthcare": {
         "description": "Comprehensive private health insurance with top hospital cover; access to leading specialists in Macquarie Street medical precinct",
-        "monthlyCost": 500
+        "monthlyCost": 625
       },
       "transportation": {
         "description": "Mix of transit, Uber, and occasional car rental for Blue Mountains and Hunter Valley weekends",
-        "monthlyCost": 400
+        "monthlyCost": 500
       },
       "entertainment": {
         "description": "Sydney Opera House season tickets, sailing on the harbor, premium gym, wine tours in the Hunter Valley, and weekend escapes to the South Coast",
-        "monthlyCost": 1100
+        "monthlyCost": 1350
       },
       "utilities": {
-        "monthlyCost": 280
+        "monthlyCost": 350
       },
       "lifestyle": "A two-bedroom in Surry Hills, Potts Point, or Bondi with harbor or ocean views. Regular dining at hatted restaurants, Opera House season tickets, and comprehensive private health insurance. Weekend trips to the Hunter Valley or South Coast, a gym membership, and occasional car rentals. This is where Sydney starts to feel genuinely comfortable, with the city's best features — harbor, beaches, restaurants — all accessible."
     },
@@ -118,11 +118,11 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury waterfront apartment in Point Piper, Elizabeth Bay, or Mosman with harbor bridge and Opera House views; alternatively a large Bondi Beach penthouse",
-        "monthlyCost": 5000
+        "monthlyCost": 4950
       },
       "dining": {
         "description": "Regular dining at Sydney's top restaurants — Quay, Tetsuya's, and Bennelong; private dining experiences and premium wine pairings from Barossa and Margaret River",
-        "monthlyCost": 2200
+        "monthlyCost": 2175
       },
       "groceries": {
         "monthlyCost": 800
@@ -148,7 +148,7 @@
       },
       "luxuryExtras": {
         "description": "Bespoke fashion from Australian designers, premium wine cellar, luxury resort weekends in Byron and Hamilton Island, and harbor-side entertaining",
-        "monthlyCost": 2000
+        "monthlyCost": 1975
       },
       "lifestyle": "A waterfront apartment in Point Piper, Elizabeth Bay, or Mosman with harbor views, a leased luxury car, and regular dining at Sydney's best restaurants. A housekeeper comes weekly, and business class domestic flights to Melbourne or Queensland are routine. Premium private healthcare with no-gap cover and regular sailing or harbor outings round out a very comfortable life. Sydney is expensive, so even at this budget, housing takes a meaningful share."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Trophy waterfront home or penthouse in Point Piper, Vaucluse, or Palm Beach with private jetty and panoramic harbor views; optional second property — a Byron Bay hinterland estate or a Great Barrier Reef island retreat",
-        "monthlyCost": 10000
+        "monthlyCost": 7200
       },
       "dining": {
         "description": "Private chef for daily meals, exclusive wine dinners, pop-up experiences by top chefs, and standing tables at every hatted restaurant in the city",
-        "monthlyCost": 4000
+        "monthlyCost": 2900
       },
       "groceries": {
-        "monthlyCost": 1500
+        "monthlyCost": 1075
       },
       "healthcare": {
         "description": "Concierge medical care with 24/7 specialist access, preventive genomic screening, international medical evacuation, and premium wellness programs",
-        "monthlyCost": 1200
+        "monthlyCost": 875
       },
       "transportation": {
         "description": "Luxury vehicle collection, full-time driver, private water taxi account, first-class international flights, and chartered seaplane to Palm Beach",
-        "monthlyCost": 2500
+        "monthlyCost": 1800
       },
       "entertainment": {
         "description": "Platinum memberships at Royal Sydney Golf Club and Cruising Yacht Club, private island getaways on the Reef, art collecting, philanthropic galas, and international luxury travel",
-        "monthlyCost": 4000
+        "monthlyCost": 2900
       },
       "utilities": {
-        "monthlyCost": 700
+        "monthlyCost": 500
       },
       "domesticHelp": {
         "description": "Full household staff: live-in housekeeper, private chef, gardener, pool maintenance, driver, and property manager for second home",
-        "monthlyCost": 3500
+        "monthlyCost": 2525
       },
       "luxuryExtras": {
         "description": "Superyacht syndicate membership, Australian contemporary art collection, bespoke travel to the Kimberley and Antarctic, premium wine vault, and charitable foundation",
-        "monthlyCost": 5500
+        "monthlyCost": 3975
       },
       "lifestyle": "A premium waterfront home in Point Piper or Vaucluse with panoramic harbor views, a cook who comes in several times a week, regular housekeeping, and first-class international travel. Concierge healthcare, a nice car, and regular dining at any restaurant in the city without checking prices. Sydney is one of the most expensive cities in this calculator, so while this budget provides a very comfortable life, housing alone takes a significant share. The harbor setting and outdoor lifestyle are the main rewards."
     }

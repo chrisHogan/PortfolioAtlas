@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR flat in Leith, Gorgie, or Dalry — functional but not central",
-        "monthlyCost": 1000
+        "monthlyCost": 2100
       },
       "dining": {
         "description": "Pub meals and casual dining 2x/week; mostly home cooking",
-        "monthlyCost": 200
+        "monthlyCost": 425
       },
       "groceries": {
-        "monthlyCost": 350
+        "monthlyCost": 725
       },
       "healthcare": {
         "description": "NHS access if registered as resident; covers GP visits and hospital care",
-        "monthlyCost": 100
+        "monthlyCost": 200
       },
       "transportation": {
         "description": "Lothian Buses monthly pass; Edinburgh is very walkable",
-        "monthlyCost": 55
+        "monthlyCost": 125
       },
       "entertainment": {
         "description": "Free museums, Arthur's Seat hikes, free Fringe shows, library membership",
-        "monthlyCost": 100
+        "monthlyCost": 200
       },
       "utilities": {
-        "monthlyCost": 180
+        "monthlyCost": 375
       },
       "lifestyle": "A 1-bedroom flat in Leith, Gorgie, or Dalry -- functional neighborhoods but not central. Cooking most meals at home, with pub meals and casual dining a couple of times a week. Getting around by Lothian Buses and on foot. NHS healthcare covers GP visits and hospital care. Edinburgh's winter heating costs are a real variable expense, and dining out will be limited, but the free museums, Arthur's Seat hikes, and August festival atmosphere are genuine perks."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Charming 2BR flat in Stockbridge, Bruntsfield, or Marchmont with period features",
-        "monthlyCost": 1600
+        "monthlyCost": 2650
       },
       "dining": {
         "description": "Regular dining at gastropubs and mid-range restaurants; whisky bar visits",
-        "monthlyCost": 500
+        "monthlyCost": 825
       },
       "groceries": {
-        "monthlyCost": 400
+        "monthlyCost": 650
       },
       "healthcare": {
         "description": "NHS plus private health insurance for faster specialist access",
-        "monthlyCost": 250
+        "monthlyCost": 425
       },
       "transportation": {
         "description": "Bus pass plus occasional taxis and weekend car hire for Highland trips",
-        "monthlyCost": 150
+        "monthlyCost": 250
       },
       "entertainment": {
         "description": "Festival tickets, rugby at Murrayfield, gym membership, weekend Highland getaways",
-        "monthlyCost": 350
+        "monthlyCost": 575
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 325
       },
       "lifestyle": "A charming 2-bedroom flat in Stockbridge, Bruntsfield, or Marchmont with period features. Dining out at gastropubs and mid-range restaurants several times a week, with whisky bar visits. Private health insurance supplements the NHS for faster specialist access. Weekend car hire for Highland trips and Scottish island getaways. Festival tickets, rugby at Murrayfield, and gym membership. Edinburgh's costs are moderate, so this budget covers a comfortable life with regular dining and travel."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Spacious 3BR Georgian flat in New Town, or a townhouse in Morningside",
-        "monthlyCost": 2800
+        "monthlyCost": 3350
       },
       "dining": {
         "description": "Fine dining including The Kitchin occasionally, regular whisky tastings, brunch culture",
-        "monthlyCost": 900
+        "monthlyCost": 1075
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 600
       },
       "healthcare": {
         "description": "Comprehensive private health insurance with Bupa or AXA PPP",
-        "monthlyCost": 400
+        "monthlyCost": 475
       },
       "transportation": {
         "description": "Owned car for Highland exploring, city bus pass, occasional first-class train to London",
-        "monthlyCost": 400
+        "monthlyCost": 475
       },
       "entertainment": {
         "description": "Premium Fringe tickets, golf at historic courses, ski trips to Cairngorms, theater season passes",
-        "monthlyCost": 600
+        "monthlyCost": 725
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 300
       },
       "lifestyle": "A spacious Georgian flat in New Town or a townhouse in Morningside. Regular dining at top restaurants including occasional meals at places like The Kitchin, a car for Highland exploring, and comprehensive private health insurance. Premium Fringe tickets, golf at historic courses, and first-class train to London. Edinburgh's moderate costs mean this budget delivers a genuinely affluent life with regular travel across Scotland and to the Continent."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Premium 4BR townhouse in New Town or a detached home in The Grange with private garden",
-        "monthlyCost": 4500
+        "monthlyCost": 4225
       },
       "dining": {
         "description": "Regular Michelin dining, private chef for entertaining, exclusive whisky club memberships",
-        "monthlyCost": 1500
+        "monthlyCost": 1400
       },
       "groceries": {
-        "monthlyCost": 700
+        "monthlyCost": 650
       },
       "healthcare": {
         "description": "VIP private healthcare with same-day specialist appointments and international coverage",
-        "monthlyCost": 600
+        "monthlyCost": 550
       },
       "transportation": {
         "description": "Luxury SUV for Highland drives, first-class rail, occasional private hire",
-        "monthlyCost": 700
+        "monthlyCost": 650
       },
       "entertainment": {
         "description": "VIP festival packages, exclusive golf club membership, art collecting, premium travel",
-        "monthlyCost": 1000
+        "monthlyCost": 925
       },
       "utilities": {
-        "monthlyCost": 350
+        "monthlyCost": 325
       },
       "domesticHelp": {
         "description": "Weekly housekeeper, gardener, occasional personal assistant",
-        "monthlyCost": 1000
+        "monthlyCost": 925
       },
       "luxuryExtras": {
         "description": "Highland lodge weekends, first-class European travel, rare whisky collection, philanthropy",
-        "monthlyCost": 2000
+        "monthlyCost": 1850
       },
       "lifestyle": "A premium townhouse in New Town or a detached home in The Grange with a private garden. Regular dining at the city's best restaurants, a cleaner several times a week, and business class for longer flights. A luxury SUV for Highland drives, VIP private healthcare, and membership at an exclusive golf club. Weekend retreats to a rented Highland lodge become routine. Edinburgh's moderate costs mean this budget provides an upper-affluent life with significant room for travel and entertainment."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Grand Georgian townhouse in Heriot Row or a country estate on Edinburgh's outskirts",
-        "monthlyCost": 9000
+        "monthlyCost": 5525
       },
       "dining": {
         "description": "Personal chef, private dining experiences, exclusive supper clubs, catered events",
-        "monthlyCost": 3000
+        "monthlyCost": 1825
       },
       "groceries": {
-        "monthlyCost": 1000
+        "monthlyCost": 600
       },
       "healthcare": {
         "description": "Top-tier concierge medical service with international coverage and wellness retreats",
-        "monthlyCost": 800
+        "monthlyCost": 500
       },
       "transportation": {
         "description": "Multiple luxury vehicles, private driver, first-class international travel, charter flights",
-        "monthlyCost": 2000
+        "monthlyCost": 1225
       },
       "entertainment": {
         "description": "Private festival events, art patronage, Royal Edinburgh Military Tattoo hospitality, yacht charters",
-        "monthlyCost": 3000
+        "monthlyCost": 1825
       },
       "utilities": {
-        "monthlyCost": 500
+        "monthlyCost": 300
       },
       "domesticHelp": {
         "description": "Full household staff including housekeeper, cook, personal assistant, and groundskeeper",
-        "monthlyCost": 5000
+        "monthlyCost": 3050
       },
       "luxuryExtras": {
         "description": "Highland estate access, rare whisky cask investments, private jet travel, philanthropic endeavors",
-        "monthlyCost": 5500
+        "monthlyCost": 3350
       },
       "lifestyle": "A grand Georgian townhouse in Heriot Row or a country property on Edinburgh's outskirts. A cook a few times a week, a full-time housekeeper, and full private healthcare. Business class as default, first class for longer trips. Regular fine dining and a nice car with driver when needed. Edinburgh is affordable enough that this budget far exceeds typical costs -- a Highland retreat property or significant travel spending becomes realistic to fill the margin."
     }

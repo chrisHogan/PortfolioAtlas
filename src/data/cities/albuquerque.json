@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR apartment in the University or Nob Hill neighborhood",
-        "monthlyCost": 950
+        "monthlyCost": 1325
       },
       "dining": {
         "description": "Green chile burgers and New Mexican cuisine 2x/week; mostly home cooking",
-        "monthlyCost": 200
+        "monthlyCost": 275
       },
       "groceries": {
-        "monthlyCost": 340
+        "monthlyCost": 475
       },
       "healthcare": {
         "description": "ACA marketplace Silver plan; New Mexico premiums are moderate",
-        "monthlyCost": 470
+        "monthlyCost": 650
       },
       "transportation": {
         "description": "Paid-off car with basic insurance; ABQ Ride bus system for some errands",
-        "monthlyCost": 220
+        "monthlyCost": 300
       },
       "entertainment": {
         "description": "Hiking the Sandia foothills, free Old Town wandering, public library; occasional film night",
-        "monthlyCost": 80
+        "monthlyCost": 100
       },
       "utilities": {
-        "monthlyCost": 120
+        "monthlyCost": 175
       },
       "lifestyle": "A one-bedroom in the University or Nob Hill area runs under $1,000, which is low for a Western metro of this size. You cook at home most nights and eat out at New Mexican restaurants a couple of times a week for not much money. Hiking the Sandia foothills and exploring Old Town are free. Healthcare is the largest expense, and you need a car, but the overall cost base leaves reasonable breathing room."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "2BR house in Nob Hill or a townhome in the Northeast Heights",
-        "monthlyCost": 1500
+        "monthlyCost": 1900
       },
       "dining": {
         "description": "Regular dining on Central Avenue and in Old Town 3-4x/week; craft breweries",
-        "monthlyCost": 420
+        "monthlyCost": 525
       },
       "groceries": {
-        "monthlyCost": 400
+        "monthlyCost": 500
       },
       "healthcare": {
         "description": "ACA Gold plan with dental and vision; comfortable deductible",
-        "monthlyCost": 570
+        "monthlyCost": 725
       },
       "transportation": {
         "description": "Reliable car for mountain and pueblo day trips, full coverage insurance",
-        "monthlyCost": 330
+        "monthlyCost": 425
       },
       "entertainment": {
         "description": "Sandia Peak Tramway passes, Balloon Fiesta tickets, KiMo Theatre shows, gym membership",
-        "monthlyCost": 230
+        "monthlyCost": 300
       },
       "utilities": {
-        "monthlyCost": 145
+        "monthlyCost": 175
       },
       "lifestyle": "A two-bedroom house in Nob Hill or a townhome in the Northeast Heights, dining out several times a week at Central Avenue restaurants and local breweries, and a Sandia Peak Tramway pass. Weekends involve exploring nearby pueblos, national monuments, and the bosque along the Rio Grande. Good health insurance and a reliable car for day trips are covered with room to spare."
     },
@@ -88,7 +88,7 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "3BR home in the Sandia Heights or North Valley with mountain or bosque views",
-        "monthlyCost": 2600
+        "monthlyCost": 2625
       },
       "dining": {
         "description": "Regular dining at Campo, Seasons, and Los Poblanos; wine events and food festivals",
@@ -99,15 +99,15 @@
       },
       "healthcare": {
         "description": "Premium private insurance with comprehensive coverage and low deductibles",
-        "monthlyCost": 680
+        "monthlyCost": 675
       },
       "transportation": {
         "description": "Late-model SUV for mountain and desert excursions, premium insurance",
-        "monthlyCost": 480
+        "monthlyCost": 475
       },
       "entertainment": {
         "description": "Hot air balloon rides, Santa Fe Opera trips, golf membership, art collecting on Canyon Road",
-        "monthlyCost": 420
+        "monthlyCost": 425
       },
       "utilities": {
         "monthlyCost": 200
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Custom adobe home in Sandia Heights or a luxury North Valley compound with acreage",
-        "monthlyCost": 4800
+        "monthlyCost": 3750
       },
       "dining": {
         "description": "Private chef for weekly dinners, fine dining in ABQ and Santa Fe, farm-to-table experiences",
-        "monthlyCost": 1100
+        "monthlyCost": 875
       },
       "groceries": {
-        "monthlyCost": 650
+        "monthlyCost": 500
       },
       "healthcare": {
         "description": "Concierge medical practice, premium insurance, integrative wellness",
-        "monthlyCost": 880
+        "monthlyCost": 700
       },
       "transportation": {
         "description": "Luxury SUV, second vehicle, flights from ABQ to major hubs",
-        "monthlyCost": 750
+        "monthlyCost": 600
       },
       "entertainment": {
         "description": "Private balloon flights, Santa Fe Opera patronage, art collecting, country club membership",
-        "monthlyCost": 750
+        "monthlyCost": 600
       },
       "utilities": {
-        "monthlyCost": 280
+        "monthlyCost": 225
       },
       "domesticHelp": {
         "description": "Weekly deep cleaning, xeriscape gardening service, property maintenance",
-        "monthlyCost": 600
+        "monthlyCost": 475
       },
       "luxuryExtras": {
         "description": "Art collecting, quarterly travel, Balloon Fiesta VIP experiences, cultural philanthropy",
-        "monthlyCost": 1300
+        "monthlyCost": 1025
       },
       "lifestyle": "A custom adobe home in Sandia Heights or a large North Valley property with acreage, a housekeeper who comes weekly, and concierge healthcare. Regular fine dining in both Albuquerque and Santa Fe, a country club membership, and business class flights for longer travel fit comfortably. Hot air balloon flights, Santa Fe Opera patronage, and occasional art purchases on Canyon Road round out the calendar."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Grand Sandia Heights estate or a sprawling North Valley hacienda with river access",
-        "monthlyCost": 8500
+        "monthlyCost": 4500
       },
       "dining": {
         "description": "Personal chef, exclusive wine dinners, catered events, farm-sourced everything",
-        "monthlyCost": 2400
+        "monthlyCost": 1250
       },
       "groceries": {
-        "monthlyCost": 850
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "Top concierge practice, executive wellness retreats, medical travel for specialists",
-        "monthlyCost": 1200
+        "monthlyCost": 625
       },
       "transportation": {
         "description": "Multiple luxury vehicles, private car service, chartered flights from ABQ",
-        "monthlyCost": 1400
+        "monthlyCost": 725
       },
       "entertainment": {
         "description": "Major arts patronage, private gallery events, international travel, exclusive cultural experiences",
-        "monthlyCost": 2000
+        "monthlyCost": 1050
       },
       "utilities": {
-        "monthlyCost": 420
+        "monthlyCost": 225
       },
       "domesticHelp": {
         "description": "Full-time estate manager, housekeeper, personal assistant, groundskeeper",
-        "monthlyCost": 4000
+        "monthlyCost": 2100
       },
       "luxuryExtras": {
         "description": "Second home in Santa Fe, first-class travel, major art collection, cultural foundation",
-        "monthlyCost": 4800
+        "monthlyCost": 2525
       },
       "lifestyle": "A large Sandia Heights estate or a sprawling North Valley hacienda, a second home in Santa Fe, full-time domestic help including a housekeeper and property manager, and a cook who comes in several times a week. First-class travel, concierge healthcare, and regular fine dining are all comfortable. Albuquerque's low cost base means this budget provides premium living with very large monthly margins."
     }

@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR apartment in the Bench or Garden City area",
-        "monthlyCost": 1200
+        "monthlyCost": 1550
       },
       "dining": {
         "description": "Casual dining 2x/week; local brewpubs and taco spots",
-        "monthlyCost": 200
+        "monthlyCost": 250
       },
       "groceries": {
-        "monthlyCost": 380
+        "monthlyCost": 500
       },
       "healthcare": {
         "description": "ACA marketplace Silver plan through Your Health Idaho exchange",
-        "monthlyCost": 480
+        "monthlyCost": 625
       },
       "transportation": {
         "description": "Paid-off car with basic insurance; Boise is very car-dependent",
-        "monthlyCost": 250
+        "monthlyCost": 325
       },
       "entertainment": {
         "description": "Hiking the Foothills, Greenbelt biking, library; occasional movie night",
-        "monthlyCost": 100
+        "monthlyCost": 125
       },
       "utilities": {
-        "monthlyCost": 140
+        "monthlyCost": 175
       },
       "lifestyle": "A one-bedroom apartment in the Bench or Garden City, a paid-off car, and cooking at home most nights. Healthcare on an ACA Silver plan takes a meaningful share of the budget. Entertainment leans heavily on free public lands -- the Boise Foothills, the Greenbelt, and nearby BLM land are all accessible without spending much. This is a simple, outdoors-focused life with real budget constraints, but manageable if you do not need urban amenities."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "2BR apartment in the North End or a small house in West Boise",
-        "monthlyCost": 1800
+        "monthlyCost": 2150
       },
       "dining": {
         "description": "Dining out 3-4x/week; enjoying Boise's growing restaurant scene on 8th Street",
-        "monthlyCost": 450
+        "monthlyCost": 550
       },
       "groceries": {
-        "monthlyCost": 450
+        "monthlyCost": 550
       },
       "healthcare": {
         "description": "ACA Gold plan with dental; manageable deductibles",
-        "monthlyCost": 580
+        "monthlyCost": 700
       },
       "transportation": {
         "description": "Reliable AWD vehicle for winter driving, full insurance coverage",
-        "monthlyCost": 380
+        "monthlyCost": 450
       },
       "entertainment": {
         "description": "Bogus Basin ski pass, mountain biking gear, Treefort Music Fest, gym membership",
-        "monthlyCost": 250
+        "monthlyCost": 300
       },
       "utilities": {
-        "monthlyCost": 170
+        "monthlyCost": 200
       },
       "lifestyle": "A place in the tree-lined North End or a small house in West Boise, dining out several times a week on 8th Street, and a reliable AWD vehicle for winter driving. A Bogus Basin ski pass fits comfortably in the budget, and weekend road trips to Sun Valley or McCall are within reach. Good health insurance and a gym membership round things out. This is a comfortable, active life with room for hobbies and a few trips each year."
     },
@@ -88,7 +88,7 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "3BR home in the North End, Harris Ranch, or a Foothills property with views",
-        "monthlyCost": 2800
+        "monthlyCost": 2875
       },
       "dining": {
         "description": "Regular fine dining at Chandlers, Richard's, and Boise's best; wine tasting events",
@@ -110,7 +110,7 @@
         "monthlyCost": 450
       },
       "utilities": {
-        "monthlyCost": 220
+        "monthlyCost": 225
       },
       "lifestyle": "A three-bedroom home in Harris Ranch or the North End with Foothills views, regular dinners at Chandlers and Richard's, and a late-model SUV for mountain roads. You can afford premium health insurance, a golf membership, BSU season tickets, and multiple ski passes. Weekend fly-fishing trips and regular travel are within budget. This is a genuinely affluent life by Boise standards, with plenty of flexibility for outdoor pursuits and entertainment."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Custom home in the Boise Foothills or a large estate in Eagle or Meridian",
-        "monthlyCost": 5000
+        "monthlyCost": 4050
       },
       "dining": {
         "description": "Fine dining several times per week, wine club memberships, catered gatherings",
-        "monthlyCost": 1200
+        "monthlyCost": 975
       },
       "groceries": {
-        "monthlyCost": 700
+        "monthlyCost": 575
       },
       "healthcare": {
         "description": "Concierge medicine practice, executive wellness, comprehensive private insurance",
-        "monthlyCost": 900
+        "monthlyCost": 725
       },
       "transportation": {
         "description": "Luxury SUV (Land Rover, Lexus), second vehicle, premium everything",
-        "monthlyCost": 800
+        "monthlyCost": 650
       },
       "entertainment": {
         "description": "Private ski lessons, heli-skiing trips, club memberships, BSU booster level",
-        "monthlyCost": 800
+        "monthlyCost": 650
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 250
       },
       "domesticHelp": {
         "description": "Weekly house cleaning, landscaping, snow removal service",
-        "monthlyCost": 600
+        "monthlyCost": 500
       },
       "luxuryExtras": {
         "description": "Sun Valley cabin weekends, quarterly travel, outdoor gear upgrades, philanthropy",
-        "monthlyCost": 1500
+        "monthlyCost": 1225
       },
       "lifestyle": "A custom home in the Boise Foothills or a large property in Eagle, a housekeeper who comes weekly, and a nice SUV. You dine at the city's best restaurants regularly, hold concierge medical coverage, and fly business class for longer trips. Guided fly-fishing trips, private ski lessons, and a cabin rental in Sun Valley on weekends are all within budget. Idaho's flat income tax rate keeps more of each withdrawal in your pocket."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Trophy property in the Boise Foothills or a compound in Eagle with acreage",
-        "monthlyCost": 9000
+        "monthlyCost": 5125
       },
       "dining": {
         "description": "Personal chef, exclusive wine dinners, catered events and parties",
-        "monthlyCost": 2500
+        "monthlyCost": 1400
       },
       "groceries": {
-        "monthlyCost": 900
+        "monthlyCost": 500
       },
       "healthcare": {
         "description": "Top-tier concierge practice, medical travel for specialists, full wellness team",
-        "monthlyCost": 1200
+        "monthlyCost": 675
       },
       "transportation": {
         "description": "Multiple luxury vehicles, private car service, occasional chartered flights",
-        "monthlyCost": 1500
+        "monthlyCost": 850
       },
       "entertainment": {
         "description": "International ski trips, private river access, art collecting, major philanthropy",
-        "monthlyCost": 2000
+        "monthlyCost": 1125
       },
       "utilities": {
-        "monthlyCost": 450
+        "monthlyCost": 250
       },
       "domesticHelp": {
         "description": "Full-time property manager, housekeeper, personal assistant",
-        "monthlyCost": 4000
+        "monthlyCost": 2250
       },
       "luxuryExtras": {
         "description": "Second home in Sun Valley, first-class international travel, ranch land, angel investing",
-        "monthlyCost": 5000
+        "monthlyCost": 2825
       },
       "lifestyle": "A large property in the Foothills or Eagle with mountain views, a cook who comes in several times a week, full-time domestic help, and top-tier concierge healthcare. You travel first class, keep multiple vehicles, and dine out without thinking about the cost. A second home in Sun Valley is feasible at this budget. Boise is a small enough city that this level of spending puts you among the most comfortable residents in the metro, with significant margin for charitable giving and travel."
     }

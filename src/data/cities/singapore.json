@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Room in a shared HDB flat or a small studio apartment in outlying areas like Woodlands, Jurong, or Tampines",
-        "monthlyCost": 1000
+        "monthlyCost": 2689
       },
       "dining": {
         "description": "Hawker center meals daily — chicken rice, laksa, char kway teow, and roti prata — some of the best food on Earth for $3–5 per meal",
-        "monthlyCost": 400
+        "monthlyCost": 1075
       },
       "groceries": {
-        "monthlyCost": 300
+        "monthlyCost": 800
       },
       "healthcare": {
         "description": "Subsidized polyclinic visits; basic private insurance for hospital coverage; Singapore's public healthcare is excellent and affordable",
-        "monthlyCost": 200
+        "monthlyCost": 550
       },
       "transportation": {
         "description": "MRT and bus system with EZ-Link card — spotless, air-conditioned, and covering the entire island",
-        "monthlyCost": 100
+        "monthlyCost": 275
       },
       "entertainment": {
         "description": "Gardens by the Bay (free outdoor areas), East Coast Park cycling, free community events, and hawker center socializing",
-        "monthlyCost": 200
+        "monthlyCost": 550
       },
       "utilities": {
-        "monthlyCost": 120
+        "monthlyCost": 325
       },
       "lifestyle": "A room in a shared HDB flat or a small studio in an outlying area like Woodlands or Jurong. Eating mostly at hawker centers, where the food is genuinely excellent for $3-5 per meal. Getting around on the spotless MRT and bus system. Basic health coverage through Singapore's subsidized polyclinic system. This is a tight budget for Singapore — housing is the real squeeze, and you will need to be disciplined about restaurant meals, taxis, and entertainment. But the safety, transit, and food quality are hard to match anywhere."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Comfortable 1-bedroom or small 2-bedroom HDB flat or entry-level condo in areas like Toa Payoh, Queenstown, or Tiong Bahru",
-        "monthlyCost": 1800
+        "monthlyCost": 3634
       },
       "dining": {
         "description": "Mix of hawker centers, coffee shops, and mid-range restaurants — omakase at neighborhood sushi bars, seafood at East Coast, and weekend dim sum",
-        "monthlyCost": 800
+        "monthlyCost": 1625
       },
       "groceries": {
-        "monthlyCost": 450
+        "monthlyCost": 925
       },
       "healthcare": {
         "description": "Comprehensive private insurance (Integrated Shield Plan upgrade); access to excellent private hospitals like Mount Elizabeth and Gleneagles",
-        "monthlyCost": 350
+        "monthlyCost": 700
       },
       "transportation": {
         "description": "MRT and bus daily, supplemented by Grab rides; no need for a car — Singapore is designed to be car-free",
-        "monthlyCost": 180
+        "monthlyCost": 375
       },
       "entertainment": {
         "description": "Swimming, gym membership, weekend trips to Sentosa, cinema, museum visits, and budget flights to regional destinations",
-        "monthlyCost": 550
+        "monthlyCost": 1125
       },
       "utilities": {
-        "monthlyCost": 180
+        "monthlyCost": 375
       },
       "lifestyle": "A comfortable 1-bedroom or small 2-bedroom HDB flat or entry-level condo in a neighborhood like Tiong Bahru, Toa Payoh, or Queenstown. A mix of hawker centers and mid-range restaurants — neighborhood sushi bars, seafood at East Coast, and weekend dim sum. MRT and bus daily, supplemented by Grab. Comprehensive private health insurance at hospitals like Mount Elizabeth. Cheap weekend flights to Bali or Langkawi. Life is comfortable and efficient, though this budget is middle-class by Singapore standards, not affluent."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "2-bedroom condo with pool and gym in desirable districts like River Valley, Holland Village, or Bukit Timah",
-        "monthlyCost": 2800
+        "monthlyCost": 4425
       },
       "dining": {
         "description": "Regular restaurant dining at neighborhood gems and popular spots like Burnt Ends and Labyrinth, mixed with beloved hawker favorites; nice meals out several times a week without fine dining every night",
-        "monthlyCost": 1200
+        "monthlyCost": 1900
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 950
       },
       "healthcare": {
         "description": "Premium private insurance with full hospital and specialist coverage; executive health screening packages at Raffles Medical",
-        "monthlyCost": 500
+        "monthlyCost": 800
       },
       "transportation": {
         "description": "MRT and regular Grab rides; occasional luxury taxi; budget flights around Southeast Asia for weekend getaways",
-        "monthlyCost": 350
+        "monthlyCost": 550
       },
       "entertainment": {
         "description": "Marina Bay Sands events, Singapore Symphony Orchestra, premium gym, diving trips to Tioman, and frequent regional travel",
-        "monthlyCost": 1100
+        "monthlyCost": 1725
       },
       "utilities": {
-        "monthlyCost": 280
+        "monthlyCost": 450
       },
       "lifestyle": "A 2-bedroom condo with pool and gym in a desirable neighborhood like River Valley, Holland Village, or Bukit Timah. Dining at good restaurants several times a week without stress, though regular fine dining would stretch things. MRT and regular Grab rides. Premium private health insurance with executive screening packages. Budget flights around Southeast Asia for weekend getaways. This is Singapore's sweet spot — genuinely comfortable, though the city's high costs mean this does not feel lavish."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury condo or landed property in prime District 9, 10, or 11 — Orchard, Tanglin, or a black-and-white colonial bungalow in Dempsey",
-        "monthlyCost": 5000
+        "monthlyCost": 6201
       },
       "dining": {
         "description": "Standing reservations at Odette, Burnt Ends, and Les Amis; private dining experiences; imported Japanese wagyu and French wine pairings",
-        "monthlyCost": 2500
+        "monthlyCost": 3125
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 1000
       },
       "healthcare": {
         "description": "VIP healthcare with concierge services at Mount Elizabeth; annual comprehensive screenings; international medical evacuation coverage",
-        "monthlyCost": 700
+        "monthlyCost": 875
       },
       "transportation": {
         "description": "Hired car with driver (owning a car in Singapore costs $100K+ in COE alone); business class flights around Asia",
-        "monthlyCost": 900
+        "monthlyCost": 1125
       },
       "entertainment": {
         "description": "Singapore Island Country Club membership, yacht charters to Indonesian islands, Formula 1 Grand Prix paddock access, and luxury resort weekends across the region",
-        "monthlyCost": 1800
+        "monthlyCost": 2250
       },
       "utilities": {
-        "monthlyCost": 400
+        "monthlyCost": 500
       },
       "domesticHelp": {
         "description": "Live-in foreign domestic worker (common and well-regulated in Singapore), plus weekly professional cleaning service",
-        "monthlyCost": 800
+        "monthlyCost": 1000
       },
       "luxuryExtras": {
         "description": "Bespoke tailoring on Savile Row visits, premium whisky and wine collection, luxury island resort weekends, and art acquisitions at Singapore Art Week",
-        "monthlyCost": 2000
+        "monthlyCost": 2500
       },
       "lifestyle": "A luxury condo or landed property in a prime district — Orchard, Tanglin, or a colonial bungalow area like Dempsey. Regular dining at Singapore's top restaurants, with a hired car and driver since owning a car in Singapore costs over $100K in registration fees alone. A live-in domestic helper, which is common and well-regulated here, plus business class flights around Asia and VIP healthcare at Mount Elizabeth. Genuinely comfortable and high quality, though Singapore's costs mean even this budget requires some choices — it does not feel unlimited."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Good Class Bungalow (GCB) in Nassim Road or Cluny Park — Singapore's most exclusive landed properties — or a trophy penthouse at Marina Bay or Orchard with skyline views",
-        "monthlyCost": 10000
+        "monthlyCost": 9140
       },
       "dining": {
         "description": "Private chef sourcing from global suppliers, exclusive supper clubs, standing tables at every top restaurant, and curated wine dinners with rare vintages",
-        "monthlyCost": 4500
+        "monthlyCost": 4100
       },
       "groceries": {
-        "monthlyCost": 1500
+        "monthlyCost": 1375
       },
       "healthcare": {
         "description": "Concierge medical team with 24/7 specialist access, cutting-edge preventive diagnostics, global coverage, and premium wellness retreats",
-        "monthlyCost": 1200
+        "monthlyCost": 1075
       },
       "transportation": {
         "description": "Luxury vehicle with full-time driver (COE and all costs covered), first-class international flights, private jet charters for regional travel, and yacht transfers",
-        "monthlyCost": 3000
+        "monthlyCost": 2725
       },
       "entertainment": {
         "description": "Elite memberships at Sentosa Golf Club and Singapore Polo Club, superyacht access, private art viewings, philanthropic galas, and international luxury travel",
-        "monthlyCost": 4000
+        "monthlyCost": 3650
       },
       "utilities": {
-        "monthlyCost": 700
+        "monthlyCost": 625
       },
       "domesticHelp": {
         "description": "Full household staff: live-in helper, private chef, driver, gardener, and personal executive assistant",
-        "monthlyCost": 2800
+        "monthlyCost": 2550
       },
       "luxuryExtras": {
         "description": "Contemporary Asian art collection, bespoke global travel, Sentosa waterfront entertaining, premium wine vault, rare watch collection, and philanthropic foundation",
-        "monthlyCost": 5500
+        "monthlyCost": 5000
       },
       "lifestyle": "A large premium property — a Good Class Bungalow in Nassim or Cluny, or a penthouse at Marina Bay with skyline views. A live-in helper, a cook a few times a week, and a full-time driver with a luxury car. First-class international flights. Concierge medical care with 24/7 specialist access. Regular fine dining as routine. Singapore's extreme housing costs absorb a significant share even at this level, so while life is very comfortable and frictionless, this is upper-affluent rather than limitless by local standards."
     }

@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR apartment in Hialeah, Kendall, or outer Little Havana",
-        "monthlyCost": 1550
+        "monthlyCost": 2375
       },
       "dining": {
         "description": "Cuban ventanitas and food trucks 2-3x/week; mostly cooking at home",
-        "monthlyCost": 250
+        "monthlyCost": 375
       },
       "groceries": {
-        "monthlyCost": 400
+        "monthlyCost": 600
       },
       "healthcare": {
         "description": "ACA marketplace Silver plan; Florida premiums can be steep without subsidies",
-        "monthlyCost": 550
+        "monthlyCost": 825
       },
       "transportation": {
         "description": "Paid-off car with basic insurance and gas; a car is essential outside downtown",
-        "monthlyCost": 280
+        "monthlyCost": 425
       },
       "entertainment": {
         "description": "Free beach days at South Beach and Key Biscayne, Wynwood street art walks, public parks",
-        "monthlyCost": 80
+        "monthlyCost": 125
       },
       "utilities": {
-        "monthlyCost": 180
+        "monthlyCost": 275
       },
       "lifestyle": "A modest apartment in Hialeah or Kendall, well outside the beach and Brickell areas. You need a car, and housing costs eat up nearly half the budget. Cuban ventanitas and food trucks keep dining cheap, and the beach is free. Florida's zero state income tax is a real advantage at this budget level -- every dollar of your $3,333 monthly withdrawal stays with you. Summer A/C bills are a significant expense, but you never pay for heat."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "2BR apartment in Coral Gables, Coconut Grove, or a condo in Edgewater",
-        "monthlyCost": 2400
+        "monthlyCost": 3200
       },
       "dining": {
         "description": "Regular dining in Wynwood and Brickell 3-4x/week; weekend brunch at waterfront cafes",
-        "monthlyCost": 600
+        "monthlyCost": 800
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 675
       },
       "healthcare": {
         "description": "ACA Gold plan with dental and vision; access to Baptist Health and Jackson Memorial",
-        "monthlyCost": 650
+        "monthlyCost": 875
       },
       "transportation": {
         "description": "Reliable car with full coverage; Metrorail for downtown trips",
-        "monthlyCost": 400
+        "monthlyCost": 525
       },
       "entertainment": {
         "description": "Heat games occasionally, Perez Art Museum, gym membership, salsa nights in Little Havana",
-        "monthlyCost": 300
+        "monthlyCost": 400
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 275
       },
       "lifestyle": "You can afford a comfortable apartment in Coral Gables, Coconut Grove, or Edgewater. You eat out several times a week in Wynwood and Brickell, keep a reliable car, and have room in the budget for Heat games and weekend drives to the Keys. No state income tax means the full $6,667 monthly budget is available to spend. The city's Latin-influenced dining and nightlife scene is accessible without stretching."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "3BR home in Coconut Grove, waterfront condo in Brickell, or a house in Coral Gables",
-        "monthlyCost": 3800
+        "monthlyCost": 4175
       },
       "dining": {
         "description": "Fine dining at Mandolin, Ariete, and KYU; regular date nights along the waterfront",
-        "monthlyCost": 950
+        "monthlyCost": 1050
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 650
       },
       "healthcare": {
         "description": "Premium private health insurance with comprehensive coverage and low deductibles",
-        "monthlyCost": 750
+        "monthlyCost": 825
       },
       "transportation": {
         "description": "Late-model SUV or sedan, premium insurance, occasional Uber Black for nights out",
-        "monthlyCost": 550
+        "monthlyCost": 600
       },
       "entertainment": {
         "description": "Heat season tickets, Art Basel events, boat rental days on Biscayne Bay, premium gym",
-        "monthlyCost": 550
+        "monthlyCost": 600
       },
       "utilities": {
-        "monthlyCost": 280
+        "monthlyCost": 300
       },
       "lifestyle": "A nice house in Coconut Grove or a waterfront condo in Brickell. You dine at good restaurants regularly, drive a late-model car, and have budget for boat rental days on Biscayne Bay and weekend trips to the Keys. At $10,000 a month with no state income tax, Miami is genuinely comfortable. Art Basel events, Heat season tickets, and a premium gym membership all fit within the budget."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury waterfront condo in Brickell Key, a home on Key Biscayne, or a Coral Gables estate",
-        "monthlyCost": 5500
+        "monthlyCost": 5725
       },
       "dining": {
         "description": "Private chef for entertaining, fine dining at Zuma, Komodo, and Juvia multiple nights per week",
-        "monthlyCost": 1500
+        "monthlyCost": 1550
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 825
       },
       "healthcare": {
         "description": "Concierge medicine at Baptist Health, executive health screenings, premium private insurance",
-        "monthlyCost": 1000
+        "monthlyCost": 1025
       },
       "transportation": {
         "description": "Luxury vehicle, boat slip at a Biscayne Bay marina, occasional private car service",
-        "monthlyCost": 900
+        "monthlyCost": 925
       },
       "entertainment": {
         "description": "Courtside Heat tickets, VIP Art Basel access, yacht days, country club membership, deep-sea fishing",
-        "monthlyCost": 1000
+        "monthlyCost": 1025
       },
       "utilities": {
         "monthlyCost": 350
       },
       "domesticHelp": {
         "description": "Weekly house cleaning, pool and landscaping service, hurricane preparation service",
-        "monthlyCost": 800
+        "monthlyCost": 825
       },
       "luxuryExtras": {
         "description": "Quarterly Caribbean travel, boat ownership costs, spa retreats, art collecting",
-        "monthlyCost": 1500
+        "monthlyCost": 1550
       },
       "lifestyle": "A luxury waterfront condo on Brickell Key or a house on Key Biscayne. You have a housekeeper, a nice car, and a boat slip at a Biscayne Bay marina. Dining at top restaurants is routine, and business class flights to the Caribbean or Latin America are easy weekend additions. Florida's zero income tax is a major advantage at this budget -- the full $16,667 monthly withdrawal goes toward lifestyle rather than state taxes."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Star Island estate, Fisher Island residence, or penthouse in a luxury Brickell tower",
-        "monthlyCost": 11000
+        "monthlyCost": 7850
       },
       "dining": {
         "description": "Full-time personal chef, catered events, exclusive restaurant experiences, private wine dinners",
-        "monthlyCost": 3000
+        "monthlyCost": 2150
       },
       "groceries": {
-        "monthlyCost": 1000
+        "monthlyCost": 725
       },
       "healthcare": {
         "description": "Top concierge medical practice, executive wellness programs, specialist access at UHealth",
-        "monthlyCost": 1500
+        "monthlyCost": 1075
       },
       "transportation": {
         "description": "Multiple luxury vehicles, yacht with captain, private car service, chartered flights from Opa-locka",
-        "monthlyCost": 2000
+        "monthlyCost": 1425
       },
       "entertainment": {
         "description": "Luxury box at Hard Rock Stadium, major arts philanthropy, international travel, yacht cruises to the Bahamas",
-        "monthlyCost": 2500
+        "monthlyCost": 1775
       },
       "utilities": {
-        "monthlyCost": 500
+        "monthlyCost": 350
       },
       "domesticHelp": {
         "description": "Full-time estate manager, housekeeper, personal assistant, boat captain, pool and grounds crew",
-        "monthlyCost": 4500
+        "monthlyCost": 3225
       },
       "luxuryExtras": {
         "description": "Yacht ownership, first-class international travel, real estate investing, philanthropic giving, art collecting",
-        "monthlyCost": 5000
+        "monthlyCost": 3575
       },
       "lifestyle": "A large residence on Fisher Island or a penthouse in a luxury Brickell tower. You have a full-time housekeeper, a cook who comes in several times a week, and a personal assistant. You dine wherever you want, travel first class, and own a boat for day trips on Biscayne Bay. Florida's zero state income tax means the full $33,333 monthly budget is available for spending. The lifestyle is wealthy and comfortable, with year-round warm weather and easy access to the Caribbean."
     }

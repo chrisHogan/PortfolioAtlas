@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Modern 1-bedroom condo in Gurney Drive area or a character-filled shophouse apartment in the heritage zone",
-        "monthlyCost": 450
+        "monthlyCost": 725
       },
       "dining": {
         "description": "World-famous hawker food daily — char kway teow, laksa, and nasi kandar for $1-3 per meal; kopitiam coffee culture",
-        "monthlyCost": 300
+        "monthlyCost": 450
       },
       "groceries": {
-        "monthlyCost": 200
+        "monthlyCost": 300
       },
       "healthcare": {
         "description": "Basic private insurance with access to Penang's excellent hospitals like Gleneagles and Loh Guan Lye",
-        "monthlyCost": 120
+        "monthlyCost": 175
       },
       "transportation": {
         "description": "Grab rides across the island, RapidPenang bus system, bicycle for heritage zone exploration",
-        "monthlyCost": 70
+        "monthlyCost": 100
       },
       "entertainment": {
         "description": "Heritage trail walking, temple visits, Penang Hill hikes, street art hunting, beach days at Batu Ferringhi",
-        "monthlyCost": 180
+        "monthlyCost": 275
       },
       "utilities": {
-        "monthlyCost": 80
+        "monthlyCost": 125
       },
       "lifestyle": "A modern 1-bedroom condo in the Gurney Drive area or a character-filled apartment in the heritage zone. Eating mostly at hawker stalls — char kway teow, laksa, and nasi kandar for a couple of dollars per meal. Getting around by Grab and bus. Basic private health insurance at Penang's good hospitals. English is widely spoken, which makes daily life straightforward. Comfortable and affordable, though the island pace is slow and options for Western groceries are limited."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Spacious 2-bedroom condo with sea views in Tanjung Tokong or a beautifully restored heritage shophouse",
-        "monthlyCost": 800
+        "monthlyCost": 875
       },
       "dining": {
         "description": "Hawker favorites plus regular meals at upscale restaurants, weekend dim sum feasts, craft cocktail bars",
-        "monthlyCost": 600
+        "monthlyCost": 675
       },
       "groceries": {
-        "monthlyCost": 350
+        "monthlyCost": 400
       },
       "healthcare": {
         "description": "Comprehensive private insurance covering Gleneagles and Island Hospital, dental and vision included",
-        "monthlyCost": 220
+        "monthlyCost": 250
       },
       "transportation": {
         "description": "Own scooter or car, regular Grab rides, weekend ferry trips to Langkawi",
-        "monthlyCost": 150
+        "monthlyCost": 175
       },
       "entertainment": {
         "description": "Gym membership, diving trips to Pulau Payar, cooking classes, weekend trips to Cameron Highlands and Langkawi",
-        "monthlyCost": 500
+        "monthlyCost": 550
       },
       "utilities": {
-        "monthlyCost": 120
+        "monthlyCost": 125
       },
       "lifestyle": "A spacious 2-bedroom condo with sea views in Tanjung Tokong, or a restored heritage shophouse. Dining out regularly at both hawker favorites and upscale restaurants without watching the bill. Own scooter or car plus regular Grab rides. Comprehensive private health insurance at Gleneagles and Island Hospital. Weekend trips to Langkawi by ferry or to Cameron Highlands by car. Life is comfortable and you have good variety in dining and activities."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Luxury 3-bedroom seafront condo in Gurney Drive or a grand restored colonial bungalow with tropical garden",
-        "monthlyCost": 1500
+        "monthlyCost": 1175
       },
       "dining": {
         "description": "Fine dining at Penang's top restaurants, private cooking experiences, curated food tours, weekend brunches at heritage hotels",
-        "monthlyCost": 1100
+        "monthlyCost": 875
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 400
       },
       "healthcare": {
         "description": "Premium international insurance, executive health screenings at Gleneagles, wellness and preventive programs",
-        "monthlyCost": 350
+        "monthlyCost": 275
       },
       "transportation": {
         "description": "Leased car, Grab for evenings, domestic flights to KL and Langkawi, weekend road trips to Ipoh",
-        "monthlyCost": 300
+        "monthlyCost": 225
       },
       "entertainment": {
         "description": "Golf at Penang Golf Club, yacht club membership, cultural festival VIP access, scuba diving expeditions, spa retreats",
-        "monthlyCost": 900
+        "monthlyCost": 700
       },
       "utilities": {
-        "monthlyCost": 180
+        "monthlyCost": 150
       },
       "lifestyle": "A large seafront condo in Gurney Drive or a restored colonial bungalow with tropical garden. Regular dining at Penang's best restaurants alongside the hawker stalls you still prefer for lunch. A leased car for daily use and weekend road trips to Ipoh. Premium international health insurance with executive screenings at Gleneagles. Golf at Penang Golf Club. This is a genuinely affluent lifestyle on an island where costs are moderate — very little feels out of reach."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Stunning waterfront penthouse on Gurney Drive or a sprawling heritage mansion with pool in the heart of George Town",
-        "monthlyCost": 2800
+        "monthlyCost": 1550
       },
       "dining": {
         "description": "Private chef preparing multicultural Malaysian cuisine, regular fine dining, curated wine collection, hosted dinner parties",
-        "monthlyCost": 1800
+        "monthlyCost": 1000
       },
       "groceries": {
-        "monthlyCost": 650
+        "monthlyCost": 350
       },
       "healthcare": {
         "description": "VIP international coverage, personal physician, Gleneagles concierge access, wellness and longevity programs",
-        "monthlyCost": 500
+        "monthlyCost": 275
       },
       "transportation": {
         "description": "Luxury vehicle with part-time driver, domestic flights, private ferry charters to islands",
-        "monthlyCost": 600
+        "monthlyCost": 325
       },
       "entertainment": {
         "description": "Yacht charters around Langkawi, premium golf memberships, art collecting in heritage galleries, VIP cultural festival access",
-        "monthlyCost": 1500
+        "monthlyCost": 825
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 125
       },
       "domesticHelp": {
         "description": "Full-time housekeeper/cook, part-time gardener, weekly deep cleaning and laundry service",
-        "monthlyCost": 600
+        "monthlyCost": 325
       },
       "luxuryExtras": {
         "description": "Langkawi beach villa rental, private Malay and Mandarin tutors, bespoke batik wardrobe, premium spa memberships, charitable projects",
-        "monthlyCost": 1500
+        "monthlyCost": 825
       },
       "lifestyle": "A waterfront penthouse on Gurney Drive or a large heritage mansion with pool in central George Town. A full-time housekeeper and cook. A luxury car with a part-time driver. Regular dining at the best restaurants and domestic flights to KL and Langkawi. Premium VIP health coverage with concierge access at Gleneagles. This budget goes very far on Penang — daily life is very comfortable, though the island's fine-dining and entertainment options are more limited than KL or Singapore."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Grand waterfront estate or landmark heritage compound in George Town, plus a private retreat villa on Langkawi",
-        "monthlyCost": 5500
+        "monthlyCost": 1875
       },
       "dining": {
         "description": "Private chef team spanning Malay, Chinese, Indian, and Western cuisines, legendary multicultural dinner parties, rare wine cellar",
-        "monthlyCost": 3500
+        "monthlyCost": 1225
       },
       "groceries": {
-        "monthlyCost": 900
+        "monthlyCost": 300
       },
       "healthcare": {
         "description": "Global concierge medicine, dedicated medical team, fly-anywhere coverage, longevity and biohacking programs",
-        "monthlyCost": 800
+        "monthlyCost": 275
       },
       "transportation": {
         "description": "Luxury vehicle collection, full-time chauffeur, private yacht, charter flights to KL and regional destinations",
-        "monthlyCost": 2000
+        "monthlyCost": 700
       },
       "entertainment": {
         "description": "Art patronage and gallery ownership, private island experiences, philanthropic foundations, international travel, cultural festival sponsorship",
-        "monthlyCost": 3500
+        "monthlyCost": 1225
       },
       "utilities": {
-        "monthlyCost": 400
+        "monthlyCost": 150
       },
       "domesticHelp": {
         "description": "Full household staff: chef team, housekeepers, gardener, driver, property manager for both Penang and Langkawi homes",
-        "monthlyCost": 2500
+        "monthlyCost": 875
       },
       "luxuryExtras": {
         "description": "Langkawi retreat management, heritage building restoration projects, charitable foundation for Penang arts and education, bespoke yacht itineraries through the Andaman Sea",
-        "monthlyCost": 5000
+        "monthlyCost": 1725
       },
       "lifestyle": "A grand waterfront estate or landmark heritage property in George Town, with potentially a retreat villa on Langkawi. A housekeeper, a cook a few times a week, a driver, and a gardener across both properties. First-class flights regionally and business class for longer trips. Concierge global healthcare. This is far more than George Town's market demands — you live at the very top of what the island offers, but Penang remains a small, relaxed island with limited luxury infrastructure compared to major cities."
     }

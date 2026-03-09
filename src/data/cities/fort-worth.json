@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR apartment in Near Southside, Fairmount, or Arlington Heights",
-        "monthlyCost": 1200
+        "monthlyCost": 1550
       },
       "dining": {
         "description": "BBQ joints, Tex-Mex spots, and casual diners 2-3x/week; mostly cooking at home",
-        "monthlyCost": 230
+        "monthlyCost": 300
       },
       "groceries": {
-        "monthlyCost": 370
+        "monthlyCost": 475
       },
       "healthcare": {
         "description": "ACA marketplace Silver plan; Texas has no state exchange so costs run higher",
-        "monthlyCost": 540
+        "monthlyCost": 700
       },
       "transportation": {
         "description": "Older paid-off car with insurance and gas; essential for getting around",
-        "monthlyCost": 260
+        "monthlyCost": 325
       },
       "entertainment": {
         "description": "Free Stockyards cattle drives, Trinity River trails, Kimbell Art Museum free collection",
-        "monthlyCost": 80
+        "monthlyCost": 100
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 200
       },
       "lifestyle": "A one-bedroom in Near Southside, Fairmount, or Arlington Heights runs about $1,200, and you cook at home most nights with BBQ or Tex-Mex out a couple of times a week. The Stockyards cattle drives and the Kimbell Art Museum's permanent collection are free. No state income tax helps, but summer A/C bills are a meaningful expense. Overall a manageable budget with some breathing room."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Nice 2BR in the Cultural District, Southside, or a house in Ridglea Hills",
-        "monthlyCost": 1800
+        "monthlyCost": 2150
       },
       "dining": {
         "description": "Regular dining at Magnolia Avenue restaurants, Stockyards steakhouses, Sundance Square spots",
-        "monthlyCost": 500
+        "monthlyCost": 600
       },
       "groceries": {
-        "monthlyCost": 470
+        "monthlyCost": 550
       },
       "healthcare": {
         "description": "ACA Gold plan with dental and vision add-ons",
-        "monthlyCost": 640
+        "monthlyCost": 750
       },
       "transportation": {
         "description": "Reliable mid-range truck or SUV with full coverage insurance",
-        "monthlyCost": 380
+        "monthlyCost": 450
       },
       "entertainment": {
         "description": "TCU football, rodeo tickets, Kimbell and Modern memberships, live music at Billy Bob's",
-        "monthlyCost": 280
+        "monthlyCost": 325
       },
       "utilities": {
-        "monthlyCost": 180
+        "monthlyCost": 225
       },
       "lifestyle": "A nice two-bedroom in the Cultural District or Ridglea Hills, regular dining along Magnolia Avenue and at Stockyards steakhouses, and TCU football tickets. A reliable truck or SUV with full coverage is covered. Weekend drives to the Hill Country or trips to Big Bend are affordable. No state income tax and moderate housing costs leave a healthy monthly margin."
     },
@@ -88,18 +88,18 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "3BR home in Rivercrest, Westover Hills, or a luxury condo downtown",
-        "monthlyCost": 2800
+        "monthlyCost": 2750
       },
       "dining": {
         "description": "Top Fort Worth restaurants like Grace, Clay Pigeon, and Lonesome Dove regularly",
         "monthlyCost": 850
       },
       "groceries": {
-        "monthlyCost": 580
+        "monthlyCost": 575
       },
       "healthcare": {
         "description": "Premium private insurance with access to top DFW medical centers",
-        "monthlyCost": 720
+        "monthlyCost": 725
       },
       "transportation": {
         "description": "Late-model truck or luxury SUV, premium insurance, occasional rideshare",
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury estate in Westover Hills, Rivercrest, or a penthouse in the West 7th district",
-        "monthlyCost": 4500
+        "monthlyCost": 3725
       },
       "dining": {
         "description": "Fine dining multiple times weekly, private chef for ranch-style entertaining, wine club",
-        "monthlyCost": 1400
+        "monthlyCost": 1150
       },
       "groceries": {
-        "monthlyCost": 700
+        "monthlyCost": 575
       },
       "healthcare": {
         "description": "Concierge medicine through Baylor Scott & White or Texas Health executive program",
-        "monthlyCost": 1000
+        "monthlyCost": 825
       },
       "transportation": {
         "description": "Luxury truck and sedan, premium insurance, detailing service",
-        "monthlyCost": 800
+        "monthlyCost": 675
       },
       "entertainment": {
         "description": "Country club membership, premium Cowboys and Rangers tickets, horse-related activities, cultural patronage",
-        "monthlyCost": 950
+        "monthlyCost": 775
       },
       "utilities": {
-        "monthlyCost": 350
+        "monthlyCost": 300
       },
       "domesticHelp": {
         "description": "Bi-weekly house cleaning, landscaping, pool service, occasional personal assistant",
-        "monthlyCost": 750
+        "monthlyCost": 625
       },
       "luxuryExtras": {
         "description": "Ranch weekends, luxury travel, premium Western art collecting, philanthropic giving",
-        "monthlyCost": 1500
+        "monthlyCost": 1250
       },
       "lifestyle": "A large home in Westover Hills or Rivercrest, a housekeeper who comes a couple of times a week, and a country club membership at Colonial or Shady Oaks. Regular fine dining, a nice truck and sedan, and business class flights for travel are all within budget. Weekend ranch getaways and concierge healthcare through Baylor Scott and White round things out. No state income tax makes every withdrawal go further."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Historic estate in Rivercrest or sprawling ranch property in the surrounding countryside",
-        "monthlyCost": 9000
+        "monthlyCost": 4975
       },
       "dining": {
         "description": "Personal chef, exclusive private dining, catered events and ranch gatherings",
-        "monthlyCost": 2800
+        "monthlyCost": 1550
       },
       "groceries": {
-        "monthlyCost": 1000
+        "monthlyCost": 550
       },
       "healthcare": {
         "description": "Top-tier concierge medicine, executive wellness programs, holistic care",
-        "monthlyCost": 1500
+        "monthlyCost": 825
       },
       "transportation": {
         "description": "Multiple luxury vehicles, ranch trucks, private car service, charter flights from Meacham",
-        "monthlyCost": 1800
+        "monthlyCost": 1000
       },
       "entertainment": {
         "description": "Private suite at AT&T Stadium, major philanthropic events, Western art collecting, international travel",
-        "monthlyCost": 2500
+        "monthlyCost": 1375
       },
       "utilities": {
-        "monthlyCost": 500
+        "monthlyCost": 275
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, personal assistant, ranch hands, property management team",
-        "monthlyCost": 4000
+        "monthlyCost": 2200
       },
       "luxuryExtras": {
         "description": "Working ranch operations, first-class international travel, major art acquisitions, charitable foundations",
-        "monthlyCost": 5000
+        "monthlyCost": 2750
       },
       "lifestyle": "A large Rivercrest estate or a ranch property outside the city, full-time domestic help including a housekeeper and property manager, and a cook who comes in several times a week. First-class travel, premium suite tickets at AT&T Stadium, concierge healthcare, and multiple vehicles are all covered. No state income tax and Fort Worth's moderate costs mean this budget provides very comfortable, well-staffed living with large margins."
     }

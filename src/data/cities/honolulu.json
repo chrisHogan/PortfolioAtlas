@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Small studio in Kalihi, Salt Lake, or a shared housing arrangement in town",
-        "monthlyCost": 1600
+        "monthlyCost": 2775
       },
       "dining": {
         "description": "Plate lunches and poke bowls 2-3x/week; mostly cooking at home with rice and fish",
-        "monthlyCost": 250
+        "monthlyCost": 425
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 850
       },
       "healthcare": {
         "description": "Hawaii Prepaid Health Care Act coverage or ACA Silver plan; Hawaii has good coverage",
-        "monthlyCost": 450
+        "monthlyCost": 775
       },
       "transportation": {
         "description": "TheBus monthly pass; biking in town; car ownership is expensive here",
-        "monthlyCost": 150
+        "monthlyCost": 250
       },
       "entertainment": {
         "description": "Free beach days at Waikiki and Ala Moana, hiking Diamond Head and Manoa Falls",
-        "monthlyCost": 80
+        "monthlyCost": 125
       },
       "utilities": {
-        "monthlyCost": 180
+        "monthlyCost": 300
       },
       "lifestyle": "This is a tight budget for Honolulu. Groceries and housing are among the most expensive in the US because nearly everything is shipped in. You live in a small studio in Kalihi or Salt Lake, cook most meals at home with rice and fish, and rely on TheBus for transit. The trade-off is real: beaches like Ala Moana and hikes like Diamond Head are free and minutes away."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "1BR condo in Waikiki, Ala Moana, or Kapahulu with ocean or mountain views",
-        "monthlyCost": 2500
+        "monthlyCost": 3550
       },
       "dining": {
         "description": "Dining out 3-4x/week at local favorites; poke, ramen, and Hawaiian plate lunches",
-        "monthlyCost": 600
+        "monthlyCost": 850
       },
       "groceries": {
-        "monthlyCost": 650
+        "monthlyCost": 925
       },
       "healthcare": {
         "description": "ACA Gold plan with dental and vision; access to Queen's and Straub medical centers",
-        "monthlyCost": 550
+        "monthlyCost": 775
       },
       "transportation": {
         "description": "Older car for island exploration, insurance, gas; bus for daily errands",
-        "monthlyCost": 350
+        "monthlyCost": 500
       },
       "entertainment": {
         "description": "Surfing gear, snorkeling trips, gym membership, occasional inter-island flights",
-        "monthlyCost": 350
+        "monthlyCost": 500
       },
       "utilities": {
-        "monthlyCost": 220
+        "monthlyCost": 300
       },
       "lifestyle": "You can rent a one-bedroom condo in Waikiki or Ala Moana and eat out several times a week at local poke, ramen, and plate lunch spots. A car lets you explore the North Shore and windward coast on weekends. Snorkeling, surfing, and hiking are regular activities. The high cost of imported goods still limits spending power compared to the mainland, but daily life is comfortable."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "2BR condo in Kaimuki, Diamond Head, or oceanfront unit in Waikiki",
-        "monthlyCost": 3800
+        "monthlyCost": 4550
       },
       "dining": {
         "description": "Regular dining at top restaurants like Senia, Pig and the Lady; daily shave ice runs",
-        "monthlyCost": 1000
+        "monthlyCost": 1200
       },
       "groceries": {
-        "monthlyCost": 750
+        "monthlyCost": 900
       },
       "healthcare": {
         "description": "Premium private insurance with comprehensive coverage at top Hawaiian hospitals",
-        "monthlyCost": 650
+        "monthlyCost": 775
       },
       "transportation": {
         "description": "Reliable SUV for island adventures, full coverage insurance, occasional inter-island flights",
-        "monthlyCost": 500
+        "monthlyCost": 600
       },
       "entertainment": {
         "description": "Outrigger canoe club, scuba certification, golf at Ko Olina, inter-island trips",
-        "monthlyCost": 550
+        "monthlyCost": 650
       },
       "utilities": {
-        "monthlyCost": 280
+        "monthlyCost": 325
       },
       "lifestyle": "You can rent a two-bedroom condo near Diamond Head or an oceanfront unit in Waikiki, and dine regularly at Honolulu's best restaurants. An SUV for island exploring, inter-island flights to Maui or Kauai, and activities like scuba diving and golf at resort courses all fit within the budget. Good private healthcare and the ability to travel back to the mainland regularly keep island life from feeling isolated."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury oceanfront condo in Kahala, Gold Coast Waikiki, or a house in Lanikai",
-        "monthlyCost": 6000
+        "monthlyCost": 6550
       },
       "dining": {
         "description": "Fine dining at resort restaurants, private chef for gatherings, exclusive luaus",
-        "monthlyCost": 1500
+        "monthlyCost": 1625
       },
       "groceries": {
-        "monthlyCost": 900
+        "monthlyCost": 975
       },
       "healthcare": {
         "description": "Concierge medicine at Queen's Medical Center; executive wellness programs",
-        "monthlyCost": 1000
+        "monthlyCost": 1075
       },
       "transportation": {
         "description": "Luxury SUV, premium insurance, occasional helicopter tours and charter boats",
-        "monthlyCost": 800
+        "monthlyCost": 875
       },
       "entertainment": {
         "description": "Yacht club membership, deep-sea fishing charters, premium golf, spa retreats",
-        "monthlyCost": 1000
+        "monthlyCost": 1075
       },
       "utilities": {
-        "monthlyCost": 400
+        "monthlyCost": 425
       },
       "domesticHelp": {
         "description": "Weekly housekeeping, landscaping, pool maintenance, personal errand service",
-        "monthlyCost": 900
+        "monthlyCost": 975
       },
       "luxuryExtras": {
         "description": "Inter-island getaways, mainland travel, art collecting, community philanthropy",
-        "monthlyCost": 1400
+        "monthlyCost": 1525
       },
       "lifestyle": "A large oceanfront condo in Kahala or a house in Lanikai, regular dining at resort-quality restaurants, and a housekeeper who comes weekly. Concierge medicine at Queen's Medical Center, a nice SUV, and business class flights back to the mainland are all within budget. Honolulu's high costs mean this tier buys less square footage than on the mainland, but the setting is hard to match."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Beachfront estate in Kahala, Diamond Head oceanfront, or a Kailua compound",
-        "monthlyCost": 12000
+        "monthlyCost": 9075
       },
       "dining": {
         "description": "Personal chef specializing in Pacific Rim cuisine, catered events, exclusive wine dinners",
-        "monthlyCost": 3000
+        "monthlyCost": 2250
       },
       "groceries": {
-        "monthlyCost": 1200
+        "monthlyCost": 900
       },
       "healthcare": {
         "description": "Top-tier concierge practice, executive health screenings, mainland specialist access",
-        "monthlyCost": 1500
+        "monthlyCost": 1125
       },
       "transportation": {
         "description": "Multiple luxury vehicles, private car service, helicopter transfers between islands",
-        "monthlyCost": 2000
+        "monthlyCost": 1500
       },
       "entertainment": {
         "description": "Private yacht, deep-sea fishing boat, philanthropic galas, international travel",
-        "monthlyCost": 2500
+        "monthlyCost": 1875
       },
       "utilities": {
-        "monthlyCost": 600
+        "monthlyCost": 450
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, personal assistant, estate manager, grounds and pool crew",
-        "monthlyCost": 4500
+        "monthlyCost": 3375
       },
       "luxuryExtras": {
         "description": "Private island retreats, first-class Asia-Pacific travel, art patronage, charitable foundation",
-        "monthlyCost": 5000
+        "monthlyCost": 3750
       },
       "lifestyle": "Premium beachfront housing in Kahala or along Diamond Head, regular fine dining, a cook who comes several times a week, and a housekeeper. First class flights to the mainland and Asia-Pacific destinations, full concierge healthcare, and the ability to take inter-island trips on a whim. Honolulu's extreme cost of living absorbs more of this budget than a mainland city would, but you live very well without thinking about daily expenses."
     }

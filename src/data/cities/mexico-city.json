@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR apartment in Roma Norte or Condesa, modern building with good internet",
-        "monthlyCost": 750
+        "monthlyCost": 1050
       },
       "dining": {
         "description": "Street tacos and fondas daily, occasional sit-down restaurants on weekends",
-        "monthlyCost": 450
+        "monthlyCost": 650
       },
       "groceries": {
-        "monthlyCost": 300
+        "monthlyCost": 425
       },
       "healthcare": {
         "description": "IMSS public insurance plus occasional private clinic visits",
-        "monthlyCost": 150
+        "monthlyCost": 225
       },
       "transportation": {
         "description": "Metro, Metrobús, and occasional Uber rides across the city",
-        "monthlyCost": 100
+        "monthlyCost": 150
       },
       "entertainment": {
         "description": "Museums (many free on Sundays), parks, local bars, and cultural events",
-        "monthlyCost": 200
+        "monthlyCost": 275
       },
       "utilities": {
-        "monthlyCost": 80
+        "monthlyCost": 125
       },
       "lifestyle": "A one-bedroom in Roma Norte or Condesa puts you in walkable, tree-lined neighborhoods with easy metro access across the city. You eat well on street tacos and fonda lunches, visit Chapultepec Park and the city's many free museums, and enjoy the café and cantina scene without overspending. The budget is comfortable here but not lavish — you cook at home some nights and rely on public transit."
     },
@@ -58,14 +58,14 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Spacious 2BR apartment in Condesa or Polanco with rooftop access and doorman",
-        "monthlyCost": 1400
+        "monthlyCost": 1450
       },
       "dining": {
         "description": "Mix of excellent mid-range restaurants, trendy cafes, and street food adventures",
-        "monthlyCost": 900
+        "monthlyCost": 925
       },
       "groceries": {
-        "monthlyCost": 450
+        "monthlyCost": 475
       },
       "healthcare": {
         "description": "Premium private insurance with access to top hospitals like ABC or Médica Sur",
@@ -77,10 +77,10 @@
       },
       "entertainment": {
         "description": "Theater, concerts at Auditorio Nacional, gym membership, weekend day trips",
-        "monthlyCost": 500
+        "monthlyCost": 525
       },
       "utilities": {
-        "monthlyCost": 120
+        "monthlyCost": 125
       },
       "lifestyle": "A spacious apartment in Condesa or Polanco with a doorman and rooftop access gives you a solid home base. You dine out several times a week at good mid-range restaurants, take Ubers freely, and carry private health insurance at a top hospital. Weekend trips to places like San Miguel de Allende or Oaxaca are comfortably in budget a few times a year."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Luxury 2-3BR penthouse in Polanco or renovated colonial home in Coyoacán with terrace",
-        "monthlyCost": 2500
+        "monthlyCost": 1900
       },
       "dining": {
         "description": "Fine dining at Pujol-caliber restaurants weekly, plus daily restaurant meals",
-        "monthlyCost": 1400
+        "monthlyCost": 1075
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "Top-tier private insurance, concierge medical services, annual executive checkups",
-        "monthlyCost": 450
+        "monthlyCost": 350
       },
       "transportation": {
         "description": "Personal driver on call, premium Uber Black, occasional domestic flights",
-        "monthlyCost": 500
+        "monthlyCost": 375
       },
       "entertainment": {
         "description": "VIP concert tickets, premium gym and spa memberships, cooking classes, golf",
-        "monthlyCost": 900
+        "monthlyCost": 700
       },
       "utilities": {
-        "monthlyCost": 180
+        "monthlyCost": 150
       },
       "lifestyle": "A large apartment or penthouse in Polanco, or a renovated colonial home in Coyoacán, puts you in one of the city's best neighborhoods. You eat at top-tier restaurants like Contramar and Rosetta regularly, carry premium health insurance, and take domestic flights to the coast or wine country on weekends. A personal trainer and gym membership round out a genuinely affluent daily routine."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Stunning penthouse in Polanco or large colonial estate in San Ángel with garden and security",
-        "monthlyCost": 4500
+        "monthlyCost": 2475
       },
       "dining": {
         "description": "World-class dining nightly — Quintonil, Rosetta, Máximo Bistrot are regular haunts",
-        "monthlyCost": 2200
+        "monthlyCost": 1200
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "Platinum private insurance, US-trained specialists on retainer, medical tourism coordination",
-        "monthlyCost": 600
+        "monthlyCost": 325
       },
       "transportation": {
         "description": "Full-time private driver, leased luxury vehicle, domestic flights as needed",
-        "monthlyCost": 1200
+        "monthlyCost": 650
       },
       "entertainment": {
         "description": "Box seats at events, country club membership, art collecting, wine cellar curation",
-        "monthlyCost": 1500
+        "monthlyCost": 825
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 125
       },
       "domesticHelp": {
         "description": "Full-time housekeeper/cook, part-time gardener, and weekly deep cleaning service",
-        "monthlyCost": 1200
+        "monthlyCost": 650
       },
       "luxuryExtras": {
         "description": "Weekend homes in Valle de Bravo or Tulum, private chef for dinner parties, art gallery openings",
-        "monthlyCost": 2000
+        "monthlyCost": 1100
       },
       "lifestyle": "A large home in San Ángel or a top-floor penthouse in Polanco provides generous space with gardens or terraces. A housekeeper manages the house several days a week, you dine at the city's best restaurants without thinking about the bill, and a driver or leased car handles transportation. Business class flights for longer trips and regular travel within Mexico are standard at this level."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Landmark property — restored hacienda in San Ángel or ultra-luxury penthouse in Nuevo Polanco with full staff quarters",
-        "monthlyCost": 8000
+        "monthlyCost": 3275
       },
       "dining": {
         "description": "Private chef for daily meals, plus unlimited fine dining at Mexico's best restaurants and exclusive pop-ups",
-        "monthlyCost": 4000
+        "monthlyCost": 1600
       },
       "groceries": {
-        "monthlyCost": 1200
+        "monthlyCost": 475
       },
       "healthcare": {
         "description": "Global concierge healthcare, annual checkups at Mayo Clinic, wellness retreats, personal nutritionist",
-        "monthlyCost": 1200
+        "monthlyCost": 475
       },
       "transportation": {
         "description": "Chauffeur-driven luxury vehicle, private jet charters for regional travel, helicopter transfers",
-        "monthlyCost": 3000
+        "monthlyCost": 1200
       },
       "entertainment": {
         "description": "Patron of the arts, private museum tours, exclusive club memberships, yacht weekends in Acapulco",
-        "monthlyCost": 3500
+        "monthlyCost": 1400
       },
       "utilities": {
-        "monthlyCost": 400
+        "monthlyCost": 150
       },
       "domesticHelp": {
         "description": "Full household staff: chef, housekeeper, driver, gardener, personal assistant, and security",
-        "monthlyCost": 3500
+        "monthlyCost": 1400
       },
       "luxuryExtras": {
         "description": "Multiple properties across Mexico, art collection, philanthropy, wine importing hobby, bespoke travel",
-        "monthlyCost": 5000
+        "monthlyCost": 2025
       },
       "lifestyle": "Premium housing in San Ángel or Nuevo Polanco, a cook who comes several times a week, a housekeeper, and a driver handle daily life. You dine at Pujol and Quintonil whenever you like, fly business class internationally, and carry top-tier private healthcare. This is the life of a successful professional who never has to check a price — comfortable and well-staffed, but grounded in the real city rather than walled off from it."
     }

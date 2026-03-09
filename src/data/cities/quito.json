@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Spacious 2BR apartment in La Floresta, Gonzalez Suarez, or Cumbaya",
-        "monthlyCost": 500
+        "monthlyCost": 725
       },
       "dining": {
         "description": "Almuerzos (set lunch) at local restaurants daily, ceviche shops, casual dining 3-4x/week",
-        "monthlyCost": 200
+        "monthlyCost": 275
       },
       "groceries": {
-        "monthlyCost": 200
+        "monthlyCost": 275
       },
       "healthcare": {
         "description": "IESS public health insurance plus affordable private clinic visits; excellent value",
-        "monthlyCost": 100
+        "monthlyCost": 150
       },
       "transportation": {
         "description": "Ecovia bus system and taxis; both are extremely affordable",
-        "monthlyCost": 40
+        "monthlyCost": 50
       },
       "entertainment": {
         "description": "Colonial center walks, Mitad del Mundo visits, local markets, hiking Pichincha volcano",
-        "monthlyCost": 100
+        "monthlyCost": 150
       },
       "utilities": {
-        "monthlyCost": 80
+        "monthlyCost": 125
       },
       "lifestyle": "A spacious two-bedroom in La Floresta, González Suárez, or Cumbayá puts you in a desirable neighborhood at low cost. Daily almuerzos are cheap, taxis and buses are affordable, and IESS public insurance covers basic healthcare. The US dollar currency eliminates exchange rate risk. Learning Spanish is important since English is not widely spoken. The budget leaves meaningful margin, and the Andean scenery at 9,350 feet is striking — though the altitude takes adjustment."
     },
@@ -58,7 +58,7 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Beautiful 3BR apartment in Gonzalez Suarez with Andean valley views, or a house in Cumbaya",
-        "monthlyCost": 1000
+        "monthlyCost": 1050
       },
       "dining": {
         "description": "Regular dining at Quito's best restaurants, farm-to-table experiences, wine dinners",
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Luxury penthouse in Gonzalez Suarez or a large house with garden in the Cumbaya valley",
-        "monthlyCost": 1800
+        "monthlyCost": 1400
       },
       "dining": {
         "description": "Fine dining at top restaurants, catered dinner parties occasionally, premium cocktail bars",
-        "monthlyCost": 600
+        "monthlyCost": 475
       },
       "groceries": {
-        "monthlyCost": 400
+        "monthlyCost": 325
       },
       "healthcare": {
         "description": "Top-tier private insurance with international coverage and concierge service",
-        "monthlyCost": 300
+        "monthlyCost": 225
       },
       "transportation": {
         "description": "Quality SUV for mountain drives, city car, domestic flights to coast and Amazon",
-        "monthlyCost": 350
+        "monthlyCost": 275
       },
       "entertainment": {
         "description": "Galapagos cruises, Amazon lodge stays, Andean trekking, cultural patronage, spa retreats",
-        "monthlyCost": 500
+        "monthlyCost": 400
       },
       "utilities": {
-        "monthlyCost": 130
+        "monthlyCost": 100
       },
       "lifestyle": "A large penthouse in González Suárez or a house with a garden in the Cumbayá valley puts you at the top of the local housing market. You dine at Quito's best restaurants regularly, own an SUV for mountain drives, and take domestic flights to the coast and Amazon. Galápagos cruises and Amazon lodge stays are in budget multiple times per year. This amount goes very far in Quito, with substantial margin remaining."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Grand estate in Cumbaya or a luxury compound in the Tumbaco valley with mountain panoramas",
-        "monthlyCost": 2500
+        "monthlyCost": 1325
       },
       "dining": {
         "description": "Personal chef, exclusive dining events, premium imported wine collection, catered gatherings",
-        "monthlyCost": 900
+        "monthlyCost": 450
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 250
       },
       "healthcare": {
         "description": "VIP private healthcare with international hospital network and medical evacuation",
-        "monthlyCost": 400
+        "monthlyCost": 200
       },
       "transportation": {
         "description": "Luxury SUV, second vehicle, private driver, chartered flights within Ecuador",
-        "monthlyCost": 600
+        "monthlyCost": 300
       },
       "entertainment": {
         "description": "Private Galapagos yacht charters, luxury Amazon lodges, Andean horseback expeditions",
-        "monthlyCost": 800
+        "monthlyCost": 400
       },
       "utilities": {
-        "monthlyCost": 180
+        "monthlyCost": 100
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, cook, gardener, and security; live-in staff is affordable",
-        "monthlyCost": 600
+        "monthlyCost": 300
       },
       "luxuryExtras": {
         "description": "First-class international travel, Galapagos yacht charters, hacienda weekends, philanthropy",
-        "monthlyCost": 2500
+        "monthlyCost": 1275
       },
       "lifestyle": "A large estate in Cumbayá or the Tumbaco valley with Andean panoramas provides generous space. A housekeeper and cook manage the household, a driver handles transportation, and you dine freely at the city's best restaurants. Business class flights for international travel, private Galápagos charters, and luxury Amazon lodge stays are all comfortably covered. This budget far exceeds Quito's cost of living, producing significant margin for savings or travel."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Historic hacienda estate with extensive grounds in the Cumbaya or Tumbaco valley",
-        "monthlyCost": 4500
+        "monthlyCost": 1475
       },
       "dining": {
         "description": "Personal chef team, private dining experiences, imported delicacies, lavish entertaining",
-        "monthlyCost": 1500
+        "monthlyCost": 475
       },
       "groceries": {
-        "monthlyCost": 700
+        "monthlyCost": 225
       },
       "healthcare": {
         "description": "Top-tier international concierge medicine with global network and evacuation coverage",
-        "monthlyCost": 600
+        "monthlyCost": 200
       },
       "transportation": {
         "description": "Multiple luxury vehicles, full-time driver, private aircraft access, first-class international",
-        "monthlyCost": 1200
+        "monthlyCost": 375
       },
       "entertainment": {
         "description": "Private Galapagos expeditions, Amazon research station access, international cultural events",
-        "monthlyCost": 2500
+        "monthlyCost": 800
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 100
       },
       "domesticHelp": {
         "description": "Full estate staff including chef, housekeepers, groundskeepers, security team, and driver",
-        "monthlyCost": 1500
+        "monthlyCost": 475
       },
       "luxuryExtras": {
         "description": "Private jet travel, conservation philanthropy, Galapagos research funding, international art",
-        "monthlyCost": 8000
+        "monthlyCost": 2575
       },
       "lifestyle": "A grand hacienda estate in the Cumbayá or Tumbaco valley with full household staff — cook, housekeepers, groundskeepers, and driver — anchors daily life. You fly first class internationally, take private Galápagos expeditions, and dine without any budget constraints. This budget is well beyond what Quito requires for a top-tier life. The substantial margin typically goes to savings, international travel, or involvement in Ecuador's conservation and arts communities."
     }

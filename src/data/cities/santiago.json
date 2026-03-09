@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR apartment in Nunoa, Santiago Centro, or Providencia on a quieter street",
-        "monthlyCost": 600
+        "monthlyCost": 1100
       },
       "dining": {
         "description": "Menu del dia set lunches, empanada shops, casual dining 3x/week; cooking at home",
-        "monthlyCost": 200
+        "monthlyCost": 350
       },
       "groceries": {
-        "monthlyCost": 250
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "FONASA public health system plus affordable private clinic visits",
-        "monthlyCost": 150
+        "monthlyCost": 275
       },
       "transportation": {
         "description": "BIP card for Metro and Transantiago buses; the Metro system is modern and efficient",
-        "monthlyCost": 40
+        "monthlyCost": 75
       },
       "entertainment": {
         "description": "Free Cerro San Cristobal hikes, Barrio Italia markets, local wine, park life",
-        "monthlyCost": 100
+        "monthlyCost": 175
       },
       "utilities": {
-        "monthlyCost": 100
+        "monthlyCost": 175
       },
       "lifestyle": "A one-bedroom in Ñuñoa, Santiago Centro, or a quieter street in Providencia keeps costs manageable in a modern city with excellent Metro service. You cook at home often, eat set lunches at local spots, and enjoy cheap Chilean wine and beautiful parks. The Andes are visible on clear days, and Cerro San Cristóbal is free to hike. Learning Spanish is essential since English is not widely spoken. The budget is tight but workable."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Modern 2BR apartment in Providencia or Las Condes with Andean views",
-        "monthlyCost": 1100
+        "monthlyCost": 1450
       },
       "dining": {
         "description": "Regular dining at Providencia and Bellavista restaurants, wine bars, weekend asados",
-        "monthlyCost": 450
+        "monthlyCost": 600
       },
       "groceries": {
-        "monthlyCost": 350
+        "monthlyCost": 475
       },
       "healthcare": {
         "description": "ISAPRE private health insurance with good hospital and specialist access",
-        "monthlyCost": 250
+        "monthlyCost": 325
       },
       "transportation": {
         "description": "Metro pass plus occasional car rental for ski and beach weekends",
-        "monthlyCost": 150
+        "monthlyCost": 200
       },
       "entertainment": {
         "description": "Wine tours in Maipo Valley, ski days at Valle Nevado, cultural events, gym membership",
-        "monthlyCost": 350
+        "monthlyCost": 475
       },
       "utilities": {
-        "monthlyCost": 130
+        "monthlyCost": 175
       },
       "lifestyle": "A modern two-bedroom in Providencia or Las Condes with Andean views gives you a comfortable base in one of the city's best neighborhoods. You dine at good restaurants several times a week, carry ISAPRE private health insurance, and rent a car for weekend ski trips to Valle Nevado in winter or beach trips in summer. Wine tours in the Maipo Valley are an easy day trip. The budget is solid for Santiago's cost of living."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Spacious 3BR apartment in Vitacura or a house in Lo Barnechea near the mountains",
-        "monthlyCost": 2000
+        "monthlyCost": 1950
       },
       "dining": {
         "description": "Fine dining at Borago and Ambrosio, premium wine experiences, private asado gatherings",
-        "monthlyCost": 800
+        "monthlyCost": 775
       },
       "groceries": {
-        "monthlyCost": 450
+        "monthlyCost": 425
       },
       "healthcare": {
         "description": "Premium ISAPRE plan with access to top hospitals like Clinica Alemana and Clinica Las Condes",
-        "monthlyCost": 350
+        "monthlyCost": 325
       },
       "transportation": {
         "description": "Owned car for mountain and coast access, Metro for city commuting, domestic flights",
-        "monthlyCost": 400
+        "monthlyCost": 375
       },
       "entertainment": {
         "description": "Season ski pass, premium wine club, cultural subscriptions, Patagonia trips",
-        "monthlyCost": 600
+        "monthlyCost": 575
       },
       "utilities": {
-        "monthlyCost": 180
+        "monthlyCost": 175
       },
       "lifestyle": "A spacious apartment in Vitacura or a house in Lo Barnechea near the mountains puts you in a premium neighborhood. You dine at restaurants like Boragó and Ambrosia regularly, own a car for mountain and coastal access, and carry top-tier health insurance at Clínica Alemana. Season ski passes, premium wine club memberships, and trips to Patagonia or the Atacama Desert are all comfortably in budget."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury house in Vitacura or Lo Barnechea with pool and Andean panoramas",
-        "monthlyCost": 3500
+        "monthlyCost": 2375
       },
       "dining": {
         "description": "Personal chef for entertaining, regular fine dining, exclusive wine cellar, catered events",
-        "monthlyCost": 1200
+        "monthlyCost": 800
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 400
       },
       "healthcare": {
         "description": "VIP private healthcare with concierge medical service and international coverage",
-        "monthlyCost": 500
+        "monthlyCost": 350
       },
       "transportation": {
         "description": "Luxury SUV, second car, private driver available, first-class domestic travel",
-        "monthlyCost": 700
+        "monthlyCost": 475
       },
       "entertainment": {
         "description": "Exclusive ski club membership, private vineyard tours, cultural patronage, luxury travel within Chile",
-        "monthlyCost": 900
+        "monthlyCost": 600
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 175
       },
       "domesticHelp": {
         "description": "Full-time nana (housekeeper/cook), gardener, pool maintenance; live-in help is traditional",
-        "monthlyCost": 700
+        "monthlyCost": 475
       },
       "luxuryExtras": {
         "description": "First-class international travel, Patagonia lodge stays, wine collecting, philanthropy",
-        "monthlyCost": 2000
+        "monthlyCost": 1350
       },
       "lifestyle": "A large house in Vitacura or Lo Barnechea with pool and Andean panoramas provides generous living space. A housekeeper and cook manage the household, you have a driver available, and dining at the city's finest restaurants is routine. Business class flights, private vineyard tours, and ski club memberships are all standard. Santiago's position between the Andes and the Pacific coast means beaches and mountains are each about 90 minutes away."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Grand estate in Lo Barnechea or a luxury compound in Chicureo with panoramic Andean views",
-        "monthlyCost": 6000
+        "monthlyCost": 2900
       },
       "dining": {
         "description": "Personal chef team, private dining at Chile's finest restaurants, exclusive wine experiences",
-        "monthlyCost": 2000
+        "monthlyCost": 975
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 375
       },
       "healthcare": {
         "description": "Top-tier international concierge medicine with global hospital network",
-        "monthlyCost": 700
+        "monthlyCost": 350
       },
       "transportation": {
         "description": "Multiple luxury vehicles, full-time driver, private aviation access, first-class international",
-        "monthlyCost": 1500
+        "monthlyCost": 725
       },
       "entertainment": {
         "description": "Heli-skiing, private Patagonia expeditions, art collecting, international cultural events",
-        "monthlyCost": 3000
+        "monthlyCost": 1450
       },
       "utilities": {
-        "monthlyCost": 400
+        "monthlyCost": 200
       },
       "domesticHelp": {
         "description": "Full estate staff including chef, housekeepers, security, groundskeepers, and driver",
-        "monthlyCost": 2000
+        "monthlyCost": 975
       },
       "luxuryExtras": {
         "description": "Private jet travel, vineyard ownership, Patagonia lodge, international philanthropy",
-        "monthlyCost": 5500
+        "monthlyCost": 2650
       },
       "lifestyle": "A grand estate in Lo Barnechea or Chicureo with panoramic Andean views and full household staff — cook, housekeepers, groundskeepers, and driver — anchors daily life. You dine without budget constraints, fly first class internationally, and take trips to Patagonian lodges or the Atacama at will. Chile's economic stability and strong institutions provide a secure base. This budget exceeds what Santiago requires for top-tier living, though the city's higher costs absorb more than cheaper Latin American capitals."
     }

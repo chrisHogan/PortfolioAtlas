@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR apartment in Madison, Antioch, or Donelson — outside the trendy core",
-        "monthlyCost": 1400
+        "monthlyCost": 1875
       },
       "dining": {
         "description": "Hot chicken joints and casual BBQ 2-3x/week; mostly cooking at home",
-        "monthlyCost": 250
+        "monthlyCost": 325
       },
       "groceries": {
-        "monthlyCost": 380
+        "monthlyCost": 500
       },
       "healthcare": {
         "description": "ACA Silver plan; Tennessee has no exchange but federal marketplace works well",
-        "monthlyCost": 530
+        "monthlyCost": 700
       },
       "transportation": {
         "description": "Older paid-off car with insurance and gas; Nashville requires a car",
-        "monthlyCost": 280
+        "monthlyCost": 375
       },
       "entertainment": {
         "description": "Free live music on Broadway and in honky-tonks, Centennial Park, Shelby Bottoms trails",
-        "monthlyCost": 100
+        "monthlyCost": 125
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 200
       },
       "lifestyle": "You live in an outer neighborhood like Madison or Antioch and cook most meals at home, but Nashville's lack of state income tax helps your budget go further. Free live music on Lower Broadway and the city's excellent parks provide regular entertainment at no cost. Dining out is limited to affordable hot chicken and BBQ spots a couple of times a week."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Nice 2BR apartment in East Nashville, Germantown, or The Nations",
-        "monthlyCost": 2100
+        "monthlyCost": 2525
       },
       "dining": {
         "description": "Dining out 3-4x/week at Nashville's trending restaurants and brunch spots",
-        "monthlyCost": 550
+        "monthlyCost": 675
       },
       "groceries": {
-        "monthlyCost": 480
+        "monthlyCost": 575
       },
       "healthcare": {
         "description": "ACA Gold plan with dental and vision; Vanderbilt and St. Thomas network access",
-        "monthlyCost": 630
+        "monthlyCost": 775
       },
       "transportation": {
         "description": "Reliable mid-range car, full coverage insurance, gas for day trips",
-        "monthlyCost": 380
+        "monthlyCost": 450
       },
       "entertainment": {
         "description": "Ryman Auditorium shows, Grand Ole Opry, gym membership, Titans or Predators tickets",
-        "monthlyCost": 300
+        "monthlyCost": 375
       },
       "utilities": {
-        "monthlyCost": 180
+        "monthlyCost": 225
       },
       "lifestyle": "You can rent a nice apartment in East Nashville or Germantown and eat out several times a week at the restaurants driving Nashville's food boom. Shows at the Ryman Auditorium, Predators or Titans games, and weekend drives to the Smoky Mountains fit comfortably in the budget. No state income tax means your full withdrawal stays in your pocket."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "3BR house in 12 South, Sylvan Park, or a modern condo in the Gulch",
-        "monthlyCost": 3200
+        "monthlyCost": 3300
       },
       "dining": {
         "description": "Regular dining at top spots like Catbird Seat, The Catbird Seat, Bastion; daily coffee ritual",
-        "monthlyCost": 850
+        "monthlyCost": 875
       },
       "groceries": {
-        "monthlyCost": 580
+        "monthlyCost": 600
       },
       "healthcare": {
         "description": "Premium private insurance with Vanderbilt network access and comprehensive coverage",
-        "monthlyCost": 730
+        "monthlyCost": 750
       },
       "transportation": {
         "description": "Late-model SUV, premium insurance, weekend drives to the mountains",
-        "monthlyCost": 480
+        "monthlyCost": 500
       },
       "entertainment": {
         "description": "Season tickets to Predators or Titans, VIP concert access, premium gym, golf",
-        "monthlyCost": 500
+        "monthlyCost": 525
       },
       "utilities": {
-        "monthlyCost": 240
+        "monthlyCost": 250
       },
       "lifestyle": "You can rent a house in a desirable area like 12 South or Sylvan Park and dine regularly at top Nashville restaurants. Season tickets to the Predators or Titans are within reach, along with regular travel and good private healthcare through the Vanderbilt network. Weekend trips to the Tennessee countryside or Great Smoky Mountains are a natural addition."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury home in Belle Meade, Green Hills, or a penthouse in the Gulch",
-        "monthlyCost": 5000
+        "monthlyCost": 4475
       },
       "dining": {
         "description": "Fine dining multiple times per week, private chef for dinner parties",
-        "monthlyCost": 1400
+        "monthlyCost": 1225
       },
       "groceries": {
-        "monthlyCost": 750
+        "monthlyCost": 650
       },
       "healthcare": {
         "description": "Concierge medicine at Vanderbilt; executive wellness and preventive programs",
-        "monthlyCost": 950
+        "monthlyCost": 825
       },
       "transportation": {
         "description": "Luxury vehicle (Mercedes, Tesla), premium insurance, detailing service",
-        "monthlyCost": 780
+        "monthlyCost": 675
       },
       "entertainment": {
         "description": "VIP boxes at Bridgestone Arena, exclusive songwriter rounds, country club membership",
-        "monthlyCost": 1000
+        "monthlyCost": 875
       },
       "utilities": {
-        "monthlyCost": 350
+        "monthlyCost": 300
       },
       "domesticHelp": {
         "description": "Bi-weekly deep cleaning, landscaping, pool maintenance, errand service",
-        "monthlyCost": 750
+        "monthlyCost": 650
       },
       "luxuryExtras": {
         "description": "Quarterly travel, private music events, bourbon collection, philanthropy",
-        "monthlyCost": 1400
+        "monthlyCost": 1225
       },
       "lifestyle": "A large home in Belle Meade or Green Hills, regular dining at Nashville's best restaurants, and a housekeeper several times a week. You can afford concierge medicine at Vanderbilt, a nice car, and business class flights for longer trips. Tennessee's zero income tax keeps your full withdrawal intact, and the budget supports country club membership and regular entertainment."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Estate in Belle Meade, historic mansion in Oak Hill, or private compound outside the city",
-        "monthlyCost": 9500
+        "monthlyCost": 5725
       },
       "dining": {
         "description": "Personal chef, exclusive dining experiences, catered events with Nashville's top talent",
-        "monthlyCost": 2800
+        "monthlyCost": 1700
       },
       "groceries": {
-        "monthlyCost": 1000
+        "monthlyCost": 600
       },
       "healthcare": {
         "description": "Top-tier concierge at Vanderbilt, executive health screenings, holistic wellness",
-        "monthlyCost": 1400
+        "monthlyCost": 850
       },
       "transportation": {
         "description": "Multiple luxury vehicles, private driver, classic car collection",
-        "monthlyCost": 1500
+        "monthlyCost": 900
       },
       "entertainment": {
         "description": "Private suite at Bridgestone Arena, music industry philanthropy, art collecting, international travel",
-        "monthlyCost": 2500
+        "monthlyCost": 1500
       },
       "utilities": {
-        "monthlyCost": 500
+        "monthlyCost": 300
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, personal assistant, estate groundskeeper, pool and property manager",
-        "monthlyCost": 4000
+        "monthlyCost": 2400
       },
       "luxuryExtras": {
         "description": "First-class international travel, recording studio investment, ranch property, angel investing",
-        "monthlyCost": 5000
+        "monthlyCost": 3025
       },
       "lifestyle": "Premium housing in Belle Meade or Oak Hill, regular fine dining, a cook who comes several times a week, and a housekeeper. Business class or first class travel, full concierge healthcare at Vanderbilt, and a private suite at Bridgestone Arena for concerts and Predators games. Nashville's zero income tax and moderate cost of living mean you never think about day-to-day spending."
     }

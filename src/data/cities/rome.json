@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Small 1BR apartment in an outer neighborhood like Garbatella, Pigneto, or Centocelle",
-        "monthlyCost": 900
+        "monthlyCost": 1925
       },
       "dining": {
         "description": "Pizza al taglio and trattoria lunches 2-3x/week; mostly cooking at home with market produce",
-        "monthlyCost": 250
+        "monthlyCost": 525
       },
       "groceries": {
-        "monthlyCost": 350
+        "monthlyCost": 750
       },
       "healthcare": {
         "description": "Italian national health enrollment (SSN) if resident; private basic plan otherwise",
-        "monthlyCost": 200
+        "monthlyCost": 425
       },
       "transportation": {
         "description": "Monthly ATAC transit pass covering metro, bus, and tram",
-        "monthlyCost": 35
+        "monthlyCost": 75
       },
       "entertainment": {
         "description": "Free museums on first Sundays, passeggiata, piazza life, parks on the Appian Way",
-        "monthlyCost": 100
+        "monthlyCost": 225
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 325
       },
       "lifestyle": "A small 1-bedroom in an outer neighborhood like Garbatella, Pigneto, or Centocelle. Cooking most meals at home with fresh market produce, eating out at pizza al taglio spots and trattorias a couple of times a week. Getting around on the ATAC transit pass. Italian national health enrollment if resident, or a basic private plan. Rome is relatively affordable, so this budget covers the basics comfortably, though dining out and travel need to be planned."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Spacious 2BR apartment in Trastevere, Testaccio, or Monti with character",
-        "monthlyCost": 1600
+        "monthlyCost": 2750
       },
       "dining": {
         "description": "Dining out 4-5x/week at neighborhood trattorias and osterias; aperitivo culture",
-        "monthlyCost": 500
+        "monthlyCost": 875
       },
       "groceries": {
-        "monthlyCost": 400
+        "monthlyCost": 700
       },
       "healthcare": {
         "description": "Private health insurance with good hospital coverage and specialist access",
-        "monthlyCost": 300
+        "monthlyCost": 525
       },
       "transportation": {
         "description": "Transit pass plus occasional car-sharing or taxi for day trips",
-        "monthlyCost": 100
+        "monthlyCost": 175
       },
       "entertainment": {
         "description": "Opera tickets at Teatro dell'Opera, museum memberships, cooking classes, weekend trips",
-        "monthlyCost": 300
+        "monthlyCost": 525
       },
       "utilities": {
-        "monthlyCost": 180
+        "monthlyCost": 300
       },
       "lifestyle": "A spacious 2-bedroom in Trastevere, Testaccio, or Monti with character. Dining out at neighborhood trattorias and osterias 4-5 times a week, with regular aperitivo. Good private health insurance with specialist access. Car-sharing or taxis for day trips, and weekend escapes to the Amalfi Coast or Tuscany by train. Opera tickets and museum memberships. Rome's moderate costs mean this budget delivers a comfortable, food-rich life with room for cultural enjoyment and travel."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Elegant 3BR apartment near Piazza Navona, the Pantheon, or in Parioli with terrace views",
-        "monthlyCost": 2800
+        "monthlyCost": 3425
       },
       "dining": {
         "description": "Occasional fine dining at top restaurants, daily espresso bar ritual, wine tastings",
-        "monthlyCost": 1000
+        "monthlyCost": 1225
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 625
       },
       "healthcare": {
         "description": "Premium private insurance with access to top clinics like Policlinico Gemelli",
-        "monthlyCost": 400
+        "monthlyCost": 500
       },
       "transportation": {
         "description": "Leased Fiat or Vespa, insurance, plus train travel for regional exploration",
-        "monthlyCost": 350
+        "monthlyCost": 425
       },
       "entertainment": {
         "description": "Season opera tickets, private gallery openings, premium gym, frequent weekend getaways",
-        "monthlyCost": 600
+        "monthlyCost": 725
       },
       "utilities": {
-        "monthlyCost": 220
+        "monthlyCost": 275
       },
       "lifestyle": "An elegant apartment near Piazza Navona, the Pantheon, or in Parioli with a terrace and rooftop views. Regular dining at top restaurants, a Vespa or small car for getting around, and premium private healthcare at clinics like Policlinico Gemelli. Season opera tickets and frequent weekend getaways by high-speed rail to Florence, Naples, or the coast. Rome's costs are moderate by Western European standards, so this budget delivers a genuinely affluent life with regular dining and travel."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury penthouse in Centro Storico or a historic villa apartment in Aventino with private garden",
-        "monthlyCost": 4500
+        "monthlyCost": 4150
       },
       "dining": {
         "description": "Regular Michelin dining, private chef for dinner parties, exclusive enoteca memberships",
-        "monthlyCost": 1800
+        "monthlyCost": 1650
       },
       "groceries": {
-        "monthlyCost": 700
+        "monthlyCost": 650
       },
       "healthcare": {
         "description": "VIP private healthcare with concierge service and international hospital network access",
-        "monthlyCost": 600
+        "monthlyCost": 550
       },
       "transportation": {
         "description": "Luxury car with parking garage, first-class Trenitalia for travel, occasional private driver",
-        "monthlyCost": 700
+        "monthlyCost": 650
       },
       "entertainment": {
         "description": "Private museum tours, exclusive cultural events, yacht charters on the Tyrrhenian Sea",
-        "monthlyCost": 1000
+        "monthlyCost": 925
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 275
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, weekly laundry service, garden maintenance",
-        "monthlyCost": 1200
+        "monthlyCost": 1100
       },
       "luxuryExtras": {
         "description": "Tuscan villa weekends, first-class European travel, Italian art collecting, premium wine cellar",
-        "monthlyCost": 2000
+        "monthlyCost": 1850
       },
       "lifestyle": "A luxury penthouse in Centro Storico or a historic apartment in Aventino with a private garden. Regular dining at the city's best restaurants, a housekeeper several times a week, and business class for longer flights. A luxury car, premium private healthcare, and first-class Trenitalia for travel across Italy. Weekend drives to Umbrian hill towns are routine. Rome's moderate costs mean this budget goes far, providing an upper-affluent life with significant room for travel and entertainment."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Grand palazzo apartment overlooking a major piazza or private villa on the Appia Antica",
-        "monthlyCost": 9000
+        "monthlyCost": 5600
       },
       "dining": {
         "description": "Personal chef, private dining at Rome's most exclusive restaurants, catered soirées",
-        "monthlyCost": 3000
+        "monthlyCost": 1875
       },
       "groceries": {
-        "monthlyCost": 1000
+        "monthlyCost": 625
       },
       "healthcare": {
         "description": "Top-tier international concierge medicine with global evacuation coverage",
-        "monthlyCost": 1000
+        "monthlyCost": 625
       },
       "transportation": {
         "description": "Luxury vehicles, full-time driver, first-class international travel, helicopter transfers",
-        "monthlyCost": 2000
+        "monthlyCost": 1250
       },
       "entertainment": {
         "description": "Private Vatican tours, philanthropy galas, art patronage, Mediterranean yacht charters",
-        "monthlyCost": 3000
+        "monthlyCost": 1875
       },
       "utilities": {
-        "monthlyCost": 500
+        "monthlyCost": 300
       },
       "domesticHelp": {
         "description": "Full household staff including chef, housekeeper, personal assistant, and groundskeeper",
-        "monthlyCost": 5000
+        "monthlyCost": 3125
       },
       "luxuryExtras": {
         "description": "Private jet access, Italian vineyard investment, international art acquisitions, philanthropic foundation",
-        "monthlyCost": 5500
+        "monthlyCost": 3425
       },
       "lifestyle": "A grand palazzo apartment overlooking a major piazza or a private villa on the Appia Antica. A cook several times a week, a full-time housekeeper, and full private healthcare with top specialists. Business class as default, first class for longer trips. Regular fine dining and a nice car with driver when needed. Rome is affordable enough at this level that you have significant margin -- a second property in Tuscany or on the coast becomes realistic."
     }

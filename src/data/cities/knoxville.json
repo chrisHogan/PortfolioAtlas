@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR apartment in Bearden, North Knoxville, or near the university campus",
-        "monthlyCost": 1050
+        "monthlyCost": 1275
       },
       "dining": {
         "description": "Casual dining at Market Square spots and Southern meat-and-threes 2-3x/week; mostly cooking at home",
-        "monthlyCost": 200
+        "monthlyCost": 250
       },
       "groceries": {
-        "monthlyCost": 340
+        "monthlyCost": 425
       },
       "healthcare": {
         "description": "ACA marketplace Silver plan; Tennessee marketplace options are reasonable",
-        "monthlyCost": 500
+        "monthlyCost": 625
       },
       "transportation": {
         "description": "Paid-off car with basic insurance and gas; car needed for Smokies access",
-        "monthlyCost": 250
+        "monthlyCost": 300
       },
       "entertainment": {
         "description": "Free hiking in the Smokies, Ijams Nature Center, Market Square events, UT sports on budget tickets",
-        "monthlyCost": 80
+        "monthlyCost": 100
       },
       "utilities": {
-        "monthlyCost": 140
+        "monthlyCost": 175
       },
       "lifestyle": "A one-bedroom in Bearden or North Knoxville, cooking most meals at home with occasional Southern meat-and-three dinners on Market Square, and a paid-off car. Great Smoky Mountains National Park charges no entrance fee, so weekend hiking costs little beyond gas. Healthcare on an ACA Silver plan is a significant line item, but Tennessee's zero state income tax helps stretch every withdrawal. This is a modest, outdoors-oriented life in one of the more affordable cities in the eastern US."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "2BR home in West Knoxville, Sequoyah Hills, or a renovated condo in the Old City",
-        "monthlyCost": 1700
+        "monthlyCost": 1875
       },
       "dining": {
         "description": "Regular dining at downtown restaurants like OliBea and The Plaid Apron 3-4x/week; Saturday farmers market",
-        "monthlyCost": 450
+        "monthlyCost": 500
       },
       "groceries": {
-        "monthlyCost": 420
+        "monthlyCost": 475
       },
       "healthcare": {
         "description": "ACA Gold plan with dental and vision; access to UT Medical Center for specialized care",
-        "monthlyCost": 600
+        "monthlyCost": 675
       },
       "transportation": {
         "description": "Reliable car with full coverage, gas, and maintenance for regular Smokies excursions",
-        "monthlyCost": 370
+        "monthlyCost": 400
       },
       "entertainment": {
         "description": "UT Vols football season tickets, Knoxville Symphony, brewery tours, fly fishing trips",
-        "monthlyCost": 280
+        "monthlyCost": 300
       },
       "utilities": {
-        "monthlyCost": 160
+        "monthlyCost": 175
       },
       "lifestyle": "A home in Sequoyah Hills or a renovated condo in the Old City, dining out several times a week at downtown spots like OliBea and The Plaid Apron, and a reliable car for regular Smokies trips. You can afford UT Vols football season tickets, Knoxville Symphony concerts, a good health plan, and a few trips per year. The combination of low costs, proximity to the Smokies, and university-town energy makes this a comfortable, well-rounded life."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "3BR home in Farragut, a lakefront property on Fort Loudoun Lake, or an upscale Sequoyah Hills home",
-        "monthlyCost": 2600
+        "monthlyCost": 2400
       },
       "dining": {
         "description": "Fine dining at The Lonesome Dove, J.C. Holdway, and Kaizen; regular wine dinners and chef's tables",
-        "monthlyCost": 800
+        "monthlyCost": 750
       },
       "groceries": {
-        "monthlyCost": 550
+        "monthlyCost": 500
       },
       "healthcare": {
         "description": "Premium private health insurance with comprehensive coverage; UT Medical Center concierge options",
-        "monthlyCost": 700
+        "monthlyCost": 650
       },
       "transportation": {
         "description": "Late-model SUV for mountain adventures, premium insurance, occasional boat rental on the Tennessee River",
-        "monthlyCost": 450
+        "monthlyCost": 425
       },
       "entertainment": {
         "description": "Premium UT football tickets, Blackberry Farm day visits, private fly fishing guides, Knox Symphony season seats",
-        "monthlyCost": 500
+        "monthlyCost": 475
       },
       "utilities": {
-        "monthlyCost": 220
+        "monthlyCost": 200
       },
       "lifestyle": "A spacious home in Farragut or a lakefront property on Fort Loudoun Lake, regular dinners at places like The Lonesome Dove and J.C. Holdway, and premium UT football tickets. You can afford a late-model SUV, premium health insurance through UT Medical Center, guided fly-fishing in the Smokies, and occasional visits to Blackberry Farm. Knoxville's low cost of living means this budget leaves real margin each month for travel and savings."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury lakefront estate on Fort Loudoun Lake, or a historic mansion in Sequoyah Hills",
-        "monthlyCost": 4200
+        "monthlyCost": 3275
       },
       "dining": {
         "description": "Private chef for dinner parties, fine dining multiple nights per week, Blackberry Farm dining experiences",
-        "monthlyCost": 1200
+        "monthlyCost": 925
       },
       "groceries": {
-        "monthlyCost": 650
+        "monthlyCost": 500
       },
       "healthcare": {
         "description": "Concierge medicine, executive health screenings, premium private insurance with zero deductibles",
-        "monthlyCost": 900
+        "monthlyCost": 700
       },
       "transportation": {
         "description": "Luxury SUV, boat on Fort Loudoun Lake, premium insurance, detailing service",
-        "monthlyCost": 800
+        "monthlyCost": 625
       },
       "entertainment": {
         "description": "UT skybox access, Blackberry Farm overnight stays, private guided Smokies experiences, arts patronage",
-        "monthlyCost": 850
+        "monthlyCost": 650
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 225
       },
       "domesticHelp": {
         "description": "Bi-weekly house cleaning, landscaping, dock maintenance, occasional personal assistant",
-        "monthlyCost": 650
+        "monthlyCost": 500
       },
       "luxuryExtras": {
         "description": "Regular Blackberry Farm retreats, quarterly travel, wine collecting, university philanthropy",
-        "monthlyCost": 1300
+        "monthlyCost": 1000
       },
       "lifestyle": "A large lakefront home on Fort Loudoun Lake with a boat dock, a housekeeper who comes several times a week, concierge medical coverage, and a nice SUV. You dine at the city's best restaurants regularly, hold UT skybox access, and visit Blackberry Farm for overnight stays. Business class flights from McGhee Tyson and regular travel are within budget. Knoxville's low costs and zero state income tax mean this spending level provides a very comfortable life with substantial margin."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Grand lakefront estate on Tellico or Fort Loudoun Lake, or a historic compound in West Knoxville",
-        "monthlyCost": 7500
+        "monthlyCost": 3850
       },
       "dining": {
         "description": "Full-time personal chef, catered events, private Blackberry Farm experiences, exclusive wine dinners",
-        "monthlyCost": 2500
+        "monthlyCost": 1275
       },
       "groceries": {
-        "monthlyCost": 850
+        "monthlyCost": 425
       },
       "healthcare": {
         "description": "Top concierge medical practice, executive wellness, specialist access at Vanderbilt via short drive",
-        "monthlyCost": 1400
+        "monthlyCost": 725
       },
       "transportation": {
         "description": "Multiple luxury vehicles, private boat on the lake, personal driver, chartered flights from TYS",
-        "monthlyCost": 1500
+        "monthlyCost": 775
       },
       "entertainment": {
         "description": "Major university philanthropy, private suite at Neyland Stadium, national park conservation funding, international travel",
-        "monthlyCost": 2500
+        "monthlyCost": 1275
       },
       "utilities": {
-        "monthlyCost": 450
+        "monthlyCost": 225
       },
       "domesticHelp": {
         "description": "Full-time estate manager, housekeeper, personal assistant, dock and grounds crew, boat captain",
-        "monthlyCost": 3800
+        "monthlyCost": 1950
       },
       "luxuryExtras": {
         "description": "Blackberry Farm membership, first-class international travel, Smoky Mountain conservation philanthropy, art collecting",
-        "monthlyCost": 4800
+        "monthlyCost": 2450
       },
       "lifestyle": "A large lakefront estate on Tellico or Fort Loudoun Lake, a cook who comes in several times a week, full-time domestic help, and top-tier concierge healthcare with access to Vanderbilt specialists via a short drive. You travel first class, keep multiple vehicles and a boat, and dine out at the region's best restaurants without checking the bill. In a metro as affordable as Knoxville, this budget creates enormous margin -- enough for a private suite at Neyland Stadium, regular charitable giving to the university and Smokies conservation, and significant ongoing savings."
     }

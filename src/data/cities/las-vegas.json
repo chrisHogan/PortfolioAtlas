@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR apartment in Henderson or Summerlin South",
-        "monthlyCost": 1350
+        "monthlyCost": 1750
       },
       "dining": {
         "description": "Cheap casino buffets and fast-casual spots 2-3x/week; mostly cooking at home",
-        "monthlyCost": 250
+        "monthlyCost": 325
       },
       "groceries": {
-        "monthlyCost": 380
+        "monthlyCost": 475
       },
       "healthcare": {
         "description": "ACA marketplace Silver plan; Nevada exchange options are moderate",
-        "monthlyCost": 520
+        "monthlyCost": 675
       },
       "transportation": {
         "description": "Older paid-off car with insurance and gas; a car is essential here",
-        "monthlyCost": 280
+        "monthlyCost": 350
       },
       "entertainment": {
         "description": "Free Strip walks, Red Rock Canyon hikes, occasional discounted show tickets",
-        "monthlyCost": 100
+        "monthlyCost": 125
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 250
       },
       "lifestyle": "You live in a suburban area like Henderson or Summerlin South, well away from the Strip, and cook most meals at home. Cheap casino buffet deals and casual restaurants help stretch the dining budget a couple of times a week. Summer electricity bills for air conditioning are a real cost in the desert heat. No state income tax helps, and free entertainment on the Strip is always available if you avoid the gambling floor."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Nice 2BR apartment in Summerlin or a condo in Green Valley",
-        "monthlyCost": 1900
+        "monthlyCost": 2250
       },
       "dining": {
         "description": "Mid-range restaurants 3-4x/week; occasional Strip dining deals",
-        "monthlyCost": 550
+        "monthlyCost": 650
       },
       "groceries": {
-        "monthlyCost": 480
+        "monthlyCost": 575
       },
       "healthcare": {
         "description": "ACA Gold plan with dental and vision coverage",
-        "monthlyCost": 620
+        "monthlyCost": 750
       },
       "transportation": {
         "description": "Reliable mid-range car with full coverage insurance",
-        "monthlyCost": 400
+        "monthlyCost": 475
       },
       "entertainment": {
         "description": "Regular show tickets, gym membership, golf at public courses, day trips to Valley of Fire",
-        "monthlyCost": 350
+        "monthlyCost": 425
       },
       "utilities": {
-        "monthlyCost": 230
+        "monthlyCost": 275
       },
       "lifestyle": "You can rent a nice apartment in Summerlin or Green Valley and eat out several times a week at mid-range restaurants, with occasional Strip dining when deals are available. Show tickets, a gym membership, and golf at public courses fit the budget. Weekend road trips to Zion, the Grand Canyon, or Valley of Fire are easy drives. No state income tax means your full withdrawal is yours to spend."
     },
@@ -88,18 +88,18 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "3BR house in Summerlin or Southern Highlands with a pool",
-        "monthlyCost": 2800
+        "monthlyCost": 2850
       },
       "dining": {
         "description": "Fine dining on the Strip at restaurants by celebrity chefs; regular sushi and steakhouse visits",
-        "monthlyCost": 900
+        "monthlyCost": 925
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 625
       },
       "healthcare": {
         "description": "Premium private health insurance with comprehensive coverage",
-        "monthlyCost": 750
+        "monthlyCost": 775
       },
       "transportation": {
         "description": "Late-model SUV, premium insurance, occasional rideshare to the Strip",
@@ -107,7 +107,7 @@
       },
       "entertainment": {
         "description": "Premium show seats, golf club membership, spa visits, regular concerts and events",
-        "monthlyCost": 600
+        "monthlyCost": 625
       },
       "utilities": {
         "monthlyCost": 300
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury home in The Ridges, MacDonald Highlands, or a high-rise condo on the Strip",
-        "monthlyCost": 4800
+        "monthlyCost": 4025
       },
       "dining": {
         "description": "VIP dining experiences at Joël Robuchon, Bazaar Meat; private chef for home entertaining",
-        "monthlyCost": 1500
+        "monthlyCost": 1250
       },
       "groceries": {
-        "monthlyCost": 750
+        "monthlyCost": 625
       },
       "healthcare": {
         "description": "Concierge medicine with executive health screenings",
-        "monthlyCost": 1000
+        "monthlyCost": 825
       },
       "transportation": {
         "description": "Luxury vehicle, premium insurance, car detailing service",
-        "monthlyCost": 800
+        "monthlyCost": 675
       },
       "entertainment": {
         "description": "VIP nightlife, premium golf club, courtside NBA seats, exclusive shows and events",
-        "monthlyCost": 1000
+        "monthlyCost": 825
       },
       "utilities": {
-        "monthlyCost": 400
+        "monthlyCost": 325
       },
       "domesticHelp": {
         "description": "Bi-weekly deep cleaning, pool service, landscaping, occasional personal assistant",
-        "monthlyCost": 900
+        "monthlyCost": 750
       },
       "luxuryExtras": {
         "description": "High-roller experiences, quarterly luxury travel, spa packages, fine wine collection",
-        "monthlyCost": 1800
+        "monthlyCost": 1500
       },
       "lifestyle": "A large home in a gated community like The Ridges or MacDonald Highlands, regular dining at the best Strip restaurants, and a housekeeper who comes several times a week. Concierge medicine, a nice car, and business class flights are standard. Premium golf club membership, courtside NBA seats, and the best show tickets in town fit comfortably. Nevada's zero income tax keeps the full withdrawal intact."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Custom estate in The Summit or penthouse suite in a luxury Strip tower",
-        "monthlyCost": 10000
+        "monthlyCost": 5850
       },
       "dining": {
         "description": "Personal chef, exclusive private dining rooms, catered events and parties",
-        "monthlyCost": 3000
+        "monthlyCost": 1750
       },
       "groceries": {
-        "monthlyCost": 1000
+        "monthlyCost": 575
       },
       "healthcare": {
         "description": "Top-tier concierge medical practice, executive wellness programs, holistic care",
-        "monthlyCost": 1500
+        "monthlyCost": 875
       },
       "transportation": {
         "description": "Multiple luxury vehicles, private car service, occasional charter flights",
-        "monthlyCost": 1800
+        "monthlyCost": 1050
       },
       "entertainment": {
         "description": "Private casino hosts, front-row everything, art collecting, international travel, philanthropy",
-        "monthlyCost": 2500
+        "monthlyCost": 1450
       },
       "utilities": {
-        "monthlyCost": 600
+        "monthlyCost": 350
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, personal assistant, pool and grounds maintenance team",
-        "monthlyCost": 4000
+        "monthlyCost": 2325
       },
       "luxuryExtras": {
         "description": "Private jet trips, luxury suite entertaining, real estate investments, charitable foundations",
-        "monthlyCost": 5000
+        "monthlyCost": 2925
       },
       "lifestyle": "Premium housing in The Summit or a penthouse in a luxury Strip tower, regular fine dining, a cook who comes several times a week, and a housekeeper. First class travel, full concierge healthcare, and front-row access to any show or event in the city. Nevada's zero income tax at this spending level is a significant financial advantage. Las Vegas's entertainment infrastructure means there is always something to do without needing to travel far."
     }

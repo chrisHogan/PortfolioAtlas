@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "2BR apartment in Jabal Amman, Sweifieh, or a spacious flat in Tabarbour",
-        "monthlyCost": 500
+        "monthlyCost": 775
       },
       "dining": {
         "description": "Falafel and hummus shops daily, mansaf dinners, casual restaurants 3-4x/week",
-        "monthlyCost": 200
+        "monthlyCost": 325
       },
       "groceries": {
-        "monthlyCost": 200
+        "monthlyCost": 325
       },
       "healthcare": {
         "description": "Affordable private insurance; Jordan's hospitals are well-regarded regionally",
-        "monthlyCost": 150
+        "monthlyCost": 250
       },
       "transportation": {
         "description": "Taxis and ride-hailing (Careem); public transit is limited but taxis are cheap",
-        "monthlyCost": 80
+        "monthlyCost": 125
       },
       "entertainment": {
         "description": "Roman Citadel visits, Rainbow Street cafes, Dead Sea day trips, souk exploring",
-        "monthlyCost": 100
+        "monthlyCost": 150
       },
       "utilities": {
-        "monthlyCost": 120
+        "monthlyCost": 200
       },
       "lifestyle": "A 2-bedroom apartment in Jabal Amman or Sweifieh, eating falafel, hummus, and mansaf at local restaurants most days, and getting around by taxi and ride-hailing since public transit is limited. Affordable private health insurance covering Jordan's well-regarded hospitals. Day trips to the Dead Sea and Jerash are cheap. Comfortable and affordable, though dining at upscale restaurants and frequent travel would stretch the budget."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Modern 3BR apartment in Abdoun, Deir Ghbar, or a villa flat in Dabouq with views",
-        "monthlyCost": 1000
+        "monthlyCost": 1100
       },
       "dining": {
         "description": "Regular dining at Amman's best restaurants, mezze feasts, rooftop dinners, cafe culture",
-        "monthlyCost": 400
+        "monthlyCost": 450
       },
       "groceries": {
-        "monthlyCost": 300
+        "monthlyCost": 325
       },
       "healthcare": {
         "description": "Premium private insurance with access to top hospitals like Jordan Hospital and Khalidi",
-        "monthlyCost": 250
+        "monthlyCost": 275
       },
       "transportation": {
         "description": "Own car for Dead Sea and desert trips; taxis for daily city use",
-        "monthlyCost": 250
+        "monthlyCost": 275
       },
       "entertainment": {
         "description": "Petra weekends, Wadi Rum camping, Dead Sea spa days, cultural events, gym membership",
-        "monthlyCost": 400
+        "monthlyCost": 450
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 175
       },
       "lifestyle": "A modern 3-bedroom apartment in Abdoun or Deir Ghbar, dining out at good restaurants and mezze spots several times a week, and your own car for trips to the Dead Sea, Petra, and Wadi Rum. Premium private health insurance with specialist coverage. Weekend flights to Cairo, Beirut, or Istanbul are affordable. Day-to-day life is comfortable with a reasonable monthly cushion."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Luxury 4BR villa in Abdoun or a premium apartment in the new Abdali district",
-        "monthlyCost": 1800
+        "monthlyCost": 1475
       },
       "dining": {
         "description": "Fine dining at top restaurants like Fakhreldin and Sufra, private dinner experiences, wine imports",
-        "monthlyCost": 700
+        "monthlyCost": 575
       },
       "groceries": {
-        "monthlyCost": 400
+        "monthlyCost": 325
       },
       "healthcare": {
         "description": "Top-tier private insurance with international coverage and concierge service",
-        "monthlyCost": 350
+        "monthlyCost": 300
       },
       "transportation": {
         "description": "Quality SUV for desert exploration, city car, occasional domestic flights to Aqaba",
-        "monthlyCost": 450
+        "monthlyCost": 375
       },
       "entertainment": {
         "description": "Luxury Dead Sea resort weekends, private Petra tours, Wadi Rum glamping, regional travel",
-        "monthlyCost": 700
+        "monthlyCost": 575
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 175
       },
       "lifestyle": "A large villa in Abdoun or a premium apartment in the Abdali district. Regular dining at top restaurants like Fakhreldin and Sufra, an SUV for desert and Dead Sea trips, and flights to Aqaba. International health insurance with concierge service. Weekend trips to Wadi Rum tented camps and Dead Sea resorts are comfortable additions. This budget goes far in Amman, with significant margin each month."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Grand villa in Abdoun or Dabouq with swimming pool, garden, and panoramic city views",
-        "monthlyCost": 3000
+        "monthlyCost": 1750
       },
       "dining": {
         "description": "Personal chef for daily meals and entertaining, exclusive dining experiences, imported wines",
-        "monthlyCost": 1000
+        "monthlyCost": 600
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 300
       },
       "healthcare": {
         "description": "VIP private healthcare with international hospital network access and medical evacuation",
-        "monthlyCost": 500
+        "monthlyCost": 300
       },
       "transportation": {
         "description": "Luxury SUV, second vehicle, full-time driver, first-class flights from Amman",
-        "monthlyCost": 700
+        "monthlyCost": 425
       },
       "entertainment": {
         "description": "Private archaeological tours, luxury desert expeditions, Red Sea diving in Aqaba, cultural patronage",
-        "monthlyCost": 900
+        "monthlyCost": 525
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 175
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, cook, gardener, and security; live-in domestic help is affordable",
-        "monthlyCost": 600
+        "monthlyCost": 350
       },
       "luxuryExtras": {
         "description": "First-class regional travel, luxury Dead Sea property access, antiquities study, philanthropy",
-        "monthlyCost": 2000
+        "monthlyCost": 1175
       },
       "lifestyle": "A large villa in Abdoun or Dabouq with pool and garden, a housekeeper, cook, and driver. A luxury SUV for desert trips, business class flights for international travel, and premium healthcare with international hospital access. Regular dining at Amman's best restaurants and private guided tours at Petra and other sites. Amman's moderate costs leave a large margin at this budget level."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Palatial estate in Dabouq or Abdoun with extensive grounds, pool, and commanding views",
-        "monthlyCost": 5000
+        "monthlyCost": 1875
       },
       "dining": {
         "description": "Personal chef team, private dining experiences, imported delicacies, lavish entertaining",
-        "monthlyCost": 2000
+        "monthlyCost": 775
       },
       "groceries": {
-        "monthlyCost": 700
+        "monthlyCost": 275
       },
       "healthcare": {
         "description": "Top-tier international concierge medicine with global network and wellness programs",
-        "monthlyCost": 700
+        "monthlyCost": 275
       },
       "transportation": {
         "description": "Multiple luxury vehicles, full-time driver, private aviation access, first-class international",
-        "monthlyCost": 1500
+        "monthlyCost": 575
       },
       "entertainment": {
         "description": "Private archaeological expeditions, luxury regional travel, art collecting, international events",
-        "monthlyCost": 3000
+        "monthlyCost": 1150
       },
       "utilities": {
-        "monthlyCost": 400
+        "monthlyCost": 150
       },
       "domesticHelp": {
         "description": "Full estate staff including chef, housekeepers, groundskeepers, security team, and drivers",
-        "monthlyCost": 2000
+        "monthlyCost": 775
       },
       "luxuryExtras": {
         "description": "Private jet access, Dead Sea luxury compound, archaeological philanthropy, international art",
-        "monthlyCost": 6500
+        "monthlyCost": 2500
       },
       "lifestyle": "A large estate in Dabouq or Abdoun with full household staff including a housekeeper, cook, drivers, and security. Multiple vehicles, first class international flights, and top-tier global health coverage. Dining at any restaurant in Jordan without a thought. This budget vastly exceeds Amman's cost of living, leaving the majority unspent. Most people at this level travel extensively and maintain Amman as a comfortable, affordable home base in the region."
     }

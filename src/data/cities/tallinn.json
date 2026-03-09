@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR apartment in Kalamaja or Kristiine, trendy neighborhoods near the Old Town",
-        "monthlyCost": 850
+        "monthlyCost": 1225
       },
       "dining": {
         "description": "Estonian comfort food and Nordic-inspired cafes 3-4x/week; hearty soups and rye bread",
-        "monthlyCost": 300
+        "monthlyCost": 450
       },
       "groceries": {
-        "monthlyCost": 300
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "Estonian health insurance or private plan; high-quality healthcare system",
-        "monthlyCost": 200
+        "monthlyCost": 300
       },
       "transportation": {
         "description": "Free public transit for Tallinn residents; excellent bus and tram network",
-        "monthlyCost": 20
+        "monthlyCost": 25
       },
       "entertainment": {
         "description": "Old Town exploration, sauna culture, Baltic beach walks, free museum days, cozy cafes",
-        "monthlyCost": 150
+        "monthlyCost": 225
       },
       "utilities": {
-        "monthlyCost": 160
+        "monthlyCost": 225
       },
       "lifestyle": "A one-bedroom in Kalamaja or Kristiine keeps costs manageable in a walkable, interesting neighborhood. Public transit is free for registered residents, which helps the budget considerably. You can eat at cafes and casual restaurants a few times a week and enjoy Tallinn's sauna culture affordably. Winters are long, dark, and cold — this is the major lifestyle tradeoff. Summers along the Baltic coast are short but pleasant."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Modern 2BR apartment in Kalamaja, Rotermanni quarter, or near Kadriorg Park",
-        "monthlyCost": 1400
+        "monthlyCost": 1825
       },
       "dining": {
         "description": "Regular dining at top Estonian restaurants, New Nordic cuisine, craft beer bars",
-        "monthlyCost": 500
+        "monthlyCost": 650
       },
       "groceries": {
-        "monthlyCost": 400
+        "monthlyCost": 525
       },
       "healthcare": {
         "description": "Premium private insurance with access to top clinics and EU healthcare network",
-        "monthlyCost": 250
+        "monthlyCost": 325
       },
       "transportation": {
         "description": "Free public transit plus car rental for trips to Lahemaa National Park and countryside",
-        "monthlyCost": 80
+        "monthlyCost": 100
       },
       "entertainment": {
         "description": "Opera at Estonia Theatre, spa weekends in Pärnu, island trips to Saaremaa, gym membership",
-        "monthlyCost": 300
+        "monthlyCost": 400
       },
       "utilities": {
-        "monthlyCost": 180
+        "monthlyCost": 225
       },
       "lifestyle": "A modern apartment in Kalamaja, Rotermanni, or near Kadriorg Park puts you in Tallinn's best neighborhoods. Regular dining at good restaurants, spa weekends in Pärnu, and car rentals for trips to Lahemaa National Park are all within budget. Good private health insurance, a gym membership, and budget flights around Europe leave a comfortable margin. Estonia's digital infrastructure makes banking and administration notably easy."
     },
@@ -88,7 +88,7 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Luxury 3BR apartment in the Old Town or a renovated townhouse in Kadriorg",
-        "monthlyCost": 2500
+        "monthlyCost": 2425
       },
       "dining": {
         "description": "Fine dining at Noa, 180°, and other top restaurants; wine tasting events",
@@ -110,7 +110,7 @@
         "monthlyCost": 500
       },
       "utilities": {
-        "monthlyCost": 220
+        "monthlyCost": 225
       },
       "lifestyle": "A large apartment in the Old Town or a renovated townhouse in Kadriorg, regular dining at Tallinn's top restaurants like Noa and 180 degrees, and your own car for countryside trips. International health coverage and regular European travel, including easy ferry trips to Helsinki. The margin at this level in Tallinn is significant, and the restaurant scene, while growing, is smaller than in larger European capitals."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Historic Old Town mansion or luxury waterfront penthouse in Noblessner",
-        "monthlyCost": 4000
+        "monthlyCost": 3075
       },
       "dining": {
         "description": "Private chef for regular entertaining; exclusive supper clubs and wine dinners",
-        "monthlyCost": 1200
+        "monthlyCost": 900
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "VIP concierge medical with access to top Nordic and EU hospitals",
-        "monthlyCost": 400
+        "monthlyCost": 300
       },
       "transportation": {
         "description": "Luxury vehicle, first-class European travel, private ferry and flight charters",
-        "monthlyCost": 400
+        "monthlyCost": 300
       },
       "entertainment": {
         "description": "Private cultural experiences, Baltic yacht charters, exclusive Nordic spa retreats",
-        "monthlyCost": 700
+        "monthlyCost": 525
       },
       "utilities": {
-        "monthlyCost": 280
+        "monthlyCost": 200
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, part-time cook, personal assistant",
-        "monthlyCost": 700
+        "monthlyCost": 525
       },
       "luxuryExtras": {
         "description": "Baltic yacht cruises, first-class Scandinavian travel, art collecting, Estonian tech investments",
-        "monthlyCost": 2000
+        "monthlyCost": 1525
       },
       "lifestyle": "A historic Old Town property or a waterfront penthouse in Noblessner, a housekeeper, business class European travel, and dining at Tallinn's best restaurants whenever you like. Premium healthcare through Nordic networks is accessible. Estonia's digital governance and flat tax system simplify financial management. The margin is large — Tallinn does not have the luxury infrastructure to absorb this level of spending."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Grand Old Town palazzo or waterfront estate with private dock",
-        "monthlyCost": 7000
+        "monthlyCost": 3875
       },
       "dining": {
         "description": "Personal chef team, exclusive Nordic dining experiences, catered events",
-        "monthlyCost": 2500
+        "monthlyCost": 1375
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "Elite Nordic health plan, personal physician, executive wellness in Helsinki or Stockholm",
-        "monthlyCost": 600
+        "monthlyCost": 325
       },
       "transportation": {
         "description": "Luxury yacht, multiple vehicles, chauffeur, private European flights",
-        "monthlyCost": 1200
+        "monthlyCost": 675
       },
       "entertainment": {
         "description": "Baltic yacht cruises, art patronage, exclusive cultural events, luxury Nordic travel",
-        "monthlyCost": 2000
+        "monthlyCost": 1100
       },
       "utilities": {
-        "monthlyCost": 350
+        "monthlyCost": 200
       },
       "domesticHelp": {
         "description": "Full household staff: chef, butler, housekeepers, driver, personal assistant, groundskeeper",
-        "monthlyCost": 2200
+        "monthlyCost": 1225
       },
       "luxuryExtras": {
         "description": "Baltic island property, yacht ownership, first-class global travel, Estonian tech startup investing, philanthropy",
-        "monthlyCost": 5000
+        "monthlyCost": 2775
       },
       "lifestyle": "A grand Old Town property or waterfront estate, a cook who comes in several times a week, regular housekeeping, and first-class travel. You can keep a boat for Baltic summer sailing and carry comprehensive international healthcare. Tallinn is a small capital of under 500,000 people, so the fine dining, cultural, and luxury service options are limited. Most of this budget will go unspent locally, making it best suited to someone who travels extensively and values Tallinn as a quiet, safe home base."
     }

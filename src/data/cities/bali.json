@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Cozy 1-bedroom villa or apartment in Ubud or Sanur with garden access",
-        "monthlyCost": 450
+        "monthlyCost": 700
       },
       "dining": {
         "description": "Local warungs for daily meals — nasi goreng, mie ayam, and fresh juices; occasional café dining in Ubud",
-        "monthlyCost": 350
+        "monthlyCost": 575
       },
       "groceries": {
-        "monthlyCost": 200
+        "monthlyCost": 325
       },
       "healthcare": {
         "description": "Basic international insurance; outpatient care at BIMC or local clinics; serious issues require evacuation to Singapore",
-        "monthlyCost": 200
+        "monthlyCost": 325
       },
       "transportation": {
         "description": "Rented scooter for daily travel around the island",
-        "monthlyCost": 70
+        "monthlyCost": 125
       },
       "entertainment": {
         "description": "Yoga classes, temple ceremonies, beach days, rice terrace hikes, and local cultural events",
-        "monthlyCost": 200
+        "monthlyCost": 325
       },
       "utilities": {
-        "monthlyCost": 80
+        "monthlyCost": 125
       },
       "lifestyle": "A small 1-bedroom villa or apartment in Ubud or Sanur with garden access. Eating mostly at local warungs, which are cheap and good. Getting around by scooter. Basic international health insurance, though serious medical issues require evacuation to Singapore. Yoga classes and beach days are cheap or free. Comfortable on a daily basis, but imported goods and Western dining add up quickly."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Charming 2-bedroom private villa with pool in Ubud, Canggu, or Sanur",
-        "monthlyCost": 900
+        "monthlyCost": 1050
       },
       "dining": {
         "description": "Mix of warungs and the thriving Canggu/Ubud café scene — avocado toast, organic bowls, and excellent Indonesian cuisine",
-        "monthlyCost": 700
+        "monthlyCost": 825
       },
       "groceries": {
-        "monthlyCost": 350
+        "monthlyCost": 400
       },
       "healthcare": {
         "description": "Comprehensive international health insurance with coverage at BIMC and Siloam hospitals",
-        "monthlyCost": 300
+        "monthlyCost": 350
       },
       "transportation": {
         "description": "Scooter plus Grab car for longer trips; occasional driver hire for day trips",
-        "monthlyCost": 150
+        "monthlyCost": 175
       },
       "entertainment": {
         "description": "Unlimited yoga studio membership, surf lessons, diving trips, weekend excursions to Nusa islands, live music",
-        "monthlyCost": 500
+        "monthlyCost": 600
       },
       "utilities": {
-        "monthlyCost": 120
+        "monthlyCost": 150
       },
       "lifestyle": "A 2-bedroom private villa with pool in Ubud, Canggu, or Sanur. Eating at the growing cafe and restaurant scene several times a week alongside local warungs. Scooter plus Grab for longer trips. Comprehensive international health insurance. Weekend trips to the Gili Islands or Nusa Penida. Life is comfortable and social, with good variety in dining and activities."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Spacious luxury 3-bedroom villa with private pool, lush tropical garden, and ocean or valley views in Seminyak, Ubud, or Uluwatu",
-        "monthlyCost": 1800
+        "monthlyCost": 1400
       },
       "dining": {
         "description": "Fine dining at top Bali restaurants like Locavore and Mozaic; beach club lunches at Potato Head and Sundaya",
-        "monthlyCost": 1300
+        "monthlyCost": 1000
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 400
       },
       "healthcare": {
         "description": "Premium international insurance with Singapore evacuation coverage; annual health screenings",
-        "monthlyCost": 450
+        "monthlyCost": 350
       },
       "transportation": {
         "description": "Private driver on retainer; scooter for quick trips; domestic flights to other Indonesian islands",
-        "monthlyCost": 350
+        "monthlyCost": 275
       },
       "entertainment": {
         "description": "Private yoga instructor, premium beach club memberships, scuba diving certifications, weekend luxury resort stays",
-        "monthlyCost": 1000
+        "monthlyCost": 775
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 200
       },
       "lifestyle": "A spacious 3-bedroom villa with private pool and valley or ocean views in Seminyak, Ubud, or Uluwatu. Regular dining at Bali's top restaurants like Locavore. A driver on retainer for getting around the island. Premium international health insurance with Singapore evacuation coverage. Domestic flights to other Indonesian islands for weekend trips. This budget covers a genuinely affluent life in Bali with regular travel."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Architect-designed luxury compound with infinity pool, outdoor pavilion, and panoramic views in prime Uluwatu, Ubud ridge, or beachfront Seminyak",
-        "monthlyCost": 3000
+        "monthlyCost": 1725
       },
       "dining": {
         "description": "Private chef preparing organic local and international cuisine daily; fine dining at top establishments for special occasions",
-        "monthlyCost": 2200
+        "monthlyCost": 1250
       },
       "groceries": {
-        "monthlyCost": 700
+        "monthlyCost": 400
       },
       "healthcare": {
         "description": "Top-tier global insurance; executive health checks in Singapore twice yearly; holistic wellness programs",
-        "monthlyCost": 650
+        "monthlyCost": 375
       },
       "transportation": {
         "description": "Full-time private driver with luxury SUV; domestic flights; speedboat charters to neighboring islands",
-        "monthlyCost": 600
+        "monthlyCost": 350
       },
       "entertainment": {
         "description": "Private surf coaching, exclusive wellness retreats, art studio space, regular trips to Komodo, Raja Ampat, and Lombok",
-        "monthlyCost": 1800
+        "monthlyCost": 1025
       },
       "utilities": {
-        "monthlyCost": 350
+        "monthlyCost": 200
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, private chef, gardener, and pool maintenance staff",
-        "monthlyCost": 800
+        "monthlyCost": 450
       },
       "luxuryExtras": {
         "description": "Balinese spa treatments weekly, custom surfboard shaping, private ceremonies with local priests, art collecting from Ubud galleries",
-        "monthlyCost": 1600
+        "monthlyCost": 925
       },
       "lifestyle": "A large, well-designed villa with infinity pool and panoramic views in a prime location. A housekeeper, a cook for most meals, and a gardener. A full-time driver with a nice SUV. Business class flights for longer trips and regular domestic travel across the Indonesian archipelago. Premium global health insurance with executive checkups in Singapore. Daily life is very comfortable, though Bali's infrastructure limitations — roads, internet, medical facilities — are real regardless of budget."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Ultra-luxury beachfront estate or cliff-top compound with multiple pavilions, infinity pool, private beach access, and guest villas; possible second property in Ubud",
-        "monthlyCost": 6000
+        "monthlyCost": 2300
       },
       "dining": {
         "description": "Private chef team with rotating international menus, imported wines and ingredients, exclusive supper clubs with visiting chefs",
-        "monthlyCost": 3500
+        "monthlyCost": 1325
       },
       "groceries": {
-        "monthlyCost": 1200
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "Concierge global healthcare; quarterly wellness retreats; immediate access to top specialists in Singapore or Bangkok",
-        "monthlyCost": 1000
+        "monthlyCost": 375
       },
       "transportation": {
         "description": "Luxury vehicle fleet, full-time driver, private yacht access, helicopter transfers, first-class international flights",
-        "monthlyCost": 2500
+        "monthlyCost": 950
       },
       "entertainment": {
         "description": "Private island day trips, commissioning local artisans, hosting cultural events, international luxury travel, philanthropy through local foundations",
-        "monthlyCost": 4000
+        "monthlyCost": 1525
       },
       "utilities": {
-        "monthlyCost": 600
+        "monthlyCost": 225
       },
       "domesticHelp": {
         "description": "Complete estate staff including chef, butler, multiple housekeepers, gardeners, driver, security, and property manager",
-        "monthlyCost": 2200
+        "monthlyCost": 850
       },
       "luxuryExtras": {
         "description": "Private yoga and meditation masters, art patronage, custom furniture commissions, yacht charters through the archipelago, eco-tourism investments",
-        "monthlyCost": 5500
+        "monthlyCost": 2100
       },
       "lifestyle": "A premium beachfront or cliff-top estate with multiple pavilions and possibly a second property in Ubud. A housekeeper, a cook a few times a week, a gardener, and a driver. First-class flights internationally and regular travel across Indonesia. Concierge global healthcare with immediate access to Singapore or Bangkok specialists. This budget far exceeds what Bali's market can absorb — you live at the top of what the island offers, but the island's limited fine-dining scene, patchy infrastructure, and remote location remain real factors."
     }

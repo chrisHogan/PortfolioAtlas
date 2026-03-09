@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR apartment in Zhonghe, Banqiao, or outer Taipei near an MRT station",
-        "monthlyCost": 600
+        "monthlyCost": 1400
       },
       "dining": {
         "description": "Night market meals daily, local bento boxes, beef noodle soup shops",
-        "monthlyCost": 250
+        "monthlyCost": 600
       },
       "groceries": {
-        "monthlyCost": 250
+        "monthlyCost": 600
       },
       "healthcare": {
         "description": "Taiwan NHI enrollment — world-class coverage at minimal cost",
-        "monthlyCost": 80
+        "monthlyCost": 200
       },
       "transportation": {
         "description": "EasyCard for MRT, buses, and YouBike; the system is clean and fast",
-        "monthlyCost": 40
+        "monthlyCost": 100
       },
       "entertainment": {
         "description": "Temple visits, riverside cycling, hiking Elephant Mountain, night market culture",
-        "monthlyCost": 100
+        "monthlyCost": 225
       },
       "utilities": {
-        "monthlyCost": 100
+        "monthlyCost": 225
       },
       "lifestyle": "A 1-bedroom apartment in Zhonghe, Banqiao, or outer Taipei near an MRT station. Eating mostly at night markets and local bento shops — beef noodle soup, dumplings, and stir-fries for a few dollars per meal. Getting around on the clean, fast MRT. Taiwan's National Health Insurance provides world-class coverage at minimal cost. The apartment will be modest, but the food, healthcare, transit, and safety are hard to beat at this price. English is moderate — some adaptation is needed for daily errands."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Modern 2BR apartment in Da'an, Xinyi, or a newer building in Zhongshan",
-        "monthlyCost": 1200
+        "monthlyCost": 2100
       },
       "dining": {
         "description": "Dining out daily — mix of night markets, Japanese restaurants, hot pot, and trendy cafes",
-        "monthlyCost": 450
+        "monthlyCost": 775
       },
       "groceries": {
-        "monthlyCost": 350
+        "monthlyCost": 600
       },
       "healthcare": {
         "description": "NHI plus supplemental private insurance for premium hospital rooms",
-        "monthlyCost": 150
+        "monthlyCost": 250
       },
       "transportation": {
         "description": "MRT pass plus occasional taxis, weekend trips by HSR bullet train",
-        "monthlyCost": 80
+        "monthlyCost": 150
       },
       "entertainment": {
         "description": "Hot spring trips to Beitou, concerts, gym membership, weekend trips to Jiufen and Sun Moon Lake",
-        "monthlyCost": 350
+        "monthlyCost": 600
       },
       "utilities": {
-        "monthlyCost": 130
+        "monthlyCost": 225
       },
       "lifestyle": "A modern 2-bedroom apartment in the desirable Da'an or Xinyi districts, or a newer building in Zhongshan. Dining out daily at night markets, Japanese restaurants, hot pot spots, and trendy cafes without watching the bill. MRT for daily transit with weekend trips by HSR bullet train to Taichung or Kaohsiung. NHI plus supplemental private insurance. Hot spring trips to Beitou and hiking in the surrounding mountains. Life is comfortable and the value is strong for a developed Asian capital."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Spacious 3BR apartment in Xinyi District near Taipei 101, or a luxury unit in Tianmu",
-        "monthlyCost": 2200
+        "monthlyCost": 2600
       },
       "dining": {
         "description": "Fine dining at Michelin-starred restaurants like RAW, premium sushi, wine bar culture",
-        "monthlyCost": 900
+        "monthlyCost": 1075
       },
       "groceries": {
-        "monthlyCost": 450
+        "monthlyCost": 525
       },
       "healthcare": {
         "description": "Premium private insurance with VIP access to top hospitals like National Taiwan University Hospital",
-        "monthlyCost": 250
+        "monthlyCost": 300
       },
       "transportation": {
         "description": "Leased car for mountain trips, MRT for city travel, regular HSR to Kaohsiung and Taichung",
-        "monthlyCost": 300
+        "monthlyCost": 350
       },
       "entertainment": {
         "description": "Premium hot spring resorts, golf memberships, cultural events, frequent domestic travel",
-        "monthlyCost": 600
+        "monthlyCost": 725
       },
       "utilities": {
-        "monthlyCost": 180
+        "monthlyCost": 225
       },
       "lifestyle": "A spacious 3-bedroom apartment in Xinyi District near Taipei 101, or a luxury unit in the expat-friendly Tianmu area. Regular dining at Michelin-starred restaurants like RAW and premium sushi spots. A leased car for mountain trips, with MRT for city travel and regular HSR to other cities. Premium private health insurance with VIP hospital access. Weekend escapes to Taroko Gorge or Kenting beaches. This is a genuinely affluent lifestyle in a city where costs are moderate — very little feels out of reach."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury penthouse in Xinyi or a premium villa in Yangmingshan with mountain views",
-        "monthlyCost": 3500
+        "monthlyCost": 2975
       },
       "dining": {
         "description": "Regular Michelin dining, private chef access, exclusive tea ceremony experiences, wine collecting",
-        "monthlyCost": 1500
+        "monthlyCost": 1250
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 500
       },
       "healthcare": {
         "description": "Concierge medical service with top specialists and international coverage",
-        "monthlyCost": 400
+        "monthlyCost": 325
       },
       "transportation": {
         "description": "Luxury car (BMW, Mercedes), driver for city errands, first-class HSR travel",
-        "monthlyCost": 700
+        "monthlyCost": 575
       },
       "entertainment": {
         "description": "Exclusive cultural events, premium resort memberships, art collecting, regional luxury travel",
-        "monthlyCost": 1000
+        "monthlyCost": 825
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 200
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, weekly deep cleaning, laundry service, part-time assistant",
-        "monthlyCost": 1000
+        "monthlyCost": 825
       },
       "luxuryExtras": {
         "description": "First-class regional travel, luxury resort stays, rare tea collecting, philanthropy in Taiwan",
-        "monthlyCost": 2200
+        "monthlyCost": 1825
       },
       "lifestyle": "A luxury penthouse in Xinyi or a premium villa in Yangmingshan with mountain views. A full-time housekeeper, a part-time assistant, and a luxury car with a driver for city errands. Regular dining at Taipei's best restaurants, first-class HSR travel, concierge medical service, and business class flights for regional travel. This budget goes far in Taipei — daily life is very comfortable with significant room to spare, and Taiwan's food culture, safety, and natural beauty are hard to match."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Ultra-luxury residence in One Park Taipei or a sprawling Yangmingshan estate",
-        "monthlyCost": 7000
+        "monthlyCost": 3850
       },
       "dining": {
         "description": "Personal chef, private dining at Taiwan's finest restaurants, exclusive food experiences",
-        "monthlyCost": 3000
+        "monthlyCost": 1625
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 425
       },
       "healthcare": {
         "description": "VIP international concierge medicine with global hospital network access",
-        "monthlyCost": 600
+        "monthlyCost": 325
       },
       "transportation": {
         "description": "Multiple luxury vehicles, dedicated driver, first-class international travel",
-        "monthlyCost": 1800
+        "monthlyCost": 975
       },
       "entertainment": {
         "description": "Art patronage, private cultural experiences, international luxury travel, exclusive memberships",
-        "monthlyCost": 3000
+        "monthlyCost": 1625
       },
       "utilities": {
-        "monthlyCost": 400
+        "monthlyCost": 225
       },
       "domesticHelp": {
         "description": "Full household staff including chef, housekeeper, personal assistant, driver, and gardener",
-        "monthlyCost": 4000
+        "monthlyCost": 2175
       },
       "luxuryExtras": {
         "description": "Private jet access, international property, rare art and tea acquisitions, philanthropic foundation",
-        "monthlyCost": 6000
+        "monthlyCost": 3275
       },
       "lifestyle": "A premium residence in One Park Taipei or a large Yangmingshan estate, with a housekeeper, a cook a few times a week, a personal assistant, a driver, and a gardener. First-class international flights, regular travel across East Asia, VIP concierge medicine, and regular fine dining as routine. This is more money than Taipei's market demands for a top-tier life — you live very well with no financial friction. Taipei is a safe, well-run city with deep food culture, though its luxury and entertainment options are more limited than Tokyo, Hong Kong, or Singapore."
     }

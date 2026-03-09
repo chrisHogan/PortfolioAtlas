@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR apartment in Northshore, Highland Park, or the Southside",
-        "monthlyCost": 1000
+        "monthlyCost": 1300
       },
       "dining": {
         "description": "Casual dining 2x/week at local spots like Champy's or Taqueria Jalisco",
-        "monthlyCost": 180
+        "monthlyCost": 225
       },
       "groceries": {
-        "monthlyCost": 330
+        "monthlyCost": 425
       },
       "healthcare": {
         "description": "ACA marketplace Silver plan; CHI Memorial and Erlanger hospitals nearby",
-        "monthlyCost": 470
+        "monthlyCost": 625
       },
       "transportation": {
         "description": "Paid-off car with basic insurance; free CARTA electric shuttle downtown",
-        "monthlyCost": 220
+        "monthlyCost": 300
       },
       "entertainment": {
         "description": "Hiking Lookout Mountain, rock climbing at Sunset Rock, river walks, free gallery nights",
-        "monthlyCost": 80
+        "monthlyCost": 100
       },
       "utilities": {
-        "monthlyCost": 125
+        "monthlyCost": 175
       },
       "lifestyle": "A one-bedroom on the Northshore or Southside runs about $1,000, and with no state income tax the full $3,333 goes to living costs. You cook at home most nights, eat out casually a couple of times a week at places like Champy's, and spend free time hiking Lookout Mountain, climbing at Sunset Rock, or walking the Riverwalk. EPB's fiber internet keeps streaming and connectivity costs low."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "2BR apartment on the Northshore or a cottage in St. Elmo at the base of Lookout Mountain",
-        "monthlyCost": 1550
+        "monthlyCost": 1900
       },
       "dining": {
         "description": "Dining out 3-4x/week; enjoying the Southside and downtown restaurant scene",
-        "monthlyCost": 400
+        "monthlyCost": 475
       },
       "groceries": {
-        "monthlyCost": 400
+        "monthlyCost": 475
       },
       "healthcare": {
         "description": "ACA Gold plan with dental and vision; good hospital access in the metro",
-        "monthlyCost": 570
+        "monthlyCost": 700
       },
       "transportation": {
         "description": "Reliable car for mountain roads, full coverage insurance, bike for Riverwalk commuting",
-        "monthlyCost": 340
+        "monthlyCost": 400
       },
       "entertainment": {
         "description": "Tennessee Aquarium membership, Lookout Wild bouldering gym, live music, Riverbend Festival",
-        "monthlyCost": 230
+        "monthlyCost": 275
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 175
       },
       "lifestyle": "A two-bedroom on the Northshore or a cottage in St. Elmo at the base of Lookout Mountain, dining out several times a week at the growing Southside restaurant scene, and a gym or climbing membership. Weekends are for biking, paddling the Tennessee River, or attending events like the Riverbend Festival. No state income tax and affordable costs leave a healthy monthly margin."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Custom home on Lookout Mountain or Signal Mountain with panoramic valley views",
-        "monthlyCost": 4500
+        "monthlyCost": 3400
       },
       "dining": {
         "description": "Fine dining several times per week, private chef for entertaining, farm-to-table partnerships",
-        "monthlyCost": 1050
+        "monthlyCost": 800
       },
       "groceries": {
-        "monthlyCost": 650
+        "monthlyCost": 500
       },
       "healthcare": {
         "description": "Concierge medicine, executive wellness, comprehensive private insurance",
-        "monthlyCost": 880
+        "monthlyCost": 675
       },
       "transportation": {
         "description": "Luxury SUV, second vehicle for mountain trails, premium insurance",
-        "monthlyCost": 750
+        "monthlyCost": 575
       },
       "entertainment": {
         "description": "Private climbing trips, guided rafting expeditions, country club, philanthropy galas",
-        "monthlyCost": 750
+        "monthlyCost": 575
       },
       "utilities": {
-        "monthlyCost": 280
+        "monthlyCost": 225
       },
       "domesticHelp": {
         "description": "Weekly deep cleaning, landscaping, mountain property maintenance",
-        "monthlyCost": 550
+        "monthlyCost": 425
       },
       "luxuryExtras": {
         "description": "Smokies cabin weekends, quarterly travel, outdoor gear upgrades, community philanthropy",
-        "monthlyCost": 1350
+        "monthlyCost": 1025
       },
       "lifestyle": "A custom home on Lookout Mountain or Signal Mountain with valley views, a housekeeper who comes weekly, and regular fine dining at Chattanooga's best restaurants. Weekend trips to a Smokies cabin, business class flights for longer travel, and concierge healthcare are all comfortable in this budget. The low cost base and zero state income tax leave generous room for travel and community involvement."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Trophy estate on Lookout Mountain or a sprawling compound on Signal Mountain with acreage",
-        "monthlyCost": 8000
+        "monthlyCost": 4050
       },
       "dining": {
         "description": "Full-time personal chef, exclusive wine dinners, catered gatherings and private events",
-        "monthlyCost": 2200
+        "monthlyCost": 1125
       },
       "groceries": {
-        "monthlyCost": 850
+        "monthlyCost": 425
       },
       "healthcare": {
         "description": "Top-tier concierge practice, medical travel to Nashville or Atlanta specialists, wellness team",
-        "monthlyCost": 1200
+        "monthlyCost": 600
       },
       "transportation": {
         "description": "Multiple luxury vehicles, private car service, chartered flights from CHA",
-        "monthlyCost": 1400
+        "monthlyCost": 700
       },
       "entertainment": {
         "description": "Major philanthropy, international adventure travel, art collecting, exclusive memberships",
-        "monthlyCost": 1900
+        "monthlyCost": 975
       },
       "utilities": {
-        "monthlyCost": 420
+        "monthlyCost": 225
       },
       "domesticHelp": {
         "description": "Full-time estate manager, housekeeper, personal assistant, property caretaker",
-        "monthlyCost": 3800
+        "monthlyCost": 1925
       },
       "luxuryExtras": {
         "description": "Second home in the Smokies, first-class international travel, angel investing, foundation work",
-        "monthlyCost": 4700
+        "monthlyCost": 2375
       },
       "lifestyle": "A large estate on Lookout Mountain or Signal Mountain, a second home in the Smokies, a full-time housekeeper and property manager, and a cook who comes in several times a week. First-class travel, concierge healthcare with specialist access in Nashville or Atlanta, and generous community involvement are all well covered. At Chattanooga costs with no state income tax, this budget provides a very comfortable, well-staffed life with large monthly margins."
     }

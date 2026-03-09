@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Modern 2BR apartment in Observatory, Woodstock, or Sea Point",
-        "monthlyCost": 800
+        "monthlyCost": 1100
       },
       "dining": {
         "description": "Regular dining at diverse restaurants, braai spots, and cafes 4-5x/week",
-        "monthlyCost": 250
+        "monthlyCost": 325
       },
       "groceries": {
-        "monthlyCost": 250
+        "monthlyCost": 325
       },
       "healthcare": {
         "description": "Private medical aid (Discovery Health) with hospital and day-to-day cover",
-        "monthlyCost": 300
+        "monthlyCost": 400
       },
       "transportation": {
         "description": "Used car with insurance, fuel, and MyCiTi bus for commuting",
-        "monthlyCost": 200
+        "monthlyCost": 275
       },
       "entertainment": {
         "description": "Beach days, Table Mountain hikes, Kirstenbosch concerts, wine tasting in Stellenbosch",
-        "monthlyCost": 150
+        "monthlyCost": 200
       },
       "utilities": {
-        "monthlyCost": 100
+        "monthlyCost": 125
       },
       "lifestyle": "A modern 2-bedroom apartment in Observatory, Woodstock, or Sea Point. Dining out at diverse restaurants and braai spots several times a week, with a used car for getting around. Private medical aid through Discovery Health with hospital cover. Table Mountain hikes, beach days, and wine tasting in Stellenbosch on weekends are all affordable. The rand exchange rate makes this a comfortable life, though load-shedding and personal security require some adjustment."
     },
@@ -58,26 +58,26 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Spacious 3BR apartment in Camps Bay, Green Point, or a house in Constantia",
-        "monthlyCost": 1600
+        "monthlyCost": 1675
       },
       "dining": {
         "description": "Regular dining at top Cape Town restaurants like La Colombe, The Test Kitchen, and Kloof Street spots",
-        "monthlyCost": 450
+        "monthlyCost": 475
       },
       "groceries": {
-        "monthlyCost": 350
+        "monthlyCost": 375
       },
       "healthcare": {
         "description": "Comprehensive private medical aid with specialist and dental coverage",
-        "monthlyCost": 400
+        "monthlyCost": 425
       },
       "transportation": {
         "description": "Reliable car with comprehensive insurance, fuel, and maintenance",
-        "monthlyCost": 300
+        "monthlyCost": 325
       },
       "entertainment": {
         "description": "Wine estate memberships, surfing, premium Kirstenbosch events, Cape Point excursions, Franschhoek weekends",
-        "monthlyCost": 450
+        "monthlyCost": 475
       },
       "utilities": {
         "monthlyCost": 150
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Luxury 4BR house in Camps Bay, Clifton, or a wine estate property in Constantia",
-        "monthlyCost": 2800
+        "monthlyCost": 2300
       },
       "dining": {
         "description": "Top-tier restaurants like La Colombe, FYN, and Salsify regularly; private wine dinners",
-        "monthlyCost": 650
+        "monthlyCost": 550
       },
       "groceries": {
-        "monthlyCost": 450
+        "monthlyCost": 375
       },
       "healthcare": {
         "description": "Premium private medical aid with full specialist, dental, and alternative therapy coverage",
-        "monthlyCost": 500
+        "monthlyCost": 425
       },
       "transportation": {
         "description": "Late-model SUV, comprehensive insurance, fuel; occasional private driver",
-        "monthlyCost": 400
+        "monthlyCost": 325
       },
       "entertainment": {
         "description": "Premium wine club memberships, private golf, sailing, safari trips to Kruger, art gallery openings",
-        "monthlyCost": 800
+        "monthlyCost": 650
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 175
       },
       "lifestyle": "A large house in Camps Bay or Clifton with Atlantic Ocean views, a late-model SUV, and regular dining at FYN, Salsify, and other top-tier restaurants. Premium private medical aid with full specialist coverage. A cleaner a few times a week. Safari trips to Kruger, sailing, and golf are comfortable additions. This is a genuinely affluent Cape Town life with room for regular domestic and international travel."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Oceanfront villa in Clifton, Bantry Bay, or a luxury wine estate in the Winelands",
-        "monthlyCost": 4000
+        "monthlyCost": 2775
       },
       "dining": {
         "description": "Personal chef, exclusive dining experiences, private wine estate dinners, catered events",
-        "monthlyCost": 1000
+        "monthlyCost": 700
       },
       "groceries": {
-        "monthlyCost": 550
+        "monthlyCost": 375
       },
       "healthcare": {
         "description": "Top-tier private medical aid with concierge service, international coverage",
-        "monthlyCost": 600
+        "monthlyCost": 425
       },
       "transportation": {
         "description": "Luxury vehicle, comprehensive insurance, private driver on call",
-        "monthlyCost": 600
+        "monthlyCost": 425
       },
       "entertainment": {
         "description": "Exclusive golf club memberships, yacht charter, helicopter tours, art collecting, philanthropy",
-        "monthlyCost": 800
+        "monthlyCost": 550
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 200
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, cook, gardener, security guard, pool maintenance",
-        "monthlyCost": 700
+        "monthlyCost": 475
       },
       "luxuryExtras": {
         "description": "Private safari lodges, first-class international travel, luxury wine collecting, charitable giving",
-        "monthlyCost": 2000
+        "monthlyCost": 1375
       },
       "lifestyle": "An oceanfront villa in Clifton or Bantry Bay, a luxury car with a driver on call, and a housekeeper, cook, and gardener. Regular dining at the city's best restaurants, premium medical aid with international coverage, and business class flights for longer trips. Safari lodge stays and wine estate weekends are routine. The rand exchange rate means this budget delivers a very high quality of life with meaningful margin."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Trophy estate in Clifton, Fresnaye, or a private Winelands compound with vineyards",
-        "monthlyCost": 7000
+        "monthlyCost": 3675
       },
       "dining": {
         "description": "Personal chef team, exclusive private dining, catered events and charity galas",
-        "monthlyCost": 1800
+        "monthlyCost": 950
       },
       "groceries": {
-        "monthlyCost": 700
+        "monthlyCost": 375
       },
       "healthcare": {
         "description": "Top-tier private concierge medicine, international medevac coverage, executive wellness",
-        "monthlyCost": 800
+        "monthlyCost": 425
       },
       "transportation": {
         "description": "Multiple luxury vehicles, full-time driver, helicopter charter account",
-        "monthlyCost": 1200
+        "monthlyCost": 625
       },
       "entertainment": {
         "description": "Yacht ownership, private game reserves, art collecting, international philanthropy, cultural patronage",
-        "monthlyCost": 2000
+        "monthlyCost": 1050
       },
       "utilities": {
-        "monthlyCost": 500
+        "monthlyCost": 275
       },
       "domesticHelp": {
         "description": "Full household staff: housekeeper, chef, gardener, security team, personal assistant, driver",
-        "monthlyCost": 2000
+        "monthlyCost": 1050
       },
       "luxuryExtras": {
         "description": "Private game lodge ownership, yacht, first-class global travel, vineyard operations, major philanthropy",
-        "monthlyCost": 5000
+        "monthlyCost": 2625
       },
       "lifestyle": "A premium property in Clifton or Fresnaye with sweeping ocean views, full household staff including a housekeeper, cook, gardener, driver, and security. Multiple vehicles, first class international flights, and top-tier private concierge medicine. Regular fine dining, premium club memberships, and stays at private game reserves. Cape Town's costs are moderate by global standards, so this budget provides a very comfortable life with a large margin each month."
     }

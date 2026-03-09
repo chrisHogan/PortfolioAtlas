@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Modern 2BR apartment in Kilimani, Lavington, or Westlands with security",
-        "monthlyCost": 700
+        "monthlyCost": 900
       },
       "dining": {
         "description": "Regular dining at local nyama choma spots, Indian restaurants, and cafes 4-5x/week",
-        "monthlyCost": 200
+        "monthlyCost": 250
       },
       "groceries": {
-        "monthlyCost": 220
+        "monthlyCost": 275
       },
       "healthcare": {
         "description": "Private health insurance with access to Nairobi Hospital and Aga Khan Hospital",
-        "monthlyCost": 250
+        "monthlyCost": 325
       },
       "transportation": {
         "description": "Uber and Bolt rides daily; much cheaper and safer than driving yourself",
-        "monthlyCost": 180
+        "monthlyCost": 225
       },
       "entertainment": {
         "description": "Nairobi National Park visits, Karura Forest hikes, live music, Maasai Market weekends",
-        "monthlyCost": 150
+        "monthlyCost": 200
       },
       "utilities": {
-        "monthlyCost": 100
+        "monthlyCost": 125
       },
       "lifestyle": "A modern 2-bedroom apartment with security in Kilimani or Westlands. Getting around by Uber and Bolt, which is cheaper and easier than driving yourself in Nairobi traffic. Eating at local restaurants and cafes several times a week. Private health insurance covering Nairobi Hospital and Aga Khan. Nairobi National Park visits and Karura Forest hikes on weekends. The year-round mild highland climate means no heating or cooling costs. Comfortable, with a reasonable buffer each month."
     },
@@ -58,26 +58,26 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Spacious 3BR apartment in Westlands or a townhouse in Karen or Runda with garden",
-        "monthlyCost": 1400
+        "monthlyCost": 1375
       },
       "dining": {
         "description": "Regular dining at Nairobi's best restaurants like Talisman, Carnivore, and rooftop bars",
-        "monthlyCost": 350
+        "monthlyCost": 325
       },
       "groceries": {
-        "monthlyCost": 300
+        "monthlyCost": 275
       },
       "healthcare": {
         "description": "Comprehensive private insurance with dental, specialist, and international evacuation coverage",
-        "monthlyCost": 350
+        "monthlyCost": 325
       },
       "transportation": {
         "description": "Reliable SUV with insurance for game drives, plus daily Uber for city trips",
-        "monthlyCost": 300
+        "monthlyCost": 275
       },
       "entertainment": {
         "description": "Safari weekends to Maasai Mara, Nairobi National Park annual pass, golf, gym membership, domestic flights to coast",
-        "monthlyCost": 550
+        "monthlyCost": 525
       },
       "utilities": {
         "monthlyCost": 150
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Luxury 4BR house in Karen, Runda, or Muthaiga with manicured grounds and security",
-        "monthlyCost": 2500
+        "monthlyCost": 1850
       },
       "dining": {
         "description": "Fine dining at Nairobi's top restaurants, wine dinners, exclusive members-only clubs",
-        "monthlyCost": 500
+        "monthlyCost": 375
       },
       "groceries": {
-        "monthlyCost": 400
+        "monthlyCost": 300
       },
       "healthcare": {
         "description": "Premium private insurance with international coverage, executive health screenings",
-        "monthlyCost": 450
+        "monthlyCost": 325
       },
       "transportation": {
         "description": "Late-model Land Cruiser for safaris, full insurance, private driver for city errands",
-        "monthlyCost": 450
+        "monthlyCost": 325
       },
       "entertainment": {
         "description": "Muthaiga Country Club membership, luxury safari lodges in the Mara, flights to Zanzibar, art collecting",
-        "monthlyCost": 900
+        "monthlyCost": 675
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 150
       },
       "lifestyle": "A large house in Karen, Runda, or Muthaiga with manicured grounds, a Land Cruiser for safaris, and a driver for city errands. Regular dining at Nairobi's top restaurants and country club membership. Premium health insurance with international coverage. Stays at good safari lodges in the Maasai Mara a few times a year and flights to Zanzibar or the coast. Significant monthly margin at Nairobi's cost of living."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Exclusive estate in Muthaiga, Old Runda, or a private compound in Karen with extensive grounds",
-        "monthlyCost": 3500
+        "monthlyCost": 2175
       },
       "dining": {
         "description": "Personal chef, exclusive dining experiences, catered events at home",
-        "monthlyCost": 700
+        "monthlyCost": 425
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 300
       },
       "healthcare": {
         "description": "Top-tier international health insurance with global coverage and medical evacuation",
-        "monthlyCost": 600
+        "monthlyCost": 375
       },
       "transportation": {
         "description": "Luxury SUV fleet, full-time driver, domestic charter flights to safari camps",
-        "monthlyCost": 600
+        "monthlyCost": 375
       },
       "entertainment": {
         "description": "Exclusive club memberships, private conservancy access, polo, art patronage, international travel",
-        "monthlyCost": 700
+        "monthlyCost": 425
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 175
       },
       "domesticHelp": {
         "description": "Full household staff: housekeeper, chef, gardener, security team, driver, personal assistant",
-        "monthlyCost": 700
+        "monthlyCost": 425
       },
       "luxuryExtras": {
         "description": "Private conservancy shares, first-class international travel, major wildlife philanthropy, luxury retreats",
-        "monthlyCost": 2000
+        "monthlyCost": 1225
       },
       "lifestyle": "A large property in Muthaiga or Karen with a housekeeper, cook, gardener, and driver. A nice SUV, business class flights for international travel, and top-tier health insurance with global coverage. Private conservancy access for wildlife experiences and membership at the best clubs. Regular dining at any restaurant in the city. Nairobi's moderate costs leave a large margin at this budget level."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Grand estate in Muthaiga or private ranch in the Laikipia Plateau with conservation land",
-        "monthlyCost": 5500
+        "monthlyCost": 2600
       },
       "dining": {
         "description": "Personal chef team, exclusive private dining, catered events and diplomatic-level entertaining",
-        "monthlyCost": 1200
+        "monthlyCost": 550
       },
       "groceries": {
-        "monthlyCost": 700
+        "monthlyCost": 325
       },
       "healthcare": {
         "description": "Top-tier international concierge medicine, executive wellness, global medical evacuation",
-        "monthlyCost": 800
+        "monthlyCost": 375
       },
       "transportation": {
         "description": "Multiple luxury vehicles, full-time driver team, private bush plane for ranch access",
-        "monthlyCost": 1200
+        "monthlyCost": 550
       },
       "entertainment": {
         "description": "Private wildlife conservancy operations, international philanthropy, art collecting, global travel",
-        "monthlyCost": 2000
+        "monthlyCost": 925
       },
       "utilities": {
-        "monthlyCost": 500
+        "monthlyCost": 225
       },
       "domesticHelp": {
         "description": "Full estate staff: multiple housekeepers, chef team, security detail, ranch managers, personal assistant",
-        "monthlyCost": 2000
+        "monthlyCost": 925
       },
       "luxuryExtras": {
         "description": "Private conservancy ownership, bush plane, first-class global travel, major conservation philanthropy",
-        "monthlyCost": 5000
+        "monthlyCost": 2325
       },
       "lifestyle": "A large estate in Muthaiga or Runda with full household staff including a housekeeper, cook, security, and drivers. Multiple vehicles, first class international flights, and top-tier global health coverage. Regular fine dining, premium club memberships, and stays at the best safari lodges and conservancies. Nairobi's costs are moderate, so this budget far exceeds what you can spend locally. Most people at this level travel extensively and invest in conservation or community projects."
     }

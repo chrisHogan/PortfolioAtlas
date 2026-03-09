@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR apartment in the Midtown or Wells Avenue district",
-        "monthlyCost": 1250
+        "monthlyCost": 1625
       },
       "dining": {
         "description": "Casual Midtown restaurants and tacos 2x/week; mostly home cooking",
-        "monthlyCost": 210
+        "monthlyCost": 275
       },
       "groceries": {
-        "monthlyCost": 370
+        "monthlyCost": 475
       },
       "healthcare": {
         "description": "ACA marketplace Silver plan through Nevada Health Link",
-        "monthlyCost": 490
+        "monthlyCost": 650
       },
       "transportation": {
         "description": "Paid-off car with basic insurance; car essential for Tahoe and daily life",
-        "monthlyCost": 250
+        "monthlyCost": 325
       },
       "entertainment": {
         "description": "Hiking in the Sierra, Truckee River walks, free Midtown art walks; occasional casino buffet",
-        "monthlyCost": 90
+        "monthlyCost": 125
       },
       "utilities": {
-        "monthlyCost": 135
+        "monthlyCost": 175
       },
       "lifestyle": "Housing takes over a third of the budget at around $1,250 for a one-bedroom in Midtown, and you need a car for daily life and Tahoe trips. You cook at home most nights and eat out casually a couple of times a week. The free hiking in the Sierra foothills and walks along the Truckee River keep things enjoyable. No state income tax helps, but this is a tight budget for Reno's rising costs."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "2BR apartment in Midtown or a small house in the Southwest Reno area",
-        "monthlyCost": 1850
+        "monthlyCost": 2275
       },
       "dining": {
         "description": "Dining out 3-4x/week in Midtown and along the Riverwalk; local breweries",
-        "monthlyCost": 480
+        "monthlyCost": 575
       },
       "groceries": {
-        "monthlyCost": 430
+        "monthlyCost": 525
       },
       "healthcare": {
         "description": "ACA Gold plan with dental and vision; manageable deductibles",
-        "monthlyCost": 600
+        "monthlyCost": 725
       },
       "transportation": {
         "description": "Reliable AWD vehicle for Tahoe winter drives, full coverage insurance",
-        "monthlyCost": 380
+        "monthlyCost": 450
       },
       "entertainment": {
         "description": "Mt. Rose ski pass, mountain biking, Artown festival, gym membership, occasional shows",
-        "monthlyCost": 250
+        "monthlyCost": 300
       },
       "utilities": {
-        "monthlyCost": 165
+        "monthlyCost": 200
       },
       "lifestyle": "A two-bedroom in Midtown or a small house in Southwest Reno, a ski pass at Mt. Rose, and dining out several times a week at Midtown restaurants and breweries. An AWD vehicle handles winter Tahoe drives, and weekend trips to the lake become routine. Good health insurance is covered, and zero state income tax keeps more money in your pocket compared to neighboring California."
     },
@@ -88,18 +88,18 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "3BR home in Somersett, Caughlin Ranch, or South Reno with mountain views",
-        "monthlyCost": 3000
+        "monthlyCost": 3025
       },
       "dining": {
         "description": "Regular fine dining at The Depot, Campo, and Reno's best; wine events at local wineries",
         "monthlyCost": 750
       },
       "groceries": {
-        "monthlyCost": 530
+        "monthlyCost": 525
       },
       "healthcare": {
         "description": "Premium private insurance with comprehensive coverage and low deductibles",
-        "monthlyCost": 720
+        "monthlyCost": 725
       },
       "transportation": {
         "description": "Late-model SUV for mountain roads, premium insurance, snow tires",
@@ -110,7 +110,7 @@
         "monthlyCost": 450
       },
       "utilities": {
-        "monthlyCost": 220
+        "monthlyCost": 225
       },
       "lifestyle": "A three-bedroom home in Somersett or Caughlin Ranch with Sierra views, ski passes at multiple resorts, and regular dining at places like The Depot and Campo. A late-model SUV handles mountain roads year-round. Tahoe is your regular weekend destination, and the budget leaves margin for travel and savings. No state income tax saves thousands annually compared to California."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Custom home in Arrowcreek, Montreux, or a luxury Somersett property",
-        "monthlyCost": 5200
+        "monthlyCost": 4325
       },
       "dining": {
         "description": "Private chef for weekly dinners, fine dining in Reno and Tahoe, exclusive wine events",
-        "monthlyCost": 1200
+        "monthlyCost": 1000
       },
       "groceries": {
-        "monthlyCost": 680
+        "monthlyCost": 575
       },
       "healthcare": {
         "description": "Concierge medical practice, premium insurance, executive wellness programs",
-        "monthlyCost": 920
+        "monthlyCost": 750
       },
       "transportation": {
         "description": "Luxury SUV, second vehicle, flights from RNO to major West Coast hubs",
-        "monthlyCost": 800
+        "monthlyCost": 650
       },
       "entertainment": {
         "description": "Private ski club, Montreux golf membership, heli-skiing, exclusive Tahoe experiences",
-        "monthlyCost": 800
+        "monthlyCost": 650
       },
       "utilities": {
-        "monthlyCost": 310
+        "monthlyCost": 250
       },
       "domesticHelp": {
         "description": "Weekly deep cleaning, snow removal, landscaping, property maintenance",
-        "monthlyCost": 650
+        "monthlyCost": 550
       },
       "luxuryExtras": {
         "description": "Tahoe lakefront cabin rentals, quarterly travel, art collecting, philanthropy",
-        "monthlyCost": 1400
+        "monthlyCost": 1150
       },
       "lifestyle": "A custom home in Arrowcreek or Montreux with mountain views, a housekeeper who comes several times a week, and concierge healthcare. A private ski club membership, regular fine dining in both Reno and Tahoe, and business class flights from RNO fit the budget. Snow removal and landscaping are covered. Zero state income tax amplifies the spending power significantly."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Trophy estate in Montreux or Arrowcreek with panoramic Sierra and valley views",
-        "monthlyCost": 9200
+        "monthlyCost": 5250
       },
       "dining": {
         "description": "Personal chef, exclusive wine dinners, catered events, private dining experiences",
-        "monthlyCost": 2600
+        "monthlyCost": 1475
       },
       "groceries": {
-        "monthlyCost": 880
+        "monthlyCost": 500
       },
       "healthcare": {
         "description": "Top-tier concierge practice, medical travel for specialists, full wellness team",
-        "monthlyCost": 1250
+        "monthlyCost": 700
       },
       "transportation": {
         "description": "Multiple luxury vehicles, private car service, chartered flights from RNO",
-        "monthlyCost": 1500
+        "monthlyCost": 850
       },
       "entertainment": {
         "description": "Major arts patronage, international ski trips, private events, exclusive club memberships",
-        "monthlyCost": 2100
+        "monthlyCost": 1200
       },
       "utilities": {
-        "monthlyCost": 480
+        "monthlyCost": 275
       },
       "domesticHelp": {
         "description": "Full-time estate manager, housekeeper, personal assistant, groundskeeper",
-        "monthlyCost": 4200
+        "monthlyCost": 2400
       },
       "luxuryExtras": {
         "description": "Tahoe lakefront property, first-class international travel, art collection, major philanthropy",
-        "monthlyCost": 5000
+        "monthlyCost": 2850
       },
       "lifestyle": "A large estate in Montreux or Arrowcreek with panoramic Sierra views, a lakefront property near Tahoe, full-time domestic help including a housekeeper and property manager, and a cook who comes in several times a week. First-class travel, concierge healthcare, and fine dining whenever you like are all comfortable. Zero state income tax on every dollar withdrawn makes this one of the more tax-efficient places to hold a large portfolio."
     }

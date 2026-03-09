@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Studio or small 1-bedroom condo near BTS/MRT with pool and gym in areas like On Nut or Bang Na",
-        "monthlyCost": 550
+        "monthlyCost": 875
       },
       "dining": {
         "description": "Street food staples like pad krapow and som tam daily; occasional mall food courts",
-        "monthlyCost": 400
+        "monthlyCost": 600
       },
       "groceries": {
-        "monthlyCost": 250
+        "monthlyCost": 375
       },
       "healthcare": {
         "description": "Basic private insurance covering outpatient visits; access to hospitals like Phyathai or Saint Louis",
-        "monthlyCost": 180
+        "monthlyCost": 275
       },
       "transportation": {
         "description": "BTS/MRT monthly pass supplemented by occasional Grab rides",
-        "monthlyCost": 120
+        "monthlyCost": 175
       },
       "entertainment": {
         "description": "Weekend markets, temple visits, rooftop happy hours, free cultural events",
-        "monthlyCost": 200
+        "monthlyCost": 300
       },
       "utilities": {
-        "monthlyCost": 100
+        "monthlyCost": 150
       },
       "lifestyle": "A compact studio or small 1-bedroom condo near a BTS or MRT station in an affordable area like On Nut or Bang Na. Eating mostly street food and food court meals, which are genuinely good and cheap. Getting around on public transit with occasional Grab rides. Basic private health insurance. Bangkok is a big, modern city on a tight budget — you get access to great food and infrastructure, but space and dining-out frequency are the tradeoffs."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Well-appointed 1-bedroom or 2-bedroom condo in Thong Lo, Ekkamai, or Ari with full facilities",
-        "monthlyCost": 1000
+        "monthlyCost": 1075
       },
       "dining": {
         "description": "Regular restaurant dining across Thai, Japanese, and international cuisines; occasional hotel brunches",
-        "monthlyCost": 900
+        "monthlyCost": 1000
       },
       "groceries": {
-        "monthlyCost": 400
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "Comprehensive private insurance with Bumrungrad or Bangkok Hospital access",
-        "monthlyCost": 300
+        "monthlyCost": 325
       },
       "transportation": {
         "description": "BTS/MRT plus regular Grab rides and occasional taxi trips",
-        "monthlyCost": 200
+        "monthlyCost": 225
       },
       "entertainment": {
         "description": "Premium gym, cinema, nightlife in Thong Lo, weekend trips to Hua Hin or Koh Samet",
-        "monthlyCost": 600
+        "monthlyCost": 650
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 175
       },
       "lifestyle": "A well-appointed 1- or 2-bedroom condo in a desirable neighborhood like Thong Lo, Ekkamai, or Ari. Dining out regularly across Thai, Japanese, and international restaurants without watching the bill. BTS and Grab for easy transit. Comprehensive private health insurance with access to hospitals like Bumrungrad. Weekend beach trips to Hua Hin or Koh Samet are easy and affordable. Day-to-day life is comfortable and convenient."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Spacious 2-bedroom luxury condo in Sukhumvit, Sathorn, or Riverside with skyline views and premium amenities",
-        "monthlyCost": 1800
+        "monthlyCost": 1400
       },
       "dining": {
         "description": "Fine dining at Michelin-starred restaurants, omakase bars, rooftop restaurants, and hotel dining rooms",
-        "monthlyCost": 1500
+        "monthlyCost": 1150
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 475
       },
       "healthcare": {
         "description": "Premium international insurance; executive health packages at Bumrungrad; dental and vision included",
-        "monthlyCost": 450
+        "monthlyCost": 350
       },
       "transportation": {
         "description": "Combination of BTS, Grab, and hired car; occasional domestic flights to islands and Chiang Mai",
-        "monthlyCost": 400
+        "monthlyCost": 300
       },
       "entertainment": {
         "description": "Members-only clubs, premium spa treatments, Muay Thai training, sailing club, frequent domestic travel",
-        "monthlyCost": 1200
+        "monthlyCost": 925
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 200
       },
       "lifestyle": "A spacious 2-bedroom in a luxury condo in Sukhumvit, Sathorn, or Riverside with skyline views and premium amenities. Dining at Bangkok's best restaurants several times a week, including Michelin-starred spots and good omakase. A hired car or regular Grab use with occasional domestic flights. Premium international health insurance with executive screening packages. This budget covers a genuinely affluent lifestyle in Bangkok with regular travel."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Penthouse condo or luxury serviced residence in prime Sathorn or Sukhumvit; alternatively a large house in upscale Nichada Thani",
-        "monthlyCost": 3500
+        "monthlyCost": 1950
       },
       "dining": {
         "description": "Personal chef for weekday meals; Michelin restaurants and exclusive chef's table experiences on weekends",
-        "monthlyCost": 2500
+        "monthlyCost": 1400
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "VIP hospital packages at Bumrungrad with personal health coordinator; global evacuation coverage",
-        "monthlyCost": 700
+        "monthlyCost": 400
       },
       "transportation": {
         "description": "Leased luxury sedan with part-time driver; domestic first-class flights; helicopter transfers to resorts",
-        "monthlyCost": 800
+        "monthlyCost": 450
       },
       "entertainment": {
         "description": "Royal Bangkok Sports Club membership, art gallery openings, yacht charters to nearby islands, international travel",
-        "monthlyCost": 2000
+        "monthlyCost": 1125
       },
       "utilities": {
-        "monthlyCost": 400
+        "monthlyCost": 225
       },
       "domesticHelp": {
         "description": "Live-in maid, part-time cook, and weekly deep-cleaning service",
-        "monthlyCost": 900
+        "monthlyCost": 500
       },
       "luxuryExtras": {
         "description": "Bespoke suits from Bangkok tailors, premium wellness retreats, luxury hotel staycations, fine wine collection",
-        "monthlyCost": 1800
+        "monthlyCost": 1000
       },
       "lifestyle": "A penthouse condo or large house in an upscale area like Nichada Thani, with a housekeeper and a part-time cook. A leased luxury car with a part-time driver. Regular dining at Bangkok's top restaurants, business class flights for regional travel, and premium VIP healthcare at Bumrungrad. Bangkok has deep luxury infrastructure, and this budget gives you full access to it."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Ultra-luxury penthouse on the Chao Phraya or sprawling mansion in Nichada Thani with private pool and gardens; optional second residence on a Thai island",
-        "monthlyCost": 7000
+        "monthlyCost": 2750
       },
       "dining": {
         "description": "Private chef team, imported delicacies, exclusive supper clubs, and Michelin dining as a weekly routine",
-        "monthlyCost": 4000
+        "monthlyCost": 1575
       },
       "groceries": {
-        "monthlyCost": 1500
+        "monthlyCost": 600
       },
       "healthcare": {
         "description": "Concierge medical service with 24/7 access to top specialists; annual comprehensive screenings; global coverage",
-        "monthlyCost": 1200
+        "monthlyCost": 475
       },
       "transportation": {
         "description": "Luxury vehicle fleet, full-time chauffeur, first-class international flights, private jet charters for regional travel",
-        "monthlyCost": 2500
+        "monthlyCost": 975
       },
       "entertainment": {
         "description": "Elite club memberships, private island retreats, art collecting, philanthropic galas, frequent international luxury travel",
-        "monthlyCost": 4000
+        "monthlyCost": 1575
       },
       "utilities": {
-        "monthlyCost": 600
+        "monthlyCost": 225
       },
       "domesticHelp": {
         "description": "Full household staff: chef, housekeeper, nanny/assistant, driver, gardener, and security",
-        "monthlyCost": 2500
+        "monthlyCost": 975
       },
       "luxuryExtras": {
         "description": "Art patronage, private island weekends, bespoke fashion, investment in Bangkok real estate, charitable foundations",
-        "monthlyCost": 6000
+        "monthlyCost": 2350
       },
       "lifestyle": "A large premium residence — a riverside penthouse or a mansion with private pool and gardens. A housekeeper, a cook a few times a week, and a full-time driver. First-class domestic flights and business class internationally. Concierge medical service with 24/7 specialist access. Regular fine dining as routine. This is more money than Bangkok demands for a top-tier life — you live very well with no financial friction, though it is not the limitless wealth it might feel like in a cheaper city."
     }

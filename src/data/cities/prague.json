@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR apartment in Vinohrady or Žižkov, popular expat neighborhoods",
-        "monthlyCost": 1000
+        "monthlyCost": 1425
       },
       "dining": {
         "description": "Traditional Czech pubs and restaurants 3-4x/week; beer is cheaper than water",
-        "monthlyCost": 300
+        "monthlyCost": 450
       },
       "groceries": {
-        "monthlyCost": 300
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "Public health insurance or comprehensive private plan; Czech healthcare is excellent",
-        "monthlyCost": 250
+        "monthlyCost": 375
       },
       "transportation": {
         "description": "Monthly transit pass covers metro, trams, and buses citywide",
-        "monthlyCost": 30
+        "monthlyCost": 50
       },
       "entertainment": {
         "description": "Charles Bridge walks, beer gardens, free concerts, galleries, parks",
-        "monthlyCost": 150
+        "monthlyCost": 225
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 225
       },
       "lifestyle": "You can live comfortably in Prague on this budget, though you will watch your spending. A one-bedroom in Vinohrady or Žižkov keeps you in walkable, interesting neighborhoods, and the excellent metro and tram system means you rarely need a taxi. Cooking at home most nights and eating at Czech pubs for the rest keeps food costs low. Winters are cold and gray, which is a real tradeoff."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Spacious 2BR apartment in Vinohrady, Letná, or a modern flat in Karlín",
-        "monthlyCost": 1600
+        "monthlyCost": 2125
       },
       "dining": {
         "description": "Mix of upscale restaurants, international cuisine, and traditional Czech dining",
-        "monthlyCost": 500
+        "monthlyCost": 650
       },
       "groceries": {
-        "monthlyCost": 400
+        "monthlyCost": 525
       },
       "healthcare": {
         "description": "Premium private insurance with top Prague hospitals; dental tourism is a bonus",
-        "monthlyCost": 300
+        "monthlyCost": 400
       },
       "transportation": {
         "description": "Transit pass plus occasional car rental for countryside trips",
-        "monthlyCost": 80
+        "monthlyCost": 100
       },
       "entertainment": {
         "description": "Opera at the National Theatre, jazz clubs, spa weekends, trips to Český Krumlov and Kutná Hora",
-        "monthlyCost": 300
+        "monthlyCost": 400
       },
       "utilities": {
-        "monthlyCost": 180
+        "monthlyCost": 250
       },
       "lifestyle": "A spacious apartment in Vinohrady, Letná, or Karlín puts you in some of Prague's best neighborhoods. You can dine out several times a week at good restaurants, hold season tickets to the National Theatre, and take regular weekend trips around Europe on budget airlines. Prague's central location and low cost of living leave a comfortable buffer at this budget."
     },
@@ -88,7 +88,7 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Luxury 3BR apartment in Prague 1 Old Town or a renovated penthouse in Malá Strana",
-        "monthlyCost": 2800
+        "monthlyCost": 2850
       },
       "dining": {
         "description": "Fine dining at La Degustation and Field, wine bars and tasting events",
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Historic townhouse in Malá Strana or luxury penthouse with castle views",
-        "monthlyCost": 4500
+        "monthlyCost": 3475
       },
       "dining": {
         "description": "Private chef for regular entertaining; exclusive wine cellar experiences",
-        "monthlyCost": 1200
+        "monthlyCost": 950
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 475
       },
       "healthcare": {
         "description": "VIP concierge medical with access to top European hospitals",
-        "monthlyCost": 500
+        "monthlyCost": 400
       },
       "transportation": {
         "description": "Luxury vehicle, first-class European train travel, occasional private flights",
-        "monthlyCost": 400
+        "monthlyCost": 325
       },
       "entertainment": {
         "description": "Private opera boxes, art collecting, exclusive cultural events, luxury European travel",
-        "monthlyCost": 700
+        "monthlyCost": 550
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 225
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, part-time cook, personal assistant",
-        "monthlyCost": 800
+        "monthlyCost": 625
       },
       "luxuryExtras": {
         "description": "First-class European travel, Czech countryside estate weekends, art patronage, philanthropy",
-        "monthlyCost": 2000
+        "monthlyCost": 1575
       },
       "lifestyle": "A townhouse in Malá Strana or a penthouse with castle views, a housekeeper several times a week, and regular dining at Prague's best restaurants. You can fly business class around Europe, keep a nice car, and carry premium health insurance. Prague's low cost of living relative to the quality means a large margin even at this spending level."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Grand historic palace apartment or villa estate in Prague 6 diplomatic quarter",
-        "monthlyCost": 8000
+        "monthlyCost": 4600
       },
       "dining": {
         "description": "Personal chef team, exclusive dining events, private wine cellar and sommelier",
-        "monthlyCost": 2500
+        "monthlyCost": 1425
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "Elite European health plan, personal physician, annual executive screening",
-        "monthlyCost": 700
+        "monthlyCost": 400
       },
       "transportation": {
         "description": "Multiple luxury vehicles, chauffeur, first-class European rail, private flights",
-        "monthlyCost": 1200
+        "monthlyCost": 675
       },
       "entertainment": {
         "description": "Art collecting, philharmonic patronage, exclusive castle events, luxury European grand tours",
-        "monthlyCost": 2000
+        "monthlyCost": 1150
       },
       "utilities": {
-        "monthlyCost": 400
+        "monthlyCost": 225
       },
       "domesticHelp": {
         "description": "Full household staff: chef, butler, housekeepers, driver, personal assistant, groundskeeper",
-        "monthlyCost": 2500
+        "monthlyCost": 1425
       },
       "luxuryExtras": {
         "description": "Czech castle or chateau purchase, first-class global travel, art collection, philanthropic foundation",
-        "monthlyCost": 5000
+        "monthlyCost": 2850
       },
       "lifestyle": "A large villa or premium apartment in the Prague 6 diplomatic quarter, a cook who comes several times a week, regular housekeeping, and first-class travel throughout Europe. You dine at the best restaurants without checking prices and carry comprehensive private healthcare. Much of this budget will go unspent in Prague — the city simply does not have enough ways to spend $33K a month."
     }

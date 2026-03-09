@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR apartment in Al Khuwair, Bausher, or a modest flat in Ruwi",
-        "monthlyCost": 700
+        "monthlyCost": 1200
       },
       "dining": {
         "description": "Local Omani and Indian restaurants, shawarma shops, casual dining 3x/week",
-        "monthlyCost": 250
+        "monthlyCost": 450
       },
       "groceries": {
-        "monthlyCost": 300
+        "monthlyCost": 525
       },
       "healthcare": {
         "description": "Basic private health insurance; Oman's public hospitals are good quality",
-        "monthlyCost": 200
+        "monthlyCost": 350
       },
       "transportation": {
         "description": "Used car with insurance — essential in Muscat as public transit is limited",
-        "monthlyCost": 250
+        "monthlyCost": 450
       },
       "entertainment": {
         "description": "Beach days, wadi swimming, mountain drives, souq visits, mosque architecture",
-        "monthlyCost": 100
+        "monthlyCost": 175
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 350
       },
       "lifestyle": "A 1-bedroom apartment in Al Khuwair or Bausher and a used car, which is essential since Muscat has minimal public transit. Eating at local Omani and Indian restaurants a few times a week, cooking at home otherwise. Basic private health insurance. The beaches and mountain wadis are free and spectacular. Summer heat from May to September is extreme and pushes A/C costs up significantly. Manageable but tight, with no income tax helping stretch the budget."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "2BR apartment in Qurum, Al Mouj, or a villa flat in Shatti Al Qurum near the beach",
-        "monthlyCost": 1300
+        "monthlyCost": 1800
       },
       "dining": {
         "description": "Regular dining at international restaurants, beach club lunches, traditional Omani feasts",
-        "monthlyCost": 500
+        "monthlyCost": 700
       },
       "groceries": {
-        "monthlyCost": 400
+        "monthlyCost": 550
       },
       "healthcare": {
         "description": "Comprehensive private insurance with access to modern hospitals and specialists",
-        "monthlyCost": 350
+        "monthlyCost": 475
       },
       "transportation": {
         "description": "Reliable mid-range SUV for wadi and desert exploration; essential for lifestyle",
-        "monthlyCost": 400
+        "monthlyCost": 550
       },
       "entertainment": {
         "description": "Diving in Daymaniyat Islands, desert camping, golf, beach club membership, cultural events",
-        "monthlyCost": 350
+        "monthlyCost": 475
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 350
       },
       "lifestyle": "A 2-bedroom apartment in Qurum or Shatti Al Qurum near the beach, a mid-range SUV for exploring wadis and desert terrain, and dining out at good international restaurants several times a week. Comprehensive private health insurance. Diving trips to the Daymaniyat Islands and desert camping on weekends. No income tax helps the budget go further. Day-to-day life is comfortable and you have room for regular regional travel."
     },
@@ -88,7 +88,7 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "3BR villa in Al Mouj (The Wave), Qurum, or a beachfront apartment in Shatti Al Qurum",
-        "monthlyCost": 2500
+        "monthlyCost": 2450
       },
       "dining": {
         "description": "Fine dining at top hotels (Al Bustan Palace, Chedi), beach restaurants, international cuisine",
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury villa in Al Mouj with marina access, or a premium beachfront property in Qantab",
-        "monthlyCost": 4000
+        "monthlyCost": 3200
       },
       "dining": {
         "description": "Regular fine dining at 5-star hotels, private chef for entertaining, exclusive food experiences",
-        "monthlyCost": 1500
+        "monthlyCost": 1200
       },
       "groceries": {
-        "monthlyCost": 700
+        "monthlyCost": 550
       },
       "healthcare": {
         "description": "VIP concierge medical service with international hospital network and evacuation coverage",
-        "monthlyCost": 600
+        "monthlyCost": 475
       },
       "transportation": {
         "description": "Multiple luxury vehicles (Range Rover, Porsche), driver available, premium insurance",
-        "monthlyCost": 1000
+        "monthlyCost": 800
       },
       "entertainment": {
         "description": "Exclusive golf and yacht club, private diving charters, luxury desert expeditions, cultural patronage",
-        "monthlyCost": 1000
+        "monthlyCost": 800
       },
       "utilities": {
-        "monthlyCost": 400
+        "monthlyCost": 325
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, cook, gardener, and pool maintenance; live-in staff common in Oman",
-        "monthlyCost": 800
+        "monthlyCost": 650
       },
       "luxuryExtras": {
         "description": "First-class international travel, luxury Oman resort stays, yacht charters, philanthropy",
-        "monthlyCost": 2000
+        "monthlyCost": 1600
       },
       "lifestyle": "A large villa in Al Mouj with marina access, a housekeeper, cook, gardener, and driver. A Range Rover or similar for desert and mountain trips, business class flights for international travel, and premium healthcare with international evacuation coverage. Regular dining at Muscat's best restaurants and golf or yacht club membership. Oman's safety, natural beauty, and moderate Gulf costs make this a high quality of life with meaningful margin."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Grand waterfront villa in Al Mouj or a private compound with beach access in Yiti",
-        "monthlyCost": 8000
+        "monthlyCost": 4375
       },
       "dining": {
         "description": "Personal chef, private dining at royal-standard venues, imported delicacies, lavish hosting",
-        "monthlyCost": 2500
+        "monthlyCost": 1375
       },
       "groceries": {
-        "monthlyCost": 1000
+        "monthlyCost": 550
       },
       "healthcare": {
         "description": "Top-tier international concierge medicine with global coverage and wellness retreats",
-        "monthlyCost": 800
+        "monthlyCost": 450
       },
       "transportation": {
         "description": "Multiple luxury vehicles, full-time driver, private yacht, helicopter access, first-class travel",
-        "monthlyCost": 2500
+        "monthlyCost": 1375
       },
       "entertainment": {
         "description": "Private yacht cruises to Musandam, desert luxury camps, international events, art collecting",
-        "monthlyCost": 3000
+        "monthlyCost": 1650
       },
       "utilities": {
-        "monthlyCost": 500
+        "monthlyCost": 275
       },
       "domesticHelp": {
         "description": "Full estate staff including chef, housekeepers, gardeners, security, driver, and boat crew",
-        "monthlyCost": 3500
+        "monthlyCost": 1925
       },
       "luxuryExtras": {
         "description": "Private jet access, luxury expedition travel, real estate investments, major philanthropy",
-        "monthlyCost": 5500
+        "monthlyCost": 3025
       },
       "lifestyle": "A large waterfront villa in Al Mouj or a private property with beach access in Yiti, with full household staff including a housekeeper, cook, and driver. Multiple vehicles, first class international flights, and top-tier global health coverage. Regular fine dining, boat trips along the coast and to Musandam, and membership at the best clubs. No income tax and Muscat's moderate costs leave a large margin, though housing at the top end absorbs a meaningful share of the budget."
     }

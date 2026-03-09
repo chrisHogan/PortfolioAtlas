@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Small 1K or 1DK apartment (250–350 sq ft) in affordable neighborhoods like Kita-Senju, Nakano, or Koenji — functional and clean but compact",
-        "monthlyCost": 750
+        "monthlyCost": 1985
       },
       "dining": {
         "description": "Outstanding budget dining: gyudon chains, ramen shops, conveyor belt sushi, and izakaya happy hours",
-        "monthlyCost": 500
+        "monthlyCost": 1325
       },
       "groceries": {
-        "monthlyCost": 300
+        "monthlyCost": 800
       },
       "healthcare": {
         "description": "National Health Insurance enrollment (mandatory for residents) covering 70% of costs; excellent clinics with modest co-pays",
-        "monthlyCost": 250
+        "monthlyCost": 650
       },
       "transportation": {
         "description": "Monthly train/metro pass for commuting plus occasional additional fares — Tokyo's rail system is unmatched",
-        "monthlyCost": 120
+        "monthlyCost": 325
       },
       "entertainment": {
         "description": "Free temple and shrine visits, public parks, 100-yen shops, neighborhood festivals, and cheap standing bars (tachinomi)",
-        "monthlyCost": 200
+        "monthlyCost": 550
       },
       "utilities": {
-        "monthlyCost": 130
+        "monthlyCost": 350
       },
       "lifestyle": "A small but clean 1K or 1DK apartment (250-350 sq ft) in an affordable neighborhood like Kita-Senju, Nakano, or Koenji. Eating at budget chains and ramen shops, which are genuinely good. Getting around on the world's best train system. National Health Insurance covering 70% of costs. The apartment will be very compact and English is limited, so daily errands require adaptation. But the food, safety, and transit quality are remarkable for the price."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Comfortable 1LDK or small 2LDK apartment (450–550 sq ft) in desirable areas like Nakameguro, Kichijoji, or Ebisu",
-        "monthlyCost": 1400
+        "monthlyCost": 3018
       },
       "dining": {
         "description": "Regular izakaya dinners, mid-range sushi counters, ramen pilgrimages, and weekend brunch at trendy cafes",
-        "monthlyCost": 900
+        "monthlyCost": 1900
       },
       "groceries": {
-        "monthlyCost": 450
+        "monthlyCost": 950
       },
       "healthcare": {
         "description": "National Health Insurance plus supplemental private coverage; access to English-speaking clinics like Tokyo Medical and Surgical",
-        "monthlyCost": 350
+        "monthlyCost": 725
       },
       "transportation": {
         "description": "Full metro pass, occasional taxis, and weekend Shinkansen day trips to Hakone or Kamakura",
-        "monthlyCost": 200
+        "monthlyCost": 425
       },
       "entertainment": {
         "description": "Cinema, live music in Shimokitazawa, museum memberships, onsen visits, and seasonal festivals",
-        "monthlyCost": 500
+        "monthlyCost": 1075
       },
       "utilities": {
-        "monthlyCost": 180
+        "monthlyCost": 375
       },
       "lifestyle": "A comfortable 1LDK or small 2LDK apartment (450-550 sq ft) in a desirable neighborhood like Nakameguro, Kichijoji, or Ebisu. Regular izakaya dinners, mid-range sushi counters, and trendy cafe brunches without watching the bill. Full metro access with occasional Shinkansen day trips to Hakone or Kamakura. National Health Insurance plus supplemental private coverage. Life is comfortable and the food quality at every price point is remarkable, though the apartment is still modest by Western standards."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Spacious 2LDK or 3LDK apartment (700–900 sq ft) in premium areas like Aoyama, Daikanyama, or a modern tower in Toyosu with bay views",
-        "monthlyCost": 2500
+        "monthlyCost": 3875
       },
       "dining": {
         "description": "Michelin-starred sushi counters, kaiseki dinners, high-end tempura, and reservation-only omakase — Tokyo has more Michelin stars than any city on Earth",
-        "monthlyCost": 1500
+        "monthlyCost": 2350
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 925
       },
       "healthcare": {
         "description": "Premium private insurance with access to top hospitals like St. Luke's International; comprehensive annual health screenings (ningen dock)",
-        "monthlyCost": 500
+        "monthlyCost": 775
       },
       "transportation": {
         "description": "Metro pass, regular taxi use, monthly Shinkansen trips, and occasional domestic flights to Kyoto or Hokkaido",
-        "monthlyCost": 400
+        "monthlyCost": 625
       },
       "entertainment": {
         "description": "Kabuki theater, sumo tournaments, premium gym membership, sake tasting courses, and weekend trips to ryokan inns",
-        "monthlyCost": 1000
+        "monthlyCost": 1550
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 400
       },
       "lifestyle": "A spacious apartment (700-900 sq ft) in a premium area like Aoyama, Daikanyama, or a modern tower in Toyosu with bay views. Regular dining at excellent sushi counters, kaiseki restaurants, and high-end tempura spots. Metro plus regular taxis and monthly Shinkansen trips to Kyoto or Hokkaido. Premium private health insurance with annual ningen dock screenings at St. Luke's. Tokyo has more Michelin stars than any city on earth, and this budget gives you genuine access to that scene."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury high-rise apartment in Minato-ku, Roppongi Hills residence, or a beautifully renovated machiya-style home in a premium neighborhood",
-        "monthlyCost": 4500
+        "monthlyCost": 5240
       },
       "dining": {
         "description": "Multi-course kaiseki at 3-star restaurants, legendary sushi temples like Saito and Harutaka, private dining rooms, and imported wine pairings",
-        "monthlyCost": 2800
+        "monthlyCost": 3300
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 950
       },
       "healthcare": {
         "description": "VIP international healthcare with concierge medical services; annual executive ningen dock at top hospitals; global evacuation coverage",
-        "monthlyCost": 700
+        "monthlyCost": 825
       },
       "transportation": {
         "description": "Hired car with driver for city travel, Green Car (first class) Shinkansen, business class domestic flights, occasional helicopter transfers",
-        "monthlyCost": 800
+        "monthlyCost": 950
       },
       "entertainment": {
         "description": "Private tea ceremonies, exclusive golf club memberships, front-row sumo seats, gallery openings in Ginza, seasonal trips to Niseko and Okinawa",
-        "monthlyCost": 1800
+        "monthlyCost": 2125
       },
       "utilities": {
-        "monthlyCost": 400
+        "monthlyCost": 475
       },
       "domesticHelp": {
         "description": "Part-time housekeeper, weekly deep cleaning service, and bilingual personal assistant for navigating Japanese bureaucracy",
-        "monthlyCost": 1200
+        "monthlyCost": 1425
       },
       "luxuryExtras": {
         "description": "Bespoke kimono and tailoring in Ginza, premium sake and whisky collection, luxury ryokan weekends, and Japanese art acquisitions",
-        "monthlyCost": 2000
+        "monthlyCost": 2350
       },
       "lifestyle": "A large apartment in Minato-ku, a Roppongi Hills residence, or a renovated home in a premium neighborhood. Regular dining at top kaiseki and sushi restaurants, with a hired car and driver for city travel and Green Car Shinkansen. A part-time housekeeper and a bilingual assistant for navigating Japanese bureaucracy, plus VIP international healthcare and business class for longer flights. Tokyo is expensive, so even this budget requires some awareness — it is genuinely affluent but not without limits."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Ultra-premium penthouse in Azabu-Juban or Roppongi Hills Residence with panoramic Tokyo Tower views; optional second home — a restored farmhouse in the Japanese Alps or a villa on Okinawa",
-        "monthlyCost": 9000
+        "monthlyCost": 7850
       },
       "dining": {
         "description": "Personal Japanese chef for daily meals, standing reservations at the world's most exclusive sushi counters, private kaiseki experiences, and imported delicacies from Tsukiji outer market",
-        "monthlyCost": 4500
+        "monthlyCost": 3950
       },
       "groceries": {
-        "monthlyCost": 1500
+        "monthlyCost": 1300
       },
       "healthcare": {
         "description": "Concierge medicine with 24/7 access to top specialists, annual comprehensive screenings, cutting-edge preventive care, and global medical evacuation",
-        "monthlyCost": 1200
+        "monthlyCost": 1050
       },
       "transportation": {
         "description": "Full-time chauffeur with luxury vehicle, Gran Class Shinkansen, first-class international flights, and private jet charters for regional travel",
-        "monthlyCost": 2500
+        "monthlyCost": 2200
       },
       "entertainment": {
         "description": "Exclusive club memberships, private art viewings, VIP cultural experiences, international luxury travel, and philanthropic involvement in Japanese arts preservation",
-        "monthlyCost": 4000
+        "monthlyCost": 3500
       },
       "utilities": {
-        "monthlyCost": 700
+        "monthlyCost": 625
       },
       "domesticHelp": {
         "description": "Full household staff: live-in housekeeper, personal chef, bilingual executive assistant, full-time driver, and property manager for second home",
-        "monthlyCost": 3500
+        "monthlyCost": 3050
       },
       "luxuryExtras": {
         "description": "Japanese contemporary art collection, bespoke experiences (private temple access, master craftsman workshops), Niseko ski chalet, premium whisky investments, and charitable patronage",
-        "monthlyCost": 5500
+        "monthlyCost": 4825
       },
       "lifestyle": "A premium penthouse in Azabu-Juban or Roppongi Hills with panoramic views, and possibly a second home — a restored farmhouse in the Japanese Alps or a villa on Okinawa. A housekeeper, a cook a few times a week, a bilingual assistant, and a full-time driver. First-class international flights and Gran Class Shinkansen. Concierge medicine with 24/7 specialist access. Regular fine dining at the world's most acclaimed restaurants. Tokyo is an expensive city, so this budget delivers a very comfortable, high-quality life rather than a feeling of limitless wealth — but the depth and refinement of what Tokyo offers is hard to match anywhere."
     }

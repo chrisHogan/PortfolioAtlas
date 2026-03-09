@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR apartment or small rental house near downtown Midland",
-        "monthlyCost": 750
+        "monthlyCost": 1000
       },
       "dining": {
         "description": "Casual dining 2x/week at local restaurants; mostly home cooking",
-        "monthlyCost": 170
+        "monthlyCost": 225
       },
       "groceries": {
-        "monthlyCost": 310
+        "monthlyCost": 400
       },
       "healthcare": {
         "description": "ACA marketplace Silver plan; Michigan premiums are moderate",
-        "monthlyCost": 470
+        "monthlyCost": 625
       },
       "transportation": {
         "description": "Paid-off car with basic insurance; car necessary in a small Michigan city",
-        "monthlyCost": 210
+        "monthlyCost": 275
       },
       "entertainment": {
         "description": "Dow Gardens visits, Tridge walks along the river, library programs; occasional Center for the Arts show",
-        "monthlyCost": 70
+        "monthlyCost": 100
       },
       "utilities": {
-        "monthlyCost": 140
+        "monthlyCost": 175
       },
       "lifestyle": "A one-bedroom apartment or small rental house near downtown runs about $750, among the lowest in the country. You cook at home most nights, eat out casually a couple of times a week, and visit Dow Gardens and the Whiting Forest canopy walk regularly. A car is necessary. The extremely low cost base means healthcare and transportation are manageable without the constant pressure you would feel in a larger city."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "2BR house in a quiet Midland neighborhood or near the Tridge area",
-        "monthlyCost": 1200
+        "monthlyCost": 1500
       },
       "dining": {
         "description": "Dining out 3-4x/week at local favorites; Midland Brewing Company and Whiting Forest cafe",
-        "monthlyCost": 350
+        "monthlyCost": 425
       },
       "groceries": {
-        "monthlyCost": 370
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "ACA Gold plan with dental and vision; comfortable deductible",
-        "monthlyCost": 560
+        "monthlyCost": 675
       },
       "transportation": {
         "description": "Reliable car for Michigan road trips, full coverage insurance, winter tires",
-        "monthlyCost": 330
+        "monthlyCost": 400
       },
       "entertainment": {
         "description": "Center for the Arts season tickets, Dow Gardens membership, gym, cross-country skiing",
-        "monthlyCost": 200
+        "monthlyCost": 250
       },
       "utilities": {
-        "monthlyCost": 170
+        "monthlyCost": 200
       },
       "lifestyle": "A two-bedroom house in a quiet neighborhood near the Tridge area, dining out several times a week, and Center for the Arts season tickets. A reliable car with winter tires handles Michigan road trips to Traverse City or Mackinac Island on weekends. The Dow-funded amenities give this small city cultural options well beyond its size. The low cost base leaves a solid monthly margin."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "3BR home in the Adams or Eastlawn neighborhood with mature trees and a large yard",
-        "monthlyCost": 2000
+        "monthlyCost": 2025
       },
       "dining": {
         "description": "Regular fine dining at the best local restaurants; wine events and special culinary experiences",
         "monthlyCost": 600
       },
       "groceries": {
-        "monthlyCost": 460
+        "monthlyCost": 475
       },
       "healthcare": {
         "description": "Premium private insurance with comprehensive coverage and low deductibles",
-        "monthlyCost": 680
+        "monthlyCost": 675
       },
       "transportation": {
         "description": "Late-model SUV for all-season driving, premium insurance",
-        "monthlyCost": 440
+        "monthlyCost": 450
       },
       "entertainment": {
         "description": "Arts patronage, golf membership at Currie Golf Course, Great Lakes trips, cultural events",
-        "monthlyCost": 380
+        "monthlyCost": 375
       },
       "utilities": {
-        "monthlyCost": 210
+        "monthlyCost": 200
       },
       "lifestyle": "A spacious three-bedroom home in the Adams or Eastlawn neighborhood, regular fine dining at the best local spots, a golf membership at Currie, and regular trips to Traverse City and the Great Lakes. At Midland prices, $10K a month is well above what most residents spend, leaving large margins for travel, savings, or community giving. The Dow-funded cultural amenities punch well above the city's size."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Custom home on a large lot in Midland's premier neighborhood or lakefront property nearby",
-        "monthlyCost": 3800
+        "monthlyCost": 2875
       },
       "dining": {
         "description": "Private chef for weekly dinners, fine dining, catered gatherings for friends",
-        "monthlyCost": 900
+        "monthlyCost": 675
       },
       "groceries": {
-        "monthlyCost": 580
+        "monthlyCost": 425
       },
       "healthcare": {
         "description": "Concierge medical practice, premium insurance, wellness programs",
-        "monthlyCost": 850
+        "monthlyCost": 625
       },
       "transportation": {
         "description": "Luxury SUV, second vehicle, flights from MBS to Detroit and Chicago hubs",
-        "monthlyCost": 700
+        "monthlyCost": 525
       },
       "entertainment": {
         "description": "Major arts patronage, country club membership, Great Lakes sailing, cultural travel",
-        "monthlyCost": 650
+        "monthlyCost": 475
       },
       "utilities": {
-        "monthlyCost": 280
+        "monthlyCost": 200
       },
       "domesticHelp": {
         "description": "Weekly deep cleaning, lawn and garden service, snow removal, property maintenance",
-        "monthlyCost": 500
+        "monthlyCost": 375
       },
       "luxuryExtras": {
         "description": "Lakefront cottage, quarterly travel, Dow Gardens major donor events, philanthropy",
-        "monthlyCost": 1500
+        "monthlyCost": 1125
       },
       "lifestyle": "A custom home on a large lot in Midland's best neighborhood or a lakefront property nearby, a housekeeper who comes weekly, and a summer cottage on one of Michigan's inland lakes. Regular fine dining, a country club membership, and business class flights from MBS to Chicago or Detroit hubs are within budget. The low cost base means this spending level covers a very comfortable life with large margins."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Premier estate in Midland or a sprawling lakefront compound on one of Michigan's inland lakes",
-        "monthlyCost": 6500
+        "monthlyCost": 3150
       },
       "dining": {
         "description": "Personal chef, exclusive catered events, private wine dinners, farm-to-table sourcing",
-        "monthlyCost": 2000
+        "monthlyCost": 975
       },
       "groceries": {
-        "monthlyCost": 750
+        "monthlyCost": 375
       },
       "healthcare": {
         "description": "Top concierge practice, executive wellness retreats, medical travel for specialists",
-        "monthlyCost": 1100
+        "monthlyCost": 525
       },
       "transportation": {
         "description": "Multiple luxury vehicles, private car service, chartered flights from MBS",
-        "monthlyCost": 1300
+        "monthlyCost": 625
       },
       "entertainment": {
         "description": "Transformative arts patronage, international travel, private events, Great Lakes yacht",
-        "monthlyCost": 1800
+        "monthlyCost": 875
       },
       "utilities": {
-        "monthlyCost": 400
+        "monthlyCost": 200
       },
       "domesticHelp": {
         "description": "Full-time estate manager, housekeeper, personal assistant, grounds crew",
-        "monthlyCost": 3700
+        "monthlyCost": 1800
       },
       "luxuryExtras": {
         "description": "Luxury lake house, first-class travel, major art collection, transformative community giving",
-        "monthlyCost": 5200
+        "monthlyCost": 2525
       },
       "lifestyle": "A large estate in Midland or a lakefront property on one of Michigan's inland lakes, full-time domestic help including a housekeeper and property manager, and a cook who comes in several times a week. First-class travel, concierge healthcare, and a boat for Great Lakes weekends are all comfortable. In a small city like Midland, this budget goes further than almost anywhere, covering premium living with very large monthly margins."
     }

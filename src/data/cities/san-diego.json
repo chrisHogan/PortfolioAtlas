@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Studio or small 1BR apartment in City Heights, El Cajon, or National City",
-        "monthlyCost": 1700
+        "monthlyCost": 2675
       },
       "dining": {
         "description": "Fish tacos and casual Mexican food 2-3x/week; mostly cooking at home",
-        "monthlyCost": 250
+        "monthlyCost": 400
       },
       "groceries": {
-        "monthlyCost": 400
+        "monthlyCost": 625
       },
       "healthcare": {
         "description": "Covered California Silver plan; California's exchange offers competitive rates",
-        "monthlyCost": 500
+        "monthlyCost": 775
       },
       "transportation": {
         "description": "Older paid-off car with insurance and gas; trolley for downtown trips",
-        "monthlyCost": 280
+        "monthlyCost": 425
       },
       "entertainment": {
         "description": "Free beach days, Balboa Park museums (free Tuesdays), hiking Torrey Pines",
-        "monthlyCost": 80
+        "monthlyCost": 125
       },
       "utilities": {
-        "monthlyCost": 120
+        "monthlyCost": 175
       },
       "lifestyle": "You live inland in City Heights or El Cajon, well away from the coast, and cook most meals at home. Affordable fish tacos and Mexican food provide budget-friendly dining a couple of times a week. California taxes and high housing costs make this a tight budget, but the beaches, Balboa Park, and Torrey Pines trails are free and the weather is reliably good year-round."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Nice 1BR or 2BR apartment in North Park, Hillcrest, or Pacific Beach",
-        "monthlyCost": 2500
+        "monthlyCost": 3475
       },
       "dining": {
         "description": "Dining out 3-4x/week at mid-range spots in Little Italy and North Park",
-        "monthlyCost": 600
+        "monthlyCost": 825
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 700
       },
       "healthcare": {
         "description": "Covered California Gold plan with dental and vision",
-        "monthlyCost": 600
+        "monthlyCost": 825
       },
       "transportation": {
         "description": "Reliable mid-range car, full coverage insurance, occasional Uber",
-        "monthlyCost": 400
+        "monthlyCost": 550
       },
       "entertainment": {
         "description": "Zoo and SeaWorld passes, surfing gear, gym membership, craft brewery hopping",
-        "monthlyCost": 300
+        "monthlyCost": 425
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 200
       },
       "lifestyle": "You can rent a nice apartment in North Park or Hillcrest and eat out several times a week at the city's mid-range restaurants and breweries. Surfing, hiking, and beach time become part of the regular routine. Weekend trips to Anza-Borrego or across the border to Baja fit the budget, though California's income tax does take a meaningful cut of your withdrawals."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "3BR house in Mission Hills, Point Loma, or a beachfront condo in La Jolla",
-        "monthlyCost": 3800
+        "monthlyCost": 4375
       },
       "dining": {
         "description": "Regular meals at top restaurants like Juniper & Ivy, Addison; daily cafe visits",
-        "monthlyCost": 900
+        "monthlyCost": 1050
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 700
       },
       "healthcare": {
         "description": "Premium private insurance with comprehensive coverage and low deductibles",
-        "monthlyCost": 750
+        "monthlyCost": 875
       },
       "transportation": {
         "description": "Late-model SUV or convertible, premium insurance, parking garage spot",
-        "monthlyCost": 550
+        "monthlyCost": 625
       },
       "entertainment": {
         "description": "Padres season tickets, sailing club, premium gym, golf at Torrey Pines",
-        "monthlyCost": 500
+        "monthlyCost": 575
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 300
       },
       "lifestyle": "You can rent a house in Mission Hills or Point Loma, or a condo near the beach in La Jolla, and dine regularly at the city's top restaurants. Padres season tickets, a sailing club membership, or golf at Torrey Pines fit comfortably. Good private healthcare and regular travel round out a comfortable coastal life, though California taxes reduce spending power compared to no-income-tax states."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury oceanfront home in La Jolla, Del Mar, or Coronado",
-        "monthlyCost": 5500
+        "monthlyCost": 5875
       },
       "dining": {
         "description": "Fine dining at Michelin-starred restaurants, private chef for dinner parties",
-        "monthlyCost": 1500
+        "monthlyCost": 1600
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 850
       },
       "healthcare": {
         "description": "Concierge medicine at Scripps or UCSD Health; executive wellness programs",
-        "monthlyCost": 1000
+        "monthlyCost": 1075
       },
       "transportation": {
         "description": "Luxury vehicle (Porsche, Tesla), premium insurance, valet and detailing",
-        "monthlyCost": 850
+        "monthlyCost": 900
       },
       "entertainment": {
         "description": "Yacht club membership, VIP Padres box, premium golf memberships, art events",
-        "monthlyCost": 1000
+        "monthlyCost": 1075
       },
       "utilities": {
-        "monthlyCost": 350
+        "monthlyCost": 375
       },
       "domesticHelp": {
         "description": "Weekly deep cleaning, landscaping, pool maintenance, errand service",
-        "monthlyCost": 900
+        "monthlyCost": 950
       },
       "luxuryExtras": {
         "description": "Quarterly luxury travel, wine collection, spa memberships, philanthropy",
-        "monthlyCost": 1500
+        "monthlyCost": 1600
       },
       "lifestyle": "A large oceanfront home in La Jolla, Del Mar, or Coronado, regular dining at the city's best restaurants, and a housekeeper who comes weekly. You can afford concierge medicine at Scripps, a nice car, and business class flights. Premium golf memberships and a sailing club are within reach, and the year-round mild weather means outdoor living every day."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Beachfront estate in La Jolla Shores or a Coronado waterfront compound",
-        "monthlyCost": 11000
+        "monthlyCost": 8100
       },
       "dining": {
         "description": "Personal chef, exclusive wine dinners, catered events with ocean views",
-        "monthlyCost": 3000
+        "monthlyCost": 2225
       },
       "groceries": {
-        "monthlyCost": 1200
+        "monthlyCost": 875
       },
       "healthcare": {
         "description": "Top-tier concierge practice at Scripps, executive screenings, wellness retreats",
-        "monthlyCost": 1500
+        "monthlyCost": 1100
       },
       "transportation": {
         "description": "Multiple luxury vehicles, private car service, classic car hobby",
-        "monthlyCost": 1800
+        "monthlyCost": 1325
       },
       "entertainment": {
         "description": "Private yacht, art collecting, philanthropic galas, international travel",
-        "monthlyCost": 2500
+        "monthlyCost": 1850
       },
       "utilities": {
-        "monthlyCost": 600
+        "monthlyCost": 450
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, personal assistant, estate manager, pool and garden crew",
-        "monthlyCost": 4500
+        "monthlyCost": 3325
       },
       "luxuryExtras": {
         "description": "First-class international travel, second home in Baja, yacht upkeep, angel investing",
-        "monthlyCost": 5000
+        "monthlyCost": 3700
       },
       "lifestyle": "Premium beachfront housing in La Jolla Shores or Coronado, regular fine dining, a cook who comes several times a week, and a housekeeper. First class travel, full concierge healthcare at Scripps, and the freedom to dine and entertain without thinking about cost. California's high income tax is a real factor at this level, but San Diego's climate and coastal setting are hard to replicate elsewhere."
     }

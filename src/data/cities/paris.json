@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Compact studio or small 1-bedroom in the 19th or 20th arrondissement, or in a near suburb like Montreuil",
-        "monthlyCost": 1200
+        "monthlyCost": 2800
       },
       "dining": {
         "description": "Boulangerie breakfasts, prix fixe lunch menus at neighborhood bistros, and home cooking most evenings",
-        "monthlyCost": 400
+        "monthlyCost": 925
       },
       "groceries": {
-        "monthlyCost": 350
+        "monthlyCost": 825
       },
       "healthcare": {
         "description": "French public healthcare (Sécurité Sociale) with mutuelle top-up insurance for comprehensive coverage",
-        "monthlyCost": 200
+        "monthlyCost": 475
       },
       "transportation": {
         "description": "Monthly Navigo pass covering Metro, RER, bus, and tram across all of Île-de-France",
-        "monthlyCost": 85
+        "monthlyCost": 200
       },
       "entertainment": {
         "description": "Free museum Sundays, Seine-side walks, Luxembourg Gardens, neighborhood cinema, and people-watching at cafes",
-        "monthlyCost": 150
+        "monthlyCost": 350
       },
       "utilities": {
-        "monthlyCost": 140
+        "monthlyCost": 325
       },
       "lifestyle": "A compact studio or small 1-bedroom in the 19th or 20th arrondissement, or in a near suburb like Montreuil. Boulangerie breakfasts and prix fixe lunch menus at neighborhood bistros, cooking most dinners at home. Getting around on the Navigo pass covering metro, bus, and RER. French public healthcare with a mutuelle top-up. Paris is expensive, so the apartment will be small and dining out limited, but free museum Sundays, Seine-side walks, and Luxembourg Gardens make the cultural access remarkable for the cost."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Charming 2-bedroom apartment in the Marais, Saint-Germain-des-Prés, or the 11th arrondissement with Haussmann details",
-        "monthlyCost": 2200
+        "monthlyCost": 3825
       },
       "dining": {
         "description": "Regular bistro dinners, wine bars in Le Marais, weekend brunch in Saint-Germain, and seasonal market finds",
-        "monthlyCost": 800
+        "monthlyCost": 1400
       },
       "groceries": {
-        "monthlyCost": 450
+        "monthlyCost": 775
       },
       "healthcare": {
         "description": "Sécurité Sociale plus comprehensive mutuelle covering dental, optical, and private clinic access",
-        "monthlyCost": 300
+        "monthlyCost": 525
       },
       "transportation": {
         "description": "Navigo pass plus occasional taxi rides and weekend car rentals for Champagne or Loire Valley trips",
-        "monthlyCost": 180
+        "monthlyCost": 325
       },
       "entertainment": {
         "description": "Opéra Garnier performances, Cinémathèque membership, jazz clubs in Saint-Germain, day trips to Versailles and Giverny",
-        "monthlyCost": 500
+        "monthlyCost": 875
       },
       "utilities": {
-        "monthlyCost": 180
+        "monthlyCost": 325
       },
       "lifestyle": "A charming 2-bedroom in the Marais, Saint-Germain-des-Pres, or the 11th with Haussmann details. Dining out at bistros and wine bars several times a week without stress. Comprehensive healthcare with a good mutuelle. Weekend car rentals for Champagne or Loire Valley trips. Opera, jazz clubs, and museum memberships. Paris is expensive, so this is comfortable but not lavish -- you eat well, live centrally, and enjoy the city's culture freely."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Elegant 3-bedroom apartment in the 6th or 7th arrondissement with period details, high ceilings, and balcony views",
-        "monthlyCost": 3800
+        "monthlyCost": 4800
       },
       "dining": {
         "description": "Fine dining at Septime and Le Comptoir, private wine tastings, and chef's table experiences",
-        "monthlyCost": 1400
+        "monthlyCost": 1775
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 750
       },
       "healthcare": {
         "description": "Premium mutuelle with private hospital access at Hôpital Américain, concierge GP services",
-        "monthlyCost": 400
+        "monthlyCost": 500
       },
       "transportation": {
         "description": "Navigo pass, regular taxi rides, weekend car service for countryside excursions",
-        "monthlyCost": 400
+        "monthlyCost": 500
       },
       "entertainment": {
         "description": "Palais Garnier box seats, private gallery openings, cooking classes with Cordon Bleu chefs, Longchamp racing days",
-        "monthlyCost": 900
+        "monthlyCost": 1150
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 325
       },
       "lifestyle": "An elegant apartment in the 6th or 7th arrondissement with period details, high ceilings, and a balcony. Regular dining at top restaurants including occasional Michelin-starred meals. Premium private healthcare, a car for weekend countryside escapes, and regular taxi rides across the city. Paris's costs are significant, so this is affluent but not unlimited -- you live in a beautiful neighborhood and eat very well, with room for travel and cultural pursuits."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury apartment in the 1st or 8th arrondissement with Eiffel Tower views, or a historic hôtel particulier in the Marais",
-        "monthlyCost": 5500
+        "monthlyCost": 6275
       },
       "dining": {
         "description": "Personal chef for dinner parties, regular Michelin two-star dining, curated Burgundy and Bordeaux wine cellar",
-        "monthlyCost": 2200
+        "monthlyCost": 2525
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 925
       },
       "healthcare": {
         "description": "International premium insurance, private physician on retainer, executive health screenings, wellness programs",
-        "monthlyCost": 600
+        "monthlyCost": 675
       },
       "transportation": {
         "description": "Chauffeur service for evening events, leased luxury vehicle, TGV first-class to the Riviera and Alps",
-        "monthlyCost": 900
+        "monthlyCost": 1025
       },
       "entertainment": {
         "description": "Private art viewings at Christie's Paris, Roland Garros VIP box, exclusive salon dinners, couture fashion shows",
-        "monthlyCost": 1500
+        "monthlyCost": 1725
       },
       "utilities": {
-        "monthlyCost": 350
+        "monthlyCost": 400
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, weekly deep cleaning, laundry service, personal stylist consultations",
-        "monthlyCost": 1300
+        "monthlyCost": 1475
       },
       "luxuryExtras": {
         "description": "French language tutor, personal trainer, art acquisition budget, TGV weekend escapes to Provence",
-        "monthlyCost": 1600
+        "monthlyCost": 1825
       },
       "lifestyle": "A luxury apartment in the 1st or 8th with views, or a historic property in the Marais. Regular dining at the city's best restaurants, a housekeeper several times a week, and business class for longer flights. TGV first-class to the Riviera and Alps, a leased luxury car, and premium private healthcare. Paris is one of Europe's most expensive cities, so even at this level the budget is noticeable, but daily life is high quality with a cleaner, good restaurants, and regular travel."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Grand apartment on Avenue Montaigne or a restored hôtel particulier in Saint-Germain with private courtyard and garden",
-        "monthlyCost": 10000
+        "monthlyCost": 8250
       },
       "dining": {
         "description": "Full-time private chef, Michelin three-star dining as routine, private sommelier managing an extensive wine collection",
-        "monthlyCost": 4500
+        "monthlyCost": 3700
       },
       "groceries": {
-        "monthlyCost": 1200
+        "monthlyCost": 1000
       },
       "healthcare": {
         "description": "Global concierge medicine, anti-aging clinic memberships, private wellness retreats, fly-anywhere coverage",
-        "monthlyCost": 1000
+        "monthlyCost": 825
       },
       "transportation": {
         "description": "Chauffeured luxury vehicle, private jet charter for European travel, vintage car collection",
-        "monthlyCost": 2500
+        "monthlyCost": 2050
       },
       "entertainment": {
         "description": "Major art patronage at the Louvre and Centre Pompidou, private opera boxes, couture front row, Deauville racing",
-        "monthlyCost": 3500
+        "monthlyCost": 2875
       },
       "utilities": {
-        "monthlyCost": 600
+        "monthlyCost": 500
       },
       "domesticHelp": {
         "description": "Full household staff: butler, housekeeper, chef, personal assistant, driver, and estate manager",
-        "monthlyCost": 4500
+        "monthlyCost": 3700
       },
       "luxuryExtras": {
         "description": "Château in Bordeaux, haute couture wardrobe, art collection curation, philanthropic foundation, bespoke travel",
-        "monthlyCost": 5533
+        "monthlyCost": 4550
       },
       "lifestyle": "A grand apartment on Avenue Montaigne or a restored property in Saint-Germain with a private courtyard. A cook several times a week, a full-time housekeeper, and full private healthcare with top specialists. Business class as default, first class for longer trips. Regular fine dining at the city's three-star restaurants. Paris absorbs large budgets easily, so even at this level the city's costs keep you grounded -- this is a very comfortable, premium life but not an unlimited one."
     }

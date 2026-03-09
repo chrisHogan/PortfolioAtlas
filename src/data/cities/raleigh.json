@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR apartment in Southeast Raleigh or near Brier Creek",
-        "monthlyCost": 1300
+        "monthlyCost": 1650
       },
       "dining": {
         "description": "Casual dining 2x/week at local spots; food trucks and breweries",
-        "monthlyCost": 210
+        "monthlyCost": 275
       },
       "groceries": {
-        "monthlyCost": 370
+        "monthlyCost": 475
       },
       "healthcare": {
         "description": "ACA marketplace Silver plan; excellent Duke and UNC hospitals nearby",
-        "monthlyCost": 500
+        "monthlyCost": 650
       },
       "transportation": {
         "description": "Paid-off car with basic insurance; car needed but some areas bikeable",
-        "monthlyCost": 250
+        "monthlyCost": 325
       },
       "entertainment": {
         "description": "Free museums on Hillsborough Street, greenway hiking, NC State games on the cheap",
-        "monthlyCost": 80
+        "monthlyCost": 100
       },
       "utilities": {
-        "monthlyCost": 145
+        "monthlyCost": 175
       },
       "lifestyle": "A one-bedroom apartment in Southeast Raleigh or near Brier Creek, cooking most meals at home, and a paid-off car for getting around. Healthcare on an ACA Silver plan is a significant expense, but proximity to Duke and UNC hospitals means good access even on a budget. Free museums on Hillsborough Street and the city's extensive greenway trails are your main entertainment. The mild climate keeps utility costs manageable."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "2BR apartment in North Hills or a townhome in Cary or Apex",
-        "monthlyCost": 1900
+        "monthlyCost": 2250
       },
       "dining": {
         "description": "Dining out 3-4x/week; enjoying the vibrant food scene in downtown and North Hills",
-        "monthlyCost": 480
+        "monthlyCost": 575
       },
       "groceries": {
-        "monthlyCost": 440
+        "monthlyCost": 525
       },
       "healthcare": {
         "description": "ACA Gold plan with dental and vision; Duke and UNC systems within easy reach",
-        "monthlyCost": 620
+        "monthlyCost": 750
       },
       "transportation": {
         "description": "Reliable car, full coverage insurance, occasional use of Raleigh's growing transit",
-        "monthlyCost": 370
+        "monthlyCost": 450
       },
       "entertainment": {
         "description": "Carolina Hurricanes games, DPAC shows in Durham, gym membership, museum memberships",
-        "monthlyCost": 250
+        "monthlyCost": 300
       },
       "utilities": {
-        "monthlyCost": 170
+        "monthlyCost": 200
       },
       "lifestyle": "A townhome in Cary or a two-bedroom in North Hills, dining out several times a week at the Triangle's growing restaurant scene, and a reliable car with full coverage. You can afford Hurricanes hockey tickets, museum memberships, and a few trips a year -- the Blue Ridge and Outer Banks are both within a few hours' drive. Good health insurance through the ACA keeps you covered with Duke and UNC systems nearby."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "3BR home in Cameron Village, Five Points, or a newer home in West Cary",
-        "monthlyCost": 2800
+        "monthlyCost": 2850
       },
       "dining": {
         "description": "Regular fine dining at Poole's Diner, Death & Taxes, and Second Empire; wine events",
-        "monthlyCost": 750
+        "monthlyCost": 775
       },
       "groceries": {
-        "monthlyCost": 550
+        "monthlyCost": 575
       },
       "healthcare": {
         "description": "Premium private insurance with low deductibles; access to Duke and UNC medical centers",
-        "monthlyCost": 750
+        "monthlyCost": 775
       },
       "transportation": {
         "description": "Late-model car, premium insurance, occasional weekend trips to the mountains or coast",
-        "monthlyCost": 500
+        "monthlyCost": 525
       },
       "entertainment": {
         "description": "Hurricanes season tickets, PNC Arena events, golf club, spa visits, museum patron level",
-        "monthlyCost": 450
+        "monthlyCost": 475
       },
       "utilities": {
-        "monthlyCost": 220
+        "monthlyCost": 225
       },
       "lifestyle": "A three-bedroom home in a walkable neighborhood like Cameron Village or Five Points, regular dinners at places like Poole's Diner and Second Empire, and Hurricanes season tickets. Premium health insurance with access to the Duke and UNC medical systems provides strong coverage. You have room for a golf club membership, regular weekend trips, and a late-model car. This is a comfortable, well-rounded life in a metro with genuinely good healthcare infrastructure."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury home in Hayes Barton, Oakwood, or a custom build in Cary's Prestonwood",
-        "monthlyCost": 5200
+        "monthlyCost": 4325
       },
       "dining": {
         "description": "Private chef for dinner parties, regular fine dining across the Triangle, wine club memberships",
-        "monthlyCost": 1200
+        "monthlyCost": 1000
       },
       "groceries": {
-        "monthlyCost": 700
+        "monthlyCost": 575
       },
       "healthcare": {
         "description": "Concierge medicine with Duke or UNC physicians, executive wellness, premium insurance",
-        "monthlyCost": 950
+        "monthlyCost": 775
       },
       "transportation": {
         "description": "Luxury vehicle, second car, flights from RDU to major hubs, premium insurance",
-        "monthlyCost": 800
+        "monthlyCost": 650
       },
       "entertainment": {
         "description": "Country club membership, Hurricanes box seats, DPAC patron, private golf, Carolina Ballet",
-        "monthlyCost": 800
+        "monthlyCost": 650
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 250
       },
       "domesticHelp": {
         "description": "Weekly deep cleaning, landscaping, pool service, seasonal maintenance",
-        "monthlyCost": 650
+        "monthlyCost": 525
       },
       "luxuryExtras": {
         "description": "Outer Banks beach house weekends, quarterly travel, university philanthropy, art collecting",
-        "monthlyCost": 1400
+        "monthlyCost": 1150
       },
       "lifestyle": "A large home in Hayes Barton or Prestonwood, concierge medicine through the Duke or UNC systems, and a housekeeper who comes weekly. You dine at the Triangle's best restaurants several nights a week, drive a nice car, and fly business class for longer trips. There is room for a country club membership, regular travel, and weekend getaways to the Outer Banks. The Research Triangle's educated community and access to top-tier healthcare make this a practical, well-supported life."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Grand estate in Hayes Barton or a luxury compound in Cary with acreage",
-        "monthlyCost": 9500
+        "monthlyCost": 5400
       },
       "dining": {
         "description": "Full-time personal chef, exclusive wine dinners, catered university and charity events",
-        "monthlyCost": 2600
+        "monthlyCost": 1475
       },
       "groceries": {
-        "monthlyCost": 900
+        "monthlyCost": 500
       },
       "healthcare": {
         "description": "Top-tier concierge practice at Duke or UNC, executive wellness, specialist access on demand",
-        "monthlyCost": 1300
+        "monthlyCost": 750
       },
       "transportation": {
         "description": "Multiple luxury vehicles, private car service, chartered flights from RDU",
-        "monthlyCost": 1500
+        "monthlyCost": 850
       },
       "entertainment": {
         "description": "Major university philanthropy, international travel, art patronage, exclusive events",
-        "monthlyCost": 2000
+        "monthlyCost": 1150
       },
       "utilities": {
-        "monthlyCost": 450
+        "monthlyCost": 250
       },
       "domesticHelp": {
         "description": "Full-time estate manager, housekeeper, personal assistant, groundskeeper",
-        "monthlyCost": 4200
+        "monthlyCost": 2400
       },
       "luxuryExtras": {
         "description": "Second home on the Outer Banks, first-class international travel, endowed university chairs, foundation work",
-        "monthlyCost": 4800
+        "monthlyCost": 2725
       },
       "lifestyle": "A large estate in Hayes Barton or Cary, a cook who comes in several times a week, regular domestic help, and top-tier concierge medicine at Duke or UNC. You travel first class, keep multiple cars, and dine out without thinking about the bill. A second home on the Outer Banks is within reach at this budget. The Triangle's three research universities and major medical centers mean you are never far from specialists or cultural programming."
     }

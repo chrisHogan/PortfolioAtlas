@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR apartment in Montbello, Westwood, or outer Aurora",
-        "monthlyCost": 1450
+        "monthlyCost": 1975
       },
       "dining": {
         "description": "Brewery taprooms and casual eateries 2-3x/week; mostly cooking at home",
-        "monthlyCost": 250
+        "monthlyCost": 350
       },
       "groceries": {
-        "monthlyCost": 400
+        "monthlyCost": 550
       },
       "healthcare": {
         "description": "Connect for Health Colorado Silver plan; Colorado premiums are moderate",
-        "monthlyCost": 520
+        "monthlyCost": 700
       },
       "transportation": {
         "description": "Paid-off car with basic insurance and gas; RTD light rail for downtown commutes",
-        "monthlyCost": 280
+        "monthlyCost": 375
       },
       "entertainment": {
         "description": "Free hiking on hundreds of Front Range trails, city parks, free brewery tours",
-        "monthlyCost": 100
+        "monthlyCost": 125
       },
       "utilities": {
-        "monthlyCost": 160
+        "monthlyCost": 225
       },
       "lifestyle": "A modest apartment in an outer neighborhood like Montbello or Aurora. You need a car, and housing plus transportation take up more than half the budget. The upside is that Denver's best asset -- hundreds of free hiking trails in the Front Range foothills -- costs nothing. Brewery taprooms offer affordable socializing, and the 300 days of sunshine help. Ski days are a stretch at this budget, but hiking and biking season runs most of the year."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "2BR apartment in Capitol Hill, Baker, or a townhome in Sloan's Lake",
-        "monthlyCost": 2100
+        "monthlyCost": 2650
       },
       "dining": {
         "description": "Dining out 3-4x/week at mid-range restaurants in RiNo and LoDo; weekend brunch spots",
-        "monthlyCost": 550
+        "monthlyCost": 700
       },
       "groceries": {
-        "monthlyCost": 480
+        "monthlyCost": 600
       },
       "healthcare": {
         "description": "Connect for Health Gold plan with dental and vision; access to UCHealth and SCL Health",
-        "monthlyCost": 620
+        "monthlyCost": 775
       },
       "transportation": {
         "description": "Reliable car with full coverage, RTD pass, bike-share membership for summer",
-        "monthlyCost": 400
+        "monthlyCost": 500
       },
       "entertainment": {
         "description": "Ski day passes at Loveland or A-Basin, Red Rocks concerts, Rockies games, gym membership",
-        "monthlyCost": 350
+        "monthlyCost": 450
       },
       "utilities": {
-        "monthlyCost": 180
+        "monthlyCost": 225
       },
       "lifestyle": "A comfortable apartment in Capitol Hill, Baker, or a townhome near Sloan's Lake. You eat out several times a week in the RiNo food scene, catch Red Rocks concerts in summer, and can afford ski day passes a few times each winter. A reliable car with full coverage is a fixed cost. Colorado's flat state income tax is moderate. The budget supports the active, outdoor-oriented lifestyle Denver is known for without constant constraints."
     },
@@ -88,26 +88,26 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "3BR home in Wash Park, a modern condo in LoDo, or a house in Highlands",
-        "monthlyCost": 3400
+        "monthlyCost": 3550
       },
       "dining": {
         "description": "Regular dining at top Denver restaurants like Beckon, Guard and Grace, and The Wolf's Tailor",
-        "monthlyCost": 900
+        "monthlyCost": 925
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 625
       },
       "healthcare": {
         "description": "Premium private health insurance with comprehensive coverage and low deductibles",
-        "monthlyCost": 720
+        "monthlyCost": 750
       },
       "transportation": {
         "description": "Late-model SUV for mountain trips, premium insurance, occasional rideshare",
-        "monthlyCost": 500
+        "monthlyCost": 525
       },
       "entertainment": {
         "description": "Ikon Pass for unlimited skiing, Broncos season tickets, Red Rocks VIP, premium gym",
-        "monthlyCost": 550
+        "monthlyCost": 575
       },
       "utilities": {
         "monthlyCost": 250
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury home in Cherry Creek, a penthouse in LoDo, or a modern estate in Hilltop",
-        "monthlyCost": 5200
+        "monthlyCost": 4775
       },
       "dining": {
         "description": "Private chef for entertaining, fine dining multiple nights per week, exclusive wine dinners",
-        "monthlyCost": 1400
+        "monthlyCost": 1275
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 725
       },
       "healthcare": {
         "description": "Concierge medicine at UCHealth, executive health screenings, premium private insurance",
-        "monthlyCost": 950
+        "monthlyCost": 875
       },
       "transportation": {
         "description": "Luxury SUV for mountain trips, second vehicle, premium insurance, occasional private car service",
-        "monthlyCost": 900
+        "monthlyCost": 825
       },
       "entertainment": {
         "description": "Premium Broncos suite, Cherry Creek Country Club membership, heli-skiing trips, arts patronage",
-        "monthlyCost": 1000
+        "monthlyCost": 925
       },
       "utilities": {
-        "monthlyCost": 350
+        "monthlyCost": 325
       },
       "domesticHelp": {
         "description": "Bi-weekly house cleaning, landscaping, snow removal service, occasional personal assistant tasks",
-        "monthlyCost": 750
+        "monthlyCost": 700
       },
       "luxuryExtras": {
         "description": "Mountain cabin weekends, first-class ski trips, quarterly travel, premium wine and spirits collecting",
-        "monthlyCost": 1500
+        "monthlyCost": 1375
       },
       "lifestyle": "A large home in Cherry Creek or a penthouse in LoDo. You have a housekeeper, drive a luxury SUV for weekend trips to Aspen or Telluride, and dine at the city's best restaurants without budgeting. Business class flights for longer travel are comfortable at this budget. A country club membership and arts patronage are feasible additions. Denver's moderate cost of living means $16,667 a month goes significantly further than it would in coastal cities."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Cherry Hills Village estate, Polo Club mansion, or luxury penthouse in Union Station district",
-        "monthlyCost": 10000
+        "monthlyCost": 6350
       },
       "dining": {
         "description": "Full-time personal chef, catered events, private dining experiences, exclusive wine dinners",
-        "monthlyCost": 3000
+        "monthlyCost": 1900
       },
       "groceries": {
-        "monthlyCost": 1000
+        "monthlyCost": 625
       },
       "healthcare": {
         "description": "Top concierge medical practice at UCHealth, executive wellness programs, holistic health services",
-        "monthlyCost": 1400
+        "monthlyCost": 875
       },
       "transportation": {
         "description": "Multiple luxury vehicles, private car service, chartered flights from Centennial Airport",
-        "monthlyCost": 1800
+        "monthlyCost": 1150
       },
       "entertainment": {
         "description": "Private box at Empower Field, major arts and hospital philanthropy, heli-skiing, international travel",
-        "monthlyCost": 2500
+        "monthlyCost": 1575
       },
       "utilities": {
-        "monthlyCost": 500
+        "monthlyCost": 325
       },
       "domesticHelp": {
         "description": "Full-time estate manager, housekeeper, personal assistant, property maintenance and snow removal crew",
-        "monthlyCost": 4300
+        "monthlyCost": 2725
       },
       "luxuryExtras": {
         "description": "Mountain estate in Aspen or Vail, first-class international travel, art collecting, philanthropic giving",
-        "monthlyCost": 5000
+        "monthlyCost": 3175
       },
       "lifestyle": "A large estate in Cherry Hills Village with mountain views. You have a full-time housekeeper, a cook who comes in several times a week, and a personal assistant. You dine wherever you want, travel first class, and hold a private box at Empower Field. A second home in Aspen or Vail is feasible at this budget. You support Denver's arts and hospital institutions as a major donor. The combination of city amenities and immediate Rocky Mountain access defines the lifestyle."
     }

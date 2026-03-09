@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Studio or small 1BR in Dorchester, Revere, or Quincy (outside city center)",
-        "monthlyCost": 1800
+        "monthlyCost": 3050
       },
       "dining": {
         "description": "Cheap eats in Chinatown and food courts 2x/week; mostly cooking at home",
-        "monthlyCost": 200
+        "monthlyCost": 350
       },
       "groceries": {
-        "monthlyCost": 400
+        "monthlyCost": 675
       },
       "healthcare": {
         "description": "Massachusetts Health Connector Silver plan; MA has strong ACA marketplace",
-        "monthlyCost": 500
+        "monthlyCost": 850
       },
       "transportation": {
         "description": "MBTA monthly pass (subway and bus); no car needed",
-        "monthlyCost": 100
+        "monthlyCost": 175
       },
       "entertainment": {
         "description": "Freedom Trail walks, free museum days, Boston Common and Public Garden",
-        "monthlyCost": 80
+        "monthlyCost": 125
       },
       "utilities": {
-        "monthlyCost": 160
+        "monthlyCost": 275
       },
       "lifestyle": "A tight budget in an expensive city. You will need a studio or small apartment in Dorchester or Quincy and rely on the T for transportation. Heating costs in winter are a real line item. The upside is that Boston is compact and walkable, the MBTA eliminates the need for a car, and Massachusetts has a strong ACA marketplace. Free walks along the Freedom Trail, the Public Garden, and the Charles River help keep entertainment costs low."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "1BR or 2BR apartment in Jamaica Plain, Somerville, or Cambridge",
-        "monthlyCost": 2800
+        "monthlyCost": 3875
       },
       "dining": {
         "description": "Dining out 3-4x/week in the North End, South End, and Cambridge",
-        "monthlyCost": 600
+        "monthlyCost": 850
       },
       "groceries": {
-        "monthlyCost": 550
+        "monthlyCost": 775
       },
       "healthcare": {
         "description": "MA Health Connector Gold plan with dental; access to world-class hospitals",
-        "monthlyCost": 600
+        "monthlyCost": 850
       },
       "transportation": {
         "description": "MBTA pass with occasional Uber; still no car needed in Cambridge/Somerville",
-        "monthlyCost": 200
+        "monthlyCost": 275
       },
       "entertainment": {
         "description": "Red Sox standing room tickets, museum memberships, gym, harbor cruises",
-        "monthlyCost": 350
+        "monthlyCost": 500
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 275
       },
       "lifestyle": "You can afford a one- or two-bedroom apartment in Jamaica Plain, Somerville, or Cambridge. You eat out several times a week in the North End and South End, catch Red Sox games, and hold a museum membership or two. Boston's walkability and transit mean you still do not need a car. Weekend trips to the North Shore or Cape Cod are feasible. Access to world-class hospitals is a significant practical benefit for retirees."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "2BR condo in Back Bay, Beacon Hill brownstone, or waterfront Seaport unit",
-        "monthlyCost": 4000
+        "monthlyCost": 4850
       },
       "dining": {
         "description": "Regular dining at top restaurants like Oleana, No. 9 Park, Neptune Oyster",
-        "monthlyCost": 900
+        "monthlyCost": 1075
       },
       "groceries": {
-        "monthlyCost": 650
+        "monthlyCost": 775
       },
       "healthcare": {
         "description": "Premium private insurance with Mass General and Brigham & Women's networks",
-        "monthlyCost": 750
+        "monthlyCost": 900
       },
       "transportation": {
         "description": "Zipcar membership, frequent rideshare, MBTA pass, occasional weekend car rental",
-        "monthlyCost": 350
+        "monthlyCost": 425
       },
       "entertainment": {
         "description": "Red Sox season tickets, BSO subscriptions, sailing on the Charles, premium gym",
-        "monthlyCost": 550
+        "monthlyCost": 650
       },
       "utilities": {
-        "monthlyCost": 280
+        "monthlyCost": 325
       },
       "lifestyle": "A two-bedroom condo in Back Bay or a Beacon Hill brownstone apartment, in the heart of one of America's most walkable cities. You dine regularly at restaurants like Oleana and Neptune Oyster, hold Red Sox season tickets, and take weekend drives to Cape Cod or the Berkshires. At $10,000 a month, Boston feels genuinely comfortable. The proximity to Mass General and Brigham & Women's is a practical draw for anyone prioritizing healthcare access in retirement."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury brownstone in Beacon Hill, premium Seaport penthouse, or Brookline estate",
-        "monthlyCost": 6000
+        "monthlyCost": 6450
       },
       "dining": {
         "description": "Fine dining multiple times per week, private chef for dinner parties",
-        "monthlyCost": 1500
+        "monthlyCost": 1625
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 875
       },
       "healthcare": {
         "description": "Concierge medicine at Mass General; executive health programs at Dana-Farber",
-        "monthlyCost": 1100
+        "monthlyCost": 1175
       },
       "transportation": {
         "description": "Luxury vehicle for weekends, private car service, premium parking",
-        "monthlyCost": 800
+        "monthlyCost": 875
       },
       "entertainment": {
         "description": "Red Sox box seats, BSO patron membership, sailing club, Nantucket weekends",
-        "monthlyCost": 1000
+        "monthlyCost": 1075
       },
       "utilities": {
-        "monthlyCost": 400
+        "monthlyCost": 425
       },
       "domesticHelp": {
         "description": "Weekly deep cleaning, seasonal property maintenance, personal assistant",
-        "monthlyCost": 900
+        "monthlyCost": 975
       },
       "luxuryExtras": {
         "description": "Cape Cod summer rental, ski weekends in Vermont, art collecting, philanthropy",
-        "monthlyCost": 1500
+        "monthlyCost": 1625
       },
       "lifestyle": "A luxury brownstone in Beacon Hill or a premium Seaport penthouse. You have a housekeeper, dine at the city's best restaurants several times a week, and drive a nice car for weekends on Cape Cod or in the Berkshires. Business class flights for longer trips fit within the budget. Summer rentals on Nantucket or Martha's Vineyard are feasible. Concierge medicine at Mass General or Dana-Farber provides exceptional healthcare access for retirement."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Historic Beacon Hill mansion, waterfront estate in Marblehead, or Seaport triplex",
-        "monthlyCost": 12000
+        "monthlyCost": 9100
       },
       "dining": {
         "description": "Personal chef, exclusive wine dinners, catered events in historic settings",
-        "monthlyCost": 3000
+        "monthlyCost": 2275
       },
       "groceries": {
-        "monthlyCost": 1200
+        "monthlyCost": 900
       },
       "healthcare": {
         "description": "Top-tier concierge at Partners Healthcare, executive screenings, international medical access",
-        "monthlyCost": 1500
+        "monthlyCost": 1125
       },
       "transportation": {
         "description": "Multiple luxury vehicles, private driver, classic car storage",
-        "monthlyCost": 1800
+        "monthlyCost": 1375
       },
       "entertainment": {
         "description": "Private box at Fenway, philanthropic galas at the MFA, Harvard club membership",
-        "monthlyCost": 2500
+        "monthlyCost": 1900
       },
       "utilities": {
-        "monthlyCost": 600
+        "monthlyCost": 450
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, personal assistant, property manager, seasonal estate staff",
-        "monthlyCost": 4500
+        "monthlyCost": 3400
       },
       "luxuryExtras": {
         "description": "Cape Cod summer home, first-class international travel, art patronage, endowment giving",
-        "monthlyCost": 5000
+        "monthlyCost": 3775
       },
       "lifestyle": "A historic Beacon Hill mansion or a waterfront estate in Marblehead. You have a full-time housekeeper, a personal assistant, and a cook who comes in several times a week. You dine wherever you want, travel first class, and hold a private box at Fenway Park. Summers include a Cape Cod or Nantucket house. You support the MFA and BSO as a major donor. Boston's concentration of world-class hospitals means healthcare access is arguably the best in the country."
     }

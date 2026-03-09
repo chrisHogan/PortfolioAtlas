@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Compact 1-bedroom in Gracia or Sants, charming neighborhood but smaller space for the budget",
-        "monthlyCost": 1200
+        "monthlyCost": 1975
       },
       "dining": {
         "description": "Menu del dia lunches at local restaurants, tapas bars in the evening, coffee at neighborhood cafes",
-        "monthlyCost": 500
+        "monthlyCost": 825
       },
       "groceries": {
-        "monthlyCost": 350
+        "monthlyCost": 575
       },
       "healthcare": {
         "description": "Public healthcare via social security enrollment, supplemented with basic private insurance for faster access",
-        "monthlyCost": 180
+        "monthlyCost": 300
       },
       "transportation": {
         "description": "T-Casual metro/bus passes and Bicing bike-share membership for daily commuting",
-        "monthlyCost": 55
+        "monthlyCost": 100
       },
       "entertainment": {
         "description": "Beach days at Barceloneta, free museum Sundays, Gothic Quarter wandering, Montjuic sunsets",
-        "monthlyCost": 250
+        "monthlyCost": 400
       },
       "utilities": {
-        "monthlyCost": 140
+        "monthlyCost": 225
       },
       "lifestyle": "A compact 1-bedroom in Gracia or Sants -- charming neighborhoods but expect smaller space for the money. Menu del dia lunches and tapas in the evening keep dining affordable. Getting around by metro and Bicing bike-share. Public healthcare with a basic private supplement. Barcelona is not cheap, so this budget requires real trade-offs on apartment size and dining out, but the beach, Montjuic, and neighborhood life are free."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Bright 2-bedroom apartment in Eixample with high ceilings and a small balcony overlooking a tree-lined street",
-        "monthlyCost": 2000
+        "monthlyCost": 2575
       },
       "dining": {
         "description": "Regular dining at Barcelona's celebrated tapas bars and restaurants, weekend paella at the beach, vermouth hour ritual",
-        "monthlyCost": 1000
+        "monthlyCost": 1300
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 650
       },
       "healthcare": {
         "description": "Comprehensive private insurance covering top hospitals like Clinica Teknon and Quironsalud, dental included",
-        "monthlyCost": 280
+        "monthlyCost": 375
       },
       "transportation": {
         "description": "Monthly transit pass, Bicing, occasional taxi rides, weekend car rental for Costa Brava trips",
-        "monthlyCost": 150
+        "monthlyCost": 200
       },
       "entertainment": {
         "description": "FC Barcelona matches, concerts at Palau de la Musica, wine tasting in Penedes, sailing on weekends",
-        "monthlyCost": 600
+        "monthlyCost": 775
       },
       "utilities": {
-        "monthlyCost": 170
+        "monthlyCost": 225
       },
       "lifestyle": "A bright 2-bedroom in Eixample with high ceilings and a balcony. Dining out at tapas bars and good restaurants several times a week without worrying about the bill. Comprehensive private health insurance covering top hospitals. Weekend car rentals for Costa Brava or Penedes wine country trips. FC Barcelona matches and concerts at Palau de la Musica. Barcelona's costs are real, but at this level daily life is comfortable and enjoyable."
     },
@@ -88,11 +88,11 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Spacious 3-bedroom in upper Eixample or Sarria-Sant Gervasi with terrace, modernista details, and natural light",
-        "monthlyCost": 3000
+        "monthlyCost": 3075
       },
       "dining": {
         "description": "Michelin-starred dining at Disfrutar and Tickets, private cooking classes, curated Catalan gastronomy experiences",
-        "monthlyCost": 1600
+        "monthlyCost": 1625
       },
       "groceries": {
         "monthlyCost": 650
@@ -107,10 +107,10 @@
       },
       "entertainment": {
         "description": "VIP FC Barcelona experiences, private sailing charters, exclusive beach club memberships, front-row Primavera Sound",
-        "monthlyCost": 1100
+        "monthlyCost": 1125
       },
       "utilities": {
-        "monthlyCost": 220
+        "monthlyCost": 225
       },
       "lifestyle": "A spacious apartment in upper Eixample or Sarria-Sant Gervasi with a terrace and natural light. Regular dining at top restaurants, including occasional meals at places like Disfrutar. A leased car for weekend escapes, premium private healthcare, and several European trips per year. This budget puts you in one of Barcelona's best neighborhoods with a genuinely affluent daily life."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury penthouse in Passeig de Gracia or a renovated modernista mansion in Pedralbes with private pool",
-        "monthlyCost": 5000
+        "monthlyCost": 3925
       },
       "dining": {
         "description": "Private chef for daily meals, regular Michelin tasting menus, curated wine collection with personal sommelier",
-        "monthlyCost": 2800
+        "monthlyCost": 2200
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 625
       },
       "healthcare": {
         "description": "International VIP health coverage, personal physician, cutting-edge treatments, wellness and longevity programs",
-        "monthlyCost": 600
+        "monthlyCost": 475
       },
       "transportation": {
         "description": "Luxury vehicle lease, private driver for city travel, helicopter transfers to Costa Brava villa",
-        "monthlyCost": 900
+        "monthlyCost": 700
       },
       "entertainment": {
         "description": "Private yacht moored at Port Olympic, art collecting in El Born galleries, box seats at Camp Nou, exclusive club memberships",
-        "monthlyCost": 2000
+        "monthlyCost": 1575
       },
       "utilities": {
-        "monthlyCost": 350
+        "monthlyCost": 275
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, weekly deep cleaning, personal assistant, laundry and wardrobe management",
-        "monthlyCost": 1400
+        "monthlyCost": 1100
       },
       "luxuryExtras": {
         "description": "Personal trainer, private Spanish and Catalan tutors, bespoke tailoring, premium co-working at OneCoWork, yacht marina fees",
-        "monthlyCost": 1800
+        "monthlyCost": 1425
       },
       "lifestyle": "A luxury penthouse on Passeig de Gracia or a renovated home in Pedralbes. Regular dining at the city's best restaurants, a housekeeper several times a week, and business class for longer flights. A leased luxury car, premium private healthcare, and a personal trainer. Barcelona is expensive enough that even at this level you notice the costs, but daily life is high quality with very few practical constraints."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Historic modernista estate in Pedralbes or ultra-luxury waterfront penthouse with 360-degree views from Barceloneta to Tibidabo",
-        "monthlyCost": 9000
+        "monthlyCost": 5075
       },
       "dining": {
         "description": "Full-time private chef team, rare wine collection management, hosting legendary dinner parties, guest chef residencies",
-        "monthlyCost": 5000
+        "monthlyCost": 2825
       },
       "groceries": {
-        "monthlyCost": 1200
+        "monthlyCost": 675
       },
       "healthcare": {
         "description": "Global concierge medicine, dedicated medical team, fly-anywhere coverage, biohacking and longevity protocols",
-        "monthlyCost": 1200
+        "monthlyCost": 675
       },
       "transportation": {
         "description": "Chauffeured luxury fleet, private jet charter for Mediterranean island hopping, superyacht access",
-        "monthlyCost": 3000
+        "monthlyCost": 1700
       },
       "entertainment": {
         "description": "Art patronage and gallery ownership, private island retreats in Balearics, front-row fashion week, hosting cultural festivals",
-        "monthlyCost": 4500
+        "monthlyCost": 2550
       },
       "utilities": {
-        "monthlyCost": 600
+        "monthlyCost": 350
       },
       "domesticHelp": {
         "description": "Full household staff: butler, chef team, housekeepers, gardener, personal assistant, estate manager",
-        "monthlyCost": 4500
+        "monthlyCost": 2550
       },
       "luxuryExtras": {
         "description": "Art acquisition fund, Balearic vacation property management, charitable foundation, bespoke Mediterranean yacht itineraries, personal brand management",
-        "monthlyCost": 5500
+        "monthlyCost": 3100
       },
       "lifestyle": "A historic estate in Pedralbes or an ultra-luxury waterfront penthouse. A cook several times a week, a full-time housekeeper, and full private healthcare with top specialists. Business class as default, first class for longer trips. Regular fine dining at the city's best restaurants and a nice car with driver when needed. Barcelona's high costs absorb more of this budget than cheaper cities would, but daily life is fully comfortable at a premium level."
     }

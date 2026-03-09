@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Modern 1-bedroom apartment near My Khe Beach or a small house in a local neighborhood with rooftop terrace",
-        "monthlyCost": 350
+        "monthlyCost": 550
       },
       "dining": {
         "description": "Street food heaven — pho, banh mi, and com tam daily for $1-2 per meal; local seafood restaurants on weekends",
-        "monthlyCost": 250
+        "monthlyCost": 425
       },
       "groceries": {
-        "monthlyCost": 150
+        "monthlyCost": 250
       },
       "healthcare": {
         "description": "Basic private insurance with access to Da Nang's expanding private hospitals and clinics",
-        "monthlyCost": 100
+        "monthlyCost": 175
       },
       "transportation": {
         "description": "Rented motorbike for daily use, Grab rides for longer trips across the city",
-        "monthlyCost": 60
+        "monthlyCost": 100
       },
       "entertainment": {
         "description": "Beach days at My Khe, Marble Mountains hiking, Son Tra Peninsula exploration, expat meetups, café culture",
-        "monthlyCost": 150
+        "monthlyCost": 250
       },
       "utilities": {
-        "monthlyCost": 60
+        "monthlyCost": 100
       },
       "lifestyle": "A modern 1-bedroom apartment near My Khe Beach or a small house in a local neighborhood. Eating mostly street food — pho, banh mi, and com tam for a dollar or two per meal. Getting around by motorbike with Grab for longer trips. Basic private health insurance at Da Nang's expanding hospital network. The beach and the Marble Mountains are free. Comfortable and very affordable, though English is limited and the expat community is still small."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Spacious 2-bedroom beachfront apartment or a modern villa in a quiet residential area with pool access",
-        "monthlyCost": 600
+        "monthlyCost": 750
       },
       "dining": {
         "description": "Mix of incredible street food, upscale Vietnamese restaurants, international dining, and weekend seafood feasts",
-        "monthlyCost": 500
+        "monthlyCost": 625
       },
       "groceries": {
-        "monthlyCost": 250
+        "monthlyCost": 300
       },
       "healthcare": {
         "description": "Comprehensive private insurance covering top hospitals, dental included, annual health checks",
-        "monthlyCost": 200
+        "monthlyCost": 250
       },
       "transportation": {
         "description": "Own motorbike plus regular Grab car rides, weekend road trips to Hoi An and Hue",
-        "monthlyCost": 120
+        "monthlyCost": 150
       },
       "entertainment": {
         "description": "Gym membership, surfing lessons, weekend trips to Hoi An and the Ba Na Hills, Vietnamese cooking classes, scuba diving",
-        "monthlyCost": 400
+        "monthlyCost": 500
       },
       "utilities": {
-        "monthlyCost": 100
+        "monthlyCost": 125
       },
       "lifestyle": "A spacious 2-bedroom beachfront apartment or a modern villa with pool access. Dining out regularly at good Vietnamese and international restaurants without watching the bill, with own motorbike plus Grab car for getting around. Comprehensive private health insurance with dental. Weekend road trips to Hoi An and Hue are easy and cheap, and morning swims at My Khe Beach are part of the routine. Day-to-day life is comfortable and relaxed."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Luxury 3-bedroom beachfront villa with private pool, garden, and panoramic ocean views",
-        "monthlyCost": 1100
+        "monthlyCost": 950
       },
       "dining": {
         "description": "Fine dining at Da Nang's top restaurants, hired chef for special dinners, curated food tours across central Vietnam",
-        "monthlyCost": 900
+        "monthlyCost": 750
       },
       "groceries": {
-        "monthlyCost": 400
+        "monthlyCost": 325
       },
       "healthcare": {
         "description": "Premium international insurance with medical evacuation, access to Bangkok or Singapore hospitals for major procedures",
-        "monthlyCost": 350
+        "monthlyCost": 300
       },
       "transportation": {
         "description": "Leased car or SUV, Grab for evenings, domestic flights to Hanoi and Ho Chi Minh City, weekend road trips",
-        "monthlyCost": 300
+        "monthlyCost": 250
       },
       "entertainment": {
         "description": "Golf at premium courses, surf school, spa retreats, Ba Na Hills VIP experiences, weekend island trips to Cham Islands",
-        "monthlyCost": 800
+        "monthlyCost": 675
       },
       "utilities": {
-        "monthlyCost": 180
+        "monthlyCost": 150
       },
       "lifestyle": "A large beachfront villa with private pool and ocean views. Dining at Da Nang's best restaurants regularly, with fresh seafood as a staple. A leased car or SUV for getting around, with domestic flights to Hanoi and Ho Chi Minh City. Premium international health insurance with medical evacuation coverage. Golf at good courses nearby. This budget covers a genuinely affluent coastal lifestyle, though Da Nang's fine-dining and entertainment options are limited compared to larger Vietnamese cities."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Stunning oceanfront estate in the Son Tra area or a luxury compound near My Khe with pool, gardens, and sea views",
-        "monthlyCost": 2200
+        "monthlyCost": 1250
       },
       "dining": {
         "description": "Full-time private chef preparing Vietnamese and international cuisine, regular fine dining, curated wine collection",
-        "monthlyCost": 1500
+        "monthlyCost": 850
       },
       "groceries": {
-        "monthlyCost": 550
+        "monthlyCost": 325
       },
       "healthcare": {
         "description": "VIP international coverage with Bumrungrad Bangkok access, personal physician, executive wellness programs",
-        "monthlyCost": 500
+        "monthlyCost": 275
       },
       "transportation": {
         "description": "Luxury vehicle with part-time driver, domestic flights, private transfers, weekend road trips in comfort",
-        "monthlyCost": 500
+        "monthlyCost": 275
       },
       "entertainment": {
         "description": "Premium golf memberships, private yacht charters to Cham Islands, art collecting, exclusive beach club access",
-        "monthlyCost": 1300
+        "monthlyCost": 750
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 150
       },
       "domesticHelp": {
         "description": "Full-time housekeeper/cook, part-time gardener, weekly laundry and deep cleaning service",
-        "monthlyCost": 500
+        "monthlyCost": 275
       },
       "luxuryExtras": {
         "description": "Hoi An tailor-made wardrobe, private Vietnamese language tutor, premium spa memberships, charitable community projects",
-        "monthlyCost": 1300
+        "monthlyCost": 750
       },
       "lifestyle": "A large oceanfront property in the Son Tra area or near My Khe with pool, gardens, and sea views. A housekeeper and cook for most meals, plus a luxury car with a part-time driver. Business class for longer flights, regular domestic travel across Vietnam, and VIP international health coverage. This budget goes extremely far in Da Nang — daily life is very comfortable, though the city remains relatively small with limited high-end infrastructure."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Sprawling beachfront estate with multiple villas, infinity pool, and direct beach access, plus a heritage property in Hoi An's old town",
-        "monthlyCost": 4500
+        "monthlyCost": 1475
       },
       "dining": {
         "description": "Private chef team, rare imported ingredients, legendary dinner parties featuring the best of Vietnamese cuisine, guest chef residencies",
-        "monthlyCost": 3000
+        "monthlyCost": 1000
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 275
       },
       "healthcare": {
         "description": "Global concierge medicine, dedicated medical team, fly-anywhere coverage, longevity and biohacking programs",
-        "monthlyCost": 800
+        "monthlyCost": 275
       },
       "transportation": {
         "description": "Luxury vehicle fleet, full-time chauffeur, private jet charter for regional travel, superyacht access",
-        "monthlyCost": 2000
+        "monthlyCost": 675
       },
       "entertainment": {
         "description": "Philanthropic projects supporting local communities, private island retreats, art patronage, international travel across Asia and beyond",
-        "monthlyCost": 3500
+        "monthlyCost": 1175
       },
       "utilities": {
-        "monthlyCost": 500
+        "monthlyCost": 175
       },
       "domesticHelp": {
         "description": "Full household staff: chef team, housekeepers, gardener, driver, property manager, personal assistant",
-        "monthlyCost": 1800
+        "monthlyCost": 600
       },
       "luxuryExtras": {
         "description": "Hoi An heritage property management, charitable foundation for local education, bespoke yacht itineraries along the Vietnamese coast, art collection curation",
-        "monthlyCost": 4500
+        "monthlyCost": 1500
       },
       "lifestyle": "A large beachfront estate with direct beach access, plus potentially a heritage property in Hoi An's old town. A housekeeper, a cook a few times a week, a gardener, a driver, and a property manager. First-class flights internationally and frequent domestic travel. Concierge global healthcare. This is far more budget than Da Nang can absorb — you live at the absolute top of what the area offers, but Da Nang is still a mid-size Vietnamese city with limited luxury dining, entertainment, and medical options. The beach and natural setting are the real draw."
     }

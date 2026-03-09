@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Cozy 1-bedroom apartment in the Old Town or Halepa neighborhood, walking distance to the Venetian harbor",
-        "monthlyCost": 700
+        "monthlyCost": 1075
       },
       "dining": {
         "description": "Daily meals at family-run tavernas, fresh fish at the harbor, traditional Cretan dakos and lamb, strong raki culture",
-        "monthlyCost": 400
+        "monthlyCost": 625
       },
       "groceries": {
-        "monthlyCost": 280
+        "monthlyCost": 425
       },
       "healthcare": {
         "description": "Public healthcare access plus affordable private insurance for Chania Hospital and specialist visits",
-        "monthlyCost": 130
+        "monthlyCost": 200
       },
       "transportation": {
         "description": "Local bus pass and a bicycle for getting around the compact city center, occasional taxi",
-        "monthlyCost": 60
+        "monthlyCost": 100
       },
       "entertainment": {
         "description": "Beach days at Balos and Elafonissi, Old Town evening strolls, Samaria Gorge hikes, harbor-side raki with locals",
-        "monthlyCost": 200
+        "monthlyCost": 300
       },
       "utilities": {
-        "monthlyCost": 110
+        "monthlyCost": 175
       },
       "lifestyle": "A one-bedroom in the Old Town or Halepa keeps you walking distance to the Venetian harbor. Chania is affordable enough to eat at family-run tavernas regularly, and the beaches — Balos, Elafonissi — are free. You will need a bicycle or bus pass since the city is compact but getting outside it requires planning. The pace is slow, English is less common than in Athens, and winter is quiet with limited social activity."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Renovated 2-bedroom Venetian townhouse in the Old Town with courtyard, or modern apartment in Nea Chora with sea views",
-        "monthlyCost": 1300
+        "monthlyCost": 1500
       },
       "dining": {
         "description": "Regular dining at Chania's best restaurants, fresh seafood at harbor tavernas, wine tastings featuring Cretan varietals",
-        "monthlyCost": 750
+        "monthlyCost": 850
       },
       "groceries": {
-        "monthlyCost": 400
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "Comprehensive private insurance covering top Cretan clinics and specialists, dental included, medevac to Athens if needed",
-        "monthlyCost": 220
+        "monthlyCost": 250
       },
       "transportation": {
         "description": "Rented car for exploring western Crete's beaches and mountain villages, bus pass, occasional ferry to Athens",
-        "monthlyCost": 250
+        "monthlyCost": 275
       },
       "entertainment": {
         "description": "Sailing trips along the coast, Cretan cooking classes, wine tours through Kissamos vineyards, White Mountains hiking, beach-hopping excursions",
-        "monthlyCost": 500
+        "monthlyCost": 575
       },
       "utilities": {
-        "monthlyCost": 140
+        "monthlyCost": 150
       },
       "lifestyle": "A renovated Venetian townhouse in the Old Town or a modern apartment in Nea Chora with sea views. A rented car opens up western Crete's south-coast beaches and mountain villages. You can dine out several times a week, take sailing trips, and carry good private health insurance with a comfortable margin. The expat community is small but established, and Cretan hospitality makes integration easier than in many Greek cities."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Luxury 3-bedroom villa in Akrotiri with private pool and panoramic views of Souda Bay, or premium restored Venetian mansion in the Old Town",
-        "monthlyCost": 2400
+        "monthlyCost": 1975
       },
       "dining": {
         "description": "Fine dining at Chania's top restaurants, private cooking experiences with local chefs, curated Cretan wine collection, harbor-front feasts",
-        "monthlyCost": 1300
+        "monthlyCost": 1075
       },
       "groceries": {
-        "monthlyCost": 550
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "Premium private insurance with international coverage, wellness retreats, concierge medical services with Athens specialist access",
-        "monthlyCost": 350
+        "monthlyCost": 275
       },
       "transportation": {
         "description": "Owned vehicle for island exploration, domestic flights to Athens, seasonal ferry passes, boat rentals for coastal excursions",
-        "monthlyCost": 400
+        "monthlyCost": 325
       },
       "entertainment": {
         "description": "Private sailing charters to Gramvousa and Balos, premium beach club access, art exhibitions in the Old Town, guided archaeological tours",
-        "monthlyCost": 900
+        "monthlyCost": 750
       },
       "utilities": {
-        "monthlyCost": 190
+        "monthlyCost": 150
       },
       "lifestyle": "A villa in Akrotiri with a pool and views of Souda Bay, your own car for island exploration, and regular dining at Chania's best restaurants. Domestic flights to Athens, sailing charters along the coast, and international health coverage are all within budget. Crete's seasonal rhythms — olive harvest, Easter feasts — become part of daily life. This budget goes very far here, with a meaningful margin."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Stunning seafront estate in Akrotiri or Almyrida with private pool, olive groves, and direct beach access, or landmark Venetian palace in the Old Town",
-        "monthlyCost": 3800
+        "monthlyCost": 2550
       },
       "dining": {
         "description": "Private chef specializing in modern Cretan cuisine, Michelin-quality dining experiences, curated cellar of rare Greek and Cretan wines",
-        "monthlyCost": 2100
+        "monthlyCost": 1375
       },
       "groceries": {
-        "monthlyCost": 700
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "International concierge medicine, private physician, wellness programs, anti-aging treatments at premium Greek island clinics",
-        "monthlyCost": 500
+        "monthlyCost": 325
       },
       "transportation": {
         "description": "Luxury vehicle, private boat for coastal exploration, domestic flights, helicopter transfers to Athens when needed",
-        "monthlyCost": 700
+        "monthlyCost": 450
       },
       "entertainment": {
         "description": "Private yacht charters through the Cretan coast, exclusive olive oil and wine estate tours, art patronage in Chania's galleries, VIP cultural festival access",
-        "monthlyCost": 1500
+        "monthlyCost": 975
       },
       "utilities": {
-        "monthlyCost": 260
+        "monthlyCost": 175
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, gardener for the estate grounds, pool maintenance, personal assistant",
-        "monthlyCost": 1000
+        "monthlyCost": 650
       },
       "luxuryExtras": {
         "description": "Private Greek language tutor, personal trainer, bespoke island-hopping itineraries, olive grove management, premium social memberships",
-        "monthlyCost": 1300
+        "monthlyCost": 850
       },
       "lifestyle": "A seafront estate in Akrotiri or Almyrida with pool and beach access, a housekeeper, and a cook who comes in several times a week. A boat for coastal exploration, business class flights from Chania's airport, and premium healthcare. Chania is a small city, so the social and dining scene is limited compared to Athens or larger European cities. The natural beauty and food culture are the main draws, and much of this budget will go unspent locally."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Ultra-luxury compound on the Akrotiri peninsula with multiple buildings, infinity pool, private beach cove, helipad, and panoramic Aegean views",
-        "monthlyCost": 7500
+        "monthlyCost": 3125
       },
       "dining": {
         "description": "Full-time private chef team, rare Greek wine collection curation, legendary Cretan feast hosting, guest chef residencies from Athens and beyond",
-        "monthlyCost": 4000
+        "monthlyCost": 1675
       },
       "groceries": {
-        "monthlyCost": 1000
+        "monthlyCost": 425
       },
       "healthcare": {
         "description": "Global VIP medical coverage, dedicated wellness team, private longevity programs, fly-anywhere specialist access",
-        "monthlyCost": 900
+        "monthlyCost": 375
       },
       "transportation": {
         "description": "Chauffeured luxury fleet, private yacht for Aegean cruising, helicopter transfers, private jet charter for Mediterranean travel",
-        "monthlyCost": 2500
+        "monthlyCost": 1050
       },
       "entertainment": {
         "description": "Major cultural patronage in Crete, private island excursions, art foundation, hosting international gatherings at your estate, archaeological sponsorship",
-        "monthlyCost": 3800
+        "monthlyCost": 1575
       },
       "utilities": {
-        "monthlyCost": 450
+        "monthlyCost": 200
       },
       "domesticHelp": {
         "description": "Full estate staff: butler, chef team, housekeepers, groundskeepers, yacht crew, personal assistant, estate manager",
-        "monthlyCost": 3800
+        "monthlyCost": 1575
       },
       "luxuryExtras": {
         "description": "Private olive oil production, vineyard investment, archaeological site patronage, charitable foundation supporting Cretan heritage, bespoke Mediterranean experiences",
-        "monthlyCost": 4800
+        "monthlyCost": 2000
       },
       "lifestyle": "A large compound on the Akrotiri peninsula with pool and views, a cook, regular housekeeping, and first-class travel. You can charter boats for Aegean trips and dine anywhere in western Crete without thinking about cost. The honest constraint at this budget is that Chania is a small town on an island — luxury services, fine dining options, and cultural events are limited. Most people at this spending level would treat Chania as a primary base while traveling frequently."
     }

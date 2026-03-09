@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR apartment in Fishtown, South Philly, or Manayunk",
-        "monthlyCost": 1400
+        "monthlyCost": 2200
       },
       "dining": {
         "description": "Cheesesteaks, Reading Terminal Market, and BYOB restaurants 2-3x/week",
-        "monthlyCost": 240
+        "monthlyCost": 375
       },
       "groceries": {
-        "monthlyCost": 380
+        "monthlyCost": 600
       },
       "healthcare": {
         "description": "ACA Silver plan via Pennie marketplace; Penn Medicine and Jefferson nearby",
-        "monthlyCost": 500
+        "monthlyCost": 775
       },
       "transportation": {
         "description": "SEPTA monthly pass for subway, bus, and regional rail; many areas walkable",
-        "monthlyCost": 120
+        "monthlyCost": 175
       },
       "entertainment": {
         "description": "Free First Fridays at galleries, Schuylkill River Trail runs, Fairmount Park",
-        "monthlyCost": 100
+        "monthlyCost": 150
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 225
       },
       "lifestyle": "You can rent a one-bedroom in Fishtown or South Philly and rely on SEPTA instead of owning a car, which keeps costs down significantly. Philly's BYOB restaurant culture makes dining out affordable a couple of times a week, and there is no sales tax on groceries or clothing. Free gallery nights, the Schuylkill River Trail, and Fairmount Park provide regular entertainment."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Nice 2BR in Rittenhouse Square area, Northern Liberties, or Fairmount",
-        "monthlyCost": 2200
+        "monthlyCost": 2975
       },
       "dining": {
         "description": "Dining out 3-4x/week at Philly's acclaimed BYOB scene and top restaurants",
-        "monthlyCost": 550
+        "monthlyCost": 750
       },
       "groceries": {
-        "monthlyCost": 470
+        "monthlyCost": 625
       },
       "healthcare": {
         "description": "ACA Gold plan with dental and vision; access to Penn Medicine and CHOP networks",
-        "monthlyCost": 600
+        "monthlyCost": 800
       },
       "transportation": {
         "description": "SEPTA pass plus occasional Uber; weekend car rental for shore trips",
-        "monthlyCost": 200
+        "monthlyCost": 275
       },
       "entertainment": {
         "description": "Eagles or Phillies tickets, Philadelphia Museum of Art membership, gym, Jersey Shore weekends",
-        "monthlyCost": 350
+        "monthlyCost": 475
       },
       "utilities": {
-        "monthlyCost": 180
+        "monthlyCost": 250
       },
       "lifestyle": "You can rent a nice apartment near Rittenhouse Square or in Northern Liberties and eat out several times a week at the restaurant scene that has put Philly on the national food map. Eagles or Phillies tickets, weekend trips to the Jersey Shore, and Amtrak access to New York and D.C. are all within budget. Philadelphia offers a lot of urban life for the money compared to Boston or New York."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Rittenhouse Square condo, Society Hill townhouse, or a Chestnut Hill home",
-        "monthlyCost": 3200
+        "monthlyCost": 3675
       },
       "dining": {
         "description": "Regular dining at top restaurants like Zahav, Vernick, Vetri Cucina; daily cafe stops",
-        "monthlyCost": 850
+        "monthlyCost": 975
       },
       "groceries": {
-        "monthlyCost": 580
+        "monthlyCost": 675
       },
       "healthcare": {
         "description": "Premium private insurance with Penn Medicine network and comprehensive coverage",
-        "monthlyCost": 720
+        "monthlyCost": 825
       },
       "transportation": {
         "description": "Late-model car for suburban and shore trips, SEPTA for daily errands, premium insurance",
-        "monthlyCost": 400
+        "monthlyCost": 450
       },
       "entertainment": {
         "description": "Eagles season tickets, Philadelphia Orchestra subscriptions, premium gym, Brandywine Valley trips",
-        "monthlyCost": 520
+        "monthlyCost": 600
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 300
       },
       "lifestyle": "You can rent a condo in Rittenhouse Square or a townhouse in Society Hill, and dine regularly at restaurants like Zahav and Vernick. Eagles season tickets, a Philadelphia Orchestra subscription, and a car for weekend drives to Brandywine Valley or the shore all fit comfortably. Good private insurance through the Penn Medicine network and the city's walkability make daily life convenient."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury Rittenhouse penthouse, historic Main Line estate, or Society Hill mansion",
-        "monthlyCost": 5000
+        "monthlyCost": 4950
       },
       "dining": {
         "description": "Fine dining multiple times per week, private chef for dinner parties",
-        "monthlyCost": 1400
+        "monthlyCost": 1375
       },
       "groceries": {
         "monthlyCost": 750
       },
       "healthcare": {
         "description": "Concierge medicine at Penn Medicine; executive wellness at Jefferson",
-        "monthlyCost": 1000
+        "monthlyCost": 975
       },
       "transportation": {
         "description": "Luxury vehicle, private car service, Acela first-class to NYC and DC",
-        "monthlyCost": 800
+        "monthlyCost": 775
       },
       "entertainment": {
         "description": "Eagles box seats, Philadelphia Museum of Art patron, Main Line country club, premium experiences",
-        "monthlyCost": 1000
+        "monthlyCost": 975
       },
       "utilities": {
         "monthlyCost": 350
       },
       "domesticHelp": {
         "description": "Weekly deep cleaning, landscaping, personal assistant, seasonal maintenance",
-        "monthlyCost": 800
+        "monthlyCost": 775
       },
       "luxuryExtras": {
         "description": "Quarterly travel, art collecting, Brandywine Valley outings, philanthropy",
-        "monthlyCost": 1400
+        "monthlyCost": 1375
       },
       "lifestyle": "A large Rittenhouse penthouse or a historic home on the Main Line, regular dining at Philadelphia's best restaurants, and a housekeeper who comes weekly. Concierge medicine at Penn Medicine, a nice car, and business class Acela to New York or D.C. are standard. Museum patron memberships, box seats at Eagles games, and weekend trips to the shore round out the budget."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Historic Rittenhouse mansion, grand Main Line estate, or Chestnut Hill landmark property",
-        "monthlyCost": 10000
+        "monthlyCost": 6725
       },
       "dining": {
         "description": "Personal chef, exclusive wine dinners, catered events in historic settings",
-        "monthlyCost": 2800
+        "monthlyCost": 1875
       },
       "groceries": {
-        "monthlyCost": 1100
+        "monthlyCost": 725
       },
       "healthcare": {
         "description": "Top-tier concierge at Penn Medicine, executive screenings, specialist VIP access",
-        "monthlyCost": 1500
+        "monthlyCost": 1000
       },
       "transportation": {
         "description": "Multiple luxury vehicles, private driver, first-class rail access",
-        "monthlyCost": 1500
+        "monthlyCost": 1000
       },
       "entertainment": {
         "description": "Private suite at stadiums, museum trustee events, international travel, art patronage",
-        "monthlyCost": 2500
+        "monthlyCost": 1675
       },
       "utilities": {
-        "monthlyCost": 500
+        "monthlyCost": 325
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, estate manager, personal assistant, property staff",
-        "monthlyCost": 4200
+        "monthlyCost": 2825
       },
       "luxuryExtras": {
         "description": "First-class international travel, shore house, museum endowments, charitable foundation",
-        "monthlyCost": 5000
+        "monthlyCost": 3350
       },
       "lifestyle": "Premium housing in Rittenhouse or a grand Main Line estate, regular fine dining, a cook who comes several times a week, and a housekeeper. First class travel, full concierge healthcare at Penn Medicine, and a private suite at the stadiums. Philadelphia's relatively affordable cost base means this budget goes further than it would in New York, with easy Acela access to Manhattan when you want it."
     }

@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Furnished 2-bedroom apartment in El Centro or near the Tomebamba River with colonial charm",
-        "monthlyCost": 500
+        "monthlyCost": 675
       },
       "dining": {
         "description": "Almuerzos (set lunches) for $2.50-3.50, local restaurants, weekend market food, café culture",
-        "monthlyCost": 300
+        "monthlyCost": 400
       },
       "groceries": {
-        "monthlyCost": 200
+        "monthlyCost": 275
       },
       "healthcare": {
         "description": "IESS public insurance enrollment ($80/mo) plus cash-pay visits to excellent private clinics like Hospital Monte Sinaí",
-        "monthlyCost": 120
+        "monthlyCost": 150
       },
       "transportation": {
         "description": "City buses at $0.30/ride, taxis across town for $2-3, walkable historic center",
-        "monthlyCost": 50
+        "monthlyCost": 75
       },
       "entertainment": {
         "description": "Cajas National Park hikes, free cathedral visits, expat meetups, local concert scene, river walks",
-        "monthlyCost": 150
+        "monthlyCost": 200
       },
       "utilities": {
-        "monthlyCost": 60
+        "monthlyCost": 75
       },
       "lifestyle": "A two-bedroom apartment in El Centro or along the Tomebamba River provides a comfortable base in a walkable colonial city. Daily almuerzos cost a few dollars, buses are cheap, and IESS public insurance covers basic healthcare. The expat community is large and welcoming, weekends in Cajas National Park are free, and the US dollar currency eliminates exchange rate risk. This budget leaves meaningful margin for savings."
     },
@@ -58,11 +58,11 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Spacious 3-bedroom apartment or small house in Yanuncay or El Vergel with garden and mountain views",
-        "monthlyCost": 900
+        "monthlyCost": 925
       },
       "dining": {
         "description": "Mix of local almuerzos, international restaurants, Italian and sushi spots, regular café brunch",
-        "monthlyCost": 550
+        "monthlyCost": 575
       },
       "groceries": {
         "monthlyCost": 350
@@ -73,14 +73,14 @@
       },
       "transportation": {
         "description": "Frequent taxi and rideshare use, weekend car rental for trips to Ingapirca or Guayaquil coast",
-        "monthlyCost": 120
+        "monthlyCost": 125
       },
       "entertainment": {
         "description": "Gym membership, Spanish classes, weekend trips to coastal beaches, Cuenca arts scene, cooking classes",
-        "monthlyCost": 400
+        "monthlyCost": 425
       },
       "utilities": {
-        "monthlyCost": 90
+        "monthlyCost": 100
       },
       "lifestyle": "A spacious house in Yanuncay or El Vergel with a garden and mountain views gives you a comfortable suburban base. You eat at international and local restaurants freely, carry comprehensive private insurance, and rent a car for weekend trips to the coast or Inca ruins at Ingapirca. Spanish classes help you integrate, and this budget provides significant margin in a city where costs are genuinely low."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Luxury 4-bedroom house in Challuabamba or a renovated colonial home in El Centro with courtyard and modern finishes",
-        "monthlyCost": 1800
+        "monthlyCost": 1225
       },
       "dining": {
         "description": "Fine dining at Cuenca's best restaurants weekly, private cooking classes, curated wine dinners",
-        "monthlyCost": 1000
+        "monthlyCost": 675
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 325
       },
       "healthcare": {
         "description": "Premium private insurance, top specialists, annual executive health screening, dental implants at a fraction of US cost",
-        "monthlyCost": 350
+        "monthlyCost": 225
       },
       "transportation": {
         "description": "Owned or leased SUV for mountain excursions, regular taxi use, domestic flights to Quito and the Galápagos",
-        "monthlyCost": 400
+        "monthlyCost": 275
       },
       "entertainment": {
         "description": "Country club membership, guided Galápagos trips, artisan workshop sponsorship, weekend hacienda stays",
-        "monthlyCost": 900
+        "monthlyCost": 600
       },
       "utilities": {
-        "monthlyCost": 130
+        "monthlyCost": 75
       },
       "lifestyle": "A large house in Challuabamba or a renovated colonial home in El Centro with a courtyard puts you at the top of Cuenca's housing market. You dine at the city's best restaurants regularly, own an SUV for mountain excursions, and take domestic flights to the coast or Quito. Annual Galápagos trips are comfortably in budget. This is a genuinely affluent life in a city where $10,000 per month goes very far."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Stunning hacienda-style estate in the Cuenca countryside or the finest restored colonial mansion in El Centro with rooftop terrace",
-        "monthlyCost": 3000
+        "monthlyCost": 1425
       },
       "dining": {
         "description": "Private chef preparing Ecuadorian and international cuisine, exclusive hosted dinners, imported ingredients",
-        "monthlyCost": 1800
+        "monthlyCost": 850
       },
       "groceries": {
-        "monthlyCost": 650
+        "monthlyCost": 300
       },
       "healthcare": {
         "description": "Top-tier private insurance with international coverage, fly-to-Miami option for major procedures, personal physician",
-        "monthlyCost": 500
+        "monthlyCost": 225
       },
       "transportation": {
         "description": "Luxury SUV with part-time driver, domestic flights, private transfers to Guayaquil airport",
-        "monthlyCost": 700
+        "monthlyCost": 325
       },
       "entertainment": {
         "description": "Annual Galápagos yacht charter, private cloud forest excursions, art collecting, cultural festival VIP access",
-        "monthlyCost": 1500
+        "monthlyCost": 700
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 100
       },
       "domesticHelp": {
         "description": "Full-time live-in housekeeper/cook, part-time gardener, weekly laundry service",
-        "monthlyCost": 600
+        "monthlyCost": 275
       },
       "luxuryExtras": {
         "description": "Galápagos property rental, bespoke Panama hat commissions in nearby towns, charitable projects supporting local artisans",
-        "monthlyCost": 1500
+        "monthlyCost": 700
       },
       "lifestyle": "A hacienda-style estate in the countryside or a top-end colonial mansion in El Centro provides generous space with Andean views. A housekeeper and cook manage the household, a part-time driver handles transportation, and you eat at the city's best restaurants without hesitation. Galápagos trips, cloud forest retreats, and business class flights for international travel are all comfortably covered. This budget far exceeds Cuenca's cost ceiling."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Grand estate with multiple structures, gardens, and panoramic Andean views, plus a beach property on the Ecuadorian coast",
-        "monthlyCost": 6000
+        "monthlyCost": 1775
       },
       "dining": {
         "description": "Private chef team, rare ingredient sourcing, legendary dinner parties, wine cellar curation with South American and European bottles",
-        "monthlyCost": 3200
+        "monthlyCost": 950
       },
       "groceries": {
-        "monthlyCost": 900
+        "monthlyCost": 275
       },
       "healthcare": {
         "description": "Global concierge medicine, dedicated medical team, annual US or European health retreats, longevity programs",
-        "monthlyCost": 800
+        "monthlyCost": 225
       },
       "transportation": {
         "description": "Luxury vehicle collection, full-time chauffeur, private flights to Quito and Guayaquil, international first-class travel",
-        "monthlyCost": 2500
+        "monthlyCost": 725
       },
       "entertainment": {
         "description": "Philanthropic foundations supporting Ecuadorian arts and education, private Galápagos expeditions, international travel, art patronage",
-        "monthlyCost": 3500
+        "monthlyCost": 1025
       },
       "utilities": {
-        "monthlyCost": 400
+        "monthlyCost": 125
       },
       "domesticHelp": {
         "description": "Full household staff: chef, two housekeepers, gardener, driver, groundskeeper, personal assistant",
-        "monthlyCost": 2200
+        "monthlyCost": 650
       },
       "luxuryExtras": {
         "description": "Coastal vacation home management, cacao plantation investment, Galápagos conservation sponsorship, bespoke cultural tours of Ecuador",
-        "monthlyCost": 4800
+        "monthlyCost": 1400
       },
       "lifestyle": "A grand estate with Andean views plus a coastal property on the Pacific gives you two distinct bases. A cook, housekeepers, and groundskeeping staff maintain both properties. You fly first class internationally, take private Galápagos expeditions, and dine without any budget constraints. This budget is well beyond what Cuenca can absorb in spending — substantial margin flows to savings, travel, or philanthropic involvement in Ecuador's arts and conservation."
     }

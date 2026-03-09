@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR apartment in Soho or El Perchel, walkable to the historic center and beach",
-        "monthlyCost": 950
+        "monthlyCost": 1375
       },
       "dining": {
         "description": "Tapas bars and chiringuitos (beach bars) 3-4x/week; espetos de sardinas on the beach",
-        "monthlyCost": 300
+        "monthlyCost": 425
       },
       "groceries": {
-        "monthlyCost": 300
+        "monthlyCost": 425
       },
       "healthcare": {
         "description": "Spanish public healthcare (with residency) or affordable private insurance",
-        "monthlyCost": 200
+        "monthlyCost": 300
       },
       "transportation": {
         "description": "Walking and bus in compact city center; excellent public transit",
-        "monthlyCost": 50
+        "monthlyCost": 75
       },
       "entertainment": {
         "description": "Beach days, Picasso Museum, free flamenco, tapas crawls, Malagueta beach volleyball",
-        "monthlyCost": 150
+        "monthlyCost": 225
       },
       "utilities": {
-        "monthlyCost": 120
+        "monthlyCost": 175
       },
       "lifestyle": "A 1-bedroom in Soho or El Perchel, walkable to the historic center and beach. Eating out at tapas bars and chiringuitos a few times a week, cooking at home otherwise. Getting around on foot and by bus in the compact center. Spanish public healthcare if you qualify, or affordable private insurance. The year-round sunshine and cheap tapas culture make this budget stretch comfortably, though dining and travel require some planning."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Modern 2BR apartment in the historic center, Pedregalejo, or El Palo with sea views",
-        "monthlyCost": 1500
+        "monthlyCost": 1900
       },
       "dining": {
         "description": "Regular dining at top tapas bars, seafood restaurants on the paseo, and Michelin-recommended spots",
-        "monthlyCost": 550
+        "monthlyCost": 700
       },
       "groceries": {
-        "monthlyCost": 400
+        "monthlyCost": 500
       },
       "healthcare": {
         "description": "Premium private insurance with Quirónsalud and Vithas hospital access",
-        "monthlyCost": 250
+        "monthlyCost": 325
       },
       "transportation": {
         "description": "Own car for coastal drives to Nerja, Marbella, and the white villages",
-        "monthlyCost": 150
+        "monthlyCost": 200
       },
       "entertainment": {
         "description": "Flamenco shows, Semana Santa festivals, sailing, gym, day trips to Granada and Ronda",
-        "monthlyCost": 300
+        "monthlyCost": 375
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 200
       },
       "lifestyle": "A modern 2-bedroom in Pedregalejo or El Palo with sea views. Dining out regularly at good tapas bars and seafood restaurants along the paseo. A car for weekend drives to Nerja, Ronda, or Granada. Premium private health insurance with hospital access at Quironsalud. Flamenco shows, sailing, and gym membership. Malaga is affordable enough that this budget covers a comfortable, active life without daily cost concerns."
     },
@@ -88,18 +88,18 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Luxury 3BR penthouse in the historic center or beachfront apartment in El Limonar",
-        "monthlyCost": 2800
+        "monthlyCost": 2700
       },
       "dining": {
         "description": "Occasional fine dining at José Carlos García, regular El Pimpi VIP, and rooftop restaurants",
-        "monthlyCost": 800
+        "monthlyCost": 775
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 475
       },
       "healthcare": {
         "description": "International health insurance with EU-wide coverage and private hospital access",
-        "monthlyCost": 350
+        "monthlyCost": 325
       },
       "transportation": {
         "description": "Own car, AVE high-speed train to Madrid, budget flights across Europe",
@@ -107,7 +107,7 @@
       },
       "entertainment": {
         "description": "Premium golf on the Costa del Sol, sailing, exclusive cultural events, European weekend trips",
-        "monthlyCost": 500
+        "monthlyCost": 475
       },
       "utilities": {
         "monthlyCost": 200
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Grand villa in El Candado or luxury penthouse with panoramic sea and mountain views",
-        "monthlyCost": 4500
+        "monthlyCost": 3325
       },
       "dining": {
         "description": "Private chef plus fine dining across the Costa del Sol; exclusive wine experiences",
-        "monthlyCost": 1200
+        "monthlyCost": 900
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "VIP concierge medical with access to top Spanish and European hospitals",
-        "monthlyCost": 450
+        "monthlyCost": 325
       },
       "transportation": {
         "description": "Luxury vehicle, first-class AVE to Madrid, flights across Europe",
-        "monthlyCost": 400
+        "monthlyCost": 300
       },
       "entertainment": {
         "description": "Premium golf memberships, yacht club, exclusive Andalusian experiences, European cultural tours",
-        "monthlyCost": 700
+        "monthlyCost": 525
       },
       "utilities": {
-        "monthlyCost": 280
+        "monthlyCost": 200
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, part-time cook, gardener, pool maintenance",
-        "monthlyCost": 800
+        "monthlyCost": 600
       },
       "luxuryExtras": {
         "description": "Mediterranean yacht charters, first-class European travel, Andalusian finca weekends, art collecting",
-        "monthlyCost": 2000
+        "monthlyCost": 1475
       },
       "lifestyle": "A villa in El Candado or a luxury penthouse with sea and mountain views. Regular dining at the best restaurants on the Costa del Sol, a housekeeper and part-time cook, and business class for longer flights. A luxury car, premium golf memberships, and VIP private healthcare. Malaga's affordability means this budget provides an upper-affluent life with very few constraints and significant room for travel across Europe."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Grand beachfront estate or historic finca with modernized luxury in the Málaga hills",
-        "monthlyCost": 8000
+        "monthlyCost": 4275
       },
       "dining": {
         "description": "Personal chef team, exclusive dining events, private wine cellar with sommelier",
-        "monthlyCost": 2500
+        "monthlyCost": 1325
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 425
       },
       "healthcare": {
         "description": "Elite European health plan, personal physician, executive wellness program",
-        "monthlyCost": 700
+        "monthlyCost": 375
       },
       "transportation": {
         "description": "Multiple luxury vehicles, chauffeur, yacht, private European flights",
-        "monthlyCost": 1500
+        "monthlyCost": 800
       },
       "entertainment": {
         "description": "Yacht Mediterranean cruises, exclusive golf, art patronage, flamenco and cultural sponsorship",
-        "monthlyCost": 2000
+        "monthlyCost": 1075
       },
       "utilities": {
-        "monthlyCost": 400
+        "monthlyCost": 225
       },
       "domesticHelp": {
         "description": "Full estate staff: chef, butler, housekeepers, groundskeepers, pool team, driver, personal assistant",
-        "monthlyCost": 2500
+        "monthlyCost": 1325
       },
       "luxuryExtras": {
         "description": "Yacht ownership, Andalusian cortijo estate, first-class global travel, art collection, philanthropic foundation",
-        "monthlyCost": 5000
+        "monthlyCost": 2675
       },
       "lifestyle": "A grand beachfront estate or a modernized historic finca in the Malaga hills. A cook several times a week, a full-time housekeeper, and full private healthcare. Business class as default, first class for longer trips. A nice car and driver when needed. Malaga is affordable enough that this budget far exceeds what the city can realistically absorb -- you will likely need a second property or significant travel spending to use it."
     }

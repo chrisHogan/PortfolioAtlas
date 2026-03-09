@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Bright 1-bedroom apartment in Ruzafa or Benimaclet, walkable bohemian neighborhoods with local character",
-        "monthlyCost": 800
+        "monthlyCost": 1250
       },
       "dining": {
         "description": "Menu del día lunches for 10-12 euros, tapas evenings, horchata and fartons at a neighborhood horchatería",
-        "monthlyCost": 450
+        "monthlyCost": 700
       },
       "groceries": {
-        "monthlyCost": 300
+        "monthlyCost": 475
       },
       "healthcare": {
         "description": "Public healthcare enrollment plus basic private insurance for faster specialist access",
-        "monthlyCost": 150
+        "monthlyCost": 225
       },
       "transportation": {
         "description": "Valenbisi bike-share membership and monthly metro/bus pass for citywide coverage",
-        "monthlyCost": 50
+        "monthlyCost": 75
       },
       "entertainment": {
         "description": "Beach days at Malvarrosa, free Turia park cycling, local fallas celebrations, museum visits",
-        "monthlyCost": 200
+        "monthlyCost": 300
       },
       "utilities": {
-        "monthlyCost": 120
+        "monthlyCost": 175
       },
       "lifestyle": "A bright 1-bedroom in Ruzafa or Benimaclet, both walkable neighborhoods with local character. Menu del dia lunches and tapas evenings keep dining costs low. Getting around by Valenbisi bike-share and metro. Public healthcare with a basic private supplement. Valencia is one of Spain's most affordable major cities, so this budget covers a comfortable baseline with room for regular cheap meals out and beach days at Malvarrosa."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Spacious 2-bedroom apartment in Eixample or El Carmen with balcony and renovated interiors",
-        "monthlyCost": 1300
+        "monthlyCost": 1650
       },
       "dining": {
         "description": "Regular dining at Ruzafa's acclaimed restaurants, weekend paella at beachside chiringuitos, wine bar evenings",
-        "monthlyCost": 800
+        "monthlyCost": 1000
       },
       "groceries": {
-        "monthlyCost": 450
+        "monthlyCost": 550
       },
       "healthcare": {
         "description": "Comprehensive private insurance covering Hospital La Fe and top clinics, dental included",
-        "monthlyCost": 250
+        "monthlyCost": 300
       },
       "transportation": {
         "description": "Monthly transit pass, Valenbisi, occasional taxi rides, weekend car rental for Albufera trips",
-        "monthlyCost": 120
+        "monthlyCost": 150
       },
       "entertainment": {
         "description": "Oceanogràfic visits, sailing lessons at the marina, La Liga matches at Mestalla, weekend trips to Albufera",
-        "monthlyCost": 500
+        "monthlyCost": 625
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 175
       },
       "lifestyle": "A spacious 2-bedroom in Eixample or El Carmen with a balcony. Dining out at good restaurants several times a week, with weekend paella at beachside spots. Comprehensive private health insurance and a car rental on weekends for trips to the Albufera wetlands or nearby coast. Valencia CF matches at Mestalla and sailing lessons at the marina. Valencia's affordability means this budget delivers a genuinely comfortable life with little day-to-day worry about costs."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Elegant 3-bedroom apartment in Gran Via or a renovated loft near the Central Market with terrace views",
-        "monthlyCost": 2200
+        "monthlyCost": 1975
       },
       "dining": {
         "description": "Fine dining at Ricard Camarena and Riff, private paella masterclasses, curated Valencian wine experiences",
-        "monthlyCost": 1500
+        "monthlyCost": 1325
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 525
       },
       "healthcare": {
         "description": "Premium private insurance with international coverage, executive health screenings, wellness programs",
-        "monthlyCost": 380
+        "monthlyCost": 325
       },
       "transportation": {
         "description": "Leased car for countryside excursions, metro pass, regular taxi rides across the city",
-        "monthlyCost": 350
+        "monthlyCost": 300
       },
       "entertainment": {
         "description": "Marina sailing club membership, VIP Fallas festival experiences, concert season tickets at Palau de les Arts",
-        "monthlyCost": 1000
+        "monthlyCost": 875
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 175
       },
       "lifestyle": "An elegant apartment near the Central Market or Gran Via with a terrace and views. Regular dining at top restaurants including places like Ricard Camarena, a leased car for countryside excursions, and premium private healthcare. Sailing club membership at the marina and season tickets at Palau de les Arts. Valencia is affordable enough that this budget delivers a genuinely affluent life with regular travel and no real constraints on daily spending."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury penthouse near the City of Arts & Sciences or a restored historic mansion in El Carmen with rooftop terrace",
-        "monthlyCost": 3800
+        "monthlyCost": 2500
       },
       "dining": {
         "description": "Private chef preparing Valencian and international cuisine, regular Michelin dining, curated wine cellar management",
-        "monthlyCost": 2500
+        "monthlyCost": 1675
       },
       "groceries": {
-        "monthlyCost": 750
+        "monthlyCost": 500
       },
       "healthcare": {
         "description": "International VIP health coverage, personal physician, longevity and wellness programs at top clinics",
-        "monthlyCost": 550
+        "monthlyCost": 375
       },
       "transportation": {
         "description": "Luxury vehicle lease, occasional private driver, weekend drives to the Costa Blanca",
-        "monthlyCost": 700
+        "monthlyCost": 475
       },
       "entertainment": {
         "description": "Private yacht moored at La Marina, art collecting in Ruzafa galleries, VIP season box at Mestalla, exclusive club memberships",
-        "monthlyCost": 1800
+        "monthlyCost": 1200
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 200
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, weekly deep cleaning, personal assistant for daily logistics",
-        "monthlyCost": 1200
+        "monthlyCost": 800
       },
       "luxuryExtras": {
         "description": "Personal trainer, private Spanish tutors, bespoke tailoring, premium coworking space, yacht marina fees",
-        "monthlyCost": 1600
+        "monthlyCost": 1075
       },
       "lifestyle": "A luxury penthouse near the City of Arts and Sciences or a restored historic home in El Carmen with a rooftop terrace. Regular dining at the city's best restaurants, a housekeeper several times a week, and business class for longer flights. A luxury car for coastal drives and premium private healthcare. Valencia's low costs mean this budget goes very far -- daily life is upper-affluent with significant room for travel and entertainment."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Grand historic estate in the old town or ultra-modern waterfront penthouse with panoramic views from port to mountains",
-        "monthlyCost": 7500
+        "monthlyCost": 3425
       },
       "dining": {
         "description": "Full-time private chef team, rare wine acquisitions, legendary hosted dinner parties, guest chef residencies from Madrid and Barcelona",
-        "monthlyCost": 4500
+        "monthlyCost": 2025
       },
       "groceries": {
-        "monthlyCost": 1100
+        "monthlyCost": 500
       },
       "healthcare": {
         "description": "Global concierge medicine, dedicated medical team, fly-anywhere coverage, biohacking and longevity protocols",
-        "monthlyCost": 1000
+        "monthlyCost": 450
       },
       "transportation": {
         "description": "Chauffeured luxury fleet, private jet access for European getaways, superyacht berthing at La Marina",
-        "monthlyCost": 2800
+        "monthlyCost": 1275
       },
       "entertainment": {
         "description": "Art patronage and gallery curation, private island retreats in the Balearics, cultural festival sponsorship, VIP global experiences",
-        "monthlyCost": 4000
+        "monthlyCost": 1800
       },
       "utilities": {
-        "monthlyCost": 500
+        "monthlyCost": 225
       },
       "domesticHelp": {
         "description": "Full household staff: butler, chef team, housekeepers, personal assistant, property manager, gardener",
-        "monthlyCost": 4000
+        "monthlyCost": 1800
       },
       "luxuryExtras": {
         "description": "Costa Blanca vacation villa management, charitable foundation, bespoke Mediterranean yacht itineraries, art collection curation, personal brand consulting",
-        "monthlyCost": 5000
+        "monthlyCost": 2250
       },
       "lifestyle": "A grand historic property in the old town or an ultra-modern waterfront penthouse with panoramic views. A cook several times a week, a full-time housekeeper, and full private healthcare. Business class as default, first class for longer trips. Regular fine dining and a nice car with driver when needed. Valencia is one of the most affordable cities on this list, so this budget exceeds what the city can realistically absorb -- you will likely find it hard to spend this much here without a second property."
     }

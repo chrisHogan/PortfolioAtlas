@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Furnished 1BR apartment in Laureles or Envigado with mountain views",
-        "monthlyCost": 550
+        "monthlyCost": 775
       },
       "dining": {
         "description": "Menu del día lunches ($3-4), local restaurants, arepa stands, and weekend brunch",
-        "monthlyCost": 380
+        "monthlyCost": 550
       },
       "groceries": {
-        "monthlyCost": 250
+        "monthlyCost": 375
       },
       "healthcare": {
         "description": "EPS public insurance enrollment plus supplemental prepagada plan",
-        "monthlyCost": 120
+        "monthlyCost": 175
       },
       "transportation": {
         "description": "Metro system, integrated bus network, and occasional taxi or InDriver rides",
-        "monthlyCost": 80
+        "monthlyCost": 125
       },
       "entertainment": {
         "description": "Parque Arví hikes, free cultural events, salsa clubs, local brewery scene",
-        "monthlyCost": 200
+        "monthlyCost": 300
       },
       "utilities": {
-        "monthlyCost": 70
+        "monthlyCost": 100
       },
       "lifestyle": "A furnished one-bedroom in Laureles or Envigado puts you in a walkable neighborhood with mountain views and affordable daily life. Menu del día lunches run a few dollars, the Metro covers most of the city, and weekend hikes to Parque Arví are practically free. The budget is comfortable here with room to spare, though you are cooking at home regularly and keeping entertainment simple."
     },
@@ -58,11 +58,11 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Modern 2BR apartment in El Poblado or upscale Laureles with pool, gym, and security",
-        "monthlyCost": 1100
+        "monthlyCost": 1150
       },
       "dining": {
         "description": "Regular meals at El Poblado's international restaurants, craft cocktail bars, and coffee tours",
-        "monthlyCost": 750
+        "monthlyCost": 775
       },
       "groceries": {
         "monthlyCost": 400
@@ -73,7 +73,7 @@
       },
       "transportation": {
         "description": "Frequent taxi and rideshare use, weekend car rentals for trips to Guatapé or Jardín",
-        "monthlyCost": 180
+        "monthlyCost": 175
       },
       "entertainment": {
         "description": "Gym membership, Spanish classes, weekend finca trips, concerts, and coffee farm tours",
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Luxury 3BR penthouse in El Poblado's Golden Mile with panoramic valley views and concierge",
-        "monthlyCost": 2200
+        "monthlyCost": 1550
       },
       "dining": {
         "description": "Fine dining at Carmen, El Cielo, and OCI weekly; daily restaurant meals without hesitation",
-        "monthlyCost": 1200
+        "monthlyCost": 850
       },
       "groceries": {
-        "monthlyCost": 550
+        "monthlyCost": 400
       },
       "healthcare": {
         "description": "Top-tier prepagada, dental implant work, annual wellness retreats in Santa Marta",
-        "monthlyCost": 400
+        "monthlyCost": 275
       },
       "transportation": {
         "description": "Personal driver, premium rideshares, domestic flights to Cartagena and Bogotá",
-        "monthlyCost": 450
+        "monthlyCost": 325
       },
       "entertainment": {
         "description": "Country club membership, paragliding, VIP events at Colombiamoda, adventure travel",
-        "monthlyCost": 1000
+        "monthlyCost": 700
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 100
       },
       "lifestyle": "A large penthouse in El Poblado with valley views, a personal trainer, and top-tier health insurance set the daily baseline. You eat at restaurants like Carmen and El Cielo regularly, take domestic flights to Cartagena or Bogotá for long weekends, and have a driver or premium rideshare for daily errands. This budget goes very far in Medellín — you live well above most locals and many expats."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Ultra-luxury penthouse in El Tesoro area or sprawling finca-style home in Envigado hills with private pool",
-        "monthlyCost": 3800
+        "monthlyCost": 1950
       },
       "dining": {
         "description": "Unlimited fine dining, private chef experiences, wine pairing dinners, culinary tours",
-        "monthlyCost": 2000
+        "monthlyCost": 1025
       },
       "groceries": {
-        "monthlyCost": 700
+        "monthlyCost": 350
       },
       "healthcare": {
         "description": "Platinum healthcare with US-standard specialists, medical concierge, cosmetic procedures",
-        "monthlyCost": 550
+        "monthlyCost": 275
       },
       "transportation": {
         "description": "Full-time driver with SUV, domestic flights, helicopter tours to coffee country",
-        "monthlyCost": 1000
+        "monthlyCost": 525
       },
       "entertainment": {
         "description": "Exclusive club memberships, adventure sports, art collecting, Feria de las Flores VIP access",
-        "monthlyCost": 1500
+        "monthlyCost": 775
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 100
       },
       "domesticHelp": {
         "description": "Full-time live-in housekeeper, cook, and part-time gardener for your property",
-        "monthlyCost": 900
+        "monthlyCost": 475
       },
       "luxuryExtras": {
         "description": "Weekend finca in coffee region, private salsa instructor, bespoke Colombian emerald jewelry",
-        "monthlyCost": 1800
+        "monthlyCost": 925
       },
       "lifestyle": "A large home in the Envigado hills or a top-end El Poblado penthouse with a pool provides generous living space. A housekeeper comes several days a week, you have a driver, and dining at the city's best restaurants is routine. Business class flights for international travel and regular weekend trips to a rented finca in coffee country are comfortably within budget."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Estate property in the hills of El Retiro or Las Palmas with multiple structures, pool, and 360° mountain views",
-        "monthlyCost": 7000
+        "monthlyCost": 2500
       },
       "dining": {
         "description": "Private chef daily, exclusive supper clubs, regional culinary expeditions, imported wines",
-        "monthlyCost": 3500
+        "monthlyCost": 1225
       },
       "groceries": {
-        "monthlyCost": 1000
+        "monthlyCost": 350
       },
       "healthcare": {
         "description": "Global concierge healthcare, annual US checkups, longevity medicine, personal wellness team",
-        "monthlyCost": 1000
+        "monthlyCost": 350
       },
       "transportation": {
         "description": "Luxury vehicle fleet with full-time chauffeur, private flights, yacht charters in Cartagena",
-        "monthlyCost": 2800
+        "monthlyCost": 975
       },
       "entertainment": {
         "description": "Philanthropic foundations, art patronage, exclusive social clubs, adventure expeditions to the Amazon",
-        "monthlyCost": 3500
+        "monthlyCost": 1225
       },
       "utilities": {
-        "monthlyCost": 350
+        "monthlyCost": 125
       },
       "domesticHelp": {
         "description": "Complete household staff: chef, two housekeepers, driver, groundskeeper, personal assistant, security",
-        "monthlyCost": 2800
+        "monthlyCost": 975
       },
       "luxuryExtras": {
         "description": "Multiple properties (Cartagena beach house, coffee finca, city penthouse), emerald mine investment, polo club",
-        "monthlyCost": 5500
+        "monthlyCost": 1925
       },
       "lifestyle": "A hilltop estate in El Retiro or Las Palmas with panoramic mountain views, a cook who prepares daily meals, a housekeeper, and a driver define daily life. You dine at the best restaurants freely, fly business class internationally, and travel domestically to Cartagena or the coffee region on a whim. This budget far exceeds what Medellín requires for a top-tier life — significant margin goes to savings, travel, or charitable involvement in the local community."
     }

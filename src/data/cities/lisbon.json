@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Modern 1-bedroom apartment in Arroios or Benfica, away from tourist center but well-connected by metro",
-        "monthlyCost": 1100
+        "monthlyCost": 1575
       },
       "dining": {
         "description": "Local tascas and cafes for most meals, occasional splurge at a mid-range restaurant. Daily pastel de nata and espresso ritual.",
-        "monthlyCost": 450
+        "monthlyCost": 625
       },
       "groceries": {
-        "monthlyCost": 300
+        "monthlyCost": 425
       },
       "healthcare": {
         "description": "Public SNS healthcare plus basic private insurance supplement for faster specialist access",
-        "monthlyCost": 150
+        "monthlyCost": 200
       },
       "transportation": {
         "description": "Monthly Navegante pass covering metro, bus, tram, and train across greater Lisbon",
-        "monthlyCost": 45
+        "monthlyCost": 75
       },
       "entertainment": {
         "description": "Free miradouro sunsets, neighborhood fado nights, museum visits on free Sundays, beach trips to Cascais",
-        "monthlyCost": 200
+        "monthlyCost": 275
       },
       "utilities": {
-        "monthlyCost": 120
+        "monthlyCost": 175
       },
       "lifestyle": "A clean 1-bedroom in a residential neighborhood like Arroios, well-connected by metro to the center. Cooking most meals at home with affordable produce from local markets, eating out at tascas a couple of times a week. Getting around on the Navegante transit pass. Public healthcare with a basic private supplement. Comfortable and livable, though dining out and travel require planning around the budget."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Spacious 2-bedroom apartment in Principe Real or Santos with river views and updated kitchen",
-        "monthlyCost": 1800
+        "monthlyCost": 2025
       },
       "dining": {
         "description": "Regular dining at Lisbon's celebrated restaurants, weekend brunches in Chiado, wine tastings in Bairro Alto",
-        "monthlyCost": 900
+        "monthlyCost": 1000
       },
       "groceries": {
-        "monthlyCost": 450
+        "monthlyCost": 500
       },
       "healthcare": {
         "description": "Comprehensive private health insurance with top-tier hospitals like CUF Descobertas, dental included",
-        "monthlyCost": 250
+        "monthlyCost": 275
       },
       "transportation": {
         "description": "Navegante pass plus occasional Bolt rides and weekend car rentals for Sintra and Alentejo trips",
-        "monthlyCost": 150
+        "monthlyCost": 175
       },
       "entertainment": {
         "description": "Surf lessons in Ericeira, cultural memberships, live music at Musicbox, regular Benfica or Sporting matches",
-        "monthlyCost": 500
+        "monthlyCost": 550
       },
       "utilities": {
-        "monthlyCost": 160
+        "monthlyCost": 175
       },
       "lifestyle": "A spacious 2-bedroom in a desirable area like Principe Real or Santos. Dining out several times a week at good restaurants, with weekend trips to Sintra or the coast by rental car. Comprehensive private health insurance at a hospital like CUF Descobertas. Day-to-day life is easy and you don't need to think much about everyday costs, though Lisbon's rising prices mean this isn't limitless."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Premium 3-bedroom apartment in Chiado or a renovated townhouse in Estrela with terrace and parking",
-        "monthlyCost": 2800
+        "monthlyCost": 2375
       },
       "dining": {
         "description": "Fine dining at Michelin-starred venues like Belcanto, private wine dinners, chef's table experiences across the city",
-        "monthlyCost": 1500
+        "monthlyCost": 1250
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 500
       },
       "healthcare": {
         "description": "Premium private insurance with international coverage, concierge medicine, annual executive health checks",
-        "monthlyCost": 400
+        "monthlyCost": 325
       },
       "transportation": {
         "description": "Leased mid-range car plus Navegante pass, regular Bolt Premium rides",
-        "monthlyCost": 400
+        "monthlyCost": 325
       },
       "entertainment": {
         "description": "Golf at Oitavos Dunes, sailing on the Tagus, VIP concert tickets, weekend getaways to the Azores or Madeira",
-        "monthlyCost": 1000
+        "monthlyCost": 850
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 175
       },
       "lifestyle": "A large apartment in Chiado or a renovated townhouse in Estrela with a terrace. Dining at good restaurants regularly, including occasional Michelin-starred meals at places like Belcanto. A leased car for weekend drives and regional flights to the Azores or Madeira a few times a year. Premium private healthcare with international coverage. Genuinely affluent living in a city where this budget goes far."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury penthouse in Avenida da Liberdade or historic palacete in Lapa with panoramic Tagus river views",
-        "monthlyCost": 4500
+        "monthlyCost": 3000
       },
       "dining": {
         "description": "Personal chef for weekly dinner parties, Michelin tasting menus as routine, curated Portuguese wine collection",
-        "monthlyCost": 2500
+        "monthlyCost": 1650
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 525
       },
       "healthcare": {
         "description": "International premium insurance, dedicated private physician, wellness retreats, specialized treatments",
-        "monthlyCost": 600
+        "monthlyCost": 400
       },
       "transportation": {
         "description": "Leased luxury vehicle (BMW/Mercedes), private transfers, occasional helicopter to Algarve",
-        "monthlyCost": 800
+        "monthlyCost": 525
       },
       "entertainment": {
         "description": "Private yacht charters, exclusive golf memberships, box seats at cultural events, art collecting",
-        "monthlyCost": 1800
+        "monthlyCost": 1200
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 200
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, weekly deep cleaning, laundry and ironing service",
-        "monthlyCost": 1200
+        "monthlyCost": 800
       },
       "luxuryExtras": {
         "description": "Personal trainer, private Portuguese tutor, annual wardrobe refresh, premium co-working membership at Second Home",
-        "monthlyCost": 1500
+        "monthlyCost": 1000
       },
       "lifestyle": "A large penthouse on Avenida da Liberdade or a historic apartment in Lapa with panoramic river views. Regular dining at the city's best restaurants, business class for longer flights, and a cleaner several times a week. A leased BMW or Mercedes for weekend drives to the Algarve. Premium private healthcare and a personal trainer. High-quality daily life with real comfort, and Lisbon's costs mean this budget stretches further than in most Western European capitals."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Restored historic mansion in Lapa or ultra-luxury duplex penthouse on Avenida da Liberdade with concierge services",
-        "monthlyCost": 8000
+        "monthlyCost": 3750
       },
       "dining": {
         "description": "Full-time private chef, curated wine cellar, exclusive supper club memberships, flying in ingredients from across Europe",
-        "monthlyCost": 4500
+        "monthlyCost": 2100
       },
       "groceries": {
-        "monthlyCost": 1200
+        "monthlyCost": 575
       },
       "healthcare": {
         "description": "Global concierge medicine, dedicated wellness team, fly-anywhere-for-treatment coverage, anti-aging protocols",
-        "monthlyCost": 1200
+        "monthlyCost": 575
       },
       "transportation": {
         "description": "Chauffeured luxury vehicle, private jet charter for European hops, vintage car collection",
-        "monthlyCost": 2500
+        "monthlyCost": 1175
       },
       "entertainment": {
         "description": "Philanthropic engagements, art patronage, private island retreats in Azores, front-row at Lisbon Fashion Week",
-        "monthlyCost": 4000
+        "monthlyCost": 1875
       },
       "utilities": {
-        "monthlyCost": 500
+        "monthlyCost": 225
       },
       "domesticHelp": {
         "description": "Full household staff: housekeeper, cook, gardener, personal assistant, and estate manager",
-        "monthlyCost": 4000
+        "monthlyCost": 1875
       },
       "luxuryExtras": {
         "description": "Interior designer on retainer, bespoke tailoring, private art curation, charitable foundation management, vintage port collection",
-        "monthlyCost": 5000
+        "monthlyCost": 2350
       },
       "lifestyle": "A restored historic mansion in Lapa or an ultra-luxury penthouse on Avenida da Liberdade with concierge services. Regular fine dining, a cook a few times a week, and full private healthcare with no wait times. A housekeeper, business class travel as default, and first class for longer trips. A nice car and driver when needed. You never think about money day-to-day, though at this level in Lisbon you're near the ceiling of what the city offers in terms of premium services."
     }

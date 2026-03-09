@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR apartment in Midtown, Sam Hughes, or a casita near the University",
-        "monthlyCost": 1000
+        "monthlyCost": 1325
       },
       "dining": {
         "description": "Sonoran hot dogs, taquerias, and casual dining 2-3x/week",
-        "monthlyCost": 220
+        "monthlyCost": 300
       },
       "groceries": {
-        "monthlyCost": 350
+        "monthlyCost": 475
       },
       "healthcare": {
         "description": "ACA marketplace Silver plan; Arizona premiums are moderate",
-        "monthlyCost": 480
+        "monthlyCost": 650
       },
       "transportation": {
         "description": "Paid-off car with basic insurance; car is essential in Tucson's spread-out layout",
-        "monthlyCost": 250
+        "monthlyCost": 325
       },
       "entertainment": {
         "description": "Hiking Sabino Canyon and Saguaro National Park, free desert trails, community events",
-        "monthlyCost": 80
+        "monthlyCost": 100
       },
       "utilities": {
-        "monthlyCost": 160
+        "monthlyCost": 225
       },
       "lifestyle": "A one-bedroom casita near Midtown or Sam Hughes, cooking at home most nights supplemented by cheap and excellent taquerias, and a paid-off car. Tucson's low rents make this one of the more comfortable $1M cities in the US. Sabino Canyon and Saguaro National Park provide free outdoor recreation year-round. The main budget watch is summer A/C -- electricity bills spike from June through September -- but the rest of the year is utility-light."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "2BR home in the Catalina Foothills or a nice place in Sam Hughes with character",
-        "monthlyCost": 1700
+        "monthlyCost": 1975
       },
       "dining": {
         "description": "Regular dining at Tucson's UNESCO-recognized food scene; upscale Southwestern cuisine",
-        "monthlyCost": 500
+        "monthlyCost": 575
       },
       "groceries": {
-        "monthlyCost": 420
+        "monthlyCost": 500
       },
       "healthcare": {
         "description": "ACA Gold plan with dental and vision; comfortable coverage",
-        "monthlyCost": 580
+        "monthlyCost": 675
       },
       "transportation": {
         "description": "Reliable car, full coverage insurance, gas for desert road trips",
-        "monthlyCost": 380
+        "monthlyCost": 450
       },
       "entertainment": {
         "description": "Desert Museum membership, horseback riding, stargazing tours, pool access, gym",
-        "monthlyCost": 250
+        "monthlyCost": 300
       },
       "utilities": {
-        "monthlyCost": 190
+        "monthlyCost": 225
       },
       "lifestyle": "A two-bedroom home in the Catalina Foothills or a place with character in Sam Hughes, dining out several times a week at Tucson's UNESCO-recognized food scene, and a reliable car for desert road trips. You can afford a Desert Museum membership, horseback riding, and a good health plan. Weekends might include drives up Mount Lemmon or trips to Kartchner Caverns. The dry heat is real in summer, but A/C and pool access make it manageable."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "3BR home with pool in the Catalina Foothills or Oro Valley with mountain views",
-        "monthlyCost": 2800
+        "monthlyCost": 2650
       },
       "dining": {
         "description": "Fine dining at top restaurants, private wine tastings, weekly date nights",
-        "monthlyCost": 800
+        "monthlyCost": 750
       },
       "groceries": {
-        "monthlyCost": 550
+        "monthlyCost": 525
       },
       "healthcare": {
         "description": "Premium private insurance with comprehensive coverage and wellness programs",
-        "monthlyCost": 700
+        "monthlyCost": 650
       },
       "transportation": {
         "description": "Late-model SUV, premium insurance, road trips to Sedona and the Grand Canyon",
-        "monthlyCost": 500
+        "monthlyCost": 475
       },
       "entertainment": {
         "description": "Country club or resort membership, golf, spa treatments, art gallery openings",
-        "monthlyCost": 500
+        "monthlyCost": 475
       },
       "utilities": {
-        "monthlyCost": 280
+        "monthlyCost": 275
       },
       "lifestyle": "A three-bedroom home with a pool in the Catalina Foothills or Oro Valley, regular fine dining at Tucson's best restaurants, and a late-model SUV. Premium health insurance, a resort or country club membership, and regular road trips to Sedona and the Grand Canyon are all within budget. Tucson's low costs mean $10K a month goes far here -- you live comfortably in a desirable area with real room for travel and hobbies."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury desert estate in the Foothills or a custom hacienda in Tanque Verde Valley",
-        "monthlyCost": 5000
+        "monthlyCost": 3750
       },
       "dining": {
         "description": "Private chef, exclusive dining experiences, catered desert dinner parties",
-        "monthlyCost": 1300
+        "monthlyCost": 975
       },
       "groceries": {
-        "monthlyCost": 700
+        "monthlyCost": 525
       },
       "healthcare": {
         "description": "Concierge medicine, executive wellness, comprehensive private insurance",
-        "monthlyCost": 900
+        "monthlyCost": 675
       },
       "transportation": {
         "description": "Luxury SUV, second vehicle, occasional flights to Phoenix or LA",
-        "monthlyCost": 800
+        "monthlyCost": 600
       },
       "entertainment": {
         "description": "Premium resort memberships, private desert tours, art collecting, Tucson Gem Show VIP",
-        "monthlyCost": 800
+        "monthlyCost": 600
       },
       "utilities": {
-        "monthlyCost": 350
+        "monthlyCost": 275
       },
       "domesticHelp": {
         "description": "Pool service, weekly house cleaning, landscaping, handyman on call",
-        "monthlyCost": 700
+        "monthlyCost": 525
       },
       "luxuryExtras": {
         "description": "Quarterly travel, spa retreats, Western art collecting, ranch experiences",
-        "monthlyCost": 1500
+        "monthlyCost": 1125
       },
       "lifestyle": "A large desert estate in the Foothills or Tanque Verde Valley with a pool, a housekeeper who comes several times a week, and concierge medical coverage. You dine at the city's best restaurants regularly, drive a nice SUV, and fly business class for longer trips. A resort membership, regular travel, and art collecting from Tucson's galleries are all within budget. Arizona's low taxes let you keep more of each withdrawal."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Sprawling desert compound with guest house, or multiple properties including a ranch",
-        "monthlyCost": 9000
+        "monthlyCost": 4450
       },
       "dining": {
         "description": "Full-time personal chef, exclusive wine cellar, catered events and galas",
-        "monthlyCost": 2500
+        "monthlyCost": 1250
       },
       "groceries": {
-        "monthlyCost": 900
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "Top concierge practice, Mayo Clinic access in Scottsdale, full wellness team",
-        "monthlyCost": 1300
+        "monthlyCost": 650
       },
       "transportation": {
         "description": "Multiple luxury vehicles, private car service, chartered flights",
-        "monthlyCost": 1500
+        "monthlyCost": 750
       },
       "entertainment": {
         "description": "Art patronage, private desert retreats, international travel, museum board involvement",
-        "monthlyCost": 2200
+        "monthlyCost": 1100
       },
       "utilities": {
-        "monthlyCost": 500
+        "monthlyCost": 250
       },
       "domesticHelp": {
         "description": "Full-time estate staff including housekeeper, groundskeeper, personal assistant",
-        "monthlyCost": 4500
+        "monthlyCost": 2250
       },
       "luxuryExtras": {
         "description": "Ranch property, first-class international travel, art collection, philanthropy, horse stables",
-        "monthlyCost": 5500
+        "monthlyCost": 2750
       },
       "lifestyle": "A large desert property with guest house and mountain views, a cook who comes in several times a week, full-time domestic help, and top-tier concierge healthcare with access to the Mayo Clinic in Scottsdale. You travel first class, keep multiple vehicles, and dine out without thinking about the bill. Tucson's low cost of living means this budget creates enormous margin -- enough for a second property, regular charitable giving to conservation and arts organizations, and travel throughout the year."
     }

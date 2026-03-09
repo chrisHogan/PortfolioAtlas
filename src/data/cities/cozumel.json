@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "2BR apartment or small house in town near the main plaza",
-        "monthlyCost": 700
+        "monthlyCost": 975
       },
       "dining": {
         "description": "Tacos, ceviche, and cochinita pibil at local fondas 4-5x/week; seafood aplenty",
-        "monthlyCost": 250
+        "monthlyCost": 325
       },
       "groceries": {
-        "monthlyCost": 300
+        "monthlyCost": 400
       },
       "healthcare": {
         "description": "Mexican private health insurance (IMSS or private); hospital on island plus Cancun for specialists",
-        "monthlyCost": 200
+        "monthlyCost": 275
       },
       "transportation": {
         "description": "Scooter or bicycle for island life; occasional taxi",
-        "monthlyCost": 80
+        "monthlyCost": 100
       },
       "entertainment": {
         "description": "Snorkeling, beach days, sunset pier walks, dive club social nights, local festivals",
-        "monthlyCost": 150
+        "monthlyCost": 200
       },
       "utilities": {
-        "monthlyCost": 100
+        "monthlyCost": 125
       },
       "lifestyle": "A two-bedroom apartment or small house in town near the main plaza keeps costs low on this small island. Fresh seafood at local fondas is cheap, a scooter or bicycle handles most transportation, and snorkeling on the reef is practically free. The expat community is welcoming and the pace is slow. Hurricane season from June to November requires planning, and specialist medical care means a ferry trip to the mainland or a flight to Cancún."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Nice 2BR condo with ocean views or small house with pool on the quieter side of the island",
-        "monthlyCost": 1300
+        "monthlyCost": 1475
       },
       "dining": {
         "description": "Mix of local restaurants, beachfront dining, and the island's best seafood spots",
-        "monthlyCost": 450
+        "monthlyCost": 525
       },
       "groceries": {
-        "monthlyCost": 400
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "Premium Mexican private insurance with access to Cancun's excellent hospitals",
-        "monthlyCost": 250
+        "monthlyCost": 275
       },
       "transportation": {
         "description": "Own car or golf cart (island standard); ferry to Playa del Carmen for variety",
-        "monthlyCost": 150
+        "monthlyCost": 175
       },
       "entertainment": {
         "description": "Unlimited diving packages, fishing charters, Mayan ruin day trips, regular Playa del Carmen visits",
-        "monthlyCost": 300
+        "monthlyCost": 350
       },
       "utilities": {
-        "monthlyCost": 130
+        "monthlyCost": 150
       },
       "lifestyle": "A nice condo with ocean views or a small house with a pool on the quieter side of the island gives you a comfortable base. You own a car or golf cart, dine at the island's best seafood restaurants several times a week, and carry premium health insurance with access to Cancún's hospitals. Unlimited diving packages on the Mesoamerican reef and regular ferry trips to Playa del Carmen for variety are easily in budget. The island is small — you will know most of the expat community."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Beachfront 3BR villa with pool or luxury condo in a resort-style complex",
-        "monthlyCost": 2500
+        "monthlyCost": 2050
       },
       "dining": {
         "description": "Fine dining at Kinta, Buccanos, and beachfront restaurants; regular entertaining",
-        "monthlyCost": 700
+        "monthlyCost": 575
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 425
       },
       "healthcare": {
         "description": "International health insurance with medical evacuation coverage to Houston or Miami",
-        "monthlyCost": 400
+        "monthlyCost": 325
       },
       "transportation": {
         "description": "Own car, boat slip rental, ferry passes, occasional flights to Cancun or Mexico City",
-        "monthlyCost": 300
+        "monthlyCost": 250
       },
       "entertainment": {
         "description": "Own boat for diving and fishing, golf, Mayan archaeological tours, mainland Mexico travel",
-        "monthlyCost": 500
+        "monthlyCost": 425
       },
       "utilities": {
-        "monthlyCost": 180
+        "monthlyCost": 150
       },
       "lifestyle": "A beachfront villa with a pool or a condo in a resort-style complex puts you at the top of the island's housing market. You own a car and a small boat for reef diving and fishing, dine at Kinta and Buccanos regularly, and carry international health insurance. This budget provides substantial margin on a Mexican island — the extra goes to mainland Mexico travel, savings, or flights off-island. The tradeoff is limited dining and cultural options compared to a larger city."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Oceanfront estate with private dock and pool, or luxury compound on the east side",
-        "monthlyCost": 4000
+        "monthlyCost": 2525
       },
       "dining": {
         "description": "Private chef for daily meals, fine dining island-wide, catered events at home",
-        "monthlyCost": 1000
+        "monthlyCost": 625
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 375
       },
       "healthcare": {
         "description": "VIP concierge medical covering Mexico, US, and international hospitals",
-        "monthlyCost": 500
+        "monthlyCost": 300
       },
       "transportation": {
         "description": "Own boat, car, flights to mainland; occasional private charters",
-        "monthlyCost": 500
+        "monthlyCost": 300
       },
       "entertainment": {
         "description": "Private dive expeditions, deep-sea fishing, yacht charters, archaeological tours, international travel",
-        "monthlyCost": 700
+        "monthlyCost": 425
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 150
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, cook, gardener, and boat maintenance crew",
-        "monthlyCost": 600
+        "monthlyCost": 375
       },
       "luxuryExtras": {
         "description": "Yacht charters, first-class international travel, Yucatan property investments, philanthropy",
-        "monthlyCost": 1800
+        "monthlyCost": 1125
       },
       "lifestyle": "An oceanfront estate with a private dock and pool provides a large home by island standards. A housekeeper and cook manage the household, you own a boat for reef diving and fishing, and you dine at the island's restaurants freely. Business class flights handle international travel. This budget significantly exceeds what Cozumel can absorb in spending — the island is small with limited luxury infrastructure, so substantial margin goes to off-island travel and savings."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Grand beachfront compound with guest houses, private dock, and oceanfront pool",
-        "monthlyCost": 6000
+        "monthlyCost": 2775
       },
       "dining": {
         "description": "Personal chef team, exclusive catered events, private dining experiences flown in from mainland",
-        "monthlyCost": 2000
+        "monthlyCost": 925
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 375
       },
       "healthcare": {
         "description": "Elite international health plan, personal physician visits, executive wellness at Houston Medical Center",
-        "monthlyCost": 800
+        "monthlyCost": 375
       },
       "transportation": {
         "description": "Luxury yacht, multiple vehicles, private flights between Cozumel, Cancun, and Mexico City",
-        "monthlyCost": 1500
+        "monthlyCost": 700
       },
       "entertainment": {
         "description": "Yacht cruises through Caribbean, deep-sea sport fishing, global luxury travel, marine conservation patronage",
-        "monthlyCost": 2000
+        "monthlyCost": 925
       },
       "utilities": {
-        "monthlyCost": 350
+        "monthlyCost": 150
       },
       "domesticHelp": {
         "description": "Full estate staff: chef, butler, housekeepers, groundskeepers, boat crew, security, personal assistant",
-        "monthlyCost": 1500
+        "monthlyCost": 700
       },
       "luxuryExtras": {
         "description": "Yacht ownership, island property portfolio, marine conservation funding, first-class global travel",
-        "monthlyCost": 5000
+        "monthlyCost": 2325
       },
       "lifestyle": "A large beachfront compound with guest houses, a dock, and full household staff — cook, housekeepers, and groundskeepers — anchors island life. You own a boat, fly first class internationally, and dine without constraints. Realistically, this budget far exceeds what a small Mexican island can absorb. Most people at this level use Cozumel as one base among several, spending significant time traveling or maintaining properties elsewhere."
     }

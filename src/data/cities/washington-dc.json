@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Studio or 1BR in Columbia Heights, Petworth, or across the river in Arlington",
-        "monthlyCost": 1750
+        "monthlyCost": 2875
       },
       "dining": {
         "description": "Ethnic food in Adams Morgan and H Street 2-3x/week; cooking at home most nights",
-        "monthlyCost": 250
+        "monthlyCost": 400
       },
       "groceries": {
-        "monthlyCost": 400
+        "monthlyCost": 650
       },
       "healthcare": {
         "description": "ACA Silver plan through DC Health Link; DC has a strong marketplace",
-        "monthlyCost": 500
+        "monthlyCost": 825
       },
       "transportation": {
         "description": "Metro monthly pass; DC is very walkable and bikeable in most neighborhoods",
-        "monthlyCost": 130
+        "monthlyCost": 225
       },
       "entertainment": {
         "description": "Free Smithsonian museums, National Mall walks, free concerts at the Kennedy Center Millennium Stage",
-        "monthlyCost": 80
+        "monthlyCost": 125
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 250
       },
       "lifestyle": "A studio or small one-bedroom in Columbia Heights, Petworth, or across the river in Arlington. Housing takes up more than half the budget, but the Metro eliminates car costs and the Smithsonian museums are entirely free. You eat affordable Ethiopian and Salvadoran food in Adams Morgan and Mount Pleasant, and cook most meals at home. D.C. has its own income tax, which tightens an already constrained budget."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "1BR or 2BR in Dupont Circle, Capitol Hill, or U Street Corridor",
-        "monthlyCost": 2600
+        "monthlyCost": 3725
       },
       "dining": {
         "description": "Dining out 3-4x/week across DC's incredible international restaurant scene",
-        "monthlyCost": 600
+        "monthlyCost": 875
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 725
       },
       "healthcare": {
         "description": "DC Health Link Gold plan with dental and vision; GW and Georgetown hospital access",
-        "monthlyCost": 600
+        "monthlyCost": 875
       },
       "transportation": {
         "description": "Metro pass plus occasional Uber; bike share membership for spring and fall",
-        "monthlyCost": 200
+        "monthlyCost": 300
       },
       "entertainment": {
         "description": "Kennedy Center performances, museum exhibit openings, gym, weekend trips to Shenandoah",
-        "monthlyCost": 350
+        "monthlyCost": 500
       },
       "utilities": {
-        "monthlyCost": 180
+        "monthlyCost": 250
       },
       "lifestyle": "You can afford a one- or two-bedroom apartment in Dupont Circle, Capitol Hill, or the U Street Corridor -- walkable, vibrant neighborhoods. You eat out several times a week across D.C.'s diverse international restaurant scene, attend Kennedy Center performances, and take weekend hikes in Shenandoah. The free Smithsonian museums remain a major asset. Bike-share works well in spring and fall for getting around the compact city center."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "2BR in Georgetown, a Capitol Hill rowhouse, or a Kalorama condo",
-        "monthlyCost": 3800
+        "monthlyCost": 4675
       },
       "dining": {
         "description": "Regular dining at top restaurants like Roses Luxury, Pineapple and Pearls, Fiola",
-        "monthlyCost": 900
+        "monthlyCost": 1100
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 725
       },
       "healthcare": {
         "description": "Premium private insurance with access to Johns Hopkins (nearby), GW, and Georgetown",
-        "monthlyCost": 750
+        "monthlyCost": 925
       },
       "transportation": {
         "description": "Metro pass, frequent rideshare, occasional weekend car rental for Virginia wine country",
-        "monthlyCost": 300
+        "monthlyCost": 375
       },
       "entertainment": {
         "description": "Kennedy Center patron, Nationals season tickets, premium gym, art gallery openings",
-        "monthlyCost": 550
+        "monthlyCost": 675
       },
       "utilities": {
-        "monthlyCost": 260
+        "monthlyCost": 325
       },
       "lifestyle": "A two-bedroom apartment in Georgetown, a Capitol Hill rowhouse, or a Kalorama condo. You dine regularly at top restaurants like Roses Luxury and Fiola, hold Nationals season tickets, and attend Kennedy Center performances. Weekend drives to Virginia wine country and the Chesapeake Bay are easy additions. At $10,000 a month, D.C. is comfortably affluent, with the added benefit of proximity to Johns Hopkins in nearby Baltimore for specialist healthcare."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury Georgetown townhouse, Kalorama mansion, or premium Waterfront penthouse",
-        "monthlyCost": 5500
+        "monthlyCost": 6075
       },
       "dining": {
         "description": "Fine dining multiple times per week, private chef for diplomatic-style dinner parties",
-        "monthlyCost": 1500
+        "monthlyCost": 1650
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 875
       },
       "healthcare": {
         "description": "Concierge medicine at GW or Sibley; Johns Hopkins specialist access",
-        "monthlyCost": 1050
+        "monthlyCost": 1150
       },
       "transportation": {
         "description": "Luxury vehicle for weekends, private car service for events, premium parking",
-        "monthlyCost": 800
+        "monthlyCost": 875
       },
       "entertainment": {
         "description": "Kennedy Center trustee events, Nationals box seats, private gallery viewings, exclusive galas",
-        "monthlyCost": 1000
+        "monthlyCost": 1100
       },
       "utilities": {
-        "monthlyCost": 380
+        "monthlyCost": 425
       },
       "domesticHelp": {
         "description": "Weekly deep cleaning, personal assistant, seasonal property maintenance",
-        "monthlyCost": 900
+        "monthlyCost": 1000
       },
       "luxuryExtras": {
         "description": "Quarterly international travel, art collecting, Virginia horse country weekends, philanthropy",
-        "monthlyCost": 1500
+        "monthlyCost": 1650
       },
       "lifestyle": "A large Georgetown townhouse or a luxury penthouse on the Waterfront. You have a housekeeper, dine at fine restaurants multiple times a week, and drive a nice car for weekends in Virginia horse country or the Chesapeake. Business class flights fit comfortably within the budget. Patron-level involvement at the Kennedy Center and National Gallery is feasible. D.C.'s social scene skews intellectual and policy-oriented, which suits some retirees well."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Historic Kalorama mansion, Georgetown estate, or Embassy Row landmark property",
-        "monthlyCost": 12000
+        "monthlyCost": 8875
       },
       "dining": {
         "description": "Personal chef, exclusive state-dinner-style events, rare wine collection dinners",
-        "monthlyCost": 3000
+        "monthlyCost": 2225
       },
       "groceries": {
-        "monthlyCost": 1200
+        "monthlyCost": 900
       },
       "healthcare": {
         "description": "Top-tier concierge at GW, Johns Hopkins VIP access, executive screenings",
-        "monthlyCost": 1500
+        "monthlyCost": 1100
       },
       "transportation": {
         "description": "Multiple luxury vehicles, private driver, Acela first-class to New York",
-        "monthlyCost": 1800
+        "monthlyCost": 1325
       },
       "entertainment": {
         "description": "Smithsonian board-level patronage, Kennedy Center galas, art collecting, international diplomacy events",
-        "monthlyCost": 2500
+        "monthlyCost": 1850
       },
       "utilities": {
-        "monthlyCost": 600
+        "monthlyCost": 450
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, personal assistant, estate manager, driver, seasonal staff",
-        "monthlyCost": 4500
+        "monthlyCost": 3325
       },
       "luxuryExtras": {
         "description": "First-class international travel, Virginia estate, Smithsonian endowments, charitable foundation",
-        "monthlyCost": 5000
+        "monthlyCost": 3700
       },
       "lifestyle": "A historic Kalorama mansion or a Georgetown estate. You have a full-time housekeeper, a personal assistant, and a cook who comes in several times a week. You dine wherever you want, travel first class, and support the Smithsonian and Kennedy Center as a major donor. A weekend property in Virginia is feasible. D.C. at this budget is comfortable, established wealth in a city where the cultural and intellectual offerings are deep."
     }

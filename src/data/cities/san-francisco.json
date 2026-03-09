@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Room in a shared house in the Sunset, Richmond, or Outer Mission",
-        "monthlyCost": 1600
+        "monthlyCost": 3425
       },
       "dining": {
         "description": "Burritos in the Mission, dim sum in the Richmond, and street food; mostly cooking at home",
-        "monthlyCost": 250
+        "monthlyCost": 550
       },
       "groceries": {
-        "monthlyCost": 450
+        "monthlyCost": 975
       },
       "healthcare": {
         "description": "Covered California Silver plan; premiums are high in the Bay Area market",
-        "monthlyCost": 580
+        "monthlyCost": 1250
       },
       "transportation": {
         "description": "Muni monthly pass, occasional BART trips, no car",
-        "monthlyCost": 120
+        "monthlyCost": 250
       },
       "entertainment": {
         "description": "Free hikes in Golden Gate Park and Lands End, museum free days, community events",
-        "monthlyCost": 80
+        "monthlyCost": 175
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 325
       },
       "lifestyle": "San Francisco on this budget is very constrained. You will likely need a roommate or a small room in the Sunset or Richmond. Dining out is limited to inexpensive spots in the Mission and Chinatown, and you cook most meals at home. The upside is that hiking the Presidio, walking the Golden Gate Bridge, and exploring Golden Gate Park are free, and Muni and BART eliminate the need for a car. California income tax makes an already tight budget tighter."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "1BR apartment in the Inner Sunset, Hayes Valley, or Noe Valley",
-        "monthlyCost": 2800
+        "monthlyCost": 4775
       },
       "dining": {
         "description": "Dining out 3-4x/week at mid-range restaurants in the Mission, Hayes Valley, and North Beach",
-        "monthlyCost": 650
+        "monthlyCost": 1125
       },
       "groceries": {
-        "monthlyCost": 550
+        "monthlyCost": 950
       },
       "healthcare": {
         "description": "Covered California Gold plan with dental and vision; access to UCSF Medical Center",
-        "monthlyCost": 680
+        "monthlyCost": 1175
       },
       "transportation": {
         "description": "Muni pass, BART, occasional Lyft; still car-free in the city",
-        "monthlyCost": 200
+        "monthlyCost": 350
       },
       "entertainment": {
         "description": "Weekend hikes at Muir Woods, gym membership, occasional Giants tickets, comedy shows",
-        "monthlyCost": 300
+        "monthlyCost": 525
       },
       "utilities": {
-        "monthlyCost": 180
+        "monthlyCost": 300
       },
       "lifestyle": "You can afford your own one-bedroom in a neighborhood like the Inner Sunset, Hayes Valley, or Noe Valley. You eat out three or four times a week at mid-range restaurants, take weekend trips to Muir Woods or Half Moon Bay, and have enough budget for a gym membership and occasional Giants tickets. Still car-free in the city, which saves money. California income tax is a meaningful expense at this level, but the daily quality of life is good."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "2BR apartment in Pacific Heights, Marina, or a condo in SoMa with bay views",
-        "monthlyCost": 4200
+        "monthlyCost": 5900
       },
       "dining": {
         "description": "Regular dining at top restaurants like State Bird Provisions, Zuni Cafe, and Tartine Manufactory",
-        "monthlyCost": 1000
+        "monthlyCost": 1400
       },
       "groceries": {
-        "monthlyCost": 650
+        "monthlyCost": 925
       },
       "healthcare": {
         "description": "Premium private health insurance with comprehensive coverage; UCSF and Stanford access",
-        "monthlyCost": 780
+        "monthlyCost": 1100
       },
       "transportation": {
         "description": "Car-share membership, Muni pass, regular Lyft use, occasional weekend car rental for wine country",
-        "monthlyCost": 400
+        "monthlyCost": 550
       },
       "entertainment": {
         "description": "SF Symphony, SFMOMA membership, sailing on the bay, premium gym, Napa day trips",
-        "monthlyCost": 550
+        "monthlyCost": 775
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 350
       },
       "lifestyle": "A spacious apartment in Pacific Heights or the Marina, with room for guests. You dine regularly at restaurants like State Bird Provisions and Zuni Cafe, take weekend drives to Napa and Sonoma, and hold memberships at SFMOMA and the SF Symphony. At $10,000 a month, the city feels genuinely comfortable rather than financially stressful. You can enjoy San Francisco's food and culture scene without constant budget calculations."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury 3BR in Pacific Heights, a Victorian in Noe Valley, or a penthouse in Russian Hill",
-        "monthlyCost": 6500
+        "monthlyCost": 8575
       },
       "dining": {
         "description": "Michelin-starred dining multiple nights per week at Quince, Atelier Crenn, and Lazy Bear",
-        "monthlyCost": 1800
+        "monthlyCost": 2350
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 1050
       },
       "healthcare": {
         "description": "Concierge medicine through UCSF or One Medical, executive health screenings, premium coverage",
-        "monthlyCost": 1000
+        "monthlyCost": 1300
       },
       "transportation": {
         "description": "Luxury vehicle with garage parking, premium insurance, regular wine country drives",
-        "monthlyCost": 900
+        "monthlyCost": 1175
       },
       "entertainment": {
         "description": "SF Opera patron, SFMOMA Circle membership, sailing club, exclusive wine dinners, Giants premium seats",
-        "monthlyCost": 1000
+        "monthlyCost": 1300
       },
       "utilities": {
-        "monthlyCost": 350
+        "monthlyCost": 450
       },
       "domesticHelp": {
         "description": "Weekly house cleaning, laundry service, personal assistant for errands and scheduling",
-        "monthlyCost": 900
+        "monthlyCost": 1175
       },
       "luxuryExtras": {
         "description": "Napa wine club memberships, quarterly travel, Tahoe ski weekends, spa retreats",
-        "monthlyCost": 1500
+        "monthlyCost": 1975
       },
       "lifestyle": "A large home in Pacific Heights or a renovated Victorian in Noe Valley. You eat at Michelin-starred restaurants multiple times a week, have a housekeeper, and drive a nice car for weekend trips to Napa or Tahoe. Patron-level memberships at the opera and museums are comfortable at this budget. California taxes take a real bite, but the day-to-day lifestyle is upper-affluent with easy access to some of the best food and wine regions in the world."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Pacific Heights mansion, Sea Cliff estate with ocean views, or a Telegraph Hill penthouse",
-        "monthlyCost": 12000
+        "monthlyCost": 11775
       },
       "dining": {
         "description": "Personal chef, private dining at the French Laundry and SingleThread, catered events at home",
-        "monthlyCost": 3500
+        "monthlyCost": 3425
       },
       "groceries": {
-        "monthlyCost": 1200
+        "monthlyCost": 1175
       },
       "healthcare": {
         "description": "Top concierge medical practice at UCSF, executive wellness programs, holistic health services",
-        "monthlyCost": 1500
+        "monthlyCost": 1475
       },
       "transportation": {
         "description": "Multiple luxury vehicles with dedicated garage, private car service, chartered flights from SFO",
-        "monthlyCost": 1800
+        "monthlyCost": 1775
       },
       "entertainment": {
         "description": "Private box at Oracle Park, SF Symphony board involvement, art collecting, international travel",
-        "monthlyCost": 2500
+        "monthlyCost": 2450
       },
       "utilities": {
         "monthlyCost": 500
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, personal assistant, driver, gardener and property maintenance crew",
-        "monthlyCost": 4500
+        "monthlyCost": 4425
       },
       "luxuryExtras": {
         "description": "Napa vineyard investment, first-class international travel, yacht on the bay, major philanthropy",
-        "monthlyCost": 5000
+        "monthlyCost": 4900
       },
       "lifestyle": "A large home in Pacific Heights or Sea Cliff with views of the bay or ocean. You have a full-time housekeeper, a cook who comes in several times a week, and a personal assistant. You dine at the city's best restaurants regularly, travel first class, and support arts and cultural institutions as a significant donor. Even after California taxes, the budget supports a genuinely wealthy lifestyle anchored by Northern California's natural beauty and food culture."
     }

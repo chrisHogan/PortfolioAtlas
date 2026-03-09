@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Furnished 1-bedroom condo with pool and gym in areas like Bangsar South, Mont Kiara fringe, or Cheras",
-        "monthlyCost": 500
+        "monthlyCost": 725
       },
       "dining": {
         "description": "Hawker centers and mamak stalls daily — roti canai, nasi lemak, char kway teow; occasional mall dining",
-        "monthlyCost": 400
+        "monthlyCost": 600
       },
       "groceries": {
-        "monthlyCost": 250
+        "monthlyCost": 375
       },
       "healthcare": {
         "description": "Basic private insurance with access to excellent private hospitals like Gleneagles and Prince Court",
-        "monthlyCost": 170
+        "monthlyCost": 250
       },
       "transportation": {
         "description": "LRT/MRT/Monorail monthly pass plus Grab rides",
-        "monthlyCost": 100
+        "monthlyCost": 150
       },
       "entertainment": {
         "description": "Mall culture, public parks, Batu Caves visits, local cinema, weekend trips to Cameron Highlands",
-        "monthlyCost": 200
+        "monthlyCost": 300
       },
       "utilities": {
-        "monthlyCost": 100
+        "monthlyCost": 150
       },
       "lifestyle": "A furnished 1-bedroom condo with pool and gym in an area like Bangsar South or Cheras. Eating mostly at hawker centers and mamak stalls — roti canai, nasi lemak, and char kway teow for a couple of dollars. Getting around on the LRT/MRT system with Grab rides. Basic private health insurance at good hospitals. English is widely spoken, which makes daily logistics straightforward. Comfortable, though dining out at Western restaurants and imported groceries will stretch the budget."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Spacious 2-bedroom condo in Mont Kiara, Bangsar, or KLCC area with premium facilities and city views",
-        "monthlyCost": 900
+        "monthlyCost": 975
       },
       "dining": {
         "description": "Diverse dining from Malay, Chinese, and Indian cuisines plus upscale restaurants and craft coffee scene",
-        "monthlyCost": 800
+        "monthlyCost": 875
       },
       "groceries": {
-        "monthlyCost": 400
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "Comprehensive private insurance covering inpatient and outpatient care at top-tier hospitals",
-        "monthlyCost": 280
+        "monthlyCost": 300
       },
       "transportation": {
         "description": "Regular Grab rides, occasional car rental for weekend trips to highlands or beaches",
-        "monthlyCost": 200
+        "monthlyCost": 225
       },
       "entertainment": {
         "description": "Premium gym, golf at affordable Malaysian courses, weekend trips to Langkawi or Penang, cultural events",
-        "monthlyCost": 550
+        "monthlyCost": 600
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 175
       },
       "lifestyle": "A spacious 2-bedroom condo in Mont Kiara, Bangsar, or the KLCC area with city views. Dining out regularly across Malay, Chinese, and Indian cuisines without watching the bill. Regular Grab rides and occasional car rental for weekend trips to the highlands or beaches. Good private health insurance with access to top hospitals. Cheap AirAsia flights to Langkawi or Penang for weekend getaways. Daily life is easy and you rarely think about costs."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Luxury 3-bedroom condo in KLCC with Petronas Twin Towers views, or a spacious semi-detached house in Bangsar or Damansara Heights",
-        "monthlyCost": 1600
+        "monthlyCost": 1250
       },
       "dining": {
         "description": "Fine dining at restaurants like Dewakan and DC by Darren Chin; hotel high teas; regular omakase and tasting menus",
-        "monthlyCost": 1400
+        "monthlyCost": 1125
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 475
       },
       "healthcare": {
         "description": "Premium international insurance with VIP hospital access; comprehensive annual health screenings",
-        "monthlyCost": 400
+        "monthlyCost": 325
       },
       "transportation": {
         "description": "Leased car for daily use, Grab for nights out, domestic flights for weekend getaways",
-        "monthlyCost": 400
+        "monthlyCost": 325
       },
       "entertainment": {
         "description": "Country club membership, premium spa treatments, weekend resort stays at Genting Highlands, arts and theater scene",
-        "monthlyCost": 1000
+        "monthlyCost": 800
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 200
       },
       "lifestyle": "A large condo in KLCC with Petronas Twin Towers views, or a semi-detached house in Bangsar or Damansara Heights. Regular dining at KL's best restaurants like Dewakan and DC by Darren Chin. A leased car for daily use and weekend road trips to Cameron Highlands or Malacca. Premium international health insurance with comprehensive annual screenings. This is a genuinely affluent lifestyle in a city where costs are moderate."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury bungalow in Damansara Heights or Kenny Hills with private garden and pool, or a penthouse in KLCC's most prestigious tower",
-        "monthlyCost": 3000
+        "monthlyCost": 1775
       },
       "dining": {
         "description": "Private chef for weekday meals; exclusive restaurant dining and private supper clubs on weekends",
-        "monthlyCost": 2200
+        "monthlyCost": 1275
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 475
       },
       "healthcare": {
         "description": "Top-tier global insurance with Prince Court Medical Centre VIP access; quarterly executive health checks",
-        "monthlyCost": 600
+        "monthlyCost": 350
       },
       "transportation": {
         "description": "Luxury sedan owned or leased, part-time driver, regular domestic flights, occasional trips to Singapore",
-        "monthlyCost": 700
+        "monthlyCost": 400
       },
       "entertainment": {
         "description": "Royal Selangor Golf Club, art collecting at KL galleries, luxury resort weekends, frequent travel across Malaysia and the region",
-        "monthlyCost": 1800
+        "monthlyCost": 1050
       },
       "utilities": {
-        "monthlyCost": 350
+        "monthlyCost": 200
       },
       "domesticHelp": {
         "description": "Full-time live-in maid, part-time cook, gardener for the property",
-        "monthlyCost": 700
+        "monthlyCost": 400
       },
       "luxuryExtras": {
         "description": "Bespoke tailoring, premium wine and whisky collections, luxury hotel staycations at the Four Seasons and Mandarin Oriental, private event hosting",
-        "monthlyCost": 1600
+        "monthlyCost": 925
       },
       "lifestyle": "A large bungalow with private garden and pool in Damansara Heights or Kenny Hills, or a penthouse in KLCC's best tower. A full-time housekeeper, a part-time cook, and a luxury car with a part-time driver. Regular dining at KL's top restaurants, golf at good Malaysian courses, and business class flights to Singapore and around the region. Premium healthcare with VIP hospital access. This budget goes very far in KL."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Grand colonial bungalow in Kenny Hills or ultra-luxury penthouse in The Four Seasons Place; optional holiday home in Langkawi or Cameron Highlands",
-        "monthlyCost": 5500
+        "monthlyCost": 2175
       },
       "dining": {
         "description": "Private chef team, imported ingredients, exclusive dining experiences, hosting lavish dinner parties with personal sommelier",
-        "monthlyCost": 4000
+        "monthlyCost": 1575
       },
       "groceries": {
-        "monthlyCost": 1300
+        "monthlyCost": 525
       },
       "healthcare": {
         "description": "Concierge-level healthcare with 24/7 specialist access; annual executive screenings at top regional hospitals; global medevac",
-        "monthlyCost": 1000
+        "monthlyCost": 400
       },
       "transportation": {
         "description": "Luxury vehicle collection, full-time chauffeur, first-class flights regionally, private jet charters for special trips",
-        "monthlyCost": 2000
+        "monthlyCost": 800
       },
       "entertainment": {
         "description": "Elite memberships, philanthropic galas, art patronage, international luxury travel, private island retreats",
-        "monthlyCost": 4000
+        "monthlyCost": 1575
       },
       "utilities": {
-        "monthlyCost": 600
+        "monthlyCost": 250
       },
       "domesticHelp": {
         "description": "Full household staff including chef, butler, housekeeper, driver, gardener, and security",
-        "monthlyCost": 2200
+        "monthlyCost": 875
       },
       "luxuryExtras": {
         "description": "Private art collection curation, bespoke travel experiences, investment in Malaysian property portfolio, charitable foundations, exclusive club memberships",
-        "monthlyCost": 5500
+        "monthlyCost": 2175
       },
       "lifestyle": "A grand bungalow in Kenny Hills or a premium penthouse, with the option of a holiday home in Langkawi or Cameron Highlands. A housekeeper, a cook a few times a week, a driver, and a gardener. First-class flights regionally and business class for longer international trips. Concierge-level healthcare with 24/7 specialist access. Regular fine dining and travel as routine. This far exceeds what KL demands for a top-tier life — you live at the highest level the city offers with substantial room to spare."
     }

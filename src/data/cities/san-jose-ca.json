@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Shared housing or a studio apartment in East San Jose or outer neighborhoods",
-        "monthlyCost": 1800
+        "monthlyCost": 3175
       },
       "dining": {
         "description": "Cheap pho, tacos, and ethnic eateries 2x/week; cooking at home is essential",
-        "monthlyCost": 200
+        "monthlyCost": 350
       },
       "groceries": {
-        "monthlyCost": 420
+        "monthlyCost": 750
       },
       "healthcare": {
         "description": "ACA marketplace Silver plan through Covered California",
-        "monthlyCost": 480
+        "monthlyCost": 850
       },
       "transportation": {
         "description": "Older paid-off car with insurance, gas; VTA light rail when possible",
-        "monthlyCost": 280
+        "monthlyCost": 500
       },
       "entertainment": {
         "description": "Free parks and trails, Alum Rock Park hikes, community events",
-        "monthlyCost": 50
+        "monthlyCost": 100
       },
       "utilities": {
-        "monthlyCost": 100
+        "monthlyCost": 175
       },
       "lifestyle": "This budget is very difficult in San Jose. A shared housing situation or a studio in East San Jose takes over half the monthly income, and California state income tax further reduces what is available. You cook at home almost every night and keep entertainment to free activities like hiking Alum Rock Park. The weather is beautiful and utilities are low, but there is little financial margin here."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "1BR apartment in Campbell, Willow Glen, or central San Jose",
-        "monthlyCost": 2800
+        "monthlyCost": 4275
       },
       "dining": {
         "description": "Regular dining at San Jose's diverse restaurant scene; Vietnamese, Mexican, Japanese",
-        "monthlyCost": 500
+        "monthlyCost": 775
       },
       "groceries": {
-        "monthlyCost": 520
+        "monthlyCost": 800
       },
       "healthcare": {
         "description": "ACA Gold plan with dental and vision through Covered California",
-        "monthlyCost": 580
+        "monthlyCost": 875
       },
       "transportation": {
         "description": "Reliable car with full coverage insurance, occasional Caltrain to SF",
-        "monthlyCost": 400
+        "monthlyCost": 600
       },
       "entertainment": {
         "description": "SAP Center events, Sharks games, hiking in the Santa Cruz Mountains, wine tasting",
-        "monthlyCost": 250
+        "monthlyCost": 375
       },
       "utilities": {
-        "monthlyCost": 130
+        "monthlyCost": 200
       },
       "lifestyle": "A one-bedroom apartment in Campbell or Willow Glen, regular dining at the diverse Vietnamese, Mexican, and Japanese restaurants, and weekend trips to Santa Cruz or wine country. A reliable car and good health insurance are covered. It works, but California income tax takes a meaningful bite and there is not much room for extras beyond the basics."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "2BR condo in Willow Glen, Santana Row area, or a small house in Cambrian",
-        "monthlyCost": 3800
+        "monthlyCost": 5025
       },
       "dining": {
         "description": "Regular dining at top South Bay restaurants, Santana Row spots, Japantown izakayas",
-        "monthlyCost": 800
+        "monthlyCost": 1075
       },
       "groceries": {
-        "monthlyCost": 650
+        "monthlyCost": 875
       },
       "healthcare": {
         "description": "Premium private insurance with Stanford Health or El Camino Health access",
-        "monthlyCost": 700
+        "monthlyCost": 925
       },
       "transportation": {
         "description": "Late-model car, premium insurance, occasional rideshare and Caltrain",
-        "monthlyCost": 500
+        "monthlyCost": 675
       },
       "entertainment": {
         "description": "Sharks season tickets, performing arts, hiking gear, wine club memberships, beach trips",
-        "monthlyCost": 500
+        "monthlyCost": 675
       },
       "utilities": {
-        "monthlyCost": 180
+        "monthlyCost": 250
       },
       "lifestyle": "A two-bedroom condo in Willow Glen or the Santana Row area, regular dining at the South Bay's diverse restaurants and Japantown izakayas, and Sharks season tickets. Weekend drives to Big Sur, Napa, or Tahoe are routine. This is roughly the minimum budget for a genuinely comfortable Silicon Valley life, though California taxes still take a noticeable share."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "3BR house in Los Gatos, Almaden Valley, or Saratoga foothills",
-        "monthlyCost": 5500
+        "monthlyCost": 6800
       },
       "dining": {
         "description": "Fine dining in Los Gatos and Palo Alto, private chef occasionally, wine dinners in Napa",
-        "monthlyCost": 1500
+        "monthlyCost": 1875
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 1000
       },
       "healthcare": {
         "description": "Concierge medicine through Stanford Health executive program",
-        "monthlyCost": 1000
+        "monthlyCost": 1250
       },
       "transportation": {
         "description": "Luxury EV (Tesla, Rivian), premium insurance, occasional rideshare",
-        "monthlyCost": 800
+        "monthlyCost": 1000
       },
       "entertainment": {
         "description": "Premium Sharks and 49ers tickets, private wine tours, golf memberships, cultural events",
-        "monthlyCost": 900
+        "monthlyCost": 1125
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 300
       },
       "domesticHelp": {
         "description": "Bi-weekly house cleaning, landscaping, occasional personal assistant",
-        "monthlyCost": 900
+        "monthlyCost": 1125
       },
       "luxuryExtras": {
         "description": "Napa wine weekends, quarterly luxury travel, tech conference attendance, philanthropy",
-        "monthlyCost": 1500
+        "monthlyCost": 1875
       },
       "lifestyle": "A three-bedroom house in Los Gatos, Almaden Valley, or the Saratoga foothills, concierge healthcare through Stanford, and a cleaner who comes every couple of weeks. Fine dining in Los Gatos and Palo Alto, premium sports tickets, and Napa wine weekends fit the budget. A luxury EV and business class travel for longer trips are comfortable. California taxes reduce the net, but at this level the Bay Area lifestyle is genuinely enjoyable."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Luxury estate in Saratoga, Los Gatos hills, or a modern mansion in Silver Creek",
-        "monthlyCost": 12000
+        "monthlyCost": 10025
       },
       "dining": {
         "description": "Personal chef, exclusive dining at Manresa and Plumed Horse, catered events",
-        "monthlyCost": 3000
+        "monthlyCost": 2500
       },
       "groceries": {
-        "monthlyCost": 1200
+        "monthlyCost": 1000
       },
       "healthcare": {
         "description": "Top-tier Stanford concierge medicine, executive wellness, holistic care",
-        "monthlyCost": 1500
+        "monthlyCost": 1250
       },
       "transportation": {
         "description": "Multiple luxury EVs, private car service, occasional charter flights",
-        "monthlyCost": 1800
+        "monthlyCost": 1500
       },
       "entertainment": {
         "description": "Private suite at Levi's Stadium, art collecting, VC event circuit, international first-class travel",
-        "monthlyCost": 2500
+        "monthlyCost": 2075
       },
       "utilities": {
-        "monthlyCost": 400
+        "monthlyCost": 325
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, personal assistant, gardener, property management",
-        "monthlyCost": 4500
+        "monthlyCost": 3750
       },
       "luxuryExtras": {
         "description": "Napa vineyard membership, first-class international travel, angel investing, major philanthropy",
-        "monthlyCost": 5000
+        "monthlyCost": 4175
       },
       "lifestyle": "A large home in the Saratoga or Los Gatos hills, full-time domestic help including a housekeeper and personal assistant, and a cook who comes in several times a week. Stanford concierge medicine, first-class travel, and fine dining at Manresa or Plumed Horse whenever you like. California's high income tax takes a significant share at this withdrawal level, which means the effective lifestyle is less lavish than the same budget in a no-income-tax state. Still, the weather, food, and Bay Area access are hard to replicate elsewhere."
     }

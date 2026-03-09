@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Charming 1-bedroom apartment in Old Tbilisi or Vera neighborhood with traditional wooden balcony, walking distance to sulfur baths",
-        "monthlyCost": 450
+        "monthlyCost": 650
       },
       "dining": {
         "description": "Daily khinkali and khachapuri at local restaurants, hearty Georgian feasts, incredible natural wine at neighborhood wine bars",
-        "monthlyCost": 350
+        "monthlyCost": 500
       },
       "groceries": {
-        "monthlyCost": 200
+        "monthlyCost": 275
       },
       "healthcare": {
         "description": "Private insurance covering Tbilisi's modern clinics including Aversi and MediClub at remarkably low premiums",
-        "monthlyCost": 100
+        "monthlyCost": 150
       },
       "transportation": {
         "description": "Tbilisi metro and bus pass, Bolt rides across the city for under $2, cable car to Narikala fortress",
-        "monthlyCost": 50
+        "monthlyCost": 75
       },
       "entertainment": {
         "description": "Sulfur bath sessions in Abanotubani, wine tastings on Lado Asatiani Street, hiking in the Tbilisi National Park, live polyphonic singing",
-        "monthlyCost": 180
+        "monthlyCost": 250
       },
       "utilities": {
-        "monthlyCost": 70
+        "monthlyCost": 100
       },
       "lifestyle": "Tbilisi is one of the cheapest cities in this calculator. A one-bedroom in Old Tbilisi or Vera is very affordable, leaving ample room for daily restaurant meals, regular sulfur bath visits, and an active social life around the natural wine bars. Georgian food — khinkali, khachapuri — is filling and cheap. The tradeoffs are real: healthcare infrastructure is developing, English is limited outside younger circles, and the city's infrastructure can feel rough compared to Western Europe."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Spacious 2-bedroom renovated apartment in Vake or Mtatsminda with high ceilings, balcony, and city views toward the Caucasus",
-        "monthlyCost": 800
+        "monthlyCost": 900
       },
       "dining": {
         "description": "Regular dining at Tbilisi's best restaurants like Shavi Lomi and Barbarestan, natural wine bar circuit, weekend supra feasts with friends",
-        "monthlyCost": 600
+        "monthlyCost": 700
       },
       "groceries": {
-        "monthlyCost": 300
+        "monthlyCost": 350
       },
       "healthcare": {
         "description": "Comprehensive private insurance covering top Georgian hospitals, dental, international evacuation coverage if needed",
-        "monthlyCost": 170
+        "monthlyCost": 200
       },
       "transportation": {
         "description": "Transit pass plus regular Bolt rides, weekend car rentals for Kakheti wine country and mountain excursions",
-        "monthlyCost": 120
+        "monthlyCost": 150
       },
       "entertainment": {
         "description": "Tbilisi Opera and Ballet performances, weekend trips to Kazbegi and Kakheti, premium sulfur bath packages, underground techno scene, art gallery crawls",
-        "monthlyCost": 400
+        "monthlyCost": 475
       },
       "utilities": {
-        "monthlyCost": 100
+        "monthlyCost": 125
       },
       "lifestyle": "A spacious apartment in Vake or Mtatsminda with balcony and mountain views. Regular dining at well-regarded restaurants like Shavi Lomi and Barbarestan, weekend trips to Kakheti wine country or Kazbegi, and good private health insurance. The opera, natural wine bars, and a growing international expat scene provide a full social calendar. The cost of living is so low that this budget creates a very large savings buffer."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Premium 3-bedroom apartment in Vake or luxury renovated townhouse in Old Tbilisi with courtyard, rooftop terrace, and mountain views",
-        "monthlyCost": 1500
+        "monthlyCost": 1175
       },
       "dining": {
         "description": "Fine dining at Georgia's best restaurants, private supra feasts with tamada, curated qvevri wine collection, chef's table experiences",
-        "monthlyCost": 1100
+        "monthlyCost": 875
       },
       "groceries": {
-        "monthlyCost": 450
+        "monthlyCost": 350
       },
       "healthcare": {
         "description": "Premium private insurance with international coverage, executive health checks, wellness programs at Tbilisi's top medical centers",
-        "monthlyCost": 280
+        "monthlyCost": 225
       },
       "transportation": {
         "description": "Leased vehicle for Caucasus exploration, Bolt rides, domestic flights to Batumi and Mestia, guided mountain road trips",
-        "monthlyCost": 300
+        "monthlyCost": 225
       },
       "entertainment": {
         "description": "VIP opera and ballet access, private wine tours in Kakheti, heli-skiing in Gudauri, premium sulfur bath suites, art collecting from Georgian artists",
-        "monthlyCost": 800
+        "monthlyCost": 625
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 125
       },
       "lifestyle": "A premium townhouse in Old Tbilisi with a courtyard and rooftop terrace, or a large apartment in Vake with mountain views. A car for Caucasus exploration, regular dining at the best restaurants in the city, and international health coverage. Private vineyard tours in Kakheti and mountain lodge stays are affordable extras. This budget is far more than Tbilisi's cost of living can absorb — the margin will be very large."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury villa in Vake or Tskneti hills with private garden, pool, and sweeping views of Tbilisi and the Caucasus range",
-        "monthlyCost": 2800
+        "monthlyCost": 1550
       },
       "dining": {
         "description": "Private chef specializing in modern Georgian cuisine, world-class wine collection featuring rare qvevri wines, legendary supra hosting",
-        "monthlyCost": 1800
+        "monthlyCost": 1000
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 325
       },
       "healthcare": {
         "description": "International concierge medicine, private physician, wellness retreats in Borjomi, medical travel coverage to Istanbul or Vienna if needed",
-        "monthlyCost": 400
+        "monthlyCost": 225
       },
       "transportation": {
         "description": "Luxury vehicle with driver available, domestic flights, helicopter tours of the Caucasus, private transfers throughout the country",
-        "monthlyCost": 550
+        "monthlyCost": 300
       },
       "entertainment": {
         "description": "Private vineyard experiences, exclusive art patronage, Caucasus trekking expeditions, cultural festival VIP access, opera and ballet sponsorship",
-        "monthlyCost": 1400
+        "monthlyCost": 775
       },
       "utilities": {
-        "monthlyCost": 220
+        "monthlyCost": 125
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, cook specializing in Georgian cuisine, gardener, personal assistant",
-        "monthlyCost": 700
+        "monthlyCost": 400
       },
       "luxuryExtras": {
         "description": "Private Georgian language tutor, personal trainer, qvevri wine-making experience, bespoke Caucasus adventure planning, premium social memberships",
-        "monthlyCost": 1100
+        "monthlyCost": 600
       },
       "lifestyle": "A villa in Vake or the Tskneti hills with garden and pool, a housekeeper, a cook who comes in regularly, and a nice car with driver available for Caucasus trips. Premium healthcare with international evacuation coverage, and business class flights for travel. Georgia's hospitality culture and food scene are the main draws. The honest reality is that Tbilisi does not have the luxury infrastructure of a Western European city, and most of this budget will accumulate as margin."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Ultra-luxury estate in the Tbilisi hills with multiple buildings, infinity pool, wine cellar, private vineyard plots, and panoramic Caucasus views",
-        "monthlyCost": 5500
+        "monthlyCost": 1850
       },
       "dining": {
         "description": "Full-time private chef team, rare Georgian wine curation, legendary supra hosting for international guests, guest chef residencies",
-        "monthlyCost": 3200
+        "monthlyCost": 1050
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 275
       },
       "healthcare": {
         "description": "Global VIP medical coverage, dedicated wellness team, private thermal spa access, longevity programs, fly-anywhere specialist coverage",
-        "monthlyCost": 700
+        "monthlyCost": 225
       },
       "transportation": {
         "description": "Chauffeured luxury fleet, private helicopter for Caucasus exploration, yacht charter on the Black Sea, private jet for international travel",
-        "monthlyCost": 2200
+        "monthlyCost": 725
       },
       "entertainment": {
         "description": "Major cultural patronage, private Kakheti vineyard ownership, art foundation, hosting international cultural events, Caucasus expedition sponsorship",
-        "monthlyCost": 3500
+        "monthlyCost": 1150
       },
       "utilities": {
-        "monthlyCost": 400
+        "monthlyCost": 125
       },
       "domesticHelp": {
         "description": "Full estate staff: butler, chef team, housekeepers, groundskeepers, driver, personal assistant, estate manager, vineyard workers",
-        "monthlyCost": 3000
+        "monthlyCost": 1000
       },
       "luxuryExtras": {
         "description": "Private vineyard and winery operation, art acquisition fund, charitable foundation supporting Georgian cultural heritage, bespoke Silk Road travel experiences",
-        "monthlyCost": 4500
+        "monthlyCost": 1500
       },
       "lifestyle": "A large estate in the Tbilisi hills with multiple buildings and views of the Caucasus, a cook, regular housekeeping, and first-class international travel. You could invest in a small vineyard in Kakheti and carry comprehensive global healthcare. Tbilisi at this budget is primarily a home base for someone who values the food, wine, culture, and natural beauty of Georgia while traveling extensively. The city cannot absorb even a fraction of this monthly spend, and healthcare for serious conditions would likely mean traveling to Istanbul, Vienna, or further."
     }

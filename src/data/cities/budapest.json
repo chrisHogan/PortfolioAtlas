@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Spacious 1-bedroom apartment in District VII (Jewish Quarter) or District IX, with high ceilings and character",
-        "monthlyCost": 650
+        "monthlyCost": 1125
       },
       "dining": {
         "description": "Daily Hungarian comfort food at local etkezdes, ruin bar evenings, strong coffee culture, affordable wine from Eger and Villany",
-        "monthlyCost": 400
+        "monthlyCost": 675
       },
       "groceries": {
-        "monthlyCost": 250
+        "monthlyCost": 425
       },
       "healthcare": {
         "description": "Private health insurance with access to excellent Hungarian hospitals and specialists at a fraction of Western costs",
-        "monthlyCost": 120
+        "monthlyCost": 200
       },
       "transportation": {
         "description": "BKK monthly pass for metro, tram, bus, and suburban rail — one of Europe's best transit systems",
-        "monthlyCost": 35
+        "monthlyCost": 50
       },
       "entertainment": {
         "description": "Daily thermal bath soaks at Szechenyi or Gellert, ruin bar hopping, Danube promenades, Margaret Island cycling, free museum days",
-        "monthlyCost": 200
+        "monthlyCost": 350
       },
       "utilities": {
-        "monthlyCost": 100
+        "monthlyCost": 175
       },
       "lifestyle": "Budapest is one of Europe's most affordable capitals for this budget. A one-bedroom in the Jewish Quarter or District IX is cheap by European standards, leaving room for daily thermal bath visits, meals at local étkezdes, and a full social life in the ruin bar scene. Public transit is excellent and inexpensive. Winters are cold, and Hungarian is a difficult language, but English is workable in central Budapest."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Elegant 2-bedroom apartment on Andrassy Avenue or the Castle District with period details, parquet floors, and Danube views",
-        "monthlyCost": 1200
+        "monthlyCost": 1550
       },
       "dining": {
         "description": "Regular dining at Budapest's top restaurants like Borkonyha and Stand25, wine bar culture, weekend brunch at New York Cafe",
-        "monthlyCost": 800
+        "monthlyCost": 1025
       },
       "groceries": {
-        "monthlyCost": 380
+        "monthlyCost": 475
       },
       "healthcare": {
         "description": "Comprehensive private insurance covering top hospitals, dental tourism-quality care at local prices, wellness spa treatments",
-        "monthlyCost": 200
+        "monthlyCost": 250
       },
       "transportation": {
         "description": "BKK pass plus regular Bolt rides and weekend car rentals for Lake Balaton and wine country trips",
-        "monthlyCost": 120
+        "monthlyCost": 150
       },
       "entertainment": {
         "description": "Hungarian State Opera season tickets, thermal bath VIP access, Danube river cruises, ruin bar culture, Budapest Festival Orchestra concerts",
-        "monthlyCost": 450
+        "monthlyCost": 575
       },
       "utilities": {
-        "monthlyCost": 130
+        "monthlyCost": 175
       },
       "lifestyle": "A roomy apartment on Andrássy Avenue or in the Castle District, regular dining at well-regarded restaurants like Borkonyha and Stand25, and weekend trips to Lake Balaton or Eger wine country. You can hold opera season tickets, visit the thermal baths daily, and carry good private health insurance with meaningful budget left over. Budapest offers a genuinely high quality of life at this spending level."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Luxury 3-bedroom in a restored Art Nouveau building on the Buda hills or premium Danube-front apartment in District V with Parliament views",
-        "monthlyCost": 2200
+        "monthlyCost": 2025
       },
       "dining": {
         "description": "Fine dining at Costes and Onyx, private Tokaj wine tastings, hosted dinner parties with Hungarian feasts",
-        "monthlyCost": 1400
+        "monthlyCost": 1275
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "Premium private insurance with international coverage, executive health checks, world-class dental and cosmetic care",
-        "monthlyCost": 300
+        "monthlyCost": 275
       },
       "transportation": {
         "description": "Leased mid-range car, BKK pass, regular Bolt Premium rides, weekend trips to Vienna by train (2.5 hours)",
-        "monthlyCost": 300
+        "monthlyCost": 275
       },
       "entertainment": {
         "description": "Private thermal bath sessions, VIP Opera box, Danube river cruise evenings, art gallery circuit in the Palace District, sailing on Lake Balaton",
-        "monthlyCost": 800
+        "monthlyCost": 725
       },
       "utilities": {
-        "monthlyCost": 180
+        "monthlyCost": 175
       },
       "lifestyle": "A large apartment in a restored Art Nouveau building on the Buda hills or a Danube-front flat in District V with Parliament views. Regular dining at restaurants like Costes, a leased car for weekend getaways, and international health coverage. Opera and orchestra performances are part of the weekly routine. This budget goes very far in Budapest, leaving substantial room for European travel."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Historic villa in the Buda hills with garden and city views, or landmark penthouse overlooking the Chain Bridge and Parliament",
-        "monthlyCost": 3500
+        "monthlyCost": 2575
       },
       "dining": {
         "description": "Private chef specializing in modern Hungarian cuisine, Michelin dining as routine, curated Hungarian wine cellar with rare Tokaj Aszu vintages",
-        "monthlyCost": 2000
+        "monthlyCost": 1475
       },
       "groceries": {
-        "monthlyCost": 650
+        "monthlyCost": 475
       },
       "healthcare": {
         "description": "International concierge medicine, private physician, thermal spa wellness programs, longevity treatments at premium Budapest clinics",
-        "monthlyCost": 450
+        "monthlyCost": 325
       },
       "transportation": {
         "description": "Luxury vehicle, private driver, first-class Vienna-Budapest rail, occasional private flights to European capitals",
-        "monthlyCost": 600
+        "monthlyCost": 450
       },
       "entertainment": {
         "description": "Private Danube yacht, exclusive social club memberships, art collecting from Hungarian contemporary artists, VIP access to Budapest Festival Orchestra",
-        "monthlyCost": 1500
+        "monthlyCost": 1100
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 175
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, gardener for villa grounds, weekly deep cleaning, personal assistant, laundry service",
-        "monthlyCost": 900
+        "monthlyCost": 650
       },
       "luxuryExtras": {
         "description": "Private Hungarian tutor, personal trainer, thermal spa VIP membership, bespoke Central European travel planning, premium co-working at Kubik",
-        "monthlyCost": 1200
+        "monthlyCost": 875
       },
       "lifestyle": "A villa in the Buda hills with garden and city views, a housekeeper, a nice car, and regular dining at Budapest's best restaurants. Business class flights to European capitals, premium healthcare, and a cook who comes in a few times a week are all comfortably within reach. Budapest does not have the infrastructure to absorb this much spending, so expect a large margin."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Restored historic castle or grand mansion in the Buda hills with full estate grounds, or ultra-luxury compound on Castle Hill",
-        "monthlyCost": 6500
+        "monthlyCost": 3125
       },
       "dining": {
         "description": "Full-time private chef team, world-class wine cellar including vertical Tokaj collections, legendary dinner parties in your ballroom, guest chef series",
-        "monthlyCost": 3800
+        "monthlyCost": 1850
       },
       "groceries": {
-        "monthlyCost": 900
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "Global VIP medical coverage, personal wellness team, thermal hydrotherapy programs, fly-anywhere treatment, cutting-edge longevity protocols",
-        "monthlyCost": 800
+        "monthlyCost": 400
       },
       "transportation": {
         "description": "Chauffeured luxury fleet, private jet charter for European travel, vintage car collection, private Danube yacht",
-        "monthlyCost": 2000
+        "monthlyCost": 975
       },
       "entertainment": {
         "description": "Opera and orchestra patronage, art foundation, hosting international cultural events at your estate, private thermal bath restoration project",
-        "monthlyCost": 3500
+        "monthlyCost": 1700
       },
       "utilities": {
-        "monthlyCost": 500
+        "monthlyCost": 250
       },
       "domesticHelp": {
         "description": "Full estate staff: butler, chef team, housekeepers, groundskeepers, driver, personal assistant, estate manager",
-        "monthlyCost": 3200
+        "monthlyCost": 1550
       },
       "luxuryExtras": {
         "description": "Art acquisition fund, historic property restoration, charitable foundation supporting Hungarian arts, Tokaj vineyard ownership, bespoke Central European experiences",
-        "monthlyCost": 4500
+        "monthlyCost": 2200
       },
       "lifestyle": "A grand home in the Buda hills, regular housekeeping, a cook a few times a week, first-class European travel, and fine dining without ever checking the bill. You can carry full international private healthcare and drive a premium car. Realistically, Budapest's cost of living makes it very difficult to spend this much monthly. The margin will be significant, and the city's main limitation is a smaller pool of top-end housing and services compared to Western European capitals."
     }

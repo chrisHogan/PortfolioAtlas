@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Furnished 1-bedroom apartment in El Cangrejo or San Francisco with pool and security",
-        "monthlyCost": 850
+        "monthlyCost": 1275
       },
       "dining": {
         "description": "Fondas (local lunch spots) for $3-5, casual restaurants, ceviche at the fish market, canal-side cafés",
-        "monthlyCost": 400
+        "monthlyCost": 600
       },
       "groceries": {
-        "monthlyCost": 300
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "Private insurance with access to quality hospitals like Hospital Punta Pacifica (affiliated with Johns Hopkins)",
-        "monthlyCost": 200
+        "monthlyCost": 300
       },
       "transportation": {
         "description": "Metro system and MetroBus network, supplemented with occasional Uber rides",
-        "monthlyCost": 70
+        "monthlyCost": 100
       },
       "entertainment": {
         "description": "Casco Viejo walking tours, Amador Causeway sunsets, Canal visitor center, local expat meetups, beach day trips",
-        "monthlyCost": 200
+        "monthlyCost": 300
       },
       "utilities": {
-        "monthlyCost": 120
+        "monthlyCost": 175
       },
       "lifestyle": "A furnished one-bedroom in El Cangrejo or San Francisco with pool and security provides a modern, comfortable base. The metro and MetroBus are cheap and cover the city well, fondas serve filling meals for a few dollars, and private health insurance at a Johns Hopkins-affiliated hospital is affordable. The budget is manageable but not generous — you cook at home often and keep entertainment simple. The US dollar currency eliminates exchange rate risk."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Spacious 2-bedroom in Costa del Este or Punta Pacífica with ocean views, gym, and concierge",
-        "monthlyCost": 1500
+        "monthlyCost": 1675
       },
       "dining": {
         "description": "Regular dining at Casco Viejo's acclaimed restaurants, rooftop bars, weekend brunch at international spots",
-        "monthlyCost": 800
+        "monthlyCost": 900
       },
       "groceries": {
-        "monthlyCost": 450
+        "monthlyCost": 500
       },
       "healthcare": {
         "description": "Comprehensive private insurance covering Hospital Nacional and Punta Pacifica, dental included",
-        "monthlyCost": 300
+        "monthlyCost": 325
       },
       "transportation": {
         "description": "Frequent Uber and taxi use, weekend car rental for beach and highland trips",
-        "monthlyCost": 180
+        "monthlyCost": 200
       },
       "entertainment": {
         "description": "Beach trips to San Blas Islands, gym membership, Canal cruises, rooftop pool clubs, weekend trips to Boquete",
-        "monthlyCost": 600
+        "monthlyCost": 675
       },
       "utilities": {
-        "monthlyCost": 160
+        "monthlyCost": 175
       },
       "lifestyle": "A spacious two-bedroom in Costa del Este or Punta Pacífica with ocean views, gym, and concierge provides a comfortable daily base. You dine at Casco Viejo's restaurants several times a week, take Ubers freely, and carry comprehensive private health insurance. Weekend trips to Boquete's highlands or the San Blas Islands are in budget. Panama's territorial tax system means no tax on foreign income, which is a meaningful financial advantage."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Luxury 3-bedroom penthouse in Punta Pacífica or a renovated colonial gem in Casco Viejo with rooftop terrace",
-        "monthlyCost": 2800
+        "monthlyCost": 2225
       },
       "dining": {
         "description": "Fine dining at Maito and Donde José, private wine dinners, curated Panamanian gastronomy experiences",
-        "monthlyCost": 1400
+        "monthlyCost": 1125
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 475
       },
       "healthcare": {
         "description": "Premium international insurance, executive health checks, dental specialists, wellness programs",
-        "monthlyCost": 450
+        "monthlyCost": 350
       },
       "transportation": {
         "description": "Leased SUV, Uber for evenings out, domestic flights to Bocas del Toro and the San Blas",
-        "monthlyCost": 450
+        "monthlyCost": 350
       },
       "entertainment": {
         "description": "Golf membership at Summit or Tucan, sailing club, VIP cultural events, weekend island getaways",
-        "monthlyCost": 1000
+        "monthlyCost": 800
       },
       "utilities": {
-        "monthlyCost": 220
+        "monthlyCost": 175
       },
       "lifestyle": "A penthouse in Punta Pacífica or a renovated colonial gem in Casco Viejo with a rooftop terrace puts you in a premium location. You dine at restaurants like Maito and Donde José regularly, lease an SUV, and take domestic flights to Bocas del Toro or the San Blas Islands on weekends. Golf membership at Summit, premium health insurance, and regular dining out are all comfortably covered."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Ultra-luxury waterfront penthouse in Avenida Balboa or a private compound in Clayton surrounded by rainforest",
-        "monthlyCost": 4200
+        "monthlyCost": 2775
       },
       "dining": {
         "description": "Private chef for daily meals, regular Michelin-caliber dining, curated wine collection, exclusive supper clubs",
-        "monthlyCost": 2200
+        "monthlyCost": 1450
       },
       "groceries": {
-        "monthlyCost": 750
+        "monthlyCost": 500
       },
       "healthcare": {
         "description": "VIP international health coverage, personal physician, medical evacuation coverage to US if needed",
-        "monthlyCost": 600
+        "monthlyCost": 400
       },
       "transportation": {
         "description": "Luxury vehicle with part-time driver, domestic charter flights, yacht access for island hopping",
-        "monthlyCost": 900
+        "monthlyCost": 600
       },
       "entertainment": {
         "description": "Private island day charters to San Blas, elite golf and yacht club memberships, art collecting, VIP Carnival access",
-        "monthlyCost": 1600
+        "monthlyCost": 1075
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 200
       },
       "domesticHelp": {
         "description": "Full-time housekeeper/cook, weekly deep cleaning, personal assistant for administrative tasks",
-        "monthlyCost": 1000
+        "monthlyCost": 675
       },
       "luxuryExtras": {
         "description": "Bocas del Toro beach house rental, private Spanish instruction, bespoke suits from local tailors, premium coworking at tower offices",
-        "monthlyCost": 1700
+        "monthlyCost": 1125
       },
       "lifestyle": "A large waterfront penthouse on Avenida Balboa or a private compound in Clayton surrounded by rainforest provides generous living space. A housekeeper and cook manage daily life, a part-time driver handles transportation, and you dine at the city's best restaurants freely. Business class flights, island-hopping weekends to San Blas or Bocas del Toro, and premium health insurance are all standard. Panama's zero foreign income tax makes this tier notably capital-efficient."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Landmark waterfront estate or top-floor penthouse in the city's most exclusive tower, plus a private island retreat in the San Blas or Bocas del Toro",
-        "monthlyCost": 8000
+        "monthlyCost": 3700
       },
       "dining": {
         "description": "Private chef team, imported ingredients, legendary hosted dinner parties, guest chef experiences from across Latin America",
-        "monthlyCost": 4000
+        "monthlyCost": 1850
       },
       "groceries": {
-        "monthlyCost": 1100
+        "monthlyCost": 500
       },
       "healthcare": {
         "description": "Global concierge medicine, dedicated medical team, fly-to-Miami coverage, longevity and biohacking programs",
-        "monthlyCost": 1000
+        "monthlyCost": 450
       },
       "transportation": {
         "description": "Chauffeured luxury fleet, private jet charter for regional travel, superyacht access in the Pacific and Caribbean",
-        "monthlyCost": 3000
+        "monthlyCost": 1375
       },
       "entertainment": {
         "description": "Art patronage, private island retreats, Canal-side cultural event sponsorship, VIP global experiences, philanthropic galas",
-        "monthlyCost": 3800
+        "monthlyCost": 1750
       },
       "utilities": {
-        "monthlyCost": 500
+        "monthlyCost": 225
       },
       "domesticHelp": {
         "description": "Full household staff: butler, chef team, housekeepers, driver, personal assistant, estate and island property manager",
-        "monthlyCost": 3500
+        "monthlyCost": 1600
       },
       "luxuryExtras": {
         "description": "Private island maintenance, art collection curation, charitable foundation, bespoke yacht itineraries through the San Blas archipelago, investment in Panamanian real estate",
-        "monthlyCost": 5000
+        "monthlyCost": 2300
       },
       "lifestyle": "A top-floor penthouse overlooking the Canal or a waterfront estate anchors daily life, with a cook, housekeeper, and driver handling household logistics. You dine without budget constraints, fly first class internationally, and can maintain a secondary property in the islands. The household is fully staffed and well-run. Panama's zero foreign income tax means this budget preserves capital efficiently, though the city's cultural scene is thinner than larger Latin American capitals."
     }

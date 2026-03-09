@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Tiny studio or subdivided flat in Sham Shui Po, Mong Kok, or outer New Territories",
-        "monthlyCost": 1500
+        "monthlyCost": 3550
       },
       "dining": {
         "description": "Dai pai dong street stalls, cha chaan teng cafes, and local noodle shops daily",
-        "monthlyCost": 350
+        "monthlyCost": 825
       },
       "groceries": {
-        "monthlyCost": 300
+        "monthlyCost": 725
       },
       "healthcare": {
         "description": "Public hospital system — long waits but very affordable; basic private insurance supplement",
-        "monthlyCost": 200
+        "monthlyCost": 475
       },
       "transportation": {
         "description": "Octopus card for MTR, buses, and ferries — the system is superb",
-        "monthlyCost": 80
+        "monthlyCost": 200
       },
       "entertainment": {
         "description": "Hiking trails on Lantau and Dragon's Back, free temple visits, harbor walks",
-        "monthlyCost": 100
+        "monthlyCost": 250
       },
       "utilities": {
-        "monthlyCost": 120
+        "monthlyCost": 275
       },
       "lifestyle": "A very small studio or subdivided flat (200-300 sq ft) in Sham Shui Po, Mong Kok, or the outer New Territories. Eating mostly at dai pai dong street stalls and cha chaan teng cafes, which are cheap and good. Getting around on the MTR, buses, and ferries. Public hospital system for healthcare, which is affordable but has long waits. This is a genuinely tight budget for Hong Kong — housing is the major constraint, and you will need real discipline on spending. The food, hiking trails, and transit quality are the compensations."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Small 1BR apartment in Wan Chai, Sheung Wan, or a decent flat in Tsim Sha Tsui",
-        "monthlyCost": 2500
+        "monthlyCost": 4650
       },
       "dining": {
         "description": "Mix of street food and mid-range restaurants; dim sum brunches, izakayas, and rooftop bars",
-        "monthlyCost": 700
+        "monthlyCost": 1300
       },
       "groceries": {
-        "monthlyCost": 450
+        "monthlyCost": 850
       },
       "healthcare": {
         "description": "Private health insurance with access to quality private hospitals and clinics",
-        "monthlyCost": 350
+        "monthlyCost": 650
       },
       "transportation": {
         "description": "Octopus card plus occasional taxis and weekend ferries to outlying islands",
-        "monthlyCost": 120
+        "monthlyCost": 225
       },
       "entertainment": {
         "description": "Junk boat trips, gym membership, cultural events, weekend trips to Macau or Lamma Island",
-        "monthlyCost": 350
+        "monthlyCost": 650
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 275
       },
       "lifestyle": "A small 1-bedroom apartment in Wan Chai, Sheung Wan, or a decent flat in Tsim Sha Tsui. A mix of street food and mid-range restaurants — dim sum brunches, izakayas, and rooftop bars. MTR and occasional taxis. Private health insurance at good private hospitals and clinics. Weekend ferries to outlying islands and trips to Macau. The apartment will still be compact by Western standards, but this budget makes Hong Kong genuinely comfortable rather than a constant stretch."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "2BR apartment in Mid-Levels, Happy Valley, or a spacious flat in Kennedy Town",
-        "monthlyCost": 4000
+        "monthlyCost": 5775
       },
       "dining": {
         "description": "Regular fine dining, private kitchen restaurants, Michelin dim sum, cocktail bars in Central",
-        "monthlyCost": 1200
+        "monthlyCost": 1750
       },
       "groceries": {
-        "monthlyCost": 550
+        "monthlyCost": 800
       },
       "healthcare": {
         "description": "Comprehensive private insurance with access to top hospitals like Matilda and Adventist",
-        "monthlyCost": 450
+        "monthlyCost": 650
       },
       "transportation": {
         "description": "MTR and taxis freely; occasional car hire for New Territories exploration",
-        "monthlyCost": 250
+        "monthlyCost": 350
       },
       "entertainment": {
         "description": "Junk boat charters, premium gym, art gallery openings, weekend trips to Shenzhen or Macau",
-        "monthlyCost": 600
+        "monthlyCost": 875
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 300
       },
       "lifestyle": "A 2-bedroom apartment in Mid-Levels, Happy Valley, or a spacious flat in Kennedy Town. Regular dining at good restaurants — private kitchen restaurants, Michelin dim sum, cocktail bars in Central — without counting every dollar. MTR and taxis freely. Comprehensive private health insurance at hospitals like Matilda and Adventist. Weekend trips to Macau or across the border to Shenzhen. This is Hong Kong's sweet spot — genuinely comfortable, though the city's high costs mean even this budget requires some awareness."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Spacious 3BR apartment on The Peak, in Repulse Bay, or a premium flat in Pokfulam",
-        "monthlyCost": 6500
+        "monthlyCost": 8250
       },
       "dining": {
         "description": "Michelin-starred restaurants weekly, private dining clubs, premium wine and sake collections",
-        "monthlyCost": 2000
+        "monthlyCost": 2525
       },
       "groceries": {
-        "monthlyCost": 700
+        "monthlyCost": 875
       },
       "healthcare": {
         "description": "VIP private healthcare with same-day specialist access and international evacuation coverage",
-        "monthlyCost": 600
+        "monthlyCost": 750
       },
       "transportation": {
         "description": "Premium car with parking (a true luxury in HK), taxis freely, first-class regional travel",
-        "monthlyCost": 1000
+        "monthlyCost": 1275
       },
       "entertainment": {
         "description": "Private junk boat charters, exclusive club memberships (China Club, Hong Kong Club), premium events",
-        "monthlyCost": 1200
+        "monthlyCost": 1525
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 375
       },
       "domesticHelp": {
         "description": "Full-time live-in domestic helper (common in HK), weekly deep cleaning service",
-        "monthlyCost": 800
+        "monthlyCost": 1025
       },
       "luxuryExtras": {
         "description": "First-class travel across Asia, luxury shopping, art collecting, exclusive wine auctions",
-        "monthlyCost": 1500
+        "monthlyCost": 1900
       },
       "lifestyle": "A spacious 3-bedroom apartment on The Peak, in Repulse Bay, or a premium flat in Pokfulam — space with views being a genuine luxury in Hong Kong. A full-time live-in domestic helper, which is common and well-regulated here, and a car with parking, which is itself a significant expense in HK. Regular dining at Michelin-starred restaurants, VIP private healthcare, and business class flights around Asia. Genuinely comfortable and high quality, though Hong Kong's extreme housing costs mean even this budget does not feel limitless."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Luxury house on The Peak or a premium seafront property in Stanley or Deep Water Bay",
-        "monthlyCost": 13000
+        "monthlyCost": 12650
       },
       "dining": {
         "description": "Personal chef, private dining at the city's most exclusive restaurants, hosted wine dinners",
-        "monthlyCost": 3500
+        "monthlyCost": 3400
       },
       "groceries": {
-        "monthlyCost": 1000
+        "monthlyCost": 975
       },
       "healthcare": {
         "description": "Top-tier concierge medicine with international hospital network and wellness programs",
-        "monthlyCost": 800
+        "monthlyCost": 775
       },
       "transportation": {
         "description": "Multiple luxury vehicles with driver, first-class international travel, helicopter transfers",
-        "monthlyCost": 2500
+        "monthlyCost": 2425
       },
       "entertainment": {
         "description": "Art Basel VIP, private yacht, exclusive memberships, philanthropic galas, international events",
-        "monthlyCost": 3000
+        "monthlyCost": 2925
       },
       "utilities": {
-        "monthlyCost": 500
+        "monthlyCost": 475
       },
       "domesticHelp": {
         "description": "Multiple live-in staff including helper, cook, driver, and personal assistant",
-        "monthlyCost": 3000
+        "monthlyCost": 2925
       },
       "luxuryExtras": {
         "description": "Private jet access, yacht berth, fine art acquisitions, international property, philanthropy",
-        "monthlyCost": 4000
+        "monthlyCost": 3900
       },
       "lifestyle": "A house on The Peak or a premium seafront property in Stanley or Deep Water Bay — among the most expensive real estate in the world, so housing alone absorbs a large share of this budget. Multiple live-in staff including a helper, cook, and driver. First-class international flights. Top-tier concierge medicine. Regular fine dining as routine. Hong Kong is one of the world's most expensive cities, so even at this level you are upper-affluent rather than unconstrained — but the city's energy, food, safety, connectivity, and position as Asia's crossroads are hard to replicate anywhere."
     }

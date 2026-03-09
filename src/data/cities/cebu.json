@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "Modern 1-bedroom condo in IT Park or Cebu Business Park with pool, gym, and 24/7 security",
-        "monthlyCost": 450
+        "monthlyCost": 625
       },
       "dining": {
         "description": "Daily Filipino meals at local eateries, fresh seafood at Larsian BBQ, occasional Western restaurants, excellent mango shakes everywhere",
-        "monthlyCost": 350
+        "monthlyCost": 475
       },
       "groceries": {
-        "monthlyCost": 200
+        "monthlyCost": 275
       },
       "healthcare": {
         "description": "Private insurance covering Cebu Doctors and Chong Hua Hospital, affordable dental and vision care",
-        "monthlyCost": 120
+        "monthlyCost": 175
       },
       "transportation": {
         "description": "Grab rides across the city, jeepney for local trips, occasional motorbike taxi",
-        "monthlyCost": 80
+        "monthlyCost": 100
       },
       "entertainment": {
         "description": "Weekend island-hopping to Bantayan and Malapascua, snorkeling with whale sharks in Oslob, beach days on Mactan, local festivals",
-        "monthlyCost": 250
+        "monthlyCost": 350
       },
       "utilities": {
-        "monthlyCost": 100
+        "monthlyCost": 150
       },
       "lifestyle": "A modern 1-bedroom condo in IT Park or Cebu Business Park with pool, gym, and 24/7 security. Eating mostly at local Filipino eateries and fresh seafood BBQ spots, which are very cheap, with Grab and jeepney for getting around. Private health insurance covering Cebu Doctors and Chong Hua Hospital. English is spoken natively, which makes daily life easy, and weekend island-hopping is affordable. Comfortable, though traffic in Cebu City is bad and infrastructure outside the business districts is basic."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "Spacious 2-bedroom condo in a premium development like Ayala or Solinea with resort-style amenities, or beachfront unit on Mactan Island",
-        "monthlyCost": 800
+        "monthlyCost": 900
       },
       "dining": {
         "description": "Mix of local Filipino food, Japanese, Korean, and Western restaurants, regular fresh seafood feasts, waterfront dining on Mactan",
-        "monthlyCost": 600
+        "monthlyCost": 675
       },
       "groceries": {
-        "monthlyCost": 300
+        "monthlyCost": 350
       },
       "healthcare": {
         "description": "Comprehensive private insurance with access to top Cebu hospitals, dental, annual check-ups, and prescription coverage",
-        "monthlyCost": 200
+        "monthlyCost": 225
       },
       "transportation": {
         "description": "Regular Grab rides, rented scooter for Mactan exploration, occasional domestic flights to Palawan or Siargao",
-        "monthlyCost": 150
+        "monthlyCost": 175
       },
       "entertainment": {
         "description": "Scuba diving certification and regular dive trips, island-hopping charters, spa days, beach club memberships, Sinulog festival VIP access",
-        "monthlyCost": 500
+        "monthlyCost": 575
       },
       "utilities": {
-        "monthlyCost": 130
+        "monthlyCost": 150
       },
       "lifestyle": "A spacious 2-bedroom condo in a premium development or a beachfront unit on Mactan Island. Dining out regularly at Filipino, Japanese, Korean, and Western restaurants without watching the bill. Grab rides and a rented scooter for Mactan. Comprehensive private health insurance with dental and annual checkups. Scuba diving trips to Moalboal and Malapascua, and cheap domestic flights to Palawan or Siargao. Life is comfortable, social, and very good value."
     },
@@ -88,29 +88,29 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "Luxury 3-bedroom beachfront villa on Mactan or premium penthouse in Cebu Business Park with panoramic city and ocean views",
-        "monthlyCost": 1500
+        "monthlyCost": 1150
       },
       "dining": {
         "description": "Fine dining at Cebu's best restaurants, private island seafood feasts, Japanese omakase, catered gatherings",
-        "monthlyCost": 1100
+        "monthlyCost": 875
       },
       "groceries": {
-        "monthlyCost": 400
+        "monthlyCost": 325
       },
       "healthcare": {
         "description": "Premium private insurance with international coverage, executive health checks, wellness programs, medical travel to Singapore or Bangkok if needed",
-        "monthlyCost": 300
+        "monthlyCost": 250
       },
       "transportation": {
         "description": "Leased car with driver for city navigation, domestic flights for island exploration, private boat transfers to nearby islands",
-        "monthlyCost": 400
+        "monthlyCost": 325
       },
       "entertainment": {
         "description": "Premium dive resort packages, private island day trips, boat charters, golf at Alta Vista, spa retreats, cultural festival VIP experiences",
-        "monthlyCost": 900
+        "monthlyCost": 725
       },
       "utilities": {
-        "monthlyCost": 180
+        "monthlyCost": 150
       },
       "lifestyle": "A large beachfront villa on Mactan or a premium penthouse in Cebu Business Park with panoramic views. Regular dining at Cebu's best restaurants and fresh seafood feasts. A leased car with a driver for navigating city traffic. Domestic flights for island exploration and boat transfers to nearby islands. Premium private health insurance with international coverage. This is a genuinely affluent lifestyle — the budget goes very far in Cebu, and diving, beaches, and island trips are easily accessible."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Stunning beachfront compound on Mactan or exclusive resort-style villa with private pool, tropical gardens, and direct ocean access",
-        "monthlyCost": 3000
+        "monthlyCost": 1675
       },
       "dining": {
         "description": "Private chef for daily meals, fine dining as routine, curated wine collection, legendary Filipino-fusion feast hosting",
-        "monthlyCost": 1800
+        "monthlyCost": 1025
       },
       "groceries": {
-        "monthlyCost": 550
+        "monthlyCost": 300
       },
       "healthcare": {
         "description": "International concierge medicine, private physician, wellness retreats, anti-aging treatments, fly-to-Singapore coverage for specialized care",
-        "monthlyCost": 450
+        "monthlyCost": 250
       },
       "transportation": {
         "description": "Luxury vehicle with full-time driver, private boat for island-hopping, domestic charter flights, regular international travel",
-        "monthlyCost": 650
+        "monthlyCost": 375
       },
       "entertainment": {
         "description": "Private yacht charters, exclusive dive expeditions, golf memberships, art collecting, philanthropic projects supporting local communities",
-        "monthlyCost": 1400
+        "monthlyCost": 800
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 150
       },
       "domesticHelp": {
         "description": "Full-time housekeeper, cook, gardener, driver, and part-time nanny or personal assistant",
-        "monthlyCost": 600
+        "monthlyCost": 350
       },
       "luxuryExtras": {
         "description": "Private Cebuano language tutor, personal trainer, bespoke island exploration planning, marine conservation involvement, premium club memberships",
-        "monthlyCost": 1200
+        "monthlyCost": 675
       },
       "lifestyle": "A large beachfront property on Mactan with private pool, tropical gardens, and direct ocean access. A full-time housekeeper, cook, gardener, and driver. A private boat for island-hopping around the Visayas. Business class flights for regional travel and regular domestic flights. Premium international health coverage. This budget goes extremely far in Cebu — daily life is very comfortable with all the island amenities you could want, though the city's medical and cultural infrastructure remains limited compared to Manila or regional capitals."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Ultra-luxury oceanfront estate on Mactan or private island lease in the Visayas with multiple structures, infinity pool, private beach, and dock",
-        "monthlyCost": 6000
+        "monthlyCost": 1975
       },
       "dining": {
         "description": "Full-time private chef team, imported delicacies, rare wine collection, legendary feast hosting on your private beach, guest chef experiences",
-        "monthlyCost": 3500
+        "monthlyCost": 1150
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 275
       },
       "healthcare": {
         "description": "Global VIP medical coverage, dedicated wellness team, private health facility access, fly-anywhere specialist treatment, longevity programs",
-        "monthlyCost": 800
+        "monthlyCost": 275
       },
       "transportation": {
         "description": "Luxury vehicle fleet with drivers, private yacht for Visayan Sea cruising, helicopter transfers, private jet charter for Asian travel",
-        "monthlyCost": 2500
+        "monthlyCost": 825
       },
       "entertainment": {
         "description": "Private island retreats, marine conservation foundation, exclusive dive expeditions, art patronage, international cultural event hosting",
-        "monthlyCost": 3500
+        "monthlyCost": 1150
       },
       "utilities": {
-        "monthlyCost": 500
+        "monthlyCost": 175
       },
       "domesticHelp": {
         "description": "Full estate staff: chef team, housekeepers, groundskeepers, boat crew, drivers, personal assistant, estate manager, security",
-        "monthlyCost": 2800
+        "monthlyCost": 925
       },
       "luxuryExtras": {
         "description": "Marine sanctuary sponsorship, private island development, art acquisition fund, charitable foundation supporting Filipino education, bespoke Southeast Asian experiences",
-        "monthlyCost": 4800
+        "monthlyCost": 1600
       },
       "lifestyle": "A large oceanfront estate on Mactan with private beach, dock, and multiple structures, or a premium property elsewhere in the Visayas. A housekeeper, a cook a few times a week, a gardener, drivers, and a property manager. First-class international flights and a boat for cruising the Visayan Sea. Full concierge healthcare with fly-anywhere specialist treatment. This is far more money than Cebu's market can absorb — you live at the absolute top of what the island offers, but the Philippines' limited luxury infrastructure, occasional typhoons, and distance from major Asian capitals are real considerations."
     }

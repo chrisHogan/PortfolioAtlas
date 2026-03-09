@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR apartment in Gulf Gate, Bee Ridge, or North Sarasota",
-        "monthlyCost": 1500
+        "monthlyCost": 1975
       },
       "dining": {
         "description": "Casual waterfront spots and happy-hour specials 2x/week; mostly cooking at home",
-        "monthlyCost": 230
+        "monthlyCost": 300
       },
       "groceries": {
-        "monthlyCost": 380
+        "monthlyCost": 500
       },
       "healthcare": {
         "description": "ACA marketplace Silver plan; Florida premiums can be high without subsidies",
-        "monthlyCost": 550
+        "monthlyCost": 725
       },
       "transportation": {
         "description": "Paid-off car with basic insurance; car is essential in Sarasota",
-        "monthlyCost": 280
+        "monthlyCost": 375
       },
       "entertainment": {
         "description": "Free beach days at Siesta Key, sunset walks, public parks; occasional museum visit",
-        "monthlyCost": 80
+        "monthlyCost": 100
       },
       "utilities": {
-        "monthlyCost": 170
+        "monthlyCost": 225
       },
       "lifestyle": "A one-bedroom apartment in Gulf Gate or North Sarasota -- away from the expensive waterfront -- cooking most meals at home, and a paid-off car. Healthcare on an ACA Silver plan is a significant expense in Florida, and this budget does not leave much room for surprises. The trade-off is access to Siesta Key beach and public parks at no cost, and zero state income tax on every withdrawal. This is a lean budget for Sarasota, but workable if you are disciplined."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "2BR condo in downtown Sarasota or a townhome in Palmer Ranch with pool access",
-        "monthlyCost": 2200
+        "monthlyCost": 2650
       },
       "dining": {
         "description": "Regular dining at St. Armands Circle and downtown restaurants 3-4x/week",
-        "monthlyCost": 550
+        "monthlyCost": 675
       },
       "groceries": {
-        "monthlyCost": 450
+        "monthlyCost": 550
       },
       "healthcare": {
         "description": "ACA Gold plan with dental and vision; manageable out-of-pocket costs",
-        "monthlyCost": 650
+        "monthlyCost": 775
       },
       "transportation": {
         "description": "Reliable car, full coverage insurance including comprehensive for hurricane season",
-        "monthlyCost": 400
+        "monthlyCost": 475
       },
       "entertainment": {
         "description": "Sarasota Opera and ballet tickets, kayaking, Ringling Museum membership, gym",
-        "monthlyCost": 300
+        "monthlyCost": 375
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 250
       },
       "lifestyle": "A two-bedroom condo downtown or a townhome in Palmer Ranch with pool access, dining out several times a week at St. Armands Circle and downtown restaurants, and a reliable car with full coverage including hurricane-season comprehensive. You can afford Sarasota Opera tickets, a Ringling Museum membership, and a kayak outing now and then. Good health coverage through an ACA Gold plan rounds things out. Zero state income tax helps this budget go further than the same amount in most coastal metros."
     },
@@ -88,11 +88,11 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "3BR waterfront condo or a home in Bird Key or Harbor Acres",
-        "monthlyCost": 3500
+        "monthlyCost": 3425
       },
       "dining": {
         "description": "Fine dining at Indigenous, Bijou Cafe, and waterfront spots; regular wine dinners",
-        "monthlyCost": 900
+        "monthlyCost": 875
       },
       "groceries": {
         "monthlyCost": 600
@@ -110,7 +110,7 @@
         "monthlyCost": 550
       },
       "utilities": {
-        "monthlyCost": 260
+        "monthlyCost": 250
       },
       "lifestyle": "A three-bedroom waterfront condo or a home in Bird Key, regular dining at restaurants like Indigenous and Bijou Cafe, and season tickets to the performing arts. You can afford premium health insurance, a golf club membership, occasional boat rentals for island hopping, and a late-model car. The combination of zero state income tax and Sarasota's strong cultural scene makes this a comfortable, well-rounded coastal life with room for regular travel."
     },
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury waterfront home on Bird Key, Lido Key, or a Gulf-front condo on Longboat Key",
-        "monthlyCost": 5500
+        "monthlyCost": 4875
       },
       "dining": {
         "description": "Private chef for dinner parties, fine dining multiple nights per week, yacht club dining",
-        "monthlyCost": 1400
+        "monthlyCost": 1225
       },
       "groceries": {
-        "monthlyCost": 750
+        "monthlyCost": 650
       },
       "healthcare": {
         "description": "Concierge medicine, executive health screenings, premium private insurance",
-        "monthlyCost": 1000
+        "monthlyCost": 875
       },
       "transportation": {
         "description": "Luxury vehicle, boat slip rental, occasional private car service",
-        "monthlyCost": 900
+        "monthlyCost": 800
       },
       "entertainment": {
         "description": "Yacht club membership, private golf club, patron-level arts sponsorships, deep-sea fishing",
-        "monthlyCost": 900
+        "monthlyCost": 800
       },
       "utilities": {
-        "monthlyCost": 350
+        "monthlyCost": 300
       },
       "domesticHelp": {
         "description": "Weekly house cleaning, pool service, landscaping, hurricane prep service",
-        "monthlyCost": 750
+        "monthlyCost": 650
       },
       "luxuryExtras": {
         "description": "Quarterly travel, boat ownership costs, art collecting, spa memberships",
-        "monthlyCost": 1500
+        "monthlyCost": 1325
       },
       "lifestyle": "A waterfront home on Bird Key or Lido Key, a housekeeper who comes weekly, concierge medical coverage, and a nice car. You dine at the city's best restaurants regularly, rent a boat slip for weekend Gulf outings, and fly business class for longer trips. A private golf club membership and patron-level arts involvement are within budget. Florida's zero state income tax means none of your withdrawal goes to state taxes, which adds meaningful value at this spending level."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Beachfront estate on Siesta Key or Casey Key, or a luxury compound on Longboat Key",
-        "monthlyCost": 10000
+        "monthlyCost": 6125
       },
       "dining": {
         "description": "Full-time personal chef, catered events, exclusive wine dinners, yacht catering",
-        "monthlyCost": 3000
+        "monthlyCost": 1825
       },
       "groceries": {
-        "monthlyCost": 1000
+        "monthlyCost": 600
       },
       "healthcare": {
         "description": "Top concierge medical practice, executive wellness, specialist access in Tampa",
-        "monthlyCost": 1500
+        "monthlyCost": 925
       },
       "transportation": {
         "description": "Multiple luxury vehicles, yacht captain, private car service, chartered flights from SRQ",
-        "monthlyCost": 1800
+        "monthlyCost": 1100
       },
       "entertainment": {
         "description": "Major arts philanthropy, international travel, private island excursions, exclusive events",
-        "monthlyCost": 2500
+        "monthlyCost": 1525
       },
       "utilities": {
-        "monthlyCost": 500
+        "monthlyCost": 300
       },
       "domesticHelp": {
         "description": "Full-time estate manager, housekeeper, personal assistant, boat captain, pool/grounds crew",
-        "monthlyCost": 4500
+        "monthlyCost": 2750
       },
       "luxuryExtras": {
         "description": "Yacht ownership, first-class international travel, real estate investments, philanthropy",
-        "monthlyCost": 5000
+        "monthlyCost": 3050
       },
       "lifestyle": "A beachfront home on Siesta Key or Casey Key, a cook who comes in several times a week, full-time domestic help, and top-tier concierge healthcare with specialist access in Tampa. You travel first class, keep multiple cars, and own or lease a boat for Gulf outings. Dining out at the best restaurants is routine, and there is substantial margin for charitable giving, arts patronage, and a second property if desired. Zero state income tax keeps every dollar of your withdrawals intact."
     }

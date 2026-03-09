@@ -28,29 +28,29 @@
       "monthlyBudget": 3333,
       "housing": {
         "description": "1BR apartment in the East Village or Sherman Hill neighborhood",
-        "monthlyCost": 950
+        "monthlyCost": 1200
       },
       "dining": {
         "description": "Casual dining 2x/week at local spots like Zombie Burger or Fong's Pizza",
-        "monthlyCost": 180
+        "monthlyCost": 225
       },
       "groceries": {
-        "monthlyCost": 340
+        "monthlyCost": 425
       },
       "healthcare": {
         "description": "ACA marketplace Silver plan through Iowa's exchange",
-        "monthlyCost": 480
+        "monthlyCost": 600
       },
       "transportation": {
         "description": "Paid-off car with basic insurance; biking viable on 80+ miles of trails",
-        "monthlyCost": 220
+        "monthlyCost": 275
       },
       "entertainment": {
         "description": "Biking the trails, free sculpture park visits, farmers market browsing; occasional show",
-        "monthlyCost": 80
+        "monthlyCost": 100
       },
       "utilities": {
-        "monthlyCost": 130
+        "monthlyCost": 175
       },
       "lifestyle": "A one-bedroom in the East Village or Sherman Hill, cooking most meals at home, and biking on the city's 80-plus miles of trails instead of relying on a car. The Saturday farmers market and free Pappajohn Sculpture Park provide low-cost entertainment. Healthcare on an ACA Silver plan is the largest single expense. Des Moines has some of the lowest rents in any US metro, which gives this budget more breathing room than you would find in most cities."
     },
@@ -58,29 +58,29 @@
       "monthlyBudget": 6667,
       "housing": {
         "description": "2BR apartment downtown or a small house in Beaverdale or Ingersoll",
-        "monthlyCost": 1500
+        "monthlyCost": 1750
       },
       "dining": {
         "description": "Dining out 3-4x/week; enjoying the growing East Village restaurant scene",
-        "monthlyCost": 400
+        "monthlyCost": 475
       },
       "groceries": {
-        "monthlyCost": 420
+        "monthlyCost": 475
       },
       "healthcare": {
         "description": "ACA Gold plan with dental and vision; comfortable deductible",
-        "monthlyCost": 580
+        "monthlyCost": 675
       },
       "transportation": {
         "description": "Reliable car for Iowa winters, full coverage insurance, bike for summer commuting",
-        "monthlyCost": 340
+        "monthlyCost": 400
       },
       "entertainment": {
         "description": "Iowa Cubs games, Des Moines Art Center membership, gym, live music at Wooly's",
-        "monthlyCost": 220
+        "monthlyCost": 250
       },
       "utilities": {
-        "monthlyCost": 160
+        "monthlyCost": 175
       },
       "lifestyle": "A Beaverdale bungalow or a downtown apartment, dining out several times a week at the growing East Village restaurant scene, and a reliable car for Iowa winters. You can afford Iowa Cubs games, a Des Moines Art Center membership, live music at Wooly's, and a good health plan. A few trips per year are within reach. Des Moines's low cost of living means this budget provides a comfortable, well-rounded life with room for hobbies and savings."
     },
@@ -88,18 +88,18 @@
       "monthlyBudget": 10000,
       "housing": {
         "description": "3BR home in the Waterbury neighborhood or West Des Moines with a two-car garage",
-        "monthlyCost": 2400
+        "monthlyCost": 2350
       },
       "dining": {
         "description": "Regular fine dining at Alba, Centro, and 801 Chophouse; wine tasting events",
-        "monthlyCost": 650
+        "monthlyCost": 625
       },
       "groceries": {
-        "monthlyCost": 520
+        "monthlyCost": 500
       },
       "healthcare": {
         "description": "Premium private health insurance with low deductibles and full dental/vision",
-        "monthlyCost": 700
+        "monthlyCost": 675
       },
       "transportation": {
         "description": "Late-model SUV for winter driving, premium insurance, occasional ride shares",
@@ -118,37 +118,37 @@
       "monthlyBudget": 16667,
       "housing": {
         "description": "Custom home in Glen Oaks or a luxury property in West Des Moines with acreage",
-        "monthlyCost": 4500
+        "monthlyCost": 3250
       },
       "dining": {
         "description": "Fine dining several times per week, private chef for entertaining, farm partnerships",
-        "monthlyCost": 1100
+        "monthlyCost": 800
       },
       "groceries": {
-        "monthlyCost": 650
+        "monthlyCost": 475
       },
       "healthcare": {
         "description": "Concierge medicine at Iowa Clinic, executive wellness, comprehensive private insurance",
-        "monthlyCost": 900
+        "monthlyCost": 650
       },
       "transportation": {
         "description": "Luxury SUV, second vehicle, premium everything for Iowa's variable weather",
-        "monthlyCost": 750
+        "monthlyCost": 550
       },
       "entertainment": {
         "description": "Country club membership, Drake Bulldogs booster, philanthropy events, private golf",
-        "monthlyCost": 750
+        "monthlyCost": 550
       },
       "utilities": {
-        "monthlyCost": 280
+        "monthlyCost": 200
       },
       "domesticHelp": {
         "description": "Weekly deep cleaning, landscaping, snow removal, seasonal yard service",
-        "monthlyCost": 550
+        "monthlyCost": 400
       },
       "luxuryExtras": {
         "description": "Lake Okoboji cabin weekends, quarterly travel, art collecting, community philanthropy",
-        "monthlyCost": 1400
+        "monthlyCost": 1025
       },
       "lifestyle": "A large custom home in Glen Oaks or West Des Moines, a housekeeper who comes weekly, concierge medicine at Iowa Clinic, and a nice car. You dine at the city's best restaurants regularly, hold a country club membership, and fly business class for longer trips. Weekend trips to a Lake Okoboji cabin and regular travel are within budget. Des Moines's very low cost of living means this spending level provides a well-appointed life with substantial margin for giving and savings."
     },
@@ -156,37 +156,37 @@
       "monthlyBudget": 33333,
       "housing": {
         "description": "Trophy estate in Glen Oaks or a sprawling compound in West Des Moines with land",
-        "monthlyCost": 8000
+        "monthlyCost": 3875
       },
       "dining": {
         "description": "Full-time personal chef, exclusive wine dinners, catered events and galas",
-        "monthlyCost": 2200
+        "monthlyCost": 1075
       },
       "groceries": {
-        "monthlyCost": 850
+        "monthlyCost": 400
       },
       "healthcare": {
         "description": "Top-tier concierge practice, medical travel for specialists, full wellness team",
-        "monthlyCost": 1200
+        "monthlyCost": 575
       },
       "transportation": {
         "description": "Multiple luxury vehicles, private car service, chartered flights from DSM",
-        "monthlyCost": 1400
+        "monthlyCost": 675
       },
       "entertainment": {
         "description": "Major philanthropy, international travel, art collecting, exclusive club memberships",
-        "monthlyCost": 2000
+        "monthlyCost": 975
       },
       "utilities": {
-        "monthlyCost": 420
+        "monthlyCost": 200
       },
       "domesticHelp": {
         "description": "Full-time property manager, housekeeper, personal assistant, groundskeeper",
-        "monthlyCost": 3800
+        "monthlyCost": 1850
       },
       "luxuryExtras": {
         "description": "Second home at Lake Okoboji, first-class international travel, angel investing, foundation work",
-        "monthlyCost": 4800
+        "monthlyCost": 2325
       },
       "lifestyle": "A large estate in Glen Oaks or a property with acreage in West Des Moines, a cook who comes in several times a week, full-time domestic help, and top-tier concierge healthcare. You travel first class, keep multiple cars, and dine out without checking the bill. A second home at Lake Okoboji is within reach at this budget. In a metro as affordable as Des Moines, this spending level creates enormous margin -- enough for significant charitable giving, a foundation, and ongoing investment while covering every daily expense without thought."
     }
