@@ -327,12 +327,6 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
         <p class="text-gray-500 font-semibold mb-2">No cities match your criteria</p>
         <p class="text-sm text-gray-400">Try adjusting your filters or increasing your portfolio.</p>
       </div>
-      <div id="show-more-wrap" class="text-center py-6 hidden">
-        <button id="show-more-btn" type="button" class="px-8 py-2.5 bg-white border border-sand-200 rounded-full text-sm font-medium text-gray-700 hover:bg-sand-50 transition-all">
-          Show more cities
-        </button>
-        <p id="show-more-count" class="text-xs text-gray-400 mt-2"></p>
-      </div>
     </div>
   </section>
 
@@ -474,7 +468,13 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   let lifestyle = 'comfortable';
   let annualSavings = 0;
   let passiveIncome = 0;
-  let visibleCount = 12;
+  const INITIAL_PER_SECTION = 8;
+  const sectionVisibleCounts = { perfect_fit: INITIAL_PER_SECTION, within_reach: INITIAL_PER_SECTION, not_affordable: INITIAL_PER_SECTION };
+  function resetSectionCounts() {
+    sectionVisibleCounts.perfect_fit = INITIAL_PER_SECTION;
+    sectionVisibleCounts.within_reach = INITIAL_PER_SECTION;
+    sectionVisibleCounts.not_affordable = INITIAL_PER_SECTION;
+  }
   const filters = { loc: '', climate: '', eng: '' };
 
   // Climate mappings
@@ -544,9 +544,6 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   const citySections = document.getElementById('city-sections');
   const noCities = document.getElementById('no-cities');
   const summaryEl = document.getElementById('results-summary');
-  const showMoreWrap = document.getElementById('show-more-wrap');
-  const showMoreBtn = document.getElementById('show-more-btn');
-  const showMoreCount = document.getElementById('show-more-count');
   const welcomeBack = document.getElementById('welcome-back');
 
   // ─── Optional Toggle ───
@@ -622,7 +619,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     input.addEventListener('change', () => {
       const val = parseInt((input.value || '').replace(/[^0-9]/g, ''), 10) || 0;
       onChange(val);
-      if (portfolio > 0) renderResults();
+      if (portfolio > 0) { resetSectionCounts(); renderResults(); }
     });
   }
 
@@ -663,7 +660,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
       });
       // Also sync results lifestyle pills
       syncResultsLifestyle();
-      if (portfolio > 0) renderResults();
+      if (portfolio > 0) { resetSectionCounts(); renderResults(); }
     });
   });
 
@@ -694,7 +691,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
         b.classList.toggle('border-white/15', !isActive);
         b.classList.toggle('text-white/70', !isActive);
       });
-      if (portfolio > 0) renderResults();
+      if (portfolio > 0) { resetSectionCounts(); renderResults(); }
     });
   });
 
@@ -709,7 +706,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
       document.querySelectorAll(`.filter-btn[data-filter="${filterName}"]`).forEach((b) => {
         b.classList.toggle('active', (b.dataset.value || '') === filterValue);
       });
-      if (portfolio > 0) renderResults();
+      if (portfolio > 0) { resetSectionCounts(); renderResults(); }
     });
   });
 
@@ -724,6 +721,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     annualSavings = parseInt((savingsInput?.value || '').replace(/[^0-9]/g, ''), 10) || 0;
     passiveIncome = parseInt((passiveInput?.value || '').replace(/[^0-9]/g, ''), 10) || 0;
     saveState();
+    resetSectionCounts();
     renderResults();
     resultsSection.scrollIntoView({ behavior: 'smooth' });
   });
@@ -734,12 +732,6 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
       e.preventDefault();
       exploreBtn.click();
     }
-  });
-
-  // Show more
-  showMoreBtn?.addEventListener('click', () => {
-    visibleCount += 12;
-    renderResults();
   });
 
   // ─── Passive Income Adjustment ───
@@ -939,91 +931,53 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     if (totalFiltered === 0) {
       citySections.innerHTML = '';
       noCities?.classList.remove('hidden');
-      showMoreWrap?.classList.add('hidden');
       updateURL();
       return;
     }
     noCities?.classList.add('hidden');
 
-    // Allocate visible slots per section
-    // Each non-empty section gets at least 4 cards so all section headers are visible on load
-    const sectionDefs = [
-      { key: 'perfect_fit', items: sweetSpot },
-      { key: 'within_reach', items: withinReach },
-      { key: 'not_affordable', items: stretchGoals },
-    ].filter((s) => s.items.length > 0);
-
-    const MIN_PER_SECTION = 4;
-    const sectionLimits = {};
-
-    // Pass 1: give each section min(MIN, available items)
-    let used = 0;
-    for (const s of sectionDefs) {
-      sectionLimits[s.key] = Math.min(MIN_PER_SECTION, s.items.length);
-      used += sectionLimits[s.key];
+    // Helper: build a section with its own show-more button
+    function buildSection(id, title, subtitle, items, limit) {
+      if (items.length === 0) return '';
+      const visible = items.slice(0, limit);
+      const hasMore = items.length > limit;
+      let html = `<div class="mb-8">
+        <div class="flex items-center gap-3 mb-4">
+          <h2 class="font-serif text-xl font-bold text-brand-950">${title}</h2>
+          <span class="text-xs font-medium text-gray-400">${items.length} ${items.length === 1 ? 'city' : 'cities'}</span>
+        </div>
+        <p class="text-sm text-gray-500 mb-4">${subtitle}</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+          ${visible.map(buildCardHTML).join('')}
+        </div>`;
+      if (hasMore) {
+        html += `<div class="text-center pt-5">
+          <button type="button" data-show-more="${id}" class="px-8 py-2.5 bg-white border border-sand-200 rounded-full text-sm font-medium text-gray-700 hover:bg-sand-50 transition-all">
+            Show more cities
+          </button>
+          <p class="text-xs text-gray-400 mt-2">Showing ${visible.length} of ${items.length}</p>
+        </div>`;
+      }
+      html += `</div>`;
+      return html;
     }
-
-    // Pass 2: distribute remaining budget in priority order
-    let remaining = Math.max(0, visibleCount - used);
-    for (const s of sectionDefs) {
-      if (remaining <= 0) break;
-      const canGive = s.items.length - sectionLimits[s.key];
-      const give = Math.min(canGive, remaining);
-      sectionLimits[s.key] += give;
-      remaining -= give;
-    }
-
-    const ssVisible = sweetSpot.slice(0, sectionLimits['perfect_fit'] || 0);
-    const wrVisible = withinReach.slice(0, sectionLimits['within_reach'] || 0);
-    const sgVisible = stretchGoals.slice(0, sectionLimits['not_affordable'] || 0);
-    const totalShown = ssVisible.length + wrVisible.length + sgVisible.length;
 
     // Build sections HTML
     let html = '';
 
-    // Section: Sweet spot
-    if (ssVisible.length > 0) {
-      html += `<div class="mb-8">
-        <div class="flex items-center gap-3 mb-4">
-          <h2 class="font-serif text-xl font-bold text-brand-950">Your sweet spot</h2>
-          <span class="text-xs font-medium text-gray-400">${sweetSpot.length} ${sweetSpot.length === 1 ? 'city' : 'cities'}</span>
-        </div>
-        <p class="text-sm text-gray-500 mb-4">Cities where your portfolio is the right size — enough to retire comfortably with a healthy buffer.</p>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-          ${ssVisible.map(buildCardHTML).join('')}
-        </div>
-      </div>`;
-    }
+    html += buildSection('perfect_fit', 'Your sweet spot',
+      'Cities where your portfolio is the right size — enough to retire comfortably with a healthy buffer.',
+      sweetSpot, sectionVisibleCounts.perfect_fit);
 
-    // Section: Also within reach
-    if (wrVisible.length > 0) {
-      html += `<div class="mb-8">
-        <div class="flex items-center gap-3 mb-4">
-          <h2 class="font-serif text-xl font-bold text-brand-950">Also within reach</h2>
-          <span class="text-xs font-medium text-gray-400">${withinReach.length} ${withinReach.length === 1 ? 'city' : 'cities'}</span>
-        </div>
-        <p class="text-sm text-gray-500 mb-4">Affordable, but your portfolio exceeds what you'd need here. Consider a higher lifestyle tier.</p>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-          ${wrVisible.map(buildCardHTML).join('')}
-        </div>
-      </div>`;
-    }
+    html += buildSection('within_reach', 'Also within reach',
+      'Affordable, but your portfolio exceeds what you\'d need here. Consider a higher lifestyle tier.',
+      withinReach, sectionVisibleCounts.within_reach);
 
-    // Section: Stretch goals
-    if (sgVisible.length > 0) {
-      html += `<div class="mb-8">
-        <div class="flex items-center gap-3 mb-4">
-          <h2 class="font-serif text-xl font-bold text-brand-950">Stretch goals</h2>
-          <span class="text-xs font-medium text-gray-400">${stretchGoals.length} ${stretchGoals.length === 1 ? 'city' : 'cities'}</span>
-        </div>
-        <p class="text-sm text-gray-500 mb-4">Not yet affordable — but within reach as your portfolio grows.</p>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-          ${sgVisible.map(buildCardHTML).join('')}
-        </div>
-      </div>`;
-    }
+    html += buildSection('not_affordable', 'Stretch goals',
+      'Not yet affordable — but within reach as your portfolio grows.',
+      stretchGoals, sectionVisibleCounts.not_affordable);
 
-    // Section: Over-resourced (collapsed)
+    // Over-resourced (collapsed)
     if (overResourced.length > 0) {
       html += `<div class="mb-8">
         <button id="over-resourced-toggle" type="button" class="flex items-center gap-2 text-sm font-medium text-gray-400 hover:text-gray-600 transition-colors py-3">
@@ -1042,6 +996,15 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
 
     citySections.innerHTML = html;
 
+    // Wire up per-section show-more buttons
+    citySections.querySelectorAll('[data-show-more]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const sectionKey = btn.dataset.showMore;
+        sectionVisibleCounts[sectionKey] += 12;
+        renderResults();
+      });
+    });
+
     // Wire up over-resourced toggle
     const orToggle = document.getElementById('over-resourced-toggle');
     const orGrid = document.getElementById('over-resourced-grid');
@@ -1056,17 +1019,6 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
         if (orChevron) orChevron.style.transform = '';
       }
     });
-
-    // Show more button
-    const totalMain = sweetSpot.length + withinReach.length + stretchGoals.length;
-    if (showMoreWrap && showMoreCount) {
-      if (totalShown < totalMain) {
-        showMoreWrap.classList.remove('hidden');
-        showMoreCount.textContent = `Showing ${totalShown} of ${totalMain} cities`;
-      } else {
-        showMoreWrap.classList.add('hidden');
-      }
-    }
 
     updateURL();
   }
