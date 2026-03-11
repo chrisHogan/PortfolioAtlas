@@ -23,9 +23,13 @@ const {
 
 const siteTitle = `${title} | PortfolioAtlas`;
 
-// Canonical URL: strip query params for clean canonical
+// Canonical URL: strip query params and trailing slashes for clean canonical
 const canonicalBase = new URL(Astro.url.pathname, Astro.site || 'https://portfolioatlas.org');
-const canonical = canonicalUrl || canonicalBase.href;
+// Always remove trailing slash (except for root /) to enforce no-trailing-slash canonical
+const canonicalHref = canonicalBase.href.endsWith('/') && canonicalBase.pathname !== '/'
+  ? canonicalBase.href.slice(0, -1)
+  : canonicalBase.href;
+const canonical = canonicalUrl || canonicalHref;
 
 // Ensure OG image is absolute
 const ogImageAbsolute = ogImage.startsWith('http') ? ogImage : new URL(ogImage, Astro.site || 'https://portfolioatlas.org').href;
