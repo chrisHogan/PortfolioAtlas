@@ -1,0 +1,147 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { allCities } from '../../data/cities/index';
+import { formatCurrency, SAFE_WITHDRAWAL_RATE } from '../../data/types';
+import {
+  getCityFireNumber,
+  formatFireNumber,
+} from '../../data/fireNumber';
+
+const tiers = [
+  { slug: '500k',  label: '$500K',  value: 500_000 },
+  { slug: '750k',  label: '$750K',  value: 750_000 },
+  { slug: '1m',    label: '$1M',    value: 1_000_000 },
+  { slug: '1-5m',  label: '$1.5M',  value: 1_500_000 },
+  { slug: '2m',    label: '$2M',    value: 2_000_000 },
+  { slug: '3m',    label: '$3M',    value: 3_000_000 },
+];
+
+const rows = tiers.map((tier) => {
+  const monthly = Math.round((tier.value * SAFE_WITHDRAWAL_RATE) / 12);
+  let comfortCount = 0;
+  let cheapestCity = '';
+  let cheapestFire = Infinity;
+
+  for (const city of allCities) {
+    const fn = getCityFireNumber(city, 'comfortable');
+    if (fn <= tier.value) {
+      comfortCount++;
+      if (fn < cheapestFire) {
+        cheapestFire = fn;
+        cheapestCity = `${city.emoji} ${city.name}`;
+      }
+    }
+  }
+
+  return { ...tier, monthly, comfortCount, cheapestCity, cheapestFire };
+});
+
+const siteUrl = 'https://portfolioatlas.org';
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  'itemListElement': [
+    { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': siteUrl },
+    { '@type': 'ListItem', 'position': 2, 'name': 'Retire By Budget', 'item': `${siteUrl}/retire-on/` },
+  ],
+};
+---
+
+<Layout
+  title="How Far Does Your Portfolio Go? FIRE Retirement by Budget"
+  description={`Compare retirement options from $500K to $3M. See how many cities you can retire in at each portfolio level — from ${rows[0].comfortCount} cities at $500K to ${rows[rows.length - 1].comfortCount} at $3M.`}
+  jsonLd={breadcrumbLd}
+>
+  <!-- Hero -->
+  <section class="relative bg-brand-950 text-white overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-brand-950/95 via-brand-900/80 to-brand-800/70"></div>
+    <div class="absolute inset-0 opacity-5">
+      <div class="absolute inset-0" style="background-image: radial-gradient(circle at 25px 25px, white 2px, transparent 0); background-size: 50px 50px;"></div>
+    </div>
+    <div class="relative container-narrow py-16 md:py-20">
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-serif font-bold mb-4">
+        Retire Abroad: How Far Does Your Portfolio Go?
+      </h1>
+      <p class="text-lg text-sand-300 max-w-2xl leading-relaxed">
+        See how many cities worldwide you can retire in at each portfolio level, calculated using the <strong class="text-white">4% safe withdrawal rule</strong>.
+      </p>
+    </div>
+  </section>
+
+  <div class="container-narrow py-12">
+    <!-- Comparison table -->
+    <div class="bg-white rounded-2xl border border-sand-200 shadow-sm overflow-hidden mb-10">
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="border-b-2 border-sand-200 bg-sand-50">
+              <th class="text-left py-3 px-5 font-semibold text-gray-600">Portfolio</th>
+              <th class="text-right py-3 px-5 font-semibold text-gray-600">Monthly Income</th>
+              <th class="text-right py-3 px-5 font-semibold text-gray-600">Cities Available</th>
+              <th class="text-left py-3 px-5 font-semibold text-gray-600 hidden sm:table-cell">Cheapest Option</th>
+            </tr>
+          </thead>
+          <tbody>
+            {rows.map((row) => (
+              <tr class="border-b border-sand-100 hover:bg-sand-50/50 transition-colors">
+                <td class="py-4 px-5">
+                  <a href={`/retire-on/${row.slug}/`} class="font-bold text-brand-700 hover:text-brand-900 transition-colors text-lg">
+                    {row.label}
+                  </a>
+                </td>
+                <td class="text-right py-4 px-5 text-gray-600">
+                  {formatCurrency(row.monthly)}/mo
+                </td>
+                <td class="text-right py-4 px-5">
+                  <span class="font-bold text-brand-700">{row.comfortCount}</span>
+                  <span class="text-gray-400 ml-1">{row.comfortCount === 1 ? 'city' : 'cities'}</span>
+                </td>
+                <td class="py-4 px-5 text-gray-600 hidden sm:table-cell">
+                  {row.comfortCount > 0 ? `${row.cheapestCity} (${formatFireNumber(row.cheapestFire)})` : '—'}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Cards for quick access -->
+    <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-12">
+      {rows.map((row) => (
+        <a
+          href={`/retire-on/${row.slug}/`}
+          class="bg-white rounded-xl border border-sand-200 p-5 hover:border-brand-300 hover:shadow-md transition-all group text-center"
+        >
+          <p class="text-2xl font-bold text-brand-950 group-hover:text-brand-700 transition-colors mb-1">
+            {row.label}
+          </p>
+          <p class="text-sm text-gray-500">
+            {row.comfortCount} {row.comfortCount === 1 ? 'city' : 'cities'} available
+          </p>
+        </a>
+      ))}
+    </div>
+
+    <!-- CTA -->
+    <section>
+      <div class="bg-brand-950 rounded-2xl p-8 text-center text-white">
+        <h2 class="font-serif text-2xl font-bold mb-3">
+          Enter Your Exact Portfolio
+        </h2>
+        <p class="text-sand-300 mb-6 max-w-lg mx-auto">
+          Use the full PortfolioAtlas tool with your exact portfolio value and filter by climate, healthcare, safety, and more.
+        </p>
+        <a
+          href="/"
+          class="inline-flex items-center gap-2 px-6 py-3 bg-white text-brand-700 font-semibold rounded-lg hover:bg-sand-50 transition-colors"
+        >
+          Explore All Cities
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+    </section>
+  </div>
+</Layout>

@@ -1,2 +1,24 @@
 # Redirect old calculator URL to homepage (calculator is now the homepage)
 /calculator  /  301
+
+# Redirect reversed comparison pairs to canonical URL
+/compare/chiang-mai-vs-bangkok  /compare/bangkok-vs-chiang-mai  301
+/compare/porto-vs-lisbon  /compare/lisbon-vs-porto  301
+/compare/cartagena-vs-medellin  /compare/medellin-vs-cartagena  301
+/compare/playa-del-carmen-vs-mexico-city  /compare/mexico-city-vs-playa-del-carmen  301
+/compare/ho-chi-minh-city-vs-da-nang  /compare/da-nang-vs-ho-chi-minh-city  301
+/compare/george-town-vs-kuala-lumpur  /compare/kuala-lumpur-vs-george-town  301
+/compare/prague-vs-budapest  /compare/budapest-vs-prague  301
+/compare/montevideo-vs-buenos-aires  /compare/buenos-aires-vs-montevideo  301
+/compare/san-jose-cr-vs-panama-city  /compare/panama-city-vs-san-jose-cr  301
+/compare/medellin-vs-lisbon  /compare/lisbon-vs-medellin  301
+/compare/medellin-vs-chiang-mai  /compare/chiang-mai-vs-medellin  301
+/compare/kuala-lumpur-vs-bangkok  /compare/bangkok-vs-kuala-lumpur  301
+/compare/budapest-vs-lisbon  /compare/lisbon-vs-budapest  301
+/compare/medellin-vs-mexico-city  /compare/mexico-city-vs-medellin  301
+/compare/chiang-mai-vs-da-nang  /compare/da-nang-vs-chiang-mai  301
+/compare/budapest-vs-tbilisi  /compare/tbilisi-vs-budapest  301
+/compare/medellin-vs-porto  /compare/porto-vs-medellin  301
+/compare/tokyo-vs-singapore  /compare/singapore-vs-tokyo  301
+/compare/paris-vs-london  /compare/london-vs-paris  301
+/compare/london-vs-new-york  /compare/new-york-vs-london  301

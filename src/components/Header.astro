@@ -29,10 +29,19 @@ const searchCities = allCities.map(c => ({ name: c.name, country: c.country, slu
         Explore
       </a>
       <a
+        href="/retire-in"
+        class:list={[
+          'text-sm font-medium transition-colors',
+          currentPath.startsWith('/retire-in') ? 'text-brand-600' : 'text-gray-600 hover:text-brand-600',
+        ]}
+      >
+        By Country
+      </a>
+      <a
         href="/compare"
         class:list={[
           'text-sm font-medium transition-colors',
-          currentPath === '/compare' ? 'text-brand-600' : 'text-gray-600 hover:text-brand-600',
+          currentPath.startsWith('/compare') ? 'text-brand-600' : 'text-gray-600 hover:text-brand-600',
         ]}
       >
         Compare
@@ -130,7 +139,8 @@ const searchCities = allCities.map(c => ({ name: c.name, country: c.country, slu
   <div id="mobile-menu" class="hidden md:hidden border-t border-sand-200 bg-white">
     <div class="container-wide py-4 flex flex-col gap-3">
       <a href="/" class:list={['text-sm font-medium py-1', currentPath === '/' ? 'text-brand-600' : 'text-gray-600 hover:text-brand-600']}>Explore</a>
-      <a href="/compare" class:list={['text-sm font-medium py-1', currentPath === '/compare' ? 'text-brand-600' : 'text-gray-600 hover:text-brand-600']}>Compare</a>
+      <a href="/retire-in" class:list={['text-sm font-medium py-1', currentPath.startsWith('/retire-in') ? 'text-brand-600' : 'text-gray-600 hover:text-brand-600']}>By Country</a>
+      <a href="/compare" class:list={['text-sm font-medium py-1', currentPath.startsWith('/compare') ? 'text-brand-600' : 'text-gray-600 hover:text-brand-600']}>Compare</a>
       <a href="/blog" class:list={['text-sm font-medium py-1', currentPath.startsWith('/blog') ? 'text-brand-600' : 'text-gray-600 hover:text-brand-600']}>Blog</a>
       <a href="/about" class:list={['text-sm font-medium py-1', currentPath === '/about' ? 'text-brand-600' : 'text-gray-600 hover:text-brand-600']}>About</a>
     </div>
@@ -216,11 +226,10 @@ const searchCities = allCities.map(c => ({ name: c.name, country: c.country, slu
 
     function renderDropdown() {
       var q = input.value.toLowerCase().trim();
-      if (q.length < 2) { hideDropdown(); currentMatches = []; highlightIdx = -1; return; }
 
-      currentMatches = cities.filter(function(c) {
+      currentMatches = (!q ? cities.slice() : cities.filter(function(c) {
         return c.name.toLowerCase().includes(q) || c.country.toLowerCase().includes(q);
-      }).sort(function(a, b) { return a.name.localeCompare(b.name); }).slice(0, 8);
+      })).sort(function(a, b) { return a.name.localeCompare(b.name); });
 
       highlightIdx = -1;
 
@@ -289,7 +298,7 @@ const searchCities = allCities.map(c => ({ name: c.name, country: c.country, slu
     });
 
     input.addEventListener('focus', function() {
-      if (input.value.trim().length >= 2) renderDropdown();
+      renderDropdown();
     });
   }
 

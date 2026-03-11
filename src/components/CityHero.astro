@@ -30,7 +30,7 @@ const scoreClass = getFireScoreClass(city.fireScore);
         </div>
 
         <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif font-bold mb-3">
-          {city.name}
+          <span class="sr-only">FIRE Number for </span>{city.name}<span class="sr-only">, {city.country}</span>
         </h1>
 
         <p class="text-xl md:text-2xl text-brand-200 font-serif italic mb-6">

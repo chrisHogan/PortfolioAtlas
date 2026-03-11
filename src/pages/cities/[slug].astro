@@ -126,11 +126,36 @@ const lifestyleDescriptions = ALL_LIFESTYLE_TIERS.map((tier) => ({
 
 // All display tags as entries for iteration
 const tagEntries = Object.entries(displayTags) as [string, string][];
+
+// Country hub link
+const countrySlug = city.country.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+const countryHubUrl = `/retire-in/${countrySlug}/`;
+
+// Portfolio tier link — find the smallest tier >= this city's FIRE number
+const portfolioTiers = [
+  { slug: '500k', label: '$500K', value: 500_000 },
+  { slug: '750k', label: '$750K', value: 750_000 },
+  { slug: '1m', label: '$1M', value: 1_000_000 },
+  { slug: '1-5m', label: '$1.5M', value: 1_500_000 },
+  { slug: '2m', label: '$2M', value: 2_000_000 },
+  { slug: '3m', label: '$3M', value: 3_000_000 },
+];
+const cityFire = fireNumbers.comfortable.fireNumber;
+const nearestTier = portfolioTiers.find((t) => t.value >= cityFire) || portfolioTiers[portfolioTiers.length - 1];
+const portfolioTierUrl = `/retire-on/${nearestTier.slug}/`;
+
+// SEO: title with length check (prefer full format, fallback to short if >70 chars)
+const fullTitle = `${city.name} FIRE Number: How Much You Need to Retire in ${city.name}, ${city.country}`;
+const shortTitle = `Retire in ${city.name}: FIRE Number & Cost`;
+const pageTitle = fullTitle.length + ' | PortfolioAtlas'.length <= 70 ? fullTitle : shortTitle;
+
+// SEO: meta description with all 3 tier FIRE Numbers (target 140-160 chars)
+const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumbers.comfortable.fireNumber)} invested (4% rule). See Lean FIRE (${formatFireNumber(fireNumbers.budget.fireNumber)}), FIRE (${formatFireNumber(fireNumbers.comfortable.fireNumber)}), and Fat FIRE (${formatFireNumber(fireNumbers.luxury.fireNumber)}) cost breakdowns for ${city.name}, ${city.country}.`;
 ---
 
 <Layout
-  title={`Retire in ${city.name} — FIRE Number & Cost of Living`}
-  description={`FIRE Number for ${city.name}: ${formatFireNumber(fireNumbers.budget.fireNumber)} (Lean FIRE) to ${formatFireNumber(fireNumbers.luxury.fireNumber)} (Fat FIRE). See what your portfolio gets you.`}
+  title={pageTitle}
+  description={metaDesc}
   jsonLd={jsonLd}
 >
   <CityHero city={city} />
@@ -143,7 +168,7 @@ const tagEntries = Object.entries(displayTags) as [string, string][];
         <!-- 1. FIRE Numbers Table -->
         <section>
           <h2 class="font-serif text-3xl font-bold text-brand-950 mb-3">
-            FIRE Numbers for {city.name}
+            Lean FIRE, FIRE, and Fat FIRE for {city.name}
           </h2>
           <p class="text-gray-600 leading-relaxed mb-6">
             The portfolio you need to retire in {city.name} at each lifestyle level,
@@ -213,7 +238,7 @@ const tagEntries = Object.entries(displayTags) as [string, string][];
         <!-- 2. Lifestyle Descriptions -->
         <section>
           <h2 class="font-serif text-2xl font-bold text-brand-950 mb-4">
-            What Life Looks Like in {city.name}
+            Cost of Living Breakdown for {city.name}
           </h2>
 
           <div class="space-y-4">
@@ -273,7 +298,7 @@ const tagEntries = Object.entries(displayTags) as [string, string][];
         <!-- 4. City Tags (all expanded) -->
         <section>
           <h2 class="font-serif text-2xl font-bold text-brand-950 mb-4">
-            City Overview
+            Healthcare, Visa &amp; City Overview
           </h2>
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {tagEntries.map(([category, value]) => (
@@ -341,9 +366,33 @@ const tagEntries = Object.entries(displayTags) as [string, string][];
             href="/"
             class="inline-flex items-center gap-2 px-4 py-2.5 bg-white text-brand-700 text-sm font-semibold rounded-lg hover:bg-sand-50 transition-colors w-full justify-center"
           >
-            Explore My FIRE Map
+            Explore All Cities
           </a>
         </section>
+
+        <a
+          href={countryHubUrl}
+          class="flex items-center justify-between bg-white rounded-xl border border-sand-200 p-4 hover:border-brand-300 hover:shadow-sm transition-all group"
+        >
+          <span class="text-sm font-semibold text-gray-700 group-hover:text-brand-700 transition-colors">
+            See all cities in {city.country}
+          </span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-gray-400 group-hover:text-brand-600 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+
+        <a
+          href={portfolioTierUrl}
+          class="flex items-center justify-between bg-white rounded-xl border border-sand-200 p-4 hover:border-brand-300 hover:shadow-sm transition-all group"
+        >
+          <span class="text-sm font-semibold text-gray-700 group-hover:text-brand-700 transition-colors">
+            All cities affordable on {nearestTier.label}
+          </span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-gray-400 group-hover:text-brand-600 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
       </div>
     </div>
   </div>

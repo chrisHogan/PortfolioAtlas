@@ -1,0 +1,380 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { allCities, getCityBySlug } from '../../data/cities/index';
+import { formatCurrency } from '../../data/types';
+import {
+  getCityFireNumber,
+  getLifestyleMonthlyCost,
+  formatFireNumber,
+  getCityDisplayTags,
+  getTagColor,
+} from '../../data/fireNumber';
+
+// Define the 20 comparison pairs (using exact city slugs)
+const COMPARISON_PAIRS: [string, string][] = [
+  ['bangkok', 'chiang-mai'],
+  ['lisbon', 'porto'],
+  ['medellin', 'cartagena'],
+  ['mexico-city', 'playa-del-carmen'],
+  ['da-nang', 'ho-chi-minh-city'],
+  ['kuala-lumpur', 'george-town'],
+  ['budapest', 'prague'],
+  ['buenos-aires', 'montevideo'],
+  ['panama-city', 'san-jose-cr'],
+  ['lisbon', 'medellin'],
+  ['chiang-mai', 'medellin'],
+  ['bangkok', 'kuala-lumpur'],
+  ['lisbon', 'budapest'],
+  ['mexico-city', 'medellin'],
+  ['da-nang', 'chiang-mai'],
+  ['tbilisi', 'budapest'],
+  ['porto', 'medellin'],
+  ['singapore', 'tokyo'],
+  ['london', 'paris'],
+  ['new-york', 'london'],
+];
+
+export function getStaticPaths() {
+  return [
+    ['bangkok', 'chiang-mai'],
+    ['lisbon', 'porto'],
+    ['medellin', 'cartagena'],
+    ['mexico-city', 'playa-del-carmen'],
+    ['da-nang', 'ho-chi-minh-city'],
+    ['kuala-lumpur', 'george-town'],
+    ['budapest', 'prague'],
+    ['buenos-aires', 'montevideo'],
+    ['panama-city', 'san-jose-cr'],
+    ['lisbon', 'medellin'],
+    ['chiang-mai', 'medellin'],
+    ['bangkok', 'kuala-lumpur'],
+    ['lisbon', 'budapest'],
+    ['mexico-city', 'medellin'],
+    ['da-nang', 'chiang-mai'],
+    ['tbilisi', 'budapest'],
+    ['porto', 'medellin'],
+    ['singapore', 'tokyo'],
+    ['london', 'paris'],
+    ['new-york', 'london'],
+  ].map(([a, b]) => ({
+    params: { slug: `${a}-vs-${b}` },
+    props: { slug1: a, slug2: b },
+  }));
+}
+
+const { slug1, slug2 } = Astro.props;
+const city1 = getCityBySlug(slug1)!;
+const city2 = getCityBySlug(slug2)!;
+
+// FIRE numbers
+const c1 = {
+  lean: getCityFireNumber(city1, 'budget'),
+  fire: getCityFireNumber(city1, 'comfortable'),
+  fat: getCityFireNumber(city1, 'luxury'),
+  monthly: getLifestyleMonthlyCost(city1, 'comfortable'),
+  leanMonthly: getLifestyleMonthlyCost(city1, 'budget'),
+  tags: getCityDisplayTags(city1),
+};
+const c2 = {
+  lean: getCityFireNumber(city2, 'budget'),
+  fire: getCityFireNumber(city2, 'comfortable'),
+  fat: getCityFireNumber(city2, 'luxury'),
+  monthly: getLifestyleMonthlyCost(city2, 'comfortable'),
+  leanMonthly: getLifestyleMonthlyCost(city2, 'budget'),
+  tags: getCityDisplayTags(city2),
+};
+
+const cheaper = c1.fire <= c2.fire ? city1 : city2;
+const cheaperFire = Math.min(c1.fire, c2.fire);
+const fireDiff = Math.abs(c1.fire - c2.fire);
+
+// Tag comparisons
+const healthRank: Record<string, number> = { 'Excellent': 4, 'Good': 3, 'Adequate': 2, 'Basic': 1 };
+const safeRank: Record<string, number> = { 'Very safe': 3, 'Safe': 2, 'Exercise caution': 1 };
+const visaRank: Record<string, number> = { 'Easy': 3, 'Moderate': 2, 'Complex': 1 };
+
+const betterHealth = (healthRank[c1.tags.healthcare] || 0) >= (healthRank[c2.tags.healthcare] || 0) ? city1 : city2;
+const betterSafety = (safeRank[c1.tags.safety] || 0) >= (safeRank[c2.tags.safety] || 0) ? city1 : city2;
+const betterVisa = (visaRank[c1.tags.visa] || 0) >= (visaRank[c2.tags.visa] || 0) ? city1 : city2;
+
+// Recommendations
+const cheaperCity = c1.fire <= c2.fire ? { city: city1, data: c1, other: city2, otherData: c2 } : { city: city2, data: c2, other: city1, otherData: c1 };
+
+// Related comparisons
+const pairKey = `${slug1}-vs-${slug2}`;
+const relatedPairs = COMPARISON_PAIRS
+  .filter(([a, b]) => `${a}-vs-${b}` !== pairKey)
+  .filter(([a, b]) => a === slug1 || a === slug2 || b === slug1 || b === slug2)
+  .slice(0, 4);
+
+// Add some cross-region pairs if we don't have enough
+const allRelated = relatedPairs.length >= 3 ? relatedPairs : [
+  ...relatedPairs,
+  ...COMPARISON_PAIRS
+    .filter(([a, b]) => `${a}-vs-${b}` !== pairKey && !relatedPairs.some(([ra, rb]) => ra === a && rb === b))
+    .slice(0, 4 - relatedPairs.length),
+];
+
+// SEO
+const siteUrl = 'https://portfolioatlas.org';
+const pageUrl = `${siteUrl}/compare/${slug1}-vs-${slug2}/`;
+
+const pageTitle = `${city1.name} vs ${city2.name} for FIRE Retirement: Cost & Portfolio Comparison`;
+const metaDesc = `${city1.name} FIRE Number: ${formatFireNumber(c1.fire)}. ${city2.name} FIRE Number: ${formatFireNumber(c2.fire)}. Compare monthly costs, visa requirements, healthcare, and lifestyle for FIRE retirement.`;
+
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  'itemListElement': [
+    { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': siteUrl },
+    { '@type': 'ListItem', 'position': 2, 'name': 'Compare', 'item': `${siteUrl}/compare/` },
+    { '@type': 'ListItem', 'position': 3, 'name': `${city1.name} vs ${city2.name}`, 'item': pageUrl },
+  ],
+};
+
+const faqLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  'mainEntity': [
+    {
+      '@type': 'Question',
+      'name': `Is ${city1.name} or ${city2.name} cheaper for retirement?`,
+      'acceptedAnswer': {
+        '@type': 'Answer',
+        'text': `${cheaper.name} is more affordable for retirement. The FIRE Number for ${city1.name} is ${formatFireNumber(c1.fire)} vs ${formatFireNumber(c2.fire)} for ${city2.name}, a difference of ${formatFireNumber(fireDiff)} in required portfolio.`,
+      },
+    },
+    {
+      '@type': 'Question',
+      'name': `What is the FIRE Number for ${city1.name} vs ${city2.name}?`,
+      'acceptedAnswer': {
+        '@type': 'Answer',
+        'text': `Using the 4% safe withdrawal rule, the FIRE Number for ${city1.name} is ${formatFireNumber(c1.fire)} (${formatCurrency(c1.monthly)}/month) and for ${city2.name} is ${formatFireNumber(c2.fire)} (${formatCurrency(c2.monthly)}/month).`,
+      },
+    },
+  ],
+};
+
+const jsonLd = [breadcrumbLd, faqLd];
+
+// Comparison table rows
+const compRows = [
+  { label: 'Lean FIRE Number', v1: formatFireNumber(c1.lean), v2: formatFireNumber(c2.lean), winner: c1.lean <= c2.lean ? 1 : 2 },
+  { label: 'FIRE Number', v1: formatFireNumber(c1.fire), v2: formatFireNumber(c2.fire), winner: c1.fire <= c2.fire ? 1 : 2 },
+  { label: 'Fat FIRE Number', v1: formatFireNumber(c1.fat), v2: formatFireNumber(c2.fat), winner: c1.fat <= c2.fat ? 1 : 2 },
+  { label: 'Monthly Cost (FIRE)', v1: `${formatCurrency(c1.monthly)}/mo`, v2: `${formatCurrency(c2.monthly)}/mo`, winner: c1.monthly <= c2.monthly ? 1 : 2 },
+  { label: 'Safety', v1: c1.tags.safety, v2: c2.tags.safety, winner: (safeRank[c1.tags.safety] || 0) >= (safeRank[c2.tags.safety] || 0) ? 1 : 2 },
+  { label: 'Healthcare', v1: c1.tags.healthcare, v2: c2.tags.healthcare, winner: (healthRank[c1.tags.healthcare] || 0) >= (healthRank[c2.tags.healthcare] || 0) ? 1 : 2 },
+  { label: 'Climate', v1: c1.tags.climate, v2: c2.tags.climate, winner: 0 },
+  { label: 'English', v1: c1.tags.english, v2: c2.tags.english, winner: 0 },
+  { label: 'Visa', v1: c1.tags.visa, v2: c2.tags.visa, winner: (visaRank[c1.tags.visa] || 0) >= (visaRank[c2.tags.visa] || 0) ? 1 : 2 },
+];
+---
+
+<Layout
+  title={pageTitle}
+  description={metaDesc}
+  jsonLd={jsonLd}
+>
+  <!-- Hero -->
+  <section class="relative bg-brand-950 text-white overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-brand-950/95 via-brand-900/80 to-brand-800/70"></div>
+    <div class="absolute inset-0 opacity-5">
+      <div class="absolute inset-0" style="background-image: radial-gradient(circle at 25px 25px, white 2px, transparent 0); background-size: 50px 50px;"></div>
+    </div>
+    <div class="relative container-narrow py-16 md:py-20">
+      <a href="/compare" class="inline-flex items-center gap-1.5 text-sm text-brand-300 hover:text-white transition-colors mb-6">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+        </svg>
+        All Comparisons
+      </a>
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-serif font-bold mb-4">
+        {city1.name} vs {city2.name}
+        <span class="block text-xl md:text-2xl font-normal text-brand-300 mt-2">FIRE Retirement Cost Comparison</span>
+      </h1>
+      <p class="text-lg text-sand-300 max-w-2xl leading-relaxed">
+        Which city is better for FIRE retirement? A data-driven comparison of portfolio requirements, monthly costs, and lifestyle factors.
+      </p>
+    </div>
+  </section>
+
+  <div class="container-narrow py-12">
+
+    <!-- Side-by-side cards -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+      {[
+        { city: city1, data: c1 },
+        { city: city2, data: c2 },
+      ].map(({ city, data }) => (
+        <div class="bg-white rounded-2xl border border-sand-200 shadow-sm p-6">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="text-3xl">{city.emoji}</span>
+            <div>
+              <h2 class="font-serif text-xl font-bold text-brand-950">
+                <a href={`/cities/${city.slug}/`} class="hover:text-brand-700 transition-colors">{city.name}</a>
+              </h2>
+              <p class="text-sm text-gray-500">{city.country}</p>
+            </div>
+          </div>
+
+          <div class="space-y-3 mb-5">
+            <div class="flex justify-between items-center">
+              <span class="text-sm text-gray-500">Lean FIRE</span>
+              <span class="text-sm font-semibold text-gray-700">{formatFireNumber(data.lean)}</span>
+            </div>
+            <div class="flex justify-between items-center bg-brand-50 rounded-lg px-3 py-2 -mx-3">
+              <span class="text-sm font-semibold text-brand-700">FIRE Number</span>
+              <span class="text-lg font-bold text-brand-700">{formatFireNumber(data.fire)}</span>
+            </div>
+            <div class="flex justify-between items-center">
+              <span class="text-sm text-gray-500">Fat FIRE</span>
+              <span class="text-sm font-semibold text-gray-700">{formatFireNumber(data.fat)}</span>
+            </div>
+            <div class="flex justify-between items-center pt-2 border-t border-sand-100">
+              <span class="text-sm text-gray-500">Monthly Cost</span>
+              <span class="text-sm font-semibold text-gray-700">{formatCurrency(data.monthly)}/mo</span>
+            </div>
+          </div>
+
+          <div class="flex flex-wrap gap-1.5">
+            {Object.entries(data.tags).map(([cat, val]) => (
+              <span class:list={['text-xs font-medium px-2.5 py-1 rounded-full', getTagColor(cat, val as string)]}>
+                {val}
+              </span>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <!-- Winner callouts -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-10">
+      <div class="bg-emerald-50 border border-emerald-200 rounded-xl p-4">
+        <p class="text-sm text-emerald-800">
+          <strong>More affordable:</strong> {cheaper.name} (saves {formatFireNumber(fireDiff)} in required portfolio)
+        </p>
+      </div>
+      <div class="bg-blue-50 border border-blue-200 rounded-xl p-4">
+        <p class="text-sm text-blue-800">
+          <strong>Better healthcare:</strong> {betterHealth.name} ({betterHealth === city1 ? c1.tags.healthcare : c2.tags.healthcare})
+        </p>
+      </div>
+      <div class="bg-amber-50 border border-amber-200 rounded-xl p-4">
+        <p class="text-sm text-amber-800">
+          <strong>Easier visa:</strong> {betterVisa.name} ({betterVisa === city1 ? c1.tags.visa : c2.tags.visa})
+        </p>
+      </div>
+      <div class="bg-indigo-50 border border-indigo-200 rounded-xl p-4">
+        <p class="text-sm text-indigo-800">
+          <strong>Better safety:</strong> {betterSafety.name} ({betterSafety === city1 ? c1.tags.safety : c2.tags.safety})
+        </p>
+      </div>
+    </div>
+
+    <!-- Comparison table -->
+    <section class="mb-12">
+      <h2 class="font-serif text-2xl font-bold text-brand-950 mb-4">
+        Detailed Comparison
+      </h2>
+      <div class="bg-white rounded-2xl border border-sand-200 shadow-sm overflow-hidden">
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm">
+            <thead>
+              <tr class="border-b-2 border-sand-200 bg-sand-50">
+                <th class="text-left py-3 px-5 font-semibold text-gray-600">Category</th>
+                <th class="text-right py-3 px-5 font-semibold text-gray-600">{city1.emoji} {city1.name}</th>
+                <th class="text-right py-3 px-5 font-semibold text-gray-600">{city2.emoji} {city2.name}</th>
+              </tr>
+            </thead>
+            <tbody>
+              {compRows.map((row) => (
+                <tr class="border-b border-sand-100">
+                  <td class="py-3.5 px-5 text-gray-600 font-medium">{row.label}</td>
+                  <td class:list={['text-right py-3.5 px-5 font-semibold', row.winner === 1 ? 'text-brand-700' : 'text-gray-600']}>
+                    {row.v1} {row.winner === 1 && <span class="text-xs">&#x1F451;</span>}
+                  </td>
+                  <td class:list={['text-right py-3.5 px-5 font-semibold', row.winner === 2 ? 'text-brand-700' : 'text-gray-600']}>
+                    {row.v2} {row.winner === 2 && <span class="text-xs">&#x1F451;</span>}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Which should I choose -->
+    <section class="mb-12">
+      <h2 class="font-serif text-2xl font-bold text-brand-950 mb-4">
+        Which City Is Right for Your FIRE Goals?
+      </h2>
+      <div class="space-y-4">
+        <div class="bg-white rounded-xl border border-sand-200 p-5">
+          <p class="text-sm text-gray-700 leading-relaxed">
+            <strong class="text-brand-950">Choose {cheaperCity.city.name} if:</strong> you want to minimize your FIRE Number. At {formatFireNumber(cheaperCity.data.fire)}, it's {formatFireNumber(fireDiff)} cheaper to reach comfortable FIRE here compared to {cheaperCity.other.name}.
+          </p>
+        </div>
+        <div class="bg-white rounded-xl border border-sand-200 p-5">
+          <p class="text-sm text-gray-700 leading-relaxed">
+            <strong class="text-brand-950">Choose {betterHealth.name} if:</strong> healthcare access is a priority — it has {betterHealth === city1 ? c1.tags.healthcare : c2.tags.healthcare} healthcare infrastructure{(healthRank[c1.tags.healthcare] || 0) === (healthRank[c2.tags.healthcare] || 0) ? ' (both cities are comparable)' : ''}.
+          </p>
+        </div>
+        <div class="bg-white rounded-xl border border-sand-200 p-5">
+          <p class="text-sm text-gray-700 leading-relaxed">
+            <strong class="text-brand-950">Choose {betterVisa.name} if:</strong> you want easier residency access — visa difficulty is rated "{betterVisa === city1 ? c1.tags.visa : c2.tags.visa}"{(visaRank[c1.tags.visa] || 0) === (visaRank[c2.tags.visa] || 0) ? ' (both cities have similar visa requirements)' : ''}.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Also compare -->
+    {allRelated.length > 0 && (
+      <section class="mb-12">
+        <h2 class="font-serif text-2xl font-bold text-brand-950 mb-4">
+          Also Compare
+        </h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          {allRelated.map(([a, b]) => {
+            const ca = getCityBySlug(a);
+            const cb = getCityBySlug(b);
+            if (!ca || !cb) return null;
+            return (
+              <a
+                href={`/compare/${a}-vs-${b}/`}
+                class="flex items-center justify-between bg-white rounded-xl border border-sand-200 p-4 hover:border-brand-300 hover:shadow-sm transition-all group"
+              >
+                <span class="text-sm font-semibold text-gray-700 group-hover:text-brand-700 transition-colors">
+                  {ca.emoji} {ca.name} vs {cb.emoji} {cb.name}
+                </span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-gray-400 group-hover:text-brand-600 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+    )}
+
+    <!-- Full city page links -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      {[city1, city2].map((city) => (
+        <a
+          href={`/cities/${city.slug}/`}
+          class="flex items-center gap-3 bg-brand-950 rounded-xl p-5 text-white hover:bg-brand-900 transition-colors group"
+        >
+          <span class="text-2xl">{city.emoji}</span>
+          <div>
+            <p class="font-semibold group-hover:text-brand-200 transition-colors">See full details for {city.name}</p>
+            <p class="text-sm text-sand-400">{city.country}</p>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-auto text-brand-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+      ))}
+    </div>
+  </div>
+</Layout>
