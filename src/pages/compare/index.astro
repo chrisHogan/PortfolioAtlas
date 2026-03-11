@@ -488,7 +488,7 @@ const breadcrumbLd = {
     // Lifestyle descriptions for comfortable tier
     lifestyleContainer.innerHTML = `
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
-        <div class="bg-gradient-to-br from-brand-50 to-sand-50 rounded-2xl border border-brand-100 p-5">
+        <a href="/cities/${a.slug}/" class="bg-gradient-to-br from-brand-50 to-sand-50 rounded-2xl border border-brand-100 p-5 hover:border-brand-300 hover:shadow-md transition-all block">
           <div class="flex items-center gap-2 mb-2">
             <span class="text-lg">${a.emoji}</span>
             <h4 class="font-serif font-bold text-brand-950">${a.name}</h4>
@@ -499,8 +499,8 @@ const breadcrumbLd = {
             <span class="text-[10px] font-medium px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700">${a.tags.safety}</span>
             <span class="text-[10px] font-medium px-2 py-0.5 rounded-full bg-blue-50 text-blue-700">${a.tags.english}</span>
           </div>
-        </div>
-        <div class="bg-gradient-to-br from-brand-50 to-sand-50 rounded-2xl border border-brand-100 p-5">
+        </a>
+        <a href="/cities/${b.slug}/" class="bg-gradient-to-br from-brand-50 to-sand-50 rounded-2xl border border-brand-100 p-5 hover:border-brand-300 hover:shadow-md transition-all block">
           <div class="flex items-center gap-2 mb-2">
             <span class="text-lg">${b.emoji}</span>
             <h4 class="font-serif font-bold text-brand-950">${b.name}</h4>
@@ -511,7 +511,7 @@ const breadcrumbLd = {
             <span class="text-[10px] font-medium px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700">${b.tags.safety}</span>
             <span class="text-[10px] font-medium px-2 py-0.5 rounded-full bg-blue-50 text-blue-700">${b.tags.english}</span>
           </div>
-        </div>
+        </a>
       </div>`;
   }
 
