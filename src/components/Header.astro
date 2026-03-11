@@ -1,5 +1,8 @@
 ---
+import { allCities } from '../data/cities/index';
+
 const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
+const searchCities = allCities.map(c => ({ name: c.name, country: c.country, slug: c.slug, emoji: c.emoji }));
 ---
 
 <header class="bg-white/80 backdrop-blur-md border-b border-sand-200 sticky top-0 z-50">
@@ -52,6 +55,22 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
       >
         About
       </a>
+
+      <!-- Desktop city search -->
+      <div class="relative" id="desktop-search-wrap">
+        <svg xmlns="http://www.w3.org/2000/svg" class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
+        <input
+          type="text"
+          id="desktop-search-input"
+          placeholder="Search cities..."
+          autocomplete="off"
+          class="w-48 focus:w-64 transition-all pl-9 pr-3 py-1.5 text-sm rounded-xl bg-white border border-sand-200 text-gray-800 placeholder-gray-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-500 outline-none"
+        />
+        <div id="desktop-search-dropdown" class="header-search-dropdown hidden"></div>
+      </div>
+
       <span id="header-nw-badge" class="hidden items-center gap-1.5 px-3 py-1 bg-brand-50 border border-brand-200 rounded-full text-xs font-semibold text-brand-700">
         <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
@@ -65,17 +84,47 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
       </span>
     </div>
 
-    <!-- Mobile menu button -->
-    <button
-      id="mobile-menu-btn"
-      class="md:hidden p-2 text-gray-600 hover:text-brand-600"
-      aria-label="Toggle menu"
-    >
-      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-      </svg>
-    </button>
+    <!-- Mobile: search icon + hamburger -->
+    <div class="flex items-center gap-1 md:hidden">
+      <button
+        id="mobile-search-btn"
+        class="p-2 text-gray-600 hover:text-brand-600"
+        aria-label="Search cities"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
+      </button>
+      <button
+        id="mobile-menu-btn"
+        class="p-2 text-gray-600 hover:text-brand-600"
+        aria-label="Toggle menu"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
   </nav>
+
+  <!-- Mobile search panel -->
+  <div id="mobile-search-panel" class="hidden md:hidden border-t border-sand-200 bg-white">
+    <div class="container-wide py-3 relative">
+      <div class="relative">
+        <svg xmlns="http://www.w3.org/2000/svg" class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
+        <input
+          type="text"
+          id="mobile-search-input"
+          placeholder="Search cities..."
+          autocomplete="off"
+          class="w-full pl-9 pr-3 py-2.5 text-sm rounded-xl bg-sand-50 border border-sand-200 text-gray-800 placeholder-gray-400 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none"
+        />
+        <div id="mobile-search-dropdown" class="header-search-dropdown hidden"></div>
+      </div>
+    </div>
+  </div>
 
   <!-- Mobile menu -->
   <div id="mobile-menu" class="hidden md:hidden border-t border-sand-200 bg-white">
@@ -88,12 +137,186 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
   </div>
 </header>
 
-<script>
-  const btn = document.getElementById('mobile-menu-btn');
-  const menu = document.getElementById('mobile-menu');
-  btn?.addEventListener('click', () => {
-    menu?.classList.toggle('hidden');
-  });
+<style is:global>
+  .header-search-dropdown {
+    position: absolute;
+    top: 100%;
+    left: -1px;
+    right: -1px;
+    z-index: 50;
+    max-height: 280px;
+    overflow-y: auto;
+    background: white;
+    border: 2px solid #3b82f6;
+    border-top: 1px solid #e5e7eb;
+    border-radius: 0 0 0.75rem 0.75rem;
+    box-shadow: 0 12px 24px -4px rgba(0,0,0,0.12);
+    margin-top: 0;
+    padding: 4px;
+  }
+  .header-search-dropdown .search-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: background 0.1s;
+  }
+  .header-search-dropdown .search-item .search-city {
+    font-weight: 600;
+    color: #1f2937;
+    font-size: 0.875rem;
+  }
+  .header-search-dropdown .search-item .search-country {
+    margin-left: auto;
+    color: #9ca3af;
+    font-size: 0.75rem;
+    font-weight: 400;
+    white-space: nowrap;
+  }
+  .header-search-dropdown .search-item:hover,
+  .header-search-dropdown .search-item.highlighted {
+    background: #f3f4f6;
+  }
+  /* When dropdown is open, flatten input bottom corners to connect */
+  .search-input-open {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-bottom-color: #e5e7eb !important;
+    border-color: #3b82f6 !important;
+  }
+</style>
+
+<script id="search-cities-data" type="application/json" set:html={JSON.stringify(searchCities)}></script>
+<script is:inline>
+(function() {
+  var dataEl = document.getElementById('search-cities-data');
+  if (!dataEl) return;
+  var cities = JSON.parse(dataEl.textContent);
+
+  function initSearch(inputId, dropdownId) {
+    var input = document.getElementById(inputId);
+    var dropdown = document.getElementById(dropdownId);
+    if (!input || !dropdown) return;
+
+    var highlightIdx = -1;
+    var currentMatches = [];
+
+    function showDropdown() {
+      dropdown.classList.remove('hidden');
+      input.classList.add('search-input-open');
+    }
+
+    function hideDropdown() {
+      dropdown.classList.add('hidden');
+      input.classList.remove('search-input-open');
+    }
+
+    function renderDropdown() {
+      var q = input.value.toLowerCase().trim();
+      if (q.length < 2) { hideDropdown(); currentMatches = []; highlightIdx = -1; return; }
+
+      currentMatches = cities.filter(function(c) {
+        return c.name.toLowerCase().includes(q) || c.country.toLowerCase().includes(q);
+      }).sort(function(a, b) { return a.name.localeCompare(b.name); }).slice(0, 8);
+
+      highlightIdx = -1;
+
+      if (currentMatches.length === 0) {
+        dropdown.innerHTML = '<div style="padding:0.75rem;text-align:center;font-size:0.875rem;color:#9ca3af;">No cities found</div>';
+      } else {
+        dropdown.innerHTML = currentMatches.map(function(c, i) {
+          return '<div class="search-item" data-idx="' + i + '" data-slug="' + c.slug + '">' +
+            '<span>' + c.emoji + '</span>' +
+            '<span class="search-city">' + c.name + '</span>' +
+            '<span class="search-country">' + c.country + '</span>' +
+            '</div>';
+        }).join('');
+
+        dropdown.querySelectorAll('.search-item').forEach(function(item) {
+          item.addEventListener('mousedown', function(e) {
+            e.preventDefault();
+            window.location.href = '/cities/' + item.dataset.slug + '/';
+          });
+        });
+      }
+      showDropdown();
+    }
+
+    function updateHighlight() {
+      var items = dropdown.querySelectorAll('.search-item');
+      for (var i = 0; i < items.length; i++) {
+        if (i === highlightIdx) {
+          items[i].classList.add('highlighted');
+          items[i].scrollIntoView({ block: 'nearest' });
+        } else {
+          items[i].classList.remove('highlighted');
+        }
+      }
+    }
+
+    input.addEventListener('input', renderDropdown);
+
+    input.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        hideDropdown();
+        input.blur();
+        return;
+      }
+      if (currentMatches.length === 0) return;
+
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        if (highlightIdx < currentMatches.length - 1) highlightIdx++;
+        updateHighlight();
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        if (highlightIdx > 0) highlightIdx--;
+        updateHighlight();
+      } else if (e.key === 'Enter') {
+        e.preventDefault();
+        var idx = highlightIdx >= 0 ? highlightIdx : 0;
+        if (currentMatches[idx]) {
+          window.location.href = '/cities/' + currentMatches[idx].slug + '/';
+        }
+      }
+    });
+
+    input.addEventListener('blur', function() {
+      setTimeout(function() { hideDropdown(); }, 200);
+    });
+
+    input.addEventListener('focus', function() {
+      if (input.value.trim().length >= 2) renderDropdown();
+    });
+  }
+
+  // Init both desktop and mobile search
+  initSearch('desktop-search-input', 'desktop-search-dropdown');
+  initSearch('mobile-search-input', 'mobile-search-dropdown');
+
+  // Mobile search toggle
+  var mobileSearchBtn = document.getElementById('mobile-search-btn');
+  var mobileSearchPanel = document.getElementById('mobile-search-panel');
+  var mobileSearchInput = document.getElementById('mobile-search-input');
+  if (mobileSearchBtn && mobileSearchPanel) {
+    mobileSearchBtn.addEventListener('click', function() {
+      var isHidden = mobileSearchPanel.classList.contains('hidden');
+      mobileSearchPanel.classList.toggle('hidden');
+      if (isHidden && mobileSearchInput) {
+        setTimeout(function() { mobileSearchInput.focus(); }, 50);
+      }
+    });
+  }
+
+  // Mobile menu toggle
+  var menuBtn = document.getElementById('mobile-menu-btn');
+  var menu = document.getElementById('mobile-menu');
+  if (menuBtn && menu) {
+    menuBtn.addEventListener('click', function() { menu.classList.toggle('hidden'); });
+  }
 
   // Reset all stored state and navigate to clean homepage
   function resetAll() {
@@ -102,47 +325,51 @@ const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
   }
 
   // Logo click: clear everything and go to clean homepage
-  const logoLink = document.getElementById('logo-link');
-  logoLink?.addEventListener('click', (e) => {
-    e.preventDefault();
-    resetAll();
-  });
+  var logoLink = document.getElementById('logo-link');
+  if (logoLink) {
+    logoLink.addEventListener('click', function(e) {
+      e.preventDefault();
+      resetAll();
+    });
+  }
 
   // Reset button in NW badge
-  const resetBtn = document.getElementById('header-reset-btn');
-  resetBtn?.addEventListener('click', (e) => {
-    e.preventDefault();
-    e.stopPropagation();
-    resetAll();
-  });
+  var resetBtnEl = document.getElementById('header-reset-btn');
+  if (resetBtnEl) {
+    resetBtnEl.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      resetAll();
+    });
+  }
 
   // Show net worth badge from URL or localStorage
-  (function() {
-    const params = new URLSearchParams(window.location.search);
-    let nw = params.get('portfolio') || params.get('nw');
-    if (!nw) {
-      try {
-        const stored = localStorage.getItem('pa_calc');
-        if (stored) { const s = JSON.parse(stored); if (s && s.nw) nw = String(s.nw); }
-      } catch (e) {}
+  var params = new URLSearchParams(window.location.search);
+  var nw = params.get('portfolio') || params.get('nw');
+  if (!nw) {
+    try {
+      var stored = localStorage.getItem('pa_calc');
+      if (stored) { var s = JSON.parse(stored); if (s && s.nw) nw = String(s.nw); }
+    } catch (e) {}
+  }
+  if (nw) {
+    var val = parseInt(nw, 10);
+    if (!isNaN(val) && val > 0) {
+      var badge = document.getElementById('header-nw-badge');
+      var valueEl = document.getElementById('header-nw-value');
+      if (badge && valueEl) {
+        var label;
+        if (val >= 1000000) {
+          var m = val / 1000000;
+          label = m % 1 === 0 ? '$' + m + 'M' : '$' + m.toFixed(1) + 'M';
+        } else {
+          label = '$' + (val / 1000).toFixed(0) + 'K';
+        }
+        valueEl.textContent = label;
+        badge.classList.remove('hidden');
+        badge.classList.add('inline-flex');
+      }
     }
-    if (!nw) return;
-    const val = parseInt(nw, 10);
-    if (isNaN(val) || val <= 0) return;
-
-    const badge = document.getElementById('header-nw-badge');
-    const valueEl = document.getElementById('header-nw-value');
-    if (!badge || !valueEl) return;
-
-    let label: string;
-    if (val >= 1_000_000) {
-      const m = val / 1_000_000;
-      label = m % 1 === 0 ? '$' + m + 'M' : '$' + m.toFixed(1) + 'M';
-    } else {
-      label = '$' + (val / 1000).toFixed(0) + 'K';
-    }
-    valueEl.textContent = label;
-    badge.classList.remove('hidden');
-    badge.classList.add('inline-flex');
-  })();
+  }
+})();
 </script>

@@ -317,6 +317,12 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
           <button data-filter="eng" data-value="" class="filter-btn active px-3 py-1.5 text-xs font-medium rounded-full border border-sand-200 transition-all">Any Language</button>
           <button data-filter="eng" data-value="yes" class="filter-btn px-3 py-1.5 text-xs font-medium rounded-full border border-sand-200 transition-all">English Essential</button>
         </div>
+        <div class="w-px h-5 bg-sand-200"></div>
+        <div class="flex gap-1">
+          <button data-filter="hc" data-value="" class="filter-btn active px-3 py-1.5 text-xs font-medium rounded-full border border-sand-200 transition-all">Any Healthcare</button>
+          <button data-filter="hc" data-value="good" class="filter-btn px-3 py-1.5 text-xs font-medium rounded-full border border-sand-200 transition-all">Good+</button>
+          <button data-filter="hc" data-value="excellent" class="filter-btn px-3 py-1.5 text-xs font-medium rounded-full border border-sand-200 transition-all">Excellent</button>
+        </div>
       </div>
     </div>
 
@@ -475,7 +481,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     sectionVisibleCounts.within_reach = INITIAL_PER_SECTION;
     sectionVisibleCounts.not_affordable = INITIAL_PER_SECTION;
   }
-  const filters = { loc: '', climate: '', eng: '' };
+  const filters = { loc: '', climate: '', eng: '', hc: '' };
 
   // Climate mappings
   const warmClimates = ['Tropical', 'Warm', 'Desert'];
@@ -776,6 +782,8 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     if (filters.climate === 'warm' && !warmClimates.includes(city.tags.climate)) return false;
     if (filters.climate === 'mild' && !mildClimates.includes(city.tags.climate)) return false;
     if (filters.eng === 'yes' && city.tags.english !== 'Widely spoken') return false;
+    if (filters.hc === 'good' && !['Excellent', 'Good'].includes(city.tags.healthcare)) return false;
+    if (filters.hc === 'excellent' && city.tags.healthcare !== 'Excellent') return false;
     return true;
   }
 
@@ -1045,6 +1053,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     if (filters.loc) params.set('region', filters.loc);
     if (filters.climate) params.set('climate', filters.climate);
     if (filters.eng) params.set('eng', filters.eng);
+    if (filters.hc) params.set('hc', filters.hc);
     if (annualSavings > 0) params.set('save', String(annualSavings));
     if (passiveIncome > 0) params.set('passive', String(passiveIncome));
     const qs = params.toString();
@@ -1093,6 +1102,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     if (params.get('region') || params.get('loc')) filters.loc = params.get('region') || params.get('loc');
     if (params.get('climate')) filters.climate = params.get('climate');
     if (params.get('eng')) filters.eng = params.get('eng');
+    if (params.get('hc')) filters.hc = params.get('hc');
 
     // Sync filter button styles
     for (const [key, val] of Object.entries(filters)) {
