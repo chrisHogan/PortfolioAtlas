@@ -2,7 +2,8 @@
 /:path+/  /:path  301
 
 # Redirect old calculator URL to homepage (calculator is now the homepage)
-/calculator  /  301
+/calculator   /  301
+/calculator/  /  301
 
 # Redirect reversed comparison pairs to canonical URL
 /compare/chiang-mai-vs-bangkok  /compare/bangkok-vs-chiang-mai  301
