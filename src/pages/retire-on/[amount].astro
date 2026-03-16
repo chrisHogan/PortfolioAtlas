@@ -75,12 +75,22 @@ const titleCitySuffix = comfortCount > 1
   : comfortCount === 1
     ? `Cities Where It's Possible`
     : `${totalAffordable} ${totalAffordable === 1 ? 'City' : 'Cities'} Within Reach`;
-const pageTitle = `${titlePrefix}: ${titleCitySuffix}`;
+let pageTitle = `${titlePrefix}: ${titleCitySuffix}`;
+
+// SEO override for /retire-on/1m
+if (amount === '1m') {
+  pageTitle = 'Best Countries to Retire With $1 Million';
+}
 
 const top3 = comfortable.slice(0, 3).map((r) => r.city.name).join(', ');
-const metaDesc = comfortCount > 0
+let metaDesc = comfortCount > 0
   ? `A ${label} portfolio generates ${formatCurrency(monthlyIncome)}/month at the 4% rule. See the ${comfortCount} cities worldwide where that's enough for a comfortable retirement — including ${top3}.`
   : `A ${label} portfolio generates ${formatCurrency(monthlyIncome)}/month at the 4% rule. See ${totalAffordable} cities where Lean FIRE is possible on this budget.`;
+
+// SEO overrides for /retire-on/1m
+if (amount === '1m') {
+  metaDesc = 'A $1 million portfolio generates $3,333/month at the 4% rule. See every country and city where $1M is enough to retire comfortably \u2014 ranked by FIRE Number.';
+}
 
 const cheapestComfortable = comfortable[0];
 const cheapestAnswer = cheapestComfortable
@@ -148,10 +158,10 @@ const jsonLd = [breadcrumbLd, faqLd];
         All Portfolio Tiers
       </a>
       <h1 class="text-3xl md:text-4xl lg:text-5xl font-serif font-bold mb-4">
-        Where Can You Retire on {label}?
-        <span class="block text-xl md:text-2xl font-normal text-brand-300 mt-2">
-          {totalAffordable} cities worldwide
-        </span>
+        {amount === '1m'
+          ? `Where Can You Retire on $1 Million? (${totalAffordable} Cities Worldwide)`
+          : <>Where Can You Retire on {label}?<span class="block text-xl md:text-2xl font-normal text-brand-300 mt-2">{totalAffordable} cities worldwide</span></>
+        }
       </h1>
       <p class="text-lg text-sand-300 max-w-2xl leading-relaxed">
         Using the <strong class="text-white">4% safe withdrawal rule</strong>, a {label} portfolio generates <strong class="text-white">{formatCurrency(monthlyIncome)}/month</strong>. Here are every city where that's enough to retire — and where you're close.
