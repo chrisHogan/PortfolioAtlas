@@ -210,11 +210,11 @@
   }
 
   .blog-prose thead {
-    @apply bg-brand-950 text-white;
+    @apply bg-sand-50 border-b-2 border-sand-200;
   }
 
   .blog-prose thead th {
-    @apply px-5 py-3.5 text-left text-sm font-semibold tracking-wide;
+    @apply px-5 py-3.5 text-left text-sm font-semibold tracking-wide text-gray-600;
   }
 
   .blog-prose tbody tr {
