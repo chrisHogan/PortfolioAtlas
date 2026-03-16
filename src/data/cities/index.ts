@@ -114,6 +114,7 @@ import jacksonville from './jacksonville.json';
 import santaFe from './santa-fe.json';
 import fortWorth from './fort-worth.json';
 import sanJoseCA from './san-jose-ca.json';
+import wausau from './wausau.json';
 
 // Oceania
 import sydney from './sydney.json';
@@ -240,6 +241,7 @@ export const allCities: CityData[] = [
   santaFe,
   fortWorth,
   sanJoseCA,
+  wausau,
   // Oceania
   sydney,
   melbourne,
