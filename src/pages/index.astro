@@ -376,7 +376,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
         <label class="block text-sm font-semibold text-gray-700 mb-1">Target city</label>
         <input type="text" id="reverse-city-input" placeholder="Type a city name..." autocomplete="off"
           class="w-full rounded-xl border border-sand-200 px-4 py-2.5 text-sm font-medium text-gray-800 bg-sand-50 focus:ring-2 focus:ring-brand-500 focus:border-brand-500" />
-        <div id="reverse-city-dropdown" class="reverse-dropdown hidden"></div>
+        <div id="reverse-city-dropdown" class="header-search-dropdown hidden"></div>
       </div>
 
       <div class="mb-6">
@@ -461,21 +461,6 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   .city-card:hover {
     box-shadow: 0 8px 24px -4px rgba(0,0,0,0.08);
     border-color: #c4bfb5;
-  }
-  .reverse-dropdown {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    z-index: 50;
-    max-height: 240px;
-    overflow-y: auto;
-    background: #faf8f5;
-    border: 1px solid #e5e0d8;
-    border-radius: 0.75rem;
-    box-shadow: 0 12px 24px -4px rgba(0,0,0,0.12);
-    margin-top: 4px;
-    padding: 4px;
   }
 </style>
 
@@ -1202,39 +1187,98 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
       reverseFlow?.classList.add('hidden');
     });
 
-    // City search
-    reverseInput?.addEventListener('input', () => {
+    // City search — matches header search behavior
+    const reverseAlphabetical = [...cityData].sort((a, b) => a.name.localeCompare(b.name));
+    let reverseHighlightIdx = -1;
+    let reverseFiltered = [];
+
+    function showReverseDropdown() {
+      reverseDropdown?.classList.remove('hidden');
+      reverseInput?.classList.add('search-input-open');
+    }
+
+    function hideReverseDropdown() {
+      reverseDropdown?.classList.add('hidden');
+      reverseInput?.classList.remove('search-input-open');
+    }
+
+    function renderReverseDropdown() {
       const q = reverseInput.value.toLowerCase().trim();
-      if (q.length < 2) { reverseDropdown?.classList.add('hidden'); return; }
-      const matches = cityData.filter((c) =>
+      reverseFiltered = (!q ? reverseAlphabetical : reverseAlphabetical.filter((c) =>
         c.name.toLowerCase().includes(q) || c.country.toLowerCase().includes(q)
-      ).slice(0, 8);
+      ));
+      reverseHighlightIdx = -1;
 
       if (!reverseDropdown) return;
-      if (matches.length === 0) {
-        reverseDropdown.innerHTML = '<div class="text-sm text-gray-400 p-3 text-center">No cities found</div>';
+      if (reverseFiltered.length === 0) {
+        reverseDropdown.innerHTML = '<div style="padding:0.75rem;text-align:center;font-size:0.875rem;color:#9ca3af;">No cities found</div>';
       } else {
-        reverseDropdown.innerHTML = matches.map((c) =>
-          `<div class="flex items-center gap-2 px-3 py-2 text-sm cursor-pointer hover:bg-sand-100 rounded-lg" data-slug="${c.slug}">
-            <span>${c.emoji}</span><span class="font-medium">${c.name}</span><span class="text-gray-400 text-xs">${c.country}</span>
-          </div>`
+        reverseDropdown.innerHTML = reverseFiltered.map((c, i) =>
+          `<div class="search-item" data-slug="${c.slug}" data-idx="${i}">` +
+            `<span>${c.emoji}</span>` +
+            `<span class="search-city">${c.name}</span>` +
+            `<span class="search-country">${c.country}</span>` +
+          `</div>`
         ).join('');
-        reverseDropdown.querySelectorAll('[data-slug]').forEach((item) => {
-          item.addEventListener('click', () => {
+        reverseDropdown.querySelectorAll('.search-item').forEach((item) => {
+          item.addEventListener('mousedown', (e) => {
+            e.preventDefault();
             selectedCity = cityData.find((c) => c.slug === item.dataset.slug);
             if (selectedCity) {
               reverseInput.value = selectedCity.name + ', ' + selectedCity.country;
-              reverseDropdown.classList.add('hidden');
+              hideReverseDropdown();
               updateReverse();
             }
           });
+          item.addEventListener('mouseover', () => {
+            reverseHighlightIdx = parseInt(item.dataset.idx, 10);
+            updateReverseHighlight();
+          });
         });
       }
-      reverseDropdown.classList.remove('hidden');
+      showReverseDropdown();
+    }
+
+    function updateReverseHighlight() {
+      const items = reverseDropdown.querySelectorAll('.search-item');
+      for (let i = 0; i < items.length; i++) {
+        if (i === reverseHighlightIdx) {
+          items[i].classList.add('highlighted');
+          items[i].scrollIntoView({ block: 'nearest' });
+        } else {
+          items[i].classList.remove('highlighted');
+        }
+      }
+    }
+
+    reverseInput?.addEventListener('input', renderReverseDropdown);
+    reverseInput?.addEventListener('focus', renderReverseDropdown);
+
+    reverseInput?.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') { hideReverseDropdown(); reverseInput.blur(); return; }
+      if (reverseFiltered.length === 0) return;
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        if (reverseHighlightIdx < reverseFiltered.length - 1) reverseHighlightIdx++;
+        updateReverseHighlight();
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        if (reverseHighlightIdx > 0) reverseHighlightIdx--;
+        updateReverseHighlight();
+      } else if (e.key === 'Enter') {
+        e.preventDefault();
+        const idx = reverseHighlightIdx >= 0 ? reverseHighlightIdx : 0;
+        if (reverseFiltered[idx]) {
+          selectedCity = reverseFiltered[idx];
+          reverseInput.value = selectedCity.name + ', ' + selectedCity.country;
+          hideReverseDropdown();
+          updateReverse();
+        }
+      }
     });
 
     reverseInput?.addEventListener('blur', () => {
-      setTimeout(() => reverseDropdown?.classList.add('hidden'), 200);
+      setTimeout(() => hideReverseDropdown(), 200);
     });
 
     // Tier selection

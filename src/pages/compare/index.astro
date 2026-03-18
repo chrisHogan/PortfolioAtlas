@@ -124,7 +124,7 @@ const breadcrumbLd = {
               class="w-full rounded-xl border border-sand-200 pl-9 pr-3 py-2.5 text-sm font-medium text-gray-800 bg-white placeholder-gray-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-500 outline-none"
             />
             <input type="hidden" id="city-select-a" />
-            <div id="city-dropdown-a" class="city-dropdown hidden"></div>
+            <div id="city-dropdown-a" class="header-search-dropdown hidden"></div>
           </div>
         </div>
         <div class="text-2xl font-bold text-gray-300 mt-5 hidden sm:block">vs</div>
@@ -142,7 +142,7 @@ const breadcrumbLd = {
               class="w-full rounded-xl border border-sand-200 pl-9 pr-3 py-2.5 text-sm font-medium text-gray-800 bg-white placeholder-gray-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-500 outline-none"
             />
             <input type="hidden" id="city-select-b" />
-            <div id="city-dropdown-b" class="city-dropdown hidden"></div>
+            <div id="city-dropdown-b" class="header-search-dropdown hidden"></div>
           </div>
         </div>
       </div>
@@ -174,56 +174,6 @@ const breadcrumbLd = {
 </Layout>
 
 <style is:global>
-  .city-dropdown {
-    position: absolute;
-    top: 100%;
-    left: -1px;
-    right: -1px;
-    z-index: 50;
-    max-height: 280px;
-    overflow-y: auto;
-    background: white;
-    border: 2px solid #3b82f6;
-    border-top: 1px solid #e5e7eb;
-    border-radius: 0 0 0.75rem 0.75rem;
-    box-shadow: 0 12px 24px -4px rgba(0,0,0,0.12);
-    margin-top: 0;
-    padding: 4px;
-  }
-  .city-dropdown-item {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.5rem 0.75rem;
-    font-size: 0.875rem;
-    cursor: pointer;
-    border-radius: 0.5rem;
-    transition: background 0.1s;
-  }
-  .city-dropdown-item .city-name {
-    font-weight: 600;
-    color: #1f2937;
-    font-size: 0.875rem;
-  }
-  .city-dropdown-item .city-country {
-    margin-left: auto;
-    color: #9ca3af;
-    font-size: 0.75rem;
-    font-weight: 400;
-    white-space: nowrap;
-  }
-  .city-dropdown-item:hover,
-  .city-dropdown-item.highlighted {
-    background: #f3f4f6;
-  }
-  /* Flatten input bottom corners when dropdown is open */
-  .city-input-open {
-    border-bottom-left-radius: 0 !important;
-    border-bottom-right-radius: 0 !important;
-    border-bottom-color: #e5e7eb !important;
-    border-color: #3b82f6 !important;
-  }
-
   #all-cities-matrix table {
     border-collapse: separate;
     border-spacing: 0;
@@ -307,12 +257,12 @@ const breadcrumbLd = {
 
     function showDropdown() {
       dropdown.classList.remove('hidden');
-      input.classList.add('city-input-open');
+      input.classList.add('search-input-open');
     }
 
     function hideDropdown() {
       dropdown.classList.add('hidden');
-      input.classList.remove('city-input-open');
+      input.classList.remove('search-input-open');
     }
 
     function render(list) {
@@ -325,12 +275,26 @@ const breadcrumbLd = {
       }
       if (list.length === 0) { hideDropdown(); return; }
       dropdown.innerHTML = list.map((c, i) =>
-        `<div class="city-dropdown-item" data-slug="${c.slug}" data-index="${i}">` +
+        `<div class="search-item" data-slug="${c.slug}" data-idx="${i}">` +
           `<span>${c.emoji}</span>` +
-          `<span class="city-name">${c.name}</span>` +
-          `<span class="city-country">${c.country}</span>` +
+          `<span class="search-city">${c.name}</span>` +
+          `<span class="search-country">${c.country}</span>` +
         `</div>`
       ).join('');
+
+      // Mouse interaction — match header search behavior
+      dropdown.querySelectorAll('.search-item').forEach((item) => {
+        item.addEventListener('mousedown', (e) => {
+          e.preventDefault();
+          const city = cityMap[item.dataset.slug];
+          if (city) selectCity(city);
+        });
+        item.addEventListener('mouseover', () => {
+          highlightIdx = parseInt(item.dataset.idx, 10);
+          updateHighlight();
+        });
+      });
+
       showDropdown();
     }
 
@@ -339,6 +303,18 @@ const breadcrumbLd = {
       input.value = `${city.emoji} ${city.name}, ${city.country}`;
       hideDropdown();
       renderComparison();
+    }
+
+    function updateHighlight() {
+      const items = dropdown.querySelectorAll('.search-item');
+      for (let i = 0; i < items.length; i++) {
+        if (i === highlightIdx) {
+          items[i].classList.add('highlighted');
+          items[i].scrollIntoView({ block: 'nearest' });
+        } else {
+          items[i].classList.remove('highlighted');
+        }
+      }
     }
 
     input.addEventListener('focus', () => {
@@ -353,25 +329,21 @@ const breadcrumbLd = {
     });
 
     input.addEventListener('keydown', (e) => {
-      if (e.key === 'ArrowDown') { e.preventDefault(); if (filtered.length > 0) { highlightIdx = Math.min(highlightIdx + 1, filtered.length - 1); highlight(); } }
-      else if (e.key === 'ArrowUp') { e.preventDefault(); if (filtered.length > 0) { highlightIdx = Math.max(highlightIdx - 1, 0); highlight(); } }
-      else if (e.key === 'Enter') { e.preventDefault(); if (highlightIdx >= 0 && filtered[highlightIdx]) selectCity(filtered[highlightIdx]); }
-      else if (e.key === 'Escape') { hideDropdown(); input.blur(); }
-    });
-
-    function highlight() {
-      dropdown.querySelectorAll('.city-dropdown-item').forEach((el, i) => {
-        el.classList.toggle('highlighted', i === highlightIdx);
-        if (i === highlightIdx) el.scrollIntoView({ block: 'nearest' });
-      });
-    }
-
-    dropdown.addEventListener('mousedown', (e) => e.preventDefault());
-    dropdown.addEventListener('click', (e) => {
-      const item = e.target.closest('.city-dropdown-item');
-      if (!item) return;
-      const city = cityMap[item.dataset.slug];
-      if (city) selectCity(city);
+      if (e.key === 'Escape') { hideDropdown(); input.blur(); return; }
+      if (filtered.length === 0) return;
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        if (highlightIdx < filtered.length - 1) highlightIdx++;
+        updateHighlight();
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        if (highlightIdx > 0) highlightIdx--;
+        updateHighlight();
+      } else if (e.key === 'Enter') {
+        e.preventDefault();
+        const idx = highlightIdx >= 0 ? highlightIdx : 0;
+        if (filtered[idx]) selectCity(filtered[idx]);
+      }
     });
 
     input.addEventListener('blur', () => { setTimeout(() => hideDropdown(), 200); });

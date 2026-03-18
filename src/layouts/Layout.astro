@@ -23,8 +23,15 @@ const {
 
 const siteTitle = `${title} | PortfolioAtlas`;
 
-// Canonical URL: strip query params and trailing slashes for clean canonical
-const canonicalBase = new URL(Astro.url.pathname, Astro.site || 'https://portfolioatlas.org');
+// Canonical URL: strip query params, trailing slashes, and .html extension for clean canonical
+let canonicalPath = Astro.url.pathname;
+// Strip .html extension (from build.format: 'file')
+if (canonicalPath.endsWith('.html') && canonicalPath !== '/index.html') {
+  canonicalPath = canonicalPath.slice(0, -5);
+} else if (canonicalPath === '/index.html') {
+  canonicalPath = '/';
+}
+const canonicalBase = new URL(canonicalPath, Astro.site || 'https://portfolioatlas.org');
 // Always remove trailing slash (except for root /) to enforce no-trailing-slash canonical
 const canonicalHref = canonicalBase.href.endsWith('/') && canonicalBase.pathname !== '/'
   ? canonicalBase.href.slice(0, -1)
