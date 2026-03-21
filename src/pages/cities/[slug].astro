@@ -212,6 +212,11 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
             </table>
           </div>
 
+          <!-- Passive income note (shown client-side when passive income adjusts values) -->
+          <div id="passive-income-note" class="hidden mt-3 bg-amber-50 border border-amber-200 rounded-lg px-4 py-2.5">
+            <p id="passive-income-note-text" class="text-xs text-amber-800 font-medium"></p>
+          </div>
+
           <div class="flex items-center gap-3 mt-3">
             <span class="text-xs text-gray-400">Cost data: {DATA_RECENCY}</span>
             <span class="text-xs text-gray-300">&middot;</span>
@@ -452,6 +457,26 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
       return '$' + n.toLocaleString();
     }
 
+    function fmtPassiveIncome(n: number): string {
+      if (n >= 1_000_000) return '$' + (n / 1_000_000).toFixed(1).replace(/\.0$/, '') + 'M';
+      if (n >= 1_000) return '$' + Math.round(n / 1_000) + 'K';
+      return '$' + n.toLocaleString();
+    }
+
+    // When passive income is active, relabel the table header and show a note
+    if (userPassiveIncome > 0) {
+      const fnHeader = document.querySelector('#status-header')?.closest('tr')?.querySelectorAll('th');
+      if (fnHeader && fnHeader.length >= 2) {
+        fnHeader[1].textContent = 'Your FIRE Number';
+      }
+      const note = document.getElementById('passive-income-note');
+      const noteText = document.getElementById('passive-income-note-text');
+      if (note && noteText) {
+        noteText.textContent = `Your ${fmtPassiveIncome(userPassiveIncome)}/yr passive income reduces the portfolio you personally need. City base FIRE Numbers shown in cost breakdown below.`;
+        note.classList.remove('hidden');
+      }
+    }
+
     // Update FIRE Numbers table with adjusted values and status indicators
     rows.forEach((row) => {
       const baseFireNumber = parseInt(row.getAttribute('data-fire-number') || '0', 10);
@@ -460,9 +485,10 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
       const statusCell = row.querySelector('.fire-status');
       const fireNumberCell = row.querySelector('td:nth-child(2) span');
 
-      // Update displayed FIRE Number if adjusted
+      // Update displayed FIRE Number if adjusted, and show the base city value
       if (userPassiveIncome > 0 && fireNumberCell) {
-        (fireNumberCell as HTMLElement).textContent = fullyCovered ? '$0' : fmt(adjustedFN);
+        const adjustedText = fullyCovered ? '$0' : fmt(adjustedFN);
+        (fireNumberCell as HTMLElement).innerHTML = adjustedText + `<div class="text-[10px] text-gray-400 font-normal mt-0.5">City: ${fmt(baseFireNumber)}</div>`;
       }
 
       if (!statusCell) return;

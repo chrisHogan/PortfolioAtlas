@@ -30,7 +30,8 @@ const { cityName, country, fireNumbers } = Astro.props;
     })}
   </div>
 
-  <p id="fire-status-portfolio" class="text-xs text-gray-400 mb-5"></p>
+  <p id="fire-status-portfolio" class="text-xs text-gray-400 mb-2"></p>
+  <p id="fire-status-passive-note" class="text-xs text-gray-400 mb-5 hidden"></p>
 
   <div class="relative inline-block">
     <button
@@ -185,6 +186,15 @@ const { cityName, country, fireNumbers } = Astro.props;
     const portfolioLine = document.getElementById('fire-status-portfolio');
     if (portfolioLine) {
       portfolioLine.textContent = `Portfolio: ${fmtPortfolio(portfolio)}`;
+    }
+
+    if (userPassiveIncome > 0) {
+      const passiveNote = document.getElementById('fire-status-passive-note');
+      if (passiveNote) {
+        const fmtPI = userPassiveIncome >= 1000 ? '$' + Math.round(userPassiveIncome / 1000) + 'K' : '$' + userPassiveIncome;
+        passiveNote.textContent = `Adjusted for your ${fmtPI}/yr passive income`;
+        passiveNote.classList.remove('hidden');
+      }
     }
 
     card.classList.remove('hidden');
