@@ -101,3 +101,5 @@ With $1 million and the 4% rule, you have $3,333/month to work with. In at least
 Use our [FIRE Calculator](/) to model your personal numbers across any portfolio size, or [compare cities side-by-side](/compare) to see how these destinations stack up on the metrics that matter to you.
 
 Want a deeper look at a specific city? Start with our spotlight on [why Bangkok is a top FIRE destination](/blog/why-bangkok-is-a-top-fire-destination).
+
+Working with a smaller portfolio? See our [$500K guide](/blog/best-cities-to-retire-on-500k).
