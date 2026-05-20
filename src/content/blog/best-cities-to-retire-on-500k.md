@@ -84,6 +84,8 @@ Beach and mountains on Vietnam's central coast. A modern 1BR near My Khe Beach r
 - **Healthcare:** Adequate. Better cases route to Bangkok or Singapore.
 - **Honest caveat:** English is limited and the expat community is smaller than in Chiang Mai or HCMC.
 
+*Deeper read: [Retiring in Da Nang, Vietnam: FIRE Number, Costs & Expat Life](/blog/retiring-in-da-nang-vietnam).*
+
 ### 7. [Delhi, India](/cities/delhi)
 
 **Monthly cost: $1,850** · **Lean FIRE Number: $555,000**
