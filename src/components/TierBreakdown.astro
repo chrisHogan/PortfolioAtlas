@@ -99,13 +99,7 @@ const tierDescription = TIER_DESCRIPTIONS[lifestyleLabel] || '';
   // Show sustainability signal when user has a portfolio set
   (function() {
     const params = new URLSearchParams(window.location.search);
-    let nw = params.get('nw');
-    if (!nw) {
-      try {
-        const stored = JSON.parse(localStorage.getItem('pa_calc') || '{}');
-        if (stored.nw) nw = String(stored.nw);
-      } catch (e) {}
-    }
+    const nw = params.get('portfolio') || params.get('nw');
     if (!nw) return;
 
     const portfolioValue = parseInt(nw, 10);

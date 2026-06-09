@@ -71,21 +71,6 @@ const { cityName, country, fireNumbers } = Astro.props;
     const saveParam = parseInt(params.get('save') || '0', 10);
     if (saveParam > 0) annualSavings = saveParam;
 
-    if (!portfolio) {
-      try {
-        const stored = JSON.parse(localStorage.getItem('pa_calc') || '{}');
-        if (stored.nw && stored.nw > 0) portfolio = stored.nw;
-        if (!userPassiveIncome && stored.passiveIncome) userPassiveIncome = stored.passiveIncome;
-        if (!annualSavings && stored.save) annualSavings = stored.save;
-      } catch (e) {}
-    } else {
-      try {
-        const stored = JSON.parse(localStorage.getItem('pa_calc') || '{}');
-        if (!userPassiveIncome && stored.passiveIncome) userPassiveIncome = stored.passiveIncome;
-        if (!annualSavings && stored.save) annualSavings = stored.save;
-      } catch (e) {}
-    }
-
     if (!portfolio || portfolio <= 0) return;
 
     const card = document.getElementById('fire-status-card');
