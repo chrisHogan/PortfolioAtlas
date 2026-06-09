@@ -137,15 +137,9 @@ const { compact = false } = Astro.props;
       });
     });
 
-    // Pre-fill from URL or localStorage
+    // Pre-fill from URL only (no persisted state)
     const params = new URLSearchParams(window.location.search);
-    let nw = params.get('nw');
-    if (!nw) {
-      try {
-        const stored = localStorage.getItem('pa_calc');
-        if (stored) { const s = JSON.parse(stored); if (s && s.nw) nw = String(s.nw); }
-      } catch (e) {}
-    }
+    const nw = params.get('portfolio') || params.get('nw');
     if (nw) {
       const val = parseInt(nw, 10);
       if (val > 0) {

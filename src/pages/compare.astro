@@ -158,7 +158,7 @@ const breadcrumbLd = {
   const lifestyleTiers = ['budget', 'comfortable', 'luxury'];
   const lifestyleLabels = { budget: 'Lean FIRE', comfortable: 'FIRE', luxury: 'Fat FIRE' };
 
-  // Portfolio + passive income from URL or localStorage
+  // Portfolio + passive income from the URL only (no persisted state)
   let userPortfolio = null;
   let userPassiveIncome = 0;
   const params = new URLSearchParams(window.location.search);
@@ -166,18 +166,6 @@ const breadcrumbLd = {
   if (nwParam) userPortfolio = parseInt(nwParam, 10) || null;
   const passiveParam = parseInt(params.get('passive') || '0', 10);
   if (passiveParam > 0) userPassiveIncome = passiveParam;
-  if (!userPortfolio) {
-    try {
-      const stored = JSON.parse(localStorage.getItem('pa_calc') || '{}');
-      if (stored.nw && stored.nw > 0) userPortfolio = stored.nw;
-      if (!userPassiveIncome && stored.passiveIncome) userPassiveIncome = stored.passiveIncome;
-    } catch (e) {}
-  } else if (!userPassiveIncome) {
-    try {
-      const stored = JSON.parse(localStorage.getItem('pa_calc') || '{}');
-      if (stored.passiveIncome) userPassiveIncome = stored.passiveIncome;
-    } catch (e) {}
-  }
 
   function adjustFN(base) {
     if (!userPassiveIncome || userPassiveIncome <= 0) return base;

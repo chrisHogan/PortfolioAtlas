@@ -410,7 +410,7 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
     let portfolio = 0;
     let userPassiveIncome = 0;
 
-    // Read portfolio and passive income from URL or localStorage
+    // Read portfolio and passive income from the URL only (no persisted state)
     const params = new URLSearchParams(window.location.search);
     const nwParam = params.get('portfolio') || params.get('nw');
     if (nwParam) {
@@ -418,19 +418,6 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
     }
     const passiveParam = parseInt(params.get('passive') || '0', 10);
     if (passiveParam > 0) userPassiveIncome = passiveParam;
-
-    if (!portfolio) {
-      try {
-        const stored = JSON.parse(localStorage.getItem('pa_calc') || '{}');
-        if (stored.nw && stored.nw > 0) portfolio = stored.nw;
-        if (!userPassiveIncome && stored.passiveIncome) userPassiveIncome = stored.passiveIncome;
-      } catch (e) {}
-    } else if (!userPassiveIncome) {
-      try {
-        const stored = JSON.parse(localStorage.getItem('pa_calc') || '{}');
-        if (stored.passiveIncome) userPassiveIncome = stored.passiveIncome;
-      } catch (e) {}
-    }
 
     function adjustFN(base: number): number {
       if (!userPassiveIncome || userPassiveIncome <= 0) return base;

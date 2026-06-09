@@ -77,11 +77,6 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
         Enter your portfolio. See where in the world you can retire. Understand what that life looks like.
       </p>
 
-      <!-- Returning user message -->
-      <div id="welcome-back" class="hidden mb-6">
-        <p class="text-sm text-brand-300">Welcome back — we've saved your last portfolio value.</p>
-      </div>
-
       <!-- 1-2-3 Flow Indicator -->
       <div class="max-w-2xl mx-auto mb-12">
         <!-- Desktop -->
@@ -546,7 +541,6 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   const citySections = document.getElementById('city-sections');
   const noCities = document.getElementById('no-cities');
   const summaryEl = document.getElementById('results-summary');
-  const welcomeBack = document.getElementById('welcome-back');
 
   // ─── Optional Toggle ───
   const optionalToggle = document.getElementById('optional-toggle');
@@ -562,7 +556,6 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
       optionalInputs.classList.add('hidden');
       optionalChevron.style.transform = '';
     }
-    try { localStorage.setItem('pa_optional_open', open ? '1' : '0'); } catch (e) {}
   }
 
   optionalToggle?.addEventListener('click', () => {
@@ -726,7 +719,6 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     annualSavings = parseInt((savingsInput?.value || '').replace(/[^0-9]/g, ''), 10) || 0;
     passiveIncome = parseInt((passiveInput?.value || '').replace(/[^0-9]/g, ''), 10) || 0;
     if (typeof gtag === 'function') gtag('event', 'portfolio_entered', { 'portfolio_amount': portfolio });
-    saveState();
     resetSectionCounts();
     renderResults();
     resultsSection.scrollIntoView({ behavior: 'smooth' });
@@ -1041,22 +1033,35 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     });
   }
 
-  // ─── URL & State Persistence ───
+  // ─── State Propagation (no persistence) ───
+  // Entered values live only in memory + the address bar of explicitly-shared
+  // links. They are never written to localStorage, and the homepage never seeds
+  // its own URL — so a refresh or a return visit starts from a clean slate.
   const tierToUrlKey = { budget: 'leanfire', comfortable: 'fire', luxury: 'fatfire' };
   const urlKeyToTier = { leanfire: 'budget', fire: 'comfortable', fatfire: 'luxury' };
 
-  function saveState() {
-    try {
-      localStorage.setItem('pa_calc', JSON.stringify({
-        nw: portfolio,
-        lifestyle: lifestyle,
-        save: annualSavings || undefined,
-        passiveIncome: passiveIncome || undefined,
-      }));
-    } catch (e) {}
+  // Query string (portfolio + passive) carried onto internal links so the
+  // current numbers travel with the user when they navigate to another page.
+  function carryQuery() {
+    const p = new URLSearchParams();
+    if (portfolio > 0) p.set('portfolio', String(portfolio));
+    if (passiveIncome > 0) p.set('passive', String(passiveIncome));
+    const qs = p.toString();
+    return qs ? '?' + qs : '';
   }
 
-  function updateURL() {
+  // Append the carry query to all internal links (skip hash/external links).
+  function decorateInternalLinks() {
+    const qs = carryQuery();
+    document.querySelectorAll('a[href^="/"]').forEach((a) => {
+      const href = a.getAttribute('href');
+      if (!href || href.startsWith('//') || href.includes('#')) return;
+      a.setAttribute('href', href.split('?')[0] + qs);
+    });
+  }
+
+  // Build a full shareable URL on demand (used by the Share button only).
+  function buildShareUrl() {
     const params = new URLSearchParams();
     if (portfolio > 0) params.set('portfolio', String(portfolio));
     if (lifestyle !== 'comfortable') params.set('tier', tierToUrlKey[lifestyle] || lifestyle);
@@ -1067,46 +1072,30 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     if (annualSavings > 0) params.set('save', String(annualSavings));
     if (passiveIncome > 0) params.set('passive', String(passiveIncome));
     const qs = params.toString();
-    history.replaceState(null, '', '/' + (qs ? '?' + qs : ''));
-    saveState();
+    return window.location.origin + '/' + (qs ? '?' + qs : '');
   }
 
-  // ─── Restore from URL / localStorage ───
+  // Called at the end of each render (in place of the old URL/localStorage
+  // write). Keeps internal links in sync with the current numbers.
+  function updateURL() {
+    decorateInternalLinks();
+  }
+
+  // ─── Restore from URL only (shared/bookmarked links) ───
+  // Values are intentionally NOT persisted to localStorage, so a refresh of a
+  // clean homepage URL or a return visit always starts from a blank slate.
   function restore() {
     const params = new URLSearchParams(window.location.search);
     // Support new params (portfolio, tier, region) with fallback to old (nw, lifestyle, loc)
     let nw = parseInt(params.get('portfolio') || params.get('nw') || '0', 10);
     let tierParam = params.get('tier') || '';
     let ls = tierParam ? (urlKeyToTier[tierParam] || '') : (params.get('lifestyle') || '');
-    let restored = false;
-    const hasUrlParams = params.get('portfolio') || params.get('nw');
 
     // Restore annual savings and passive income from URL
     const saveParam = parseInt(params.get('save') || '0', 10);
     if (saveParam > 0) annualSavings = saveParam;
     const passiveParam = parseInt(params.get('passive') || '0', 10);
     if (passiveParam > 0) passiveIncome = passiveParam;
-
-    // Try localStorage if no URL params
-    if (!nw) {
-      try {
-        const stored = JSON.parse(localStorage.getItem('pa_calc') || '{}');
-        if (stored.nw && stored.nw > 0) {
-          nw = stored.nw;
-          if (!ls && stored.lifestyle) ls = stored.lifestyle;
-          if (!annualSavings && stored.save) annualSavings = stored.save;
-          if (!passiveIncome && stored.passiveIncome) passiveIncome = stored.passiveIncome;
-          restored = true;
-        }
-      } catch (e) {}
-    } else {
-      // URL had portfolio — check localStorage for any missing optional fields
-      try {
-        const stored = JSON.parse(localStorage.getItem('pa_calc') || '{}');
-        if (!annualSavings && stored.save) annualSavings = stored.save;
-        if (!passiveIncome && stored.passiveIncome) passiveIncome = stored.passiveIncome;
-      } catch (e) {}
-    }
 
     // Restore filters from URL
     if (params.get('region') || params.get('loc')) filters.loc = params.get('region') || params.get('loc');
@@ -1153,11 +1142,6 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     if (nw > 0) {
       portfolio = nw;
       portfolioInput.value = nw.toLocaleString('en-US');
-
-      if (restored) {
-        welcomeBack?.classList.remove('hidden');
-      }
-
       renderResults();
     } else {
       fallbackSection?.classList.remove('hidden');
@@ -1322,7 +1306,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   const shareBtn = document.getElementById('share-btn');
   const toast = document.getElementById('toast');
   shareBtn?.addEventListener('click', () => {
-    navigator.clipboard.writeText(window.location.href).then(() => {
+    navigator.clipboard.writeText(buildShareUrl()).then(() => {
       if (toast) {
         toast.classList.remove('hidden');
         setTimeout(() => toast.classList.add('hidden'), 2000);
