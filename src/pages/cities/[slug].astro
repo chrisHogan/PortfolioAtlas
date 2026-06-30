@@ -206,6 +206,7 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
                       </td>
                       <td class="text-right py-4 px-5">
                         <span class="text-sm text-gray-600">{formatCurrency(data.monthlyCost)}/mo</span>
+                        <div class="wd-rate text-[10px] text-gray-400 font-normal mt-0.5 hidden"></div>
                       </td>
                       <td class="text-right py-4 px-5 hidden sm:table-cell fire-status"></td>
                     </tr>
@@ -558,6 +559,16 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
           ? `<div class="text-[10px] text-gray-400 font-normal mt-0.5">City: ${fmt(cityFireNumber)}</div>`
           : '';
         (fireNumberCell as HTMLElement).innerHTML = adjustedText + sub;
+      }
+
+      // Show the ACTUAL withdrawal rate (what the backtest tests) so the verdict
+      // reads clearly even when the rule target is set very conservatively.
+      const wdRateEl = row.querySelector('.wd-rate');
+      if (wdRateEl) {
+        const netAnnual = Math.max(0, monthlyCost * 12 - userPassiveIncome);
+        const wr = portfolio > 0 ? (netAnnual / portfolio) * 100 : 0;
+        (wdRateEl as HTMLElement).textContent = `${wr.toFixed(1)}% of your portfolio`;
+        wdRateEl.classList.remove('hidden');
       }
 
       if (!statusCell) return;
