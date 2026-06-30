@@ -1,0 +1,939 @@
+{
+"manifest": {
+"source": "Robert Shiller US Stock Market Data, via Datahub 'datasets/s-and-p-500'",
+"sourceUrl": "https://raw.githubusercontent.com/datasets/s-and-p-500/main/data/data.csv",
+"originalSource": "Robert J. Shiller, http://www.econ.yale.edu/~shiller/data.htm (CPI, S&P price/dividend, 10yr GS10); recent months extended via FRED",
+"retrievalDate": "2026-06-29",
+"license": "ODC-PDDL-1.0 (Open Data Commons Public Domain Dedication and License) \u2014 public domain, commercial use permitted",
+"licenseUrl": "https://opendatacommons.org/licenses/pddl/",
+"credit": "Data prepared by Robert Shiller and made publicly available.",
+"granularity": "annual (January-to-January), nominal",
+"columns": {
+"year": "Calendar start year Y of the 1-year return window (Jan Y -> Jan Y+1)",
+"stockReturn": "Nominal total return of US large-cap (S&P Composite): (price[Y+1] + dividend[Y]) / price[Y] - 1, decimal",
+"bondReturn": "Nominal total return of a constant-maturity 10yr US Treasury, reconstructed from the GS10 yield: buy a par bond (coupon = yield[Y]); one year later reprice as a 9yr bond at yield[Y+1]; return = coupon + price change, decimal",
+"cpiInflation": "Realized CPI-U inflation Jan Y -> Jan Y+1: cpi[Y+1]/cpi[Y] - 1, decimal"
+},
+"bondMethod": "Standard constant-maturity reconstruction (par bond, annual roll). 10yr yields only; no callable/credit adjustments.",
+"notes": "Trimmed to years where Shiller price, dividend, CPI and 10yr yield are all present. Recent FRED-extended months (price-only) are excluded."
+},
+"coverage": {
+"firstYear": 1871,
+"lastYear": 2022,
+"count": 152
+},
+"data": [
+{
+"year": 1871,
+"stockReturn": 0.153153,
+"bondReturn": 0.050402,
+"cpiInflation": 0.015249
+},
+{
+"year": 1872,
+"stockReturn": 0.105617,
+"bondReturn": 0.038359,
+"cpiInflation": 0.022925
+},
+{
+"year": 1873,
+"stockReturn": -0.028865,
+"bondReturn": 0.063458,
+"cpiInflation": -0.044049
+},
+{
+"year": 1874,
+"stockReturn": 0.045064,
+"bondReturn": 0.083043,
+"cpiInflation": -0.069523
+},
+{
+"year": 1875,
+"stockReturn": 0.054515,
+"bondReturn": 0.085449,
+"cpiInflation": -0.057341
+},
+{
+"year": 1876,
+"stockReturn": -0.136771,
+"bondReturn": 0.056099,
+"cpiInflation": 0.008295
+},
+{
+"year": 1877,
+"stockReturn": -0.002592,
+"bondReturn": 0.052554,
+"cpiInflation": -0.156307
+},
+{
+"year": 1878,
+"stockReturn": 0.159754,
+"bondReturn": 0.052234,
+"cpiInflation": -0.102925
+},
+{
+"year": 1879,
+"stockReturn": 0.478128,
+"bondReturn": 0.057057,
+"cpiInflation": 0.206522
+},
+{
+"year": 1880,
+"stockReturn": 0.251468,
+"bondReturn": 0.064322,
+"cpiInflation": -0.057057
+},
+{
+"year": 1881,
+"stockReturn": -0.000808,
+"bondReturn": 0.043053,
+"cpiInflation": 0.080679
+},
+{
+"year": 1882,
+"stockReturn": 0.035473,
+"bondReturn": 0.035444,
+"cpiInflation": -0.018664
+},
+{
+"year": 1883,
+"stockReturn": -0.053219,
+"bondReturn": 0.037057,
+"cpiInflation": -0.076076
+},
+{
+"year": 1884,
+"stockReturn": -0.118089,
+"bondReturn": 0.043801,
+"cpiInflation": -0.102925
+},
+{
+"year": 1885,
+"stockReturn": 0.29816,
+"bondReturn": 0.04668,
+"cpiInflation": -0.035024
+},
+{
+"year": 1886,
+"stockReturn": 0.118904,
+"bondReturn": 0.022299,
+"cpiInflation": 0.0
+},
+{
+"year": 1887,
+"stockReturn": -0.008513,
+"bondReturn": 0.023877,
+"cpiInflation": 0.047559
+},
+{
+"year": 1888,
+"stockReturn": 0.033578,
+"bondReturn": 0.053476,
+"cpiInflation": -0.0454
+},
+{
+"year": 1889,
+"stockReturn": 0.070458,
+"bondReturn": 0.036791,
+"cpiInflation": -0.047559
+},
+{
+"year": 1890,
+"stockReturn": -0.05948,
+"bondReturn": 0.019068,
+"cpiInflation": 0.024967
+},
+{
+"year": 1891,
+"stockReturn": 0.183884,
+"bondReturn": 0.037715,
+"cpiInflation": -0.060256
+},
+{
+"year": 1892,
+"stockReturn": 0.058385,
+"bondReturn": 0.024719,
+"cpiInflation": 0.077763
+},
+{
+"year": 1893,
+"stockReturn": -0.187023,
+"bondReturn": 0.041269,
+"cpiInflation": -0.132911
+},
+{
+"year": 1894,
+"stockReturn": 0.040903,
+"bondReturn": 0.055292,
+"cpiInflation": -0.040876
+},
+{
+"year": 1895,
+"stockReturn": 0.053718,
+"bondReturn": 0.023998,
+"cpiInflation": 0.013699
+},
+{
+"year": 1896,
+"stockReturn": 0.0326,
+"bondReturn": 0.051286,
+"cpiInflation": -0.028529
+},
+{
+"year": 1897,
+"stockReturn": 0.199052,
+"bondReturn": 0.03783,
+"cpiInflation": 0.029366
+},
+{
+"year": 1898,
+"stockReturn": 0.283135,
+"bondReturn": 0.052875,
+"cpiInflation": 0.015015
+},
+{
+"year": 1899,
+"stockReturn": 0.036316,
+"bondReturn": 0.027134,
+"cpiInflation": 0.168639
+},
+{
+"year": 1900,
+"stockReturn": 0.194672,
+"bondReturn": 0.035375,
+"cpiInflation": -0.024051
+},
+{
+"year": 1901,
+"stockReturn": 0.191188,
+"bondReturn": 0.024823,
+"cpiInflation": 0.024643
+},
+{
+"year": 1902,
+"stockReturn": 0.081379,
+"bondReturn": 0.022586,
+"cpiInflation": 0.096203
+},
+{
+"year": 1903,
+"stockReturn": -0.171194,
+"bondReturn": 0.025357,
+"cpiInflation": -0.04388
+},
+{
+"year": 1904,
+"stockReturn": 0.313877,
+"bondReturn": 0.027908,
+"cpiInflation": 0.022947
+},
+{
+"year": 1905,
+"stockReturn": 0.207794,
+"bondReturn": 0.038616,
+"cpiInflation": 0.0
+},
+{
+"year": 1906,
+"stockReturn": 0.002614,
+"bondReturn": 0.016184,
+"cpiInflation": 0.044864
+},
+{
+"year": 1907,
+"stockReturn": -0.241287,
+"bondReturn": 0.021741,
+"cpiInflation": -0.021469
+},
+{
+"year": 1908,
+"stockReturn": 0.38638,
+"bondReturn": 0.046969,
+"cpiInflation": 0.032333
+},
+{
+"year": 1909,
+"stockReturn": 0.157097,
+"bondReturn": 0.026401,
+"cpiInflation": 0.107383
+},
+{
+"year": 1910,
+"stockReturn": -0.036458,
+"bondReturn": 0.033891,
+"cpiInflation": -0.067677
+},
+{
+"year": 1911,
+"stockReturn": 0.03452,
+"bondReturn": 0.03757,
+"cpiInflation": -0.010834
+},
+{
+"year": 1912,
+"stockReturn": 0.07136,
+"bondReturn": 0.008045,
+"cpiInflation": 0.073384
+},
+{
+"year": 1913,
+"stockReturn": -0.048387,
+"bondReturn": 0.065906,
+"cpiInflation": 0.020408
+},
+{
+"year": 1914,
+"stockReturn": -0.049582,
+"bondReturn": 0.035716,
+"cpiInflation": 0.01
+},
+{
+"year": 1915,
+"stockReturn": 0.303583,
+"bondReturn": 0.056495,
+"cpiInflation": 0.029703
+},
+{
+"year": 1916,
+"stockReturn": 0.072969,
+"bondReturn": 0.027256,
+"cpiInflation": 0.125
+},
+{
+"year": 1917,
+"stockReturn": -0.186959,
+"bondReturn": 0.017664,
+"cpiInflation": 0.196581
+},
+{
+"year": 1918,
+"stockReturn": 0.183079,
+"bondReturn": 0.050788,
+"cpiInflation": 0.178571
+},
+{
+"year": 1919,
+"stockReturn": 0.197032,
+"bondReturn": 0.011549,
+"cpiInflation": 0.169697
+},
+{
+"year": 1920,
+"stockReturn": -0.13496,
+"bondReturn": 0.041205,
+"cpiInflation": -0.015544
+},
+{
+"year": 1921,
+"stockReturn": 0.097862,
+"bondReturn": 0.108844,
+"cpiInflation": -0.110526
+},
+{
+"year": 1922,
+"stockReturn": 0.282767,
+"bondReturn": 0.038611,
+"cpiInflation": -0.005917
+},
+{
+"year": 1923,
+"stockReturn": 0.049629,
+"bondReturn": 0.065845,
+"cpiInflation": 0.029762
+},
+{
+"year": 1924,
+"stockReturn": 0.258403,
+"bondReturn": 0.055566,
+"cpiInflation": 0.0
+},
+{
+"year": 1925,
+"stockReturn": 0.248034,
+"bondReturn": 0.052181,
+"cpiInflation": 0.034682
+},
+{
+"year": 1926,
+"stockReturn": 0.107312,
+"bondReturn": 0.062858,
+"cpiInflation": -0.022346
+},
+{
+"year": 1927,
+"stockReturn": 0.360201,
+"bondReturn": 0.034167,
+"cpiInflation": -0.011429
+},
+{
+"year": 1928,
+"stockReturn": 0.462447,
+"bondReturn": 0.012854,
+"cpiInflation": -0.011561
+},
+{
+"year": 1929,
+"stockReturn": -0.092116,
+"bondReturn": 0.059814,
+"cpiInflation": 0.0
+},
+{
+"year": 1930,
+"stockReturn": -0.219217,
+"bondReturn": 0.029068,
+"cpiInflation": -0.070175
+},
+{
+"year": 1931,
+"stockReturn": -0.420106,
+"bondReturn": 0.007747,
+"cpiInflation": -0.100629
+},
+{
+"year": 1932,
+"stockReturn": -0.050205,
+"bondReturn": 0.065197,
+"cpiInflation": -0.097902
+},
+{
+"year": 1933,
+"stockReturn": 0.556417,
+"bondReturn": 0.047811,
+"cpiInflation": 0.023256
+},
+{
+"year": 1934,
+"stockReturn": -0.07962,
+"bondReturn": 0.057148,
+"cpiInflation": 0.030303
+},
+{
+"year": 1935,
+"stockReturn": 0.534557,
+"bondReturn": 0.038981,
+"cpiInflation": 0.014706
+},
+{
+"year": 1936,
+"stockReturn": 0.313227,
+"bondReturn": 0.024129,
+"cpiInflation": 0.021739
+},
+{
+"year": 1937,
+"stockReturn": -0.31552,
+"bondReturn": 0.036338,
+"cpiInflation": 0.007092
+},
+{
+"year": 1938,
+"stockReturn": 0.175361,
+"bondReturn": 0.041648,
+"cpiInflation": -0.014085
+},
+{
+"year": 1939,
+"stockReturn": 0.025067,
+"bondReturn": 0.035722,
+"cpiInflation": -0.007143
+},
+{
+"year": 1940,
+"stockReturn": -0.091599,
+"bondReturn": 0.043373,
+"cpiInflation": 0.014388
+},
+{
+"year": 1941,
+"stockReturn": -0.089731,
+"bondReturn": -0.021228,
+"cpiInflation": 0.113475
+},
+{
+"year": 1942,
+"stockReturn": 0.20866,
+"bondReturn": 0.023802,
+"cpiInflation": 0.076433
+},
+{
+"year": 1943,
+"stockReturn": 0.232904,
+"bondReturn": 0.023902,
+"cpiInflation": 0.029586
+},
+{
+"year": 1944,
+"stockReturn": 0.190155,
+"bondReturn": 0.033622,
+"cpiInflation": 0.022989
+},
+{
+"year": 1945,
+"stockReturn": 0.383494,
+"bondReturn": 0.03826,
+"cpiInflation": 0.022472
+},
+{
+"year": 1946,
+"stockReturn": -0.118942,
+"bondReturn": 0.017061,
+"cpiInflation": 0.181319
+},
+{
+"year": 1947,
+"stockReturn": 0.021915,
+"bondReturn": 0.007312,
+"cpiInflation": 0.102326
+},
+{
+"year": 1948,
+"stockReturn": 0.092605,
+"bondReturn": 0.034856,
+"cpiInflation": 0.012658
+},
+{
+"year": 1949,
+"stockReturn": 0.16059,
+"bondReturn": 0.022296,
+"cpiInflation": -0.020833
+},
+{
+"year": 1950,
+"stockReturn": 0.324645,
+"bondReturn": 0.003338,
+"cpiInflation": 0.080851
+},
+{
+"year": 1951,
+"stockReturn": 0.210593,
+"bondReturn": 0.017006,
+"cpiInflation": 0.043307
+},
+{
+"year": 1952,
+"stockReturn": 0.140692,
+"bondReturn": 0.015028,
+"cpiInflation": 0.003774
+},
+{
+"year": 1953,
+"stockReturn": 0.026356,
+"bondReturn": 0.056224,
+"cpiInflation": 0.011278
+},
+{
+"year": 1954,
+"stockReturn": 0.455486,
+"bondReturn": 0.014491,
+"cpiInflation": -0.007435
+},
+{
+"year": 1955,
+"stockReturn": 0.283614,
+"bondReturn": 0.003415,
+"cpiInflation": 0.003745
+},
+{
+"year": 1956,
+"stockReturn": 0.066818,
+"bondReturn": -0.013682,
+"cpiInflation": 0.029851
+},
+{
+"year": 1957,
+"stockReturn": -0.056644,
+"bondReturn": 0.063288,
+"cpiInflation": 0.036232
+},
+{
+"year": 1958,
+"stockReturn": 0.395995,
+"bondReturn": -0.038186,
+"cpiInflation": 0.013986
+},
+{
+"year": 1959,
+"stockReturn": 0.074913,
+"bondReturn": -0.010181,
+"cpiInflation": 0.010345
+},
+{
+"year": 1960,
+"stockReturn": 0.06129,
+"bondReturn": 0.113111,
+"cpiInflation": 0.017065
+},
+{
+"year": 1961,
+"stockReturn": 0.189161,
+"bondReturn": 0.02062,
+"cpiInflation": 0.006711
+},
+{
+"year": 1962,
+"stockReturn": -0.028715,
+"bondReturn": 0.059533,
+"cpiInflation": 0.013333
+},
+{
+"year": 1963,
+"stockReturn": 0.207911,
+"bondReturn": 0.013215,
+"cpiInflation": 0.016447
+},
+{
+"year": 1964,
+"stockReturn": 0.156529,
+"bondReturn": 0.040226,
+"cpiInflation": 0.009709
+},
+{
+"year": 1965,
+"stockReturn": 0.112827,
+"bondReturn": 0.011522,
+"cpiInflation": 0.019231
+},
+{
+"year": 1966,
+"stockReturn": -0.065688,
+"bondReturn": 0.048273,
+"cpiInflation": 0.034591
+},
+{
+"year": 1967,
+"stockReturn": 0.159503,
+"bondReturn": -0.020159,
+"cpiInflation": 0.036474
+},
+{
+"year": 1968,
+"stockReturn": 0.104061,
+"bondReturn": 0.020672,
+"cpiInflation": 0.043988
+},
+{
+"year": 1969,
+"stockReturn": -0.084412,
+"bondReturn": -0.049882,
+"cpiInflation": 0.061798
+},
+{
+"year": 1970,
+"stockReturn": 0.07024,
+"bondReturn": 0.182234,
+"cpiInflation": 0.05291
+},
+{
+"year": 1971,
+"stockReturn": 0.138411,
+"bondReturn": 0.082168,
+"cpiInflation": 0.032663
+},
+{
+"year": 1972,
+"stockReturn": 0.175895,
+"bondReturn": 0.025495,
+"cpiInflation": 0.036496
+},
+{
+"year": 1973,
+"stockReturn": -0.161599,
+"bondReturn": 0.030055,
+"cpiInflation": 0.093897
+},
+{
+"year": 1974,
+"stockReturn": -0.209656,
+"bondReturn": 0.037368,
+"cpiInflation": 0.118026
+},
+{
+"year": 1975,
+"stockReturn": 0.384831,
+"bondReturn": 0.059844,
+"cpiInflation": 0.067179
+},
+{
+"year": 1976,
+"stockReturn": 0.109677,
+"bondReturn": 0.111624,
+"cpiInflation": 0.052158
+},
+{
+"year": 1977,
+"stockReturn": -0.091073,
+"bondReturn": 0.02517,
+"cpiInflation": 0.068376
+},
+{
+"year": 1978,
+"stockReturn": 0.157045,
+"bondReturn": 0.011531,
+"cpiInflation": 0.0928
+},
+{
+"year": 1979,
+"stockReturn": 0.163507,
+"bondReturn": -0.003866,
+"cpiInflation": 0.139092
+},
+{
+"year": 1980,
+"stockReturn": 0.250676,
+"bondReturn": 0.015699,
+"cpiInflation": 0.118252
+},
+{
+"year": 1981,
+"stockReturn": -0.071429,
+"bondReturn": 0.027891,
+"cpiInflation": 0.083908
+},
+{
+"year": 1982,
+"stockReturn": 0.286957,
+"bondReturn": 0.37946,
+"cpiInflation": 0.037116
+},
+{
+"year": 1983,
+"stockReturn": 0.200855,
+"bondReturn": 0.039311,
+"cpiInflation": 0.041922
+},
+{
+"year": 1984,
+"stockReturn": 0.074038,
+"bondReturn": 0.132523,
+"cpiInflation": 0.035329
+},
+{
+"year": 1985,
+"stockReturn": 0.25742,
+"bondReturn": 0.244088,
+"cpiInflation": 0.038863
+},
+{
+"year": 1986,
+"stockReturn": 0.308549,
+"bondReturn": 0.228905,
+"cpiInflation": 0.014599
+},
+{
+"year": 1987,
+"stockReturn": -0.02155,
+"bondReturn": -0.025817,
+"cpiInflation": 0.040468
+},
+{
+"year": 1988,
+"stockReturn": 0.174677,
+"bondReturn": 0.061612,
+"cpiInflation": 0.046672
+},
+{
+"year": 1989,
+"stockReturn": 0.22559,
+"bondReturn": 0.145396,
+"cpiInflation": 0.052023
+},
+{
+"year": 1990,
+"stockReturn": -0.009824,
+"bondReturn": 0.089568,
+"cpiInflation": 0.056515
+},
+{
+"year": 1991,
+"stockReturn": 0.315514,
+"bondReturn": 0.149873,
+"cpiInflation": 0.026003
+},
+{
+"year": 1992,
+"stockReturn": 0.075442,
+"bondReturn": 0.098799,
+"cpiInflation": 0.032585
+},
+{
+"year": 1993,
+"stockReturn": 0.11528,
+"bondReturn": 0.124449,
+"cpiInflation": 0.025245
+},
+{
+"year": 1994,
+"stockReturn": 0.010324,
+"bondReturn": -0.07048,
+"cpiInflation": 0.028044
+},
+{
+"year": 1995,
+"stockReturn": 0.348952,
+"bondReturn": 0.224909,
+"cpiInflation": 0.027279
+},
+{
+"year": 1996,
+"stockReturn": 0.269674,
+"bondReturn": -0.005189,
+"cpiInflation": 0.03044
+},
+{
+"year": 1997,
+"stockReturn": 0.276805,
+"bondReturn": 0.137976,
+"cpiInflation": 0.015713
+},
+{
+"year": 1998,
+"stockReturn": 0.312407,
+"bondReturn": 0.114418,
+"cpiInflation": 0.016708
+},
+{
+"year": 1999,
+"stockReturn": 0.154635,
+"bondReturn": -0.081044,
+"cpiInflation": 0.027389
+},
+{
+"year": 2000,
+"stockReturn": -0.05138,
+"bondReturn": 0.172462,
+"cpiInflation": 0.037322
+},
+{
+"year": 2001,
+"stockReturn": -0.134206,
+"bondReturn": 0.060114,
+"cpiInflation": 0.011422
+},
+{
+"year": 2002,
+"stockReturn": -0.200519,
+"bondReturn": 0.123842,
+"cpiInflation": 0.025974
+},
+{
+"year": 2003,
+"stockReturn": 0.282193,
+"bondReturn": 0.033115,
+"cpiInflation": 0.019263
+},
+{
+"year": 2004,
+"stockReturn": 0.05871,
+"bondReturn": 0.036347,
+"cpiInflation": 0.029698
+},
+{
+"year": 2005,
+"stockReturn": 0.099054,
+"bondReturn": 0.02761,
+"cpiInflation": 0.039853
+},
+{
+"year": 2006,
+"stockReturn": 0.131253,
+"bondReturn": 0.019773,
+"cpiInflation": 0.020777
+},
+{
+"year": 2007,
+"stockReturn": -0.014266,
+"bondReturn": 0.124347,
+"cpiInflation": 0.042782
+},
+{
+"year": 2008,
+"stockReturn": -0.351954,
+"bondReturn": 0.134553,
+"cpiInflation": 0.000284
+},
+{
+"year": 2009,
+"stockReturn": 0.33043,
+"bondReturn": -0.065885,
+"cpiInflation": 0.026286
+},
+{
+"year": 2010,
+"stockReturn": 0.161341,
+"bondReturn": 0.063298,
+"cpiInflation": 0.016291
+},
+{
+"year": 2011,
+"stockReturn": 0.031906,
+"bondReturn": 0.14997,
+"cpiInflation": 0.029243
+},
+{
+"year": 2012,
+"stockReturn": 0.158819,
+"bondReturn": 0.024618,
+"cpiInflation": 0.015971
+},
+{
+"year": 2013,
+"stockReturn": 0.252294,
+"bondReturn": -0.055353,
+"cpiInflation": 0.015807
+},
+{
+"year": 2014,
+"stockReturn": 0.132369,
+"bondReturn": 0.10905,
+"cpiInflation": -0.000898
+},
+{
+"year": 2015,
+"stockReturn": -0.034358,
+"bondReturn": 0.001733,
+"cpiInflation": 0.013735
+},
+{
+"year": 2016,
+"stockReturn": 0.208524,
+"bondReturn": -0.006291,
+"cpiInflation": 0.024987
+},
+{
+"year": 2017,
+"stockReturn": 0.246408,
+"bondReturn": 0.012389,
+"cpiInflation": 0.020713
+},
+{
+"year": 2018,
+"stockReturn": -0.047718,
+"bondReturn": 0.01554,
+"cpiInflation": 0.015492
+},
+{
+"year": 2019,
+"stockReturn": 0.27804,
+"bondReturn": 0.105537,
+"cpiInflation": 0.02487
+},
+{
+"year": 2020,
+"stockReturn": 0.175167,
+"bondReturn": 0.075622,
+"cpiInflation": 0.013994
+},
+{
+"year": 2021,
+"stockReturn": 0.220924,
+"bondReturn": -0.045344,
+"cpiInflation": 0.074815
+},
+{
+"year": 2022,
+"stockReturn": -0.120739,
+"bondReturn": -0.11687,
+"cpiInflation": 0.064094
+}
+]
+}

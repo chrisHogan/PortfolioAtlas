@@ -7,7 +7,8 @@
     "dev": "astro dev",
     "dev:full": "astro build && wrangler pages dev dist",
     "build": "astro build",
-    "preview": "wrangler pages dev dist"
+    "preview": "wrangler pages dev dist",
+    "validate:backtest": "esbuild scripts/validate-backtest.ts --bundle --platform=node --format=esm --loader:.json=json | node --input-type=module"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.0",
