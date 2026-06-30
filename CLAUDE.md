@@ -71,3 +71,23 @@ City JSON has 5 tier keys (`1M/2M/3M/5M/10M`), but the **live UI only renders 3*
 - Analytics: GA4 `G-SKTV1C0JRK` in `src/layouts/Layout.astro`; custom events guarded with `if (typeof gtag === 'function')`. Match that pattern.
 - Newsletter: `src/components/SubscribeCTA.astro` (Substack, no backend; inline iframe on homepage only, link variant elsewhere). Feedback form → Cloudflare Function `functions/api/feedback.js` → Resend.
 - `recon/household-language-inventory.md` and `Documents/` (RECON_MEMO.md) are notes/artifacts, not app code.
+
+# Code-quality agent team
+
+This project ships a specialist agent team in `.claude/agents/` plus an orchestrator skill in `.claude/skills/dev-pipeline/`.
+
+## Policy
+
+- For any non-trivial feature, refactor, or bug fix, run the **dev-pipeline** skill rather than implementing directly in the main thread.
+- Before committing or opening a PR, route the staged changes through the three reviewers (`reviewer-security`, `reviewer-performance`, `reviewer-correctness`) in parallel.
+- Reviewers are **read-only**. All fixes go through the `coder` subagent, never the reviewer.
+- Stop and ask the human before proceeding when a design flags high-risk work (auth, payments, data integrity, migrations) or when the tester surfaces a real bug.
+
+## The team
+
+- `designer` — plans the change; no implementation code.
+- `coder` — implements from the design; matches existing conventions.
+- `reviewer-security` / `reviewer-performance` / `reviewer-correctness` — three parallel read-only reviewers, distinct lenses.
+- `tester` — writes and runs tests; reports pass/fail.
+
+You can also invoke any specialist by name, e.g. "Have reviewer-correctness look at the staged changes."
