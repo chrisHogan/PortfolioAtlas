@@ -30,9 +30,10 @@ const breadcrumbLd = {
 
         <h2 class="font-serif text-2xl font-bold text-brand-950 mt-12 mb-4">How We Calculate</h2>
         <p>
-          We use the widely-accepted <strong>4% safe withdrawal rate</strong>
+          By default we use the widely-accepted <strong>4% safe withdrawal rate</strong>
           (the "Trinity Study" rule) to determine the <strong>FIRE Number</strong> — the portfolio
-          value needed to sustain a given lifestyle in a given city indefinitely.
+          value needed to sustain a given lifestyle in a given city indefinitely. You can change this
+          rate on the calculator to plan more or less conservatively.
         </p>
 
         <div class="bg-brand-50 rounded-xl p-6 my-6 border border-brand-100">
@@ -59,7 +60,7 @@ const breadcrumbLd = {
           For each lifestyle tier, we research and estimate realistic monthly costs for housing, groceries,
           dining out, healthcare, transportation, entertainment, utilities, and — at higher
           tiers — domestic help and luxury extras. The FIRE Number tells you the portfolio
-          value needed to cover those costs using the 4% rule.
+          value needed to cover those costs at your chosen withdrawal rate (4% by default).
         </p>
 
         <h2 id="fire-score" class="font-serif text-2xl font-bold text-brand-950 mt-12 mb-4 scroll-mt-24">The FIRE Score</h2>
@@ -76,17 +77,26 @@ const breadcrumbLd = {
           how good is it to actually live there?"
         </p>
 
-        <h2 id="confidence" class="font-serif text-2xl font-bold text-brand-950 mt-12 mb-4 scroll-mt-24">The 4% rule and confidence estimate</h2>
+        <h2 id="confidence" class="font-serif text-2xl font-bold text-brand-950 mt-12 mb-4 scroll-mt-24">Retirement confidence: a historical backtest</h2>
         <p>
           The 4% safe withdrawal rate comes from the <strong>Trinity Study</strong> and is generally
-          validated for retirements of about 30 years. For a longer retirement — common among early
-          retirees — a more conservative <strong>3–3.5%</strong> rate is worth considering; it raises
-          your target but adds a margin of safety.
+          validated for retirements of about 30 years. It's the default we use to size each city's
+          FIRE Number, and you can adjust it on the calculator.
         </p>
         <p>
-          Where shown, the <strong>confidence estimate</strong> is a simplified measure of how far
-          your portfolio clears a city's FIRE Number — the further above the line, the higher the
-          figure. It's a quick directional signal, not a full retirement simulation.
+          On each city page, the <strong>retirement confidence</strong> figure is a real historical
+          backtest — not a rule of thumb. We run your plan through <strong>every</strong>
+          retirement-length window in US market history using Robert Shiller's dataset
+          (<strong>1871–2022</strong>): a 75% stock / 25% bond portfolio, rebalanced annually, with
+          withdrawals raised each year for that period's actual inflation. The
+          <strong>success rate</strong> is the share of those historical start years in which the
+          portfolio lasted the full length without running out.
+        </p>
+        <p>
+          A longer horizon lowers the success rate — early retirees planning 40–50+ years will see
+          fewer historical periods survive than the 30-year Trinity baseline. That's exactly why a
+          plan can clear the 4% rule yet still show a sub-90% confidence. A more conservative
+          withdrawal rate raises your target but improves the odds.
         </p>
 
         <h2 class="font-serif text-2xl font-bold text-brand-950 mt-12 mb-4">Important Disclaimers</h2>

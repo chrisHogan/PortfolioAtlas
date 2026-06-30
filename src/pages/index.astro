@@ -236,6 +236,40 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
               <p id="passive-warn" class="text-xs text-amber-400 mt-1 hidden"></p>
               <p class="text-[11px] text-sand-500 mt-1.5 leading-snug">Rental income, dividends, pension, or any income that continues after you stop working. Reduces the portfolio you need to retire.</p>
             </div>
+
+            <!-- Safe withdrawal rate (drives the binary map) -->
+            <div>
+              <label for="swr-input" class="block text-xs font-medium text-sand-300 mb-1.5">
+                Safe withdrawal rate: <span id="swr-value" class="font-bold text-white">4.0%</span>
+              </label>
+              <input
+                type="range"
+                id="swr-input"
+                min="2.5"
+                max="5.0"
+                step="0.1"
+                value="4.0"
+                class="w-full accent-brand-500 cursor-pointer"
+              />
+              <p class="text-[11px] text-sand-500 mt-1.5 leading-snug">Lower = more conservative (larger target). 4% is the standard 30-year rule.</p>
+            </div>
+
+            <!-- Retirement length (drives the per-city backtest only) -->
+            <div>
+              <label for="horizon-input" class="block text-xs font-medium text-sand-300 mb-1.5">
+                Retirement length: <span id="horizon-value" class="font-bold text-white">30 years</span>
+              </label>
+              <input
+                type="range"
+                id="horizon-input"
+                min="20"
+                max="60"
+                step="5"
+                value="30"
+                class="w-full accent-brand-500 cursor-pointer"
+              />
+              <p class="text-[11px] text-sand-500 mt-1.5 leading-snug">How many years your money must last. Early retirees often plan 40–50+.</p>
+            </div>
           </div>
         </div>
 
@@ -358,7 +392,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
       </h2>
       <p class="text-gray-600 mb-6 leading-relaxed">
         Enter your portfolio value above and we'll show you every city in the world where you can retire.
-        We compare your portfolio against the FIRE Number for each city — the exact amount you need to live there using the 4% rule.
+        We compare your portfolio against the FIRE Number for each city — the amount you need to live there at your chosen withdrawal rate (4% by default).
       </p>
       <p class="text-sm text-gray-400 mb-8">
         Currently tracking 100+ cities across 6 continents.
@@ -488,6 +522,17 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   let lifestyle = 'comfortable';
   let annualSavings = 0;
   let passiveIncome = 0;
+  // Two independent knobs (see "Refine your projections"):
+  //  - withdrawalRate drives ONLY the binary "can I retire here" map.
+  //  - horizonYears drives ONLY the per-city historical backtest (city pages).
+  let withdrawalRate = SAFE_WITHDRAWAL_RATE; // default 0.04
+  let horizonYears = 30;
+
+  // City FIRE number at the current withdrawal rate. Mirrors getFireNumber()
+  // exactly, so at the 0.04 default this reproduces the server-baked values.
+  function fireNumberFor(monthlyCost) {
+    return Math.round((monthlyCost * 12) / withdrawalRate / 1000) * 1000;
+  }
   const INITIAL_PER_SECTION = 8;
   const sectionVisibleCounts = { perfect_fit: INITIAL_PER_SECTION, within_reach: INITIAL_PER_SECTION, not_affordable: INITIAL_PER_SECTION };
   function resetSectionCounts() {
@@ -655,6 +700,29 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     }
   });
 
+  // \u2500\u2500\u2500 Withdrawal rate & retirement length sliders \u2500\u2500\u2500
+  const swrInput = document.getElementById('swr-input');
+  const swrValue = document.getElementById('swr-value');
+  const horizonInput = document.getElementById('horizon-input');
+  const horizonValue = document.getElementById('horizon-value');
+
+  function updateSwrLabel() { if (swrValue) swrValue.textContent = (withdrawalRate * 100).toFixed(1) + '%'; }
+  function updateHorizonLabel() { if (horizonValue) horizonValue.textContent = horizonYears + ' years'; }
+
+  swrInput?.addEventListener('input', () => {
+    withdrawalRate = (parseFloat(swrInput.value) || 4) / 100;
+    updateSwrLabel();
+    // Rate drives the binary map \u2014 recompute live.
+    if (portfolio > 0) { resetSectionCounts(); renderResults(); }
+  });
+  horizonInput?.addEventListener('input', () => {
+    horizonYears = parseInt(horizonInput.value, 10) || 30;
+    updateHorizonLabel();
+    // Horizon does NOT affect the homepage map; just keep carried links fresh
+    // so the value travels to the per-city backtest.
+    if (portfolio > 0) decorateInternalLinks();
+  });
+
   // Quick-select buttons
   document.querySelectorAll('.quick-btn').forEach((btn) => {
     btn.addEventListener('click', () => {
@@ -758,11 +826,9 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   // ─── Passive Income Adjustment ───
   function adjustFireNumber(baseFireNumber, passive) {
     if (!passive || passive <= 0) return baseFireNumber;
-    // adjustedAnnualCost = (baseFireNumber * 0.04) - passiveIncome
-    // adjustedFireNumber = adjustedAnnualCost / 0.04
-    // = baseFireNumber - passiveIncome / 0.04
-    // = baseFireNumber - passiveIncome * 25
-    return Math.max(0, baseFireNumber - passive / SAFE_WITHDRAWAL_RATE);
+    // Capitalize passive income at the SAME withdrawal rate used for the map:
+    // adjustedFireNumber = baseFireNumber - passiveIncome / rate
+    return Math.max(0, baseFireNumber - passive / withdrawalRate);
   }
 
   // ─── Years Until Affordable ───
@@ -904,7 +970,8 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
       .filter(passesFilters)
       .map((city) => {
         const tierData = city.tiers[lifestyle];
-        const baseFireNumber = tierData.fireNumber;
+        // Recompute the base FIRE number at the user's withdrawal rate.
+        const baseFireNumber = fireNumberFor(tierData.monthlyCost);
         const fireNumber = adjustFireNumber(baseFireNumber, passiveIncome);
         const monthlyCost = tierData.monthlyCost;
         const fullyCovered = passiveIncome > 0 && fireNumber === 0;
@@ -1069,6 +1136,9 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     const p = new URLSearchParams();
     if (portfolio > 0) p.set('portfolio', String(portfolio));
     if (passiveIncome > 0) p.set('passive', String(passiveIncome));
+    // Carry the rate + horizon so city pages compute the same map and backtest.
+    if (Math.abs(withdrawalRate - SAFE_WITHDRAWAL_RATE) > 1e-9) p.set('swr', (withdrawalRate * 100).toFixed(1));
+    if (horizonYears !== 30) p.set('horizon', String(horizonYears));
     const qs = p.toString();
     return qs ? '?' + qs : '';
   }
@@ -1094,6 +1164,8 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     if (filters.hc) params.set('hc', filters.hc);
     if (annualSavings > 0) params.set('save', String(annualSavings));
     if (passiveIncome > 0) params.set('passive', String(passiveIncome));
+    if (Math.abs(withdrawalRate - SAFE_WITHDRAWAL_RATE) > 1e-9) params.set('swr', (withdrawalRate * 100).toFixed(1));
+    if (horizonYears !== 30) params.set('horizon', String(horizonYears));
     const qs = params.toString();
     return window.location.origin + '/' + (qs ? '?' + qs : '');
   }
@@ -1119,6 +1191,14 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     if (saveParam > 0) annualSavings = saveParam;
     const passiveParam = parseInt(params.get('passive') || '0', 10);
     if (passiveParam > 0) passiveIncome = passiveParam;
+
+    // Restore withdrawal rate and horizon from URL (validated to the slider range)
+    const swrParam = parseFloat(params.get('swr') || '');
+    if (!isNaN(swrParam) && swrParam >= 2.5 && swrParam <= 5.0) withdrawalRate = swrParam / 100;
+    const horizonParam = parseInt(params.get('horizon') || '', 10);
+    if (!isNaN(horizonParam) && horizonParam >= 20 && horizonParam <= 60) horizonYears = horizonParam;
+    if (swrInput) { swrInput.value = (withdrawalRate * 100).toFixed(1); updateSwrLabel(); }
+    if (horizonInput) { horizonInput.value = String(horizonYears); updateHorizonLabel(); }
 
     // Restore filters from URL
     if (params.get('region') || params.get('loc')) filters.loc = params.get('region') || params.get('loc');
@@ -1308,15 +1388,16 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
 
       const fireNumEl = document.getElementById('reverse-fire-number');
       const monthlyEl = document.getElementById('reverse-monthly');
-      if (fireNumEl) fireNumEl.textContent = fmtCompact(data.fireNumber);
+      if (fireNumEl) fireNumEl.textContent = fmtCompact(fireNumberFor(data.monthlyCost));
       if (monthlyEl) monthlyEl.textContent = fmt(data.monthlyCost);
       reverseResults?.classList.remove('hidden');
     }
 
     reverseUse?.addEventListener('click', () => {
       if (!selectedCity || !selectedTier) return;
-      const fn = selectedCity.tiers[selectedTier]?.fireNumber;
-      if (!fn) return;
+      const mc = selectedCity.tiers[selectedTier]?.monthlyCost;
+      if (!mc) return;
+      const fn = fireNumberFor(mc);
       portfolio = fn;
       portfolioInput.value = fn.toLocaleString('en-US');
       reverseFlow?.classList.add('hidden');

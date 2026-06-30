@@ -173,7 +173,7 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
           </h2>
           <p class="text-gray-600 leading-relaxed mb-6">
             The portfolio you need to retire in {city.name} at each lifestyle level,
-            based on the <strong>4% safe withdrawal rate</strong>.
+            based on your chosen withdrawal rate (<strong>4% by default</strong>).
           </p>
 
           <div class="bg-white rounded-2xl border border-sand-200 shadow-sm overflow-hidden">
@@ -270,33 +270,37 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
           </h2>
           <div id="confidence-result" class="bg-white rounded-xl border border-sand-200 p-5">
             <p id="confidence-text" class="text-gray-600">
-              Enter your portfolio on the <a href="/" class="text-brand-600 hover:underline font-medium">homepage</a> to see a retirement confidence estimate for {city.name}.
+              Enter your portfolio on the <a href="/" class="text-brand-600 hover:underline font-medium">homepage</a> to backtest a retirement in {city.name} against market history.
             </p>
-            <div id="confidence-detail" class="hidden mt-3">
-              <div class="flex items-center gap-3 mb-2">
-                <span id="confidence-value" class="text-3xl font-bold text-brand-700"></span>
-                <span class="text-sm text-gray-500">confidence estimate — how far your portfolio clears this city's FIRE number</span>
-              </div>
-              <div class="w-full bg-sand-100 rounded-full h-2.5">
-                <div id="confidence-bar" class="bg-brand-600 h-2.5 rounded-full transition-all"></div>
-              </div>
+            <div id="confidence-detail" class="hidden">
+              <div id="confidence-headline" class="flex items-center gap-2 mb-2"></div>
+              <p id="confidence-summary" class="text-sm text-gray-600"></p>
+              <p id="confidence-divergence" class="hidden text-sm text-amber-800 bg-amber-50 border border-amber-200 rounded-lg px-3 py-2 mt-2 leading-snug"></p>
+              <details class="mt-3">
+                <summary class="text-xs text-gray-500 cursor-pointer hover:text-gray-700">
+                  Backtest detail
+                </summary>
+                <div id="confidence-expanded" class="text-xs text-gray-600 mt-2 leading-relaxed pl-4 border-l-2 border-sand-200 space-y-1"></div>
+              </details>
             </div>
           </div>
           <details class="mt-3">
             <summary class="text-xs text-gray-500 cursor-pointer hover:text-gray-700">
-              Important notes on retirement confidence
+              How this is calculated
             </summary>
             <div class="text-xs text-gray-500 mt-2 leading-relaxed pl-4 border-l-2 border-sand-200 space-y-2">
               <p>
-                This confidence estimate is a simplified, directional signal based on how far your
-                portfolio exceeds this city's FIRE Number — the further above the line, the higher the
-                figure. It is not a full retirement simulation: it does not model market returns,
-                inflation, or sequence-of-returns risk.
+                This is a real historical backtest. We run your plan through <strong>every</strong>
+                retirement-length window in US market history (1871–2022): a 75% stock / 25% bond
+                portfolio, rebalanced annually, with withdrawals raised each year for that period's
+                actual inflation. The success rate is the share of those historical start years in
+                which the money lasted the full length without running out.
               </p>
               <p>
-                Early retirees may need portfolios to last 40-50+ years. The 4% rule was originally
-                validated for 30-year retirements. Consider a more conservative withdrawal rate (3-3.5%)
-                for very early retirement.
+                The 4% rule was validated for ~30-year retirements (Trinity Study). Early retirees
+                often plan 40–50+ years — a longer horizon lowers the success rate, which is why the
+                number here can fall below the headline. A more conservative withdrawal rate raises
+                your target but improves the odds.
               </p>
             </div>
           </details>
@@ -418,13 +422,17 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
 </Layout>
 
 <script>
+  import { runBacktest } from '../../data/backtest';
+
   // Client-side: compare user's portfolio against FIRE Numbers
   (function() {
-    const SWR = 0.04;
+    const DEFAULT_SWR = 0.04;
     let portfolio = 0;
     let userPassiveIncome = 0;
+    let swr = DEFAULT_SWR;   // withdrawal rate -> binary "can I retire here"
+    let horizon = 30;        // retirement length -> historical backtest
 
-    // Read portfolio and passive income from the URL only (no persisted state)
+    // Read portfolio, passive income, rate and horizon from the URL only (no persisted state)
     const params = new URLSearchParams(window.location.search);
     const nwParam = params.get('portfolio') || params.get('nw');
     if (nwParam) {
@@ -432,10 +440,20 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
     }
     const passiveParam = parseInt(params.get('passive') || '0', 10);
     if (passiveParam > 0) userPassiveIncome = passiveParam;
+    const swrParam = parseFloat(params.get('swr') || '');
+    if (!isNaN(swrParam) && swrParam >= 2.5 && swrParam <= 5.0) swr = swrParam / 100;
+    const horizonParam = parseInt(params.get('horizon') || '', 10);
+    if (!isNaN(horizonParam) && horizonParam >= 20 && horizonParam <= 60) horizon = horizonParam;
+
+    // City FIRE number at the user's withdrawal rate. Mirrors getFireNumber(),
+    // so at the 0.04 default this equals the server-baked data-fire-number.
+    function rateFireFor(monthlyCost: number): number {
+      return Math.round((monthlyCost * 12) / swr / 1000) * 1000;
+    }
 
     function adjustFN(base: number): number {
       if (!userPassiveIncome || userPassiveIncome <= 0) return base;
-      return Math.max(0, base - userPassiveIncome / SWR);
+      return Math.max(0, base - userPassiveIncome / swr);
     }
 
     const rows = document.querySelectorAll('.fire-row');
@@ -479,17 +497,24 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
     }
 
     // Update FIRE Numbers table with adjusted values and status indicators
+    const rateChanged = Math.abs(swr - DEFAULT_SWR) > 1e-9;
     rows.forEach((row) => {
-      const baseFireNumber = parseInt(row.getAttribute('data-fire-number') || '0', 10);
-      const adjustedFN = adjustFN(baseFireNumber);
+      const monthlyCost = parseInt(row.getAttribute('data-monthly-cost') || '0', 10);
+      // City FIRE number at the user's rate (equals the baked value at 4%).
+      const cityFireNumber = rateFireFor(monthlyCost);
+      const adjustedFN = adjustFN(cityFireNumber);
       const fullyCovered = userPassiveIncome > 0 && adjustedFN === 0;
       const statusCell = row.querySelector('.fire-status');
       const fireNumberCell = row.querySelector('td:nth-child(2) span');
 
-      // Update displayed FIRE Number if adjusted, and show the base city value
-      if (userPassiveIncome > 0 && fireNumberCell) {
+      // Rewrite the displayed FIRE Number when it differs from the baked 4% value
+      // (passive income reduces it; a non-default rate rescales it).
+      if ((userPassiveIncome > 0 || rateChanged) && fireNumberCell) {
         const adjustedText = fullyCovered ? '$0' : fmt(adjustedFN);
-        (fireNumberCell as HTMLElement).innerHTML = adjustedText + `<div class="text-[10px] text-gray-400 font-normal mt-0.5">City: ${fmt(baseFireNumber)}</div>`;
+        const sub = userPassiveIncome > 0
+          ? `<div class="text-[10px] text-gray-400 font-normal mt-0.5">City: ${fmt(cityFireNumber)}</div>`
+          : '';
+        (fireNumberCell as HTMLElement).innerHTML = adjustedText + sub;
       }
 
       if (!statusCell) return;
@@ -512,59 +537,76 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
       const tier = desc.getAttribute('data-tier') as string;
       const row = document.querySelector(`.fire-row[data-tier="${tier}"]`);
       if (!row) return;
-      const baseFireNumber = parseInt(row.getAttribute('data-fire-number') || '0', 10);
-      const adjustedFN = adjustFN(baseFireNumber);
+      const monthlyCost = parseInt(row.getAttribute('data-monthly-cost') || '0', 10);
+      const adjustedFN = adjustFN(rateFireFor(monthlyCost));
       if (portfolio >= adjustedFN) {
         (desc as HTMLElement).classList.add('border-emerald-200', 'bg-emerald-50/30');
         (desc as HTMLElement).classList.remove('border-sand-200');
       }
     });
 
-    // Monte Carlo confidence estimate (simplified)
-    const confSection = document.getElementById('confidence-detail');
+    // ─── Real historical backtest (replaces the old static lookup) ───
     const confText = document.getElementById('confidence-text');
-    const confValue = document.getElementById('confidence-value');
-    const confBar = document.getElementById('confidence-bar');
+    const confDetail = document.getElementById('confidence-detail');
+    const confHeadline = document.getElementById('confidence-headline');
+    const confSummary = document.getElementById('confidence-summary');
+    const confDivergence = document.getElementById('confidence-divergence');
+    const confExpanded = document.getElementById('confidence-expanded');
 
-    if (confSection && confText && confValue && confBar) {
-      const tiers = ['luxury', 'comfortable', 'budget'] as const;
-      let bestTier: string | null = null;
-      let bestFireNumber = 0;
-
-      for (const tier of tiers) {
+    if (confDetail && confHeadline && confSummary) {
+      // BINARY map: pick the best tier the user can afford at their rate (luxury -> budget).
+      const tierOrder = ['luxury', 'comfortable', 'budget'];
+      let chosenRow: Element | null = null;
+      let canRetire = false;
+      for (const tier of tierOrder) {
         const row = document.querySelector(`.fire-row[data-tier="${tier}"]`);
         if (!row) continue;
-        const baseFN = parseInt(row.getAttribute('data-fire-number') || '0', 10);
-        const fn = adjustFN(baseFN);
-        if (fn === 0 || portfolio >= fn) {
-          bestTier = tier;
-          bestFireNumber = fn;
-          break;
-        }
+        const mc = parseInt(row.getAttribute('data-monthly-cost') || '0', 10);
+        const fn = adjustFN(rateFireFor(mc));
+        if (fn === 0 || portfolio >= fn) { chosenRow = row; canRetire = true; break; }
       }
+      // If nothing is affordable, backtest the leanest tier for the honest number.
+      if (!chosenRow) chosenRow = document.querySelector('.fire-row[data-tier="budget"]');
 
-      if (bestTier !== null) {
-        let confidence: number;
-        if (bestFireNumber === 0) {
-          confidence = 99; // Fully covered by passive income
+      if (chosenRow) {
+        const monthlyCost = parseInt(chosenRow.getAttribute('data-monthly-cost') || '0', 10);
+        const annualSpending = monthlyCost * 12;
+        // BACKTEST machine — driven by horizon, NOT by the withdrawal rate. 75/25 defaults.
+        const result = runBacktest({ initialPortfolio: portfolio, annualSpending, horizonYears: horizon });
+
+        confText?.classList.add('hidden');
+        confDetail.classList.remove('hidden');
+
+        const check = '<svg class="w-5 h-5 text-emerald-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>';
+        confHeadline.innerHTML = canRetire
+          ? `${check}<span class="text-lg font-bold text-emerald-600">You can retire here</span>`
+          : '<span class="text-lg font-bold text-gray-600">Not quite yet</span>';
+
+        if (result.successRate === null) {
+          confSummary.textContent = `Not enough market history for a ${horizon}-year backtest (only ${result.totalSequences} complete periods available). Try a shorter retirement length.`;
+          if (confExpanded) confExpanded.innerHTML = '';
+          confDivergence?.classList.add('hidden');
         } else {
-          const ratio = portfolio / bestFireNumber;
-          if (ratio >= 2.0) confidence = 99;
-          else if (ratio >= 1.5) confidence = 96;
-          else if (ratio >= 1.25) confidence = 93;
-          else if (ratio >= 1.1) confidence = 88;
-          else if (ratio >= 1.0) confidence = 82;
-          else confidence = Math.max(50, Math.round(ratio * 82));
+          const successPct = Math.round(result.successRate * 100);
+          confSummary.innerHTML = `Your plan survived <strong>${successPct}%</strong> of ${result.totalSequences} historical ${horizon}-year periods since 1871.`;
+
+          if (confExpanded) {
+            confExpanded.innerHTML =
+              `<p>${result.survivedSequences} of ${result.totalSequences} historical start years (1871–2022) funded ${horizon} years of inflation-adjusted spending at ${fmt(annualSpending)}/yr — 75% stocks / 25% bonds, rebalanced annually.</p>` +
+              `<p>Median ending balance: <strong>${fmt(result.medianEndingBalance ?? 0)}</strong>. Worst case: <strong>${fmt(result.worstCaseEndingBalance ?? 0)}</strong>.</p>`;
+          }
+
+          // The divergence moment: binary "yes" but history says it's shaky.
+          if (confDivergence) {
+            if (canRetire && successPct < 90) {
+              const ratePct = (swr * 100).toFixed(1).replace(/\.0$/, '');
+              confDivergence.innerHTML = `Clears the ${ratePct}% rule, but a ${horizon}-year retirement is longer than the ~30 years the 4% rule was designed for — historically this plan held up only <strong>${successPct}%</strong> of the time. A lower withdrawal rate or shorter horizon improves the odds.`;
+              confDivergence.classList.remove('hidden');
+            } else {
+              confDivergence.classList.add('hidden');
+            }
+          }
         }
-
-        confText.classList.add('hidden');
-        confSection.classList.remove('hidden');
-        confValue.textContent = confidence + '%';
-        confBar.style.width = confidence + '%';
-
-        if (confidence >= 90) confBar.classList.add('bg-emerald-500');
-        else if (confidence >= 80) { confBar.classList.remove('bg-brand-600'); confBar.classList.add('bg-amber-500'); }
-        else { confBar.classList.remove('bg-brand-600'); confBar.classList.add('bg-red-500'); }
       }
     }
   })();
