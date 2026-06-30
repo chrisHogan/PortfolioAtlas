@@ -678,6 +678,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
       newPos = i + 1;
     }
     portfolioInput.setSelectionRange(newPos, newPos);
+    syncQuickButtons();
   });
 
   // ─── Optional Input Formatting & Validation ───
@@ -777,11 +778,24 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     }
   });
 
-  // Quick-select buttons
+  // Quick-select buttons — highlight the one matching the current input value.
+  function syncQuickButtons() {
+    const current = parseInt((portfolioInput.value || '').replace(/[^0-9]/g, ''), 10) || 0;
+    document.querySelectorAll('.quick-btn').forEach((b) => {
+      const active = parseInt(b.dataset.value, 10) === current;
+      b.classList.toggle('bg-white/20', active);
+      b.classList.toggle('border-white/40', active);
+      b.classList.toggle('text-white', active);
+      b.classList.toggle('bg-white/10', !active);
+      b.classList.toggle('border-white/20', !active);
+      b.classList.toggle('text-white/80', !active);
+    });
+  }
   document.querySelectorAll('.quick-btn').forEach((btn) => {
     btn.addEventListener('click', () => {
       const value = parseInt(btn.dataset.value, 10);
       portfolioInput.value = value.toLocaleString('en-US');
+      syncQuickButtons();
     });
   });
 
@@ -1323,6 +1337,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     if (nw > 0) {
       portfolio = nw;
       portfolioInput.value = nw.toLocaleString('en-US');
+      syncQuickButtons();
       renderResults();
     } else {
       fallbackSection?.classList.remove('hidden');
