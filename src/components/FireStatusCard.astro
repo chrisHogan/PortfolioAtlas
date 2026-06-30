@@ -55,12 +55,8 @@ const { cityName, country, fireNumbers } = Astro.props;
 
 <script define:vars={{ cityName, country }}>
   (function() {
-    const GROWTH_RATE = 0.07;
-    const MAX_YEARS = 30;
     let portfolio = 0;
     let userPassiveIncome = 0;
-    let annualSavings = 0;
-    let swr = 0.04; // user withdrawal rate — must match the FIRE table on this page
 
     const params = new URLSearchParams(window.location.search);
     const nwParam = params.get('portfolio') || params.get('nw');
@@ -69,47 +65,11 @@ const { cityName, country, fireNumbers } = Astro.props;
     }
     const passiveParam = parseInt(params.get('passive') || '0', 10);
     if (passiveParam > 0) userPassiveIncome = passiveParam;
-    const saveParam = parseInt(params.get('save') || '0', 10);
-    if (saveParam > 0) annualSavings = saveParam;
-    const swrParam = parseFloat(params.get('swr') || '');
-    if (!isNaN(swrParam) && swrParam >= 2.5 && swrParam <= 5.0) swr = swrParam / 100;
 
     if (!portfolio || portfolio <= 0) return;
 
     const card = document.getElementById('fire-status-card');
     if (!card) return;
-
-    // City FIRE number at the user's rate. Mirrors getFireNumber() and the page's
-    // FIRE table, so at the 0.04 default it equals the server-baked value.
-    function rateFireFor(monthlyCost) {
-      return Math.round((monthlyCost * 12) / swr / 1000) * 1000;
-    }
-
-    function adjustFN(base) {
-      if (!userPassiveIncome || userPassiveIncome <= 0) return base;
-      return Math.max(0, base - userPassiveIncome / swr);
-    }
-
-    function fmtGap(n) {
-      if (n >= 1_000_000) {
-        const m = n / 1_000_000;
-        return '$' + m.toFixed(1).replace(/\.0$/, '') + 'M';
-      }
-      const rounded = Math.round(n / 10_000) * 10_000;
-      if (rounded >= 1_000) return '$' + Math.round(rounded / 1_000) + 'K';
-      return '$' + rounded.toLocaleString();
-    }
-
-    function yearsUntil(current, target, savings) {
-      if (current >= target) return 0;
-      if (!savings && GROWTH_RATE <= 0) return Infinity;
-      let bal = current;
-      for (let y = 1; y <= MAX_YEARS; y++) {
-        bal = bal * (1 + GROWTH_RATE) + savings;
-        if (bal >= target) return y;
-      }
-      return Infinity;
-    }
 
     function fmtPortfolio(n) {
       return new Intl.NumberFormat('en-US', {
@@ -126,8 +86,9 @@ const { cityName, country, fireNumbers } = Astro.props;
     // and exposed on window (this define:vars component cannot import the engine).
     function renderVerdict() {
       const surv = window.__paTierSurvival;
-      const bands = window.__paBands;
-      if (!surv || !bands) return false;
+      const classify = window.__paClassify;
+      const threshold = window.__paThreshold;
+      if (!surv || !classify || threshold == null) return false;
       let anyRetire = false;
 
       rows.forEach((row) => {
@@ -141,7 +102,7 @@ const { cityName, country, fireNumbers } = Astro.props;
           row.classList.add('bg-gray-50');
           return;
         }
-        const band = bands.classify(survival);
+        const band = classify(survival, threshold);
         const pct = survival === null ? null : Math.round(survival * 100);
         row.classList.remove('bg-emerald-50/60', 'bg-amber-50/50', 'bg-white/60');
         if (band === 'retire') {

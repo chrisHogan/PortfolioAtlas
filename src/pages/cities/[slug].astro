@@ -172,10 +172,10 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
             Lean FIRE, FIRE, and Fat FIRE for {city.name}
           </h2>
           <p class="text-gray-600 leading-relaxed mb-6">
-            The <strong>FIRE Number</strong> is each lifestyle's 4%-rule target — a reference sized
-            by your chosen withdrawal rate (4% by default). <strong>Status</strong> is our
-            historical-backtest verdict for your portfolio, which can clear a city even below that
-            target if the plan survived past markets.
+            <strong>Needed to retire here</strong> is the portfolio that, in a historical backtest,
+            would have lasted your retirement at your chosen confidence and length.
+            <strong>Status</strong> is the verdict for your portfolio. The 4% rule benchmark is shown
+            underneath each figure for reference only — it no longer decides anything.
           </p>
 
           <div class="bg-white rounded-2xl border border-sand-200 shadow-sm overflow-hidden">
@@ -183,7 +183,7 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
               <thead>
                 <tr class="border-b-2 border-sand-200 bg-sand-50">
                   <th class="text-left py-3 px-5 font-semibold text-gray-600">Lifestyle</th>
-                  <th class="text-right py-3 px-5 font-semibold text-gray-600">Portfolio Needed</th>
+                  <th class="text-right py-3 px-5 font-semibold text-gray-600">Needed to retire here</th>
                   <th class="text-right py-3 px-5 font-semibold text-gray-600">Monthly Cost</th>
                   <th class="text-right py-3 px-5 font-semibold text-gray-600 hidden sm:table-cell" id="status-header">Status</th>
                 </tr>
@@ -309,11 +309,11 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
                 which the money lasted the full length without running out.
               </p>
               <p>
-                The verdict above is the survival rate: 90% or more reads "You can retire here", 75%
-                to 90% is "Close — worth a closer look", and under 75% is "Not quite yet". The
-                retirement-length control drives it — early retirees planning 40–50+ years will see a
-                lower rate than the 30-year baseline. The withdrawal rate only sizes the reference
-                FIRE Number shown above; it does not change this backtest.
+                Your <strong>confidence level</strong> sets the bar: at Balanced (90%), a survival
+                rate of 90% or more reads "You can retire here", within 10 points below is "Close —
+                worth a closer look", and lower is "Not quite yet". The same level sizes the
+                "Needed to retire here" target. <strong>Retirement length</strong> also drives it —
+                early retirees planning 40–50+ years see lower survival than the 30-year baseline.
               </p>
             </div>
           </details>
@@ -436,17 +436,16 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
 
 <script>
   import { runBacktest } from '../../data/backtest';
-  import { RETIRE_SURVIVAL, CAUTION_SURVIVAL, classifySurvival, portfolioNeededFor } from '../../data/retirementBands';
+  import { classifySurvival, requiredPortfolio, thresholdFromConf } from '../../data/retirementBands';
 
-  // Client-side: compare user's portfolio against FIRE Numbers
+  // Client-side: verdict + target from the historical backtest at the chosen confidence
   (function() {
-    const DEFAULT_SWR = 0.04;
     let portfolio = 0;
     let userPassiveIncome = 0;
-    let swr = DEFAULT_SWR;   // withdrawal rate -> binary "can I retire here"
-    let horizon = 30;        // retirement length -> historical backtest
+    let horizon = 30;        // retirement length -> drives the backtest
+    let confPct = 90;        // confidence level -> the ONE threshold
 
-    // Read portfolio, passive income, rate and horizon from the URL only (no persisted state)
+    // Read portfolio, passive income, confidence and horizon from the URL only.
     const params = new URLSearchParams(window.location.search);
     const nwParam = params.get('portfolio') || params.get('nw');
     if (nwParam) {
@@ -454,29 +453,19 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
     }
     const passiveParam = parseInt(params.get('passive') || '0', 10);
     if (passiveParam > 0) userPassiveIncome = passiveParam;
-    const swrParam = parseFloat(params.get('swr') || '');
-    if (!isNaN(swrParam) && swrParam >= 2.5 && swrParam <= 5.0) swr = swrParam / 100;
+    const confParam = parseInt(params.get('conf') || '', 10);
+    if (confParam === 80 || confParam === 90 || confParam === 95) confPct = confParam;
     const horizonParam = parseInt(params.get('horizon') || '', 10);
     if (!isNaN(horizonParam) && horizonParam >= 20 && horizonParam <= 60) horizon = horizonParam;
+    // The single threshold: gates the verdict AND sizes the target on every surface.
+    const threshold = thresholdFromConf(confPct);
 
-    // Lifestyle tier selected on the homepage. Default = 'comfortable' (FIRE), which
-    // matches the homepage default and is what gets omitted from the carried URL.
+    // Lifestyle tier selected on the homepage. Default = 'comfortable' (FIRE).
     const TIER_LABELS: Record<string, string> = { budget: 'Lean FIRE', comfortable: 'FIRE', luxury: 'Fat FIRE' };
     const TIER_FROM_URL: Record<string, string> = { leanfire: 'budget', fire: 'comfortable', fatfire: 'luxury' };
     let selectedTier = 'comfortable';
     const tierParamRaw = params.get('tier') || '';
     if (TIER_FROM_URL[tierParamRaw]) selectedTier = TIER_FROM_URL[tierParamRaw];
-
-    // City FIRE number at the user's withdrawal rate. Mirrors getFireNumber(),
-    // so at the 0.04 default this equals the server-baked data-fire-number.
-    function rateFireFor(monthlyCost: number): number {
-      return Math.round((monthlyCost * 12) / swr / 1000) * 1000;
-    }
-
-    function adjustFN(base: number): number {
-      if (!userPassiveIncome || userPassiveIncome <= 0) return base;
-      return Math.max(0, base - userPassiveIncome / swr);
-    }
 
     const rows = document.querySelectorAll('.fire-row');
     const prompt = document.getElementById('portfolio-prompt');
@@ -488,40 +477,34 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
       return;
     }
 
-    // ─── Verdict engine: historical-backtest survival per tier ───
-    // This is the SINGLE "can you retire here?" source, shared with the homepage
-    // map and FireStatusCard. The 4% rule is only a displayed reference stat.
+    // ─── Verdict engine: historical-backtest survival + solver target per tier ───
     function annualSpendFor(tier: string): number {
       const r = document.querySelector(`.fire-row[data-tier="${tier}"]`);
       const mc = r ? parseInt(r.getAttribute('data-monthly-cost') || '0', 10) : 0;
-      // Net withdrawal = gross city cost minus the user's passive income.
-      return Math.max(0, mc * 12 - userPassiveIncome);
+      return Math.max(0, mc * 12 - userPassiveIncome); // net of passive income
     }
     function survivalFor(tier: string): number | null {
       return runBacktest({ initialPortfolio: portfolio, annualSpending: annualSpendFor(tier), horizonYears: horizon }).successRate;
     }
-    const tierSurvival: Record<string, number | null> = {
-      budget: survivalFor('budget'),
-      comfortable: survivalFor('comfortable'),
-      luxury: survivalFor('luxury'),
-    };
-    // Backtest-based "what you'd actually need": the portfolio that reaches the
-    // retire line at this horizon. Consistent with the verdict by construction.
-    function neededFor(tier: string): number {
-      const spend = annualSpendFor(tier);
-      return portfolioNeededFor(
-        (p) => runBacktest({ initialPortfolio: p, annualSpending: spend, horizonYears: horizon }).successRate,
-        spend,
-      );
+    // Portfolio needed to reach the chosen threshold (null if unreachable at this horizon).
+    function neededFor(tier: string): number | null {
+      return requiredPortfolio({ annualSpending: annualSpendFor(tier), horizonYears: horizon, targetSurvival: threshold });
     }
-    const tierNeeded: Record<string, number> = {
-      budget: neededFor('budget'),
-      comfortable: neededFor('comfortable'),
-      luxury: neededFor('luxury'),
+    // 4% rule benchmark — a fixed reference stat only (no longer a gate).
+    function ruleBenchFor(tier: string): number {
+      const spend = annualSpendFor(tier);
+      return spend > 0 ? Math.round(spend / 0.04 / 1000) * 1000 : 0;
+    }
+    const tierSurvival: Record<string, number | null> = {
+      budget: survivalFor('budget'), comfortable: survivalFor('comfortable'), luxury: survivalFor('luxury'),
     };
-    // Expose for FireStatusCard (a define:vars component that cannot import the engine).
+    const tierNeeded: Record<string, number | null> = {
+      budget: neededFor('budget'), comfortable: neededFor('comfortable'), luxury: neededFor('luxury'),
+    };
+    // Expose for FireStatusCard (define:vars, can't import). Same threshold everywhere.
     (window as any).__paTierSurvival = tierSurvival;
-    (window as any).__paBands = { RETIRE: RETIRE_SURVIVAL, CAUTION: CAUTION_SURVIVAL, classify: classifySurvival };
+    (window as any).__paThreshold = threshold;
+    (window as any).__paClassify = classifySurvival;
     window.dispatchEvent(new Event('pa:survival-ready'));
 
     function fmt(n: number): string {
@@ -550,27 +533,29 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
       }
     }
 
-    // Update FIRE Numbers table with adjusted values and status indicators
-    const rateChanged = Math.abs(swr - DEFAULT_SWR) > 1e-9;
+    // Update each row: the backtest "needed to retire here" target + the verdict.
+    const thPct = Math.round(threshold * 100);
     rows.forEach((row) => {
       const tier = row.getAttribute('data-tier') || '';
       const monthlyCost = parseInt(row.getAttribute('data-monthly-cost') || '0', 10);
-      const cityFireNumber = rateFireFor(monthlyCost); // 4% / chosen-rate rule target
-      const adjustedFN = adjustFN(cityFireNumber);     // rule target, passive-adjusted
       const statusCell = row.querySelector('.fire-status');
       const fireNumberCell = row.querySelector('td:nth-child(2) span');
+      const needed = tierNeeded[tier];
 
-      // Prominent number = backtest-based "what you'd actually need" (the portfolio
-      // that reaches the retire line at this horizon — consistent with the verdict).
-      // Small reference beneath = the familiar rule target at the chosen rate.
+      // Prominent number = backtest target (consistent with the verdict by
+      // construction). Sub-line = threshold + horizon + the 4% rule benchmark as a
+      // small reference. Gap line = how far the portfolio is from the target.
       if (fireNumberCell) {
-        const rulePct = (swr * 100).toFixed(1).replace(/\.0$/, '');
-        (fireNumberCell as HTMLElement).innerHTML = fmt(tierNeeded[tier]) +
-          `<div class="text-[10px] text-gray-400 font-normal mt-0.5">${rulePct}% rule: ${fmt(adjustedFN)}</div>`;
+        const ctx = `${thPct}% survival · ${horizon}yr · 4% rule ${fmt(ruleBenchFor(tier))}`;
+        let gapLine: string;
+        if (needed === null) gapLine = '<div class="text-[10px] text-gray-400 font-normal mt-0.5">unreachable at this horizon</div>';
+        else if (portfolio >= needed) gapLine = '<div class="text-[10px] text-emerald-600 font-normal mt-0.5">you have enough</div>';
+        else gapLine = `<div class="text-[10px] text-gray-500 font-normal mt-0.5">${fmt(needed - portfolio)} short</div>`;
+        (fireNumberCell as HTMLElement).innerHTML = (needed === null ? '—' : fmt(needed)) +
+          `<div class="text-[10px] text-gray-400 font-normal mt-0.5">${ctx}</div>` + gapLine;
       }
 
-      // Show the ACTUAL withdrawal rate (what the backtest tests) so the verdict
-      // reads clearly even when the rule target is set very conservatively.
+      // Actual withdrawal rate (what the backtest tests).
       const wdRateEl = row.querySelector('.wd-rate');
       if (wdRateEl) {
         const netAnnual = Math.max(0, monthlyCost * 12 - userPassiveIncome);
@@ -581,9 +566,9 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
 
       if (!statusCell) return;
 
-      // Status reflects the historical-backtest verdict (NOT the 4% rule).
+      // Status = the historical-backtest verdict at the chosen confidence.
       const survival = tierSurvival[tier];
-      const band = classifySurvival(survival);
+      const band = classifySurvival(survival, threshold);
       const pct = survival === null ? null : Math.round(survival * 100);
       if (band === 'retire') {
         statusCell.innerHTML = `<span class="inline-flex items-center gap-1.5 text-emerald-600 font-semibold text-sm"><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>You can retire here${pct !== null ? ` · ${pct}%` : ''}</span>`;
@@ -602,11 +587,11 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
       const tier = desc.getAttribute('data-tier') as string;
       const row = document.querySelector(`.fire-row[data-tier="${tier}"]`);
       if (!row) return;
-      // Show the same backtest-based "needed" the table shows, so the sections agree.
+      // Show the same backtest target the table shows, so the sections agree.
       const fireEl = desc.querySelector('.lifestyle-fire');
-      if (fireEl) fireEl.textContent = fmt(tierNeeded[tier]);
-      // Highlight tiers the backtest says you can retire at (survival >= 90%).
-      if (classifySurvival(tierSurvival[tier]) === 'retire') {
+      if (fireEl) fireEl.textContent = tierNeeded[tier] === null ? '—' : fmt(tierNeeded[tier] as number);
+      // Highlight tiers whose verdict clears the chosen confidence threshold.
+      if (classifySurvival(tierSurvival[tier], threshold) === 'retire') {
         (desc as HTMLElement).classList.add('border-emerald-200', 'bg-emerald-50/30');
         (desc as HTMLElement).classList.remove('border-sand-200');
       }
@@ -639,25 +624,21 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
       function renderConfidence(tier: string) {
         const row = document.querySelector(`.fire-row[data-tier="${tier}"]`);
         if (!row || !confDetail || !confHeadline || !confSummary) return;
-        const monthlyCost = parseInt(row.getAttribute('data-monthly-cost') || '0', 10);
-        const annualSpending = Math.max(0, monthlyCost * 12 - userPassiveIncome);
+        const annualSpending = annualSpendFor(tier);
 
-        // VERDICT = historical-backtest survival (horizon-driven). 75/25 defaults.
+        // VERDICT = historical-backtest survival vs the chosen confidence threshold.
         const result = runBacktest({ initialPortfolio: portfolio, annualSpending, horizonYears: horizon });
-        const band = classifySurvival(result.successRate);
-
-        // 4% rule = a displayed REFERENCE STAT, never the gate.
-        const ruleFire = adjustFN(rateFireFor(monthlyCost));
-        const clearsRule = ruleFire === 0 || portfolio >= ruleFire;
-        const ratePct = (swr * 100).toFixed(1).replace(/\.0$/, '');
+        const band = classifySurvival(result.successRate, threshold);
+        const needed = tierNeeded[tier]; // solver target at the same threshold (or null)
         const actualRatePct = portfolio > 0 ? ((annualSpending / portfolio) * 100).toFixed(1).replace(/\.0$/, '') : '0';
 
         confText?.classList.add('hidden');
         confDetail.classList.remove('hidden');
         setTierActive(tier);
+        confDivergence?.classList.add('hidden'); // target now agrees with the verdict; no bridge needed
 
         // Headline derives ONLY from the survival band — it is impossible to show
-        // "You can retire here" unless survival >= 90% (the harmful-case guarantee).
+        // "You can retire here" unless survival >= the chosen threshold.
         if (band === 'retire') {
           confHeadline.innerHTML = `${check}<span class="text-lg font-bold text-emerald-600">You can retire here</span>`;
         } else if (band === 'caution') {
@@ -669,31 +650,20 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
         if (result.successRate === null) {
           confSummary.textContent = `Not enough market history for a ${horizon}-year backtest (only ${result.totalSequences} complete periods available). Try a shorter retirement length.`;
           if (confExpanded) confExpanded.innerHTML = '';
-          confDivergence?.classList.add('hidden');
           return;
         }
 
         const successPct = Math.round(result.successRate * 100);
-        confSummary.innerHTML = `At a <strong>${TIER_LABELS[tier]}</strong> lifestyle, your plan survived <strong>${successPct}%</strong> of ${result.totalSequences} historical ${horizon}-year periods since 1871.`;
+        const thPct = Math.round(threshold * 100);
+        let gapTxt = '';
+        if (needed != null) gapTxt = portfolio >= needed ? ` You have enough (target ${fmt(needed)}).` : ` You'd need ${fmt(needed)} — about ${fmt(needed - portfolio)} more.`;
+        confSummary.innerHTML = `At a <strong>${TIER_LABELS[tier]}</strong> lifestyle, your plan survived <strong>${successPct}%</strong> of ${result.totalSequences} historical ${horizon}-year periods (your ${thPct}% target).${gapTxt}`;
 
         if (confExpanded) {
           confExpanded.innerHTML =
             `<p>${result.survivedSequences} of ${result.totalSequences} historical start years (1871–2022) funded ${horizon} years of inflation-adjusted spending at ${fmt(annualSpending)}/yr — 75% stocks / 25% bonds, rebalanced annually.</p>` +
             `<p>Median ending balance: <strong>${fmt(result.medianEndingBalance ?? 0)}</strong>. Worst case: <strong>${fmt(result.worstCaseEndingBalance ?? 0)}</strong>.</p>` +
-            `<p>Reference: you'd withdraw about <strong>${actualRatePct}%</strong> of your portfolio in year one (the ${ratePct}% rule targets ${fmt(ruleFire)}). The rule sizes a permanent target; the verdict above is how the plan held across history.</p>`;
-        }
-
-        // Bridge BOTH divergence directions so the rule and the verdict never contradict.
-        if (confDivergence) {
-          if (clearsRule && band !== 'retire') {
-            confDivergence.innerHTML = `Your portfolio clears the ${ratePct}% rule target, but over <strong>${horizon}</strong> years — longer than the ~30 the rule assumes — this plan survived only <strong>${successPct}%</strong> of history. A shorter retirement length improves the odds.`;
-            confDivergence.classList.remove('hidden');
-          } else if (!clearsRule && band === 'retire') {
-            confDivergence.innerHTML = `You're below the conservative ${ratePct}% rule target, but this plan still survived <strong>${successPct}%</strong> of historical ${horizon}-year periods — the rule sizes a permanent forever-target, and history says this ${horizon}-year horizon held up.`;
-            confDivergence.classList.remove('hidden');
-          } else {
-            confDivergence.classList.add('hidden');
-          }
+            `<p>You'd withdraw about <strong>${actualRatePct}%</strong> in year one. The 4% rule is a familiar benchmark (≈ ${fmt(ruleBenchFor(tier))}); this verdict comes from how your plan held across market history.</p>`;
         }
       }
 

@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import SubscribeCTA from '../components/SubscribeCTA.astro';
 import { allCities } from '../data/cities/index';
-import { formatCurrency, getTotalSpend, SAFE_WITHDRAWAL_RATE } from '../data/types';
+import { formatCurrency, getTotalSpend } from '../data/types';
 import {
   getCityFireNumber,
   getLifestyleMonthlyCost,
@@ -237,21 +237,17 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
               <p class="text-[11px] text-sand-500 mt-1.5 leading-snug">Rental income, dividends, pension, or any income that continues after you stop working. Reduces the portfolio you need to retire.</p>
             </div>
 
-            <!-- Safe withdrawal rate (drives the binary map) -->
+            <!-- Confidence level (the single threshold: drives the verdict AND the target) -->
             <div>
-              <label for="swr-input" class="block text-xs font-medium text-sand-300 mb-1.5">
-                Safe withdrawal rate: <span id="swr-value" class="font-bold text-white">4.0%</span>
+              <label class="block text-xs font-medium text-sand-300 mb-1.5">
+                Confidence level: <span id="conf-value" class="font-bold text-white">Balanced (90%)</span>
               </label>
-              <input
-                type="range"
-                id="swr-input"
-                min="2.5"
-                max="5.0"
-                step="0.1"
-                value="4.0"
-                class="w-full accent-brand-500 cursor-pointer"
-              />
-              <p class="text-[11px] text-sand-500 mt-1.5 leading-snug">Sets the FIRE-number target shown as a reference (lower = larger target). The retire verdict comes from the backtest, not this rate.</p>
+              <div id="conf-stops" class="grid grid-cols-3 gap-1.5">
+                <button type="button" data-conf="80" class="conf-stop py-2 text-[11px] font-semibold rounded-lg border border-white/15 bg-white/5 text-white/70 transition-all">Aggressive<br><span class="text-[10px] opacity-70">80%</span></button>
+                <button type="button" data-conf="90" class="conf-stop py-2 text-[11px] font-semibold rounded-lg border border-white/15 bg-white/5 text-white/70 transition-all">Balanced<br><span class="text-[10px] opacity-70">90%</span></button>
+                <button type="button" data-conf="95" class="conf-stop py-2 text-[11px] font-semibold rounded-lg border border-white/15 bg-white/5 text-white/70 transition-all">Conservative<br><span class="text-[10px] opacity-70">95%</span></button>
+              </div>
+              <p class="text-[11px] text-sand-500 mt-1.5 leading-snug">How sure you want to be, based on market history. Higher = stricter "you can retire here" and a larger target.</p>
             </div>
 
             <!-- Retirement length (drives the per-city backtest only) -->
@@ -359,7 +355,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     <!-- Methodology note -->
     <div class="container-narrow pb-2">
       <p class="text-xs text-gray-400 leading-snug">
-        All cost and FIRE figures assume a single adult. FIRE numbers use a 4% withdrawal rate, validated for ~30-year retirements. Planning longer? A 3–3.5% rate is more conservative.
+        All figures assume a single adult. "Needed to retire here" is the portfolio that survived your retirement length in a historical backtest at your chosen confidence; the 4% rule is shown elsewhere only as a familiar benchmark.
       </p>
     </div>
 
@@ -392,7 +388,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
       </h2>
       <p class="text-gray-600 mb-6 leading-relaxed">
         Enter your portfolio value above and we'll show you every city in the world where you can retire.
-        We compare your portfolio against the FIRE Number for each city — the amount you need to live there at your chosen withdrawal rate (4% by default).
+        For each city we find the portfolio you'd need — the amount that, in a historical backtest, would have lasted your retirement at your chosen confidence — and compare it to yours.
       </p>
       <p class="text-sm text-gray-400 mb-8">
         Currently tracking 100+ cities across 6 continents.
@@ -521,62 +517,54 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
      bundles the historical dataset into the homepage path. -->
 <script>
   import { runBacktest } from '../data/backtest';
-  import { RETIRE_SURVIVAL, classifySurvival, portfolioNeededFor } from '../data/retirementBands';
+  import { classifySurvival, requiredPortfolio } from '../data/retirementBands';
   (window as any).__paBacktest = runBacktest;
-  (window as any).__paRetire = RETIRE_SURVIVAL;
   (window as any).__paClassify = classifySurvival;
-  (window as any).__paNeeded = portfolioNeededFor;
+  (window as any).__paRequired = requiredPortfolio;
   window.dispatchEvent(new Event('pa:engine-ready'));
 </script>
 
-<script define:vars={{ cityData, SAFE_WITHDRAWAL_RATE }}>
+<script define:vars={{ cityData }}>
   // ─── State ───
   let portfolio = 0;
   let lifestyle = 'comfortable';
   let annualSavings = 0;
   let passiveIncome = 0;
-  // Two independent knobs (see "Refine your projections"):
-  //  - withdrawalRate drives ONLY the binary "can I retire here" map.
-  //  - horizonYears drives ONLY the per-city historical backtest (city pages).
-  let withdrawalRate = SAFE_WITHDRAWAL_RATE; // default 0.04
   let horizonYears = 30;
+  // ONE confidence threshold (from the confidence-level control / ?conf) drives
+  // BOTH the green "you can retire here" cutoff AND the dollar target everywhere.
+  const CONF_THRESHOLDS = { 80: 0.80, 90: 0.90, 95: 0.95 };
+  let confPct = 90;
+  function threshold() { return CONF_THRESHOLDS[confPct] || 0.90; }
 
-  // City FIRE number at the current withdrawal rate. Mirrors getFireNumber()
-  // exactly, so at the 0.04 default this reproduces the server-baked values.
-  function fireNumberFor(monthlyCost) {
-    return Math.round((monthlyCost * 12) / withdrawalRate / 1000) * 1000;
+  // Net annual withdrawal for a city's selected tier (gross cost minus passive).
+  function netSpend(city) {
+    return Math.max(0, city.tiers[lifestyle].monthlyCost * 12 - passiveIncome);
   }
 
   // ─── Verdict engine: historical-backtest survival (the SAME engine the city
-  //     pages use). Green iff survival >= the shared retire threshold. The 4%
-  //     rule FIRE number is kept only as a displayed stat, not the gate. ───
+  //     pages use). Green iff survival >= the chosen threshold. ───
   const survivalCache = new Map(); // slug|tier|portfolio|horizon -> successRate (0..1 or null)
   let lastSurvivalKey = '';        // (portfolio|tier|horizon) the cache is warm for
   function citySurvival(city) {
     if (!window.__paBacktest) return undefined; // engine bundle not ready yet
     const key = city.slug + '|' + lifestyle + '|' + portfolio + '|' + horizonYears;
     if (survivalCache.has(key)) return survivalCache.get(key);
-    // Net withdrawal = gross tier cost minus passive income.
-    const annualSpending = Math.max(0, city.tiers[lifestyle].monthlyCost * 12 - passiveIncome);
-    const s = window.__paBacktest({ initialPortfolio: portfolio, annualSpending, horizonYears }).successRate;
+    const s = window.__paBacktest({ initialPortfolio: portfolio, annualSpending: netSpend(city), horizonYears }).successRate;
     survivalCache.set(key, s);
     return s;
   }
-  function retireThreshold() { return window.__paRetire != null ? window.__paRetire : 0.90; }
 
-  // Backtest-based "what you'd need": the portfolio that reaches the retire line for
-  // this city's selected-tier spend at the current horizon. Cached; computed only
-  // for cards actually rendered. Consistent with the verdict by construction.
+  // Backtest-based "what you'd need": the portfolio that reaches the chosen
+  // threshold for this tier's spend + horizon. Same threshold as the green cutoff,
+  // so the number and the verdict are consistent by construction. May be null
+  // (spend too high for any portfolio at this horizon). Cached; only for rendered cards.
   const neededCache = new Map();
   function cityNeeded(city) {
-    if (!window.__paNeeded || !window.__paBacktest) return undefined;
-    const key = city.slug + '|' + lifestyle + '|' + horizonYears + '|' + passiveIncome;
+    if (!window.__paRequired || !window.__paBacktest) return undefined;
+    const key = city.slug + '|' + lifestyle + '|' + horizonYears + '|' + passiveIncome + '|' + confPct;
     if (neededCache.has(key)) return neededCache.get(key);
-    const spend = Math.max(0, city.tiers[lifestyle].monthlyCost * 12 - passiveIncome);
-    const n = window.__paNeeded(
-      (p) => window.__paBacktest({ initialPortfolio: p, annualSpending: spend, horizonYears }).successRate,
-      spend,
-    );
+    const n = window.__paRequired({ annualSpending: netSpend(city), horizonYears, targetSurvival: threshold() });
     neededCache.set(key, n);
     return n;
   }
@@ -747,21 +735,36 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     }
   });
 
-  // \u2500\u2500\u2500 Withdrawal rate & retirement length sliders \u2500\u2500\u2500
-  const swrInput = document.getElementById('swr-input');
-  const swrValue = document.getElementById('swr-value');
+  // \u2500\u2500\u2500 Confidence-level control & retirement-length slider \u2500\u2500\u2500
+  const confValue = document.getElementById('conf-value');
   const horizonInput = document.getElementById('horizon-input');
   const horizonValue = document.getElementById('horizon-value');
 
-  function updateSwrLabel() { if (swrValue) swrValue.textContent = (withdrawalRate * 100).toFixed(1) + '%'; }
-  function updateHorizonLabel() { if (horizonValue) horizonValue.textContent = horizonYears + ' years'; }
-
-  swrInput?.addEventListener('input', () => {
-    withdrawalRate = (parseFloat(swrInput.value) || 4) / 100;
-    updateSwrLabel();
-    // Rate drives the binary map \u2014 recompute live.
-    if (portfolio > 0) { resetSectionCounts(); renderResults(); }
+  const CONF_LABELS = { 80: 'Aggressive (80%)', 90: 'Balanced (90%)', 95: 'Conservative (95%)' };
+  function updateConfLabel() { if (confValue) confValue.textContent = CONF_LABELS[confPct] || ('' + confPct + '%'); }
+  function setConfActive() {
+    document.querySelectorAll('.conf-stop').forEach((b) => {
+      const active = parseInt(b.getAttribute('data-conf'), 10) === confPct;
+      b.classList.toggle('bg-white/20', active);
+      b.classList.toggle('border-white/40', active);
+      b.classList.toggle('text-white', active);
+      b.classList.toggle('bg-white/5', !active);
+      b.classList.toggle('border-white/15', !active);
+      b.classList.toggle('text-white/70', !active);
+    });
+  }
+  document.querySelectorAll('.conf-stop').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      confPct = parseInt(btn.getAttribute('data-conf'), 10) || 90;
+      updateConfLabel();
+      setConfActive();
+      // The threshold gates the verdict AND sizes the target \u2014 re-render. Survival
+      // is threshold-independent (cache stays warm); only the cutoff + target move.
+      if (portfolio > 0) { resetSectionCounts(); renderResults(); }
+    });
   });
+
+  function updateHorizonLabel() { if (horizonValue) horizonValue.textContent = horizonYears + ' years'; }
   let horizonDebounce;
   horizonInput?.addEventListener('input', () => {
     horizonYears = parseInt(horizonInput.value, 10) || 30;
@@ -874,14 +877,6 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     }
   });
 
-  // ─── Passive Income Adjustment ───
-  function adjustFireNumber(baseFireNumber, passive) {
-    if (!passive || passive <= 0) return baseFireNumber;
-    // Capitalize passive income at the SAME withdrawal rate used for the map:
-    // adjustedFireNumber = baseFireNumber - passiveIncome / rate
-    return Math.max(0, baseFireNumber - passive / withdrawalRate);
-  }
-
   // ─── Years Until Affordable ───
   function yearsUntilAffordable(currentPortfolio, fireNumber, savings) {
     if (savings <= 0 || currentPortfolio >= fireNumber) return null;
@@ -959,7 +954,8 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     } else if (city.green) {
       signalHTML = '<div class="flex items-center gap-1.5 mt-1"><svg class="w-4 h-4 text-emerald-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-sm font-semibold text-emerald-600">You can retire here</span></div>';
     } else {
-      const years = annualSavings > 0 ? yearsUntilAffordable(portfolio, city.fireNumber, annualSavings) : null;
+      // Years-to-affordable now grows toward the backtest target (city.needed).
+      const years = (annualSavings > 0 && city.needed != null) ? yearsUntilAffordable(portfolio, city.needed, annualSavings) : null;
       const yearsProjection = getYearsHTML(years);
       const pctTxt = pct !== null ? `Not quite yet · survived ${pct}%` : 'Not quite yet';
       signalHTML = `<p class="text-sm text-gray-500 mt-1">${pctTxt}</p>${yearsProjection}`;
@@ -996,8 +992,8 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
         </div>
         <div class="mb-3">
           <div class="flex items-baseline justify-between">
-            <span class="text-xs text-gray-500">You'd need</span>
-            <span class="text-lg font-bold text-brand-700">${fmtCompact(cityNeeded(city) ?? city.fireNumber)}</span>
+            <span class="text-xs text-gray-500">Needed to retire here</span>
+            <span class="text-lg font-bold text-brand-700">${city.needed != null ? fmtCompact(city.needed) : '—'}</span>
           </div>
           ${signalHTML}
         </div>
@@ -1039,29 +1035,28 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
       return;
     }
 
-    const RETIRE = retireThreshold();
+    const RETIRE = threshold();
 
     // Compute the verdict (backtest survival) + display bucket for each city.
     const allComputed = cityData
       .filter(passesFilters)
       .map((city) => {
         const tierData = city.tiers[lifestyle];
-        // Rule FIRE number is kept as a displayed STAT, not the gate.
-        const fireNumber = adjustFireNumber(fireNumberFor(tierData.monthlyCost), passiveIncome);
         const monthlyCost = tierData.monthlyCost;
-        const survival = citySurvival(city); // 0..1 or null
+        const survival = citySurvival(city);   // 0..1 or null
+        const needed = cityNeeded(city);        // solver target at the chosen threshold (or null)
         const green = survival !== null && survival !== undefined && survival >= RETIRE;
-        const gap = portfolio - fireNumber;
-        const ratio = fireNumber > 0 ? portfolio / fireNumber : Infinity;
-        // Survival is the GATE (green / not). The rule ratio only sub-groups the
-        // green set for display (sweet spot vs. comfortably below your level).
+        const gap = (needed != null) ? portfolio - needed : -Infinity;
+        // Ratio of portfolio to the (consistent) target sub-groups the green set
+        // for display only; survival is the gate.
+        const ratio = (needed != null && needed > 0) ? portfolio / needed : (needed === 0 ? Infinity : 0);
         let fitTier;
         if (!green) fitTier = 'not_affordable';
         else if (ratio > 5) fitTier = 'over_resourced';
         else if (ratio > 2.5) fitTier = 'within_reach';
         else fitTier = 'perfect_fit';
         const justUnlocked = city.unlockThreshold > 0 && portfolio >= city.unlockThreshold && fitTier === 'perfect_fit';
-        return { ...city, fireNumber, monthlyCost, survival, green, gap, fitTier, justUnlocked };
+        return { ...city, needed, monthlyCost, survival, green, gap, fitTier, justUnlocked };
       });
 
     // Bucket into sections
@@ -1217,7 +1212,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     if (portfolio > 0) p.set('portfolio', String(portfolio));
     if (passiveIncome > 0) p.set('passive', String(passiveIncome));
     // Carry the rate + horizon so city pages compute the same map and backtest.
-    if (Math.abs(withdrawalRate - SAFE_WITHDRAWAL_RATE) > 1e-9) p.set('swr', (withdrawalRate * 100).toFixed(1));
+    if (confPct !== 90) p.set('conf', String(confPct));
     if (horizonYears !== 30) p.set('horizon', String(horizonYears));
     // Carry the selected lifestyle tier so the city page defaults to the SAME tier
     // (omitted when it's the 'comfortable'/FIRE default — the city page defaults to it).
@@ -1247,7 +1242,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     if (filters.hc) params.set('hc', filters.hc);
     if (annualSavings > 0) params.set('save', String(annualSavings));
     if (passiveIncome > 0) params.set('passive', String(passiveIncome));
-    if (Math.abs(withdrawalRate - SAFE_WITHDRAWAL_RATE) > 1e-9) params.set('swr', (withdrawalRate * 100).toFixed(1));
+    if (confPct !== 90) params.set('conf', String(confPct));
     if (horizonYears !== 30) params.set('horizon', String(horizonYears));
     const qs = params.toString();
     return window.location.origin + '/' + (qs ? '?' + qs : '');
@@ -1276,11 +1271,11 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     if (passiveParam > 0) passiveIncome = passiveParam;
 
     // Restore withdrawal rate and horizon from URL (validated to the slider range)
-    const swrParam = parseFloat(params.get('swr') || '');
-    if (!isNaN(swrParam) && swrParam >= 2.5 && swrParam <= 5.0) withdrawalRate = swrParam / 100;
+    const confParam = parseInt(params.get('conf') || '', 10);
+    if (confParam === 80 || confParam === 90 || confParam === 95) confPct = confParam;
     const horizonParam = parseInt(params.get('horizon') || '', 10);
     if (!isNaN(horizonParam) && horizonParam >= 20 && horizonParam <= 60) horizonYears = horizonParam;
-    if (swrInput) { swrInput.value = (withdrawalRate * 100).toFixed(1); updateSwrLabel(); }
+    updateConfLabel(); setConfActive();
     if (horizonInput) { horizonInput.value = String(horizonYears); updateHorizonLabel(); }
 
     // Restore filters from URL
@@ -1464,6 +1459,13 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
       });
     });
 
+    // Backtest target for a tier's gross cost (the portfolio needed at the chosen
+    // confidence over the chosen horizon). May be null if unreachable.
+    function reverseTarget(monthlyCost) {
+      if (!window.__paRequired) return null;
+      return window.__paRequired({ annualSpending: monthlyCost * 12, horizonYears, targetSurvival: threshold() });
+    }
+
     function updateReverse() {
       if (!selectedCity || !selectedTier) return;
       const data = selectedCity.tiers[selectedTier];
@@ -1471,7 +1473,8 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
 
       const fireNumEl = document.getElementById('reverse-fire-number');
       const monthlyEl = document.getElementById('reverse-monthly');
-      if (fireNumEl) fireNumEl.textContent = fmtCompact(fireNumberFor(data.monthlyCost));
+      const target = reverseTarget(data.monthlyCost);
+      if (fireNumEl) fireNumEl.textContent = target != null ? fmtCompact(target) : '—';
       if (monthlyEl) monthlyEl.textContent = fmt(data.monthlyCost);
       reverseResults?.classList.remove('hidden');
     }
@@ -1480,9 +1483,10 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
       if (!selectedCity || !selectedTier) return;
       const mc = selectedCity.tiers[selectedTier]?.monthlyCost;
       if (!mc) return;
-      const fn = fireNumberFor(mc);
-      portfolio = fn;
-      portfolioInput.value = fn.toLocaleString('en-US');
+      const target = reverseTarget(mc);
+      if (target == null || target <= 0) return;
+      portfolio = target;
+      portfolioInput.value = target.toLocaleString('en-US');
       reverseFlow?.classList.add('hidden');
       renderResults();
       resultsSection?.scrollIntoView({ behavior: 'smooth' });

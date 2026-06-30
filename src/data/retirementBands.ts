@@ -1,31 +1,44 @@
-// Single source of truth for the "can you retire here?" verdict bands.
-// The historical backtest (src/data/backtest.ts) is the engine; this maps its
-// survival rate (0..1) to a verdict shared by the homepage map AND city pages.
-//
-//   survival >= 0.90          -> "You can retire here"          (retire / green)
-//   0.75 <= survival < 0.90   -> "Close — worth a closer look"  (caution / amber)
-//   survival < 0.90 (or null) -> "Not quite yet"                (not-yet / neutral)
-//
-// Homepage map is BINARY: green iff band === 'retire'. The caution band is a
-// city-page nuance only. Do NOT introduce a second threshold elsewhere — import
-// these constants instead.
+// Single source of truth for the "can you retire here?" verdict — driven by ONE
+// confidence threshold the user picks (the confidence-level control). The same
+// threshold gates the green/"You can retire here" cutoff AND sizes the dollar
+// target (requiredPortfolio) on every surface. Do NOT hardcode a second cutoff.
 
-export const RETIRE_SURVIVAL = 0.90;
-export const CAUTION_SURVIVAL = 0.75;
+import { runBacktest } from './backtest';
+
+/** User-selectable confidence stops. `pct` is the URL value (?conf=). */
+export const CONF_STOPS = [
+  { key: 'aggressive', label: 'Aggressive', pct: 80, threshold: 0.80 },
+  { key: 'balanced', label: 'Balanced', pct: 90, threshold: 0.90 },
+  { key: 'conservative', label: 'Conservative', pct: 95, threshold: 0.95 },
+] as const;
+
+export const DEFAULT_THRESHOLD = 0.90; // "Balanced"
+export const CAUTION_BAND = 0.10;      // "Close" = within 10 points below the threshold
+
+/** Resolve a ?conf percent (80/90/95) to a threshold; falls back to Balanced. */
+export function thresholdFromConf(confPct: number | null | undefined): number {
+  const stop = CONF_STOPS.find((s) => s.pct === confPct);
+  return stop ? stop.threshold : DEFAULT_THRESHOLD;
+}
 
 export type RetireBand = 'retire' | 'caution' | 'not-yet';
 
-/** Classify a backtest survival rate (0..1, or null for "not enough history"). */
-export function classifySurvival(survival: number | null): RetireBand {
+/**
+ * Classify a backtest survival rate (0..1, or null) against the chosen threshold.
+ *   survival >= threshold              -> retire
+ *   threshold-0.10 <= survival < t     -> caution ("Close")
+ *   else / null                        -> not-yet
+ */
+export function classifySurvival(survival: number | null, threshold: number = DEFAULT_THRESHOLD): RetireBand {
   if (survival === null) return 'not-yet';
-  if (survival >= RETIRE_SURVIVAL) return 'retire';
-  if (survival >= CAUTION_SURVIVAL) return 'caution';
+  if (survival >= threshold) return 'retire';
+  if (survival >= threshold - CAUTION_BAND) return 'caution';
   return 'not-yet';
 }
 
 /** True only when the verdict is the positive "you can retire here" (green). */
-export function isRetire(survival: number | null): boolean {
-  return classifySurvival(survival) === 'retire';
+export function isRetire(survival: number | null, threshold: number = DEFAULT_THRESHOLD): boolean {
+  return classifySurvival(survival, threshold) === 'retire';
 }
 
 export const BAND_LABEL: Record<RetireBand, string> = {
@@ -35,27 +48,38 @@ export const BAND_LABEL: Record<RetireBand, string> = {
 };
 
 /**
- * Smallest portfolio (rounded to $1,000) at which `survivalAt(portfolio)` reaches
- * `target` — i.e. the portfolio you'd actually need to clear the "retire" line for a
- * given spend and horizon. Found by bisection on the frozen backtest engine, which
- * is monotonic in portfolio (more money never lowers survival). Returns 0 when there
- * is no net spending (passive income covers it). This is the number that is, by
- * construction, consistent with the verdict: portfolio >= needed iff survival >= target.
+ * Minimum portfolio (rounded to $1,000) whose backtest survival reaches
+ * `targetSurvival` for a given spend + horizon. Found by bisection on the frozen
+ * engine, which is monotonic in portfolio (more money never lowers survival).
+ * Returns 0 when there is no net spending, and null when even a very large
+ * portfolio can't reach the target (spend too high for the horizon).
  */
-export function portfolioNeededFor(
-  survivalAt: (portfolio: number) => number | null,
-  annualSpending: number,
-  target = RETIRE_SURVIVAL,
-): number {
+export function requiredPortfolio({
+  annualSpending,
+  horizonYears,
+  targetSurvival,
+  stock = 0.75,
+  bond = 0.25,
+}: {
+  annualSpending: number;
+  horizonYears: number;
+  targetSurvival: number;
+  stock?: number;
+  bond?: number;
+}): number | null {
   if (annualSpending <= 0) return 0;
+  const survivalAt = (p: number): number | null =>
+    runBacktest({ initialPortfolio: p, annualSpending, horizonYears, stockAllocation: stock, bondAllocation: bond }).successRate;
+
   let lo = annualSpending;       // ~100% withdrawal -> ~0% survival
   let hi = annualSpending * 60;  // ~1.7% withdrawal -> ~100% survival
   const top = survivalAt(hi);
-  if (top === null || top < target) return Math.round(hi / 1000) * 1000; // best effort
-  for (let i = 0; i < 22; i++) {
+  if (top === null || top < targetSurvival) return null; // unreachable at this horizon
+  for (let i = 0; i < 24; i++) {
     const mid = (lo + hi) / 2;
     const s = survivalAt(mid);
-    if (s !== null && s >= target) hi = mid; else lo = mid;
+    if (s !== null && s >= targetSurvival) hi = mid; else lo = mid;
   }
-  return Math.round(hi / 1000) * 1000;
+  // hi always satisfies the target; round UP so the $1,000-rounded figure still does.
+  return Math.ceil(hi / 1000) * 1000;
 }
