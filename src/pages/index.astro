@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import SubscribeCTA from '../components/SubscribeCTA.astro';
 import { allCities } from '../data/cities/index';
 import { formatCurrency, getTotalSpend, SAFE_WITHDRAWAL_RATE } from '../data/types';
 import {
@@ -327,6 +328,14 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
       <div id="no-cities" class="hidden py-12 text-center">
         <p class="text-gray-500 font-semibold mb-2">No cities match your criteria</p>
         <p class="text-sm text-gray-400">Try adjusting your filters or increasing your portfolio.</p>
+        <div class="mt-6">
+          <SubscribeCTA
+            variant="link"
+            utm="no_results"
+            heading="Don't see your city?"
+            subtext="Subscribe and we'll let you know when we add new cities."
+          />
+        </div>
       </div>
     </div>
   </section>
@@ -425,6 +434,13 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
       <a href="/compare" class="text-brand-600 hover:underline font-medium">Compare cities side by side</a>
     </p>
   </section>
+
+  <!-- Newsletter capture (always visible, end of homepage content) -->
+  <SubscribeCTA
+    variant="inline"
+    heading="Get notified as we add cities and analysis"
+    subtext="New cities, country guides, and FIRE breakdowns — straight to your inbox."
+  />
 </Layout>
 
 <style>

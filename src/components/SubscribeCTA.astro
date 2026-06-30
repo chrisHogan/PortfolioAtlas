@@ -1,0 +1,96 @@
+---
+// Reusable newsletter capture. Capture/storage/confirmation are owned entirely by
+// Substack — this component never POSTs anywhere and never places an email (or any
+// user data) in a URL. "inline" embeds Substack's official iframe; "link" sends the
+// user to the Substack subscribe page.
+interface Props {
+  variant: 'inline' | 'link';
+  heading?: string;
+  subtext?: string;
+  /** Appended as utm_campaign on the "link" variant only. */
+  utm?: string;
+}
+
+const {
+  variant,
+  heading = 'Subscribe to PortfolioAtlas',
+  subtext = 'New cities and FIRE analysis, straight to your inbox.',
+  utm = '',
+} = Astro.props;
+
+// Attribution params only — no email or user data is ever placed in this URL.
+const subscribeHref = `https://portfolioatlas.substack.com/subscribe?utm_source=portfolioatlas&utm_medium=site&utm_campaign=${encodeURIComponent(utm)}`;
+---
+
+{variant === 'inline' && (
+  <section id="subscribe-inline-cta" class="container-narrow py-12">
+    <div class="max-w-2xl mx-auto text-center">
+      <h2 class="font-serif text-2xl font-bold text-brand-950 mb-2">{heading}</h2>
+      <p class="text-gray-600 mb-6">{subtext}</p>
+      <iframe
+        src="https://portfolioatlas.substack.com/embed"
+        width="100%"
+        style="max-width:480px;border:1px solid var(--border, #EEE);background:white;border-radius:8px"
+        height="320"
+        frameborder="0"
+        scrolling="no"
+        loading="lazy"
+        title="Subscribe to PortfolioAtlas"
+        class="mx-auto"
+      ></iframe>
+    </div>
+  </section>
+)}
+
+{variant === 'link' && (
+  <div>
+    <h3 class="font-semibold text-base mb-1">{heading}</h3>
+    <p class="text-sm opacity-80 mb-3">{subtext}</p>
+    <a
+      href={subscribeHref}
+      target="_blank"
+      rel="noopener"
+      data-subscribe-link
+      data-location={utm}
+      class="inline-flex items-center justify-center px-5 py-2.5 bg-brand-600 text-white text-sm font-semibold rounded-lg hover:bg-brand-700 transition-colors"
+    >
+      Subscribe
+    </a>
+  </div>
+)}
+
+<script>
+  // Newsletter CTA analytics. Guarded to match the site's existing gtag pattern.
+  // Astro bundles this script once per page even when the component is used multiple times.
+  (() => {
+    // "link" variant: fire a click event with the placement's utm as location.
+    document.querySelectorAll('[data-subscribe-link]').forEach((el) => {
+      el.addEventListener('click', () => {
+        if (typeof gtag === 'function') {
+          gtag('event', 'newsletter_signup_click', {
+            location: el.getAttribute('data-location') || '',
+          });
+        }
+      });
+    });
+
+    // "inline" variant: iframe submission isn't observable cross-origin, so fire a
+    // one-time view event when the embed scrolls into view.
+    const inline = document.getElementById('subscribe-inline-cta');
+    if (inline && 'IntersectionObserver' in window) {
+      let fired = false;
+      const observer = new IntersectionObserver((entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting && !fired) {
+            fired = true;
+            if (typeof gtag === 'function') {
+              gtag('event', 'newsletter_cta_view', { location: 'homepage_inline' });
+            }
+            observer.disconnect();
+          }
+        }
+      }, { threshold: 0.4 });
+      observer.observe(inline);
+    }
+  })();
+</script>
