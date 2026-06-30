@@ -121,55 +121,50 @@ const { cityName, country, fireNumbers } = Astro.props;
     }
 
     const rows = card.querySelectorAll('.fire-status-row');
-    let anySustainable = false;
 
-    rows.forEach((row) => {
-      const monthlyCostStr = row.getAttribute('data-monthly-cost');
-      const signal = row.querySelector('.fire-status-signal');
-      if (!signal) return;
+    // Verdict = historical-backtest survival per tier, computed by the host page
+    // and exposed on window (this define:vars component cannot import the engine).
+    function renderVerdict() {
+      const surv = window.__paTierSurvival;
+      const bands = window.__paBands;
+      if (!surv || !bands) return false;
+      let anyRetire = false;
 
-      const monthlyCost = parseInt(monthlyCostStr || '0', 10);
-      if (!monthlyCostStr || isNaN(monthlyCost) || monthlyCost <= 0) {
-        signal.textContent = 'Data unavailable';
-        signal.classList.add('text-gray-400');
-        row.classList.add('bg-gray-50');
-        return;
-      }
-
-      // FIRE number at the user's withdrawal rate — same basis as the FIRE table.
-      const baseFireNumber = rateFireFor(monthlyCost);
-      const adjustedFN = adjustFN(baseFireNumber);
-      const fullyCovered = userPassiveIncome > 0 && adjustedFN === 0;
-
-      if (fullyCovered) {
-        anySustainable = true;
-        signal.innerHTML = '<span class="inline-flex items-center gap-1.5 text-emerald-600">&#x2705; Fully covered by passive income</span>';
-        row.classList.add('bg-emerald-50/60');
-      } else if (portfolio >= adjustedFN) {
-        anySustainable = true;
-        signal.innerHTML = '<span class="inline-flex items-center gap-1.5 text-emerald-600">&#x2705; Sustainable</span>';
-        row.classList.add('bg-emerald-50/60');
-      } else {
-        const gap = adjustedFN - portfolio;
-        let label = gap < 10_000 ? 'Almost there' : ('Need ' + fmtGap(gap) + ' more');
-        if (annualSavings > 0 || GROWTH_RATE > 0) {
-          const years = yearsUntil(portfolio, adjustedFN, annualSavings);
-          if (years <= MAX_YEARS) {
-            label += ` · ~${years}yr${years !== 1 ? 's' : ''}`;
-          } else if (annualSavings > 0) {
-            label += ' · 30+ yrs';
-          }
+      rows.forEach((row) => {
+        const tier = row.getAttribute('data-tier') || '';
+        const signal = row.querySelector('.fire-status-signal');
+        if (!signal) return;
+        const survival = surv[tier];
+        if (survival === undefined) {
+          signal.textContent = 'Data unavailable';
+          signal.classList.add('text-gray-400');
+          row.classList.add('bg-gray-50');
+          return;
         }
-        signal.innerHTML = `<span class="text-gray-500">${label}</span>`;
-        row.classList.add('bg-white/60');
-      }
-    });
+        const band = bands.classify(survival);
+        const pct = survival === null ? null : Math.round(survival * 100);
+        row.classList.remove('bg-emerald-50/60', 'bg-amber-50/50', 'bg-white/60');
+        if (band === 'retire') {
+          anyRetire = true;
+          signal.innerHTML = '<span class="inline-flex items-center gap-1.5 text-emerald-600">&#x2705; You can retire here</span>';
+          row.classList.add('bg-emerald-50/60');
+        } else if (band === 'caution') {
+          signal.innerHTML = `<span class="text-amber-600 font-medium">Close${pct !== null ? ` · ${pct}%` : ''}</span>`;
+          row.classList.add('bg-amber-50/50');
+        } else {
+          signal.innerHTML = `<span class="text-gray-500">Not quite yet${pct !== null ? ` · ${pct}%` : ''}</span>`;
+          row.classList.add('bg-white/60');
+        }
+      });
 
-    const headline = document.getElementById('fire-status-headline');
-    if (headline) {
-      headline.textContent = anySustainable
-        ? `You could retire in ${cityName}, ${country} today.`
-        : `You're on your way to ${cityName}, ${country}.`;
+      const headline = document.getElementById('fire-status-headline');
+      if (headline) {
+        headline.textContent = anyRetire
+          ? `You could retire in ${cityName}, ${country} today.`
+          : `You're on your way to ${cityName}, ${country}.`;
+      }
+      card.classList.remove('hidden');
+      return true;
     }
 
     const portfolioLine = document.getElementById('fire-status-portfolio');
@@ -186,7 +181,11 @@ const { cityName, country, fireNumbers } = Astro.props;
       }
     }
 
-    card.classList.remove('hidden');
+    // The host page computes per-tier survival after parse; render when it's ready
+    // (renderVerdict reveals the card). Render immediately if it's already there.
+    if (!renderVerdict()) {
+      window.addEventListener('pa:survival-ready', renderVerdict, { once: true });
+    }
 
     const shareBtn = document.getElementById('fire-status-share');
     const toast = document.getElementById('fire-status-toast');

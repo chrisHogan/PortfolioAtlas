@@ -429,6 +429,7 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
 
 <script>
   import { runBacktest } from '../../data/backtest';
+  import { RETIRE_SURVIVAL, CAUTION_SURVIVAL, classifySurvival } from '../../data/retirementBands';
 
   // Client-side: compare user's portfolio against FIRE Numbers
   (function() {
@@ -479,6 +480,28 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
       if (statusHeader) statusHeader.textContent = '';
       return;
     }
+
+    // ─── Verdict engine: historical-backtest survival per tier ───
+    // This is the SINGLE "can you retire here?" source, shared with the homepage
+    // map and FireStatusCard. The 4% rule is only a displayed reference stat.
+    function annualSpendFor(tier: string): number {
+      const r = document.querySelector(`.fire-row[data-tier="${tier}"]`);
+      const mc = r ? parseInt(r.getAttribute('data-monthly-cost') || '0', 10) : 0;
+      // Net withdrawal = gross city cost minus the user's passive income.
+      return Math.max(0, mc * 12 - userPassiveIncome);
+    }
+    function survivalFor(tier: string): number | null {
+      return runBacktest({ initialPortfolio: portfolio, annualSpending: annualSpendFor(tier), horizonYears: horizon }).successRate;
+    }
+    const tierSurvival: Record<string, number | null> = {
+      budget: survivalFor('budget'),
+      comfortable: survivalFor('comfortable'),
+      luxury: survivalFor('luxury'),
+    };
+    // Expose for FireStatusCard (a define:vars component that cannot import the engine).
+    (window as any).__paTierSurvival = tierSurvival;
+    (window as any).__paBands = { RETIRE: RETIRE_SURVIVAL, CAUTION: CAUTION_SURVIVAL, classify: classifySurvival };
+    window.dispatchEvent(new Event('pa:survival-ready'));
 
     function fmt(n: number): string {
       if (n >= 1_000_000) {
@@ -533,15 +556,19 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
 
       if (!statusCell) return;
 
-      if (fullyCovered) {
-        statusCell.innerHTML = '<span class="inline-flex items-center gap-1.5 text-emerald-600 font-semibold text-sm"><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Fully covered by passive income</span>';
-        (row as HTMLElement).classList.add('bg-emerald-50/50');
-      } else if (portfolio >= adjustedFN) {
+      // Status reflects the historical-backtest verdict (NOT the 4% rule).
+      const tier = row.getAttribute('data-tier') || '';
+      const survival = tierSurvival[tier];
+      const band = classifySurvival(survival);
+      const pct = survival === null ? null : Math.round(survival * 100);
+      if (band === 'retire') {
         statusCell.innerHTML = '<span class="inline-flex items-center gap-1.5 text-emerald-600 font-semibold text-sm"><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>You can retire here</span>';
         (row as HTMLElement).classList.add('bg-emerald-50/50');
+      } else if (band === 'caution') {
+        statusCell.innerHTML = `<span class="text-sm font-semibold text-amber-600">Close${pct !== null ? ` · ${pct}%` : ''}</span>`;
+        (row as HTMLElement).classList.add('bg-amber-50/40');
       } else {
-        const gap = adjustedFN - portfolio;
-        statusCell.innerHTML = `<span class="text-sm text-gray-500">Need ${fmt(gap)} more</span>`;
+        statusCell.innerHTML = `<span class="text-sm text-gray-500">Not quite yet${pct !== null ? ` · ${pct}%` : ''}</span>`;
       }
     });
 
@@ -559,8 +586,8 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
         const fireEl = desc.querySelector('.lifestyle-fire');
         if (fireEl) fireEl.textContent = fmt(cityFire);
       }
-      const adjustedFN = adjustFN(cityFire);
-      if (portfolio >= adjustedFN) {
+      // Highlight tiers the backtest says you can retire at (survival >= 90%).
+      if (classifySurvival(tierSurvival[tier]) === 'retire') {
         (desc as HTMLElement).classList.add('border-emerald-200', 'bg-emerald-50/30');
         (desc as HTMLElement).classList.remove('border-sand-200');
       }
@@ -594,22 +621,31 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
         const row = document.querySelector(`.fire-row[data-tier="${tier}"]`);
         if (!row || !confDetail || !confHeadline || !confSummary) return;
         const monthlyCost = parseInt(row.getAttribute('data-monthly-cost') || '0', 10);
-        const annualSpending = monthlyCost * 12;
+        const annualSpending = Math.max(0, monthlyCost * 12 - userPassiveIncome);
 
-        // Binary verdict: same rate-based FIRE number the homepage map uses.
-        const tierFire = adjustFN(rateFireFor(monthlyCost));
-        const canRetire = tierFire === 0 || portfolio >= tierFire;
-
-        // Backtest is driven by horizon, NOT the withdrawal rate. 75/25 defaults.
+        // VERDICT = historical-backtest survival (horizon-driven). 75/25 defaults.
         const result = runBacktest({ initialPortfolio: portfolio, annualSpending, horizonYears: horizon });
+        const band = classifySurvival(result.successRate);
+
+        // 4% rule = a displayed REFERENCE STAT, never the gate.
+        const ruleFire = adjustFN(rateFireFor(monthlyCost));
+        const clearsRule = ruleFire === 0 || portfolio >= ruleFire;
+        const ratePct = (swr * 100).toFixed(1).replace(/\.0$/, '');
+        const actualRatePct = portfolio > 0 ? ((annualSpending / portfolio) * 100).toFixed(1).replace(/\.0$/, '') : '0';
 
         confText?.classList.add('hidden');
         confDetail.classList.remove('hidden');
         setTierActive(tier);
 
-        confHeadline.innerHTML = canRetire
-          ? `${check}<span class="text-lg font-bold text-emerald-600">You can retire here</span>`
-          : '<span class="text-lg font-bold text-gray-600">Not quite yet</span>';
+        // Headline derives ONLY from the survival band — it is impossible to show
+        // "You can retire here" unless survival >= 90% (the harmful-case guarantee).
+        if (band === 'retire') {
+          confHeadline.innerHTML = `${check}<span class="text-lg font-bold text-emerald-600">You can retire here</span>`;
+        } else if (band === 'caution') {
+          confHeadline.innerHTML = '<span class="text-lg font-bold text-amber-600">Close — worth a closer look</span>';
+        } else {
+          confHeadline.innerHTML = '<span class="text-lg font-bold text-gray-600">Not quite yet</span>';
+        }
 
         if (result.successRate === null) {
           confSummary.textContent = `Not enough market history for a ${horizon}-year backtest (only ${result.totalSequences} complete periods available). Try a shorter retirement length.`;
@@ -619,23 +655,22 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
         }
 
         const successPct = Math.round(result.successRate * 100);
-        const ratePct = (swr * 100).toFixed(1).replace(/\.0$/, '');
         confSummary.innerHTML = `At a <strong>${TIER_LABELS[tier]}</strong> lifestyle, your plan survived <strong>${successPct}%</strong> of ${result.totalSequences} historical ${horizon}-year periods since 1871.`;
 
         if (confExpanded) {
           confExpanded.innerHTML =
             `<p>${result.survivedSequences} of ${result.totalSequences} historical start years (1871–2022) funded ${horizon} years of inflation-adjusted spending at ${fmt(annualSpending)}/yr — 75% stocks / 25% bonds, rebalanced annually.</p>` +
-            `<p>Median ending balance: <strong>${fmt(result.medianEndingBalance ?? 0)}</strong>. Worst case: <strong>${fmt(result.worstCaseEndingBalance ?? 0)}</strong>.</p>`;
+            `<p>Median ending balance: <strong>${fmt(result.medianEndingBalance ?? 0)}</strong>. Worst case: <strong>${fmt(result.worstCaseEndingBalance ?? 0)}</strong>.</p>` +
+            `<p>Reference: you'd withdraw about <strong>${actualRatePct}%</strong> of your portfolio in year one (the ${ratePct}% rule targets ${fmt(ruleFire)}). The rule sizes a permanent target; the verdict above is how the plan held across history.</p>`;
         }
 
+        // Bridge BOTH divergence directions so the rule and the verdict never contradict.
         if (confDivergence) {
-          if (canRetire && successPct < 90) {
-            // Binary YES, but history says it's shaky.
-            confDivergence.innerHTML = `Clears the ${ratePct}% rule, but a ${horizon}-year retirement is longer than the ~30 years the 4% rule was designed for — historically this plan held up only <strong>${successPct}%</strong> of the time. A lower withdrawal rate or shorter horizon improves the odds.`;
+          if (clearsRule && band !== 'retire') {
+            confDivergence.innerHTML = `Your portfolio clears the ${ratePct}% rule target, but over <strong>${horizon}</strong> years — longer than the ~30 the rule assumes — this plan survived only <strong>${successPct}%</strong> of history. A shorter horizon or lower withdrawal rate improves the odds.`;
             confDivergence.classList.remove('hidden');
-          } else if (!canRetire) {
-            // Binary NO — bridge the "not quite yet" headline to the backtest %.
-            confDivergence.innerHTML = `Doesn't clear the ${ratePct}% rule for a ${TIER_LABELS[tier]} lifestyle here, but this spend survived <strong>${successPct}%</strong> of historical ${horizon}-year periods. The ${ratePct}% rule sizes a permanent target; the backtest asks whether a ${horizon}-year drawdown specifically would have lasted.`;
+          } else if (!clearsRule && band === 'retire') {
+            confDivergence.innerHTML = `You're below the conservative ${ratePct}% rule target, but this plan still survived <strong>${successPct}%</strong> of historical ${horizon}-year periods — the rule sizes a permanent forever-target, and history says this ${horizon}-year horizon held up.`;
             confDivergence.classList.remove('hidden');
           } else {
             confDivergence.classList.add('hidden');

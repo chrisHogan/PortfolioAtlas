@@ -251,7 +251,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
                 value="4.0"
                 class="w-full accent-brand-500 cursor-pointer"
               />
-              <p class="text-[11px] text-sand-500 mt-1.5 leading-snug">Lower = more conservative (larger target). 4% is the standard 30-year rule.</p>
+              <p class="text-[11px] text-sand-500 mt-1.5 leading-snug">Sets the FIRE-number target shown as a reference (lower = larger target). The retire verdict comes from the backtest, not this rate.</p>
             </div>
 
             <!-- Retirement length (drives the per-city backtest only) -->
@@ -268,7 +268,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
                 value="30"
                 class="w-full accent-brand-500 cursor-pointer"
               />
-              <p class="text-[11px] text-sand-500 mt-1.5 leading-snug">How many years your money must last. Early retirees often plan 40–50+.</p>
+              <p class="text-[11px] text-sand-500 mt-1.5 leading-snug">Drives the verdict: your plan is backtested over every period this long in market history. Early retirees often plan 40–50+.</p>
             </div>
           </div>
         </div>
@@ -516,6 +516,18 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   }
 </style>
 
+<!-- Engine bridge: a module CAN import the bundled backtest engine + bands and
+     expose them to the define:vars calculator below (which cannot import). This
+     bundles the historical dataset into the homepage path. -->
+<script>
+  import { runBacktest } from '../data/backtest';
+  import { RETIRE_SURVIVAL, classifySurvival } from '../data/retirementBands';
+  (window as any).__paBacktest = runBacktest;
+  (window as any).__paRetire = RETIRE_SURVIVAL;
+  (window as any).__paClassify = classifySurvival;
+  window.dispatchEvent(new Event('pa:engine-ready'));
+</script>
+
 <script define:vars={{ cityData, SAFE_WITHDRAWAL_RATE }}>
   // ─── State ───
   let portfolio = 0;
@@ -533,6 +545,23 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   function fireNumberFor(monthlyCost) {
     return Math.round((monthlyCost * 12) / withdrawalRate / 1000) * 1000;
   }
+
+  // ─── Verdict engine: historical-backtest survival (the SAME engine the city
+  //     pages use). Green iff survival >= the shared retire threshold. The 4%
+  //     rule FIRE number is kept only as a displayed stat, not the gate. ───
+  const survivalCache = new Map(); // slug|tier|portfolio|horizon -> successRate (0..1 or null)
+  let lastSurvivalKey = '';        // (portfolio|tier|horizon) the cache is warm for
+  function citySurvival(city) {
+    if (!window.__paBacktest) return undefined; // engine bundle not ready yet
+    const key = city.slug + '|' + lifestyle + '|' + portfolio + '|' + horizonYears;
+    if (survivalCache.has(key)) return survivalCache.get(key);
+    // Net withdrawal = gross tier cost minus passive income.
+    const annualSpending = Math.max(0, city.tiers[lifestyle].monthlyCost * 12 - passiveIncome);
+    const s = window.__paBacktest({ initialPortfolio: portfolio, annualSpending, horizonYears }).successRate;
+    survivalCache.set(key, s);
+    return s;
+  }
+  function retireThreshold() { return window.__paRetire != null ? window.__paRetire : 0.90; }
   const INITIAL_PER_SECTION = 8;
   const sectionVisibleCounts = { perfect_fit: INITIAL_PER_SECTION, within_reach: INITIAL_PER_SECTION, not_affordable: INITIAL_PER_SECTION };
   function resetSectionCounts() {
@@ -715,12 +744,16 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     // Rate drives the binary map \u2014 recompute live.
     if (portfolio > 0) { resetSectionCounts(); renderResults(); }
   });
+  let horizonDebounce;
   horizonInput?.addEventListener('input', () => {
     horizonYears = parseInt(horizonInput.value, 10) || 30;
     updateHorizonLabel();
-    // Horizon does NOT affect the homepage map; just keep carried links fresh
-    // so the value travels to the per-city backtest.
-    if (portfolio > 0) decorateInternalLinks();
+    // Horizon now drives the verdict — recompute the map (debounced so dragging
+    // the slider doesn't re-run 112 backtests on every tick).
+    if (portfolio > 0) {
+      clearTimeout(horizonDebounce);
+      horizonDebounce = setTimeout(() => { resetSectionCounts(); renderResults(); }, 150);
+    }
   });
 
   // Quick-select buttons
@@ -900,18 +933,18 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
       `<span title="${tagTooltips[t.cat] || t.cat}: ${t.label}" class="text-[10px] font-medium px-2 py-0.5 rounded-full ${getTagColorClient(t.cat, t.label)}">${t.label}</span>`
     ).join('');
 
-    const years = !city.affordable && annualSavings > 0 ? yearsUntilAffordable(portfolio, city.fireNumber, annualSavings) : null;
-    const yearsProjection = getYearsHTML(years);
+    const pct = (city.survival === null || city.survival === undefined) ? null : Math.round(city.survival * 100);
 
     let signalHTML;
-    if (city.fullyCovered) {
-      signalHTML = '<div class="flex items-center gap-1.5 mt-1"><svg class="w-4 h-4 text-emerald-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-sm font-semibold text-emerald-600">Fully covered by passive income</span></div>';
-    } else if (city.fitTier === 'over_resourced') {
+    if (city.fitTier === 'over_resourced') {
       signalHTML = '<div class="flex items-center gap-1.5 mt-1"><svg class="w-4 h-4 text-gray-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-sm font-medium text-gray-400">Easily affordable</span></div>';
-    } else if (city.affordable) {
+    } else if (city.green) {
       signalHTML = '<div class="flex items-center gap-1.5 mt-1"><svg class="w-4 h-4 text-emerald-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span class="text-sm font-semibold text-emerald-600">You can retire here</span></div>';
     } else {
-      signalHTML = `<p class="text-sm text-gray-500 mt-1">Need ${fmtCompact(Math.abs(city.gap))} more</p>${yearsProjection}`;
+      const years = annualSavings > 0 ? yearsUntilAffordable(portfolio, city.fireNumber, annualSavings) : null;
+      const yearsProjection = getYearsHTML(years);
+      const pctTxt = pct !== null ? `Not quite yet · survived ${pct}%` : 'Not quite yet';
+      signalHTML = `<p class="text-sm text-gray-500 mt-1">${pctTxt}</p>${yearsProjection}`;
     }
 
     // Fit label
@@ -927,7 +960,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     }
 
     const isOverResourced = city.fitTier === 'over_resourced';
-    const barColor = isOverResourced ? 'from-gray-300 to-gray-400' : (city.affordable ? 'from-emerald-400 to-emerald-500' : 'from-brand-500 to-brand-600');
+    const barColor = isOverResourced ? 'from-gray-300 to-gray-400' : (city.green ? 'from-emerald-400 to-emerald-500' : 'from-brand-500 to-brand-600');
     const cardOpacity = isOverResourced ? 'opacity-70' : '';
 
     return `<a href="/cities/${city.slug}" class="city-card block group ${cardOpacity}">
@@ -965,22 +998,52 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     resultsSection?.classList.remove('hidden');
     document.getElementById('reverse-flow')?.classList.add('hidden');
 
-    // Compute cities with fit data
+    // The engine bundle is deferred (loads after first paint). Until it's ready,
+    // show a brief analyzing state and re-render on the ready event.
+    if (!window.__paBacktest) {
+      citySections.innerHTML = '<div class="py-16 text-center text-sm text-gray-400">Backtesting 100+ cities against market history…</div>';
+      noCities?.classList.add('hidden');
+      window.addEventListener('pa:engine-ready', () => renderResults(), { once: true });
+      return;
+    }
+
+    // Heavy step (~112 backtests) runs AFTER paint and is cached per
+    // portfolio|tier|horizon — only recompute when one of those changes.
+    const survivalKey = portfolio + '|' + lifestyle + '|' + horizonYears;
+    if (survivalKey !== lastSurvivalKey) {
+      citySections.innerHTML = '<div class="py-16 text-center text-sm text-gray-400">Backtesting 100+ cities against market history…</div>';
+      noCities?.classList.add('hidden');
+      requestAnimationFrame(() => {
+        cityData.forEach((c) => citySurvival(c)); // warm the cache for this key
+        lastSurvivalKey = survivalKey;
+        renderResults();
+      });
+      return;
+    }
+
+    const RETIRE = retireThreshold();
+
+    // Compute the verdict (backtest survival) + display bucket for each city.
     const allComputed = cityData
       .filter(passesFilters)
       .map((city) => {
         const tierData = city.tiers[lifestyle];
-        // Recompute the base FIRE number at the user's withdrawal rate.
-        const baseFireNumber = fireNumberFor(tierData.monthlyCost);
-        const fireNumber = adjustFireNumber(baseFireNumber, passiveIncome);
+        // Rule FIRE number is kept as a displayed STAT, not the gate.
+        const fireNumber = adjustFireNumber(fireNumberFor(tierData.monthlyCost), passiveIncome);
         const monthlyCost = tierData.monthlyCost;
-        const fullyCovered = passiveIncome > 0 && fireNumber === 0;
-        const affordable = portfolio >= fireNumber;
+        const survival = citySurvival(city); // 0..1 or null
+        const green = survival !== null && survival !== undefined && survival >= RETIRE;
         const gap = portfolio - fireNumber;
-        const fitTier = fullyCovered ? 'over_resourced' : getPortfolioFit(portfolio, fireNumber);
-        // "Now in range" — portfolio just crossed unlock threshold AND city is perfect_fit or within_reach
+        const ratio = fireNumber > 0 ? portfolio / fireNumber : Infinity;
+        // Survival is the GATE (green / not). The rule ratio only sub-groups the
+        // green set for display (sweet spot vs. comfortably below your level).
+        let fitTier;
+        if (!green) fitTier = 'not_affordable';
+        else if (ratio > 5) fitTier = 'over_resourced';
+        else if (ratio > 2.5) fitTier = 'within_reach';
+        else fitTier = 'perfect_fit';
         const justUnlocked = city.unlockThreshold > 0 && portfolio >= city.unlockThreshold && fitTier === 'perfect_fit';
-        return { ...city, fireNumber, monthlyCost, affordable, gap, fullyCovered, fitTier, justUnlocked };
+        return { ...city, fireNumber, monthlyCost, survival, green, gap, fitTier, justUnlocked };
       });
 
     // Bucket into sections
@@ -990,13 +1053,12 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     const overResourced = allComputed.filter((c) => c.fitTier === 'over_resourced');
 
     // Sort within each bucket
-    // Sweet spot: "just unlocked" premium cities first, then by fire score
     sweetSpot.sort((a, b) => {
       if (a.justUnlocked !== b.justUnlocked) return a.justUnlocked ? -1 : 1;
       return b.fireScore - a.fireScore;
     });
     withinReach.sort((a, b) => b.fireScore - a.fireScore);
-    stretchGoals.sort((a, b) => b.gap - a.gap); // closest to affordable first
+    stretchGoals.sort((a, b) => (b.survival ?? -1) - (a.survival ?? -1)); // closest to retiring first
     overResourced.sort((a, b) => b.fireScore - a.fireScore);
 
     const totalFiltered = allComputed.length;
