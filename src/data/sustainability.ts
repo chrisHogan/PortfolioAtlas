@@ -79,4 +79,4 @@ export const SIGNAL_DISPLAY: Record<SustainabilitySignal, { label: string; color
   'not-sustainable': { label: 'Not sustainable', colorClass: 'text-gray-500', dotClass: 'bg-gray-400' },
 };
 
-export const SUSTAINABILITY_FOOTNOTE = 'Based on 4% withdrawal rate with 90% historical success rate';
+export const SUSTAINABILITY_FOOTNOTE = 'Based on a 4% withdrawal rate (the Trinity Study rule), generally validated for ~30-year retirements';

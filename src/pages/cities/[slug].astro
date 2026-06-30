@@ -242,9 +242,10 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
 
         <!-- 2. Lifestyle Descriptions -->
         <section>
-          <h2 class="font-serif text-2xl font-bold text-brand-950 mb-4">
+          <h2 class="font-serif text-2xl font-bold text-brand-950 mb-2">
             Cost of Living Breakdown for {city.name}
           </h2>
+          <p class="text-xs text-gray-400 mb-4">All cost and FIRE figures assume a single adult.</p>
 
           <div class="space-y-4">
             {lifestyleDescriptions.map(({ tier, label, description }) => (
@@ -268,12 +269,12 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
           </h2>
           <div id="confidence-result" class="bg-white rounded-xl border border-sand-200 p-5">
             <p id="confidence-text" class="text-gray-600">
-              Enter your portfolio on the <a href="/" class="text-brand-600 hover:underline font-medium">homepage</a> to see Monte Carlo retirement confidence for {city.name}.
+              Enter your portfolio on the <a href="/" class="text-brand-600 hover:underline font-medium">homepage</a> to see a retirement confidence estimate for {city.name}.
             </p>
             <div id="confidence-detail" class="hidden mt-3">
               <div class="flex items-center gap-3 mb-2">
                 <span id="confidence-value" class="text-3xl font-bold text-brand-700"></span>
-                <span class="text-sm text-gray-500">chance your portfolio lasts 30+ years</span>
+                <span class="text-sm text-gray-500">confidence estimate — how far your portfolio clears this city's FIRE number</span>
               </div>
               <div class="w-full bg-sand-100 rounded-full h-2.5">
                 <div id="confidence-bar" class="bg-brand-600 h-2.5 rounded-full transition-all"></div>
@@ -286,10 +287,10 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
             </summary>
             <div class="text-xs text-gray-500 mt-2 leading-relaxed pl-4 border-l-2 border-sand-200 space-y-2">
               <p>
-                A 90% confidence level is widely considered a strong retirement plan — it means your
-                portfolio survived in 9 out of 10 historically-modeled scenarios. A 95% or higher rate
-                is extremely conservative. Reaching 100% is nearly impossible in any Monte Carlo model,
-                because there will always be a few extreme worst-case market sequences that deplete any portfolio.
+                This confidence estimate is a simplified, directional signal based on how far your
+                portfolio exceeds this city's FIRE Number — the further above the line, the higher the
+                figure. It is not a full retirement simulation: it does not model market returns,
+                inflation, or sequence-of-returns risk.
               </p>
               <p>
                 Early retirees may need portfolios to last 40-50+ years. The 4% rule was originally
