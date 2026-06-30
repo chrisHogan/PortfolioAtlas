@@ -1,10 +1,12 @@
 ---
+import SubscribeCTA from './SubscribeCTA.astro';
+
 const year = new Date().getFullYear();
 ---
 
 <footer class="bg-brand-950 text-sand-300 mt-20">
   <div class="container-wide py-12">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       <!-- Brand -->
       <div>
         <span class="font-serif font-bold text-xl text-white">
@@ -24,6 +26,16 @@ const year = new Date().getFullYear();
           <li><a href="/blog" class="hover:text-white transition-colors">Blog</a></li>
           <li><a href="/about" class="hover:text-white transition-colors">About</a></li>
         </ul>
+      </div>
+
+      <!-- Newsletter -->
+      <div>
+        <SubscribeCTA
+          variant="link"
+          utm="footer"
+          heading="Subscribe"
+          subtext="Get new cities and FIRE analysis by email."
+        />
       </div>
     </div>
 

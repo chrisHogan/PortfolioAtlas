@@ -5,6 +5,7 @@ import FireStatusCard from '../../components/FireStatusCard.astro';
 import ComparisonCTA from '../../components/ComparisonCTA.astro';
 import CityFAQ from '../../components/CityFAQ.astro';
 import RelatedCities from '../../components/RelatedCities.astro';
+import SubscribeCTA from '../../components/SubscribeCTA.astro';
 import { allCities, getCityBySlug, getAllSlugs } from '../../data/cities/index';
 import { formatCurrency, getTotalSpend } from '../../data/types';
 import { DATA_RECENCY, getCityConfidenceLevel } from '../../data/spendingProfile';
@@ -402,6 +403,18 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
       </div>
     </div>
   </div>
+
+  <!-- Newsletter capture (link variant — no iframe on SEO-heavy city routes) -->
+  <section class="container-narrow pb-16 text-center">
+    <div class="border-t border-sand-200 pt-10 max-w-xl mx-auto">
+      <SubscribeCTA
+        variant="link"
+        utm="city_page"
+        heading={`Want more cities like ${city.name}?`}
+        subtext="Subscribe and we'll tell you when we add new destinations."
+      />
+    </div>
+  </section>
 </Layout>
 
 <script>
