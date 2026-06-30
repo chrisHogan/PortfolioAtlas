@@ -267,9 +267,12 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
 
         <!-- 3. Retirement Confidence -->
         <section id="confidence-section">
-          <h2 class="font-serif text-2xl font-bold text-brand-950 mb-3">
+          <h2 class="font-serif text-2xl font-bold text-brand-950 mb-2">
             Retirement Confidence
           </h2>
+          <p class="text-sm text-gray-500 mb-4">
+            The 4% rule is a great starting point. Here we go a step further and test your plan against real market history.
+          </p>
           <div id="confidence-result" class="bg-white rounded-xl border border-sand-200 p-5">
             <p id="confidence-text" class="text-gray-600">
               Enter your portfolio on the <a href="/" class="text-brand-600 hover:underline font-medium">homepage</a> to backtest a retirement in {city.name} against market history.
@@ -305,10 +308,11 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
                 which the money lasted the full length without running out.
               </p>
               <p>
-                The 4% rule was validated for ~30-year retirements (Trinity Study). Early retirees
-                often plan 40–50+ years — a longer horizon lowers the success rate, which is why the
-                number here can fall below the headline. A more conservative withdrawal rate raises
-                your target but improves the odds.
+                The verdict above is the survival rate: 90% or more reads "You can retire here", 75%
+                to 90% is "Close — worth a closer look", and under 75% is "Not quite yet". The
+                retirement-length control drives it — early retirees planning 40–50+ years will see a
+                lower rate than the 30-year baseline. The withdrawal rate only sizes the reference
+                FIRE Number shown above; it does not change this backtest.
               </p>
             </div>
           </details>
@@ -669,7 +673,7 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
         // Bridge BOTH divergence directions so the rule and the verdict never contradict.
         if (confDivergence) {
           if (clearsRule && band !== 'retire') {
-            confDivergence.innerHTML = `Your portfolio clears the ${ratePct}% rule target, but over <strong>${horizon}</strong> years — longer than the ~30 the rule assumes — this plan survived only <strong>${successPct}%</strong> of history. A shorter horizon or lower withdrawal rate improves the odds.`;
+            confDivergence.innerHTML = `Your portfolio clears the ${ratePct}% rule target, but over <strong>${horizon}</strong> years — longer than the ~30 the rule assumes — this plan survived only <strong>${successPct}%</strong> of history. A shorter retirement length improves the odds.`;
             confDivergence.classList.remove('hidden');
           } else if (!clearsRule && band === 'retire') {
             confDivergence.innerHTML = `You're below the conservative ${ratePct}% rule target, but this plan still survived <strong>${successPct}%</strong> of historical ${horizon}-year periods — the rule sizes a permanent forever-target, and history says this ${horizon}-year horizon held up.`;

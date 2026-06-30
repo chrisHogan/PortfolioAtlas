@@ -31,10 +31,10 @@ const breadcrumbLd = {
         <h2 class="font-serif text-2xl font-bold text-brand-950 mt-12 mb-4">How We Calculate</h2>
         <p>
           By default we use the widely-accepted <strong>4% safe withdrawal rate</strong>
-          (the "Trinity Study" rule) to determine the <strong>FIRE Number</strong> — the portfolio
-          value needed to sustain a given lifestyle in a given city indefinitely. Changing this rate
-          on the calculator resizes that reference target, but whether a city counts as "you can
-          retire here" is decided by the historical backtest below — not the rule.
+          (the "Trinity Study" rule) to size each city's <strong>FIRE Number</strong>: a reference
+          target for the portfolio that, by this rule, would sustain a given lifestyle indefinitely.
+          Changing this rate on the calculator resizes that reference, but whether a city counts as
+          "you can retire here" is decided by the historical backtest below — not the rule.
         </p>
 
         <div class="bg-brand-50 rounded-xl p-6 my-6 border border-brand-100">
@@ -78,27 +78,54 @@ const breadcrumbLd = {
           how good is it to actually live there?"
         </p>
 
-        <h2 id="confidence" class="font-serif text-2xl font-bold text-brand-950 mt-12 mb-4 scroll-mt-24">Retirement confidence: a historical backtest</h2>
+        <h2 id="confidence" class="font-serif text-2xl font-bold text-brand-950 mt-12 mb-4 scroll-mt-24">How the retire verdict works</h2>
         <p>
-          The 4% safe withdrawal rate comes from the <strong>Trinity Study</strong> and is generally
-          validated for retirements of about 30 years. It's the default we use to size each city's
-          FIRE Number, and you can adjust it on the calculator.
+          Whether a city says <strong>"You can retire here"</strong> is decided by a historical
+          backtest, not a rule of thumb. We take your actual plan — your portfolio, the selected
+          lifestyle tier's annual cost, and your retirement horizon — and run it through every
+          historical period of that length since 1871, using real US market returns from Robert
+          Shiller's dataset (<strong>1871–2022</strong>). The portfolio is a 75% stock / 25% bond
+          mix rebalanced once a year, and each year we raise the withdrawal for that period's actual
+          inflation.
         </p>
         <p>
-          On each city page, the <strong>retirement confidence</strong> figure is a real historical
-          backtest — not a rule of thumb. We run your plan through <strong>every</strong>
-          retirement-length window in US market history using Robert Shiller's dataset
-          (<strong>1871–2022</strong>): a 75% stock / 25% bond portfolio, rebalanced annually, with
-          withdrawals raised each year for that period's actual inflation. The
-          <strong>success rate</strong> is the share of those historical start years in which the
-          portfolio lasted the full length without running out.
+          The result is a <strong>survival rate</strong>: the share of those historical periods in
+          which the plan never ran out of money. It is a percentage, not a yes or no.
+        </p>
+        <p>We turn that survival rate into a plain verdict:</p>
+        <ul>
+          <li><strong>"You can retire here"</strong>: survived 90% or more of historical periods.</li>
+          <li><strong>"Close — worth a closer look"</strong>: survived between 75% and 90%.</li>
+          <li><strong>"Not quite yet"</strong>: survived under 75%.</li>
+        </ul>
+        <p>
+          The homepage map is binary: a city shows green when it clears the same 90% line. The
+          middle "Close" band appears only on the city page.
         </p>
         <p>
-          A longer horizon lowers the success rate — early retirees planning 40–50+ years will see
-          fewer historical periods survive than the 30-year Trinity baseline. That's exactly why a
-          plan can clear the 4% rule yet still show a sub-90% confidence. A more conservative
-          withdrawal rate raises your target but improves the odds.
+          You still see a <strong>FIRE Number</strong> for each city. That is the familiar 4% rule
+          (spending × 25), and we show it because it is the benchmark most people know. The 4% rule
+          is a sizing shortcut: it assumes roughly 30 years and leaving your principal intact
+          forever. The backtest measures something different — whether a plan of <em>your</em> length
+          actually survived history. So a finite retirement can pass the backtest while sitting just
+          outside the rule's conservative target, and a very long one can clear the rule yet still
+          fall short in the backtest. We show the rule because it is familiar; the verdict uses the
+          backtest because it is the more complete test.
         </p>
+        <p>
+          Two controls under "Refine your projections" reflect this split. <strong>Retirement
+          length</strong> drives the verdict: it sets how long each backtested period runs.
+          <strong>Withdrawal rate</strong> only changes which rule-of-thumb target is shown as the
+          reference FIRE Number; it does not change the backtest.
+        </p>
+        <p>A few honest limits:</p>
+        <ul>
+          <li>It is based on US market history. Past performance does not guarantee future results.</li>
+          <li>The allocation is a fixed 75% stocks and 25% bonds, and costs assume a single adult.</li>
+          <li>We do not model moving mid-retirement. Each city's number assumes you stay there. The
+          gap between two cities' survival rates is itself the value of geographic flexibility, which
+          you can see by comparing them rather than us simulating it.</li>
+        </ul>
 
         <h2 class="font-serif text-2xl font-bold text-brand-950 mt-12 mb-4">Important Disclaimers</h2>
         <p>
