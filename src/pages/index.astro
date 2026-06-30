@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import SubscribeCTA from '../components/SubscribeCTA.astro';
 import { allCities } from '../data/cities/index';
-import { formatCurrency, getTotalSpend } from '../data/types';
+import { formatCurrency, getTotalSpend, REGION_ORDER } from '../data/types';
 import {
   getCityFireNumber,
   getLifestyleMonthlyCost,
@@ -327,10 +327,16 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     <div class="container-narrow py-4">
       <div class="flex flex-wrap items-center gap-2">
         <span class="text-xs font-bold text-gray-500 uppercase tracking-wider">Filter:</span>
-        <div class="flex gap-1">
-          <button data-filter="loc" data-value="" class="filter-btn active px-3 py-1.5 text-xs font-medium rounded-full border border-sand-200 transition-all">All</button>
-          <button data-filter="loc" data-value="us" class="filter-btn px-3 py-1.5 text-xs font-medium rounded-full border border-sand-200 transition-all">US Only</button>
-          <button data-filter="loc" data-value="intl" class="filter-btn px-3 py-1.5 text-xs font-medium rounded-full border border-sand-200 transition-all">International</button>
+        <!-- Region / country multi-select (replaces the old US/International toggle) -->
+        <div class="relative" id="region-filter">
+          <button type="button" id="region-trigger" class="filter-btn px-3 py-1.5 text-xs font-medium rounded-full border border-sand-200 transition-all inline-flex items-center gap-1.5" aria-haspopup="true" aria-expanded="false">
+            <span id="region-trigger-label">All regions</span>
+            <svg class="w-3 h-3 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+          </button>
+          <div id="region-panel" class="hidden absolute left-0 top-full mt-1 z-40 w-72 max-w-[calc(100vw-2rem)] max-h-80 overflow-y-auto bg-white border border-sand-200 rounded-xl shadow-lg p-3">
+            <input id="region-search" type="text" placeholder="Search regions or countries…" autocomplete="off" class="w-full mb-2 px-3 py-1.5 text-sm rounded-lg border border-sand-200 bg-sand-50 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 focus:outline-none" />
+            <div id="region-tree"></div>
+          </div>
         </div>
         <div class="w-px h-5 bg-sand-200"></div>
         <div class="flex gap-1">
@@ -350,6 +356,8 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
           <button data-filter="hc" data-value="excellent" class="filter-btn px-3 py-1.5 text-xs font-medium rounded-full border border-sand-200 transition-all">Excellent</button>
         </div>
       </div>
+      <!-- Selected region/country chips -->
+      <div id="region-chips" class="flex flex-wrap items-center gap-1.5 mt-2.5 empty:hidden"></div>
     </div>
 
     <!-- Methodology note -->
@@ -524,7 +532,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   window.dispatchEvent(new Event('pa:engine-ready'));
 </script>
 
-<script define:vars={{ cityData }}>
+<script define:vars={{ cityData, REGION_ORDER }}>
   // ─── State ───
   let portfolio = 0;
   let lifestyle = 'comfortable';
@@ -575,7 +583,10 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     sectionVisibleCounts.within_reach = INITIAL_PER_SECTION;
     sectionVisibleCounts.not_affordable = INITIAL_PER_SECTION;
   }
-  const filters = { loc: '', climate: '', eng: '', hc: '' };
+  const filters = { climate: '', eng: '', hc: '' };
+  // Region/country filter — SINGLE SOURCE OF TRUTH (region fullness, header
+  // tri-state, and chip collapse are all derived from this set). Empty = all cities.
+  const selectedCountries = new Set();
 
   // Climate mappings
   const warmClimates = ['Tropical', 'Warm', 'Desert'];
@@ -916,10 +927,160 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     </div>`;
   }
 
+  // ─── Region / Country multi-select filter ───
+  (function setupRegionFilter() {
+    const htmlEsc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+
+    // Build region -> {country -> count} from cities that actually exist (no empties).
+    const tree = {};
+    for (const c of cityData) {
+      if (!tree[c.region]) tree[c.region] = {};
+      tree[c.region][c.country] = (tree[c.region][c.country] || 0) + 1;
+    }
+    const orderedRegions = REGION_ORDER.filter((r) => tree[r]);        // ordered, present-only
+    const knownCountries = new Set(cityData.map((c) => c.country));
+    const countriesOf = (region) => Object.keys(tree[region] || {}).sort((a, b) => a.localeCompare(b));
+    const regionTotal = (region) => Object.values(tree[region] || {}).reduce((s, n) => s + n, 0);
+    const selCount = (region) => countriesOf(region).filter((c) => selectedCountries.has(c)).length;
+    const isFull = (region) => { const cs = countriesOf(region); return cs.length > 0 && cs.every((c) => selectedCountries.has(c)); };
+
+    const wrap = document.getElementById('region-filter');
+    const trigger = document.getElementById('region-trigger');
+    const triggerLabel = document.getElementById('region-trigger-label');
+    const panel = document.getElementById('region-panel');
+    const search = document.getElementById('region-search');
+    const treeEl = document.getElementById('region-tree');
+    const chipsEl = document.getElementById('region-chips');
+    if (!wrap || !trigger || !panel || !treeEl || !chipsEl) return;
+
+    function buildTree(q) {
+      const query = (q || '').toLowerCase().trim();
+      let html = '';
+      for (const region of orderedRegions) {
+        const regionMatch = region.toLowerCase().includes(query);
+        const cs = countriesOf(region);
+        const shown = (!query || regionMatch) ? cs : cs.filter((c) => c.toLowerCase().includes(query));
+        if (shown.length === 0 && !regionMatch) continue;
+        html += '<div class="mb-1">'
+          + '<label class="flex items-center gap-2 py-1.5 px-1 rounded-md hover:bg-sand-50 cursor-pointer font-semibold text-sm text-brand-950">'
+          + `<input type="checkbox" data-region-header="${htmlEsc(region)}" class="w-4 h-4 accent-brand-600 shrink-0">`
+          + `<span class="flex-1">${htmlEsc(region)}</span><span class="text-[11px] text-gray-400">${regionTotal(region)}</span></label>`
+          + '<div class="pl-6">';
+        for (const country of shown) {
+          html += '<label class="flex items-center gap-2 py-1.5 px-1 rounded-md hover:bg-sand-50 cursor-pointer text-sm text-gray-700">'
+            + `<input type="checkbox" data-country="${htmlEsc(country)}" data-region="${htmlEsc(region)}" class="w-4 h-4 accent-brand-600 shrink-0">`
+            + `<span class="flex-1">${htmlEsc(country)}</span><span class="text-[11px] text-gray-400">${tree[region][country]}</span></label>`;
+        }
+        html += '</div></div>';
+      }
+      treeEl.innerHTML = html || '<div class="py-4 text-center text-sm text-gray-400">No matches</div>';
+      syncChecks();
+    }
+
+    // Header tri-state via the native .indeterminate property (NOT an attribute).
+    function syncChecks() {
+      treeEl.querySelectorAll('input[data-country]').forEach((cb) => {
+        cb.checked = selectedCountries.has(cb.getAttribute('data-country'));
+      });
+      treeEl.querySelectorAll('input[data-region-header]').forEach((cb) => {
+        const region = cb.getAttribute('data-region-header');
+        const sel = selCount(region), total = countriesOf(region).length;
+        cb.checked = total > 0 && sel === total;
+        cb.indeterminate = sel > 0 && sel < total;
+      });
+    }
+
+    // A country can belong to >1 region (e.g. Mexico is in Latin America AND Caribbean).
+    const regionsOfCountry = (country) => orderedRegions.filter((r) => tree[r][country] != null);
+
+    // Chip list, built once and reused for the trigger count:
+    //  - one chip per fully-selected region (collapse), then
+    //  - selected countries NOT already covered by a full-region chip, deduped.
+    function chipItems() {
+      const items = [];
+      const seen = new Set();
+      for (const region of orderedRegions) if (isFull(region)) items.push({ label: region, kind: 'region', value: region });
+      for (const region of orderedRegions) for (const country of countriesOf(region)) {
+        if (!selectedCountries.has(country) || seen.has(country)) continue;
+        seen.add(country);
+        if (regionsOfCountry(country).some((r) => isFull(r))) continue; // covered by a region chip
+        items.push({ label: country, kind: 'country', value: country });
+      }
+      return items;
+    }
+    function updateTrigger() {
+      const n = chipItems().length;
+      triggerLabel.textContent = n === 0 ? 'All regions' : (n + ' selected');
+      trigger.classList.toggle('active', selectedCountries.size > 0);
+    }
+
+    function chip(label, kind, value) {
+      return '<span class="inline-flex items-center gap-1 pl-2.5 pr-1.5 py-1 text-xs font-medium rounded-full bg-brand-50 text-brand-700 border border-brand-200">'
+        + htmlEsc(label)
+        + `<button type="button" data-remove-${kind}="${htmlEsc(value)}" aria-label="Remove ${htmlEsc(label)}" class="text-brand-400 hover:text-brand-800 leading-none">✕</button></span>`;
+    }
+    function renderChips() {
+      let html = chipItems().map((i) => chip(i.label, i.kind, i.value)).join('');
+      if (selectedCountries.size > 0) html += '<button type="button" id="region-clear-all" class="text-xs text-gray-500 hover:text-gray-700 underline ml-1">Clear all</button>';
+      chipsEl.innerHTML = html;
+    }
+
+    function onChange() {
+      syncChecks(); renderChips(); updateTrigger();
+      if (typeof gtag === 'function') gtag('event', 'filter_applied', { filter_type: 'countries', filter_value: selectedCountries.size });
+      if (portfolio > 0) { resetSectionCounts(); renderResults(); }
+    }
+
+    // Exposed so restore() (which populates selectedCountries from ?countries) can refresh the UI.
+    window.__paSyncRegion = function () { buildTree(search ? search.value : ''); renderChips(); updateTrigger(); };
+    window.__paKnownCountries = knownCountries;
+
+    // ── Events ──
+    trigger.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const open = !panel.classList.toggle('hidden');
+      trigger.setAttribute('aria-expanded', String(open));
+      if (open && search) search.focus();
+    });
+    document.addEventListener('click', (e) => {
+      if (!wrap.contains(e.target)) { panel.classList.add('hidden'); trigger.setAttribute('aria-expanded', 'false'); }
+    });
+    panel.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') { panel.classList.add('hidden'); trigger.setAttribute('aria-expanded', 'false'); trigger.focus(); }
+    });
+    if (search) search.addEventListener('input', () => buildTree(search.value));
+
+    treeEl.addEventListener('change', (e) => {
+      const t = e.target;
+      if (!t.matches) return;
+      if (t.matches('input[data-region-header]')) {
+        const region = t.getAttribute('data-region-header');
+        if (t.checked) countriesOf(region).forEach((c) => selectedCountries.add(c));
+        else countriesOf(region).forEach((c) => selectedCountries.delete(c));
+        onChange();
+      } else if (t.matches('input[data-country]')) {
+        const country = t.getAttribute('data-country');
+        if (t.checked) selectedCountries.add(country); else selectedCountries.delete(country);
+        onChange();
+      }
+    });
+
+    chipsEl.addEventListener('click', (e) => {
+      const rr = e.target.closest('[data-remove-region]');
+      const rc = e.target.closest('[data-remove-country]');
+      if (rr) { countriesOf(rr.getAttribute('data-remove-region')).forEach((c) => selectedCountries.delete(c)); onChange(); }
+      else if (rc) { selectedCountries.delete(rc.getAttribute('data-remove-country')); onChange(); }
+      else if (e.target.id === 'region-clear-all') { selectedCountries.clear(); onChange(); }
+    });
+
+    // Initial paint (selection may be populated later by restore()).
+    buildTree(''); renderChips(); updateTrigger();
+  })();
+
   // ─── Filter Logic ───
   function passesFilters(city) {
-    if (filters.loc === 'us' && city.country !== 'United States') return false;
-    if (filters.loc === 'intl' && city.country === 'United States') return false;
+    // Region/country: empty selection = all; otherwise the city's country must be selected.
+    if (selectedCountries.size > 0 && !selectedCountries.has(city.country)) return false;
     if (filters.climate === 'warm' && !warmClimates.includes(city.tags.climate)) return false;
     if (filters.climate === 'mild' && !mildClimates.includes(city.tags.climate)) return false;
     if (filters.eng === 'yes' && city.tags.english !== 'Widely spoken') return false;
@@ -1250,7 +1411,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     const params = new URLSearchParams();
     if (portfolio > 0) params.set('portfolio', String(portfolio));
     if (lifestyle !== 'comfortable') params.set('tier', tierToUrlKey[lifestyle] || lifestyle);
-    if (filters.loc) params.set('region', filters.loc);
+    if (selectedCountries.size > 0) params.set('countries', [...selectedCountries].map(encodeURIComponent).join(','));
     if (filters.climate) params.set('climate', filters.climate);
     if (filters.eng) params.set('eng', filters.eng);
     if (filters.hc) params.set('hc', filters.hc);
@@ -1293,7 +1454,15 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     if (horizonInput) { horizonInput.value = String(horizonYears); updateHorizonLabel(); }
 
     // Restore filters from URL
-    if (params.get('region') || params.get('loc')) filters.loc = params.get('region') || params.get('loc');
+    const countriesParam = params.get('countries');
+    if (countriesParam) {
+      const known = window.__paKnownCountries;
+      countriesParam.split(',').forEach((raw) => {
+        const c = decodeURIComponent(raw.trim());
+        if (c && (!known || known.has(c))) selectedCountries.add(c);
+      });
+      if (typeof window.__paSyncRegion === 'function') window.__paSyncRegion();
+    }
     if (params.get('climate')) filters.climate = params.get('climate');
     if (params.get('eng')) filters.eng = params.get('eng');
     if (params.get('hc')) filters.hc = params.get('hc');
