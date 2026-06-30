@@ -22,6 +22,7 @@ const { cityName, country, fireNumbers } = Astro.props;
           class="fire-status-row flex items-center justify-between py-2.5 px-4 rounded-xl transition-colors"
           data-tier={tier}
           data-fire-number={data ? data.fireNumber : ''}
+          data-monthly-cost={data ? data.monthlyCost : ''}
         >
           <span class="text-sm font-semibold text-brand-950">{LIFESTYLE_LABELS[tier]}</span>
           <span class="fire-status-signal text-sm font-medium"></span>
@@ -54,12 +55,12 @@ const { cityName, country, fireNumbers } = Astro.props;
 
 <script define:vars={{ cityName, country }}>
   (function() {
-    const SWR = 0.04;
     const GROWTH_RATE = 0.07;
     const MAX_YEARS = 30;
     let portfolio = 0;
     let userPassiveIncome = 0;
     let annualSavings = 0;
+    let swr = 0.04; // user withdrawal rate — must match the FIRE table on this page
 
     const params = new URLSearchParams(window.location.search);
     const nwParam = params.get('portfolio') || params.get('nw');
@@ -70,15 +71,23 @@ const { cityName, country, fireNumbers } = Astro.props;
     if (passiveParam > 0) userPassiveIncome = passiveParam;
     const saveParam = parseInt(params.get('save') || '0', 10);
     if (saveParam > 0) annualSavings = saveParam;
+    const swrParam = parseFloat(params.get('swr') || '');
+    if (!isNaN(swrParam) && swrParam >= 2.5 && swrParam <= 5.0) swr = swrParam / 100;
 
     if (!portfolio || portfolio <= 0) return;
 
     const card = document.getElementById('fire-status-card');
     if (!card) return;
 
+    // City FIRE number at the user's rate. Mirrors getFireNumber() and the page's
+    // FIRE table, so at the 0.04 default it equals the server-baked value.
+    function rateFireFor(monthlyCost) {
+      return Math.round((monthlyCost * 12) / swr / 1000) * 1000;
+    }
+
     function adjustFN(base) {
       if (!userPassiveIncome || userPassiveIncome <= 0) return base;
-      return Math.max(0, base - userPassiveIncome / SWR);
+      return Math.max(0, base - userPassiveIncome / swr);
     }
 
     function fmtGap(n) {
@@ -115,25 +124,20 @@ const { cityName, country, fireNumbers } = Astro.props;
     let anySustainable = false;
 
     rows.forEach((row) => {
-      const fireNumberStr = row.getAttribute('data-fire-number');
+      const monthlyCostStr = row.getAttribute('data-monthly-cost');
       const signal = row.querySelector('.fire-status-signal');
       if (!signal) return;
 
-      if (!fireNumberStr) {
+      const monthlyCost = parseInt(monthlyCostStr || '0', 10);
+      if (!monthlyCostStr || isNaN(monthlyCost) || monthlyCost <= 0) {
         signal.textContent = 'Data unavailable';
         signal.classList.add('text-gray-400');
         row.classList.add('bg-gray-50');
         return;
       }
 
-      const baseFireNumber = parseInt(fireNumberStr, 10);
-      if (isNaN(baseFireNumber) || baseFireNumber <= 0) {
-        signal.textContent = 'Data unavailable';
-        signal.classList.add('text-gray-400');
-        row.classList.add('bg-gray-50');
-        return;
-      }
-
+      // FIRE number at the user's withdrawal rate — same basis as the FIRE table.
+      const baseFireNumber = rateFireFor(monthlyCost);
       const adjustedFN = adjustFN(baseFireNumber);
       const fullyCovered = userPassiveIncome > 0 && adjustedFN === 0;
 
