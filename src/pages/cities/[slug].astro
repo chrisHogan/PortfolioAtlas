@@ -172,8 +172,10 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
             Lean FIRE, FIRE, and Fat FIRE for {city.name}
           </h2>
           <p class="text-gray-600 leading-relaxed mb-6">
-            The portfolio you need to retire in {city.name} at each lifestyle level,
-            based on your chosen withdrawal rate (<strong>4% by default</strong>).
+            The <strong>FIRE Number</strong> is each lifestyle's 4%-rule target — a reference sized
+            by your chosen withdrawal rate (4% by default). <strong>Status</strong> is our
+            historical-backtest verdict for your portfolio, which can clear a city even below that
+            target if the plan survived past markets.
           </p>
 
           <div class="bg-white rounded-2xl border border-sand-200 shadow-sm overflow-hidden">
@@ -562,7 +564,7 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
       const band = classifySurvival(survival);
       const pct = survival === null ? null : Math.round(survival * 100);
       if (band === 'retire') {
-        statusCell.innerHTML = '<span class="inline-flex items-center gap-1.5 text-emerald-600 font-semibold text-sm"><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>You can retire here</span>';
+        statusCell.innerHTML = `<span class="inline-flex items-center gap-1.5 text-emerald-600 font-semibold text-sm"><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>You can retire here${pct !== null ? ` · ${pct}%` : ''}</span>`;
         (row as HTMLElement).classList.add('bg-emerald-50/50');
       } else if (band === 'caution') {
         statusCell.innerHTML = `<span class="text-sm font-semibold text-amber-600">Close${pct !== null ? ` · ${pct}%` : ''}</span>`;

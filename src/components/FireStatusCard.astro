@@ -146,7 +146,7 @@ const { cityName, country, fireNumbers } = Astro.props;
         row.classList.remove('bg-emerald-50/60', 'bg-amber-50/50', 'bg-white/60');
         if (band === 'retire') {
           anyRetire = true;
-          signal.innerHTML = '<span class="inline-flex items-center gap-1.5 text-emerald-600">&#x2705; You can retire here</span>';
+          signal.innerHTML = `<span class="inline-flex items-center gap-1.5 text-emerald-600">&#x2705; You can retire here${pct !== null ? ` · ${pct}%` : ''}</span>`;
           row.classList.add('bg-emerald-50/60');
         } else if (band === 'caution') {
           signal.innerHTML = `<span class="text-amber-600 font-medium">Close${pct !== null ? ` · ${pct}%` : ''}</span>`;
