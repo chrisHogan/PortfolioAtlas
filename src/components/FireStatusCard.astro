@@ -143,10 +143,10 @@ const { cityName, country, fireNumbers } = Astro.props;
     }
 
     // The host page computes per-tier survival after parse; render when it's ready
-    // (renderVerdict reveals the card). Render immediately if it's already there.
-    if (!renderVerdict()) {
-      window.addEventListener('pa:survival-ready', renderVerdict, { once: true });
-    }
+    // (renderVerdict reveals the card). Re-render on EVERY dispatch, not once, so a
+    // live change (e.g. the healthcare override) updates the card too.
+    renderVerdict();
+    window.addEventListener('pa:survival-ready', renderVerdict);
 
     const shareBtn = document.getElementById('fire-status-share');
     const toast = document.getElementById('fire-status-toast');

@@ -178,6 +178,21 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
             underneath each figure for reference only.
           </p>
 
+          <!-- Healthcare cost override (re-prices the verdict; flat across all tiers) -->
+          <div class="mb-6 bg-sand-50 border border-sand-200 rounded-xl p-4">
+            <label class="flex items-center gap-2 cursor-pointer">
+              <input type="checkbox" id="hc-override-toggle" class="w-4 h-4 accent-brand-600" />
+              <span class="text-sm font-medium text-brand-950">Use my own healthcare cost</span>
+            </label>
+            <div id="hc-override-field" class="hidden mt-2">
+              <label for="hc-override-input" class="block text-xs text-gray-500 mb-1">My healthcare cost (monthly, USD)</label>
+              <input type="number" id="hc-override-input" min="0" max="5000" step="50" inputmode="numeric"
+                placeholder="e.g. 1100, or 0 for VA/TriCare"
+                class="w-full sm:w-64 px-3 py-2 text-sm rounded-lg border border-sand-200 bg-white focus:ring-2 focus:ring-brand-500 focus:border-brand-500 focus:outline-none" />
+              <p class="text-[11px] text-gray-500 mt-1.5 leading-snug">Enter your real monthly healthcare cost and we'll use it across all lifestyle tiers — handy for VA/TriCare (enter 0) or when your ACA cost differs from our estimate.</p>
+            </div>
+          </div>
+
           <div class="bg-white rounded-2xl border border-sand-200 shadow-sm overflow-hidden">
             <table class="w-full text-sm">
               <thead>
@@ -197,6 +212,7 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
                       data-tier={tier}
                       data-fire-number={data.fireNumber}
                       data-monthly-cost={data.monthlyCost}
+                      data-healthcare={city.tiers[LIFESTYLE_TIER_MAP[tier]].healthcare.monthlyCost}
                     >
                       <td class="py-4 px-5">
                         <div class="font-bold text-brand-950">{LIFESTYLE_LABELS[tier]}</div>
@@ -205,7 +221,7 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
                         <span class="text-lg font-bold text-brand-700">{formatFireNumber(data.fireNumber)}</span>
                       </td>
                       <td class="text-right py-4 px-5">
-                        <span class="text-sm text-gray-600">{formatCurrency(data.monthlyCost)}/mo</span>
+                        <span class="monthly-cost-val text-sm text-gray-600">{formatCurrency(data.monthlyCost)}/mo</span>
                         <div class="wd-rate text-[10px] text-gray-400 font-normal mt-0.5 hidden"></div>
                       </td>
                       <td class="text-right py-4 px-5 hidden sm:table-cell fire-status"></td>
@@ -471,17 +487,59 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
     const prompt = document.getElementById('portfolio-prompt');
     const statusHeader = document.getElementById('status-header');
 
+    // ─── Healthcare override (flat across tiers; null = use our estimate) ───
+    let healthcareOverride: number | null = null;
+    const hcRaw = params.get('hcusd');
+    if (hcRaw !== null && hcRaw !== '' && !isNaN(parseInt(hcRaw, 10))) {
+      let n = parseInt(hcRaw, 10);
+      if (n < 0) n = 0; if (n > 5000) n = 5000;
+      healthcareOverride = n;
+    }
+    const hcToggle = document.getElementById('hc-override-toggle') as HTMLInputElement | null;
+    const hcField = document.getElementById('hc-override-field');
+    const hcInput = document.getElementById('hc-override-input') as HTMLInputElement | null;
+    if (healthcareOverride !== null) {
+      if (hcToggle) hcToggle.checked = true;
+      if (hcField) hcField.classList.remove('hidden');
+      if (hcInput) hcInput.value = String(healthcareOverride);
+    }
+    function readHcOverride() {
+      if (!hcToggle || !hcToggle.checked) { healthcareOverride = null; return; }
+      const raw = (hcInput?.value || '').trim();
+      if (raw === '') { healthcareOverride = null; return; }
+      let n = parseInt(raw, 10);
+      if (isNaN(n) || n < 0) n = 0;
+      if (n > 5000) n = 5000;
+      healthcareOverride = n;
+    }
+    // Mirror the override into the URL without a reload (so a copied link carries it).
+    function persistHc() {
+      const url = new URL(window.location.href);
+      if (healthcareOverride == null) url.searchParams.delete('hcusd');
+      else url.searchParams.set('hcusd', String(healthcareOverride));
+      window.history.replaceState({}, '', url);
+    }
+    // Adjusted monthly cost with the override applied flat (floor = the non-healthcare lines).
+    function adjustedMonthlyFor(tier: string): number {
+      const r = document.querySelector(`.fire-row[data-tier="${tier}"]`);
+      const mc = r ? parseInt(r.getAttribute('data-monthly-cost') || '0', 10) : 0;
+      if (healthcareOverride == null) return mc;
+      const hc = r ? parseInt(r.getAttribute('data-healthcare') || '0', 10) : 0;
+      return (mc - hc) + Math.max(0, healthcareOverride);
+    }
+
     if (!portfolio || portfolio <= 0) {
       if (prompt) prompt.classList.remove('hidden');
       if (statusHeader) statusHeader.textContent = '';
+      // No verdict without a portfolio, but let the control toggle + persist for later.
+      hcToggle?.addEventListener('change', () => { hcField?.classList.toggle('hidden', !hcToggle.checked); readHcOverride(); persistHc(); });
+      hcInput?.addEventListener('input', () => { readHcOverride(); persistHc(); });
       return;
     }
 
     // ─── Verdict engine: historical-backtest survival + solver target per tier ───
     function annualSpendFor(tier: string): number {
-      const r = document.querySelector(`.fire-row[data-tier="${tier}"]`);
-      const mc = r ? parseInt(r.getAttribute('data-monthly-cost') || '0', 10) : 0;
-      return Math.max(0, mc * 12 - userPassiveIncome); // net of passive income
+      return Math.max(0, adjustedMonthlyFor(tier) * 12 - userPassiveIncome); // net of passive, override applied
     }
     function survivalFor(tier: string): number | null {
       return runBacktest({ initialPortfolio: portfolio, annualSpending: annualSpendFor(tier), horizonYears: horizon }).successRate;
@@ -495,17 +553,9 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
       const spend = annualSpendFor(tier);
       return spend > 0 ? Math.round(spend / 0.04 / 1000) * 1000 : 0;
     }
-    const tierSurvival: Record<string, number | null> = {
-      budget: survivalFor('budget'), comfortable: survivalFor('comfortable'), luxury: survivalFor('luxury'),
-    };
-    const tierNeeded: Record<string, number | null> = {
-      budget: neededFor('budget'), comfortable: neededFor('comfortable'), luxury: neededFor('luxury'),
-    };
-    // Expose for FireStatusCard (define:vars, can't import). Same threshold everywhere.
-    (window as any).__paTierSurvival = tierSurvival;
-    (window as any).__paThreshold = threshold;
-    (window as any).__paClassify = classifySurvival;
-    window.dispatchEvent(new Event('pa:survival-ready'));
+    // Per-tier results — recomputed by applyAll() whenever the override changes.
+    let tierSurvival: Record<string, number | null> = {};
+    let tierNeeded: Record<string, number | null> = {};
 
     function fmt(n: number): string {
       if (n >= 1_000_000) {
@@ -533,69 +583,90 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
       }
     }
 
-    // Update each row: the backtest "needed to retire here" target + the verdict.
+    // Per-tier table + description render — re-runs whenever the override changes.
     const thPct = Math.round(threshold * 100);
-    rows.forEach((row) => {
-      const tier = row.getAttribute('data-tier') || '';
-      const monthlyCost = parseInt(row.getAttribute('data-monthly-cost') || '0', 10);
-      const statusCell = row.querySelector('.fire-status');
-      const fireNumberCell = row.querySelector('td:nth-child(2) span');
-      const needed = tierNeeded[tier];
+    let currentTier = selectedTier;
+    let renderConfidenceFn: ((tier: string) => void) | null = null;
 
-      // Prominent number = backtest target (consistent with the verdict by
-      // construction). Sub-line = threshold + horizon + the 4% rule benchmark as a
-      // small reference. Gap line = how far the portfolio is from the target.
-      if (fireNumberCell) {
-        const ctx = `${thPct}% survival · ${horizon}yr · 4% rule ${fmt(ruleBenchFor(tier))}`;
-        let gapLine: string;
-        if (needed === null) gapLine = '<div class="text-[10px] text-gray-400 font-normal mt-0.5">unreachable at this horizon</div>';
-        else if (portfolio >= needed) gapLine = '<div class="text-[10px] text-emerald-600 font-normal mt-0.5">you have enough</div>';
-        else gapLine = `<div class="text-[10px] text-gray-500 font-normal mt-0.5">${fmt(needed - portfolio)} short</div>`;
-        (fireNumberCell as HTMLElement).innerHTML = (needed === null ? '—' : fmt(needed)) +
-          `<div class="text-[10px] text-gray-400 font-normal mt-0.5">${ctx}</div>` + gapLine;
-      }
+    function renderTable() {
+      rows.forEach((row) => {
+        const tier = row.getAttribute('data-tier') || '';
+        const adjMonthly = adjustedMonthlyFor(tier);
+        const statusCell = row.querySelector('.fire-status');
+        const fireNumberCell = row.querySelector('td:nth-child(2) span');
+        const needed = tierNeeded[tier];
 
-      // Actual withdrawal rate (what the backtest tests).
-      const wdRateEl = row.querySelector('.wd-rate');
-      if (wdRateEl) {
-        const netAnnual = Math.max(0, monthlyCost * 12 - userPassiveIncome);
-        const wr = portfolio > 0 ? (netAnnual / portfolio) * 100 : 0;
-        (wdRateEl as HTMLElement).textContent = `${wr.toFixed(1)}% of your portfolio`;
-        wdRateEl.classList.remove('hidden');
-      }
+        // Monthly Cost cell reflects the override (same flat healthcare across tiers).
+        const costEl = row.querySelector('.monthly-cost-val');
+        if (costEl) (costEl as HTMLElement).textContent = '$' + adjMonthly.toLocaleString() + '/mo';
 
-      if (!statusCell) return;
+        // Prominent number = backtest target (consistent with the verdict by construction).
+        if (fireNumberCell) {
+          const ctx = `${thPct}% survival · ${horizon}yr · 4% rule ${fmt(ruleBenchFor(tier))}`;
+          let gapLine: string;
+          if (needed === null) gapLine = '<div class="text-[10px] text-gray-400 font-normal mt-0.5">unreachable at this horizon</div>';
+          else if (portfolio >= needed) gapLine = '<div class="text-[10px] text-emerald-600 font-normal mt-0.5">you have enough</div>';
+          else gapLine = `<div class="text-[10px] text-gray-500 font-normal mt-0.5">${fmt(needed - portfolio)} short</div>`;
+          (fireNumberCell as HTMLElement).innerHTML = (needed === null ? '—' : fmt(needed)) +
+            `<div class="text-[10px] text-gray-400 font-normal mt-0.5">${ctx}</div>` + gapLine;
+        }
 
-      // Status = the historical-backtest verdict at the chosen confidence.
-      const survival = tierSurvival[tier];
-      const band = classifySurvival(survival, threshold);
-      const pct = survival === null ? null : Math.round(survival * 100);
-      if (band === 'retire') {
-        statusCell.innerHTML = `<span class="inline-flex items-center gap-1.5 text-emerald-600 font-semibold text-sm"><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>You can retire here${pct !== null ? ` · ${pct}%` : ''}</span>`;
-        (row as HTMLElement).classList.add('bg-emerald-50/50');
-      } else if (band === 'caution') {
-        statusCell.innerHTML = `<span class="text-sm font-semibold text-amber-600">Close${pct !== null ? ` · ${pct}%` : ''}</span>`;
-        (row as HTMLElement).classList.add('bg-amber-50/40');
-      } else {
-        statusCell.innerHTML = `<span class="text-sm text-gray-500">Not quite yet${pct !== null ? ` · ${pct}%` : ''}</span>`;
-      }
-    });
+        // Actual withdrawal rate (what the backtest tests), on the adjusted spend.
+        const wdRateEl = row.querySelector('.wd-rate');
+        if (wdRateEl) {
+          const netAnnual = Math.max(0, adjMonthly * 12 - userPassiveIncome);
+          const wr = portfolio > 0 ? (netAnnual / portfolio) * 100 : 0;
+          (wdRateEl as HTMLElement).textContent = `${wr.toFixed(1)}% of your portfolio`;
+          wdRateEl.classList.remove('hidden');
+        }
 
-    // Highlight the best affordable tier's lifestyle description
-    const lifestyleDescs = document.querySelectorAll('.lifestyle-desc');
-    lifestyleDescs.forEach((desc) => {
-      const tier = desc.getAttribute('data-tier') as string;
-      const row = document.querySelector(`.fire-row[data-tier="${tier}"]`);
-      if (!row) return;
-      // Show the same backtest target the table shows, so the sections agree.
-      const fireEl = desc.querySelector('.lifestyle-fire');
-      if (fireEl) fireEl.textContent = tierNeeded[tier] === null ? '—' : fmt(tierNeeded[tier] as number);
-      // Highlight tiers whose verdict clears the chosen confidence threshold.
-      if (classifySurvival(tierSurvival[tier], threshold) === 'retire') {
-        (desc as HTMLElement).classList.add('border-emerald-200', 'bg-emerald-50/30');
-        (desc as HTMLElement).classList.remove('border-sand-200');
-      }
-    });
+        if (!statusCell) return;
+
+        // Status = the historical-backtest verdict at the chosen confidence.
+        const survival = tierSurvival[tier];
+        const band = classifySurvival(survival, threshold);
+        const pct = survival === null ? null : Math.round(survival * 100);
+        (row as HTMLElement).classList.remove('bg-emerald-50/50', 'bg-amber-50/40');
+        if (band === 'retire') {
+          statusCell.innerHTML = `<span class="inline-flex items-center gap-1.5 text-emerald-600 font-semibold text-sm"><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>You can retire here${pct !== null ? ` · ${pct}%` : ''}</span>`;
+          (row as HTMLElement).classList.add('bg-emerald-50/50');
+        } else if (band === 'caution') {
+          statusCell.innerHTML = `<span class="text-sm font-semibold text-amber-600">Close${pct !== null ? ` · ${pct}%` : ''}</span>`;
+          (row as HTMLElement).classList.add('bg-amber-50/40');
+        } else {
+          statusCell.innerHTML = `<span class="text-sm text-gray-500">Not quite yet${pct !== null ? ` · ${pct}%` : ''}</span>`;
+        }
+      });
+
+      // Lifestyle description cards: show the same backtest target + highlight.
+      document.querySelectorAll('.lifestyle-desc').forEach((desc) => {
+        const tier = desc.getAttribute('data-tier') as string;
+        const row = document.querySelector(`.fire-row[data-tier="${tier}"]`);
+        if (!row) return;
+        const fireEl = desc.querySelector('.lifestyle-fire');
+        if (fireEl) fireEl.textContent = tierNeeded[tier] === null ? '—' : fmt(tierNeeded[tier] as number);
+        (desc as HTMLElement).classList.remove('border-emerald-200', 'bg-emerald-50/30');
+        if (classifySurvival(tierSurvival[tier], threshold) === 'retire') {
+          (desc as HTMLElement).classList.add('border-emerald-200', 'bg-emerald-50/30');
+          (desc as HTMLElement).classList.remove('border-sand-200');
+        } else {
+          (desc as HTMLElement).classList.add('border-sand-200');
+        }
+      });
+    }
+
+    // Recompute survival/target for all tiers, then re-render table + panel.
+    function applyAll() {
+      tierSurvival = { budget: survivalFor('budget'), comfortable: survivalFor('comfortable'), luxury: survivalFor('luxury') };
+      tierNeeded = { budget: neededFor('budget'), comfortable: neededFor('comfortable'), luxury: neededFor('luxury') };
+      // Expose for FireStatusCard (define:vars, can't import). Same threshold everywhere.
+      (window as any).__paTierSurvival = tierSurvival;
+      (window as any).__paThreshold = threshold;
+      (window as any).__paClassify = classifySurvival;
+      window.dispatchEvent(new Event('pa:survival-ready'));
+      renderTable();
+      if (renderConfidenceFn) renderConfidenceFn(currentTier);
+    }
 
     // ─── Real historical backtest (replaces the old static lookup) ───
     const confText = document.getElementById('confidence-text');
@@ -667,13 +738,20 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
         }
       }
 
-      // Live tier toggle.
-      document.querySelectorAll('.conf-tier-btn').forEach((b) => {
-        b.addEventListener('click', () => renderConfidence(b.getAttribute('data-tier') || 'comfortable'));
-      });
+      // Expose so applyAll() can refresh the panel after an override change.
+      renderConfidenceFn = renderConfidence;
 
-      // Default to the tier the user selected on the homepage (no downgrade).
-      renderConfidence(selectedTier);
+      // Live tier toggle (survival for all tiers is already computed).
+      document.querySelectorAll('.conf-tier-btn').forEach((b) => {
+        b.addEventListener('click', () => { currentTier = b.getAttribute('data-tier') || 'comfortable'; renderConfidence(currentTier); });
+      });
     }
+
+    // Healthcare override → recompute every tier + re-render table/panel in place.
+    hcToggle?.addEventListener('change', () => { hcField?.classList.toggle('hidden', !hcToggle.checked); readHcOverride(); persistHc(); applyAll(); });
+    hcInput?.addEventListener('input', () => { readHcOverride(); persistHc(); applyAll(); });
+
+    // Initial paint (defaults to the tier selected on the homepage).
+    applyAll();
   })();
 </script>

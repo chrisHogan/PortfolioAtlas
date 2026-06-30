@@ -12,6 +12,7 @@ import {
   LIFESTYLE_LABELS,
   LIFESTYLE_DESCRIPTIONS,
   ALL_LIFESTYLE_TIERS,
+  LIFESTYLE_TIER_MAP,
   PREMIUM_UNLOCK_THRESHOLDS,
 } from '../data/fireNumber';
 import type { LifestyleTier } from '../data/fireNumber';
@@ -19,11 +20,13 @@ import type { LifestyleTier } from '../data/fireNumber';
 // Pre-compute city data for client-side use
 const cityData = allCities.map((city) => {
   const tags = getCityDisplayTags(city);
-  const tiers: Record<string, { fireNumber: number; monthlyCost: number }> = {};
+  const tiers: Record<string, { fireNumber: number; monthlyCost: number; healthcare: number }> = {};
   for (const lifestyle of ALL_LIFESTYLE_TIERS) {
     tiers[lifestyle] = {
       fireNumber: getCityFireNumber(city, lifestyle),
       monthlyCost: getLifestyleMonthlyCost(city, lifestyle),
+      // Baked healthcare line for this tier (for the client-side healthcare override).
+      healthcare: city.tiers[LIFESTYLE_TIER_MAP[lifestyle]].healthcare.monthlyCost,
     };
   }
   return {
@@ -265,6 +268,28 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
                 class="w-full accent-brand-500 cursor-pointer"
               />
               <p class="text-[11px] text-sand-500 mt-1.5 leading-snug">Drives the verdict: your plan is backtested over every period this long in market history. Early retirees often plan 40–50+.</p>
+            </div>
+
+            <!-- Healthcare cost override (flat across all tiers) -->
+            <div>
+              <label class="flex items-center gap-2 cursor-pointer">
+                <input type="checkbox" id="hc-override-toggle" class="w-4 h-4 accent-brand-500" />
+                <span class="text-xs font-medium text-sand-300">Use my own healthcare cost</span>
+              </label>
+              <div id="hc-override-field" class="hidden mt-2">
+                <label for="hc-override-input" class="block text-[11px] text-sand-400 mb-1">My healthcare cost (monthly, USD)</label>
+                <input
+                  type="number"
+                  id="hc-override-input"
+                  min="0"
+                  max="5000"
+                  step="50"
+                  inputmode="numeric"
+                  placeholder="e.g. 1100, or 0 for VA/TriCare"
+                  class="w-full px-3 py-2 text-sm rounded-lg border border-white/15 bg-white/5 text-white placeholder-white/30 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 focus:outline-none"
+                />
+                <p class="text-[11px] text-sand-500 mt-1.5 leading-snug">Enter your real monthly healthcare cost and we'll use it across all lifestyle tiers — handy for VA/TriCare (enter 0) or when your ACA cost differs from our estimate.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -545,9 +570,24 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   let confPct = 90;
   function threshold() { return CONF_THRESHOLDS[confPct] || 0.90; }
 
+  // Healthcare override: null = use our estimate; a number (>=0) replaces the
+  // healthcare line at EVERY tier with that flat figure (VA/TriCare = 0).
+  let healthcareOverride = null;
+  function hcToken() { return healthcareOverride == null ? 'off' : 'h' + healthcareOverride; }
+
+  // Monthly cost for a city's selected tier, with the healthcare override applied
+  // flat across tiers. Floor = the non-healthcare lines (override can remove
+  // healthcare entirely but never drive the total negative).
+  function adjustedMonthly(city) {
+    const t = city.tiers[lifestyle];
+    if (healthcareOverride == null) return t.monthlyCost;
+    const remaining = t.monthlyCost - (t.healthcare || 0);
+    return remaining + Math.max(0, healthcareOverride);
+  }
+
   // Net annual withdrawal for a city's selected tier (gross cost minus passive).
   function netSpend(city) {
-    return Math.max(0, city.tiers[lifestyle].monthlyCost * 12 - passiveIncome);
+    return Math.max(0, adjustedMonthly(city) * 12 - passiveIncome);
   }
 
   // ─── Verdict engine: historical-backtest survival (the SAME engine the city
@@ -556,7 +596,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   let lastSurvivalKey = '';        // (portfolio|tier|horizon) the cache is warm for
   function citySurvival(city) {
     if (!window.__paBacktest) return undefined; // engine bundle not ready yet
-    const key = city.slug + '|' + lifestyle + '|' + portfolio + '|' + horizonYears;
+    const key = city.slug + '|' + lifestyle + '|' + portfolio + '|' + horizonYears + '|' + passiveIncome + '|' + hcToken();
     if (survivalCache.has(key)) return survivalCache.get(key);
     const s = window.__paBacktest({ initialPortfolio: portfolio, annualSpending: netSpend(city), horizonYears }).successRate;
     survivalCache.set(key, s);
@@ -570,7 +610,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   const neededCache = new Map();
   function cityNeeded(city) {
     if (!window.__paRequired || !window.__paBacktest) return undefined;
-    const key = city.slug + '|' + lifestyle + '|' + horizonYears + '|' + passiveIncome + '|' + confPct;
+    const key = city.slug + '|' + lifestyle + '|' + horizonYears + '|' + passiveIncome + '|' + confPct + '|' + hcToken();
     if (neededCache.has(key)) return neededCache.get(key);
     const n = window.__paRequired({ annualSpending: netSpend(city), horizonYears, targetSurvival: threshold() });
     neededCache.set(key, n);
@@ -788,6 +828,35 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
       horizonDebounce = setTimeout(() => { resetSectionCounts(); renderResults(); }, 150);
     }
   });
+
+  // ─── Healthcare cost override ───
+  const hcToggle = document.getElementById('hc-override-toggle');
+  const hcField = document.getElementById('hc-override-field');
+  const hcInput = document.getElementById('hc-override-input');
+  let hcDebounce;
+  // Read the input into healthcareOverride (null when toggle off / blank).
+  function readHcOverride() {
+    if (!hcToggle || !hcToggle.checked) { healthcareOverride = null; return; }
+    const raw = (hcInput?.value || '').trim();
+    if (raw === '') { healthcareOverride = null; return; }
+    let n = parseInt(raw, 10);
+    if (isNaN(n) || n < 0) n = 0;
+    if (n > 5000) n = 5000;
+    healthcareOverride = n;
+  }
+  function rerenderForHc() {
+    readHcOverride();
+    if (portfolio > 0) {
+      clearTimeout(hcDebounce);
+      hcDebounce = setTimeout(() => { resetSectionCounts(); renderResults(); }, 150);
+    }
+  }
+  hcToggle?.addEventListener('change', () => {
+    hcField?.classList.toggle('hidden', !hcToggle.checked);
+    if (hcToggle.checked) hcInput?.focus();
+    rerenderForHc();
+  });
+  hcInput?.addEventListener('input', rerenderForHc);
 
   // Quick-select buttons — highlight the one matching the current input value.
   function syncQuickButtons() {
@@ -1198,7 +1267,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
 
     // Heavy step (~112 backtests) runs AFTER paint and is cached per
     // portfolio|tier|horizon — only recompute when one of those changes.
-    const survivalKey = portfolio + '|' + lifestyle + '|' + horizonYears;
+    const survivalKey = portfolio + '|' + lifestyle + '|' + horizonYears + '|' + passiveIncome + '|' + hcToken();
     if (survivalKey !== lastSurvivalKey) {
       citySections.innerHTML = '<div class="py-16 text-center text-sm text-gray-400">Backtesting 100+ cities against market history…</div>';
       noCities?.classList.add('hidden');
@@ -1217,7 +1286,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
       .filter(passesFilters)
       .map((city) => {
         const tierData = city.tiers[lifestyle];
-        const monthlyCost = tierData.monthlyCost;
+        const monthlyCost = adjustedMonthly(city);   // reflects the healthcare override
         const survival = citySurvival(city);   // 0..1 or null
         const needed = cityNeeded(city);        // solver target at the chosen threshold (or null)
         const green = survival !== null && survival !== undefined && survival >= RETIRE;
@@ -1392,6 +1461,8 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     // Carry the selected lifestyle tier so the city page defaults to the SAME tier
     // (omitted when it's the 'comfortable'/FIRE default — the city page defaults to it).
     if (lifestyle !== 'comfortable') p.set('tier', tierToUrlKey[lifestyle] || lifestyle);
+    // Carry the healthcare override so the city page re-prices with the same figure.
+    if (healthcareOverride != null) p.set('hcusd', String(healthcareOverride));
     const qs = p.toString();
     return qs ? '?' + qs : '';
   }
@@ -1419,6 +1490,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     if (passiveIncome > 0) params.set('passive', String(passiveIncome));
     if (confPct !== 90) params.set('conf', String(confPct));
     if (horizonYears !== 30) params.set('horizon', String(horizonYears));
+    if (healthcareOverride != null) params.set('hcusd', String(healthcareOverride));
     const qs = params.toString();
     return window.location.origin + '/' + (qs ? '?' + qs : '');
   }
@@ -1452,6 +1524,17 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     if (!isNaN(horizonParam) && horizonParam >= 20 && horizonParam <= 60) horizonYears = horizonParam;
     updateConfLabel(); setConfActive();
     if (horizonInput) { horizonInput.value = String(horizonYears); updateHorizonLabel(); }
+
+    // Restore healthcare override (hcusd). Present (incl. 0) = active.
+    const hcParam = params.get('hcusd');
+    if (hcParam !== null && hcParam !== '' && !isNaN(parseInt(hcParam, 10))) {
+      let n = parseInt(hcParam, 10);
+      if (n < 0) n = 0; if (n > 5000) n = 5000;
+      healthcareOverride = n;
+      if (hcToggle) hcToggle.checked = true;
+      if (hcField) hcField.classList.remove('hidden');
+      if (hcInput) hcInput.value = String(n);
+    }
 
     // Restore filters from URL
     const countriesParam = params.get('countries');
