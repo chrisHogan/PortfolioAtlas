@@ -253,7 +253,7 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
               <div class="bg-white rounded-xl border border-sand-200 p-5 lifestyle-desc" data-tier={tier}>
                 <div class="flex items-center justify-between mb-3">
                   <h3 class="font-serif text-lg font-bold text-brand-950">{label} Lifestyle</h3>
-                  <span class="text-sm font-semibold text-brand-600">
+                  <span class="lifestyle-fire text-sm font-semibold text-brand-600">
                     {formatFireNumber(fireNumbers[tier].fireNumber)}
                   </span>
                 </div>
@@ -552,7 +552,14 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
       const row = document.querySelector(`.fire-row[data-tier="${tier}"]`);
       if (!row) return;
       const monthlyCost = parseInt(row.getAttribute('data-monthly-cost') || '0', 10);
-      const adjustedFN = adjustFN(rateFireFor(monthlyCost));
+      const cityFire = rateFireFor(monthlyCost);
+      // Keep the breakdown's FIRE number in sync with the user's rate — same
+      // rateFireFor() and fmt() the table uses, so the two sections never diverge.
+      if (rateChanged) {
+        const fireEl = desc.querySelector('.lifestyle-fire');
+        if (fireEl) fireEl.textContent = fmt(cityFire);
+      }
+      const adjustedFN = adjustFN(cityFire);
       if (portfolio >= adjustedFN) {
         (desc as HTMLElement).classList.add('border-emerald-200', 'bg-emerald-50/30');
         (desc as HTMLElement).classList.remove('border-sand-200');
