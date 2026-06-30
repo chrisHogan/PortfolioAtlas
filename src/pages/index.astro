@@ -521,10 +521,11 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
      bundles the historical dataset into the homepage path. -->
 <script>
   import { runBacktest } from '../data/backtest';
-  import { RETIRE_SURVIVAL, classifySurvival } from '../data/retirementBands';
+  import { RETIRE_SURVIVAL, classifySurvival, portfolioNeededFor } from '../data/retirementBands';
   (window as any).__paBacktest = runBacktest;
   (window as any).__paRetire = RETIRE_SURVIVAL;
   (window as any).__paClassify = classifySurvival;
+  (window as any).__paNeeded = portfolioNeededFor;
   window.dispatchEvent(new Event('pa:engine-ready'));
 </script>
 
@@ -562,6 +563,23 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     return s;
   }
   function retireThreshold() { return window.__paRetire != null ? window.__paRetire : 0.90; }
+
+  // Backtest-based "what you'd need": the portfolio that reaches the retire line for
+  // this city's selected-tier spend at the current horizon. Cached; computed only
+  // for cards actually rendered. Consistent with the verdict by construction.
+  const neededCache = new Map();
+  function cityNeeded(city) {
+    if (!window.__paNeeded || !window.__paBacktest) return undefined;
+    const key = city.slug + '|' + lifestyle + '|' + horizonYears + '|' + passiveIncome;
+    if (neededCache.has(key)) return neededCache.get(key);
+    const spend = Math.max(0, city.tiers[lifestyle].monthlyCost * 12 - passiveIncome);
+    const n = window.__paNeeded(
+      (p) => window.__paBacktest({ initialPortfolio: p, annualSpending: spend, horizonYears }).successRate,
+      spend,
+    );
+    neededCache.set(key, n);
+    return n;
+  }
   const INITIAL_PER_SECTION = 8;
   const sectionVisibleCounts = { perfect_fit: INITIAL_PER_SECTION, within_reach: INITIAL_PER_SECTION, not_affordable: INITIAL_PER_SECTION };
   function resetSectionCounts() {
@@ -978,8 +996,8 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
         </div>
         <div class="mb-3">
           <div class="flex items-baseline justify-between">
-            <span class="text-xs text-gray-500">FIRE Number</span>
-            <span class="text-lg font-bold text-brand-700">${fmtCompact(city.fireNumber)}</span>
+            <span class="text-xs text-gray-500">You'd need</span>
+            <span class="text-lg font-bold text-brand-700">${fmtCompact(cityNeeded(city) ?? city.fireNumber)}</span>
           </div>
           ${signalHTML}
         </div>

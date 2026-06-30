@@ -183,7 +183,7 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
               <thead>
                 <tr class="border-b-2 border-sand-200 bg-sand-50">
                   <th class="text-left py-3 px-5 font-semibold text-gray-600">Lifestyle</th>
-                  <th class="text-right py-3 px-5 font-semibold text-gray-600">FIRE Number</th>
+                  <th class="text-right py-3 px-5 font-semibold text-gray-600">Portfolio Needed</th>
                   <th class="text-right py-3 px-5 font-semibold text-gray-600">Monthly Cost</th>
                   <th class="text-right py-3 px-5 font-semibold text-gray-600 hidden sm:table-cell" id="status-header">Status</th>
                 </tr>
@@ -436,7 +436,7 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
 
 <script>
   import { runBacktest } from '../../data/backtest';
-  import { RETIRE_SURVIVAL, CAUTION_SURVIVAL, classifySurvival } from '../../data/retirementBands';
+  import { RETIRE_SURVIVAL, CAUTION_SURVIVAL, classifySurvival, portfolioNeededFor } from '../../data/retirementBands';
 
   // Client-side: compare user's portfolio against FIRE Numbers
   (function() {
@@ -505,6 +505,20 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
       comfortable: survivalFor('comfortable'),
       luxury: survivalFor('luxury'),
     };
+    // Backtest-based "what you'd actually need": the portfolio that reaches the
+    // retire line at this horizon. Consistent with the verdict by construction.
+    function neededFor(tier: string): number {
+      const spend = annualSpendFor(tier);
+      return portfolioNeededFor(
+        (p) => runBacktest({ initialPortfolio: p, annualSpending: spend, horizonYears: horizon }).successRate,
+        spend,
+      );
+    }
+    const tierNeeded: Record<string, number> = {
+      budget: neededFor('budget'),
+      comfortable: neededFor('comfortable'),
+      luxury: neededFor('luxury'),
+    };
     // Expose for FireStatusCard (a define:vars component that cannot import the engine).
     (window as any).__paTierSurvival = tierSurvival;
     (window as any).__paBands = { RETIRE: RETIRE_SURVIVAL, CAUTION: CAUTION_SURVIVAL, classify: classifySurvival };
@@ -528,14 +542,10 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
 
     // When passive income is active, relabel the table header and show a note
     if (userPassiveIncome > 0) {
-      const fnHeader = document.querySelector('#status-header')?.closest('tr')?.querySelectorAll('th');
-      if (fnHeader && fnHeader.length >= 2) {
-        fnHeader[1].textContent = 'Your FIRE Number';
-      }
       const note = document.getElementById('passive-income-note');
       const noteText = document.getElementById('passive-income-note-text');
       if (note && noteText) {
-        noteText.textContent = `Your ${fmtPassiveIncome(userPassiveIncome)}/yr passive income reduces the portfolio you personally need. City base FIRE Numbers shown in cost breakdown below.`;
+        noteText.textContent = `Your ${fmtPassiveIncome(userPassiveIncome)}/yr passive income is already netted out of the portfolio you'd need below.`;
         note.classList.remove('hidden');
       }
     }
@@ -543,22 +553,20 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
     // Update FIRE Numbers table with adjusted values and status indicators
     const rateChanged = Math.abs(swr - DEFAULT_SWR) > 1e-9;
     rows.forEach((row) => {
+      const tier = row.getAttribute('data-tier') || '';
       const monthlyCost = parseInt(row.getAttribute('data-monthly-cost') || '0', 10);
-      // City FIRE number at the user's rate (equals the baked value at 4%).
-      const cityFireNumber = rateFireFor(monthlyCost);
-      const adjustedFN = adjustFN(cityFireNumber);
-      const fullyCovered = userPassiveIncome > 0 && adjustedFN === 0;
+      const cityFireNumber = rateFireFor(monthlyCost); // 4% / chosen-rate rule target
+      const adjustedFN = adjustFN(cityFireNumber);     // rule target, passive-adjusted
       const statusCell = row.querySelector('.fire-status');
       const fireNumberCell = row.querySelector('td:nth-child(2) span');
 
-      // Rewrite the displayed FIRE Number when it differs from the baked 4% value
-      // (passive income reduces it; a non-default rate rescales it).
-      if ((userPassiveIncome > 0 || rateChanged) && fireNumberCell) {
-        const adjustedText = fullyCovered ? '$0' : fmt(adjustedFN);
-        const sub = userPassiveIncome > 0
-          ? `<div class="text-[10px] text-gray-400 font-normal mt-0.5">City: ${fmt(cityFireNumber)}</div>`
-          : '';
-        (fireNumberCell as HTMLElement).innerHTML = adjustedText + sub;
+      // Prominent number = backtest-based "what you'd actually need" (the portfolio
+      // that reaches the retire line at this horizon — consistent with the verdict).
+      // Small reference beneath = the familiar rule target at the chosen rate.
+      if (fireNumberCell) {
+        const rulePct = (swr * 100).toFixed(1).replace(/\.0$/, '');
+        (fireNumberCell as HTMLElement).innerHTML = fmt(tierNeeded[tier]) +
+          `<div class="text-[10px] text-gray-400 font-normal mt-0.5">${rulePct}% rule: ${fmt(adjustedFN)}</div>`;
       }
 
       // Show the ACTUAL withdrawal rate (what the backtest tests) so the verdict
@@ -574,7 +582,6 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
       if (!statusCell) return;
 
       // Status reflects the historical-backtest verdict (NOT the 4% rule).
-      const tier = row.getAttribute('data-tier') || '';
       const survival = tierSurvival[tier];
       const band = classifySurvival(survival);
       const pct = survival === null ? null : Math.round(survival * 100);
@@ -595,14 +602,9 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
       const tier = desc.getAttribute('data-tier') as string;
       const row = document.querySelector(`.fire-row[data-tier="${tier}"]`);
       if (!row) return;
-      const monthlyCost = parseInt(row.getAttribute('data-monthly-cost') || '0', 10);
-      const cityFire = rateFireFor(monthlyCost);
-      // Keep the breakdown's FIRE number in sync with the user's rate — same
-      // rateFireFor() and fmt() the table uses, so the two sections never diverge.
-      if (rateChanged) {
-        const fireEl = desc.querySelector('.lifestyle-fire');
-        if (fireEl) fireEl.textContent = fmt(cityFire);
-      }
+      // Show the same backtest-based "needed" the table shows, so the sections agree.
+      const fireEl = desc.querySelector('.lifestyle-fire');
+      if (fireEl) fireEl.textContent = fmt(tierNeeded[tier]);
       // Highlight tiers the backtest says you can retire at (survival >= 90%).
       if (classifySurvival(tierSurvival[tier]) === 'retire') {
         (desc as HTMLElement).classList.add('border-emerald-200', 'bg-emerald-50/30');
