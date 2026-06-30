@@ -1139,6 +1139,9 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     // Carry the rate + horizon so city pages compute the same map and backtest.
     if (Math.abs(withdrawalRate - SAFE_WITHDRAWAL_RATE) > 1e-9) p.set('swr', (withdrawalRate * 100).toFixed(1));
     if (horizonYears !== 30) p.set('horizon', String(horizonYears));
+    // Carry the selected lifestyle tier so the city page defaults to the SAME tier
+    // (omitted when it's the 'comfortable'/FIRE default — the city page defaults to it).
+    if (lifestyle !== 'comfortable') p.set('tier', tierToUrlKey[lifestyle] || lifestyle);
     const qs = p.toString();
     return qs ? '?' + qs : '';
   }

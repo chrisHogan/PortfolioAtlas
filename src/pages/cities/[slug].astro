@@ -273,6 +273,12 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
               Enter your portfolio on the <a href="/" class="text-brand-600 hover:underline font-medium">homepage</a> to backtest a retirement in {city.name} against market history.
             </p>
             <div id="confidence-detail" class="hidden">
+              <div id="confidence-tiers" class="flex flex-wrap items-center gap-1.5 mb-3">
+                <span class="text-xs text-gray-400 mr-1">Lifestyle:</span>
+                <button type="button" class="conf-tier-btn px-2.5 py-1 text-xs font-semibold rounded-full border border-sand-200 text-gray-600 transition-all" data-tier="budget">Lean FIRE</button>
+                <button type="button" class="conf-tier-btn px-2.5 py-1 text-xs font-semibold rounded-full border border-sand-200 text-gray-600 transition-all" data-tier="comfortable">FIRE</button>
+                <button type="button" class="conf-tier-btn px-2.5 py-1 text-xs font-semibold rounded-full border border-sand-200 text-gray-600 transition-all" data-tier="luxury">Fat FIRE</button>
+              </div>
               <div id="confidence-headline" class="flex items-center gap-2 mb-2"></div>
               <p id="confidence-summary" class="text-sm text-gray-600"></p>
               <p id="confidence-divergence" class="hidden text-sm text-amber-800 bg-amber-50 border border-amber-200 rounded-lg px-3 py-2 mt-2 leading-snug"></p>
@@ -445,6 +451,14 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
     const horizonParam = parseInt(params.get('horizon') || '', 10);
     if (!isNaN(horizonParam) && horizonParam >= 20 && horizonParam <= 60) horizon = horizonParam;
 
+    // Lifestyle tier selected on the homepage. Default = 'comfortable' (FIRE), which
+    // matches the homepage default and is what gets omitted from the carried URL.
+    const TIER_LABELS: Record<string, string> = { budget: 'Lean FIRE', comfortable: 'FIRE', luxury: 'Fat FIRE' };
+    const TIER_FROM_URL: Record<string, string> = { leanfire: 'budget', fire: 'comfortable', fatfire: 'luxury' };
+    let selectedTier = 'comfortable';
+    const tierParamRaw = params.get('tier') || '';
+    if (TIER_FROM_URL[tierParamRaw]) selectedTier = TIER_FROM_URL[tierParamRaw];
+
     // City FIRE number at the user's withdrawal rate. Mirrors getFireNumber(),
     // so at the 0.04 default this equals the server-baked data-fire-number.
     function rateFireFor(monthlyCost: number): number {
@@ -554,30 +568,38 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
     const confExpanded = document.getElementById('confidence-expanded');
 
     if (confDetail && confHeadline && confSummary) {
-      // BINARY map: pick the best tier the user can afford at their rate (luxury -> budget).
-      const tierOrder = ['luxury', 'comfortable', 'budget'];
-      let chosenRow: Element | null = null;
-      let canRetire = false;
-      for (const tier of tierOrder) {
-        const row = document.querySelector(`.fire-row[data-tier="${tier}"]`);
-        if (!row) continue;
-        const mc = parseInt(row.getAttribute('data-monthly-cost') || '0', 10);
-        const fn = adjustFN(rateFireFor(mc));
-        if (fn === 0 || portfolio >= fn) { chosenRow = row; canRetire = true; break; }
-      }
-      // If nothing is affordable, backtest the leanest tier for the honest number.
-      if (!chosenRow) chosenRow = document.querySelector('.fire-row[data-tier="budget"]');
+      const check = '<svg class="w-5 h-5 text-emerald-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>';
 
-      if (chosenRow) {
-        const monthlyCost = parseInt(chosenRow.getAttribute('data-monthly-cost') || '0', 10);
+      function setTierActive(tier: string) {
+        document.querySelectorAll('.conf-tier-btn').forEach((b) => {
+          const active = b.getAttribute('data-tier') === tier;
+          b.classList.toggle('bg-brand-600', active);
+          b.classList.toggle('text-white', active);
+          b.classList.toggle('border-brand-600', active);
+          b.classList.toggle('text-gray-600', !active);
+          b.classList.toggle('border-sand-200', !active);
+        });
+      }
+
+      // Render the confidence panel for an EXPLICIT tier. No auto-downgrade: the
+      // binary verdict and the backtest both use exactly this tier's spend.
+      function renderConfidence(tier: string) {
+        const row = document.querySelector(`.fire-row[data-tier="${tier}"]`);
+        if (!row || !confDetail || !confHeadline || !confSummary) return;
+        const monthlyCost = parseInt(row.getAttribute('data-monthly-cost') || '0', 10);
         const annualSpending = monthlyCost * 12;
-        // BACKTEST machine — driven by horizon, NOT by the withdrawal rate. 75/25 defaults.
+
+        // Binary verdict: same rate-based FIRE number the homepage map uses.
+        const tierFire = adjustFN(rateFireFor(monthlyCost));
+        const canRetire = tierFire === 0 || portfolio >= tierFire;
+
+        // Backtest is driven by horizon, NOT the withdrawal rate. 75/25 defaults.
         const result = runBacktest({ initialPortfolio: portfolio, annualSpending, horizonYears: horizon });
 
         confText?.classList.add('hidden');
         confDetail.classList.remove('hidden');
+        setTierActive(tier);
 
-        const check = '<svg class="w-5 h-5 text-emerald-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>';
         confHeadline.innerHTML = canRetire
           ? `${check}<span class="text-lg font-bold text-emerald-600">You can retire here</span>`
           : '<span class="text-lg font-bold text-gray-600">Not quite yet</span>';
@@ -586,28 +608,41 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
           confSummary.textContent = `Not enough market history for a ${horizon}-year backtest (only ${result.totalSequences} complete periods available). Try a shorter retirement length.`;
           if (confExpanded) confExpanded.innerHTML = '';
           confDivergence?.classList.add('hidden');
-        } else {
-          const successPct = Math.round(result.successRate * 100);
-          confSummary.innerHTML = `Your plan survived <strong>${successPct}%</strong> of ${result.totalSequences} historical ${horizon}-year periods since 1871.`;
+          return;
+        }
 
-          if (confExpanded) {
-            confExpanded.innerHTML =
-              `<p>${result.survivedSequences} of ${result.totalSequences} historical start years (1871–2022) funded ${horizon} years of inflation-adjusted spending at ${fmt(annualSpending)}/yr — 75% stocks / 25% bonds, rebalanced annually.</p>` +
-              `<p>Median ending balance: <strong>${fmt(result.medianEndingBalance ?? 0)}</strong>. Worst case: <strong>${fmt(result.worstCaseEndingBalance ?? 0)}</strong>.</p>`;
-          }
+        const successPct = Math.round(result.successRate * 100);
+        const ratePct = (swr * 100).toFixed(1).replace(/\.0$/, '');
+        confSummary.innerHTML = `At a <strong>${TIER_LABELS[tier]}</strong> lifestyle, your plan survived <strong>${successPct}%</strong> of ${result.totalSequences} historical ${horizon}-year periods since 1871.`;
 
-          // The divergence moment: binary "yes" but history says it's shaky.
-          if (confDivergence) {
-            if (canRetire && successPct < 90) {
-              const ratePct = (swr * 100).toFixed(1).replace(/\.0$/, '');
-              confDivergence.innerHTML = `Clears the ${ratePct}% rule, but a ${horizon}-year retirement is longer than the ~30 years the 4% rule was designed for — historically this plan held up only <strong>${successPct}%</strong> of the time. A lower withdrawal rate or shorter horizon improves the odds.`;
-              confDivergence.classList.remove('hidden');
-            } else {
-              confDivergence.classList.add('hidden');
-            }
+        if (confExpanded) {
+          confExpanded.innerHTML =
+            `<p>${result.survivedSequences} of ${result.totalSequences} historical start years (1871–2022) funded ${horizon} years of inflation-adjusted spending at ${fmt(annualSpending)}/yr — 75% stocks / 25% bonds, rebalanced annually.</p>` +
+            `<p>Median ending balance: <strong>${fmt(result.medianEndingBalance ?? 0)}</strong>. Worst case: <strong>${fmt(result.worstCaseEndingBalance ?? 0)}</strong>.</p>`;
+        }
+
+        if (confDivergence) {
+          if (canRetire && successPct < 90) {
+            // Binary YES, but history says it's shaky.
+            confDivergence.innerHTML = `Clears the ${ratePct}% rule, but a ${horizon}-year retirement is longer than the ~30 years the 4% rule was designed for — historically this plan held up only <strong>${successPct}%</strong> of the time. A lower withdrawal rate or shorter horizon improves the odds.`;
+            confDivergence.classList.remove('hidden');
+          } else if (!canRetire) {
+            // Binary NO — bridge the "not quite yet" headline to the backtest %.
+            confDivergence.innerHTML = `Doesn't clear the ${ratePct}% rule for a ${TIER_LABELS[tier]} lifestyle here, but this spend survived <strong>${successPct}%</strong> of historical ${horizon}-year periods. The ${ratePct}% rule sizes a permanent target; the backtest asks whether a ${horizon}-year drawdown specifically would have lasted.`;
+            confDivergence.classList.remove('hidden');
+          } else {
+            confDivergence.classList.add('hidden');
           }
         }
       }
+
+      // Live tier toggle.
+      document.querySelectorAll('.conf-tier-btn').forEach((b) => {
+        b.addEventListener('click', () => renderConfidence(b.getAttribute('data-tier') || 'comfortable'));
+      });
+
+      // Default to the tier the user selected on the homepage (no downgrade).
+      renderConfidence(selectedTier);
     }
   })();
 </script>
