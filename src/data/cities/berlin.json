@@ -33,168 +33,169 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "Small 1BR in the outer ring (Wedding or Neukölln)",
-        "monthlyCost": 1150
+        "description": "Room in a WG or small studio in an outer district (Marzahn, Spandau, Lichtenberg, Neukölln fringe)",
+        "monthlyCost": 820
       },
       "dining": {
         "description": "Mostly home cooking with cheap, diverse eats out",
-        "monthlyCost": 250
+        "monthlyCost": 90
       },
       "groceries": {
-        "monthlyCost": 400
+        "monthlyCost": 260
       },
       "healthcare": {
-        "description": "Public GKV (voluntary) or a basic private plan",
-        "monthlyCost": 280
+        "description": "Voluntary GKV near the 2026 statutory minimum (€281). Note: a non-EU early retiree may not qualify for public GKV and should budget for private (PKV) or international cover.",
+        "monthlyCost": 321
       },
       "transportation": {
         "description": "The unlimited Deutschlandticket",
-        "monthlyCost": 55
+        "monthlyCost": 72
       },
       "entertainment": {
         "description": "Museums, parks, clubs, and Berlin's free and cheap culture",
-        "monthlyCost": 180
+        "monthlyCost": 80
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 115
       },
-      "lifestyle": "A small flat in an outer district, home cooking, the unlimited Deutschlandticket, and public insurance. Winter heating bills bite, but Berlin's deep free-and-cheap cultural life keeps a lean budget rich."
+      "lifestyle": "A frugal but real Berlin life — a room or small outer studio, home cooking, unlimited nationwide transit on the €63 Deutschlandticket, GKV-minimum cover, and Berlin’s famously cheap culture (free museums, parks, canal-side beers)."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
         "description": "1BR in trendy Prenzlauer Berg or Kreuzberg",
-        "monthlyCost": 1500
+        "monthlyCost": 1255
       },
       "dining": {
         "description": "Dining out regularly",
-        "monthlyCost": 500
+        "monthlyCost": 185
       },
       "groceries": {
-        "monthlyCost": 480
+        "monthlyCost": 345
       },
       "healthcare": {
         "description": "Comprehensive private or voluntary coverage",
-        "monthlyCost": 450
+        "monthlyCost": 455
       },
       "transportation": {
         "description": "The Deutschlandticket plus occasional rideshare",
-        "monthlyCost": 55
+        "monthlyCost": 72
       },
       "entertainment": {
         "description": "Museums, concerts, and nightlife",
-        "monthlyCost": 350
+        "monthlyCost": 150
       },
       "utilities": {
-        "monthlyCost": 340
+        "monthlyCost": 135
       },
       "lifestyle": "A flat in a trendy central district, dining out regularly, comprehensive coverage, and easy access to museums, concerts, and Berlin's legendary nightlife. Comfortable city living in a major capital."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "2BR in Mitte or Charlottenburg",
-        "monthlyCost": 2100
+        "description": "1BR in a central desirable district (Prenzlauer Berg, Friedrichshain, Kreuzberg)",
+        "monthlyCost": 1700
       },
       "dining": {
         "description": "Frequent quality dining",
-        "monthlyCost": 850
+        "monthlyCost": 300
       },
       "groceries": {
-        "monthlyCost": 580
+        "monthlyCost": 390
       },
       "healthcare": {
-        "description": "Private health insurance",
-        "monthlyCost": 650
+        "description": "Income-based voluntary GKV or a solid single PKV plan. Note: a non-EU early retiree may not qualify for public GKV and should budget for private (PKV) or international cover.",
+        "monthlyCost": 630
       },
       "transportation": {
         "description": "Transit plus occasional car use",
-        "monthlyCost": 150
+        "monthlyCost": 72
       },
       "entertainment": {
         "description": "European travel, arts, and events",
-        "monthlyCost": 550
+        "monthlyCost": 215
       },
       "utilities": {
-        "monthlyCost": 380
+        "monthlyCost": 150
       },
-      "lifestyle": "A spacious central apartment, frequent quality dining, private health insurance, and frequent European travel from one of the continent's best-connected capitals. The comfortable FIRE tier for Berlin."
+      "lifestyle": "The classic comfortable-retirement tier — a central 1BR near cafés, canals and the U-Bahn, dining out a couple of times a week, cultured leisure (Philharmonie, galleries), and a real income-based health contribution rather than the bare minimum."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury apartment in Mitte or Charlottenburg",
-        "monthlyCost": 3200
+        "monthlyCost": 2515
       },
       "dining": {
         "description": "Near-daily dining at top restaurants",
-        "monthlyCost": 1600
+        "monthlyCost": 515
       },
       "groceries": {
-        "monthlyCost": 720
+        "monthlyCost": 480
       },
       "healthcare": {
         "description": "Top private medicine",
-        "monthlyCost": 900
+        "monthlyCost": 855
       },
       "transportation": {
         "description": "A car plus transit",
-        "monthlyCost": 500
+        "monthlyCost": 170
       },
       "entertainment": {
         "description": "Opera, the arts, and frequent travel",
-        "monthlyCost": 1100
+        "monthlyCost": 400
       },
       "utilities": {
-        "monthlyCost": 450
+        "monthlyCost": 185
       },
       "domesticHelp": {
         "description": "Weekly help",
-        "monthlyCost": 900
+        "monthlyCost": 230
       },
       "luxuryExtras": {
         "description": "Frequent European travel and premium experiences",
-        "monthlyCost": 1400
+        "monthlyCost": 345
       },
       "lifestyle": "A premium central apartment, near-daily dining, top private medicine, and weekly help, with opera, the arts, and frequent travel. Upscale capital living without Munich or Paris prices."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Mitte penthouse or Grunewald villa",
-        "monthlyCost": 6000
+        "description": "Luxury furnished 2–3BR in a prime address (Mitte, Charlottenburg/Ku’damm)",
+        "monthlyCost": 4570
       },
       "dining": {
         "description": "Private-chef dining and the finest restaurants",
-        "monthlyCost": 3200
+        "monthlyCost": 1030
       },
       "groceries": {
-        "monthlyCost": 1000
+        "monthlyCost": 630
       },
       "healthcare": {
-        "description": "Premium private healthcare",
-        "monthlyCost": 1400
+        "description": "Top-tier comprehensive private cover (PKV). Note: a non-EU early retiree may not qualify for public GKV and should budget for private (PKV) or international cover.",
+        "monthlyCost": 1085
       },
       "transportation": {
         "description": "Luxury vehicles and charters",
-        "monthlyCost": 1200
+        "monthlyCost": 570
       },
       "entertainment": {
         "description": "Elite cultural and social life",
-        "monthlyCost": 2800
+        "monthlyCost": 800
       },
       "utilities": {
-        "monthlyCost": 600
+        "monthlyCost": 250
       },
       "domesticHelp": {
         "description": "Full household staff",
-        "monthlyCost": 2500
+        "monthlyCost": 685
       },
       "luxuryExtras": {
         "description": "Bespoke travel, art, and cultural patronage",
-        "monthlyCost": 3800
+        "monthlyCost": 1600
       },
-      "lifestyle": "A Grunewald villa or Mitte penthouse, full household staff, fine dining, premium private healthcare, and an elite cultural and social life. Fat-FIRE in a stable, world-class European capital."
+      "lifestyle": "Uncapped single-person luxury — a large prime-district flat, routine fine dining, top private cover, a car on top of transit, weekly help, and a generous travel-and-culture budget. Berlin is not a Zurich or Monaco price outlier, so even solo FatFIRE lands around $11k/mo."
     }
-  }
+  },
+  "dataRecency": "Q3 2026"
 }

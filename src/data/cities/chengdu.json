@@ -33,168 +33,169 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "Modern-ish 1BR in an outer district",
-        "monthlyCost": 300
+        "description": "Small studio/older 1BR in an outer district (Longquanyi, outer Chenghua, Xipu/Pidu) or a room in a shared flat",
+        "monthlyCost": 250
       },
       "dining": {
         "description": "Cheap local restaurants (¥20–50/meal) and home cooking",
-        "monthlyCost": 120
+        "monthlyCost": 95
       },
       "groceries": {
-        "monthlyCost": 150
+        "monthlyCost": 110
       },
       "healthcare": {
         "description": "Basic local care",
-        "monthlyCost": 60
+        "monthlyCost": 45
       },
       "transportation": {
         "description": "Metro and e-bike everywhere",
-        "monthlyCost": 25
+        "monthlyCost": 22
       },
       "entertainment": {
         "description": "Teahouses, parks, and the panda base",
-        "monthlyCost": 80
+        "monthlyCost": 40
       },
       "utilities": {
-        "monthlyCost": 50
+        "monthlyCost": 38
       },
-      "lifestyle": "A modern-ish outer-district 1BR, eating cheaply at local restaurants and cooking at home, getting around by metro and e-bike, and relying on basic local care. A VPN handles home internet. Genuinely comfortable by local standards on very little."
+      "lifestyle": "A budget-conscious solo life leaning on Chengdu’s dirt-cheap street and canteen food and free public spaces (parks, teahouses along the Jinjiang). Housing is basic, transport is an e-bike plus per-ride metro, health is a bare local plan. Comfortable and sustainable, with little discretionary slack."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
         "description": "1BR in central Jinjiang",
-        "monthlyCost": 500
+        "monthlyCost": 400
       },
       "dining": {
         "description": "Frequent dining out across Chengdu's famous food scene",
-        "monthlyCost": 280
+        "monthlyCost": 180
       },
       "groceries": {
-        "monthlyCost": 230
+        "monthlyCost": 150
       },
       "healthcare": {
         "description": "Basic international insurance",
-        "monthlyCost": 120
+        "monthlyCost": 90
       },
       "transportation": {
         "description": "Metro plus ride-hailing",
-        "monthlyCost": 50
+        "monthlyCost": 40
       },
       "entertainment": {
         "description": "People's Park nightlife, teahouses, and an active social life",
-        "monthlyCost": 180
+        "monthlyCost": 110
       },
       "utilities": {
-        "monthlyCost": 70
+        "monthlyCost": 50
       },
       "lifestyle": "A central flat near People's Park nightlife, frequent dining in one of China's best food cities, basic international insurance, and an active social life — comfortable urban living at a fraction of coastal cost."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Modern 2–3BR in Tianfu or central Chengdu",
-        "monthlyCost": 850
+        "description": "Modern 1BR/2BR in a good compound in a prime district (Jinjiang, Tianfu New Area, Wuhou)",
+        "monthlyCost": 650
       },
       "dining": {
         "description": "Frequent quality dining",
-        "monthlyCost": 500
+        "monthlyCost": 320
       },
       "groceries": {
-        "monthlyCost": 320
+        "monthlyCost": 200
       },
       "healthcare": {
         "description": "International insurance",
-        "monthlyCost": 250
+        "monthlyCost": 220
       },
       "transportation": {
         "description": "Ride-hailing and the occasional domestic flight",
-        "monthlyCost": 150
+        "monthlyCost": 70
       },
       "entertainment": {
         "description": "Concerts, clubs, and domestic travel",
-        "monthlyCost": 350
+        "monthlyCost": 260
       },
       "utilities": {
-        "monthlyCost": 100
+        "monthlyCost": 70
       },
-      "lifestyle": "A spacious modern apartment, frequent quality dining, international insurance, and domestic travel define a comfortable expat life — provided the visa and language barriers are surmountable."
+      "lifestyle": "An unambiguously comfortable retired-solo life in a modern riverside/financial-district apartment, dining out freely, weekend travel, and real mid-tier private healthcare that local nomad budgets tend to omit."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury serviced apartment in the center",
-        "monthlyCost": 1600
+        "monthlyCost": 1700
       },
       "dining": {
         "description": "Near-daily dining at top restaurants",
-        "monthlyCost": 1100
+        "monthlyCost": 600
       },
       "groceries": {
-        "monthlyCost": 480
+        "monthlyCost": 300
       },
       "healthcare": {
         "description": "VIP international-clinic care",
-        "monthlyCost": 400
+        "monthlyCost": 450
       },
       "transportation": {
         "description": "Private car and ride-hailing",
-        "monthlyCost": 400
+        "monthlyCost": 250
       },
       "entertainment": {
         "description": "Premium nightlife, events, and travel",
-        "monthlyCost": 700
+        "monthlyCost": 500
       },
       "utilities": {
-        "monthlyCost": 160
+        "monthlyCost": 120
       },
       "domesticHelp": {
         "description": "Part-time ayi (housekeeper)",
-        "monthlyCost": 400
+        "monthlyCost": 450
       },
       "luxuryExtras": {
         "description": "Frequent travel and premium experiences",
-        "monthlyCost": 700
+        "monthlyCost": 500
       },
       "lifestyle": "A serviced luxury apartment, near-daily dining, a part-time ayi, and VIP international-clinic care. Premium urban living with frequent travel, well below the cost of China's tier-1 coastal cities."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Central penthouse",
-        "monthlyCost": 3500
+        "description": "Luxury penthouse/villa in a top compound (Shangri-La Residences, elite Tianfu/Jinjiang)",
+        "monthlyCost": 4000
       },
       "dining": {
         "description": "Private-chef dining and the finest restaurants",
-        "monthlyCost": 2500
+        "monthlyCost": 1300
       },
       "groceries": {
-        "monthlyCost": 750
+        "monthlyCost": 550
       },
       "healthcare": {
         "description": "Concierge international healthcare",
-        "monthlyCost": 800
+        "monthlyCost": 950
       },
       "transportation": {
         "description": "Car and private driver",
-        "monthlyCost": 1000
+        "monthlyCost": 1400
       },
       "entertainment": {
         "description": "Elite clubs, luxury travel, and a full social scene",
-        "monthlyCost": 1800
+        "monthlyCost": 2200
       },
       "utilities": {
-        "monthlyCost": 260
+        "monthlyCost": 220
       },
       "domesticHelp": {
         "description": "Full domestic staff",
-        "monthlyCost": 1200
+        "monthlyCost": 1100
       },
       "luxuryExtras": {
         "description": "Luxury travel and bespoke experiences",
-        "monthlyCost": 2500
+        "monthlyCost": 2000
       },
-      "lifestyle": "A penthouse, full domestic staff, a private driver, and concierge international healthcare. Fine dining and luxury travel make this Fat-FIRE living for a fraction of Western or coastal-China cost."
+      "lifestyle": "Effectively unconstrained — a villa or penthouse in the best address, full-time staff plus driver, top global cover, and lavish discretionary spend. A spending ceiling, not subsistence."
     }
-  }
+  },
+  "dataRecency": "Q3 2026"
 }

@@ -33,19 +33,19 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "Furnished 1BR on a central walking street",
-        "monthlyCost": 400
+        "description": "Simple furnished kitnet/studio, Centro edge or cheaper Trindade/Saco dos Limões",
+        "monthlyCost": 370
       },
       "dining": {
         "description": "Home cooking with cheap local produce and seafood, plus casual meals out",
-        "monthlyCost": 130
+        "monthlyCost": 95
       },
       "groceries": {
-        "monthlyCost": 200
+        "monthlyCost": 125
       },
       "healthcare": {
         "description": "Basic private care",
-        "monthlyCost": 70
+        "monthlyCost": 60
       },
       "transportation": {
         "description": "City buses",
@@ -53,148 +53,149 @@
       },
       "entertainment": {
         "description": "The island's 42 beaches (free), trails, and surf",
-        "monthlyCost": 90
+        "monthlyCost": 30
       },
       "utilities": {
-        "monthlyCost": 70
+        "monthlyCost": 85
       },
-      "lifestyle": "A furnished 1BR in central Floripa, home cooking built around cheap local produce and seafood, bus transit, and basic private care. The beaches are free — a lean budget still buys an enviable island lifestyle."
+      "lifestyle": "A frugal but genuinely insured solo life on the Ilha — a small furnished kitnet, cheap seafood and por-quilo lunches, buses everywhere. Free beaches (Lagoinha, Joaquina, Campeche) make weekends cost nothing."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
         "description": "Nicer 1BR in the center or near Lagoa da Conceição",
-        "monthlyCost": 650
+        "monthlyCost": 540
       },
       "dining": {
         "description": "Dining out regularly",
-        "monthlyCost": 300
+        "monthlyCost": 155
       },
       "groceries": {
-        "monthlyCost": 280
+        "monthlyCost": 150
       },
       "healthcare": {
         "description": "A private health plan",
-        "monthlyCost": 130
+        "monthlyCost": 90
       },
       "transportation": {
         "description": "Occasional car rental and rideshare",
-        "monthlyCost": 70
+        "monthlyCost": 80
       },
       "entertainment": {
         "description": "Lagoa nightlife, beaches, and an active surf/outdoor lifestyle",
-        "monthlyCost": 180
+        "monthlyCost": 60
       },
       "utilities": {
-        "monthlyCost": 90
+        "monthlyCost": 105
       },
       "lifestyle": "A nicer flat near Lagoa nightlife or the beaches, dining out regularly, a private health plan, and an active surf-and-outdoor lifestyle. The comfortable middle of island living."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Beachside 2BR in Jurerê or similar",
-        "monthlyCost": 1000
+        "description": "Furnished 1BR in desirable Lagoa da Conceição, walking distance to the lagoon",
+        "monthlyCost": 775
       },
       "dining": {
         "description": "Frequent dining out",
-        "monthlyCost": 500
+        "monthlyCost": 230
       },
       "groceries": {
-        "monthlyCost": 350
+        "monthlyCost": 185
       },
       "healthcare": {
         "description": "Comprehensive private care",
-        "monthlyCost": 230
+        "monthlyCost": 125
       },
       "transportation": {
         "description": "A car for island exploration",
-        "monthlyCost": 200
+        "monthlyCost": 195
       },
       "entertainment": {
         "description": "Weekend travel, beach clubs, and water sports",
-        "monthlyCost": 350
+        "monthlyCost": 100
       },
       "utilities": {
-        "monthlyCost": 120
+        "monthlyCost": 125
       },
-      "lifestyle": "A beachside 2BR, a car for exploring the island, frequent dining, comprehensive private care, and weekend travel. The FIRE sweet spot for a beach-centric Brazilian life."
+      "lifestyle": "A confident, unbudgeted solo life in Floripa’s most-loved neighborhood — a car for beach-hopping to Jurerê and the south island, dining out at will, good private cover, and cash for surf lessons. Retired and thriving, for one."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury condo in upscale Jurerê Internacional",
-        "monthlyCost": 2300
+        "monthlyCost": 1350
       },
       "dining": {
         "description": "Near-daily dining out",
-        "monthlyCost": 1100
+        "monthlyCost": 425
       },
       "groceries": {
-        "monthlyCost": 480
+        "monthlyCost": 250
       },
       "healthcare": {
         "description": "Top private coverage",
-        "monthlyCost": 380
+        "monthlyCost": 175
       },
       "transportation": {
         "description": "A nice car",
-        "monthlyCost": 450
+        "monthlyCost": 310
       },
       "entertainment": {
         "description": "Beach-club lifestyle, events, and travel",
-        "monthlyCost": 700
+        "monthlyCost": 175
       },
       "utilities": {
-        "monthlyCost": 170
+        "monthlyCost": 155
       },
       "domesticHelp": {
         "description": "Housekeeper",
-        "monthlyCost": 350
+        "monthlyCost": 195
       },
       "luxuryExtras": {
         "description": "Boating, beach clubs, and premium experiences",
-        "monthlyCost": 600
+        "monthlyCost": 250
       },
       "lifestyle": "A condo in upscale Jurerê Internacional, near-daily dining, a housekeeper, and a beach-club lifestyle. Upscale island living in Brazil's most fashionable beach enclave."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Beachfront house in Jurerê Internacional",
-        "monthlyCost": 4000
+        "description": "High-end furnished 3BR / sea-view residence in Jurerê Internacional",
+        "monthlyCost": 3100
       },
       "dining": {
         "description": "Private-chef dining and the finest restaurants",
-        "monthlyCost": 2500
+        "monthlyCost": 870
       },
       "groceries": {
-        "monthlyCost": 700
+        "monthlyCost": 385
       },
       "healthcare": {
         "description": "Concierge private healthcare",
-        "monthlyCost": 700
+        "monthlyCost": 250
       },
       "transportation": {
         "description": "Luxury vehicles and charters",
-        "monthlyCost": 900
+        "monthlyCost": 675
       },
       "entertainment": {
         "description": "Boats, elite beach clubs, and a full social scene",
-        "monthlyCost": 1600
+        "monthlyCost": 485
       },
       "utilities": {
-        "monthlyCost": 260
+        "monthlyCost": 250
       },
       "domesticHelp": {
         "description": "Full domestic staff",
-        "monthlyCost": 900
+        "monthlyCost": 580
       },
       "luxuryExtras": {
         "description": "Yachting and bespoke travel",
-        "monthlyCost": 2200
+        "monthlyCost": 675
       },
-      "lifestyle": "A beachfront house in Brazil's \"Brazilian St-Tropez,\" full domestic staff, a private chef, boats, and an elite beach-club social scene. Fat-FIRE on the island, with the Atlantic at the doorstep."
+      "lifestyle": "The Jurerê Internacional dream for one — a luxury residence steps from Brazil’s most exclusive beach, near-daily help, a premium car, and standing beach-club and marina access. Lavish by Brazilian standards, still short of the mansion-and-full-staff ceiling a household FatFIRE carries."
     }
-  }
+  },
+  "dataRecency": "Q3 2026"
 }

@@ -33,32 +33,32 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "Modest 1BR on the Asian side (Üsküdar) or an outer European district",
-        "monthlyCost": 500
+        "description": "Small 1+1/studio, outer Üsküdar or further-out Kadıköy, older building",
+        "monthlyCost": 580
       },
       "dining": {
         "description": "Neighborhood lokantas and home cooking from local pazar produce",
-        "monthlyCost": 120
+        "monthlyCost": 100
       },
       "groceries": {
-        "monthlyCost": 200
+        "monthlyCost": 150
       },
       "healthcare": {
         "description": "Basic private care or the public SGK system",
-        "monthlyCost": 60
+        "monthlyCost": 40
       },
       "transportation": {
         "description": "Metro, buses, and ferries on a single Istanbulkart",
-        "monthlyCost": 40
+        "monthlyCost": 35
       },
       "entertainment": {
         "description": "Tea houses, walks along the Bosphorus, free and low-cost cultural sights",
-        "monthlyCost": 80
+        "monthlyCost": 60
       },
       "utilities": {
-        "monthlyCost": 90
+        "monthlyCost": 75
       },
-      "lifestyle": "A lean expat lives on the Asian side or an outer European district, shops at neighborhood pazars and cooks at home, and rides the metro and ferries everywhere. Healthcare leans on basic private care or SGK. The Bosphorus here is for walking, not waterfront rent — but the food, history, and street life make a small budget feel rich."
+      "lifestyle": "A frugal but livable solo life on the Asian side — ferry-and-metro commuting, home cooking, with a lokanta lunch or a çay-garden afternoon as the outing. Rent is the pressure point (Istanbul rents climbed hard), but a USD holder still lives comfortably below the old household figure."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -68,44 +68,44 @@
       },
       "dining": {
         "description": "Dining out several times a week at lokantas and meyhanes",
-        "monthlyCost": 300
+        "monthlyCost": 220
       },
       "groceries": {
-        "monthlyCost": 280
+        "monthlyCost": 220
       },
       "healthcare": {
         "description": "Comprehensive private health insurance",
-        "monthlyCost": 120
+        "monthlyCost": 85
       },
       "transportation": {
         "description": "Ferry commutes, metro, and occasional taxis",
-        "monthlyCost": 60
+        "monthlyCost": 65
       },
       "entertainment": {
         "description": "Kadıköy nightlife, concerts, cafés, and weekend outings",
-        "monthlyCost": 200
+        "monthlyCost": 150
       },
       "utilities": {
-        "monthlyCost": 120
+        "monthlyCost": 110
       },
       "lifestyle": "A furnished flat in lively Kadıköy puts you in one of Istanbul's best food-and-nightlife districts. You dine out several times a week at lokantas and meyhanes, carry comprehensive private insurance, and commute by ferry. Comfortable and social without stretching the budget."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Well-located 1–2BR in Cihangir or Beşiktaş near the water",
-        "monthlyCost": 1600
+        "description": "Good furnished 1BR in Cihangir/Beşiktaş (European side) or Moda (Kadıköy), newer building with amenities",
+        "monthlyCost": 1300
       },
       "dining": {
         "description": "Frequent quality dining at the city's better restaurants",
-        "monthlyCost": 550
+        "monthlyCost": 400
       },
       "groceries": {
-        "monthlyCost": 350
+        "monthlyCost": 300
       },
       "healthcare": {
         "description": "International health insurance",
-        "monthlyCost": 200
+        "monthlyCost": 150
       },
       "transportation": {
         "description": "Taxis, ride-hailing, and the occasional domestic flight",
@@ -113,67 +113,67 @@
       },
       "entertainment": {
         "description": "Concerts, galleries, café culture, and weekend getaways",
-        "monthlyCost": 400
+        "monthlyCost": 320
       },
       "utilities": {
-        "monthlyCost": 160
+        "monthlyCost": 150
       },
-      "lifestyle": "A well-located European-side apartment near cafés and the water anchors a genuinely comfortable life. Frequent quality dining, international health insurance, and occasional domestic travel are all easily in budget — the FIRE sweet spot for Istanbul."
+      "lifestyle": "A genuinely good Istanbul life for one — a stylish furnished flat in a sought-after neighborhood, regular meyhane dinners, Uber when the ferry doesn’t suit, and top private hospitals cashless. All discretionary covered without thought."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury furnished flat in Bebek or Etiler along the Bosphorus corridor",
-        "monthlyCost": 3200
+        "monthlyCost": 2300
       },
       "dining": {
         "description": "Near-daily dining at top restaurants and meyhanes",
-        "monthlyCost": 1200
+        "monthlyCost": 850
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 480
       },
       "healthcare": {
         "description": "VIP private hospitals (Acıbadem, American Hospital) with premium coverage",
-        "monthlyCost": 350
+        "monthlyCost": 280
       },
       "transportation": {
         "description": "A car or regular taxis across the city",
-        "monthlyCost": 400
+        "monthlyCost": 320
       },
       "entertainment": {
         "description": "Premium nightlife, events, clubs, and frequent travel",
-        "monthlyCost": 900
+        "monthlyCost": 700
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 220
       },
       "domesticHelp": {
         "description": "Part-time cleaner",
-        "monthlyCost": 400
+        "monthlyCost": 200
       },
       "luxuryExtras": {
         "description": "Boat days, weekend travel, and the Bosphorus social scene",
-        "monthlyCost": 700
+        "monthlyCost": 500
       },
       "lifestyle": "A premium Bosphorus-corridor flat in Bebek or Etiler, near-daily dining, and VIP private hospitals define this level. A car or regular taxis handle transport, weekly help keeps the home running, and weekends fold in boats and the city's upscale social scene."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Waterfront Bosphorus penthouse",
-        "monthlyCost": 6700
+        "description": "Luxury 2–3BR in Bebek/Etiler with a Bosphorus view, security and concierge",
+        "monthlyCost": 4800
       },
       "dining": {
         "description": "Private-chef-level dining plus the city's finest restaurants",
-        "monthlyCost": 2800
+        "monthlyCost": 1800
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 750
       },
       "healthcare": {
         "description": "Concierge healthcare with on-call specialists",
-        "monthlyCost": 700
+        "monthlyCost": 550
       },
       "transportation": {
         "description": "Car and driver, plus charters as needed",
@@ -181,20 +181,21 @@
       },
       "entertainment": {
         "description": "Yachting, elite clubs, and a full social calendar",
-        "monthlyCost": 2500
+        "monthlyCost": 1900
       },
       "utilities": {
-        "monthlyCost": 450
+        "monthlyCost": 420
       },
       "domesticHelp": {
         "description": "Cook, cleaner, and driver",
-        "monthlyCost": 1500
+        "monthlyCost": 650
       },
       "luxuryExtras": {
         "description": "Yacht charters, art, and bespoke travel",
-        "monthlyCost": 3000
+        "monthlyCost": 2500
       },
-      "lifestyle": "A waterfront penthouse, private-chef-level dining, concierge healthcare, and full household staff. Yachting on the Bosphorus and an elite social scene round out Fat-FIRE living at a fraction of what the equivalent would cost in a Western capital."
+      "lifestyle": "Top-of-market Istanbul for one — a Bosphorus-view luxury apartment, full-time housekeeper, driver, elite concierge healthcare, boat days, and the city’s best addresses. Extravagant locally, still under the old household FatFIRE thanks to the strong USD."
     }
-  }
+  },
+  "dataRecency": "Q3 2026"
 }
