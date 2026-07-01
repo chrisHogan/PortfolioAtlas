@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "1BR apartment in Uptown, Northeast Minneapolis, or St. Paul's Mac-Groveland",
-        "monthlyCost": 1800
+        "description": "Modest studio or small older 1BR in Uptown, Northeast, or Longfellow",
+        "monthlyCost": 1075
       },
       "dining": {
-        "description": "Diverse ethnic food 2-3x/week in Eat Street and Lake Street corridors",
-        "monthlyCost": 325
+        "description": "Mostly home cooking with occasional meals out",
+        "monthlyCost": 110
       },
       "groceries": {
-        "monthlyCost": 525
+        "monthlyCost": 340
       },
       "healthcare": {
-        "description": "MNsure Silver plan; Minnesota's marketplace is well-run with good options",
-        "monthlyCost": 675
+        "description": "MinnesotaCare (MN's Basic Health Program, MNsure) — VERIFIED as the top of the $0–80/mo sliding-scale band (avg ~$50), non-asset-tested, for MAGI held ≤ ~200% FPL (~$31,300); assumes an early retiree (45–55), older retirees should budget more. **Fallback (if MAGI can't be held that low): a subsidized MNsure Silver ~$450 (→ Lean total $2,400).** Above the 2026 400%-FPL cliff (~$62,600) an unsubsidized MNsure Silver is only ~$530 here (verified age-50), far below the ~$1,000 typical of higher-cost states",
+        "monthlyCost": 75
       },
       "transportation": {
-        "description": "Metro Transit monthly pass; excellent light rail and bus system; summer biking",
-        "monthlyCost": 175
+        "description": "Metro Transit monthly pass ($120) plus occasional winter rideshare (a modest paid-off car runs ~$250)",
+        "monthlyCost": 150
       },
       "entertainment": {
-        "description": "Free Chain of Lakes recreation, sculpture garden at the Walker, park concerts",
-        "monthlyCost": 125
+        "description": "The Chain of Lakes, riverfront trails, and low-key local outings",
+        "monthlyCost": 100
       },
       "utilities": {
-        "monthlyCost": 225
+        "monthlyCost": 175
       },
-      "lifestyle": "You can rent a one-bedroom in Uptown or Northeast Minneapolis and use Metro Transit for daily commuting. The Chain of Lakes and city parks provide free recreation in summer, and the skyway system keeps errands comfortable in winter. Heating costs are a real line item from November through March. Affordable ethnic restaurants along Eat Street and Lake Street keep dining out within reach a few times a week."
+      "lifestyle": "A genuinely frugal Minneapolis life anchored by a modest studio or small older one-bedroom in Uptown, Northeast, or Longfellow, with home cooking the norm and the Metro Transit pass covering most trips. The defining advantage is health coverage — keeping income under roughly $31,300 qualifies for MinnesotaCare at well under $100 a month, a fraction of the typical US marketplace premium. Winter heating is a real line, but Minnesota's cheap natural gas and a small, well-insulated unit keep it contained. Leisure leans on the city's free assets: the lakes, the riverfront, and miles of park trails."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "Nice 2BR in Linden Hills, North Loop, or a condo near the Chain of Lakes",
-        "monthlyCost": 2375
+        "description": "Decent 1BR in walkable Uptown, Whittier, or Northeast",
+        "monthlyCost": 1425
       },
       "dining": {
-        "description": "Dining out 3-4x/week at Minneapolis's diverse and acclaimed restaurant scene",
-        "monthlyCost": 650
+        "description": "Dining out a few times a week across the city's food scene",
+        "monthlyCost": 280
       },
       "groceries": {
-        "monthlyCost": 550
+        "monthlyCost": 430
       },
       "healthcare": {
-        "description": "MNsure Gold plan with dental and vision; Mayo Clinic just 90 minutes away",
-        "monthlyCost": 700
+        "description": "Subsidized MNsure Silver at mid-range income, roughly equal to an unsubsidized low-cost Bronze",
+        "monthlyCost": 375
       },
       "transportation": {
-        "description": "Reliable car for winter, transit pass for summer, Nice Ride bike share",
-        "monthlyCost": 400
+        "description": "A reliable used car for year-round winter driving",
+        "monthlyCost": 380
       },
       "entertainment": {
-        "description": "Guthrie Theater subscriptions, Vikings or Twins tickets, cross-country skiing, gym",
-        "monthlyCost": 350
+        "description": "Breweries, live music, pro sports, and the lakefront",
+        "monthlyCost": 220
       },
       "utilities": {
-        "monthlyCost": 225
+        "monthlyCost": 210
       },
-      "lifestyle": "You can rent a nice apartment in Linden Hills or the North Loop and eat out several times a week at the city's increasingly acclaimed restaurants. Guthrie Theater subscriptions, Vikings or Twins games, and a cross-country ski setup for winter are all within budget. Weekend trips to the Boundary Waters or the North Shore of Lake Superior are easy drives from the city."
+      "lifestyle": "A secure, comfortable routine built on a proper one-bedroom in a walkable district like Uptown, Whittier, or Northeast, with meals out a few times a week across the Twin Cities' strong food scene and a reliable car for winter mobility. Health coverage steps up to a subsidized MNsure Silver or an unsubsidized low-cost Bronze — the MinnesotaCare edge fades once income clears about 200% of poverty. Entertainment widens to breweries, live music, and pro sports on top of the free lakefront."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "3BR house in Kenwood, Linden Hills, or a luxury North Loop loft",
-        "monthlyCost": 3025
+        "description": "Quality newer 1BR in Northeast, Uptown, or the North Loop edge",
+        "monthlyCost": 1850
       },
       "dining": {
-        "description": "Regular dining at top spots like Owamni, Spoon and Stable, Travail; daily coffee shops",
-        "monthlyCost": 825
+        "description": "Frequent quality dining across the metro",
+        "monthlyCost": 500
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 510
       },
       "healthcare": {
-        "description": "Premium private insurance with Mayo Clinic and U of M Health network access",
-        "monthlyCost": 725
+        "description": "Unsubsidized MNsure Silver above the 2026 ~$62,600 ACA cliff — still far below high-cost states thanks to Minnesota's low benchmark and reinsurance",
+        "monthlyCost": 530
       },
       "transportation": {
-        "description": "Late-model Subaru or SUV for winters, premium insurance, summer biking",
+        "description": "A comfortable, reliable car for winter and regional trips",
         "monthlyCost": 450
       },
       "entertainment": {
-        "description": "Walker Art Center patron, Vikings season tickets, ski passes at Buck Hill/Afton Alps, premium gym",
-        "monthlyCost": 500
+        "description": "Theater, concerts, sports, dining, and weekend travel",
+        "monthlyCost": 420
       },
       "utilities": {
-        "monthlyCost": 275
+        "monthlyCost": 250
       },
-      "lifestyle": "You can rent a house in Kenwood or Linden Hills near the Chain of Lakes, and dine regularly at top restaurants like Owamni and Spoon and Stable. Walker Art Center membership, Vikings season tickets, and ski passes fit the budget. Good private insurance with access to the University of Minnesota Health network and proximity to Mayo Clinic provide strong healthcare options."
+      "lifestyle": "A relaxed, financially-independent life in a quality newer one-bedroom in a desirable walkable neighborhood — Northeast's nicer buildings, Uptown, or the edge of the North Loop — dining out several times a week with a real travel budget. Health coverage is the swing variable: at a FIRE-level income above the 2026 ACA cliff the tax credits disappear, yet Minnesota's benchmark is so low that the unsubsidized Silver here (~$530) sits far under the ~$1,000 common in higher-cost states. A comfortable car handles the winters and regional driving."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Lakefront home on Lake of the Isles, estate in Kenwood, or luxury downtown penthouse",
-        "monthlyCost": 4075
+        "description": "Luxury 1BR high-rise in the North Loop, Mill District, or by the lakes",
+        "monthlyCost": 2650
       },
       "dining": {
-        "description": "Fine dining multiple times per week, private chef for dinner parties",
-        "monthlyCost": 1125
+        "description": "Near-daily dining at the city's best tables",
+        "monthlyCost": 950
       },
       "groceries": {
         "monthlyCost": 650
       },
       "healthcare": {
-        "description": "Concierge medicine at U of M Health or Abbott Northwestern; executive wellness",
-        "monthlyCost": 825
+        "description": "A full-price MNsure Gold plan minimizing out-of-pocket",
+        "monthlyCost": 725
       },
       "transportation": {
-        "description": "Luxury SUV for winters, second vehicle for summer, premium insurance",
-        "monthlyCost": 650
+        "description": "A nice, near-luxury car",
+        "monthlyCost": 750
       },
       "entertainment": {
-        "description": "VIP Vikings box, Guthrie Theater patron, private lake cabin weekends, country club",
-        "monthlyCost": 825
+        "description": "Premium leisure, events, and cultural memberships",
+        "monthlyCost": 700
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 320
       },
       "domesticHelp": {
-        "description": "Weekly deep cleaning, snow removal, landscaping, personal assistant",
-        "monthlyCost": 650
+        "description": "A fortnightly-to-weekly housekeeper",
+        "monthlyCost": 300
       },
       "luxuryExtras": {
-        "description": "Boundary Waters cabin, quarterly travel, art collecting, Minneapolis Foundation giving",
-        "monthlyCost": 1150
+        "description": "Frequent travel and premium experiences",
+        "monthlyCost": 600
       },
-      "lifestyle": "A large lakefront home on Lake of the Isles or in Kenwood, regular dining at the city's best restaurants, and a housekeeper who comes weekly. Concierge medicine, a nice SUV for winters, and business class flights for longer trips are standard. A cabin on a northern Minnesota lake for summer weekends and patron-level involvement at the Walker and Guthrie round out the budget."
+      "lifestyle": "Upscale living in a luxury one-bedroom high-rise in the North Loop, Mill District, or near the lakes, with near-daily dining at the city's best tables, a nice car, and regular housekeeping. Health coverage is a full-price MNsure Gold plan chosen for low out-of-pocket rather than price. A generous travel-and-experiences budget rounds out an affluent, low-friction lifestyle."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Historic lakefront estate on Lake of the Isles or grand Kenwood mansion",
-        "monthlyCost": 5300
+        "description": "Penthouse or large luxury residence in the Mill District, North Loop, or near Lake of the Isles",
+        "monthlyCost": 5200
       },
       "dining": {
-        "description": "Personal chef, exclusive wine events, catered lake house gatherings",
-        "monthlyCost": 1475
+        "description": "Private-chef-caliber dining and the finest restaurants",
+        "monthlyCost": 2100
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 860
       },
       "healthcare": {
-        "description": "Top-tier concierge at U of M Health, Mayo Clinic VIP access, executive wellness",
-        "monthlyCost": 825
+        "description": "Top-tier unsubsidized MNsure Gold plus concierge/direct primary care (below Cincinnati's ~$1,400, as MN's benchmark warrants)",
+        "monthlyCost": 1150
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, private driver, floatplane for north woods trips",
-        "monthlyCost": 900
+        "description": "Luxury cars and charters on demand",
+        "monthlyCost": 1700
       },
       "entertainment": {
-        "description": "Private suite at U.S. Bank Stadium, Walker Art Center trustee, international travel, philanthropy",
-        "monthlyCost": 1375
+        "description": "A full cultural and social calendar, clubs, and travel",
+        "monthlyCost": 1700
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 430
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper, estate manager, personal assistant, snow and grounds crew",
-        "monthlyCost": 2250
+        "description": "Weekly housekeeping plus occasional additional help",
+        "monthlyCost": 750
       },
       "luxuryExtras": {
-        "description": "North Shore lakefront property, first-class travel, art foundation, charitable endowments",
-        "monthlyCost": 2975
+        "description": "Bespoke travel, club memberships, and luxury experiences",
+        "monthlyCost": 2000
       },
-      "lifestyle": "Premium lakefront housing on Lake of the Isles, regular fine dining, a cook who comes several times a week, and a housekeeper. First class travel, full concierge healthcare with Mayo Clinic access, and a private suite at U.S. Bank Stadium for Vikings games. A second property on the North Shore of Lake Superior is realistic at this budget. Minneapolis's affordable cost base means this level of spending covers everything without strain."
+      "lifestyle": "The top of what Minneapolis rents at the very top of the market — a penthouse or large luxury residence in the Mill District, North Loop, or by Lake of the Isles, with private-chef-caliber and fine-restaurant dining, luxury cars with charters on demand, and regular domestic help. Health coverage is a top-tier unsubsidized Gold plan paired with concierge or direct primary care. Even at this ceiling Minnesota's premiums keep the health line below what the same tier costs in most US metros; the spend is defined by discretionary luxury, not necessity."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 9,
     "infrastructure": 8,
     "expatFriendliness": 8
-  }
+  },
+  "dataRecency": "Q3 2026"
 }

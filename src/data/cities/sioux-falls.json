@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "1BR apartment in the Cathedral District or near Falls Park",
-        "monthlyCost": 1100
+        "description": "Frugal studio or small older 1BR in the Cathedral District or near Falls Park (studio avg ~$700–873; 1BR ~$900–972)",
+        "monthlyCost": 800
       },
       "dining": {
-        "description": "Casual dining 2x/week at local spots like Phillips Avenue Diner or Fernson Brewing",
-        "monthlyCost": 225
+        "description": "Occasional casual meals out",
+        "monthlyCost": 95
       },
       "groceries": {
-        "monthlyCost": 425
+        "monthlyCost": 340
       },
       "healthcare": {
-        "description": "ACA marketplace Silver plan; South Dakota premiums are reasonable",
-        "monthlyCost": 600
+        "description": "Subsidized ACA Silver with income under the 2026 400%-FPL cliff (~$62,600); assumes an early retiree (45–55), older retirees should budget more. The net subsidized premium is income-capped, so it is roughly state-independent; above the cliff it climbs into SD's unsubsidized band",
+        "monthlyCost": 450
       },
       "transportation": {
-        "description": "Paid-off car with basic insurance; car necessary but costs are low",
-        "monthlyCost": 275
+        "description": "A paid-off economy car (Sioux Falls insurance is low ~$112/mo liability) plus fuel and upkeep",
+        "monthlyCost": 285
       },
       "entertainment": {
-        "description": "Falls Park walks, Big Sioux River trails, SculptureWalk, free community events",
-        "monthlyCost": 100
+        "description": "Falls Park, Big Sioux River trails, SculptureWalk, free community events",
+        "monthlyCost": 110
       },
       "utilities": {
-        "monthlyCost": 175
+        "monthlyCost": 185
       },
-      "lifestyle": "You can rent a decent one-bedroom near Falls Park or the Cathedral District for under $900 and still cover groceries, a car, and healthcare with room to spare. No state income tax helps every dollar stretch further. Evenings and weekends revolve around the trails along the Big Sioux River, Falls Park, and low-key dining at local spots. It is a modest life but a genuinely comfortable one by budget-tier standards."
+      "lifestyle": "A frugal studio or small older one-bedroom in the Cathedral District or near Falls Park anchors a modest but genuinely comfortable baseline, helped by South Dakota's zero state income tax. Cooking at home is the norm, a paid-off car handles the errands that light transit cannot, and healthcare rests on a subsidized Silver plan tied to keeping income under the ACA cliff. Evenings and weekends revolve around Falls Park, the Big Sioux River trails, and SculptureWalk. Housing plus the health premium are the two big lines, but the low cost base leaves real breathing room."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "2BR apartment downtown or a small house in McKennan Park or All Saints",
-        "monthlyCost": 1600
+        "description": "A nice 1BR in McKennan Park or the Cathedral District",
+        "monthlyCost": 1080
       },
       "dining": {
-        "description": "Dining out 3-4x/week; enjoying downtown's growing food scene on Phillips Avenue",
-        "monthlyCost": 450
-      },
-      "groceries": {
-        "monthlyCost": 475
-      },
-      "healthcare": {
-        "description": "ACA Gold plan with dental; access to excellent Sanford and Avera systems",
-        "monthlyCost": 675
-      },
-      "transportation": {
-        "description": "Reliable AWD vehicle for winter driving, full coverage insurance",
-        "monthlyCost": 425
-      },
-      "entertainment": {
-        "description": "Washington Pavilion performances, Canaries baseball, gym membership, Great Plains Zoo",
-        "monthlyCost": 250
-      },
-      "utilities": {
-        "monthlyCost": 175
-      },
-      "lifestyle": "A two-bedroom house in a tree-lined neighborhood like McKennan Park or All Saints is well within reach. You can eat out several times a week on Phillips Avenue, keep a reliable AWD vehicle for winter, and carry solid health insurance. The low cost base and zero state income tax leave a healthy margin each month for travel or saving."
-    },
-    "3M": {
-      "monthlyBudget": 10000,
-      "housing": {
-        "description": "3BR home in Prairie Hills, Southern Hills, or a newer build in southeast Sioux Falls",
-        "monthlyCost": 2200
-      },
-      "dining": {
-        "description": "Regular fine dining at Minervas, Parker's Bistro, and Grille 26; wine events",
-        "monthlyCost": 600
-      },
-      "groceries": {
-        "monthlyCost": 500
-      },
-      "healthcare": {
-        "description": "Premium private insurance with low deductibles, full dental/vision through Sanford",
-        "monthlyCost": 675
-      },
-      "transportation": {
-        "description": "Late-model SUV for South Dakota winters, premium insurance, seasonal tires",
-        "monthlyCost": 450
-      },
-      "entertainment": {
-        "description": "Denny Sanford Premier Center events, golf club membership, ski trips to Terry Peak",
-        "monthlyCost": 375
-      },
-      "utilities": {
-        "monthlyCost": 200
-      },
-      "lifestyle": "A spacious three-bedroom home in a newer subdivision like Prairie Hills or Southern Hills, regular dinners at restaurants like Minervas and Parker's Bistro, and a late-model SUV for Dakota winters. This budget covers everything comfortably and leaves substantial margin for travel or other goals. At Sioux Falls prices, $10K a month goes a long way."
-    },
-    "5M": {
-      "monthlyBudget": 16667,
-      "housing": {
-        "description": "Custom home in The Bluffs, Lake Lorraine area, or a luxury property with river views",
-        "monthlyCost": 3150
-      },
-      "dining": {
-        "description": "Fine dining several times per week, private chef for entertaining, wine club memberships",
-        "monthlyCost": 750
-      },
-      "groceries": {
-        "monthlyCost": 475
-      },
-      "healthcare": {
-        "description": "Concierge medicine at Sanford, executive wellness, comprehensive private insurance",
-        "monthlyCost": 625
-      },
-      "transportation": {
-        "description": "Luxury SUV, second vehicle, premium everything for Dakota weather",
-        "monthlyCost": 525
-      },
-      "entertainment": {
-        "description": "Country club membership, Black Hills cabin weekends, philanthropy galas, private golf",
-        "monthlyCost": 525
-      },
-      "utilities": {
-        "monthlyCost": 200
-      },
-      "domesticHelp": {
-        "description": "Weekly deep cleaning, landscaping, snow removal service, seasonal maintenance",
-        "monthlyCost": 375
-      },
-      "luxuryExtras": {
-        "description": "Black Hills cabin, quarterly travel, Sanford Health donor events, art collecting",
-        "monthlyCost": 975
-      },
-      "lifestyle": "A large custom home in The Bluffs or Lake Lorraine area, a housekeeper several times a week, and regular dining at the city's best restaurants. Weekend trips to a cabin in the Black Hills are easy to budget, and business class flights for longer travel are comfortable at this spend level. Zero state income tax means you keep more of every withdrawal."
-    },
-    "10M": {
-      "monthlyBudget": 33333,
-      "housing": {
-        "description": "Trophy property in The Bluffs or a sprawling estate with acreage south of the city",
-        "monthlyCost": 3700
-      },
-      "dining": {
-        "description": "Full-time personal chef, exclusive wine dinners, catered events and private gatherings",
-        "monthlyCost": 1050
+        "description": "Regular casual dining out",
+        "monthlyCost": 185
       },
       "groceries": {
         "monthlyCost": 400
       },
       "healthcare": {
-        "description": "Top-tier concierge practice at Sanford, medical travel for specialists, wellness team",
-        "monthlyCost": 550
+        "description": "Subsidized / near-benchmark Silver at mid-range income",
+        "monthlyCost": 540
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, private car service, chartered flights from FSD",
+        "description": "A newer used car, full coverage (~$154/mo), plus fuel and upkeep",
+        "monthlyCost": 340
+      },
+      "entertainment": {
+        "description": "Washington Pavilion performances, memberships, hobbies",
+        "monthlyCost": 200
+      },
+      "utilities": {
+        "monthlyCost": 220
+      },
+      "lifestyle": "A nice one-bedroom in a tree-lined neighborhood like McKennan Park, eating out a few times a week, and a newer used car on full coverage for the winters. Health coverage is a subsidized or near-benchmark Silver plan, and there is comfortable room for the Washington Pavilion, a gym, and hobbies. The low cost base and zero state income tax leave a healthy monthly margin."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "A premium 1BR or small 2BR in a top building near Lake Lorraine, The Bluffs, or luxury downtown",
+        "monthlyCost": 1450
+      },
+      "dining": {
+        "description": "Frequent quality dining",
+        "monthlyCost": 320
+      },
+      "groceries": {
+        "monthlyCost": 480
+      },
+      "healthcare": {
+        "description": "Cliff-edge and padded; the swing variable — a drawdown can push MAGI over the ~$62,600 cliff into SD's full unsubsidized band (an age-45–55 adult jumps toward ~$950–1,180 unsubsidized Silver)",
+        "monthlyCost": 680
+      },
+      "transportation": {
+        "description": "A reliable late-model car, premium full coverage, fuel and upkeep",
+        "monthlyCost": 430
+      },
+      "entertainment": {
+        "description": "Denny Sanford Premier Center events, clubs, travel-lite",
+        "monthlyCost": 340
+      },
+      "utilities": {
+        "monthlyCost": 260
+      },
+      "lifestyle": "A relaxed, financially-independent life in a premium apartment near Lake Lorraine or The Bluffs, dining out several times a week with a genuine travel budget. A reliable late-model car handles Dakota winters, and there is room for Premier Center events, clubs, and hobbies. Healthcare is the swing variable — the line is padded because a drawdown can push income over the ACA cliff into South Dakota's full unsubsidized band. Everything is covered comfortably; the only real constraint is discretionary scale, not comfort."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "A luxury 2BR or upscale rental in The Bluffs or the Lake Lorraine area",
+        "monthlyCost": 2100
+      },
+      "dining": {
+        "description": "Frequent fine dining",
+        "monthlyCost": 700
+      },
+      "groceries": {
+        "monthlyCost": 620
+      },
+      "healthcare": {
+        "description": "A fully unsubsidized low-deductible Gold plan, age-rated for a 45–55 adult (SD's moderate benchmark keeps this mid-band, below Nebraska-style highs)",
+        "monthlyCost": 1150
+      },
+      "transportation": {
+        "description": "A nice newer vehicle, premium coverage, all-in",
         "monthlyCost": 700
       },
       "entertainment": {
-        "description": "Major philanthropy, international travel, art collecting, exclusive memberships",
-        "monthlyCost": 900
+        "description": "Travel, clubs, hobbies, memberships",
+        "monthlyCost": 650
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 360
       },
       "domesticHelp": {
-        "description": "Full-time property manager, housekeeper, personal assistant, groundskeeper",
-        "monthlyCost": 1775
+        "description": "Biweekly housekeeping (Sioux Falls ~$149–187/visit)",
+        "monthlyCost": 330
       },
       "luxuryExtras": {
-        "description": "Second home in the Black Hills, first-class international travel, angel investing, foundation work",
-        "monthlyCost": 2225
+        "description": "A travel fund, club memberships, wine, premium services",
+        "monthlyCost": 550
       },
-      "lifestyle": "A premium home on acreage south of the city, a second property in the Black Hills, a cook who comes in several times a week, and regular domestic help. First-class flights and frequent travel are well within budget. At Sioux Falls costs with no state income tax, this level of spending covers a very comfortable, well-staffed life with large margins each month."
+      "lifestyle": "A luxury apartment or upscale rental in The Bluffs or the Lake Lorraine area, frequent fine dining, and a nice newer vehicle. Health coverage is a fully unsubsidized low-deductible Gold plan, biweekly housekeeping frees up time, and a standing travel-and-experiences budget makes getaways routine. Zero state income tax means more of every withdrawal is kept — affluent living in a low-cost city."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "A top-end luxury condo, penthouse, or large luxury home rental in The Bluffs / Lake Lorraine (a conservative anchor — real penthouse stock, The Cascade at The Steel District, reaches $5,389/mo long-term; see confidence)",
+        "monthlyCost": 3900
+      },
+      "dining": {
+        "description": "Routine fine dining, chef's tables, private events",
+        "monthlyCost": 1500
+      },
+      "groceries": {
+        "monthlyCost": 900
+      },
+      "healthcare": {
+        "description": "A top-tier unsubsidized domestic plan plus concierge / direct-primary-care (US-domestic, not expat); SD's moderate benchmark, age-rated for a 45–55 adult, places this above ND/MI but below Nebraska",
+        "monthlyCost": 1480
+      },
+      "transportation": {
+        "description": "A luxury vehicle, full coverage, plus on-demand car service",
+        "monthlyCost": 1500
+      },
+      "entertainment": {
+        "description": "Extensive travel, events, memberships, hobbies",
+        "monthlyCost": 1700
+      },
+      "utilities": {
+        "monthlyCost": 600
+      },
+      "domesticHelp": {
+        "description": "Weekly-plus housekeeping including grounds, snow removal, and errand support",
+        "monthlyCost": 1300
+      },
+      "luxuryExtras": {
+        "description": "Extensive travel, personal services, club memberships, luxury goods",
+        "monthlyCost": 2100
+      },
+      "lifestyle": "The top of what Sioux Falls offers — a luxury condo, penthouse, or large home in The Bluffs or Lake Lorraine, routine fine dining, and a luxury vehicle with on-demand service. Full household help keeps everything effortless, and concierge medicine sits atop a top-tier unsubsidized domestic plan. An expansive travel-and-memberships budget rounds out a well-staffed, status-comfortable life, with the state's zero income tax stretching every dollar further."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 6,
     "infrastructure": 5,
     "expatFriendliness": 7
-  }
+  },
+  "dataRecency": "Q3 2026"
 }

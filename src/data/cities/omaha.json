@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "1BR apartment in Benson, Dundee, or Aksarben Village",
-        "monthlyCost": 1200
+        "description": "Modest studio or older 1BR in Benson, the Dundee/Hanscom fringe, or an Aksarben edge",
+        "monthlyCost": 950
       },
       "dining": {
-        "description": "Steakhouse happy hours, Old Market casual dining 2-3x/week; cooking at home most nights",
-        "monthlyCost": 275
+        "description": "Occasional cheap eats; food is overwhelmingly cooked at home",
+        "monthlyCost": 85
       },
       "groceries": {
-        "monthlyCost": 425
+        "monthlyCost": 340
       },
       "healthcare": {
-        "description": "ACA marketplace Silver plan; Nebraska marketplace premiums are moderate",
-        "monthlyCost": 625
+        "description": "Subsidized ACA Silver with MAGI kept under the 2026 400%-FPL cliff (~$62,600); assumes an early retiree (45–55), older retirees should budget more. Nebraska's UNsubsidized price is among the higher-cost states (near the top on average-silver), so crossing the cliff is unusually punishing (see below)",
+        "monthlyCost": 450
       },
       "transportation": {
-        "description": "Paid-off car with basic insurance and gas; car is necessary in Omaha",
-        "monthlyCost": 325
+        "description": "A paid-off used car — Omaha auto insurance is high by US standards (full coverage ~$157/mo) — plus gas and upkeep; transit is too weak to rely on",
+        "monthlyCost": 300
       },
       "entertainment": {
-        "description": "Free First Friday art walks in the Old Market, Heartland of America Park, Joslyn Art Museum, public trails",
-        "monthlyCost": 100
+        "description": "Parks, the riverfront, Old Market wandering, and Omaha's cheap-culture calendar",
+        "monthlyCost": 110
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 185
       },
-      "lifestyle": "A one-bedroom in Benson, Dundee, or Aksarben Village, cooking at home most nights with occasional steakhouse happy hours and Old Market casual dining. A paid-off car is necessary in Omaha. Free First Friday art walks, the Joslyn Art Museum, and public trails provide low-cost entertainment. Healthcare on an ACA Silver plan takes a meaningful share of the budget. Winters are cold and long, but housing costs are low enough that this budget provides a modest cushion for the unexpected."
+      "lifestyle": "A frugal but genuinely livable Omaha life anchored in an older Benson or Dundee-fringe apartment, home cooking, and free riverfront and park culture. Housing plus a subsidized health premium alone absorb the bulk of the budget — the classic US mid-metro squeeze — and a paid-off used car is a non-negotiable line because transit is thin. Winters put a real number on the utility line. Comfortable within its limits, with little discretionary slack."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "2BR home in Dundee, Aksarben, or a renovated condo in the Old Market",
-        "monthlyCost": 1800
+        "description": "A proper 1BR in a desirable area — Benson proper, Midtown, or an entry Aksarben Village unit",
+        "monthlyCost": 1250
       },
       "dining": {
-        "description": "Regular dining at Gorat's, V. Mertz, and the Boiler Room 3-4x/week; weekend steakhouse dinners",
-        "monthlyCost": 550
+        "description": "Out a few times a week at casual spots",
+        "monthlyCost": 230
       },
       "groceries": {
-        "monthlyCost": 475
+        "monthlyCost": 430
       },
       "healthcare": {
-        "description": "ACA Gold plan with dental and vision; access to Nebraska Medicine and UNMC",
-        "monthlyCost": 675
+        "description": "Subsidized ACA plan, MAGI managed under the cliff",
+        "monthlyCost": 490
       },
       "transportation": {
-        "description": "Reliable mid-range car, full coverage insurance, gas and maintenance",
-        "monthlyCost": 400
+        "description": "A newer used car on full coverage at Omaha rates, plus gas and upkeep",
+        "monthlyCost": 360
       },
       "entertainment": {
-        "description": "Henry Doorly Zoo membership, Omaha Community Playhouse season tickets, Creighton basketball, gym",
-        "monthlyCost": 300
+        "description": "Shows, dining-adjacent nightlife, a gym",
+        "monthlyCost": 230
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 215
       },
-      "lifestyle": "A home in Dundee or a renovated Old Market condo, dining out several times a week at the city's steakhouses and the growing Benson restaurant scene, and a reliable mid-range car. You can afford a Henry Doorly Zoo membership, Creighton basketball tickets, a gym, and a good health plan with access to Nebraska Medicine. A few trips per year and regular hobbies are well within reach. Omaha's low costs mean this budget stretches further than in most US metros."
+      "lifestyle": "An unshowy, secure Omaha routine in a nice 1BR in Benson or Midtown, eating out a few nights a week, with a dependable car on full coverage. Health coverage stays subsidized by keeping income under the cliff. The tier that trades scarcity for stability without stretching."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "3BR home in Regency, Rockbrook, or a luxury condo overlooking the Missouri River",
-        "monthlyCost": 2400
+        "description": "A quality 1BR in a walkable, sought-after pocket — Dundee, Blackstone/Midtown Crossing, Downtown, or a newer Aksarben Village build",
+        "monthlyCost": 1500
       },
       "dining": {
-        "description": "Fine dining at The Grey Plume, Dario's Brasserie, and Mahogany Prime; regular steak nights and wine pairings",
-        "monthlyCost": 775
+        "description": "Several restaurant meals a week across Omaha's improving food scene",
+        "monthlyCost": 420
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 480
       },
       "healthcare": {
-        "description": "Premium private insurance with comprehensive coverage through Nebraska Medicine",
-        "monthlyCost": 675
+        "description": "Priced at the cliff edge and padded — a richer plan while subsidized, or Silver plus meaningful out-of-pocket, to absorb the risk a drawdown pushes MAGI over the cliff into Nebraska's steep unsubsidized band",
+        "monthlyCost": 650
       },
       "transportation": {
-        "description": "Late-model SUV, premium insurance, road trips through Nebraska's Sandhills and wine country",
+        "description": "A comfortable car, full coverage, ample driving budget",
         "monthlyCost": 400
       },
       "entertainment": {
-        "description": "Premium College World Series tickets, Orpheum Theater season pass, private golf club, Joslyn Museum patron",
-        "monthlyCost": 450
+        "description": "A real leisure and travel-seed budget, memberships, events",
+        "monthlyCost": 420
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 250
       },
-      "lifestyle": "A spacious home in Regency or Rockbrook, regular dinners at restaurants like The Grey Plume and Dario's Brasserie, and a late-model SUV. You can afford premium health insurance through Nebraska Medicine, a private golf club membership, College World Series tickets, Orpheum Theater season passes, and regular travel. Omaha's low cost of living means $10K a month provides a genuinely affluent life here with significant monthly margin -- something the same budget would not achieve in most coastal cities."
+      "lifestyle": "A relaxed, financially-independent Omaha life in a walkable Dundee or Midtown Crossing 1BR, dining out several times a week with a genuine travel budget. Healthcare is the swing variable — the line is intentionally padded because the ACA cliff is unforgiving in Nebraska, one of the higher-premium states on the individual market. Everyday needs are fully covered; the constraint is discretionary scale, not comfort."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Luxury estate in Happy Hollow, Fairacres, or a riverfront property in Council Bluffs with Omaha views",
-        "monthlyCost": 3125
+        "description": "A high-end 2BR or junior-2BR in a luxury building — top Aksarben Village stock, Midtown Crossing, or a Downtown high-rise",
+        "monthlyCost": 2200
       },
       "dining": {
-        "description": "Private chef for dinner parties, fine dining multiple nights per week, exclusive Berkshire weekend events",
-        "monthlyCost": 925
+        "description": "Frequent higher-end dining",
+        "monthlyCost": 800
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 620
       },
       "healthcare": {
-        "description": "Concierge medicine through Nebraska Medicine, executive health screenings, comprehensive private insurance",
-        "monthlyCost": 700
+        "description": "Fully unsubsidized (MAGI over the cliff) — an age-rated 45–55 plan on Nebraska's high-average individual market (~$1,250; avg-silver $918 age-40 aged up), materially higher than a comparable Ohio figure",
+        "monthlyCost": 1250
       },
       "transportation": {
-        "description": "Luxury vehicle, premium insurance, detailing service, weekend road trip vehicle",
-        "monthlyCost": 575
+        "description": "A premium vehicle, full coverage, generous fuel/rideshare",
+        "monthlyCost": 650
       },
       "entertainment": {
-        "description": "Happy Hollow Club membership, Berkshire Hathaway shareholder meeting VIP access, arts patronage, CWS suite",
+        "description": "Frequent events, travel, clubs, hobbies",
         "monthlyCost": 650
       },
       "utilities": {
-        "monthlyCost": 225
+        "monthlyCost": 330
       },
       "domesticHelp": {
-        "description": "Weekly house cleaning, landscaping, snow removal service, occasional personal assistant",
-        "monthlyCost": 500
+        "description": "Roughly biweekly housekeeping at Omaha rates (~$140/visit)",
+        "monthlyCost": 280
       },
       "luxuryExtras": {
-        "description": "Quarterly travel, wine cellar curation, Berkshire shareholder events, philanthropic giving, art collecting",
-        "monthlyCost": 1000
+        "description": "Upgraded discretionary — travel, memberships, wellness",
+        "monthlyCost": 550
       },
-      "lifestyle": "A large home in the Happy Hollow or Fairacres area, a housekeeper who comes weekly, concierge medicine through Nebraska Medicine, and a nice car. You dine at the city's best restaurants regularly, hold a top country club membership, and fly business class for longer trips. The Berkshire Hathaway annual meeting is a local event. This budget goes very far in Omaha -- you live comfortably with substantial margin for travel, charitable giving, and continued saving."
+      "lifestyle": "An affluent Omaha lifestyle in a luxury Aksarben Village or Downtown high-rise apartment, with frequent fine dining, a premium car, and regular housekeeping help. Because income now sits above the ACA cliff, the health line jumps to Nebraska's full unsubsidized price — a notably heavier line than in lower-premium states. Real travel and discretionary budgets appear here without ostentation."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Historic estate in Fairacres or a sprawling property along the Missouri River bluffs",
-        "monthlyCost": 3700
+        "description": "The top of Omaha's rental market — a Downtown penthouse-tier unit or a high-end single-family rental in Regency, Happy Hollow, or Fairacres (rental stock at this level is thin — see confidence)",
+        "monthlyCost": 4200
       },
       "dining": {
-        "description": "Full-time personal chef, catered events, private dining experiences, exclusive culinary travel",
-        "monthlyCost": 1225
+        "description": "Routine fine dining",
+        "monthlyCost": 1700
       },
       "groceries": {
-        "monthlyCost": 425
+        "monthlyCost": 850
       },
       "healthcare": {
-        "description": "Top-tier concierge practice at UNMC, executive wellness programs, specialist access at Mayo Clinic",
-        "monthlyCost": 675
+        "description": "Unsubsidized top-tier domestic plan (Gold/Platinum) for a 45–55 retiree plus concierge/DPC — set above a comparable Ohio figure to reflect Nebraska's higher unsubsidized market; NOT an international/expat plan",
+        "monthlyCost": 1600
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, private car service, chartered flights from OMA, classic car collection",
-        "monthlyCost": 725
+        "description": "A luxury vehicle plus on-demand rideshare/driver",
+        "monthlyCost": 1500
       },
       "entertainment": {
-        "description": "Major zoo and arts philanthropy, private suite for CWS, international travel, Berkshire inner-circle events",
-        "monthlyCost": 1225
+        "description": "A generous travel-and-culture budget",
+        "monthlyCost": 1600
       },
       "utilities": {
-        "monthlyCost": 225
+        "monthlyCost": 480
       },
       "domesticHelp": {
-        "description": "Full-time estate manager, housekeeper, personal assistant, grounds crew, snow and pool service",
-        "monthlyCost": 1850
+        "description": "Roughly weekly housekeeping plus occasional additional help/errands",
+        "monthlyCost": 1000
       },
       "luxuryExtras": {
-        "description": "First-class international travel, major philanthropic endowments, ranch property in the Sandhills, art patronage",
-        "monthlyCost": 2350
+        "description": "Broad discretionary — travel, clubs, hobbies, indulgences",
+        "monthlyCost": 1800
       },
-      "lifestyle": "A large estate in Fairacres or along the Missouri River bluffs, a cook who comes in several times a week, full-time domestic help, and top-tier concierge healthcare at UNMC with Mayo Clinic specialist access. You travel first class, keep multiple cars, and dine out without thinking about the bill. In a city as affordable as Omaha, this budget creates enormous margin beyond even generous spending -- enough for significant charitable giving to institutions like the Henry Doorly Zoo and Joslyn Art Museum, a second property, and ongoing investment."
+      "lifestyle": "The ceiling of what money buys in a mid-cost Midwest metro — a penthouse-tier or high-end Fairacres/Regency residence, daily fine dining, a luxury car with a driver when wanted, and full domestic help. Even at the top the health line stays fully unsubsidized and runs higher than an equivalent Ohio budget, because Nebraska's individual market is among the higher-premium states. At roughly $177k/year it is unambiguously lavish."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 8,
     "infrastructure": 7,
     "expatFriendliness": 8
-  }
+  },
+  "dataRecency": "Q3 2026"
 }

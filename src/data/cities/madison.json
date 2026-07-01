@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "1BR apartment on the east side, Fitchburg, or near the UW campus",
-        "monthlyCost": 1675
+        "description": "Budget studio or older 1BR in an affordable neighborhood (Elvehjem, east side, or Fitchburg)",
+        "monthlyCost": 1150
       },
       "dining": {
-        "description": "Dane County Farmers Market finds and casual dining on State Street 2x/week; mostly cooking at home",
-        "monthlyCost": 300
+        "description": "Mostly home cooking with the occasional meal out",
+        "monthlyCost": 90
       },
       "groceries": {
-        "monthlyCost": 475
+        "monthlyCost": 350
       },
       "healthcare": {
-        "description": "ACA marketplace Silver plan through Wisconsin's marketplace; UW Health network access",
-        "monthlyCost": 675
+        "description": "Subsidized Silver marketplace plan (Wisconsin uses healthcare.gov) with MAGI kept under the 2026 400%-FPL cliff (~$62,600); assumes an early retiree (45–55), older retirees should budget more. Above the cliff, premium tax credits vanish and this line climbs toward ~$850+",
+        "monthlyCost": 460
       },
       "transportation": {
-        "description": "Bicycle in summer, Metro Transit bus pass in winter, occasional car-share for errands",
-        "monthlyCost": 225
+        "description": "Bike-first living with a Metro Transit fare-capped pass ($65 cap) and occasional car-share",
+        "monthlyCost": 120
       },
       "entertainment": {
-        "description": "Free lakeside walks, Chazen Museum of Art, Capitol Square events, cross-country skiing in winter",
-        "monthlyCost": 100
+        "description": "Lakes, parks, the farmers' market, and low-key local outings",
+        "monthlyCost": 120
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 210
       },
-      "lifestyle": "A one-bedroom on the east side or in Fitchburg, cooking most meals at home with Saturday trips to the Dane County Farmers Market on the Capitol Square, and biking or busing instead of owning a car. The Chazen Museum and lakeside paths are free. Healthcare on an ACA Silver plan with UW Health access is a significant expense, and winter heating bills add up. This is a tight budget, but Madison's bike infrastructure and strong public amenities make it workable without a car."
+      "lifestyle": "A genuinely frugal Madison life built around a small studio in a budget neighborhood and a bike rather than a car — the fare-capped Metro pass and occasional car-share cover the rest, with winter the main reason a car ever appears. Cooking at home is the norm, entertainment leans on the lakes, parks, and the farmers' market, and the healthcare line assumes marketplace income is managed to stay under the ACA subsidy cliff. Housing plus the subsidized health premium alone absorb roughly two-thirds of the budget — the classic US squeeze."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "2BR apartment in Tenney-Lapham, a condo near the Capitol, or a home in Middleton",
-        "monthlyCost": 2250
+        "description": "Solid mid-market 1BR in a convenient neighborhood",
+        "monthlyCost": 1550
       },
       "dining": {
-        "description": "Regular dining at Graze, Heritage Tavern, and the Old Fashioned 3-4x/week; Saturday market brunch",
-        "monthlyCost": 575
+        "description": "Dining out regularly across Madison's strong local scene",
+        "monthlyCost": 240
       },
       "groceries": {
-        "monthlyCost": 525
+        "monthlyCost": 430
       },
       "healthcare": {
-        "description": "ACA Gold plan with dental and vision; access to UW Health's nationally ranked specialists",
-        "monthlyCost": 725
+        "description": "A Silver marketplace plan, likely paid at or near full price at this income",
+        "monthlyCost": 540
       },
       "transportation": {
-        "description": "Reliable car for winter months, bike for summer; full coverage insurance and maintenance",
-        "monthlyCost": 400
+        "description": "A reliable used car: insurance, gas, and upkeep",
+        "monthlyCost": 300
       },
       "entertainment": {
-        "description": "UW Badgers football tickets, Overture Center performances, sailing on Lake Mendota, gym membership",
-        "monthlyCost": 350
+        "description": "Concerts, the Overture Center, breweries, and weekend trips",
+        "monthlyCost": 240
       },
       "utilities": {
-        "monthlyCost": 225
+        "monthlyCost": 240
       },
-      "lifestyle": "A condo near the Capitol or a home in Middleton, dining out several times a week at the city's farm-to-table restaurants, and a car for winter months combined with biking in summer. You can afford Badgers football tickets, Overture Center performances, a gym membership, and a good health plan through UW Health. The seasonal rhythm keeps things varied -- sailing on Lake Mendota in summer, cross-country skiing in winter. Wisconsin's state income tax is a factor, but the quality of life is strong."
+      "lifestyle": "A comfortable step up into a solid mid-market one-bedroom, a reliable car for winter, and dining out regularly across Madison's well-regarded restaurant scene. Entertainment widens to concerts, the Overture Center, breweries, and weekend trips into the surrounding lake country. At this income the Silver plan is most likely paid at or near full, unsubsidized price. Easygoing Midwestern living without the frugality math of the lean tier."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "3BR lakefront home on Lake Mendota, a house in Shorewood Hills, or an upscale Maple Bluff property",
-        "monthlyCost": 3025
+        "description": "Quality 1BR in a walkable isthmus or near-campus location",
+        "monthlyCost": 1850
       },
       "dining": {
-        "description": "Fine dining at L'Etoile, Sardine, and Merchant; regular wine dinners and tasting menus",
-        "monthlyCost": 800
+        "description": "Frequent quality dining across the city's best casual and mid-range tables",
+        "monthlyCost": 420
       },
       "groceries": {
-        "monthlyCost": 525
+        "monthlyCost": 480
       },
       "healthcare": {
-        "description": "Premium private insurance through UW Health; concierge-lite primary care and executive wellness",
-        "monthlyCost": 675
+        "description": "A Gold plan minimizing out-of-pocket; above the ACA cliff this trends toward unsubsidized full price — the line is intentionally padded, as US healthcare is the swing variable",
+        "monthlyCost": 660
       },
       "transportation": {
-        "description": "Late-model car, premium insurance, seasonal boat slip on Lake Mendota",
-        "monthlyCost": 450
+        "description": "A comfortable car for regional driving and winter reliability",
+        "monthlyCost": 360
       },
       "entertainment": {
-        "description": "Season tickets for Badgers football and basketball, Overture Center season pass, private sailing club",
-        "monthlyCost": 475
+        "description": "Travel, hobbies, events, and lake-country recreation",
+        "monthlyCost": 420
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 260
       },
-      "lifestyle": "A lakefront home on Lake Mendota or a house in Shorewood Hills, regular dinners at L'Etoile and Sardine, and Badgers season tickets for football and basketball. You can afford a late-model car, a seasonal boat slip on the lake, premium health insurance through UW Health, and a sailing club membership. Weekend trips to the north woods for skiing or to Door County in summer fit comfortably in the budget. This is a genuinely affluent life in a city with strong intellectual and outdoor culture."
+      "lifestyle": "A relaxed, financially-independent life in one of Madison's most walkable isthmus or near-campus locations, dining out several times a week and keeping a comfortable car for regional trips and winter. A real travel-and-hobbies budget sits alongside easy access to the lakes and cultural calendar. Healthcare is the swing variable — above the ACA cliff the line trends toward unsubsidized full price, so it is intentionally padded. Genuinely comfortable, low-stress living in a mid-size college town."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Luxury lakefront estate on Lake Mendota in Maple Bluff or Bishops Bay, or a historic mansion near the Capitol",
-        "monthlyCost": 4025
+        "description": "Luxury downtown high-rise 1BR with lake or Capitol views",
+        "monthlyCost": 2600
       },
       "dining": {
-        "description": "Private chef for dinner parties, fine dining multiple nights per week, exclusive wine club events",
-        "monthlyCost": 1100
+        "description": "Near-daily dining at Madison's finest tables",
+        "monthlyCost": 850
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 620
       },
       "healthcare": {
-        "description": "Concierge medicine through UW Health, executive health screenings, premium comprehensive insurance",
-        "monthlyCost": 750
+        "description": "A premium unsubsidized plan plus concierge/direct primary care",
+        "monthlyCost": 1080
       },
       "transportation": {
-        "description": "Luxury vehicle, premium lake boat, winter SUV, premium insurance and maintenance",
-        "monthlyCost": 725
+        "description": "A luxury vehicle",
+        "monthlyCost": 650
       },
       "entertainment": {
-        "description": "Premium Badgers suite, private sailing, Overture Center patron-level membership, Door County getaways",
-        "monthlyCost": 725
+        "description": "Premium leisure, events, and travel",
+        "monthlyCost": 650
       },
       "utilities": {
-        "monthlyCost": 275
+        "monthlyCost": 340
       },
       "domesticHelp": {
-        "description": "Weekly house cleaning, landscaping, snow removal service, dock maintenance",
-        "monthlyCost": 600
+        "description": "Weekly housekeeping",
+        "monthlyCost": 340
       },
       "luxuryExtras": {
-        "description": "Door County vacation home rental, quarterly travel, university arts patronage, wine cellar curation",
-        "monthlyCost": 1100
+        "description": "Frequent travel and premium experiences",
+        "monthlyCost": 600
       },
-      "lifestyle": "A large lakefront home in Maple Bluff or Bishops Bay with views across the water, a housekeeper who comes weekly, concierge medicine through UW Health, and a nice car. You keep a boat on Lake Mendota, dine at the city's best restaurants regularly, hold premium Badgers seats, and fly business class for longer trips. Weekend getaways to Door County and north woods ski lodges are within budget. Madison is a mid-size market, so this level of spending goes far -- you live very comfortably with room for regular travel and giving."
+      "lifestyle": "A luxury downtown high-rise one-bedroom with lake or Capitol views, near-daily dining at Madison's best tables, and a luxury car for getting around. Concierge or direct-primary-care medicine sits on top of a premium unsubsidized plan, weekly housekeeping handles the home, and there is a standing budget for premium leisure and travel. Upscale living in an affordable metro, where the healthcare premium buys top-tier access."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Historic estate in Maple Bluff with private lake frontage, or a luxury compound in Shorewood Hills",
-        "monthlyCost": 4875
+        "description": "Downtown penthouse loft, or a lakefront home in Maple Bluff or Shorewood Hills",
+        "monthlyCost": 4600
       },
       "dining": {
-        "description": "Full-time personal chef, catered lakeside events, private wine dinners, exclusive culinary travel",
-        "monthlyCost": 1600
+        "description": "Private-chef dining and the region's finest restaurants",
+        "monthlyCost": 2000
       },
       "groceries": {
-        "monthlyCost": 525
+        "monthlyCost": 900
       },
       "healthcare": {
-        "description": "Top-tier concierge practice at UW Health, executive wellness, specialist access at Mayo Clinic",
-        "monthlyCost": 800
+        "description": "Concierge medicine plus a top-tier unsubsidized domestic plan",
+        "monthlyCost": 1420
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, premium lake yacht, private car service, chartered flights from MSN",
-        "monthlyCost": 850
+        "description": "Luxury vehicles and private charters",
+        "monthlyCost": 1600
       },
       "entertainment": {
-        "description": "Major university philanthropy, private suite at Camp Randall, international travel, arts foundation board",
-        "monthlyCost": 1425
+        "description": "A full social and cultural calendar with travel",
+        "monthlyCost": 1800
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 500
       },
       "domesticHelp": {
-        "description": "Full-time estate manager, housekeeper, personal assistant, grounds crew, dock and boat maintenance",
-        "monthlyCost": 2300
+        "description": "Full household help",
+        "monthlyCost": 1200
       },
       "luxuryExtras": {
-        "description": "Door County vacation property, first-class international travel, university endowment gifts, yacht club leadership",
-        "monthlyCost": 2875
+        "description": "Bespoke travel, club memberships, and luxury experiences",
+        "monthlyCost": 2000
       },
-      "lifestyle": "A large estate in Maple Bluff with private lake frontage, a cook who comes in several times a week, full-time domestic help, and top-tier concierge medicine at UW Health with Mayo Clinic access for specialists. You travel first class, keep a boat on Lake Mendota, and dine at the city's best restaurants without checking the bill. A Door County vacation property is within reach at this budget. In a city Madison's size, this spending level means daily costs are never a thought, with significant margin for university philanthropy, arts support, and ongoing savings."
+      "lifestyle": "The top of what money buys in a mid-cost Midwest college town — a downtown penthouse loft or a lakefront home in Maple Bluff or Shorewood Hills, private-chef dining, luxury vehicles with charters on demand, and full household help. Concierge medicine sits on a top-tier plan, and there is a bespoke travel-and-memberships budget on top of a full social calendar. Even here the health line is fully unsubsidized. At roughly $192k/year it is genuinely lavish."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 8,
     "infrastructure": 7,
     "expatFriendliness": 8
-  }
+  },
+  "dataRecency": "Q3 2026"
 }

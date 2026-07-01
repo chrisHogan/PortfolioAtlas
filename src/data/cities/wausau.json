@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "1BR apartment near downtown or in Weston, walking distance to the river and local shops",
-        "monthlyCost": 975
+        "description": "Basic older 1BR or nice studio downtown, on the west side, or in Weston (RentCafe low end $695–830)",
+        "monthlyCost": 780
       },
       "dining": {
-        "description": "Casual dining 2x/week at local spots like Back When Cafe or the Wausau Mine Company",
-        "monthlyCost": 200
+        "description": "Occasional cheap meals out",
+        "monthlyCost": 95
       },
       "groceries": {
-        "monthlyCost": 400
+        "monthlyCost": 335
       },
       "healthcare": {
-        "description": "ACA marketplace Silver plan; Wisconsin premiums are moderate",
-        "monthlyCost": 600
+        "description": "Subsidized ACA Silver (Wisconsin uses healthcare.gov) with income under the 2026 400%-FPL cliff (~$62,600); assumes an early retiree (45–55), older retirees should budget more. Above the cliff this climbs toward WI's full unsubsidized price. (WI did NOT take standard Medicaid expansion, so a lean retiree relies on the subsidized marketplace, not Medicaid)",
+        "monthlyCost": 460
       },
       "transportation": {
-        "description": "Paid-off car with basic insurance; car essential in central Wisconsin",
-        "monthlyCost": 275
+        "description": "An older paid-off economy car; low/min full coverage (~$110–140/mo WI), fuel, winter tires",
+        "monthlyCost": 285
       },
       "entertainment": {
-        "description": "Rib Mountain hikes, Wisconsin River walks, Leigh Yawkey Woodson Art Museum, community events",
-        "monthlyCost": 100
+        "description": "Rib Mountain / Northwoods recreation, a Granite Peak pass amortized, the Leigh Yawkey Woodson Art Museum",
+        "monthlyCost": 110
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 205
       },
-      "lifestyle": "A one-bedroom apartment near downtown or in Weston for under $900. You cook at home most nights and eat out casually a couple of times a week. Rib Mountain State Park is a short drive for hiking and the Wisconsin River trails fill weekends. Heating costs in winter are a real line item, but the overall cost base is low enough that this budget works without constant strain. A quiet, comfortable Midwest life."
+      "lifestyle": "A basic older one-bedroom or a nice studio downtown or in Weston anchors a quiet, low-cost life at rents well below a capital metro. Cooking at home is the default, a paid-off economy car with winter tires is essential in central Wisconsin, and healthcare rests on a subsidized Silver plan tied to keeping income under the ACA cliff. Rib Mountain hikes, Wisconsin River trails, and the Northwoods fill the weekends. Heating is a real winter line, but the overall base is low enough that the budget holds without constant strain."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "2BR house near Rib Mountain or in a quiet neighborhood on the west side",
-        "monthlyCost": 1500
+        "description": "A newer or nicer 1BR on the west side, in Weston, or near Rib Mountain (Apartments.com 1BR avg ~$1,033)",
+        "monthlyCost": 1000
       },
       "dining": {
-        "description": "Dining out 3-4x/week; enjoying Wausau's local restaurant scene and weekend brunch spots",
-        "monthlyCost": 425
-      },
-      "groceries": {
-        "monthlyCost": 450
-      },
-      "healthcare": {
-        "description": "ACA Gold plan with dental and vision; access to Aspirus Wausau Hospital",
-        "monthlyCost": 675
-      },
-      "transportation": {
-        "description": "Reliable AWD vehicle for winter driving, full coverage insurance, winter tires",
-        "monthlyCost": 400
-      },
-      "entertainment": {
-        "description": "Granite Peak skiing season pass, Leigh Yawkey Woodson Art Museum membership, gym, Northwoods day trips",
-        "monthlyCost": 225
-      },
-      "utilities": {
+        "description": "Dining out several times a month",
         "monthlyCost": 200
       },
-      "lifestyle": "A two-bedroom house near Rib Mountain or on the west side, dining out several times a week, a Granite Peak season pass for winter skiing, and a gym membership. A reliable AWD vehicle with winter tires is essential. The low cost base leaves a healthy monthly margin for summer trips to the Northwoods lake country or weekend drives to Madison and Minneapolis."
+      "groceries": {
+        "monthlyCost": 420
+      },
+      "healthcare": {
+        "description": "Silver at or near full price (income near but under the cliff)",
+        "monthlyCost": 540
+      },
+      "transportation": {
+        "description": "A newer used car, full coverage, some depreciation",
+        "monthlyCost": 370
+      },
+      "entertainment": {
+        "description": "A Granite Peak season pass, hobbies, streaming",
+        "monthlyCost": 180
+      },
+      "utilities": {
+        "monthlyCost": 230
+      },
+      "lifestyle": "A newer one-bedroom near Rib Mountain or in Weston, dining out several times a month, and a newer used car for the winters. A Granite Peak season pass and the Northwoods recreation calendar anchor the leisure spend, and the health line is a Silver plan at or near full price. The low cost base leaves a healthy margin for summer lake-country trips or weekend drives to Madison and Minneapolis."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "3BR home in the Rib Mountain area or a lakefront property on one of the nearby chain lakes",
-        "monthlyCost": 2100
+        "description": "A quality or larger 1BR in an amenity building near Rib Mountain or Lake Wausau (top of the local 1BR range)",
+        "monthlyCost": 1300
       },
       "dining": {
-        "description": "Regular dining at the city's best restaurants, supper club tradition, occasional trips to Madison or Minneapolis for fine dining",
-        "monthlyCost": 575
+        "description": "Regular restaurants including nicer spots and the supper-club tradition",
+        "monthlyCost": 420
       },
       "groceries": {
-        "monthlyCost": 475
+        "monthlyCost": 500
       },
       "healthcare": {
-        "description": "Premium private insurance with comprehensive coverage and low deductibles through Aspirus",
-        "monthlyCost": 675
+        "description": "A Gold plan / cliff-edge padded; the swing variable — a drawdown can push MAGI over the ~$62,600 cliff toward unsubsidized full price (WI benchmark matched to Madison)",
+        "monthlyCost": 660
       },
       "transportation": {
-        "description": "Late-model SUV for all-season driving, premium insurance, seasonal tires",
-        "monthlyCost": 450
+        "description": "A newer AWD SUV, full coverage, all-in",
+        "monthlyCost": 480
       },
       "entertainment": {
-        "description": "Granite Peak premium passes, golf memberships, Northwoods cabin weekends, Madison and Minneapolis trips",
-        "monthlyCost": 350
+        "description": "Granite Peak, travel via CWA, Northwoods cabin weekends, hobbies",
+        "monthlyCost": 370
       },
       "utilities": {
-        "monthlyCost": 225
+        "monthlyCost": 270
       },
-      "lifestyle": "A spacious three-bedroom home near Rib Mountain or a lakefront property on one of the nearby chain lakes. Regular dining at the best local restaurants and weekend supper club outings, a late-model SUV for Wisconsin winters, and premium health insurance through Aspirus. At Wausau prices, $10K a month goes very far — leaving significant room for Northwoods cabin weekends, ski trips, and regular drives to Madison or Minneapolis."
+      "lifestyle": "A relaxed, financially-independent life in a quality one-bedroom near Rib Mountain or Lake Wausau, dining out regularly with a genuine travel budget and a newer AWD SUV for the winters. Granite Peak, Northwoods cabin weekends, and drives to Madison or Minneapolis are all easily funded. Healthcare is the swing variable — the line is padded because a drawdown can push income over the ACA cliff toward unsubsidized full price. Comfortable, low-stress living in a small mountain-and-river town."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Custom home near Rib Mountain with views, or a premium lakefront property on Lake Wausau",
-        "monthlyCost": 2850
+        "description": "An upscale unit or a rented condo on Lake Wausau, the chain lakes, or a premium Rib Mountain spot (at the local luxury-apartment ceiling ~$1,500–1,700 — verified, trimmed from $2,000)",
+        "monthlyCost": 1600
       },
       "dining": {
-        "description": "Private chef for weekly dinners, regular dining out, Madison and Minneapolis food trips",
+        "description": "Frequent fine dining, with trips to Madison or Milwaukee for variety",
         "monthlyCost": 700
       },
       "groceries": {
-        "monthlyCost": 450
+        "monthlyCost": 620
       },
       "healthcare": {
-        "description": "Concierge medical practice through Aspirus, premium insurance, executive wellness",
-        "monthlyCost": 625
+        "description": "A premium unsubsidized plan plus concierge / direct-primary-care (WI benchmark matched to Madison)",
+        "monthlyCost": 1080
       },
       "transportation": {
-        "description": "Luxury SUV, second vehicle, flights from CWA to Chicago, Minneapolis, and beyond",
-        "monthlyCost": 500
+        "description": "A near-luxury AWD vehicle, full coverage, all-in",
+        "monthlyCost": 700
       },
       "entertainment": {
-        "description": "Country club membership, Northwoods cabin, skiing, Minneapolis weekends for concerts and sports",
-        "monthlyCost": 475
+        "description": "Ski trips, Northwoods lake recreation, travel, memberships",
+        "monthlyCost": 650
       },
       "utilities": {
-        "monthlyCost": 225
+        "monthlyCost": 360
       },
       "domesticHelp": {
-        "description": "Weekly deep cleaning, snow removal, lawn care, seasonal property maintenance",
-        "monthlyCost": 375
+        "description": "Biweekly housekeeping (Care.com Wausau ~$21/hr)",
+        "monthlyCost": 330
       },
       "luxuryExtras": {
-        "description": "Winter home in a warmer climate, quarterly travel, community philanthropy, Northwoods cabin",
-        "monthlyCost": 1100
+        "description": "Club / seasonal boat-slip, concierge, premium subscriptions, a travel fund",
+        "monthlyCost": 550
       },
-      "lifestyle": "A custom home near Rib Mountain with views, a housekeeper who comes weekly, and a winter rental in Arizona or Florida to escape the coldest months. A Northwoods cabin for summer weekends, regular dining out, and trips to Minneapolis for concerts and sports are all within budget. Business class flights for longer travel are comfortable. The low cost base means large monthly margins even with the snowbird setup."
+      "lifestyle": "An upscale unit or a rented condo on Lake Wausau or the chain lakes, frequent fine dining with trips to Madison and Milwaukee for variety, and a near-luxury AWD vehicle. Health coverage is a premium unsubsidized plan with concierge or direct-primary-care access, biweekly housekeeping keeps the home effortless, and a standing budget funds ski trips, lake recreation, and travel. Affluent living with easy access to genuine Northwoods amenities."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Premium lakefront estate on Lake Wausau or a sprawling custom property near Rib Mountain",
-        "monthlyCost": 3400
+        "description": "A luxury lakefront estate on Lake Wausau or the chain lakes — the Northwoods lakefront ceiling (modeled lakefront lease; no standing long-term luxury-lease market — verified point estimate ~$3,200, trimmed from $3,800, see confidence)",
+        "monthlyCost": 3200
       },
       "dining": {
-        "description": "Personal chef, exclusive catered events, private dinners, farm-to-table partnerships with local producers",
-        "monthlyCost": 975
+        "description": "Routine fine dining plus travel dining",
+        "monthlyCost": 1500
       },
       "groceries": {
-        "monthlyCost": 375
+        "monthlyCost": 900
       },
       "healthcare": {
-        "description": "Top concierge practice, executive wellness retreats, medical travel for specialists in Madison or Milwaukee",
-        "monthlyCost": 550
+        "description": "A top-tier unsubsidized domestic plan plus concierge / direct-primary-care (US-domestic, not expat; WI benchmark matched to Madison)",
+        "monthlyCost": 1420
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, private car service, chartered flights from CWA",
-        "monthlyCost": 650
+        "description": "A luxury AWD SUV plus a recreational/second vehicle, full coverage, on-demand service",
+        "monthlyCost": 1500
       },
       "entertainment": {
-        "description": "Major philanthropic involvement, international travel, private club memberships, VIP sports experiences",
-        "monthlyCost": 825
-      },
-      "utilities": {
-        "monthlyCost": 225
-      },
-      "domesticHelp": {
-        "description": "Full-time property manager, housekeeper, personal assistant, snow and grounds crew",
+        "description": "Boats, premium Granite Peak, flexible travel via CWA, Northwoods estate recreation",
         "monthlyCost": 1700
       },
+      "utilities": {
+        "monthlyCost": 600
+      },
+      "domesticHelp": {
+        "description": "Weekly-plus housekeeping including grounds, snow removal, and errand support",
+        "monthlyCost": 1300
+      },
       "luxuryExtras": {
-        "description": "Luxury winter home, Northwoods lakefront cabin, first-class international travel, art collection, foundation giving",
+        "description": "Club memberships, dock/boat, concierge, luxury goods and travel",
         "monthlyCost": 2100
       },
-      "lifestyle": "A premium lakefront estate on Lake Wausau or a large custom property near Rib Mountain, a winter home in a warmer climate, and a Northwoods cabin for summer. Full-time domestic help including a housekeeper and property manager, a cook who comes in several times a week, and concierge healthcare. First-class travel, generous community involvement, and a very comfortable, well-staffed life. At Wausau costs, this budget provides extremely large margins each month."
+      "lifestyle": "The ceiling of what money buys in the Wausau area — a luxury lakefront estate on Lake Wausau or the chain lakes, routine fine dining, and a luxury AWD vehicle with a recreational second car. Full household help handles cleaning, grounds, and snow removal, and concierge medicine sits atop a top-tier unsubsidized domestic plan. Boats, premium Granite Peak access, flexible travel via CWA, and Northwoods estate recreation round out a well-staffed life where the genuine lakefront niche rivals a far larger metro."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 6,
     "infrastructure": 5,
     "expatFriendliness": 7
-  }
+  },
+  "dataRecency": "Q3 2026"
 }

@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "1-bedroom apartment in Rogers Park, Uptown, or Pilsen — diverse neighborhoods with great food and CTA access",
-        "monthlyCost": 1975
+        "description": "Compact studio or junior 1BR in a transit-served neighborhood near an L stop (Rogers Park, Uptown, Pilsen)",
+        "monthlyCost": 1300
       },
       "dining": {
-        "description": "Maxwell Street Polish sausages, jibarito sandwiches in Humboldt Park, dim sum in Chinatown, and deep dish at Lou Malnati's on special occasions",
-        "monthlyCost": 650
+        "description": "Mostly home cooking, with an occasional cheap eat — a taqueria, a slice, a neighborhood diner",
+        "monthlyCost": 130
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 420
       },
       "healthcare": {
-        "description": "ACA marketplace bronze plan through Get Covered Illinois, community health center for routine visits",
-        "monthlyCost": 675
+        "description": "Subsidized ACA Silver via Get Covered Illinois with MAGI managed under the 2026 400%-FPL cliff (~$62,600); assumes an early retiree (45–55), older retirees should budget more. Above the cliff, premium tax credits vanish and this line climbs toward ~$1,000/mo",
+        "monthlyCost": 470
       },
       "transportation": {
-        "description": "CTA unlimited pass for the L train and buses — Chicago's transit system covers the city well",
-        "monthlyCost": 175
+        "description": "A CTA 30-day pass ($85) plus a Divvy bike membership and occasional rideshare — no car",
+        "monthlyCost": 130
       },
       "entertainment": {
-        "description": "Free days at the Art Institute and Field Museum, lakefront trail runs, neighborhood festivals, free summer concerts at Millennium Park",
-        "monthlyCost": 325
+        "description": "The gym, free lakefront and festivals, a museum or cinema now and then, streaming",
+        "monthlyCost": 140
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 230
       },
-      "lifestyle": "Chicago's lower cost of living compared to coastal cities means $3,333 a month goes further here. You can get your own one-bedroom in Rogers Park or Pilsen, ride the L to free museum days, and eat well at neighborhood taquerias and dim sum spots. The lakefront trail is free year-round. Winter heating bills are a real budget item, and the cold from December through March is no joke, but summer in Chicago is genuinely rewarding."
+      "lifestyle": "A genuinely frugal life anchored in a compact studio near an L stop, where housing plus a subsidized health premium absorb well over half the budget — the classic American squeeze. Cooking at home is the default, with a cheap meal out as a treat. The car is gone entirely: a CTA pass, a Divvy membership, and the occasional rideshare cover the city, which is exactly what keeps this line lighter than in car-dependent metros. Free lakefront, neighborhood festivals, and the gym fill the calendar."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "Spacious 1-bedroom or small 2-bedroom in Wicker Park, Logan Square, or Lakeview — trendy neighborhoods with walkable dining and nightlife",
-        "monthlyCost": 2575
+        "description": "Proper modern 1BR in a settled, walkable neighborhood (Edgewater, Lincoln Square, Logan Square, Lakeview)",
+        "monthlyCost": 1850
       },
       "dining": {
-        "description": "Regular dinners at Girl and the Goat, Lula Cafe, and neighborhood BYOB gems. Weekend brunch in Logan Square, cocktails at speakeasies",
-        "monthlyCost": 1125
-      },
-      "groceries": {
-        "monthlyCost": 675
-      },
-      "healthcare": {
-        "description": "ACA silver plan with access to Northwestern Medicine or Rush University Medical Center, dental and vision included",
-        "monthlyCost": 700
-      },
-      "transportation": {
-        "description": "CTA pass plus Divvy bike share membership, occasional Lyft for winter nights, weekend car rental for trips to Indiana Dunes",
-        "monthlyCost": 250
-      },
-      "entertainment": {
-        "description": "Second City improv shows, Cubs games at Wrigley, Art Institute membership, live blues at Kingston Mines, architecture boat tours",
-        "monthlyCost": 775
-      },
-      "utilities": {
+        "description": "Out a few times a week at solid neighborhood restaurants",
         "monthlyCost": 300
       },
-      "lifestyle": "A comfortable apartment in Wicker Park, Logan Square, or Lakeview with walkable access to restaurants and nightlife. You eat out regularly at neighborhood spots, catch Cubs games at Wrigley, and take advantage of Chicago's deep cultural offerings including improv at Second City and live blues. Summer is the payoff -- beach volleyball at North Avenue, rooftop bars, and lakefront festivals. Illinois's 4.95% flat income tax is moderate compared to coastal states."
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "Subsidized Silver, less aggressively managed, still kept under the cliff",
+        "monthlyCost": 520
+      },
+      "transportation": {
+        "description": "CTA pass plus more frequent rideshare and Divvy; still car-free",
+        "monthlyCost": 180
+      },
+      "entertainment": {
+        "description": "Concerts, a ballgame, nights out, a fuller streaming/gym stack",
+        "monthlyCost": 280
+      },
+      "utilities": {
+        "monthlyCost": 260
+      },
+      "lifestyle": "A settled, unhurried life in a proper 1BR in a leafy, walkable neighborhood. Eating out becomes routine rather than rare, and there is room for concerts, ballgames, and a real streaming-and-gym stack. Transit still does the heavy lifting, so no car payment weighs on the month. Health coverage stays subsidized, with income kept comfortably under the cliff."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Large 2-bedroom in Lincoln Park, a vintage condo in Gold Coast, or modern high-rise in the West Loop with skyline views",
-        "monthlyCost": 3000
+        "description": "Quality 1BR in a prime walkable district (Lincoln Park, West Loop, Lakeview, South Loop), often with amenities",
+        "monthlyCost": 2500
       },
       "dining": {
-        "description": "Alinea tasting menus, regular Smyth and Oriole dinners, private wine pairings, chef's table experiences at Michelin-starred kitchens across the city",
-        "monthlyCost": 1625
+        "description": "Dining out several times a week, including chef-driven neighborhood spots",
+        "monthlyCost": 550
       },
       "groceries": {
+        "monthlyCost": 560
+      },
+      "healthcare": {
+        "description": "Priced at the cliff edge and padded — a richer plan while subsidized, or Silver plus real out-of-pocket; healthcare is the swing variable because a drawdown can push MAGI over $62,600 and vaporize the credits",
         "monthlyCost": 650
       },
-      "healthcare": {
-        "description": "Premium PPO with Northwestern or University of Chicago Medicine, concierge primary care, annual executive physicals",
-        "monthlyCost": 700
-      },
       "transportation": {
-        "description": "Leased car for winter convenience and weekend escapes, CTA for daily transit, occasional ride service",
-        "monthlyCost": 475
+        "description": "Transit-primary: CTA pass, regular rideshare, occasional Metra and car-share; a car is still optional",
+        "monthlyCost": 280
       },
       "entertainment": {
-        "description": "Chicago Symphony Orchestra season tickets, Bears or Bulls premium seats, private sailing on Lake Michigan, Steppenwolf theater membership",
-        "monthlyCost": 1075
-      },
-      "utilities": {
-        "monthlyCost": 275
-      },
-      "lifestyle": "A large apartment in Lincoln Park or a vintage condo in the Gold Coast. You dine at top-tier restaurants like Alinea and Smyth regularly, hold season tickets to the Chicago Symphony, and sail on Lake Michigan in summer. At $10,000 a month, Chicago is genuinely affluent -- the city's lower cost of living compared to New York or SF means this budget buys a lifestyle that would cost significantly more on either coast."
-    },
-    "5M": {
-      "monthlyBudget": 16667,
-      "housing": {
-        "description": "Luxury penthouse in the Gold Coast or Streeterville with lake and skyline views, or a renovated Lincoln Park greystone with private garden",
-        "monthlyCost": 4300
-      },
-      "dining": {
-        "description": "Private chef for weeknight dinners, regular Alinea and Ever experiences, exclusive wine dinners, hosted dinner parties with catering from top kitchens",
-        "monthlyCost": 2075
-      },
-      "groceries": {
-        "monthlyCost": 700
-      },
-      "healthcare": {
-        "description": "Concierge medicine through Northwestern Executive Health, international travel coverage, wellness coaching, full dental and vision",
-        "monthlyCost": 800
-      },
-      "transportation": {
-        "description": "Leased luxury vehicle (BMW or Mercedes), private car service for events, weekend drives to Lake Geneva or Michigan wine country",
-        "monthlyCost": 675
-      },
-      "entertainment": {
-        "description": "Private box at United Center, patron-level memberships at the Art Institute and CSO, private yacht charter on Lake Michigan, golf at Olympia Fields",
-        "monthlyCost": 1425
+        "description": "Theater, sports tickets, hobbies, and a genuine travel budget",
+        "monthlyCost": 550
       },
       "utilities": {
         "monthlyCost": 300
       },
+      "lifestyle": "A relaxed, financially-independent life in a quality 1BR in one of Chicago's most desirable walkable districts, amenities included. Dining out several nights a week is normal, hobbies and a genuine travel budget are funded, and the city is covered by transit plus liberal rideshare, so a car remains optional. Healthcare is the swing variable: the line is padded because a drawdown can push MAGI past the $62,600 cliff and erase the premium tax credits. It is a secure, comfortable rhythm without extravagance."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury 1BR high-rise in River North, Streeterville, or the West Loop, with doorman, gym, and views",
+        "monthlyCost": 3600
+      },
+      "dining": {
+        "description": "Frequent fine dining across the city's stronger restaurant tier",
+        "monthlyCost": 1100
+      },
+      "groceries": {
+        "monthlyCost": 720
+      },
+      "healthcare": {
+        "description": "MAGI over the cliff — a fully unsubsidized Gold PPO with broad network access",
+        "monthlyCost": 1100
+      },
+      "transportation": {
+        "description": "A car enters for convenience: payment, insurance, and a downtown garage spot, alongside rideshare",
+        "monthlyCost": 650
+      },
+      "entertainment": {
+        "description": "Premium events, club and cultural memberships, more frequent travel",
+        "monthlyCost": 850
+      },
+      "utilities": {
+        "monthlyCost": 380
+      },
       "domesticHelp": {
-        "description": "Full-time housekeeper, weekly deep cleaning, snow removal and seasonal property maintenance",
-        "monthlyCost": 1225
+        "description": "A housekeeper roughly every one to two weeks",
+        "monthlyCost": 350
       },
       "luxuryExtras": {
-        "description": "Personal trainer at East Bank Club, private art advisor, premium club membership, annual summer house rental in Lake Geneva",
-        "monthlyCost": 1600
+        "description": "Upscale discretionary: premium fitness/club, wine, grooming, shopping, weekend getaways",
+        "monthlyCost": 650
       },
-      "lifestyle": "A luxury penthouse in the Gold Coast with lake views, or a renovated Lincoln Park greystone with a private garden. You have a housekeeper, dine at the city's best restaurants without hesitation, and drive a luxury car for weekend trips to Lake Geneva or Michigan wine country. Business class flights for longer travel fit easily within the budget. At $16,667 a month, Chicago delivers an upper-affluent lifestyle that would cost far more in New York or San Francisco."
+      "lifestyle": "An upscale life in a doorman high-rise 1BR in River North, Streeterville, or the West Loop, with skyline views and a gym downstairs. Fine dining is frequent, a car finally makes sense for convenience despite Chicago's steep downtown parking, and a housekeeper visits every week or two. Health coverage is now fully unsubsidized — a Gold PPO with a broad network — and discretionary spend covers clubs, wine, shopping, and regular getaways. The city's best is routinely within reach."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Trophy residence on Lake Shore Drive with floor-to-ceiling lake views, or a historic Gold Coast mansion with carriage house and private garden",
-        "monthlyCost": 5700
+        "description": "Prime-district luxury 2BR or penthouse in the Gold Coast, Streeterville, or Lincoln Park — top of the rental market, private-elevator/large-deck tier",
+        "monthlyCost": 6500
       },
       "dining": {
-        "description": "Full-time private chef with Michelin training, curated wine cellar rivaling top restaurants, exclusive supper clubs, charity dinner hosting for 100",
-        "monthlyCost": 3000
+        "description": "Near-daily dining at the city's best tables, tasting menus included",
+        "monthlyCost": 2400
       },
       "groceries": {
-        "monthlyCost": 725
+        "monthlyCost": 950
       },
       "healthcare": {
-        "description": "Elite concierge medical team, longevity and anti-aging programs, fly-anywhere specialist access, private wellness retreats",
-        "monthlyCost": 875
+        "description": "A top-tier unsubsidized domestic plan (Gold/Platinum PPO) plus concierge/direct-primary-care — a US-domestic build, not an international expat plan",
+        "monthlyCost": 1400
       },
       "transportation": {
-        "description": "Chauffeured luxury vehicle, NetJets fractional share for coast-to-coast travel, luxury car collection in the carriage house",
-        "monthlyCost": 1875
+        "description": "A premium car with reserved downtown parking, plus frequent rideshare and black-car service",
+        "monthlyCost": 1600
       },
       "entertainment": {
-        "description": "Board seats at the Art Institute and Lyric Opera, philanthropic galas, private art collection, courtside Bulls seats, wine estate in Michigan",
-        "monthlyCost": 2525
+        "description": "Season tickets, marquee experiences, and extensive travel",
+        "monthlyCost": 1900
       },
       "utilities": {
-        "monthlyCost": 325
+        "monthlyCost": 520
       },
       "domesticHelp": {
-        "description": "Full household staff: estate manager, private chef, housekeeper, personal assistant, driver, and seasonal groundskeeper",
-        "monthlyCost": 3200
+        "description": "A weekly-plus housekeeper with occasional personal-assistant/errand support",
+        "monthlyCost": 1300
       },
       "luxuryExtras": {
-        "description": "Interior designer on retainer, bespoke tailoring, charitable foundation management, private art curator, Lake Geneva estate maintenance",
-        "monthlyCost": 2825
+        "description": "Luxury discretionary: premium travel, personal shopping, club memberships, a wine budget, a concierge lifestyle",
+        "monthlyCost": 2100
       },
-      "lifestyle": "A large home on Lake Shore Drive or a historic Gold Coast mansion. You have a full-time housekeeper, a cook who comes in regularly, and a personal assistant. You dine anywhere you want, travel business or first class, and support the Art Institute and Lyric Opera as a major donor. A second home in Lake Geneva or on the Michigan lakefront is feasible. Chicago's relative affordability means this budget goes very far -- you live like established wealth in a world-class city."
+      "lifestyle": "The top of what this budget buys in Chicago: a prime-district penthouse or luxury 2BR in the Gold Coast, Streeterville, or Lincoln Park, private-elevator tier with lake and skyline views. The best restaurants are near-daily, a premium car sits in a reserved downtown space, and full domestic help plus a concierge lifestyle handle the logistics. Healthcare is an unsubsidized top-tier domestic plan layered with concierge/direct-primary-care — no expat plan is needed on US soil. At roughly $224k/year it is unambiguously lavish."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 9,
     "infrastructure": 8,
     "expatFriendliness": 9
-  }
+  },
+  "dataRecency": "Q3 2026"
 }
