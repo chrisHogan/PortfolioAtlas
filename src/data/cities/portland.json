@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "1BR apartment in outer SE Portland, Beaverton, or Milwaukie",
-        "monthlyCost": 2075
+        "description": "A studio in an outer neighborhood like outer SE Portland, Beaverton, or Gresham — the metro's lowest-rent band",
+        "monthlyCost": 1150
       },
       "dining": {
-        "description": "Food carts 2-3x/week and occasional brewery visits; mostly cooking at home",
-        "monthlyCost": 350
+        "description": "Mostly home-cooked, with occasional food-cart meals and brewery happy hours",
+        "monthlyCost": 225
       },
       "groceries": {
-        "monthlyCost": 550
+        "monthlyCost": 325
       },
       "healthcare": {
-        "description": "Oregon Health Plan or ACA Silver plan; Oregon's marketplace is competitive",
-        "monthlyCost": 700
+        "description": "Subsidized individual marketplace Silver at the sticky floor. Assumes an early retiree (45–55); older retirees budget more.",
+        "monthlyCost": 480
       },
       "transportation": {
-        "description": "TriMet monthly pass plus occasional bike commuting; no car needed in many areas",
-        "monthlyCost": 275
+        "description": "Car-light — a fare-capped TriMet pass in a highly bikeable city",
+        "monthlyCost": 105
       },
       "entertainment": {
-        "description": "Free hiking at Forest Park, Powell's bookstore browsing, brewery happy hours",
-        "monthlyCost": 150
+        "description": "Forest Park, the Willamette trails, and free city recreation",
+        "monthlyCost": 120
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 160
       },
-      "lifestyle": "You live in an outer neighborhood like Beaverton or Milwaukie and rely on TriMet for transit, which keeps car costs off the budget. Cooking at home is the norm, with food cart meals a few times a week as an affordable treat. Forest Park and the Willamette River trails provide free recreation, and Portland's lack of sales tax helps on everyday purchases. Oregon's state income tax is a real headwind at any tier."
+      "lifestyle": "A careful but comfortable Pacific Northwest life. Housing is a studio in an outer neighborhood like outer SE Portland, Beaverton, or Gresham — the metro's lowest-rent band. Portland's genuinely usable transit (a fare-capped TriMet pass) and bike infrastructure keep a car off the budget entirely. Cooking at home is the norm, with food-cart meals and brewery happy hours as affordable outings, and Forest Park and the Willamette trails supply free recreation. No sales tax helps on everyday purchases, though Oregon's income tax is a headwind at any level."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "Nice 2BR apartment in Hawthorne, Alberta, or inner SE Portland",
-        "monthlyCost": 2725
+        "description": "A close-in one-bedroom in Hawthorne or Alberta",
+        "monthlyCost": 1600
       },
       "dining": {
-        "description": "Dining out 3-4x/week at Portland's famous restaurants and food halls",
-        "monthlyCost": 700
+        "description": "Dining out several times a week across the city's food scene",
+        "monthlyCost": 380
       },
       "groceries": {
-        "monthlyCost": 650
+        "monthlyCost": 390
       },
       "healthcare": {
-        "description": "ACA Gold plan with dental and vision; good provider networks in Portland",
-        "monthlyCost": 775
+        "description": "A subsidized individual plan a step above the entry floor",
+        "monthlyCost": 590
       },
       "transportation": {
-        "description": "Reliable car plus TriMet pass; Portland is very bikeable in dry months",
-        "monthlyCost": 450
+        "description": "A car for Mt. Hood and coast trips, plus transit",
+        "monthlyCost": 360
       },
       "entertainment": {
-        "description": "Gym membership, ski pass for Mt. Hood, concert tickets, brewery tours",
-        "monthlyCost": 375
+        "description": "A ski pass, live music, and city culture",
+        "monthlyCost": 280
       },
       "utilities": {
-        "monthlyCost": 225
+        "monthlyCost": 200
       },
-      "lifestyle": "You can rent a nice apartment in Hawthorne or Alberta and eat out several times a week at the restaurants that put Portland on the food map. A car makes weekend trips to Mt. Hood or the Oregon Coast easy, and a ski pass fits the budget. The city's walkability and bike infrastructure keep daily life pleasant, though Oregon's income tax takes a noticeable bite."
+      "lifestyle": "A close-in one-bedroom in Hawthorne or Alberta, dining out several times a week, a car for Mt. Hood and coast trips, and a ski pass. Comfortable, walkable Portland living."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "3BR house in Sellwood, Laurelhurst, or a Pearl District loft",
-        "monthlyCost": 3525
+        "description": "A one-bedroom in a walkable inner neighborhood like Hawthorne, Alberta, or Sellwood",
+        "monthlyCost": 1950
       },
       "dining": {
-        "description": "Regular dining at top Portland restaurants like Canard, Langbaan; daily coffee ritual",
-        "monthlyCost": 925
+        "description": "Dining out regularly across Portland's dense food scene",
+        "monthlyCost": 500
+      },
+      "groceries": {
+        "monthlyCost": 440
+      },
+      "healthcare": {
+        "description": "An individual Silver plan near the 400%-FPL cliff, where subsidy thins toward full price",
+        "monthlyCost": 680
+      },
+      "transportation": {
+        "description": "A Subaru or EV plus transit, with full-coverage insurance",
+        "monthlyCost": 430
+      },
+      "entertainment": {
+        "description": "A season ski pass and weekend trips to Mt. Hood or the coast",
+        "monthlyCost": 440
+      },
+      "utilities": {
+        "monthlyCost": 235
+      },
+      "lifestyle": "A relaxed, livable-city life in a one-bedroom in a walkable inner neighborhood like Hawthorne, Alberta, or Sellwood. Dining out regularly across Portland's dense food scene, a Subaru or EV for weekend trips to Mt. Hood or the coast, and a season ski pass all fit comfortably, alongside a solid private health plan through the OHSU network. This is one of the most livable tiers in the Pacific Northwest — comfortable and unhurried, with the mountains, coast, and wine country all an easy drive away."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "A luxury Pearl District or West Hills home",
+        "monthlyCost": 2900
+      },
+      "dining": {
+        "description": "Frequent fine dining across the city's chef-driven venues",
+        "monthlyCost": 1050
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "A premium plan with concierge-adjacent access",
+        "monthlyCost": 850
+      },
+      "transportation": {
+        "description": "A premium EV with full coverage",
+        "monthlyCost": 650
+      },
+      "entertainment": {
+        "description": "A standing travel budget and city culture",
+        "monthlyCost": 950
+      },
+      "utilities": {
+        "monthlyCost": 300
+      },
+      "domesticHelp": {
+        "description": "Biweekly housekeeping",
+        "monthlyCost": 450
+      },
+      "luxuryExtras": {
+        "description": "A standing travel budget and premium experiences",
+        "monthlyCost": 1150
+      },
+      "lifestyle": "A luxury Pearl District or West Hills home, frequent fine dining, biweekly housekeeping, and a premium EV. Upscale Pacific Northwest living with concierge healthcare and a standing travel budget."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "A luxury West Hills or Pearl District 2BR with forest or city views",
+        "monthlyCost": 4800
+      },
+      "dining": {
+        "description": "Near-daily fine dining across the city's chef-driven venues",
+        "monthlyCost": 1800
       },
       "groceries": {
         "monthlyCost": 650
       },
       "healthcare": {
-        "description": "Premium private insurance with OHSU network access and comprehensive coverage",
-        "monthlyCost": 775
+        "description": "A top-tier plan plus OHSU concierge/direct primary care, purchased in-market",
+        "monthlyCost": 1300
       },
       "transportation": {
-        "description": "Late-model Subaru or EV, full coverage insurance, occasional rideshare",
-        "monthlyCost": 500
-      },
-      "entertainment": {
-        "description": "Timbers season tickets, Mt. Hood ski pass, premium gym, wine country weekends",
-        "monthlyCost": 550
-      },
-      "utilities": {
-        "monthlyCost": 275
-      },
-      "lifestyle": "You can rent a house in Sellwood or Laurelhurst, or a loft in the Pearl District, and dine regularly at Portland's top restaurants. A Mt. Hood ski pass, Timbers season tickets, and weekend trips to wine country or the coast all fit comfortably. Good private insurance through OHSU rounds out a genuinely comfortable life in one of the most livable cities in the Pacific Northwest."
-    },
-    "5M": {
-      "monthlyBudget": 16667,
-      "housing": {
-        "description": "Luxury home in the West Hills, Lake Oswego, or a premium Pearl District penthouse",
-        "monthlyCost": 4775
-      },
-      "dining": {
-        "description": "Fine dining multiple times per week, private chef for special occasions",
-        "monthlyCost": 1325
-      },
-      "groceries": {
-        "monthlyCost": 750
-      },
-      "healthcare": {
-        "description": "Concierge medicine through OHSU; executive wellness and preventive programs",
-        "monthlyCost": 900
-      },
-      "transportation": {
-        "description": "Luxury EV (Tesla, Rivian), premium insurance, detailing service",
-        "monthlyCost": 700
-      },
-      "entertainment": {
-        "description": "VIP Timbers and Trail Blazers tickets, private ski lodge, wine club memberships",
+        "description": "A premium vehicle with full coverage",
         "monthlyCost": 950
       },
-      "utilities": {
-        "monthlyCost": 325
-      },
-      "domesticHelp": {
-        "description": "Bi-weekly deep cleaning, landscaping, occasional personal assistant",
-        "monthlyCost": 750
-      },
-      "luxuryExtras": {
-        "description": "Quarterly travel, Willamette Valley wine investments, spa retreats, charitable giving",
-        "monthlyCost": 1325
-      },
-      "lifestyle": "A large home in the West Hills or Lake Oswego with forest views, regular dining at Portland's best restaurants, and a housekeeper who comes weekly. You can afford concierge medicine at OHSU, a nice car, and business class flights for longer trips. Willamette Valley wine country is an easy weekend drive, and Trail Blazers or Timbers games are regular outings."
-    },
-    "10M": {
-      "monthlyBudget": 33333,
-      "housing": {
-        "description": "Estate property in Dunthorpe, waterfront home on the Willamette, or West Hills compound",
-        "monthlyCost": 6475
-      },
-      "dining": {
-        "description": "Personal chef, private wine dinners, catered events featuring local ingredients",
-        "monthlyCost": 1800
-      },
-      "groceries": {
-        "monthlyCost": 700
-      },
-      "healthcare": {
-        "description": "Top-tier concierge practice at OHSU, executive health screenings, holistic wellness",
-        "monthlyCost": 975
-      },
-      "transportation": {
-        "description": "Multiple luxury vehicles, private car service, classic car collection",
-        "monthlyCost": 975
-      },
       "entertainment": {
-        "description": "Private box at Moda Center, art collecting, philanthropic galas, international travel",
-        "monthlyCost": 1625
+        "description": "First-class travel and a private box at Moda Center",
+        "monthlyCost": 1600
       },
       "utilities": {
-        "monthlyCost": 325
+        "monthlyCost": 340
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper, personal assistant, estate groundskeeper, property manager",
+        "description": "Full household help",
         "monthlyCost": 2600
       },
       "luxuryExtras": {
-        "description": "First-class international travel, vineyard ownership, charitable foundation, angel investing",
-        "monthlyCost": 3225
+        "description": "First-class travel and premium experiences",
+        "monthlyCost": 3300
       },
-      "lifestyle": "Premium housing in Dunthorpe or the West Hills, regular fine dining, a cook who comes several times a week, and a housekeeper. First class travel, full concierge healthcare at OHSU, and a private box at Moda Center for Trail Blazers games. Portland's proximity to the coast, Mt. Hood, and wine country means varied weekend getaways without planning. Oregon's income tax is a real cost at this level, but the quality of life is high."
+      "lifestyle": "The top of Portland living, anchored by a luxury West Hills or Pearl District 2-bedroom with forest or city views. Near-daily fine dining across the city's chef-driven venues, a premium vehicle, full household help, and OHSU concierge medicine define the day-to-day, with first-class travel and a private box at Moda Center on the calendar. The coast, Mt. Hood, and Willamette Valley wine country mean varied getaways without planning. Oregon's income tax is real at this level, but the quality of life is high."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 8,
     "infrastructure": 7,
     "expatFriendliness": 8
-  }
+  },
+  "dataRecency": "Q3 2026"
 }

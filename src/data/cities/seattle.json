@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "Studio or small 1-bedroom apartment in Northgate, Beacon Hill, or Rainier Valley — functional but far from the trendy core",
-        "monthlyCost": 2450
+        "description": "A modest studio in a residential neighborhood like Beacon Hill, Columbia City, or Northgate, priced around the citywide studio average and outside the pricey downtown core",
+        "monthlyCost": 1600
       },
       "dining": {
-        "description": "Pho and teriyaki spots in the International District, coffee at indie roasters, occasional happy hour at a neighborhood pub",
-        "monthlyCost": 650
+        "description": "Home cooking plus pho and teriyaki in the International District and indie-roaster coffee",
+        "monthlyCost": 185
       },
       "groceries": {
-        "monthlyCost": 650
+        "monthlyCost": 390
       },
       "healthcare": {
-        "description": "ACA marketplace bronze plan with moderate deductible, community health center visits",
-        "monthlyCost": 725
+        "description": "Subsidized Washington Healthplanfinder individual plan under the cliff. Assumes an early retiree (45–55); older retirees budget more.",
+        "monthlyCost": 505
       },
       "transportation": {
-        "description": "ORCA card for Link Light Rail and Metro buses covering the greater Seattle area",
-        "monthlyCost": 150
+        "description": "Car-light — an ORCA pass covering Link light rail and Metro buses, plus occasional rideshare",
+        "monthlyCost": 140
       },
       "entertainment": {
-        "description": "Free First Thursday art walks, hiking in Discovery Park and Carkeek Park, library events, free summer concerts",
-        "monthlyCost": 325
+        "description": "Free recreation — Discovery Park, Pike Place, and the waterfront",
+        "monthlyCost": 115
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 160
       },
-      "lifestyle": "A small apartment in Northgate or Beacon Hill, away from the expensive urban core. You ride the light rail to Pike Place for groceries, hike Discovery Park on weekends, and eat at affordable pho and teriyaki spots in the International District. Washington's zero state income tax is a meaningful advantage on a tight budget. The rain is persistent from October through May, but the natural scenery is genuinely stunning and mostly free to enjoy."
+      "lifestyle": "A careful but comfortable Pacific Northwest life. Housing is a modest studio in a residential neighborhood like Beacon Hill, Columbia City, or Northgate, priced around the citywide studio average and outside the pricey downtown core. Seattle's genuinely usable transit — an ORCA pass covering Link light rail and Metro buses — keeps a car off the budget entirely, the biggest lean-budget advantage the city offers. Cooking at home is the norm, with pho and teriyaki in the International District and indie-roaster coffee as affordable outings, while Discovery Park, Pike Place, and the waterfront supply free recreation. Washington's zero state income tax stretches every dollar; the persistent October-to-May drizzle is the main trade-off."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "Modern 1-bedroom apartment in Capitol Hill, Fremont, or Ballard with in-unit laundry and mountain or water glimpses",
-        "monthlyCost": 2950
+        "description": "A modern one-bedroom in Capitol Hill, Fremont, or Ballard",
+        "monthlyCost": 1850
       },
       "dining": {
-        "description": "Regular meals at Ballard's seafood restaurants, weekend brunch in Capitol Hill, wine bars in Wallingford",
-        "monthlyCost": 1125
+        "description": "Dining out several times a week across the city's seafood and coffee scene",
+        "monthlyCost": 360
       },
       "groceries": {
-        "monthlyCost": 700
+        "monthlyCost": 460
       },
       "healthcare": {
-        "description": "ACA silver plan with lower deductible, access to UW Medicine or Swedish specialists, dental and vision included",
-        "monthlyCost": 775
+        "description": "A subsidized individual plan a step above the entry floor",
+        "monthlyCost": 640
       },
       "transportation": {
-        "description": "ORCA pass plus occasional Lyft rides and weekend car rental for mountain trips to Rainier or the San Juans",
-        "monthlyCost": 350
+        "description": "An ORCA pass plus weekend car rentals for Rainier and the San Juans",
+        "monthlyCost": 370
       },
       "entertainment": {
-        "description": "Seattle Symphony season tickets, kayaking on Lake Union, ski days at Snoqualmie, membership at the Seattle Art Museum",
-        "monthlyCost": 850
+        "description": "Seattle Symphony nights and city culture",
+        "monthlyCost": 260
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 200
       },
-      "lifestyle": "A one-bedroom apartment in Capitol Hill, Fremont, or Ballard -- walkable neighborhoods with good restaurants and coffee shops. You eat out several times a week, kayak on Lake Union in summer, and rent a car for weekend trips to Mount Rainier or the San Juans. No state income tax means the full $6,667 budget goes toward living expenses. Seattle's food scene and outdoor access are both strong at this price point."
+      "lifestyle": "A modern one-bedroom in Capitol Hill, Fremont, or Ballard, dining out several times a week, an ORCA pass plus weekend car rentals for Rainier and the San Juans, and Seattle Symphony nights. Comfortable, walkable city living."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Spacious 2-bedroom condo in Queen Anne, South Lake Union, or waterfront Ballard with skyline and Puget Sound views",
-        "monthlyCost": 3500
+        "description": "A modern one-bedroom in a walkable neighborhood like Capitol Hill, Ballard, Fremont, or Queen Anne",
+        "monthlyCost": 2250
       },
       "dining": {
-        "description": "Canlis-level tasting menus, omakase at Shiro's, wine dinners at Walla Walla-connected restaurants, occasional catered dinner parties",
-        "monthlyCost": 1550
+        "description": "Dining out regularly across Seattle's strong seafood and coffee scene",
+        "monthlyCost": 520
       },
       "groceries": {
-        "monthlyCost": 725
+        "monthlyCost": 530
       },
       "healthcare": {
-        "description": "Premium PPO plan with broad network, concierge primary care, comprehensive dental, annual executive physicals at Virginia Mason",
-        "monthlyCost": 775
+        "description": "An individual plan nearer the cliff, at a richer metal tier",
+        "monthlyCost": 740
       },
       "transportation": {
-        "description": "Leased hybrid SUV for mountain access plus ORCA pass for city transit, occasional float plane to the San Juans",
-        "monthlyCost": 600
+        "description": "A hybrid SUV for mountain access plus an ORCA pass",
+        "monthlyCost": 470
       },
       "entertainment": {
-        "description": "Seahawks season tickets, ski pass at Crystal Mountain, sailing lessons on Puget Sound, regular theater at ACT and the 5th Avenue",
-        "monthlyCost": 1100
+        "description": "A Crystal Mountain ski pass and weekend access to Mount Rainier and the San Juans",
+        "monthlyCost": 400
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 235
       },
-      "lifestyle": "A spacious condo in Queen Anne or waterfront Ballard with views of Puget Sound and the mountains. You dine regularly at restaurants like Canlis, hold a ski pass at Crystal Mountain, and sail on the Sound in summer. At $10,000 a month with no state income tax, Seattle is comfortably affluent. The combination of urban dining and culture with immediate access to mountains, water, and islands is the core appeal."
+      "lifestyle": "A comfortably affluent city life in a modern one-bedroom in a walkable neighborhood like Capitol Hill, Ballard, Fremont, or Queen Anne. Dining out regularly across Seattle's strong seafood and coffee scene, a hybrid SUV for weekend access to Mount Rainier and the San Juans, and a ski pass at Crystal Mountain all fit easily, alongside a solid private health plan through UW Medicine or Swedish. With no state income tax, the combination of urban dining and culture with immediate mountains, water, and islands is the core appeal — and it comes without financial strain."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Luxury waterfront condo in downtown or a renovated Craftsman in Magnolia or Madison Park with Cascade Range panoramas",
-        "monthlyCost": 4900
+        "description": "A luxury downtown or waterfront home with mountain or water views",
+        "monthlyCost": 4200
       },
       "dining": {
-        "description": "Private chef twice weekly, curated wine club memberships, regular Canlis and Bateau dinners, hosted crab feasts on the deck",
-        "monthlyCost": 2150
+        "description": "Frequent fine dining across the city",
+        "monthlyCost": 950
       },
       "groceries": {
-        "monthlyCost": 775
+        "monthlyCost": 640
       },
       "healthcare": {
-        "description": "Platinum concierge medicine through One Medical or Forward, international travel coverage, wellness coaching, full dental and vision",
-        "monthlyCost": 875
+        "description": "A premium plan with concierge-adjacent access",
+        "monthlyCost": 1000
       },
       "transportation": {
-        "description": "Leased luxury SUV (Range Rover or similar), harbor seaplane commuter pass, occasional private boat charters",
-        "monthlyCost": 875
+        "description": "A luxury SUV for mountain trips with premium insurance",
+        "monthlyCost": 720
       },
       "entertainment": {
-        "description": "Broadmoor Golf Club membership, private box at Climate Pledge Arena, heli-skiing in the Cascades, patron-level museum memberships",
-        "monthlyCost": 1475
+        "description": "A standing travel budget and city culture",
+        "monthlyCost": 800
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 310
       },
       "domesticHelp": {
-        "description": "Weekly housekeeper, biweekly deep cleaning, gardener for the property, seasonal window washing",
-        "monthlyCost": 1375
+        "description": "Weekly housekeeping",
+        "monthlyCost": 380
       },
       "luxuryExtras": {
-        "description": "Personal trainer at Equinox, private sailing instructor, premium co-working at WeWork, annual gear refresh for skiing and hiking",
-        "monthlyCost": 1575
+        "description": "A standing travel budget and premium experiences",
+        "monthlyCost": 750
       },
-      "lifestyle": "A large home in Madison Park or Magnolia with views of Lake Washington or the Cascades. You have a housekeeper, drive a luxury SUV for mountain trips, and dine at the city's best restaurants regularly. Business class flights are comfortable at this budget, and weekend trips to the San Juan Islands or ski resorts are routine. No state income tax means the full $16,667 goes toward an upper-affluent lifestyle with both urban and outdoor dimensions."
+      "lifestyle": "A luxury downtown or waterfront home with mountain or water views, frequent fine dining, weekly housekeeping, and a luxury SUV for mountain trips. Upper-affluent Pacific Northwest living with concierge healthcare and a standing travel budget."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Waterfront estate on Lake Washington or Mercer Island with private dock, or a penthouse in the Four Seasons Private Residences downtown",
-        "monthlyCost": 6875
+        "description": "A luxury waterfront or downtown high-rise residence with Puget Sound or Cascade views",
+        "monthlyCost": 5800
       },
       "dining": {
-        "description": "Full-time private chef, curated cellar of Washington and Burgundy wines, exclusive supper clubs, flying in Copper River salmon and Kumamoto oysters",
-        "monthlyCost": 2750
+        "description": "A private chef several nights a week and the city's finest tables",
+        "monthlyCost": 2200
       },
       "groceries": {
-        "monthlyCost": 825
+        "monthlyCost": 780
       },
       "healthcare": {
-        "description": "Elite concierge medical team, longevity clinic membership, fly-anywhere specialist access, cutting-edge wellness protocols",
-        "monthlyCost": 1025
+        "description": "A top-tier plan plus elite concierge medicine, purchased in-market",
+        "monthlyCost": 1450
       },
       "transportation": {
-        "description": "Chauffeured luxury vehicle, NetJets fractional share for West Coast hops, private yacht moored at Shilshole Bay Marina",
-        "monthlyCost": 2075
+        "description": "A luxury vehicle with car service",
+        "monthlyCost": 1300
       },
       "entertainment": {
-        "description": "Part owner of a winery in Walla Walla, philanthropic board seats, private island retreat in the San Juans, patron of Seattle Opera and Pacific Northwest Ballet",
-        "monthlyCost": 2750
+        "description": "First-class travel and patron-level involvement in the Seattle Opera and symphony",
+        "monthlyCost": 1900
       },
       "utilities": {
-        "monthlyCost": 350
+        "monthlyCost": 430
       },
       "domesticHelp": {
-        "description": "Full household staff: estate manager, housekeeper, private chef, gardener, and personal assistant",
-        "monthlyCost": 3100
+        "description": "Full household help",
+        "monthlyCost": 2600
       },
       "luxuryExtras": {
-        "description": "Winery partnership in Woodinville, bespoke outdoor gear collection, interior designer on retainer, private art advisor, charitable foundation management",
-        "monthlyCost": 3200
+        "description": "First-class travel and premium experiences",
+        "monthlyCost": 3700
       },
-      "lifestyle": "A waterfront estate on Lake Washington or Mercer Island with a private dock, or a premium downtown penthouse. You have a full-time housekeeper, a cook who comes in several times a week, and a personal assistant. You dine wherever you want, travel first class, and support the Seattle Opera and Pacific Northwest Ballet as a donor. No state income tax means the full $33,333 monthly budget is available. A second property in the San Juan Islands or a Walla Walla wine club membership round out a comfortable, nature-oriented wealthy lifestyle."
+      "lifestyle": "The top of Seattle living, anchored by a luxury waterfront or downtown high-rise residence with Puget Sound or Cascade views. A private chef several nights a week, a luxury vehicle with car service, full household help, and elite concierge medicine are routine, alongside first-class travel and patron-level involvement in the Seattle Opera and the symphony. Weekend escapes to the San Juans or the Cascades need no planning, and Washington's zero income tax leaves the full budget intact. Established, nature-oriented wealth in one of the country's most scenic cities."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 9,
     "infrastructure": 8,
     "expatFriendliness": 9
-  }
+  },
+  "dataRecency": "Q3 2026"
 }

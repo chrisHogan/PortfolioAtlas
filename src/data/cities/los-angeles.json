@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "Small 1-bedroom apartment in Koreatown, East Hollywood, or the San Fernando Valley — livable but far from the beach",
-        "monthlyCost": 2750
+        "description": "The cheapest habitable studio in Koreatown, East Hollywood, or the San Fernando Valley, well inland from the beach",
+        "monthlyCost": 1750
       },
       "dining": {
-        "description": "Incredible taco trucks, Korean BBQ in K-Town, Thai Town noodle spots, and pho in the SGV — LA's cheap eats rival any city on earth",
-        "monthlyCost": 750
+        "description": "Home cooking plus LA's cheap eats — taco trucks, K-Town counters, and San Gabriel Valley noodle houses",
+        "monthlyCost": 225
       },
       "groceries": {
-        "monthlyCost": 750
+        "monthlyCost": 400
       },
       "healthcare": {
-        "description": "Covered California bronze plan, community clinic visits for routine care",
-        "monthlyCost": 775
+        "description": "Subsidized Covered California individual plan under the ~400%-FPL cliff (a modest CA state subsidy assists); a sticky floor. Assumes an early retiree (45–55); older retirees budget more.",
+        "monthlyCost": 500
       },
       "transportation": {
-        "description": "Older reliable car with insurance and gas — a car is essentially mandatory in LA. Metro for occasional trips",
-        "monthlyCost": 650
+        "description": "A paid-off used car with CA insurance and gas — essentially mandatory in a city built for driving",
+        "monthlyCost": 525
       },
       "entertainment": {
-        "description": "Free beach days in Malibu and Venice, hiking Runyon Canyon and Griffith Park, free museum days at the Getty and Broad",
-        "monthlyCost": 275
+        "description": "The free city — Runyon Canyon, Griffith Park, and beach days in Venice and Santa Monica",
+        "monthlyCost": 175
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 225
       },
-      "lifestyle": "A modest apartment in Koreatown or the Valley, well away from the beach. You need a car, which eats into an already tight budget, and California's high state income tax reduces your effective spending power. The tradeoff is year-round sunshine, excellent cheap ethnic food, and free access to beaches and hiking trails. You cook most meals at home and keep entertainment costs low by taking advantage of the outdoors."
+      "lifestyle": "A modest but real Los Angeles life. Housing is the cheapest habitable studio in Koreatown, East Hollywood, or the San Fernando Valley, well inland from the beach. A paid-off used car is non-negotiable in a city built for driving, and it — plus a subsidized marketplace health plan — anchors the budget. Meals lean on cooking at home and LA's unbeatable cheap eats: taco trucks, K-Town counters, and San Gabriel Valley noodle houses. Entertainment is the free city: Runyon Canyon, Griffith Park, and beach days in Venice and Santa Monica. Careful, but sunny and genuinely livable."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "Nice 1-bedroom in Silver Lake, Mar Vista, or a studio in Santa Monica — walkable neighborhoods with personality and some coastal proximity",
-        "monthlyCost": 3475
+        "description": "A nice one-bedroom in Silver Lake or Mar Vista with some coastal proximity",
+        "monthlyCost": 2400
       },
       "dining": {
-        "description": "Brunch at Sqirl, dinners at neighborhood favorites in Silver Lake and Echo Park, regular sushi, farmers market meals on weekends",
-        "monthlyCost": 1275
+        "description": "Dining out several times a week across the city's mid-range restaurants",
+        "monthlyCost": 475
       },
       "groceries": {
-        "monthlyCost": 875
+        "monthlyCost": 450
       },
       "healthcare": {
-        "description": "Covered California silver plan with access to Cedars-Sinai or UCLA Health network, dental and vision included",
-        "monthlyCost": 825
+        "description": "A subsidized individual plan a step above the entry floor",
+        "monthlyCost": 575
       },
       "transportation": {
-        "description": "Reliable car with insurance, gas, and parking. Occasional Lyft for nights out, e-bike for neighborhood errands",
-        "monthlyCost": 725
+        "description": "A reliable car with full-coverage insurance and gas",
+        "monthlyCost": 625
       },
       "entertainment": {
-        "description": "Surf lessons in Malibu, Hollywood Bowl season under the stars, LACMA membership, comedy at the Laugh Factory, Dodgers games",
-        "monthlyCost": 875
+        "description": "Hollywood Bowl summer nights, hikes, and beach outings",
+        "monthlyCost": 425
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 275
       },
-      "lifestyle": "A nice one-bedroom in Silver Lake or Mar Vista, with some coastal proximity. You eat out several times a week at good mid-range restaurants, visit the farmers market on weekends, and catch shows at the Hollywood Bowl in summer. A reliable car with insurance is a fixed cost. California income tax takes a noticeable bite, but you live well, with regular beach days and enough budget for occasional trips up the coast."
+      "lifestyle": "A nice one-bedroom in Silver Lake or Mar Vista with some coastal proximity, dining out several times a week, a reliable car, and Hollywood Bowl summer nights. Comfortable Los Angeles living with the car as a fixed cost."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Spacious 2-bedroom in West Hollywood, a bungalow in Venice, or a modern apartment in Santa Monica with ocean breezes",
-        "monthlyCost": 4300
+        "description": "A well-located one-bedroom in Silver Lake, Mar Vista, or a similar neighborhood with real personality and coastal proximity",
+        "monthlyCost": 3100
       },
       "dining": {
-        "description": "Regular dinners at Bestia, Gjelina, and Providence. Omakase at Sushi Ginza Onodera, wine tastings in Malibu Canyon vineyards",
-        "monthlyCost": 1725
+        "description": "Dining out regularly at the city's mid-range restaurants",
+        "monthlyCost": 725
       },
       "groceries": {
-        "monthlyCost": 875
+        "monthlyCost": 500
       },
       "healthcare": {
-        "description": "Premium PPO with Cedars-Sinai or UCLA Health, concierge primary care, annual executive physical, full dental",
-        "monthlyCost": 875
+        "description": "A mid-tier Silver individual plan (partial or no subsidy) at the early-retiree band",
+        "monthlyCost": 675
       },
       "transportation": {
-        "description": "Leased mid-range car (Tesla Model 3 or similar), premium insurance, weekend road trips up the PCH to Santa Barbara",
-        "monthlyCost": 750
+        "description": "A newer financed car, full coverage, and regular driving",
+        "monthlyCost": 725
       },
       "entertainment": {
-        "description": "VIP Hollywood Bowl box, surfboard and wetsuit collection, Lakers or Rams games, private yoga sessions, weekend wine country trips",
-        "monthlyCost": 1225
+        "description": "Weekend runs up the PCH to Santa Barbara or out to Joshua Tree, plus city culture",
+        "monthlyCost": 700
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 300
       },
-      "lifestyle": "A spacious apartment in West Hollywood or Santa Monica, or a small house in Venice. You dine regularly at well-regarded restaurants, drive a decent car, and take weekend trips up the PCH to Santa Barbara or out to Joshua Tree. At $10,000 a month you are living comfortably in a good neighborhood with real breathing room for entertainment and travel. California taxes remain a factor, but the quality of life is high."
+      "lifestyle": "A comfortable Westside-adjacent life in a well-located one-bedroom in Silver Lake, Mar Vista, or a similar neighborhood with real personality and some coastal proximity. Dining out regularly at the city's mid-range restaurants, a newer car for weekend runs up the PCH to Santa Barbara or out to Joshua Tree, and a mid-tier private health plan round out a life with genuine breathing room. California's income tax is a persistent headwind, but the day-to-day is easy and sun-soaked."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Modern architectural home in the Hollywood Hills, beachfront apartment in Malibu, or a luxury condo in Century City with skyline views",
-        "monthlyCost": 6150
+        "description": "A large home in the Hollywood Hills or a luxury Century City condo",
+        "monthlyCost": 4500
       },
       "dining": {
-        "description": "Private chef for weeknight meals, regular Nobu and n/naka omakase, exclusive wine dinners, hosted poolside dinner parties",
-        "monthlyCost": 2475
+        "description": "Frequent top-end dining across the city",
+        "monthlyCost": 1300
       },
       "groceries": {
-        "monthlyCost": 950
+        "monthlyCost": 625
       },
       "healthcare": {
-        "description": "Concierge medicine at UCLA Executive Health or Cedars-Sinai VIP, longevity clinic membership, full wellness team",
-        "monthlyCost": 1075
+        "description": "A premium plan with concierge-adjacent access",
+        "monthlyCost": 900
       },
       "transportation": {
-        "description": "Leased luxury vehicle (Porsche Cayenne or Tesla Model X), premium parking, occasional private car service for events",
-        "monthlyCost": 1000
+        "description": "A leased luxury vehicle with premium insurance",
+        "monthlyCost": 1100
       },
       "entertainment": {
-        "description": "Soho House membership, courtside Lakers seats occasionally, private surf instructor, Coachella VIP, film premiere invitations",
-        "monthlyCost": 1675
+        "description": "Weekend trips to Palm Springs or Malibu, arts, and events",
+        "monthlyCost": 1250
       },
       "utilities": {
         "monthlyCost": 400
       },
       "domesticHelp": {
-        "description": "Weekly housekeeper, pool maintenance, gardener and landscaping for the property",
-        "monthlyCost": 1575
+        "description": "Weekly housekeeping",
+        "monthlyCost": 900
       },
       "luxuryExtras": {
-        "description": "Personal trainer, private Pilates, wardrobe stylist, premium beach club membership, annual Coachella and film festival VIP passes",
-        "monthlyCost": 1900
+        "description": "Standing travel and premium experiences",
+        "monthlyCost": 1500
       },
-      "lifestyle": "A large home in the Hollywood Hills or a luxury apartment in Century City, with a nice car for getting around. You eat at the city's best restaurants regularly, have a housekeeper come weekly, and take weekend trips to Palm Springs or Malibu without budgeting for them. Business class flights for longer travel are comfortable at this budget. California's 13.3% top income tax rate is the main drawback, but the day-to-day lifestyle is genuinely affluent."
+      "lifestyle": "A large home in the Hollywood Hills or a luxury Century City condo, frequent top-end dining, weekly housekeeping, and a leased luxury vehicle. Genuinely affluent Los Angeles living with weekend trips to Palm Springs or Malibu built in."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Iconic estate in Bel Air, Brentwood, or beachfront compound in Malibu with pool, guest house, and panoramic ocean or canyon views",
-        "monthlyCost": 9325
+        "description": "A top-tier 2BR in the Hollywood Hills or a Century City high-rise with skyline or ocean views",
+        "monthlyCost": 7800
       },
       "dining": {
-        "description": "Full-time private chef with farm-to-table sourcing, curated wine cellar, exclusive private dining clubs, hosted charity dinners for 50",
-        "monthlyCost": 3500
+        "description": "A private chef several nights a week and the city's finest tables",
+        "monthlyCost": 3300
       },
       "groceries": {
-        "monthlyCost": 1000
+        "monthlyCost": 850
       },
       "healthcare": {
-        "description": "Elite concierge medical team, anti-aging and longevity protocols, fly-anywhere specialist access, private wellness retreats",
-        "monthlyCost": 1175
+        "description": "Concierge medicine at UCLA or Cedars plus a top-tier plan, purchased in-market",
+        "monthlyCost": 1500
       },
       "transportation": {
-        "description": "Chauffeured luxury vehicle, exotic car collection, private jet charter for Aspen or Cabo weekends, helicopter to avoid the 405",
-        "monthlyCost": 2325
+        "description": "A luxury car with occasional car service",
+        "monthlyCost": 2300
       },
       "entertainment": {
-        "description": "Film production investments, Oscar after-party circuit, philanthropic galas, private art collection, courtside season tickets for Lakers",
+        "description": "First-class travel and a standing presence on the arts-and-events circuit",
         "monthlyCost": 2950
       },
       "utilities": {
         "monthlyCost": 475
       },
       "domesticHelp": {
-        "description": "Full estate staff: house manager, private chef, housekeeper, gardener/pool technician, personal assistant, and security",
-        "monthlyCost": 3875
+        "description": "Full household help",
+        "monthlyCost": 3600
       },
       "luxuryExtras": {
-        "description": "Interior designer on retainer, bespoke wardrobe curation, art advisor, charitable foundation, Malibu vineyard investment, wellness concierge",
-        "monthlyCost": 3375
+        "description": "First-class travel and bespoke luxury experiences",
+        "monthlyCost": 3500
       },
-      "lifestyle": "A large home in Bel Air, Brentwood, or beachfront in Malibu with a pool and guest house. You have a housekeeper, a cook who comes in several times a week, and a nice car. You dine at top restaurants frequently, travel first class, and support local arts institutions as a donor. This is comfortable, established wealth in a city where the weather and outdoor access are hard to beat. Even at this budget, California taxes take a significant share."
+      "lifestyle": "Established Los Angeles luxury, anchored by a top-tier 2-bedroom in the Hollywood Hills or a Century City high-rise with skyline or ocean views. A private chef several nights a week, a luxury car with occasional car service, full household help, and concierge medicine at UCLA or Cedars are all routine, as is first-class travel and a standing presence on the arts-and-events circuit. This is comfortable, unbothered wealth in a city where the weather and outdoor access are the real luxury — even after California's top tax bite."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 9,
     "infrastructure": 7,
     "expatFriendliness": 9
-  }
+  },
+  "dataRecency": "Q3 2026"
 }
