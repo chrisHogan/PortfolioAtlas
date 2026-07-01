@@ -1,0 +1,200 @@
+{
+  "name": "Chennai",
+  "country": "India",
+  "region": "South Asia",
+  "slug": "chennai",
+  "emoji": "🇮🇳",
+  "fireScore": 5.9,
+  "tagline": "World-Class Healthcare and Coastal Calm on the Bay of Bengal",
+  "description": "Chennai is South India's cultural and economic anchor, a Bay of Bengal capital where Tamil temple traditions, a thriving auto and IT industry, and some of the country's best hospitals all converge. Known as the 'Health Capital of India,' the city is home to Apollo Hospitals and a dense cluster of internationally accredited medical centers, making it a natural fit for retirees who prioritize healthcare access. Coastal neighborhoods along the Marina and East Coast Road offer a calmer, more laid-back pace than Delhi or Mumbai, with a strong Tamil cultural identity running through daily life. Heat and humidity are constant companions, but the combination of medical infrastructure and low costs is difficult to match elsewhere in Asia.",
+  "tags": {
+    "climate": "tropical",
+    "english": "moderate"
+  },
+  "quickFacts": {
+    "visa": "India has no retirement, pension, or passive-income visa. US citizens use the e-Tourist visa — 30-day (double-entry) or 1-year/5-year (multiple-entry; the 5-year fee rose from $80 to $200 in 2026) — and may stay up to 180 days per visit, with total time capped at 180 days per calendar year; long-term residents get by cycling visas in and out. The only path to living in India indefinitely is the OCI card, open to people of Indian origin or those married 2+ years to an Indian citizen or OCI holder.",
+    "timezone": "IST (UTC+5:30)",
+    "language": "Tamil, English",
+    "internetSpeed": "60–100 Mbps typical; fiber widely available to 1 Gbps",
+    "safetyRating": "One of India's safer big cities, often rated good for women; heat, monsoon flooding, and traffic are the practical concerns",
+    "nearestAirport": "Chennai International Airport (MAA)",
+    "climate": "Tropical and coastal — hot and humid most of the year with an October–December northeast monsoon",
+    "englishFriendly": "Moderate",
+    "currency": "INR (Indian Rupee)",
+    "averageTemp": "82°F / 28°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Comfortable 2BR apartment in Anna Nagar or Adyar",
+        "monthlyCost": 560
+      },
+      "dining": {
+        "description": "Tamil thalis, dosa counters, and casual restaurants most days, with occasional nicer meals out",
+        "monthlyCost": 230
+      },
+      "groceries": {
+        "monthlyCost": 260
+      },
+      "healthcare": {
+        "description": "Private health insurance with access to Apollo and MIOT International hospital networks",
+        "monthlyCost": 215
+      },
+      "transportation": {
+        "description": "MTC buses and Chennai Metro plus autos and Uber/Ola",
+        "monthlyCost": 115
+      },
+      "entertainment": {
+        "description": "Marina Beach walks, Kapaleeshwarar Temple, classical Carnatic music concerts, cinema",
+        "monthlyCost": 140
+      },
+      "utilities": {
+        "monthlyCost": 130
+      },
+      "lifestyle": "A comfortable 2-bedroom apartment in Anna Nagar or Adyar, getting around on the growing Chennai Metro plus autos and ride-hailing apps. Eating at Tamil thali counters and casual dosa restaurants most days, with occasional nicer meals out. Private health insurance covers Apollo and MIOT International, giving easy access to some of India's best hospitals. Heat and humidity are constant, but day-to-day costs are very low and healthcare peace of mind comes standard."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Spacious 3BR apartment in Besant Nagar or Nungambakkam",
+        "monthlyCost": 870
+      },
+      "dining": {
+        "description": "Regular dining at Besant Nagar's beachside cafes and Nungambakkam's restaurant scene",
+        "monthlyCost": 350
+      },
+      "groceries": {
+        "monthlyCost": 280
+      },
+      "healthcare": {
+        "description": "Premium insurance covering Apollo, Fortis Malar, and other top-tier hospitals",
+        "monthlyCost": 240
+      },
+      "transportation": {
+        "description": "Own small car or regular Uber/Ola; metro for convenience",
+        "monthlyCost": 200
+      },
+      "entertainment": {
+        "description": "Beach evenings at Besant Nagar, classical dance performances, weekend trips to Mahabalipuram, gym membership",
+        "monthlyCost": 220
+      },
+      "utilities": {
+        "monthlyCost": 140
+      },
+      "lifestyle": "A spacious 3-bedroom apartment in Besant Nagar or Nungambakkam, dining regularly at beachside cafes and Nungambakkam's restaurant scene, and your own small car or frequent Uber. Premium health insurance covering Apollo and Fortis Malar hospitals. Weekend trips to the shore temples of Mahabalipuram are easy and affordable. Day-to-day life is comfortable with a solid financial cushion each month. (Interpolated tier.)"
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Luxury 4BR apartment in Nungambakkam or a villa along ECR (East Coast Road)",
+        "monthlyCost": 1180
+      },
+      "dining": {
+        "description": "Fine dining at Chennai's top restaurants and five-star hotel dining rooms",
+        "monthlyCost": 470
+      },
+      "groceries": {
+        "monthlyCost": 300
+      },
+      "healthcare": {
+        "description": "International health insurance with coverage across Asia; concierge-level care at Apollo's flagship hospital",
+        "monthlyCost": 270
+      },
+      "transportation": {
+        "description": "Own car with part-time driver, occasional domestic flights",
+        "monthlyCost": 290
+      },
+      "entertainment": {
+        "description": "Premium club memberships, Margazhi classical arts season events, weekend getaways to Pondicherry",
+        "monthlyCost": 340
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "A large 4-bedroom apartment in Nungambakkam or a villa along ECR, regular fine dining at Chennai's top restaurants, and a car with part-time driver. International health insurance with concierge-level care at Apollo's flagship hospital. Weekend trips to Pondicherry or the Margazhi classical arts season fill the calendar. This budget stretches very far in Chennai, leaving substantial margin for international travel or savings."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Expansive villa along ECR (East Coast Road) or a penthouse in Nungambakkam",
+        "monthlyCost": 1350
+      },
+      "dining": {
+        "description": "Personal chef for daily meals, fine dining several times per week, catered events",
+        "monthlyCost": 565
+      },
+      "groceries": {
+        "monthlyCost": 290
+      },
+      "healthcare": {
+        "description": "VIP concierge medical with dedicated physician; direct access to Apollo's international patient wing",
+        "monthlyCost": 295
+      },
+      "transportation": {
+        "description": "Luxury sedan with full-time chauffeur, domestic flights, occasional chartered travel",
+        "monthlyCost": 345
+      },
+      "entertainment": {
+        "description": "Premium club memberships, art collecting, private Margazhi season boxes, weekend Pondicherry retreats",
+        "monthlyCost": 460
+      },
+      "utilities": {
+        "monthlyCost": 145
+      },
+      "domesticHelp": {
+        "description": "Full-time cook, housekeeper, driver, and gardener",
+        "monthlyCost": 340
+      },
+      "luxuryExtras": {
+        "description": "Business-class international travel, luxury resort stays, property investments",
+        "monthlyCost": 710
+      },
+      "lifestyle": "An expansive villa along ECR or a penthouse in Nungambakkam, a luxury sedan with full-time driver, and a housekeeper, cook, and gardener. Regular fine dining across the city and business-class flights for longer trips. Premium healthcare with a dedicated physician and direct access to Apollo's international patient wing. Chennai's low costs relative to this budget mean a very large monthly margin, even living at the top end of the market. (Interpolated tier.)"
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Palatial beachfront estate along ECR (East Coast Road) or a heritage bungalow in Adyar",
+        "monthlyCost": 1780
+      },
+      "dining": {
+        "description": "Personal chef team, exclusive supper clubs, private dining experiences",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 270
+      },
+      "healthcare": {
+        "description": "Elite global health plan, personal physician on retainer, executive wellness program at Apollo",
+        "monthlyCost": 350
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, dedicated chauffeur team, private jet charters for travel",
+        "monthlyCost": 480
+      },
+      "entertainment": {
+        "description": "Exclusive cultural patronage, private Margazhi season events, art collecting, luxury global travel",
+        "monthlyCost": 780
+      },
+      "utilities": {
+        "monthlyCost": 140
+      },
+      "domesticHelp": {
+        "description": "Full estate staff: chef team, butler, housekeepers, gardeners, security, drivers, personal assistant",
+        "monthlyCost": 480
+      },
+      "luxuryExtras": {
+        "description": "Property portfolio, philanthropic foundation, first-class global travel, art and antique collection",
+        "monthlyCost": 1420
+      },
+      "lifestyle": "A palatial beachfront estate along ECR or a heritage bungalow in Adyar, with full household staff including a housekeeper, a cook several times a week, drivers, and a gardener. Multiple vehicles, first-class international flights, and top-tier global health coverage anchored by Apollo's executive wellness program. Dining at any restaurant in the city without a thought. Chennai's costs are so low relative to this budget that the vast majority goes unspent each month."
+    }
+  },
+  "scores": {
+    "safety": 6,
+    "healthcare": 7,
+    "infrastructure": 5,
+    "expatFriendliness": 5
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "name": "Coimbatore",
+  "country": "India",
+  "region": "South Asia",
+  "slug": "coimbatore",
+  "emoji": "🇮🇳",
+  "fireScore": 5.3,
+  "tagline": "Tier-2 Value and Western-Ghats Breezes",
+  "description": "Coimbatore is a mid-sized industrial and textile hub tucked against the Western Ghats, offering the lowest cost of living of India's major retirement-friendly cities. The Palghat Gap funnels a near-constant breeze through the city, tempering the tropical heat that defines most of South India and making it noticeably more comfortable than Chennai or Delhi. It's a quieter, more understated choice than Bengaluru or Goa — the expat community is small and the pace is unmistakably local — but the Nilgiri hill towns like Ooty are an easy day trip away. For FIRE seekers prioritizing value and calm over cosmopolitan buzz, Coimbatore delivers exceptional stretch for the dollar.",
+  "tags": {
+    "climate": "tropical",
+    "english": "moderate"
+  },
+  "quickFacts": {
+    "visa": "India has no retirement, pension, or passive-income visa. US citizens use the e-Tourist visa — 30-day (double-entry) or 1-year/5-year (multiple-entry; the 5-year fee rose from $80 to $200 in 2026) — and may stay up to 180 days per visit, with total time capped at 180 days per calendar year; long-term residents get by cycling visas in and out. The only path to living in India indefinitely is the OCI card, open to people of Indian origin or those married 2+ years to an Indian citizen or OCI holder.",
+    "timezone": "IST (UTC+5:30)",
+    "language": "Tamil, English",
+    "internetSpeed": "50–100 Mbps typical; solid fiber for a Tier-2 city, up to 1 Gbps",
+    "safetyRating": "A calm, low-crime industrial city widely regarded as safe and easygoing; ordinary precautions suffice",
+    "nearestAirport": "Coimbatore International Airport (CJB)",
+    "climate": "Tropical savanna moderated by the Palghat Gap — warm, comparatively dry, with a near-constant cooling breeze",
+    "englishFriendly": "Moderate",
+    "currency": "INR (Indian Rupee)",
+    "averageTemp": "77°F / 25°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Comfortable 2BR apartment in R.S. Puram or Race Course",
+        "monthlyCost": 470
+      },
+      "dining": {
+        "description": "South Indian thalis and casual restaurants most days, with occasional nicer meals out",
+        "monthlyCost": 200
+      },
+      "groceries": {
+        "monthlyCost": 240
+      },
+      "healthcare": {
+        "description": "Private health insurance with access to Kovai Medical Center and PSG Hospitals",
+        "monthlyCost": 210
+      },
+      "transportation": {
+        "description": "Auto-rickshaws and Uber/Ola; the compact city core keeps trips short",
+        "monthlyCost": 100
+      },
+      "entertainment": {
+        "description": "VOC Park walks, Marudamalai Temple, weekend day trips into the Western Ghats",
+        "monthlyCost": 120
+      },
+      "utilities": {
+        "monthlyCost": 110
+      },
+      "lifestyle": "A comfortable 2-bedroom apartment in R.S. Puram or Race Course, getting around by auto-rickshaw and ride-hailing in a compact, easy-to-navigate city. Eating at South Indian thali counters and casual restaurants most days, with occasional nicer meals out. Private health insurance covers Kovai Medical Center and PSG Hospitals. Coimbatore's near-constant breeze and low costs make this the most affordable comfortable lifestyle among India's major retirement-friendly cities, though the expat community here is smaller than in Bengaluru or Goa."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Spacious 3BR apartment in Saibaba Colony or Race Course",
+        "monthlyCost": 705
+      },
+      "dining": {
+        "description": "Regular dining out at Coimbatore's better restaurants and hotel dining rooms",
+        "monthlyCost": 295
+      },
+      "groceries": {
+        "monthlyCost": 250
+      },
+      "healthcare": {
+        "description": "Premium insurance covering Kovai Medical Center, PSG Hospitals, and Ganga Hospital",
+        "monthlyCost": 235
+      },
+      "transportation": {
+        "description": "Own small car or regular Uber/Ola",
+        "monthlyCost": 165
+      },
+      "entertainment": {
+        "description": "Weekend trips to Ooty and the Nilgiris, gym membership, cultural events at local sabhas",
+        "monthlyCost": 190
+      },
+      "utilities": {
+        "monthlyCost": 110
+      },
+      "lifestyle": "A spacious 3-bedroom apartment in Saibaba Colony or Race Course, dining out regularly at the city's better restaurants, and your own small car or frequent Uber. Premium health insurance covering Kovai Medical Center and Ganga Hospital. Weekend trips into the Nilgiri hills and Ooty are close and affordable. Day-to-day life is comfortable with a solid financial cushion each month. (Interpolated tier.)"
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Luxury 4BR apartment in Race Course or a bungalow in Peelamedu",
+        "monthlyCost": 950
+      },
+      "dining": {
+        "description": "Fine dining at Coimbatore's top restaurants and hotel dining rooms",
+        "monthlyCost": 380
+      },
+      "groceries": {
+        "monthlyCost": 270
+      },
+      "healthcare": {
+        "description": "International health insurance with coverage across Asia; concierge-level care at Kovai Medical Center",
+        "monthlyCost": 260
+      },
+      "transportation": {
+        "description": "Own car with part-time driver, occasional domestic flights",
+        "monthlyCost": 240
+      },
+      "entertainment": {
+        "description": "Premium club memberships, weekend retreats to Ooty and Coonoor, cultural events",
+        "monthlyCost": 270
+      },
+      "utilities": {
+        "monthlyCost": 130
+      },
+      "lifestyle": "A large 4-bedroom apartment in Race Course or a bungalow in Peelamedu, regular fine dining at the city's top restaurants, and a car with part-time driver. International health insurance with concierge-level care at Kovai Medical Center. Weekend retreats to Ooty and Coonoor in the Nilgiris fill the calendar. This budget stretches very far in Coimbatore, leaving substantial margin for international travel or savings."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Expansive independent villa in Race Course or Peelamedu",
+        "monthlyCost": 1090
+      },
+      "dining": {
+        "description": "Personal chef for daily meals, fine dining several times per week, catered events",
+        "monthlyCost": 465
+      },
+      "groceries": {
+        "monthlyCost": 260
+      },
+      "healthcare": {
+        "description": "VIP concierge medical with dedicated physician; international hospital access",
+        "monthlyCost": 280
+      },
+      "transportation": {
+        "description": "Luxury sedan with full-time chauffeur, domestic flights, occasional chartered travel",
+        "monthlyCost": 290
+      },
+      "entertainment": {
+        "description": "Premium club memberships, luxury Nilgiri hill-station retreats, art collecting",
+        "monthlyCost": 380
+      },
+      "utilities": {
+        "monthlyCost": 125
+      },
+      "domesticHelp": {
+        "description": "Full-time cook, housekeeper, driver, and gardener",
+        "monthlyCost": 280
+      },
+      "luxuryExtras": {
+        "description": "Business-class international travel, luxury resort stays, property investments",
+        "monthlyCost": 630
+      },
+      "lifestyle": "An expansive independent villa in Race Course or Peelamedu, a luxury sedan with full-time driver, and a housekeeper, cook, and gardener. Regular fine dining and business-class flights for longer trips. Premium healthcare with a dedicated physician. Coimbatore's low costs relative to this budget mean a very large monthly margin, even living at the top end of the market — enough to make regular use of Ooty as a weekend retreat. (Interpolated tier.)"
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Palatial independent villa or estate in Race Course, Coimbatore's most exclusive address",
+        "monthlyCost": 1450
+      },
+      "dining": {
+        "description": "Personal chef team, exclusive supper clubs, private dining experiences",
+        "monthlyCost": 680
+      },
+      "groceries": {
+        "monthlyCost": 250
+      },
+      "healthcare": {
+        "description": "Elite global health plan, personal physician on retainer, executive wellness program",
+        "monthlyCost": 330
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, dedicated chauffeur team, private jet charters for travel",
+        "monthlyCost": 420
+      },
+      "entertainment": {
+        "description": "Exclusive cultural patronage, private hill-station retreats, art collecting, luxury global travel",
+        "monthlyCost": 650
+      },
+      "utilities": {
+        "monthlyCost": 120
+      },
+      "domesticHelp": {
+        "description": "Full estate staff: chef team, butler, housekeepers, gardeners, security, drivers, personal assistant",
+        "monthlyCost": 420
+      },
+      "luxuryExtras": {
+        "description": "Property portfolio, philanthropic foundation, first-class global travel, art and antique collection",
+        "monthlyCost": 1180
+      },
+      "lifestyle": "A palatial independent villa or estate in Race Course, Coimbatore's most exclusive address, with full household staff including a housekeeper, a cook several times a week, drivers, and a gardener. Multiple vehicles, first-class international flights, and top-tier global health coverage. Dining at any restaurant in the city without a thought. Coimbatore's costs are so low relative to this budget that the vast majority goes unspent each month, leaving room for the Western Ghats and beyond as a permanent backyard."
+    }
+  },
+  "scores": {
+    "safety": 7,
+    "healthcare": 6,
+    "infrastructure": 4,
+    "expatFriendliness": 3
+  }
+}

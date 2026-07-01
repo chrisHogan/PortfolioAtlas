@@ -23,6 +23,9 @@ import goa from './goa.json';
 import colombo from './colombo.json';
 import kathmandu from './kathmandu.json';
 import delhi from './delhi.json';
+import bengaluru from './bengaluru.json';
+import chennai from './chennai.json';
+import coimbatore from './coimbatore.json';
 
 // Europe
 import lisbon from './lisbon.json';
@@ -154,6 +157,9 @@ export const allCities: CityData[] = [
   colombo,
   kathmandu,
   delhi,
+  bengaluru,
+  chennai,
+  coimbatore,
   // Europe
   lisbon,
   porto,
