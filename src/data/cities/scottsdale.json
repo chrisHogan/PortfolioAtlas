@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "1BR apartment in south Scottsdale or nearby Tempe/Mesa",
-        "monthlyCost": 2050
+        "description": "Cheapest acceptable older studio or small 1BR in a workable outer area — South Scottsdale near the Tempe border or the McDowell/Scottsdale Road corridor",
+        "monthlyCost": 1400
       },
       "dining": {
-        "description": "Casual Southwest and Mexican fare 2-3x/week; cooking at home most days",
-        "monthlyCost": 350
+        "description": "Mostly home cooking; casual Southwest and Mexican meals out a couple of times a week",
+        "monthlyCost": 100
       },
       "groceries": {
-        "monthlyCost": 525
+        "monthlyCost": 370
       },
       "healthcare": {
-        "description": "ACA Silver plan on the Arizona marketplace; Mayo Clinic Scottsdale nearby",
-        "monthlyCost": 725
+        "description": "ACA marketplace Silver plan on Arizona's exchange, subsidized if MAGI is kept under the 2026 400%-FPL cliff (~$62,600 single); assumes an early retiree (45–55) — older retirees budget more. Arizona has no state subsidy backfill, so above the cliff this line jumps toward the full ~$950/mo sticker.",
+        "monthlyCost": 470
       },
       "transportation": {
-        "description": "Older paid-off car with insurance and gas; car is essential in the Phoenix metro",
-        "monthlyCost": 400
+        "description": "A paid-off used car with insurance and gas — a car is essential (Scottsdale isn't on the Valley Metro light rail)",
+        "monthlyCost": 280
       },
       "entertainment": {
-        "description": "Hiking Camelback Mountain and McDowell Sonoran Preserve; Old Town window shopping",
-        "monthlyCost": 150
+        "description": "Free hiking on Camelback and in the McDowell Sonoran Preserve; Old Town gallery walks",
+        "monthlyCost": 130
       },
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "You will live in south Scottsdale or a neighboring city like Tempe rather than central Scottsdale, and summer electricity bills are a real line item. From October through April, though, the outdoor living is hard to match — free hiking on Camelback and in the McDowell Sonoran Preserve, mild weather, and affordable Mexican food a couple of times a week. You cook at home most nights and keep entertainment simple."
+      "lifestyle": "A cheapest-acceptable older studio or small one-bedroom in an outer area like South Scottsdale, where the near-mandatory car and the ACA premium form a hard floor and summer electricity is a real line item. From October through April the outdoor living is hard to beat — free hiking on Camelback and across the McDowell Sonoran Preserve, mild weather, and affordable Mexican food a couple of times a week. The Silver premium stays low only if MAGI is kept under the 2026 ~$62,600 cliff, and Arizona has no state backfill to soften it. Cooking at home is the norm, but the desert setting costs nothing."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "Nice 2BR condo in central Scottsdale, near Old Town or the Waterfront",
-        "monthlyCost": 2775
+        "description": "A decent typical 1BR in a solid central neighborhood",
+        "monthlyCost": 1850
       },
       "dining": {
-        "description": "Dining out 3-4x/week at Old Town restaurants and upscale casual spots",
-        "monthlyCost": 700
+        "description": "Regular dining out across Old Town and the Waterfront",
+        "monthlyCost": 280
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 470
       },
       "healthcare": {
-        "description": "ACA Gold plan with dental and vision; Mayo Clinic access for specialists",
-        "monthlyCost": 775
+        "description": "A Silver plan; net cost stays low only if MAGI is managed under the ~$62,600 cliff (no Arizona backfill)",
+        "monthlyCost": 500
       },
       "transportation": {
-        "description": "Reliable mid-range car, full coverage insurance, gas for desert drives",
-        "monthlyCost": 475
+        "description": "A reliable car with full coverage for desert drives",
+        "monthlyCost": 340
       },
       "entertainment": {
-        "description": "Golf green fees, spa days, spring training baseball, gym membership, hiking groups",
-        "monthlyCost": 450
+        "description": "Public-course golf, spa days, Cactus League spring training, a gym membership",
+        "monthlyCost": 280
       },
       "utilities": {
-        "monthlyCost": 275
+        "monthlyCost": 280
       },
-      "lifestyle": "A nice condo near Old Town or the Waterfront puts you close to the restaurants and galleries. You can play golf on public courses regularly, get spa treatments occasionally, and catch Cactus League spring training games. Summer A/C is covered without stress. This is a comfortable, active life with room for dining out several times a week."
+      "lifestyle": "A decent central one-bedroom close to Old Town's restaurants and galleries, with dining out several times a week and public-course golf a regular habit. Cactus League spring training, occasional spa days, and a gym membership fit comfortably, and summer A/C is covered without stress. Coverage is solid and the overall base leaves real breathing room at Scottsdale prices — a comfortable, active desert life."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "3BR house in Gainey Ranch, McCormick Ranch, or a desert-view home in north Scottsdale",
-        "monthlyCost": 3725
+        "description": "A high-quality 1BR in walkable Old Town / Downtown Scottsdale",
+        "monthlyCost": 2500
       },
       "dining": {
-        "description": "Regular dining at top restaurants like Steak 44, Café Bink, Virtù; resort dining",
-        "monthlyCost": 950
-      },
-      "groceries": {
-        "monthlyCost": 600
-      },
-      "healthcare": {
-        "description": "Premium private insurance with Mayo Clinic Scottsdale network access",
-        "monthlyCost": 750
-      },
-      "transportation": {
-        "description": "Late-model SUV, premium insurance, occasional rideshare in Old Town",
+        "description": "Frequent dining at top tables like Steak 44, Café Bink, and Virtù; resort dining",
         "monthlyCost": 500
       },
+      "groceries": {
+        "monthlyCost": 520
+      },
+      "healthcare": {
+        "description": "A Gold-tier plan; padded near the ~$62,600 ACA cliff where premium tax credits disappear",
+        "monthlyCost": 640
+      },
+      "transportation": {
+        "description": "A late-model SUV, premium insurance, occasional rideshare in Old Town",
+        "monthlyCost": 400
+      },
       "entertainment": {
-        "description": "Golf club membership, spa packages, Cactus League season, premium gym, art walks",
-        "monthlyCost": 575
+        "description": "A golf club membership, spa packages, Cactus League season, art walks along Marshall Way",
+        "monthlyCost": 500
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 320
       },
-      "lifestyle": "A three-bedroom home in Gainey Ranch or McCormick Ranch with mountain views, a golf club membership, and regular dinners at places like Steak 44 and Cafe Bink. Spa visits, art walks along Marshall Way, and sunset hikes are part of the weekly routine. This budget is genuinely affluent by Scottsdale standards, with margin for regular travel."
+      "lifestyle": "A high-quality place in walkable Old Town, a golf club membership, and regular dinners at Steak 44, Café Bink, and Virtù. Spa visits, art walks along Marshall Way, and sunset hikes are part of the weekly rhythm, with a late-model SUV for desert drives. Healthcare is a padded Gold plan near the ~$62,600 ACA cliff. This is a genuinely affluent life by Scottsdale standards, with margin for regular travel."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Luxury estate in Paradise Valley, Desert Mountain, or DC Ranch",
-        "monthlyCost": 5075
+        "description": "A luxury condo or upscale rental in a prime master-planned community — McCormick Ranch, Gainey Ranch, or DC Ranch",
+        "monthlyCost": 3800
       },
       "dining": {
-        "description": "Fine dining at resort restaurants, private chef for desert dinner parties",
-        "monthlyCost": 1300
+        "description": "Near-daily dining at the best restaurants plus occasional private-chef desert dinners",
+        "monthlyCost": 1000
       },
       "groceries": {
-        "monthlyCost": 700
+        "monthlyCost": 680
       },
       "healthcare": {
-        "description": "Concierge medicine at Mayo Clinic Scottsdale; executive wellness programs",
-        "monthlyCost": 925
+        "description": "An unsubsidized Gold/Platinum plan plus concierge medicine at Mayo Clinic Scottsdale",
+        "monthlyCost": 1100
       },
       "transportation": {
-        "description": "Luxury vehicle (Range Rover, Porsche), premium insurance, detailing service",
-        "monthlyCost": 750
+        "description": "A luxury vehicle plus premium insurance and detailing",
+        "monthlyCost": 720
       },
       "entertainment": {
-        "description": "Private golf club membership (Desert Mountain, Estancia), VIP spring training, spa retreats",
-        "monthlyCost": 925
+        "description": "A private golf club membership (Estancia, Desert Mountain), VIP spring training, spa retreats",
+        "monthlyCost": 750
       },
       "utilities": {
-        "monthlyCost": 375
+        "monthlyCost": 400
       },
       "domesticHelp": {
-        "description": "Weekly deep cleaning, pool maintenance, landscaping, personal assistant",
-        "monthlyCost": 800
+        "description": "Weekly deep cleaning, pool service, and desert landscaping",
+        "monthlyCost": 400
       },
       "luxuryExtras": {
-        "description": "Quarterly travel, art collecting, wine cellar, charity galas, resort spa memberships",
-        "monthlyCost": 1300
+        "description": "Quarterly travel, art collecting, a wine cellar, resort spa memberships",
+        "monthlyCost": 750
       },
-      "lifestyle": "A large home in Paradise Valley or DC Ranch with a pool and mountain views, a private golf club membership at a place like Estancia or Desert Mountain, and concierge medicine through Mayo Clinic Scottsdale. A housekeeper comes several times a week, and business class flights for travel are comfortable in the budget. Pool and grounds maintenance are covered. This is upper-affluent desert living."
+      "lifestyle": "A luxury condo or upscale rental in McCormick Ranch, Gainey Ranch, or DC Ranch, a private golf club membership at a place like Estancia or Desert Mountain, and concierge medicine through Mayo Clinic Scottsdale. Housekeeping and pool service are handled several times a week, near-daily fine dining is routine, and business class is standard for longer trips. This is upper-affluent Sonoran living with staff and club access."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Mega-estate in Paradise Valley with Camelback Mountain views, or a Desert Mountain compound",
-        "monthlyCost": 6975
+        "description": "A top-of-market luxury home or penthouse in a prime district — Silverleaf/DC Ranch or the Paradise Valley edge",
+        "monthlyCost": 7500
       },
       "dining": {
-        "description": "Personal chef, exclusive wine dinners, catered events under the desert stars",
-        "monthlyCost": 1775
+        "description": "Private-chef dining and exclusive wine dinners under the desert stars",
+        "monthlyCost": 2200
       },
       "groceries": {
-        "monthlyCost": 700
-      },
-      "healthcare": {
-        "description": "Top-tier Mayo Clinic concierge practice, executive screenings, wellness retreats",
         "monthlyCost": 950
       },
+      "healthcare": {
+        "description": "A top-tier unsubsidized plan plus concierge care and executive screenings at Mayo Clinic Scottsdale",
+        "monthlyCost": 1450
+      },
       "transportation": {
-        "description": "Multiple luxury vehicles, private car service, classic car hobby",
-        "monthlyCost": 1025
+        "description": "Multiple luxury vehicles, private car service, a classic-car hobby",
+        "monthlyCost": 1650
       },
       "entertainment": {
-        "description": "Private jet for weekend trips, art collecting, philanthropic galas, multiple club memberships",
-        "monthlyCost": 1600
+        "description": "Private-club memberships across the valley, philanthropic galas, art collecting",
+        "monthlyCost": 1850
       },
       "utilities": {
-        "monthlyCost": 375
+        "monthlyCost": 550
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper, estate manager, personal assistant, pool and grounds crew",
-        "monthlyCost": 2675
+        "description": "Full-time housekeeper, estate manager, and a pool/grounds crew",
+        "monthlyCost": 1300
       },
       "luxuryExtras": {
-        "description": "First-class international travel, ranch property in Sedona, art foundation, angel investing",
-        "monthlyCost": 3175
+        "description": "First-class international travel, a Sedona ranch property, an art foundation, angel investing",
+        "monthlyCost": 2200
       },
-      "lifestyle": "A large Paradise Valley estate with Camelback Mountain views, full-time domestic help including a housekeeper and property manager, and a cook who comes in several times a week. Mayo Clinic concierge care, memberships at top valley golf clubs, and first-class travel are all well within budget. Housing takes a sizable share at Scottsdale's premium price points, but the daily life is that of someone who never thinks about routine expenses."
+      "lifestyle": "A top-of-market luxury home in Silverleaf or on the Paradise Valley edge with Camelback views, full-time domestic staff, and a private chef several days a week. Mayo Clinic concierge care, memberships at the valley's best golf clubs, and first-class travel are all unremarkable, and a Sedona ranch property is within reach. Scottsdale's premium real estate takes a sizable share, but daily life here belongs to someone who never thinks about routine expenses — roughly $236k a year, the batch's most expensive top tier."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 8,
     "infrastructure": 8,
     "expatFriendliness": 9
-  }
+  },
+  "dataRecency": "Q3 2026"
 }
