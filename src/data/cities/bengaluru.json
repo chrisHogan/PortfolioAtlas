@@ -1,0 +1,200 @@
+{
+  "name": "Bengaluru",
+  "country": "India",
+  "region": "South Asia",
+  "slug": "bengaluru",
+  "emoji": "🇮🇳",
+  "fireScore": 5.7,
+  "tagline": "Eternal-Spring Climate and Cosmopolitan Comforts in India's Tech Capital",
+  "description": "Bengaluru is India's tech capital, a sprawling garden city where multinational offices, craft breweries, and leafy parks sit side by side. Its roughly 920-meter elevation delivers the mildest year-round climate of any major Indian metro, trading Delhi's extreme heat and Chennai's humidity for warm days and genuinely cool evenings. A large, well-established tech and returnee community keeps English widely spoken and international comforts — specialty coffee, imported groceries, global cuisine — easy to find. Legendary traffic congestion is the city's defining frustration, but for FIRE seekers chasing comfort and cosmopolitan amenities at Indian prices, Bengaluru is hard to beat.",
+  "tags": {
+    "climate": "tropical",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "India has no retirement, pension, or passive-income visa. US citizens use the e-Tourist visa — 30-day (double-entry) or 1-year/5-year (multiple-entry; the 5-year fee rose from $80 to $200 in 2026) — and may stay up to 180 days per visit, with total time capped at 180 days per calendar year; long-term residents get by cycling visas in and out. The only path to living in India indefinitely is the OCI card, open to people of Indian origin or those married 2+ years to an Indian citizen or OCI holder.",
+    "timezone": "IST (UTC+5:30)",
+    "language": "Kannada, English, Hindi",
+    "internetSpeed": "75–150 Mbps typical; excellent fiber up to 1 Gbps",
+    "safetyRating": "Generally safer than Delhi or Mumbai with low violent crime; heavy traffic is the real day-to-day danger",
+    "nearestAirport": "Kempegowda International Airport (BLR)",
+    "climate": "Mild for the tropics thanks to ~920 m elevation — warm days, cool evenings, June–October monsoon",
+    "englishFriendly": "High",
+    "currency": "INR (Indian Rupee)",
+    "averageTemp": "73°F / 23°C"
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Comfortable 2BR apartment in Jayanagar or HSR Layout",
+        "monthlyCost": 780
+      },
+      "dining": {
+        "description": "Regular dining at Bengaluru's beloved darshinis and casual restaurants, plus the city's famous craft-beer and cafe scene a few times a week",
+        "monthlyCost": 270
+      },
+      "groceries": {
+        "monthlyCost": 285
+      },
+      "healthcare": {
+        "description": "Private health insurance with access to Manipal and Fortis hospital networks",
+        "monthlyCost": 220
+      },
+      "transportation": {
+        "description": "Namma Metro plus autos and Uber/Ola for the rest",
+        "monthlyCost": 130
+      },
+      "entertainment": {
+        "description": "Cubbon Park walks, Lalbagh Botanical Garden, live-music venues, and weekend treks in the Nandi Hills",
+        "monthlyCost": 165
+      },
+      "utilities": {
+        "monthlyCost": 100
+      },
+      "lifestyle": "A comfortable 2-bedroom apartment in Jayanagar or HSR Layout, getting around on the expanding Namma Metro plus autos and ride-hailing apps. Eating at Bengaluru's beloved darshinis and casual restaurants most days, with regular visits to the city's famous craft-beer scene. Private health insurance covers Manipal and Fortis hospitals. The mild, near-constant spring-like climate keeps A/C costs low — a real advantage over Delhi or Chennai — even as traffic remains the city's biggest daily annoyance."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Spacious 3BR apartment in Indiranagar or a gated community in Whitefield",
+        "monthlyCost": 1115
+      },
+      "dining": {
+        "description": "Frequent dining at Indiranagar's buzzing restaurant row and Koramangala's cafes and microbreweries",
+        "monthlyCost": 415
+      },
+      "groceries": {
+        "monthlyCost": 305
+      },
+      "healthcare": {
+        "description": "Premium insurance covering Manipal, Fortis, and Apollo hospital networks",
+        "monthlyCost": 245
+      },
+      "transportation": {
+        "description": "Own small car or regular Uber/Ola, with the metro for convenience",
+        "monthlyCost": 230
+      },
+      "entertainment": {
+        "description": "Craft breweries, live music, weekend getaways to Coorg and Chikmagalur, gym membership",
+        "monthlyCost": 315
+      },
+      "utilities": {
+        "monthlyCost": 125
+      },
+      "lifestyle": "A spacious 3-bedroom apartment in Indiranagar or a gated community in Whitefield, dining regularly at Indiranagar's restaurant row and Koramangala's cafes and microbreweries, and your own small car or frequent Uber. Premium health insurance covering Manipal, Fortis, and Apollo hospitals. Weekend getaways to the coffee hills of Coorg or Chikmagalur are easy and affordable. Day-to-day life is comfortable with a solid financial cushion each month. (Interpolated tier.)"
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Luxury 4BR apartment in Koramangala or a premium high-rise in Whitefield",
+        "monthlyCost": 1450
+      },
+      "dining": {
+        "description": "Fine dining at Bengaluru's celebrated restaurants like Karavalli and Toit, plus the city's renowned brewery scene",
+        "monthlyCost": 560
+      },
+      "groceries": {
+        "monthlyCost": 330
+      },
+      "healthcare": {
+        "description": "International health insurance with coverage across Asia; concierge-level care",
+        "monthlyCost": 270
+      },
+      "transportation": {
+        "description": "Own car with part-time driver, occasional domestic flights",
+        "monthlyCost": 330
+      },
+      "entertainment": {
+        "description": "Premium club memberships, wellness retreats in Coorg, cultural events, weekend Western Ghats getaways",
+        "monthlyCost": 410
+      },
+      "utilities": {
+        "monthlyCost": 150
+      },
+      "lifestyle": "A large 4-bedroom apartment in Koramangala or a premium high-rise in Whitefield, regular fine dining at celebrated restaurants like Karavalli and Toit, and a car with part-time driver. International health insurance with concierge-level care. Weekend trips to the Western Ghats or Coorg's coffee estates by car or short flight. This budget stretches very far in Bengaluru, leaving substantial margin for international travel or savings."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Expansive independent villa or penthouse in Indiranagar or a premium Whitefield gated community",
+        "monthlyCost": 1650
+      },
+      "dining": {
+        "description": "Personal chef for daily meals, fine dining several times per week, catered events",
+        "monthlyCost": 650
+      },
+      "groceries": {
+        "monthlyCost": 310
+      },
+      "healthcare": {
+        "description": "VIP concierge medical with dedicated physician; international hospital access",
+        "monthlyCost": 295
+      },
+      "transportation": {
+        "description": "Luxury sedan with full-time chauffeur, domestic flights, occasional chartered travel",
+        "monthlyCost": 390
+      },
+      "entertainment": {
+        "description": "Premium club memberships, art collecting, wellness retreats, luxury Western Ghats and Coorg getaways",
+        "monthlyCost": 545
+      },
+      "utilities": {
+        "monthlyCost": 140
+      },
+      "domesticHelp": {
+        "description": "Full-time cook, housekeeper, driver, and gardener",
+        "monthlyCost": 380
+      },
+      "luxuryExtras": {
+        "description": "Business-class international travel, luxury resort stays, property investments",
+        "monthlyCost": 940
+      },
+      "lifestyle": "An expansive independent villa or penthouse in Indiranagar or a premium gated Whitefield community, a luxury sedan with full-time driver, and a housekeeper, cook, and gardener. Regular fine dining across the city and business-class flights for longer trips. Premium healthcare with a dedicated physician. Bengaluru's low costs relative to this budget mean a very large monthly margin, even living at the top end of the market. (Interpolated tier.)"
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Palatial independent villa in a gated Whitefield estate or a heritage bungalow in Indiranagar",
+        "monthlyCost": 2200
+      },
+      "dining": {
+        "description": "Personal chef team, exclusive supper clubs, private dining experiences",
+        "monthlyCost": 900
+      },
+      "groceries": {
+        "monthlyCost": 280
+      },
+      "healthcare": {
+        "description": "Elite global health plan, personal physician on retainer, executive wellness program",
+        "monthlyCost": 360
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, dedicated chauffeur team, private jet charters for travel",
+        "monthlyCost": 540
+      },
+      "entertainment": {
+        "description": "Exclusive cultural galas, art patronage, private club memberships, luxury global travel",
+        "monthlyCost": 900
+      },
+      "utilities": {
+        "monthlyCost": 120
+      },
+      "domesticHelp": {
+        "description": "Full estate staff: chef team, butler, housekeepers, gardeners, security, drivers, personal assistant",
+        "monthlyCost": 520
+      },
+      "luxuryExtras": {
+        "description": "Property portfolio, philanthropic foundation, first-class global travel, art and antique collection",
+        "monthlyCost": 1780
+      },
+      "lifestyle": "A palatial independent villa in a gated Whitefield estate or a heritage bungalow in Indiranagar, with full household staff including a housekeeper, a cook several times a week, drivers, and a gardener. Multiple vehicles, first-class international flights, and top-tier global health coverage. Dining at any restaurant in the city without a thought. Bengaluru's costs are so low relative to this budget that the vast majority goes unspent each month."
+    }
+  },
+  "scores": {
+    "safety": 4,
+    "healthcare": 7,
+    "infrastructure": 5,
+    "expatFriendliness": 7
+  }
+}
