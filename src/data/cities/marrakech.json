@@ -27,7 +27,7 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "Modest 1BR in Gueliz or a small renovated riad room in the medina",
+        "description": "Modest apartment in Gueliz or a small renovated riad in the medina",
         "monthlyCost": 430
       },
       "dining": {
@@ -38,7 +38,7 @@
         "monthlyCost": 160
       },
       "healthcare": {
-        "description": "Basic local private cover, single adult 45–55",
+        "description": "Basic local private cover for a 45–55 early retiree",
         "monthlyCost": 60
       },
       "transportation": {
@@ -52,12 +52,12 @@
       "utilities": {
         "monthlyCost": 80
       },
-      "lifestyle": "A plain but decent 1BR in Gueliz, walkable to cafés and the market, or a modestly done-up room in a medina riad. Most meals come from souk produce cooked at home, with local tagine and couscous joints for eating out a few times a week and café afternoons that cost almost nothing. Petit taxis and your own two feet cover transport — no car needed. Health cover is a basic local private policy that gets you into private clinics for routine care. Frugal but genuinely comfortable, and French is essential for daily life."
+      "lifestyle": "A plain but decent apartment in Gueliz, walkable to cafés and the market, or a modestly done-up medina riad. Most meals come from souk produce cooked at home, with local tagine and couscous joints for eating out a few times a week and café afternoons that cost almost nothing. Petit taxis and walking cover transport — no car needed. Health cover is a basic local private policy that gets you into private clinics for routine care. Frugal and careful but genuinely comfortable, and French is essential for daily life."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "Nicer furnished 1BR in Gueliz/Hivernage or a comfortable riad",
+        "description": "Upscale furnished apartment in Gueliz/Hivernage or a comfortable riad",
         "monthlyCost": 650
       },
       "dining": {
@@ -68,7 +68,7 @@
         "monthlyCost": 210
       },
       "healthcare": {
-        "description": "Comprehensive local private cover, single adult",
+        "description": "Comprehensive local private cover",
         "monthlyCost": 110
       },
       "transportation": {
@@ -82,12 +82,12 @@
       "utilities": {
         "monthlyCost": 110
       },
-      "lifestyle": "A properly furnished, air-conditioned 1BR in Gueliz or Hivernage, or a comfortable riad in the medina. Dining out several nights a week is unremarkable, mixing local spots with mid-range restaurants, and comprehensive local private insurance covers Marrakech's private clinics well. Getting around is petit taxis routinely, plus the occasional rental car for excursions to the Atlas or the coast. A gym membership, cinema, and nightlife fill out an easy solo life."
+      "lifestyle": "A properly furnished, air-conditioned apartment in Gueliz or Hivernage, or a comfortable riad in the medina. Dining out several nights a week is unremarkable, mixing local spots with mid-range restaurants, and comprehensive local private insurance covers Marrakech's private clinics well. Getting around is petit taxis routinely, plus the occasional rental car for excursions to the Atlas or the coast. A gym membership, cinema, and nightlife fill out an easy, comfortable life."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Premium furnished 1BR or compact 2BR-for-one in Hivernage/Gueliz or a well-restored riad",
+        "description": "Premium furnished apartment in Hivernage/Gueliz or a well-restored riad",
         "monthlyCost": 1000
       },
       "dining": {
@@ -112,12 +112,12 @@
       "utilities": {
         "monthlyCost": 140
       },
-      "lifestyle": "A high-spec furnished 1BR or compact 2BR-for-one in Hivernage or Gueliz, or a beautifully restored riad in a sought-after quarter. Eating at the city's best restaurants becomes a regular habit, and you either run a small car or take petit and grand taxis at will. Insurance steps up to a strong plan approaching international cover. There's real room for frequent weekend trips — Essaouira, the Atlas Mountains, or cheap hops to Europe out of Marrakech-Menara airport."
+      "lifestyle": "A high-spec furnished apartment in Hivernage or Gueliz, or a beautifully restored riad in a sought-after quarter. Eating at the city's best restaurants becomes a regular habit, and getting around is a small car or petit and grand taxis at will. Insurance steps up to a strong plan approaching international cover. There's real room for frequent weekend trips — Essaouira, the Atlas Mountains, or cheap hops to Europe out of Marrakech-Menara airport."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Luxury apartment or a small single-occupant Palmeraie/golf-zone villa with pool",
+        "description": "Luxury apartment or a Palmeraie/golf-zone villa with pool",
         "monthlyCost": 1950
       },
       "dining": {
@@ -150,12 +150,12 @@
         "description": "Private club membership, spa/wellness, concierge, upgraded travel",
         "monthlyCost": 450
       },
-      "lifestyle": "Marrakech luxury tuned for one — a designer apartment or a small single-occupant villa with its own pool on the Palmeraie or golf-zone fringe. A part-time housekeeper comes a few days a week, dining out is near-daily and much of it high-end, and a car with a part-time driver on call handles transport. Healthcare is a top-tier private/international plan covering the best facilities. Spa circuits, club memberships, and more frequent travel round it out, all sized to a single person."
+      "lifestyle": "Marrakech luxury — a designer apartment or a villa with its own pool on the Palmeraie or golf-zone fringe. A part-time housekeeper comes a few days a week, dining out is near-daily and much of it high-end, and a car with a part-time driver on call handles transport. Healthcare is a top-tier private/international plan covering the best facilities. Spa circuits, club memberships, and more frequent travel round it out."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Luxury villa or grand restored riad, staffed, scaled to one occupant",
+        "description": "Luxury villa or grand restored riad, staffed",
         "monthlyCost": 3400
       },
       "dining": {
@@ -181,14 +181,14 @@
         "monthlyCost": 400
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper and cook scaled to ONE home",
+        "description": "Full-time housekeeper and cook",
         "monthlyCost": 1100
       },
       "luxuryExtras": {
         "description": "Club memberships, spa/wellness, concierge, curated travel",
         "monthlyCost": 1100
       },
-      "lifestyle": "The ceiling of living exceptionally well in Marrakech as one person — a staffed luxury villa or grand restored riad with pool and gardens, kept by a full-time housekeeper and cook scaled to a single home. A car and full-time driver are at your disposal, dining is essentially catered or at the best tables nightly, and healthcare is an international concierge plan with medevac to Europe. The discretionary budget funds constant European travel, entertaining, and spa and club memberships. Deliberately below a family palace-estate FatFIRE, because a solo resident simply can't consume a household's worth of space or staff."
+      "lifestyle": "Living exceptionally well in Marrakech — a staffed luxury villa or grand restored riad with pool and gardens, kept by a full-time housekeeper and cook. A car and full-time driver are at your disposal, dining is essentially catered or at the best tables nightly, and healthcare is an international concierge plan with medevac to Europe. The discretionary budget funds constant European travel, entertaining, and spa and club memberships. This is the full sweep of Marrakchi opulence — a Palmeraie estate, resident staff, and the medina and mountains at your door."
     }
   },
   "scores": {

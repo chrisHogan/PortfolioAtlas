@@ -27,7 +27,7 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "Secure gated 1BR/studio (24/7 guard, generator, water tank) on the East Legon fringe, Osu, or Labone — the security premium a solo expat actually pays",
+        "description": "Modest but secure gated apartment (24/7 guard, generator, water tank) on the East Legon fringe, Osu, or Labone — the security premium prime pockets command",
         "monthlyCost": 500
       },
       "dining": {
@@ -38,7 +38,7 @@
         "monthlyCost": 180
       },
       "healthcare": {
-        "description": "Basic local/regional private cover, single adult 45–55, hospitalization-first",
+        "description": "Basic local/regional private cover for a 45–55 early retiree, hospitalization-first",
         "monthlyCost": 55
       },
       "transportation": {
@@ -52,12 +52,12 @@
       "utilities": {
         "monthlyCost": 110
       },
-      "lifestyle": "A small but secure gated 1BR or studio on the East Legon fringe, Osu, or Labone — the 24/7 guard, generator, and water tank are the security premium a solo retiree actually pays for here. Most meals are cooked at home from local markets, with chop-bar plates a few times a week, and you get around by Bolt and the occasional trotro rather than owning a car. Cover is a no-frills local/regional plan handling hospitalization and basic outpatient care. AC use is rationed against the prepaid meter, and dumsor means the inverter earns its keep. Comfortable and safe, but genuinely frugal — no imported-grocery habit and little travel."
+      "lifestyle": "A modest but secure gated apartment on the East Legon fringe, Osu, or Labone, where the 24/7 guard, generator, and water tank are the security premium prime pockets command. Most meals are cooked at home from local markets, with chop-bar plates a few times a week, and getting around is by Bolt and the occasional trotro rather than a car. Cover is a no-frills local/regional plan handling hospitalization and basic outpatient care. AC use is rationed against the prepaid meter, and dumsor means the inverter earns its keep. Frugal and careful, but genuinely comfortable and safe — no imported-grocery habit and little travel."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "Nicer furnished 1BR in Osu, Labone, or Cantonments",
+        "description": "Upscale furnished apartment in Osu, Labone, or Cantonments",
         "monthlyCost": 900
       },
       "dining": {
@@ -82,12 +82,12 @@
       "utilities": {
         "monthlyCost": 170
       },
-      "lifestyle": "A nicer furnished 1BR in Osu, Labone, or Cantonments, within walking distance of restaurants and nightlife. Groceries mix Makola-market local produce with imported items, and dinners out several nights a week are routine. Comprehensive regional private insurance covers the good private clinics like Nyaho and Akai House. Daily Bolt rides replace the trotro entirely, and a gym membership plus an active weekend social life round out an easy, unpretentious solo life."
+      "lifestyle": "An upscale furnished apartment in Osu, Labone, or Cantonments, within walking distance of restaurants and nightlife. Groceries mix Makola-market local produce with imported items, and dinners out several nights a week are routine. Comprehensive regional private insurance covers the good private clinics like Nyaho and Akai House. Daily Bolt rides replace the trotro entirely, and a gym membership plus an active weekend social life round out an easy, unpretentious lifestyle."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Good furnished/serviced 1BR in a prime pocket (Cantonments, Airport Residential) with 24h security, backup power, gym",
+        "description": "Good furnished/serviced flat in a prime pocket (Cantonments, Airport Residential) with 24h security, backup power, gym",
         "monthlyCost": 1400
       },
       "dining": {
@@ -112,12 +112,12 @@
       "utilities": {
         "monthlyCost": 240
       },
-      "lifestyle": "A good furnished/serviced 1BR in a prime pocket like Cantonments or Airport Residential — 24-hour security, backup power, and a gym come built in, which matters when dumsor hits. Dining at Accra's better restaurants becomes a default, and transport is either an owned car or unlimited Bolt with an occasional hired day-driver. Insurance steps up to a strong plan approaching international cover, with regional referral. Weekends mean Cape Coast, Ada, or the Aburi hills, with real budget margin left over each month."
+      "lifestyle": "A good furnished/serviced flat in a prime pocket like Cantonments or Airport Residential — 24-hour security, backup power, and a gym come built in, which matters when dumsor hits. Dining at Accra's better restaurants becomes a default, and transport is either an owned car or unlimited Bolt with an occasional hired day-driver. Insurance steps up to a strong plan approaching international cover, with regional referral. Weekends mean Cape Coast, Ada, or the Aburi hills, with real budget margin left over each month."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Top luxury serviced 1BR / small 2BR-for-one in Cantonments or Airport Residential",
+        "description": "Top luxury serviced flat in Cantonments or Airport Residential",
         "monthlyCost": 2500
       },
       "dining": {
@@ -150,12 +150,12 @@
         "description": "Club memberships, concierge, premium travel",
         "monthlyCost": 700
       },
-      "lifestyle": "A top luxury serviced 1BR or small 2BR kept for one in Cantonments or Airport Residential, with a part-time housekeeper/cook and a part-time driver handling an owned car. Dining is near-daily at Accra's top spots, backed by a club or beach-club membership and frequent regional travel. Healthcare is a top-tier international plan (worldwide-excl-US) with evacuation cover to South Africa or Europe. A full-AC flat or villa with its own generator means dumsor is somebody else's problem, and there is generous discretionary room for one person."
+      "lifestyle": "A top luxury serviced flat in Cantonments or Airport Residential, with a part-time housekeeper/cook and a part-time driver handling an owned car. Dining is near-daily at Accra's top spots, backed by a club or beach-club membership and frequent regional travel. Healthcare is a top-tier international plan (worldwide-excl-US) with evacuation cover to South Africa or Europe. A full-AC home with its own generator means dumsor is somebody else's problem, and discretionary spending is easy."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Solo-luxury 1–2BR / small villa at the best address (Cantonments, Airport Residential) — scaled to one occupant, not a family estate",
+        "description": "Top-luxury flat or a villa at the best address (Cantonments, Airport Residential)",
         "monthlyCost": 3500
       },
       "dining": {
@@ -181,14 +181,14 @@
         "monthlyCost": 550
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper, cook, and driver scaled to ONE home (not estate staff)",
+        "description": "Full-time housekeeper, cook, and driver",
         "monthlyCost": 1000
       },
       "luxuryExtras": {
         "description": "Concierge, club tiers, art/hobbies, lavish discretionary",
         "monthlyCost": 1800
       },
-      "lifestyle": "The top of what one person can consume in Accra — a solo-luxury 1–2BR or small villa at the best address in Cantonments or Airport Residential, staffed by a full-time housekeeper, cook, and driver scaled to a single home rather than an estate's crew. Daily fine dining and hosting, first-class regional and international travel, and an international concierge health plan with worldwide access and evacuation. A large villa runs on its own generator against dumsor, and the discretionary budget funds concierge services, club tiers, and hobbies. It sits well below a family FatFIRE precisely because a solo resident can't fill a household's bedrooms, food, or fleet."
+      "lifestyle": "Top-of-market luxury in Accra — a premium flat or a villa at the best address in Cantonments or Airport Residential, staffed by a full-time housekeeper, cook, and driver. Daily fine dining and hosting, first-class regional and international travel, and an international concierge health plan with worldwide access and evacuation. A large villa runs on its own generator against dumsor, and the discretionary budget funds concierge services, club tiers, and hobbies. This is the full extent of the opulence Accra offers — a prime address, staff on hand, and lavish travel."
     }
   },
   "scores": {

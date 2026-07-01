@@ -27,7 +27,7 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "Secure but basic 1BR in a gated Kilimani or Lavington block — safety premium is non-negotiable",
+        "description": "Secure but basic apartment in a gated Kilimani or Lavington block — the safety premium is non-negotiable",
         "monthlyCost": 450
       },
       "dining": {
@@ -38,7 +38,7 @@
         "monthlyCost": 140
       },
       "healthcare": {
-        "description": "Basic local private cover, single adult 45–55, inpatient-focused",
+        "description": "Basic local private cover for a 45–55 early retiree, inpatient-focused",
         "monthlyCost": 70
       },
       "transportation": {
@@ -52,12 +52,12 @@
       "utilities": {
         "monthlyCost": 65
       },
-      "lifestyle": "A secure, gated 1BR in Kilimani or Lavington — the safety premium is non-negotiable in Nairobi, so the compound guard and walls come standard. Most meals are cooked from cheap, excellent local produce, with nyama-choma and Indian spots for eating out a few times a week. You skip self-driving in favor of Bolt and Uber, which is safer and simpler in the traffic. Cover is a real but basic local private plan, inpatient-focused. A neighborhood gym and the odd cinema or bar fill the discretionary slack, and the highland climate means no heating or cooling bills."
+      "lifestyle": "A secure, gated apartment in Kilimani or Lavington — the safety premium is non-negotiable in Nairobi, so the compound guard and walls come standard. Most meals are cooked from cheap, excellent local produce, with nyama-choma and Indian spots for eating out a few times a week. Getting around leans on Bolt and Uber rather than self-driving, which is safer and simpler in the traffic. Cover is a real but basic local private plan, inpatient-focused. A neighborhood gym and the odd cinema or bar fill the discretionary slack, and the highland climate means no heating or cooling bills."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "Nicer furnished 1BR in Westlands or Kilimani",
+        "description": "Upscale furnished apartment in Westlands or Kilimani",
         "monthlyCost": 780
       },
       "dining": {
@@ -82,12 +82,12 @@
       "utilities": {
         "monthlyCost": 85
       },
-      "lifestyle": "A nicer furnished 1BR in buzzy Westlands or leafy Kilimani, dining out several evenings a week including mid-range restaurants. Comprehensive local insurance (Jubilee, AAR, or Britam) now covers outpatient visits too, not just hospital stays. You lean on ride-hail heavily or run a modest small car. A mid-range gym plus nightlife and weekend outings keep things social — unstressed but not lavish."
+      "lifestyle": "An upscale furnished apartment in buzzy Westlands or leafy Kilimani, dining out several evenings a week including mid-range restaurants. Comprehensive local insurance (Jubilee, AAR, or Britam) now covers outpatient visits too, not just hospital stays. Transport leans on ride-hail heavily, or a modest small car. A mid-range gym plus nightlife and weekend outings keep things social — unstressed but not lavish."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Good serviced 1BR / compact 2BR-for-one in a prime area (Westlands, Riverside, Kilimani, Lavington), bundling security, housekeeping, backup power",
+        "description": "Good serviced flat in a prime area (Westlands, Riverside, Kilimani, Lavington), bundling security, housekeeping, backup power",
         "monthlyCost": 1150
       },
       "dining": {
@@ -112,12 +112,12 @@
       "utilities": {
         "monthlyCost": 110
       },
-      "lifestyle": "A serviced 1BR or compact 2BR-for-one in a prime area like Westlands, Riverside, Kilimani, or Lavington, where security, housekeeping, and backup power are bundled into the rent. You eat well and often, carry a strong private plan with high limits and medical-evacuation cover, and travel most months — a Maasai Mara safari lodge or a Diani-coast weekend. Transport is frictionless: unlimited Bolt/Uber plus a hired driver when you want one, or a comfortable owned car."
+      "lifestyle": "A serviced flat in a prime area like Westlands, Riverside, Kilimani, or Lavington, where security, housekeeping, and backup power are bundled into the rent. Eating out is frequent and good, healthcare is a strong private plan with high limits and medical-evacuation cover, and travel happens most months — a Maasai Mara safari lodge or a Diani-coast weekend. Transport is frictionless: unlimited Bolt/Uber plus a hired driver when wanted, or a comfortable owned car."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Luxury small house/flat for one — a furnished Runda/Karen 2BR cottage or a Riverside penthouse",
+        "description": "Luxury home — a furnished Runda/Karen cottage or a Riverside penthouse",
         "monthlyCost": 2400
       },
       "dining": {
@@ -128,7 +128,7 @@
         "monthlyCost": 380
       },
       "healthcare": {
-        "description": "Top-tier international plan for a solo 45–55",
+        "description": "Top-tier international plan for a 45–55 early retiree",
         "monthlyCost": 400
       },
       "transportation": {
@@ -150,12 +150,12 @@
         "description": "Club memberships, premium subscriptions, travel upgrades, wine cellar",
         "monthlyCost": 500
       },
-      "lifestyle": "Upper-crust solo living — a furnished Runda or Karen cottage, or a Riverside penthouse, kept by a part-time housekeeper and a part-time driver. You dine out almost daily including Nairobi's top restaurants and hotel venues, carry a genuine top-tier international plan, and belong to a private club. A standalone house means a generator, borehole, security, and pool upkeep, all handled. Safari, coast, and regional travel are routine — unmistakably affluent, yet still one person's footprint."
+      "lifestyle": "Upper-crust living — a furnished Runda or Karen cottage, or a Riverside penthouse, kept by a part-time housekeeper and a part-time driver. Dining out is almost daily, including Nairobi's top restaurants and hotel venues, healthcare is a genuine top-tier international plan, and a private-club membership comes with it. A standalone house means a generator, borehole, security, and pool upkeep, all handled. Safari, coast, and regional travel are routine — unmistakably affluent."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Luxury furnished house for one in Karen or Runda — deliberately below the ambassadorial-mansion tier",
+        "description": "Luxury furnished house in Karen or Runda",
         "monthlyCost": 4500
       },
       "dining": {
@@ -181,14 +181,14 @@
         "monthlyCost": 250
       },
       "domesticHelp": {
-        "description": "Full-time staff scaled to ONE home: live-in housekeeper/cook, driver, day+night guarding",
+        "description": "Full-time staff: live-in housekeeper/cook, driver, day+night guarding",
         "monthlyCost": 1000
       },
       "luxuryExtras": {
         "description": "Concierge, first-class travel fund, fine wine/art, premium discretionary",
         "monthlyCost": 1200
       },
-      "lifestyle": "The ceiling of what one person can meaningfully consume in Nairobi — a luxury furnished house in Karen or Runda, kept deliberately below the ambassadorial-mansion scale, run by full-time staff scaled to one home: a live-in housekeeper/cook, a driver, and day-and-night guarding. Dining ranges from top hotel restaurants to private-chef nights, and international concierge cover gives full global access with evacuation. A large house runs on full power with backup generator, borehole, pool, and security, and the discretionary budget funds clubs, first-class travel, golf, and sailing. It sits far below a family compound — no household-of-four food or staffing, no estate."
+      "lifestyle": "Top-of-market Nairobi — a luxury furnished house in Karen or Runda, run by full-time staff: a live-in housekeeper/cook, a driver, and day-and-night guarding. Dining ranges from top hotel restaurants to private-chef nights, and international concierge cover gives full global access with evacuation. A large house runs on full power with backup generator, borehole, pool, and security, and the discretionary budget funds clubs, first-class travel, golf, and sailing. This is Nairobi at its most opulent — a leafy prime-suburb estate, resident staff, and the Mara and coast on call."
     }
   },
   "scores": {

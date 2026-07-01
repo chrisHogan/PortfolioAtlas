@@ -27,7 +27,7 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "Studio/small 1BR in Observatory, Woodstock, or the city-bowl fringe — modest but safe, on the MyCiTi line",
+        "description": "Modest but safe apartment in Observatory, Woodstock, or the city-bowl fringe, on the MyCiTi line",
         "monthlyCost": 600
       },
       "dining": {
@@ -38,7 +38,7 @@
         "monthlyCost": 180
       },
       "healthcare": {
-        "description": "Basic local medical aid (Discovery Core/entry hospital plan), single member 45–55",
+        "description": "Basic local medical aid (Discovery Core/entry hospital plan) for a 45–55 early retiree",
         "monthlyCost": 170
       },
       "transportation": {
@@ -52,12 +52,12 @@
       "utilities": {
         "monthlyCost": 110
       },
-      "lifestyle": "A modest but safe studio or small 1BR in Observatory, Woodstock, or the city-bowl fringe, right on the MyCiTi line and walking distance from markets. Days lean on Cape Town's free assets — Table Mountain trails, the Sea Point promenade, and public beaches — with cheap café lunches and mostly home cooking. Transport is the MyCiTi bus, minibus taxis, and the occasional Uber; no car. Cover is a bare Discovery Core/entry hospital plan, so a chronic condition would strain this budget, and load-shedding is managed the low-tech way. Frugal but genuinely pleasant."
+      "lifestyle": "A modest but safe apartment in Observatory, Woodstock, or the city-bowl fringe, right on the MyCiTi line and walking distance from markets. Days lean on Cape Town's free assets — Table Mountain trails, the Sea Point promenade, and public beaches — with cheap café lunches and mostly home cooking. Transport is the MyCiTi bus, minibus taxis, and the occasional Uber; no car. Cover is a bare Discovery Core/entry hospital plan, so a chronic condition would strain this budget, and load-shedding is managed the low-tech way. Frugal and careful, but genuinely pleasant."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "Decent central 1BR in Sea Point or Green Point, walkable to the promenade",
+        "description": "Decent central apartment in Sea Point or Green Point, walkable to the promenade",
         "monthlyCost": 1000
       },
       "dining": {
@@ -68,7 +68,7 @@
         "monthlyCost": 250
       },
       "healthcare": {
-        "description": "Comprehensive local medical aid (Discovery Saver/Priority), single member",
+        "description": "Comprehensive local medical aid (Discovery Saver/Priority)",
         "monthlyCost": 300
       },
       "transportation": {
@@ -82,12 +82,12 @@
       "utilities": {
         "monthlyCost": 150
       },
-      "lifestyle": "A decent central 1BR in Sea Point or Green Point puts the Atlantic promenade, cafés, and gyms on your doorstep, with daily Uber/Bolt and the occasional car hire covering the rest — still no owned car. Eating out several nights a week is unremarkable, mixing mid-range and casual spots. Comprehensive local medical aid (Discovery Saver/Priority) removes the hospital-plan anxiety of the Lean tier. Discretionary spending on gym, cinema, wine bars, and live events is easy but not lavish."
+      "lifestyle": "A decent central apartment in Sea Point or Green Point puts the Atlantic promenade, cafés, and gyms on the doorstep, with daily Uber/Bolt and the occasional car hire covering the rest — still no owned car. Eating out several nights a week is unremarkable, mixing mid-range and casual spots. Comprehensive local medical aid (Discovery Saver/Priority) removes the hospital-plan anxiety of the Lean tier. Discretionary spending on gym, cinema, wine bars, and live events is easy but not lavish."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Good 1BR or compact 2BR-for-one in Sea Point, Gardens, or the Camps Bay fringe; newer, secure building",
+        "description": "Good apartment in Sea Point, Gardens, or the Camps Bay fringe; newer, secure building",
         "monthlyCost": 1400
       },
       "dining": {
@@ -98,7 +98,7 @@
         "monthlyCost": 320
       },
       "healthcare": {
-        "description": "Strong private cover (Discovery Classic Comprehensive, single main member R7,528)",
+        "description": "Strong private cover (Discovery Classic Comprehensive, R7,528)",
         "monthlyCost": 450
       },
       "transportation": {
@@ -112,12 +112,12 @@
       "utilities": {
         "monthlyCost": 190
       },
-      "lifestyle": "A newer, secure 1BR or compact 2BR-for-one in Sea Point, Gardens, or the Camps Bay fringe, with mountain or sea glimpses. Dining out across Cape Town's strong restaurant scene becomes a default rather than an event, and weekends mean the winelands, Hermanus, or a Garden Route drive in a modest owned car (or unlimited ride-hail). Full Discovery Classic Comprehensive cover puts private specialists and top hospitals fully in play. A small inverter/UPS handles load-shedding without drama, and fast fibre covers the rest."
+      "lifestyle": "A newer, secure apartment in Sea Point, Gardens, or the Camps Bay fringe, with mountain or sea glimpses. Dining out across Cape Town's strong restaurant scene becomes a default rather than an event, and weekends mean the winelands, Hermanus, or a Garden Route drive in a modest owned car (or unlimited ride-hail). Full Discovery Classic Comprehensive cover puts private specialists and top hospitals fully in play. A small inverter/UPS handles load-shedding without drama, and fast fibre covers the rest."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Luxury 1BR/2BR-for-one in Clifton, Bantry Bay, or Camps Bay with sea views",
+        "description": "Luxury apartment in Clifton, Bantry Bay, or Camps Bay with sea views",
         "monthlyCost": 2000
       },
       "dining": {
@@ -128,7 +128,7 @@
         "monthlyCost": 450
       },
       "healthcare": {
-        "description": "Top-tier local medical aid (Discovery Executive) plus gap cover, single member",
+        "description": "Top-tier local medical aid (Discovery Executive) plus gap cover",
         "monthlyCost": 650
       },
       "transportation": {
@@ -150,12 +150,12 @@
         "description": "Personal trainer, spa, wine club, memberships, travel",
         "monthlyCost": 500
       },
-      "lifestyle": "Atlantic-Seaboard luxury for one — a luxury 1BR or 2BR-for-one in Clifton, Bantry Bay, or Camps Bay with the ocean as the view and the restaurant strip a short drive away. A part-time housekeeper comes two or three days a week, dining out is near-nightly including the fine-dining tier, and top-tier Discovery Executive cover plus gap cover and a nicer car remove every friction. Full inverter/solar backup makes load-shedding a non-event. Wine estates, spa days, and frequent domestic travel round it out, all scaled to a single person."
+      "lifestyle": "Atlantic-Seaboard luxury — a luxury apartment in Clifton, Bantry Bay, or Camps Bay with the ocean as the view and the restaurant strip a short drive away. A part-time housekeeper comes two or three days a week, dining out is near-nightly including the fine-dining tier, and top-tier Discovery Executive cover plus gap cover and a nicer car remove every friction. Full inverter/solar backup makes load-shedding a non-event. Wine estates, spa days, and frequent domestic travel round it out."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Top-of-market luxury apartment or small villa for one in Clifton/Camps Bay (penthouse/sea-front)",
+        "description": "Top-of-market luxury apartment or villa in Clifton/Camps Bay (penthouse/sea-front)",
         "monthlyCost": 3800
       },
       "dining": {
@@ -166,7 +166,7 @@
         "monthlyCost": 600
       },
       "healthcare": {
-        "description": "International concierge cover (Cigna Global/Bupa/Allianz-style) for a solo 45–55",
+        "description": "International concierge cover (Cigna Global/Bupa/Allianz-style) for a 45–55 early retiree",
         "monthlyCost": 1100
       },
       "transportation": {
@@ -181,14 +181,14 @@
         "monthlyCost": 420
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper/cook plus a part-time driver, scaled to ONE home",
+        "description": "Full-time housekeeper/cook plus a part-time driver",
         "monthlyCost": 900
       },
       "luxuryExtras": {
         "description": "Concierge, charters/heli days, high-end shopping, art, first-class travel top-up",
         "monthlyCost": 1800
       },
-      "lifestyle": "Top-of-the-Cape luxury for a single person — a Clifton penthouse or a small Camps Bay villa with a full-time housekeeper/cook and a part-time driver scaled to one home, not an estate. Dining is near-daily at world-class restaurants with fine wine, and international concierge cover will fly you out if needed. A luxury owned car, full solar and backup, and a discretionary budget for charters, high-end shopping, art, and first-class travel put almost nothing out of reach. The deliberate ceiling: one person can't consume a household's worth of housing, food, or staff, so this sits well below a family FatFIRE."
+      "lifestyle": "Top-of-the-Cape luxury — a Clifton penthouse or a Camps Bay villa with a full-time housekeeper/cook and a part-time driver. Dining is near-daily at world-class restaurants with fine wine, and international concierge cover will fly you out if needed. A luxury owned car, full solar and backup, and a discretionary budget for charters, high-end shopping, art, and first-class travel put almost nothing out of reach. This is the Atlantic Seaboard at its most opulent — a trophy address, staff on hand, and the winelands and coast at the weekend."
     }
   },
   "scores": {
