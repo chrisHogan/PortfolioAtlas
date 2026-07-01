@@ -1,0 +1,200 @@
+{
+  "name": "Chengdu",
+  "country": "China",
+  "region": "East Asia",
+  "slug": "chengdu",
+  "emoji": "🇨🇳",
+  "fireScore": 6.9,
+  "tagline": "Laid-Back Megacity of Pandas and Teahouses",
+  "description": "Chengdu is a laid-back, food-famous Sichuan megacity offering a high quality of life well below China's coastal costs — pandas, teahouses, spicy cuisine, and an excellent modern metro. The tradeoffs are real: a language barrier, the Great Firewall, and a near-impossible long-stay visa path for non-working retirees.",
+  "tags": {
+    "climate": "subtropical",
+    "english": "low"
+  },
+  "quickFacts": {
+    "visa": "No retirement or digital-nomad visa; long-stay essentially requires employment (Z), family ties (Q/S), or major investment; most non-working retirees cannot legally settle long-term, and an HIV test is required for residence permits",
+    "timezone": "CST (UTC+8)",
+    "language": "Mandarin (Sichuanese dialect locally); little English",
+    "internetSpeed": "Fast and cheap domestically, but a VPN is needed for foreign sites (Great Firewall)",
+    "safetyRating": "Very safe with low violent crime; air pollution is the main health caveat",
+    "nearestAirport": "Chengdu Tianfu International (TFU)",
+    "climate": "Humid subtropical — cloudy and mild",
+    "englishFriendly": "Low",
+    "currency": "Renminbi / Yuan (CNY)",
+    "averageTemp": "61°F / 16°C"
+  },
+  "scores": {
+    "safety": 8,
+    "healthcare": 6.5,
+    "infrastructure": 8,
+    "expatFriendliness": 4.5
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Modern-ish 1BR in an outer district",
+        "monthlyCost": 300
+      },
+      "dining": {
+        "description": "Cheap local restaurants (¥20–50/meal) and home cooking",
+        "monthlyCost": 120
+      },
+      "groceries": {
+        "monthlyCost": 150
+      },
+      "healthcare": {
+        "description": "Basic local care",
+        "monthlyCost": 60
+      },
+      "transportation": {
+        "description": "Metro and e-bike everywhere",
+        "monthlyCost": 25
+      },
+      "entertainment": {
+        "description": "Teahouses, parks, and the panda base",
+        "monthlyCost": 80
+      },
+      "utilities": {
+        "monthlyCost": 50
+      },
+      "lifestyle": "A modern-ish outer-district 1BR, eating cheaply at local restaurants and cooking at home, getting around by metro and e-bike, and relying on basic local care. A VPN handles home internet. Genuinely comfortable by local standards on very little."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "1BR in central Jinjiang",
+        "monthlyCost": 500
+      },
+      "dining": {
+        "description": "Frequent dining out across Chengdu's famous food scene",
+        "monthlyCost": 280
+      },
+      "groceries": {
+        "monthlyCost": 230
+      },
+      "healthcare": {
+        "description": "Basic international insurance",
+        "monthlyCost": 120
+      },
+      "transportation": {
+        "description": "Metro plus ride-hailing",
+        "monthlyCost": 50
+      },
+      "entertainment": {
+        "description": "People's Park nightlife, teahouses, and an active social life",
+        "monthlyCost": 180
+      },
+      "utilities": {
+        "monthlyCost": 70
+      },
+      "lifestyle": "A central flat near People's Park nightlife, frequent dining in one of China's best food cities, basic international insurance, and an active social life — comfortable urban living at a fraction of coastal cost."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Modern 2–3BR in Tianfu or central Chengdu",
+        "monthlyCost": 850
+      },
+      "dining": {
+        "description": "Frequent quality dining",
+        "monthlyCost": 500
+      },
+      "groceries": {
+        "monthlyCost": 320
+      },
+      "healthcare": {
+        "description": "International insurance",
+        "monthlyCost": 250
+      },
+      "transportation": {
+        "description": "Ride-hailing and the occasional domestic flight",
+        "monthlyCost": 150
+      },
+      "entertainment": {
+        "description": "Concerts, clubs, and domestic travel",
+        "monthlyCost": 350
+      },
+      "utilities": {
+        "monthlyCost": 100
+      },
+      "lifestyle": "A spacious modern apartment, frequent quality dining, international insurance, and domestic travel define a comfortable expat life — provided the visa and language barriers are surmountable."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury serviced apartment in the center",
+        "monthlyCost": 1600
+      },
+      "dining": {
+        "description": "Near-daily dining at top restaurants",
+        "monthlyCost": 1100
+      },
+      "groceries": {
+        "monthlyCost": 480
+      },
+      "healthcare": {
+        "description": "VIP international-clinic care",
+        "monthlyCost": 400
+      },
+      "transportation": {
+        "description": "Private car and ride-hailing",
+        "monthlyCost": 400
+      },
+      "entertainment": {
+        "description": "Premium nightlife, events, and travel",
+        "monthlyCost": 700
+      },
+      "utilities": {
+        "monthlyCost": 160
+      },
+      "domesticHelp": {
+        "description": "Part-time ayi (housekeeper)",
+        "monthlyCost": 400
+      },
+      "luxuryExtras": {
+        "description": "Frequent travel and premium experiences",
+        "monthlyCost": 700
+      },
+      "lifestyle": "A serviced luxury apartment, near-daily dining, a part-time ayi, and VIP international-clinic care. Premium urban living with frequent travel, well below the cost of China's tier-1 coastal cities."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Central penthouse",
+        "monthlyCost": 3500
+      },
+      "dining": {
+        "description": "Private-chef dining and the finest restaurants",
+        "monthlyCost": 2500
+      },
+      "groceries": {
+        "monthlyCost": 750
+      },
+      "healthcare": {
+        "description": "Concierge international healthcare",
+        "monthlyCost": 800
+      },
+      "transportation": {
+        "description": "Car and private driver",
+        "monthlyCost": 1000
+      },
+      "entertainment": {
+        "description": "Elite clubs, luxury travel, and a full social scene",
+        "monthlyCost": 1800
+      },
+      "utilities": {
+        "monthlyCost": 260
+      },
+      "domesticHelp": {
+        "description": "Full domestic staff",
+        "monthlyCost": 1200
+      },
+      "luxuryExtras": {
+        "description": "Luxury travel and bespoke experiences",
+        "monthlyCost": 2500
+      },
+      "lifestyle": "A penthouse, full domestic staff, a private driver, and concierge international healthcare. Fine dining and luxury travel make this Fat-FIRE living for a fraction of Western or coastal-China cost."
+    }
+  }
+}

@@ -17,6 +17,7 @@ import tokyo from './tokyo.json';
 import seoul from './seoul.json';
 import taipei from './taipei.json';
 import hongKong from './hong-kong.json';
+import chengdu from './chengdu.json';
 
 // South Asia
 import goa from './goa.json';
@@ -47,6 +48,8 @@ import malaga from './malaga.json';
 import nice from './nice.json';
 import rome from './rome.json';
 import edinburgh from './edinburgh.json';
+import istanbul from './istanbul.json';
+import berlin from './berlin.json';
 
 // Latin America
 import mexicoCity from './mexico-city.json';
@@ -61,6 +64,7 @@ import lakeChapala from './lake-chapala.json';
 import cartagena from './cartagena.json';
 import quito from './quito.json';
 import santiago from './santiago.json';
+import florianopolis from './florianopolis.json';
 
 // Caribbean
 import sanJuan from './san-juan.json';
@@ -118,6 +122,8 @@ import santaFe from './santa-fe.json';
 import fortWorth from './fort-worth.json';
 import sanJoseCA from './san-jose-ca.json';
 import wausau from './wausau.json';
+import vancouver from './vancouver.json';
+import cincinnati from './cincinnati.json';
 
 // Oceania
 import sydney from './sydney.json';
@@ -152,6 +158,7 @@ export const allCities: CityData[] = [
   seoul,
   taipei,
   hongKong,
+  chengdu,
   // South Asia
   goa,
   colombo,
@@ -180,6 +187,8 @@ export const allCities: CityData[] = [
   nice,
   rome,
   edinburgh,
+  istanbul,
+  berlin,
   // Latin America
   mexicoCity,
   medellin,
@@ -193,6 +202,7 @@ export const allCities: CityData[] = [
   cartagena,
   quito,
   santiago,
+  florianopolis,
   // Caribbean
   sanJuan,
   barbados,
@@ -248,6 +258,8 @@ export const allCities: CityData[] = [
   fortWorth,
   sanJoseCA,
   wausau,
+  vancouver,
+  cincinnati,
   // Oceania
   sydney,
   melbourne,

@@ -1,0 +1,200 @@
+{
+  "name": "Cincinnati",
+  "country": "United States",
+  "region": "North America",
+  "slug": "cincinnati",
+  "emoji": "🇺🇸",
+  "fireScore": 7.5,
+  "tagline": "Affordable Midwest Where Healthcare Is the Swing Variable",
+  "description": "Cincinnati is an affordable Midwestern metro — home to Procter & Gamble, Kroger, and Fifth Third — for FIRE retirees who want to stay in the US with low housing costs versus the coasts. The defining budget item is US healthcare: with the ACA's enhanced premium tax credits expired, the 400% federal-poverty-level subsidy cliff returned in 2026, so a single early retiree whose MAGI tops roughly $62,600 loses all premium tax credits and sees the monthly healthcare line jump from about $450 (subsidized) to near $1,000 (unsubsidized). Managing MAGI is the central planning lever here.",
+  "tags": {
+    "climate": "continental",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "N/A for US citizens (domestic relocation)",
+    "timezone": "EST/EDT (UTC−5/−4)",
+    "language": "English",
+    "internetSpeed": "Gigabit cable/fiber widely available",
+    "safetyRating": "Mixed by neighborhood; downtown and Over-the-Rhine revitalized, with some high-crime pockets",
+    "nearestAirport": "Cincinnati/Northern Kentucky International (CVG)",
+    "climate": "Humid continental — four distinct seasons",
+    "englishFriendly": "High",
+    "currency": "US Dollar (USD)",
+    "averageTemp": "54°F / 12°C"
+  },
+  "scores": {
+    "safety": 6.5,
+    "healthcare": 8.5,
+    "infrastructure": 7,
+    "expatFriendliness": 8
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Modest studio or 1BR in Westwood or College Hill",
+        "monthlyCost": 1000
+      },
+      "dining": {
+        "description": "Mostly home cooking with occasional meals out",
+        "monthlyCost": 200
+      },
+      "groceries": {
+        "monthlyCost": 400
+      },
+      "healthcare": {
+        "description": "A high-deductible Bronze plan — or a subsidized Silver plan if MAGI is kept under the 2026 ACA 400%-FPL cliff (~$62,600 single); above that income, premium tax credits disappear and this line climbs toward ~$1,000/mo",
+        "monthlyCost": 450
+      },
+      "transportation": {
+        "description": "A used car plus insurance (transit is weak)",
+        "monthlyCost": 250
+      },
+      "entertainment": {
+        "description": "Parks, the riverfront, and low-key local outings",
+        "monthlyCost": 150
+      },
+      "utilities": {
+        "monthlyCost": 200
+      },
+      "lifestyle": "A modest apartment in an affordable neighborhood, home cooking, an older paid-off car (transit is weak), and a high-deductible Bronze plan — effectively gambling on staying healthy. The 2026 ACA subsidy cliff makes healthcare the anxiety line item: keep MAGI under ~$62,600 and a subsidized Silver plan runs around $450, but cross the cliff and it jumps toward $1,000 a month."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "1BR in walkable Over-the-Rhine or Hyde Park",
+        "monthlyCost": 1350
+      },
+      "dining": {
+        "description": "Dining out regularly across the city's revitalized scene",
+        "monthlyCost": 450
+      },
+      "groceries": {
+        "monthlyCost": 500
+      },
+      "healthcare": {
+        "description": "A proper Silver plan (likely unsubsidized at a FIRE income)",
+        "monthlyCost": 650
+      },
+      "transportation": {
+        "description": "A reliable car",
+        "monthlyCost": 500
+      },
+      "entertainment": {
+        "description": "Concerts, sports, breweries, and weekend trips",
+        "monthlyCost": 300
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "lifestyle": "A 1BR in a walkable, revitalized district, dining out regularly, a reliable car, and a proper Silver plan. Comfortable Midwestern living — though at a FIRE income the Silver plan is most likely paid at full, unsubsidized price."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "2BR in Mt. Lookout or Hyde Park",
+        "monthlyCost": 1800
+      },
+      "dining": {
+        "description": "Frequent quality dining",
+        "monthlyCost": 800
+      },
+      "groceries": {
+        "monthlyCost": 600
+      },
+      "healthcare": {
+        "description": "A Gold plan that minimizes out-of-pocket; at a FIRE income above the ~$62,600 ACA cliff this is unsubsidized full price (the cliff returned in 2026)",
+        "monthlyCost": 850
+      },
+      "transportation": {
+        "description": "A comfortable car and regional driving",
+        "monthlyCost": 650
+      },
+      "entertainment": {
+        "description": "Travel, hobbies, events, and dining",
+        "monthlyCost": 500
+      },
+      "utilities": {
+        "monthlyCost": 300
+      },
+      "lifestyle": "A spacious place in a desirable neighborhood, frequent dining, and a Gold plan that minimizes out-of-pocket — bought at full price, since a FIRE income sits above the 2026 ACA cliff. Travel and hobbies round out a genuinely comfortable life."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Luxury downtown or Mt. Adams condo with a view",
+        "monthlyCost": 2800
+      },
+      "dining": {
+        "description": "Near-daily dining at the city's best tables",
+        "monthlyCost": 1500
+      },
+      "groceries": {
+        "monthlyCost": 750
+      },
+      "healthcare": {
+        "description": "A premium plan plus concierge/direct primary care",
+        "monthlyCost": 1100
+      },
+      "transportation": {
+        "description": "A luxury car",
+        "monthlyCost": 900
+      },
+      "entertainment": {
+        "description": "Premium leisure, events, and travel",
+        "monthlyCost": 1000
+      },
+      "utilities": {
+        "monthlyCost": 380
+      },
+      "domesticHelp": {
+        "description": "Weekly housekeeper",
+        "monthlyCost": 1200
+      },
+      "luxuryExtras": {
+        "description": "Frequent travel and premium experiences",
+        "monthlyCost": 1500
+      },
+      "lifestyle": "A view condo downtown or in Mt. Adams, near-daily dining, concierge medicine, weekly housekeeping, and premium leisure. Upscale living in an affordable metro, where the healthcare premium buys top-tier access."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Indian Hill estate or luxury penthouse",
+        "monthlyCost": 4500
+      },
+      "dining": {
+        "description": "Private-chef dining and the finest restaurants",
+        "monthlyCost": 3000
+      },
+      "groceries": {
+        "monthlyCost": 1000
+      },
+      "healthcare": {
+        "description": "Concierge medicine plus a top-tier plan",
+        "monthlyCost": 1800
+      },
+      "transportation": {
+        "description": "Luxury cars and charters",
+        "monthlyCost": 1500
+      },
+      "entertainment": {
+        "description": "Clubs, travel, and a full social calendar",
+        "monthlyCost": 2500
+      },
+      "utilities": {
+        "monthlyCost": 500
+      },
+      "domesticHelp": {
+        "description": "Full household staff",
+        "monthlyCost": 3000
+      },
+      "luxuryExtras": {
+        "description": "Bespoke travel, club memberships, and luxury experiences",
+        "monthlyCost": 4000
+      },
+      "lifestyle": "An estate in Indian Hill, full household help, concierge healthcare, luxury cars, and fine dining and travel. Fat-FIRE living in the Midwest, where housing is cheap and the splurge goes into staff, healthcare, and experiences."
+    }
+  }
+}

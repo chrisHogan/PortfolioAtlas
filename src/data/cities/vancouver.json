@@ -1,0 +1,200 @@
+{
+  "name": "Vancouver",
+  "country": "Canada",
+  "region": "North America",
+  "slug": "vancouver",
+  "emoji": "🇨🇦",
+  "fireScore": 8.3,
+  "tagline": "Pacific Quality of Life at a Premium",
+  "description": "Vancouver is a high-cost, high-quality-of-life Pacific city for FIRE retirees who prioritize nature, safety, clean air, and public healthcare over arbitrage. Mountains, ocean, and a mild maritime climate sit alongside one of North America's priciest housing markets — you pay for the setting, but the setting is extraordinary.",
+  "tags": {
+    "climate": "mediterranean",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No retirement visa; realistic routes are visitor status (6 months/entry), the family-sponsored Super Visa, or PR via Express Entry (age-penalized for retirees); MSP public healthcare is for PR/residents only, so visitors need private insurance",
+    "timezone": "PST/PDT (UTC−8/−7)",
+    "language": "English",
+    "internetSpeed": "Gigabit fiber widely available (~C$80/mo)",
+    "safetyRating": "Very safe; property crime and open drug use concentrated in the Downtown Eastside",
+    "nearestAirport": "Vancouver International (YVR)",
+    "climate": "Oceanic / marine west coast — mild, wet winters and drier summers",
+    "englishFriendly": "High",
+    "currency": "Canadian Dollar (CAD)",
+    "averageTemp": "52°F / 11°C"
+  },
+  "scores": {
+    "safety": 8.5,
+    "healthcare": 8.5,
+    "infrastructure": 9,
+    "expatFriendliness": 7
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Studio or 1BR in East Vancouver or Surrey",
+        "monthlyCost": 1500
+      },
+      "dining": {
+        "description": "Mostly home cooking with occasional casual meals out",
+        "monthlyCost": 200
+      },
+      "groceries": {
+        "monthlyCost": 350
+      },
+      "healthcare": {
+        "description": "MSP plus a basic extended health plan",
+        "monthlyCost": 80
+      },
+      "transportation": {
+        "description": "Compass-card transit across SkyTrain and bus",
+        "monthlyCost": 80
+      },
+      "entertainment": {
+        "description": "Hiking, beaches, parks, and the free outdoor lifestyle",
+        "monthlyCost": 150
+      },
+      "utilities": {
+        "monthlyCost": 180
+      },
+      "lifestyle": "A small or shared unit in an outer neighborhood, cooking at home, transit-dependent, and leaning on public healthcare — a tight existence in one of North America's priciest rental markets, but the mountains and ocean are free."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Proper 1BR in Kitsilano or Mount Pleasant",
+        "monthlyCost": 2100
+      },
+      "dining": {
+        "description": "Dining out weekly across Vancouver's strong food scene",
+        "monthlyCost": 500
+      },
+      "groceries": {
+        "monthlyCost": 450
+      },
+      "healthcare": {
+        "description": "Extended coverage on top of MSP",
+        "monthlyCost": 150
+      },
+      "transportation": {
+        "description": "Transit plus occasional car share and rideshare",
+        "monthlyCost": 100
+      },
+      "entertainment": {
+        "description": "Skiing, kayaking, gym, and the famous outdoor lifestyle",
+        "monthlyCost": 350
+      },
+      "utilities": {
+        "monthlyCost": 220
+      },
+      "lifestyle": "A proper 1BR in a desirable neighborhood, dining out weekly, a gym membership, and full access to the skiing-and-kayaking outdoor lifestyle. Extended coverage tops up public healthcare — comfortable, active, and distinctly West Coast."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Spacious well-located 1–2BR condo in the West End or Yaletown",
+        "monthlyCost": 3900
+      },
+      "dining": {
+        "description": "Frequent quality dining across the city",
+        "monthlyCost": 900
+      },
+      "groceries": {
+        "monthlyCost": 550
+      },
+      "healthcare": {
+        "description": "Comprehensive private coverage",
+        "monthlyCost": 250
+      },
+      "transportation": {
+        "description": "A car for regional trips and mountain access",
+        "monthlyCost": 400
+      },
+      "entertainment": {
+        "description": "Regional travel, events, and year-round outdoor recreation",
+        "monthlyCost": 600
+      },
+      "utilities": {
+        "monthlyCost": 260
+      },
+      "lifestyle": "A spacious, well-located condo, a car, frequent quality dining, and regional travel up to Whistler and across BC. Comprehensive coverage and an easy outdoor lifestyle make this the comfortable FIRE tier for a premium city."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Waterfront luxury condo in Coal Harbour",
+        "monthlyCost": 4500
+      },
+      "dining": {
+        "description": "Near-daily dining at the city's best restaurants",
+        "monthlyCost": 1800
+      },
+      "groceries": {
+        "monthlyCost": 700
+      },
+      "healthcare": {
+        "description": "Premium private coverage and concierge options",
+        "monthlyCost": 400
+      },
+      "transportation": {
+        "description": "A nice car (with BC's high insurance)",
+        "monthlyCost": 800
+      },
+      "entertainment": {
+        "description": "Premium leisure, events, and frequent travel",
+        "monthlyCost": 1200
+      },
+      "utilities": {
+        "monthlyCost": 320
+      },
+      "domesticHelp": {
+        "description": "Weekly housekeeping",
+        "monthlyCost": 800
+      },
+      "luxuryExtras": {
+        "description": "Ski-resort weekends, boating, and premium experiences",
+        "monthlyCost": 1500
+      },
+      "lifestyle": "A waterfront luxury condo in Coal Harbour, near-daily dining, a nice car, and weekly housekeeping. Premium leisure and frequent travel define an upscale Vancouver life with the harbour and mountains at the doorstep."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "West-side house or downtown penthouse",
+        "monthlyCost": 9000
+      },
+      "dining": {
+        "description": "Fine dining and private-chef occasions",
+        "monthlyCost": 3500
+      },
+      "groceries": {
+        "monthlyCost": 1000
+      },
+      "healthcare": {
+        "description": "Top-tier private and concierge healthcare",
+        "monthlyCost": 700
+      },
+      "transportation": {
+        "description": "Luxury vehicles and charters",
+        "monthlyCost": 1500
+      },
+      "entertainment": {
+        "description": "Boats, private clubs, and elite recreation",
+        "monthlyCost": 3000
+      },
+      "utilities": {
+        "monthlyCost": 450
+      },
+      "domesticHelp": {
+        "description": "Full domestic staff",
+        "monthlyCost": 2500
+      },
+      "luxuryExtras": {
+        "description": "Yachting, ski chalets, and bespoke travel",
+        "monthlyCost": 4000
+      },
+      "lifestyle": "A west-side house or penthouse, full domestic staff, fine dining, boats, and private clubs. Fat-FIRE living in one of the world's most scenic cities, with the cost to match."
+    }
+  }
+}
