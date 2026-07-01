@@ -238,7 +238,7 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
           </div>
 
           <div class="flex items-center gap-3 mt-3">
-            <span class="text-xs text-gray-400">Cost data: {DATA_RECENCY}</span>
+            <span class="text-xs text-gray-400">Cost data: {city.dataRecency ?? DATA_RECENCY}</span>
             <span class="text-xs text-gray-300">&middot;</span>
             <span class:list={[
               'text-xs font-medium',

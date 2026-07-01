@@ -81,6 +81,12 @@ export interface CityData {
   tags: CityTags;
   quickFacts: CityQuickFacts;
   tiers: Record<TierKey, TierCostBreakdown>;
+  /**
+   * When this city's cost data was last verified (e.g. 'Q1 2026', 'Q3 2026').
+   * Optional: when absent, the UI falls back to the global DATA_RECENCY default,
+   * so un-set cities render exactly as before. Set per-batch during data refreshes.
+   */
+  dataRecency?: string;
 }
 
 export function computeFireScore(scores: CityScores): number {
