@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "1BR apartment in Worthing or Hastings on the south coast; basic but near the beach",
-        "monthlyCost": 1450
+        "description": "Basic long-term 1BR in the south-coast strip (Worthing, Hastings, Rockley), dated but near the beach",
+        "monthlyCost": 800
       },
       "dining": {
-        "description": "Local Bajan food: fish cutters, macaroni pie at rum shops 2-3x/week; mostly cooking at home",
-        "monthlyCost": 300
+        "description": "Local fish cutters, rum-shop plates, and the Friday Oistins fish fry a few times a week; mostly home cooking",
+        "monthlyCost": 175
       },
       "groceries": {
-        "monthlyCost": 625
+        "monthlyCost": 400
       },
       "healthcare": {
-        "description": "Basic private health insurance; Queen Elizabeth Hospital available for emergencies",
-        "monthlyCost": 500
+        "description": "Basic local private plan (Sagicor) covering Bayview Hospital and Sandy Crest, with Queen Elizabeth Hospital for emergencies. Assumes an early retiree (45–55); older retirees should budget more",
+        "monthlyCost": 230
       },
       "transportation": {
-        "description": "Public minibuses (cheap and frequent) plus occasional taxi",
-        "monthlyCost": 125
+        "description": "Government minibuses and ZR vans at a flat fare, plus the occasional taxi; no car",
+        "monthlyCost": 90
       },
       "entertainment": {
-        "description": "Beach life, Friday night fish fry at Oistins, cricket matches, hiking",
+        "description": "Free beaches, cricket, east-coast hikes, and a basic gym",
         "monthlyCost": 100
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 210
       },
-      "lifestyle": "This is a tight budget for Barbados. Import duties push groceries to roughly double mainland US prices, utilities are expensive, and even basic private health insurance costs more than in Latin America. A one-bedroom apartment in Worthing or Hastings keeps you near the south coast beaches, but you cook at home most nights and take public minibuses. The beach is free and the Bajan culture is warm, but there is little financial cushion."
+      "lifestyle": "A dated but beach-close 1BR in the south-coast strip of Worthing, Hastings, or Rockley is the realistic entry point, because Barbados's import-driven prices put a hard floor under even a frugal budget. Groceries land near double mainland-US prices, electricity is among the most expensive in the region, and basic private health cover costs more than in Latin America. Getting around means the flat-fare minibuses and ZR vans, and most nights are cooked at home with a fish cutter or the Friday Oistins fish fry as the treat. The beach and the Bajan warmth are free, but there is little slack."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "Nice 2BR apartment in Christ Church or St. James with pool access",
-        "monthlyCost": 2325
+        "description": "Nicer south-coast 1BR or small condo with pool access in Dover, Rockley, or Christ Church",
+        "monthlyCost": 1400
       },
       "dining": {
-        "description": "Regular dining at Champers, Tides, and south coast restaurants; rum shop culture",
-        "monthlyCost": 525
+        "description": "Out a few times a week at mid-range spots, with the occasional cliffside dinner at Champers",
+        "monthlyCost": 350
       },
       "groceries": {
-        "monthlyCost": 625
+        "monthlyCost": 480
       },
       "healthcare": {
-        "description": "Comprehensive private insurance covering Bayview Hospital and Sandy Crest Medical",
-        "monthlyCost": 525
+        "description": "Fuller local and regional private cover",
+        "monthlyCost": 320
       },
       "transportation": {
-        "description": "Small rental car or own vehicle; island is only 21 miles long",
-        "monthlyCost": 250
+        "description": "A cheap older car with insurance, or heavy taxi use",
+        "monthlyCost": 275
       },
       "entertainment": {
-        "description": "Catamaran cruises, snorkeling, Crop Over festival, golf, beach clubs",
+        "description": "Catamaran and snorkel trips, a gym, and some golf",
         "monthlyCost": 200
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 260
       },
-      "lifestyle": "A nice two-bedroom in Christ Church or St. James with pool access gives you a comfortable base. You own a small car — the island is only 21 miles long, so everything is accessible — and dine at good restaurants like Champers several times a week. Comprehensive private health insurance and catamaran cruises or snorkeling trips are in budget. Costs are still higher than most Caribbean alternatives due to import duties on nearly everything."
+      "lifestyle": "A nicer south-coast 1BR or small condo with pool access in Dover, Rockley, or Christ Church buys real comfort on the developed south of the island. Dining out a few nights a week, with the occasional cliffside table at Champers, sits easily in budget alongside fuller private health cover. A cheap older car — carrying Barbados's stiff insurance and fuel costs — replaces the minibus for most trips. Catamaran cruises, snorkeling, a gym, and some golf round out an unhurried Caribbean routine, though import duties keep everyday costs above most island alternatives."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "3BR villa with pool on the west or south coast, or luxury beachfront condo",
-        "monthlyCost": 3075
+        "description": "Quality south-coast condo or an entry west-coast (St. James) place near the beach",
+        "monthlyCost": 2200
       },
       "dining": {
-        "description": "Fine dining on the Platinum Coast at The Cliff, Lone Star; regular entertaining at home",
-        "monthlyCost": 700
+        "description": "Dining out frequently across the south coast, with occasional Platinum Coast nights",
+        "monthlyCost": 575
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 550
       },
       "healthcare": {
-        "description": "Premium international insurance with medical evacuation to Miami or Martinique",
-        "monthlyCost": 525
+        "description": "International plan with medical evacuation to Miami or Martinique",
+        "monthlyCost": 450
       },
       "transportation": {
-        "description": "Own car, premium insurance; occasional island-hopping flights",
-        "monthlyCost": 300
+        "description": "An owned car with comprehensive insurance and Barbados's high fuel costs",
+        "monthlyCost": 380
       },
       "entertainment": {
-        "description": "Sailing, premium golf at Sandy Lane or Apes Hill, spa days, Crop Over VIP",
+        "description": "Golf, sailing, spa days, and Crop Over festivities",
         "monthlyCost": 350
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 320
       },
-      "lifestyle": "A three-bedroom villa with a pool on the west or south coast, or a beachfront condo, provides a comfortable home. You dine at west coast restaurants like The Cliff and Lone Star for special occasions, own a car, carry premium international health insurance, and sail or golf regularly. The island's compact size means everything is within 30 minutes. Housing and groceries still take large shares of the budget due to Barbados's high import costs."
+      "lifestyle": "A quality south-coast condo or an entry-level place on the prestigious west coast in St. James opens up beach-close living on the better side of the island. Dining out is frequent across the south with the occasional splurge on the Platinum Coast, and health cover steps up to an international plan with medical evacuation to Miami or Martinique — a meaningful upgrade given the island's limited tertiary care. An owned car handles the 21-mile island easily, if not cheaply. Golf, sailing, spa days, and Crop Over fill the calendar, with real budget margin left despite Barbados's structurally high costs."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Luxury beachfront villa on the west coast or estate home in Sandy Lane area",
-        "monthlyCost": 4325
+        "description": "West-coast Platinum Coast condo or small villa near St. James and Sandy Lane",
+        "monthlyCost": 3400
       },
       "dining": {
-        "description": "Private chef plus fine dining at The Cliff, Cin Cin, and exclusive hotel restaurants",
-        "monthlyCost": 850
+        "description": "Near-daily quality dining, including the west coast's best — The Cliff, Lone Star, Cin Cin",
+        "monthlyCost": 900
       },
       "groceries": {
-        "monthlyCost": 575
+        "monthlyCost": 650
       },
       "healthcare": {
-        "description": "Concierge medical with Miami specialist access; comprehensive international coverage",
-        "monthlyCost": 500
+        "description": "Comprehensive international cover with Miami specialist access",
+        "monthlyCost": 650
       },
       "transportation": {
-        "description": "Luxury vehicle, inter-island private flights, occasional yacht charter",
-        "monthlyCost": 350
+        "description": "A nicer car with premium insurance",
+        "monthlyCost": 600
       },
       "entertainment": {
-        "description": "Sandy Lane golf, yacht charters, polo matches, VIP Crop Over, Caribbean island hopping",
-        "monthlyCost": 500
+        "description": "Sandy Lane and Apes Hill golf, occasional yacht charters, VIP Crop Over",
+        "monthlyCost": 600
       },
       "utilities": {
-        "monthlyCost": 275
+        "monthlyCost": 420
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper, cook, gardener, and pool maintenance",
-        "monthlyCost": 850
+        "description": "Part-time housekeeper two or three days a week",
+        "monthlyCost": 450
       },
       "luxuryExtras": {
-        "description": "Caribbean yacht cruises, first-class travel to UK and US, art collecting, philanthropy",
-        "monthlyCost": 1075
+        "description": "Business-class travel to the UK and US, island-hopping, and club memberships",
+        "monthlyCost": 600
       },
-      "lifestyle": "A beachfront villa on the west coast or an estate home near Sandy Lane provides premium island housing. A housekeeper, cook, and gardener manage the property, and you dine at the island's best restaurants without thinking about cost. Golf at Sandy Lane or Apes Hill, a nice car, and business class flights round out a comfortable life. Housing takes a large share even at this tier — Barbados's west coast real estate is among the most expensive in the Caribbean."
+      "lifestyle": "A Platinum Coast condo or small villa near St. James and Sandy Lane places daily life on the west coast, home to the Caribbean's priciest real estate. A part-time housekeeper keeps the property, dining is near-daily and includes the island's marquee tables — The Cliff, Lone Star, Cin Cin — and comprehensive international cover carries Miami specialist access. Golf at Sandy Lane or Apes Hill, the occasional yacht charter, and VIP Crop Over define the leisure, with business-class travel to the UK and US built in. Housing still commands a large share here, a reflection of just how expensive the west coast runs."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Sandy Lane estate or sprawling beachfront compound on the platinum coast",
-        "monthlyCost": 5900
+        "description": "Long-term Platinum Coast luxury villa or beachfront condo in St. James — among the priciest real estate in the Caribbean",
+        "monthlyCost": 6500
       },
       "dining": {
-        "description": "Personal chef team, exclusive catered events, private dining experiences",
-        "monthlyCost": 1225
+        "description": "Routine fine dining at the west coast's best plus private-chef occasions",
+        "monthlyCost": 1900
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 850
       },
       "healthcare": {
-        "description": "Elite concierge medical, private physician, executive health program with Miami access",
-        "monthlyCost": 500
+        "description": "International concierge plan, worldwide including the US, with medical evacuation",
+        "monthlyCost": 1100
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, private yacht, chartered inter-island and transatlantic flights",
-        "monthlyCost": 725
+        "description": "Luxury vehicles plus charters and a driver when wanted",
+        "monthlyCost": 1500
       },
       "entertainment": {
-        "description": "Private yacht, Sandy Lane membership, polo, art collecting, exclusive global events",
-        "monthlyCost": 1225
+        "description": "Sandy Lane membership, polo, regular yacht charters, and elite events",
+        "monthlyCost": 1600
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 650
       },
       "domesticHelp": {
-        "description": "Full estate staff: chef, butler, housekeepers, groundskeepers, pool team, security, personal assistant",
-        "monthlyCost": 1725
+        "description": "Housekeeper, gardener, and pool maintenance for the property",
+        "monthlyCost": 1100
       },
       "luxuryExtras": {
-        "description": "Yacht ownership, first-class global travel, Barbados property portfolio, philanthropic foundation",
-        "monthlyCost": 2450
+        "description": "First-class global travel, yacht charter, and an unbounded lifestyle budget",
+        "monthlyCost": 2000
       },
-      "lifestyle": "A Sandy Lane estate or sprawling beachfront compound on the platinum coast with full household staff — cook, housekeepers, groundskeepers — anchors daily life. You dine freely, fly first class internationally, own a boat, and have a nice car. Housing takes a very large share of this budget because Barbados's top-end real estate is priced at international luxury levels. The island's safety, English-speaking culture, and established infrastructure make it a polished but expensive Caribbean base."
+      "lifestyle": "A long-term Platinum Coast villa or beachfront condo in St. James — some of the most expensive real estate in the Caribbean — anchors life at the top, staffed by a housekeeper, gardener, and pool crew. Dining is routine fine dining at the west coast's best with private-chef occasions layered in, and an international concierge plan provides worldwide coverage including the US, with evacuation. Luxury vehicles, chartered yachts, Sandy Lane membership, polo, and first-class global travel are all standard. Housing commands the largest share of even this budget, because Barbados's top-end real estate is priced at genuine international-luxury levels — the island's safety, English-speaking culture, and infrastructure are the premium being paid."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 5,
     "infrastructure": 5,
     "expatFriendliness": 8
-  }
+  },
+  "dataRecency": "Q3 2026"
 }
