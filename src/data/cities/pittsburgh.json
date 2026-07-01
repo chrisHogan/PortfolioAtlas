@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "1BR apartment in Bloomfield, Brookline, or Beechview",
-        "monthlyCost": 1400
+        "description": "Frugal 1BR in Beechview or Brookline (lowest NE-metro rent floor)",
+        "monthlyCost": 1025
       },
       "dining": {
-        "description": "Casual dining 2x/week at Strip District spots and neighborhood pierogis joints",
-        "monthlyCost": 275
+        "description": "Mostly home cooking; a Strip District or pierogi outing now and then",
+        "monthlyCost": 90
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 350
       },
       "healthcare": {
-        "description": "ACA marketplace Silver plan; access to UPMC and Allegheny Health Network",
-        "monthlyCost": 675
+        "description": "MAGI-managed subsidized Pennie Silver under the 2026 ACA 400%-FPL cliff (~$62,600); SW-PA is one of the cheapest ACA markets (UPMC vs Highmark), so the benchmark — and this line — is low. Above the cliff it goes full price. Assumes 45–55; older retirees budget more",
+        "monthlyCost": 425
       },
       "transportation": {
-        "description": "Pittsburgh Regional Transit bus and T light rail; occasional ride share",
-        "monthlyCost": 250
+        "description": "Car-lite (hills favor a car); Pittsburgh Regional Transit plus a modest vehicle",
+        "monthlyCost": 275
       },
       "entertainment": {
-        "description": "Free Carnegie Museum days, Three Rivers Heritage Trail, Point State Park, library events",
+        "description": "Free Carnegie museum days, Three Rivers Heritage Trail, Point State Park, library",
         "monthlyCost": 100
       },
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "A one-bedroom in Brookline or Beechview, where rents are well below most Northeastern cities. Pittsburgh's bus and light rail system covers enough of the city that you can avoid owning a car if you choose the right neighborhood. Free Carnegie Museum days, the Three Rivers Heritage Trail, and neighborhood pierogi shops keep costs low. Healthcare on an ACA plan gives you access to UPMC, one of the country's top hospital systems. Winters are cold and gray, but the overall cost of living makes this budget workable."
+      "lifestyle": "A one-bedroom in Beechview or Brookline sits well below the rent floor of any other Northeastern metro, which is why Pittsburgh anchors the bottom of this group. A car is useful given the hills, so transport runs a little higher than in the pure-transit cities, but health cover is unusually cheap — southwestern Pennsylvania is one of the least expensive ACA markets in the country thanks to UPMC-versus-Highmark competition, so even a managed subsidized plan is modest. Cooking at home is the norm, with a Strip District or pierogi outing now and then. Free Carnegie museum days, the Three Rivers Heritage Trail, and Point State Park keep the calendar full for very little. Cold, gray winters aside, this budget genuinely works here."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "2BR apartment in Lawrenceville or Shadyside, or a row house in Polish Hill",
-        "monthlyCost": 2025
+        "description": "Nicer 1BR in Lawrenceville, Shadyside, or Squirrel Hill",
+        "monthlyCost": 1400
       },
       "dining": {
-        "description": "Dining out 3-4x/week; enjoying Lawrenceville's booming restaurant scene and Strip District",
-        "monthlyCost": 525
+        "description": "Out regularly across the Strip District / Lawrenceville scene",
+        "monthlyCost": 250
       },
       "groceries": {
-        "monthlyCost": 525
+        "monthlyCost": 400
       },
       "healthcare": {
-        "description": "ACA Gold plan with dental and vision; UPMC is one of the best health systems in America",
-        "monthlyCost": 725
+        "description": "Proper Silver plan on the cheap local market (UPMC/Highmark)",
+        "monthlyCost": 480
       },
       "transportation": {
-        "description": "Reliable car for hill navigation, full coverage insurance, transit pass for downtown",
-        "monthlyCost": 425
+        "description": "Reliable car with insurance plus occasional transit",
+        "monthlyCost": 350
       },
       "entertainment": {
-        "description": "Steelers and Penguins games, Carnegie Museum membership, indie concerts, gym membership",
-        "monthlyCost": 275
+        "description": "Penguins/Steelers, a Carnegie membership, a gym",
+        "monthlyCost": 250
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 210
       },
-      "lifestyle": "A two-bedroom in Lawrenceville or Shadyside, dining out several times a week at the Strip District and the city's growing restaurant scene, and a car for navigating Pittsburgh's hills. You can afford Penguins or Steelers tickets, a Carnegie Museum membership, and a gym. A good ACA Gold plan with access to UPMC provides solid healthcare coverage. Weekend road trips to the Laurel Highlands or Ohiopyle are within easy reach."
+      "lifestyle": "A nicer one-bedroom in Lawrenceville, Shadyside, or Squirrel Hill puts daily life near Pittsburgh's booming restaurant and brewery scene. Dining out is a regular habit across the Strip District and beyond, healthcare is a proper Silver plan on the cheap local market, and a reliable car handles the hills. Penguins and Steelers games, a Carnegie membership, a gym, and weekend road trips to the Laurel Highlands or Ohiopyle all fit easily. Comfortable Midwestern-edge living at a genuinely low cost."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "3BR home in Squirrel Hill, Mt. Lebanon, or a renovated row house in the Mexican War Streets",
-        "monthlyCost": 2625
+        "description": "Quality 1–2BR in Squirrel Hill, Mt. Lebanon, or a Mexican War Streets rowhouse",
+        "monthlyCost": 1750
       },
       "dining": {
-        "description": "Regular fine dining at Altius, Morcilla, and Casbah; chef's tasting events and wine dinners",
-        "monthlyCost": 725
-      },
-      "groceries": {
-        "monthlyCost": 550
-      },
-      "healthcare": {
-        "description": "Premium private insurance with low deductibles; UPMC concierge-lite access",
-        "monthlyCost": 750
-      },
-      "transportation": {
-        "description": "Late-model AWD vehicle for Pittsburgh's hills and winters, premium insurance",
-        "monthlyCost": 500
-      },
-      "entertainment": {
-        "description": "Steelers season tickets, Pittsburgh Symphony season, Phipps Conservatory patron, golf club",
+        "description": "Frequent quality dining (Altius, Morcilla, Casbah)",
         "monthlyCost": 425
       },
-      "utilities": {
-        "monthlyCost": 225
+      "groceries": {
+        "monthlyCost": 450
       },
-      "lifestyle": "A spacious home in Squirrel Hill or Mt. Lebanon, regular dinners at restaurants like Altius and Morcilla, and Steelers season tickets. Premium health insurance through UPMC provides strong coverage. You can keep a late-model AWD vehicle for the hills and winters, join a golf club, and travel several times a year. Pittsburgh's moderate costs mean this budget leaves real margin each month -- something that would not happen in most Northeastern metros at this spending level."
+      "healthcare": {
+        "description": "Unsubsidized Gold (above the cliff), still cheaper than any peer metro (45yo Silver ~$400–450, 55yo ~$550–650)",
+        "monthlyCost": 575
+      },
+      "transportation": {
+        "description": "Late-model AWD for the hills and winters, premium insurance",
+        "monthlyCost": 400
+      },
+      "entertainment": {
+        "description": "Symphony subscription, Phipps, Steelers season",
+        "monthlyCost": 400
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "lifestyle": "A quality one- or two-bedroom in Squirrel Hill or Mt. Lebanon, or a renovated Mexican War Streets rowhouse, makes for a relaxed, financially secure Pittsburgh life. Dining is frequent at spots like Altius and Morcilla, healthcare is a full-price Gold plan that still costs less than in almost any peer metro, and a late-model AWD vehicle handles the hills and winters. A symphony subscription, Phipps membership, Steelers games, and several trips a year all fit with room left over. This is the tier where Pittsburgh's low cost base shows most clearly — the same money buys noticeably more margin than it would in Boston or New York."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Luxury home in Fox Chapel, Sewickley, or a renovated mansion on Grandview Avenue",
-        "monthlyCost": 3825
+        "description": "Luxury Grandview river-view condo or upscale Fox Chapel rental",
+        "monthlyCost": 2500
       },
       "dining": {
-        "description": "Private chef for entertaining, fine dining multiple nights per week, exclusive wine events",
-        "monthlyCost": 875
+        "description": "Near-daily dining at the city's best tables",
+        "monthlyCost": 850
       },
       "groceries": {
-        "monthlyCost": 550
+        "monthlyCost": 600
       },
       "healthcare": {
-        "description": "UPMC concierge medicine, executive wellness at Magee, comprehensive private insurance",
-        "monthlyCost": 725
+        "description": "Top unsubsidized plan plus UPMC concierge / direct-primary-care",
+        "monthlyCost": 1000
       },
       "transportation": {
-        "description": "Luxury vehicle, second car, premium insurance, occasional flights from PIT",
-        "monthlyCost": 625
+        "description": "Luxury vehicle, premium insurance, occasional flights from PIT",
+        "monthlyCost": 650
       },
       "entertainment": {
-        "description": "Private box at PNC Park, Pittsburgh Symphony patron, Phipps donor, country club membership",
-        "monthlyCost": 625
+        "description": "Country club, symphony patronage, premium leisure",
+        "monthlyCost": 650
       },
       "utilities": {
-        "monthlyCost": 225
+        "monthlyCost": 300
       },
       "domesticHelp": {
-        "description": "Weekly deep cleaning, landscaping, snow removal, seasonal home maintenance",
-        "monthlyCost": 475
+        "description": "Weekly housekeeper plus seasonal maintenance / snow removal",
+        "monthlyCost": 400
       },
       "luxuryExtras": {
-        "description": "Seven Springs ski weekends, quarterly travel, art collecting, Carnegie philanthropic events",
-        "monthlyCost": 1125
+        "description": "Frequent travel, Seven Springs ski weekends, experiences",
+        "monthlyCost": 650
       },
-      "lifestyle": "A large home in Fox Chapel or Sewickley with city or river views, concierge medicine through UPMC, and a housekeeper who comes weekly. You dine at the city's best restaurants regularly, drive a nice car, and fly business class for longer trips. A country club membership, Pittsburgh Symphony season tickets, and regular travel are all comfortable within this budget. Pittsburgh's affordability relative to other Northeastern metros means this level of spending provides a very well-appointed life with substantial margin."
+      "lifestyle": "A luxury river-view condo on Grandview Avenue or an upscale Fox Chapel rental, with a weekly housekeeper, marks a well-appointed Pittsburgh life. Fine dining is a near-daily option, healthcare adds UPMC concierge or direct-primary-care to a top plan, and a luxury vehicle with occasional flights covers travel. A country club membership, symphony patronage, ski weekends at Seven Springs, and regular travel are all comfortable. In a city this affordable, this level of spending provides a very generous life with substantial margin left each month."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Grand estate in Fox Chapel or Sewickley Heights, or a penthouse with three-river views",
-        "monthlyCost": 4750
+        "description": "Grand estate in Fox Chapel or Sewickley Heights, or a three-rivers-view penthouse",
+        "monthlyCost": 4500
       },
       "dining": {
-        "description": "Full-time personal chef, exclusive wine dinners, catered events at home and private clubs",
-        "monthlyCost": 1250
+        "description": "A private chef plus the finest restaurants",
+        "monthlyCost": 1900
       },
       "groceries": {
-        "monthlyCost": 475
+        "monthlyCost": 850
       },
       "healthcare": {
-        "description": "Top-tier UPMC concierge practice, executive wellness, specialist access on demand",
-        "monthlyCost": 625
+        "description": "Top-tier UPMC concierge practice plus a top plan",
+        "monthlyCost": 1350
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, private car service, chartered flights from PIT",
-        "monthlyCost": 800
+        "description": "Multiple luxury vehicles, car service, chartered flights from PIT",
+        "monthlyCost": 1500
       },
       "entertainment": {
-        "description": "Major Carnegie philanthropy, international travel, art collecting, Steelers ownership-level access",
-        "monthlyCost": 1050
+        "description": "Full social calendar, Carnegie-level philanthropy, international travel",
+        "monthlyCost": 1700
       },
       "utilities": {
-        "monthlyCost": 225
+        "monthlyCost": 500
       },
       "domesticHelp": {
-        "description": "Full-time estate manager, housekeeper, personal assistant, driver, groundskeeper",
-        "monthlyCost": 2200
+        "description": "Full staff-for-one: housekeeper, groundskeeper, driver/estate manager",
+        "monthlyCost": 1200
       },
       "luxuryExtras": {
-        "description": "Second home in the Laurel Highlands, first-class international travel, angel investing, major philanthropy",
-        "monthlyCost": 2525
+        "description": "Bespoke travel, club memberships, a Laurel Highlands second home",
+        "monthlyCost": 1900
       },
-      "lifestyle": "A large estate in Fox Chapel or a penthouse overlooking the three rivers, top-tier concierge medicine at UPMC, a cook who comes in several times a week, and full-time domestic help. You travel first class, keep multiple cars, and eat at the city's best restaurants without checking the bill. Pittsburgh's low cost of living at this budget level means enormous margin -- enough for a second home in the Laurel Highlands, regular charitable giving, and investments, all while living at a level that would cost far more in Boston or New York."
+      "lifestyle": "A grand estate in Fox Chapel or Sewickley Heights, or a penthouse over the three rivers, staffed by a full household team, is the top of what money buys in an affordable city. Dining spans a private chef and the finest restaurants, healthcare is a top-tier UPMC concierge practice, and a fleet of vehicles with charter flights from Pittsburgh International covers travel. Carnegie-level philanthropy, international trips, a second home in the Laurel Highlands, and a full social calendar are all comfortable. Because Pittsburgh's cost base is so low, even this lavish life leaves enormous margin — a level that would cost far more in the coastal metros."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 8,
     "infrastructure": 7,
     "expatFriendliness": 8
-  }
+  },
+  "dataRecency": "Q3 2026"
 }

@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "1BR apartment in Hialeah, Kendall, or outer Little Havana",
-        "monthlyCost": 2375
+        "description": "Older studio/efficiency in Hialeah, Kendall, or outer Little Havana (citywide studio ~$1,828; Little Havana ~$1,779; frugal end ~$1,600)",
+        "monthlyCost": 1600
       },
       "dining": {
-        "description": "Cuban ventanitas and food trucks 2-3x/week; mostly cooking at home",
-        "monthlyCost": 375
+        "description": "Cuban ventanitas and food trucks; mostly home cooking",
+        "monthlyCost": 200
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 370
       },
       "healthcare": {
-        "description": "ACA marketplace Silver plan; Florida premiums can be steep without subsidies",
-        "monthlyCost": 825
+        "description": "MAGI-managed subsidized ACA Silver/Bronze on the FL marketplace, kept under the 2026 400%-FPL cliff (~$62,600 single); income-capped contribution (~9.96% of MAGI). Above the cliff, premium tax credits vanish and this climbs to full price. Assumes an early retiree (45–55); older retirees budget more",
+        "monthlyCost": 500
       },
       "transportation": {
-        "description": "Paid-off car with basic insurance and gas; a car is essential outside downtown",
-        "monthlyCost": 425
+        "description": "Paid-off used car with Miami full coverage (~$389–408/mo, highest-premium FL metro) + gas + upkeep; a car is essential",
+        "monthlyCost": 470
       },
       "entertainment": {
-        "description": "Free beach days at South Beach and Key Biscayne, Wynwood street art walks, public parks",
-        "monthlyCost": 125
+        "description": "Free beaches (South Beach, Key Biscayne), Wynwood, public parks",
+        "monthlyCost": 170
       },
       "utilities": {
-        "monthlyCost": 275
+        "monthlyCost": 190
       },
-      "lifestyle": "A modest apartment in Hialeah or Kendall, well outside the beach and Brickell areas. You need a car, and housing costs eat up nearly half the budget. Cuban ventanitas and food trucks keep dining cheap, and the beach is free. Florida's zero state income tax is a real advantage at this budget level -- every dollar of your $3,333 monthly withdrawal stays with you. Summer A/C bills are a significant expense, but you never pay for heat."
+      "lifestyle": "An older studio or efficiency in Hialeah, Kendall, or outer Little Havana anchors a frugal but genuinely livable stretch of Miami retirement, well away from the beach and Brickell. Housing and the two stubborn US floors — a subsidized ACA health premium held down by managing income under the returned 400%-FPL cliff, and a paid-off car carrying Miami's punishing auto-insurance rates — take most of the budget, so meals lean on home cooking with Cuban ventanitas as the treat. The beaches at South Beach and Key Biscayne, Wynwood's street art, and the public parks cost nothing, which is the whole point at this level. Florida's zero state income tax means every dollar of the drawdown stays in hand. It is disciplined living, but the setting never feels austere."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "2BR apartment in Coral Gables, Coconut Grove, or a condo in Edgewater",
-        "monthlyCost": 3200
+        "description": "Modest-to-nice 1BR in Edgewater, Midtown, or a newer Kendall building",
+        "monthlyCost": 2300
       },
       "dining": {
         "description": "Regular dining in Wynwood and Brickell 3-4x/week; weekend brunch at waterfront cafes",
-        "monthlyCost": 800
+        "monthlyCost": 450
       },
       "groceries": {
-        "monthlyCost": 675
+        "monthlyCost": 490
       },
       "healthcare": {
-        "description": "ACA Gold plan with dental and vision; access to Baptist Health and Jackson Memorial",
-        "monthlyCost": 875
+        "description": "Full-price (unsubsidized) lowest-cost Silver/Bronze, ~48–50yo Miami-Dade — income now above the returned ACA cliff (the 500→850 jump IS the cliff)",
+        "monthlyCost": 850
       },
       "transportation": {
-        "description": "Reliable car with full coverage; Metrorail for downtown trips",
-        "monthlyCost": 525
+        "description": "Newer used car + premium Miami full coverage",
+        "monthlyCost": 680
       },
       "entertainment": {
         "description": "Heat games occasionally, Perez Art Museum, gym membership, salsa nights in Little Havana",
         "monthlyCost": 400
       },
       "utilities": {
-        "monthlyCost": 275
+        "monthlyCost": 260
       },
-      "lifestyle": "You can afford a comfortable apartment in Coral Gables, Coconut Grove, or Edgewater. You eat out several times a week in Wynwood and Brickell, keep a reliable car, and have room in the budget for Heat games and weekend drives to the Keys. No state income tax means the full $6,667 monthly budget is available to spend. The city's Latin-influenced dining and nightlife scene is accessible without stretching."
+      "lifestyle": "A comfortable one-bedroom in Edgewater, Midtown, or a newer Kendall building steps up into a real Miami neighborhood with the bay and nightlife close by. Income has crossed the ACA subsidy cliff at this level, so healthcare shifts to a full-price plan — a noticeable jump from the subsidized floor below — while a reliable car with full Miami coverage handles a spread-out city. Dining out several times a week across Wynwood and Brickell, a gym membership, and weekend trips to the Keys fit the budget. Zero state income tax keeps the whole withdrawal available to spend, and the Latin-influenced food and music scene is accessible without stretching."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "3BR home in Coconut Grove, waterfront condo in Brickell, or a house in Coral Gables",
-        "monthlyCost": 4175
+        "description": "Quality 1BR in Brickell, Edgewater, or Coral Gables (Brickell 1BR ~$3,084; Edgewater ~$2,850; Coral Gables ~$2,930)",
+        "monthlyCost": 3000
       },
       "dining": {
-        "description": "Fine dining at Mandolin, Ariete, and KYU; regular date nights along the waterfront",
-        "monthlyCost": 1050
+        "description": "Regular mid-range and fine dining in one of the country's best food cities",
+        "monthlyCost": 800
       },
       "groceries": {
-        "monthlyCost": 650
+        "monthlyCost": 600
       },
       "healthcare": {
-        "description": "Premium private health insurance with comprehensive coverage and low deductibles",
-        "monthlyCost": 825
+        "description": "Unsubsidized Miami-Dade Silver at full price (above the cliff); Miami-Dade carries among the nation's higher ACA benchmarks (avg Silver ~$1,125 age 50; FLOIR/MoneyGeek-derived)",
+        "monthlyCost": 1120
       },
       "transportation": {
-        "description": "Late-model SUV or sedan, premium insurance, occasional Uber Black for nights out",
-        "monthlyCost": 600
+        "description": "Late-model car + premium Miami insurance + rideshare/parking; car-dependent",
+        "monthlyCost": 950
       },
       "entertainment": {
-        "description": "Heat season tickets, Art Basel events, boat rental days on Biscayne Bay, premium gym",
-        "monthlyCost": 600
+        "description": "Frequent nightlife/events, boating day trips on Biscayne Bay",
+        "monthlyCost": 700
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 330
       },
-      "lifestyle": "A nice house in Coconut Grove or a waterfront condo in Brickell. You dine at good restaurants regularly, drive a late-model car, and have budget for boat rental days on Biscayne Bay and weekend trips to the Keys. At $10,000 a month with no state income tax, Miami is genuinely comfortable. Art Basel events, Heat season tickets, and a premium gym membership all fit within the budget."
+      "lifestyle": "A quality one-bedroom in Brickell, Edgewater, or Coral Gables puts daily life in Miami's most desirable, walkable core, within reach of the water. Dining out lands several times a week across one of the country's most dynamic food scenes, and healthcare is now a full-price, unsubsidized plan — the heaviest recurring line after housing, because Florida carries among the highest ACA premiums in the nation and a FIRE income sits above the subsidy cliff. A late-model car with premium Miami insurance covers a car-dependent city, with boating day trips on Biscayne Bay and weekend drives to the Keys built in. Art Basel events, a Heat game, and a good gym all fit comfortably. At this level Miami is genuinely affluent, with the zero-income-tax advantage compounding at every turn."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Luxury waterfront condo in Brickell Key, a home on Key Biscayne, or a Coral Gables estate",
-        "monthlyCost": 5725
+        "description": "Luxury water-view 1BR/2BR in Brickell, Coral Gables, or Coconut Grove",
+        "monthlyCost": 4800
       },
       "dining": {
-        "description": "Private chef for entertaining, fine dining at Zuma, Komodo, and Juvia multiple nights per week",
-        "monthlyCost": 1550
+        "description": "Frequent fine dining at the city's best rooms",
+        "monthlyCost": 1900
       },
       "groceries": {
-        "monthlyCost": 825
+        "monthlyCost": 850
       },
       "healthcare": {
-        "description": "Concierge medicine at Baptist Health, executive health screenings, premium private insurance",
-        "monthlyCost": 1025
+        "description": "Rich unsubsidized Gold/PPO plus a direct-primary-care / concierge retainer",
+        "monthlyCost": 1650
       },
       "transportation": {
-        "description": "Luxury vehicle, boat slip at a Biscayne Bay marina, occasional private car service",
-        "monthlyCost": 925
+        "description": "Luxury vehicle with Brickell parking, car service, boat slip on the bay",
+        "monthlyCost": 1500
       },
       "entertainment": {
-        "description": "Courtside Heat tickets, VIP Art Basel access, yacht days, country club membership, deep-sea fishing",
-        "monthlyCost": 1025
+        "description": "Courtside Heat tickets, VIP nightlife, country-club access",
+        "monthlyCost": 1400
       },
       "utilities": {
-        "monthlyCost": 350
+        "monthlyCost": 450
       },
       "domesticHelp": {
-        "description": "Weekly house cleaning, pool and landscaping service, hurricane preparation service",
-        "monthlyCost": 825
+        "description": "Weekly-plus housekeeper",
+        "monthlyCost": 650
       },
       "luxuryExtras": {
-        "description": "Quarterly Caribbean travel, boat ownership costs, spa retreats, art collecting",
-        "monthlyCost": 1550
+        "description": "Travel, wellness, club membership, personal training",
+        "monthlyCost": 1000
       },
-      "lifestyle": "A luxury waterfront condo on Brickell Key or a house on Key Biscayne. You have a housekeeper, a nice car, and a boat slip at a Biscayne Bay marina. Dining at top restaurants is routine, and business class flights to the Caribbean or Latin America are easy weekend additions. Florida's zero income tax is a major advantage at this budget -- the full $16,667 monthly withdrawal goes toward lifestyle rather than state taxes."
+      "lifestyle": "A luxury water-view apartment in Brickell, Coral Gables, or Coconut Grove, with a housekeeper on a weekly rhythm, marks a clearly upper-affluent Miami life. Fine dining is a frequent habit at the city's best rooms, healthcare adds a direct-primary-care or concierge retainer on top of a rich unsubsidized plan, and transport means a luxury vehicle with Brickell parking, car service, and a boat slip on the bay. Courtside Heat tickets, VIP nightlife, country-club access, and business-class travel to the Caribbean and Latin America all fit comfortably. Florida's zero income tax adds meaningful value at this spending level, sending the full withdrawal toward lifestyle rather than state taxes."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Star Island estate, Fisher Island residence, or penthouse in a luxury Brickell tower",
-        "monthlyCost": 7850
+        "description": "Waterfront luxury condo, high-floor, in Brickell, on Key Biscayne, or on Fisher/Star Island",
+        "monthlyCost": 9500
       },
       "dining": {
-        "description": "Full-time personal chef, catered events, exclusive restaurant experiences, private wine dinners",
-        "monthlyCost": 2150
+        "description": "Near-daily fine dining at the city's marquee tables",
+        "monthlyCost": 3300
       },
       "groceries": {
-        "monthlyCost": 725
+        "monthlyCost": 1200
       },
       "healthcare": {
-        "description": "Top concierge medical practice, executive wellness programs, specialist access at UHealth",
-        "monthlyCost": 1075
+        "description": "Top-tier mainland PPO (unsubsidized) plus a concierge-medicine retainer (US-market basis, not a worldwide-expat plan)",
+        "monthlyCost": 2400
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, yacht with captain, private car service, chartered flights from Opa-locka",
-        "monthlyCost": 1425
+        "description": "Luxury car(s), car service, boat slip and upkeep",
+        "monthlyCost": 2400
       },
       "entertainment": {
-        "description": "Luxury box at Hard Rock Stadium, major arts philanthropy, international travel, yacht cruises to the Bahamas",
-        "monthlyCost": 1775
+        "description": "VIP Art Basel, courtside seats, charters, events",
+        "monthlyCost": 2500
       },
       "utilities": {
-        "monthlyCost": 350
+        "monthlyCost": 700
       },
       "domesticHelp": {
-        "description": "Full-time estate manager, housekeeper, personal assistant, boat captain, pool and grounds crew",
-        "monthlyCost": 3225
+        "description": "Near-daily housekeeper plus part-time personal assistant (staff-for-one)",
+        "monthlyCost": 2600
       },
       "luxuryExtras": {
-        "description": "Yacht ownership, first-class international travel, real estate investing, philanthropic giving, art collecting",
-        "monthlyCost": 3575
+        "description": "First-class travel, yacht charter, luxury shopping, memberships, philanthropy",
+        "monthlyCost": 3400
       },
-      "lifestyle": "A large residence on Fisher Island or a penthouse in a luxury Brickell tower. You have a full-time housekeeper, a cook who comes in several times a week, and a personal assistant. You dine wherever you want, travel first class, and own a boat for day trips on Biscayne Bay. Florida's zero state income tax means the full $33,333 monthly budget is available for spending. The lifestyle is wealthy and comfortable, with year-round warm weather and easy access to the Caribbean."
+      "lifestyle": "A high-floor waterfront residence in Brickell or on Key Biscayne or Fisher Island, kept by near-daily household staff, sits at the top of what Miami money buys — second in this batch only to what New York commands. Dining is a near-daily affair at the city's marquee tables, healthcare pairs a top-tier mainland PPO with a concierge-medicine retainer, and transport spans a luxury vehicle, car service, and a slip on Biscayne Bay. VIP Art Basel access, courtside seats, yacht days to the Bahamas, and first-class travel are simply part of the calendar, with a generous discretionary and philanthropy budget on top. The glamour, the international energy, and the year-round warmth make this an uncapped luxury life — and Florida's zero state income tax keeps the entire withdrawal working toward it."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 8,
     "infrastructure": 7,
     "expatFriendliness": 9
-  }
+  },
+  "dataRecency": "Q3 2026"
 }

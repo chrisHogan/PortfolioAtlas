@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "1BR apartment in Fishtown, South Philly, or Manayunk",
-        "monthlyCost": 2200
+        "description": "Frugal 1BR on a cheaper block in South Philly or Fishtown",
+        "monthlyCost": 1450
       },
       "dining": {
-        "description": "Cheesesteaks, Reading Terminal Market, and BYOB restaurants 2-3x/week",
-        "monthlyCost": 375
+        "description": "Mostly home cooking; cheesesteaks and BYOB out occasionally",
+        "monthlyCost": 120
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 380
       },
       "healthcare": {
-        "description": "ACA Silver plan via Pennie marketplace; Penn Medicine and Jefferson nearby",
-        "monthlyCost": 775
+        "description": "MAGI-managed subsidized Pennie Silver kept under the 2026 ACA 400%-FPL cliff (~$62,600 single); above that, premium tax credits vanish and this line climbs to full price. Assumes 45–55; older retirees budget more",
+        "monthlyCost": 470
       },
       "transportation": {
-        "description": "SEPTA monthly pass for subway, bus, and regional rail; many areas walkable",
-        "monthlyCost": 175
+        "description": "SEPTA monthly TransPass ($116) plus rare rideshare",
+        "monthlyCost": 120
       },
       "entertainment": {
-        "description": "Free First Fridays at galleries, Schuylkill River Trail runs, Fairmount Park",
-        "monthlyCost": 150
+        "description": "First Fridays, Schuylkill River Trail, Fairmount Park",
+        "monthlyCost": 140
       },
       "utilities": {
-        "monthlyCost": 225
+        "monthlyCost": 220
       },
-      "lifestyle": "You can rent a one-bedroom in Fishtown or South Philly and rely on SEPTA instead of owning a car, which keeps costs down significantly. Philly's BYOB restaurant culture makes dining out affordable a couple of times a week, and there is no sales tax on groceries or clothing. Free gallery nights, the Schuylkill River Trail, and Fairmount Park provide regular entertainment."
+      "lifestyle": "A frugal one-bedroom on a cheaper block in South Philly or Fishtown is comfortably within reach, and this is the main reason Philadelphia sits so much lower than New York or Boston — its housing floor is genuinely moderate. A SEPTA pass at $116 covers most trips, health is a MAGI-managed subsidized Silver plan through Pennie, and Pennsylvania's exemption of groceries and clothing from sales tax quietly lifts the budget. Cheesesteaks, Reading Terminal Market, and the city's BYOB culture make eating out affordable, while First Fridays, the Schuylkill River Trail, and Fairmount Park cost nothing. It is a real urban East Coast life on a lean budget."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "Nice 2BR in Rittenhouse Square area, Northern Liberties, or Fairmount",
-        "monthlyCost": 2975
+        "description": "Nicer 1BR in Fishtown, Northern Liberties, or Graduate Hospital",
+        "monthlyCost": 2000
       },
       "dining": {
-        "description": "Dining out 3-4x/week at Philly's acclaimed BYOB scene and top restaurants",
-        "monthlyCost": 750
+        "description": "Out regularly across the city's strong scene",
+        "monthlyCost": 280
       },
       "groceries": {
-        "monthlyCost": 625
+        "monthlyCost": 470
       },
       "healthcare": {
-        "description": "ACA Gold plan with dental and vision; access to Penn Medicine and CHOP networks",
-        "monthlyCost": 800
+        "description": "Unsubsidized Silver/Gold for a ~50yo (above the cliff at a FIRE income)",
+        "monthlyCost": 620
       },
       "transportation": {
-        "description": "SEPTA pass plus occasional Uber; weekend car rental for shore trips",
-        "monthlyCost": 275
+        "description": "SEPTA pass plus Zipcar/rideshare",
+        "monthlyCost": 220
       },
       "entertainment": {
-        "description": "Eagles or Phillies tickets, Philadelphia Museum of Art membership, gym, Jersey Shore weekends",
-        "monthlyCost": 475
+        "description": "Concerts, breweries, Phillies/Eagles, weekend trips",
+        "monthlyCost": 280
       },
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "You can rent a nice apartment near Rittenhouse Square or in Northern Liberties and eat out several times a week at the restaurant scene that has put Philly on the national food map. Eagles or Phillies tickets, weekend trips to the Jersey Shore, and Amtrak access to New York and D.C. are all within budget. Philadelphia offers a lot of urban life for the money compared to Boston or New York."
+      "lifestyle": "A nicer one-bedroom in Fishtown, Northern Liberties, or Graduate Hospital buys a lively, walkable neighborhood with the city's food scene at the doorstep. Dining out is a regular habit, healthcare is a solid unsubsidized Silver or Gold plan, and a SEPTA pass with Zipcar or rideshare covers the rest. Concerts, breweries, Phillies and Eagles games, and weekend trips to the Jersey Shore all fit. Philadelphia delivers a lot of urban life for the money at this level."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Rittenhouse Square condo, Society Hill townhouse, or a Chestnut Hill home",
-        "monthlyCost": 3675
+        "description": "Quality 1BR condo in Rittenhouse Square, Society Hill, or Chestnut Hill",
+        "monthlyCost": 2300
       },
       "dining": {
-        "description": "Regular dining at top restaurants like Zahav, Vernick, Vetri Cucina; daily cafe stops",
-        "monthlyCost": 975
+        "description": "Frequent quality dining (Zahav, Vernick, the BYOB circuit)",
+        "monthlyCost": 480
       },
       "groceries": {
-        "monthlyCost": 675
+        "monthlyCost": 520
       },
       "healthcare": {
-        "description": "Premium private insurance with Penn Medicine network and comprehensive coverage",
-        "monthlyCost": 825
+        "description": "Unsubsidized Pennie Gold (SE-PA benchmark Silver ~$553 @45 / ~$712 @55), Penn Medicine network",
+        "monthlyCost": 650
       },
       "transportation": {
-        "description": "Late-model car for suburban and shore trips, SEPTA for daily errands, premium insurance",
-        "monthlyCost": 450
+        "description": "Modest car with parking, or heavy rideshare plus Regional Rail",
+        "monthlyCost": 400
       },
       "entertainment": {
-        "description": "Eagles season tickets, Philadelphia Orchestra subscriptions, premium gym, Brandywine Valley trips",
-        "monthlyCost": 600
+        "description": "Orchestra subscription, Eagles games, travel",
+        "monthlyCost": 450
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 290
       },
-      "lifestyle": "You can rent a condo in Rittenhouse Square or a townhouse in Society Hill, and dine regularly at restaurants like Zahav and Vernick. Eagles season tickets, a Philadelphia Orchestra subscription, and a car for weekend drives to Brandywine Valley or the shore all fit comfortably. Good private insurance through the Penn Medicine network and the city's walkability make daily life convenient."
+      "lifestyle": "A quality one-bedroom condo in Rittenhouse Square, Society Hill, or Chestnut Hill puts daily life in Philadelphia's most desirable, walkable core. Dining is frequent across a restaurant scene that has earned national attention — Zahav, Vernick, and the BYOB circuit — and healthcare is a proper unsubsidized Gold plan through the Penn Medicine network. A modest car or heavy rideshare plus Regional Rail covers errands and weekend drives to the Brandywine Valley or the shore. An orchestra subscription, Eagles games, and easy Amtrak access to New York and Washington round it out. The moderate cost base leaves real margin at this level."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Luxury Rittenhouse penthouse, historic Main Line estate, or Society Hill mansion",
-        "monthlyCost": 4950
+        "description": "Luxury high-rise or amenity building near Rittenhouse Square",
+        "monthlyCost": 3600
       },
       "dining": {
-        "description": "Fine dining multiple times per week, private chef for dinner parties",
-        "monthlyCost": 1375
+        "description": "Near-daily dining at the city's best tables",
+        "monthlyCost": 1000
       },
       "groceries": {
-        "monthlyCost": 750
+        "monthlyCost": 680
       },
       "healthcare": {
-        "description": "Concierge medicine at Penn Medicine; executive wellness at Jefferson",
-        "monthlyCost": 975
+        "description": "Top unsubsidized plan plus concierge / direct-primary-care (Penn Medicine / Jefferson)",
+        "monthlyCost": 1100
       },
       "transportation": {
-        "description": "Luxury vehicle, private car service, Acela first-class to NYC and DC",
-        "monthlyCost": 775
+        "description": "Luxury car with Center City parking, or first-class Acela",
+        "monthlyCost": 750
       },
       "entertainment": {
-        "description": "Eagles box seats, Philadelphia Museum of Art patron, Main Line country club, premium experiences",
-        "monthlyCost": 975
+        "description": "Museum patronage, Eagles box seats, frequent trips",
+        "monthlyCost": 750
       },
       "utilities": {
-        "monthlyCost": 350
+        "monthlyCost": 380
       },
       "domesticHelp": {
-        "description": "Weekly deep cleaning, landscaping, personal assistant, seasonal maintenance",
-        "monthlyCost": 775
+        "description": "Weekly housekeeper",
+        "monthlyCost": 450
       },
       "luxuryExtras": {
-        "description": "Quarterly travel, art collecting, Brandywine Valley outings, philanthropy",
-        "monthlyCost": 1375
+        "description": "Frequent travel, premium experiences",
+        "monthlyCost": 700
       },
-      "lifestyle": "A large Rittenhouse penthouse or a historic home on the Main Line, regular dining at Philadelphia's best restaurants, and a housekeeper who comes weekly. Concierge medicine at Penn Medicine, a nice car, and business class Acela to New York or D.C. are standard. Museum patron memberships, box seats at Eagles games, and weekend trips to the shore round out the budget."
+      "lifestyle": "A luxury high-rise or amenity building near Rittenhouse Square, with a weekly housekeeper, marks an upper-affluent Philadelphia life. Fine dining is a near-daily option at the city's best tables, healthcare adds a concierge or direct-primary-care retainer to a top plan, and a nice car with Center City parking or first-class Acela handles travel. Museum patronage, Eagles box seats, and frequent trips are comfortable within the budget. The city's relative affordability means this level of spending buys a genuinely well-appointed life with room to spare."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Historic Rittenhouse mansion, grand Main Line estate, or Chestnut Hill landmark property",
-        "monthlyCost": 6725
+        "description": "Historic Rittenhouse mansion or a grand Main Line estate",
+        "monthlyCost": 6500
       },
       "dining": {
-        "description": "Personal chef, exclusive wine dinners, catered events in historic settings",
-        "monthlyCost": 1875
+        "description": "A private chef plus the region's finest tables",
+        "monthlyCost": 2200
       },
       "groceries": {
-        "monthlyCost": 725
+        "monthlyCost": 950
       },
       "healthcare": {
-        "description": "Top-tier concierge at Penn Medicine, executive screenings, specialist VIP access",
-        "monthlyCost": 1000
+        "description": "Top plan plus premium concierge (Penn Medicine / Jefferson executive health)",
+        "monthlyCost": 1450
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, private driver, first-class rail access",
-        "monthlyCost": 1000
+        "description": "Luxury vehicles plus charters / first-class Acela",
+        "monthlyCost": 1700
       },
       "entertainment": {
-        "description": "Private suite at stadiums, museum trustee events, international travel, art patronage",
-        "monthlyCost": 1675
+        "description": "Private stadium suite, museum-trustee involvement, international travel",
+        "monthlyCost": 1900
       },
       "utilities": {
-        "monthlyCost": 325
+        "monthlyCost": 550
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper, estate manager, personal assistant, property staff",
-        "monthlyCost": 2825
+        "description": "Full household staff-for-one",
+        "monthlyCost": 1400
       },
       "luxuryExtras": {
-        "description": "First-class international travel, shore house, museum endowments, charitable foundation",
-        "monthlyCost": 3350
+        "description": "Bespoke travel, club memberships, philanthropy",
+        "monthlyCost": 2200
       },
-      "lifestyle": "Premium housing in Rittenhouse or a grand Main Line estate, regular fine dining, a cook who comes several times a week, and a housekeeper. First class travel, full concierge healthcare at Penn Medicine, and a private suite at the stadiums. Philadelphia's relatively affordable cost base means this budget goes further than it would in New York, with easy Acela access to Manhattan when you want it."
+      "lifestyle": "A historic Rittenhouse mansion or a grand Main Line estate, run by full household staff, anchors life at the top of Philadelphia — and because the city's cost base is moderate, the budget stretches further here than it would in New York. Dining spans a private chef and the region's finest tables, healthcare is a top plan with Penn Medicine or Jefferson executive-concierge access, and a fleet of luxury vehicles or first-class Acela covers travel up and down the corridor. A private stadium suite, museum-trustee involvement, bespoke travel, and a philanthropy budget are all comfortable. This is established wealth in a city that quietly delivers more lifestyle per dollar than its neighbors, with Manhattan an hour away when wanted."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 9,
     "infrastructure": 7,
     "expatFriendliness": 8
-  }
+  },
+  "dataRecency": "Q3 2026"
 }

@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "1BR apartment in Midtown, Thunderbolt, or the Starland District",
-        "monthlyCost": 1575
+        "description": "Studio/small 1BR in Thunderbolt, quieter Midtown, or the Starland District (city 1BR avg ~$1,427; cheap 1BR ~$1,309)",
+        "monthlyCost": 1200
       },
       "dining": {
-        "description": "Casual Southern fare 2-3x/week; meat-and-three spots and seafood shacks",
-        "monthlyCost": 275
-      },
-      "groceries": {
-        "monthlyCost": 450
-      },
-      "healthcare": {
-        "description": "ACA Silver plan on the Georgia marketplace; Memorial Health nearby",
-        "monthlyCost": 625
-      },
-      "transportation": {
-        "description": "Older paid-off car with insurance and gas; Savannah is partly walkable",
-        "monthlyCost": 325
-      },
-      "entertainment": {
-        "description": "Free walks through the 22 squares, Forsyth Park, Tybee Island beach days",
-        "monthlyCost": 125
-      },
-      "utilities": {
+        "description": "Casual Southern fare a few times a week; mostly home cooking",
         "monthlyCost": 175
       },
-      "lifestyle": "A one-bedroom in Midtown or the Starland District runs around $1,250, leaving enough for groceries, a car, and basic health coverage. You cook most meals at home but can afford casual Southern restaurants a couple of times a week. The 22 historic squares and Forsyth Park are free to enjoy daily, and Tybee Island is a short drive. Summer A/C is the biggest recurring cost to watch."
+      "groceries": {
+        "monthlyCost": 340
+      },
+      "healthcare": {
+        "description": "MAGI-managed subsidized ACA Silver on the Georgia marketplace, kept under the 2026 400%-FPL cliff (~$62,600 single); income-capped. Above the cliff it climbs to full price. Assumes an early retiree (45–55); older retirees budget more",
+        "monthlyCost": 470
+      },
+      "transportation": {
+        "description": "Paid-off used car + GA full coverage (~$180–250, gentler than FL) + gas",
+        "monthlyCost": 340
+      },
+      "entertainment": {
+        "description": "Free walks through the 22 squares, Forsyth Park, Tybee day trips",
+        "monthlyCost": 150
+      },
+      "utilities": {
+        "monthlyCost": 190
+      },
+      "lifestyle": "A frugal studio or small one-bedroom in Thunderbolt, quieter Midtown, or the Starland District anchors an affordable, walkable-ish life in one of the South's most charming small cities. A subsidized ACA plan, held down by managing income under the returned 400%-FPL cliff, and a paid-off car — Georgia's insurance runs gentler than Florida's, easing the transport line — are the recurring floors, with most meals cooked at home and casual Southern spots a few times a week. The 22 moss-draped squares, Forsyth Park, and a short drive to Tybee Island beach cost nothing. Summer air-conditioning is the bill to watch, but Savannah's cheaper housing makes this the most comfortable lean budget in the batch."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "2BR apartment in the Historic District, Victorian District, or Ardsley Park",
-        "monthlyCost": 2175
+        "description": "Nicer 1BR on the Starland or Ardsley Park edge",
+        "monthlyCost": 1500
       },
       "dining": {
         "description": "Dining out 3-4x/week at River Street restaurants and local favorites",
-        "monthlyCost": 575
+        "monthlyCost": 360
       },
       "groceries": {
-        "monthlyCost": 525
+        "monthlyCost": 400
       },
       "healthcare": {
-        "description": "ACA Gold plan with dental and vision; solid regional hospital access",
+        "description": "Full-price (unsubsidized) low-cost Silver/Bronze, ~48yo — income above the returned ACA cliff",
         "monthlyCost": 700
       },
       "transportation": {
         "description": "Reliable mid-range car, insurance, gas for beach and day trip outings",
-        "monthlyCost": 400
+        "monthlyCost": 430
       },
       "entertainment": {
-        "description": "SCAD museum events, ghost tours, Tybee pier fishing, gym, live music on River Street",
-        "monthlyCost": 325
+        "description": "SCAD events, River Street live music",
+        "monthlyCost": 280
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 230
       },
-      "lifestyle": "A two-bedroom in the Historic District, Victorian District, or Ardsley Park is comfortable at this budget. You can dine out several times a week along River Street and at local favorites, carry good health insurance, and spend weekends at Tybee Island without worrying about costs. SCAD events and live music keep the cultural calendar full."
+      "lifestyle": "A nicer one-bedroom on the Starland or Ardsley Park edge buys a lively, walkable pocket near the city's arts scene. Income has crossed the ACA subsidy cliff, so healthcare becomes a full-price plan, and a reliable car handles beach and day trips. Dining out a few times a week along River Street and at local favorites, SCAD events, and live music fill the calendar, with solid health coverage rounding things out. Savannah's affordability makes this a genuinely comfortable level in a beautiful setting."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Historic rowhouse on a square, or a waterfront home on Wilmington Island",
-        "monthlyCost": 2900
+        "description": "Quality 1BR in the Historic District, Victorian District, or Ardsley Park",
+        "monthlyCost": 1850
       },
       "dining": {
-        "description": "Regular dining at The Grey, Elizabeth on 37th, and The Olde Pink House",
-        "monthlyCost": 775
+        "description": "The Grey, Elizabeth on 37th, the Olde Pink House",
+        "monthlyCost": 520
       },
       "groceries": {
-        "monthlyCost": 525
+        "monthlyCost": 460
       },
       "healthcare": {
-        "description": "Premium private insurance with comprehensive coverage; specialist access in town",
-        "monthlyCost": 675
+        "description": "Unsubsidized Chatham-rating-area Silver at full price (above the cliff); GA runs COMPETITIVE with Florida, not below (cheapest Silver ~$956 @50) — see Discrepancy 3",
+        "monthlyCost": 920
       },
       "transportation": {
-        "description": "Late-model SUV, premium insurance, boat fuel for river excursions",
-        "monthlyCost": 425
+        "description": "Reliable car + GA insurance",
+        "monthlyCost": 500
       },
       "entertainment": {
-        "description": "Golf club membership, boating on the Intracoastal Waterway, SCAD patron, premium gym",
-        "monthlyCost": 475
+        "description": "SCAD arts, golf, Intracoastal boating",
+        "monthlyCost": 380
       },
       "utilities": {
-        "monthlyCost": 225
+        "monthlyCost": 270
       },
-      "lifestyle": "A historic rowhouse on one of the squares or a waterfront home on Wilmington Island is well within reach. Regular dinners at The Grey and Elizabeth on 37th, a golf membership, and weekend boating on the Intracoastal Waterway fill the calendar. This budget leaves comfortable margin for travel and savings. Savannah's small-city scale makes it easy to build a social circle."
+      "lifestyle": "A quality one-bedroom in the Historic District, the Victorian District, or Ardsley Park puts daily life among the squares and live oaks, walkable to River Street and the waterfront. Dining out is frequent at The Grey, Elizabeth on 37th, and the Olde Pink House, and healthcare is a full-price, unsubsidized plan — Georgia's ACA premiums run competitive with Florida's, so this line is no bargain once income clears the subsidy cliff. A reliable car handles the region, with boating on the Intracoastal and Tybee day trips built in. SCAD arts events, live music, and a golf membership fit comfortably. Savannah's low housing base leaves the most travel-and-savings margin of the batch at this level."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Grand historic mansion on Monterey Square or beachfront estate on Tybee Island",
-        "monthlyCost": 3650
+        "description": "Grand residence on a Historic square or an Ardsley Park home",
+        "monthlyCost": 3000
       },
       "dining": {
-        "description": "Fine dining weekly, private chef for Southern supper parties, wine events",
-        "monthlyCost": 1075
+        "description": "Frequent fine dining (The Grey tier)",
+        "monthlyCost": 900
       },
       "groceries": {
-        "monthlyCost": 575
+        "monthlyCost": 600
       },
       "healthcare": {
-        "description": "Concierge medicine; executive wellness programs; easy access to specialists",
-        "monthlyCost": 750
+        "description": "Rich unsubsidized Gold/PPO plus a direct-primary-care / concierge retainer",
+        "monthlyCost": 1250
       },
       "transportation": {
-        "description": "Luxury vehicle, boat for the Intracoastal Waterway, premium insurance",
-        "monthlyCost": 625
+        "description": "Luxury car + Intracoastal boat",
+        "monthlyCost": 900
       },
       "entertainment": {
-        "description": "Private club memberships, Savannah Film Festival patron, deep-sea fishing charters",
-        "monthlyCost": 750
+        "description": "Private clubs, Film Festival patron",
+        "monthlyCost": 700
       },
       "utilities": {
-        "monthlyCost": 275
+        "monthlyCost": 420
       },
       "domesticHelp": {
-        "description": "Weekly cleaning, garden and grounds maintenance, personal assistant",
-        "monthlyCost": 575
+        "description": "Weekly housekeeper",
+        "monthlyCost": 450
       },
       "luxuryExtras": {
-        "description": "Quarterly travel, historic preservation philanthropy, art collecting, spa retreats",
-        "monthlyCost": 1075
+        "description": "Travel, preservation philanthropy, spa",
+        "monthlyCost": 650
       },
-      "lifestyle": "A large historic home on Monterey Square or a beachfront property on Tybee Island, a housekeeper who comes weekly, and regular fine dining. A boat for the Intracoastal Waterway is affordable, and business class flights for longer trips fit the budget. Savannah's lower costs compared to Charleston or the Florida coast mean this level of spending covers a well-staffed, well-traveled life with plenty of margin."
+      "lifestyle": "A grand residence on a Historic square or an Ardsley Park home, with a weekly housekeeper, marks an upper-affluent Savannah life. Fine dining is frequent at The Grey and the city's best tables, healthcare adds a concierge or direct-primary-care retainer to a full-price plan, and a luxury car with a boat for the Intracoastal covers the outings. Private-club memberships, Film Festival patronage, and business-class travel are all within budget. Savannah's lower costs compared with Charleston or the Florida coast mean this level of spending covers a well-appointed, well-traveled life with plenty of margin."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Landmark historic estate on a prime square or waterfront compound with dock access",
-        "monthlyCost": 4625
+        "description": "Grand historic home on a square, or a Wilmington/Tybee Island waterfront estate",
+        "monthlyCost": 5200
       },
       "dining": {
-        "description": "Personal chef specializing in Lowcountry cuisine, exclusive wine dinners, catered events",
-        "monthlyCost": 1350
+        "description": "Near-daily fine dining",
+        "monthlyCost": 1800
       },
       "groceries": {
-        "monthlyCost": 550
+        "monthlyCost": 720
       },
       "healthcare": {
-        "description": "Top-tier concierge practice, executive health screenings, specialist travel access",
-        "monthlyCost": 750
+        "description": "Top-tier unsubsidized PPO plus a concierge retainer (US-market basis)",
+        "monthlyCost": 1700
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, private yacht, driver for events",
-        "monthlyCost": 875
+        "description": "Luxury car + private boat",
+        "monthlyCost": 1500
       },
       "entertainment": {
-        "description": "Philanthropic galas, SCAD art patronage, international travel, private club memberships",
+        "description": "Preservation galas, SCAD patronage, private clubs",
         "monthlyCost": 1200
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 680
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper, estate manager, personal assistant, grounds crew, boat captain",
-        "monthlyCost": 2075
+        "description": "Staff-for-one: housekeeper, grounds, part-time help",
+        "monthlyCost": 1400
       },
       "luxuryExtras": {
-        "description": "Historic preservation endowments, European travel, barrier island retreat, charitable foundation",
-        "monthlyCost": 2725
+        "description": "Preservation endowments, first-class travel, club dues",
+        "monthlyCost": 1900
       },
-      "lifestyle": "A landmark historic home on a prime square, a full-time housekeeper and property manager, and a cook who comes in several times a week. A boat for the waterways, first-class travel, and regular fine dining are all comfortable. Savannah's low cost base means this budget covers premium housing, regular domestic help, and generous travel without feeling stretched."
+      "lifestyle": "A grand historic home on one of the squares, or a waterfront estate on Wilmington or Tybee Island, kept by household staff, anchors life at the top of Savannah — and because the city's cost base is so low, this uncapped-luxury life lands near the most affordable US metros rather than the coastal ones. Dining is near-daily across the city's finest tables, healthcare pairs a top-tier plan with a concierge retainer, and a luxury vehicle and a private boat cover the historic core and the waterways. Preservation philanthropy, SCAD arts patronage, private-club memberships, and first-class travel are all comfortable, with generous discretionary margin besides. The storybook setting delivers a feeling of grandeur well beyond the price."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 7,
     "infrastructure": 7,
     "expatFriendliness": 9
-  }
+  },
+  "dataRecency": "Q3 2026"
 }
