@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "Charming 1BR apartment in Palermo Soho or San Telmo with original hardwood floors",
-        "monthlyCost": 700
+        "description": "Furnished monoambiente/studio in a characterful non-prime barrio (Almagro, Boedo, Villa Crespo)",
+        "monthlyCost": 420
       },
       "dining": {
-        "description": "Daily parrilla steaks, empanadas, neighborhood cafes, and abundant red wine",
-        "monthlyCost": 575
+        "description": "Mostly home cooking; empanadas, a neighborhood parrilla, or a menú del día a few times a week",
+        "monthlyCost": 120
       },
       "groceries": {
-        "monthlyCost": 325
+        "monthlyCost": 170
       },
       "healthcare": {
-        "description": "Obra social (prepaid health plan) with solid coverage at private clinics",
-        "monthlyCost": 150
+        "description": "Entry local prepaga (OSDE 210). Assumes an early retiree (45–55); older retirees should budget more.",
+        "monthlyCost": 190
       },
       "transportation": {
-        "description": "Subte (metro), colectivo buses, and occasional Cabify rides across the city",
-        "monthlyCost": 75
+        "description": "SUBE subte + colectivo, occasional Uber",
+        "monthlyCost": 25
       },
       "entertainment": {
-        "description": "Milongas (tango halls), free museum days, bookshop cafes, fútbol matches, park picnics",
-        "monthlyCost": 350
-      },
-      "utilities": {
+        "description": "Free parks/museum days, cheap milongas, a gym, a fútbol match",
         "monthlyCost": 75
       },
-      "lifestyle": "A one-bedroom apartment in Palermo Soho or San Telmo costs surprisingly little thanks to the favorable exchange rate. You eat steak and drink Malbec at local parrillas regularly, attend milongas, and explore the city's bookshops and cafés on a modest budget. Argentina's economic volatility is a real factor — the blue dollar rate works in your favor now, but currency swings require attention."
+      "utilities": {
+        "monthlyCost": 65
+      },
+      "lifestyle": "A furnished monoambiente in a characterful non-prime barrio like Almagro, Boedo, or Villa Crespo, walkable to cafés and the subte. Most meals are cooked at home, with empanadas, a neighborhood parrilla, or a menú del día a few times a week, and getting around runs on the SUBE with the occasional Uber. Health cover is an entry OSDE prepaga, enough for private clinics. Free parks, museum days, cheap milongas, and a fútbol match fill the weeks. Buenos Aires no longer feels bargain-cheap in dollars now that the peso has firmed, but this is a frugal, culturally rich life."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "Spacious 2BR apartment in Palermo Hollywood or Recoleta with balcony overlooking tree-lined streets",
-        "monthlyCost": 950
+        "description": "Furnished 1BR in a good-but-not-prime barrio (Colegiales, Caballito) or a compact Palermo studio",
+        "monthlyCost": 700
       },
       "dining": {
-        "description": "Top-tier parrillas like Don Julio regularly, craft cocktail bars, international cuisine",
-        "monthlyCost": 825
+        "description": "Out a few times a week, mid-range plus the occasional parrilla dinner with wine",
+        "monthlyCost": 250
       },
       "groceries": {
-        "monthlyCost": 375
+        "monthlyCost": 225
       },
       "healthcare": {
-        "description": "Premium prepaga plan (Swiss Medical or OSDE 310) with excellent hospital access",
-        "monthlyCost": 200
+        "description": "Comprehensive local prepaga (OSDE 310)",
+        "monthlyCost": 290
       },
       "transportation": {
-        "description": "Regular Cabify use, occasional car rental for estancia day trips and wine country visits",
-        "monthlyCost": 150
+        "description": "Subte plus regular Uber/taxi",
+        "monthlyCost": 70
       },
       "entertainment": {
-        "description": "Teatro Colón opera tickets, tango lessons, gym membership, weekend trips to Tigre Delta",
-        "monthlyCost": 625
+        "description": "Gym, theatre, wine bars, nightlife",
+        "monthlyCost": 180
       },
       "utilities": {
-        "monthlyCost": 75
+        "monthlyCost": 95
       },
-      "lifestyle": "A spacious two-bedroom in Palermo Hollywood or Recoleta with a balcony provides a comfortable base in a walkable neighborhood. You dine at top parrillas like Don Julio regularly, attend opera at Teatro Colón, carry premium private health insurance, and take weekend trips to Tigre or Mendoza wine country. The exchange rate makes this budget stretch further than almost any other capital city."
+      "lifestyle": "A furnished one-bedroom in a good-but-unpretentious barrio like Colegiales, Caballito, or the Villa Crespo edge, or a compact Palermo studio. Dining out a few times a week — mid-range spots and the occasional parrilla dinner with a bottle of Malbec — becomes routine, and comprehensive OSDE 310 cover removes the entry-plan limits. Transport mixes the subte with regular Uber, and the budget stretches to a gym, theatre, wine bars, and an active nightlife. Comfortable and unhurried in one of the continent's great walking cities."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Luxury 3BR apartment in Recoleta or Puerto Madero with river views, pool, and premium amenities",
-        "monthlyCost": 1275
+        "description": "Comfortable furnished 1BR in prime Palermo or Recoleta",
+        "monthlyCost": 950
       },
       "dining": {
-        "description": "Fine dining at Tegui, Aramburu, and Proper weekly; unlimited parrilla and wine exploration",
-        "monthlyCost": 1000
+        "description": "Frequent mid-range tables plus regular steakhouse dinners with good wine",
+        "monthlyCost": 400
       },
       "groceries": {
-        "monthlyCost": 350
+        "monthlyCost": 270
       },
       "healthcare": {
-        "description": "Top-tier OSDE 510 plan with concierge-level service at Hospital Alemán or Italiano",
-        "monthlyCost": 250
+        "description": "Strong upper-mid local prepaga (OSDE 410) — the correct FIRE-tier plan (flagship 510 reserved for the higher tiers)",
+        "monthlyCost": 450
       },
       "transportation": {
-        "description": "Personal driver available, premium car service, domestic flights to Patagonia and Mendoza",
-        "monthlyCost": 275
+        "description": "Subte plus frequent Uber/remis",
+        "monthlyCost": 120
       },
       "entertainment": {
-        "description": "Box seats at Teatro Colón, polo matches, wine club memberships, estancia weekends",
-        "monthlyCost": 775
+        "description": "Theatre, concerts, the occasional Teatro Colón seat, a premium gym",
+        "monthlyCost": 280
       },
       "utilities": {
-        "monthlyCost": 75
+        "monthlyCost": 120
       },
-      "lifestyle": "A large apartment in Recoleta or Puerto Madero with river views and premium building amenities puts you in one of the city's best addresses. You eat at restaurants like Tegui and Aramburu regularly, attend polo matches, fly domestically to Patagonia or Mendoza, and carry top-tier health insurance at Hospital Alemán. This is a genuinely affluent life in Buenos Aires — well above what most porteños experience."
+      "lifestyle": "A comfortable furnished one-bedroom in prime Palermo or Recoleta, on a leafy street near the best cafés and restaurants. Dining out is frequent — mid-range tables plus regular steakhouse dinners with good wine — and health cover steps up to a strong OSDE 410 plan. Nights out mean theatre, concerts, the occasional Teatro Colón seat, and a premium gym, with Uber and remis covering transport. This is an affluent porteño life, well above what most locals experience, in Buenos Aires's most desirable neighborhoods."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Penthouse in Puerto Madero's most exclusive tower or historic mansion apartment in Recoleta with terrace garden",
-        "monthlyCost": 1675
+        "description": "Large luxury furnished 1BR / 2-ambiente in Puerto Madero or top Palermo/Recoleta",
+        "monthlyCost": 1700
       },
       "dining": {
-        "description": "Private chef access, unlimited fine dining, imported wines, exclusive closed-door restaurant circuit",
-        "monthlyCost": 1075
+        "description": "Near-weekly fine dining and premium parrillas",
+        "monthlyCost": 750
       },
       "groceries": {
         "monthlyCost": 350
       },
       "healthcare": {
-        "description": "Platinum prepaga with international coverage, concierge medicine, annual wellness retreats",
-        "monthlyCost": 250
+        "description": "OSDE flagship tier (450/510-level) with an international add-on",
+        "monthlyCost": 820
       },
       "transportation": {
-        "description": "Full-time driver, luxury vehicle, domestic flights, weekend helicopter to estancia",
-        "monthlyCost": 475
+        "description": "Premium ride-hailing and car service",
+        "monthlyCost": 300
       },
       "entertainment": {
-        "description": "Polo club membership, art collecting at arteBA, opera box season tickets, Patagonia fishing trips",
-        "monthlyCost": 825
+        "description": "Opera, polo, premium club/gym, curated nightlife",
+        "monthlyCost": 550
       },
       "utilities": {
-        "monthlyCost": 75
+        "monthlyCost": 185
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper and cook, part-time laundress and personal assistant",
-        "monthlyCost": 400
+        "description": "Housekeeper a few days a week (min ~ARS 3,600/hr, Jun-2026)",
+        "monthlyCost": 250
       },
       "luxuryExtras": {
-        "description": "Private estancia weekends, wine cellar curation, art collection, bespoke leather goods and tailoring",
-        "monthlyCost": 975
+        "description": "Wine-club membership, personal training, standing travel fund, discretionary",
+        "monthlyCost": 700
       },
-      "lifestyle": "A penthouse in Puerto Madero or a historic mansion apartment in Recoleta with a terrace provides generous living space. A housekeeper and cook manage the home, you have a driver, and dining at the city's finest restaurants is routine. Business class flights to Patagonia, Mendoza, or internationally are standard, and polo matches and opera premieres are regular social outings. The exchange rate makes this level of comfort remarkably capital-efficient."
+      "lifestyle": "A large luxury apartment in Puerto Madero or top Palermo/Recoleta, with a housekeeper coming a few days a week. Fine dining and premium parrillas are near-weekly, health cover is the OSDE flagship tier plus an international add-on, and transport is premium ride-hailing and car service. The discretionary budget funds opera, polo, wine-club membership, a personal trainer, and a standing travel fund. Buenos Aires's cultural depth — arts, tango, gastronomy — makes this an unusually rich version of upper-tier living."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Historic Recoleta palace apartment or sprawling Puerto Madero duplex penthouse with staff quarters and private terrace garden",
-        "monthlyCost": 2225
+        "description": "Best-address large furnished residence: Puerto Madero tower or grand Recoleta apartment",
+        "monthlyCost": 2500
       },
       "dining": {
-        "description": "Full-time private chef specializing in Argentine-French fusion, curated wine cellar, exclusive dining societies",
-        "monthlyCost": 1175
+        "description": "Near-daily fine dining, Don Julio-tier and the closed-door circuit",
+        "monthlyCost": 1400
       },
       "groceries": {
-        "monthlyCost": 325
+        "monthlyCost": 450
       },
       "healthcare": {
-        "description": "Global concierge healthcare, annual checkups in the US or Europe, personal trainer, longevity medicine",
-        "monthlyCost": 300
+        "description": "International concierge cover WITH medical evacuation (worldwide-excl-US expat plan, priced for 45–55); a city-independent product, set level with Montevideo",
+        "monthlyCost": 850
       },
       "transportation": {
-        "description": "Luxury fleet with chauffeur, private jet charters to Patagonia and Uruguay, helicopter on call",
-        "monthlyCost": 1000
+        "description": "Private driver and premium car",
+        "monthlyCost": 600
       },
       "entertainment": {
-        "description": "Polo team ownership, art patronage, private box at La Bombonera, Antarctic expedition planning",
-        "monthlyCost": 1275
+        "description": "Teatro Colón boxes, polo, VIP nightlife, premium memberships",
+        "monthlyCost": 1000
       },
       "utilities": {
-        "monthlyCost": 100
+        "monthlyCost": 280
       },
       "domesticHelp": {
-        "description": "Complete household staff: private chef, butler, two housekeepers, driver, personal assistant, security",
-        "monthlyCost": 950
+        "description": "Full-time-equivalent housekeeper/cook (premium/experienced FT ~ARS 720k–900k/mo)",
+        "monthlyCost": 750
       },
       "luxuryExtras": {
-        "description": "Estancia ownership in Pampas, Patagonian fishing lodge, rare wine investments, philanthropy in Argentine arts",
-        "monthlyCost": 1850
+        "description": "Art and wine collecting, personal shopper, club/polo memberships, first/business travel fund, uncapped discretionary",
+        "monthlyCost": 1800
       },
-      "lifestyle": "A historic Recoleta apartment or sprawling Puerto Madero duplex with staff quarters anchors daily life. A cook prepares daily meals, housekeeping staff maintain the home, and a driver handles transportation. You dine freely at the city's best restaurants, fly business or first class internationally, and take regular trips to Mendoza wine country or Patagonian lodges. This budget vastly exceeds what Buenos Aires requires for top-tier living, leaving significant margin for savings or travel."
+      "lifestyle": "A best-address residence — a Puerto Madero tower or a grand Recoleta apartment — with a full-time housekeeper and cook. Dining is near-daily at the city's finest tables, from Don Julio to the closed-door circuit, and healthcare shifts to an international concierge plan with worldwide coverage and medical evacuation. A private driver and premium car handle transport, and the uncapped discretionary budget runs to Teatro Colón boxes, polo, art and wine collecting, and first-class travel. This is Buenos Aires at its most opulent — a trophy address, resident staff, and the full sweep of the city's grand cultural life."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 7,
     "infrastructure": 6,
     "expatFriendliness": 7
-  }
+  },
+  "dataRecency": "Q3 2026"
 }

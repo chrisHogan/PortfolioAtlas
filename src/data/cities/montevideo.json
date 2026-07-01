@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "1BR apartment in Pocitos or Ciudad Vieja near the Rambla waterfront promenade",
-        "monthlyCost": 875
+        "description": "Furnished studio/small 1BR on the Pocitos edge or Ciudad Vieja, near the Rambla",
+        "monthlyCost": 640
       },
       "dining": {
-        "description": "Parrilla lunches, chivito sandwiches, neighborhood cafes, and weekend asados",
-        "monthlyCost": 550
+        "description": "Mostly home cooking; a chivito or parrilla lunch out now and then",
+        "monthlyCost": 110
       },
       "groceries": {
-        "monthlyCost": 425
+        "monthlyCost": 270
       },
       "healthcare": {
-        "description": "Mutualista (private health cooperative) membership with comprehensive coverage",
-        "monthlyCost": 175
+        "description": "Entry-level mutualista (private health cooperative), direct pay. Assumes an early retiree (45–55); older retirees should budget more.",
+        "monthlyCost": 80
       },
       "transportation": {
-        "description": "Bus system, walking along the Rambla, occasional taxi and rideshare",
-        "monthlyCost": 100
+        "description": "STM monthly bus pass + occasional fare",
+        "monthlyCost": 50
       },
       "entertainment": {
-        "description": "Beach days at Pocitos, Mercado del Puerto visits, mate in the park, live murga music",
-        "monthlyCost": 300
+        "description": "Occasional cinema/streaming, the beach",
+        "monthlyCost": 60
       },
       "utilities": {
-        "monthlyCost": 125
+        "monthlyCost": 130
       },
-      "lifestyle": "A one-bedroom in Pocitos or Ciudad Vieja puts you near the Rambla waterfront promenade, where morning walks with mate are a local ritual. Lunch at a neighborhood parrilla or chivito stand is affordable, and buses cover the city well. The budget is comfortable but modest — you cook at home regularly and keep entertainment low-key. Montevideo's pace is slower than Buenos Aires, and English is not widely spoken."
+      "lifestyle": "A furnished studio or small one-bedroom on the Pocitos edge or in Ciudad Vieja, within reach of the Rambla waterfront where morning walks with mate are a local ritual. Cooking at home is the norm, with an affordable chivito or parrilla lunch out now and then, and healthcare is an entry-level mutualista cooperative membership. The STM bus pass covers the city, and low-key entertainment — cinema, streaming, the beach — keeps costs down. Uruguay is genuinely more expensive than its neighbors, so even a frugal life here carries a higher floor, but it buys unusual safety and calm."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "Modern 2BR apartment in Punta Carretas or Pocitos with ocean views and building amenities",
-        "monthlyCost": 1225
+        "description": "Solid furnished 1BR in mid-Pocitos",
+        "monthlyCost": 820
       },
       "dining": {
-        "description": "Regular meals at Mercado del Puerto, quality restaurants in Carrasco, craft beer scene",
-        "monthlyCost": 800
+        "description": "Out a few times a week, casual + occasional mid-range",
+        "monthlyCost": 220
       },
       "groceries": {
-        "monthlyCost": 450
+        "monthlyCost": 315
       },
       "healthcare": {
-        "description": "Premium mutualista plan with Hospital Británico or Médica Uruguaya access",
-        "monthlyCost": 250
+        "description": "Comprehensive mutualista (Médica Uruguaya / Hospital Británico entry)",
+        "monthlyCost": 150
       },
       "transportation": {
-        "description": "Frequent taxi and rideshare, occasional car rental for beach trips to José Ignacio",
-        "monthlyCost": 200
+        "description": "Bus pass + regular taxi/Uber",
+        "monthlyCost": 80
       },
       "entertainment": {
-        "description": "Teatro Solís performances, wine tastings at Bodega Bouza, beach clubs, weekend Colonia trips",
-        "monthlyCost": 550
+        "description": "Cinema, gym, nights out",
+        "monthlyCost": 120
       },
       "utilities": {
-        "monthlyCost": 125
+        "monthlyCost": 155
       },
-      "lifestyle": "A modern two-bedroom in Punta Carretas or Pocitos with ocean views gives you a safe, walkable neighborhood as a base. You dine out at Mercado del Puerto and good local restaurants several times a week, carry private health insurance, and rent a car for weekend trips to Colonia del Sacramento or Punta del Este. Uruguay's political stability and low crime are real advantages that justify its higher costs compared to Buenos Aires."
+      "lifestyle": "A solid furnished one-bedroom in mid-Pocitos, a safe and walkable neighborhood a short stroll from the sea. Dining out a few nights a week is easy, and a comprehensive mutualista plan (Médica Uruguaya or Hospital Británico) brings full private coverage. Transport is the bus pass plus regular taxi or Uber, and the budget stretches to a gym, cinema, and an unhurried social life. Uruguay's stability and low crime are the real draw, and they justify the higher costs."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Luxury 3BR penthouse in Carrasco or waterfront Punta Carretas with terrace and premium finishes",
-        "monthlyCost": 1575
+        "description": "Prime furnished 1BR in Pocitos or Punta Carretas (ocean-facing)",
+        "monthlyCost": 1050
       },
       "dining": {
-        "description": "Fine dining at Francis, Escaramuza, and Jacinto regularly; unlimited asado and Tannat",
-        "monthlyCost": 950
+        "description": "Dining out frequently, casual + mid-range",
+        "monthlyCost": 360
       },
       "groceries": {
-        "monthlyCost": 450
+        "monthlyCost": 370
       },
       "healthcare": {
-        "description": "Top-tier mutualista with specialist access, dental work, annual executive checkups",
-        "monthlyCost": 300
+        "description": "Top-tier mutualista with specialist + dental access",
+        "monthlyCost": 230
       },
       "transportation": {
-        "description": "Leased vehicle, occasional driver, domestic flights, ferry to Buenos Aires",
-        "monthlyCost": 375
+        "description": "Bus + frequent taxi/Uber",
+        "monthlyCost": 110
       },
       "entertainment": {
-        "description": "Golf club membership, Punta del Este weekends, sailing, cultural season tickets",
-        "monthlyCost": 725
+        "description": "Cinema, gym, events, social dining",
+        "monthlyCost": 190
       },
       "utilities": {
-        "monthlyCost": 125
+        "monthlyCost": 180
       },
-      "lifestyle": "A large penthouse in Carrasco or waterfront Punta Carretas with a terrace puts you in Montevideo's most desirable area. You dine at restaurants like Francis and Escaramuza regularly, own or lease a car, and take weekend trips to José Ignacio or the ferry to Buenos Aires. Golf club membership, Teatro Solís season tickets, and premium health insurance are comfortably covered. This is a genuinely affluent life in a safe, stable city."
+      "lifestyle": "A prime furnished one-bedroom in Pocitos or Punta Carretas, in the city's most desirable, ocean-facing districts. Dining out is frequent across casual and mid-range tables, and healthcare is a top-tier mutualista with specialist and dental access. Transport is the bus plus frequent taxi and Uber, and weekends reach Colonia del Sacramento or the ferry to Buenos Aires. Cultural events and regular social dining fill the calendar — a genuinely affluent life in the region's safest capital."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Elegant villa in Carrasco with garden, pool, and security, or premium penthouse with 180° ocean views",
-        "monthlyCost": 2175
+        "description": "Top-of-market 1BR/penthouse with ocean views in Punta Carretas or Carrasco",
+        "monthlyCost": 1750
       },
       "dining": {
-        "description": "Private chef access, Montevideo's best restaurants without limits, imported wines, Punta del Este dining scene",
-        "monthlyCost": 1075
+        "description": "Fine dining regularly",
+        "monthlyCost": 620
       },
       "groceries": {
-        "monthlyCost": 400
+        "monthlyCost": 500
       },
       "healthcare": {
-        "description": "Platinum mutualista, international coverage add-on, concierge-level medical coordination",
-        "monthlyCost": 300
+        "description": "Platinum mutualista (top scheme) + international coverage add-on",
+        "monthlyCost": 410
       },
       "transportation": {
-        "description": "Luxury vehicle with occasional driver, private ferry crossings, charter flights to Punta del Este",
-        "monthlyCost": 525
+        "description": "Private car or heavy private-hire",
+        "monthlyCost": 260
       },
       "entertainment": {
-        "description": "Country club memberships, art collecting, Punta del Este social season, yacht club, equestrian",
-        "monthlyCost": 800
+        "description": "Clubs, theatre, events, weekend travel",
+        "monthlyCost": 420
       },
       "utilities": {
-        "monthlyCost": 125
+        "monthlyCost": 270
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper and cook, part-time gardener and pool maintenance",
-        "monthlyCost": 475
+        "description": "Housekeeper 2–3× a week (~$8/hr)",
+        "monthlyCost": 340
       },
       "luxuryExtras": {
-        "description": "Beach house in José Ignacio, Tannat wine collection, bespoke estancia experiences, art gallery patronage",
-        "monthlyCost": 975
+        "description": "Memberships, upgrades, discretionary",
+        "monthlyCost": 400
       },
-      "lifestyle": "A villa in Carrasco with garden, pool, and security provides a spacious home in Montevideo's most elegant neighborhood. A housekeeper and cook manage the household, and you dine at the city's best restaurants without thinking about cost. Business class for longer flights, a luxury car, and regular trips to Punta del Este or José Ignacio are standard. Uruguay's zero tax on foreign income is a meaningful financial advantage at this tier."
+      "lifestyle": "A top-of-market one-bedroom or penthouse with ocean views in Punta Carretas or Carrasco, with a housekeeper a few days a week. Fine dining is regular, healthcare is a platinum mutualista plus an international coverage add-on, and transport is a private car or heavy private-hire. The discretionary budget funds clubs, theatre, and weekend trips to Punta del Este or José Ignacio. Uruguay's zero tax on foreign income is a meaningful advantage at this level."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Historic Carrasco estate with extensive grounds, or dual properties — Montevideo mansion and José Ignacio beachfront compound",
-        "monthlyCost": 2875
+        "description": "Best-address luxury house/penthouse in Carrasco",
+        "monthlyCost": 3100
       },
       "dining": {
-        "description": "Full-time private chef, exclusive dining clubs, curated wine cellar, hosted asado events for 30+",
-        "monthlyCost": 1325
+        "description": "Near-daily fine dining",
+        "monthlyCost": 1550
       },
       "groceries": {
-        "monthlyCost": 425
+        "monthlyCost": 720
       },
       "healthcare": {
-        "description": "Global concierge healthcare, annual international checkups, personal wellness staff, longevity program",
-        "monthlyCost": 375
+        "description": "International concierge cover WITH medical evacuation (worldwide-excl-US platinum plan, priced for 45–55)",
+        "monthlyCost": 850
       },
       "transportation": {
-        "description": "Luxury vehicle collection with chauffeur, private flights, yacht for Río de la Plata crossings",
-        "monthlyCost": 1050
+        "description": "Private car + driver / premium hire",
+        "monthlyCost": 680
       },
       "entertainment": {
-        "description": "Philanthropic foundations, art patronage, polo sponsorship, exclusive social clubs, Antarctic voyage",
-        "monthlyCost": 1325
+        "description": "Country/yacht clubs, art collecting, Punta del Este season",
+        "monthlyCost": 1250
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 430
       },
       "domesticHelp": {
-        "description": "Full household staff across properties: chef, housekeepers, groundskeepers, driver, personal assistant, security",
-        "monthlyCost": 1125
+        "description": "Full-time housekeeper (~$1,000/mo incl. mandatory govt charges), scaled to a single home",
+        "monthlyCost": 880
       },
       "luxuryExtras": {
-        "description": "José Ignacio beachfront estate, working estancia investment, Uruguayan Tannat vineyard, art collection, yacht mooring",
-        "monthlyCost": 1700
+        "description": "Club memberships, concierge, premium services, uncapped discretionary",
+        "monthlyCost": 1340
       },
-      "lifestyle": "A large Carrasco estate or dual properties in Montevideo and José Ignacio anchor a well-staffed, comfortable life. A cook handles daily meals, housekeeping and grounds staff maintain the property, and a driver provides transportation. You dine freely, fly business class internationally, and entertain regularly. Uruguay's stability, safety, and zero foreign income tax make this a financially sound base, though the city's smaller scale means less cultural depth than Buenos Aires or Santiago."
+      "lifestyle": "A best-address luxury house or penthouse in Carrasco, the city's most elegant district, run by full-time household staff. Dining is near-daily at the finest tables, healthcare is an international concierge plan with worldwide coverage and evacuation, and a private car with driver handles transport. The uncapped discretionary budget runs to country and yacht clubs, art collecting, and the Punta del Este social season. Uruguay's stability, safety, and zero foreign-income tax make this the most secure — and, in this batch, the most expensive — base for top-tier living."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 6,
     "infrastructure": 6,
     "expatFriendliness": 6
-  }
+  },
+  "dataRecency": "Q3 2026"
 }
