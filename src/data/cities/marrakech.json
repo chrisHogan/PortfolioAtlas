@@ -19,7 +19,7 @@
     "safetyRating": "Good – low violent crime; petty theft in tourist areas",
     "nearestAirport": "Marrakech Menara Airport (RAK)",
     "climate": "Arid semi-desert with hot dry summers and mild winters",
-    "englishFriendly": "Low – French is essential; Arabic helpful",
+    "englishFriendly": "Low",
     "currency": "MAD (Moroccan Dirham)",
     "averageTemp": "66°F / 19°C"
   },
@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "Beautiful renovated 2BR riad in the medina or modern apartment in Gueliz",
-        "monthlyCost": 700
+        "description": "Modest 1BR in Gueliz or a small renovated riad room in the medina",
+        "monthlyCost": 430
       },
       "dining": {
-        "description": "Tagine and couscous at local restaurants daily; street food; occasional upscale Moroccan dining",
-        "monthlyCost": 275
+        "description": "Local tagine/couscous joints a few times a week; mostly home cooking",
+        "monthlyCost": 70
       },
       "groceries": {
-        "monthlyCost": 250
+        "monthlyCost": 160
       },
       "healthcare": {
-        "description": "Private health insurance with access to Clinique Internationale and private hospitals",
-        "monthlyCost": 275
+        "description": "Basic local private cover, single adult 45–55",
+        "monthlyCost": 60
       },
       "transportation": {
-        "description": "Petit taxi around the city, occasional grand taxi for excursions; no car needed",
-        "monthlyCost": 150
+        "description": "Petit taxis and walking; no car",
+        "monthlyCost": 45
       },
       "entertainment": {
-        "description": "Hammam visits, Jemaa el-Fnaa people-watching, souks exploration, Atlas Mountain day hikes",
-        "monthlyCost": 225
+        "description": "Cafés, occasional cinema, local outings",
+        "monthlyCost": 45
       },
       "utilities": {
-        "monthlyCost": 125
+        "monthlyCost": 80
       },
-      "lifestyle": "A renovated 2-bedroom riad in the medina or a modern apartment in Gueliz. Eating tagine, couscous, and street food at local restaurants most days, with weekly hammam visits. Getting around by petit taxi. Private health insurance covering local clinics. Atlas Mountain day hikes on weekends. French is essential for daily life. Comfortable and deeply affordable, with plenty of budget left over each month."
+      "lifestyle": "A plain but decent 1BR in Gueliz, walkable to cafés and the market, or a modestly done-up room in a medina riad. Most meals come from souk produce cooked at home, with local tagine and couscous joints for eating out a few times a week and café afternoons that cost almost nothing. Petit taxis and your own two feet cover transport — no car needed. Health cover is a basic local private policy that gets you into private clinics for routine care. Frugal but genuinely comfortable, and French is essential for daily life."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "Spacious renovated riad with rooftop terrace in the medina or luxury apartment in Hivernage",
-        "monthlyCost": 1075
+        "description": "Nicer furnished 1BR in Gueliz/Hivernage or a comfortable riad",
+        "monthlyCost": 650
       },
       "dining": {
-        "description": "Regular dining at top Marrakech restaurants like Nomad, Le Jardin, and Al Fassia; cooking classes",
-        "monthlyCost": 425
+        "description": "Out several times a week, local + mid-range",
+        "monthlyCost": 220
       },
       "groceries": {
-        "monthlyCost": 300
+        "monthlyCost": 210
       },
       "healthcare": {
-        "description": "Comprehensive private health insurance with dental and specialist coverage",
-        "monthlyCost": 350
+        "description": "Comprehensive local private cover, single adult",
+        "monthlyCost": 110
       },
       "transportation": {
-        "description": "Reliable car for Atlas Mountain trips, fuel, insurance; taxis for medina errands",
-        "monthlyCost": 250
+        "description": "Petit taxis routinely plus occasional car hire",
+        "monthlyCost": 90
       },
       "entertainment": {
-        "description": "Premium hammam and spa treatments, golf at Royal Golf, cooking workshops, desert excursions",
-        "monthlyCost": 350
+        "description": "Regular restaurants, gym, cinema, nightlife",
+        "monthlyCost": 110
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 110
       },
-      "lifestyle": "A spacious riad with rooftop terrace in the medina or a well-appointed apartment in Hivernage. Regular dining at restaurants like Nomad, Le Jardin, and Al Fassia. A car for weekend trips to the Atlas Mountains and the Atlantic coast. Comprehensive private health insurance. Hammam and spa visits, cooking workshops, and golf at Royal Golf. Day-to-day life is very comfortable with a large monthly margin."
+      "lifestyle": "A properly furnished, air-conditioned 1BR in Gueliz or Hivernage, or a comfortable riad in the medina. Dining out several nights a week is unremarkable, mixing local spots with mid-range restaurants, and comprehensive local private insurance covers Marrakech's private clinics well. Getting around is petit taxis routinely, plus the occasional rental car for excursions to the Atlas or the coast. A gym membership, cinema, and nightlife fill out an easy solo life."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Luxury villa in the Palmeraie with pool and gardens, or a fully restored grand riad in the medina",
-        "monthlyCost": 1600
+        "description": "Premium furnished 1BR or compact 2BR-for-one in Hivernage/Gueliz or a well-restored riad",
+        "monthlyCost": 1000
       },
       "dining": {
-        "description": "Fine dining at Le Grand Véfour, La Mamounia, and Dar Yacout regularly; private dinner parties",
-        "monthlyCost": 425
+        "description": "Frequent quality dining including Marrakech's better restaurants",
+        "monthlyCost": 380
       },
       "groceries": {
-        "monthlyCost": 275
+        "monthlyCost": 280
       },
       "healthcare": {
-        "description": "Premium private insurance with international coverage and medical evacuation",
-        "monthlyCost": 300
+        "description": "Strong private cover approaching an international plan",
+        "monthlyCost": 200
       },
       "transportation": {
-        "description": "Late-model SUV for mountain and desert trips, insurance, fuel; private driver occasionally",
-        "monthlyCost": 225
+        "description": "A small owned car or effectively unlimited taxis",
+        "monthlyCost": 180
       },
       "entertainment": {
-        "description": "Royal Golf Marrakech membership, luxury hammam, Sahara desert glamping, European weekend getaways, art collecting",
-        "monthlyCost": 650
+        "description": "Quality leisure plus amortized weekend/European travel",
+        "monthlyCost": 260
       },
       "utilities": {
-        "monthlyCost": 125
+        "monthlyCost": 140
       },
-      "lifestyle": "A villa in the Palmeraie with pool and gardens, or a grand restored riad in the medina. Regular dining at top restaurants and hotel restaurants like La Mamounia. A late-model SUV for mountain and desert trips, with an occasional driver. Premium health insurance with international coverage and medical evacuation. Sahara desert trips and European weekend getaways. This budget goes very far in Marrakech, with substantial margin each month."
+      "lifestyle": "A high-spec furnished 1BR or compact 2BR-for-one in Hivernage or Gueliz, or a beautifully restored riad in a sought-after quarter. Eating at the city's best restaurants becomes a regular habit, and you either run a small car or take petit and grand taxis at will. Insurance steps up to a strong plan approaching international cover. There's real room for frequent weekend trips — Essaouira, the Atlas Mountains, or cheap hops to Europe out of Marrakech-Menara airport."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Grand estate villa in the Palmeraie with expansive gardens, pool, and guest houses",
-        "monthlyCost": 1725
+        "description": "Luxury apartment or a small single-occupant Palmeraie/golf-zone villa with pool",
+        "monthlyCost": 1950
       },
       "dining": {
-        "description": "Personal chef, exclusive dining at La Mamounia and Royal Mansour, catered events",
-        "monthlyCost": 475
+        "description": "Near-daily dining, much of it high-end",
+        "monthlyCost": 650
       },
       "groceries": {
-        "monthlyCost": 275
+        "monthlyCost": 420
       },
       "healthcare": {
-        "description": "Top-tier international private insurance with concierge service and medevac",
-        "monthlyCost": 300
+        "description": "Top-tier private/international plan",
+        "monthlyCost": 320
       },
       "transportation": {
-        "description": "Luxury SUV, full-time driver, occasional domestic flights to Casablanca or Fez",
-        "monthlyCost": 300
+        "description": "Car plus a part-time driver",
+        "monthlyCost": 550
       },
       "entertainment": {
-        "description": "Exclusive golf, luxury spa circuits, hot air ballooning, private Sahara camps, art patronage",
-        "monthlyCost": 400
+        "description": "Clubs, spas, events, more frequent travel",
+        "monthlyCost": 500
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 220
       },
       "domesticHelp": {
-        "description": "Full household staff: housekeeper, personal chef, gardener, security, pool maintenance, driver",
-        "monthlyCost": 400
+        "description": "Part-time housekeeper a few days a week",
+        "monthlyCost": 300
       },
       "luxuryExtras": {
-        "description": "First-class international travel, luxury Sahara expeditions, Moroccan riad investments, philanthropy",
-        "monthlyCost": 1175
+        "description": "Private club membership, spa/wellness, concierge, upgraded travel",
+        "monthlyCost": 450
       },
-      "lifestyle": "A large estate villa in the Palmeraie with pool and gardens, a housekeeper, cook, gardener, and driver. A luxury SUV, business class flights to Paris and other European cities, and top-tier international health insurance. Regular dining at the best restaurants and hotel dining rooms. Domestic flights to Casablanca and Fez for weekends. Marrakech's low costs mean this budget provides a very high quality of life with a large margin."
+      "lifestyle": "Marrakech luxury tuned for one — a designer apartment or a small single-occupant villa with its own pool on the Palmeraie or golf-zone fringe. A part-time housekeeper comes a few days a week, dining out is near-daily and much of it high-end, and a car with a part-time driver on call handles transport. Healthcare is a top-tier private/international plan covering the best facilities. Spa circuits, club memberships, and more frequent travel round it out, all sized to a single person."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Palace-scale estate in the Palmeraie or restored historic palace riad in the medina",
-        "monthlyCost": 2175
+        "description": "Luxury villa or grand restored riad, staffed, scaled to one occupant",
+        "monthlyCost": 3400
       },
       "dining": {
-        "description": "Personal chef team, exclusive private dining, catered events worthy of international dignitaries",
-        "monthlyCost": 650
+        "description": "Lavish, near-daily fine dining and entertaining",
+        "monthlyCost": 1100
       },
       "groceries": {
-        "monthlyCost": 250
+        "monthlyCost": 600
       },
       "healthcare": {
-        "description": "Top-tier international concierge medicine, executive wellness, medical evacuation to Europe",
-        "monthlyCost": 300
+        "description": "International concierge cover with medevac to Europe",
+        "monthlyCost": 550
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, full-time driver, private charter flights within Morocco",
-        "monthlyCost": 425
+        "description": "Car(s) plus running costs (full-time driver under domesticHelp)",
+        "monthlyCost": 900
       },
       "entertainment": {
-        "description": "Private art collecting, cultural patronage, international travel, exclusive desert experiences",
-        "monthlyCost": 775
+        "description": "Frequent European/international travel, events, entertaining",
+        "monthlyCost": 1200
       },
       "utilities": {
-        "monthlyCost": 175
+        "monthlyCost": 400
       },
       "domesticHelp": {
-        "description": "Full palace staff: multiple housekeepers, chef team, security, gardeners, personal assistant, driver",
-        "monthlyCost": 650
+        "description": "Full-time housekeeper and cook scaled to ONE home",
+        "monthlyCost": 1100
       },
       "luxuryExtras": {
-        "description": "Riad portfolio investments, private jet travel, Sahara glamping lodge, major philanthropy across Morocco",
-        "monthlyCost": 2150
+        "description": "Club memberships, spa/wellness, concierge, curated travel",
+        "monthlyCost": 1100
       },
-      "lifestyle": "A large estate in the Palmeraie or a restored historic riad with full household staff including multiple housekeepers, a cook several times a week, security, and drivers. Multiple vehicles, first class international flights, and top-tier global health coverage with European hospital access. Regular fine dining and entertaining. Marrakech's extremely low costs mean the vast majority of this budget goes unspent. Most people at this level travel extensively and use Marrakech as a beautiful, affordable home base."
+      "lifestyle": "The ceiling of living exceptionally well in Marrakech as one person — a staffed luxury villa or grand restored riad with pool and gardens, kept by a full-time housekeeper and cook scaled to a single home. A car and full-time driver are at your disposal, dining is essentially catered or at the best tables nightly, and healthcare is an international concierge plan with medevac to Europe. The discretionary budget funds constant European travel, entertaining, and spa and club memberships. Deliberately below a family palace-estate FatFIRE, because a solo resident simply can't consume a household's worth of space or staff."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 4,
     "infrastructure": 5,
     "expatFriendliness": 6
-  }
+  },
+  "dataRecency": "Q3 2026"
 }

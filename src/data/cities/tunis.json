@@ -19,7 +19,7 @@
     "safetyRating": "Moderate to Good – generally safe in tourist and residential areas",
     "nearestAirport": "Tunis-Carthage International Airport (TUN)",
     "climate": "Mediterranean with hot dry summers and mild wet winters",
-    "englishFriendly": "Low – French is essential; Arabic helpful",
+    "englishFriendly": "Low",
     "currency": "TND (Tunisian Dinar)",
     "averageTemp": "64°F / 18°C"
   },
@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "Spacious 2BR apartment in La Marsa, Carthage, or Les Berges du Lac with sea views",
-        "monthlyCost": 650
+        "description": "Modest 1BR in central Tunis or Le Bardo (non-coastal; rents a third of the coast)",
+        "monthlyCost": 300
       },
       "dining": {
-        "description": "Regular dining at local restaurants serving couscous, brik, and grilled fish; French-style cafes daily",
-        "monthlyCost": 250
+        "description": "Mostly home cooking plus a few cheap local eats (couscous, brik, grilled fish)",
+        "monthlyCost": 70
       },
       "groceries": {
-        "monthlyCost": 275
+        "monthlyCost": 150
       },
       "healthcare": {
-        "description": "Private health insurance with access to Clinique La Marsa and other private clinics",
-        "monthlyCost": 275
+        "description": "Basic local private cover, single adult 45–55",
+        "monthlyCost": 45
       },
       "transportation": {
-        "description": "TGM light rail and taxis; occasional Bolt rides; no car needed in central areas",
-        "monthlyCost": 125
+        "description": "TGM light rail plus louage/taxi; no car",
+        "monthlyCost": 45
       },
       "entertainment": {
-        "description": "Carthage ruins, Sidi Bou Said village, medina exploration, beach days, cafe culture",
-        "monthlyCost": 175
+        "description": "Café culture and occasional cinema",
+        "monthlyCost": 50
       },
       "utilities": {
-        "monthlyCost": 100
+        "monthlyCost": 80
       },
-      "lifestyle": "A spacious 2-bedroom apartment in La Marsa or Carthage with sea views. Eating at local restaurants serving couscous, brik, and grilled fish several times a week, plus daily cafe stops. Getting around by TGM light rail and taxis. Private health insurance covering local clinics. Exploring Carthage ruins and Sidi Bou Said on weekends. French is essential for daily life. Very affordable, with a comfortable budget margin each month."
+      "lifestyle": "A modest 1BR inland in central Tunis or Le Bardo, where rents run about a third of the coast. Most meals come from cheap, state-subsidized local staples cooked at home, with couscous, brik, and grilled-fish spots for the occasional meal out. Transport is the TGM light rail and shared louages or taxis — no car. Basic local private insurance covers Tunisian private clinics without long public-sector waits. Discretionary spending is thin, but the Mediterranean, the medinas, and café culture cost almost nothing, and French is essential."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "Beautiful 3BR villa in La Marsa, Gammarth, or Sidi Bou Said with garden and sea views",
-        "monthlyCost": 1075
+        "description": "Nicer furnished 1BR in La Marsa or Les Berges du Lac",
+        "monthlyCost": 550
       },
       "dining": {
-        "description": "Regular dining at Tunis's best restaurants like Dar El Jeld, La Closerie, and coastal seafood spots",
-        "monthlyCost": 300
+        "description": "Out several times a week",
+        "monthlyCost": 220
       },
       "groceries": {
-        "monthlyCost": 250
+        "monthlyCost": 180
       },
       "healthcare": {
-        "description": "Comprehensive private insurance with dental, specialist, and international evacuation coverage",
-        "monthlyCost": 250
+        "description": "Comprehensive local private insurance, single adult",
+        "monthlyCost": 80
       },
       "transportation": {
-        "description": "Reliable car with insurance for exploring Tunisia; fuel is cheap",
-        "monthlyCost": 200
+        "description": "Frequent taxis plus occasional car rental",
+        "monthlyCost": 100
       },
       "entertainment": {
-        "description": "Golf at La Cigale, Carthage International Festival, sailing, spa hammam, Djerba trips, Sahara excursions",
-        "monthlyCost": 500
+        "description": "Regular dining/nightlife, beach clubs, cinema, gym",
+        "monthlyCost": 120
       },
       "utilities": {
-        "monthlyCost": 125
+        "monthlyCost": 110
       },
-      "lifestyle": "A 3-bedroom villa in La Marsa or Gammarth with a garden and sea views. A car for exploring the country, regular dining at restaurants like Dar El Jeld and La Closerie, and comprehensive private health insurance. Golf, sailing, and weekend trips to Djerba and the Sahara are within budget. Spa hammam visits and cafe culture fill the weekdays. Day-to-day life is comfortable with a large monthly margin at Tunisian prices."
+      "lifestyle": "A comfortable furnished 1BR on the coast in La Marsa or Les Berges du Lac, walkable to cafés and the sea. Dining out several nights a week is easily affordable, and comprehensive local private insurance gives fast access to the best Tunisian private clinics. You skip car ownership but take taxis freely and rent a car for weekend trips to Sidi Bou Said or Cap Bon. Beach clubs, cinema, a gym, and an easy nightlife fill the weeks."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Luxury seafront villa in Gammarth, La Marsa, or a restored traditional house in the medina",
-        "monthlyCost": 1500
+        "description": "Good furnished 1BR or compact 2BR-for-one in a desirable coastal suburb (La Marsa, Gammarth, Sidi Bou Said, Lac)",
+        "monthlyCost": 850
       },
       "dining": {
-        "description": "Fine dining at the best restaurants, private dinner parties with Tunisian and French cuisine",
-        "monthlyCost": 350
+        "description": "Frequent quality dining at seafront restaurants, with wine",
+        "monthlyCost": 400
       },
       "groceries": {
-        "monthlyCost": 275
+        "monthlyCost": 250
       },
       "healthcare": {
-        "description": "Premium private insurance with international coverage and medical evacuation to Europe",
-        "monthlyCost": 275
-      },
-      "transportation": {
-        "description": "Late-model car, insurance, occasional private driver, domestic flights",
-        "monthlyCost": 225
-      },
-      "entertainment": {
-        "description": "Golf and tennis clubs, sailing, Carthage Festival VIP, luxury Sahara camps, European weekend getaways",
-        "monthlyCost": 625
-      },
-      "utilities": {
+        "description": "Strong private plan approaching international cover",
         "monthlyCost": 150
       },
-      "lifestyle": "A large seafront villa in Gammarth or La Marsa, or a restored traditional house in the medina. A late-model car with an occasional driver, regular dining at the best restaurants, and premium health insurance with international coverage and European medical evacuation. Weekend flights to Paris, Rome, or Barcelona are affordable. Sahara camping trips and Carthage Festival events. This budget goes very far in Tunis, with substantial monthly margin."
+      "transportation": {
+        "description": "An owned car or unlimited taxis",
+        "monthlyCost": 220
+      },
+      "entertainment": {
+        "description": "Clubs, events, plus amortized regional/European weekend travel",
+        "monthlyCost": 280
+      },
+      "utilities": {
+        "monthlyCost": 130
+      },
+      "lifestyle": "A bright furnished 1BR or compact 2BR-for-one in a desirable coastal suburb — La Marsa, Gammarth, Sidi Bou Said, or Les Berges du Lac — with a car in the garage. You dine at the better seafront restaurants routinely, stock imported goods without thinking, and carry a strong private plan bordering on international cover. Periodic weekend hops to Europe are cheap and short (Rome, Paris, and Malta are quick flights), and clubs and events fill the rest. Costs remain a fraction of any European coastal equivalent."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Grand seaside estate in Gammarth or Sidi Bou Said with pool, gardens, and panoramic views",
-        "monthlyCost": 1600
+        "description": "Luxury apartment or small seaside villa for one in Gammarth/Lac",
+        "monthlyCost": 1500
       },
       "dining": {
-        "description": "Personal chef specializing in Tunisian-French cuisine, exclusive dining, catered events",
-        "monthlyCost": 375
+        "description": "Near-daily dining at top restaurants",
+        "monthlyCost": 650
       },
       "groceries": {
-        "monthlyCost": 250
-      },
-      "healthcare": {
-        "description": "Top-tier international insurance with concierge service and European medical evacuation",
-        "monthlyCost": 250
-      },
-      "transportation": {
-        "description": "Luxury vehicle, full-time driver, frequent flights to European capitals",
-        "monthlyCost": 275
-      },
-      "entertainment": {
-        "description": "Exclusive club memberships, sailing, cultural patronage, art collecting, international festivals",
         "monthlyCost": 350
       },
+      "healthcare": {
+        "description": "Top-tier private/international plan with medevac to Europe",
+        "monthlyCost": 300
+      },
+      "transportation": {
+        "description": "Car ownership plus fuel/insurance and taxis",
+        "monthlyCost": 400
+      },
+      "entertainment": {
+        "description": "Clubs, events, frequent short-haul European travel",
+        "monthlyCost": 450
+      },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 200
       },
       "domesticHelp": {
-        "description": "Full household staff: housekeeper, chef, gardener, security, driver, personal assistant",
-        "monthlyCost": 375
+        "description": "Near-full-time housekeeper/cook plus an occasional driver",
+        "monthlyCost": 350
       },
       "luxuryExtras": {
-        "description": "First-class European travel, private Sahara lodges, real estate investments, philanthropy",
-        "monthlyCost": 1125
+        "description": "Beach/golf club membership, fine wine, concierge, European getaways",
+        "monthlyCost": 500
       },
-      "lifestyle": "A large seaside estate in Gammarth or Sidi Bou Said with pool and gardens. A housekeeper, cook, gardener, and driver. A luxury vehicle, business class flights to European capitals, and top-tier international health insurance with European hospital access. Regular dining at the best restaurants and club memberships. Tunisia's low costs mean this budget provides a very high quality of life with a large margin each month."
+      "lifestyle": "Upper-luxury for one — a high-end Gammarth apartment or a small seaside villa with a pool, kept by a near-full-time housekeeper who also cooks, with an occasional driver. Dining is near-daily at the best tables, and a top-tier private/international policy will medevac you to Europe if needed. A beach- or golf-club membership plus frequent short-haul European travel round out the lifestyle. Even here, Tunis delivers what would cost three or four times as much on the northern Mediterranean."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Palatial seaside compound in Gammarth or Sidi Bou Said with guest houses and panoramic Mediterranean views",
-        "monthlyCost": 1900
+        "description": "Top-of-market luxury villa/apartment for one in Gammarth/Lac (scaled to a solo occupant, not a family estate)",
+        "monthlyCost": 3000
       },
       "dining": {
-        "description": "Personal chef team, exclusive private dining, catered events for international guests",
-        "monthlyCost": 500
+        "description": "Lavish near-daily fine dining",
+        "monthlyCost": 1000
       },
       "groceries": {
-        "monthlyCost": 250
+        "monthlyCost": 500
       },
       "healthcare": {
-        "description": "Top-tier international concierge medicine, executive wellness, European hospital access",
-        "monthlyCost": 250
+        "description": "International concierge cover with medevac to Europe",
+        "monthlyCost": 500
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, full-time driver team, private charter flights",
-        "monthlyCost": 375
+        "description": "Premium car plus running costs (driver under domesticHelp)",
+        "monthlyCost": 550
       },
       "entertainment": {
-        "description": "Major cultural patronage, international art collecting, yacht charter, global philanthropy",
-        "monthlyCost": 625
+        "description": "Frequent European travel, events, VIP experiences",
+        "monthlyCost": 800
       },
       "utilities": {
-        "monthlyCost": 175
+        "monthlyCost": 350
       },
       "domesticHelp": {
-        "description": "Full estate staff: multiple housekeepers, chef team, security detail, drivers, personal assistant, property manager",
-        "monthlyCost": 625
+        "description": "Full-time housekeeper, cook, and driver scaled to ONE home (Tunisian wages)",
+        "monthlyCost": 900
       },
       "luxuryExtras": {
-        "description": "Yacht, real estate portfolio, first-class global travel, major educational philanthropy, cultural sponsorship",
-        "monthlyCost": 2100
+        "description": "Concierge, club memberships, fine wine/art, lavish discretionary",
+        "monthlyCost": 1200
       },
-      "lifestyle": "A large seaside property in Gammarth or Sidi Bou Said with full household staff including multiple housekeepers, a cook several times a week, security, and drivers. Multiple vehicles, first class international flights, and top-tier global health coverage with European hospital access. Regular fine dining and entertaining. Tunisia's extremely low costs mean the vast majority of this budget goes unspent. Most people at this level travel extensively and use Tunis as a beautiful, affordable Mediterranean home base."
+      "lifestyle": "The ceiling of what one person can plausibly consume in Tunis — a top-of-market luxury villa or apartment in Gammarth or Les Berges du Lac, scaled to a solo occupant rather than a family estate, with a full-time housekeeper, cook, and driver. Healthcare is an international concierge policy with medevac to Europe, and a premium car sits in the drive. The discretionary budget funds frequent European travel, events, VIP experiences, and fine wine and art. Tunisia's low wages and subsidized staples keep even this near $8.8k a month — and a solo person simply can't fill a household's bedrooms, meals, or estate staff."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 4,
     "infrastructure": 4,
     "expatFriendliness": 4
-  }
+  },
+  "dataRecency": "Q3 2026"
 }

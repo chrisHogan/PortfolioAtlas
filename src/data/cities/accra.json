@@ -19,7 +19,7 @@
     "safetyRating": "Good – one of the safest countries in West Africa",
     "nearestAirport": "Kotoka International Airport (ACC)",
     "climate": "Tropical savanna with hot temperatures year-round and a rainy season",
-    "englishFriendly": "Moderate – English is official but local languages dominate daily life",
+    "englishFriendly": "Moderate",
     "currency": "GHS (Ghanaian Cedi)",
     "averageTemp": "80°F / 27°C"
   },
@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "Modern 2BR apartment in East Legon, Osu, or Airport Residential with security",
-        "monthlyCost": 875
+        "description": "Secure gated 1BR/studio (24/7 guard, generator, water tank) on the East Legon fringe, Osu, or Labone — the security premium a solo expat actually pays",
+        "monthlyCost": 500
       },
       "dining": {
-        "description": "Regular dining at chop bars and local restaurants; jollof rice, banku, and grilled tilapia daily",
-        "monthlyCost": 225
+        "description": "Chop-bar and local eats a few times a week; mostly home cooking",
+        "monthlyCost": 70
       },
       "groceries": {
-        "monthlyCost": 275
+        "monthlyCost": 180
       },
       "healthcare": {
-        "description": "Private health insurance with access to Nyaho Medical Centre and other private clinics",
-        "monthlyCost": 250
+        "description": "Basic local/regional private cover, single adult 45–55, hospitalization-first",
+        "monthlyCost": 55
       },
       "transportation": {
-        "description": "Uber and Bolt daily; much easier than owning a car in Accra traffic",
-        "monthlyCost": 200
+        "description": "Bolt/Uber daily plus the occasional trotro; no car",
+        "monthlyCost": 90
       },
       "entertainment": {
-        "description": "Labadi Beach, live highlife and afrobeats shows, Art Centre markets, Aburi Botanical Gardens",
-        "monthlyCost": 175
+        "description": "Beaches, live highlife, markets",
+        "monthlyCost": 50
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 110
       },
-      "lifestyle": "A modern 2-bedroom apartment with security in East Legon or Osu. Getting around by Uber and Bolt, eating jollof rice and grilled tilapia at local restaurants most days. Private health insurance covering Nyaho Medical Centre and private clinics. Labadi Beach on weekends and live music in the evenings. Power outages (dumsor) are a real nuisance, but an inverter helps. Comfortable and affordable, with a modest buffer each month."
+      "lifestyle": "A small but secure gated 1BR or studio on the East Legon fringe, Osu, or Labone — the 24/7 guard, generator, and water tank are the security premium a solo retiree actually pays for here. Most meals are cooked at home from local markets, with chop-bar plates a few times a week, and you get around by Bolt and the occasional trotro rather than owning a car. Cover is a no-frills local/regional plan handling hospitalization and basic outpatient care. AC use is rationed against the prepaid meter, and dumsor means the inverter earns its keep. Comfortable and safe, but genuinely frugal — no imported-grocery habit and little travel."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "Spacious 3BR house in Cantonments, East Legon, or Trasacco Valley with garden and security",
-        "monthlyCost": 1275
+        "description": "Nicer furnished 1BR in Osu, Labone, or Cantonments",
+        "monthlyCost": 900
       },
       "dining": {
-        "description": "Regular dining at Accra's best restaurants like Buka, Santoku, and The Republic; beach bars",
-        "monthlyCost": 325
-      },
-      "groceries": {
-        "monthlyCost": 275
-      },
-      "healthcare": {
-        "description": "Comprehensive private insurance with dental, specialist, and international evacuation coverage",
-        "monthlyCost": 275
-      },
-      "transportation": {
-        "description": "Reliable SUV with insurance for both city driving and road trips along the coast",
+        "description": "Out several nights a week, local + mid-range",
         "monthlyCost": 250
       },
+      "groceries": {
+        "monthlyCost": 300
+      },
+      "healthcare": {
+        "description": "Comprehensive regional private cover (Nyaho, Akai House access)",
+        "monthlyCost": 150
+      },
+      "transportation": {
+        "description": "Daily Bolt rides replace trotros",
+        "monthlyCost": 180
+      },
       "entertainment": {
-        "description": "Beach club memberships, weekend trips to Cape Coast and Elmina, Ada Foah, Volta Region, gym, live music",
-        "monthlyCost": 475
+        "description": "Gym plus a regular social life",
+        "monthlyCost": 150
       },
       "utilities": {
-        "monthlyCost": 175
+        "monthlyCost": 170
       },
-      "lifestyle": "A spacious 3-bedroom house in Cantonments or East Legon with a garden and security. An SUV for both city driving and coastal road trips, dining at good restaurants like Buka and The Republic several times a week. Comprehensive private health insurance with evacuation coverage. Weekend trips to Cape Coast, Elmina, and Ada Foah. A cleaner a few times a week. Comfortable and well above average for Accra, with a solid monthly cushion."
+      "lifestyle": "A nicer furnished 1BR in Osu, Labone, or Cantonments, within walking distance of restaurants and nightlife. Groceries mix Makola-market local produce with imported items, and dinners out several nights a week are routine. Comprehensive regional private insurance covers the good private clinics like Nyaho and Akai House. Daily Bolt rides replace the trotro entirely, and a gym membership plus an active weekend social life round out an easy, unpretentious solo life."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Luxury 4BR villa in Trasacco Valley, Airport Hills, or a beachfront property in La",
-        "monthlyCost": 1875
+        "description": "Good furnished/serviced 1BR in a prime pocket (Cantonments, Airport Residential) with 24h security, backup power, gym",
+        "monthlyCost": 1400
       },
       "dining": {
-        "description": "Fine dining at top Accra restaurants, private dinner parties, imported wine and spirits",
-        "monthlyCost": 350
+        "description": "Frequent quality dining at Accra's better restaurants",
+        "monthlyCost": 450
       },
       "groceries": {
-        "monthlyCost": 275
+        "monthlyCost": 420
       },
       "healthcare": {
-        "description": "Premium private insurance with international coverage and medical evacuation",
-        "monthlyCost": 275
+        "description": "Strong private plan approaching international, with regional referral",
+        "monthlyCost": 320
       },
       "transportation": {
-        "description": "Late-model SUV, full insurance, private driver for daily errands",
-        "monthlyCost": 275
+        "description": "Own car or unlimited Bolt plus an occasional hired day-driver",
+        "monthlyCost": 350
       },
       "entertainment": {
-        "description": "Exclusive club memberships, premium beach clubs, luxury coastal retreats, art collecting, Chale Wote festival VIP",
-        "monthlyCost": 575
+        "description": "Clubs, gym, weekend trips to Cape Coast, Ada, or Aburi",
+        "monthlyCost": 350
       },
       "utilities": {
-        "monthlyCost": 175
+        "monthlyCost": 240
       },
-      "lifestyle": "A large villa in Trasacco Valley or Airport Hills with a driver, a cleaner, and a cook several times a week. A late-model SUV, regular dining at Accra's best restaurants, and premium health insurance with international coverage. Beach club memberships and trips along the coast. This budget goes very far in Accra, with significant margin each month for travel or savings."
+      "lifestyle": "A good furnished/serviced 1BR in a prime pocket like Cantonments or Airport Residential — 24-hour security, backup power, and a gym come built in, which matters when dumsor hits. Dining at Accra's better restaurants becomes a default, and transport is either an owned car or unlimited Bolt with an occasional hired day-driver. Insurance steps up to a strong plan approaching international cover, with regional referral. Weekends mean Cape Coast, Ada, or the Aburi hills, with real budget margin left over each month."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Grand estate in Trasacco Valley or exclusive beachfront compound with pool and gardens",
-        "monthlyCost": 2075
+        "description": "Top luxury serviced 1BR / small 2BR-for-one in Cantonments or Airport Residential",
+        "monthlyCost": 2500
       },
       "dining": {
-        "description": "Personal chef, exclusive dining experiences, catered events at home",
-        "monthlyCost": 425
+        "description": "Near-daily dining at Accra's top restaurants",
+        "monthlyCost": 750
       },
       "groceries": {
-        "monthlyCost": 300
+        "monthlyCost": 550
       },
       "healthcare": {
-        "description": "Top-tier international private insurance with global coverage and concierge service",
-        "monthlyCost": 300
+        "description": "Top-tier international plan (worldwide-excl-US) with evacuation cover",
+        "monthlyCost": 520
       },
       "transportation": {
-        "description": "Luxury SUV, full-time driver, domestic flights to Kumasi and Tamale",
-        "monthlyCost": 300
+        "description": "Owned car with fuel and maintenance",
+        "monthlyCost": 450
       },
       "entertainment": {
-        "description": "Exclusive memberships, art patronage, Afrobeats concerts, international travel, beach events",
-        "monthlyCost": 350
+        "description": "Club/beach-club membership, events, frequent regional travel",
+        "monthlyCost": 600
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 380
       },
       "domesticHelp": {
-        "description": "Full household staff: housekeeper, chef, gardener, security team, driver, personal assistant",
-        "monthlyCost": 375
+        "description": "Part-time housekeeper/cook plus a part-time driver",
+        "monthlyCost": 500
       },
       "luxuryExtras": {
-        "description": "First-class international travel, real estate investments, major philanthropy, cultural sponsorship",
-        "monthlyCost": 1175
+        "description": "Club memberships, concierge, premium travel",
+        "monthlyCost": 700
       },
-      "lifestyle": "A large property in Trasacco Valley or a beachfront house with pool and gardens. A housekeeper, cook, gardener, and driver. A luxury SUV, business class flights for international travel, and top-tier health insurance with global coverage. Regular dining at the best restaurants and club memberships. Accra's moderate costs leave a large margin at this budget. Ghana's stability and welcoming culture make it a strong base for long-term living."
+      "lifestyle": "A top luxury serviced 1BR or small 2BR kept for one in Cantonments or Airport Residential, with a part-time housekeeper/cook and a part-time driver handling an owned car. Dining is near-daily at Accra's top spots, backed by a club or beach-club membership and frequent regional travel. Healthcare is a top-tier international plan (worldwide-excl-US) with evacuation cover to South Africa or Europe. A full-AC flat or villa with its own generator means dumsor is somebody else's problem, and there is generous discretionary room for one person."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Trophy estate in Trasacco Valley or private beachfront compound with guest houses",
-        "monthlyCost": 2400
+        "description": "Solo-luxury 1–2BR / small villa at the best address (Cantonments, Airport Residential) — scaled to one occupant, not a family estate",
+        "monthlyCost": 3500
       },
       "dining": {
-        "description": "Personal chef team, exclusive private dining, catered diplomatic-level events",
-        "monthlyCost": 525
+        "description": "Daily fine dining and hosting",
+        "monthlyCost": 1200
       },
       "groceries": {
-        "monthlyCost": 300
+        "monthlyCost": 750
       },
       "healthcare": {
-        "description": "Top-tier international concierge medicine, executive wellness, global medical evacuation",
-        "monthlyCost": 300
+        "description": "International concierge cover with worldwide access and evacuation",
+        "monthlyCost": 850
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, full-time driver team, private charter flights",
-        "monthlyCost": 450
+        "description": "Car(s), fuel, maintenance, premium rides (driver under domesticHelp)",
+        "monthlyCost": 700
       },
       "entertainment": {
-        "description": "Major cultural patronage, international art collecting, global philanthropy, event hosting",
-        "monthlyCost": 800
+        "description": "Events, hosting, first-class regional/international travel",
+        "monthlyCost": 1200
       },
       "utilities": {
-        "monthlyCost": 225
+        "monthlyCost": 550
       },
       "domesticHelp": {
-        "description": "Full estate staff: multiple housekeepers, chef team, security detail, drivers, personal assistant, property manager",
-        "monthlyCost": 800
+        "description": "Full-time housekeeper, cook, and driver scaled to ONE home (not estate staff)",
+        "monthlyCost": 1000
       },
       "luxuryExtras": {
-        "description": "Real estate portfolio, first-class global travel, major educational and community philanthropy, business investments",
-        "monthlyCost": 2200
+        "description": "Concierge, club tiers, art/hobbies, lavish discretionary",
+        "monthlyCost": 1800
       },
-      "lifestyle": "A premium property in Trasacco Valley or a large beachfront house with full household staff including a housekeeper, cook, security, and drivers. Multiple vehicles, first class international flights, and top-tier global health coverage. Regular fine dining and entertaining. Accra's costs are far below what this budget provides, so the vast majority goes unspent each month. Most people at this level travel extensively and invest in local community or business projects."
+      "lifestyle": "The top of what one person can consume in Accra — a solo-luxury 1–2BR or small villa at the best address in Cantonments or Airport Residential, staffed by a full-time housekeeper, cook, and driver scaled to a single home rather than an estate's crew. Daily fine dining and hosting, first-class regional and international travel, and an international concierge health plan with worldwide access and evacuation. A large villa runs on its own generator against dumsor, and the discretionary budget funds concierge services, club tiers, and hobbies. It sits well below a family FatFIRE precisely because a solo resident can't fill a household's bedrooms, food, or fleet."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 4,
     "infrastructure": 4,
     "expatFriendliness": 7
-  }
+  },
+  "dataRecency": "Q3 2026"
 }
