@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "1BR apartment in West Ashley, North Charleston, or James Island",
-        "monthlyCost": 1950
+        "description": "Cheapest-acceptable studio or older 1BR in a value area — West Ashley, North Charleston, or James Island",
+        "monthlyCost": 1400
       },
       "dining": {
-        "description": "Casual Lowcountry fare 2-3x/week; shrimp and grits spots and BBQ joints",
-        "monthlyCost": 325
+        "description": "Casual Lowcountry fare a few times a week; shrimp-and-grits spots and BBQ joints; mostly home cooking",
+        "monthlyCost": 110
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 370
       },
       "healthcare": {
-        "description": "ACA Silver plan on the SC marketplace; MUSC provides excellent regional care",
-        "monthlyCost": 700
+        "description": "ACA marketplace Silver plan on the SC exchange, subsidized if MAGI is kept under the 2026 400%-FPL cliff (~$62,600 single); assumes an early retiree (45–55) — older retirees budget more",
+        "monthlyCost": 450
       },
       "transportation": {
-        "description": "Older paid-off car with insurance and gas; Charleston requires a car",
-        "monthlyCost": 375
+        "description": "A paid-off used car with insurance and gas; Charleston requires a car, and SC auto premiums run high",
+        "monthlyCost": 280
       },
       "entertainment": {
-        "description": "Free walks on the Battery, beach days at Folly Beach, historic district strolls",
-        "monthlyCost": 125
+        "description": "Free walks on the Battery, beach days at Folly Beach, historic-district strolls",
+        "monthlyCost": 130
       },
       "utilities": {
-        "monthlyCost": 225
+        "monthlyCost": 230
       },
-      "lifestyle": "You will live in West Ashley, James Island, or North Charleston rather than downtown, and housing takes a large share of the budget. Free walks on the Battery, beach days at Folly Beach, and affordable shrimp-and-grits spots keep life enjoyable. Summer A/C bills are a real cost to plan for. This is tight but workable if you cook at home most nights."
+      "lifestyle": "A cheapest-acceptable studio or older one-bedroom in a value area like West Ashley, North Charleston, or James Island rather than the peninsula, where housing still takes a large share. Free walks on the Battery, beach days at Folly Beach, and affordable shrimp-and-grits spots keep life enjoyable. Summer A/C bills and higher SC auto premiums are real costs to plan for. Tight but workable with home cooking most nights, in one of America's most beautiful cities."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "2BR apartment in downtown Charleston, Mount Pleasant, or Sullivan's Island area",
-        "monthlyCost": 2675
+        "description": "A decent 1BR in a solid area — Mount Pleasant, or a better West Ashley/James Island building",
+        "monthlyCost": 1800
       },
       "dining": {
-        "description": "Dining out 3-4x/week at Charleston's celebrated restaurants and oyster bars",
-        "monthlyCost": 725
+        "description": "Dining out several times a week at Charleston's celebrated restaurants and oyster bars",
+        "monthlyCost": 300
       },
       "groceries": {
-        "monthlyCost": 575
+        "monthlyCost": 470
       },
       "healthcare": {
-        "description": "ACA Gold plan with dental and vision; access to MUSC's renowned medical center",
-        "monthlyCost": 750
+        "description": "A Silver plan; net cost stays low only if MAGI is managed under the ~$62,600 cliff",
+        "monthlyCost": 480
       },
       "transportation": {
-        "description": "Reliable mid-range car, full coverage insurance, gas for beach and island trips",
-        "monthlyCost": 450
-      },
-      "entertainment": {
-        "description": "Spoleto Festival tickets, kayaking in the marshes, gym membership, golf",
+        "description": "A reliable mid-range car with full coverage; gas for beach and island trips",
         "monthlyCost": 350
       },
-      "utilities": {
-        "monthlyCost": 225
+      "entertainment": {
+        "description": "Spoleto Festival tickets, kayaking the salt marshes, a gym membership, golf",
+        "monthlyCost": 280
       },
-      "lifestyle": "A two-bedroom downtown or near the beach in Mount Pleasant puts the city's restaurant scene within easy reach. Dining out three or four times a week at Charleston's well-known restaurants and oyster bars is comfortable at this budget. Weekends involve kayaking the salt marshes, beach time at Isle of Palms, and events like Spoleto Festival."
+      "utilities": {
+        "monthlyCost": 260
+      },
+      "lifestyle": "A comfortable one-bedroom in Mount Pleasant or a nicer West Ashley building puts the city's restaurant scene within easy reach, with dining out several times a week at celebrated restaurants and oyster bars. A reliable car covers beach and island runs. Weekends mean kayaking the salt marshes, beach time at Isle of Palms, and events like Spoleto. A relaxed, comfortable Lowcountry life."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Historic home south of Broad Street, or a waterfront house on Sullivan's Island",
-        "monthlyCost": 3575
+        "description": "A high-quality 1BR or small place downtown on the peninsula or in Mount Pleasant",
+        "monthlyCost": 2500
       },
       "dining": {
-        "description": "Regular dining at FIG, Husk, and The Ordinary; frequent oyster roasts with friends",
-        "monthlyCost": 900
+        "description": "Regular dining at FIG, Husk, and The Ordinary; oyster roasts",
+        "monthlyCost": 550
       },
       "groceries": {
-        "monthlyCost": 575
+        "monthlyCost": 520
       },
       "healthcare": {
-        "description": "Premium private insurance with comprehensive MUSC network access",
-        "monthlyCost": 725
+        "description": "A Gold-tier plan with MUSC network access; padded near the ~$62,600 ACA cliff where premium tax credits phase out",
+        "monthlyCost": 600
       },
       "transportation": {
-        "description": "Late-model SUV, premium insurance, boat fuel for harbor excursions",
-        "monthlyCost": 475
+        "description": "A late-model SUV, premium insurance, fuel for harbor and island excursions",
+        "monthlyCost": 430
       },
       "entertainment": {
-        "description": "Golf club membership, sailing on Charleston Harbor, Spoleto patron, premium gym",
+        "description": "A golf club membership, sailing on Charleston Harbor, Spoleto patron, premium gym",
         "monthlyCost": 500
-      },
-      "utilities": {
-        "monthlyCost": 250
-      },
-      "lifestyle": "A historic home south of Broad or a waterfront place on Sullivan's Island is within reach. Regular dinners at FIG, Husk, and The Ordinary fit the budget comfortably, and you can afford a golf membership and weekend sailing in the harbor. This is a genuinely affluent Charleston life with room for regular travel."
-    },
-    "5M": {
-      "monthlyBudget": 16667,
-      "housing": {
-        "description": "Grand historic home south of Broad, or beachfront estate on Kiawah Island",
-        "monthlyCost": 4625
-      },
-      "dining": {
-        "description": "Fine dining weekly, private chef for Lowcountry dinner parties, wine cellar",
-        "monthlyCost": 1300
-      },
-      "groceries": {
-        "monthlyCost": 700
-      },
-      "healthcare": {
-        "description": "Concierge medicine at MUSC; executive wellness and preventive care programs",
-        "monthlyCost": 875
-      },
-      "transportation": {
-        "description": "Luxury vehicle, boat for harbor and island hopping, premium insurance",
-        "monthlyCost": 750
-      },
-      "entertainment": {
-        "description": "Kiawah golf membership, yacht club, Spoleto Festival patron, private tours",
-        "monthlyCost": 925
-      },
-      "utilities": {
-        "monthlyCost": 325
-      },
-      "domesticHelp": {
-        "description": "Weekly cleaning, garden maintenance, boat upkeep, personal assistant",
-        "monthlyCost": 700
-      },
-      "luxuryExtras": {
-        "description": "Quarterly travel, antique collecting, historic preservation philanthropy, spa retreats",
-        "monthlyCost": 1300
-      },
-      "lifestyle": "A large historic home south of Broad with a piazza, or a beachfront property on Kiawah Island. A housekeeper comes weekly, you dine at the city's best restaurants several times a week, and a golf membership at Kiawah is affordable. Business class travel and regular entertaining are comfortable at this budget. Charleston's high-end real estate absorbs a fair share, but daily life feels very well-appointed."
-    },
-    "10M": {
-      "monthlyBudget": 33333,
-      "housing": {
-        "description": "Landmark historic estate south of Broad or private compound on Kiawah Island",
-        "monthlyCost": 6225
-      },
-      "dining": {
-        "description": "Personal chef specializing in Lowcountry cuisine, exclusive wine events, catered soirees",
-        "monthlyCost": 1750
-      },
-      "groceries": {
-        "monthlyCost": 625
-      },
-      "healthcare": {
-        "description": "Top-tier concierge practice at MUSC, executive health screenings, specialist access",
-        "monthlyCost": 875
-      },
-      "transportation": {
-        "description": "Multiple luxury vehicles, private yacht, driver for events and travel",
-        "monthlyCost": 1125
-      },
-      "entertainment": {
-        "description": "Philanthropic galas, art and antique collecting, international travel, private club memberships",
-        "monthlyCost": 1550
       },
       "utilities": {
         "monthlyCost": 300
       },
+      "lifestyle": "A high-quality place on the historic peninsula or in Mount Pleasant, with regular dinners at FIG, Husk, and The Ordinary. A golf membership and weekend sailing on the harbor fit comfortably, and healthcare runs through the MUSC network, padded near the ~$62,600 ACA cliff. A late-model SUV covers island excursions. A genuinely affluent Charleston life with room for regular travel."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "A luxury peninsula condo or a smaller historic-district or waterfront place — South of Broad edge, Sullivan's Island, or Kiawah",
+        "monthlyCost": 4000
+      },
+      "dining": {
+        "description": "Fine dining several nights a week plus private-chef Lowcountry dinner parties and a wine cellar",
+        "monthlyCost": 1100
+      },
+      "groceries": {
+        "monthlyCost": 680
+      },
+      "healthcare": {
+        "description": "An unsubsidized Gold/Platinum plan plus concierge medicine at MUSC and preventive care",
+        "monthlyCost": 1050
+      },
+      "transportation": {
+        "description": "A luxury vehicle plus a boat for harbor and island hopping, premium insurance",
+        "monthlyCost": 720
+      },
+      "entertainment": {
+        "description": "A Kiawah golf membership, yacht club, Spoleto patron, private tours",
+        "monthlyCost": 800
+      },
+      "utilities": {
+        "monthlyCost": 400
+      },
       "domesticHelp": {
-        "description": "Full-time housekeeper, estate manager, personal assistant, boat captain, garden staff",
-        "monthlyCost": 2625
+        "description": "Weekly cleaning plus garden and boat upkeep",
+        "monthlyCost": 350
       },
       "luxuryExtras": {
-        "description": "Historic preservation endowments, European travel, second home, charitable foundation",
-        "monthlyCost": 3125
+        "description": "Quarterly travel, antique collecting, historic-preservation philanthropy, spa retreats",
+        "monthlyCost": 700
       },
-      "lifestyle": "A landmark historic home or a large Kiawah Island property, regular domestic staff including a housekeeper and property manager, and a cook who comes in several times a week. First-class travel, fine dining whenever you like, and a boat for exploring the harbor and barrier islands. Charleston's preservation community and cultural scene offer real ways to get involved. Housing at this level absorbs a meaningful share, but the overall lifestyle is very comfortable."
+      "lifestyle": "A luxury condo or a smaller historic or waterfront place near South of Broad, on Sullivan's Island, or at Kiawah, with weekly housekeeping and concierge medicine at MUSC. Fine dining several nights a week, a Kiawah golf membership, and a boat for harbor and island hopping all fit. Business class travel and regular entertaining are comfortable. Charleston's high-end real estate absorbs a fair share, but daily life feels very well-appointed."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "A landmark historic estate South of Broad or a private compound on Kiawah Island",
+        "monthlyCost": 7500
+      },
+      "dining": {
+        "description": "A private chef specializing in Lowcountry cuisine, exclusive wine events, catered soirées",
+        "monthlyCost": 2400
+      },
+      "groceries": {
+        "monthlyCost": 950
+      },
+      "healthcare": {
+        "description": "A top-tier unsubsidized concierge practice at MUSC plus executive screenings — fully out of subsidy range",
+        "monthlyCost": 1400
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles, a private yacht, a driver for events and travel",
+        "monthlyCost": 1600
+      },
+      "entertainment": {
+        "description": "Philanthropic galas, art and antique collecting, international travel, private club memberships",
+        "monthlyCost": 2000
+      },
+      "utilities": {
+        "monthlyCost": 650
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, estate manager, boat captain, and garden staff",
+        "monthlyCost": 1300
+      },
+      "luxuryExtras": {
+        "description": "Historic-preservation endowments, European travel, a second home, a charitable foundation",
+        "monthlyCost": 2200
+      },
+      "lifestyle": "A landmark historic estate South of Broad or a private Kiawah Island compound, full-time domestic staff including an estate manager and boat captain, and a private chef several days a week. First-class travel, fine dining whenever desired, and a yacht for the harbor and barrier islands come standard, alongside top-tier concierge care at MUSC. Charleston's preservation community and cultural scene offer real ways to get involved. Housing absorbs a meaningful share, but the lifestyle is uncapped — roughly $240k a year."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 7,
     "infrastructure": 7,
     "expatFriendliness": 9
-  }
+  },
+  "dataRecency": "Q3 2026"
 }

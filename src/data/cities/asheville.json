@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "1BR apartment in West Asheville or the South Slope area",
-        "monthlyCost": 1750
+        "description": "Cheapest-acceptable studio or older 1BR in a workable area like West Asheville or the Emma/Haywood Road fringe",
+        "monthlyCost": 1250
       },
       "dining": {
-        "description": "Occasional brewery visits and casual dining 2x/week; mostly home cooking",
-        "monthlyCost": 300
+        "description": "Mostly home cooking; casual meals and the occasional brewery visit a few times a week",
+        "monthlyCost": 90
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 360
       },
       "healthcare": {
-        "description": "ACA marketplace Silver plan; North Carolina premiums are mid-range",
-        "monthlyCost": 650
+        "description": "ACA marketplace Silver plan on the NC exchange, subsidized if MAGI is kept under the 2026 400%-FPL cliff (~$62,600 single); assumes an early retiree (45–55) — older retirees budget more",
+        "monthlyCost": 450
       },
       "transportation": {
-        "description": "Paid-off car with basic insurance; car helpful for mountain access",
-        "monthlyCost": 325
+        "description": "A paid-off used car with insurance; a car is near-essential for mountain access (transit is limited)",
+        "monthlyCost": 280
       },
       "entertainment": {
-        "description": "Hiking the Blue Ridge Parkway, free gallery walks, street music; occasional show",
-        "monthlyCost": 100
-      },
-      "utilities": {
-        "monthlyCost": 175
-      },
-      "lifestyle": "A one-bedroom in West Asheville or South Slope, cooking at home most nights, and a paid-off car for access to mountain trailheads. Healthcare on an ACA Silver plan takes a large share of the budget, and unexpected expenses like car repairs or dental work will require careful planning. Free hiking on the Blue Ridge Parkway and the occasional brewery visit are your main entertainment. This is a tight budget in Asheville, but the outdoor access and mild mountain climate make it workable."
-    },
-    "2M": {
-      "monthlyBudget": 6667,
-      "housing": {
-        "description": "2BR apartment downtown or a small cottage in Montford or Kenilworth",
-        "monthlyCost": 2375
-      },
-      "dining": {
-        "description": "Enjoying Asheville's celebrated food scene 3-4x/week; farm-to-table restaurants",
-        "monthlyCost": 625
-      },
-      "groceries": {
-        "monthlyCost": 550
-      },
-      "healthcare": {
-        "description": "ACA Gold plan with dental and vision; comfortable deductible",
-        "monthlyCost": 775
-      },
-      "transportation": {
-        "description": "Reliable car for Blue Ridge Parkway drives, full coverage insurance",
-        "monthlyCost": 425
-      },
-      "entertainment": {
-        "description": "Orange Peel concerts, pottery classes, river tubing, brewery tours, yoga studio",
-        "monthlyCost": 300
+        "description": "Hiking the Blue Ridge Parkway and Pisgah, free gallery walks in the River Arts District, street music",
+        "monthlyCost": 120
       },
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "A cottage in Montford or a two-bedroom downtown, dining out several times a week at the city's farm-to-table restaurants, and a reliable car for Blue Ridge Parkway drives. You can afford Orange Peel concert tickets, a pottery or yoga class, and a good health plan. Weekends might be spent hiking Pisgah National Forest or floating the French Broad River. This budget provides a comfortable, creative daily life in a walkable small city."
+      "lifestyle": "A cheapest-acceptable studio or older one-bedroom in a workable pocket of West Asheville, with home cooking the norm and a paid-off car for reaching trailheads. The ACA Silver premium stays affordable only if MAGI is managed under the 2026 ~$62,600 cliff, and healthcare plus the car form a hard cost floor. Entertainment leans on Asheville's free assets — the Blue Ridge Parkway, Pisgah trails, gallery walks in the River Arts District, and downtown street music. A tight but genuinely livable mountain base, softened by a mild four-season climate."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "A decent 1BR in a solid neighborhood — West Asheville proper, Montford, or Kenilworth",
+        "monthlyCost": 1600
+      },
+      "dining": {
+        "description": "Dining out several times a week across Asheville's celebrated farm-to-table and brewery scene",
+        "monthlyCost": 260
+      },
+      "groceries": {
+        "monthlyCost": 460
+      },
+      "healthcare": {
+        "description": "A Silver plan; net cost stays low only if MAGI is managed under the ~$62,600 cliff",
+        "monthlyCost": 480
+      },
+      "transportation": {
+        "description": "A reliable car with full coverage for Blue Ridge Parkway drives",
+        "monthlyCost": 330
+      },
+      "entertainment": {
+        "description": "Orange Peel concerts, a pottery or yoga class, river tubing, brewery tours",
+        "monthlyCost": 260
+      },
+      "utilities": {
+        "monthlyCost": 230
+      },
+      "lifestyle": "A comfortable one-bedroom in Montford or West Asheville proper, dining out several times a week among the city's farm-to-table restaurants and breweries, and a reliable car for Parkway drives. Orange Peel concert tickets, a pottery or yoga class, and river tubing on the French Broad fit easily. Weekends run to hikes in Pisgah National Forest and the occasional brewery tour. Comfortable, creative small-city living with real breathing room at this budget."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "3BR home in North Asheville or Biltmore Forest area with mountain views",
-        "monthlyCost": 3075
+        "description": "A high-quality 1BR or small home in a desirable area — North Asheville or near Biltmore Forest — some with mountain views",
+        "monthlyCost": 2100
       },
       "dining": {
-        "description": "Regular dining at top restaurants like Cúrate, Rhubarb, and Chai Pani; wine dinners",
-        "monthlyCost": 825
+        "description": "Frequent quality dining at Cúrate, Rhubarb, and Chai Pani; wine dinners",
+        "monthlyCost": 480
       },
       "groceries": {
-        "monthlyCost": 550
+        "monthlyCost": 520
       },
       "healthcare": {
-        "description": "Premium private insurance with comprehensive coverage and low deductibles",
-        "monthlyCost": 775
+        "description": "A Gold-tier plan (Mission Health / HCA network); the line is padded near the ~$62,600 ACA cliff where premium tax credits phase out",
+        "monthlyCost": 600
       },
       "transportation": {
-        "description": "Late-model AWD vehicle for mountain roads, premium insurance",
-        "monthlyCost": 500
+        "description": "A late-model AWD vehicle for mountain roads, premium insurance",
+        "monthlyCost": 390
       },
       "entertainment": {
-        "description": "Season passes to local venues, art collecting at River Arts District, golf, spa days",
-        "monthlyCost": 450
+        "description": "Season passes to local venues, art collecting in the River Arts District, a golf membership, spa days",
+        "monthlyCost": 480
       },
       "utilities": {
-        "monthlyCost": 225
+        "monthlyCost": 270
       },
-      "lifestyle": "A three-bedroom home in North Asheville or near Biltmore Forest with mountain views, regular dinners at places like Curate and Rhubarb, and a late-model AWD vehicle. You can afford premium health insurance, art purchases from River Arts District studios, a golf membership, and regular travel. This budget provides a genuinely affluent mountain life with room for seasonal activities and weekend getaways deeper into the Blue Ridge."
+      "lifestyle": "A high-quality one-bedroom or small home in North Asheville or near Biltmore Forest, with mountain views and regular dinners at Cúrate, Rhubarb, and Chai Pani. A late-model AWD vehicle handles mountain roads, healthcare is a Gold plan padded near the ~$62,600 ACA cliff, and there is room for art purchases from River Arts District studios, a golf membership, and regular travel. A genuinely affluent mountain life with margin for seasonal activities and getaways deeper into the Blue Ridge."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Custom mountain home in Biltmore Forest or a luxury property in Clyde or Black Mountain",
-        "monthlyCost": 4525
+        "description": "A luxury condo or a small custom-home rental in Biltmore Forest, North Asheville, or Black Mountain",
+        "monthlyCost": 3100
       },
       "dining": {
-        "description": "Private chef for weekly dinner parties, regular fine dining, farm partnerships",
-        "monthlyCost": 1075
+        "description": "Near-daily dining at the city's best tables plus occasional private-chef meals and farm partnerships",
+        "monthlyCost": 950
       },
       "groceries": {
-        "monthlyCost": 575
+        "monthlyCost": 670
       },
       "healthcare": {
-        "description": "Concierge medical practice in Asheville, premium insurance, integrative wellness",
-        "monthlyCost": 775
+        "description": "An unsubsidized Gold/Platinum plan plus concierge / direct primary care and integrative wellness",
+        "monthlyCost": 1050
       },
       "transportation": {
-        "description": "Luxury SUV, second vehicle, flights from AVL to major hubs",
-        "monthlyCost": 650
+        "description": "A luxury SUV plus a second vehicle; flights from AVL to major hubs",
+        "monthlyCost": 700
       },
       "entertainment": {
-        "description": "Private art studio, country club membership, fly-fishing guides, music patronage",
-        "monthlyCost": 650
+        "description": "A country club membership, guided fly-fishing, arts patronage, private studio access",
+        "monthlyCost": 750
       },
       "utilities": {
-        "monthlyCost": 275
+        "monthlyCost": 350
       },
       "domesticHelp": {
-        "description": "Weekly deep cleaning, gardening service, property maintenance",
-        "monthlyCost": 575
+        "description": "Weekly deep cleaning plus gardening and property maintenance",
+        "monthlyCost": 300
       },
       "luxuryExtras": {
         "description": "Art collecting, quarterly travel, Biltmore Estate events, philanthropy",
-        "monthlyCost": 1150
+        "monthlyCost": 600
       },
-      "lifestyle": "A custom mountain home in Biltmore Forest or Black Mountain, a housekeeper who comes weekly, and concierge medical coverage. You dine at the city's best restaurants regularly, drive a nice SUV, and fly business class for longer trips. Guided fly-fishing, a country club membership, and arts patronage are all within budget. Asheville is a small market, so this level of spending goes far -- you live very comfortably with meaningful margin for travel and giving."
+      "lifestyle": "A luxury condo or a small custom home in Biltmore Forest or Black Mountain, weekly housekeeping, and concierge-level care on an unsubsidized premium plan. The best restaurants become a several-nights-a-week habit, a luxury SUV covers mountain runs, and business class is the default for longer trips. Guided fly-fishing, a country club membership, and arts patronage all fit. Asheville is a small market, so this level of spending goes far, with meaningful margin for travel and giving."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Grand estate in Biltmore Forest or sprawling mountain compound with acreage",
-        "monthlyCost": 5400
+        "description": "A trophy estate in Biltmore Forest or a mountain compound with acreage",
+        "monthlyCost": 5800
       },
       "dining": {
-        "description": "Personal chef, exclusive wine dinners, catered gatherings, farm-to-table everything",
-        "monthlyCost": 1600
+        "description": "Private-chef dining, exclusive wine dinners, and the finest farm-to-table tables",
+        "monthlyCost": 2100
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 950
       },
       "healthcare": {
-        "description": "Top concierge practice, executive wellness retreats, specialists on demand",
-        "monthlyCost": 750
+        "description": "A top-tier unsubsidized plan plus concierge medicine and executive wellness — fully out of subsidy range",
+        "monthlyCost": 1400
       },
       "transportation": {
         "description": "Multiple luxury vehicles, private car service, chartered flights from AVL",
-        "monthlyCost": 850
+        "monthlyCost": 1600
       },
       "entertainment": {
         "description": "Major arts patronage, private concert bookings, international travel, exclusive events",
-        "monthlyCost": 1250
+        "monthlyCost": 1900
       },
       "utilities": {
-        "monthlyCost": 275
+        "monthlyCost": 500
       },
       "domesticHelp": {
-        "description": "Full-time estate manager, housekeeper, personal assistant, groundskeeper",
-        "monthlyCost": 2550
+        "description": "Full-time estate manager, housekeeper, and groundskeeper",
+        "monthlyCost": 1200
       },
       "luxuryExtras": {
-        "description": "Second home, first-class travel, art gallery sponsorships, community foundation",
-        "monthlyCost": 2825
+        "description": "A second home, first-class travel, art gallery sponsorships, a community foundation",
+        "monthlyCost": 2000
       },
-      "lifestyle": "A large estate in Biltmore Forest or a mountain property with acreage, a cook who comes in several times a week, full-time domestic help, and top-tier concierge healthcare. You travel first class, eat at the city's best restaurants without checking prices, and support local arts organizations and conservation efforts. In a small city like Asheville, this budget provides a life where daily costs are never a consideration, with very substantial margin for travel, a second home, and charitable giving."
+      "lifestyle": "A trophy estate in Biltmore Forest or a mountain compound with acreage, full-time domestic staff, and a private chef several days a week. Travel is first class, healthcare is top-tier concierge medicine, and the finest farm-to-table tables are a routine indulgence. Major arts and conservation patronage and a second home are all within reach. In a small city like Asheville, roughly $209k a year buys a life where daily costs never register, with very substantial margin for travel and giving."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 7,
     "infrastructure": 6,
     "expatFriendliness": 8
-  }
+  },
+  "dataRecency": "Q3 2026"
 }

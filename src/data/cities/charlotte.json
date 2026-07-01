@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "1BR apartment in Plaza Midwood, NoDa, or University area",
-        "monthlyCost": 1775
+        "description": "Cheapest-acceptable studio or older 1BR in a workable area — the University area, east Charlotte, or an outer Plaza Midwood/NoDa fringe",
+        "monthlyCost": 1250
       },
       "dining": {
-        "description": "Casual Southern restaurants and food trucks 2-3x/week; mostly cooking at home",
-        "monthlyCost": 300
+        "description": "Casual Southern spots and food trucks a few times a week; mostly cooking at home",
+        "monthlyCost": 90
       },
       "groceries": {
-        "monthlyCost": 475
+        "monthlyCost": 350
       },
       "healthcare": {
-        "description": "ACA marketplace Silver plan through NC exchange",
-        "monthlyCost": 625
+        "description": "ACA marketplace Silver plan on the NC exchange, subsidized if MAGI is kept under the 2026 400%-FPL cliff (~$62,600 single); assumes an early retiree (45–55) — older retirees budget more",
+        "monthlyCost": 450
       },
       "transportation": {
-        "description": "Older paid-off car with insurance and gas; LYNX light rail for uptown trips",
-        "monthlyCost": 325
+        "description": "A paid-off used car with insurance; the LYNX light rail covers only the uptown corridor, so a car is needed for most errands",
+        "monthlyCost": 270
       },
       "entertainment": {
         "description": "Free festivals, greenway trails, brewery happy hours, Panthers watch parties",
-        "monthlyCost": 125
-      },
-      "utilities": {
-        "monthlyCost": 175
-      },
-      "lifestyle": "You can rent a one-bedroom in Plaza Midwood or NoDa and cook most meals at home, with casual Southern restaurants and food trucks a couple of times a week. Charlotte's greenway trails and free festivals provide regular entertainment, and the mild climate keeps utility costs moderate. A car is needed for most errands, but the LYNX light rail covers the uptown corridor."
-    },
-    "2M": {
-      "monthlyBudget": 6667,
-      "housing": {
-        "description": "Spacious 2BR apartment in South End or Dilworth, or a townhome in Ballantyne",
-        "monthlyCost": 2425
-      },
-      "dining": {
-        "description": "Regular dinners at mid-range restaurants in South End; weekend brunch spots",
-        "monthlyCost": 625
-      },
-      "groceries": {
-        "monthlyCost": 550
-      },
-      "healthcare": {
-        "description": "ACA Gold plan with dental and vision add-ons",
-        "monthlyCost": 675
-      },
-      "transportation": {
-        "description": "Reliable mid-range car with full coverage; occasional LYNX rail use",
-        "monthlyCost": 425
-      },
-      "entertainment": {
-        "description": "Hornets and Panthers games, brewery tours, Whitewater Center membership, concerts at PNC",
-        "monthlyCost": 350
+        "monthlyCost": 120
       },
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "You can rent a nice apartment in South End or Dilworth and eat out several times a week at the growing restaurant and brewery scene. Hornets and Panthers games, a Whitewater Center membership, and weekend trips to the Blue Ridge Mountains or Carolina coast are all within budget. Charlotte offers solid urban amenities at prices well below the Northeast corridor."
+      "lifestyle": "A cheapest-acceptable studio or older one-bedroom in the University area or an outer Plaza Midwood fringe, cooking most meals at home with casual Southern spots and food trucks a few times a week. The LYNX light rail covers the uptown corridor, but a car is needed for most errands, and the ACA Silver premium stays low only if MAGI is managed under the 2026 ~$62,600 cliff. Charlotte's greenway trails and free festivals fill the calendar. A disciplined but workable big-city-South base."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "A decent 1BR in a solid area — South End, Dilworth, or a Ballantyne townhome",
+        "monthlyCost": 1600
+      },
+      "dining": {
+        "description": "Regular dinners at mid-range restaurants in South End; weekend brunch spots",
+        "monthlyCost": 250
+      },
+      "groceries": {
+        "monthlyCost": 450
+      },
+      "healthcare": {
+        "description": "A Silver plan; net cost stays low only if MAGI is managed under the ~$62,600 cliff",
+        "monthlyCost": 480
+      },
+      "transportation": {
+        "description": "A reliable mid-range car with full coverage; occasional LYNX use",
+        "monthlyCost": 330
+      },
+      "entertainment": {
+        "description": "Hornets and Panthers games, brewery tours, a Whitewater Center membership, PNC concerts",
+        "monthlyCost": 250
+      },
+      "utilities": {
+        "monthlyCost": 230
+      },
+      "lifestyle": "A comfortable one-bedroom in South End or Dilworth, eating out several times a week across the growing restaurant and brewery scene. Hornets and Panthers games, a US National Whitewater Center membership, and weekend trips to the Blue Ridge or the Carolina coast are all within budget. Charlotte offers solid urban amenities at prices well below the Northeast corridor."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "3BR house in Myers Park, Eastover, or a luxury condo in uptown Charlotte",
-        "monthlyCost": 2950
+        "description": "A high-quality 1BR or small place in a tree-lined historic area — Myers Park, Eastover, or an uptown condo",
+        "monthlyCost": 2000
       },
       "dining": {
-        "description": "Top Charlotte restaurants like The Stanley, Haymaker, and Steak 48 regularly",
-        "monthlyCost": 850
+        "description": "Regular dining at top Charlotte tables like The Stanley, Haymaker, and Steak 48",
+        "monthlyCost": 450
       },
       "groceries": {
-        "monthlyCost": 600
-      },
-      "healthcare": {
-        "description": "Premium private insurance with comprehensive coverage and low deductibles",
-        "monthlyCost": 700
-      },
-      "transportation": {
-        "description": "Late-model sedan or SUV, premium insurance, occasional rideshare",
         "monthlyCost": 500
       },
+      "healthcare": {
+        "description": "A Gold-tier plan (Atrium Health / Novant network); padded near the ~$62,600 ACA cliff where premium tax credits phase out",
+        "monthlyCost": 600
+      },
+      "transportation": {
+        "description": "A late-model sedan or SUV, premium insurance, occasional rideshare",
+        "monthlyCost": 380
+      },
       "entertainment": {
-        "description": "Season tickets, private golf, spa memberships, regular weekend mountain getaways",
-        "monthlyCost": 550
+        "description": "Season tickets, a private golf membership, spa memberships, weekend mountain getaways",
+        "monthlyCost": 450
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 270
       },
-      "lifestyle": "You can rent a house in Myers Park or Eastover and dine regularly at Charlotte's top restaurants. Season tickets to the Panthers or Hornets, a private golf membership, and regular weekend trips to Asheville or the Outer Banks fit comfortably. Good private healthcare and a late-model car for mountain drives round out a comfortable life in one of Charlotte's tree-lined historic neighborhoods."
+      "lifestyle": "A high-quality place in a tree-lined historic neighborhood like Myers Park or Eastover, or an uptown condo, dining regularly at Charlotte's top tables. Season tickets to the Panthers or Hornets, a private golf membership, and weekend trips to Asheville or the Outer Banks fit comfortably. Healthcare is a Gold plan padded near the ~$62,600 ACA cliff, and a late-model car covers mountain drives. A comfortable, affluent big-city-South life."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Luxury home in Quail Hollow, SouthPark estate, or penthouse condo uptown",
-        "monthlyCost": 3800
+        "description": "A luxury home or penthouse condo — Quail Hollow, a SouthPark estate, or an uptown high-rise",
+        "monthlyCost": 3400
       },
       "dining": {
-        "description": "Fine dining multiple times weekly, private chef for dinner parties, wine club memberships",
-        "monthlyCost": 1200
+        "description": "Fine dining several nights a week plus a private chef for dinner parties and wine-club memberships",
+        "monthlyCost": 900
       },
       "groceries": {
         "monthlyCost": 650
       },
       "healthcare": {
-        "description": "Concierge medicine with Novant or Atrium Health executive program",
-        "monthlyCost": 850
+        "description": "An unsubsidized Gold/Platinum plan plus a Novant or Atrium Health executive concierge program",
+        "monthlyCost": 1050
       },
       "transportation": {
-        "description": "Luxury vehicle, premium insurance, car detailing service",
-        "monthlyCost": 650
+        "description": "A luxury vehicle, premium insurance, detailing service",
+        "monthlyCost": 700
       },
       "entertainment": {
-        "description": "Country club membership, premium Panthers and Hornets seats, golf trips, cultural events",
-        "monthlyCost": 850
+        "description": "A country club membership, premium Panthers/Hornets seats, golf trips, cultural events",
+        "monthlyCost": 700
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 350
       },
       "domesticHelp": {
-        "description": "Bi-weekly house cleaning, landscaping, pool service, occasional personal assistant",
-        "monthlyCost": 675
+        "description": "Bi-weekly cleaning, landscaping, pool service",
+        "monthlyCost": 300
       },
       "luxuryExtras": {
         "description": "Quarterly luxury travel, Lake Norman boat weekends, premium wine, philanthropy",
-        "monthlyCost": 1275
+        "monthlyCost": 600
       },
-      "lifestyle": "A large home in Quail Hollow or SouthPark, regular dining at the city's best restaurants, and a housekeeper who comes several times a week. Concierge medicine through Novant or Atrium Health, a nice car, and business class flights are standard. Country club membership, premium sporting event seats, and Lake Norman boat weekends fit comfortably in the budget."
+      "lifestyle": "A luxury home in Quail Hollow or SouthPark, or an uptown penthouse, with regular dining at the city's best restaurants and housekeeping several times a week. Concierge medicine through Novant or Atrium Health, a nice car, and business-class flights are standard. A country club membership, premium sporting seats, and Lake Norman boat weekends fit comfortably in the budget."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Estate home in Myers Park or lakefront property on Lake Norman",
-        "monthlyCost": 5150
+        "description": "An estate home in Myers Park or a lakefront property on Lake Norman",
+        "monthlyCost": 6500
       },
       "dining": {
-        "description": "Personal chef, exclusive private dining, catered events and galas",
-        "monthlyCost": 1600
+        "description": "A private chef, exclusive private dining, catered events and galas",
+        "monthlyCost": 2000
       },
       "groceries": {
-        "monthlyCost": 575
+        "monthlyCost": 900
       },
       "healthcare": {
-        "description": "Top-tier concierge medicine, executive wellness programs, holistic care",
-        "monthlyCost": 875
+        "description": "A top-tier unsubsidized concierge plan plus executive wellness — fully out of subsidy range",
+        "monthlyCost": 1400
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, dedicated driver, private car service",
-        "monthlyCost": 875
+        "description": "Multiple luxury vehicles, a dedicated driver, private car service",
+        "monthlyCost": 1600
       },
       "entertainment": {
-        "description": "Private box at Bank of America Stadium, art collecting, philanthropic galas, international travel",
-        "monthlyCost": 1450
+        "description": "A private box at Bank of America Stadium, art collecting, philanthropic galas, international travel",
+        "monthlyCost": 1800
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 500
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper, personal assistant, grounds and pool maintenance team",
-        "monthlyCost": 2300
+        "description": "Full-time housekeeper, personal assistant, and grounds/pool maintenance team",
+        "monthlyCost": 1200
       },
       "luxuryExtras": {
-        "description": "First-class international travel, lake house, private event hosting, angel investing, charitable giving",
-        "monthlyCost": 2875
+        "description": "First-class international travel, a lake house, private event hosting, angel investing, charitable giving",
+        "monthlyCost": 2000
       },
-      "lifestyle": "Premium housing in Myers Park or a lakefront property on Lake Norman, regular fine dining, a cook who comes several times a week, and a housekeeper. First class travel, full concierge healthcare, and a private box at Bank of America Stadium for Panthers games. Charlotte's affordable cost base means this budget covers everything without strain, and the city's position as a major financial center provides a social scene oriented around business and philanthropy."
+      "lifestyle": "An estate home in Myers Park or a lakefront property on Lake Norman, full-time staff, a private chef several days a week, and a private box at Bank of America Stadium for Panthers games. Travel is first class, healthcare is top-tier concierge care, and Charlotte's role as a major financial center provides a social scene oriented around business and philanthropy. The city's affordable cost base means this budget — roughly $215k a year — covers everything without strain."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 8,
     "infrastructure": 7,
     "expatFriendliness": 8
-  }
+  },
+  "dataRecency": "Q3 2026"
 }
