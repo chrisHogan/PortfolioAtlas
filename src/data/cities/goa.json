@@ -12,7 +12,7 @@
     "english": "moderate"
   },
   "quickFacts": {
-    "visa": "India has no retirement, pension, or passive-income visa. US citizens use the e-Tourist visa — 30-day (double-entry) or 1-year/5-year (multiple-entry; the 5-year fee rose from $80 to $200 in 2026) — and may stay up to 180 days per visit, with total time capped at 180 days per calendar year; long-term residents get by cycling visas in and out. The only path to living in India indefinitely is the OCI card, open to people of Indian origin or those married 2+ years to an Indian citizen or OCI holder.",
+    "visa": "India has no retirement, pension, or passive-income visa. US citizens use the e-Tourist visa — 30-day (multiple-entry) or 1-year/5-year (multiple-entry; the 5-year fee rose from $80 to $200 in 2026) — and may stay up to 180 days per visit, with total time capped at 180 days per calendar year; long-term residents get by cycling visas in and out. The only path to living in India indefinitely is the OCI card, open to people of Indian origin or those married 2+ years to an Indian citizen or OCI holder.",
     "timezone": "IST (UTC+5:30)",
     "language": "Konkani, English, Hindi",
     "internetSpeed": "30-50 Mbps average",
@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "Spacious 2BR apartment or small villa in Anjuna or Mapusa area",
-        "monthlyCost": 700
+        "description": "Modest 1BHK on the North-Goa fringe / Mapusa (inland of the beach-premium belt)",
+        "monthlyCost": 175
       },
       "dining": {
-        "description": "Beach shack meals and local Goan restaurants 4-5x/week; thalis under $2",
-        "monthlyCost": 275
+        "description": "Beach-shack meals + Goan thalis several times a week; cooks at home otherwise",
+        "monthlyCost": 50
       },
       "groceries": {
-        "monthlyCost": 275
+        "monthlyCost": 65
       },
       "healthcare": {
-        "description": "Comprehensive private health insurance with access to Manipal Hospital Goa",
-        "monthlyCost": 200
+        "description": "Individual private cover with Manipal Hospital Goa access — assumes an early retiree (45–55); older retirees should budget more",
+        "monthlyCost": 20
       },
       "transportation": {
-        "description": "Rented scooter or motorbike, the standard Goa transport",
-        "monthlyCost": 100
+        "description": "Owned scooter (fuel + maintenance), the standard Goa transport",
+        "monthlyCost": 28
       },
       "entertainment": {
-        "description": "Beach life, yoga classes, night markets, occasional live music events",
-        "monthlyCost": 125
+        "description": "Beach life, yoga, night markets, occasional live music",
+        "monthlyCost": 30
       },
       "utilities": {
-        "monthlyCost": 75
+        "monthlyCost": 32
       },
-      "lifestyle": "A spacious apartment in the Anjuna or Mapusa area with a scooter for getting around. Cooking at home most days with cheap, fresh produce from local markets, plus beach shack meals and Goan thalis several times a week. Basic private health insurance covers Manipal Hospital. Comfortable and easy, though Western imports and upscale dining are outside the regular budget."
+      "lifestyle": "A frugal solo beach life — a modest 1BHK inland of the North-Goa premium belt, a scooter, home cooking supplemented by cheap shack thalis, and basic private cover. Comfortable and easy, though upscale beach-club dining and Western imports stay outside this budget."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
         "description": "Beautiful 3BR villa with pool in Assagao or Vagator",
-        "monthlyCost": 1175
+        "monthlyCost": 300
       },
       "dining": {
         "description": "Mix of upscale beach restaurants, boutique cafes, and fine dining in Panjim",
-        "monthlyCost": 400
+        "monthlyCost": 110
       },
       "groceries": {
-        "monthlyCost": 300
+        "monthlyCost": 75
       },
       "healthcare": {
         "description": "Premium private insurance covering top hospitals in Goa and Mumbai",
-        "monthlyCost": 200
+        "monthlyCost": 25
       },
       "transportation": {
         "description": "Own scooter plus occasional taxi and ride-hailing for longer trips",
-        "monthlyCost": 150
+        "monthlyCost": 45
       },
       "entertainment": {
         "description": "Surfing lessons, premium yoga retreats, weekend trips to spice plantations and waterfalls",
-        "monthlyCost": 250
+        "monthlyCost": 60
       },
       "utilities": {
-        "monthlyCost": 75
+        "monthlyCost": 35
       },
       "lifestyle": "A villa with a pool in Assagao or Vagator, dining out at good restaurants in Panjim and the beach clubs several times a week, and your own scooter plus taxis for longer trips. Good private health insurance covering Goa and Mumbai hospitals. Weekend trips to other parts of India are easily affordable. Day-to-day life is very comfortable and you rarely think about costs."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Stunning 4BR luxury villa with pool and garden in Siolim or Candolim",
-        "monthlyCost": 1425
+        "description": "Nice 1BHK or small villa in Assagao/Siolim/Candolim (tourist premium)",
+        "monthlyCost": 480
       },
       "dining": {
-        "description": "Daily fine dining at top restaurants like Bomra's and Gunpowder; regular entertaining",
-        "monthlyCost": 525
+        "description": "Regular dining at good beach restaurants and Panjim cafés",
+        "monthlyCost": 180
       },
       "groceries": {
-        "monthlyCost": 300
+        "monthlyCost": 90
       },
       "healthcare": {
-        "description": "Top-tier international health insurance with medical evacuation coverage",
-        "monthlyCost": 250
+        "description": "Solid individual cover; Goa + Mumbai hospital access",
+        "monthlyCost": 35
       },
       "transportation": {
-        "description": "Own car with driver for daily use, plus scooter for casual trips",
-        "monthlyCost": 225
+        "description": "Scooter + occasional taxi/car rental for longer trips",
+        "monthlyCost": 60
       },
       "entertainment": {
-        "description": "Boat charters to nearby islands, premium wellness retreats, cultural festivals, weekend getaways to Hampi",
-        "monthlyCost": 375
-      },
-      "utilities": {
+        "description": "Yoga retreats, live music, boat trips, weekend getaways",
         "monthlyCost": 100
       },
-      "lifestyle": "A large villa with pool and garden in Siolim or Candolim, a car with driver for daily use, and regular dining at top restaurants like Bomra's and Gunpowder. International health insurance with evacuation coverage. Frequent domestic flights and occasional international trips. This budget goes very far in Goa, leaving significant margin each month."
+      "utilities": {
+        "monthlyCost": 40
+      },
+      "lifestyle": "Comfortable solo beach living with margin — a small villa or good flat in the North-Goa lifestyle belt, dining out regularly, a scooter plus taxis, and easy weekend trips. Housing is the standout cost: the tourist market keeps prime-belt rents near metro levels."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
         "description": "Oceanfront estate or heritage Portuguese villa with full amenities in prime North Goa",
-        "monthlyCost": 1650
+        "monthlyCost": 900
       },
       "dining": {
         "description": "Personal chef for daily meals plus fine dining experiences across Goa",
-        "monthlyCost": 475
+        "monthlyCost": 260
       },
       "groceries": {
-        "monthlyCost": 250
+        "monthlyCost": 120
       },
       "healthcare": {
         "description": "VIP concierge medical service, international coverage including Singapore and Bangkok hospitals",
-        "monthlyCost": 250
+        "monthlyCost": 110
       },
       "transportation": {
         "description": "Luxury SUV with full-time driver, plus own scooter for leisure rides",
-        "monthlyCost": 250
+        "monthlyCost": 160
       },
       "entertainment": {
         "description": "Private beach parties, art collecting, premium wellness programs, domestic and international travel",
-        "monthlyCost": 375
+        "monthlyCost": 170
       },
       "utilities": {
-        "monthlyCost": 75
+        "monthlyCost": 55
       },
       "domesticHelp": {
         "description": "Full-time cook, housekeeper, gardener, and part-time driver",
-        "monthlyCost": 300
+        "monthlyCost": 110
       },
       "luxuryExtras": {
         "description": "Regular international travel, yacht charters, bespoke experiences, philanthropy in local communities",
-        "monthlyCost": 975
+        "monthlyCost": 115
       },
       "lifestyle": "A large oceanfront villa or heritage Portuguese property in prime North Goa. A housekeeper, cook, and gardener several times a week. A nice SUV with a driver, regular dining at Goa's best restaurants, and business class flights for longer trips. Premium healthcare with international coverage. The budget far exceeds what Goa's cost of living can absorb, so expect a large monthly margin."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Sprawling beachfront compound or restored Portuguese mansion with guest houses",
-        "monthlyCost": 1800
+        "description": "Beachfront or heritage Portuguese villa for one in prime North Goa",
+        "monthlyCost": 1750
       },
       "dining": {
-        "description": "Private chef team, catered events, exclusive dining experiences flown in from Mumbai",
-        "monthlyCost": 725
+        "description": "Frequent fine dining across Goa’s strong restaurant scene",
+        "monthlyCost": 380
       },
       "groceries": {
-        "monthlyCost": 300
+        "monthlyCost": 180
       },
       "healthcare": {
-        "description": "Elite international health plan, personal wellness consultant, annual executive health screening abroad",
-        "monthlyCost": 300
+        "description": "International cover incl. Singapore/Bangkok hospital access",
+        "monthlyCost": 200
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, full-time chauffeur, chartered flights to Mumbai and Delhi",
-        "monthlyCost": 425
+        "description": "Car with full-time driver + scooter for leisure",
+        "monthlyCost": 320
       },
       "entertainment": {
-        "description": "Private island excursions, art patronage, exclusive cultural events, first-class international travel",
-        "monthlyCost": 725
+        "description": "Beach clubs, boat/yacht charters, wellness",
+        "monthlyCost": 280
       },
       "utilities": {
-        "monthlyCost": 75
+        "monthlyCost": 90
       },
       "domesticHelp": {
-        "description": "Full household staff including chef, butler, housekeepers, gardeners, security, and personal assistant",
-        "monthlyCost": 550
+        "description": "Cook + housekeeper scaled to one villa",
+        "monthlyCost": 280
       },
       "luxuryExtras": {
-        "description": "Property investments, philanthropy, first-class global travel, yacht ownership, art collection",
-        "monthlyCost": 1800
+        "description": "Luxury travel, charters, bespoke experiences",
+        "monthlyCost": 400
       },
-      "lifestyle": "A premium beachfront property with full-time housekeeper, a cook several times a week, and a gardener. A nice car, first class flights for international travel, and dining at any restaurant without a second thought. Full private healthcare with international hospital access. Goa's low costs mean this budget is far more than you can realistically spend here. Most people at this level use Goa as a home base and travel extensively."
+      "lifestyle": "Solo luxury as a Goa home-base — a beachfront villa, a driver, a cook and housekeeper, and a strong travel budget. Prime North-Goa villa rents are genuinely high (tourist/luxury market), so housing carries this tier; most at this level use Goa as a base and travel extensively."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 4,
     "infrastructure": 4,
     "expatFriendliness": 8
-  }
+  },
+  "dataRecency": "Q3 2026"
 }

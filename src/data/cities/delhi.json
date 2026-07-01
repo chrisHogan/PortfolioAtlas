@@ -12,7 +12,7 @@
     "english": "moderate"
   },
   "quickFacts": {
-    "visa": "India has no retirement, pension, or passive-income visa. US citizens use the e-Tourist visa — 30-day (double-entry) or 1-year/5-year (multiple-entry; the 5-year fee rose from $80 to $200 in 2026) — and may stay up to 180 days per visit, with total time capped at 180 days per calendar year; long-term residents get by cycling visas in and out. The only path to living in India indefinitely is the OCI card, open to people of Indian origin or those married 2+ years to an Indian citizen or OCI holder.",
+    "visa": "India has no retirement, pension, or passive-income visa. US citizens use the e-Tourist visa — 30-day (multiple-entry) or 1-year/5-year (multiple-entry; the 5-year fee rose from $80 to $200 in 2026) — and may stay up to 180 days per visit, with total time capped at 180 days per calendar year; long-term residents get by cycling visas in and out. The only path to living in India indefinitely is the OCI card, open to people of Indian origin or those married 2+ years to an Indian citizen or OCI holder.",
     "timezone": "IST (UTC+5:30)",
     "language": "Hindi, English, Punjabi",
     "internetSpeed": "40-80 Mbps average",
@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "2BR apartment in a decent South Delhi colony like Saket or Malviya Nagar",
-        "monthlyCost": 700
+        "description": "Modest furnished 1BHK builder-floor in a safe South-Delhi pocket (Malviya Nagar/Saket) or good Dwarka",
+        "monthlyCost": 230
       },
       "dining": {
-        "description": "Street food paradise: chaat, paranthas, and dhabas 5-6x/week; occasional restaurant meals",
-        "monthlyCost": 275
+        "description": "Cheap local eats, tiffin service, occasional restaurant",
+        "monthlyCost": 60
       },
       "groceries": {
-        "monthlyCost": 275
+        "monthlyCost": 70
       },
       "healthcare": {
-        "description": "Private health insurance with access to Max and Fortis hospital networks",
-        "monthlyCost": 225
+        "description": "Individual ₹10 lakh mediclaim (Star/Niva Bupa/HDFC ERGO) — assumes an early retiree (45–55); older retirees should budget more",
+        "monthlyCost": 18
       },
       "transportation": {
-        "description": "Delhi Metro (excellent network) plus auto-rickshaws and Uber/Ola",
-        "monthlyCost": 125
+        "description": "Metro monthly pass + autos/occasional Uber",
+        "monthlyCost": 28
       },
       "entertainment": {
-        "description": "Mughal monument visits, Lodi Garden walks, Dilli Haat markets, cinema",
-        "monthlyCost": 150
+        "description": "Streaming, monuments, Lodi Garden, occasional cinema",
+        "monthlyCost": 28
       },
       "utilities": {
-        "monthlyCost": 100
+        "monthlyCost": 36
       },
-      "lifestyle": "A 2-bedroom apartment in a decent South Delhi colony like Saket, getting around on the excellent metro system plus auto-rickshaws. Eating at dhabas and street food stalls most days, with occasional restaurant meals. Private health insurance covering Max and Fortis hospitals. A/C costs spike significantly in Delhi's extreme summers, and air quality in winter is a serious concern, but day-to-day costs are very low."
+      "lifestyle": "A dignified solo budget, not a survival floor — a private 1BHK in a decent, safe South-Delhi colony, home cooking with cheap street/thali meals, metro-first mobility, and real individual health cover. Comfortable for one, with almost no discretionary fat. Winter air quality and summer A/C are the real costs of living here."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
         "description": "Spacious 3BR apartment in Greater Kailash, Vasant Kunj, or a modern Gurgaon high-rise",
-        "monthlyCost": 1050
+        "monthlyCost": 380
       },
       "dining": {
         "description": "Regular dining at Khan Market restaurants, Hauz Khas cafes, and Old Delhi food tours",
-        "monthlyCost": 450
+        "monthlyCost": 110
       },
       "groceries": {
-        "monthlyCost": 350
+        "monthlyCost": 90
       },
       "healthcare": {
         "description": "Premium insurance covering Apollo, Medanta, and other top-tier hospitals",
-        "monthlyCost": 225
+        "monthlyCost": 25
       },
       "transportation": {
         "description": "Own small car or regular Uber/Ola; metro for convenience",
-        "monthlyCost": 225
+        "monthlyCost": 65
       },
       "entertainment": {
         "description": "Theatre at National School of Drama, art galleries, gym membership, weekend trips to Agra and Jaipur",
-        "monthlyCost": 275
+        "monthlyCost": 60
       },
       "utilities": {
-        "monthlyCost": 125
+        "monthlyCost": 50
       },
       "lifestyle": "A spacious apartment in Greater Kailash or a modern Gurgaon high-rise, dining at Khan Market restaurants and Hauz Khas cafes several times a week, and your own car or regular Uber. Premium health insurance covering Apollo and Medanta hospitals. Weekend trips to Agra and Jaipur are affordable. Day-to-day life is comfortable and you have a solid financial cushion each month."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Luxury 4BR apartment in Defence Colony, Jor Bagh, or a premium Gurgaon tower",
-        "monthlyCost": 1400
+        "description": "Good 1BHK / compact 2BHK in a prime South-Delhi colony (Greater Kailash, Defence Colony) or a serviced Gurgaon high-rise",
+        "monthlyCost": 580
       },
       "dining": {
-        "description": "Fine dining at Indian Accent, Bukhara, and other world-renowned Delhi restaurants",
-        "monthlyCost": 550
+        "description": "Regular restaurant dining, cafés, delivery",
+        "monthlyCost": 190
       },
       "groceries": {
-        "monthlyCost": 325
+        "monthlyCost": 115
       },
       "healthcare": {
-        "description": "International health insurance with coverage across Asia; concierge-level care",
-        "monthlyCost": 275
+        "description": "₹50L–₹1cr base + super-top-up (top-ups are cheap in India)",
+        "monthlyCost": 35
       },
       "transportation": {
-        "description": "Own car with part-time driver, occasional domestic flights",
-        "monthlyCost": 325
-      },
-      "entertainment": {
-        "description": "Premium club memberships, spa retreats in Rishikesh, cultural events, weekend Himalayan getaways",
-        "monthlyCost": 400
-      },
-      "utilities": {
+        "description": "Own small car (running cost) or frequent Uber/Ola",
         "monthlyCost": 125
       },
-      "lifestyle": "A large apartment in Defence Colony or Jor Bagh, regular dining at world-class restaurants like Indian Accent and Bukhara, and a car with part-time driver. International health insurance with concierge-level care. Weekend trips to the Himalayas or Rajasthan by domestic flight. This budget stretches very far in Delhi, leaving substantial margin for international travel or savings."
+      "entertainment": {
+        "description": "Gym + weekend trips + social",
+        "monthlyCost": 105
+      },
+      "utilities": {
+        "monthlyCost": 65
+      },
+      "lifestyle": "Comfortable solo living with real margin — a well-located flat in a leafy prime colony, eating out several times a week, a strong ₹1cr insurance stack, and either a car or unlimited ride-hail. Weekend Himalayan/Rajasthan getaways and a gym are baked in."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
         "description": "Grand bungalow in Lutyens' Delhi zone or ultra-luxury penthouse in Gurgaon",
-        "monthlyCost": 1850
+        "monthlyCost": 1150
       },
       "dining": {
         "description": "Personal chef for daily meals, fine dining several times per week, catered events",
-        "monthlyCost": 525
+        "monthlyCost": 280
       },
       "groceries": {
-        "monthlyCost": 250
+        "monthlyCost": 150
       },
       "healthcare": {
         "description": "VIP concierge medical with dedicated physician; international hospital access",
-        "monthlyCost": 250
+        "monthlyCost": 120
       },
       "transportation": {
         "description": "Luxury sedan with full-time chauffeur, domestic flights, occasional chartered travel",
-        "monthlyCost": 300
+        "monthlyCost": 220
       },
       "entertainment": {
         "description": "Premium club memberships, polo matches, art collecting, luxury Himalayan retreats",
-        "monthlyCost": 425
+        "monthlyCost": 170
       },
       "utilities": {
-        "monthlyCost": 100
+        "monthlyCost": 90
       },
       "domesticHelp": {
         "description": "Full-time cook, housekeeper, driver, gardener, and part-time personal assistant",
-        "monthlyCost": 300
+        "monthlyCost": 130
       },
       "luxuryExtras": {
         "description": "First-class international travel, luxury resort stays, philanthropy, property investments",
-        "monthlyCost": 1050
+        "monthlyCost": 90
       },
       "lifestyle": "A large bungalow or penthouse in a premium area, a luxury car with full-time driver, and a housekeeper, cook, and gardener. Regular dining at Delhi's top restaurants and business class flights for longer trips. Premium healthcare with a dedicated physician. Delhi's low costs relative to this budget mean a very large monthly margin, even living at the top end of the market."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Palatial farmhouse in Chhatarpur or historic bungalow in the diplomatic enclave",
-        "monthlyCost": 2150
+        "description": "Large 3BHK builder-floor in Defence Colony/GK/Jor Bagh or a luxury Gurgaon tower",
+        "monthlyCost": 2100
       },
       "dining": {
-        "description": "Personal chef team, exclusive supper clubs, private dining experiences",
-        "monthlyCost": 900
+        "description": "Fine dining several times a week, hotel restaurants",
+        "monthlyCost": 420
       },
       "groceries": {
-        "monthlyCost": 275
+        "monthlyCost": 210
       },
       "healthcare": {
-        "description": "Elite global health plan, personal physician on retainer, executive wellness program",
-        "monthlyCost": 350
+        "description": "Top ₹1–2cr domestic + international/borderless add-on (Cigna-Global-style)",
+        "monthlyCost": 220
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, dedicated chauffeur team, private jet charters for travel",
-        "monthlyCost": 525
+        "description": "Car WITH full-time driver + fuel/running",
+        "monthlyCost": 420
       },
       "entertainment": {
-        "description": "Polo club ownership stakes, art patronage, exclusive cultural galas, luxury global travel",
-        "monthlyCost": 900
+        "description": "Premium club/golf membership, culture, social",
+        "monthlyCost": 260
       },
       "utilities": {
-        "monthlyCost": 100
+        "monthlyCost": 125
       },
       "domesticHelp": {
-        "description": "Full estate staff: chef team, butler, housekeepers, gardeners, security, drivers, personal assistant",
-        "monthlyCost": 525
+        "description": "Full-time cook + housekeeper scaled to ONE home (not estate staff)",
+        "monthlyCost": 315
       },
       "luxuryExtras": {
-        "description": "Property empire, philanthropic foundation, first-class global travel, art and antique collection",
-        "monthlyCost": 1775
+        "description": "Luxury travel, concierge, shopping, memberships",
+        "monthlyCost": 420
       },
-      "lifestyle": "A large farmhouse in Chhatarpur or a historic bungalow in the diplomatic enclave, with full household staff including a housekeeper, a cook several times a week, drivers, and a gardener. Multiple vehicles, first class international flights, and top-tier global health coverage. Dining at any restaurant in the city without a thought. Delhi's costs are so low relative to this budget that the vast majority goes unspent each month."
+      "lifestyle": "Genuine solo luxury — a large flat in the most prestigious colonies, a driver, a live-in cook/housekeeper, top international health cover, and a fine-dining/travel budget. Honestly capped by being ONE person: a solo resident cannot consume a household’s housing, food, or staff without waste, so this sits far below a family Fat FIRE."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 6,
     "infrastructure": 4,
     "expatFriendliness": 5
-  }
+  },
+  "dataRecency": "Q3 2026"
 }
