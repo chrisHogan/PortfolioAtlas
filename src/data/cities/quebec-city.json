@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "1BR apartment in Limoilou, Saint-Sauveur, or Charlesbourg; charming older buildings",
-        "monthlyCost": 1300
+        "description": "Studio or older one-bedroom in Limoilou, Saint-Sauveur, or Charlesbourg — charming older buildings",
+        "monthlyCost": 725
       },
       "dining": {
-        "description": "Bistro meals, poutine spots, and boulangeries 2-3x/week; mostly cooking at home",
-        "monthlyCost": 350
+        "description": "Mostly home cooking; bistro, poutine, and boulangerie outings a couple of times a week",
+        "monthlyCost": 110
       },
       "groceries": {
-        "monthlyCost": 625
+        "monthlyCost": 380
       },
       "healthcare": {
-        "description": "RAMQ universal coverage for residents; budget for dental, prescriptions, and vision",
-        "monthlyCost": 225
+        "description": "RAMQ covers essentials; small extended-health + mandatory Quebec drug-plan premium",
+        "monthlyCost": 50
       },
       "transportation": {
-        "description": "RTC bus pass or a paid-off car; the Old Town is very walkable",
-        "monthlyCost": 325
+        "description": "RTC monthly pass (~C$99.50); the Old Town is very walkable",
+        "monthlyCost": 75
       },
       "entertainment": {
-        "description": "Free Old Town exploring, Plains of Abraham walks, Carnaval events, library, community centers",
-        "monthlyCost": 150
+        "description": "Free Old-Town and Plains-of-Abraham walks, Carnaval, library, community centres",
+        "monthlyCost": 85
       },
       "utilities": {
-        "monthlyCost": 225
+        "monthlyCost": 100
       },
-      "lifestyle": "Quebec City is one of the more affordable options in North America at this budget. A one-bedroom in Limoilou, Saint-Sauveur, or Charlesbourg is inexpensive, and universal RAMQ healthcare eliminates a major cost. You will cook most meals at home with occasional bistro outings. The Old Town is walkable and free to explore. The main consideration is that French is essential for daily life — English alone will be limiting. Winters are long, cold, and snowy."
+      "lifestyle": "A studio or older one-bedroom in Limoilou, Saint-Sauveur, or Charlesbourg — charming older buildings at some of the lowest rents of any major Canadian city. Most meals are cooked at home, with bistro and boulangerie outings a couple of times a week, and the walkable Old Town plus an RTC pass cover getting around. RAMQ handles doctors and hospitals, leaving a small extended-health-and-drug supplement, and cheap Hydro-Québec power keeps utilities low. French is essential for daily life and winters are long and snowy — but the free Old-Town-and-Plains-of-Abraham lifestyle makes a lean budget genuinely pleasant."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "2BR apartment in Saint-Jean-Baptiste or Montcalm, steps from the Old Town",
-        "monthlyCost": 1775
+        "description": "Proper one-bedroom in Saint-Jean-Baptiste or Montcalm, steps from the Old Town",
+        "monthlyCost": 1000
       },
       "dining": {
-        "description": "Regular dining at bistros and brasseries 3-4x/week; weekend brunch culture",
-        "monthlyCost": 650
+        "description": "Regular bistro and brasserie dining and weekend brunch",
+        "monthlyCost": 280
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 450
       },
       "healthcare": {
-        "description": "RAMQ universal coverage plus private supplemental for dental, vision, prescriptions, physiotherapy",
-        "monthlyCost": 325
+        "description": "RAMQ plus private supplemental (dental, vision, physio)",
+        "monthlyCost": 80
       },
       "transportation": {
-        "description": "Reliable car for Laurentian mountain trips, winter tires, full insurance",
-        "monthlyCost": 475
+        "description": "A reliable car for Laurentian trips, winter tires, insurance",
+        "monthlyCost": 110
       },
       "entertainment": {
-        "description": "Theatre tickets, cross-country skiing, Festival d'ete, Musee national, gym and swimming",
-        "monthlyCost": 400
+        "description": "Theatre, cross-country skiing, Festival d'été, museums, gym",
+        "monthlyCost": 170
       },
       "utilities": {
-        "monthlyCost": 225
+        "monthlyCost": 135
       },
-      "lifestyle": "A two-bedroom in Saint-Jean-Baptiste or Montcalm, steps from the Old Town. Regular bistro dining, a car for weekend skiing in the Laurentians or trips to Ile d'Orleans, and private supplemental health insurance. The cultural calendar includes theatre, Festival d'ete, and regular music events. The neighborhood feel is walkable and intimate. This budget is comfortable in Quebec City with a solid margin, assuming you speak or are learning French."
+      "lifestyle": "A proper one-bedroom in Saint-Jean-Baptiste or Montcalm, steps from the Old Town, with regular bistro dining, a car for weekend skiing in the Laurentians or trips to Île d'Orléans, and private supplemental cover. The walkable, intimate neighbourhood feel and a full cultural calendar make this a comfortable, distinctly Francophone routine with a solid margin."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "3BR heritage apartment in Old Quebec or a home in Sillery with St. Lawrence River views",
-        "monthlyCost": 2350
+        "description": "Nice or heritage one-bedroom in Old Quebec, Montcalm, or Sillery",
+        "monthlyCost": 1300
       },
       "dining": {
-        "description": "Fine dining at Laurie Raphael, Chez Muffy, and Initiale; regular gastronomic experiences",
-        "monthlyCost": 875
-      },
-      "groceries": {
-        "monthlyCost": 575
-      },
-      "healthcare": {
-        "description": "RAMQ universal coverage plus comprehensive private insurance for enhanced and faster access",
-        "monthlyCost": 350
-      },
-      "transportation": {
-        "description": "Late-model AWD vehicle for winter, premium insurance, weekend cottage drives",
+        "description": "Frequent fine dining at rooms like Laurie Raphaël and Chez Muffy",
         "monthlyCost": 500
       },
+      "groceries": {
+        "monthlyCost": 520
+      },
+      "healthcare": {
+        "description": "RAMQ plus comprehensive private cover for faster access",
+        "monthlyCost": 130
+      },
+      "transportation": {
+        "description": "A late-model AWD car (Quebec SAAQ insurance is cheaper than BC's)",
+        "monthlyCost": 230
+      },
       "entertainment": {
-        "description": "Season tickets to orchestras and theatre, ski passes at Mont-Sainte-Anne and Le Massif, art collecting",
-        "monthlyCost": 600
+        "description": "Orchestra and theatre season tickets, Mont-Sainte-Anne / Le Massif ski passes",
+        "monthlyCost": 330
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 165
       },
-      "lifestyle": "A heritage apartment in Old Quebec or a home in Sillery with St. Lawrence River views. Regular fine dining at restaurants like Laurie Raphaël and Chez Muffy, season tickets to the orchestra and theatre, and ski passes at Mont-Sainte-Anne and Le Massif. A good AWD vehicle handles Quebec winters. Universal healthcare keeps medical costs low, and the margin at this level is significant for a city this affordable."
+      "lifestyle": "A heritage one-bedroom in Old Quebec, Montcalm, or a unit in Sillery with river glimpses, with regular fine dining at rooms like Laurie Raphaël and Chez Muffy. Season tickets to the orchestra and theatre, ski passes at Mont-Sainte-Anne and Le Massif, and a good AWD car for winter round out the leisure, and comprehensive private cover layers on top of RAMQ. Quebec City is affordable enough that this tier carries a large discretionary margin."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Luxury heritage property in Old Quebec or a grand home in Sillery with river views and gardens",
-        "monthlyCost": 3575
+        "description": "Luxury heritage one-bedroom or junior-two-bedroom in Old Quebec or Montcalm",
+        "monthlyCost": 2100
       },
       "dining": {
-        "description": "Private chef for dinner parties, fine dining multiple nights, wine-pairing experiences",
-        "monthlyCost": 975
+        "description": "Fine dining as routine plus wine-pairing occasions",
+        "monthlyCost": 800
       },
       "groceries": {
-        "monthlyCost": 550
+        "monthlyCost": 620
       },
       "healthcare": {
-        "description": "RAMQ universal plus executive health programs and premium private supplements",
-        "monthlyCost": 350
+        "description": "RAMQ plus executive-health and premium private supplements",
+        "monthlyCost": 220
       },
       "transportation": {
-        "description": "Luxury vehicle, second car for summer, flights from YQB to Montreal or international",
-        "monthlyCost": 575
+        "description": "A luxury vehicle plus flights from YQB",
+        "monthlyCost": 450
       },
       "entertainment": {
-        "description": "Arts patronage, private ski lessons, exclusive cultural events, spa and wellness retreats",
-        "monthlyCost": 650
+        "description": "Arts patronage, private ski lessons, exclusive cultural events, spa retreats",
+        "monthlyCost": 580
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 200
       },
       "domesticHelp": {
-        "description": "Weekly house cleaning, snow removal, gardening, property maintenance",
-        "monthlyCost": 475
+        "description": "Weekly housekeeping plus snow removal and gardening",
+        "monthlyCost": 240
       },
       "luxuryExtras": {
-        "description": "Charlevoix cottage, quarterly European travel, art collecting, philanthropy",
-        "monthlyCost": 1200
+        "description": "A Charlevoix cottage, quarterly European travel, art collecting",
+        "monthlyCost": 420
       },
-      "lifestyle": "A heritage property in Old Quebec or a grand home in Sillery with river views, a housekeeper, and a cottage in Charlevoix for weekends. Regular fine dining, arts patronage, and business class flights to Montreal, Toronto, or international destinations. Universal healthcare keeps medical costs minimal. Quebec City is small enough that the dining and cultural scene, while high quality, is limited in scale. The margin is very large."
+      "lifestyle": "A luxury heritage one-bedroom or junior-two-bedroom in Old Quebec or Montcalm, frequent fine dining, a nice car, and a weekly housekeeper. Arts patronage, a Charlevoix cottage for weekends, and premium private cover put this firmly into upscale European-flavoured living, well above what the local cost of living requires."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Grand heritage estate in Old Quebec or a riverfront compound in Sillery or Cap-Rouge",
-        "monthlyCost": 4125
+        "description": "Prime heritage-luxury apartment in Old Quebec (concierge building)",
+        "monthlyCost": 2950
       },
       "dining": {
-        "description": "Full-time personal chef, exclusive gastronomic events, catered soirees",
-        "monthlyCost": 1200
+        "description": "Near-daily fine dining and catered soirées",
+        "monthlyCost": 1450
       },
       "groceries": {
-        "monthlyCost": 475
+        "monthlyCost": 800
       },
       "healthcare": {
-        "description": "RAMQ universal plus top private coverage, executive wellness, specialist access",
-        "monthlyCost": 300
+        "description": "RAMQ plus concierge-grade specialist access",
+        "monthlyCost": 400
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, private car service, chartered flights, chauffeur",
-        "monthlyCost": 725
+        "description": "Multiple luxury vehicles with a driver and chartered flights",
+        "monthlyCost": 800
       },
       "entertainment": {
-        "description": "Major cultural philanthropy, international travel, private events at historic venues",
-        "monthlyCost": 1125
+        "description": "Major cultural philanthropy, private events at historic venues, extensive travel",
+        "monthlyCost": 1150
       },
       "utilities": {
-        "monthlyCost": 225
+        "monthlyCost": 290
       },
       "domesticHelp": {
-        "description": "Full-time estate staff, housekeeper, personal assistant, driver, property manager",
-        "monthlyCost": 2175
+        "description": "Full domestic help — housekeeper plus property support",
+        "monthlyCost": 600
       },
       "luxuryExtras": {
-        "description": "Multiple properties including Charlevoix and Paris, first-class travel, art patron, community foundation",
-        "monthlyCost": 2850
+        "description": "Multiple properties, first-class travel, art patronage, a community foundation",
+        "monthlyCost": 1450
       },
-      "lifestyle": "A grand heritage estate in Old Quebec or a riverfront compound in Sillery, a cook who comes in several times a week, regular housekeeping, and first-class international travel. A Charlevoix country property for weekends is easily within reach. Quebec City is one of the safest cities in North America with universal healthcare and 400 years of French-Canadian culture. The budget far exceeds what the city can absorb — this level of spending only makes sense if you travel extensively or maintain properties elsewhere."
+      "lifestyle": "A prime heritage-luxury apartment in Old Quebec — a concierge building with parking, the top of a genuinely thin luxury-rental market — with near-daily fine dining and catered soirées, a luxury vehicle with a driver, chartered flights from YQB, full domestic help, and concierge-grade private cover. Quebec City is small and its high-end services are limited, so this level of spending only makes full sense alongside extensive travel or a country property in Charlevoix; much of the budget funds experiences elsewhere while enjoying 400 years of French-Canadian culture in one of North America's safest cities."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 8,
     "infrastructure": 7,
     "expatFriendliness": 6
-  }
+  },
+  "dataRecency": "Q3 2026"
 }

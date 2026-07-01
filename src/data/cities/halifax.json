@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "1BR apartment in Clayton Park, Fairview, or Dartmouth (across the harbor)",
-        "monthlyCost": 1475
+        "description": "Older studio or bachelor unit in Fairview, Spryfield, or Dartmouth, priced for value over polish",
+        "monthlyCost": 1050
       },
       "dining": {
-        "description": "Fish and chips spots, pub nights, and casual dining 2x/week; mostly cooking at home",
-        "monthlyCost": 300
+        "description": "Mostly home cooking, with fish-and-chips and pub nights as the regular outing",
+        "monthlyCost": 110
       },
       "groceries": {
-        "monthlyCost": 550
+        "monthlyCost": 350
       },
       "healthcare": {
-        "description": "Universal healthcare covers most costs for residents; budget for dental, vision, prescriptions",
-        "monthlyCost": 225
+        "description": "MSI covers doctors and hospitals; basic dental-and-prescription extended supplement",
+        "monthlyCost": 50
       },
       "transportation": {
-        "description": "Halifax Transit bus pass or a paid-off car; the city is walkable downtown",
-        "monthlyCost": 300
+        "description": "Halifax Transit monthly pass (C$82.50); the downtown core is walkable",
+        "monthlyCost": 60
       },
       "entertainment": {
-        "description": "Waterfront walks, Point Pleasant Park, free festivals, library; occasional live music",
-        "monthlyCost": 125
+        "description": "Free waterfront boardwalk, Point Pleasant Park, festivals, and the library",
+        "monthlyCost": 80
       },
       "utilities": {
-        "monthlyCost": 225
+        "monthlyCost": 130
       },
-      "lifestyle": "Halifax is one of the more comfortable cities at this budget, largely because universal healthcare eliminates a major expense. A one-bedroom in Clayton Park, Fairview, or Dartmouth is affordable, and the waterfront is free to enjoy year-round. You will cook most meals at home with occasional pub nights and fish-and-chips outings. Winters are cold and snowy with short days, which is the main lifestyle tradeoff."
+      "lifestyle": "An older studio or bachelor unit in Fairview, Spryfield, or across the harbour in Dartmouth, chosen for price over polish. Most meals are cooked at home, with a fish-and-chips outing or a pub night as the regular treat, and getting around leans on the Halifax Transit pass in a walkable downtown. Nova Scotia's MSI covers doctors and hospitals, so the health line is just basic dental-and-prescription extended cover. The free waterfront boardwalk, Point Pleasant Park, and a strong festival-and-library culture carry the leisure budget. Cold, snowy winters with short days are the main tradeoff, but the maritime setting makes a careful budget feel rich."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "2BR apartment on the Halifax waterfront or a townhome in the South End",
-        "monthlyCost": 2050
+        "description": "Proper one-bedroom in Clayton Park, the West End, or Dartmouth",
+        "monthlyCost": 1375
       },
       "dining": {
-        "description": "Regular dining at waterfront restaurants, lobster dinners, Halifax brewery scene",
-        "monthlyCost": 550
+        "description": "Out a couple of times a week across the seafood-and-brewery scene",
+        "monthlyCost": 275
       },
       "groceries": {
-        "monthlyCost": 550
+        "monthlyCost": 400
       },
       "healthcare": {
-        "description": "Universal coverage plus private supplemental for dental, vision, massage, prescriptions",
-        "monthlyCost": 300
+        "description": "MSI plus private supplemental (dental, vision, physio, prescriptions)",
+        "monthlyCost": 75
       },
       "transportation": {
-        "description": "Reliable car for exploring Nova Scotia, winter tires, full insurance",
-        "monthlyCost": 425
+        "description": "A reliable paid-off car for exploring Nova Scotia, with winter tires and insurance",
+        "monthlyCost": 100
       },
       "entertainment": {
-        "description": "Neptune Theatre season pass, sailing lessons, live music on Argyle Street, gym membership",
-        "monthlyCost": 350
+        "description": "Theatre, live music, sailing lessons, and a gym membership",
+        "monthlyCost": 165
       },
       "utilities": {
-        "monthlyCost": 225
+        "monthlyCost": 165
       },
-      "lifestyle": "A waterfront apartment or a South End townhome, regular dining at local restaurants including fresh lobster, and a reliable car for weekend drives to Peggy's Cove or along the Cabot Trail. Universal healthcare plus private supplemental for dental and vision keeps medical costs low. The Halifax brewery and live music scene provide regular entertainment. The budget is comfortable here with room to spare."
+      "lifestyle": "A proper one-bedroom in Clayton Park, the West End, or Dartmouth, with dining out a couple of times a week across the seafood-and-brewery scene and a reliable car for weekend drives to Peggy's Cove or the Cabot Trail. Private supplemental cover on top of MSI keeps medical costs low, and theatre, live music, and a gym round out an unshowy, comfortable maritime routine."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "3BR heritage home in the South End or a waterfront property in Bedford or Eastern Passage",
-        "monthlyCost": 2725
+        "description": "Nice modern one-bedroom in the South End, downtown, or a North End new-build",
+        "monthlyCost": 1700
       },
       "dining": {
-        "description": "Fine dining at Stories, Bar Kismet, and Brooklyn Warehouse; regular seafood feasts",
-        "monthlyCost": 725
+        "description": "Frequent quality dining, including fine seafood rooms like Bar Kismet and Stories",
+        "monthlyCost": 500
       },
       "groceries": {
-        "monthlyCost": 525
-      },
-      "healthcare": {
-        "description": "Universal coverage plus comprehensive private insurance for enhanced care and faster access",
-        "monthlyCost": 350
-      },
-      "transportation": {
-        "description": "Late-model AWD vehicle, premium insurance, ferry pass for harbor crossings",
-        "monthlyCost": 450
-      },
-      "entertainment": {
-        "description": "Sailing club membership, cottage weekends, art gallery patronage, ski trips to Martock",
         "monthlyCost": 475
       },
-      "utilities": {
-        "monthlyCost": 250
+      "healthcare": {
+        "description": "MSI plus comprehensive private cover for faster access",
+        "monthlyCost": 125
       },
-      "lifestyle": "A heritage home in the South End or a waterfront property in Bedford, regular dining at restaurants like Stories and Bar Kismet, and a sailing club membership on the harbor. A good AWD vehicle for Nova Scotia road trips and weekend cottage getaways on the South Shore. Universal healthcare keeps medical costs minimal, and the margin at this level is substantial for a city of this size."
+      "transportation": {
+        "description": "A late-model car, premium insurance, and harbour ferry access",
+        "monthlyCost": 225
+      },
+      "entertainment": {
+        "description": "Sailing-club membership, cottage weekends, and the arts calendar",
+        "monthlyCost": 325
+      },
+      "utilities": {
+        "monthlyCost": 195
+      },
+      "lifestyle": "A nice modern one-bedroom in the South End, downtown, or a North End new-build, with dining out several times a week across Halifax's seafood-driven food scene. A late-model car opens up the South Shore and the Cabot Trail, comprehensive private cover layers faster access on top of MSI, and sailing, cottage weekends, and the arts calendar are all within reach. This is a relaxed, financially-secure life in a walkable maritime city with real discretionary room."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Luxury waterfront home in Northwest Arm or a custom build in Bedford with ocean views",
-        "monthlyCost": 3725
+        "description": "Luxury one-bedroom or junior-two-bedroom in a downtown waterfront high-rise (King's Wharf, Queen's Marque)",
+        "monthlyCost": 2350
       },
       "dining": {
-        "description": "Private chef for weekly dinners, fine dining multiple nights, wine club memberships",
-        "monthlyCost": 900
+        "description": "Fine dining several nights a week plus private-chef occasions",
+        "monthlyCost": 825
       },
       "groceries": {
-        "monthlyCost": 525
-      },
-      "healthcare": {
-        "description": "Universal coverage plus executive health programs and premium private supplements",
-        "monthlyCost": 375
-      },
-      "transportation": {
-        "description": "Luxury SUV, second vehicle, flights from YHZ to Toronto or international destinations",
         "monthlyCost": 575
       },
+      "healthcare": {
+        "description": "MSI plus executive-health and premium private supplements",
+        "monthlyCost": 210
+      },
+      "transportation": {
+        "description": "A luxury vehicle plus regular flights from YHZ",
+        "monthlyCost": 450
+      },
       "entertainment": {
-        "description": "Royal Nova Scotia Yacht Squadron membership, arts patronage, private sailing, golf club",
-        "monthlyCost": 600
+        "description": "Yacht-club and golf memberships, arts patronage, private sailing",
+        "monthlyCost": 550
       },
       "utilities": {
-        "monthlyCost": 275
+        "monthlyCost": 240
       },
       "domesticHelp": {
-        "description": "Weekly house cleaning, snow removal, landscaping, property maintenance",
-        "monthlyCost": 500
+        "description": "Weekly housekeeping plus snow removal and yard care",
+        "monthlyCost": 240
       },
       "luxuryExtras": {
-        "description": "Cottage on the South Shore, quarterly international travel, boat ownership, philanthropy",
-        "monthlyCost": 1125
+        "description": "A South Shore cottage, quarterly international travel, and boat access",
+        "monthlyCost": 425
       },
-      "lifestyle": "A waterfront home on the Northwest Arm, Royal Nova Scotia Yacht Squadron membership, a cottage on the South Shore, and a nice car. Regular flights from Halifax to Toronto or international destinations, fine dining multiple nights a week, and universal healthcare keeping medical costs negligible. The budget significantly exceeds what Halifax's cost of living requires, leaving a large margin for travel or savings."
+      "lifestyle": "A luxury one-bedroom or junior-two-bedroom in a downtown waterfront high-rise, frequent fine dining, a nice car, and a weekly housekeeper. Yacht-club and golf access, cottage getaways, premium private cover, and quarterly international travel put this well into upscale territory for a city this size, with a large margin over what Halifax's cost of living requires."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Estate property on the Northwest Arm or waterfront compound in Chester or Mahone Bay",
-        "monthlyCost": 4175
+        "description": "Prime luxury two-bedroom or penthouse at the top of Halifax's market",
+        "monthlyCost": 3600
       },
       "dining": {
-        "description": "Full-time personal chef, exclusive dining events, catered parties with Atlantic seafood",
-        "monthlyCost": 1225
+        "description": "Near-daily fine dining and catered occasions built on Atlantic seafood",
+        "monthlyCost": 1450
       },
       "groceries": {
-        "monthlyCost": 450
-      },
-      "healthcare": {
-        "description": "Universal coverage plus top private supplements, executive wellness, medical travel if needed",
-        "monthlyCost": 350
-      },
-      "transportation": {
-        "description": "Multiple luxury vehicles, private car service, chartered flights, yacht",
         "monthlyCost": 750
       },
+      "healthcare": {
+        "description": "MSI plus concierge-grade and international medical cover",
+        "monthlyCost": 380
+      },
+      "transportation": {
+        "description": "A luxury vehicle, chartered flights, and boat access for coastal cruising",
+        "monthlyCost": 800
+      },
       "entertainment": {
-        "description": "Major arts and maritime philanthropy, international travel, private sailing regattas",
-        "monthlyCost": 1075
+        "description": "Major maritime and arts philanthropy, private regattas, extensive travel",
+        "monthlyCost": 1100
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 340
       },
       "domesticHelp": {
-        "description": "Full-time estate manager, housekeeper, groundskeeper, personal assistant, boat captain",
-        "monthlyCost": 2225
+        "description": "Full domestic help — housekeeper, groundskeeper, property management",
+        "monthlyCost": 600
       },
       "luxuryExtras": {
-        "description": "Multiple properties, first-class international travel, yacht, art collecting, community foundation",
-        "monthlyCost": 2700
+        "description": "Multiple properties, first-class travel, a boat, and community philanthropy",
+        "monthlyCost": 1400
       },
-      "lifestyle": "An estate on the Northwest Arm or a waterfront compound in Chester or Mahone Bay, a cook who comes in several times a week, regular housekeeping, and first-class international travel. A boat for Atlantic coast cruising and comprehensive private supplements on top of universal healthcare. Halifax is a small city with limited luxury infrastructure, so much of this budget will go unspent. The appeal here is the maritime setting, tight community, and very low stress rather than access to high-end services."
+      "lifestyle": "A prime luxury two-bedroom or penthouse at the top of Halifax's market, near-daily fine dining and catered occasions built on Atlantic seafood, a luxury car, chartered flights from YHZ, and boat access for coastal cruising. Full domestic help and concierge-grade private cover complete the ceiling. Halifax's luxury infrastructure is genuinely limited, so much of this tier funds travel, philanthropy, and the quiet prestige of a maritime waterfront address rather than big-city extravagance."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 7,
     "infrastructure": 7,
     "expatFriendliness": 8
-  }
+  },
+  "dataRecency": "Q3 2026"
 }

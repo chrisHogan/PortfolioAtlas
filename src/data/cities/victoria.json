@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "1-bedroom apartment in Esquimalt or Saanich, away from the tourist harbor but well-connected by bus",
-        "monthlyCost": 1875
+        "description": "Studio or older one-bedroom in Esquimalt or Saanich, off the tourist harbour",
+        "monthlyCost": 1230
       },
       "dining": {
-        "description": "Fish and chips on the wharf, casual pub meals, and home cooking with local farm produce",
-        "monthlyCost": 425
+        "description": "Mostly home cooking with local farm produce; fish-and-chips and pub meals",
+        "monthlyCost": 110
       },
       "groceries": {
-        "monthlyCost": 675
+        "monthlyCost": 420
       },
       "healthcare": {
-        "description": "Universal BC MSP healthcare covers most costs; budget for dental, vision, and prescriptions",
-        "monthlyCost": 250
+        "description": "BC MSP covers essentials; basic dental-vision-prescription supplement",
+        "monthlyCost": 50
       },
       "transportation": {
-        "description": "BC Transit monthly pass; Victoria is very bikeable with dedicated cycling infrastructure",
-        "monthlyCost": 175
+        "description": "BC Transit monthly pass (C$85); Victoria is very bikeable",
+        "monthlyCost": 70
       },
       "entertainment": {
-        "description": "Beacon Hill Park walks, free harbor strolls, whale watching from shore, library and community events",
-        "monthlyCost": 200
+        "description": "Beacon Hill Park, free harbour strolls, shore whale-watching, library events",
+        "monthlyCost": 85
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 110
       },
-      "lifestyle": "Victoria is workable at this budget, helped by universal BC MSP healthcare. A one-bedroom in Esquimalt or Saanich keeps costs manageable, and the city is bikeable with good cycling infrastructure. You will cook most meals at home using local farm produce, with occasional pub meals and fish and chips on the wharf. Victoria has Canada's mildest winters — more rain than snow — though housing costs are higher than many comparable Canadian cities."
+      "lifestyle": "A studio or older one-bedroom in Esquimalt or Saanich, off the tourist harbour but well-connected by bus and bike — Victoria's cycling infrastructure makes a car optional at this tier. Most meals are cooked at home with local farm produce, with fish-and-chips on the wharf or a casual pub meal as the treat. BC's MSP covers the essentials, leaving a basic dental-and-prescription supplement, and the mild coastal climate keeps heating costs down. Beacon Hill Park, free harbour strolls, and shore-based whale watching carry the leisure budget. Housing is the pressure point — Victoria's rents run close to Vancouver's — but the mild, nearly snow-free winters are a real reward."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "Spacious 2-bedroom apartment in James Bay or Fairfield, walking distance to the Inner Harbour",
-        "monthlyCost": 2550
+        "description": "Proper one-bedroom in walkable James Bay or Fairfield",
+        "monthlyCost": 1600
       },
       "dining": {
-        "description": "Regular meals at farm-to-table restaurants, weekend brunches in Oak Bay, craft brewery scene",
-        "monthlyCost": 650
+        "description": "Regular farm-to-table dining and weekend brunches in Oak Bay",
+        "monthlyCost": 280
       },
       "groceries": {
-        "monthlyCost": 650
+        "monthlyCost": 490
       },
       "healthcare": {
-        "description": "Universal MSP coverage plus private supplemental for dental, vision, massage therapy, and faster specialist access",
-        "monthlyCost": 325
+        "description": "MSP plus private supplemental (dental, vision, massage)",
+        "monthlyCost": 75
       },
       "transportation": {
-        "description": "Reliable car for island exploration, BC Ferries trips to Vancouver, full insurance and transit pass",
-        "monthlyCost": 450
+        "description": "A reliable car for island exploration plus BC Ferries trips",
+        "monthlyCost": 110
       },
       "entertainment": {
-        "description": "Royal BC Museum membership, kayaking in the Gorge, whale watching tours, live music at Hermann's Jazz Club",
-        "monthlyCost": 450
+        "description": "Museum membership, kayaking the Gorge, whale-watching tours, live music",
+        "monthlyCost": 170
       },
       "utilities": {
-        "monthlyCost": 225
+        "monthlyCost": 150
       },
-      "lifestyle": "A two-bedroom in James Bay or Fairfield, walking distance to the Inner Harbour. Regular dining at farm-to-table restaurants, a car for island exploration and BC Ferries trips to Vancouver, and private supplemental health insurance for dental and vision. The mild climate supports year-round cycling and gardening. Victoria's dining scene is strong for a city its size, and the craft brewery scene adds variety. Universal healthcare keeps baseline medical costs minimal."
+      "lifestyle": "A proper one-bedroom in walkable James Bay or Fairfield, within reach of the Inner Harbour, with regular farm-to-table dining, a car for island exploration and BC Ferries trips, and private supplemental cover. Year-round cycling and gardening, a strong craft-brewery-and-music scene, and a mild climate make for an easy, comfortable island routine."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "3-bedroom character home in Oak Bay or waterfront condo in the Inner Harbour with mountain views",
-        "monthlyCost": 3275
+        "description": "Nicer one-bedroom, character unit, or Inner-Harbour condo in Oak Bay",
+        "monthlyCost": 1950
       },
       "dining": {
-        "description": "Fine dining at Brasserie L'Ecole and Stage Wine Bar, private winery tours in Cowichan Valley, seafood feasts",
-        "monthlyCost": 875
-      },
-      "groceries": {
-        "monthlyCost": 600
-      },
-      "healthcare": {
-        "description": "Universal coverage plus comprehensive private insurance with executive health screening and wellness services",
-        "monthlyCost": 350
-      },
-      "transportation": {
-        "description": "Late-model vehicle, premium insurance, regular BC Ferries trips, occasional floatplane to Vancouver",
+        "description": "Frequent fine dining at rooms like Brasserie L'École and Stage Wine Bar",
         "monthlyCost": 500
       },
+      "groceries": {
+        "monthlyCost": 570
+      },
+      "healthcare": {
+        "description": "MSP plus comprehensive private cover with executive screening",
+        "monthlyCost": 130
+      },
+      "transportation": {
+        "description": "A late-model car, ferries, and occasional floatplane to Vancouver",
+        "monthlyCost": 240
+      },
       "entertainment": {
-        "description": "Victoria Golf Club membership, sailing in the Strait of Juan de Fuca, Pacific Opera season tickets, art gallery patronage",
-        "monthlyCost": 650
+        "description": "Golf-club membership, sailing the Strait of Juan de Fuca, opera season tickets",
+        "monthlyCost": 340
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 180
       },
-      "lifestyle": "A character home in Oak Bay or a waterfront condo in the Inner Harbour with mountain views. Fine dining at Brasserie L'Ecole and Stage Wine Bar, golf club membership, and regular floatplane commutes to Vancouver. Winery tours in the Cowichan Valley and sailing in the Strait of Juan de Fuca are easy weekend activities. Comprehensive private health insurance and a good vehicle for island living round out a comfortable lifestyle with solid margin."
+      "lifestyle": "A nicer one-bedroom, character-home unit, or Inner-Harbour condo in Oak Bay or downtown, with fine dining at rooms like Brasserie L'École and Stage Wine Bar. A late-model car, regular BC Ferries or floatplane trips to Vancouver, and comprehensive private cover round out the essentials, while Cowichan Valley winery tours, sailing the Strait of Juan de Fuca, and golf are easy weekend activities. This is a comfortable, mild-climate island life with solid discretionary margin."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Luxury waterfront home in Cordova Bay or estate property in the Uplands with ocean and mountain views",
-        "monthlyCost": 4500
+        "description": "Luxury one-bedroom or junior-two-bedroom waterfront unit",
+        "monthlyCost": 2900
       },
       "dining": {
-        "description": "Private chef for weekly dinner parties, fine dining as routine, curated BC wine collection, farm-direct sourcing",
-        "monthlyCost": 1150
+        "description": "Fine dining as routine plus a curated BC wine collection",
+        "monthlyCost": 850
       },
       "groceries": {
-        "monthlyCost": 625
+        "monthlyCost": 680
       },
       "healthcare": {
-        "description": "Universal coverage plus executive health programs, naturopathic medicine, premium private supplements",
-        "monthlyCost": 400
+        "description": "MSP plus executive-health, naturopathic, and premium private supplements",
+        "monthlyCost": 220
       },
       "transportation": {
-        "description": "Luxury SUV, second vehicle, Harbour Air floatplane commutes, BC Ferries comfort class",
-        "monthlyCost": 650
+        "description": "A luxury SUV plus Harbour Air floatplane commutes",
+        "monthlyCost": 480
       },
       "entertainment": {
-        "description": "Royal Victoria Yacht Club membership, private sailing, art collecting from local galleries, symphony patronage",
-        "monthlyCost": 825
+        "description": "Yacht-club membership, private sailing, art collecting, symphony patronage",
+        "monthlyCost": 580
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 220
       },
       "domesticHelp": {
-        "description": "Weekly house cleaning, gardener for estate grounds, seasonal landscaping, property maintenance",
-        "monthlyCost": 625
+        "description": "Weekly housekeeping plus a gardener for the grounds",
+        "monthlyCost": 250
       },
       "luxuryExtras": {
-        "description": "Cottage on Salt Spring Island, quarterly international travel, boat moorage, philanthropic memberships",
-        "monthlyCost": 1325
+        "description": "A Gulf Island cottage, quarterly international travel, boat moorage",
+        "monthlyCost": 430
       },
-      "lifestyle": "A waterfront home in Cordova Bay or an estate in the Uplands with ocean and mountain views, Royal Victoria Yacht Club membership, a housekeeper, and a cottage on Salt Spring Island or another Gulf Island. Regular floatplane trips to Vancouver and business class for longer flights. Universal healthcare keeps medical costs minimal. Victoria is a small city, so the dining and cultural scene is limited compared to Vancouver, but the coastal setting and mild climate are the main draws."
+      "lifestyle": "A luxury one-bedroom or junior-two-bedroom waterfront unit, frequent fine dining, a nice car, floatplane commutes, and a weekly housekeeper. Yacht-club membership, a Gulf Island cottage, boat moorage, and premium private cover put this firmly into upscale coastal island living."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Grand estate in the Uplands or waterfront compound in North Saanich with private dock and gardens",
-        "monthlyCost": 5100
+        "description": "Prime waterfront luxury apartment in the Uplands / Cordova Bay tier",
+        "monthlyCost": 5000
       },
       "dining": {
-        "description": "Full-time personal chef, exclusive supper club events, private winery dinners, catered garden parties",
-        "monthlyCost": 1625
-      },
-      "groceries": {
-        "monthlyCost": 550
-      },
-      "healthcare": {
-        "description": "Universal coverage plus concierge medicine, executive wellness team, international medical coverage",
-        "monthlyCost": 425
-      },
-      "transportation": {
-        "description": "Multiple luxury vehicles, private floatplane charter, yacht, first-class international travel",
-        "monthlyCost": 1075
-      },
-      "entertainment": {
-        "description": "Major arts philanthropy, private sailing regattas, international travel, exclusive golf and yacht memberships",
+        "description": "Near-daily fine dining and private supper-club and winery events",
         "monthlyCost": 1500
       },
+      "groceries": {
+        "monthlyCost": 880
+      },
+      "healthcare": {
+        "description": "MSP plus concierge medicine and international medical cover",
+        "monthlyCost": 400
+      },
+      "transportation": {
+        "description": "Multiple luxury vehicles and a private floatplane charter",
+        "monthlyCost": 850
+      },
+      "entertainment": {
+        "description": "Major arts philanthropy, private regattas, exclusive golf-and-yacht memberships",
+        "monthlyCost": 1150
+      },
       "utilities": {
-        "monthlyCost": 325
+        "monthlyCost": 320
       },
       "domesticHelp": {
-        "description": "Full estate staff: housekeeper, chef, gardener, property manager, personal assistant",
-        "monthlyCost": 2700
+        "description": "Full domestic help — housekeeper, gardener, property manager",
+        "monthlyCost": 620
       },
       "luxuryExtras": {
-        "description": "Multiple Gulf Island properties, private yacht, art patronage, charitable foundation, bespoke travel experiences",
-        "monthlyCost": 2950
+        "description": "Multiple Gulf Island properties, a private boat, a charitable foundation, bespoke travel",
+        "monthlyCost": 1450
       },
-      "lifestyle": "A grand estate in the Uplands or a waterfront compound in North Saanich with private dock and English gardens, a cook who comes in several times a week, regular housekeeping, and first-class international travel. A boat for Gulf Island exploration and comprehensive healthcare on top of universal coverage. Victoria is a small city of about 400,000 people in the metro area, so the luxury services and fine dining options are limited. At this budget, most of the spending goes to travel, property, and the quiet comfort of island living."
+      "lifestyle": "A prime waterfront luxury apartment in the Uplands or Cordova Bay tier, near-daily fine dining, a luxury vehicle, and a private floatplane charter or boat for Gulf Island days. Full domestic help, concierge and international-grade private cover, and yacht-and-golf-club access define the ceiling. Victoria is a small city with limited luxury infrastructure, so much of this tier funds travel, boating, and the quiet prestige of a mild-climate waterfront address rather than big-city extravagance."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 8,
     "infrastructure": 7,
     "expatFriendliness": 9
-  }
+  },
+  "dataRecency": "Q3 2026"
 }
