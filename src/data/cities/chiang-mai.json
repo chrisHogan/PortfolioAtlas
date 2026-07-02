@@ -12,7 +12,7 @@
     "english": "moderate"
   },
   "quickFacts": {
-    "visa": "60-day tourist visa on arrival; Long-Term Resident (LTR) visa available for retirees with $80K+ income or $1M+ assets; Thai Elite visa ($15K–$30K) for 5–20 year stays",
+    "visa": "60-day tourist visa on arrival; Long-Term Resident (LTR) visa available for retirees with $80K+ income or $1M+ assets; Thailand Privilege visa ($15K–$30K) for 5–20 year stays",
     "timezone": "UTC+7 (Indochina Time)",
     "language": "Thai",
     "internetSpeed": "50–200 Mbps (fiber widely available)",
@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "Modern 1-bedroom condo in Nimman or Old City area with pool and gym access",
-        "monthlyCost": 533
+        "description": "Modern studio / 1BR in Nimman, Santitham, or near the Old City, pool",
+        "monthlyCost": 345
       },
       "dining": {
-        "description": "Street food and local Thai restaurants daily; occasional Western café meals",
-        "monthlyCost": 475
+        "description": "Local Thai and street food, the occasional Western café",
+        "monthlyCost": 185
       },
       "groceries": {
-        "monthlyCost": 275
+        "monthlyCost": 115
       },
       "healthcare": {
-        "description": "Basic private insurance covering outpatient visits at quality hospitals like Ram Hospital",
-        "monthlyCost": 225
+        "description": "Individual local Thai plan, early-retiree band, Ram Hospital access",
+        "monthlyCost": 110
       },
       "transportation": {
-        "description": "Rented scooter or songthaew rides around the city",
-        "monthlyCost": 100
+        "description": "Scooter plus songthaew",
+        "monthlyCost": 50
       },
       "entertainment": {
-        "description": "Coworking space membership, temple visits, weekend markets, and local hiking",
-        "monthlyCost": 225
-      },
-      "utilities": {
+        "description": "Coworking, markets, hiking, gym, streaming",
         "monthlyCost": 100
       },
-      "lifestyle": "A clean, modern 1-bedroom in the Nimman area with pool access. Mostly cooking at home with cheap street food a few times a week. Getting around by songthaew and motorbike. Basic private hospital coverage. Comfortable and affordable, though options for Western groceries and nightlife are limited."
+      "utilities": {
+        "monthlyCost": 85
+      },
+      "lifestyle": "A clean, modern studio or one-bedroom in Nimman, Santitham, or near the Old City, pool included. Mostly local Thai and street food with the odd Western café, getting around by scooter and songthaew, and a local Thai health plan covering Ram or Bangkok Hospital Chiang Mai. The mountains, temples, and markets are effectively free. Comfortable and genuinely cheap — the trade-offs are limited nightlife and a smaller range of imported goods."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
         "description": "Spacious 2-bedroom condo or small townhouse in a desirable neighborhood with modern amenities",
-        "monthlyCost": 703
+        "monthlyCost": 470
       },
       "dining": {
         "description": "Mix of Thai street food, upscale local restaurants, and regular Western dining",
-        "monthlyCost": 725
+        "monthlyCost": 250
       },
       "groceries": {
-        "monthlyCost": 350
+        "monthlyCost": 140
       },
       "healthcare": {
         "description": "Comprehensive private health insurance with dental; access to top-tier hospitals",
-        "monthlyCost": 250
+        "monthlyCost": 150
       },
       "transportation": {
         "description": "Own scooter plus occasional Grab car rides and weekend road trips",
-        "monthlyCost": 150
+        "monthlyCost": 90
       },
       "entertainment": {
         "description": "Gym membership, regular Thai cooking classes, weekend trips to Pai or Chiang Rai, streaming services",
-        "monthlyCost": 400
+        "monthlyCost": 160
       },
       "utilities": {
-        "monthlyCost": 125
+        "monthlyCost": 95
       },
-      "lifestyle": "A well-furnished 2-bedroom condo or townhouse with room for a home office. Dining out several times a week at local and Western restaurants without watching the bill. Own scooter plus Grab for convenience. Good private health insurance and dental. Weekend trips to Pai or Chiang Rai are easy and cheap. Day-to-day life is comfortable and unstressed."
+      "lifestyle": "A nicer one-bedroom or small condo with room for a home office, dining out several times a week across local and Western spots. A scooter plus Grab for convenience, a broader private health plan with dental, and easy weekend runs to Pai or Chiang Rai. Life here is relaxed and uncomplicated, with a comfortable cushion each month. (Interpolated tier.)"
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Luxury 3-bedroom pool villa in the outskirts or premium high-rise condo with city views",
-        "monthlyCost": 858
+        "description": "Premium high-rise unit with city views or a smart condo in the Nimman/Riverside belt",
+        "monthlyCost": 620
       },
       "dining": {
-        "description": "Fine dining at top restaurants several times a week; regular sushi, Italian, and Thai tasting menus",
-        "monthlyCost": 850
-      },
-      "groceries": {
+        "description": "The best restaurants in town regularly — sushi, Italian, Thai tasting menus",
         "monthlyCost": 350
       },
+      "groceries": {
+        "monthlyCost": 160
+      },
       "healthcare": {
-        "description": "Premium international health insurance with full coverage including medical evacuations",
-        "monthlyCost": 300
+        "description": "Comprehensive local plan or entry international, evacuation to Bangkok",
+        "monthlyCost": 185
       },
       "transportation": {
-        "description": "Leased car or SUV, Grab for nights out, occasional domestic flights",
-        "monthlyCost": 250
+        "description": "Leased car or SUV plus a scooter, occasional domestic flights",
+        "monthlyCost": 130
       },
       "entertainment": {
-        "description": "Premium gym, golf memberships, spa days, cultural festivals, weekend trips across northern Thailand",
-        "monthlyCost": 575
+        "description": "Gym, golf, spa, cultural festivals, weekend trips north",
+        "monthlyCost": 235
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 100
       },
-      "lifestyle": "A private pool villa on the outskirts or a premium high-rise condo with city views. Dining at the best restaurants in Chiang Mai regularly, including good sushi, Italian, and Thai tasting menus. A leased car or SUV for weekend drives through northern Thailand. Premium international health insurance. At this budget in Chiang Mai, very little is out of reach."
+      "lifestyle": "A premium high-rise unit with city views or a smart condo in the Nimman/Riverside belt, dining at the best restaurants in town regularly — good sushi, Italian, and Thai tasting menus. A leased car or SUV for drives through the north, plus a strong private or mid international plan. At this budget in Chiang Mai, very little is out of reach."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
         "description": "Stunning private estate or luxury villa compound with pool, gardens, and mountain views",
-        "monthlyCost": 1258
+        "monthlyCost": 1100
       },
       "dining": {
         "description": "Private chef for most meals plus frequent fine dining at Chiang Mai's top establishments",
-        "monthlyCost": 1025
+        "monthlyCost": 440
       },
       "groceries": {
-        "monthlyCost": 350
+        "monthlyCost": 200
       },
       "healthcare": {
         "description": "Top-tier international insurance with Bumrungrad Bangkok access and annual executive health checks",
-        "monthlyCost": 325
+        "monthlyCost": 320
       },
       "transportation": {
         "description": "Owned or leased luxury vehicle, private driver available, regular domestic flights",
-        "monthlyCost": 325
+        "monthlyCost": 260
       },
       "entertainment": {
         "description": "Country club memberships, private yoga instruction, art collecting, regular travel across Southeast Asia",
-        "monthlyCost": 775
+        "monthlyCost": 380
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 125
       },
       "domesticHelp": {
         "description": "Full-time housekeeper/cook, part-time gardener, and regular laundry service",
-        "monthlyCost": 350
+        "monthlyCost": 240
       },
       "luxuryExtras": {
         "description": "Monthly spa packages, bespoke tailoring, premium wine subscriptions, charitable donations to local temples",
-        "monthlyCost": 775
+        "monthlyCost": 340
       },
-      "lifestyle": "A large villa with pool and gardens in a desirable area. A housekeeper several times a week and a cook for most meals. A nice car with domestic flights to Bangkok or the islands whenever you want. Premium international health insurance with annual executive checkups. This budget goes very far in Chiang Mai — daily life is genuinely affluent with significant room to spare."
+      "lifestyle": "A large villa with pool and mountain views, a housekeeper and cook covering most of the home and meals, and a nice car with a driver on call. International health cover with Bumrungrad access and annual executive checks, plus regular flights and travel across the region. This budget stretches a very long way here — daily life is genuinely affluent with room to spare. (Interpolated tier.)"
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Sprawling luxury compound with multiple buildings, infinity pool, and panoramic Doi Suthep views; possibly a second condo in Bangkok",
-        "monthlyCost": 1808
+        "description": "Large villa/premium compound with pool and Doi Suthep views",
+        "monthlyCost": 1650
       },
       "dining": {
-        "description": "Personal chef team, imported ingredients flown in, plus unlimited fine dining and private dinner parties",
-        "monthlyCost": 1300
+        "description": "Frequent fine dining (a limited scene) plus a private chef a few days a week",
+        "monthlyCost": 560
       },
       "groceries": {
-        "monthlyCost": 450
+        "monthlyCost": 240
       },
       "healthcare": {
-        "description": "Concierge-level global health coverage; annual checkups at Bumrungrad; access to specialists anywhere in Asia",
-        "monthlyCost": 375
+        "description": "International/evacuation cover, Bumrungrad Bangkok access",
+        "monthlyCost": 430
       },
       "transportation": {
-        "description": "Luxury vehicle collection, full-time personal driver, frequent first-class domestic flights and regional travel",
-        "monthlyCost": 550
+        "description": "Luxury vehicle plus a driver, regular domestic flights",
+        "monthlyCost": 380
       },
       "entertainment": {
-        "description": "Exclusive memberships, private art studio, philanthropic projects, regular international travel across Asia and beyond",
-        "monthlyCost": 1125
+        "description": "Country club, wellness, travel across Southeast Asia",
+        "monthlyCost": 520
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 140
       },
       "domesticHelp": {
-        "description": "Full household staff including chef, housekeeper, gardener, driver, and property manager",
-        "monthlyCost": 675
+        "description": "Housekeeper/cook plus a part-time gardener for the residence",
+        "monthlyCost": 360
       },
       "luxuryExtras": {
-        "description": "Bespoke wellness programs, art commissions, luxury shopping trips to Bangkok, charitable foundations, investment in local businesses",
-        "monthlyCost": 1850
+        "description": "Luxury travel, bespoke, wine, wellness programs",
+        "monthlyCost": 520
       },
-      "lifestyle": "A large, well-appointed property with mountain views and possibly a second condo in Bangkok. A housekeeper, a cook a few times a week, a gardener, and a driver. First-class flights within Asia and business class for longer trips. Concierge-level health coverage. This is far more budget than Chiang Mai can absorb — daily life is very comfortable with no meaningful financial constraints, though the city itself remains a small, quiet place with limited high-end infrastructure."
+      "lifestyle": "A large, well-appointed property with pool and Doi Suthep views, a housekeeper, a cook a few days a week, and a gardener and driver. Concierge-level international health cover, fine dining whenever wanted, and first-class regional travel. This is far more budget than Chiang Mai can absorb — life is very comfortable with no real constraints, though the city stays a small, quiet place with a modest high-end ceiling."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 7,
     "infrastructure": 6,
     "expatFriendliness": 9
-  }
+  },
+  "dataRecency": "Q3 2026"
 }

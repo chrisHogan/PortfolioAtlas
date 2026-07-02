@@ -27,105 +27,105 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "Modern 1-bedroom apartment in Binh Thanh or District 2 (Thu Duc) with pool and basic amenities",
-        "monthlyCost": 675
+        "description": "Modern 1BR in value-strong Binh Thanh or the edge of District 2, pool",
+        "monthlyCost": 500
       },
       "dining": {
-        "description": "Pho, banh mi, and com tam from street stalls daily; occasional Western or Japanese restaurant meals",
-        "monthlyCost": 525
+        "description": "Pho, banh mi, com tam from street stalls, occasional Western/Japanese",
+        "monthlyCost": 230
       },
       "groceries": {
-        "monthlyCost": 300
+        "monthlyCost": 135
       },
       "healthcare": {
-        "description": "Basic private insurance; outpatient visits at FV Hospital or Columbia Asia",
-        "monthlyCost": 250
+        "description": "Individual regional/international basic plan, FV Hospital access (thin local market)",
+        "monthlyCost": 160
       },
       "transportation": {
-        "description": "Rented motorbike or daily Grab bike rides across the city",
-        "monthlyCost": 125
+        "description": "Motorbike or Grab bike",
+        "monthlyCost": 65
       },
       "entertainment": {
-        "description": "Bia hoi street beer sessions, War Remnants Museum, rooftop bars, weekend trips to Cu Chi Tunnels or Mekong Delta",
-        "monthlyCost": 350
+        "description": "Bia hoi, rooftop bars, weekend trips, gym",
+        "monthlyCost": 130
       },
       "utilities": {
-        "monthlyCost": 125
+        "monthlyCost": 95
       },
-      "lifestyle": "A modern 1-bedroom apartment in Binh Thanh or District 2 with pool and basic amenities. Eating mostly pho, banh mi, and com tam from street stalls, which are cheap and excellent. Getting around by motorbike or Grab. Basic private health insurance at hospitals like FV or Columbia Asia. English is limited, so daily errands require some adaptation. The budget goes far here, but the city is loud, hot, and chaotic — it suits people who enjoy that energy."
+      "lifestyle": "A modern one-bedroom in value-strong Binh Thanh or the edge of District 2, with a pool and basic amenities. Daily meals are pho, banh mi, and com tam from street stalls — cheap and excellent — with the occasional Western or Japanese night out. A motorbike or Grab bike gets around the sprawl, and a regional/international health plan covers FV Hospital. English is limited, so errands take some adaptation; the payoff is a dollar that stretches in a loud, high-energy city."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
         "description": "Spacious 2-bedroom apartment in Thao Dien (District 2) or a modern serviced apartment in District 1",
-        "monthlyCost": 925
+        "monthlyCost": 600
       },
       "dining": {
         "description": "Vietnamese street food mixed with the booming District 1 and District 2 restaurant scene — Vietnamese, Korean, French, and fusion",
-        "monthlyCost": 800
+        "monthlyCost": 320
       },
       "groceries": {
-        "monthlyCost": 375
+        "monthlyCost": 165
       },
       "healthcare": {
         "description": "Comprehensive private insurance with full access to FV Hospital, one of Vietnam's best",
-        "monthlyCost": 300
+        "monthlyCost": 200
       },
       "transportation": {
         "description": "Own motorbike plus regular Grab car rides; occasional domestic flights to Da Nang or Phu Quoc",
-        "monthlyCost": 175
+        "monthlyCost": 110
       },
       "entertainment": {
         "description": "Gym membership, cooking classes, weekend trips to beach towns, vibrant nightlife, live music scene",
-        "monthlyCost": 625
+        "monthlyCost": 210
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 105
       },
-      "lifestyle": "A spacious 2-bedroom apartment in the leafy Thao Dien area or a modern serviced apartment in District 1. Dining out regularly at the growing restaurant scene — Vietnamese, Korean, French, and fusion — without watching the bill. Own motorbike plus regular Grab rides. Comprehensive private health insurance at FV Hospital. Cheap Vietjet flights to Da Nang or Phu Quoc for beach weekends. Life is comfortable and the value is strong."
+      "lifestyle": "A spacious apartment in leafy Thao Dien or a serviced unit near District 1, dining out regularly across the booming Vietnamese, Korean, French, and fusion scene. A motorbike plus routine Grab rides, a comprehensive international plan with FV access, and cheap flights to Da Nang or Phu Quoc for beach weekends. Value stays strong and life is comfortable. (Interpolated tier.)"
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Luxury 3-bedroom apartment in a premium Thao Dien compound or a high-rise penthouse in District 1 with skyline views",
-        "monthlyCost": 1150
+        "description": "Smart 1BR/2BR in a premium Thao Dien compound or a District 1 high-rise with skyline views",
+        "monthlyCost": 800
       },
       "dining": {
-        "description": "Saigon's top restaurants — French colonial fine dining, rooftop restaurants, Japanese omakase, and the best Vietnamese cuisine in the country",
-        "monthlyCost": 1000
+        "description": "Saigon's best regularly — French colonial, omakase, top Vietnamese",
+        "monthlyCost": 450
       },
       "groceries": {
-        "monthlyCost": 425
+        "monthlyCost": 195
       },
       "healthcare": {
-        "description": "Premium international insurance; VIP access at FV Hospital; dental and vision included; regional coverage",
-        "monthlyCost": 325
+        "description": "Mid international plan with VIP FV access, regional coverage",
+        "monthlyCost": 250
       },
       "transportation": {
-        "description": "Hired car and driver for daily use; domestic flights; occasional regional travel to Cambodia, Laos, or Thailand",
-        "monthlyCost": 300
+        "description": "Hired car and driver or heavy Grab, domestic flights",
+        "monthlyCost": 160
       },
       "entertainment": {
-        "description": "Premium gym, golf at Long Thanh or Vietnam Golf & Country Club, spa days, weekend luxury resort stays across Vietnam",
-        "monthlyCost": 825
+        "description": "Gym, golf, spa, weekend resort stays",
+        "monthlyCost": 300
       },
       "utilities": {
-        "monthlyCost": 175
+        "monthlyCost": 115
       },
-      "lifestyle": "A large 3-bedroom apartment in a premium Thao Dien gated community or a high-rise in District 1 with skyline views. Regular dining at Saigon's best restaurants — French colonial spots along Dong Khoi, Japanese omakase, and top Vietnamese cuisine. A hired car and driver for daily use. Premium international health insurance with VIP hospital access. Domestic flights to Ha Long Bay, Hoi An, or wherever the mood takes you. A genuinely affluent lifestyle at a fraction of what it would cost in a Western city."
+      "lifestyle": "A smart one- or two-bedroom in a premium Thao Dien compound or a District 1 high-rise with skyline views. Regular dining at Saigon's best — French colonial rooms, Japanese omakase, top Vietnamese — with a hired car and driver for the traffic. A mid international plan with VIP hospital access and domestic flights wherever the mood goes. A genuinely affluent life at a fraction of Western cost."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
         "description": "Grand villa in Thao Dien compound with private pool and garden, or top-floor penthouse in the Landmark 81 area",
-        "monthlyCost": 1500
+        "monthlyCost": 1150
       },
       "dining": {
         "description": "Private chef specializing in Vietnamese and French cuisine; fine dining out several times weekly at top establishments",
-        "monthlyCost": 1175
+        "monthlyCost": 560
       },
       "groceries": {
-        "monthlyCost": 425
+        "monthlyCost": 235
       },
       "healthcare": {
         "description": "Top-tier global insurance with Singapore and Bangkok evacuation; executive health checks; personalized wellness plans",
@@ -133,62 +133,62 @@
       },
       "transportation": {
         "description": "Luxury vehicle with full-time driver; domestic first-class flights; regional business-class travel",
-        "monthlyCost": 350
+        "monthlyCost": 380
       },
       "entertainment": {
         "description": "Elite golf memberships, private art gallery tours, luxury resort stays across Vietnam, regular regional travel",
-        "monthlyCost": 1000
+        "monthlyCost": 460
       },
       "utilities": {
-        "monthlyCost": 175
+        "monthlyCost": 140
       },
       "domesticHelp": {
         "description": "Full-time housekeeper and cook, part-time gardener, nanny or personal assistant",
-        "monthlyCost": 350
+        "monthlyCost": 280
       },
       "luxuryExtras": {
         "description": "Bespoke ao dai tailoring, Vietnamese art collection, premium spa memberships, wine collection, philanthropic work with local charities",
-        "monthlyCost": 875
+        "monthlyCost": 380
       },
-      "lifestyle": "A large villa in a Thao Dien gated community with private pool and garden, or a top-floor penthouse near Landmark 81. A full-time housekeeper and cook. A luxury car with a full-time driver. Regular dining at the city's best restaurants and business class flights for regional travel. Premium global health insurance with Singapore and Bangkok evacuation coverage. This budget goes very far in HCMC — daily life is very comfortable with significant room to spare."
+      "lifestyle": "A large villa in a Thao Dien gated community with pool and garden, or a top-floor unit near Landmark 81, with a housekeeper and cook running the home. A luxury car with a full-time driver, business-class regional travel, and premium global health cover with Singapore/Bangkok evacuation. This budget stretches well past what the city demands. (Interpolated tier.)"
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Palatial riverside villa in Thao Dien or An Phu with extensive grounds, pool, and guest house; optional beach property in Da Nang or Phu Quoc",
-        "monthlyCost": 1775
+        "description": "Large riverside villa in Thao Dien/An Phu with extensive grounds and pool",
+        "monthlyCost": 1600
       },
       "dining": {
-        "description": "Private chef team, imported delicacies, exclusive dining events, hosting elaborate dinner parties blending Vietnamese and international cuisines",
-        "monthlyCost": 1375
+        "description": "Fine dining as routine plus a private chef sometimes",
+        "monthlyCost": 660
       },
       "groceries": {
-        "monthlyCost": 475
+        "monthlyCost": 270
       },
       "healthcare": {
-        "description": "Concierge global healthcare; quarterly executive screenings in Singapore; 24/7 private doctor access; full family coverage",
-        "monthlyCost": 400
+        "description": "International/evacuation cover with Singapore/Bangkok",
+        "monthlyCost": 450
       },
       "transportation": {
-        "description": "Luxury vehicle fleet, full-time chauffeur, first-class international travel, private charter flights within Vietnam",
-        "monthlyCost": 775
+        "description": "Car with full-time driver, domestic first-class flights",
+        "monthlyCost": 560
       },
       "entertainment": {
-        "description": "Exclusive memberships, contemporary Vietnamese art collecting, philanthropic foundations, luxury travel worldwide, private cultural experiences",
-        "monthlyCost": 1575
+        "description": "Elite golf, art, luxury resort stays, regional travel",
+        "monthlyCost": 600
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 155
       },
       "domesticHelp": {
-        "description": "Complete household staff including chef, housekeeper, gardener, driver, security guard, and property manager",
-        "monthlyCost": 700
+        "description": "Housekeeper plus a cook and a part-time gardener for the residence",
+        "monthlyCost": 420
       },
       "luxuryExtras": {
-        "description": "Vietnamese art patronage and gallery support, real estate investments, bespoke travel curation, charitable foundations focused on education and healthcare",
-        "monthlyCost": 1975
+        "description": "Luxury travel, art, bespoke, philanthropy",
+        "monthlyCost": 600
       },
-      "lifestyle": "A large riverside villa in Thao Dien with extensive grounds, plus potentially a beach property in Da Nang or Phu Quoc. A housekeeper, a cook a few times a week, a driver, and a gardener. First-class international travel and regular trips across Vietnam. Concierge global healthcare with quarterly screenings in Singapore. This is far more than HCMC's market requires — you live at the very top of what the city offers, though the city's infrastructure, pollution, and limited English remain real daily factors regardless of budget."
+      "lifestyle": "A large riverside villa in Thao Dien or An Phu with extensive grounds, staffed by a housekeeper, an occasional cook, a driver, and a gardener. Concierge global health cover with regional screenings, fine dining as routine, and first-class international travel. This is far more than Saigon's market requires — you live at the very top of what the city offers, though its infrastructure, pollution, and limited English stay real daily factors at any budget."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 5,
     "infrastructure": 5,
     "expatFriendliness": 7
-  }
+  },
+  "dataRecency": "Q3 2026"
 }
