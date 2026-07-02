@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "Small 1-bedroom flat in Zone 3 or 4 — areas like Lewisham, Walthamstow, or Tooting",
-        "monthlyCost": 4150
+        "description": "Small studio or 1-bedroom in Zone 3–4 (Walthamstow, Lewisham, Tooting fringe, Croydon border)",
+        "monthlyCost": 1785
       },
       "dining": {
-        "description": "Pub meals, market street food, and budget-friendly chains; mostly cooking at home with supermarket deals",
-        "monthlyCost": 900
+        "description": "A few inexpensive meals out; mostly home cooking",
+        "monthlyCost": 120
       },
       "groceries": {
-        "monthlyCost": 1050
+        "monthlyCost": 305
       },
       "healthcare": {
-        "description": "NHS provides free healthcare for residents; budget covers dental, optical, and prescription top-ups",
-        "monthlyCost": 300
+        "description": "IHS plus a minimal top-up",
+        "monthlyCost": 135
       },
       "transportation": {
-        "description": "Monthly Oyster card or Travelcard for Zones 1-3 covering Tube, bus, and Overground",
-        "monthlyCost": 600
+        "description": "Oyster PAYG / partial Zone 1–3 Travelcard; no car (London transit is genuinely expensive)",
+        "monthlyCost": 225
       },
       "entertainment": {
-        "description": "Free museums (British Museum, Tate, National Gallery), Hyde Park walks, discounted theatre tickets from TKTS booth",
-        "monthlyCost": 425
+        "description": "Free museums, occasional cinema/pub",
+        "monthlyCost": 80
       },
       "utilities": {
-        "monthlyCost": 525
+        "monthlyCost": 330
       },
-      "lifestyle": "A small 1-bedroom flat in Zone 3 or 4 -- areas like Lewisham, Walthamstow, or Tooting. Cooking most meals at home, with pub meals and market street food as affordable outings. Getting around on a monthly Oyster card. NHS healthcare is a significant financial advantage. London is brutally expensive, so this budget means real constraints on housing size and dining out, but the free museums, parks, and Tube access to the entire city keep life rich."
+      "lifestyle": "A small studio or one-bedroom in Zone 3–4 — Walthamstow, Lewisham, or the Tooting fringe — with an Oyster/Travelcard covering the Tube and buses and no car. NHS access comes via the Immigration Health Surcharge, so health cost is low, and most meals are cooked at home with the odd pub or market meal. London's transit and council tax push the everyday floor higher than most cities, so dining out is constrained, but the free museums, the parks, and the whole city within Tube reach keep life full."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "Comfortable 2-bedroom flat in Zone 2 — Clapham, Islington, or Bermondsey with good transport links",
-        "monthlyCost": 5300
+        "description": "Comfortable 1-bedroom in Zone 3 or the Zone 2–3 fringe",
+        "monthlyCost": 2250
       },
       "dining": {
-        "description": "Regular gastropub dinners, Borough Market weekends, curry nights on Brick Lane, Sunday roasts at quality pubs",
-        "monthlyCost": 1525
+        "description": "Regular casual eating out",
+        "monthlyCost": 330
       },
       "groceries": {
-        "monthlyCost": 1000
+        "monthlyCost": 370
       },
       "healthcare": {
-        "description": "NHS plus private health insurance for faster specialist appointments and private GP access",
-        "monthlyCost": 575
+        "description": "IHS plus a basic private top-up (entry Bupa/AXA)",
+        "monthlyCost": 235
       },
       "transportation": {
-        "description": "Zones 1-4 Travelcard, occasional black cab rides, weekend train trips to the Cotswolds or Brighton",
-        "monthlyCost": 675
+        "description": "Full Zone 1–3 monthly Travelcard (£201.60)",
+        "monthlyCost": 265
       },
       "entertainment": {
-        "description": "West End theatre season, membership at the Barbican or Southbank Centre, cricket at Lord's, pub quiz culture",
-        "monthlyCost": 1100
+        "description": "Cinema, occasional theatre, budget gym",
+        "monthlyCost": 185
       },
       "utilities": {
-        "monthlyCost": 425
+        "monthlyCost": 395
       },
-      "lifestyle": "A comfortable 2-bedroom flat in Zone 2 -- Clapham, Islington, or Bermondsey. Dining out at gastropubs and good restaurants several times a week, with Borough Market weekends and curry nights on Brick Lane. Private health insurance supplements the NHS for faster specialist access. Weekend trains to the Cotswolds or Brighton. West End theatre and Barbican or Southbank Centre memberships. London's costs mean this is comfortable but not lavish -- you eat well and live centrally, but the budget has limits."
+      "lifestyle": "A comfortable one-bedroom in Zone 3 or the Zone 2–3 fringe, with a full Zone 1–3 Travelcard and regular casual dining. A basic private layer joins the NHS/IHS base for faster specialist access, and there is room for cinema, occasional theatre, and a gym. Central-ish London living without the prime-postcode premium."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Elegant 2-3 bedroom flat in Kensington, Notting Hill, or a converted warehouse in Shoreditch",
-        "monthlyCost": 6425
+        "description": "Quality 1-bedroom in Zone 2–3 (Clapham, Islington/Hackney fringe, Greenwich)",
+        "monthlyCost": 2780
       },
       "dining": {
-        "description": "Regular dining at top restaurants like Brat, occasional Michelin tasting menus, afternoon tea at Claridge's",
-        "monthlyCost": 2075
+        "description": "Regular dining including some mid-range dinners",
+        "monthlyCost": 530
       },
       "groceries": {
-        "monthlyCost": 975
+        "monthlyCost": 425
       },
       "healthcare": {
-        "description": "Premium private insurance with access to Harley Street specialists, comprehensive dental and wellness",
-        "monthlyCost": 650
+        "description": "IHS plus comprehensive private (Bupa/AXA)",
+        "monthlyCost": 315
       },
       "transportation": {
-        "description": "Unlimited Oyster travel, regular Uber, first-class rail to Edinburgh or Paris via Eurostar",
-        "monthlyCost": 800
+        "description": "Zone 1–3 Travelcard plus occasional Uber/black cab",
+        "monthlyCost": 320
       },
       "entertainment": {
-        "description": "Royal Opera House season tickets, Wimbledon debenture seats, membership at the V&A and Royal Academy, Soho House",
-        "monthlyCost": 1425
+        "description": "Mid-tier gym, theatre/concerts, hobbies",
+        "monthlyCost": 290
       },
       "utilities": {
-        "monthlyCost": 450
+        "monthlyCost": 465
       },
-      "lifestyle": "An elegant flat in Kensington, Notting Hill, or a converted warehouse in Shoreditch. Regular dining at top restaurants, premium private health insurance with Harley Street access, and first-class Eurostar to Paris. Royal Opera House season tickets, unlimited Oyster travel, and regular Uber rides. London is one of the world's most expensive cities, so even at this budget housing absorbs a large share, but daily life is genuinely affluent with excellent restaurants, culture, and travel."
+      "lifestyle": "A quality one-bedroom in Zone 2–3 — Clapham, the Islington/Hackney fringe, or Greenwich. Dining out is regular, comprehensive private cover (Bupa/AXA) sits on top of NHS access, and the Travelcard plus occasional Uber or black cab cover the city. Mid-tier gym, theatre, and concerts are routine, with genuine margin — affluent London life without a car, in one of the world's great cities."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Luxury flat in Mayfair or Chelsea, or a Georgian townhouse in Belgravia with private garden access",
-        "monthlyCost": 9000
+        "description": "High-end 1–2 bedroom in Kensington, the Chelsea fringe, Marylebone, or Notting Hill",
+        "monthlyCost": 5290
       },
       "dining": {
-        "description": "Personal chef for dinner parties, regular Michelin two-star dining, private members' club dining at The Arts Club",
-        "monthlyCost": 3000
+        "description": "Frequent fine dining",
+        "monthlyCost": 1125
       },
       "groceries": {
-        "monthlyCost": 1200
+        "monthlyCost": 595
       },
       "healthcare": {
-        "description": "International private insurance, Harley Street concierge physician, executive health checks, wellness retreats",
-        "monthlyCost": 900
+        "description": "IHS plus a premium private plan",
+        "monthlyCost": 485
       },
       "transportation": {
-        "description": "Chauffeur service, leased luxury vehicle, first-class Eurostar, domestic helicopter transfers",
-        "monthlyCost": 1475
+        "description": "Zone 1–6 Travelcard plus frequent cabs and a car-club (first tier a car appears — discretionary)",
+        "monthlyCost": 660
       },
       "entertainment": {
-        "description": "Private boxes at the Royal Albert Hall, Ascot Royal Enclosure, art collecting at Frieze London, Annabel's membership",
-        "monthlyCost": 2250
+        "description": "Premium gym, opera/theatre, clubs",
+        "monthlyCost": 730
       },
       "utilities": {
-        "monthlyCost": 600
+        "monthlyCost": 720
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper, weekly deep cleaning, personal shopper at Harrods, concierge services",
-        "monthlyCost": 2100
+        "description": "Weekly housekeeper (central premium)",
+        "monthlyCost": 570
       },
       "luxuryExtras": {
-        "description": "Cotswolds weekend cottage, Savile Row tailoring, personal trainer, art acquisition fund, Henley regatta hospitality",
-        "monthlyCost": 2525
+        "description": "Club memberships, personal training, wine/concierge/travel",
+        "monthlyCost": 795
       },
-      "lifestyle": "A luxury flat in Mayfair or Chelsea, or a Georgian townhouse in Belgravia. Regular dining at the city's best restaurants, a housekeeper several times a week, and business class for longer flights. A leased luxury car, premium private healthcare with a Harley Street physician, and first-class rail travel. London's extreme costs mean even this budget is absorbed quickly -- housing alone takes a large share -- but daily life is high quality with real comfort and access to the city's best."
+      "lifestyle": "A high-end one- or two-bedroom in Kensington, the Chelsea fringe, Marylebone, or Notting Hill, with a weekly housekeeper. Dining is frequent and fine, a premium private plan removes friction, and a Zone 1–6 Travelcard plus frequent cabs and a car-club membership cover transport. A premium gym, opera and theatre, and club memberships fill out prime-London living."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Grand townhouse in Belgravia or Knightsbridge, or a penthouse overlooking Hyde Park with full concierge",
-        "monthlyCost": 12675
+        "description": "Grand flat or townhouse in Belgravia, Knightsbridge, or Mayfair, or a Hyde Park penthouse",
+        "monthlyCost": 11250
       },
       "dining": {
-        "description": "Full-time private chef, three-Michelin-star dining as routine, private wine cellar managed by a sommelier",
-        "monthlyCost": 4600
+        "description": "Near-daily fine/Michelin dining",
+        "monthlyCost": 2115
       },
       "groceries": {
-        "monthlyCost": 1375
+        "monthlyCost": 860
       },
       "healthcare": {
-        "description": "Global concierge medicine, dedicated medical team, Harley Street on-call, anti-aging and longevity programs",
-        "monthlyCost": 1150
+        "description": "IHS plus concierge / Harley Street private care",
+        "monthlyCost": 675
       },
       "transportation": {
-        "description": "Full-time chauffeur with Bentley or Rolls-Royce, private jet for European travel, helicopter to country estate",
-        "monthlyCost": 3225
+        "description": "Part-time chauffeur/car plus black cabs",
+        "monthlyCost": 1850
       },
       "entertainment": {
-        "description": "Major arts philanthropy at the Tate and National Theatre, royal event invitations, Wimbledon Centre Court, private yacht at Henley",
-        "monthlyCost": 4050
+        "description": "Private members' clubs (Annabel's/Soho House), premium culture",
+        "monthlyCost": 1455
       },
       "utilities": {
-        "monthlyCost": 700
+        "monthlyCost": 1045
       },
       "domesticHelp": {
-        "description": "Full household staff: butler, housekeeper, chef, personal assistant, driver, nanny or estate manager",
-        "monthlyCost": 5525
+        "description": "Housekeeper several times a week (~50 hrs/mo @ ~£21.5/hr, central premium)",
+        "monthlyCost": 1420
       },
       "luxuryExtras": {
-        "description": "Country estate in the Cotswolds, Savile Row and Bond Street wardrobes, art collection, philanthropic trust, box at Lord's",
-        "monthlyCost": 5100
+        "description": "Concierge, art/wine, personal training, travel/lifestyle",
+        "monthlyCost": 1985
       },
-      "lifestyle": "A grand townhouse in Belgravia or Knightsbridge, or a penthouse overlooking Hyde Park. A cook several times a week, a full-time housekeeper, and full private healthcare with top Harley Street specialists. Business class as default, first class for longer trips. A nice car and driver. Regular fine dining at three-star restaurants. London is arguably the most expensive city on this list, so even at this level the budget has real limits -- but daily life is premium, comfortable, and you rarely think about costs."
+      "lifestyle": "A grand flat or townhouse in Belgravia, Knightsbridge, or Mayfair, or a Hyde Park penthouse, kept by a housekeeper several times a week. Dining runs near-daily at Michelin tables, health cover pairs NHS access with concierge Harley Street private care, and a part-time chauffeur and car handle evenings. The discretionary budget funds private members' clubs, premium culture, art and wine, and constant travel. London is the priciest market here by a wide margin, so even this budget is anchored by super-prime housing — but daily life is at the top of what the city offers."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 9,
     "infrastructure": 9,
     "expatFriendliness": 10
-  }
+  },
+  "dataRecency": "Q3 2026"
 }

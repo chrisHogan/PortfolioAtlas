@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "Compact 1-bedroom apartment in Amsterdam Noord or Nieuw-West, outside the canal ring but well-connected by ferry and metro",
-        "monthlyCost": 2550
+        "description": "Compact studio in Amsterdam-Noord, Nieuw-West, or Zuidoost, outside the canal ring but connected by ferry and metro",
+        "monthlyCost": 1424
       },
       "dining": {
-        "description": "Indonesian rijsttafel at neighborhood spots, bruin cafe meals, market herring, and mostly cooking at home",
-        "monthlyCost": 575
+        "description": "Mostly home cooking with occasional budget eats out",
+        "monthlyCost": 137
       },
       "groceries": {
-        "monthlyCost": 675
+        "monthlyCost": 319
       },
       "healthcare": {
-        "description": "Mandatory Dutch health insurance (basisverzekering) with own-risk deductible; comprehensive basic coverage",
-        "monthlyCost": 350
+        "description": "Entry private/international plan pitched at the residence-permit requirement",
+        "monthlyCost": 171
       },
       "transportation": {
-        "description": "A good Dutch bicycle — your primary transport — plus an OV-chipkaart for occasional tram and metro rides",
-        "monthlyCost": 125
+        "description": "Bike plus pay-as-you-go OV for occasional trams; no car",
+        "monthlyCost": 63
       },
       "entertainment": {
-        "description": "Vondelpark strolls, free ferry rides across the IJ, museum card for €65/year, brown cafe evenings, canal-side reading",
-        "monthlyCost": 300
+        "description": "Budget gym plus occasional cinema",
+        "monthlyCost": 74
       },
       "utilities": {
-        "monthlyCost": 325
+        "monthlyCost": 171
       },
-      "lifestyle": "A compact 1-bedroom in Amsterdam Noord or Nieuw-West, outside the canal ring but connected by ferry and metro. Cooking most meals at home, with Indonesian rijsttafel and bruin cafe meals as affordable dining options. Getting around by bicycle, which is standard here. Mandatory Dutch health insurance covers the basics well. Amsterdam is expensive for housing, so the apartment will be modest, but cycling culture and free attractions like Vondelpark and canal walks keep daily costs manageable."
+      "lifestyle": "A compact studio in Amsterdam-Noord, Nieuw-West, or Zuidoost, outside the canal ring but a quick ferry or metro ride from the centre. Days run on a bike with pay-as-you-go transit for the occasional tram, and most meals are cooked at home with the odd Surinamese, Turkish, or Indonesian plate out. Health cover is an entry private/international plan pitched at the visa requirement. The apartment is modest and dining out is rationed, but Amsterdam's cycling culture, the Vondelpark, free ferries across the IJ, and canal-side afternoons keep daily life rich for very little."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "Attractive 2-bedroom apartment in De Pijp, Jordaan, or Oud-West — the city's most charming neighborhoods",
-        "monthlyCost": 3350
+        "description": "Larger studio or small 1-bedroom in Noord, Oost, or De Baarsjes",
+        "monthlyCost": 1879
       },
       "dining": {
-        "description": "Regular dinners at top Indonesian and Surinamese restaurants, wine bars along the canals, weekend brunch culture",
-        "monthlyCost": 1000
+        "description": "Eating out roughly weekly, mix of budget and mid-range",
+        "monthlyCost": 319
       },
       "groceries": {
-        "monthlyCost": 700
+        "monthlyCost": 376
       },
       "healthcare": {
-        "description": "Mandatory basic insurance plus aanvullende verzekering (supplemental) for dental, physiotherapy, and mental health",
-        "monthlyCost": 425
+        "description": "Private/international plan plus a supplementary layer (dental/physio)",
+        "monthlyCost": 228
       },
       "transportation": {
-        "description": "Quality Dutch city bike, OV-chipkaart for trains, occasional car rental for countryside trips to Haarlem or Utrecht",
-        "monthlyCost": 225
+        "description": "GVB Vrij unlimited monthly pass (€129) plus bike",
+        "monthlyCost": 147
       },
       "entertainment": {
-        "description": "Concertgebouw performances, Rijksmuseum and Stedelijk memberships, jazz at Bimhuis, canal boat tours with friends",
-        "monthlyCost": 700
+        "description": "Standard gym plus regular cinema/culture",
+        "monthlyCost": 148
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 194
       },
-      "lifestyle": "An attractive 2-bedroom in De Pijp, Jordaan, or Oud-West. Dining out at good restaurants and wine bars several times a week. Supplemental health insurance covering dental and physiotherapy. Concertgebouw performances, Rijksmuseum and Stedelijk memberships, and weekend train trips to Haarlem or Utrecht. Amsterdam's housing costs are high, so this budget delivers comfort without extravagance -- you live in a nice neighborhood and eat well, with room for cultural enjoyment and day trips."
+      "lifestyle": "A larger studio or small one-bedroom in Noord, Oost, or De Baarsjes, with an unlimited GVB transit pass alongside the bike. Eating out becomes roughly weekly, health cover adds a supplementary layer for dental and physiotherapy, and there is room for a standard gym and regular culture. It is unshowy, comfortable city living below the canal-ring premium — enough slack for a good social rhythm without stretching."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Spacious canal house apartment in the Grachtengordel or premium loft in a converted warehouse on the Eastern Docklands",
-        "monthlyCost": 4025
+        "description": "Modern 1-bedroom in a solid residential district (Oost, Westerpark, De Baarsjes), around the city average, nicely furnished",
+        "monthlyCost": 2278
       },
       "dining": {
-        "description": "Occasional fine dining at Ciel Bleu, canal boat dinner experiences, curated Dutch and French wine evenings",
-        "monthlyCost": 1375
+        "description": "Regular mid-range dining",
+        "monthlyCost": 456
       },
       "groceries": {
-        "monthlyCost": 700
+        "monthlyCost": 433
       },
       "healthcare": {
-        "description": "Premium insurance package with private clinic access, comprehensive dental, physiotherapy, and international referrals",
-        "monthlyCost": 450
+        "description": "Comprehensive individual international plan (~Cigna Silver class)",
+        "monthlyCost": 296
       },
       "transportation": {
-        "description": "Premium e-bike, OV-chipkaart first class, occasional taxi, weekend car for North Sea coast trips",
-        "monthlyCost": 350
+        "description": "GVB Vrij pass plus bike; no car",
+        "monthlyCost": 147
       },
       "entertainment": {
-        "description": "Concertgebouw season tickets, private gallery openings, sailing on the Loosdrechtse Plassen, IDFA film festival VIP",
-        "monthlyCost": 975
+        "description": "Mid/premium gym plus concerts, museums, nightlife",
+        "monthlyCost": 228
       },
       "utilities": {
-        "monthlyCost": 325
+        "monthlyCost": 216
       },
-      "lifestyle": "A spacious canal house apartment in the Grachtengordel or a premium loft in the Eastern Docklands. Regular dining at top restaurants, a premium e-bike, and first-class train travel. Premium health insurance with private clinic access and Concertgebouw season tickets. Weekend sailing on Dutch lakes and North Sea coast trips by car. Amsterdam's costs mean this is affluent but not unlimited -- housing especially absorbs a large share, but daily life is genuinely comfortable."
+      "lifestyle": "A modern one-bedroom in a solid residential district like Oost, Westerpark, or De Baarsjes, around the city average and nicely furnished. Dining out is a regular habit, health cover steps up to a comprehensive international plan, and the GVB pass plus bike cover everything without a car. Museums, concerts, and Amsterdam nightlife are freely accessible, with real budget margin left each month — the classic comfortable-retirement tier in an expensive but livable city."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Full-floor canal house on Herengracht or Keizersgracht, or a luxury penthouse in Zuidas with panoramic city views",
-        "monthlyCost": 5450
+        "description": "Spacious 1-bedroom or modest 2-bedroom in a prime central district — De Pijp, Oud-Zuid, or the Jordaan",
+        "monthlyCost": 3417
       },
       "dining": {
-        "description": "Personal chef for canal house dinner parties, Michelin two-star dining, private wine cellar in the basement vault",
-        "monthlyCost": 1800
+        "description": "Frequent mid/high-end dining, wine included",
+        "monthlyCost": 740
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 547
       },
       "healthcare": {
-        "description": "Premium international insurance, private physician, executive wellness program, specialist fast-track",
-        "monthlyCost": 550
+        "description": "Premium international plan (Cigna Gold / Allianz Care comprehensive)",
+        "monthlyCost": 513
       },
       "transportation": {
-        "description": "Luxury e-bike, leased premium car, first-class Thalys to Paris and Brussels, private boat on the canals",
-        "monthlyCost": 700
+        "description": "GVB Vrij pass, bike, regular taxis, occasional car hire",
+        "monthlyCost": 319
       },
       "entertainment": {
-        "description": "Patron memberships at the Rijksmuseum and Stedelijk, private canal boat, Soho House Amsterdam, art collecting at TEFAF",
-        "monthlyCost": 1300
+        "description": "Premium gym plus theatre, events, hobbies",
+        "monthlyCost": 456
       },
       "utilities": {
-        "monthlyCost": 400
+        "monthlyCost": 296
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper, weekly deep cleaning, laundry service, canal house maintenance",
-        "monthlyCost": 1200
+        "description": "Weekly cleaner (~4 hrs/wk @ ~€18/hr)",
+        "monthlyCost": 364
       },
       "luxuryExtras": {
-        "description": "Private Dutch language tutor, art acquisition budget, weekend house in Bloemendaal, personal trainer, bespoke cycling gear",
-        "monthlyCost": 1600
+        "description": "Club memberships, fine wine, short-haul travel fund, concierge extras",
+        "monthlyCost": 513
       },
-      "lifestyle": "A full-floor canal house on Herengracht or Keizersgracht, or a luxury penthouse in Zuidas. Regular dining at the city's best restaurants, a housekeeper several times a week, and business class for longer flights. A leased premium car, a private canal boat for summer, and first-class Thalys to Paris and Brussels. Premium international healthcare. Amsterdam's high costs mean even this budget has limits, but daily life is upper-affluent with genuine comfort."
+      "lifestyle": "A spacious one-bedroom or modest two-bedroom in a prime central district — De Pijp, Oud-Zuid, or the Jordaan — with a weekly cleaner handling the flat. Dining is frequent and often high-end, a premium international health plan removes friction, and transport adds regular taxis or an occasional hire car on top of the pass and bike. A premium gym, theatre, and a short-haul travel fund round it out — upper-affluent living in one of Europe's most desirable cities."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Entire historic canal house on the Golden Bend (Herengracht) with private garden and boat mooring, fully restored",
-        "monthlyCost": 6825
+        "description": "Grand canal-house apartment in the Grachtengordel or Oud-Zuid, or a Zuidas luxury penthouse",
+        "monthlyCost": 6300
       },
       "dining": {
-        "description": "Full-time private chef, exclusive supper club circuit, Michelin three-star dining, curated wine collection managed by sommelier",
-        "monthlyCost": 2725
+        "description": "Near-daily fine dining / chef's tables",
+        "monthlyCost": 1253
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 683
       },
       "healthcare": {
-        "description": "Global concierge medicine, private wellness team, executive longevity programs, fly-anywhere treatment coverage",
-        "monthlyCost": 650
+        "description": "Top-tier international concierge (Cigna Platinum / Bupa Global elite), worldwide, evacuation",
+        "monthlyCost": 775
       },
       "transportation": {
-        "description": "Chauffeured luxury vehicle, private canal barge, first-class European rail, chartered flights from Schiphol",
-        "monthlyCost": 1450
+        "description": "Leased/owned car (incl. Amsterdam parking premium) plus taxis and the GVB pass",
+        "monthlyCost": 592
       },
       "entertainment": {
-        "description": "Major arts patronage at the Rijksmuseum and Concertgebouw, TEFAF art collecting, private sailing yacht on the IJsselmeer",
-        "monthlyCost": 2300
+        "description": "Premium clubs, culture patronage, events",
+        "monthlyCost": 1000
       },
       "utilities": {
-        "monthlyCost": 425
+        "monthlyCost": 410
       },
       "domesticHelp": {
-        "description": "Full household staff: housekeeper, chef, personal assistant, canal house manager, boat captain",
-        "monthlyCost": 3225
+        "description": "Housekeeper several times a week (~50 hrs/mo @ ~€18–20/hr)",
+        "monthlyCost": 1100
       },
       "luxuryExtras": {
-        "description": "Multiple properties including beach house, international art collection, philanthropic foundation, vintage boat restoration, bespoke travel",
-        "monthlyCost": 3750
+        "description": "Concierge, wine cellar, premium memberships, discretionary travel",
+        "monthlyCost": 1450
       },
-      "lifestyle": "An entire historic canal house on the Golden Bend of the Herengracht, fully restored with private garden and boat mooring. A cook a few times a week, a full-time housekeeper, and full private healthcare. Business class as default, first class for longer trips. Regular fine dining and a nice car with driver when needed. Amsterdam is expensive for housing, which absorbs a large chunk, but beyond that this budget covers a fully premium life with patron-level museum memberships and regular European travel."
+      "lifestyle": "A grand canal-house apartment in the Grachtengordel or Oud-Zuid, or a Zuidas luxury penthouse, kept by a housekeeper several times a week. Dining is near-daily at the city's best tables, health cover is top-tier international concierge with worldwide access, and a leased car sits alongside the pass and bike for when the canals don't suit. The discretionary budget funds club memberships, a wine cellar, concierge services, and regular travel. This is the top of what the city offers short of buying a canal house outright — a trophy address, staff on hand, and Amsterdam's culture fully open."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 9,
     "infrastructure": 9,
     "expatFriendliness": 9
-  }
+  },
+  "dataRecency": "Q3 2026"
 }

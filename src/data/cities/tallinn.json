@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "1BR apartment in Kalamaja or Kristiine, trendy neighborhoods near the Old Town",
-        "monthlyCost": 1225
+        "description": "Modest 1BR in a renovated block (Kristiine/Mustamäe) or a Kalamaja-fringe studio — clean, safe, well-connected",
+        "monthlyCost": 638
       },
       "dining": {
-        "description": "Estonian comfort food and Nordic-inspired cafes 3-4x/week; hearty soups and rye bread",
-        "monthlyCost": 450
+        "description": "Mostly home-cooked, with the odd €8–14 business-lunch menu or casual dinner out",
+        "monthlyCost": 120
       },
       "groceries": {
-        "monthlyCost": 450
+        "monthlyCost": 230
       },
       "healthcare": {
-        "description": "Estonian health insurance or private plan; high-quality healthcare system",
-        "monthlyCost": 300
+        "description": "Entry Schengen-compliant private plan (€30k+ cover), higher deductible",
+        "monthlyCost": 95
       },
       "transportation": {
-        "description": "Free public transit for Tallinn residents; excellent bus and tram network",
-        "monthlyCost": 25
+        "description": "Free resident transit (Ühiskaart) plus the occasional regional bus or ferry hop",
+        "monthlyCost": 20
       },
       "entertainment": {
-        "description": "Old Town exploration, sauna culture, Baltic beach walks, free museum days, cozy cafes",
-        "monthlyCost": 225
+        "description": "Coffee-shop culture, cinema, free coastal walks, and public saunas",
+        "monthlyCost": 70
       },
       "utilities": {
-        "monthlyCost": 225
+        "monthlyCost": 185
       },
-      "lifestyle": "A one-bedroom in Kalamaja or Kristiine keeps costs manageable in a walkable, interesting neighborhood. Public transit is free for registered residents, which helps the budget considerably. You can eat at cafes and casual restaurants a few times a week and enjoy Tallinn's sauna culture affordably. Winters are long, dark, and cold — this is the major lifestyle tradeoff. Summers along the Baltic coast are short but pleasant."
+      "lifestyle": "Lean Tallinn is a genuinely comfortable frugal life, not a hardship budget. A tidy renovated flat in a green residential district sits fifteen minutes by free tram from the medieval core, the Baltic coast, and Kalamaja's cafés. Days lean on a well-stocked home kitchen, cheap and excellent lunch menus, and the city's abundant free pleasures — the seaside promenade, forest trails, and public saunas. Winters demand a watchful eye on the heating bill, but strong digital public services and walkable, safe streets make the money stretch further than the number suggests."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "Modern 2BR apartment in Kalamaja, Rotermanni quarter, or near Kadriorg Park",
-        "monthlyCost": 1825
+        "description": "Decent furnished studio/small 1BR in a trendy address (Kalamaja/Telliskivi, Kristiine, edge of Kadriorg)",
+        "monthlyCost": 797
       },
       "dining": {
-        "description": "Regular dining at top Estonian restaurants, New Nordic cuisine, craft beer bars",
-        "monthlyCost": 650
+        "description": "Regular casual dining plus a weekly mid-range meal",
+        "monthlyCost": 260
       },
       "groceries": {
-        "monthlyCost": 525
+        "monthlyCost": 290
       },
       "healthcare": {
-        "description": "Premium private insurance with access to top clinics and EU healthcare network",
-        "monthlyCost": 325
+        "description": "Mid-tier private plan, moderate deductible, outpatient included",
+        "monthlyCost": 140
       },
       "transportation": {
-        "description": "Free public transit plus car rental for trips to Lahemaa National Park and countryside",
-        "monthlyCost": 100
+        "description": "Free resident transit plus regular ride-hailing (Bolt) and regional day trips",
+        "monthlyCost": 50
       },
       "entertainment": {
-        "description": "Opera at Estonia Theatre, spa weekends in Pärnu, island trips to Saaremaa, gym membership",
-        "monthlyCost": 400
+        "description": "Full gym membership plus cinema, concerts, and hobby spend",
+        "monthlyCost": 160
       },
       "utilities": {
-        "monthlyCost": 225
+        "monthlyCost": 230
       },
-      "lifestyle": "A modern apartment in Kalamaja, Rotermanni, or near Kadriorg Park puts you in Tallinn's best neighborhoods. Regular dining at good restaurants, spa weekends in Pärnu, and car rentals for trips to Lahemaa National Park are all within budget. Good private health insurance, a gym membership, and budget flights around Europe leave a comfortable margin. Estonia's digital infrastructure makes banking and administration notably easy."
+      "lifestyle": "The comfortable tier trades the outer suburbs for a stylish, well-located flat in Kalamaja or near Kadriorg's parkland, within strolling distance of Telliskivi's galleries and food halls. Eating out becomes a habit rather than a treat, groceries move upmarket, and a proper gym membership anchors the week. Bolt fills the gaps the free tram network leaves, and weekends open up to the wider Baltic — Tartu, Pärnu, or a Helsinki ferry. It is a relaxed, culturally rich rhythm with real breathing room in the budget."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Luxury 3BR apartment in the Old Town or a renovated townhouse in Kadriorg",
-        "monthlyCost": 2425
+        "description": "Good, modern 1BR in a desirable central district (Rotermann, Kadriorg, Kalamaja waterfront, or Kesklinn)",
+        "monthlyCost": 1116
       },
       "dining": {
-        "description": "Fine dining at Noa, 180°, and other top restaurants; wine tasting events",
-        "monthlyCost": 800
+        "description": "Frequent restaurant dining across Tallinn's strong contemporary scene",
+        "monthlyCost": 430
       },
       "groceries": {
-        "monthlyCost": 500
-      },
-      "healthcare": {
-        "description": "International health insurance with EU-wide coverage and specialist access",
         "monthlyCost": 350
       },
+      "healthcare": {
+        "description": "Comprehensive international plan, low-to-moderate deductible, dental add-on",
+        "monthlyCost": 210
+      },
       "transportation": {
-        "description": "Own car for countryside excursions, ferry to Helsinki, flights across Europe",
-        "monthlyCost": 200
+        "description": "Free resident transit + frequent ride-hailing + occasional car rental and ferry travel",
+        "monthlyCost": 110
       },
       "entertainment": {
-        "description": "VIP cultural events, exclusive spa retreats, Baltic sailing, European weekend getaways",
-        "monthlyCost": 500
+        "description": "Gym, theatre/opera, live music, festivals, and weekend European getaways",
+        "monthlyCost": 280
       },
       "utilities": {
-        "monthlyCost": 225
+        "monthlyCost": 280
       },
-      "lifestyle": "A large apartment in the Old Town or a renovated townhouse in Kadriorg, regular dining at Tallinn's top restaurants like Noa and 180 degrees, and your own car for countryside trips. International health coverage and regular European travel, including easy ferry trips to Helsinki. The margin at this level in Tallinn is significant, and the restaurant scene, while growing, is smaller than in larger European capitals."
+      "lifestyle": "FIRE-tier Tallinn is a polished, central life in a bright modern one-bedroom in the Rotermann Quarter or leafy Kadriorg, steps from the harbour and the Old Town walls. Dining out is a genuine pleasure explored freely across the city's inventive kitchens, and a comprehensive international health plan removes any worry about public-system waiting lines. The free tram is joined by on-demand rides and rental cars for coastal escapes, while the cultural calendar — opera, festivals, Telliskivi openings — fills easily. Short flights to Helsinki, Riga, or Stockholm are within casual reach."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Historic Old Town mansion or luxury waterfront penthouse in Noblessner",
-        "monthlyCost": 3075
+        "description": "High-spec prime-central 1BR or small 2BR (Old Town/Vanalinn, Rotermann, or Noblessner waterfront)",
+        "monthlyCost": 1936
       },
       "dining": {
-        "description": "Private chef for regular entertaining; exclusive supper clubs and wine dinners",
-        "monthlyCost": 900
+        "description": "Regular fine dining at Tallinn's top tables, tasting menus, premium wine",
+        "monthlyCost": 600
       },
       "groceries": {
-        "monthlyCost": 450
+        "monthlyCost": 500
       },
       "healthcare": {
-        "description": "VIP concierge medical with access to top Nordic and EU hospitals",
-        "monthlyCost": 300
+        "description": "Premium comprehensive plan, low deductible, full dental/vision, wider network",
+        "monthlyCost": 320
       },
       "transportation": {
-        "description": "Luxury vehicle, first-class European travel, private ferry and flight charters",
+        "description": "Discretionary car (lease + insurance + fuel + central parking) alongside free transit and rides",
         "monthlyCost": 300
       },
       "entertainment": {
-        "description": "Private cultural experiences, Baltic yacht charters, exclusive Nordic spa retreats",
-        "monthlyCost": 525
+        "description": "Theatre subscriptions, spa days, concerts, and frequent European weekend travel",
+        "monthlyCost": 450
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 350
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper, part-time cook, personal assistant",
-        "monthlyCost": 525
+        "description": "Weekly cleaner (~17 hrs/mo)",
+        "monthlyCost": 385
       },
       "luxuryExtras": {
-        "description": "Baltic yacht cruises, first-class Scandinavian travel, art collecting, Estonian tech investments",
-        "monthlyCost": 1525
+        "description": "Club/spa memberships, Baltic sailing outings, tech, and a standing travel fund",
+        "monthlyCost": 550
       },
-      "lifestyle": "A historic Old Town property or a waterfront penthouse in Noblessner, a housekeeper, business class European travel, and dining at Tallinn's best restaurants whenever you like. Premium healthcare through Nordic networks is accessible. Estonia's digital governance and flat tax system simplify financial management. The margin is large — Tallinn does not have the luxury infrastructure to absorb this level of spending."
+      "lifestyle": "The premium tier settles into a high-specification apartment behind the Old Town walls or on the reborn Noblessner waterfront — exposed brick, sea views, and design finishes. A car makes the whole Baltic coast a spontaneous option, a weekly cleaner keeps the home effortless, and the table is set at Tallinn's most celebrated restaurants. Spa mornings, sailing on the bay, theatre subscriptions, and easy weekend flights across the region become the texture of the week. It is refined, unhurried living at a genuinely prime address."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Grand Old Town palazzo or waterfront estate with private dock",
-        "monthlyCost": 3875
+        "description": "Luxury 1–2BR at a marquee address (Old Town heritage flat, Noblessner/Kalaranna waterfront, or grand Kadriorg)",
+        "monthlyCost": 3303
       },
       "dining": {
-        "description": "Personal chef team, exclusive Nordic dining experiences, catered events",
-        "monthlyCost": 1375
+        "description": "Best-in-city fine dining as routine, chef's tables, premium cellar",
+        "monthlyCost": 1050
       },
       "groceries": {
-        "monthlyCost": 450
+        "monthlyCost": 680
       },
       "healthcare": {
-        "description": "Elite Nordic health plan, personal physician, executive wellness in Helsinki or Stockholm",
-        "monthlyCost": 325
+        "description": "Top-tier international plan (unlimited annual cap, worldwide + evacuation)",
+        "monthlyCost": 500
       },
       "transportation": {
-        "description": "Luxury yacht, multiple vehicles, chauffeur, private European flights",
-        "monthlyCost": 675
+        "description": "Premium car (lease/insurance/fuel/valet parking) plus chauffeured rides and transfers",
+        "monthlyCost": 600
       },
       "entertainment": {
-        "description": "Baltic yacht cruises, art patronage, exclusive cultural events, luxury Nordic travel",
-        "monthlyCost": 1100
+        "description": "Box seats, private events, spa/wellness, and near-constant European and Nordic travel",
+        "monthlyCost": 800
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 450
       },
       "domesticHelp": {
-        "description": "Full household staff: chef, butler, housekeepers, driver, personal assistant, groundskeeper",
-        "monthlyCost": 1225
+        "description": "Regular housekeeping (~50 hrs/mo)",
+        "monthlyCost": 1140
       },
       "luxuryExtras": {
-        "description": "Baltic island property, yacht ownership, first-class global travel, Estonian tech startup investing, philanthropy",
-        "monthlyCost": 2775
+        "description": "Club memberships, Baltic sailing/berth, spa retreats, tech, and a large travel fund",
+        "monthlyCost": 1150
       },
-      "lifestyle": "A grand Old Town property or waterfront estate, a cook who comes in several times a week, regular housekeeping, and first-class travel. You can keep a boat for Baltic summer sailing and carry comprehensive international healthcare. Tallinn is a small capital of under 500,000 people, so the fine dining, cultural, and luxury service options are limited. Most of this budget will go unspent locally, making it best suited to someone who travels extensively and values Tallinn as a quiet, safe home base."
+      "lifestyle": "FatFIRE Tallinn commands a landmark residence — a restored Old Town apartment or a glass-fronted Kalaranna waterfront home looking out over the marina. A premium car and on-call rides erase every logistics friction, regular housekeeping runs the home invisibly, and the city's finest kitchens become the default. Life fills with box seats, private events, sailing, spa retreats, and effortless travel across the Nordics and Europe. This is the ceiling of what Tallinn's compact luxury market offers — expansive by local standards, and still comfortably below the equivalent life in a bigger European capital."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 7,
     "infrastructure": 8,
     "expatFriendliness": 7
-  }
+  },
+  "dataRecency": "Q3 2026"
 }
