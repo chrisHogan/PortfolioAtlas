@@ -8,6 +8,7 @@ import RelatedCities from '../../components/RelatedCities.astro';
 import SubscribeCTA from '../../components/SubscribeCTA.astro';
 import { allCities, getCityBySlug, getAllSlugs } from '../../data/cities/index';
 import { formatCurrency, getTotalSpend } from '../../data/types';
+import { tierLines } from '../../data/household';
 import { DATA_RECENCY, getCityConfidenceLevel } from '../../data/spendingProfile';
 import {
   getAllFireNumbers,
@@ -176,10 +177,20 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
             would have lasted your retirement at your chosen confidence and length.
             <strong>Status</strong> is the verdict for your portfolio. The 4% rule benchmark is shown
             underneath each figure for reference only.
+            <span class="household-base-note text-sm text-gray-500">Cost estimates are for a one-person household — adjust household size below.</span>
           </p>
 
-          <!-- Healthcare cost override (re-prices the verdict; flat across all tiers) -->
-          <div class="mb-6 bg-sand-50 border border-sand-200 rounded-xl p-4">
+          <!-- Re-price controls: household size + healthcare override (both re-price the verdict) -->
+          <div class="mb-6 bg-sand-50 border border-sand-200 rounded-xl p-4 space-y-4">
+            <div>
+              <span class="block text-sm font-medium text-brand-950 mb-1.5">Household size</span>
+              <div class="flex items-center gap-1.5">
+                <button type="button" data-adults="1" class="adults-btn px-3 py-1.5 text-xs font-semibold rounded-full border border-sand-200 text-gray-600 transition-all">Just me</button>
+                <button type="button" data-adults="2" class="adults-btn px-3 py-1.5 text-xs font-semibold rounded-full border border-sand-200 text-gray-600 transition-all">Two adults</button>
+              </div>
+              <p class="text-[11px] text-gray-500 mt-1.5 leading-snug">Costs scale by category, not a flat multiple — housing is largely shared; food and healthcare scale per person.</p>
+            </div>
+            <div class="border-t border-sand-200 pt-4">
             <label class="flex items-center gap-2 cursor-pointer">
               <input type="checkbox" id="hc-override-toggle" class="w-4 h-4 accent-brand-600" />
               <span class="text-sm font-medium text-brand-950">Use my own healthcare cost</span>
@@ -190,6 +201,7 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
                 placeholder="e.g. 1100, or 0 for VA/TriCare"
                 class="w-full sm:w-64 px-3 py-2 text-sm rounded-lg border border-sand-200 bg-white focus:ring-2 focus:ring-brand-500 focus:border-brand-500 focus:outline-none" />
               <p class="text-[11px] text-gray-500 mt-1.5 leading-snug">Enter your real monthly healthcare cost and we'll use it across all lifestyle tiers — handy for VA/TriCare (enter 0) or when your ACA cost differs from our estimate.</p>
+            </div>
             </div>
           </div>
 
@@ -213,6 +225,7 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
                       data-fire-number={data.fireNumber}
                       data-monthly-cost={data.monthlyCost}
                       data-healthcare={city.tiers[LIFESTYLE_TIER_MAP[tier]].healthcare.monthlyCost}
+                      data-lines={JSON.stringify(tierLines(city.tiers[LIFESTYLE_TIER_MAP[tier]]))}
                     >
                       <td class="py-4 px-5">
                         <div class="font-bold text-brand-950">{LIFESTYLE_LABELS[tier]}</div>
@@ -231,6 +244,9 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
               </tbody>
             </table>
           </div>
+
+          <!-- Household-size indicator (state visibility when costs are scaled) -->
+          <p class="household-note hidden mt-3 text-xs font-semibold text-brand-700">Showing costs for 2 adults — housing largely shared; food and healthcare scaled per person.</p>
 
           <!-- Passive income note (shown client-side when passive income adjusts values) -->
           <div id="passive-income-note" class="hidden mt-3 bg-amber-50 border border-amber-200 rounded-lg px-4 py-2.5">
@@ -265,7 +281,7 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
           <h2 class="font-serif text-2xl font-bold text-brand-950 mb-2">
             Cost of Living Breakdown for {city.name}
           </h2>
-          <p class="text-xs text-gray-400 mb-4">All cost and FIRE figures assume a single adult.</p>
+          <p class="text-xs text-gray-400 mb-4"><span class="household-base-note">Cost and FIRE figures are for a one-person household — adjust household size in the controls above.</span><span class="household-note hidden font-semibold text-brand-700">Showing costs for 2 adults.</span></p>
 
           <div class="space-y-4">
             {lifestyleDescriptions.map(({ tier, label, description }) => (
@@ -453,6 +469,7 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
 <script>
   import { runBacktest } from '../../data/backtest';
   import { classifySurvival, requiredPortfolio, thresholdFromConf } from '../../data/retirementBands';
+  import { adjustedLines, HEALTHCARE_LINE_INDEX } from '../../data/household';
 
   // Client-side: verdict + target from the historical backtest at the chosen confidence
   (function() {
@@ -519,21 +536,80 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
       else url.searchParams.set('hcusd', String(healthcareOverride));
       window.history.replaceState({}, '', url);
     }
-    // Adjusted monthly cost with the override applied flat (floor = the non-healthcare lines).
+
+    // ─── Household size (?adults): 1 = stored single-adult basis (default), 2 = two adults ───
+    let adults = 1;
+    const adultsRaw = parseInt(params.get('adults') || '', 10);
+    if (adultsRaw === 2) adults = 2;
+    const adultsBtns = document.querySelectorAll('.adults-btn');
+    function setAdultsActive() {
+      adultsBtns.forEach((b) => {
+        const active = parseInt(b.getAttribute('data-adults') || '', 10) === adults;
+        b.classList.toggle('bg-brand-600', active);
+        b.classList.toggle('text-white', active);
+        b.classList.toggle('border-brand-600', active);
+        b.classList.toggle('text-gray-600', !active);
+        b.classList.toggle('border-sand-200', !active);
+      });
+      // State visibility: swap the one-person base note for the 2-adult indicator.
+      document.querySelectorAll('.household-note').forEach((el) => el.classList.toggle('hidden', adults <= 1));
+      document.querySelectorAll('.household-base-note').forEach((el) => el.classList.toggle('hidden', adults > 1));
+    }
+    // Mirror the household size into the URL without a reload (omit when 1).
+    function persistAdults() {
+      const url = new URL(window.location.href);
+      if (adults <= 1) url.searchParams.delete('adults');
+      else url.searchParams.set('adults', String(adults));
+      window.history.replaceState({}, '', url);
+    }
+    setAdultsActive();
+
+    // Adjusted monthly cost for a tier. Order of operations: household scaling
+    // first (per line item, via the shared adjustedLines), THEN the hcusd
+    // override — the user's stated healthcare cost is authoritative and is NOT
+    // multiplied; it replaces the (scaled) healthcare line. Floor = the
+    // non-healthcare lines.
     function adjustedMonthlyFor(tier: string): number {
       const r = document.querySelector(`.fire-row[data-tier="${tier}"]`);
-      const mc = r ? parseInt(r.getAttribute('data-monthly-cost') || '0', 10) : 0;
-      if (healthcareOverride == null) return mc;
-      const hc = r ? parseInt(r.getAttribute('data-healthcare') || '0', 10) : 0;
-      return (mc - hc) + Math.max(0, healthcareOverride);
+      if (adults <= 1) {
+        // Single adult: exactly the pre-household code path.
+        const mc = r ? parseInt(r.getAttribute('data-monthly-cost') || '0', 10) : 0;
+        if (healthcareOverride == null) return mc;
+        const hc = r ? parseInt(r.getAttribute('data-healthcare') || '0', 10) : 0;
+        return (mc - hc) + Math.max(0, healthcareOverride);
+      }
+      // data-lines order (household.ts LINE ORDER): [housing, dining, groceries,
+      // healthcare, transportation, entertainment, utilities, domesticHelp?,
+      // luxuryExtras?].
+      const lines: number[] = r ? JSON.parse(r.getAttribute('data-lines') || '[]') : [];
+      const scaled = adjustedLines(lines, adults);
+      const total = scaled.reduce((sum, n) => sum + n, 0);
+      if (healthcareOverride == null) return total;
+      return (total - (scaled[HEALTHCARE_LINE_INDEX] || 0)) + Math.max(0, healthcareOverride);
+    }
+
+    // Keep the Monthly Cost column priced even before a portfolio is set (the
+    // verdict columns need a portfolio; the costs don't).
+    function renderCostsOnly() {
+      rows.forEach((row) => {
+        const tier = row.getAttribute('data-tier') || '';
+        const costEl = row.querySelector('.monthly-cost-val');
+        if (costEl) (costEl as HTMLElement).textContent = '$' + adjustedMonthlyFor(tier).toLocaleString() + '/mo';
+      });
     }
 
     if (!portfolio || portfolio <= 0) {
       if (prompt) prompt.classList.remove('hidden');
       if (statusHeader) statusHeader.textContent = '';
-      // No verdict without a portfolio, but let the control toggle + persist for later.
-      hcToggle?.addEventListener('change', () => { hcField?.classList.toggle('hidden', !hcToggle.checked); readHcOverride(); persistHc(); });
-      hcInput?.addEventListener('input', () => { readHcOverride(); persistHc(); });
+      // No verdict without a portfolio, but let the controls toggle + persist
+      // for later, and keep the Monthly Cost column priced for the selection.
+      if (adults > 1 || healthcareOverride != null) renderCostsOnly();
+      hcToggle?.addEventListener('change', () => { hcField?.classList.toggle('hidden', !hcToggle.checked); readHcOverride(); persistHc(); renderCostsOnly(); });
+      hcInput?.addEventListener('input', () => { readHcOverride(); persistHc(); renderCostsOnly(); });
+      adultsBtns.forEach((b) => b.addEventListener('click', () => {
+        adults = parseInt(b.getAttribute('data-adults') || '', 10) === 2 ? 2 : 1;
+        setAdultsActive(); persistAdults(); renderCostsOnly();
+      }));
       return;
     }
 
@@ -750,6 +826,12 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
     // Healthcare override → recompute every tier + re-render table/panel in place.
     hcToggle?.addEventListener('change', () => { hcField?.classList.toggle('hidden', !hcToggle.checked); readHcOverride(); persistHc(); applyAll(); });
     hcInput?.addEventListener('input', () => { readHcOverride(); persistHc(); applyAll(); });
+
+    // Household size → recompute every tier + re-render table/panel in place.
+    adultsBtns.forEach((b) => b.addEventListener('click', () => {
+      adults = parseInt(b.getAttribute('data-adults') || '', 10) === 2 ? 2 : 1;
+      setAdultsActive(); persistAdults(); applyAll();
+    }));
 
     // Initial paint (defaults to the tier selected on the homepage).
     applyAll();

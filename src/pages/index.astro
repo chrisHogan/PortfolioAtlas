@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import SubscribeCTA from '../components/SubscribeCTA.astro';
 import { allCities } from '../data/cities/index';
 import { formatCurrency, getTotalSpend, REGION_ORDER } from '../data/types';
+import { tierLines } from '../data/household';
 import {
   getCityFireNumber,
   getLifestyleMonthlyCost,
@@ -20,13 +21,17 @@ import type { LifestyleTier } from '../data/fireNumber';
 // Pre-compute city data for client-side use
 const cityData = allCities.map((city) => {
   const tags = getCityDisplayTags(city);
-  const tiers: Record<string, { fireNumber: number; monthlyCost: number; healthcare: number }> = {};
+  const tiers: Record<string, { fireNumber: number; monthlyCost: number; healthcare: number; lines: number[] }> = {};
   for (const lifestyle of ALL_LIFESTYLE_TIERS) {
     tiers[lifestyle] = {
       fireNumber: getCityFireNumber(city, lifestyle),
       monthlyCost: getLifestyleMonthlyCost(city, lifestyle),
       // Baked healthcare line for this tier (for the client-side healthcare override).
       healthcare: city.tiers[LIFESTYLE_TIER_MAP[lifestyle]].healthcare.monthlyCost,
+      // Per-line costs in household.ts LINE ORDER (for household-size scaling):
+      // [housing, dining, groceries, healthcare, transportation, entertainment,
+      //  utilities, domesticHelp?, luxuryExtras?]. Sum === monthlyCost.
+      lines: tierLines(city.tiers[LIFESTYLE_TIER_MAP[lifestyle]]),
     };
   }
   return {
@@ -270,6 +275,18 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
               <p class="text-[11px] text-sand-500 mt-1.5 leading-snug">Drives the verdict: your plan is backtested over every period this long in market history. Early retirees often plan 40–50+.</p>
             </div>
 
+            <!-- Household size (scales costs per category from the single-adult basis) -->
+            <div>
+              <label class="block text-xs font-medium text-sand-300 mb-1.5">
+                Household size
+              </label>
+              <div id="adults-stops" class="grid grid-cols-2 gap-1.5">
+                <button type="button" data-adults="1" class="adults-stop py-2 text-[11px] font-semibold rounded-lg border border-white/15 bg-white/5 text-white/70 transition-all">Just me</button>
+                <button type="button" data-adults="2" class="adults-stop py-2 text-[11px] font-semibold rounded-lg border border-white/15 bg-white/5 text-white/70 transition-all">Two adults</button>
+              </div>
+              <p class="text-[11px] text-sand-500 mt-1.5 leading-snug">Costs scale by category, not a flat multiple — housing is largely shared; food and healthcare scale per person.</p>
+            </div>
+
             <!-- Healthcare cost override (flat across all tiers) -->
             <div>
               <label class="flex items-center gap-2 cursor-pointer">
@@ -385,10 +402,11 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
       <div id="region-chips" class="flex flex-wrap items-center gap-1.5 mt-2.5 empty:hidden"></div>
     </div>
 
-    <!-- Methodology note -->
+    <!-- Methodology note (base note ↔ 2-adult indicator swap on household toggle) -->
     <div class="container-narrow pb-2">
+      <p class="household-note hidden text-xs font-semibold text-brand-700 mb-1">Showing costs for 2 adults — housing largely shared; food and healthcare scaled per person.</p>
       <p class="text-xs text-gray-400 leading-snug">
-        All figures assume a single adult. "Needed to retire here" is the portfolio that survived your retirement length in a historical backtest at your chosen confidence; the 4% rule is shown elsewhere only as a familiar benchmark.
+        <span class="household-base-note">Cost estimates are for a one-person household — adjust household size under "Refine your projections". </span>"Needed to retire here" is the portfolio that survived your retirement length in a historical backtest at your chosen confidence; the 4% rule is shown elsewhere only as a familiar benchmark.
       </p>
     </div>
 
@@ -551,9 +569,12 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
 <script>
   import { runBacktest } from '../data/backtest';
   import { classifySurvival, requiredPortfolio } from '../data/retirementBands';
+  import { adjustedLines, HEALTHCARE_LINE_INDEX } from '../data/household';
   (window as any).__paBacktest = runBacktest;
   (window as any).__paClassify = classifySurvival;
   (window as any).__paRequired = requiredPortfolio;
+  (window as any).__paAdjustLines = adjustedLines;
+  (window as any).__paHcLineIndex = HEALTHCARE_LINE_INDEX;
   window.dispatchEvent(new Event('pa:engine-ready'));
 </script>
 
@@ -575,14 +596,36 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   let healthcareOverride = null;
   function hcToken() { return healthcareOverride == null ? 'off' : 'h' + healthcareOverride; }
 
-  // Monthly cost for a city's selected tier, with the healthcare override applied
-  // flat across tiers. Floor = the non-healthcare lines (override can remove
-  // healthcare entirely but never drive the total negative).
-  function adjustedMonthly(city) {
-    const t = city.tiers[lifestyle];
+  // Household size: 1 (default — the stored single-adult basis, untouched) or
+  // 2 adults (per-line scaling via the shared window.__paAdjustLines bridge).
+  let adults = 1;
+  function adultsToken() { return 'a' + adults; }
+
+  // Adjusted monthly cost for one serialized tier ({monthlyCost, healthcare,
+  // lines}). Order of operations: household scaling first (per line item),
+  // THEN the healthcare override — the user's stated healthcare cost is
+  // authoritative and is NOT multiplied; it replaces the (scaled) healthcare
+  // line. Floor = the non-healthcare lines (override can remove healthcare
+  // entirely but never drive the total negative).
+  function adjustedMonthlyOf(t) {
+    if (adults > 1 && window.__paAdjustLines) {
+      // t.lines order (household.ts LINE ORDER): [housing, dining, groceries,
+      // healthcare, transportation, entertainment, utilities, domesticHelp?,
+      // luxuryExtras?]. __paHcLineIndex = the healthcare slot.
+      const scaled = window.__paAdjustLines(t.lines, adults);
+      const total = scaled.reduce((sum, n) => sum + n, 0);
+      if (healthcareOverride == null) return total;
+      return (total - scaled[window.__paHcLineIndex]) + Math.max(0, healthcareOverride);
+    }
+    // Single adult: exactly the pre-household code path.
     if (healthcareOverride == null) return t.monthlyCost;
     const remaining = t.monthlyCost - (t.healthcare || 0);
     return remaining + Math.max(0, healthcareOverride);
+  }
+
+  // Monthly cost for a city's selected tier.
+  function adjustedMonthly(city) {
+    return adjustedMonthlyOf(city.tiers[lifestyle]);
   }
 
   // Net annual withdrawal for a city's selected tier (gross cost minus passive).
@@ -596,7 +639,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   let lastSurvivalKey = '';        // (portfolio|tier|horizon) the cache is warm for
   function citySurvival(city) {
     if (!window.__paBacktest) return undefined; // engine bundle not ready yet
-    const key = city.slug + '|' + lifestyle + '|' + portfolio + '|' + horizonYears + '|' + passiveIncome + '|' + hcToken();
+    const key = city.slug + '|' + lifestyle + '|' + portfolio + '|' + horizonYears + '|' + passiveIncome + '|' + hcToken() + '|' + adultsToken();
     if (survivalCache.has(key)) return survivalCache.get(key);
     const s = window.__paBacktest({ initialPortfolio: portfolio, annualSpending: netSpend(city), horizonYears }).successRate;
     survivalCache.set(key, s);
@@ -610,7 +653,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   const neededCache = new Map();
   function cityNeeded(city) {
     if (!window.__paRequired || !window.__paBacktest) return undefined;
-    const key = city.slug + '|' + lifestyle + '|' + horizonYears + '|' + passiveIncome + '|' + confPct + '|' + hcToken();
+    const key = city.slug + '|' + lifestyle + '|' + horizonYears + '|' + passiveIncome + '|' + confPct + '|' + hcToken() + '|' + adultsToken();
     if (neededCache.has(key)) return neededCache.get(key);
     const n = window.__paRequired({ annualSpending: netSpend(city), horizonYears, targetSurvival: threshold() });
     neededCache.set(key, n);
@@ -857,6 +900,28 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     rerenderForHc();
   });
   hcInput?.addEventListener('input', rerenderForHc);
+
+  // ─── Household size control ───
+  function setAdultsActive() {
+    document.querySelectorAll('.adults-stop').forEach((b) => {
+      const active = parseInt(b.getAttribute('data-adults'), 10) === adults;
+      b.classList.toggle('bg-white/20', active);
+      b.classList.toggle('border-white/40', active);
+      b.classList.toggle('text-white', active);
+      b.classList.toggle('bg-white/5', !active);
+      b.classList.toggle('border-white/15', !active);
+      b.classList.toggle('text-white/70', !active);
+    });
+  }
+  document.querySelectorAll('.adults-stop').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      adults = parseInt(btn.getAttribute('data-adults'), 10) === 2 ? 2 : 1;
+      setAdultsActive();
+      // Household size re-prices every city — recompute the map. The survival
+      // cache keys carry the adults token, so stale entries are never reused.
+      if (portfolio > 0) { resetSectionCounts(); renderResults(); }
+    });
+  });
 
   // Quick-select buttons — highlight the one matching the current input value.
   function syncQuickButtons() {
@@ -1267,7 +1332,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
 
     // Heavy step (~112 backtests) runs AFTER paint and is cached per
     // portfolio|tier|horizon — only recompute when one of those changes.
-    const survivalKey = portfolio + '|' + lifestyle + '|' + horizonYears + '|' + passiveIncome + '|' + hcToken();
+    const survivalKey = portfolio + '|' + lifestyle + '|' + horizonYears + '|' + passiveIncome + '|' + hcToken() + '|' + adultsToken();
     if (survivalKey !== lastSurvivalKey) {
       citySections.innerHTML = '<div class="py-16 text-center text-sm text-gray-400">Backtesting 100+ cities against market history…</div>';
       noCities?.classList.add('hidden');
@@ -1280,6 +1345,11 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     }
 
     const RETIRE = threshold();
+
+    // State visibility: when pricing for 2 adults, swap the one-person base
+    // note for a clear "Showing costs for 2 adults" indicator.
+    document.querySelectorAll('.household-note').forEach((el) => el.classList.toggle('hidden', adults <= 1));
+    document.querySelectorAll('.household-base-note').forEach((el) => el.classList.toggle('hidden', adults > 1));
 
     // Compute the verdict (backtest survival) + display bucket for each city.
     const allComputed = cityData
@@ -1463,6 +1533,8 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     if (lifestyle !== 'comfortable') p.set('tier', tierToUrlKey[lifestyle] || lifestyle);
     // Carry the healthcare override so the city page re-prices with the same figure.
     if (healthcareOverride != null) p.set('hcusd', String(healthcareOverride));
+    // Carry the household size (omitted when 1 — the single-adult default).
+    if (adults > 1) p.set('adults', String(adults));
     const qs = p.toString();
     return qs ? '?' + qs : '';
   }
@@ -1491,6 +1563,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     if (confPct !== 90) params.set('conf', String(confPct));
     if (horizonYears !== 30) params.set('horizon', String(horizonYears));
     if (healthcareOverride != null) params.set('hcusd', String(healthcareOverride));
+    if (adults > 1) params.set('adults', String(adults));
     const qs = params.toString();
     return window.location.origin + '/' + (qs ? '?' + qs : '');
   }
@@ -1524,6 +1597,12 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     if (!isNaN(horizonParam) && horizonParam >= 20 && horizonParam <= 60) horizonYears = horizonParam;
     updateConfLabel(); setConfActive();
     if (horizonInput) { horizonInput.value = String(horizonYears); updateHorizonLabel(); }
+
+    // Restore household size (?adults). Only "2" is meaningful today; anything
+    // else keeps the single-adult default.
+    const adultsParam = parseInt(params.get('adults') || '', 10);
+    if (adultsParam === 2) adults = 2;
+    setAdultsActive();
 
     // Restore healthcare override (hcusd). Present (incl. 0) = active.
     const hcParam = params.get('hcusd');
@@ -1740,15 +1819,20 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
 
       const fireNumEl = document.getElementById('reverse-fire-number');
       const monthlyEl = document.getElementById('reverse-monthly');
-      const target = reverseTarget(data.monthlyCost);
+      // Price with the same household/healthcare adjustments as the map, so
+      // "Use this as my portfolio" can't contradict the forward verdict.
+      const monthly = adjustedMonthlyOf(data);
+      const target = reverseTarget(monthly);
       if (fireNumEl) fireNumEl.textContent = target != null ? fmtCompact(target) : '—';
-      if (monthlyEl) monthlyEl.textContent = fmt(data.monthlyCost);
+      if (monthlyEl) monthlyEl.textContent = fmt(monthly);
       reverseResults?.classList.remove('hidden');
     }
 
     reverseUse?.addEventListener('click', () => {
       if (!selectedCity || !selectedTier) return;
-      const mc = selectedCity.tiers[selectedTier]?.monthlyCost;
+      const tierData = selectedCity.tiers[selectedTier];
+      if (!tierData) return;
+      const mc = adjustedMonthlyOf(tierData);
       if (!mc) return;
       const target = reverseTarget(mc);
       if (target == null || target <= 0) return;
