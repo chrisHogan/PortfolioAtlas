@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "1BR apartment in Mt Eden, Kingsland, or outer suburbs like Henderson or Manukau",
-        "monthlyCost": 1950
+        "description": "Self-contained studio or older 1BR in an outer suburb (Henderson, Manukau, New Lynn, Papatoetoe)",
+        "monthlyCost": 1075
       },
       "dining": {
         "description": "Fish and chips, Asian eateries on Dominion Road, casual cafes 2-3x/week",
-        "monthlyCost": 450
+        "monthlyCost": 115
       },
       "groceries": {
-        "monthlyCost": 700
+        "monthlyCost": 255
       },
       "healthcare": {
-        "description": "Public healthcare system covers hospital visits; GP visits partially subsidized",
-        "monthlyCost": 350
+        "description": "A basic individual private hospital plan (Southern Cross-style) for an early retiree (~50) — private cover, not the resident public system",
+        "monthlyCost": 230
       },
       "transportation": {
         "description": "AT HOP card for buses, trains, and ferries; Auckland is car-dependent in outer areas",
-        "monthlyCost": 225
+        "monthlyCost": 85
       },
       "entertainment": {
         "description": "Free beach days at Piha and Mission Bay, volcanic cone hikes, museum visits",
-        "monthlyCost": 175
+        "monthlyCost": 70
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 140
       },
-      "lifestyle": "This budget is tight in Auckland. Housing is expensive, so you will live in Mt Eden, Kingsland, or the outer suburbs and cook at home most nights. The free outdoor recreation — black sand beaches at Piha, volcanic cone hikes, harbour walks — is genuinely world-class and helps stretch the budget. Auckland is car-dependent outside the central area, which adds cost. Public healthcare covers hospital visits, though GP wait times can be long."
+      "lifestyle": "A frugal but genuinely livable Auckland life built around a studio or older one-bedroom in the outer suburbs — Henderson, Manukau, New Lynn — with home cooking most nights and the AT HOP fare cap keeping transit predictable. The compensations are free and world-class: black-sand surf beaches at Piha, volcanic-cone walks, and harbourside trails. Genuine private health cover is carried (this is not a resident on the public system), so housing and insurance dominate the budget, leaving little slack for dining out or travel."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "2BR apartment in Ponsonby, Grey Lynn, or a house in Mt Albert with a garden",
-        "monthlyCost": 2500
+        "description": "Standard 1BR in a decent suburb",
+        "monthlyCost": 1355
       },
       "dining": {
         "description": "Regular brunch at Ponsonby cafes, dining on the Viaduct, wine bar evenings",
-        "monthlyCost": 775
+        "monthlyCost": 200
       },
       "groceries": {
-        "monthlyCost": 700
+        "monthlyCost": 340
       },
       "healthcare": {
         "description": "Southern Cross private health insurance for faster specialist access and dental",
-        "monthlyCost": 475
+        "monthlyCost": 380
       },
       "transportation": {
         "description": "Reliable car for beach trips and regional exploration; AT HOP for commuting",
-        "monthlyCost": 425
+        "monthlyCost": 125
       },
       "entertainment": {
         "description": "Waiheke Island ferry trips, sailing, gym membership, weekend trips to Coromandel",
-        "monthlyCost": 550
+        "monthlyCost": 140
       },
       "utilities": {
-        "monthlyCost": 275
+        "monthlyCost": 180
       },
-      "lifestyle": "A two-bedroom in Ponsonby or Grey Lynn, or a house with a garden in Mt Albert. Regular brunch at Ponsonby cafes, dining on the Viaduct, and a reliable car for beach trips to the Coromandel or Northland. Private health insurance through Southern Cross for faster specialist access, and weekend ferry trips to Waiheke Island. The outdoor lifestyle — sailing, surfing, hiking — is the main draw, and the budget supports it well."
+      "lifestyle": "A standard one-bedroom in a decent suburb, dining out a couple of times a week across Auckland's growing casual scene, and an AT HOP pass topped up with the occasional car-share for weekend beach runs. Comprehensive private cover replaces the bare-bones plan. The outdoor lifestyle — sailing, coastal walks, Waiheke ferry day-trips — carries most of the leisure value at a cost that stays modest."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Spacious 3BR home in Herne Bay, Devonport, or Remuera with harbour views",
-        "monthlyCost": 3275
+        "description": "Modern 1BR in a walkable inner suburb (Mt Eden, Kingsland, Grey Lynn fringe) or a good CBD 1BR",
+        "monthlyCost": 1640
       },
       "dining": {
         "description": "Fine dining at top Auckland restaurants like Pasture and Sidart, Waiheke vineyard lunches",
-        "monthlyCost": 975
+        "monthlyCost": 310
       },
       "groceries": {
-        "monthlyCost": 650
+        "monthlyCost": 425
       },
       "healthcare": {
         "description": "Premium Southern Cross plan with comprehensive cover and short wait times",
-        "monthlyCost": 500
+        "monthlyCost": 550
       },
       "transportation": {
         "description": "Quality SUV for outdoor adventures, city transit pass, domestic flights to Queenstown",
-        "monthlyCost": 550
+        "monthlyCost": 225
       },
       "entertainment": {
         "description": "America's Cup sailing events, premium gym, ski trips to Ruapehu, wine club memberships",
-        "monthlyCost": 775
+        "monthlyCost": 225
       },
       "utilities": {
-        "monthlyCost": 275
+        "monthlyCost": 215
       },
-      "lifestyle": "A spacious home in Herne Bay, Devonport, or Remuera with harbour views. Regular dining at top restaurants like Pasture and Sidart, a good SUV for outdoor adventures, and premium health insurance. Domestic flights to Queenstown for skiing and weekend trips to the Bay of Islands are within budget. Auckland's dining scene is smaller than Sydney's or Melbourne's, but the surrounding natural landscape is the real asset at this spending level."
+      "lifestyle": "A modern one-bedroom in a walkable inner suburb like Mt Eden or Grey Lynn, or a good city-centre apartment, with dining out several times a week and a car for exploring Northland and the Coromandel. Premium private health insurance and domestic flights to Queenstown or the Bay of Islands are comfortably within reach. Auckland's restaurant scene is smaller than Sydney's or Melbourne's, but the surrounding landscape is the real asset at this level of spending."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Luxury waterfront property in Herne Bay, or a premium home on the North Shore with panoramic views",
-        "monthlyCost": 4500
+        "description": "Premium 1BR or compact apartment in Ponsonby, Grey Lynn, or Parnell",
+        "monthlyCost": 2375
       },
       "dining": {
         "description": "Regular fine dining, private chef for entertaining, exclusive wine and food events",
-        "monthlyCost": 1325
+        "monthlyCost": 510
       },
       "groceries": {
-        "monthlyCost": 675
+        "monthlyCost": 535
       },
       "healthcare": {
         "description": "VIP private healthcare with concierge GP and international coverage",
-        "monthlyCost": 525
+        "monthlyCost": 780
       },
       "transportation": {
         "description": "Luxury SUV, boat for harbour use, first-class domestic travel",
-        "monthlyCost": 800
+        "monthlyCost": 365
       },
       "entertainment": {
         "description": "Yacht club membership, exclusive golf at Gulf Harbour, helicopter tours, premium ski season",
-        "monthlyCost": 975
+        "monthlyCost": 395
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 270
       },
       "domesticHelp": {
-        "description": "Weekly housekeeper, gardener, occasional personal assistant",
-        "monthlyCost": 800
+        "description": "Weekly housekeeper",
+        "monthlyCost": 250
       },
       "luxuryExtras": {
         "description": "Waiheke vineyard weekends, first-class international travel, luxury lodge stays, philanthropy",
-        "monthlyCost": 1600
+        "monthlyCost": 400
       },
-      "lifestyle": "A waterfront property in Herne Bay or on the North Shore, a boat moored in the harbour, a housekeeper, and business class travel when flying internationally. Yacht club membership, premium healthcare, and regular dining at Auckland's best restaurants. New Zealand's geographic isolation means international flights are long and expensive, which is a real consideration. The nearby natural landscape — lodges, ski fields, coastal retreats — is where most of the lifestyle value lies."
+      "lifestyle": "A premium one-bedroom or compact apartment in Ponsonby, Grey Lynn, or Parnell, frequent dining at Auckland's better restaurants, a nice car, and a weekly housekeeper. A premium international health plan, a real travel budget, and standing access to Waiheke vineyards and the ski fields round out an affluent life. New Zealand's geographic isolation makes international flights long and costly — a genuine consideration that pushes the leisure value toward the extraordinary landscape close to hand."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Grand waterfront estate in Herne Bay or a clifftop mansion in Takapuna with panoramic harbour views",
-        "monthlyCost": 6025
+        "description": "Prime waterfront luxury apartment or penthouse (Herne Bay, Ponsonby, Takapuna, Devonport, the Viaduct)",
+        "monthlyCost": 6200
       },
       "dining": {
         "description": "Personal chef, private dining at New Zealand's finest restaurants, catered events",
-        "monthlyCost": 1800
+        "monthlyCost": 1250
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 735
       },
       "healthcare": {
         "description": "Top-tier concierge medicine with international hospital network and executive wellness",
-        "monthlyCost": 475
+        "monthlyCost": 1000
       },
       "transportation": {
         "description": "Multiple luxury vehicles, yacht, helicopter access, first-class international travel",
-        "monthlyCost": 1500
+        "monthlyCost": 650
       },
       "entertainment": {
         "description": "Private yacht charters, exclusive sporting events, art patronage, luxury travel worldwide",
-        "monthlyCost": 1800
+        "monthlyCost": 1000
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 425
       },
       "domesticHelp": {
-        "description": "Full household staff including housekeeper, chef, personal assistant, gardener, and boat captain",
-        "monthlyCost": 2700
+        "description": "Frequent housekeeper plus a gardener",
+        "monthlyCost": 900
       },
       "luxuryExtras": {
         "description": "Luxury lodge circuit, vineyard ownership, international travel, philanthropic foundation",
-        "monthlyCost": 3000
+        "monthlyCost": 1500
       },
-      "lifestyle": "A grand waterfront estate with harbour views, a cook who comes in several times a week, regular housekeeping, and first-class international travel. A boat on the harbour and access to New Zealand's luxury lodge circuit by helicopter or domestic flight. Auckland is clean, safe, and stunningly located, but it is a mid-sized city with a limited luxury services market. The geographic isolation adds cost and travel time for international trips, which is the main tradeoff at this spending level."
+      "lifestyle": "The top of Auckland's market — a prime waterfront apartment or penthouse in Herne Bay, Takapuna, or on the Viaduct, regular housekeeping, and first-class international travel. Top-tier concierge and international-plus-evacuation health cover, effortless fine dining, and access to New Zealand's luxury-lodge circuit by helicopter or domestic charter. Auckland is clean, safe, and spectacularly sited, but it is a mid-sized city with a comparatively narrow luxury-services market, so this tier reads as upper-affluent rather than limitless — the geographic isolation adds cost and travel time as the main tradeoff."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 8,
     "infrastructure": 8,
     "expatFriendliness": 9
-  }
+  },
+  "dataRecency": "Q3 2026"
 }

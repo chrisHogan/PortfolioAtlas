@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "Studio or small 1BR officetel in Mapo-gu, Seodaemun, or outer Gangnam-gu",
-        "monthlyCost": 1775
+        "description": "A livable officetel or small 1BR in a decent-but-affordable district — Seodaemun, Eunpyeong, Nowon, or outer Mapo",
+        "monthlyCost": 950
       },
       "dining": {
         "description": "Street food and kimbap shops daily; Korean BBQ 1-2x/week at local spots",
-        "monthlyCost": 675
+        "monthlyCost": 220
       },
       "groceries": {
-        "monthlyCost": 675
+        "monthlyCost": 340
       },
       "healthcare": {
-        "description": "National Health Insurance enrollment; excellent coverage at very low cost",
-        "monthlyCost": 350
+        "description": "An individual regional (Asia, ex-US) private plan for an early retiree (~50), higher deductible — private cover, not resident National Health Insurance",
+        "monthlyCost": 300
       },
       "transportation": {
         "description": "T-money card for metro and bus; Seoul's transit system is world-class",
-        "monthlyCost": 125
+        "monthlyCost": 70
       },
       "entertainment": {
         "description": "Free palace visits, Han River parks, jjimjilbang spa visits, PC bangs",
-        "monthlyCost": 275
+        "monthlyCost": 160
       },
       "utilities": {
-        "monthlyCost": 275
+        "monthlyCost": 110
       },
-      "lifestyle": "A studio or small 1-bedroom officetel in Mapo-gu, Seodaemun, or outer Gangnam. Eating mostly at street food stalls and kimbap shops, with Korean BBQ once or twice a week at local spots. Getting around on Seoul's excellent metro and bus system. Korea's National Health Insurance provides strong coverage at very low cost. The apartment will be small, but the transit, food, and internet are genuinely world-class. English is moderate — expect some friction with daily errands."
+      "lifestyle": "A frugal but connected life leaning on Seoul's world-class metro and its cheap street-food scene — kimbap, tteokbokki, and local Korean BBQ a couple of nights a week. The officetel is compact but the transit, internet, and safety are elite. English friction on daily errands is the main adjustment. Real private cover is carried, which keeps the healthcare line well above a token amount."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "Modern 2BR apartment in Hongdae, Itaewon, or Yeongdeungpo with key money deposit",
-        "monthlyCost": 2425
+        "description": "A modern officetel in a lively district such as Hongdae or Itaewon-adjacent",
+        "monthlyCost": 1150
       },
       "dining": {
         "description": "Regular dining out at Korean restaurants, Japanese izakayas, and trendy cafes; Korean BBQ weekly",
-        "monthlyCost": 1025
+        "monthlyCost": 360
       },
       "groceries": {
-        "monthlyCost": 700
+        "monthlyCost": 400
       },
       "healthcare": {
-        "description": "National Health Insurance plus supplemental private insurance for dental and vision",
-        "monthlyCost": 425
+        "description": "Supplemental individual private / regional cover for an early retiree — private cover, not resident NHI",
+        "monthlyCost": 330
       },
       "transportation": {
         "description": "Transit pass plus occasional taxi rides; KTX bullet train for weekend trips",
-        "monthlyCost": 175
+        "monthlyCost": 130
       },
       "entertainment": {
         "description": "K-pop concerts, hiking in Bukhansan, gym membership, nightlife in Gangnam, weekend trips",
-        "monthlyCost": 700
+        "monthlyCost": 270
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 125
       },
-      "lifestyle": "A modern 2-bedroom apartment in Hongdae, Itaewon, or Yeongdeungpo. Dining out at Korean restaurants, Japanese izakayas, and trendy cafes most nights without stress. Transit pass plus occasional taxis and KTX bullet train trips to Busan or Jeju for weekends. National Health Insurance plus supplemental private coverage for dental and vision. Life is comfortable and you have full access to Seoul's deep cultural offerings — the city's combination of safety, food, and convenience is strong at this level."
+      "lifestyle": "A modern officetel in a lively district such as Hongdae or Itaewon-adjacent, dining out most nights, transit plus occasional taxis and KTX, and supplemental private cover — comfortable, with full access to Seoul's cultural offering."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Upscale 3BR apartment in Gangnam, Seocho, or a luxury officetel in Yongsan",
-        "monthlyCost": 2975
+        "description": "A nicer officetel or 1BR in a good or central district — central Mapo or near Gangnam",
+        "monthlyCost": 1450
       },
       "dining": {
         "description": "Fine dining at Michelin-starred restaurants, omakase sushi, premium Korean BBQ, rooftop bars",
-        "monthlyCost": 1425
+        "monthlyCost": 520
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 450
       },
       "healthcare": {
         "description": "Premium private insurance with VIP hospital access at Samsung Medical Center or Asan",
-        "monthlyCost": 425
+        "monthlyCost": 450
       },
       "transportation": {
         "description": "Owned or leased car with parking, transit pass, regular KTX travel",
-        "monthlyCost": 475
+        "monthlyCost": 200
       },
       "entertainment": {
         "description": "Premium concert tickets, golf driving ranges, luxury spa retreats, skiing in Pyeongchang",
-        "monthlyCost": 850
+        "monthlyCost": 400
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 140
       },
-      "lifestyle": "A large apartment in Gangnam, Seocho, or a luxury officetel in Yongsan. Regular dining at Michelin-starred restaurants, premium Korean BBQ, and omakase sushi. An owned or leased car for daily use with regular KTX travel. Premium private health insurance with VIP access at Samsung Medical Center or Asan. Golf, skiing in Pyeongchang, and luxury spa retreats as regular activities. This is a genuinely affluent lifestyle in Seoul, where high-end dining rivals Tokyo at lower prices."
+      "lifestyle": "A relaxed, financially-secure life in one of Seoul's desirable neighborhoods — Michelin-tier dining and premium Korean BBQ on rotation, KTX weekends to Busan or Jeju, and the deep cultural scene fully open. High-end dining rivals Tokyo at lower prices, so this tier stretches a long way."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Luxury apartment in Hannam-dong or Cheongdam-dong, or a premium tower in Songpa",
-        "monthlyCost": 3675
+        "description": "A premium 1BR or serviced apartment in Gangnam, Seocho, or Yongsan-Hannam",
+        "monthlyCost": 2200
       },
       "dining": {
         "description": "Regular dining at Korea's top restaurants, private dining rooms, imported wine collections",
-        "monthlyCost": 1800
+        "monthlyCost": 850
       },
       "groceries": {
-        "monthlyCost": 625
+        "monthlyCost": 550
       },
       "healthcare": {
         "description": "Concierge medical service with top specialists and international medical evacuation coverage",
-        "monthlyCost": 450
+        "monthlyCost": 650
       },
       "transportation": {
         "description": "Luxury vehicle (Genesis, Mercedes), premium insurance, occasional private driver",
-        "monthlyCost": 725
+        "monthlyCost": 350
       },
       "entertainment": {
         "description": "VIP K-pop events, exclusive golf club membership, premium ski passes, cultural patronage",
-        "monthlyCost": 1075
+        "monthlyCost": 700
       },
       "utilities": {
-        "monthlyCost": 275
+        "monthlyCost": 180
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper (ajumma), weekly deep cleaning, laundry service",
-        "monthlyCost": 1075
+        "description": "Weekly housekeeper",
+        "monthlyCost": 450
       },
       "luxuryExtras": {
         "description": "First-class regional travel, designer shopping, luxury spa memberships, art collecting",
-        "monthlyCost": 1800
+        "monthlyCost": 700
       },
-      "lifestyle": "A luxury apartment in Hannam-dong or Cheongdam-dong, or a premium tower in Songpa. A full-time housekeeper, a luxury car (Genesis or Mercedes) with an occasional private driver, and regular dining at Korea's top restaurants. Business class flights for regional travel and concierge medical service with top specialists. This budget covers a very comfortable, high-quality life in one of Seoul's best neighborhoods, with the city's fast internet, safe streets, and deep cultural scene as daily backdrop."
+      "lifestyle": "A premium 1BR or serviced apartment in Gangnam, Seocho, or Yongsan-Hannam, frequent top-restaurant dining, a luxury car, a weekly housekeeper, comprehensive international cover, and a real travel budget — affluent in one of Asia's best-run cities."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Penthouse in the Hannam The Hill complex or luxury villa in UN Village",
-        "monthlyCost": 4950
+        "description": "A luxury apartment or penthouse in Hannam-dong, UN Village, or Gangnam",
+        "monthlyCost": 5600
       },
       "dining": {
         "description": "Personal chef, private dining at three-Michelin-star restaurants, catered gatherings",
-        "monthlyCost": 2175
+        "monthlyCost": 1700
       },
       "groceries": {
-        "monthlyCost": 625
+        "monthlyCost": 750
       },
       "healthcare": {
         "description": "VIP concierge medicine at JCI-accredited hospitals with global coverage",
-        "monthlyCost": 500
+        "monthlyCost": 900
       },
       "transportation": {
         "description": "Multiple luxury vehicles, dedicated driver, first-class international travel, private jet access",
-        "monthlyCost": 1250
+        "monthlyCost": 950
       },
       "entertainment": {
         "description": "Private cultural events, art gallery patronage, international travel, exclusive memberships",
-        "monthlyCost": 1875
+        "monthlyCost": 1900
       },
       "utilities": {
         "monthlyCost": 300
       },
       "domesticHelp": {
-        "description": "Full household staff including housekeeper, cook, personal assistant, and driver",
-        "monthlyCost": 2800
+        "description": "Near-daily housekeeper",
+        "monthlyCost": 1200
       },
       "luxuryExtras": {
         "description": "Private jet to Jeju, luxury resort memberships, fine art acquisitions, philanthropic endeavors",
-        "monthlyCost": 3725
+        "monthlyCost": 2700
       },
-      "lifestyle": "A penthouse in Hannam The Hill or a luxury villa in UN Village overlooking the Han River. A housekeeper, a cook a few times a week, a personal assistant, and a dedicated driver. First-class international flights. VIP concierge medicine at JCI-accredited hospitals with global coverage. Regular fine dining and travel as routine. Seoul is a major, expensive city, so this budget delivers a very high quality of life rather than a feeling of limitless wealth — but the city's safety, technology, and cultural depth make it a strong base."
+      "lifestyle": "Top-of-market Seoul — a Han-River-view residence in the most prestigious districts, a housekeeper, a luxury car with an occasional driver, concierge medicine, and standing reservations at the country's best restaurants. First-class regional travel is routine. A very high quality of life rather than limitless wealth, with the city's safety, technology, and cultural depth as the daily backdrop."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 9,
     "infrastructure": 10,
     "expatFriendliness": 6
-  }
+  },
+  "dataRecency": "Q3 2026"
 }
