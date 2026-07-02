@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "Compact 1-bedroom in Gracia or Sants, charming neighborhood but smaller space for the budget",
-        "monthlyCost": 1975
+        "description": "Room in a shared flat, Sants / Nou Barris / outer Gràcia",
+        "monthlyCost": 540
       },
       "dining": {
-        "description": "Menu del dia lunches at local restaurants, tapas bars in the evening, coffee at neighborhood cafes",
-        "monthlyCost": 825
+        "description": "Mostly home cooking with the occasional menú del día lunch or evening tapas",
+        "monthlyCost": 91
       },
       "groceries": {
-        "monthlyCost": 575
+        "monthlyCost": 245
       },
       "healthcare": {
-        "description": "Public healthcare via social security enrollment, supplemented with basic private insurance for faster access",
-        "monthlyCost": 300
+        "description": "Compliant NLV private policy, no copays, Spanish insurer (Adeslas/ASISA)",
+        "monthlyCost": 115
       },
       "transportation": {
-        "description": "T-Casual metro/bus passes and Bicing bike-share membership for daily commuting",
-        "monthlyCost": 100
+        "description": "Subsidized T-usual pass + Bicing bike-share",
+        "monthlyCost": 35
       },
       "entertainment": {
-        "description": "Beach days at Barceloneta, free museum Sundays, Gothic Quarter wandering, Montjuic sunsets",
-        "monthlyCost": 400
+        "description": "Free Barceloneta beach days, Montjuïc sunsets, and Gothic Quarter wandering",
+        "monthlyCost": 80
       },
       "utilities": {
-        "monthlyCost": 225
+        "monthlyCost": 100
       },
-      "lifestyle": "A compact 1-bedroom in Gracia or Sants -- charming neighborhoods but expect smaller space for the money. Menu del dia lunches and tapas in the evening keep dining affordable. Getting around by metro and Bicing bike-share. Public healthcare with a basic private supplement. Barcelona is not cheap, so this budget requires real trade-offs on apartment size and dining out, but the beach, Montjuic, and neighborhood life are free."
+      "lifestyle": "A frugal-but-livable Barcelona base — a room in a shared flat in Sants, Nou Barris, or the Gràcia fringe, home cooking as the default with the occasional menú del día or evening tapas as the treat. Movement is by subsidized T-usual pass and Bicing bike-share, and compliant NLV private cover is carried from day one. Barcelona is not cheap, so this tier trades space for location — but Barceloneta beach, Montjuïc, and the Gothic Quarter cost nothing."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "Bright 2-bedroom apartment in Eixample with high ceilings and a small balcony overlooking a tree-lined street",
-        "monthlyCost": 2575
+        "description": "Studio or small 1BR in a good non-prime barrio, Sant Antoni / Poblenou / Gràcia",
+        "monthlyCost": 1140
       },
       "dining": {
-        "description": "Regular dining at Barcelona's celebrated tapas bars and restaurants, weekend paella at the beach, vermouth hour ritual",
-        "monthlyCost": 1300
+        "description": "Dining out several times a week at neighborhood tapas bars and vermouth spots",
+        "monthlyCost": 182
       },
       "groceries": {
-        "monthlyCost": 650
+        "monthlyCost": 305
       },
       "healthcare": {
-        "description": "Comprehensive private insurance covering top hospitals like Clinica Teknon and Quironsalud, dental included",
-        "monthlyCost": 375
+        "description": "Mid-tier no-copay private plan, wider network (Sanitas/DKV)",
+        "monthlyCost": 150
       },
       "transportation": {
-        "description": "Monthly transit pass, Bicing, occasional taxi rides, weekend car rental for Costa Brava trips",
-        "monthlyCost": 200
+        "description": "Subsidized T-usual pass + Bicing bike-share",
+        "monthlyCost": 50
       },
       "entertainment": {
-        "description": "FC Barcelona matches, concerts at Palau de la Musica, wine tasting in Penedes, sailing on weekends",
-        "monthlyCost": 775
+        "description": "Concerts, FC Barcelona matches, and weekend Costa Brava outings",
+        "monthlyCost": 150
       },
       "utilities": {
-        "monthlyCost": 225
+        "monthlyCost": 120
       },
-      "lifestyle": "A bright 2-bedroom in Eixample with high ceilings and a balcony. Dining out at tapas bars and good restaurants several times a week without worrying about the bill. Comprehensive private health insurance covering top hospitals. Weekend car rentals for Costa Brava or Penedes wine country trips. FC Barcelona matches and concerts at Palau de la Musica. Barcelona's costs are real, but at this level daily life is comfortable and enjoyable."
+      "lifestyle": "A studio or small one-bedroom in a good non-prime barrio such as Sant Antoni, Poblenou, or Gràcia. Dining out several times a week at neighborhood tapas bars and vermouth spots, comprehensive private cover, and a weekend rental car for the Costa Brava or Penedès wine country. Everyday life is comfortable and the bill rarely needs a second thought."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Spacious 3-bedroom in upper Eixample or Sarria-Sant Gervasi with terrace, modernista details, and natural light",
-        "monthlyCost": 3075
+        "description": "Furnished 1BR in desirable central Eixample",
+        "monthlyCost": 1480
       },
       "dining": {
-        "description": "Michelin-starred dining at Disfrutar and Tickets, private cooking classes, curated Catalan gastronomy experiences",
-        "monthlyCost": 1625
+        "description": "Regular meals at the city's celebrated restaurants",
+        "monthlyCost": 308
       },
       "groceries": {
-        "monthlyCost": 650
+        "monthlyCost": 350
       },
       "healthcare": {
-        "description": "Premium private insurance with international coverage, executive health checks at top clinics, mental wellness support",
-        "monthlyCost": 400
+        "description": "Comprehensive private plan, broad hospital network, fast specialist access",
+        "monthlyCost": 205
       },
       "transportation": {
-        "description": "Leased car for weekend escapes, metro pass, regular Cabify rides across the city",
-        "monthlyCost": 400
+        "description": "Pass + occasional taxi",
+        "monthlyCost": 80
       },
       "entertainment": {
-        "description": "VIP FC Barcelona experiences, private sailing charters, exclusive beach club memberships, front-row Primavera Sound",
-        "monthlyCost": 1125
+        "description": "Cultural memberships, Penedès wine trips, and a fuller events calendar",
+        "monthlyCost": 220
       },
       "utilities": {
-        "monthlyCost": 225
+        "monthlyCost": 140
       },
-      "lifestyle": "A spacious apartment in upper Eixample or Sarria-Sant Gervasi with a terrace and natural light. Regular dining at top restaurants, including occasional meals at places like Disfrutar. A leased car for weekend escapes, premium private healthcare, and several European trips per year. This budget puts you in one of Barcelona's best neighborhoods with a genuinely affluent daily life."
+      "lifestyle": "A furnished one-bedroom in desirable, central Eixample, steps from cafés and the metro. Regular meals at the city's celebrated restaurants, a broad-network private plan with fast specialist access, a leased car for weekend escapes, and several European trips a year. Genuinely affluent daily life in one of Barcelona's best districts."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Luxury penthouse in Passeig de Gracia or a renovated modernista mansion in Pedralbes with private pool",
-        "monthlyCost": 3925
+        "description": "Renovated high-spec 1BR, prime-central with amenities",
+        "monthlyCost": 2165
       },
       "dining": {
-        "description": "Private chef for daily meals, regular Michelin tasting menus, curated wine collection with personal sommelier",
-        "monthlyCost": 2200
+        "description": "Near-daily dining at top restaurants",
+        "monthlyCost": 536
       },
       "groceries": {
-        "monthlyCost": 625
+        "monthlyCost": 430
       },
       "healthcare": {
-        "description": "International VIP health coverage, personal physician, cutting-edge treatments, wellness and longevity programs",
-        "monthlyCost": 475
+        "description": "Premium private cover or entry-level international plan",
+        "monthlyCost": 330
       },
       "transportation": {
-        "description": "Luxury vehicle lease, private driver for city travel, helicopter transfers to Costa Brava villa",
-        "monthlyCost": 700
+        "description": "Add a leased/luxury car (and driver at 10M)",
+        "monthlyCost": 260
       },
       "entertainment": {
-        "description": "Private yacht moored at Port Olympic, art collecting in El Born galleries, box seats at Camp Nou, exclusive club memberships",
-        "monthlyCost": 1575
+        "description": "Premium cultural experiences, beach-club access, and sailing weekends",
+        "monthlyCost": 410
       },
       "utilities": {
-        "monthlyCost": 275
+        "monthlyCost": 185
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper, weekly deep cleaning, personal assistant, laundry and wardrobe management",
-        "monthlyCost": 1100
+        "description": "Regular housekeeping",
+        "monthlyCost": 250
       },
       "luxuryExtras": {
-        "description": "Personal trainer, private Spanish and Catalan tutors, bespoke tailoring, premium co-working at OneCoWork, yacht marina fees",
-        "monthlyCost": 1425
+        "description": "Trainer / tutors / premium coworking",
+        "monthlyCost": 350
       },
-      "lifestyle": "A luxury penthouse on Passeig de Gracia or a renovated home in Pedralbes. Regular dining at the city's best restaurants, a housekeeper several times a week, and business class for longer flights. A leased luxury car, premium private healthcare, and a personal trainer. Barcelona is expensive enough that even at this level you notice the costs, but daily life is high quality with very few practical constraints."
+      "lifestyle": "A renovated, high-spec apartment at a prime-central address with building amenities. Near-daily dining at top restaurants, premium private health cover, regular housekeeping, and a leased luxury car layered on top of transit. Barcelona's real costs are still felt at this level, but practical constraints are few."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Historic modernista estate in Pedralbes or ultra-luxury waterfront penthouse with 360-degree views from Barceloneta to Tibidabo",
-        "monthlyCost": 5075
+        "description": "Luxury 1–2BR, Passeig de Gràcia / Pedralbes prime",
+        "monthlyCost": 3875
       },
       "dining": {
-        "description": "Full-time private chef team, rare wine collection management, hosting legendary dinner parties, guest chef residencies",
-        "monthlyCost": 2825
+        "description": "Private-chef-level dining and the finest Catalan tables",
+        "monthlyCost": 1083
       },
       "groceries": {
-        "monthlyCost": 675
+        "monthlyCost": 560
       },
       "healthcare": {
-        "description": "Global concierge medicine, dedicated medical team, fly-anywhere coverage, biohacking and longevity protocols",
-        "monthlyCost": 675
+        "description": "Top-tier international/worldwide cover (Cigna Global/Bupa Global)",
+        "monthlyCost": 705
       },
       "transportation": {
-        "description": "Chauffeured luxury fleet, private jet charter for Mediterranean island hopping, superyacht access",
-        "monthlyCost": 1700
+        "description": "Add a leased/luxury car (and driver at 10M)",
+        "monthlyCost": 650
       },
       "entertainment": {
-        "description": "Art patronage and gallery ownership, private island retreats in Balearics, front-row fashion week, hosting cultural festivals",
-        "monthlyCost": 2550
+        "description": "Art, private charters, and premium cultural-and-social life",
+        "monthlyCost": 820
       },
       "utilities": {
-        "monthlyCost": 350
+        "monthlyCost": 265
       },
       "domesticHelp": {
-        "description": "Full household staff: butler, chef team, housekeepers, gardener, personal assistant, estate manager",
-        "monthlyCost": 2550
+        "description": "Full household help",
+        "monthlyCost": 700
       },
       "luxuryExtras": {
-        "description": "Art acquisition fund, Balearic vacation property management, charitable foundation, bespoke Mediterranean yacht itineraries, personal brand management",
-        "monthlyCost": 3100
+        "description": "Art, yacht/marina, bespoke travel",
+        "monthlyCost": 1600
       },
-      "lifestyle": "A historic estate in Pedralbes or an ultra-luxury waterfront penthouse. A cook several times a week, a full-time housekeeper, and full private healthcare with top specialists. Business class as default, first class for longer trips. Regular fine dining at the city's best restaurants and a nice car with driver when needed. Barcelona's high costs absorb more of this budget than cheaper cities would, but daily life is fully comfortable at a premium level."
+      "lifestyle": "A luxury residence on Passeig de Gràcia or in leafy Pedralbes. Private-chef-level dining and the finest tables in the city, top-tier international health cover, a chauffeured car on top of transit, full household help, and a generous travel-and-culture budget. Barcelona is no Zurich-scale price outlier, so even uncapped luxury here settles near $10k/mo."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 8,
     "infrastructure": 8,
     "expatFriendliness": 8
-  }
+  },
+  "dataRecency": "Q3 2026"
 }

@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "Charming 1-bedroom apartment in Cedofeita or Bonfim, walkable neighborhoods with local character",
-        "monthlyCost": 1325
+        "description": "Room in a shared flat, Cedofeita / Bonfim / Campanhã",
+        "monthlyCost": 455
       },
       "dining": {
-        "description": "Daily francesinha or bifana at local spots, espresso culture, affordable wine with every meal",
-        "monthlyCost": 600
+        "description": "Cooking at home from market produce with local spots a few times a week",
+        "monthlyCost": 70
+      },
+      "groceries": {
+        "monthlyCost": 220
+      },
+      "healthcare": {
+        "description": "Minimum compliant D7 private policy, Portuguese insurer (Multicare/Médis)",
+        "monthlyCost": 75
+      },
+      "transportation": {
+        "description": "Andante Metropolitano pass",
+        "monthlyCost": 46
+      },
+      "entertainment": {
+        "description": "Free Douro riverfront walks, port-cellar tours, and Matosinhos beach days",
+        "monthlyCost": 60
+      },
+      "utilities": {
+        "monthlyCost": 85
+      },
+      "lifestyle": "A budget-conscious Porto base — a room in a shared flat in a walkable neighborhood like Cedofeita, Bonfim, or Campanhã, away from the tourist core. Cooking at home from market produce with local spots a few times a week, moving on the Andante transit pass, and D7-compliant private cover carried. Porto runs cheaper than Lisbon, so this tier covers the basics comfortably with modest room to socialise."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Standard 1BR in a solid area",
+        "monthlyCost": 1020
+      },
+      "dining": {
+        "description": "Dining out regularly with weekend seafood lunches in Matosinhos",
+        "monthlyCost": 150
+      },
+      "groceries": {
+        "monthlyCost": 285
+      },
+      "healthcare": {
+        "description": "Mid-tier private plan, wider network (Médis Option 2)",
+        "monthlyCost": 110
+      },
+      "transportation": {
+        "description": "Andante Metropolitano pass",
+        "monthlyCost": 46
+      },
+      "entertainment": {
+        "description": "Casa da Música concerts, surf lessons, and Douro wine tours",
+        "monthlyCost": 120
+      },
+      "utilities": {
+        "monthlyCost": 105
+      },
+      "lifestyle": "A renovated one-bedroom near the ocean in Foz or a stylish flat in the centre. Dining out regularly and weekend seafood lunches in Matosinhos, comprehensive private cover with dental, and a weekend rental car for the Douro Valley. Concerts at Casa da Música and an easy, enjoyable rhythm."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "1BR in a good area, Foz edge / central / Boavista",
+        "monthlyCost": 1250
+      },
+      "dining": {
+        "description": "Regular meals at the city's best restaurants including tables like The Yeatman",
+        "monthlyCost": 245
+      },
+      "groceries": {
+        "monthlyCost": 330
+      },
+      "healthcare": {
+        "description": "Comprehensive private plan, broad network, faster access (Médis Option 3)",
+        "monthlyCost": 160
+      },
+      "transportation": {
+        "description": "Pass + Bolt",
+        "monthlyCost": 65
+      },
+      "entertainment": {
+        "description": "Private Douro cruises, golf at Estela, and gallery openings",
+        "monthlyCost": 185
+      },
+      "utilities": {
+        "monthlyCost": 122
+      },
+      "lifestyle": "A one-bedroom in a good area — the Foz edge, central Porto, or Boavista. Regular dining at the city's best restaurants including tables like The Yeatman, a broad-network private plan, a leased car for frequent Douro trips, and regional flights a few times a year. Porto's lower costs make this a genuinely affluent daily life."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "Larger/high-spec 1BR, central or Foz",
+        "monthlyCost": 1800
+      },
+      "dining": {
+        "description": "Regular dining at top restaurants",
+        "monthlyCost": 420
       },
       "groceries": {
         "monthlyCost": 400
       },
       "healthcare": {
-        "description": "Public SNS healthcare access plus basic private supplement. Hospital de Sao Joao nearby.",
-        "monthlyCost": 200
+        "description": "Premium private cover or entry-level international plan",
+        "monthlyCost": 260
       },
       "transportation": {
-        "description": "Andante monthly pass for metro, bus, and tram across greater Porto",
-        "monthlyCost": 50
+        "description": "Add a luxury car and transfers, driver/helicopter at 10M",
+        "monthlyCost": 180
       },
       "entertainment": {
-        "description": "Douro riverfront walks, free port wine cellar tours, Livraria Lello visits, beach days at Matosinhos",
-        "monthlyCost": 275
+        "description": "Douro Valley experiences, premium club memberships, and arts patronage",
+        "monthlyCost": 340
       },
       "utilities": {
-        "monthlyCost": 150
-      },
-      "lifestyle": "A 1-bedroom in a walkable neighborhood like Cedofeita or Bonfim, away from the tourist center. Cooking at home most of the time with affordable market produce, eating out at local spots a couple of times a week. Getting around on the Andante transit pass. Public healthcare with a basic private supplement. Porto is 15-20% cheaper than Lisbon, so this budget covers the basics comfortably with modest room for socializing."
-    },
-    "2M": {
-      "monthlyBudget": 6667,
-      "housing": {
-        "description": "Renovated 2-bedroom in Foz do Douro near the ocean or a stylish flat in Ribeira with river views",
-        "monthlyCost": 1750
-      },
-      "dining": {
-        "description": "Regular meals at Porto's acclaimed restaurants, weekend Douro Valley wine lunches, seafood feasts in Matosinhos",
-        "monthlyCost": 925
-      },
-      "groceries": {
-        "monthlyCost": 450
-      },
-      "healthcare": {
-        "description": "Full private insurance covering CUF Porto and Hospital da Luz, dental and vision included",
-        "monthlyCost": 250
-      },
-      "transportation": {
-        "description": "Andante pass plus Bolt rides and weekend car rentals for Douro Valley explorations",
-        "monthlyCost": 150
-      },
-      "entertainment": {
-        "description": "FC Porto season tickets, surf lessons at Matosinhos, Casa da Musica concerts, Douro wine tours",
-        "monthlyCost": 525
-      },
-      "utilities": {
-        "monthlyCost": 150
-      },
-      "lifestyle": "A renovated 2-bedroom in Foz do Douro near the ocean or a stylish flat in Ribeira with river views. Dining out regularly at good restaurants and weekend seafood lunches in Matosinhos. Full private health insurance with dental. A car rental on weekends for Douro Valley drives. Concerts at Casa da Musica, surf lessons, and FC Porto matches. Day-to-day life is easy and the budget covers regular enjoyment without stress."
-    },
-    "3M": {
-      "monthlyBudget": 10000,
-      "housing": {
-        "description": "Luxury 3-bedroom in Foz do Douro with ocean views, or a restored townhouse in Miragaia with private garden",
-        "monthlyCost": 2000
-      },
-      "dining": {
-        "description": "Fine dining at The Yeatman and DOP, private Douro Valley tastings, personal wine advisor building your cellar",
-        "monthlyCost": 1200
-      },
-      "groceries": {
-        "monthlyCost": 475
-      },
-      "healthcare": {
-        "description": "Premium private insurance with international coverage, executive health screenings, dental implant coverage",
-        "monthlyCost": 300
-      },
-      "transportation": {
-        "description": "Leased car for Douro Valley access, public transit pass, regular Bolt Premium",
-        "monthlyCost": 300
-      },
-      "entertainment": {
-        "description": "Private Douro River cruises, golf at Estela, VIP box at Dragao Stadium, art gallery openings",
-        "monthlyCost": 775
-      },
-      "utilities": {
-        "monthlyCost": 150
-      },
-      "lifestyle": "A large apartment in Foz do Douro with ocean views, or a restored townhouse in Miragaia. Dining at the city's best restaurants several times a week, including places like The Yeatman. A leased car for regular Douro Valley trips, premium private healthcare, and regional flights a few times a year. Porto's lower costs mean this budget delivers a genuinely affluent life with plenty of room for travel and entertainment."
-    },
-    "5M": {
-      "monthlyBudget": 16667,
-      "housing": {
-        "description": "Historic quinta (estate) in Foz or a premium penthouse overlooking the Douro with private terrace and parking",
-        "monthlyCost": 2500
-      },
-      "dining": {
-        "description": "Private chef specializing in Portuguese cuisine, Michelin dining as routine, curated wine experiences across northern Portugal",
-        "monthlyCost": 1450
-      },
-      "groceries": {
-        "monthlyCost": 475
-      },
-      "healthcare": {
-        "description": "International concierge medicine, private physician, wellness retreats in Geres National Park",
-        "monthlyCost": 325
-      },
-      "transportation": {
-        "description": "Luxury vehicle for Douro Valley drives, private transfers, occasional charter flights to Lisbon or Madeira",
-        "monthlyCost": 475
-      },
-      "entertainment": {
-        "description": "Own a small Douro vineyard plot, private river yacht, exclusive club memberships, patronage of Porto arts scene",
-        "monthlyCost": 1050
-      },
-      "utilities": {
-        "monthlyCost": 175
+        "monthlyCost": 155
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper, weekly gardener, laundry service, personal assistant for errands",
-        "monthlyCost": 725
+        "description": "Housekeeping + errands",
+        "monthlyCost": 180
       },
       "luxuryExtras": {
-        "description": "Private Portuguese tutor, personal sommelier, bespoke Douro Valley experiences, premium gym and spa membership",
-        "monthlyCost": 925
+        "description": "Tutor / sommelier / spa",
+        "monthlyCost": 290
       },
-      "lifestyle": "A premium penthouse overlooking the Douro or a historic property in Foz with a private terrace. Regular dining at top restaurants, a cleaner several times a week, and business class for longer flights. A luxury car for Douro Valley drives and premium private healthcare. In a city as affordable as Porto, this budget provides an upper-affluent life with very few constraints on daily spending."
+      "lifestyle": "A premium, high-spec one-bedroom in the centre or in Foz do Douro. Regular dining at top restaurants, VIP private cover, regular household help, and a luxury car for Douro Valley drives. In a city this affordable, the budget delivers upper-affluent living with very few constraints."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Restored Douro Valley wine estate with guesthouse, or landmark oceanfront villa in Foz do Douro",
-        "monthlyCost": 3175
+        "description": "Luxury 1–2BR, Foz do Douro / central prime",
+        "monthlyCost": 2850
       },
       "dining": {
-        "description": "Full-time private chef, curated international wine cellar, hosting elaborate dinner parties, flying in guest chefs",
-        "monthlyCost": 1825
+        "description": "Private-chef dining and the finest tables in the north",
+        "monthlyCost": 850
       },
       "groceries": {
-        "monthlyCost": 450
+        "monthlyCost": 540
       },
       "healthcare": {
-        "description": "Global VIP medical coverage, private wellness team, fly-anywhere treatment access, longevity programs",
-        "monthlyCost": 450
+        "description": "Top-tier international/worldwide cover (Cigna Global/Bupa Global)",
+        "monthlyCost": 660
       },
       "transportation": {
-        "description": "Chauffeured luxury vehicle, helicopter transfers to Douro estate, private jet for European travel",
-        "monthlyCost": 1000
+        "description": "Add a luxury car and transfers, driver/helicopter at 10M",
+        "monthlyCost": 500
       },
       "entertainment": {
-        "description": "Own and operate boutique Douro winery, art collection patronage, private sailing yacht, philanthropic events",
-        "monthlyCost": 1600
+        "description": "Boating, art patronage, and premium cultural-and-social life",
+        "monthlyCost": 700
       },
       "utilities": {
-        "monthlyCost": 225
+        "monthlyCost": 210
       },
       "domesticHelp": {
-        "description": "Full estate staff: housekeeper, chef, gardener, estate manager, vineyard workers, personal assistant",
-        "monthlyCost": 1725
+        "description": "Full household help",
+        "monthlyCost": 540
       },
       "luxuryExtras": {
-        "description": "Winery operations budget, art acquisition fund, bespoke travel curation, charitable foundation in Porto",
-        "monthlyCost": 2050
+        "description": "Douro estate, art, bespoke travel",
+        "monthlyCost": 1250
       },
-      "lifestyle": "A landmark oceanfront villa in Foz do Douro or a restored Douro Valley estate with a guesthouse. A cook a few times a week, a full-time housekeeper, and premium healthcare with no wait times. Business class as default, first class for longer trips. A nice car and driver when needed. Porto is affordable enough that this budget covers everything comfortably, though the city has fewer ultra-premium services than Lisbon or larger capitals."
+      "lifestyle": "A luxury one-to-two-bedroom in Foz do Douro or at a landmark central address. Private-chef dining, top international health cover, a chauffeured car, full household help, and generous discretionary spend on Douro estates, boats, and travel. Porto has fewer ultra-premium services than Lisbon or larger capitals, so the budget covers everything here comfortably."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 7,
     "infrastructure": 7,
     "expatFriendliness": 8
-  }
+  },
+  "dataRecency": "Q3 2026"
 }
