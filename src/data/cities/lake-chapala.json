@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "Cozy 1-2 bedroom casa in Ajijic or Chapala with garden patio, walking distance to the lakefront and village center",
-        "monthlyCost": 850
+        "description": "Modest 1BR in Chapala Centro or San Antonio Tlayacapan (the affordable end); this is the expat-enclave floor, higher than generic small-town Mexico",
+        "monthlyCost": 550
       },
       "dining": {
-        "description": "Mix of local Mexican fondas, expat-favorite restaurants in Ajijic, lakeside fish dinners, strong café culture",
-        "monthlyCost": 425
+        "description": "Home-heavy cooking plus an occasional menú del día",
+        "monthlyCost": 60
       },
       "groceries": {
-        "monthlyCost": 325
+        "monthlyCost": 170
       },
       "healthcare": {
-        "description": "IMSS public healthcare plus affordable private insurance, access to Guadalajara's world-class hospitals for specialist care",
-        "monthlyCost": 150
+        "description": "IMSS voluntary or a bare catastrophic Mexico-only plan; 45–55 early-retiree basis",
+        "monthlyCost": 70
       },
       "transportation": {
-        "description": "Local bus service between lakeside towns, occasional taxi or Uber, colectivos to Guadalajara",
-        "monthlyCost": 75
+        "description": "Local bus / colectivo plus occasional taxi; no car",
+        "monthlyCost": 40
       },
       "entertainment": {
-        "description": "Lakeside walks, expat social clubs, live music at Ajijic restaurants, local art galleries, tianguis market visits, hiking in the sierra",
-        "monthlyCost": 225
+        "description": "Lakeside and plaza life, streaming, occasional cinema",
+        "monthlyCost": 30
       },
       "utilities": {
-        "monthlyCost": 100
+        "monthlyCost": 60
       },
-      "lifestyle": "A small casa in Ajijic or Chapala with a garden patio keeps you within walking distance of the lake and village center. The weather is mild year-round, daily life is inexpensive, and the large English-speaking expat community provides a ready-made social network. Healthcare means a 45-minute drive to Guadalajara's hospitals for anything serious. The budget is comfortable with room to spare, though internet and infrastructure are simpler than in a major city."
+      "lifestyle": "A modest apartment in Chapala Centro or San Antonio Tlayacapan — the affordable end of a lakeside market where an established retiree community keeps rents stickier than generic small-town Mexico. The near-perfect highland climate means no heating or cooling bills, most meals come from the tianguis cooked at home, and a menú del día is the treat. Local buses and colectivos handle the lakeshore; no car. The ready-made English-speaking social scene and free lakeside walks do the entertaining, with IMSS or a basic catastrophic plan covering the essentials and Guadalajara 45 minutes away for anything serious."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "Charming 2-3 bedroom villa in upper Ajijic or La Floresta with mountain views, private garden, and outdoor entertaining space",
-        "monthlyCost": 1200
+        "description": "Comfortable 1BR in San Antonio Tlayacapan or a lower-Ajijic casita",
+        "monthlyCost": 750
       },
       "dining": {
-        "description": "Regular dining at Ajijic's best restaurants, lakeside seafood, Guadalajara food excursions, expat dinner clubs, wine and tequila tastings",
-        "monthlyCost": 575
+        "description": "Regular local dining plus occasional expat-café meals",
+        "monthlyCost": 130
       },
       "groceries": {
-        "monthlyCost": 325
+        "monthlyCost": 210
       },
       "healthcare": {
-        "description": "Comprehensive private insurance covering Guadalajara's top hospitals like Puerta de Hierro and San Javier, dental and vision included",
-        "monthlyCost": 225
+        "description": "Mid-tier Mexico-only private major-medical (GNP/AXA)",
+        "monthlyCost": 150
       },
       "transportation": {
-        "description": "Owned or leased car for lakeside and Guadalajara trips, occasional Uber, weekend road trips to Michoacán and Jalisco coast",
-        "monthlyCost": 200
+        "description": "Taxi/Uber plus the local bus; no full car yet",
+        "monthlyCost": 90
       },
       "entertainment": {
-        "description": "Lake Chapala Society membership, art classes, golf at local courses, spa days, weekend trips to Guadalajara and the Pacific coast, volunteer work",
-        "monthlyCost": 425
+        "description": "Social clubs, events, streaming",
+        "monthlyCost": 70
       },
       "utilities": {
-        "monthlyCost": 100
+        "monthlyCost": 80
       },
-      "lifestyle": "A villa in upper Ajijic or La Floresta with mountain views, a private garden, and outdoor entertaining space gives you a comfortable home. A car opens up the Pacific coast for weekend beach trips and easy access to Guadalajara's cultural offerings. You dine at Ajijic's restaurants regularly, carry comprehensive private insurance covering Guadalajara's top hospitals, and the active expat community fills the social calendar with book clubs, art workshops, and dinner clubs."
+      "lifestyle": "A comfortable furnished casita in San Antonio Tlayacapan or lower Ajijic, closer to the village and lakefront. Dining out shifts to a regular habit across local and expat-favorite spots, and a mid-tier Mexican private plan (GNP or AXA) covers the private clinics with Guadalajara's top hospitals in reach. Taxis, Uber, and the local bus cover getting around — still no need for a car. Social clubs, cultural events, and the lake's easy rhythm fill the weeks in an unhurried, sociable style."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Luxury lakefront villa in Ajijic or Jocotepec with private pool, manicured gardens, panoramic lake and mountain views",
-        "monthlyCost": 1575
+        "description": "Well-located 1BR casa in Ajijic village or upper Ajijic (courtyard, lake glimpse)",
+        "monthlyCost": 950
       },
       "dining": {
-        "description": "Fine dining at lakeside restaurants and Guadalajara's best establishments, occasional catered dinners, curated tequila and mezcal collection",
-        "monthlyCost": 750
+        "description": "Frequent restaurant dining including expat spots",
+        "monthlyCost": 180
       },
       "groceries": {
-        "monthlyCost": 300
-      },
-      "healthcare": {
-        "description": "Premium private insurance with access to Guadalajara's finest hospitals, concierge medical services, wellness programs, dental implant specialists",
         "monthlyCost": 250
       },
+      "healthcare": {
+        "description": "Comprehensive Mexico-only private (GNP/AXA/MetLife); relies on Guadalajara (~45 min) for specialists and top hospitals (Puerta de Hierro, San Javier)",
+        "monthlyCost": 260
+      },
       "transportation": {
-        "description": "Owned SUV for mountain and coastal drives, private driver for Guadalajara trips, domestic flights for exploring greater Mexico",
-        "monthlyCost": 275
+        "description": "A modest owned car (gas, insurance, maintenance)",
+        "monthlyCost": 170
       },
       "entertainment": {
-        "description": "Premium golf memberships, private art studio or gallery space, sailing on the lake, weekend trips to Puerto Vallarta, Guadalajara symphony season tickets",
-        "monthlyCost": 550
+        "description": "Clubs, cultural events, and social calendar",
+        "monthlyCost": 110
       },
       "utilities": {
-        "monthlyCost": 100
+        "monthlyCost": 95
       },
-      "lifestyle": "A lakefront villa in Ajijic with a private pool, manicured gardens, and panoramic lake and mountain views puts you at the top of the local housing market. You dine at the best lakeside restaurants and Guadalajara establishments regularly, own an SUV, and take weekend trips to Puerto Vallarta. Golf memberships, Guadalajara symphony tickets, and premium health insurance are all easily covered. This is a genuinely affluent life in a small-town setting."
+      "lifestyle": "A well-located casa in Ajijic village or upper Ajijic — courtyard, lake glimpse, walking distance to the plaza and lakefront. A modest owned car opens up the Jalisco coast and Guadalajara's cultural offerings, dining out is frequent across the village's restaurants, and comprehensive Mexican private cover leans on Guadalajara's Puerta de Hierro and San Javier for specialist care. Imported groceries are stocked without a second thought, and a full slate of clubs, art classes, and cultural events fills the calendar — a genuinely affluent life in a small-town lakeside setting, with margin left over."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Grand lakefront estate in Ajijic or San Juan Cosalá with multiple buildings, infinity pool, professional gardens, and sweeping lake panoramas",
-        "monthlyCost": 1925
+        "description": "Premium view home in La Floresta or upper Ajijic (lake/mountain views, pool access)",
+        "monthlyCost": 1600
       },
       "dining": {
-        "description": "Private chef specializing in upscale Mexican cuisine, regular Guadalajara fine dining, curated rare tequila and mezcal library, legendary dinner hosting",
-        "monthlyCost": 900
+        "description": "Frequent fine/expat dining plus Guadalajara restaurant trips",
+        "monthlyCost": 380
       },
       "groceries": {
-        "monthlyCost": 325
+        "monthlyCost": 340
       },
       "healthcare": {
-        "description": "International concierge medicine, private physician, premium wellness retreats, Guadalajara's top specialists on call, annual US checkups",
-        "monthlyCost": 275
+        "description": "Top-tier / entry international plan (Cigna Global Gold tier), Mexico + regional",
+        "monthlyCost": 520
       },
       "transportation": {
-        "description": "Luxury vehicle, private driver, domestic charter flights, private transfers to Guadalajara airport and Pacific coast",
-        "monthlyCost": 350
+        "description": "Newer car plus rideshare and regular Guadalajara runs",
+        "monthlyCost": 340
       },
       "entertainment": {
-        "description": "Premium country club membership, private sailing vessel on the lake, art patronage in Ajijic galleries, VIP access to Guadalajara's cultural scene",
-        "monthlyCost": 650
-      },
-      "utilities": {
-        "monthlyCost": 125
-      },
-      "domesticHelp": {
-        "description": "Full-time housekeeper, cook specializing in Mexican cuisine, gardener for estate grounds, pool maintenance, personal assistant",
-        "monthlyCost": 450
-      },
-      "luxuryExtras": {
-        "description": "Private Spanish tutor, personal trainer, bespoke Mexican travel planning, tequila distillery tours and investment, premium social memberships",
-        "monthlyCost": 600
-      },
-      "lifestyle": "A grand lakefront estate in Ajijic with infinity pool, professional gardens, and multiple buildings provides generous space. A housekeeper and cook manage the household, a driver handles trips to Guadalajara, and you dine at the area's best restaurants without budget concerns. A boat on the lake, business class flights for international travel, and regular entertaining are all standard. This budget far exceeds what Lake Chapala requires — significant margin goes to savings or travel."
-    },
-    "10M": {
-      "monthlyBudget": 33333,
-      "housing": {
-        "description": "Ultra-luxury lakefront compound with main residence, guest casitas, infinity pool, professional kitchen, private dock, and panoramic views stretching across the entire lake",
-        "monthlyCost": 2275
-      },
-      "dining": {
-        "description": "Full-time private chef team, rare tequila and mezcal vault, legendary multi-course Mexican feast hosting, guest chef residencies from Guadalajara and Mexico City",
-        "monthlyCost": 1075
-      },
-      "groceries": {
+        "description": "Club memberships, arts, weekend getaways, cultural calendar",
         "monthlyCost": 300
-      },
-      "healthcare": {
-        "description": "Global VIP medical coverage, dedicated wellness team, private health suite on the estate, fly-anywhere specialist access, longevity protocols",
-        "monthlyCost": 275
-      },
-      "transportation": {
-        "description": "Chauffeured luxury fleet, helicopter transfers to Guadalajara and Puerto Vallarta, private jet charter for international travel, yacht on the lake",
-        "monthlyCost": 850
-      },
-      "entertainment": {
-        "description": "Major art patronage, private tequila brand development, charitable foundation supporting lakeside communities, exclusive cultural experiences, golf at Mexico's finest courses",
-        "monthlyCost": 1075
       },
       "utilities": {
         "monthlyCost": 150
       },
       "domesticHelp": {
-        "description": "Full estate staff: chef team, housekeepers, groundskeepers, driver, boat captain, personal assistant, estate manager, security",
-        "monthlyCost": 975
+        "description": "Regular housekeeper and gardener several days a week",
+        "monthlyCost": 220
       },
       "luxuryExtras": {
-        "description": "Private tequila distillery investment, art acquisition fund, charitable foundation, bespoke Mexican cultural experiences, agave estate ownership",
-        "monthlyCost": 1375
+        "description": "Wine/club, cultural patronage, short trips off a limited local luxury market",
+        "monthlyCost": 350
       },
-      "lifestyle": "A large lakefront compound with main residence, guest casitas, pool, and panoramic lake views anchors daily life. A cook, housekeeper, groundskeeping staff, and driver manage the property. You fly first class internationally, dine without any constraints, and entertain frequently. This budget vastly exceeds what Lake Chapala can absorb — the community is small, the dining scene is limited, and most retirees at this level use the lakeside as a home base for extensive international travel."
+      "lifestyle": "A premium view home in La Floresta or upper Ajijic, with lake-and-mountain vistas and pool access, kept by a housekeeper and gardener several days a week. Dining is frequent at the area's best tables plus Guadalajara restaurant trips, an entry-level international plan (Cigna Global tier) covers care well beyond the region, and a newer car with regular Guadalajara runs handles transport. Club memberships, cultural patronage, and short getaways round it out. This clears what the lakeside itself requires, so much of the surplus flows into travel and the good life."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Lakefront villa or a top La Floresta estate (long-term luxury; the small-town ceiling is soft/thin)",
+        "monthlyCost": 2800
+      },
+      "dining": {
+        "description": "Best local restaurants plus frequent Guadalajara fine dining (the local high-end market is limited)",
+        "monthlyCost": 600
+      },
+      "groceries": {
+        "monthlyCost": 450
+      },
+      "healthcare": {
+        "description": "International concierge cover with medevac to Houston/Miami",
+        "monthlyCost": 850
+      },
+      "transportation": {
+        "description": "Luxury vehicle plus a driver for Guadalajara/airport runs",
+        "monthlyCost": 600
+      },
+      "entertainment": {
+        "description": "Private events, golf/club, arts patronage — capped by thin local luxury supply",
+        "monthlyCost": 650
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "domesticHelp": {
+        "description": "Full-time housekeeper, cook, and gardener plus a part-time driver (attainable on low local wages)",
+        "monthlyCost": 600
+      },
+      "luxuryExtras": {
+        "description": "Lavish international travel — the primary top-tier outlet, since a small town offers little local luxury to buy",
+        "monthlyCost": 2000
+      },
+      "lifestyle": "A lakefront villa or a top La Floresta estate with pool and gardens, run by full-time staff — housekeeper, cook, gardener, and a part-time driver, all attainable on the area's low local wages. Healthcare steps up to international concierge cover with medical evacuation to Houston or Miami. Because a small lakeside town offers only so much local luxury to buy, the top-tier surplus flows outward: the largest discretionary line is lavish international travel — business-class trips and extended stays elsewhere — with the lake as a serene home base. This is about as opulent as Lake Chapala gets: a waterfront estate, resident staff, and the world a short flight from Guadalajara."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 5,
     "infrastructure": 4,
     "expatFriendliness": 9
-  }
+  },
+  "dataRecency": "Q3 2026"
 }
