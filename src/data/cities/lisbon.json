@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 135
       },
-      "lifestyle": "A one-bedroom in a desirable central district — Príncipe Real, Santos, or Chiado — near the city's best cafés and viewpoints. Regular dining at top restaurants including the occasional Michelin table, a broad-network private plan with international coverage, a leased car, and regional flights to the Azores or Madeira. Genuinely affluent living in a city where the budget goes far."
+      "lifestyle": "A one-bedroom in a desirable central district — Príncipe Real, Santos, or Chiado — near the city's best cafés and viewpoints. Regular dining at top restaurants including the occasional Michelin table, a broad-network private plan with international coverage, the transit pass with Bolt rides on top and a rental car for weekend trips, and regional flights to the Azores or Madeira. Genuinely affluent living in a city where the budget goes far."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -132,7 +132,7 @@
         "monthlyCost": 260
       },
       "transportation": {
-        "description": "Add a leased/luxury car and private transfers, driver at 10M",
+        "description": "Add a leased/luxury car and private transfers, with a driver for occasions at 10M",
         "monthlyCost": 200
       },
       "entertainment": {
@@ -170,7 +170,7 @@
         "monthlyCost": 660
       },
       "transportation": {
-        "description": "Add a leased/luxury car and private transfers, driver at 10M",
+        "description": "Add a leased/luxury car and private transfers, with a driver for occasions at 10M",
         "monthlyCost": 550
       },
       "entertainment": {
@@ -188,7 +188,7 @@
         "description": "Interior design, art curation, bespoke travel",
         "monthlyCost": 1400
       },
-      "lifestyle": "A luxury one-to-two-bedroom on Avenida da Liberdade or in historic Lapa with river views. Private-chef dining, top-tier international health cover, a chauffeured car on top of transit, full household help, and a generous travel budget. This sits near the ceiling of the premium services Lisbon offers, and everyday money is never a thought."
+      "lifestyle": "A luxury one-to-two-bedroom on Avenida da Liberdade or in historic Lapa with river views. Private-chef dining, top-tier international health cover, a premium car and private transfers on top of transit — with a driver for occasions — full household help, and a generous travel budget. This sits near the ceiling of the premium services Lisbon offers, and everyday money is never a thought."
     }
   },
   "scores": {

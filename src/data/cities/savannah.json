@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 190
       },
-      "lifestyle": "A frugal studio or small one-bedroom in Thunderbolt, quieter Midtown, or the Starland District anchors an affordable, walkable-ish life in one of the South's most charming small cities. A subsidized ACA plan, held down by managing income under the returned 400%-FPL cliff, and a paid-off car — Georgia's insurance runs gentler than Florida's, easing the transport line — are the recurring floors, with most meals cooked at home and casual Southern spots a few times a week. The 22 moss-draped squares, Forsyth Park, and a short drive to Tybee Island beach cost nothing. Summer air-conditioning is the bill to watch, but Savannah's cheaper housing makes this the most comfortable lean budget in the batch."
+      "lifestyle": "A frugal studio or small one-bedroom in Thunderbolt, quieter Midtown, or the Starland District anchors an affordable, walkable-ish life in one of the South's most charming small cities. A subsidized ACA plan, held down by managing income under the returned 400%-FPL cliff, and a paid-off car — Georgia's insurance runs gentler than Florida's, easing the transport line — are the recurring floors, with most meals cooked at home and casual Southern spots a few times a week. The 22 moss-draped squares, Forsyth Park, and a short drive to Tybee Island beach cost nothing. Summer air-conditioning is the bill to watch, but Savannah's cheaper housing makes this an unusually comfortable lean budget."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -98,7 +98,7 @@
         "monthlyCost": 460
       },
       "healthcare": {
-        "description": "Unsubsidized Chatham-rating-area Silver at full price (above the cliff); GA runs COMPETITIVE with Florida, not below (cheapest Silver ~$956 @50) — see Discrepancy 3",
+        "description": "Unsubsidized Chatham-rating-area Silver at full price (above the cliff); Georgia benchmark premiums run close to Florida's, not below them (cheapest Silver ~$956 @50)",
         "monthlyCost": 920
       },
       "transportation": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 270
       },
-      "lifestyle": "A quality one-bedroom in the Historic District, the Victorian District, or Ardsley Park puts daily life among the squares and live oaks, walkable to River Street and the waterfront. Dining out is frequent at The Grey, Elizabeth on 37th, and the Olde Pink House, and healthcare is a full-price, unsubsidized plan — Georgia's ACA premiums run competitive with Florida's, so this line is no bargain once income clears the subsidy cliff. A reliable car handles the region, with boating on the Intracoastal and Tybee day trips built in. SCAD arts events, live music, and a golf membership fit comfortably. Savannah's low housing base leaves the most travel-and-savings margin of the batch at this level."
+      "lifestyle": "A quality one-bedroom in the Historic District, the Victorian District, or Ardsley Park puts daily life among the squares and live oaks, walkable to River Street and the waterfront. Dining out is frequent at The Grey, Elizabeth on 37th, and the Olde Pink House, and healthcare is a full-price, unsubsidized plan — Georgia's ACA premiums run competitive with Florida's, so this line is no bargain once income clears the subsidy cliff. A reliable car handles the region, with boating on the Intracoastal and Tybee day trips built in. SCAD arts events, live music, and a golf membership fit comfortably. Savannah's low housing base leaves substantial travel-and-savings margin at this level."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -181,7 +181,7 @@
         "monthlyCost": 680
       },
       "domesticHelp": {
-        "description": "Staff-for-one: housekeeper, grounds, part-time help",
+        "description": "Housekeeper, grounds service, and part-time help",
         "monthlyCost": 1400
       },
       "luxuryExtras": {

@@ -170,25 +170,25 @@
         "monthlyCost": 1450
       },
       "transportation": {
-        "description": "Luxury vehicles plus charters / first-class Acela",
+        "description": "One premium vehicle plus car service / first-class Acela",
         "monthlyCost": 1700
       },
       "entertainment": {
-        "description": "Private stadium suite, museum-trustee involvement, international travel",
+        "description": "Premium club seats and season tickets, museum-trustee involvement, international travel",
         "monthlyCost": 1900
       },
       "utilities": {
         "monthlyCost": 550
       },
       "domesticHelp": {
-        "description": "Full household staff-for-one",
+        "description": "Housekeeping twice a week plus occasional extra help",
         "monthlyCost": 1400
       },
       "luxuryExtras": {
         "description": "Bespoke travel, club memberships, philanthropy",
         "monthlyCost": 2200
       },
-      "lifestyle": "A historic Rittenhouse mansion or a grand Main Line estate, run by full household staff, anchors life at the top of Philadelphia — and because the city's cost base is moderate, the budget stretches further here than it would in New York. Dining spans a private chef and the region's finest tables, healthcare is a top plan with Penn Medicine or Jefferson executive-concierge access, and a fleet of luxury vehicles or first-class Acela covers travel up and down the corridor. A private stadium suite, museum-trustee involvement, bespoke travel, and a philanthropy budget are all comfortable. This is established wealth in a city that quietly delivers more lifestyle per dollar than its neighbors, with Manhattan an hour away when wanted."
+      "lifestyle": "A historic Rittenhouse mansion or a grand Main Line home, kept by housekeeping twice a week with extra help when needed, anchors life at the top of Philadelphia — and because the city's cost base is moderate, the budget stretches further here than it would in New York. Dining spans a private chef and the region's finest tables, healthcare is a top plan with Penn Medicine or Jefferson executive-concierge access, and one premium vehicle plus car service — or first-class Acela — covers travel up and down the corridor. Premium club seats and season tickets, museum-trustee involvement, bespoke travel, and a philanthropy budget are all comfortable. This is established wealth in a city that quietly delivers more lifestyle per dollar than its neighbors, with Manhattan an hour away when wanted."
     }
   },
   "scores": {

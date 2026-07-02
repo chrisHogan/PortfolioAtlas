@@ -91,7 +91,7 @@
         "monthlyCost": 2000
       },
       "dining": {
-        "description": "Regular dining at top Charlotte tables like The Stanley, Haymaker, and Steak 48",
+        "description": "Regular dining at top Charlotte tables like The Stanley, Supperland, and Steak 48",
         "monthlyCost": 450
       },
       "groceries": {
@@ -170,25 +170,25 @@
         "monthlyCost": 1400
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, a dedicated driver, private car service",
+        "description": "A premium vehicle plus regular private car service",
         "monthlyCost": 1600
       },
       "entertainment": {
-        "description": "A private box at Bank of America Stadium, art collecting, philanthropic galas, international travel",
+        "description": "Club-level Panthers season tickets, art collecting, philanthropic galas, international travel",
         "monthlyCost": 1800
       },
       "utilities": {
         "monthlyCost": 500
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper, personal assistant, and grounds/pool maintenance team",
+        "description": "Housekeeping several days a week plus grounds and pool service",
         "monthlyCost": 1200
       },
       "luxuryExtras": {
         "description": "First-class international travel, a lake house, private event hosting, angel investing, charitable giving",
         "monthlyCost": 2000
       },
-      "lifestyle": "An estate home in Myers Park or a lakefront property on Lake Norman, full-time staff, a private chef several days a week, and a private box at Bank of America Stadium for Panthers games. Travel is first class, healthcare is top-tier concierge care, and Charlotte's role as a major financial center provides a social scene oriented around business and philanthropy. The city's affordable cost base means this budget — roughly $215k a year — covers everything without strain."
+      "lifestyle": "An estate home in Myers Park or a lakefront property on Lake Norman, housekeeping several days a week, a private chef for regular dinners, and club-level Panthers season tickets at Bank of America Stadium. Travel is first class, healthcare is top-tier concierge care, and Charlotte's role as a major financial center provides a social scene oriented around business and philanthropy. The city's affordable cost base means this budget — roughly $215k a year — covers everything without strain."
     }
   },
   "scores": {

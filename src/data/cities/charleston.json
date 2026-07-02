@@ -155,7 +155,7 @@
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "A landmark historic estate South of Broad or a private compound on Kiawah Island",
+        "description": "A fine historic house South of Broad",
         "monthlyCost": 7500
       },
       "dining": {
@@ -170,7 +170,7 @@
         "monthlyCost": 1400
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, a private yacht, a driver for events and travel",
+        "description": "A premium vehicle plus car service, with harbor and island boat charters",
         "monthlyCost": 1600
       },
       "entertainment": {
@@ -181,14 +181,14 @@
         "monthlyCost": 650
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper, estate manager, boat captain, and garden staff",
+        "description": "Housekeeping several days a week plus a garden service",
         "monthlyCost": 1300
       },
       "luxuryExtras": {
         "description": "Historic-preservation endowments, European travel, a second home, a charitable foundation",
         "monthlyCost": 2200
       },
-      "lifestyle": "A landmark historic estate South of Broad or a private Kiawah Island compound, full-time domestic staff including an estate manager and boat captain, and a private chef several days a week. First-class travel, fine dining whenever desired, and a yacht for the harbor and barrier islands come standard, alongside top-tier concierge care at MUSC. Charleston's preservation community and cultural scene offer real ways to get involved. Housing absorbs a meaningful share, but the lifestyle is uncapped — roughly $240k a year."
+      "lifestyle": "A fine historic house South of Broad, housekeeping several days a week with a garden service, and a private chef several days a week. First-class travel, fine dining whenever desired, and chartered boat days on the harbor and barrier islands all fit comfortably, alongside top-tier concierge care at MUSC. Charleston's preservation community and cultural scene offer real ways to get involved. Housing absorbs a meaningful share, but the lifestyle is uncapped — roughly $240k a year."
     }
   },
   "scores": {

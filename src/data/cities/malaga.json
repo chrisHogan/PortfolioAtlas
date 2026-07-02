@@ -42,7 +42,7 @@
         "monthlyCost": 115
       },
       "transportation": {
-        "description": "EMT bus pass + MálagaBici (see low-confidence note on EMT price)",
+        "description": "EMT bus pass + MálagaBici bike-share",
         "monthlyCost": 35
       },
       "entertainment": {
@@ -72,7 +72,7 @@
         "monthlyCost": 150
       },
       "transportation": {
-        "description": "EMT bus pass + MálagaBici (see low-confidence note on EMT price)",
+        "description": "EMT bus pass + MálagaBici bike-share",
         "monthlyCost": 50
       },
       "entertainment": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 135
       },
-      "lifestyle": "A one-bedroom in the historic centre or near La Malagueta beach. Regular dining at the city's better restaurants, a broad-network private plan, a car for coast exploring, and AVE trips to Seville or Granada. Málaga's low costs make this an unmistakably affluent everyday life with room to travel."
+      "lifestyle": "A one-bedroom in the historic centre or near La Malagueta beach. Regular dining at the city's better restaurants, a broad-network private plan, the transit pass with taxis plus a weekend rental car for exploring the coast, and AVE trips to Seville or Granada. Málaga's low costs make this an unmistakably affluent everyday life with room to travel."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -132,7 +132,7 @@
         "monthlyCost": 330
       },
       "transportation": {
-        "description": "Add a car (Costa del Sol sprawl → slightly higher upper-tier transport than Valencia), driver at 10M",
+        "description": "Add a car for the spread-out Costa del Sol, with a driver for occasions at 10M",
         "monthlyCost": 250
       },
       "entertainment": {
@@ -170,7 +170,7 @@
         "monthlyCost": 705
       },
       "transportation": {
-        "description": "Add a car (Costa del Sol sprawl → slightly higher upper-tier transport than Valencia), driver at 10M",
+        "description": "Add a car for the spread-out Costa del Sol, with a driver for occasions at 10M",
         "monthlyCost": 620
       },
       "entertainment": {
@@ -188,7 +188,7 @@
         "description": "Yacht, art, bespoke travel",
         "monthlyCost": 1400
       },
-      "lifestyle": "A luxury one-to-two-bedroom at a landmark address around Muelle Uno or Centro Histórico. Private-chef dining, top international health cover, a chauffeured car, full household help, and generous discretionary spend on golf, boats, and travel. Málaga is affordable enough that this budget comfortably exceeds what the city itself absorbs."
+      "lifestyle": "A luxury one-to-two-bedroom at a landmark address around Muelle Uno or Centro Histórico. Private-chef dining, top international health cover, a premium car plus private transfers with a driver for occasions, full household help, and generous discretionary spend on golf, boats, and travel. Málaga is affordable enough that this budget comfortably exceeds what the city itself absorbs."
     }
   },
   "scores": {

@@ -38,7 +38,7 @@
         "monthlyCost": 400
       },
       "healthcare": {
-        "description": "MAGI-managed: NY's Essential Plan runs near-$0 at a managed-low income (≤200% FPL after 1 Jul 2026); nearer the 400%-FPL cliff (~$62,600) a subsidized Silver nets ~$450. $250 = a conservative middle for a genuinely lean, MAGI-managed retiree. Assumes 45–55; older retirees budget more. (NY-specific — see Discrepancy 2)",
+        "description": "MAGI-managed: NY's Essential Plan runs near-$0 at a managed-low income (≤200% FPL after 1 Jul 2026); nearer the 400%-FPL cliff (~$62,600) a subsidized Silver nets ~$450. $250 = a conservative middle for a genuinely lean, MAGI-managed retiree. Assumes 45–55; older retirees budget more",
         "monthlyCost": 250
       },
       "transportation": {
@@ -155,11 +155,11 @@
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Trophy penthouse in Tribeca or a full-floor residence on Central Park West, white-glove building",
+        "description": "High-floor luxury residence in a top Tribeca or Central Park West white-glove building (trophy penthouses and full-floor residences run $30k+)",
         "monthlyCost": 17000
       },
       "dining": {
-        "description": "Daily fine dining plus a part-time private chef",
+        "description": "Frequent fine dining with occasional private-chef evenings",
         "monthlyCost": 3500
       },
       "groceries": {
@@ -170,7 +170,7 @@
         "monthlyCost": 1850
       },
       "transportation": {
-        "description": "Private driver, Blade membership, charters",
+        "description": "On-demand black car plus occasional Blade flights",
         "monthlyCost": 2500
       },
       "entertainment": {
@@ -181,14 +181,14 @@
         "monthlyCost": 600
       },
       "domesticHelp": {
-        "description": "Full staff-for-one household: housekeeper, personal assistant, part-time chef",
+        "description": "Part-time housekeeper plus personal-assistant hours (a full-time NYC housekeeper alone runs $4.5–6k)",
         "monthlyCost": 3500
       },
       "luxuryExtras": {
         "description": "Bespoke travel, club memberships, art advisor",
         "monthlyCost": 3500
       },
-      "lifestyle": "A trophy penthouse in Tribeca or a full-floor residence on Central Park West, in a white-glove building with full household staff, sits at the very top of what American city living costs. Dining is daily at the city's best rooms with a part-time private chef for evenings in, healthcare is an elite concierge arrangement layered over a top plan, and a private driver plus a Blade or charter membership erase the friction of the city. Board and patron seats at the major cultural institutions, an art-advisory and philanthropy budget, and bespoke travel are simply part of the year. This is the summit of New York — the most expensive of the US metros by a wide margin — where means translate into an uncapped calendar."
+      "lifestyle": "A high-floor luxury residence in a top Tribeca or Central Park West white-glove building, with a part-time housekeeper and personal-assistant hours keeping the week in order, sits near the very top of what American city living costs — true trophy penthouses and full-floor residences occupy a tier above even this budget. Dining is frequent at the city's best rooms with occasional private-chef evenings in, healthcare is an elite concierge arrangement layered over a top plan, and on-demand black cars plus the occasional Blade flight erase the friction of the city. Board and patron seats at the major cultural institutions, an art-advisory and philanthropy budget, and bespoke travel are simply part of the year. This is New York near its summit — the most expensive of the US metros by a wide margin — where means translate into an exceptionally full calendar."
     }
   },
   "scores": {

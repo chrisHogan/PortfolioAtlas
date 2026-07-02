@@ -6,7 +6,7 @@
   "emoji": "🇦🇺",
   "fireScore": 8.5,
   "tagline": "Coffee Culture, Sports Obsessed, and Endlessly Livable",
-  "description": "Melbourne consistently ranks among the world's most livable cities, and for good reason. The city offers an extraordinary food and coffee scene, world-class sports events (Australian Open, F1, AFL), vibrant arts and music, and a relaxed yet cosmopolitan atmosphere. While housing costs are significant and the overall cost of living is high by global standards, Melbourne rewards residents with excellent public services, universal healthcare through Medicare, and a quality of life that few cities can match.",
+  "description": "Melbourne consistently ranks among the world's most livable cities, and for good reason. The city offers an extraordinary food and coffee scene, world-class sports events (Australian Open, F1, AFL), vibrant arts and music, and a relaxed yet cosmopolitan atmosphere. While housing costs are significant and the overall cost of living is high by global standards, Melbourne rewards residents with excellent public services, some of the world's best hospitals and specialists (budgets here assume private visitor health cover, since non-resident retirees don't qualify for Medicare), and a quality of life that few cities can match.",
   "tags": {
     "climate": "mediterranean",
     "english": "high"
@@ -91,7 +91,7 @@
         "monthlyCost": 1780
       },
       "dining": {
-        "description": "Fine dining at hatted restaurants like Attica and Lume, regular wine bar visits, hosted dinner parties",
+        "description": "Fine dining at hatted restaurants like Attica and Gimlet, regular wine bar visits, hosted dinner parties",
         "monthlyCost": 450
       },
       "groceries": {
@@ -170,7 +170,7 @@
         "monthlyCost": 1000
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, dedicated driver, first-class international travel, charter flights",
+        "description": "One luxury vehicle, a driver when wanted, and first-class international travel",
         "monthlyCost": 900
       },
       "entertainment": {

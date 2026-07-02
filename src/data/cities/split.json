@@ -170,7 +170,7 @@
         "monthlyCost": 680
       },
       "transportation": {
-        "description": "Chauffeured car + boat + flights across Europe",
+        "description": "Premium car + private transfers + boat charters + flights across Europe",
         "monthlyCost": 720
       },
       "entertainment": {
@@ -181,14 +181,14 @@
         "monthlyCost": 250
       },
       "domesticHelp": {
-        "description": "Full estate staff + boat crew",
+        "description": "Housekeeping several days a week",
         "monthlyCost": 720
       },
       "luxuryExtras": {
-        "description": "Yacht ownership, island property, foundation, wine estate",
+        "description": "Regular boat charters, fine wine, generous giving",
         "monthlyCost": 850
       },
-      "lifestyle": "A luxury one-to-two-bedroom at a prime address — a Varoš stone house, a Bačvice seafront flat, or the Meje/Marjan slope. Private-chef-level dining, top-tier international health cover, a chauffeured car, and full household help, with a nice boat for Adriatic cruising. As a mid-sized city, Split offers limited ways to spend this much locally, so frequent travel becomes part of the lifestyle by default."
+      "lifestyle": "A luxury one-to-two-bedroom at a prime address — a Varoš stone house, a Bačvice seafront flat, or the Meje/Marjan slope. Private-chef-level dining, top-tier international health cover, a premium car with private transfers and a driver for occasions, and housekeeping several days a week, with regular boat charters for Adriatic cruising. As a mid-sized city, Split offers limited ways to spend this much locally, so frequent travel becomes part of the lifestyle by default."
     }
   },
   "scores": {

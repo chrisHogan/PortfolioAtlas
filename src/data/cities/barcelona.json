@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 140
       },
-      "lifestyle": "A furnished one-bedroom in desirable, central Eixample, steps from cafés and the metro. Regular meals at the city's celebrated restaurants, a broad-network private plan with fast specialist access, a leased car for weekend escapes, and several European trips a year. Genuinely affluent daily life in one of Barcelona's best districts."
+      "lifestyle": "A furnished one-bedroom in desirable, central Eixample, steps from cafés and the metro. Regular meals at the city's celebrated restaurants, a broad-network private plan with fast specialist access, the transit pass with taxis on top and a rental car for Costa Brava weekends, and several European trips a year. Genuinely affluent daily life in one of Barcelona's best districts."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -132,7 +132,7 @@
         "monthlyCost": 330
       },
       "transportation": {
-        "description": "Add a leased/luxury car (and driver at 10M)",
+        "description": "Add a leased/luxury car (and a driver for occasions at 10M)",
         "monthlyCost": 260
       },
       "entertainment": {
@@ -170,7 +170,7 @@
         "monthlyCost": 705
       },
       "transportation": {
-        "description": "Add a leased/luxury car (and driver at 10M)",
+        "description": "Add a leased/luxury car (and a driver for occasions at 10M)",
         "monthlyCost": 650
       },
       "entertainment": {
@@ -188,7 +188,7 @@
         "description": "Art, yacht/marina, bespoke travel",
         "monthlyCost": 1600
       },
-      "lifestyle": "A luxury residence on Passeig de Gràcia or in leafy Pedralbes. Private-chef-level dining and the finest tables in the city, top-tier international health cover, a chauffeured car on top of transit, full household help, and a generous travel-and-culture budget. Barcelona is no Zurich-scale price outlier, so even uncapped luxury here settles near $10k/mo."
+      "lifestyle": "A luxury residence on Passeig de Gràcia or in leafy Pedralbes. Private-chef-level dining and the finest tables in the city, top-tier international health cover, a premium car and private transfers on top of transit — with a driver for occasions — full household help, and a generous travel-and-culture budget. Barcelona is no Zurich-scale price outlier, so even uncapped luxury here settles near $10k/mo."
     }
   },
   "scores": {

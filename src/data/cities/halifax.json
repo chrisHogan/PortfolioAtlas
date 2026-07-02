@@ -38,7 +38,7 @@
         "monthlyCost": 350
       },
       "healthcare": {
-        "description": "MSI covers doctors and hospitals; basic dental-and-prescription extended supplement",
+        "description": "MSI covers doctors and hospitals; basic dental-and-prescription extended supplement. Note: MSI requires Nova Scotia residency — a non-resident early retiree should budget for private cover",
         "monthlyCost": 50
       },
       "transportation": {
@@ -98,7 +98,7 @@
         "monthlyCost": 475
       },
       "healthcare": {
-        "description": "MSI plus comprehensive private cover for faster access",
+        "description": "MSI plus comprehensive private cover for faster access. Note: MSI requires Nova Scotia residency — a non-resident early retiree should budget for private cover",
         "monthlyCost": 125
       },
       "transportation": {
@@ -166,7 +166,7 @@
         "monthlyCost": 750
       },
       "healthcare": {
-        "description": "MSI plus concierge-grade and international medical cover",
+        "description": "MSI plus concierge-grade and international medical cover. Note: MSI requires Nova Scotia residency — a non-resident early retiree should budget for private cover",
         "monthlyCost": 380
       },
       "transportation": {

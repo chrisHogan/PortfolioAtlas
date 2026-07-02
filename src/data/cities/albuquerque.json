@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "A quality home in Sandia Heights or the North Valley with mountain or bosque views, frequent dinners at Campo and Los Poblanos, and a late-model SUV for desert and mountain excursions. A golf membership, hot-air-balloon rides, and trips to the Santa Fe Opera and Canyon Road galleries all fit the budget. Healthcare is a padded Gold plan near the ~$62,600 ACA cliff. An affluent, low-friction life with substantial margin at local prices."
+      "lifestyle": "A quality one-bedroom or small adobe in Nob Hill or the North Valley, frequent dinners at Campo and Los Poblanos, and a late-model SUV for desert and mountain excursions. A golf membership, hot-air-balloon rides, and trips to the Santa Fe Opera and Canyon Road galleries all fit the budget. Healthcare is a padded Gold plan near the ~$62,600 ACA cliff. An affluent, low-friction life with substantial margin at local prices."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -170,7 +170,7 @@
         "monthlyCost": 1400
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, private car service, chartered flights from ABQ",
+        "description": "A premium SUV with full ownership costs, plus regular private car service",
         "monthlyCost": 1550
       },
       "entertainment": {
@@ -181,14 +181,14 @@
         "monthlyCost": 480
       },
       "domesticHelp": {
-        "description": "Full-time estate manager, housekeeper, and groundskeeper",
+        "description": "Housekeeping several days a week plus xeriscape and grounds service",
         "monthlyCost": 1150
       },
       "luxuryExtras": {
         "description": "First-class travel, a major art collection, cultural philanthropy, a Santa Fe pied-à-terre",
         "monthlyCost": 1950
       },
-      "lifestyle": "A grand Sandia Heights estate or a sprawling North Valley hacienda with full-time domestic staff — estate manager, housekeeper, groundskeeper — plus a private chef several days a week. First-class travel, top-tier concierge medicine, and daily fine dining are unremarkable at this level, and a Santa Fe pied-à-terre is within reach. Albuquerque's low cost base makes this genuinely lavish living — roughly $184k a year — with large monthly margins."
+      "lifestyle": "A grand Sandia Heights home or a North Valley hacienda, with housekeeping and grounds help several days a week and occasional private-chef evenings alongside the region's best tables. First-class travel, top-tier concierge medicine, and daily fine dining are unremarkable at this level, and a Santa Fe pied-à-terre is within reach. Albuquerque's low cost base makes this genuinely lavish living — roughly $184k a year — with large monthly margins."
     }
   },
   "scores": {

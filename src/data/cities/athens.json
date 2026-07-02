@@ -102,7 +102,7 @@
         "monthlyCost": 160
       },
       "transportation": {
-        "description": "Pass + occasional taxi/Beat",
+        "description": "Pass + occasional taxi via FREENOW or Uber Taxi",
         "monthlyCost": 90
       },
       "entertainment": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 170
       },
-      "lifestyle": "A one-bedroom in a desirable central district — Koukaki, Pangrati, or Mets — within walking distance of the Acropolis and the best street food. Regular dining at well-regarded restaurants, a broad-network private plan with fast specialist access, and a leased car for coastal drives and the Peloponnese. Boat day trips to the Saronic islands and Epidaurus theater tickets fit easily. This is a genuinely affluent Athens life with room to spare."
+      "lifestyle": "A one-bedroom in a desirable central district — Koukaki, Pangrati, or Mets — within walking distance of the Acropolis and the best street food. Regular dining at well-regarded restaurants, a broad-network private plan with fast specialist access, and the transit pass with taxi apps on top plus weekend rental cars for coastal drives and the Peloponnese. Boat day trips to the Saronic islands and Epidaurus theater tickets fit easily. This is a genuinely affluent Athens life with room to spare."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -170,7 +170,7 @@
         "monthlyCost": 640
       },
       "transportation": {
-        "description": "Chauffeured car + transit + seasonal fast-ferry",
+        "description": "Premium car + private transfers + transit + seasonal fast-ferry",
         "monthlyCost": 800
       },
       "entertainment": {
@@ -188,7 +188,7 @@
         "description": "Yacht/marina, bespoke Aegean itineraries, patronage",
         "monthlyCost": 700
       },
-      "lifestyle": "A luxury one-to-two-bedroom in Kolonaki or a prime address on the Athens Riviera between Glyfada and Vouliagmeni, with easy coastal access. Private-chef-level dining, top-tier international health cover, a chauffeured car alongside transit, and full household help. Boats can be chartered for Aegean trips at will and travel is first-class by default. Athens at this level is very comfortable, though its ultra-luxury infrastructure is thinner than in London or Paris, so much of the discretionary budget flows into travel."
+      "lifestyle": "A luxury one-to-two-bedroom in Kolonaki or a prime address on the Athens Riviera between Glyfada and Vouliagmeni, with easy coastal access. Private-chef-level dining, top-tier international health cover, a premium car and private transfers alongside transit — with a driver for occasions — and full household help. Occasional Aegean boat charters mark the summer and travel is first-class by default. Athens at this level is very comfortable, though its ultra-luxury infrastructure is thinner than in London or Paris, so much of the discretionary budget flows into travel."
     }
   },
   "scores": {

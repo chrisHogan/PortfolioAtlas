@@ -181,14 +181,14 @@
         "monthlyCost": 430
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper (~$1,000/mo incl. mandatory govt charges), scaled to a single home",
+        "description": "Full-time housekeeper (~$880/mo incl. mandatory govt charges)",
         "monthlyCost": 880
       },
       "luxuryExtras": {
         "description": "Club memberships, concierge, premium services, uncapped discretionary",
         "monthlyCost": 1340
       },
-      "lifestyle": "A best-address luxury house or penthouse in Carrasco, the city's most elegant district, run by full-time household staff. Dining is near-daily at the finest tables, healthcare is an international concierge plan with worldwide coverage and evacuation, and a private car with driver handles transport. The uncapped discretionary budget runs to country and yacht clubs, art collecting, and the Punta del Este social season. Uruguay's stability, safety, and zero foreign-income tax make this the most secure — and, in this batch, the most expensive — base for top-tier living."
+      "lifestyle": "A best-address luxury house or penthouse in Carrasco, the city's most elegant district, run by a full-time housekeeper. Dining is near-daily at the finest tables, healthcare is an international concierge plan with worldwide coverage and evacuation, and a private car with driver handles transport. The uncapped discretionary budget runs to country and yacht clubs, art collecting, and the Punta del Este social season. Uruguay's stability, safety, and zero foreign-income tax make this the most secure base for top-tier living."
     }
   },
   "scores": {

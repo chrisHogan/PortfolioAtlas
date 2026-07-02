@@ -155,11 +155,11 @@
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Historic Kalorama mansion, Georgetown estate, or Embassy Row property (calibrated; true estate rents run $10k–18k+)",
+        "description": "Historic Kalorama mansion, Georgetown estate, or Embassy Row property — full estates rent $10k–18k+; this prices a grand residence below that ceiling",
         "monthlyCost": 10000
       },
       "dining": {
-        "description": "Daily fine dining with a private chef for evenings in",
+        "description": "Frequent fine dining with occasional private-chef evenings",
         "monthlyCost": 2500
       },
       "groceries": {
@@ -181,14 +181,14 @@
         "monthlyCost": 700
       },
       "domesticHelp": {
-        "description": "Housekeeper plus part-time staff-for-one",
+        "description": "Housekeeper plus part-time help",
         "monthlyCost": 2200
       },
       "luxuryExtras": {
         "description": "Clubs, art, first-class travel, a Virginia weekend property",
         "monthlyCost": 2400
       },
-      "lifestyle": "A historic Kalorama mansion, a Georgetown estate, or an Embassy Row property, run by full household staff, anchors life at the top of Washington. Dining is daily at the finest tables with a private chef for evenings in, healthcare is a top plan with full concierge care at GW or Sibley and Johns Hopkins specialist access, and a private car handles the city and the Virginia countryside. Smithsonian and Kennedy Center patronage at the board level, galas, art collecting, and a weekend property in horse country are all comfortable, along with first-class travel. This is established, cultured wealth in a city whose intellectual and diplomatic life runs deep."
+      "lifestyle": "A historic Kalorama mansion, a Georgetown estate, or an Embassy Row property, kept by a housekeeper with part-time help, anchors life at the top of Washington. Dining is frequent at the finest tables, with the occasional private-chef evening in, healthcare is a top plan with full concierge care at GW or Sibley and Johns Hopkins specialist access, and a private car handles the city and the Virginia countryside. Smithsonian and Kennedy Center patronage at the board level, galas, art collecting, and a weekend property in horse country are all comfortable, along with first-class travel. This is established, cultured wealth in a city whose intellectual and diplomatic life runs deep."
     }
   },
   "scores": {

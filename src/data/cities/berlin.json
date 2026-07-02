@@ -104,11 +104,11 @@
         "monthlyCost": 390
       },
       "healthcare": {
-        "description": "Income-based voluntary GKV or a solid single PKV plan. Note: a non-EU early retiree may not qualify for public GKV and should budget for private (PKV) or international cover.",
+        "description": "Income-based voluntary GKV or a solid individual PKV plan. Note: a non-EU early retiree may not qualify for public GKV and should budget for private (PKV) or international cover.",
         "monthlyCost": 630
       },
       "transportation": {
-        "description": "Transit plus occasional car use",
+        "description": "The Deutschlandticket covering transit citywide",
         "monthlyCost": 72
       },
       "entertainment": {
@@ -165,7 +165,7 @@
         "monthlyCost": 4570
       },
       "dining": {
-        "description": "Private-chef dining and the finest restaurants",
+        "description": "The finest restaurants regularly, with occasional private-chef evenings",
         "monthlyCost": 1030
       },
       "groceries": {
@@ -176,7 +176,7 @@
         "monthlyCost": 1085
       },
       "transportation": {
-        "description": "Luxury vehicles and charters",
+        "description": "One premium car plus taxis",
         "monthlyCost": 570
       },
       "entertainment": {
@@ -187,14 +187,14 @@
         "monthlyCost": 250
       },
       "domesticHelp": {
-        "description": "Full household staff",
+        "description": "Weekly housekeeping plus extra help as needed",
         "monthlyCost": 685
       },
       "luxuryExtras": {
         "description": "Bespoke travel, art, and cultural patronage",
         "monthlyCost": 1600
       },
-      "lifestyle": "Uncapped single-person luxury — a large prime-district flat, routine fine dining, top private cover, a car on top of transit, weekly help, and a generous travel-and-culture budget. Berlin is not a Zurich or Monaco price outlier, so even solo FatFIRE lands around $11k/mo."
+      "lifestyle": "Uncapped luxury — a large prime-district flat, routine fine dining, top private cover, a car on top of transit, weekly help, and a generous travel-and-culture budget. Berlin is not a Zurich or Monaco price outlier, so the total lands around $11k/mo."
     }
   },
   "dataRecency": "Q3 2026"

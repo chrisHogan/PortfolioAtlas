@@ -155,7 +155,7 @@
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Gulf-front luxury condo on Longboat, Lido, or Siesta Key (annual luxury leases run $9k–11k for 2BR/penthouse; a solo high-floor unit ~$8,000)",
+        "description": "Gulf-front luxury condo on Longboat, Lido, or Siesta Key (annual luxury leases run $9k–11k for 2BR/penthouse; a high-floor unit ~$8,000)",
         "monthlyCost": 8000
       },
       "dining": {
@@ -181,7 +181,7 @@
         "monthlyCost": 750
       },
       "domesticHelp": {
-        "description": "Near-daily housekeeper + part-time estate manager/PA (staff-for-one)",
+        "description": "Near-daily housekeeper + part-time estate manager/PA",
         "monthlyCost": 1800
       },
       "luxuryExtras": {

@@ -155,7 +155,7 @@
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "An oceanfront estate in Ponte Vedra Beach or a historic riverfront mansion in Ortega",
+        "description": "A historic riverfront mansion in Ortega",
         "monthlyCost": 6500
       },
       "dining": {
@@ -170,25 +170,25 @@
         "monthlyCost": 1400
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, a yacht with a captain, private car service",
+        "description": "A premium vehicle plus car service, with boat-club and charter outings",
         "monthlyCost": 1650
       },
       "entertainment": {
-        "description": "A private box at EverBank Stadium, international fishing trips, art collecting, philanthropy",
+        "description": "Club-level Jaguars season tickets, international fishing trips, art collecting, philanthropy",
         "monthlyCost": 1800
       },
       "utilities": {
         "monthlyCost": 550
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper, personal assistant, boat crew, and grounds/pool team",
+        "description": "Housekeeping several days a week plus grounds and pool service",
         "monthlyCost": 1250
       },
       "luxuryExtras": {
-        "description": "First-class international travel, yacht trips through the Keys, charitable foundations, real-estate investing",
+        "description": "First-class international travel, chartered yacht trips through the Keys, charitable foundations, real-estate investing",
         "monthlyCost": 2100
       },
-      "lifestyle": "An oceanfront estate in Ponte Vedra Beach or a historic riverfront property in Ortega, full-time domestic staff, and a private chef several days a week. First-class travel, top-tier Mayo Clinic concierge care, a yacht with a captain, and a private box at EverBank Stadium come standard. Florida's zero income tax on roughly $218k a year of spending represents significant annual savings, funding an uncapped coastal life with deep-sea fishing and international travel."
+      "lifestyle": "A historic riverfront mansion in Ortega, housekeeping several days a week with grounds and pool service, and a private chef several days a week. First-class travel, top-tier Mayo Clinic concierge care, chartered boat days on the water, and club-level Jaguars season tickets at EverBank Stadium all fit comfortably. Florida's zero income tax on roughly $218k a year of spending represents significant annual savings, funding an uncapped coastal life with deep-sea fishing and international travel."
     }
   },
   "scores": {

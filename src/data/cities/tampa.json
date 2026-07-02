@@ -68,7 +68,7 @@
         "monthlyCost": 380
       },
       "healthcare": {
-        "description": "Full-price (unsubsidized) low-cost Silver, above the cliff — corrected up from the researcher's cheapest-plan figure to FLOIR benchmark parity",
+        "description": "Full-price (unsubsidized) low-cost Silver, above the cliff — budget at Tampa Bay's FLOIR benchmark level rather than the bare cheapest plan",
         "monthlyCost": 720
       },
       "transportation": {
@@ -98,7 +98,7 @@
         "monthlyCost": 440
       },
       "healthcare": {
-        "description": "Unsubsidized Hillsborough Silver at full price (above the cliff); FLOIR shows Tampa Bay ≈ Sarasota, so this is corrected UP from the researcher's cheapest-plan $620",
+        "description": "Unsubsidized Hillsborough Silver at full price (above the cliff); FLOIR shows Tampa Bay pricing roughly on par with Sarasota, so budget at benchmark level rather than the cheapest listed plan",
         "monthlyCost": 950
       },
       "transportation": {
@@ -181,14 +181,14 @@
         "monthlyCost": 550
       },
       "domesticHelp": {
-        "description": "Staff-for-one household",
+        "description": "Housekeeping several days a week plus occasional extra help",
         "monthlyCost": 1600
       },
       "luxuryExtras": {
         "description": "First-class travel, club dues, philanthropy",
         "monthlyCost": 2200
       },
-      "lifestyle": "A waterfront penthouse along Bayshore Boulevard, in Water Street Tampa, or on Davis Islands, kept by household staff, defines life at the top of the Bay area. Dining is a near-daily affair at Bern's, Ulele, and the city's best rooms, healthcare pairs a top-tier plan with a concierge retainer and access to Tampa General and Moffitt, and a luxury vehicle with a yacht-club slip covers the water. A premium suite at Bucs games, a country-club membership, deep-sea fishing charters, and first-class travel are all part of the calendar, with a generous discretionary and philanthropy budget besides. As a genuine metro with real waterfront luxury, Tampa's uncapped life lands comfortably above Savannah's and just above Philadelphia's, with zero state income tax compounding the advantage."
+      "lifestyle": "A waterfront penthouse along Bayshore Boulevard, in Water Street Tampa, or on Davis Islands, kept by housekeeping several days a week, defines life at the top of the Bay area. Dining is a near-daily affair at Bern's, Ulele, and the city's best rooms, healthcare pairs a top-tier plan with a concierge retainer and access to Tampa General and Moffitt, and a luxury vehicle with a yacht-club slip covers the water. A premium suite at Bucs games, a country-club membership, deep-sea fishing charters, and first-class travel are all part of the calendar, with a generous discretionary and philanthropy budget besides. As a genuine metro with real waterfront luxury, Tampa delivers this uncapped life for far less than the big coastal metros would charge, with zero state income tax compounding the advantage."
     }
   },
   "scores": {

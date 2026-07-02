@@ -46,13 +46,13 @@
         "monthlyCost": 300
       },
       "entertainment": {
-        "description": "Free museums on Hillsborough Street, greenway hiking, budget NC State games",
+        "description": "Free state museums downtown by the Capitol, greenway hiking, budget NC State games",
         "monthlyCost": 110
       },
       "utilities": {
         "monthlyCost": 185
       },
-      "lifestyle": "A cheapest-acceptable one-bedroom in Southeast Raleigh or near Brier Creek, cooking most meals at home with food trucks and breweries a few times a week. A paid-off car handles most errands, though parts of the city are bikeable, and proximity to Duke and UNC hospitals means good access even on a budget — with the ACA Silver premium affordable only if MAGI stays under the 2026 ~$62,600 cliff. Free museums on Hillsborough Street and the extensive greenway trails fill the calendar, and the mild climate keeps utilities manageable."
+      "lifestyle": "A cheapest-acceptable one-bedroom in Southeast Raleigh or near Brier Creek, cooking most meals at home with food trucks and breweries a few times a week. A paid-off car handles most errands, though parts of the city are bikeable, and proximity to Duke and UNC hospitals means good access even on a budget — with the ACA Silver premium affordable only if MAGI stays under the 2026 ~$62,600 cliff. The free state museums downtown by the Capitol and the extensive greenway trails fill the calendar, and the mild climate keeps utilities manageable."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -170,7 +170,7 @@
         "monthlyCost": 1400
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, private car service, chartered flights from RDU",
+        "description": "A premium vehicle plus regular private car service",
         "monthlyCost": 1600
       },
       "entertainment": {
@@ -181,14 +181,14 @@
         "monthlyCost": 500
       },
       "domesticHelp": {
-        "description": "Full-time estate manager, housekeeper, personal assistant, groundskeeper",
+        "description": "Housekeeping several days a week plus a grounds service",
         "monthlyCost": 1200
       },
       "luxuryExtras": {
-        "description": "A second home on the Outer Banks, first-class international travel, endowed university chairs, foundation work",
+        "description": "Regular Outer Banks getaways, first-class international travel, meaningful university giving, foundation work",
         "monthlyCost": 2050
       },
-      "lifestyle": "A grand estate in Hayes Barton or a Cary compound with acreage, full-time domestic staff, and a private chef several days a week, with top-tier concierge care at Duke or UNC and specialist access on demand. First-class travel, multiple vehicles, and a second home on the Outer Banks are all within reach. The Triangle's three research universities and major medical centers anchor a life — roughly $206k a year — where daily costs never register, with room for endowed philanthropy."
+      "lifestyle": "A grand estate in Hayes Barton or a Cary compound with acreage, housekeeping several days a week with a grounds service, and a private chef several days a week, with top-tier concierge care at Duke or UNC and specialist access on demand. First-class travel, a premium vehicle with car service, and regular Outer Banks getaways are all within reach. The Triangle's three research universities and major medical centers anchor a life — roughly $206k a year — where daily costs never register, with room for meaningful philanthropy."
     }
   },
   "scores": {

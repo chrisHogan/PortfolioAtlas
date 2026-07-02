@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 36
       },
-      "lifestyle": "A dignified solo budget, not a survival floor — a private 1BHK in a decent, safe South-Delhi colony, home cooking with cheap street/thali meals, metro-first mobility, and real individual health cover. Comfortable for one, with almost no discretionary fat. Winter air quality and summer A/C are the real costs of living here."
+      "lifestyle": "A dignified budget, not a survival floor — a private 1BHK in a decent, safe South-Delhi colony, home cooking with cheap street/thali meals, metro-first mobility, and real individual health cover. Comfortable, with almost no discretionary fat. Winter air quality and summer A/C are the real costs of living here."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 65
       },
-      "lifestyle": "Comfortable solo living with real margin — a well-located flat in a leafy prime colony, eating out several times a week, a strong ₹1cr insurance stack, and either a car or unlimited ride-hail. Weekend Himalayan/Rajasthan getaways and a gym are baked in."
+      "lifestyle": "Comfortable living with real margin — a well-located flat in a leafy prime colony, eating out several times a week, a strong ₹1cr insurance stack, and either a car or unlimited ride-hail. Weekend Himalayan/Rajasthan getaways and a gym are baked in."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -188,7 +188,7 @@
         "description": "Luxury travel, concierge, shopping, memberships",
         "monthlyCost": 420
       },
-      "lifestyle": "Genuine solo luxury — a large flat in the most prestigious colonies, a driver, a live-in cook/housekeeper, top international health cover, and a fine-dining/travel budget. Honestly capped by being ONE person: a solo resident cannot consume a household’s housing, food, or staff without waste, so this sits far below a family Fat FIRE."
+      "lifestyle": "Genuine luxury — a large flat in the most prestigious colonies, a driver, a full-time cook/housekeeper, top international health cover, and a fine-dining/travel budget. Honestly capped by what the market can absorb: even prime Delhi rents, dining, and staff cannot soak up this budget without waste, so expect a large monthly surplus."
     }
   },
   "scores": {

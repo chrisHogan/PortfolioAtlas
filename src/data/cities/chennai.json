@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 42
       },
-      "lifestyle": "A very affordable solo life anchored by healthcare peace of mind — a modest 1BHK, metro-and-auto mobility, thali/dosa eating, and individual cover giving access to some of India’s best hospitals (Apollo, MIOT). Heat and humidity are constant, and A/C makes utilities the one line that runs higher than the cooler metros."
+      "lifestyle": "A very affordable life anchored by healthcare peace of mind — a modest 1BHK, metro-and-auto mobility, thali/dosa eating, and individual cover giving access to some of India’s best hospitals (Apollo, MIOT). Heat and humidity are constant, and A/C makes utilities the one line that runs higher than the cooler metros."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 60
       },
-      "lifestyle": "Comfortable coastal solo living — a good flat near the beach or along ECR, regular dining out, a car or unlimited ride-hail, and weekend trips down the coast. Best-in-class hospital access removes the main tail risk; A/C keeps utilities above the cooler metros."
+      "lifestyle": "Comfortable coastal living — a good flat near the beach or along ECR, regular dining out, a car or unlimited ride-hail, and weekend trips down the coast. Best-in-class hospital access removes the main tail risk; A/C keeps utilities above the cooler metros."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -155,7 +155,7 @@
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Large apartment or ECR villa for one",
+        "description": "Large apartment or ECR villa",
         "monthlyCost": 1550
       },
       "dining": {
@@ -188,7 +188,7 @@
         "description": "Luxury travel, resort stays, memberships",
         "monthlyCost": 360
       },
-      "lifestyle": "Solo luxury with a medical moat — a large ECR villa or penthouse, a driver, a cook and housekeeper, international cover anchored by Apollo, and a strong travel budget. The coastal heat means A/C-driven utilities are the highest of the five cities at this level."
+      "lifestyle": "Luxury with a medical moat — a large ECR villa or penthouse, a driver, a cook and housekeeper, international cover anchored by Apollo, and a strong travel budget. The coastal heat means A/C-driven utilities run higher at this level than in India’s cooler metros."
     }
   },
   "scores": {

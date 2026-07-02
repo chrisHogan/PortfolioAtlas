@@ -102,7 +102,7 @@
         "monthlyCost": 260
       },
       "transportation": {
-        "description": "Leased car with driver for traffic, domestic flights, boat transfers",
+        "description": "Heavy Grab plus hired cars for provincial trips, budget flights and ferries",
         "monthlyCost": 170
       },
       "entertainment": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 130
       },
-      "lifestyle": "A nice beachfront unit on Mactan or a premium Business Park high-rise with views, dining at Cebu's best and regular seafood feasts. A leased car with a driver for the traffic, domestic flights and boat transfers for island exploration, and a mid international plan. A genuinely affluent island routine, with diving and beaches always close."
+      "lifestyle": "A nice beachfront unit on Mactan or a premium Business Park high-rise with views, dining at Cebu's best and regular seafood feasts. Heavy Grab through the traffic with hired cars for provincial trips, budget flights and ferries for island exploration, and a mid international plan. A genuinely affluent island routine, with diving and beaches always close."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -155,7 +155,7 @@
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Large oceanfront estate on Mactan with private beach and dock",
+        "description": "Large Mactan house near the water",
         "monthlyCost": 1550
       },
       "dining": {
@@ -188,7 +188,7 @@
         "description": "Luxury travel, marine conservation, bespoke experiences",
         "monthlyCost": 500
       },
-      "lifestyle": "A large oceanfront estate on Mactan with private beach and dock, run by a housekeeper, an occasional cook, groundskeepers, and a driver. Full concierge international health cover with fly-anywhere specialist access, fine dining as available, first-class international travel, and a boat for the Visayan Sea. This is far more than Cebu's market can absorb — the ceiling is set by limited luxury infrastructure, occasional typhoons, and the distance from major Asian hubs."
+      "lifestyle": "A large Mactan house near the water, run by a housekeeper, an occasional cook, groundskeepers, and a driver. Full concierge international health cover with fly-anywhere specialist access, fine dining as available, first-class international travel, and a boat for the Visayan Sea. This is far more than Cebu's market can absorb — the ceiling is set by limited luxury infrastructure, occasional typhoons, and the distance from major Asian hubs."
     }
   },
   "scores": {

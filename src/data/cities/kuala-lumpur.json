@@ -102,7 +102,7 @@
         "monthlyCost": 240
       },
       "transportation": {
-        "description": "Routine Grab plus a leased car and domestic flights",
+        "description": "Grab for daily mobility, occasional car rentals, cheap AirAsia hops",
         "monthlyCost": 160
       },
       "entertainment": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 130
       },
-      "lifestyle": "A good 1-bedroom in a nicer KLCC-fringe, Mont Kiara, or Bangsar condo with premium amenities, and regular dining across KL's outstanding Malay, Chinese, Indian, and international kitchens. A leased car for daily use with Grab at night, plus cheap AirAsia hops to Penang or Langkawi. A comprehensive local or entry-international plan brings VIP access at the top private hospitals. This is an affluent capital-city routine in a place where costs stay moderate."
+      "lifestyle": "A good 1-bedroom in a nicer KLCC-fringe, Mont Kiara, or Bangsar condo with premium amenities, and regular dining across KL's outstanding Malay, Chinese, Indian, and international kitchens. Grab covers daily mobility, with occasional car rentals for road trips and cheap AirAsia hops to Penang or Langkawi. A comprehensive local or entry-international plan brings VIP access at the top private hospitals. This is an affluent capital-city routine in a place where costs stay moderate."
     },
     "5M": {
       "monthlyBudget": 16667,

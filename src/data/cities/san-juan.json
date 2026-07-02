@@ -159,7 +159,7 @@
         "monthlyCost": 6500
       },
       "dining": {
-        "description": "A personal chef plus the island's finest restaurants",
+        "description": "The island's finest restaurants plus occasional private-chef evenings",
         "monthlyCost": 1600
       },
       "groceries": {
@@ -181,14 +181,14 @@
         "monthlyCost": 400
       },
       "domesticHelp": {
-        "description": "Housekeeper, cook, and groundskeeper plus part-time staff",
+        "description": "Part-time housekeeper plus a grounds service",
         "monthlyCost": 1400
       },
       "luxuryExtras": {
         "description": "A yacht, first-class global travel, art, and a philanthropic foundation",
         "monthlyCost": 2200
       },
-      "lifestyle": "A Condado oceanfront penthouse or a Dorado Beach estate rental anchors life at the top, run by a housekeeper, cook, and groundskeeper. Dining spans a personal chef and the island's finest rooms, transportation means multiple luxury vehicles, a boat, and charters, and healthcare pairs concierge medicine with a top-tier, mainland-priced plan for genuine US specialist access rather than a worldwide-expat policy — being US soil, San Juan reaches for the mainland, not an international network. A private yacht, Dorado Beach golf, sport fishing, and first-class global travel round it out. The US-territory framework — banking, legal system, and citizenship — is the differentiator no foreign Caribbean destination can match."
+      "lifestyle": "A Condado oceanfront penthouse or a Dorado Beach estate rental anchors life at the top, kept by a part-time housekeeper and a grounds service — help here is priced at US mainland rates. Dining mixes the island's finest rooms with occasional private-chef evenings, transportation means multiple luxury vehicles, a boat, and charters, and healthcare pairs concierge medicine with a top-tier, mainland-priced plan for genuine US specialist access rather than a worldwide-expat policy — being US soil, San Juan reaches for the mainland, not an international network. A private yacht, Dorado Beach golf, sport fishing, and first-class global travel round it out. The US-territory framework — banking, legal system, and citizenship — is the differentiator no foreign Caribbean destination can match."
     }
   },
   "scores": {

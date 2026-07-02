@@ -38,7 +38,7 @@
         "monthlyCost": 370
       },
       "healthcare": {
-        "description": "BC MSP covers essentials; basic dental-vision-prescription supplement",
+        "description": "BC MSP covers essentials; basic dental-vision-prescription supplement. Note: MSP requires BC residency — a non-resident early retiree should budget for private cover",
         "monthlyCost": 50
       },
       "transportation": {
@@ -91,14 +91,14 @@
         "monthlyCost": 1600
       },
       "dining": {
-        "description": "Frequent fine dining at winery restaurants like Mission Hill and Quails' Gate",
+        "description": "Winery dinners at Mission Hill and Quails' Gate a few times a month, plus regular casual dining out",
         "monthlyCost": 500
       },
       "groceries": {
         "monthlyCost": 500
       },
       "healthcare": {
-        "description": "MSP plus comprehensive private cover",
+        "description": "MSP plus comprehensive private cover. Note: MSP requires BC residency — a non-resident early retiree should budget for private cover",
         "monthlyCost": 130
       },
       "transportation": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 185
       },
-      "lifestyle": "A modern one-bedroom in the Lower Mission or a lake-view newer build, with fine dining at winery restaurants like Mission Hill and Quails' Gate several times a week. A good SUV handles wine-country drives and Big White ski days, comprehensive private cover layers on top of MSP, and golf, sailing, and wine tours are all within budget. This is a genuinely comfortable Okanagan life with meaningful discretionary margin."
+      "lifestyle": "A modern one-bedroom in the Lower Mission or a lake-view newer build, with winery dinners at Mission Hill or Quails' Gate a few times a month alongside regular casual dining out. A good SUV handles wine-country drives and Big White ski days, comprehensive private cover layers on top of MSP, and golf, sailing, and wine tours are all within budget. This is a genuinely comfortable Okanagan life with meaningful discretionary margin."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -166,7 +166,7 @@
         "monthlyCost": 780
       },
       "healthcare": {
-        "description": "MSP plus concierge-grade and international medical cover",
+        "description": "MSP plus concierge-grade and international medical cover. Note: MSP requires BC residency — a non-resident early retiree should budget for private cover",
         "monthlyCost": 400
       },
       "transportation": {

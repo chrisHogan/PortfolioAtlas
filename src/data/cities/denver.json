@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 280
       },
-      "lifestyle": "A high-quality place in LoDo, the Highlands, or near Wash Park, regular dinners at the city's best tables, an Ikon Pass for Vail and Copper, and Broncos season tickets. A late-model SUV handles mountain trips year-round, and healthcare is a padded Gold plan near the ~$62,600 ACA cliff. Denver's moderate cost of living versus the coasts means this budget stretches into a genuinely affluent life."
+      "lifestyle": "A high-quality place in LoDo, the Highlands, or near Wash Park, regular dinners at the city's best tables, an Ikon Pass for Copper and Winter Park, and Broncos season tickets. A late-model SUV handles mountain trips year-round, and healthcare is a padded Gold plan near the ~$62,600 ACA cliff. Denver's moderate cost of living versus the coasts means this budget stretches into a genuinely affluent life."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -170,25 +170,25 @@
         "monthlyCost": 1450
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, private car service, chartered flights from Centennial",
+        "description": "A premium vehicle with full ownership costs, plus regular private car service",
         "monthlyCost": 1650
       },
       "entertainment": {
-        "description": "A private box at Empower Field, heli-skiing, international travel, major arts and hospital philanthropy",
+        "description": "Premium club-level Broncos season tickets, heli-skiing, international travel, major arts and hospital philanthropy",
         "monthlyCost": 1850
       },
       "utilities": {
         "monthlyCost": 510
       },
       "domesticHelp": {
-        "description": "Full-time estate manager, housekeeper, personal assistant, and maintenance crew",
+        "description": "Housekeeping several days a week plus grounds, snow-removal, and handyman service",
         "monthlyCost": 1300
       },
       "luxuryExtras": {
         "description": "An Aspen or Vail mountain estate, first-class international travel, art collecting, philanthropy",
         "monthlyCost": 2200
       },
-      "lifestyle": "A Cherry Hills Village estate or a prime-district penthouse with mountain views, full-time household staff, a private chef several days a week, and a personal assistant. Dining is anywhere, travel is first class, and a private box at Empower Field comes with the territory, alongside major support for the city's arts and hospitals. A second home in Aspen or Vail is feasible; the blend of urban amenities and immediate Rocky Mountain access defines the life at roughly $222k a year."
+      "lifestyle": "A Cherry Hills Village estate or a prime-district penthouse with mountain views, housekeeping and grounds help several days a week, and occasional private-chef evenings alongside the city's best restaurants. Dining is anywhere, travel is first class, and premium club-level Broncos season tickets come with the territory, alongside major support for the city's arts and hospitals. A second home in Aspen or Vail is feasible; the blend of urban amenities and immediate Rocky Mountain access defines the life at roughly $222k a year."
     }
   },
   "scores": {

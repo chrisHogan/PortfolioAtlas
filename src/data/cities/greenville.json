@@ -170,7 +170,7 @@
         "monthlyCost": 1400
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, private car service, chartered flights from GSP",
+        "description": "A premium vehicle plus regular private car service",
         "monthlyCost": 1600
       },
       "entertainment": {
@@ -181,14 +181,14 @@
         "monthlyCost": 500
       },
       "domesticHelp": {
-        "description": "Full-time estate manager, housekeeper, and groundskeeper",
+        "description": "Housekeeping several days a week plus a grounds service",
         "monthlyCost": 1200
       },
       "luxuryExtras": {
-        "description": "A second home on the coast, first-class travel, art gallery sponsorships, foundation giving",
+        "description": "Frequent coastal getaways, first-class travel, art gallery sponsorships, foundation giving",
         "monthlyCost": 2000
       },
-      "lifestyle": "A trophy estate on Paris Mountain or a property in the Cliffs communities, full-time domestic staff, and a private chef several days a week sourcing from Upstate farms. First-class travel, a second home on the coast, and top-tier concierge healthcare are all comfortable. Greenville's small-city costs mean roughly $203k a year covers premium living with very large margins."
+      "lifestyle": "A trophy estate on Paris Mountain or a property in the Cliffs communities, housekeeping several days a week with a grounds service, and a private chef several days a week sourcing from Upstate farms. First-class travel, frequent getaways to the Carolina coast, and top-tier concierge healthcare are all comfortable. Greenville's small-city costs mean roughly $203k a year covers premium living with very large margins."
     }
   },
   "scores": {

@@ -91,7 +91,7 @@
         "monthlyCost": 1640
       },
       "dining": {
-        "description": "Fine dining at top Auckland restaurants like Pasture and Sidart, Waiheke vineyard lunches",
+        "description": "Fine dining at top Auckland restaurants like Ahi and Onslow, Waiheke vineyard lunches",
         "monthlyCost": 310
       },
       "groceries": {
@@ -106,7 +106,7 @@
         "monthlyCost": 225
       },
       "entertainment": {
-        "description": "America's Cup sailing events, premium gym, ski trips to Ruapehu, wine club memberships",
+        "description": "Harbour sailing regattas like the Anniversary Day classic, premium gym, ski trips to Ruapehu, wine club memberships",
         "monthlyCost": 225
       },
       "utilities": {
@@ -170,7 +170,7 @@
         "monthlyCost": 1000
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, yacht, helicopter access, first-class international travel",
+        "description": "One premium car, regular sailing charters, and first-class international travel",
         "monthlyCost": 650
       },
       "entertainment": {

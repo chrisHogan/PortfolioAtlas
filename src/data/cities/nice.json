@@ -155,7 +155,7 @@
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Belle Époque apartment in the Carré d'Or or Cimiez, or a villa on Mont Boron with sea views",
+        "description": "Luxury Belle Époque apartment in the Carré d'Or or on the Cimiez heights",
         "monthlyCost": 4784
       },
       "dining": {
@@ -188,7 +188,7 @@
         "description": "Yacht charters, private-club dues, concierge, luxury travel",
         "monthlyCost": 1652
       },
-      "lifestyle": "A Belle Époque apartment in the Carré d'Or or Cimiez, or a villa on Mont Boron with sea views, kept by a housekeeper and part-time staff. Dining runs to Michelin and haute cuisine, health cover is top-tier international concierge, and a luxury car with an occasional driver and helicopter transfers to Monaco handle transport. The discretionary budget funds yacht charters, private-club dues, galas, and luxury travel — the genuinely lavish Riviera lifestyle the Côte d'Azur is famous for."
+      "lifestyle": "A luxury Belle Époque apartment in the Carré d'Or or on the Cimiez heights, kept by a housekeeper and part-time staff. Dining runs to Michelin and haute cuisine, health cover is top-tier international concierge, and a luxury car with an occasional driver and helicopter transfers to Monaco handle transport. The discretionary budget funds yacht charters, private-club dues, galas, and luxury travel — the genuinely lavish Riviera lifestyle the Côte d'Azur is famous for."
     }
   },
   "scores": {

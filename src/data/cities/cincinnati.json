@@ -58,7 +58,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "A genuinely frugal solo life in a working-class neighborhood; housing plus the subsidized health premium alone eat roughly 58% of the budget (the classic US squeeze). Cooking at home is the norm, and the car is old but paid off."
+      "lifestyle": "A genuinely frugal life in a working-class neighborhood; housing plus the subsidized health premium alone eat roughly 58% of the budget (the classic US squeeze). Cooking at home is the norm, and the car is old but paid off."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -118,7 +118,7 @@
       "utilities": {
         "monthlyCost": 270
       },
-      "lifestyle": "A relaxed, financially-independent solo life in one of Cincinnati’s nicest walkable neighborhoods, dining out several times a week with a real travel budget. Healthcare is the swing variable — the line is intentionally padded."
+      "lifestyle": "A relaxed, financially-independent life in one of Cincinnati’s nicest walkable neighborhoods, dining out several times a week with a real travel budget. Healthcare is the swing variable — the line is intentionally padded."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -165,7 +165,7 @@
         "monthlyCost": 4500
       },
       "dining": {
-        "description": "Private-chef dining and the finest restaurants",
+        "description": "The finest restaurants regularly, with occasional private-chef evenings",
         "monthlyCost": 2000
       },
       "groceries": {
@@ -187,14 +187,14 @@
         "monthlyCost": 500
       },
       "domesticHelp": {
-        "description": "Full household staff",
+        "description": "Weekly-plus housekeeping and occasional extra help",
         "monthlyCost": 1200
       },
       "luxuryExtras": {
         "description": "Bespoke travel, club memberships, and luxury experiences",
         "monthlyCost": 2000
       },
-      "lifestyle": "The top of what solo money buys in a mid-cost Midwest metro — a penthouse, a driver when wanted, daily fine dining, and full domestic help. Even here the health line is fully unsubsidized. At about $191k/yr it is genuinely lavish for one person."
+      "lifestyle": "The top of the market in a mid-cost Midwest metro — a penthouse, a driver when wanted, fine dining most nights, and weekly-plus housekeeping. Even here the health line is fully unsubsidized. At about $191k/yr it is genuinely lavish."
     }
   },
   "dataRecency": "Q3 2026"

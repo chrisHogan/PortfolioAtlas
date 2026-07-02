@@ -42,7 +42,7 @@
         "monthlyCost": 115
       },
       "transportation": {
-        "description": "Subsidized EMT bus + Valenbisi (very bike-friendly → lowest Lean transport of the three Spanish cities)",
+        "description": "Subsidized EMT bus + Valenbisi bike-share in a flat, very bike-friendly city",
         "monthlyCost": 30
       },
       "entertainment": {
@@ -72,7 +72,7 @@
         "monthlyCost": 150
       },
       "transportation": {
-        "description": "Subsidized EMT bus + Valenbisi (very bike-friendly → lowest Lean transport of the three Spanish cities)",
+        "description": "Subsidized EMT bus + Valenbisi bike-share in a flat, very bike-friendly city",
         "monthlyCost": 45
       },
       "entertainment": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 135
       },
-      "lifestyle": "A central one-bedroom in Russafa or L'Eixample. Regular dining at the city's better restaurants, a broad-network private plan, a leased car for countryside excursions, and season tickets at the Palau de les Arts. Valencia's affordability makes this a genuinely affluent daily life with real travel headroom."
+      "lifestyle": "A central one-bedroom in Russafa or L'Eixample. Regular dining at the city's better restaurants, a broad-network private plan, the transit pass with taxis plus a weekend rental car for Albufera and countryside excursions, and season tickets at the Palau de les Arts. Valencia's affordability makes this a genuinely affluent daily life with real travel headroom."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -132,7 +132,7 @@
         "monthlyCost": 330
       },
       "transportation": {
-        "description": "Add a car, driver at 10M",
+        "description": "Add a car, with a driver for occasions at 10M",
         "monthlyCost": 230
       },
       "entertainment": {
@@ -170,7 +170,7 @@
         "monthlyCost": 705
       },
       "transportation": {
-        "description": "Add a car, driver at 10M",
+        "description": "Add a car, with a driver for occasions at 10M",
         "monthlyCost": 580
       },
       "entertainment": {
@@ -188,7 +188,7 @@
         "description": "Art, yacht itineraries, bespoke travel",
         "monthlyCost": 1400
       },
-      "lifestyle": "A luxury one-to-two-bedroom in the old town or a waterfront address. Private-chef dining, top international health cover, a chauffeured car, full household help, and lavish discretionary spend. Valencia is among the most affordable cities on this list, so this budget outruns what the city can realistically absorb."
+      "lifestyle": "A luxury one-to-two-bedroom in the old town or a waterfront address. Private-chef dining, top international health cover, a premium car plus private transfers with a driver for occasions, full household help, and lavish discretionary spend. Valencia is among the most affordable cities on this list, so this budget outruns what the city can realistically absorb."
     }
   },
   "scores": {

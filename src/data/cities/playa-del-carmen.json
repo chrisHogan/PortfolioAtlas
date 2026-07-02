@@ -155,7 +155,7 @@
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Oceanfront villa in Playacar Phase 1 or a branded Mayakoba residence (Rosewood/Fairmont/Banyan Tree enclave), private pool and beach access (conservative within a $9,000–9,500 true-villa envelope)",
+        "description": "Luxury condo or a gated villa in Playacar or the Mayakoba area, with private pool and beach access",
         "monthlyCost": 5000
       },
       "dining": {
@@ -181,14 +181,14 @@
         "monthlyCost": 425
       },
       "domesticHelp": {
-        "description": "Housekeeper, cook, groundskeeper, and part-time driver",
+        "description": "Housekeeper-cook plus part-time grounds help",
         "monthlyCost": 1000
       },
       "luxuryExtras": {
         "description": "Yacht mooring, resort/golf memberships, first-class travel, philanthropy",
         "monthlyCost": 1600
       },
-      "lifestyle": "An oceanfront villa in Playacar Phase 1 or a branded Mayakoba residence — Rosewood, Fairmont, Banyan Tree enclave — fully staffed with a housekeeper, cook, groundskeeper, and part-time driver. Fine dining is near-daily across the Riviera Maya's best, a boat joins the luxury vehicle, and yacht charters, sportfishing, and championship golf are on tap. Concierge international cover with worldwide access and medevac to Houston or Miami closes the one real gap — distance from major hospitals. Unlike a small island, Playa's deep Mayakoba and Playacar luxury infrastructure absorbs this budget locally, with little need to spend off-area. The Caribbean coast at its most lavish."
+      "lifestyle": "A luxury condo or a gated villa in Playacar or the Mayakoba area — private pool, beach access — kept by a housekeeper-cook with part-time grounds help. Fine dining is near-daily across the Riviera Maya's best, a boat joins the luxury vehicle, and yacht charters, sportfishing, and championship golf are on tap. Concierge international cover with worldwide access and medevac to Houston or Miami closes the one real gap — distance from major hospitals. Unlike a small island, Playa's deep Mayakoba and Playacar luxury infrastructure absorbs this budget locally, with little need to spend off-area. The Caribbean coast at its most lavish."
     }
   },
   "scores": {

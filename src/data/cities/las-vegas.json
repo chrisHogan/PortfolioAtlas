@@ -27,7 +27,7 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "A modest studio or small apartment in a decent Spring Valley, Henderson-edge, or northwest-valley neighborhood — the batch's lowest housing floor",
+        "description": "A modest studio or small apartment in a decent Spring Valley, Henderson-edge, or northwest-valley neighborhood",
         "monthlyCost": 950
       },
       "dining": {
@@ -106,13 +106,13 @@
         "monthlyCost": 500
       },
       "entertainment": {
-        "description": "A golf club membership, premium show seats, spa visits, and weekend drives to Zion and the Grand Canyon",
+        "description": "Public-course golf, show tickets, occasional spa visits, and weekend drives to Zion and the Grand Canyon",
         "monthlyCost": 320
       },
       "utilities": {
         "monthlyCost": 320
       },
-      "lifestyle": "A comfortable suburban life in a nice apartment or a small house with a pool in Summerlin, Green Valley, or Southern Highlands. Dining out regularly, including celebrity-chef restaurants on the Strip, a golf club membership, premium show seats, and spa visits all fit the budget, alongside good private health insurance and a late-model SUV. Weekend drives to Zion, the Grand Canyon, and Valley of Fire are easy, and Nevada's zero income tax means the full withdrawal goes to living. A relaxed, sun-soaked base with world-class entertainment on tap."
+      "lifestyle": "A comfortable suburban life in a nice apartment or a small house with a pool in Summerlin, Green Valley, or Southern Highlands. Dining out regularly, including celebrity-chef restaurants on the Strip, public-course golf, show tickets, and occasional spa visits all fit the budget, alongside good private health insurance and a late-model SUV. Weekend drives to Zion, the Grand Canyon, and Valley of Fire are easy, and Nevada's zero income tax means the full withdrawal goes to living. A relaxed, sun-soaked base with world-class entertainment on tap."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -159,7 +159,7 @@
         "monthlyCost": 6000
       },
       "dining": {
-        "description": "A private chef and front-row access to the city's finest restaurants",
+        "description": "The city's finest restaurants regularly, with occasional private-chef evenings",
         "monthlyCost": 1400
       },
       "groceries": {
@@ -170,7 +170,7 @@
         "monthlyCost": 1400
       },
       "transportation": {
-        "description": "Multiple luxury vehicles with car service",
+        "description": "A luxury vehicle plus car service",
         "monthlyCost": 1300
       },
       "entertainment": {
@@ -188,7 +188,7 @@
         "description": "First-class travel and high-roller experiences",
         "monthlyCost": 2400
       },
-      "lifestyle": "The top of Las Vegas living, anchored by a luxury high-rise residence on or near the Strip or an upscale home in a gated community like The Ridges or MacDonald Highlands. A private chef, multiple luxury vehicles with car service, full household help, concierge medicine, and front-row access to any show, restaurant, or event in the city are simply routine, alongside first-class travel and high-roller experiences. Nevada's zero income tax on every withdrawn dollar is a significant advantage at this level, and the city's entertainment infrastructure means there is always something extraordinary to do without leaving town."
+      "lifestyle": "The top of Las Vegas living, anchored by a luxury high-rise residence on or near the Strip or an upscale home in a gated community like The Ridges or MacDonald Highlands. Regular nights at the city's finest restaurants with occasional private-chef evenings, a luxury vehicle plus car service, full household help, concierge medicine, and front-row access to any show or event in the city are simply routine, alongside first-class travel and high-roller experiences. Nevada's zero income tax on every withdrawn dollar is a significant advantage at this level, and the city's entertainment infrastructure means there is always something extraordinary to do without leaving town."
     }
   },
   "scores": {

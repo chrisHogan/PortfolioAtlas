@@ -106,7 +106,7 @@
         "monthlyCost": 150
       },
       "entertainment": {
-        "description": "Elaphiti sailing charters, VIP festival access, scuba and golf",
+        "description": "Elaphiti sailing charters, VIP festival access, scuba and sea kayaking",
         "monthlyCost": 220
       },
       "utilities": {
@@ -170,7 +170,7 @@
         "monthlyCost": 650
       },
       "transportation": {
-        "description": "Chauffeured car + speedboat + helicopter transfers to Split/Montenegro",
+        "description": "Premium car + private transfers + regular boat charters along the coast",
         "monthlyCost": 900
       },
       "entertainment": {
@@ -181,14 +181,14 @@
         "monthlyCost": 320
       },
       "domesticHelp": {
-        "description": "Full estate staff — limited luxury-service supply in a small walled town",
+        "description": "Housekeeping several days a week — limited luxury-service supply in a small walled town",
         "monthlyCost": 800
       },
       "luxuryExtras": {
         "description": "Medieval-restoration fund, Adriatic property management, art, superyacht itineraries",
         "monthlyCost": 800
       },
-      "lifestyle": "A luxury one-to-two-bedroom at a landmark address inside or beside the Old Town walls, with sea views. Private-chef-level dining, top-tier international health cover, a chauffeured car, and full household help, with a boat for Adriatic cruising. The constraint at this level is the town's intimate scale — there are limited ways to spend this much locally, so frequent travel becomes part of the lifestyle by default."
+      "lifestyle": "A luxury one-to-two-bedroom at a landmark address inside or beside the Old Town walls, with sea views. Private-chef-level dining, top-tier international health cover, a premium car with private transfers and a driver for occasions, and housekeeping several days a week, with regular boat charters for Adriatic cruising. The constraint at this level is the town's intimate scale — there are limited ways to spend this much locally, so frequent travel becomes part of the lifestyle by default."
     }
   },
   "scores": {

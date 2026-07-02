@@ -155,7 +155,7 @@
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Waterfront luxury condo, high-floor, in Brickell, on Key Biscayne, or on Fisher/Star Island",
+        "description": "Waterfront luxury condo, high-floor, in Brickell or on Key Biscayne",
         "monthlyCost": 9500
       },
       "dining": {
@@ -181,14 +181,14 @@
         "monthlyCost": 700
       },
       "domesticHelp": {
-        "description": "Near-daily housekeeper plus part-time personal assistant (staff-for-one)",
+        "description": "Near-daily housekeeper plus part-time personal assistant",
         "monthlyCost": 2600
       },
       "luxuryExtras": {
         "description": "First-class travel, yacht charter, luxury shopping, memberships, philanthropy",
         "monthlyCost": 3400
       },
-      "lifestyle": "A high-floor waterfront residence in Brickell or on Key Biscayne or Fisher Island, kept by near-daily household staff, sits at the top of what Miami money buys — second in this batch only to what New York commands. Dining is a near-daily affair at the city's marquee tables, healthcare pairs a top-tier mainland PPO with a concierge-medicine retainer, and transport spans a luxury vehicle, car service, and a slip on Biscayne Bay. VIP Art Basel access, courtside seats, yacht days to the Bahamas, and first-class travel are simply part of the calendar, with a generous discretionary and philanthropy budget on top. The glamour, the international energy, and the year-round warmth make this an uncapped luxury life — and Florida's zero state income tax keeps the entire withdrawal working toward it."
+      "lifestyle": "A high-floor waterfront residence in Brickell or on Key Biscayne, kept by near-daily household help, sits at the top of what Miami money buys — among the most expensive FatFIRE budgets in the country. Dining is a near-daily affair at the city's marquee tables, healthcare pairs a top-tier mainland PPO with a concierge-medicine retainer, and transport spans a luxury vehicle, car service, and a slip on Biscayne Bay. VIP Art Basel access, courtside seats, yacht days to the Bahamas, and first-class travel are simply part of the calendar, with a generous discretionary and philanthropy budget on top. The glamour, the international energy, and the year-round warmth make this an uncapped luxury life — and Florida's zero state income tax keeps the entire withdrawal working toward it."
     }
   },
   "scores": {

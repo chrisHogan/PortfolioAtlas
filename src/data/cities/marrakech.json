@@ -170,7 +170,7 @@
         "monthlyCost": 550
       },
       "transportation": {
-        "description": "Car(s) plus running costs (full-time driver under domesticHelp)",
+        "description": "Luxury car + fuel, with a driver hired for occasions",
         "monthlyCost": 900
       },
       "entertainment": {
@@ -188,7 +188,7 @@
         "description": "Club memberships, spa/wellness, concierge, curated travel",
         "monthlyCost": 1100
       },
-      "lifestyle": "Living exceptionally well in Marrakech — a staffed luxury villa or grand restored riad with pool and gardens, kept by a full-time housekeeper and cook. A car and full-time driver are at your disposal, dining is essentially catered or at the best tables nightly, and healthcare is an international concierge plan with medevac to Europe. The discretionary budget funds constant European travel, entertaining, and spa and club memberships. This is the full sweep of Marrakchi opulence — a Palmeraie estate, resident staff, and the medina and mountains at your door."
+      "lifestyle": "Living exceptionally well in Marrakech — a staffed luxury villa or grand restored riad with pool and gardens, kept by a full-time housekeeper and cook. A car with a driver on call is at your disposal, dining is essentially catered or at the best tables nightly, and healthcare is an international concierge plan with medevac to Europe. The discretionary budget funds constant European travel, entertaining, and spa and club memberships. This is the full sweep of Marrakchi opulence — a Palmeraie estate, resident staff, and the medina and mountains at your door."
     }
   },
   "scores": {

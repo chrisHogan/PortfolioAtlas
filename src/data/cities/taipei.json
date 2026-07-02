@@ -91,7 +91,7 @@
         "monthlyCost": 1050
       },
       "dining": {
-        "description": "Fine dining at Michelin-starred restaurants like RAW, premium sushi, wine bar culture",
+        "description": "Fine dining at Michelin-starred restaurants like Le Palais, premium sushi, wine bar culture",
         "monthlyCost": 480
       },
       "groceries": {
@@ -102,7 +102,7 @@
         "monthlyCost": 400
       },
       "transportation": {
-        "description": "Leased car for mountain trips, MRT for city travel, regular HSR to Kaohsiung and Taichung",
+        "description": "MRT and YouBike for city travel, occasional HSR trips to Kaohsiung or Taichung, and weekend car rentals for the mountains",
         "monthlyCost": 110
       },
       "entertainment": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 130
       },
-      "lifestyle": "An unambiguously comfortable, financially-independent life in one of the city's most-loved neighborhoods — Michelin dining (RAW, premium sushi), weekend escapes to Taroko Gorge or Kenting, and premium private healthcare. In a city where costs are moderate, very little feels out of reach at this tier."
+      "lifestyle": "An unambiguously comfortable, financially-independent life in one of the city's most-loved neighborhoods — Michelin dining (Le Palais, premium sushi), weekend escapes to Wulai's hot springs or Kenting, and premium private healthcare. In a city where costs are moderate, very little feels out of reach at this tier."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -170,7 +170,7 @@
         "monthlyCost": 850
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, dedicated driver, first-class international travel",
+        "description": "One luxury car plus hired drivers for occasions, and first-class international travel",
         "monthlyCost": 650
       },
       "entertainment": {
@@ -188,7 +188,7 @@
         "description": "Private jet access, international property, rare art and tea acquisitions, philanthropic foundation",
         "monthlyCost": 2400
       },
-      "lifestyle": "The top of Taipei's market — a premium residence at the best address, full domestic help, a luxury car with driver, concierge global medicine, and effortless fine dining and regional travel. It buys a very high quality of life with no financial friction; Taipei's luxury and nightlife options are simply narrower than Tokyo, Hong Kong, or Singapore, which is why the top tier converges into rather than exceeds the global-luxury band."
+      "lifestyle": "The top of Taipei's market — a premium residence at the best address, full domestic help, a luxury car with a hired driver when wanted, concierge global medicine, and effortless fine dining and regional travel. It buys a very high quality of life with no financial friction; Taipei's luxury and nightlife options are simply narrower than Tokyo, Hong Kong, or Singapore, which is why the top tier converges into rather than exceeds the global-luxury band."
     }
   },
   "scores": {

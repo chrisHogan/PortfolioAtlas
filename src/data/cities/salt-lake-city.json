@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "A high-quality home in Federal Heights or Millcreek near the canyon mouths, regular dining at Salt Lake's best restaurants, an Ikon pass, and Jazz season tickets. Road trips to Moab, Zion, and Bryce all fit, along with Sundance in Park City each January. Healthcare runs through the University of Utah network and is padded near the ~$62,600 ACA cliff. An affluent, mountain-centric life with real margin."
+      "lifestyle": "A high-quality one-bedroom or small home in The Avenues, 9th & 9th, or Federal Heights, regular dining at Salt Lake's best restaurants, an Ikon pass, and Jazz season tickets. Road trips to Moab, Zion, and Bryce all fit, along with Sundance in Park City each January. Healthcare runs through the University of Utah network and is padded near the ~$62,600 ACA cliff. An affluent, mountain-centric life with real margin."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -155,7 +155,7 @@
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "An Emigration Canyon estate or a Deer Valley / Park City luxury home",
+        "description": "A luxury foothills or Emigration Canyon home, or a premium downtown penthouse",
         "monthlyCost": 5900
       },
       "dining": {
@@ -170,7 +170,7 @@
         "monthlyCost": 1300
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, a private driver, helicopter access for skiing",
+        "description": "A premium 4WD vehicle with full ownership costs, plus regular private car service",
         "monthlyCost": 1550
       },
       "entertainment": {
@@ -181,14 +181,14 @@
         "monthlyCost": 470
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper, estate manager, assistant, and grounds/snow crew",
+        "description": "Housekeeping several days a week plus grounds and snow-removal service",
         "monthlyCost": 1200
       },
       "luxuryExtras": {
         "description": "Heli-skiing packages, first-class international travel, ranch property",
         "monthlyCost": 2000
       },
-      "lifestyle": "An Emigration Canyon estate or a Deer Valley property, full-time domestic staff, a private chef several days a week, and top-tier concierge medicine. Travel is first class and any resort in Utah is skiable without a second thought — with helicopter access when wanted. Salt Lake's moderate cost base means roughly $206k a year covers premium living with healthy margins, including a Park City second property if desired."
+      "lifestyle": "A luxury foothills or Emigration Canyon home, or a premium downtown penthouse, with household help several days a week and occasional private-chef evenings alongside the city's best tables, plus top-tier concierge medicine. Travel is first class and any resort in Utah is skiable without a second thought. Salt Lake's moderate cost base means roughly $206k a year covers premium living with healthy margins."
     }
   },
   "scores": {

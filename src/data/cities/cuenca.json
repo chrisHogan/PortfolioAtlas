@@ -155,7 +155,7 @@
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Best home / small hacienda estate in Challuabamba or luxury riverfront residence (villas cap ~$2,700–5,940; a single-home occupant tops out here — Cuenca's ceiling is genuinely low)",
+        "description": "Best home / small hacienda estate in Challuabamba or luxury riverfront residence (villas cap ~$2,700–5,940; long-term luxury rentals top out around here — Cuenca's ceiling is genuinely low)",
         "monthlyCost": 2500
       },
       "dining": {
@@ -181,14 +181,14 @@
         "monthlyCost": 140
       },
       "domesticHelp": {
-        "description": "Full household staff (full-time maid + gardener + part-time cook/driver), legally employed with IESS/benefits",
+        "description": "Full-time housekeeper legally employed with IESS/benefits, plus a part-time gardener",
         "monthlyCost": 600
       },
       "luxuryExtras": {
         "description": "Fine wine, art, spa, concierge, weekend estate travel, uncapped discretionary",
         "monthlyCost": 1200
       },
-      "lifestyle": "A best-in-city home or a small hacienda estate in Challuabamba, or a luxury riverfront residence, kept by full-time household staff. Dining is near-daily at Cuenca's finest tables, healthcare is an international concierge plan with worldwide coverage and medical evacuation to Miami, and a private driver and car are on hand. The uncapped discretionary budget funds private Galápagos expeditions, art and wine, and first-class travel. Cuenca's genuinely low cost ceiling — its largest villas and top restaurants simply don't reach big-city prices — means even this lavish life lands modestly, with ample surplus for travel or philanthropy in Ecuador's arts and conservation."
+      "lifestyle": "A best-in-city home or a small hacienda estate in Challuabamba, or a luxury riverfront residence, kept by a full-time housekeeper and a part-time gardener. Dining is near-daily at Cuenca's finest tables, healthcare is an international concierge plan with worldwide coverage and medical evacuation to Miami, and a private driver and car are on hand. The uncapped discretionary budget funds private Galápagos expeditions, art and wine, and first-class travel. Cuenca's genuinely low cost ceiling — its largest villas and top restaurants simply don't reach big-city prices — means even this lavish life lands modestly, with ample surplus for travel or philanthropy in Ecuador's arts and conservation."
     }
   },
   "scores": {

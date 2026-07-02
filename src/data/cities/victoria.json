@@ -38,7 +38,7 @@
         "monthlyCost": 420
       },
       "healthcare": {
-        "description": "BC MSP covers essentials; basic dental-vision-prescription supplement",
+        "description": "BC MSP covers essentials; basic dental-vision-prescription supplement. Note: MSP requires BC residency — a non-resident early retiree should budget for private cover",
         "monthlyCost": 50
       },
       "transportation": {
@@ -87,7 +87,7 @@
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Nicer one-bedroom, character unit, or Inner-Harbour condo in Oak Bay",
+        "description": "Nicer one-bedroom, character unit, or a condo in Oak Bay or on the Inner Harbour downtown",
         "monthlyCost": 1950
       },
       "dining": {
@@ -98,7 +98,7 @@
         "monthlyCost": 570
       },
       "healthcare": {
-        "description": "MSP plus comprehensive private cover with executive screening",
+        "description": "MSP plus comprehensive private cover with executive screening. Note: MSP requires BC residency — a non-resident early retiree should budget for private cover",
         "monthlyCost": 130
       },
       "transportation": {
@@ -166,7 +166,7 @@
         "monthlyCost": 880
       },
       "healthcare": {
-        "description": "MSP plus concierge medicine and international medical cover",
+        "description": "MSP plus concierge medicine and international medical cover. Note: MSP requires BC residency — a non-resident early retiree should budget for private cover",
         "monthlyCost": 400
       },
       "transportation": {

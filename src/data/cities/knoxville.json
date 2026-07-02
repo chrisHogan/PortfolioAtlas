@@ -106,13 +106,13 @@
         "monthlyCost": 380
       },
       "entertainment": {
-        "description": "Premium UT football tickets, Blackberry Farm day visits, private fly-fishing guides",
+        "description": "Premium UT football tickets, a Big Ears Festival weekend, private fly-fishing guides",
         "monthlyCost": 440
       },
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "A high-quality one-bedroom or small home in Sequoyah Hills or Farragut, some near Fort Loudoun Lake, with regular dinners at J.C. Holdway and The Lonesome Dove. A late-model SUV handles mountain roads, healthcare is a Gold plan padded near the ~$62,600 ACA cliff, and there is room for premium UT football tickets, guided fly-fishing, and occasional Blackberry Farm visits. Knoxville's low costs leave genuine margin each month for travel and giving."
+      "lifestyle": "A high-quality one-bedroom or small home in Sequoyah Hills or Farragut, some near Fort Loudoun Lake, with regular dinners at J.C. Holdway and The Lonesome Dove. A late-model SUV handles mountain roads, healthcare is a Gold plan padded near the ~$62,600 ACA cliff, and there is room for premium UT football tickets, guided fly-fishing, and a Big Ears Festival weekend each spring. Knoxville's low costs leave genuine margin each month for travel and giving."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -170,25 +170,25 @@
         "monthlyCost": 1400
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, a boat with a captain, chartered flights from TYS",
+        "description": "A premium vehicle plus car service, with boat-club outings on the lake",
         "monthlyCost": 1500
       },
       "entertainment": {
-        "description": "A private suite at Neyland Stadium, national-park conservation funding, international travel",
+        "description": "Club-level UT season tickets at Neyland Stadium, national-park conservation funding, international travel",
         "monthlyCost": 1700
       },
       "utilities": {
         "monthlyCost": 500
       },
       "domesticHelp": {
-        "description": "Full-time estate manager, housekeeper, and dock/grounds crew",
+        "description": "Housekeeping several days a week plus dock and grounds service",
         "monthlyCost": 1150
       },
       "luxuryExtras": {
-        "description": "Blackberry Farm membership, first-class travel, Smoky Mountain conservation philanthropy, art collecting",
+        "description": "Regular Blackberry Farm getaways, first-class travel, Smoky Mountain conservation philanthropy, art collecting",
         "monthlyCost": 1950
       },
-      "lifestyle": "A trophy lakefront estate on Tellico or Fort Loudoun Lake, full-time domestic staff, and a private chef several days a week, with concierge medicine and specialist access at Vanderbilt a short drive away. Travel is first class, multiple vehicles and a boat with a captain are standard, and a private suite at Neyland Stadium anchors the social calendar. In a metro this affordable, roughly $189k a year funds an uncapped, well-staffed life with room for major university and Smokies-conservation philanthropy."
+      "lifestyle": "A trophy lakefront estate on Tellico or Fort Loudoun Lake, housekeeping several days a week with dock and grounds service, and a private chef several days a week, with concierge medicine and specialist access at Vanderbilt a short drive away. Travel is first class, a premium vehicle and car service handle the roads, boat-club outings cover the lake, and club-level UT season tickets keep fall Saturdays at Neyland Stadium. In a metro this affordable, roughly $189k a year funds an uncapped, well-supported life with room for major university and Smokies-conservation philanthropy."
     }
   },
   "scores": {

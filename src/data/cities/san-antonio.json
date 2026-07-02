@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 220
       },
-      "lifestyle": "A cheapest-acceptable studio or older one-bedroom near the Medical Center or on the Southtown fringe, cooking at home most nights with affordable Tex-Mex ingredients and a paid-off car to get around. The River Walk and the missions are free, and breakfast tacos cost a few dollars. Healthcare takes a meaningful share and there isn't much room for surprises, but zero state income tax helps every dollar go further — San Antonio is among the cheapest cities in the batch. The Silver premium stays low only if MAGI is kept under the 2026 ~$62,600 cliff."
+      "lifestyle": "A cheapest-acceptable studio or older one-bedroom near the Medical Center or on the Southtown fringe, cooking at home most nights with affordable Tex-Mex ingredients and a paid-off car to get around. The River Walk and the missions are free, and breakfast tacos cost a few dollars. Healthcare takes a meaningful share and there isn't much room for surprises, but zero state income tax helps every dollar go further — San Antonio runs one of the cheapest big-city budgets in the US. The Silver premium stays low only if MAGI is kept under the 2026 ~$62,600 cliff."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -91,7 +91,7 @@
         "monthlyCost": 1750
       },
       "dining": {
-        "description": "Frequent fine dining at Mixtli, Cured, and The Granary",
+        "description": "Frequent fine dining at Mixtli, Cured, and Clementine",
         "monthlyCost": 420
       },
       "groceries": {
@@ -170,25 +170,25 @@
         "monthlyCost": 1420
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, ranch vehicles, private car service, chartered flights from SAT",
+        "description": "A premium truck or SUV with full ownership costs, plus regular private car service",
         "monthlyCost": 1600
       },
       "entertainment": {
-        "description": "A private suite at the arena, major philanthropy, art collecting, international travel",
+        "description": "Premium club-level Spurs season tickets, major philanthropy, art collecting, international travel",
         "monthlyCost": 1750
       },
       "utilities": {
         "monthlyCost": 500
       },
       "domesticHelp": {
-        "description": "Full-time estate manager, housekeeper, personal assistant, and grounds/pool crew",
+        "description": "Housekeeping several days a week plus grounds and pool service",
         "monthlyCost": 1200
       },
       "luxuryExtras": {
         "description": "A Hill Country ranch operation, first-class international travel, art patronage, major philanthropy",
         "monthlyCost": 2000
       },
-      "lifestyle": "A historic Alamo Heights estate or a Hill Country ranch compound minutes from the city, full-time domestic help, and a private chef several days a week, with concierge healthcare. Dining is anywhere without checking the bill, travel is first class, and the garage holds a vehicle or two. San Antonio's low cost base makes this budget stretch far — roughly $192k a year — with plenty left for charitable giving. Texas's zero income tax keeps every withdrawal dollar intact."
+      "lifestyle": "A historic Alamo Heights estate or a Hill Country ranch compound minutes from the city, household help several days a week, and occasional private-chef evenings alongside the city's best tables, with concierge healthcare. Dining is anywhere without checking the bill, travel is first class, and a premium truck or SUV and car service handle getting around. San Antonio's low cost base makes this budget stretch far — roughly $192k a year — with plenty left for charitable giving. Texas's zero income tax keeps every withdrawal dollar intact."
     }
   },
   "scores": {

@@ -159,7 +159,7 @@
         "monthlyCost": 6850
       },
       "dining": {
-        "description": "Private chef for daily meals, exclusive wine dinners, pop-up experiences by top chefs, and standing tables at every hatted restaurant in the city",
+        "description": "Frequent fine dining with occasional private-chef evenings, exclusive wine dinners, pop-up experiences by top chefs, and easy tables at the city's hatted restaurants",
         "monthlyCost": 1700
       },
       "groceries": {
@@ -170,7 +170,7 @@
         "monthlyCost": 1000
       },
       "transportation": {
-        "description": "Luxury vehicle collection, full-time driver, private water taxi account, first-class international flights, and chartered seaplane to Palm Beach",
+        "description": "One luxury vehicle, a driver when wanted, private water taxis, first-class international flights, and the occasional chartered seaplane to Palm Beach",
         "monthlyCost": 900
       },
       "entertainment": {

@@ -155,7 +155,7 @@
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "A top-of-market estate or penthouse — Westlake, Tarrytown, Barton Creek, or a Lake Austin waterfront property",
+        "description": "A premium Westlake or Tarrytown home",
         "monthlyCost": 6800
       },
       "dining": {
@@ -170,25 +170,25 @@
         "monthlyCost": 1450
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, a dedicated driver for events, private car service",
+        "description": "A premium vehicle with full ownership costs, plus regular private car service",
         "monthlyCost": 1700
       },
       "entertainment": {
-        "description": "A private box at UT games, philanthropic galas, art collecting, international travel",
+        "description": "Premium club-level UT season tickets, philanthropic galas, art collecting, international travel",
         "monthlyCost": 1850
       },
       "utilities": {
         "monthlyCost": 510
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper, personal assistant, and a pool/grounds crew",
+        "description": "Housekeeping several days a week plus pool and grounds service",
         "monthlyCost": 1300
       },
       "luxuryExtras": {
         "description": "First-class international travel, a Hill Country ranch, a boat on Lake Travis, angel investing",
         "monthlyCost": 2200
       },
-      "lifestyle": "A top-of-market estate in Westlake or Barton Creek, or a waterfront property on Lake Austin, with full-time domestic staff, a private chef several days a week, and a personal assistant. Dining is anywhere, travel is first class, and a boat lives on Lake Travis, alongside donor-level support for local institutions. Texas's zero income tax keeps the full budget intact — roughly $225k a year — in a city with a relaxed pace and standout food and music."
+      "lifestyle": "A premium Westlake or Tarrytown home, household help several days a week, and occasional private-chef evenings alongside the city's best restaurants. Dining is anywhere, travel is first class, and a boat lives on Lake Travis, alongside premium club-level seats at UT games and donor-level support for local institutions. Texas's zero income tax keeps the full budget intact — roughly $225k a year — in a city with a relaxed pace and standout food and music."
     }
   },
   "scores": {

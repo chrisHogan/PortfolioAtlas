@@ -91,7 +91,7 @@
         "monthlyCost": 2000
       },
       "dining": {
-        "description": "Regular fine dining at Chandlers and Richard's; wine-tasting events",
+        "description": "Regular fine dining at Chandlers and The Avery; wine-tasting events",
         "monthlyCost": 450
       },
       "groceries": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 270
       },
-      "lifestyle": "A high-quality home in Harris Ranch or the North End with Foothills views, regular dinners at Chandlers and Richard's, and a late-model SUV for mountain roads. Premium coverage (padded near the ~$62,600 ACA cliff), a golf membership, BSU season tickets, and multiple ski passes all fit. Weekend fly-fishing and regular travel are easy. A genuinely affluent life by Boise standards."
+      "lifestyle": "A high-quality home in Harris Ranch or the North End with Foothills views, regular dinners at Chandlers and The Avery, and a late-model SUV for mountain roads. Premium coverage (padded near the ~$62,600 ACA cliff), a golf membership, BSU season tickets, and multiple ski passes all fit. Weekend fly-fishing and regular travel are easy. A genuinely affluent life by Boise standards."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -170,7 +170,7 @@
         "monthlyCost": 1450
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, private car service, occasional chartered flights",
+        "description": "A premium SUV with full ownership costs, plus regular private car service",
         "monthlyCost": 1600
       },
       "entertainment": {
@@ -181,14 +181,14 @@
         "monthlyCost": 500
       },
       "domesticHelp": {
-        "description": "Full-time property manager, housekeeper, and personal assistant",
+        "description": "Housekeeping several days a week plus grounds, snow-removal, and property upkeep",
         "monthlyCost": 1200
       },
       "luxuryExtras": {
         "description": "A Sun Valley second home, first-class international travel, ranch land",
         "monthlyCost": 2000
       },
-      "lifestyle": "A trophy Foothills property or a gated Eagle compound with acreage, full-time domestic staff, a private chef several days a week, and top-tier concierge medicine. Travel is first class, the garage holds multiple luxury vehicles, and a Sun Valley second home is feasible. In a metro this size, roughly $207k a year puts one among the most comfortable residents, with real margin for giving and travel."
+      "lifestyle": "A trophy Foothills property or a gated Eagle compound with acreage, household help several days a week, and occasional private-chef evenings alongside the best tables in town, with top-tier concierge medicine. Travel is first class, a premium SUV and car service handle getting around, and a Sun Valley second home is feasible. In a metro this size, roughly $207k a year puts one among the most comfortable residents, with real margin for giving and travel."
     }
   },
   "scores": {

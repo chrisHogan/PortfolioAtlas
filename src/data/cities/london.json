@@ -155,11 +155,11 @@
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Grand flat or townhouse in Belgravia, Knightsbridge, or Mayfair, or a Hyde Park penthouse",
+        "description": "High-spec flat in Belgravia, Knightsbridge, or Mayfair",
         "monthlyCost": 11250
       },
       "dining": {
-        "description": "Near-daily fine/Michelin dining",
+        "description": "Fine dining twice a week or so, with Michelin nights in the rotation",
         "monthlyCost": 2115
       },
       "groceries": {
@@ -188,7 +188,7 @@
         "description": "Concierge, art/wine, personal training, travel/lifestyle",
         "monthlyCost": 1985
       },
-      "lifestyle": "A grand flat or townhouse in Belgravia, Knightsbridge, or Mayfair, or a Hyde Park penthouse, kept by a housekeeper several times a week. Dining runs near-daily at Michelin tables, health cover pairs NHS access with concierge Harley Street private care, and a part-time chauffeur and car handle evenings. The discretionary budget funds private members' clubs, premium culture, art and wine, and constant travel. London is the priciest market here by a wide margin, so even this budget is anchored by super-prime housing — but daily life is at the top of what the city offers."
+      "lifestyle": "A high-spec flat in Belgravia, Knightsbridge, or Mayfair, kept by a housekeeper several times a week. Fine dining lands twice a week or so with Michelin nights in the rotation, health cover pairs NHS access with concierge Harley Street private care, and a part-time chauffeur and car handle evenings. The discretionary budget funds private members' clubs, premium culture, art and wine, and constant travel. London is the priciest market here by a wide margin — townhouses and park-front penthouses run well past this housing line — so the budget buys a prime-postcode flat and a full calendar rather than the city's true ceiling."
     }
   },
   "scores": {

@@ -102,7 +102,7 @@
         "monthlyCost": 240
       },
       "transportation": {
-        "description": "Leased car or SUV plus Grab, domestic flights",
+        "description": "Scooter and Grab, car rentals for coast drives, budget domestic flights",
         "monthlyCost": 130
       },
       "entertainment": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 105
       },
-      "lifestyle": "A nice beachfront one- or two-bedroom with pool and ocean views, dining at Da Nang's best regularly with fresh seafood a staple. A leased car or SUV, domestic flights to Hanoi and Saigon, and a mid international plan with evacuation to Bangkok or Singapore. Golf and surf are close. A genuinely affluent coastal routine, tempered by Da Nang's still-limited fine-dining and entertainment depth."
+      "lifestyle": "A nice beachfront one- or two-bedroom with pool and ocean views, dining at Da Nang's best regularly with fresh seafood a staple. A scooter and Grab day to day, car rentals for drives up the coast, budget flights to Hanoi and Saigon, and a mid international plan with evacuation to Bangkok or Singapore. Golf and surf are close. A genuinely affluent coastal routine, tempered by Da Nang's still-limited fine-dining and entertainment depth."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -155,7 +155,7 @@
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Large beachfront villa with pool and direct beach access (Son Tra/My Khe)",
+        "description": "Large villa with pool near My Khe beach",
         "monthlyCost": 1300
       },
       "dining": {
@@ -188,7 +188,7 @@
         "description": "Luxury travel, bespoke, wellness",
         "monthlyCost": 420
       },
-      "lifestyle": "A large beachfront villa with pool and direct beach access, staffed by a housekeeper, an occasional cook, a gardener, and a driver. Comprehensive international concierge health cover, fine dining whenever it exists to be had, and first-class international travel. This is far more than Da Nang's market can absorb — you are at the top of what the coast offers, but it remains a mid-size Vietnamese city with a limited luxury ceiling; the beach and natural setting are the real draw."
+      "lifestyle": "A large villa with pool near My Khe beach, staffed by a housekeeper, an occasional cook, a gardener, and a driver. Comprehensive international concierge health cover, fine dining whenever it exists to be had, and first-class international travel. This is far more than Da Nang's market can absorb — you are at the top of what the coast offers, but it remains a mid-size Vietnamese city with a limited luxury ceiling; the beach and natural setting are the real draw."
     }
   },
   "scores": {

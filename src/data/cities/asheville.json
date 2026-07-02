@@ -170,7 +170,7 @@
         "monthlyCost": 1400
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, private car service, chartered flights from AVL",
+        "description": "A premium vehicle plus regular private car service",
         "monthlyCost": 1600
       },
       "entertainment": {
@@ -181,14 +181,14 @@
         "monthlyCost": 500
       },
       "domesticHelp": {
-        "description": "Full-time estate manager, housekeeper, and groundskeeper",
+        "description": "Housekeeping several days a week plus a grounds service",
         "monthlyCost": 1200
       },
       "luxuryExtras": {
         "description": "A second home, first-class travel, art gallery sponsorships, a community foundation",
         "monthlyCost": 2000
       },
-      "lifestyle": "A trophy estate in Biltmore Forest or a mountain compound with acreage, full-time domestic staff, and a private chef several days a week. Travel is first class, healthcare is top-tier concierge medicine, and the finest farm-to-table tables are a routine indulgence. Major arts and conservation patronage and a second home are all within reach. In a small city like Asheville, roughly $209k a year buys a life where daily costs never register, with very substantial margin for travel and giving."
+      "lifestyle": "A trophy estate in Biltmore Forest or a mountain compound with acreage, housekeeping several days a week with a grounds service, and a private chef several days a week. Travel is first class, healthcare is top-tier concierge medicine, and the finest farm-to-table tables are a routine indulgence. Major arts and conservation patronage and a second home are all within reach. In a small city like Asheville, roughly $209k a year buys a life where daily costs never register, with very substantial margin for travel and giving."
     }
   },
   "scores": {

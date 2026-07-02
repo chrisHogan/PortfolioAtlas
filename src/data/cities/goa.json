@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 32
       },
-      "lifestyle": "A frugal solo beach life — a modest 1BHK inland of the North-Goa premium belt, a scooter, home cooking supplemented by cheap shack thalis, and basic private cover. Comfortable and easy, though upscale beach-club dining and Western imports stay outside this budget."
+      "lifestyle": "A frugal beach life — a modest 1BHK inland of the North-Goa premium belt, a scooter, home cooking supplemented by cheap shack thalis, and basic private cover. Comfortable and easy, though upscale beach-club dining and Western imports stay outside this budget."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 40
       },
-      "lifestyle": "Comfortable solo beach living with margin — a small villa or good flat in the North-Goa lifestyle belt, dining out regularly, a scooter plus taxis, and easy weekend trips. Housing is the standout cost: the tourist market keeps prime-belt rents near metro levels."
+      "lifestyle": "Comfortable beach living with margin — a small villa or good flat in the North-Goa lifestyle belt, dining out regularly, a scooter plus taxis, and easy weekend trips. Housing is the standout cost: the tourist market keeps prime-belt rents near metro levels."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -155,7 +155,7 @@
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Beachfront or heritage Portuguese villa for one in prime North Goa",
+        "description": "Beachfront or heritage Portuguese villa in prime North Goa",
         "monthlyCost": 1750
       },
       "dining": {
@@ -188,7 +188,7 @@
         "description": "Luxury travel, charters, bespoke experiences",
         "monthlyCost": 400
       },
-      "lifestyle": "Solo luxury as a Goa home-base — a beachfront villa, a driver, a cook and housekeeper, and a strong travel budget. Prime North-Goa villa rents are genuinely high (tourist/luxury market), so housing carries this tier; most at this level use Goa as a base and travel extensively."
+      "lifestyle": "Luxury with Goa as the home-base — a beachfront villa, a driver, a cook and housekeeper, and a strong travel budget. Prime North-Goa villa rents are genuinely high (tourist/luxury market), so housing carries this tier; most at this level use Goa as a base and travel extensively."
     }
   },
   "scores": {

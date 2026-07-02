@@ -44,7 +44,7 @@
         "monthlyCost": 110
       },
       "healthcare": {
-        "description": "Basic local care",
+        "description": "Entry-level local private accident/outpatient cover with public-hospital access (non-working foreigners can't join the resident system)",
         "monthlyCost": 45
       },
       "transportation": {
@@ -58,7 +58,7 @@
       "utilities": {
         "monthlyCost": 38
       },
-      "lifestyle": "A budget-conscious solo life leaning on Chengdu’s dirt-cheap street and canteen food and free public spaces (parks, teahouses along the Jinjiang). Housing is basic, transport is an e-bike plus per-ride metro, health is a bare local plan. Comfortable and sustainable, with little discretionary slack."
+      "lifestyle": "A budget-conscious life leaning on Chengdu’s dirt-cheap street and canteen food and free public spaces (parks, teahouses along the Jinjiang). Housing is basic, transport is an e-bike plus per-ride metro, health is a bare local private plan. Comfortable and sustainable, with little discretionary slack."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -118,7 +118,7 @@
       "utilities": {
         "monthlyCost": 70
       },
-      "lifestyle": "An unambiguously comfortable retired-solo life in a modern riverside/financial-district apartment, dining out freely, weekend travel, and real mid-tier private healthcare that local nomad budgets tend to omit."
+      "lifestyle": "An unambiguously comfortable retired life in a modern riverside/financial-district apartment, dining out freely, weekend travel, and real mid-tier private healthcare that local nomad budgets tend to omit."
     },
     "5M": {
       "monthlyBudget": 16667,

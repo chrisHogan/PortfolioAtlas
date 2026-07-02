@@ -38,7 +38,7 @@
         "monthlyCost": 380
       },
       "healthcare": {
-        "description": "RAMQ covers essentials; small extended-health + mandatory Quebec drug-plan premium",
+        "description": "RAMQ covers essentials; small extended-health + mandatory Quebec drug-plan premium. Note: RAMQ requires Quebec residency — a non-resident early retiree should budget for private cover",
         "monthlyCost": 50
       },
       "transportation": {
@@ -98,7 +98,7 @@
         "monthlyCost": 520
       },
       "healthcare": {
-        "description": "RAMQ plus comprehensive private cover for faster access",
+        "description": "RAMQ plus comprehensive private cover for faster access. Note: RAMQ requires Quebec residency — a non-resident early retiree should budget for private cover",
         "monthlyCost": 130
       },
       "transportation": {
@@ -166,11 +166,11 @@
         "monthlyCost": 800
       },
       "healthcare": {
-        "description": "RAMQ plus concierge-grade specialist access",
+        "description": "Top-tier private and concierge-grade specialist access (RAMQ applies only once resident in Quebec)",
         "monthlyCost": 400
       },
       "transportation": {
-        "description": "Multiple luxury vehicles with a driver and chartered flights",
+        "description": "A luxury vehicle plus a car service for occasions",
         "monthlyCost": 800
       },
       "entertainment": {
@@ -188,7 +188,7 @@
         "description": "Multiple properties, first-class travel, art patronage, a community foundation",
         "monthlyCost": 1450
       },
-      "lifestyle": "A prime heritage-luxury apartment in Old Quebec — a concierge building with parking, the top of a genuinely thin luxury-rental market — with near-daily fine dining and catered soirées, a luxury vehicle with a driver, chartered flights from YQB, full domestic help, and concierge-grade private cover. Quebec City is small and its high-end services are limited, so this level of spending only makes full sense alongside extensive travel or a country property in Charlevoix; much of the budget funds experiences elsewhere while enjoying 400 years of French-Canadian culture in one of North America's safest cities."
+      "lifestyle": "A prime heritage-luxury apartment in Old Quebec — a concierge building with parking, the top of a genuinely thin luxury-rental market — with near-daily fine dining and catered soirées, a luxury vehicle plus a car service for occasions, full domestic help, and concierge-grade private cover. Quebec City is small and its high-end services are limited, so this level of spending only makes full sense alongside extensive travel or a country property in Charlevoix; much of the budget funds experiences elsewhere while enjoying 400 years of French-Canadian culture in one of North America's safest cities."
     }
   },
   "scores": {

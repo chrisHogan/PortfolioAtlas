@@ -159,7 +159,7 @@
         "monthlyCost": 4500
       },
       "dining": {
-        "description": "A full-time private chef, exclusive wine dinners, catered gatherings and private events",
+        "description": "Regular private-chef evenings plus the city's best tables",
         "monthlyCost": 1900
       },
       "groceries": {
@@ -170,7 +170,7 @@
         "monthlyCost": 1400
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, private car service, chartered flights from CHA",
+        "description": "A premium vehicle plus regular private car service",
         "monthlyCost": 1500
       },
       "entertainment": {
@@ -181,14 +181,14 @@
         "monthlyCost": 500
       },
       "domesticHelp": {
-        "description": "Full-time estate manager, housekeeper, and property caretaker",
+        "description": "Housekeeping several days a week plus grounds and property upkeep",
         "monthlyCost": 1100
       },
       "luxuryExtras": {
         "description": "A second home in the Smokies, first-class travel, angel investing, foundation work",
         "monthlyCost": 1900
       },
-      "lifestyle": "A trophy estate on Lookout Mountain or a Signal Mountain compound with acreage, full-time staff, a private chef several days a week, and a second home in the Smokies within reach. First-class travel, concierge healthcare with specialist access in Nashville or Atlanta, and generous community involvement are all well covered. With Chattanooga's low cost base and no state income tax, roughly $184k a year funds a very comfortable, well-staffed life with large monthly margins."
+      "lifestyle": "A trophy estate on Lookout Mountain or a Signal Mountain compound with acreage, housekeeping several days a week, regular private-chef evenings, and a second home in the Smokies within reach. First-class travel, concierge healthcare with specialist access in Nashville or Atlanta, and generous community involvement are all well covered. With Chattanooga's low cost base and no state income tax, roughly $184k a year funds a very comfortable, well-supported life with large monthly margins."
     }
   },
   "scores": {

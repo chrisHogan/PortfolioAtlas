@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 270
       },
-      "lifestyle": "A custom adobe on the historic east side or in the foothills with mountain views and kiva fireplaces, regular dinners at Geronimo and Terra, premium opera seats, and a growing collection from Canyon Road galleries. A late-model 4WD SUV handles mountain roads, healthcare is padded near the ~$62,600 ACA cliff, and there is margin for regular travel. A genuinely affluent Santa Fe life."
+      "lifestyle": "A high-quality one-bedroom or small adobe on the historic east side or in the foothills, regular dinners at Geronimo and Terra, premium opera seats, and a growing collection from Canyon Road galleries. A late-model 4WD SUV handles mountain roads, healthcare is padded near the ~$62,600 ACA cliff, and there is margin for regular travel. A genuinely affluent Santa Fe life."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -170,7 +170,7 @@
         "monthlyCost": 1400
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, private car service, charter flights from Santa Fe Regional",
+        "description": "A premium 4WD vehicle with full ownership costs, plus regular private car service including airport runs",
         "monthlyCost": 1600
       },
       "entertainment": {
@@ -181,14 +181,14 @@
         "monthlyCost": 500
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper, personal assistant, and a property/grounds team",
+        "description": "Housekeeping several days a week plus grounds care and adobe upkeep",
         "monthlyCost": 1200
       },
       "luxuryExtras": {
         "description": "Museum-level art acquisitions, first-class international travel, a Taos ranch property",
         "monthlyCost": 2100
       },
-      "lifestyle": "A sprawling Las Campanas estate or a historic Canyon Road compound, full-time domestic staff, and a private chef several days a week specializing in New Mexican cuisine. First-class travel, top-tier concierge medicine, and museum-level art acquisitions are all comfortable, and a Taos ranch property is within reach. Santa Fe's small-city costs mean roughly $224k a year buys premium living with healthy margins — the batch's most expensive top tier, driven by its rarefied luxury real estate."
+      "lifestyle": "A Las Campanas estate or a historic Canyon Road property, household help several days a week, and occasional private-chef evenings built around New Mexican cuisine, alongside the city's best dining rooms. First-class travel, top-tier concierge medicine, and museum-level art acquisitions are all comfortable, and a Taos ranch property is within reach. Rarefied real estate drives Santa Fe's top tier — roughly $224k a year buys the best of a small city that punches far above its size in art, food, and culture."
     }
   },
   "scores": {

@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 122
       },
-      "lifestyle": "A one-bedroom in a good area — the Foz edge, central Porto, or Boavista. Regular dining at the city's best restaurants including tables like The Yeatman, a broad-network private plan, a leased car for frequent Douro trips, and regional flights a few times a year. Porto's lower costs make this a genuinely affluent daily life."
+      "lifestyle": "A one-bedroom in a good area — the Foz edge, central Porto, or Boavista. Regular dining at the city's best restaurants including tables like The Yeatman, a broad-network private plan, the transit pass with Bolt rides plus weekend rental cars or the train for Douro trips, and regional flights a few times a year. Porto's lower costs make this a genuinely affluent daily life."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -132,7 +132,7 @@
         "monthlyCost": 260
       },
       "transportation": {
-        "description": "Add a luxury car and transfers, driver/helicopter at 10M",
+        "description": "Add a luxury car and private transfers, with a driver for occasions at 10M",
         "monthlyCost": 180
       },
       "entertainment": {
@@ -170,7 +170,7 @@
         "monthlyCost": 660
       },
       "transportation": {
-        "description": "Add a luxury car and transfers, driver/helicopter at 10M",
+        "description": "Add a luxury car and private transfers, with a driver for occasions at 10M",
         "monthlyCost": 500
       },
       "entertainment": {
@@ -188,7 +188,7 @@
         "description": "Douro estate, art, bespoke travel",
         "monthlyCost": 1250
       },
-      "lifestyle": "A luxury one-to-two-bedroom in Foz do Douro or at a landmark central address. Private-chef dining, top international health cover, a chauffeured car, full household help, and generous discretionary spend on Douro estates, boats, and travel. Porto has fewer ultra-premium services than Lisbon or larger capitals, so the budget covers everything here comfortably."
+      "lifestyle": "A luxury one-to-two-bedroom in Foz do Douro or at a landmark central address. Private-chef dining, top international health cover, a premium car plus private transfers with a driver for occasions, full household help, and generous discretionary spend on Douro estates, boats, and travel. Porto has fewer ultra-premium services than Lisbon or larger capitals, so the budget covers everything here comfortably."
     }
   },
   "scores": {

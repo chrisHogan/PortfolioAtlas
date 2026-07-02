@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 30
       },
-      "lifestyle": "The cheapest comfortable solo life of the five — a private 1BHK in a modest colony, home cooking with ₹120 thalis out, autos in a small city where nothing is far, and the Palghat Gap breeze keeping A/C bills genuinely low. The expat community is small and the pace is unmistakably local."
+      "lifestyle": "A comfortable life at some of urban India’s lowest costs — a private 1BHK in a modest colony, home cooking with ₹120 thalis out, autos in a small city where nothing is far, and the Palghat Gap breeze keeping A/C bills genuinely low. The expat community is small and the pace is unmistakably local."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 43
       },
-      "lifestyle": "Relaxed solo comfort in a Tier-2 city — a nice flat in the best residential belt, a small car or unlimited ride-hail, dining out several times a week, and easy weekend escapes an hour up into the Nilgiris. Solid private cover removes the main risk."
+      "lifestyle": "Relaxed comfort in a Tier-2 city — a nice flat in the best residential belt, a small car or unlimited ride-hail, dining out several times a week, and easy weekend escapes an hour up into the Nilgiris. Solid private cover removes the main risk."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -155,7 +155,7 @@
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Large apartment / independent villa for one in Race Course (~₹66,000)",
+        "description": "Large apartment / independent villa in Race Course (~₹66,000)",
         "monthlyCost": 700
       },
       "dining": {
@@ -188,7 +188,7 @@
         "description": "Car-with-driver (~₹15,000) + luxury travel/concierge",
         "monthlyCost": 250
       },
-      "lifestyle": "Solo luxury in a Tier-2 city means a Race Course villa, a car with driver, and a cook and housekeeper — a lifestyle costing multiples of this in Bengaluru or Delhi. The honest ceiling is set by the market: prime villa rents are a fraction of metro-prime and the fine-dining scene is thin, so there’s a real cap on spend."
+      "lifestyle": "Luxury in a Tier-2 city means a Race Course villa, a car with driver, and a cook and housekeeper — a lifestyle costing multiples of this in Bengaluru or Delhi. The honest ceiling is set by the market: prime villa rents are a fraction of metro-prime and the fine-dining scene is thin, so there’s a real cap on spend."
     }
   },
   "scores": {

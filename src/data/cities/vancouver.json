@@ -44,7 +44,7 @@
         "monthlyCost": 400
       },
       "healthcare": {
-        "description": "MSP plus a basic extended health plan",
+        "description": "MSP plus a basic extended health plan. Note: BC's MSP requires residency — a non-resident early retiree should budget for private cover.",
         "monthlyCost": 50
       },
       "transportation": {
@@ -58,7 +58,7 @@
       "utilities": {
         "monthlyCost": 110
       },
-      "lifestyle": "A frugal but functional solo life — your own studio (Vancouver’s rental floor is high; no roommates but no space), home cooking, transit, and heavy reliance on the free outdoors (hiking, the seawall, beaches). Little slack for travel or dining, but the setting makes lean life unusually rich."
+      "lifestyle": "A frugal but functional life — a compact studio at Vancouver’s high rental floor (real privacy, minimal space), home cooking, transit, and heavy reliance on the free outdoors (hiking, the seawall, beaches). Little slack for travel or dining, but the setting makes lean life unusually rich."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -104,7 +104,7 @@
         "monthlyCost": 550
       },
       "healthcare": {
-        "description": "Comprehensive private coverage",
+        "description": "Comprehensive private coverage. Note: BC's MSP requires residency — a non-resident early retiree should budget for private cover.",
         "monthlyCost": 130
       },
       "transportation": {
@@ -118,7 +118,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "A genuinely good solo life with real discretionary room — a modern 1BR with a view, dining out at will, a Whistler or local-mountain season pass, and the freedom to say yes to trips. Retired comfortably in an expensive city, for one."
+      "lifestyle": "A genuinely good life with real discretionary room — a modern 1BR with a view, dining out at will, a Whistler or local-mountain season pass, and the freedom to say yes to trips. Retired comfortably in an expensive city."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -172,7 +172,7 @@
         "monthlyCost": 850
       },
       "healthcare": {
-        "description": "Top-tier private and concierge healthcare",
+        "description": "Top-tier private and concierge healthcare. Note: BC's MSP requires residency — a non-resident early retiree should budget for private cover.",
         "monthlyCost": 400
       },
       "transportation": {
@@ -194,7 +194,7 @@
         "description": "Yachting, ski chalets, and bespoke travel",
         "monthlyCost": 1500
       },
-      "lifestyle": "Top-of-market solo life — a waterfront Coal Harbour penthouse, dining anywhere, a luxury car, concierge health, weekly staff, and a large travel budget. The ceiling of solo lifestyle spend in Vancouver short of buying property."
+      "lifestyle": "Top-of-market living — a waterfront Coal Harbour penthouse, dining anywhere, a luxury car, concierge health, weekly staff, and a large travel budget. The ceiling of lifestyle spend in Vancouver short of buying property."
     }
   },
   "dataRecency": "Q3 2026"

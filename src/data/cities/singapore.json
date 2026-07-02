@@ -155,7 +155,7 @@
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Prime-district luxury condo or trophy penthouse at Marina Bay or Orchard with skyline views",
+        "description": "Prime-district luxury condo at Marina Bay or Orchard with skyline views",
         "monthlyCost": 7500
       },
       "dining": {
@@ -170,7 +170,7 @@
         "monthlyCost": 900
       },
       "transportation": {
-        "description": "Hired car with a full-time driver (owning a car runs six figures in COE) plus first-class flights",
+        "description": "On-demand chauffeured car (owning a car runs six figures in COE) plus first-class flights",
         "monthlyCost": 1700
       },
       "entertainment": {
@@ -188,7 +188,7 @@
         "description": "Rare-wine vault, bespoke global travel, contemporary-art acquisitions",
         "monthlyCost": 2400
       },
-      "lifestyle": "A prime-district luxury condo or a trophy penthouse at Marina Bay or Orchard with skyline views, a live-in helper and a part-time cook for the residence, and a hired car with a full-time driver (owning a car here runs six figures in COE alone). Top-tier international health cover with 24/7 specialist access, fine dining as routine, and elite club and yacht memberships. Singapore's extreme housing and healthcare floors absorb a real share even at this level, so life is frictionless and upper-affluent rather than limitless by local standards — and still, by a wide margin, the most expensive address in the region."
+      "lifestyle": "A prime-district luxury condo at Marina Bay or Orchard with skyline views, a live-in helper and a part-time cook for the residence, and an on-demand chauffeured car (owning a car here runs six figures in COE alone). Top-tier international health cover with 24/7 specialist access, fine dining as routine, and elite club and yacht memberships. Singapore's extreme housing and healthcare floors absorb a real share even at this level, so life is frictionless and upper-affluent rather than limitless by local standards — and still, by a wide margin, the most expensive address in the region."
     }
   },
   "scores": {

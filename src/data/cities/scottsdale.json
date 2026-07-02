@@ -91,7 +91,7 @@
         "monthlyCost": 2500
       },
       "dining": {
-        "description": "Frequent dining at top tables like Steak 44, Café Bink, and Virtù; resort dining",
+        "description": "Frequent dining at top tables like Steak 44, FnB, and Virtù; resort dining",
         "monthlyCost": 500
       },
       "groceries": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 320
       },
-      "lifestyle": "A high-quality place in walkable Old Town, a golf club membership, and regular dinners at Steak 44, Café Bink, and Virtù. Spa visits, art walks along Marshall Way, and sunset hikes are part of the weekly rhythm, with a late-model SUV for desert drives. Healthcare is a padded Gold plan near the ~$62,600 ACA cliff. This is a genuinely affluent life by Scottsdale standards, with margin for regular travel."
+      "lifestyle": "A high-quality place in walkable Old Town, a golf club membership, and regular dinners at Steak 44, FnB, and Virtù. Spa visits, art walks along Marshall Way, and sunset hikes are part of the weekly rhythm, with a late-model SUV for desert drives. Healthcare is a padded Gold plan near the ~$62,600 ACA cliff. This is a genuinely affluent life by Scottsdale standards, with margin for regular travel."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -155,7 +155,7 @@
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "A top-of-market luxury home or penthouse in a prime district — Silverleaf/DC Ranch or the Paradise Valley edge",
+        "description": "A luxury DC Ranch home or a residence on the Paradise Valley edge",
         "monthlyCost": 7500
       },
       "dining": {
@@ -170,7 +170,7 @@
         "monthlyCost": 1450
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, private car service, a classic-car hobby",
+        "description": "A premium vehicle with full ownership costs, plus regular private car service",
         "monthlyCost": 1650
       },
       "entertainment": {
@@ -181,14 +181,14 @@
         "monthlyCost": 550
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper, estate manager, and a pool/grounds crew",
+        "description": "Housekeeping several days a week plus pool and desert-landscape service",
         "monthlyCost": 1300
       },
       "luxuryExtras": {
         "description": "First-class international travel, a Sedona ranch property, an art foundation, angel investing",
         "monthlyCost": 2200
       },
-      "lifestyle": "A top-of-market luxury home in Silverleaf or on the Paradise Valley edge with Camelback views, full-time domestic staff, and a private chef several days a week. Mayo Clinic concierge care, memberships at the valley's best golf clubs, and first-class travel are all unremarkable, and a Sedona ranch property is within reach. Scottsdale's premium real estate takes a sizable share, but daily life here belongs to someone who never thinks about routine expenses — roughly $236k a year, the batch's most expensive top tier."
+      "lifestyle": "A luxury DC Ranch home or a residence on the Paradise Valley edge with Camelback views, household help several days a week, and occasional private-chef evenings alongside the valley's best restaurants. Mayo Clinic concierge care, memberships at the valley's best golf clubs, and first-class travel are all unremarkable, and a Sedona ranch property is within reach. Scottsdale's premium real estate takes a sizable share — at roughly $236k a year this is one of the priciest top tiers of any US resort city — but daily life here belongs to someone who never thinks about routine expenses."
     }
   },
   "scores": {

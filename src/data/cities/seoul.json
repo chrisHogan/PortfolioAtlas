@@ -102,7 +102,7 @@
         "monthlyCost": 450
       },
       "transportation": {
-        "description": "Owned or leased car with parking, transit pass, regular KTX travel",
+        "description": "Transit pass, taxis, and regular KTX trips — central parking alone runs ₩150–250k a month",
         "monthlyCost": 200
       },
       "entertainment": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 140
       },
-      "lifestyle": "A relaxed, financially-secure life in one of Seoul's desirable neighborhoods — Michelin-tier dining and premium Korean BBQ on rotation, KTX weekends to Busan or Jeju, and the deep cultural scene fully open. High-end dining rivals Tokyo at lower prices, so this tier stretches a long way."
+      "lifestyle": "A relaxed, financially-secure life in one of Seoul's desirable neighborhoods — Michelin-tier dining and premium Korean BBQ on rotation, KTX weekends to Busan or a quick flight to Jeju, and the deep cultural scene fully open. High-end dining rivals Tokyo at lower prices, so this tier stretches a long way."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -155,7 +155,7 @@
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "A luxury apartment or penthouse in Hannam-dong, UN Village, or Gangnam",
+        "description": "A luxury apartment in Hannam-dong, UN Village, or Gangnam",
         "monthlyCost": 5600
       },
       "dining": {
@@ -170,7 +170,7 @@
         "monthlyCost": 900
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, dedicated driver, first-class international travel, private jet access",
+        "description": "One luxury car with a driver on occasion, plus first-class international travel",
         "monthlyCost": 950
       },
       "entertainment": {

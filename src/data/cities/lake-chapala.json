@@ -181,14 +181,14 @@
         "monthlyCost": 250
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper, cook, and gardener plus a part-time driver (attainable on low local wages)",
+        "description": "Full-time housekeeper plus part-time garden help (attainable on low local wages)",
         "monthlyCost": 600
       },
       "luxuryExtras": {
         "description": "Lavish international travel — the primary top-tier outlet, since a small town offers little local luxury to buy",
         "monthlyCost": 2000
       },
-      "lifestyle": "A lakefront villa or a top La Floresta estate with pool and gardens, run by full-time staff — housekeeper, cook, gardener, and a part-time driver, all attainable on the area's low local wages. Healthcare steps up to international concierge cover with medical evacuation to Houston or Miami. Because a small lakeside town offers only so much local luxury to buy, the top-tier surplus flows outward: the largest discretionary line is lavish international travel — business-class trips and extended stays elsewhere — with the lake as a serene home base. This is about as opulent as Lake Chapala gets: a waterfront estate, resident staff, and the world a short flight from Guadalajara."
+      "lifestyle": "A lakefront villa or a top La Floresta estate with pool and gardens, run by a full-time housekeeper with part-time garden help, attainable on the area's low local wages. Healthcare steps up to international concierge cover with medical evacuation to Houston or Miami. Because a small lakeside town offers only so much local luxury to buy, the top-tier surplus flows outward: the largest discretionary line is lavish international travel — business-class trips and extended stays elsewhere — with the lake as a serene home base. This is about as opulent as Lake Chapala gets: a waterfront estate, resident staff, and the world a short flight from Guadalajara."
     }
   },
   "scores": {

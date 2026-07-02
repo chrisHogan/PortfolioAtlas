@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 210
       },
-      "lifestyle": "A cheapest-acceptable older studio or one-bedroom in Fairmount, Arlington Heights, or the Ridgmar edge, cooking at home most nights with BBQ or Tex-Mex out a couple of times a week. The Stockyards cattle drives and the Kimbell's permanent collection are free. No state income tax helps, though summer A/C bills are a meaningful expense — utilities are Fort Worth's one above-average line. The ACA Silver premium stays low only if MAGI is kept under the 2026 ~$62,600 cliff (Texas has no backfill). A manageable Lean budget that lands right around the Cincinnati benchmark."
+      "lifestyle": "A cheapest-acceptable older studio or one-bedroom in Fairmount, Arlington Heights, or the Ridgmar edge, cooking at home most nights with BBQ or Tex-Mex out a couple of times a week. The Stockyards cattle drives and the Kimbell's permanent collection are free. No state income tax helps, though summer A/C bills are a meaningful expense — utilities are Fort Worth's one above-average line. The ACA Silver premium stays low only if MAGI is kept under the 2026 ~$62,600 cliff (Texas has no backfill). A manageable Lean budget with genuine big-city amenities."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -170,25 +170,25 @@
         "monthlyCost": 1420
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, ranch trucks, private car service, charter flights from Meacham",
+        "description": "A premium truck or SUV with full ownership costs, plus regular private car service",
         "monthlyCost": 1650
       },
       "entertainment": {
-        "description": "A private suite at AT&T Stadium, major philanthropic events, Western art collecting, international travel",
+        "description": "Premium club-level Cowboys season tickets, major philanthropic events, Western art collecting, international travel",
         "monthlyCost": 1750
       },
       "utilities": {
         "monthlyCost": 500
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper, personal assistant, ranch hands, and a property-management team",
+        "description": "Housekeeping several days a week plus grounds and property upkeep",
         "monthlyCost": 1200
       },
       "luxuryExtras": {
         "description": "A working ranch operation, first-class international travel, major art acquisitions, charitable foundations",
         "monthlyCost": 2000
       },
-      "lifestyle": "A historic Rivercrest estate or a ranch property outside the city, full-time domestic help, and a private chef several days a week. First-class travel, a premium suite at AT&T Stadium, concierge healthcare, and multiple vehicles are all covered. No state income tax and Fort Worth's moderate cost base mean this budget — roughly $199k a year — delivers very comfortable, well-staffed living with large margins."
+      "lifestyle": "A historic Rivercrest estate or a ranch property outside the city, household help several days a week, and occasional private-chef evenings alongside the city's best steakhouses and dining rooms. First-class travel, premium club-level Cowboys season tickets, and concierge healthcare are all covered. No state income tax and Fort Worth's moderate cost base mean this budget — roughly $199k a year — delivers very comfortable, low-friction living with large margins."
     }
   },
   "scores": {

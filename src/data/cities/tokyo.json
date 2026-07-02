@@ -91,7 +91,7 @@
         "monthlyCost": 950
       },
       "dining": {
-        "description": "Michelin-starred sushi counters, kaiseki dinners, high-end tempura, and reservation-only omakase — Tokyo has more Michelin stars than any city on Earth",
+        "description": "Excellent everyday dining with an occasional kaiseki or omakase night — those counters run $150–300+ a head in the city with more Michelin stars than any other on Earth",
         "monthlyCost": 450
       },
       "groceries": {
@@ -102,7 +102,7 @@
         "monthlyCost": 550
       },
       "transportation": {
-        "description": "Metro pass, regular taxi use, monthly Shinkansen trips, and occasional domestic flights to Kyoto or Hokkaido",
+        "description": "Metro pass, taxis, and a few Shinkansen trips a year — a Tokyo–Kyoto round trip alone costs roughly this whole line",
         "monthlyCost": 180
       },
       "entertainment": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 170
       },
-      "lifestyle": "A relaxed, financially-independent life with real access to the reason people come to Tokyo — excellent sushi counters, kaiseki, and high-end tempura on rotation, Shinkansen weekends to Kyoto or Hokkaido, and premium private healthcare. Tokyo has more Michelin stars than any city on Earth, and this tier opens that door."
+      "lifestyle": "A relaxed, financially-independent life with real access to the reason people come to Tokyo — an occasional kaiseki or omakase night among excellent everyday dining, a few Shinkansen trips a year to Kyoto or Hokkaido, and premium private healthcare. Tokyo has more Michelin stars than any city on Earth, and this tier opens that door a night at a time."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -155,11 +155,11 @@
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "A top-of-market unit in Azabu-Juban, Roppongi, or Minato (concierge or serviced tower — Roppongi Hills / Toranomon Hills / Azabudai Hills class)",
+        "description": "A high-floor residence in an Azabu-Juban, Roppongi, or Minato concierge tower (Roppongi Hills / Toranomon Hills / Azabudai Hills class) — true top-of-market units there run ¥1.5M+ a month",
         "monthlyCost": 4900
       },
       "dining": {
-        "description": "Personal Japanese chef for daily meals, standing reservations at the world's most exclusive sushi counters, private kaiseki experiences, and imported delicacies from Tsukiji outer market",
+        "description": "Regular kaiseki and omakase dining with occasional private-chef evenings, sought-after sushi counter reservations, and delicacies from the Tsukiji outer market",
         "monthlyCost": 1600
       },
       "groceries": {
@@ -170,7 +170,7 @@
         "monthlyCost": 1000
       },
       "transportation": {
-        "description": "Full-time chauffeur with luxury vehicle, Gran Class Shinkansen, first-class international flights, and private jet charters for regional travel",
+        "description": "Hired-car service on demand — a chauffeur's salary alone runs ¥400–500k a month — plus Gran Class Shinkansen and first-class international flights",
         "monthlyCost": 700
       },
       "entertainment": {
@@ -188,7 +188,7 @@
         "description": "Japanese contemporary art collection, bespoke experiences (private temple access, master craftsman workshops), Niseko ski chalet, premium whisky investments, and charitable patronage",
         "monthlyCost": 2200
       },
-      "lifestyle": "Top-of-market Tokyo — the best address in the city, a personal chef when wanted, standing reservations at the world's most exclusive counters, a full-time-equivalent driver, concierge medicine with 24/7 access, and uncapped travel and cultural patronage. Weak yen keeps even this below Hong Kong and Seoul at the very top, but the depth and refinement on offer are unmatched."
+      "lifestyle": "Upper-market Tokyo — a prestigious Minato-area address, a private chef when wanted, sought-after counter reservations, hired-car service on demand, concierge medicine with 24/7 access, and generous travel and cultural patronage. Weak yen keeps even this below Hong Kong and Seoul at the very top, but the depth and refinement on offer are unmatched."
     }
   },
   "scores": {

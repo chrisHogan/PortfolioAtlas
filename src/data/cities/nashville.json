@@ -170,25 +170,25 @@
         "monthlyCost": 1400
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, a private driver, a classic-car collection",
+        "description": "A premium vehicle plus regular private car service",
         "monthlyCost": 1600
       },
       "entertainment": {
-        "description": "A private suite at Bridgestone Arena, music-industry philanthropy, art collecting, international travel",
+        "description": "Club-level season tickets at Bridgestone Arena, music-industry philanthropy, art collecting, international travel",
         "monthlyCost": 1900
       },
       "utilities": {
         "monthlyCost": 500
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper, personal assistant, estate groundskeeper, and property manager",
+        "description": "Housekeeping several days a week plus a grounds service",
         "monthlyCost": 1250
       },
       "luxuryExtras": {
         "description": "First-class international travel, a recording-studio investment, a ranch property, angel investing",
         "monthlyCost": 2050
       },
-      "lifestyle": "An estate in Belle Meade or a historic Oak Hill mansion, full-time domestic staff, and a private chef several days a week, with top-tier concierge care at Vanderbilt. First-class travel, multiple vehicles, and a private suite at Bridgestone Arena for concerts and Predators games come standard. Nashville's zero income tax on roughly $222k a year of spending means daily costs never register, funding an uncapped life with music-industry philanthropy and international travel."
+      "lifestyle": "An estate in Belle Meade or a historic Oak Hill mansion, housekeeping a few days a week with a grounds service, and a private chef several days a week, with top-tier concierge care at Vanderbilt. First-class travel, a premium vehicle with car service, and club-level season tickets at Bridgestone Arena for concerts and Predators games all fit comfortably. Nashville's zero income tax on roughly $222k a year of spending means daily costs never register, funding an uncapped life with music-industry philanthropy and international travel."
     }
   },
   "scores": {

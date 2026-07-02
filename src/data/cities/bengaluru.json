@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 32
       },
-      "lifestyle": "A comfortable solo budget in India’s most temperate metro — a decent 1BHK, metro-and-auto mobility, darshini eating with regular café stops, and real individual cover. The near-constant spring climate keeps utilities the lowest of the metros; traffic is the daily tax."
+      "lifestyle": "A comfortable budget in India’s most temperate metro — a decent 1BHK, metro-and-auto mobility, darshini eating with regular café stops, and real individual cover. The near-constant spring climate keeps utilities the lowest of the metros; traffic is the daily tax."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 55
       },
-      "lifestyle": "Cosmopolitan solo comfort — a good flat in Indiranagar or Koramangala, regular dining across one of India’s best restaurant/brewery scenes, a car or unlimited ride-hail, and weekend escapes to the coffee hills. English is spoken everywhere; imported comforts are easy to find."
+      "lifestyle": "Cosmopolitan comfort — a good flat in Indiranagar or Koramangala, regular dining across one of India’s best restaurant/brewery scenes, a car or unlimited ride-hail, and weekend escapes to the coffee hills. English is spoken everywhere; imported comforts are easy to find."
     },
     "5M": {
       "monthlyBudget": 16667,
@@ -188,7 +188,7 @@
         "description": "Luxury travel, concierge, memberships",
         "monthlyCost": 400
       },
-      "lifestyle": "Solo luxury in the garden city — a large villa or premium flat, a driver, live-in cook and housekeeper, international health cover, and a generous travel budget. Bengaluru’s prime rents are India’s highest, so housing carries this tier; the temperate climate keeps utilities low even at scale."
+      "lifestyle": "Luxury in the garden city — a large villa or premium flat, a driver, a full-time cook and housekeeper, international health cover, and a generous travel budget. Bengaluru’s prime rents are among India’s highest, so housing carries this tier; the temperate climate keeps utilities low even at scale."
     }
   },
   "scores": {

@@ -170,7 +170,7 @@
         "monthlyCost": 1350
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, car service, chartered flights from PIT",
+        "description": "One premium vehicle plus car service",
         "monthlyCost": 1500
       },
       "entertainment": {
@@ -181,14 +181,14 @@
         "monthlyCost": 500
       },
       "domesticHelp": {
-        "description": "Full staff-for-one: housekeeper, groundskeeper, driver/estate manager",
+        "description": "Weekly housekeeping plus lawn and grounds service",
         "monthlyCost": 1200
       },
       "luxuryExtras": {
         "description": "Bespoke travel, club memberships, a Laurel Highlands second home",
         "monthlyCost": 1900
       },
-      "lifestyle": "A grand estate in Fox Chapel or Sewickley Heights, or a penthouse over the three rivers, staffed by a full household team, is the top of what money buys in an affordable city. Dining spans a private chef and the finest restaurants, healthcare is a top-tier UPMC concierge practice, and a fleet of vehicles with charter flights from Pittsburgh International covers travel. Carnegie-level philanthropy, international trips, a second home in the Laurel Highlands, and a full social calendar are all comfortable. Because Pittsburgh's cost base is so low, even this lavish life leaves enormous margin — a level that would cost far more in the coastal metros."
+      "lifestyle": "A grand estate in Fox Chapel or Sewickley Heights, or a penthouse over the three rivers, kept by weekly housekeeping and a grounds service, is the top of what money buys in an affordable city. Dining spans a private chef and the finest restaurants, healthcare is a top-tier UPMC concierge practice, and a premium vehicle with car service covers travel. Carnegie-level philanthropy, international trips, a second home in the Laurel Highlands, and a full social calendar are all comfortable. Because Pittsburgh's cost base is so low, even this lavish life leaves enormous margin — a level that would cost far more in the coastal metros."
     }
   },
   "scores": {

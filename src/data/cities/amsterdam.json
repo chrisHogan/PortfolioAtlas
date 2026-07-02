@@ -159,7 +159,7 @@
         "monthlyCost": 6300
       },
       "dining": {
-        "description": "Near-daily fine dining / chef's tables",
+        "description": "Fine dining weekly-plus, with occasional chef's-table nights",
         "monthlyCost": 1253
       },
       "groceries": {
@@ -170,7 +170,7 @@
         "monthlyCost": 775
       },
       "transportation": {
-        "description": "Leased/owned car (incl. Amsterdam parking premium) plus taxis and the GVB pass",
+        "description": "GVB pass, taxis, and car rental/share as needed",
         "monthlyCost": 592
       },
       "entertainment": {
@@ -188,7 +188,7 @@
         "description": "Concierge, wine cellar, premium memberships, discretionary travel",
         "monthlyCost": 1450
       },
-      "lifestyle": "A grand canal-house apartment in the Grachtengordel or Oud-Zuid, or a Zuidas luxury penthouse, kept by a housekeeper several times a week. Dining is near-daily at the city's best tables, health cover is top-tier international concierge with worldwide access, and a leased car sits alongside the pass and bike for when the canals don't suit. The discretionary budget funds club memberships, a wine cellar, concierge services, and regular travel. This is the top of what the city offers short of buying a canal house outright — a trophy address, staff on hand, and Amsterdam's culture fully open."
+      "lifestyle": "A grand canal-house apartment in the Grachtengordel or Oud-Zuid, or a Zuidas luxury penthouse, kept by a housekeeper several times a week. Dining is weekly-plus at the city's best tables with occasional chef's-table nights, health cover is top-tier international concierge with worldwide access, and taxis plus a rental or share car back up the pass and bike for when the canals don't suit. The discretionary budget funds club memberships, a wine cellar, concierge services, and regular travel. This is the top of what the city offers short of buying a canal house outright — a trophy address, staff on hand, and Amsterdam's culture fully open."
     }
   },
   "scores": {
