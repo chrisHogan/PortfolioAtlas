@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "Furnished 1BR apartment in Laureles or Envigado with mountain views",
-        "monthlyCost": 775
+        "description": "Modest furnished studio / small 1BR in a safe non-prime area (Belén, Envigado/Sabaneta edge, or Laureles periphery); respects the expat-safe floor",
+        "monthlyCost": 525
       },
       "dining": {
-        "description": "Menu del día lunches ($3-4), local restaurants, arepa stands, and weekend brunch",
-        "monthlyCost": 550
+        "description": "Menú del día lunches a few times a week plus casual eats; mostly home cooking",
+        "monthlyCost": 95
       },
       "groceries": {
-        "monthlyCost": 375
-      },
-      "healthcare": {
-        "description": "EPS public insurance enrollment plus supplemental prepagada plan",
         "monthlyCost": 175
       },
+      "healthcare": {
+        "description": "Mandatory EPS contribution plus an optional entry local plan; 45–55 basis",
+        "monthlyCost": 95
+      },
       "transportation": {
-        "description": "Metro system, integrated bus network, and occasional taxi or InDriver rides",
-        "monthlyCost": 125
+        "description": "Metro plus integrated bus, occasional Uber; no car",
+        "monthlyCost": 35
       },
       "entertainment": {
-        "description": "Parque Arví hikes, free cultural events, salsa clubs, local brewery scene",
-        "monthlyCost": 300
+        "description": "Parks, Pueblito Paisa, free cultural events, occasional cinema",
+        "monthlyCost": 45
       },
       "utilities": {
-        "monthlyCost": 100
+        "monthlyCost": 65
       },
-      "lifestyle": "A furnished one-bedroom in Laureles or Envigado puts you in a walkable neighborhood with mountain views and affordable daily life. Menu del día lunches run a few dollars, the Metro covers most of the city, and weekend hikes to Parque Arví are practically free. The budget is comfortable here with room to spare, though you are cooking at home regularly and keeping entertainment simple."
+      "lifestyle": "A modest furnished studio or compact one-bedroom in a safe, well-connected barrio — Laureles' quieter edges, Belén, or up toward Envigado — anchors a frugal but genuinely pleasant routine. Most meals come from neighborhood markets and home cooking, with the inexpensive menú del día handling lunches out. Getting around is the clean, cheap Metro and its cable-car and bus network, with an occasional Uber and no car needed. The spring-like climate erases heating and cooling bills entirely, and the city's parks and free cultural programming do the entertaining. Careful and lean, but comfortable, with basic public-plus-entry-private cover for routine care."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "Modern 2BR apartment in El Poblado or upscale Laureles with pool, gym, and security",
-        "monthlyCost": 1150
+        "description": "Furnished 1BR in a desirable, walkable area (solid Laureles, El Poblado-adjacent, or good Envigado), amenity building",
+        "monthlyCost": 740
       },
       "dining": {
-        "description": "Regular meals at El Poblado's international restaurants, craft cocktail bars, and coffee tours",
-        "monthlyCost": 775
+        "description": "Out 3–4x/week mixing local comida with mid-range Laureles/Poblado tables",
+        "monthlyCost": 155
       },
       "groceries": {
-        "monthlyCost": 400
+        "monthlyCost": 205
       },
       "healthcare": {
-        "description": "Premium prepagada plan with top clinics like Clínica Las Américas or Pablo Tobón Uribe",
-        "monthlyCost": 250
+        "description": "EPS plus a private prepagada plan (Colsanitas or Sura) for fast specialist access",
+        "monthlyCost": 170
       },
       "transportation": {
-        "description": "Frequent taxi and rideshare use, weekend car rentals for trips to Guatapé or Jardín",
-        "monthlyCost": 175
+        "description": "Metro plus regular Uber; still no car",
+        "monthlyCost": 50
       },
       "entertainment": {
-        "description": "Gym membership, Spanish classes, weekend finca trips, concerts, and coffee farm tours",
-        "monthlyCost": 550
+        "description": "A fuller cultural/social calendar plus a gym",
+        "monthlyCost": 90
       },
       "utilities": {
-        "monthlyCost": 100
+        "monthlyCost": 75
       },
-      "lifestyle": "A modern two-bedroom in El Poblado or upper Laureles with pool and gym gives you a comfortable base. You dine out several times a week at international restaurants, take Spanish classes, and carry good private health insurance. Weekend car rentals for trips to Guatapé or coffee country fincas are easily in budget, and the year-round spring weather means low utility costs."
+      "lifestyle": "A comfortable furnished apartment in Laureles or an El Poblado-adjacent block puts cafés, the Estadio nightlife, and leafy streets on the doorstep. Eating out three or four nights a week across the city's easy casual-to-mid scene becomes routine, and a private prepagada plan layered over EPS opens quick access to Medellín's strong private hospitals. The Metro plus habitual rideshare covers the valley end to end. A gym membership and a steady calendar of concerts, markets, and day trips round out an unpretentious, easy life with money to spare."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Luxury 3BR penthouse in El Poblado's Golden Mile with panoramic valley views and concierge",
-        "monthlyCost": 1550
+        "description": "Quality furnished 1BR in prime El Poblado (near the Golden Mile) or the best of Laureles; modern amenity building",
+        "monthlyCost": 960
       },
       "dining": {
-        "description": "Fine dining at Carmen, El Cielo, and OCI weekly; daily restaurant meals without hesitation",
-        "monthlyCost": 850
+        "description": "Dining out most days across the Poblado/Laureles scene",
+        "monthlyCost": 270
       },
       "groceries": {
-        "monthlyCost": 400
+        "monthlyCost": 245
       },
       "healthcare": {
-        "description": "Top-tier prepagada, dental implant work, annual wellness retreats in Santa Marta",
-        "monthlyCost": 275
+        "description": "Top prepagada (Colsanitas/Sura) with full access to leading private hospitals; approaching an entry international plan",
+        "monthlyCost": 250
       },
       "transportation": {
-        "description": "Personal driver, premium rideshares, domestic flights to Cartagena and Bogotá",
-        "monthlyCost": 325
+        "description": "Uber-heavy daily use plus occasional car rental; car ownership optional",
+        "monthlyCost": 75
       },
       "entertainment": {
-        "description": "Country club membership, paragliding, VIP events at Colombiamoda, adventure travel",
-        "monthlyCost": 700
+        "description": "Rich cultural, dining, and regional-travel calendar",
+        "monthlyCost": 135
       },
       "utilities": {
-        "monthlyCost": 100
+        "monthlyCost": 85
       },
-      "lifestyle": "A large penthouse in El Poblado with valley views, a personal trainer, and top-tier health insurance set the daily baseline. You eat at restaurants like Carmen and El Cielo regularly, take domestic flights to Cartagena or Bogotá for long weekends, and have a driver or premium rideshare for daily errands. This budget goes very far in Medellín — you live well above most locals and many expats."
+      "lifestyle": "A quality furnished apartment in prime El Poblado near the Golden Mile — or the best of Laureles — anchors a confident, unhurried FIRE routine in an amenity building with pool and gym. Dining out is near-daily across an acclaimed and still-affordable restaurant scene, groceries lean on premium supermarkets and imported specialties, and a top prepagada plan keeps out-of-pocket exposure low with full access to Medellín's best private hospitals. Rideshare-first mobility handles the city, with weekend escapes to Guatapé, the coffee region, or the Caribbean coast easily in budget. A full calendar of theatre, fine dining, and cultural memberships comes with real margin left over."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Ultra-luxury penthouse in El Tesoro area or sprawling finca-style home in Envigado hills with private pool",
-        "monthlyCost": 1950
+        "description": "Luxury amenity apartment in prime El Poblado (Golden Mile / El Tesoro) or top Laureles — doorman, pool, gym, concierge",
+        "monthlyCost": 1800
       },
       "dining": {
-        "description": "Unlimited fine dining, private chef experiences, wine pairing dinners, culinary tours",
-        "monthlyCost": 1025
+        "description": "Near-daily dining including the city's top tables, with occasional destination fine dining",
+        "monthlyCost": 470
       },
       "groceries": {
-        "monthlyCost": 350
+        "monthlyCost": 310
       },
       "healthcare": {
-        "description": "Platinum healthcare with US-standard specialists, medical concierge, cosmetic procedures",
-        "monthlyCost": 275
+        "description": "Top-tier prepagada plus an entry international plan (Cigna Global / Allianz) with regional coverage",
+        "monthlyCost": 420
       },
       "transportation": {
-        "description": "Full-time driver with SUV, domestic flights, helicopter tours to coffee country",
-        "monthlyCost": 525
+        "description": "Owned car plus premium rideshare",
+        "monthlyCost": 260
       },
       "entertainment": {
-        "description": "Exclusive club memberships, adventure sports, art collecting, Feria de las Flores VIP access",
-        "monthlyCost": 775
+        "description": "Premium leisure, wellness, and travel routine",
+        "monthlyCost": 330
       },
       "utilities": {
-        "monthlyCost": 100
+        "monthlyCost": 110
       },
       "domesticHelp": {
-        "description": "Full-time live-in housekeeper, cook, and part-time gardener for your property",
-        "monthlyCost": 475
+        "description": "Part-time housekeeper 2–3 days/week",
+        "monthlyCost": 220
       },
       "luxuryExtras": {
-        "description": "Weekend finca in coffee region, private salsa instructor, bespoke Colombian emerald jewelry",
-        "monthlyCost": 925
+        "description": "Discretionary travel, wellness, memberships",
+        "monthlyCost": 380
       },
-      "lifestyle": "A large home in the Envigado hills or a top-end El Poblado penthouse with a pool provides generous living space. A housekeeper comes several days a week, you have a driver, and dining at the city's best restaurants is routine. Business class flights for international travel and regular weekend trips to a rented finca in coffee country are comfortably within budget."
+      "lifestyle": "A luxury amenity apartment on El Poblado's Golden Mile or up in El Tesoro — doorman, rooftop pool, mountain views — sets the tone, with a housekeeper coming two or three days a week. Dining spans casual to Medellín's celebrated destination tables without a second thought, an entry-level international plan adds cross-border coverage on top of premium local care, and an owned car plus premium rideshare cover the valley. Discretionary spend flows into wellness, cultural memberships, and frequent getaways. Comfortably clear of what daily life requires, with the surplus going to travel and savings."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Estate property in the hills of El Retiro or Las Palmas with multiple structures, pool, and 360° mountain views",
-        "monthlyCost": 2500
+        "description": "Prime furnished penthouse on the El Poblado Golden Mile / El Tesoro, or an estate in the Las Palmas / El Retiro hills — top of the long-term luxury stock",
+        "monthlyCost": 3600
       },
       "dining": {
-        "description": "Private chef daily, exclusive supper clubs, regional culinary expeditions, imported wines",
-        "monthlyCost": 1225
+        "description": "Near-daily fine dining across the city's best plus entertaining",
+        "monthlyCost": 900
       },
       "groceries": {
-        "monthlyCost": 350
+        "monthlyCost": 420
       },
       "healthcare": {
-        "description": "Global concierge healthcare, annual US checkups, longevity medicine, personal wellness team",
-        "monthlyCost": 350
+        "description": "International concierge plan with medical evacuation to Miami/Houston; 45–55 basis",
+        "monthlyCost": 780
       },
       "transportation": {
-        "description": "Luxury vehicle fleet with full-time chauffeur, private flights, yacht charters in Cartagena",
-        "monthlyCost": 975
+        "description": "Owned luxury car plus frequent private driver",
+        "monthlyCost": 600
       },
       "entertainment": {
-        "description": "Philanthropic foundations, art patronage, exclusive social clubs, adventure expeditions to the Amazon",
-        "monthlyCost": 1225
+        "description": "Lavish entertaining, private events, premium memberships, frequent travel, wellness",
+        "monthlyCost": 850
       },
       "utilities": {
-        "monthlyCost": 125
+        "monthlyCost": 170
       },
       "domesticHelp": {
-        "description": "Complete household staff: chef, two housekeepers, driver, groundskeeper, personal assistant, security",
-        "monthlyCost": 975
+        "description": "Full-time live-out staff (housekeeper-cook plus part-time driver-caretaker)",
+        "monthlyCost": 750
       },
       "luxuryExtras": {
-        "description": "Multiple properties (Cartagena beach house, coffee finca, city penthouse), emerald mine investment, polo club",
-        "monthlyCost": 1925
+        "description": "Frequent international travel, art/wine, exclusive club memberships, luxury shopping",
+        "monthlyCost": 930
       },
-      "lifestyle": "A hilltop estate in El Retiro or Las Palmas with panoramic mountain views, a cook who prepares daily meals, a housekeeper, and a driver define daily life. You dine at the best restaurants freely, fly business class internationally, and travel domestically to Cartagena or the coffee region on a whim. This budget far exceeds what Medellín requires for a top-tier life — significant margin goes to savings, travel, or charitable involvement in the local community."
+      "lifestyle": "A trophy penthouse on the Golden Mile or a gated estate in the cool Las Palmas–El Retiro hills — private terrace, valley views, kept by full-time staff including a housekeeper-cook and an on-call driver. Fine dining is near-daily at the destination tables that have put this city on the culinary map, and an international concierge plan with cross-border medical evacuation removes the last friction. A luxury vehicle with private driving, gourmet and imported provisioning, and a discretionary budget for constant travel, art, and elite club memberships mean nothing is out of reach. This is Medellín at its most opulent — an exclusive address, resident staff, and a world-class private-medicine city at the door."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 6,
     "infrastructure": 5,
     "expatFriendliness": 7
-  }
+  },
+  "dataRecency": "Q3 2026"
 }

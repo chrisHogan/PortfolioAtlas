@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "2BR apartment in Bocagrande or a charming flat in Getsemani near the walled city",
-        "monthlyCost": 925
+        "description": "Frugal furnished studio or 1BR in Getsemaní or the residential edge of Centro; respects the walled-city/tourist rent floor (not the rock-bottom local level)",
+        "monthlyCost": 450
       },
       "dining": {
-        "description": "Fresh seafood at local restaurants, street food arepas and empanadas, casual dining 4-5x/week",
-        "monthlyCost": 300
+        "description": "Almuerzo corriente and local seafood plates a few times a week plus street food",
+        "monthlyCost": 115
       },
       "groceries": {
-        "monthlyCost": 300
-      },
-      "healthcare": {
-        "description": "Colombian EPS health system enrollment plus basic private supplement — excellent value",
-        "monthlyCost": 225
-      },
-      "transportation": {
-        "description": "Local buses and taxis; Cartagena is walkable in the historic center",
-        "monthlyCost": 75
-      },
-      "entertainment": {
-        "description": "Beach days on Playa Blanca, salsa dancing, colonial city walks, sunset drinks on the wall",
-        "monthlyCost": 150
-      },
-      "utilities": {
         "monthlyCost": 175
       },
-      "lifestyle": "A two-bedroom apartment in Bocagrande or Getsemaní near the walled city provides a comfortable base at low cost. Fresh seafood at local restaurants is cheap, the historic center is walkable, and beach access is easy. Learning Spanish is essential since English is limited. The heat is relentless year-round, which is a real lifestyle consideration. This budget leaves room for savings in one of Colombia's most affordable coastal cities."
+      "healthcare": {
+        "description": "EPS contributory plus a basic prepagada / entry Colsanitas-Sura plan; priced for a healthy 45–55",
+        "monthlyCost": 105
+      },
+      "transportation": {
+        "description": "Buses, mototaxi, and InDrive; the historic center is walkable",
+        "monthlyCost": 40
+      },
+      "entertainment": {
+        "description": "Beach days, sea-wall walks, salsa, an occasional gym visit",
+        "monthlyCost": 45
+      },
+      "utilities": {
+        "monthlyCost": 85
+      },
+      "lifestyle": "A frugal furnished studio or one-bedroom in Getsemaní or the residential fringe of the old center puts colonial streets, the sea wall, and market stalls within walking distance. Days lean on almuerzo corriente, fresh ceviche from a neighborhood spot, and produce from the mercado, with mototaxis and buses covering the rest. The air conditioning runs sparingly to keep the electricity bill down against the relentless coastal heat, and cover is an entry Colombian prepagada plan. Beach afternoons and free walks along the ramparts fill the calendar. A genuinely economical life, though the tourist-enclave rent floor keeps housing from collapsing to bare-local levels."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "Beautiful 3BR colonial apartment in the Walled City or a modern condo in Castillogrande with ocean views",
-        "monthlyCost": 1325
+        "description": "Comfortable furnished 1BR in Getsemaní or lower Bocagrande with reliable A/C",
+        "monthlyCost": 660
       },
       "dining": {
-        "description": "Regular dining at Cartagena's best restaurants, ceviche bars, rooftop terraces, seafood feasts",
-        "monthlyCost": 450
+        "description": "Out several times a week: ceviche bars, mid-range tables, rooftop drinks",
+        "monthlyCost": 220
       },
       "groceries": {
-        "monthlyCost": 325
+        "monthlyCost": 210
       },
       "healthcare": {
-        "description": "Premium private insurance with access to top clinics and specialists in Cartagena",
-        "monthlyCost": 275
+        "description": "Comprehensive prepagada (mid Colsanitas/Sura plan)",
+        "monthlyCost": 175
       },
       "transportation": {
-        "description": "Private car or scooter plus occasional boat trips to Rosario Islands",
-        "monthlyCost": 175
+        "description": "Regular taxi/InDrive plus occasional Rosario Islands boat trips",
+        "monthlyCost": 70
       },
       "entertainment": {
-        "description": "Island hopping, diving trips, salsa lessons, cultural festivals, weekend trips to Minca",
-        "monthlyCost": 325
+        "description": "Island hopping, salsa lessons, gym, cultural festivals",
+        "monthlyCost": 120
       },
       "utilities": {
-        "monthlyCost": 175
+        "monthlyCost": 110
       },
-      "lifestyle": "A colonial apartment in the Walled City or a modern ocean-view condo in Castillogrande with good air conditioning gives you a solid home base. You dine at the city's best restaurants several times a week, carry premium private insurance, and take boat trips to the Rosario Islands regularly. Weekend trips to the Sierra Nevada mountains or Minca offer relief from the coastal heat. This budget goes very far in Cartagena."
+      "lifestyle": "A comfortable furnished apartment in Getsemaní or lower Bocagrande, with air conditioning that runs all day, anchors an easy coastal routine. Eating out is regular — ceviche bars, mid-range kitchens, sunset drinks on a rooftop — and the health plan steps up to a comprehensive prepagada with good clinic access. Weekends bring boat trips to the Rosario Islands and the occasional escape to the cooler Sierra Nevada. Comprehensive but unpretentious, this budget goes a long way on the Caribbean coast."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Restored colonial mansion apartment in Centro Historico or a premium penthouse in Bocagrande",
-        "monthlyCost": 1725
+        "description": "Prime furnished 1BR in the Walled City / Centro Histórico or an upper-Bocagrande unit with quality A/C",
+        "monthlyCost": 1000
       },
       "dining": {
-        "description": "Fine dining at Carmen and Celele, catered dinner parties occasionally, premium cocktail bars",
-        "monthlyCost": 600
-      },
-      "groceries": {
+        "description": "Frequent good restaurants, Carmen/Celele occasionally, premium cocktail bars",
         "monthlyCost": 350
       },
+      "groceries": {
+        "monthlyCost": 255
+      },
       "healthcare": {
-        "description": "Top-tier private insurance with international coverage and medical tourism options",
-        "monthlyCost": 300
+        "description": "Top-tier prepagada (premium Colsanitas) plus a supplement",
+        "monthlyCost": 270
       },
       "transportation": {
-        "description": "Private car with driver for city travel, boat access for island trips, domestic flights",
-        "monthlyCost": 250
+        "description": "Regular car service/InDrive, island boat access, occasional domestic flight",
+        "monthlyCost": 115
       },
       "entertainment": {
-        "description": "Private island day trips, scuba diving, cultural patronage, music festivals, travel across Colombia",
-        "monthlyCost": 425
+        "description": "Island day trips, diving, cultural events, domestic travel across Colombia",
+        "monthlyCost": 195
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 135
       },
-      "lifestyle": "A restored colonial apartment in Centro Histórico or a premium Bocagrande penthouse anchors daily life. You have a driver, dine at Carmen and Celele regularly, and take boat trips to nearby islands whenever you like. Domestic flights to Bogotá, Medellín, or coffee country open up Colombia's geographic diversity for weekend trips. This is well above what most people spend in Cartagena, with substantial headroom in the budget."
+      "lifestyle": "A prime furnished apartment inside the Walled City's colonial streets, or a high-floor Bocagrande unit with sea breezes, sets the tone for a well-appointed early-retirement life. Dining is frequent and good — standout kitchens like Carmen and Celele are within reach — and the health plan is a top prepagada with a supplement. Island boat trips, diving, and domestic flights to Bogotá, Medellín, or coffee country open up the calendar. This sits comfortably above what most residents of the city spend, with real headroom in the budget."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Entire restored colonial house in the Walled City or a luxury beachfront villa on Baru Island",
-        "monthlyCost": 2000
+        "description": "An entire restored colonial house in the Walled City or a luxury beachfront penthouse in Bocagrande/Castillogrande (long-term rate)",
+        "monthlyCost": 1900
       },
       "dining": {
-        "description": "Personal chef, exclusive dining experiences, premium wine collection, catered events",
-        "monthlyCost": 575
+        "description": "Fine dining regularly, occasional private-chef meals, premium wine",
+        "monthlyCost": 480
       },
       "groceries": {
-        "monthlyCost": 275
+        "monthlyCost": 290
       },
       "healthcare": {
-        "description": "VIP international health coverage with concierge medical service",
-        "monthlyCost": 275
-      },
-      "transportation": {
-        "description": "Luxury car with full-time driver, private boat for island access, domestic first-class flights",
-        "monthlyCost": 350
-      },
-      "entertainment": {
-        "description": "Private yacht charters, exclusive cultural events, scuba and fishing expeditions, philanthropic work",
+        "description": "Entry international plan (Cigna Global / GeoBlue tier) for a 45–55",
         "monthlyCost": 450
       },
+      "transportation": {
+        "description": "Car with driver, private-boat access, domestic first-class",
+        "monthlyCost": 260
+      },
+      "entertainment": {
+        "description": "Yacht/island charters, cultural patronage, travel",
+        "monthlyCost": 350
+      },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 160
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper, cook, gardener, and security; live-in help is common and affordable",
-        "monthlyCost": 400
+        "description": "Near-full-time housekeeper-cook (Colombian all-in wages run higher in USD at the strong 2026 peso; Cartagena rates sit ~15% above Medellín)",
+        "monthlyCost": 430
       },
       "luxuryExtras": {
-        "description": "International first-class travel, Caribbean yacht trips, art collecting, foundation work in Colombia",
-        "monthlyCost": 1125
+        "description": "Standing travel fund, club memberships, discretionary",
+        "monthlyCost": 530
       },
-      "lifestyle": "A full colonial house in the Walled City or a beachfront villa on Barú with housekeeper, cook, and gardener provides a well-staffed home. You have a driver, dine at the city's best restaurants freely, and charter boats for island trips. Business class flights handle international travel, and domestic first-class connects you to other Colombian cities. This budget far exceeds Cartagena's cost of living, producing significant margin."
+      "lifestyle": "An entire restored colonial house behind the ramparts, or a luxury beachfront penthouse with an infinity pool in Bocagrande, comes with household help several days a week. Fine dining is routine, an international health plan replaces the local prepagada, and a driver plus private-boat access make island days effortless. The discretionary budget funds yacht charters, cultural patronage, and a standing travel fund. A polished, well-staffed version of coastal life that runs well beyond the local cost base."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Grand colonial estate in Centro Historico or a private island compound near Rosario Islands",
-        "monthlyCost": 2450
+        "description": "A grand colonial mansion in Centro Histórico or a private beachfront villa compound on Barú / near the Rosario Islands (long-term equivalent)",
+        "monthlyCost": 3400
       },
       "dining": {
-        "description": "Personal chef team, private dining experiences, imported wine cellar, lavish entertaining",
-        "monthlyCost": 800
+        "description": "Uncapped fine dining, imported wine cellar, lavish entertaining",
+        "monthlyCost": 780
       },
       "groceries": {
-        "monthlyCost": 275
+        "monthlyCost": 370
       },
       "healthcare": {
-        "description": "Top-tier international concierge medicine with global evacuation and wellness programs",
-        "monthlyCost": 275
+        "description": "International concierge plan with medical evacuation (worldwide, priced for a 45–55)",
+        "monthlyCost": 880
       },
       "transportation": {
-        "description": "Multiple vehicles with driver, private yacht, chartered flights, first-class international travel",
-        "monthlyCost": 600
+        "description": "Multiple vehicles with driver, private-boat/yacht access, chartered/first-class flights",
+        "monthlyCost": 520
       },
       "entertainment": {
-        "description": "Private island retreats, deep-sea fishing yacht, cultural patronage, international events",
-        "monthlyCost": 1000
+        "description": "Yacht charters, private-island retreats, deep-sea fishing, cultural events",
+        "monthlyCost": 850
       },
       "utilities": {
-        "monthlyCost": 150
+        "monthlyCost": 230
       },
       "domesticHelp": {
-        "description": "Full estate staff including chef, multiple housekeepers, security, gardener, boat captain",
-        "monthlyCost": 800
+        "description": "Resident household staff: a housekeeper-cook plus a gardener-caretaker with a driver on call (roughly two full-time-equivalent workers, benefits included)",
+        "monthlyCost": 1150
       },
       "luxuryExtras": {
-        "description": "Private jet access, island property development, international art acquisitions, major philanthropy",
-        "monthlyCost": 2000
+        "description": "Private-jet access, art acquisition, major philanthropy, uncapped discretionary",
+        "monthlyCost": 1550
       },
-      "lifestyle": "A large colonial estate in Centro Histórico, a full household staff including cook and housekeeper, and a boat for Caribbean island access define the daily routine. You dine without budget constraints, fly first class internationally, and have the resources to engage in philanthropic work in the local community. This budget is well beyond what Cartagena can absorb — the margin is substantial and requires a plan for savings or reinvestment."
+      "lifestyle": "A grand colonial estate inside the historic walls, or a private beachfront villa compound out toward Barú and the Rosario Islands, kept by resident household staff — a housekeeper-cook and a gardener-caretaker with a driver on call. Dining is uncapped, with an imported cellar and lavish entertaining, and healthcare is a worldwide concierge plan with medical evacuation. Multiple vehicles, private-boat access, and chartered or first-class flights handle movement, and the discretionary budget stretches to art, yacht charters, and philanthropy across the region. This is the top of what the Colombian Caribbean offers, well beyond anything the local market requires."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 5,
     "infrastructure": 5,
     "expatFriendliness": 7
-  }
+  },
+  "dataRecency": "Q3 2026"
 }
