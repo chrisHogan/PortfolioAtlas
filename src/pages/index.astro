@@ -516,11 +516,16 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     </div>
   </div>
 
-  <!-- Bottom CTA -->
-  <section class="container-narrow py-12 text-center">
-    <p class="text-sm text-gray-500">
-      <a href="/compare" class="text-brand-600 hover:underline font-medium">Compare cities side by side</a>
-    </p>
+  <!-- Compare CTA (pill button, matching the explore-by-portfolio pills) -->
+  <section class="container-narrow py-8 text-center">
+    <a href="/compare" class="inline-flex items-center gap-2.5 px-6 py-3 bg-white border border-sand-200 rounded-full text-sm font-semibold text-gray-700 hover:border-brand-300 hover:text-brand-700 hover:shadow-sm transition-all">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-brand-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <rect x="3" y="5" width="8" height="14" rx="1.5" />
+        <rect x="13" y="5" width="8" height="14" rx="1.5" />
+      </svg>
+      Compare cities side by side
+      <span aria-hidden="true">→</span>
+    </a>
   </section>
 
   <!-- Newsletter capture (always visible, end of homepage content) -->
