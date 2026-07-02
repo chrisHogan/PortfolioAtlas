@@ -538,9 +538,21 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
     }
 
     // ─── Household size (?adults): 1 = stored single-adult basis (default), 2 = two adults ───
+    // The choice is session-sticky across pages for THIS tab session only
+    // (sessionStorage — deliberately NOT localStorage, so a return visit still
+    // starts clean). An explicit toggle is the session truth; a URL ?adults
+    // only seeds it when the session has no choice yet (shared links).
+    function readStoredAdults(): string | null {
+      try { return sessionStorage.getItem('pa:adults'); } catch (e) { return null; }
+    }
     let adults = 1;
+    function storeAdults() {
+      try { sessionStorage.setItem('pa:adults', String(adults)); } catch (e) { /* private mode */ }
+    }
+    const storedAdults = readStoredAdults();
     const adultsRaw = parseInt(params.get('adults') || '', 10);
-    if (adultsRaw === 2) adults = 2;
+    if (storedAdults != null) adults = storedAdults === '2' ? 2 : 1;
+    else if (adultsRaw === 2) { adults = 2; storeAdults(); }
     const adultsBtns = document.querySelectorAll('.adults-btn');
     function setAdultsActive() {
       adultsBtns.forEach((b) => {
@@ -563,6 +575,9 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
       window.history.replaceState({}, '', url);
     }
     setAdultsActive();
+    // If the session choice arrived without ?adults in this URL, mirror it in
+    // so the Share buttons copy what the page is actually showing.
+    if (adults > 1 && adultsRaw !== 2) persistAdults();
 
     // Adjusted monthly cost for a tier. Order of operations: household scaling
     // first (per line item, via the shared adjustedLines), THEN the hcusd
@@ -608,8 +623,19 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
       hcInput?.addEventListener('input', () => { readHcOverride(); persistHc(); renderCostsOnly(); });
       adultsBtns.forEach((b) => b.addEventListener('click', () => {
         adults = parseInt(b.getAttribute('data-adults') || '', 10) === 2 ? 2 : 1;
-        setAdultsActive(); persistAdults(); renderCostsOnly();
+        setAdultsActive(); storeAdults(); persistAdults(); renderCostsOnly();
       }));
+      // Back/forward cache: re-sync if the session choice changed on another
+      // page while this one sat in the bfcache. (Fresh loads re-run init.)
+      window.addEventListener('pageshow', (e) => {
+        if (!(e as PageTransitionEvent).persisted) return;
+        const stored = readStoredAdults();
+        if (stored == null) return;
+        const next = stored === '2' ? 2 : 1;
+        if (next === adults) return;
+        adults = next;
+        setAdultsActive(); persistAdults(); renderCostsOnly();
+      });
       return;
     }
 
@@ -830,8 +856,20 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
     // Household size → recompute every tier + re-render table/panel in place.
     adultsBtns.forEach((b) => b.addEventListener('click', () => {
       adults = parseInt(b.getAttribute('data-adults') || '', 10) === 2 ? 2 : 1;
-      setAdultsActive(); persistAdults(); applyAll();
+      setAdultsActive(); storeAdults(); persistAdults(); applyAll();
     }));
+
+    // Back/forward cache: re-sync if the session choice changed on another
+    // page while this one sat in the bfcache. (Fresh loads re-run init.)
+    window.addEventListener('pageshow', (e) => {
+      if (!(e as PageTransitionEvent).persisted) return;
+      const stored = readStoredAdults();
+      if (stored == null) return;
+      const next = stored === '2' ? 2 : 1;
+      if (next === adults) return;
+      adults = next;
+      setAdultsActive(); persistAdults(); applyAll();
+    });
 
     // Initial paint (defaults to the tier selected on the homepage).
     applyAll();

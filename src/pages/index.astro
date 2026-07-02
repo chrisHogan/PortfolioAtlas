@@ -600,6 +600,17 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   // 2 adults (per-line scaling via the shared window.__paAdjustLines bridge).
   let adults = 1;
   function adultsToken() { return 'a' + adults; }
+  // The choice is session-sticky: it follows the user across pages for THIS
+  // tab session only (sessionStorage — deliberately NOT localStorage, so a
+  // return visit still starts from the clean single-adult slate). An explicit
+  // toggle is the session truth; a URL ?adults only seeds it when the session
+  // has no choice yet (arriving via a shared link).
+  function readStoredAdults() {
+    try { return sessionStorage.getItem('pa:adults'); } catch (e) { return null; }
+  }
+  function storeAdults() {
+    try { sessionStorage.setItem('pa:adults', String(adults)); } catch (e) { /* private mode */ }
+  }
 
   // Adjusted monthly cost for one serialized tier ({monthlyCost, healthcare,
   // lines}). Order of operations: household scaling first (per line item),
@@ -917,6 +928,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     btn.addEventListener('click', () => {
       adults = parseInt(btn.getAttribute('data-adults'), 10) === 2 ? 2 : 1;
       setAdultsActive();
+      storeAdults();
       // Household size re-prices every city — recompute the map. The survival
       // cache keys carry the adults token, so stale entries are never reused.
       if (portfolio > 0) { resetSectionCounts(); renderResults(); }
@@ -1598,10 +1610,13 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     updateConfLabel(); setConfActive();
     if (horizonInput) { horizonInput.value = String(horizonYears); updateHorizonLabel(); }
 
-    // Restore household size (?adults). Only "2" is meaningful today; anything
-    // else keeps the single-adult default.
+    // Restore household size: the session choice first (sticky across pages
+    // this tab session), else seed from ?adults (shared links). Only "2" is
+    // meaningful today; anything else keeps the single-adult default.
+    const storedAdults = readStoredAdults();
     const adultsParam = parseInt(params.get('adults') || '', 10);
-    if (adultsParam === 2) adults = 2;
+    if (storedAdults != null) adults = storedAdults === '2' ? 2 : 1;
+    else if (adultsParam === 2) { adults = 2; storeAdults(); }
     setAdultsActive();
 
     // Restore healthcare override (hcusd). Present (incl. 0) = active.
@@ -1854,6 +1869,21 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
         setTimeout(() => toast.classList.add('hidden'), 2000);
       }
     });
+  });
+
+  // Back/forward cache: a bfcache-restored page resurrects with stale
+  // in-memory state if the household size changed on another page since —
+  // re-read the session choice and re-render. (Fresh loads re-run restore().)
+  window.addEventListener('pageshow', (e) => {
+    if (!e.persisted) return;
+    const stored = readStoredAdults();
+    if (stored == null) return;
+    const next = stored === '2' ? 2 : 1;
+    if (next === adults) return;
+    adults = next;
+    setAdultsActive();
+    if (portfolio > 0) { resetSectionCounts(); renderResults(); }
+    else updateURL();
   });
 
   // ─── Init ───

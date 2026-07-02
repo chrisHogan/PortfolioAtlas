@@ -49,8 +49,12 @@ The verdict is a **historical backtest**, not the 4% rule:
 
 ## Cross-page state = URL query params (no localStorage)
 The site is multi-page static, so state travels via the URL (deliberate — the homepage avoids localStorage for a clean-slate feel):
-`?portfolio=` `?passive=` `?horizon=` `?conf=` (80/90/95) `?tier=` (leanfire/fire/fatfire).
+`?portfolio=` `?passive=` `?horizon=` `?conf=` (80/90/95) `?tier=` (leanfire/fire/fatfire) `?hcusd=` `?adults=` (2 only).
 `carryQuery()`/`buildShareUrl()`/`restore()` in `index.astro` handle this; city pages + `FireStatusCard` read the same params.
+**One deliberate exception:** household size (`?adults`) is also session-sticky via `sessionStorage('pa:adults')` —
+an explicit toggle is the session truth (beats the URL; a `?adults` link only seeds an unset session), and both pages
+re-sync on bfcache restore via a `pageshow` handler. sessionStorage dies with the tab, so return visits still start clean.
+Do NOT add localStorage.
 
 ## The define:vars / module-script bridge (important quirk)
 Astro `<script define:vars={...}>` is rendered **inline** and **cannot use `import`**. The homepage calculator and `FireStatusCard` are define:vars scripts. To give them the bundled engine, there's a tiny **module** `<script>` that imports and exposes globals:
