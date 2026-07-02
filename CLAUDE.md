@@ -51,10 +51,14 @@ The verdict is a **historical backtest**, not the 4% rule:
 The site is multi-page static, so state travels via the URL (deliberate — the homepage avoids localStorage for a clean-slate feel):
 `?portfolio=` `?passive=` `?horizon=` `?conf=` (80/90/95) `?tier=` (leanfire/fire/fatfire) `?hcusd=` `?adults=` (2 only).
 `carryQuery()`/`buildShareUrl()`/`restore()` in `index.astro` handle this; city pages + `FireStatusCard` read the same params.
-**One deliberate exception:** household size (`?adults`) is also session-sticky via `sessionStorage('pa:adults')` —
-an explicit toggle is the session truth (beats the URL; a `?adults` link only seeds an unset session), and both pages
-re-sync on bfcache restore via a `pageshow` handler. sessionStorage dies with the tab, so return visits still start clean.
-Do NOT add localStorage.
+**One deliberate exception:** the personal inputs (portfolio, passive, save, conf, horizon, tier, hcusd, adults) are
+also **session-sticky** via `sessionStorage` keys `pa:<param>` — so clean-URL navigation (header search, typed URLs,
+back button) keeps the user's numbers. Precedence: on the **homepage the URL wins** and updates the session (it's the
+entry point — shared links + the retire-on `/?portfolio=` presets are intentional input); on **city/compare pages the
+session wins** (their URLs can be stale after back-nav) and a URL param only seeds an unset key. City pages mirror the
+resolved values back into the URL (`replaceState`) for the Share buttons; both pages re-sync adults/hcusd on bfcache
+restore via `pageshow`. The header ✕ badge clears all `pa:*` keys (logo is plain navigation now, NOT a reset).
+sessionStorage dies with the tab, so return visits still start clean. Do NOT add localStorage.
 
 ## The define:vars / module-script bridge (important quirk)
 Astro `<script define:vars={...}>` is rendered **inline** and **cannot use `import`**. The homepage calculator and `FireStatusCard` are define:vars scripts. To give them the bundled engine, there's a tiny **module** `<script>` that imports and exposes globals:

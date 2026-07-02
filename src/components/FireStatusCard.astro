@@ -58,12 +58,17 @@ const { cityName, country, fireNumbers } = Astro.props;
     let portfolio = 0;
     let userPassiveIncome = 0;
 
+    // Session-first, matching the host city page's precedence (the session is
+    // the user's latest explicit numbers; the URL can be stale after back-nav).
+    function ssGet(key) {
+      try { return sessionStorage.getItem('pa:' + key); } catch (e) { return null; }
+    }
     const params = new URLSearchParams(window.location.search);
-    const nwParam = params.get('portfolio') || params.get('nw');
+    const nwParam = ssGet('portfolio') || params.get('portfolio') || params.get('nw');
     if (nwParam) {
       portfolio = parseInt(nwParam, 10) || 0;
     }
-    const passiveParam = parseInt(params.get('passive') || '0', 10);
+    const passiveParam = parseInt(ssGet('passive') || params.get('passive') || '0', 10);
     if (passiveParam > 0) userPassiveIncome = passiveParam;
 
     if (!portfolio || portfolio <= 0) return;

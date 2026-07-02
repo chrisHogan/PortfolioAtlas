@@ -201,13 +201,17 @@ const breadcrumbLd = {
   const lifestyleTiers = ['budget', 'comfortable', 'luxury'];
   const lifestyleLabels = { budget: 'Lean FIRE', comfortable: 'FIRE', luxury: 'Fat FIRE' };
 
-  // Portfolio + passive income from the URL only (no persisted state)
+  // Portfolio + passive income: session-first (the user's latest numbers this
+  // tab session), URL as fallback — matching the city pages' precedence.
   let userPortfolio = null;
   let userPassiveIncome = 0;
+  function ssGet(key) {
+    try { return sessionStorage.getItem('pa:' + key); } catch (e) { return null; }
+  }
   const params = new URLSearchParams(window.location.search);
-  const nwParam = params.get('portfolio') || params.get('nw');
+  const nwParam = ssGet('portfolio') || params.get('portfolio') || params.get('nw');
   if (nwParam) userPortfolio = parseInt(nwParam, 10) || null;
-  const passiveParam = parseInt(params.get('passive') || '0', 10);
+  const passiveParam = parseInt(ssGet('passive') || params.get('passive') || '0', 10);
   if (passiveParam > 0) userPassiveIncome = passiveParam;
 
   function adjustFN(base) {

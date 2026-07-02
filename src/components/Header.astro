@@ -340,19 +340,22 @@ const searchCities = allCities.map(c => ({ name: c.name, country: c.country, slu
     localStorage.removeItem('pa_optional_open');
   } catch (e) {}
 
-  // Reset and navigate to a clean homepage
+  // Reset: clear the session-sticky personal inputs (pa:* keys) and navigate
+  // to a clean homepage. This is the one explicit "forget my numbers" action.
   function resetAll() {
+    try {
+      var doomed = [];
+      for (var i = 0; i < sessionStorage.length; i++) {
+        var k = sessionStorage.key(i);
+        if (k && k.indexOf('pa:') === 0) doomed.push(k);
+      }
+      doomed.forEach(function (k) { sessionStorage.removeItem(k); });
+    } catch (e) {}
     window.location.href = '/';
   }
 
-  // Logo click: clear everything and go to clean homepage
-  var logoLink = document.getElementById('logo-link');
-  if (logoLink) {
-    logoLink.addEventListener('click', function(e) {
-      e.preventDefault();
-      resetAll();
-    });
-  }
+  // Logo click: plain navigation home. The session keeps the user's numbers,
+  // so the homepage restores them — the ✕ on the badge is the reset.
 
   // Reset button in NW badge
   var resetBtnEl = document.getElementById('header-reset-btn');
@@ -364,9 +367,15 @@ const searchCities = allCities.map(c => ({ name: c.name, country: c.country, slu
     });
   }
 
-  // Show net worth badge from the URL only (no persisted state)
+  // Show the net-worth badge. Precedence matches how the page body resolves
+  // the same value: on the homepage the URL wins (it's the entry point);
+  // elsewhere the session (the user's latest numbers) wins.
   var params = new URLSearchParams(window.location.search);
-  var nw = params.get('portfolio') || params.get('nw');
+  var ssNw = null;
+  try { ssNw = sessionStorage.getItem('pa:portfolio'); } catch (e) {}
+  var urlNw = params.get('portfolio') || params.get('nw');
+  var isHome = window.location.pathname === '/' || window.location.pathname === '/index.html';
+  var nw = isHome ? (urlNw || ssNw) : (ssNw || urlNw);
   if (nw) {
     var val = parseInt(nw, 10);
     if (!isNaN(val) && val > 0) {

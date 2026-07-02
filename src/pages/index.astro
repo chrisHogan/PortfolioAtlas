@@ -600,16 +600,31 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   // 2 adults (per-line scaling via the shared window.__paAdjustLines bridge).
   let adults = 1;
   function adultsToken() { return 'a' + adults; }
-  // The choice is session-sticky: it follows the user across pages for THIS
-  // tab session only (sessionStorage — deliberately NOT localStorage, so a
-  // return visit still starts from the clean single-adult slate). An explicit
-  // toggle is the session truth; a URL ?adults only seeds it when the session
-  // has no choice yet (arriving via a shared link).
-  function readStoredAdults() {
-    try { return sessionStorage.getItem('pa:adults'); } catch (e) { return null; }
+
+  // ─── Session-sticky personal inputs ───
+  // The user's numbers (portfolio, passive, save, conf, horizon, tier, hcusd,
+  // adults) follow them across pages for THIS tab session only (sessionStorage
+  // — deliberately NOT localStorage: closing the tab still gives the next
+  // visit a clean slate). On this page a URL param wins and updates the
+  // session — the homepage is the entry point, so shared links and the
+  // retire-on presets are intentional input. When the URL is silent, the
+  // session value applies. City pages use the reverse precedence (session
+  // wins) because their URLs can be stale after back-navigation. The header
+  // ✕ badge clears every pa:* key.
+  function ssGet(key) {
+    try { return sessionStorage.getItem('pa:' + key); } catch (e) { return null; }
   }
-  function storeAdults() {
-    try { sessionStorage.setItem('pa:adults', String(adults)); } catch (e) { /* private mode */ }
+  function ssSet(key, val) {
+    try {
+      if (val == null) sessionStorage.removeItem('pa:' + key);
+      else sessionStorage.setItem('pa:' + key, String(val));
+    } catch (e) { /* private mode */ }
+  }
+  // URL-first resolve for restore(): a present URL param wins + is stored;
+  // otherwise fall back to the session.
+  function resolveParam(key, urlVal) {
+    if (urlVal != null && urlVal !== '') { ssSet(key, urlVal); return urlVal; }
+    return ssGet(key);
   }
 
   // Adjusted monthly cost for one serialized tier ({monthlyCost, healthcare,
@@ -827,9 +842,10 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     });
   }
 
-  setupOptionalInput(savingsInput, savingsError, (val) => { annualSavings = val; });
+  setupOptionalInput(savingsInput, savingsError, (val) => { annualSavings = val; ssSet('save', val || null); });
   setupOptionalInput(passiveInput, passiveError, (val) => {
     passiveIncome = val;
+    ssSet('passive', val || null);
     // Warn if > $1M
     if (passiveWarn) {
       if (val > 1_000_000) {
@@ -862,6 +878,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   document.querySelectorAll('.conf-stop').forEach((btn) => {
     btn.addEventListener('click', () => {
       confPct = parseInt(btn.getAttribute('data-conf'), 10) || 90;
+      ssSet('conf', confPct);
       updateConfLabel();
       setConfActive();
       // The threshold gates the verdict AND sizes the target \u2014 re-render. Survival
@@ -874,6 +891,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   let horizonDebounce;
   horizonInput?.addEventListener('input', () => {
     horizonYears = parseInt(horizonInput.value, 10) || 30;
+    ssSet('horizon', horizonYears);
     updateHorizonLabel();
     // Horizon now drives the verdict — recompute the map (debounced so dragging
     // the slider doesn't re-run 112 backtests on every tick).
@@ -900,6 +918,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   }
   function rerenderForHc() {
     readHcOverride();
+    ssSet('hcusd', healthcareOverride);
     if (portfolio > 0) {
       clearTimeout(hcDebounce);
       hcDebounce = setTimeout(() => { resetSectionCounts(); renderResults(); }, 150);
@@ -928,7 +947,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     btn.addEventListener('click', () => {
       adults = parseInt(btn.getAttribute('data-adults'), 10) === 2 ? 2 : 1;
       setAdultsActive();
-      storeAdults();
+      ssSet('adults', adults);
       // Household size re-prices every city — recompute the map. The survival
       // cache keys carry the adults token, so stale entries are never reused.
       if (portfolio > 0) { resetSectionCounts(); renderResults(); }
@@ -960,6 +979,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   document.querySelectorAll('.lifestyle-btn').forEach((btn) => {
     btn.addEventListener('click', () => {
       lifestyle = btn.dataset.lifestyle;
+      ssSet('tier', lifestyle);
       if (typeof gtag === 'function') gtag('event', 'lifestyle_selected', { 'tier': lifestyle });
       document.querySelectorAll('.lifestyle-btn').forEach((b) => {
         const isActive = b === btn;
@@ -992,6 +1012,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   document.querySelectorAll('.results-lifestyle-btn').forEach((btn) => {
     btn.addEventListener('click', () => {
       lifestyle = btn.dataset.lifestyle;
+      ssSet('tier', lifestyle);
       if (typeof gtag === 'function') gtag('event', 'lifestyle_selected', { 'tier': lifestyle });
       syncResultsLifestyle();
       // Also sync hero buttons
@@ -1034,6 +1055,10 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     portfolio = raw;
     annualSavings = parseInt((savingsInput?.value || '').replace(/[^0-9]/g, ''), 10) || 0;
     passiveIncome = parseInt((passiveInput?.value || '').replace(/[^0-9]/g, ''), 10) || 0;
+    // Persist the entered numbers for this tab session (site-wide continuity).
+    ssSet('portfolio', portfolio);
+    ssSet('save', annualSavings || null);
+    ssSet('passive', passiveIncome || null);
     if (typeof gtag === 'function') gtag('event', 'portfolio_entered', { 'portfolio_amount': portfolio });
     resetSectionCounts();
     renderResults();
@@ -1591,36 +1616,40 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   // clean homepage URL or a return visit always starts from a blank slate.
   function restore() {
     const params = new URLSearchParams(window.location.search);
-    // Support new params (portfolio, tier, region) with fallback to old (nw, lifestyle, loc)
-    let nw = parseInt(params.get('portfolio') || params.get('nw') || '0', 10);
+    // Support new params (portfolio, tier, region) with fallback to old (nw,
+    // lifestyle, loc). Each personal input resolves URL-first with the session
+    // as fallback (see resolveParam above).
+    let nw = parseInt(resolveParam('portfolio', params.get('portfolio') || params.get('nw')) || '0', 10);
     let tierParam = params.get('tier') || '';
     let ls = tierParam ? (urlKeyToTier[tierParam] || '') : (params.get('lifestyle') || '');
+    if (ls && ['budget', 'comfortable', 'luxury'].includes(ls)) ssSet('tier', ls);
+    else {
+      const st = ssGet('tier');
+      if (st && ['budget', 'comfortable', 'luxury'].includes(st)) ls = st;
+    }
 
-    // Restore annual savings and passive income from URL
-    const saveParam = parseInt(params.get('save') || '0', 10);
+    // Restore annual savings and passive income (URL, then session)
+    const saveParam = parseInt(resolveParam('save', params.get('save')) || '0', 10);
     if (saveParam > 0) annualSavings = saveParam;
-    const passiveParam = parseInt(params.get('passive') || '0', 10);
+    const passiveParam = parseInt(resolveParam('passive', params.get('passive')) || '0', 10);
     if (passiveParam > 0) passiveIncome = passiveParam;
 
-    // Restore withdrawal rate and horizon from URL (validated to the slider range)
-    const confParam = parseInt(params.get('conf') || '', 10);
+    // Restore confidence and horizon (validated to the slider range)
+    const confParam = parseInt(resolveParam('conf', params.get('conf')) || '', 10);
     if (confParam === 80 || confParam === 90 || confParam === 95) confPct = confParam;
-    const horizonParam = parseInt(params.get('horizon') || '', 10);
+    const horizonParam = parseInt(resolveParam('horizon', params.get('horizon')) || '', 10);
     if (!isNaN(horizonParam) && horizonParam >= 20 && horizonParam <= 60) horizonYears = horizonParam;
     updateConfLabel(); setConfActive();
     if (horizonInput) { horizonInput.value = String(horizonYears); updateHorizonLabel(); }
 
-    // Restore household size: the session choice first (sticky across pages
-    // this tab session), else seed from ?adults (shared links). Only "2" is
-    // meaningful today; anything else keeps the single-adult default.
-    const storedAdults = readStoredAdults();
-    const adultsParam = parseInt(params.get('adults') || '', 10);
-    if (storedAdults != null) adults = storedAdults === '2' ? 2 : 1;
-    else if (adultsParam === 2) { adults = 2; storeAdults(); }
+    // Restore household size. Only "2" is meaningful today; anything else
+    // keeps the single-adult default.
+    const adultsResolved = resolveParam('adults', params.get('adults'));
+    if (adultsResolved != null && parseInt(adultsResolved, 10) === 2) adults = 2;
     setAdultsActive();
 
     // Restore healthcare override (hcusd). Present (incl. 0) = active.
-    const hcParam = params.get('hcusd');
+    const hcParam = resolveParam('hcusd', params.get('hcusd'));
     if (hcParam !== null && hcParam !== '' && !isNaN(parseInt(hcParam, 10))) {
       let n = parseInt(hcParam, 10);
       if (n < 0) n = 0; if (n > 5000) n = 5000;
@@ -1852,6 +1881,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
       const target = reverseTarget(mc);
       if (target == null || target <= 0) return;
       portfolio = target;
+      ssSet('portfolio', portfolio);
       portfolioInput.value = target.toLocaleString('en-US');
       reverseFlow?.classList.add('hidden');
       renderResults();
@@ -1872,16 +1902,30 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   });
 
   // Back/forward cache: a bfcache-restored page resurrects with stale
-  // in-memory state if the household size changed on another page since —
-  // re-read the session choice and re-render. (Fresh loads re-run restore().)
+  // in-memory state if a city page changed the household size or healthcare
+  // override since — re-read the session and re-render. (Fresh loads re-run
+  // restore(); the other inputs are only editable here, so they can't go stale.)
   window.addEventListener('pageshow', (e) => {
     if (!e.persisted) return;
-    const stored = readStoredAdults();
-    if (stored == null) return;
-    const next = stored === '2' ? 2 : 1;
-    if (next === adults) return;
-    adults = next;
-    setAdultsActive();
+    let changed = false;
+    const sa = ssGet('adults');
+    if (sa != null) {
+      const next = sa === '2' ? 2 : 1;
+      if (next !== adults) { adults = next; setAdultsActive(); changed = true; }
+    }
+    const sh = ssGet('hcusd');
+    let nextHc = null;
+    if (sh != null && sh !== '' && !isNaN(parseInt(sh, 10))) {
+      nextHc = Math.max(0, Math.min(5000, parseInt(sh, 10)));
+    }
+    if (nextHc !== healthcareOverride) {
+      healthcareOverride = nextHc;
+      if (hcToggle) hcToggle.checked = nextHc != null;
+      hcField?.classList.toggle('hidden', nextHc == null);
+      if (hcInput) hcInput.value = nextHc == null ? '' : String(nextHc);
+      changed = true;
+    }
+    if (!changed) return;
     if (portfolio > 0) { resetSectionCounts(); renderResults(); }
     else updateURL();
   });

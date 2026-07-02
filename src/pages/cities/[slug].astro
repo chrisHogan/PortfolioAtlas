@@ -478,27 +478,52 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
     let horizon = 30;        // retirement length -> drives the backtest
     let confPct = 90;        // confidence level -> the ONE threshold
 
-    // Read portfolio, passive income, confidence and horizon from the URL only.
+    // ─── Session-sticky personal inputs ───
+    // The session (the user's latest explicit numbers this tab session) wins
+    // on city pages — a URL here can be stale after back-navigation; a URL
+    // param only seeds a key the session doesn't have yet (shared links).
+    // The homepage uses the reverse precedence (URL wins — it's the entry
+    // point). sessionStorage only: closing the tab restores the clean slate.
+    function ssGet(key: string): string | null {
+      try { return sessionStorage.getItem('pa:' + key); } catch (e) { return null; }
+    }
+    function ssSet(key: string, val: string | number | null) {
+      try {
+        if (val == null) sessionStorage.removeItem('pa:' + key);
+        else sessionStorage.setItem('pa:' + key, String(val));
+      } catch (e) { /* private mode */ }
+    }
+    function resolve(key: string, urlVal: string | null): string | null {
+      const s = ssGet(key);
+      if (s != null) return s;
+      if (urlVal != null && urlVal !== '') { ssSet(key, urlVal); return urlVal; }
+      return null;
+    }
+
     const params = new URLSearchParams(window.location.search);
-    const nwParam = params.get('portfolio') || params.get('nw');
+    const nwParam = resolve('portfolio', params.get('portfolio') || params.get('nw'));
     if (nwParam) {
       portfolio = parseInt(nwParam, 10) || 0;
     }
-    const passiveParam = parseInt(params.get('passive') || '0', 10);
+    const passiveParam = parseInt(resolve('passive', params.get('passive')) || '0', 10);
     if (passiveParam > 0) userPassiveIncome = passiveParam;
-    const confParam = parseInt(params.get('conf') || '', 10);
+    const confParam = parseInt(resolve('conf', params.get('conf')) || '', 10);
     if (confParam === 80 || confParam === 90 || confParam === 95) confPct = confParam;
-    const horizonParam = parseInt(params.get('horizon') || '', 10);
+    const horizonParam = parseInt(resolve('horizon', params.get('horizon')) || '', 10);
     if (!isNaN(horizonParam) && horizonParam >= 20 && horizonParam <= 60) horizon = horizonParam;
     // The single threshold: gates the verdict AND sizes the target on every surface.
     const threshold = thresholdFromConf(confPct);
 
     // Lifestyle tier selected on the homepage. Default = 'comfortable' (FIRE).
+    // The session stores the INTERNAL tier key; the URL uses the marketing key.
     const TIER_LABELS: Record<string, string> = { budget: 'Lean FIRE', comfortable: 'FIRE', luxury: 'Fat FIRE' };
     const TIER_FROM_URL: Record<string, string> = { leanfire: 'budget', fire: 'comfortable', fatfire: 'luxury' };
+    const TIER_TO_URL: Record<string, string> = { budget: 'leanfire', comfortable: 'fire', luxury: 'fatfire' };
     let selectedTier = 'comfortable';
+    const tierSession = ssGet('tier');
     const tierParamRaw = params.get('tier') || '';
-    if (TIER_FROM_URL[tierParamRaw]) selectedTier = TIER_FROM_URL[tierParamRaw];
+    if (tierSession && TIER_LABELS[tierSession]) selectedTier = tierSession;
+    else if (TIER_FROM_URL[tierParamRaw]) { selectedTier = TIER_FROM_URL[tierParamRaw]; ssSet('tier', selectedTier); }
 
     const rows = document.querySelectorAll('.fire-row');
     const prompt = document.getElementById('portfolio-prompt');
@@ -506,7 +531,7 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
 
     // ─── Healthcare override (flat across tiers; null = use our estimate) ───
     let healthcareOverride: number | null = null;
-    const hcRaw = params.get('hcusd');
+    const hcRaw = resolve('hcusd', params.get('hcusd'));
     if (hcRaw !== null && hcRaw !== '' && !isNaN(parseInt(hcRaw, 10))) {
       let n = parseInt(hcRaw, 10);
       if (n < 0) n = 0; if (n > 5000) n = 5000;
@@ -538,21 +563,9 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
     }
 
     // ─── Household size (?adults): 1 = stored single-adult basis (default), 2 = two adults ───
-    // The choice is session-sticky across pages for THIS tab session only
-    // (sessionStorage — deliberately NOT localStorage, so a return visit still
-    // starts clean). An explicit toggle is the session truth; a URL ?adults
-    // only seeds it when the session has no choice yet (shared links).
-    function readStoredAdults(): string | null {
-      try { return sessionStorage.getItem('pa:adults'); } catch (e) { return null; }
-    }
     let adults = 1;
-    function storeAdults() {
-      try { sessionStorage.setItem('pa:adults', String(adults)); } catch (e) { /* private mode */ }
-    }
-    const storedAdults = readStoredAdults();
-    const adultsRaw = parseInt(params.get('adults') || '', 10);
-    if (storedAdults != null) adults = storedAdults === '2' ? 2 : 1;
-    else if (adultsRaw === 2) { adults = 2; storeAdults(); }
+    const adultsResolved = resolve('adults', params.get('adults'));
+    if (adultsResolved != null && parseInt(adultsResolved, 10) === 2) adults = 2;
     const adultsBtns = document.querySelectorAll('.adults-btn');
     function setAdultsActive() {
       adultsBtns.forEach((b) => {
@@ -575,9 +588,25 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
       window.history.replaceState({}, '', url);
     }
     setAdultsActive();
-    // If the session choice arrived without ?adults in this URL, mirror it in
-    // so the Share buttons copy what the page is actually showing.
-    if (adults > 1 && adultsRaw !== 2) persistAdults();
+
+    // Mirror the effective (session-resolved) inputs into the URL so the
+    // address bar and the Share buttons reflect what the page actually shows.
+    function mirrorUrl() {
+      const url = new URL(window.location.href);
+      const put = (k: string, v: string | null) => {
+        if (v == null) url.searchParams.delete(k); else url.searchParams.set(k, v);
+      };
+      put('portfolio', portfolio > 0 ? String(portfolio) : null);
+      if (portfolio > 0) url.searchParams.delete('nw');
+      put('passive', userPassiveIncome > 0 ? String(userPassiveIncome) : null);
+      put('conf', confPct !== 90 ? String(confPct) : null);
+      put('horizon', horizon !== 30 ? String(horizon) : null);
+      put('tier', selectedTier !== 'comfortable' ? (TIER_TO_URL[selectedTier] || null) : null);
+      put('hcusd', healthcareOverride != null ? String(healthcareOverride) : null);
+      put('adults', adults > 1 ? String(adults) : null);
+      if (url.href !== window.location.href) window.history.replaceState({}, '', url);
+    }
+    mirrorUrl();
 
     // Adjusted monthly cost for a tier. Order of operations: household scaling
     // first (per line item, via the shared adjustedLines), THEN the hcusd
@@ -613,29 +642,48 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
       });
     }
 
+    // Back/forward cache re-sync: a bfcache-restored page can hold stale
+    // adults/hcusd state if another page changed them since. (Fresh loads
+    // re-run init, so only e.persisted needs handling; the other inputs are
+    // only editable on the homepage and re-resolve there.)
+    function wireBfcacheSync(rerender: () => void) {
+      window.addEventListener('pageshow', (e) => {
+        if (!(e as PageTransitionEvent).persisted) return;
+        let changed = false;
+        const sa = ssGet('adults');
+        if (sa != null) {
+          const next = sa === '2' ? 2 : 1;
+          if (next !== adults) { adults = next; setAdultsActive(); changed = true; }
+        }
+        const sh = ssGet('hcusd');
+        let nextHc: number | null = null;
+        if (sh != null && sh !== '' && !isNaN(parseInt(sh, 10))) {
+          nextHc = Math.max(0, Math.min(5000, parseInt(sh, 10)));
+        }
+        if (nextHc !== healthcareOverride) {
+          healthcareOverride = nextHc;
+          if (hcToggle) hcToggle.checked = nextHc != null;
+          hcField?.classList.toggle('hidden', nextHc == null);
+          if (hcInput) hcInput.value = nextHc == null ? '' : String(nextHc);
+          changed = true;
+        }
+        if (changed) { mirrorUrl(); rerender(); }
+      });
+    }
+
     if (!portfolio || portfolio <= 0) {
       if (prompt) prompt.classList.remove('hidden');
       if (statusHeader) statusHeader.textContent = '';
       // No verdict without a portfolio, but let the controls toggle + persist
       // for later, and keep the Monthly Cost column priced for the selection.
       if (adults > 1 || healthcareOverride != null) renderCostsOnly();
-      hcToggle?.addEventListener('change', () => { hcField?.classList.toggle('hidden', !hcToggle.checked); readHcOverride(); persistHc(); renderCostsOnly(); });
-      hcInput?.addEventListener('input', () => { readHcOverride(); persistHc(); renderCostsOnly(); });
+      hcToggle?.addEventListener('change', () => { hcField?.classList.toggle('hidden', !hcToggle.checked); readHcOverride(); ssSet('hcusd', healthcareOverride); persistHc(); renderCostsOnly(); });
+      hcInput?.addEventListener('input', () => { readHcOverride(); ssSet('hcusd', healthcareOverride); persistHc(); renderCostsOnly(); });
       adultsBtns.forEach((b) => b.addEventListener('click', () => {
         adults = parseInt(b.getAttribute('data-adults') || '', 10) === 2 ? 2 : 1;
-        setAdultsActive(); storeAdults(); persistAdults(); renderCostsOnly();
+        setAdultsActive(); ssSet('adults', adults); persistAdults(); renderCostsOnly();
       }));
-      // Back/forward cache: re-sync if the session choice changed on another
-      // page while this one sat in the bfcache. (Fresh loads re-run init.)
-      window.addEventListener('pageshow', (e) => {
-        if (!(e as PageTransitionEvent).persisted) return;
-        const stored = readStoredAdults();
-        if (stored == null) return;
-        const next = stored === '2' ? 2 : 1;
-        if (next === adults) return;
-        adults = next;
-        setAdultsActive(); persistAdults(); renderCostsOnly();
-      });
+      wireBfcacheSync(renderCostsOnly);
       return;
     }
 
@@ -845,31 +893,21 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
 
       // Live tier toggle (survival for all tiers is already computed).
       document.querySelectorAll('.conf-tier-btn').forEach((b) => {
-        b.addEventListener('click', () => { currentTier = b.getAttribute('data-tier') || 'comfortable'; renderConfidence(currentTier); });
+        b.addEventListener('click', () => { currentTier = b.getAttribute('data-tier') || 'comfortable'; ssSet('tier', currentTier); renderConfidence(currentTier); });
       });
     }
 
     // Healthcare override → recompute every tier + re-render table/panel in place.
-    hcToggle?.addEventListener('change', () => { hcField?.classList.toggle('hidden', !hcToggle.checked); readHcOverride(); persistHc(); applyAll(); });
-    hcInput?.addEventListener('input', () => { readHcOverride(); persistHc(); applyAll(); });
+    hcToggle?.addEventListener('change', () => { hcField?.classList.toggle('hidden', !hcToggle.checked); readHcOverride(); ssSet('hcusd', healthcareOverride); persistHc(); applyAll(); });
+    hcInput?.addEventListener('input', () => { readHcOverride(); ssSet('hcusd', healthcareOverride); persistHc(); applyAll(); });
 
     // Household size → recompute every tier + re-render table/panel in place.
     adultsBtns.forEach((b) => b.addEventListener('click', () => {
       adults = parseInt(b.getAttribute('data-adults') || '', 10) === 2 ? 2 : 1;
-      setAdultsActive(); storeAdults(); persistAdults(); applyAll();
+      setAdultsActive(); ssSet('adults', adults); persistAdults(); applyAll();
     }));
 
-    // Back/forward cache: re-sync if the session choice changed on another
-    // page while this one sat in the bfcache. (Fresh loads re-run init.)
-    window.addEventListener('pageshow', (e) => {
-      if (!(e as PageTransitionEvent).persisted) return;
-      const stored = readStoredAdults();
-      if (stored == null) return;
-      const next = stored === '2' ? 2 : 1;
-      if (next === adults) return;
-      adults = next;
-      setAdultsActive(); persistAdults(); applyAll();
-    });
+    wireBfcacheSync(applyAll);
 
     // Initial paint (defaults to the tier selected on the homepage).
     applyAll();
