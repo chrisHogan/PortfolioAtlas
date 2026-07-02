@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "Spacious 2BR apartment in Lazimpat or Jhamsikhel with mountain views",
-        "monthlyCost": 675
+        "description": "Small semi-furnished private 1BR/studio in an ordinary residential area (Koteshwor / Baneshwor / Kalanki edge), not the expat belt",
+        "monthlyCost": 105
       },
       "dining": {
-        "description": "Dal bhat at local restaurants daily; momos and Newari cuisine 4-5x/week",
-        "monthlyCost": 250
+        "description": "Mostly home-cooked; occasional dal bhat / momo at local eateries",
+        "monthlyCost": 28
       },
       "groceries": {
-        "monthlyCost": 250
+        "monthlyCost": 50
       },
       "healthcare": {
-        "description": "Private health insurance covering Norvic and Grande hospitals",
-        "monthlyCost": 175
+        "description": "Out-of-pocket OPD at Norvic/Grande + a basic local hospitalization policy, early-retiree band",
+        "monthlyCost": 30
       },
       "transportation": {
-        "description": "Local buses, shared taxis, and occasional ride-hailing",
-        "monthlyCost": 100
+        "description": "Microbuses/tempos + occasional Pathao/InDrive or taxi",
+        "monthlyCost": 20
       },
       "entertainment": {
-        "description": "Temple visits, hiking in the valley, yoga classes, Thamel nightlife",
-        "monthlyCost": 125
+        "description": "Occasional QFX cinema, budget gym, a local weekend trek",
+        "monthlyCost": 14
       },
       "utilities": {
-        "monthlyCost": 75
+        "monthlyCost": 30
       },
-      "lifestyle": "A spacious apartment in Lazimpat or Jhamsikhel, eating dal bhat and momos at local restaurants most days, and getting around by shared taxis and ride-hailing. Private health insurance covers the better Kathmandu hospitals. Trekking and hiking in the valley are cheap and accessible. Air pollution, power reliability, and chaotic traffic are real daily tradeoffs, but the cost of living is remarkably low."
+      "lifestyle": "A small furnished apartment in an ordinary residential neighborhood like Baneshwor or Koteshwor, away from the pricier expat belt, with home cooking supplemented by dal bhat and momos at local eateries. Microbuses and the occasional Pathao or InDrive ride cover daily movement. Out-of-pocket clinic visits plus a basic local hospitalization policy handle health needs, and valley hikes and budget treks are cheap and close at hand. Air pollution, winter cold, and chaotic traffic are the real daily tradeoffs, but the cost base is remarkably low."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
         "description": "Large 3BR house or apartment in Budhanilkantha or Sanepa with garden",
-        "monthlyCost": 900
+        "monthlyCost": 165
       },
       "dining": {
         "description": "Mix of upscale restaurants in Durbarmarg and Thamel; international cuisine options",
-        "monthlyCost": 375
+        "monthlyCost": 52
       },
       "groceries": {
-        "monthlyCost": 325
+        "monthlyCost": 66
       },
       "healthcare": {
         "description": "Premium private insurance with medical evacuation coverage to Delhi or Bangkok",
-        "monthlyCost": 250
+        "monthlyCost": 40
       },
       "transportation": {
         "description": "Own motorbike or small car; occasional domestic flights to Pokhara",
-        "monthlyCost": 200
+        "monthlyCost": 33
       },
       "entertainment": {
         "description": "Guided treks, rafting trips, mountain biking, cultural festivals, regular Pokhara getaways",
-        "monthlyCost": 250
+        "monthlyCost": 28
       },
       "utilities": {
-        "monthlyCost": 100
+        "monthlyCost": 38
       },
-      "lifestyle": "A large house with a garden in Budhanilkantha or Sanepa, your own motorbike or small car, and dining at good restaurants in Durbarmarg and Thamel several times a week. Premium health insurance with medical evacuation coverage to Delhi or Bangkok. Domestic flights to Pokhara and guided treks are comfortably within budget. Significant monthly margin given Kathmandu's low costs."
+      "lifestyle": "A decent furnished apartment near the expat-friendly neighborhoods of Kupondole or Pulchowk, with regular local meals and the occasional mid-range restaurant. Ride-hailing covers most trips, and a local private health policy plus self-pay clinic visits handle routine care. A gym, cafe outings, and the occasional getaway fit the budget, with a comfortable cushion at Kathmandu's low costs."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Premium 4BR villa in Budhanilkantha or luxury apartment in Maharajgunj",
-        "monthlyCost": 1075
+        "description": "Furnished modern 1BR in the expat-favored belt (Jhamsikhel / Sanepa / Lazimpat)",
+        "monthlyCost": 245
       },
       "dining": {
-        "description": "Finest restaurants in Kathmandu, boutique cafes, regular dinner parties at home",
-        "monthlyCost": 450
+        "description": "Frequent mid-range restaurants + expat cafes in Jhamsikhel/Thamel",
+        "monthlyCost": 82
       },
       "groceries": {
-        "monthlyCost": 325
+        "monthlyCost": 88
       },
       "healthcare": {
-        "description": "International health insurance with coverage at top hospitals in Delhi, Bangkok, and Singapore",
-        "monthlyCost": 325
+        "description": "Mid local policy (cashless at Indian hospitals) + comfortable self-pay at top private hospitals",
+        "monthlyCost": 55
       },
       "transportation": {
-        "description": "Own SUV for mountain roads, domestic flights, helicopter tours",
-        "monthlyCost": 275
+        "description": "Daily Pathao/InDrive rides, occasional taxi, or own-scooter fuel",
+        "monthlyCost": 46
       },
       "entertainment": {
-        "description": "Helicopter tours to Everest Base Camp, luxury trekking, paragliding in Pokhara, cultural immersion",
-        "monthlyCost": 450
+        "description": "Gym, cinema, cafes, weekend trips / trekking",
+        "monthlyCost": 44
       },
       "utilities": {
-        "monthlyCost": 100
+        "monthlyCost": 50
       },
-      "lifestyle": "A large villa in Budhanilkantha or Maharajgunj, an SUV suited to mountain roads, and regular dining at the best restaurants in Kathmandu. International health insurance covering top hospitals in Delhi, Bangkok, and Singapore. Helicopter tours and domestic flights for trekking trips. This budget far exceeds what Kathmandu's cost of living can absorb, leaving room for frequent international travel."
+      "lifestyle": "A furnished modern apartment in the expat-favored belt of Jhamsikhel, Sanepa, or Lazimpat, with regular meals out at mid-range restaurants and the well-known cafe scene, and grocery runs to Bhatbhateni for imported goods. Daily ride-hailing or an owned scooter covers transport. A mid-level local health policy plus comfortable self-pay access to the top private hospitals removes the main worry. A gym, a cafe habit, and frequent weekend trekking all fit, with clear margin left over at Kathmandu's prices."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
         "description": "Sprawling estate in Budhanilkantha or custom-built villa with panoramic Himalayan views",
-        "monthlyCost": 1050
+        "monthlyCost": 460
       },
       "dining": {
         "description": "Private chef plus regular dining at Kathmandu's finest restaurants and hotels",
-        "monthlyCost": 425
+        "monthlyCost": 150
       },
       "groceries": {
-        "monthlyCost": 200
+        "monthlyCost": 130
       },
       "healthcare": {
         "description": "VIP concierge medical service with Singapore and Bangkok hospital access",
-        "monthlyCost": 275
+        "monthlyCost": 115
       },
       "transportation": {
         "description": "Luxury SUV with driver, regular domestic flights, helicopter charters",
-        "monthlyCost": 275
+        "monthlyCost": 95
       },
       "entertainment": {
         "description": "Private Everest expeditions, luxury lodge trekking, international travel, cultural patronage",
-        "monthlyCost": 375
+        "monthlyCost": 90
       },
       "utilities": {
-        "monthlyCost": 75
+        "monthlyCost": 78
       },
       "domesticHelp": {
         "description": "Full-time cook, housekeeper, gardener, driver, and security guard",
-        "monthlyCost": 200
+        "monthlyCost": 120
       },
       "luxuryExtras": {
         "description": "First-class international travel, luxury trekking expeditions, philanthropy, property investments",
-        "monthlyCost": 1325
+        "monthlyCost": 100
       },
-      "lifestyle": "A large estate with panoramic Himalayan views, a housekeeper, cook, gardener, and driver. A nice SUV for mountain trips, business class flights for international travel, and premium healthcare with Singapore and Bangkok hospital access. Helicopter tours and lodge-based trekking in the Himalayas are routine. Nepal's extremely low costs mean most of this budget goes unspent each month."
+      "lifestyle": "A spacious furnished home in the expat belt — Jhamsikhel, Baluwatar, or Sanepa — with a part-time housekeeper-cook and an owned car or heavy premium ride-hailing. Frequent upscale dining and hotel restaurants, a premium imported grocery basket, and health cover trending toward international-grade plans. Club memberships, domestic travel, and lodge-based trekking are easily absorbed, and Nepal's low local costs leave a wide monthly margin."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Grand estate compound with guest houses, or multiple properties including a Pokhara lakeside retreat",
-        "monthlyCost": 1300
+        "description": "Large furnished house with garden, diplomatic-grade, in Budhanilkantha / Maharajgunj / Baluwatar",
+        "monthlyCost": 700
       },
       "dining": {
-        "description": "Personal chef team, catered events, exclusive dining experiences",
-        "monthlyCost": 550
+        "description": "Top restaurants + five-star hotel dining (Dwarika's etc.)",
+        "monthlyCost": 190
       },
       "groceries": {
-        "monthlyCost": 225
+        "monthlyCost": 160
       },
       "healthcare": {
-        "description": "Elite global health plan, personal physician, annual executive screening in Singapore",
-        "monthlyCost": 300
+        "description": "International / evacuation-grade cover with Delhi/Bangkok/Singapore access",
+        "monthlyCost": 200
       },
       "transportation": {
-        "description": "Multiple luxury vehicles with dedicated drivers, private helicopter, international first-class flights",
-        "monthlyCost": 550
+        "description": "Private SUV ownership, fuel, maintenance (driver salaried under domesticHelp)",
+        "monthlyCost": 135
       },
       "entertainment": {
-        "description": "Private mountaineering expeditions, global luxury travel, art collecting, cultural festival patronage",
-        "monthlyCost": 750
+        "description": "Club memberships, frequent premium experiences/travel",
+        "monthlyCost": 130
       },
       "utilities": {
-        "monthlyCost": 75
+        "monthlyCost": 105
       },
       "domesticHelp": {
-        "description": "Full compound staff: chef, butler, housekeepers, gardeners, security team, personal assistant, driver team",
-        "monthlyCost": 375
+        "description": "Live-in housekeeper/cook + driver + part-time gardener/guard",
+        "monthlyCost": 240
       },
       "luxuryExtras": {
-        "description": "Philanthropic foundation, property development, private expedition sponsorship, global first-class travel",
-        "monthlyCost": 1875
+        "description": "International travel, imported luxury goods, private club memberships",
+        "monthlyCost": 180
       },
-      "lifestyle": "A premium estate with full household staff, multiple vehicles with drivers, and first class international flights. Top-tier global health coverage and a cook several times a week. This budget is far beyond what Nepal's economy can absorb in spending. Most people at this level maintain a Kathmandu home as an affordable base for Himalayan access and travel globally for much of the year."
+      "lifestyle": "A large diplomatic-grade house with a garden in Budhanilkantha, Maharajgunj, or Baluwatar, staffed by a live-in housekeeper-cook, a driver, and part-time garden and security help. A private SUV handles mountain roads, and international health cover — with medical evacuation to Delhi, Bangkok, or Singapore — is the key safeguard given Kathmandu's thin local tertiary care. Dining reaches the city's best restaurants and five-star hotels, though the fine-dining scene is genuinely limited, and premium imports carry a real markup. Club memberships, luxury lodge-based trekking, and frequent international travel fill out the budget. Nepal's thin luxury market caps how much can be spent locally, so this level typically keeps a Kathmandu base for Himalayan access and travels widely."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 3,
     "infrastructure": 3,
     "expatFriendliness": 6
-  }
+  },
+  "dataRecency": "Q3 2026"
 }

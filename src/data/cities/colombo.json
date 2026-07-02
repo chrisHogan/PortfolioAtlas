@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "Modern 2BR apartment in Colombo 4 (Bambalapitiya) or Colombo 6 (Wellawatte)",
-        "monthlyCost": 750
+        "description": "Modest semi-furnished 1BR or self-contained annex in a suburb (Dehiwala / Nugegoda / Wellawatte edge)",
+        "monthlyCost": 180
       },
       "dining": {
-        "description": "Local rice and curry restaurants 4-5x/week; street food and kottu roti spots",
-        "monthlyCost": 250
+        "description": "Mostly home cooking; a few local rice-and-curry \"hotels\" / casual meals out",
+        "monthlyCost": 50
       },
       "groceries": {
-        "monthlyCost": 250
-      },
-      "healthcare": {
-        "description": "Private health insurance with access to Nawaloka and Lanka Hospitals",
-        "monthlyCost": 200
-      },
-      "transportation": {
-        "description": "Tuk-tuks and buses for daily commute; occasional ride-hailing via PickMe",
-        "monthlyCost": 100
-      },
-      "entertainment": {
-        "description": "Galle Face Green walks, temple visits, beach trips to Mount Lavinia, cinema",
-        "monthlyCost": 125
-      },
-      "utilities": {
         "monthlyCost": 75
       },
-      "lifestyle": "A modern 2-bedroom apartment in Bambalapitiya or Wellawatte, with rice and curry lunches at local restaurants several times a week. Getting around by tuk-tuk and ride-hailing apps. Private health insurance covering the major Colombo hospitals. Beach trips to Mount Lavinia on weekends. Comfortable and affordable, though imported goods and Western-style dining add up quickly."
+      "healthcare": {
+        "description": "Cheap local individual private inpatient cover, early-retiree (45–55) band",
+        "monthlyCost": 16
+      },
+      "transportation": {
+        "description": "Buses (monthly pass) + occasional PickMe tuk-tuk",
+        "monthlyCost": 25
+      },
+      "entertainment": {
+        "description": "Occasional cinema, streaming, casual outings",
+        "monthlyCost": 25
+      },
+      "utilities": {
+        "monthlyCost": 38
+      },
+      "lifestyle": "A modest self-contained apartment or annex in a quiet suburb like Dehiwala or the Wellawatte edge, with home cooking supplemented by rice-and-curry \"hotels\" and street kottu. Getting around on buses and the occasional PickMe tuk-tuk. Basic local private health cover handles routine care at the major private hospitals. Walks along Galle Face and beach afternoons at Mount Lavinia cost almost nothing. Comfortable and genuinely affordable, though imported goods and Western-style dining stay outside this budget."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
         "description": "Spacious 3BR apartment in Colombo 3 (Kollupitiya) or modern condo in Colombo 7",
-        "monthlyCost": 1075
+        "monthlyCost": 280
       },
       "dining": {
         "description": "Mix of upscale restaurants at Colombo Fort, boutique cafes, and local favorites",
-        "monthlyCost": 425
+        "monthlyCost": 90
       },
       "groceries": {
-        "monthlyCost": 325
+        "monthlyCost": 100
       },
       "healthcare": {
         "description": "Premium private insurance covering top Colombo hospitals and specialist care",
-        "monthlyCost": 200
+        "monthlyCost": 22
       },
       "transportation": {
         "description": "Own small car or regular ride-hailing; weekend trips to Kandy and Galle",
-        "monthlyCost": 200
+        "monthlyCost": 45
       },
       "entertainment": {
         "description": "Gym membership, diving trips to Hikkaduwa, cultural events, weekend getaways to hill country",
-        "monthlyCost": 250
+        "monthlyCost": 50
       },
       "utilities": {
-        "monthlyCost": 75
+        "monthlyCost": 52
       },
-      "lifestyle": "A spacious apartment in Kollupitiya or Colombo 7, dining out at good restaurants several times a week, and a small car or regular ride-hailing for getting around. Good private health insurance with specialist coverage. Weekend trips to Kandy, Galle, or the hill country are easily affordable. Day-to-day life is easy and you have a comfortable buffer each month."
+      "lifestyle": "A nicer furnished apartment in a good suburb, with dining out a couple of times a week across a mix of local and mid-range spots. A blend of cabs, tuk-tuks, and buses covers daily movement, and a mid-tier local health plan handles routine and hospital care. Cinema, a light gym habit, and social outings fit easily, with a comfortable cushion left over at Colombo's prices."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Luxury 4BR apartment or penthouse in Colombo 3 or beachfront in Mount Lavinia",
-        "monthlyCost": 1350
+        "description": "Furnished, A/C 1BR in a good central area (Colombo 4/5/6 — Wellawatte / Bambalapitiya, or edge of Colombo 3)",
+        "monthlyCost": 400
       },
       "dining": {
-        "description": "Fine dining at Ministry of Crab, Nihonbashi, and hotel restaurants; regular entertaining",
-        "monthlyCost": 525
+        "description": "Regular dining out including mid-range and Western spots",
+        "monthlyCost": 140
       },
       "groceries": {
-        "monthlyCost": 300
+        "monthlyCost": 130
       },
       "healthcare": {
-        "description": "International health insurance with coverage across South and Southeast Asia",
-        "monthlyCost": 275
+        "description": "Comprehensive local individual plan, higher sum insured + riders",
+        "monthlyCost": 32
       },
       "transportation": {
-        "description": "Own car with occasional driver, ride-hailing, domestic flights to Jaffna and Trincomalee",
-        "monthlyCost": 275
+        "description": "PickMe/Uber cabs + tuk-tuks; no car",
+        "monthlyCost": 70
       },
       "entertainment": {
-        "description": "Surfing trips, luxury wellness retreats, wildlife safaris, premium gym and club memberships",
-        "monthlyCost": 375
+        "description": "Gym membership, cinema, social dining, occasional weekend trip",
+        "monthlyCost": 85
       },
       "utilities": {
-        "monthlyCost": 100
+        "monthlyCost": 70
       },
-      "lifestyle": "A large apartment or penthouse in Colombo 3 or beachfront in Mount Lavinia. Regular dining at top restaurants like Ministry of Crab and Nihonbashi. Your own car with an occasional driver, domestic flights to Trincomalee or Jaffna, and international health insurance. Surfing trips, wildlife safaris, and boutique hotel weekends around the island. Significant monthly margin at Colombo's cost of living."
+      "lifestyle": "A furnished, air-conditioned apartment in a central district like Bambalapitiya or Wellawatte (Colombo 4–6), with dining out several times a week across local favorites and the growing mid-range and Western scene. Ride-hailing and tuk-tuks replace the need to own a car. Comprehensive local health insurance with a higher sum insured covers the major private hospitals. A gym membership, an active social calendar, and easy weekend escapes to the south coast or hill country all fit comfortably, leaving real monthly margin at Colombo's cost of living."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury villa in Colombo 7 or oceanfront property in the southern coast suburbs",
-        "monthlyCost": 1550
+        "monthlyCost": 850
       },
       "dining": {
         "description": "Private chef plus regular fine dining at Colombo's top restaurants and hotels",
-        "monthlyCost": 500
+        "monthlyCost": 250
       },
       "groceries": {
-        "monthlyCost": 250
+        "monthlyCost": 210
       },
       "healthcare": {
         "description": "VIP concierge medical with access to Singapore hospitals for major procedures",
-        "monthlyCost": 250
+        "monthlyCost": 110
       },
       "transportation": {
         "description": "Luxury vehicle with driver, domestic flights, seaplane transfers",
-        "monthlyCost": 300
+        "monthlyCost": 220
       },
       "entertainment": {
         "description": "Private whale watching, luxury safari lodges, yacht charters, international travel",
-        "monthlyCost": 400
+        "monthlyCost": 220
       },
       "utilities": {
-        "monthlyCost": 75
+        "monthlyCost": 110
       },
       "domesticHelp": {
         "description": "Full-time cook, housekeeper, gardener, and driver",
-        "monthlyCost": 250
+        "monthlyCost": 140
       },
       "luxuryExtras": {
         "description": "International first-class travel, luxury hotel stays, philanthropy, art collecting",
-        "monthlyCost": 1025
+        "monthlyCost": 180
       },
-      "lifestyle": "A large villa in Colombo 7 or along the southern coast with a housekeeper, cook, and gardener. A nice car with driver for daily use, business class flights for international travel, and premium healthcare with access to Singapore hospitals for major procedures. Regular dining at the best restaurants and hotels in Colombo. Sri Lanka's low costs leave a large margin even at this level of comfort."
+      "lifestyle": "A high-end furnished apartment or premium condo in Colombo 3 or Colombo 7, with part-time household help a few days a week and heavy use of ride-hailing plus the occasional hired driver. Frequent upscale dining, cafes, and hotel restaurants, and a premium grocery basket leaning on imports. Upper-tier health cover bridges toward international plans. Club memberships and regular leisure travel are easily absorbed, and the low local cost base leaves a wide margin each month."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Sprawling estate compound in Colombo 7 or beachfront villa complex on the south coast",
-        "monthlyCost": 1825
+        "description": "Luxury condo or house in Colombo 7 (Cinnamon Gardens) or Colombo 3 — Cinnamon Life / Altair / Havelock City tier",
+        "monthlyCost": 1400
       },
       "dining": {
-        "description": "Personal chef team, catered events, exclusive dining experiences",
-        "monthlyCost": 725
+        "description": "Fine dining and five-star hotel restaurants, frequent",
+        "monthlyCost": 400
       },
       "groceries": {
-        "monthlyCost": 250
+        "monthlyCost": 320
       },
       "healthcare": {
-        "description": "Elite global health plan, personal wellness team, annual executive health screening in Singapore",
-        "monthlyCost": 300
+        "description": "International / evacuation-grade cover with Singapore/Bangkok hospital access",
+        "monthlyCost": 210
       },
       "transportation": {
-        "description": "Multiple luxury vehicles, full-time chauffeur, private seaplane and helicopter charters",
-        "monthlyCost": 425
+        "description": "Private car + full-time driver + fuel/running",
+        "monthlyCost": 420
       },
       "entertainment": {
-        "description": "Private island retreats, art patronage, exclusive cultural events, luxury global travel",
-        "monthlyCost": 725
+        "description": "Clubs, golf, premium leisure, travel",
+        "monthlyCost": 380
       },
       "utilities": {
-        "monthlyCost": 75
+        "monthlyCost": 150
       },
       "domesticHelp": {
-        "description": "Full household staff: chef, butler, housekeepers, gardeners, security team, personal assistant",
-        "monthlyCost": 550
+        "description": "Live-in maid/cook (± part-time cleaner)",
+        "monthlyCost": 260
       },
       "luxuryExtras": {
-        "description": "Property portfolio, yacht, first-class global travel, philanthropic foundations, tea estate investment",
-        "monthlyCost": 1825
+        "description": "Concierge, memberships, discretionary luxury",
+        "monthlyCost": 360
       },
-      "lifestyle": "A premium property in Colombo 7 or a beachfront villa on the south coast with full-time household staff including a housekeeper, a cook several times a week, and a driver. First class flights for international travel, top-tier global health coverage, and dining at any restaurant without thinking about cost. This budget vastly exceeds Colombo's cost of living. Most people at this level use Sri Lanka as an affordable tropical base and travel extensively."
+      "lifestyle": "A branded luxury condominium or house in Cinnamon Gardens (Colombo 7) or Colombo 3 — the Havelock City, Altair, or Cinnamon Life tier — with a private car and full-time driver, and live-in help running the home and kitchen. Fine dining at the city's best restaurants and five-star hotels is routine, groceries lean on premium imports, and international health cover provides direct access to Singapore and Bangkok hospitals for anything serious. Club memberships, golf, and frequent international travel round out the discretionary budget. This far exceeds what Colombo's cost of living can absorb, so this level typically uses Sri Lanka as an affordable tropical base and travels extensively."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 5,
     "infrastructure": 4,
     "expatFriendliness": 5
-  }
+  },
+  "dataRecency": "Q3 2026"
 }

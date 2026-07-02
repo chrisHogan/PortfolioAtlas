@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "Studio or small 1BR apartment in International City, Discovery Gardens, or Al Nahda",
-        "monthlyCost": 2825
+        "description": "Studio in an outer community (Discovery Gardens / JVC / Al Nahda / International City)",
+        "monthlyCost": 1300
       },
       "dining": {
-        "description": "Shawarma spots, Indian restaurants, and food courts 3x/week; cooking at home otherwise",
-        "monthlyCost": 550
+        "description": "Inexpensive South-Asian/shawarma eats + home cooking",
+        "monthlyCost": 240
       },
       "groceries": {
-        "monthlyCost": 750
+        "monthlyCost": 250
       },
       "healthcare": {
-        "description": "Basic mandatory health insurance; limited coverage, higher co-pays",
-        "monthlyCost": 475
+        "description": "Basic DHA-compliant individual plan (mandatory for a residence visa)",
+        "monthlyCost": 100
       },
       "transportation": {
-        "description": "Dubai Metro and bus system; occasional taxi; no car at this budget",
-        "monthlyCost": 275
+        "description": "Nol monthly pass + occasional taxi (no car)",
+        "monthlyCost": 160
       },
       "entertainment": {
-        "description": "Beach access (free), mall walking, community events; very limited nightlife budget",
-        "monthlyCost": 150
+        "description": "Basic gym + occasional cinema; free beach/malls",
+        "monthlyCost": 140
       },
       "utilities": {
-        "monthlyCost": 375
+        "monthlyCost": 250
       },
-      "lifestyle": "A studio or small 1-bedroom in an outer neighborhood like International City or Discovery Gardens. Getting around on the metro and buses, with occasional taxis. Eating at the city's affordable Indian and Pakistani restaurants and cooking at home otherwise. Basic health insurance with higher co-pays. The beach is free and beautiful, but most of what people associate with Dubai is out of reach at this budget. This is tight living in an expensive city."
+      "lifestyle": "Frugal living in an expensive city — a studio in an outer community like Discovery Gardens or JVC, the Metro and the occasional taxi instead of a car, and Dubai's excellent, affordable South-Asian and shawarma spots supplemented by home cooking. The legally required basic health plan is covered. The beach is free and the malls are air-conditioned refuges, but most of the Dubai people imagine stays out of reach. This is tight, disciplined living where rent and summer cooling dominate the budget."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
         "description": "1BR apartment in Dubai Marina, JLT, or Business Bay with city or partial marina views",
-        "monthlyCost": 3250
+        "monthlyCost": 2180
       },
       "dining": {
         "description": "Mid-range dining 3-4x/week; enjoying Dubai's diverse international restaurant scene",
-        "monthlyCost": 975
+        "monthlyCost": 450
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 300
       },
       "healthcare": {
         "description": "Comprehensive health insurance with good hospital network and reasonable deductibles",
-        "monthlyCost": 650
+        "monthlyCost": 180
       },
       "transportation": {
         "description": "Compact car rental or owned vehicle, fuel, Salik tolls, parking, insurance",
-        "monthlyCost": 800
+        "monthlyCost": 600
       },
       "entertainment": {
         "description": "Beach clubs on occasion, gym membership, desert trips, cinema, brunches",
-        "monthlyCost": 475
+        "monthlyCost": 250
       },
       "utilities": {
-        "monthlyCost": 450
+        "monthlyCost": 390
       },
-      "lifestyle": "A 1-bedroom apartment in Dubai Marina, JLT, or Business Bay with city views. Your own car for getting around, dining out at mid-range restaurants 3-4 times a week, and comprehensive health insurance. Weekend brunches and occasional beach club visits are within reach. Zero income tax helps, but Dubai is expensive and this budget does not leave a large cushion. Comfortable but not lavish by Dubai standards."
+      "lifestyle": "A more comfortable footing — a proper 1-bedroom in JLT or Business Bay, a car for getting around with Salik tolls and parking, and a comprehensive health plan. Mid-range dining a few times a week and the occasional weekend brunch fit the budget. Zero income tax helps, but Dubai remains costly and this level is comfortable rather than plush."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Spacious 2BR in Dubai Marina, Palm Jumeirah, or Downtown Dubai with stunning views",
-        "monthlyCost": 4150
+        "description": "Good 1BR (or compact 2BR) in the Marina / Downtown-adjacent",
+        "monthlyCost": 2860
       },
       "dining": {
-        "description": "Regular dining at celebrity-chef restaurants, Friday brunches at 5-star hotels",
-        "monthlyCost": 1300
-      },
-      "groceries": {
-        "monthlyCost": 775
-      },
-      "healthcare": {
-        "description": "Premium health insurance with access to top hospitals like Mediclinic and Cleveland Clinic Abu Dhabi",
+        "description": "Mid-range dining + weekend hotel brunches",
         "monthlyCost": 700
       },
+      "groceries": {
+        "monthlyCost": 380
+      },
+      "healthcare": {
+        "description": "Premium individual health plan",
+        "monthlyCost": 270
+      },
       "transportation": {
-        "description": "Mid-range SUV (Nissan Patrol or similar), full insurance, fuel, tolls",
-        "monthlyCost": 850
+        "description": "Mid-range SUV all-in (fuel + Salik + insurance + parking)",
+        "monthlyCost": 700
       },
       "entertainment": {
-        "description": "Beach club memberships, desert safaris, golf, spa treatments, live events at Dubai Opera",
-        "monthlyCost": 775
+        "description": "Gym, activities, leisure, beach-club season",
+        "monthlyCost": 400
       },
       "utilities": {
-        "monthlyCost": 450
+        "monthlyCost": 430
       },
-      "lifestyle": "A spacious 2-bedroom in Dubai Marina, Palm Jumeirah, or Downtown with good views. Regular dining at well-known restaurants, Friday brunches at hotel restaurants, and beach club memberships for winter months. A mid-range SUV and premium health insurance covering top hospitals. Dubai Opera and desert safari weekends. This is where Dubai starts to feel like what people imagine. The zero-tax advantage saves meaningfully compared to most Western cities."
+      "lifestyle": "This is where Dubai starts to feel like the brochure — a good 1-bedroom in the Marina or Downtown-adjacent, regular dining including hotel brunches, a mid-range SUV, and premium health cover with access to top hospitals. Beach-club season, desert weekends, and Dubai Opera nights are all within reach. The tax-free setting stretches the budget meaningfully against a comparable Western city."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
         "description": "Luxury 3BR penthouse in Downtown Dubai, or a villa on Palm Jumeirah with private beach",
-        "monthlyCost": 5925
+        "monthlyCost": 4350
       },
       "dining": {
         "description": "Fine dining at Michelin-starred restaurants multiple times per week, catered dinner parties",
-        "monthlyCost": 1950
+        "monthlyCost": 1500
       },
       "groceries": {
-        "monthlyCost": 800
+        "monthlyCost": 520
       },
       "healthcare": {
         "description": "VIP health insurance with direct access to top specialists, executive wellness programs",
-        "monthlyCost": 750
+        "monthlyCost": 420
       },
       "transportation": {
         "description": "Luxury vehicle (Mercedes, Range Rover), premium insurance, private driver for events",
-        "monthlyCost": 1075
+        "monthlyCost": 900
       },
       "entertainment": {
         "description": "Premium beach and yacht clubs, golf at Emirates Golf Club, VIP event access, spa retreats",
-        "monthlyCost": 1075
+        "monthlyCost": 750
       },
       "utilities": {
-        "monthlyCost": 475
+        "monthlyCost": 650
       },
       "domesticHelp": {
         "description": "Full-time live-in maid, regular deep cleaning service, driver on call",
-        "monthlyCost": 1300
+        "monthlyCost": 550
       },
       "luxuryExtras": {
         "description": "Yacht charter weekends, first-class travel, designer shopping, Maldives getaways",
-        "monthlyCost": 2150
+        "monthlyCost": 800
       },
-      "lifestyle": "A large apartment in Downtown or a villa on Palm Jumeirah with beach access. A luxury car, a housekeeper several times a week, and regular dining at top restaurants. Premium health insurance with direct specialist access and business class flights for longer trips. Golf and beach club memberships. This budget lets you live well in Dubai's most desirable areas, though the city's high costs mean it does not feel limitless."
+      "lifestyle": "An affluent Dubai lifestyle — a luxury apartment or small villa in a prime waterfront district, near-daily fine dining, and part-time household help. A premium car, worldwide (ex-US) health cover, and a healthy budget for clubs, travel, and leisure. Life is genuinely upscale here, though Dubai's high costs mean even this budget has visible edges."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Ultra-luxury villa on Palm Jumeirah, Emirates Hills estate, or Jumeirah Bay Island residence",
-        "monthlyCost": 8550
+        "description": "Prime Palm Jumeirah apartment / Downtown penthouse",
+        "monthlyCost": 7900
       },
       "dining": {
-        "description": "Personal chef, exclusive dining at the world's best restaurants, private events on yachts",
-        "monthlyCost": 2975
+        "description": "High-end near-daily dining",
+        "monthlyCost": 2450
       },
       "groceries": {
-        "monthlyCost": 850
+        "monthlyCost": 700
       },
       "healthcare": {
-        "description": "Royal-tier health coverage, executive wellness, international medical access, anti-aging clinics",
+        "description": "International/evacuation cover incl. US access",
         "monthlyCost": 850
       },
       "transportation": {
-        "description": "Multiple luxury and exotic vehicles, full-time chauffeur, helicopter transfers available",
-        "monthlyCost": 1700
+        "description": "Luxury car running/fuel/Salik/valet (chauffeur salary in domesticHelp)",
+        "monthlyCost": 1100
       },
       "entertainment": {
-        "description": "Exclusive club memberships, yacht ownership, art collecting, Dubai World Cup VIP, philanthropy",
-        "monthlyCost": 2125
+        "description": "Golf, elite clubs, events",
+        "monthlyCost": 1500
       },
       "utilities": {
-        "monthlyCost": 500
+        "monthlyCost": 1500
       },
       "domesticHelp": {
-        "description": "Full household staff: housekeeper, chef, nanny/PA, driver, gardener, pool maintenance",
-        "monthlyCost": 3400
+        "description": "Live-in maid + chauffeur (+ cook), incl. visa/overhead",
+        "monthlyCost": 3000
       },
       "luxuryExtras": {
-        "description": "Private yacht, exotic car collection, first-class global travel, art gallery, real estate portfolio",
-        "monthlyCost": 4250
+        "description": "Charters, first-class travel share, luxury shopping",
+        "monthlyCost": 2500
       },
-      "lifestyle": "A large villa in Emirates Hills or on Palm Jumeirah with full household staff including a housekeeper, cook, and driver. Multiple vehicles, first class international flights, and top-tier health coverage with executive wellness programs. Regular fine dining, premium club memberships, and business class travel to London, Singapore, or Mumbai on a whim. Dubai's high costs absorb more of this budget than cheaper cities would, but you never think about money."
+      "lifestyle": "Top-of-market Dubai — a prime residence on Palm Jumeirah or a Downtown penthouse, full live-in household staff and a chauffeur, and international, evacuation-grade health cover including US access. A luxury car, near-daily fine dining, elite club memberships, private charters, and first-class travel. Dubai's ultra-prime housing, brutal summer cooling, and full staffing absorb more of this budget than a cheaper city would, but nothing here requires a second thought about money."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 8,
     "infrastructure": 9,
     "expatFriendliness": 9
-  }
+  },
+  "dataRecency": "Q3 2026"
 }
