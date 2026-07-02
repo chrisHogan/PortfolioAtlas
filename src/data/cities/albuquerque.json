@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "1BR apartment in the University or Nob Hill neighborhood",
-        "monthlyCost": 1325
+        "description": "Modest studio or older 1BR in a workable outer area (West Mesa, University-adjacent, safe Southeast blocks)",
+        "monthlyCost": 950
       },
       "dining": {
-        "description": "Green chile burgers and New Mexican cuisine 2x/week; mostly home cooking",
-        "monthlyCost": 275
+        "description": "Mostly home cooking with Hatch chile; casual New Mexican meals out occasionally",
+        "monthlyCost": 90
       },
       "groceries": {
-        "monthlyCost": 475
+        "monthlyCost": 340
       },
       "healthcare": {
-        "description": "ACA marketplace Silver plan; New Mexico premiums are moderate",
-        "monthlyCost": 650
+        "description": "ACA marketplace Silver plan, subsidized if MAGI is kept under the 2026 400%-FPL cliff (~$62,600 single); assumes an early retiree (45–55) — older retirees budget more. New Mexico uniquely backfilled the lost federal subsidy for 2026.",
+        "monthlyCost": 440
       },
       "transportation": {
-        "description": "Paid-off car with basic insurance; ABQ Ride bus system for some errands",
-        "monthlyCost": 300
+        "description": "A paid-off used car with insurance (transit is minimal; a car is near-mandatory)",
+        "monthlyCost": 270
       },
       "entertainment": {
-        "description": "Hiking the Sandia foothills, free Old Town wandering, public library; occasional film night",
-        "monthlyCost": 100
+        "description": "Hiking the Sandia foothills, Old Town wandering, the public library; an occasional film night",
+        "monthlyCost": 110
       },
       "utilities": {
-        "monthlyCost": 175
+        "monthlyCost": 180
       },
-      "lifestyle": "A one-bedroom in the University or Nob Hill area runs under $1,000, which is low for a Western metro of this size. You cook at home most nights and eat out at New Mexican restaurants a couple of times a week for not much money. Hiking the Sandia foothills and exploring Old Town are free. Healthcare is the largest expense, and you need a car, but the overall cost base leaves reasonable breathing room."
+      "lifestyle": "A modest studio or older one-bedroom in a workable outer neighborhood, with home cooking the norm and Hatch chile in everything. Healthcare and the near-mandatory car form a hard cost floor even here, but Albuquerque's best assets — hiking the Sandia foothills, wandering Old Town, and 310 days of sun — cost nothing. The ACA Silver premium stays low only if MAGI is managed under the 2026 ~$62,600 subsidy cliff, and New Mexico's unique state backfill softens the math. A frugal but genuinely livable high-desert base."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "2BR house in Nob Hill or a townhome in the Northeast Heights",
-        "monthlyCost": 1900
+        "description": "Decent 1BR in a solid neighborhood — Nob Hill or the Northeast Heights",
+        "monthlyCost": 1350
       },
       "dining": {
-        "description": "Regular dining on Central Avenue and in Old Town 3-4x/week; craft breweries",
-        "monthlyCost": 525
+        "description": "Regular casual dining along Central Avenue and in Old Town; local craft breweries",
+        "monthlyCost": 240
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 440
       },
       "healthcare": {
-        "description": "ACA Gold plan with dental and vision; comfortable deductible",
-        "monthlyCost": 725
+        "description": "A Silver plan; net cost stays low if MAGI is managed under the cliff (NM's state backfill helps)",
+        "monthlyCost": 470
       },
       "transportation": {
-        "description": "Reliable car for mountain and pueblo day trips, full coverage insurance",
-        "monthlyCost": 425
+        "description": "A reliable car with full coverage for mountain and pueblo day trips",
+        "monthlyCost": 330
       },
       "entertainment": {
-        "description": "Sandia Peak Tramway passes, Balloon Fiesta tickets, KiMo Theatre shows, gym membership",
-        "monthlyCost": 300
+        "description": "Sandia Peak Tramway passes, Balloon Fiesta tickets, KiMo Theatre shows, a gym membership",
+        "monthlyCost": 240
       },
       "utilities": {
-        "monthlyCost": 175
+        "monthlyCost": 210
       },
-      "lifestyle": "A two-bedroom house in Nob Hill or a townhome in the Northeast Heights, dining out several times a week at Central Avenue restaurants and local breweries, and a Sandia Peak Tramway pass. Weekends involve exploring nearby pueblos, national monuments, and the bosque along the Rio Grande. Good health insurance and a reliable car for day trips are covered with room to spare."
+      "lifestyle": "A decent place in Nob Hill or the Northeast Heights, dining out several times a week along Central Avenue and among the craft breweries, and a reliable car for trips to pueblos and national monuments. A Sandia Peak Tramway pass and Balloon Fiesta tickets fit easily. Coverage is comfortable and the overall cost base leaves real breathing room at Albuquerque prices."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "3BR home in the Sandia Heights or North Valley with mountain or bosque views",
-        "monthlyCost": 2625
+        "description": "Quality 1BR or small adobe in a desirable area — Nob Hill or the North Valley",
+        "monthlyCost": 1650
       },
       "dining": {
-        "description": "Regular dining at Campo, Seasons, and Los Poblanos; wine events and food festivals",
-        "monthlyCost": 700
+        "description": "Frequent quality dining at spots like Campo and Los Poblanos; wine events",
+        "monthlyCost": 430
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 490
       },
       "healthcare": {
-        "description": "Premium private insurance with comprehensive coverage and low deductibles",
-        "monthlyCost": 675
+        "description": "A Gold-tier plan; the line is padded near the ~$62,600 ACA cliff where premium tax credits phase out",
+        "monthlyCost": 580
       },
       "transportation": {
-        "description": "Late-model SUV for mountain and desert excursions, premium insurance",
-        "monthlyCost": 475
+        "description": "A late-model SUV for desert and mountain excursions, premium insurance",
+        "monthlyCost": 390
       },
       "entertainment": {
-        "description": "Hot air balloon rides, Santa Fe Opera trips, golf membership, art collecting on Canyon Road",
-        "monthlyCost": 425
+        "description": "Hot-air-balloon rides, Santa Fe Opera trips, a golf membership, Canyon Road art",
+        "monthlyCost": 440
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 250
       },
-      "lifestyle": "A three-bedroom home in Sandia Heights or the North Valley with mountain or bosque views, regular dining at top restaurants like Campo and Los Poblanos, and a late-model SUV for desert and mountain excursions. Trips to Santa Fe for the opera and Canyon Road galleries, a golf membership, and hot air balloon rides are all within budget. This is an affluent life with substantial margin at Albuquerque prices."
+      "lifestyle": "A quality home in Sandia Heights or the North Valley with mountain or bosque views, frequent dinners at Campo and Los Poblanos, and a late-model SUV for desert and mountain excursions. A golf membership, hot-air-balloon rides, and trips to the Santa Fe Opera and Canyon Road galleries all fit the budget. Healthcare is a padded Gold plan near the ~$62,600 ACA cliff. An affluent, low-friction life with substantial margin at local prices."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Custom adobe home in Sandia Heights or a luxury North Valley compound with acreage",
-        "monthlyCost": 3750
+        "description": "Upscale condo or small custom home rental in Sandia Heights or the North Valley",
+        "monthlyCost": 2400
       },
       "dining": {
-        "description": "Private chef for weekly dinners, fine dining in ABQ and Santa Fe, farm-to-table experiences",
-        "monthlyCost": 875
+        "description": "Near-daily dining at the best tables in ABQ and Santa Fe; occasional private-chef meals",
+        "monthlyCost": 880
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 640
       },
       "healthcare": {
-        "description": "Concierge medical practice, premium insurance, integrative wellness",
-        "monthlyCost": 700
+        "description": "An unsubsidized Gold/Platinum plan plus concierge / direct primary care",
+        "monthlyCost": 1000
       },
       "transportation": {
-        "description": "Luxury SUV, second vehicle, flights from ABQ to major hubs",
-        "monthlyCost": 600
+        "description": "A luxury SUV plus a second vehicle; occasional flights from ABQ",
+        "monthlyCost": 700
       },
       "entertainment": {
-        "description": "Private balloon flights, Santa Fe Opera patronage, art collecting, country club membership",
-        "monthlyCost": 600
+        "description": "Private balloon flights, Santa Fe Opera patronage, art collecting, a country club membership",
+        "monthlyCost": 680
       },
       "utilities": {
-        "monthlyCost": 225
+        "monthlyCost": 330
       },
       "domesticHelp": {
-        "description": "Weekly deep cleaning, xeriscape gardening service, property maintenance",
-        "monthlyCost": 475
+        "description": "Weekly deep cleaning plus xeriscape and property maintenance",
+        "monthlyCost": 300
       },
       "luxuryExtras": {
-        "description": "Art collecting, quarterly travel, Balloon Fiesta VIP experiences, cultural philanthropy",
-        "monthlyCost": 1025
+        "description": "Regular art purchases, quarterly travel, Balloon Fiesta VIP experiences",
+        "monthlyCost": 580
       },
-      "lifestyle": "A custom adobe home in Sandia Heights or a large North Valley property with acreage, a housekeeper who comes weekly, and concierge healthcare. Regular fine dining in both Albuquerque and Santa Fe, a country club membership, and business class flights for longer travel fit comfortably. Hot air balloon flights, Santa Fe Opera patronage, and occasional art purchases on Canyon Road round out the calendar."
+      "lifestyle": "A custom adobe in Sandia Heights or a North Valley property with acreage, weekly housekeeping, and concierge-level care on an unsubsidized premium plan. Near-daily fine dining across Albuquerque and Santa Fe, a country club membership, and business-class flights are routine. Private balloon flights, Santa Fe Opera patronage, and regular Canyon Road art purchases round out the calendar."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Grand Sandia Heights estate or a sprawling North Valley hacienda with river access",
-        "monthlyCost": 4500
+        "description": "Top-of-market luxury home or estate rental in Sandia Heights or the luxury North Valley",
+        "monthlyCost": 4200
       },
       "dining": {
-        "description": "Personal chef, exclusive wine dinners, catered events, farm-sourced everything",
-        "monthlyCost": 1250
+        "description": "Private-chef dining and the finest farm-sourced tables across the region",
+        "monthlyCost": 1950
       },
       "groceries": {
-        "monthlyCost": 450
+        "monthlyCost": 880
       },
       "healthcare": {
-        "description": "Top concierge practice, executive wellness retreats, medical travel for specialists",
-        "monthlyCost": 625
+        "description": "A top-tier unsubsidized plan plus concierge medicine — fully out of subsidy range",
+        "monthlyCost": 1400
       },
       "transportation": {
         "description": "Multiple luxury vehicles, private car service, chartered flights from ABQ",
-        "monthlyCost": 725
+        "monthlyCost": 1550
       },
       "entertainment": {
         "description": "Major arts patronage, private gallery events, international travel, exclusive cultural experiences",
-        "monthlyCost": 1050
+        "monthlyCost": 1750
       },
       "utilities": {
-        "monthlyCost": 225
+        "monthlyCost": 480
       },
       "domesticHelp": {
-        "description": "Full-time estate manager, housekeeper, personal assistant, groundskeeper",
-        "monthlyCost": 2100
+        "description": "Full-time estate manager, housekeeper, and groundskeeper",
+        "monthlyCost": 1150
       },
       "luxuryExtras": {
-        "description": "Second home in Santa Fe, first-class travel, major art collection, cultural foundation",
-        "monthlyCost": 2525
+        "description": "First-class travel, a major art collection, cultural philanthropy, a Santa Fe pied-à-terre",
+        "monthlyCost": 1950
       },
-      "lifestyle": "A large Sandia Heights estate or a sprawling North Valley hacienda, a second home in Santa Fe, full-time domestic help including a housekeeper and property manager, and a cook who comes in several times a week. First-class travel, concierge healthcare, and regular fine dining are all comfortable. Albuquerque's low cost base means this budget provides premium living with very large monthly margins."
+      "lifestyle": "A grand Sandia Heights estate or a sprawling North Valley hacienda with full-time domestic staff — estate manager, housekeeper, groundskeeper — plus a private chef several days a week. First-class travel, top-tier concierge medicine, and daily fine dining are unremarkable at this level, and a Santa Fe pied-à-terre is within reach. Albuquerque's low cost base makes this genuinely lavish living — roughly $184k a year — with large monthly margins."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 7,
     "infrastructure": 7,
     "expatFriendliness": 8
-  }
+  },
+  "dataRecency": "Q3 2026"
 }

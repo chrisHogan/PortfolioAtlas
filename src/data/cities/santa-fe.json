@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "1BR apartment or small casita on the south side of town",
-        "monthlyCost": 1800
+        "description": "Cheapest acceptable studio or small casita on the south side",
+        "monthlyCost": 1300
       },
       "dining": {
-        "description": "Casual New Mexican spots and taco stands 2-3x/week; cooking at home with Hatch chile",
-        "monthlyCost": 325
+        "description": "Home cooking with Hatch chile; casual New Mexican spots out a couple of times a week",
+        "monthlyCost": 110
       },
       "groceries": {
-        "monthlyCost": 525
+        "monthlyCost": 360
       },
       "healthcare": {
-        "description": "ACA marketplace Silver plan through New Mexico exchange",
-        "monthlyCost": 675
+        "description": "ACA marketplace Silver plan via New Mexico's exchange, subsidized if MAGI stays under the 2026 ~$62,600 400%-FPL cliff; New Mexico uniquely backfilled the lost federal subsidy for 2026. Assumes an early retiree (45–55) — older retirees budget more",
+        "monthlyCost": 450
       },
       "transportation": {
-        "description": "Older paid-off car with insurance and gas; essential for living here",
-        "monthlyCost": 350
+        "description": "An older paid-off car with insurance and gas — essential here (limited Santa Fe Trails and Rail Runner transit)",
+        "monthlyCost": 280
       },
       "entertainment": {
-        "description": "Free gallery openings on Canyon Road, hiking in the Sangre de Cristos, plaza people-watching",
-        "monthlyCost": 100
-      },
-      "utilities": {
-        "monthlyCost": 175
-      },
-      "lifestyle": "A small casita or one-bedroom on the south side runs about $1,350, which takes a large share of the budget. You cook at home most nights, using Hatch chile liberally, and eat out at casual New Mexican spots a couple of times a week. Free Friday gallery walks on Canyon Road, hiking in the Sangre de Cristos, and the dry climate keeping utility costs low all help. Housing and healthcare squeeze the margins, but the daily surroundings are striking."
-    },
-    "2M": {
-      "monthlyBudget": 6667,
-      "housing": {
-        "description": "Charming 2BR adobe home near the Railyard district or in the historic east side",
-        "monthlyCost": 2475
-      },
-      "dining": {
-        "description": "Regular meals at mid-range restaurants like Paloma, Tomasita's, and the Shed",
-        "monthlyCost": 600
-      },
-      "groceries": {
-        "monthlyCost": 600
-      },
-      "healthcare": {
-        "description": "ACA Gold plan with dental and vision coverage",
-        "monthlyCost": 700
-      },
-      "transportation": {
-        "description": "Reliable SUV for mountain roads, full coverage insurance",
-        "monthlyCost": 475
-      },
-      "entertainment": {
-        "description": "Santa Fe Opera tickets, ski pass at Ski Santa Fe, art classes, Indian Market weekend",
-        "monthlyCost": 350
+        "description": "Free Friday gallery walks on Canyon Road, hiking the Sangre de Cristos, plaza people-watching",
+        "monthlyCost": 130
       },
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "A charming two-bedroom adobe near the Railyard district or on the historic east side, dining out several times a week at places like The Shed and Tomasita's, and Santa Fe Opera tickets in summer. A ski pass at Ski Santa Fe covers winter, and weekend trips to Taos or Bandelier add variety. Good health insurance and a reliable SUV for mountain roads are covered with some room to spare."
+      "lifestyle": "A cheapest-acceptable studio or small casita on the south side, where housing takes a large share of the budget — Santa Fe's resort-and-art-market premium shows up most in rent. Cooking at home with Hatch chile is the norm, with casual New Mexican meals out a couple of times a week. Free Friday gallery walks on Canyon Road, hiking the Sangre de Cristos, and the dry climate's low utility bills all help. The ACA Silver premium stays low if MAGI is managed under the 2026 ~$62,600 cliff — and New Mexico's unique state backfill softens the picture."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "A decent 1BR near the Railyard or midtown",
+        "monthlyCost": 1800
+      },
+      "dining": {
+        "description": "Regular meals at mid-range rooms like The Shed, Tomasita's, and Paloma",
+        "monthlyCost": 280
+      },
+      "groceries": {
+        "monthlyCost": 460
+      },
+      "healthcare": {
+        "description": "A Silver plan; net cost low if MAGI is managed under the cliff (NM's state backfill helps)",
+        "monthlyCost": 480
+      },
+      "transportation": {
+        "description": "A reliable SUV for mountain roads, full coverage",
+        "monthlyCost": 340
+      },
+      "entertainment": {
+        "description": "Santa Fe Opera tickets, a Ski Santa Fe pass, art classes, Indian Market weekend",
+        "monthlyCost": 260
+      },
+      "utilities": {
+        "monthlyCost": 230
+      },
+      "lifestyle": "A charming adobe near the Railyard or on the historic east side, dining out several times a week at rooms like The Shed and Tomasita's, and Santa Fe Opera tickets in summer. A Ski Santa Fe pass covers winter, and weekend trips to Taos or Bandelier add variety. Good coverage and a reliable SUV for mountain roads are covered with room to spare."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "3BR custom adobe home in the historic east side or foothills with mountain views",
-        "monthlyCost": 3150
+        "description": "A high-quality 1BR or small adobe on the historic east side or in the foothills",
+        "monthlyCost": 2400
       },
       "dining": {
-        "description": "Top Santa Fe restaurants like Geronimo, Terra, and Sazon regularly; wine dinners",
-        "monthlyCost": 850
+        "description": "Frequent dining at Geronimo, Terra, and Sazon; wine dinners",
+        "monthlyCost": 480
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 510
       },
       "healthcare": {
-        "description": "Premium private health insurance with Christus St. Vincent preferred access",
-        "monthlyCost": 700
+        "description": "A Gold plan with Christus St. Vincent access; padded near the ~$62,600 ACA cliff",
+        "monthlyCost": 600
       },
       "transportation": {
-        "description": "Late-model 4WD SUV, premium insurance, occasional Albuquerque airport shuttle",
-        "monthlyCost": 500
+        "description": "A late-model 4WD SUV, premium insurance, occasional Albuquerque-airport shuttle",
+        "monthlyCost": 390
       },
       "entertainment": {
-        "description": "Premium opera seats, art collecting, yoga retreats, ski season pass, gallery memberships",
-        "monthlyCost": 550
+        "description": "Premium opera seats, art collecting, a ski season pass, gallery memberships",
+        "monthlyCost": 460
       },
       "utilities": {
-        "monthlyCost": 250
+        "monthlyCost": 270
       },
-      "lifestyle": "A custom three-bedroom adobe on the historic east side or in the foothills with mountain views and kiva fireplaces. Regular dinners at Geronimo and Terra, premium opera seats, and a growing collection of art from Canyon Road galleries. A late-model 4WD SUV handles mountain roads, and there is margin for regular travel. This is a genuinely affluent Santa Fe life."
+      "lifestyle": "A custom adobe on the historic east side or in the foothills with mountain views and kiva fireplaces, regular dinners at Geronimo and Terra, premium opera seats, and a growing collection from Canyon Road galleries. A late-model 4WD SUV handles mountain roads, healthcare is padded near the ~$62,600 ACA cliff, and there is margin for regular travel. A genuinely affluent Santa Fe life."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Luxury compound on Museum Hill, Las Campanas estate, or historic Canyon Road property",
-        "monthlyCost": 4300
+        "description": "A luxury casita or small compound — east side, Museum Hill, or a Las Campanas rental",
+        "monthlyCost": 4000
       },
       "dining": {
-        "description": "Fine dining at Geronimo and Sazon regularly, private chef for entertaining, wine cellar curation",
-        "monthlyCost": 1125
+        "description": "Fine dining at Geronimo and Sazon plus private-chef entertaining and a curated wine cellar",
+        "monthlyCost": 950
       },
       "groceries": {
-        "monthlyCost": 600
+        "monthlyCost": 680
       },
       "healthcare": {
-        "description": "Concierge medicine, executive wellness programs, alternative healing modalities",
-        "monthlyCost": 825
+        "description": "An unsubsidized premium plan plus concierge medicine and integrative care",
+        "monthlyCost": 1050
       },
       "transportation": {
-        "description": "Luxury SUV, premium insurance, occasional private car to Albuquerque airport",
-        "monthlyCost": 600
+        "description": "A luxury SUV plus occasional private car service to the Albuquerque airport",
+        "monthlyCost": 700
       },
       "entertainment": {
-        "description": "Major art collecting, patron-level opera and museum memberships, private ski lessons, cultural travel",
-        "monthlyCost": 850
+        "description": "Major art collecting, patron-level opera and museum memberships, cultural travel",
+        "monthlyCost": 720
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 350
       },
       "domesticHelp": {
-        "description": "Bi-weekly deep cleaning, landscaping, property caretaker for adobe maintenance",
-        "monthlyCost": 675
+        "description": "Bi-weekly deep cleaning, landscaping, and a caretaker for adobe maintenance",
+        "monthlyCost": 300
       },
       "luxuryExtras": {
-        "description": "Significant art purchases, international travel, spa retreats, philanthropic giving to arts organizations",
-        "monthlyCost": 1275
+        "description": "Significant art purchases, international travel, spa retreats, arts philanthropy",
+        "monthlyCost": 650
       },
-      "lifestyle": "A large home on Museum Hill, a Las Campanas property, or a historic Canyon Road compound. A housekeeper comes a couple of times a week, and there is budget for patron-level opera and museum memberships, regular art purchases, and business class flights for travel. Concierge healthcare and a luxury SUV are covered. Santa Fe's art market and cultural scene offer real ways to spend meaningfully at this level."
+      "lifestyle": "A luxury home on Museum Hill, a Las Campanas property, or a historic Canyon Road compound, with cleaning a couple of times a week and unsubsidized concierge healthcare. Patron-level opera and museum memberships, regular art purchases, and business-class travel all fit. Santa Fe's art market and cultural scene offer real ways to spend meaningfully at this level."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Sprawling estate at Las Campanas with golf course and mountain views, or historic compound on Canyon Road",
-        "monthlyCost": 5475
+        "description": "A prime-district estate — a Las Campanas compound or a historic Canyon Road property",
+        "monthlyCost": 7000
       },
       "dining": {
-        "description": "Personal chef specializing in New Mexican cuisine, exclusive dining events, catered gallery openings",
-        "monthlyCost": 1625
+        "description": "A private chef specializing in New Mexican cuisine plus exclusive dining events",
+        "monthlyCost": 2100
       },
       "groceries": {
-        "monthlyCost": 575
+        "monthlyCost": 950
       },
       "healthcare": {
-        "description": "Top-tier concierge medicine, executive wellness, naturopathic and holistic care",
-        "monthlyCost": 800
+        "description": "A top-tier unsubsidized plan plus concierge and holistic care",
+        "monthlyCost": 1400
       },
       "transportation": {
         "description": "Multiple luxury vehicles, private car service, charter flights from Santa Fe Regional",
-        "monthlyCost": 1050
+        "monthlyCost": 1600
       },
       "entertainment": {
-        "description": "Major philanthropic arts patronage, private gallery events, international art fair travel, guest ranch weekends",
-        "monthlyCost": 1450
+        "description": "Major philanthropic arts patronage, private gallery events, international art-fair travel",
+        "monthlyCost": 1850
       },
       "utilities": {
-        "monthlyCost": 300
+        "monthlyCost": 500
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper, personal assistant, property management team, grounds crew",
-        "monthlyCost": 2325
+        "description": "Full-time housekeeper, personal assistant, and a property/grounds team",
+        "monthlyCost": 1200
       },
       "luxuryExtras": {
-        "description": "Museum-level art acquisitions, first-class international travel, ranch property in Taos, charitable foundations",
-        "monthlyCost": 2900
+        "description": "Museum-level art acquisitions, first-class international travel, a Taos ranch property",
+        "monthlyCost": 2100
       },
-      "lifestyle": "A large Las Campanas estate or a historic Canyon Road compound, full-time domestic help including a housekeeper and property manager, and a cook who comes in several times a week specializing in New Mexican cuisine. First-class travel, concierge healthcare, and regular art acquisitions are all comfortable. A ranch property near Taos as a second home is within reach. Santa Fe's small-city costs mean this budget covers premium living with healthy margins."
+      "lifestyle": "A sprawling Las Campanas estate or a historic Canyon Road compound, full-time domestic staff, and a private chef several days a week specializing in New Mexican cuisine. First-class travel, top-tier concierge medicine, and museum-level art acquisitions are all comfortable, and a Taos ranch property is within reach. Santa Fe's small-city costs mean roughly $224k a year buys premium living with healthy margins — the batch's most expensive top tier, driven by its rarefied luxury real estate."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 6,
     "infrastructure": 6,
     "expatFriendliness": 9
-  }
+  },
+  "dataRecency": "Q3 2026"
 }
