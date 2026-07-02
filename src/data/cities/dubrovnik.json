@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "Cozy 1-bedroom apartment in Lapad or Gruz, a short bus ride from Old Town with sea glimpses",
-        "monthlyCost": 1325
+        "description": "Room in a shared flat / cheapest micro-studio, Gruž or Mokošica",
+        "monthlyCost": 570
       },
       "dining": {
-        "description": "Fresh seafood at local konobas away from tourist traps, daily coffee ritual at harbor cafes, homemade rakija with neighbors",
-        "monthlyCost": 650
+        "description": "Mostly home cooking with local konobas away from the tourist strip and a daily coffee ritual",
+        "monthlyCost": 80
       },
       "groceries": {
-        "monthlyCost": 475
+        "monthlyCost": 250
       },
       "healthcare": {
-        "description": "Croatian public healthcare via HZZO enrollment plus basic private supplement for specialist referrals",
-        "monthlyCost": 225
+        "description": "Minimum compliant private/expat plan meeting the temporary-residence insurance proof",
+        "monthlyCost": 85
       },
       "transportation": {
-        "description": "Libertas bus monthly pass covering all Dubrovnik city routes",
-        "monthlyCost": 50
+        "description": "Libertas city monthly pass",
+        "monthlyCost": 55
       },
       "entertainment": {
-        "description": "Swimming at Banje and hidden coves, walking the city walls, kayaking around Lokrum island, sunset drinks on the Stradun",
-        "monthlyCost": 300
+        "description": "Walking the city walls, swimming at Banje and the coves, kayaking to Lokrum",
+        "monthlyCost": 60
       },
       "utilities": {
-        "monthlyCost": 175
+        "monthlyCost": 100
       },
-      "lifestyle": "A one-bedroom in Lapad or Gruž keeps you a short bus ride from the Old Town at a manageable rent. You can eat at local konobas a few times a week, swim at free beaches, and enjoy the quiet off-season that tourists never see. The budget is workable but not loose — Dubrovnik's tourist economy pushes prices higher than other Croatian cities, and summer crowds are a real factor."
+      "lifestyle": "A room in a shared flat or the cheapest micro-studio in Gruž or Mokošica, a short bus ride from the Old Town. Local konobas away from the tourist strip, a daily coffee ritual, and free swimming at Banje and the hidden coves make the everyday. The Libertas bus pass covers the city, and a permit-compliant private health policy is carried. Dubrovnik's tourism economy props prices higher than other Croatian towns, so the budget is workable but not loose — and the reward is the quiet off-season that visitors never see."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "Beautiful 2-bedroom in a stone house near Ploce Gate or a renovated apartment in Lapad with balcony sea views",
-        "monthlyCost": 1750
+        "description": "Own studio/small 1BR, Gruž / Montovjerna / residential Lapad",
+        "monthlyCost": 910
       },
       "dining": {
-        "description": "Regular dining at top Dubrovnik restaurants like Nautika and Proto, wine tasting on Peljesac peninsula, fresh oysters in Ston",
-        "monthlyCost": 1000
+        "description": "Good restaurants like Nautika regularly, Pelješac wine and Ston oysters",
+        "monthlyCost": 300
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 300
       },
       "healthcare": {
-        "description": "Full private insurance with access to Dubrovnik General Hospital and private clinics in Split or Zagreb for specialists",
-        "monthlyCost": 250
+        "description": "Comprehensive private cover, fuller outpatient/hospital limits",
+        "monthlyCost": 150
       },
       "transportation": {
-        "description": "Bus pass plus car rental for exploring the Dalmatian coast, ferry passes to nearby islands",
-        "monthlyCost": 225
+        "description": "Libertas city monthly pass",
+        "monthlyCost": 70
       },
       "entertainment": {
-        "description": "Dubrovnik Summer Festival front-row seats, island-hopping to Korcula and Mljet, sailing trips, Old Town cultural events",
-        "monthlyCost": 550
+        "description": "Dubrovnik Summer Festival seats and island-hopping to Korčula and Mljet",
+        "monthlyCost": 120
       },
       "utilities": {
-        "monthlyCost": 175
+        "monthlyCost": 155
       },
-      "lifestyle": "A stone apartment near Ploče Gate or a renovated place in Lapad with sea views. Regular dining at good restaurants like Nautika, car rentals for exploring the Dalmatian coast, and ferry trips to Korčula and Mljet. Good private health insurance and front-row seats at the Dubrovnik Summer Festival are affordable at this level. The city is small, so daily life is walkable and the pace is relaxed."
+      "lifestyle": "A studio or small one-bedroom in residential Lapad, Montovjerna, or Gruž, some with sea glimpses. Regular dining at good restaurants like Nautika, car rentals for the Dalmatian coast, and ferry trips to Korčula and Mljet. Comprehensive private cover and front-row seats at the Dubrovnik Summer Festival fit the budget. The town is small and walkable, and the pace is relaxed."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Luxury stone villa in the hills above Dubrovnik with panoramic Adriatic views, private pool, and terraced garden",
-        "monthlyCost": 2325
+        "description": "1BR in a desirable central district — Ploče / Old-Town edge / upper Lapad, some sea view",
+        "monthlyCost": 1370
       },
       "dining": {
-        "description": "Fine dining at 360 Dubrovnik and Restaurant Dubrovnik, private wine tours along the Peljesac corridor, chef-prepared island picnics",
-        "monthlyCost": 1175
+        "description": "The city's best tables and private wine tours",
+        "monthlyCost": 500
       },
       "groceries": {
-        "monthlyCost": 450
+        "monthlyCost": 360
       },
       "healthcare": {
-        "description": "Premium private insurance with international coverage, executive health screenings, dental tourism packages",
-        "monthlyCost": 300
+        "description": "Broad-network private plan, private-clinic access",
+        "monthlyCost": 260
       },
       "transportation": {
-        "description": "Leased vehicle for Dalmatian coast road trips, private boat transfers to islands, regular taxi service",
-        "monthlyCost": 325
+        "description": "Pass + car for the coast",
+        "monthlyCost": 150
       },
       "entertainment": {
-        "description": "Private sailing charters through the Elaphiti islands, VIP Dubrovnik Summer Festival access, scuba diving excursions, golf at Dubrovnik Hills",
-        "monthlyCost": 750
+        "description": "Elaphiti sailing charters, VIP festival access, scuba and golf",
+        "monthlyCost": 220
       },
       "utilities": {
-        "monthlyCost": 175
+        "monthlyCost": 200
       },
-      "lifestyle": "A villa in the hills above Dubrovnik with Adriatic views and a pool, a car for coast road trips, and regular dining at restaurants like 360 Dubrovnik. Sailing trips through the Elaphiti islands, good international health coverage, and regular European travel are all comfortably within budget. Dubrovnik is small, which means limited restaurant variety compared to larger cities, but the setting and coastal access are hard to match."
+      "lifestyle": "A one-bedroom in a desirable central area — Ploče, the Old Town edge, or upper Lapad — often with a sea view. Regular dining at the city's best tables, a broad-network private plan with international coverage, and a car for coast road trips. Sailing through the Elaphiti islands and regular European travel are comfortably within budget. Restaurant variety is limited by the town's size, but the setting and coastal access are hard to match — and housing here already runs high for a small city because year-round rentals are genuinely scarce."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Historic palazzo within the Old Town walls, painstakingly restored, or cliffside luxury estate in Sveti Jakov with private beach access",
-        "monthlyCost": 3025
+        "description": "High-spec 1BR prime near Old Town / Ploče, sea view",
+        "monthlyCost": 1825
       },
       "dining": {
-        "description": "Private chef specializing in Dalmatian cuisine, curated Croatian wine cellar, hosting dinner parties on your terrace overlooking the old port",
-        "monthlyCost": 1450
-      },
-      "groceries": {
-        "monthlyCost": 475
-      },
-      "healthcare": {
-        "description": "International concierge medicine, private physician, wellness retreats on Hvar and Brac islands",
-        "monthlyCost": 325
-      },
-      "transportation": {
-        "description": "Luxury vehicle, private speedboat for island access, helicopter transfers to Split or Montenegro",
-        "monthlyCost": 525
-      },
-      "entertainment": {
-        "description": "Private yacht cruising the Dalmatian coast, exclusive cultural event hosting, art collecting from Croatian artists, Adriatic island retreats",
-        "monthlyCost": 1050
-      },
-      "utilities": {
-        "monthlyCost": 175
-      },
-      "domesticHelp": {
-        "description": "Full-time housekeeper, gardener for villa grounds, weekly deep cleaning, personal assistant and concierge",
-        "monthlyCost": 725
-      },
-      "luxuryExtras": {
-        "description": "Private Croatian language tutor, personal trainer, yacht marina berth, bespoke Dalmatian coast itineraries, premium spa memberships",
+        "description": "Near-daily dining at the coast's finest restaurants",
         "monthlyCost": 850
       },
-      "lifestyle": "A restored stone house within the Old Town walls or a cliffside property with private beach access, a housekeeper, and a cook who comes in several times a week. A speedboat for island access, business class travel, and premium healthcare round out a very comfortable coastal life. Dubrovnik's small size means you will know most of the year-round community, for better or worse."
+      "groceries": {
+        "monthlyCost": 480
+      },
+      "healthcare": {
+        "description": "Premium / entry-international (regional/Europe-wide) plan",
+        "monthlyCost": 375
+      },
+      "transportation": {
+        "description": "Car + private speedboat for island access",
+        "monthlyCost": 450
+      },
+      "entertainment": {
+        "description": "Private yacht cruising and exclusive cultural-event hosting",
+        "monthlyCost": 400
+      },
+      "utilities": {
+        "monthlyCost": 240
+      },
+      "domesticHelp": {
+        "description": "Housekeeper / concierge",
+        "monthlyCost": 340
+      },
+      "luxuryExtras": {
+        "description": "Language tutor / trainer / marina berth / spa",
+        "monthlyCost": 340
+      },
+      "lifestyle": "A high-spec one-bedroom in a prime spot near the Old Town or Ploče, with a sea view. Near-daily dining at the coast's best restaurants, premium private cover, regular housekeeping, and a speedboat for island access. Business-class travel and a very comfortable Adriatic life round it out. Dubrovnik's small scale means the year-round community is intimate, for better or worse."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Landmark restored fortress or palazzo in Old Town with complete luxury renovation, or clifftop mega-villa compound with private cove",
-        "monthlyCost": 3550
+        "description": "Luxury 1–2BR at a prime address (Old Town / Ploče), sea view — top of the thin long-term luxury pool",
+        "monthlyCost": 2735
       },
       "dining": {
-        "description": "Full-time private chef team, curated international wine cellar in medieval stone vaults, hosting legendary Adriatic feasts, guest chef series",
-        "monthlyCost": 1775
+        "description": "Private-chef-level dining and hosted Adriatic feasts",
+        "monthlyCost": 1450
       },
       "groceries": {
-        "monthlyCost": 450
+        "monthlyCost": 645
       },
       "healthcare": {
-        "description": "Global VIP medical coverage, personal wellness team, fly-anywhere treatment, longevity retreats on private island",
-        "monthlyCost": 450
+        "description": "Top-tier worldwide cover (Cigna Global / Bupa Global)",
+        "monthlyCost": 650
       },
       "transportation": {
-        "description": "Chauffeured luxury vehicle, private yacht for Adriatic cruising, helicopter pad, private jet access for European travel",
-        "monthlyCost": 1125
+        "description": "Chauffeured car + speedboat + helicopter transfers to Split/Montenegro",
+        "monthlyCost": 900
       },
       "entertainment": {
-        "description": "Hosting cultural festivals within your medieval walls, art patronage across the Balkans, private island retreat on the Adriatic, international philanthropic events",
-        "monthlyCost": 1700
+        "description": "Cultural-festival patronage within the walls and Adriatic island retreats",
+        "monthlyCost": 700
       },
       "utilities": {
-        "monthlyCost": 225
+        "monthlyCost": 320
       },
       "domesticHelp": {
-        "description": "Full estate staff: butler, chef team, housekeepers, groundskeepers, yacht crew, personal assistant, estate manager",
-        "monthlyCost": 1775
+        "description": "Full estate staff — limited luxury-service supply in a small walled town",
+        "monthlyCost": 800
       },
       "luxuryExtras": {
-        "description": "Medieval restoration fund, Adriatic island property management, art acquisition, cultural preservation foundation, bespoke Mediterranean superyacht itineraries",
-        "monthlyCost": 2150
+        "description": "Medieval-restoration fund, Adriatic property management, art, superyacht itineraries",
+        "monthlyCost": 800
       },
-      "lifestyle": "A landmark property in the Old Town or a clifftop estate with a private cove, regular housekeeping, a cook, and first-class travel. You can keep a boat for Adriatic cruising and dine at the best restaurants along the coast without a second thought. At this budget, Dubrovnik's small-town scale is the main constraint — there are limited ways to spend this much monthly, and you may find yourself traveling often simply because the city's offerings are intimate rather than expansive."
+      "lifestyle": "A luxury one-to-two-bedroom at a landmark address inside or beside the Old Town walls, with sea views. Private-chef-level dining, top-tier international health cover, a chauffeured car, and full household help, with a boat for Adriatic cruising. The constraint at this level is the town's intimate scale — there are limited ways to spend this much locally, so frequent travel becomes part of the lifestyle by default."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 6,
     "infrastructure": 6,
     "expatFriendliness": 6
-  }
+  },
+  "dataRecency": "Q3 2026"
 }

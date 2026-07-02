@@ -27,168 +27,168 @@
     "1M": {
       "monthlyBudget": 3333,
       "housing": {
-        "description": "1BR apartment in Spinut or Manuš, walking distance to the Old Town",
-        "monthlyCost": 1250
+        "description": "Room in a shared flat / micro-studio, outer neighborhood (Split 3, Kman, Sućidar, Spinut fringe)",
+        "monthlyCost": 460
       },
       "dining": {
-        "description": "Local konobas for grilled fish and ćevapi 3-4x/week; morning coffee ritual on the Riva",
-        "monthlyCost": 425
+        "description": "Mostly home cooking with konoba grilled fish and ćevapi a few nights a week and a Riva coffee ritual",
+        "monthlyCost": 110
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 215
       },
       "healthcare": {
-        "description": "Croatian public health insurance or private plan covering KBC Split hospital",
-        "monthlyCost": 275
+        "description": "Minimum compliant private plan meeting the residence-permit insurance requirement",
+        "monthlyCost": 90
       },
       "transportation": {
-        "description": "Walking in the compact center; bus pass for outer neighborhoods",
-        "monthlyCost": 75
+        "description": "Promet Split personal monthly pass",
+        "monthlyCost": 45
       },
       "entertainment": {
-        "description": "Beach days at Bačvice, Marjan Hill hikes, free cultural events in Diocletian's Palace",
-        "monthlyCost": 200
+        "description": "Free beach days at Bačvice, Marjan Hill hikes and cultural events in Diocletian's Palace",
+        "monthlyCost": 65
       },
       "utilities": {
-        "monthlyCost": 175
+        "monthlyCost": 90
       },
-      "lifestyle": "Split is compact and walkable, which keeps transport costs low. A one-bedroom in Spinut or Manuš puts you near the Old Town, and konoba meals and free beaches make daily life affordable. Summer is crowded with tourists and winter is quiet, so the city has two very different personalities. Finding a reliable year-round rental can be challenging since many landlords prefer summer tourist income."
+      "lifestyle": "A room in a shared flat or a micro-studio in an outer neighborhood like Split 3, Kman, or the Spinut fringe, walkable or a short bus ride to the center. Konoba meals of grilled fish and ćevapi a few nights a week, a morning coffee ritual on the Riva, and free beach days at Bačvice and hikes up Marjan Hill. The Promet bus pass covers the outer districts, and a permit-compliant private health policy is carried. The main friction is finding a reliable year-round rental, since many landlords prefer summer tourist income."
     },
     "2M": {
       "monthlyBudget": 6667,
       "housing": {
-        "description": "Spacious 2BR apartment in the Old Town area or modern flat in Žnjan with sea views",
-        "monthlyCost": 1825
+        "description": "Own studio/small 1BR outside the historic center (Lovret, Spinut, Bačvice-adjacent)",
+        "monthlyCost": 720
       },
       "dining": {
-        "description": "Regular dining at Adriatic seafood restaurants, wine bars, and trendy bistros",
-        "monthlyCost": 600
+        "description": "Adriatic seafood restaurants and wine bars regularly",
+        "monthlyCost": 280
       },
       "groceries": {
-        "monthlyCost": 500
+        "monthlyCost": 250
       },
       "healthcare": {
-        "description": "Premium private insurance with access to private clinics and EU healthcare network",
-        "monthlyCost": 375
+        "description": "Comprehensive private plan, Split private-clinic access",
+        "monthlyCost": 140
       },
       "transportation": {
-        "description": "Own car for coastal drives; catamaran ferries to islands",
-        "monthlyCost": 175
+        "description": "Promet Split personal monthly pass",
+        "monthlyCost": 70
       },
       "entertainment": {
-        "description": "Island hopping to Hvar and Brač, sailing courses, Ultra Music Festival, wine tours",
-        "monthlyCost": 375
+        "description": "Island-hopping to Hvar and Brač, sailing courses and wine tours",
+        "monthlyCost": 170
       },
       "utilities": {
-        "monthlyCost": 200
+        "monthlyCost": 130
       },
-      "lifestyle": "A nice apartment near the Old Town or in Žnjan with sea views, a car for Dalmatian coast drives, and regular dining at seafood restaurants. Weekend catamaran ferries to Hvar and Brač are easy and affordable. Good private health insurance is within budget. Split offers a genuine Mediterranean lifestyle at significantly lower cost than comparable Italian or French coastal cities."
+      "lifestyle": "A studio or small one-bedroom near the Old Town or in Žnjan with sea views. Regular dining at Adriatic seafood restaurants and wine bars, comprehensive private cover, and a car for coastal drives. Weekend catamaran ferries to Hvar and Brač are easy and cheap. Split delivers a genuine Mediterranean rhythm at well below the cost of comparable Italian or French coastal cities."
     },
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Luxury 3BR apartment inside Diocletian's Palace or sea-view villa in Meje",
-        "monthlyCost": 2550
+        "description": "1BR in a desirable central district (Varoš, Bačvice, Riva-adjacent Grad)",
+        "monthlyCost": 935
       },
       "dining": {
-        "description": "Fine dining at Dvor, Zoi, and top Dalmatian restaurants; premium wine experiences",
-        "monthlyCost": 725
+        "description": "Top Dalmatian tables like Dvor and Zoi, premium wine",
+        "monthlyCost": 410
       },
       "groceries": {
-        "monthlyCost": 450
+        "monthlyCost": 270
       },
       "healthcare": {
-        "description": "International health insurance with EU-wide coverage including specialist care",
-        "monthlyCost": 375
+        "description": "Broad-network private plan, fuller specialist/elective cover",
+        "monthlyCost": 200
       },
       "transportation": {
-        "description": "Own car, seasonal boat rental for island visits, flights to other European cities",
-        "monthlyCost": 275
+        "description": "Pass + car for coastal drives + catamaran ferries",
+        "monthlyCost": 140
       },
       "entertainment": {
-        "description": "Private sailing trips, exclusive island experiences, premium fitness, cultural events",
-        "monthlyCost": 450
+        "description": "Private sailing trips and exclusive island experiences",
+        "monthlyCost": 270
       },
       "utilities": {
-        "monthlyCost": 175
+        "monthlyCost": 155
       },
-      "lifestyle": "A large apartment inside Diocletian's Palace or a sea-view villa in the Meje neighborhood, regular dining at restaurants like Dvor and Zoi, and your own car for coast trips. Seasonal boat rentals for island visits, international health coverage, and European travel are all within budget. Split's restaurant scene is growing but still limited compared to larger cities, and the margin at this level is significant."
+      "lifestyle": "A one-bedroom in a desirable central district — Varoš, Bačvice, or Riva-adjacent Grad. Regular dining at top Dalmatian restaurants like Dvor and Zoi, a broad-network private plan with EU-wide coverage, and a car plus seasonal boat rentals for island visits. European travel fits easily. The restaurant scene is growing but still smaller than a big city's, and this budget carries a real margin."
     },
     "5M": {
       "monthlyBudget": 16667,
       "housing": {
-        "description": "Waterfront villa in Meje or Stobreč, or restored stone house inside the Old Town walls",
-        "monthlyCost": 3225
+        "description": "High-spec / renovated central 1BR, old-town-adjacent or sea-view",
+        "monthlyCost": 1450
       },
       "dining": {
-        "description": "Private chef plus fine dining across Dalmatia; exclusive wine cellar experiences",
-        "monthlyCost": 850
+        "description": "Near-daily fine dining across Dalmatia",
+        "monthlyCost": 820
       },
       "groceries": {
-        "monthlyCost": 425
+        "monthlyCost": 340
       },
       "healthcare": {
-        "description": "VIP concierge medical with access to top EU hospitals in Vienna and Munich",
-        "monthlyCost": 350
+        "description": "Premium plan with entry-level international (regional/EU) cover",
+        "monthlyCost": 330
       },
       "transportation": {
-        "description": "Luxury car, own sailboat or motorboat, flights across Europe",
-        "monthlyCost": 425
+        "description": "Luxury car + own sailboat/motorboat",
+        "monthlyCost": 450
       },
       "entertainment": {
-        "description": "Private yacht excursions, exclusive island villa rentals, European cultural tours",
-        "monthlyCost": 500
+        "description": "Private yacht excursions and European cultural tours",
+        "monthlyCost": 580
       },
       "utilities": {
-        "monthlyCost": 175
+        "monthlyCost": 210
       },
       "domesticHelp": {
-        "description": "Full-time housekeeper, part-time cook, gardener, boat maintenance",
-        "monthlyCost": 575
+        "description": "Housekeeper / part-time cook / boat maintenance",
+        "monthlyCost": 400
       },
       "luxuryExtras": {
-        "description": "Adriatic yacht cruises, first-class European travel, Dalmatian property investments, art collecting",
-        "monthlyCost": 1275
+        "description": "Adriatic yacht cruises / Dalmatian property interests / art",
+        "monthlyCost": 480
       },
-      "lifestyle": "A waterfront villa in Meje or Stobreč, your own sailboat or motorboat, a housekeeper, and business class flights across Europe. A cook comes in a few times a week to prepare Dalmatian meals. Premium healthcare through EU networks in Vienna or Munich is accessible. The coast and islands are the main attraction, and the budget leaves a large margin given Split's cost of living."
+      "lifestyle": "A high-spec central one-bedroom in a premium building, old-town-adjacent or with a sea view. Near-daily dining across Dalmatia, premium private cover with access to top EU hospitals, regular housekeeping, and a sailboat or motorboat. First-class European travel is routine. The coast and islands are the main draw, and the budget leaves a large margin given Split's cost base."
     },
     "10M": {
       "monthlyBudget": 33333,
       "housing": {
-        "description": "Grand waterfront estate or restored palazzo with private dock and gardens",
-        "monthlyCost": 4150
+        "description": "Luxury 1–2BR at a prime address (Varoš stone house, Bačvice seafront, Meje/Marjan slope)",
+        "monthlyCost": 2100
       },
       "dining": {
-        "description": "Personal chef team, exclusive catered events, private dining on the Adriatic",
-        "monthlyCost": 1275
+        "description": "Private-chef-level dining and catered Adriatic events",
+        "monthlyCost": 1350
       },
       "groceries": {
         "monthlyCost": 400
       },
       "healthcare": {
-        "description": "Elite European health plan, personal physician, executive health screening in Vienna",
-        "monthlyCost": 350
+        "description": "Top-tier worldwide cover (Cigna Global / Bupa Global) with evacuation",
+        "monthlyCost": 680
       },
       "transportation": {
-        "description": "Luxury yacht, multiple vehicles, chauffeur, private European flights",
-        "monthlyCost": 775
+        "description": "Chauffeured car + boat + flights across Europe",
+        "monthlyCost": 720
       },
       "entertainment": {
-        "description": "Private yacht Adriatic cruises, art patronage, exclusive European events, island property",
-        "monthlyCost": 1025
+        "description": "Private Adriatic yacht cruises, art patronage and exclusive events",
+        "monthlyCost": 1000
       },
       "utilities": {
-        "monthlyCost": 175
+        "monthlyCost": 250
       },
       "domesticHelp": {
-        "description": "Full estate staff: chef, butler, housekeepers, groundskeepers, boat crew, personal assistant",
-        "monthlyCost": 1275
+        "description": "Full estate staff + boat crew",
+        "monthlyCost": 720
       },
       "luxuryExtras": {
-        "description": "Yacht ownership, Dalmatian island property, first-class global travel, philanthropic foundation, wine estate",
-        "monthlyCost": 2575
+        "description": "Yacht ownership, island property, foundation, wine estate",
+        "monthlyCost": 850
       },
-      "lifestyle": "A grand waterfront property with private dock, a cook, regular housekeeping, a nice boat, and first-class travel. You can dine at the best restaurants along the Dalmatian coast and carry comprehensive international healthcare. Split is a mid-sized city, so at this budget the practical constraint is the same as other smaller Mediterranean towns: there are limited ways to spend this much locally, and frequent travel becomes part of the lifestyle by default."
+      "lifestyle": "A luxury one-to-two-bedroom at a prime address — a Varoš stone house, a Bačvice seafront flat, or the Meje/Marjan slope. Private-chef-level dining, top-tier international health cover, a chauffeured car, and full household help, with a nice boat for Adriatic cruising. As a mid-sized city, Split offers limited ways to spend this much locally, so frequent travel becomes part of the lifestyle by default."
     }
   },
   "scores": {
@@ -196,5 +196,6 @@
     "healthcare": 6,
     "infrastructure": 6,
     "expatFriendliness": 7
-  }
+  },
+  "dataRecency": "Q3 2026"
 }
