@@ -3,6 +3,7 @@ title: "Retiring in Seoul, South Korea: FIRE Number, Costs & Expat Life"
 description: "Seoul's Lean FIRE Number is $1.25M ($4,150/month). Cost breakdown, visa challenges, world-class healthcare, and what daily life looks like for retirees."
 date: 2026-03-14
 tags: ["city-spotlight", "east-asia", "south-korea"]
+dataNote: true
 ---
 
 Bottom line up front: Seoul offers some of the best healthcare, safety, and infrastructure in the world — but it's not cheap, and the visa situation is genuinely difficult. Lean FIRE starts at $1.25M, and South Korea has no straightforward retirement visa. This is a destination for retirees who specifically want to be in Seoul and are willing to navigate the complexity.

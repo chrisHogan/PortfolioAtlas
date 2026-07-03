@@ -3,6 +3,7 @@ title: "Best Cities to Retire on $500K in 2026"
 description: "Where can you retire on 500K? Eight Lean FIRE cities where a $500K portfolio and the 4% rule fund a full retirement — no side income required."
 date: 2026-05-20
 tags: ["fire-strategy", "budget", "retirement"]
+dataNote: true
 ---
 
 A $500K portfolio is the classic Lean FIRE target — small enough to be reachable on a normal salary in your 30s or 40s, big enough to retire on if you pick the right city. The math is unforgiving in San Francisco or London, but in a handful of capitals across Asia, Latin America, and North Africa, $500K is enough to stop working entirely.

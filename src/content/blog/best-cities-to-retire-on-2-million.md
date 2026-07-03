@@ -3,6 +3,7 @@ title: "Best Cities to Retire on $2 Million in 2026"
 description: "With $2M and the 4% rule, Fat FIRE is possible in Kathmandu ($1.8M) and 76 cities unlock comfortable retirement. See the full breakdown."
 date: 2026-03-21
 tags: ["fire-strategy", "budget", "retirement"]
+dataNote: true
 ---
 
 Two million dollars doubles your options — and in a handful of cities, it unlocks a tier of retirement that $1 million simply can't reach. We're talking about **Fat FIRE**: premium housing, household staff, first-class travel, and full private healthcare. In [Kathmandu](/cities/kathmandu), the Fat FIRE Number is just $1,800,000. In [Colombo](/cities/colombo) and [Quito](/cities/quito), it's barely above $2M at $2,010,000.

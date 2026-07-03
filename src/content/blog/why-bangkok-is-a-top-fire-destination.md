@@ -3,6 +3,7 @@ title: "Why Bangkok Is a Top FIRE Destination"
 description: "Bangkok as a FIRE retirement destination: cost of living breakdown, world-class healthcare, visa options, expat community, and daily life for retirees."
 date: 2026-02-20
 tags: ["city-spotlight", "southeast-asia", "thailand"]
+dataNote: true
 ---
 
 Bangkok isn't just a layover city or a backpacker rite of passage — it's one of the most compelling long-term retirement destinations in the world. For FIRE enthusiasts, the Thai capital offers an unbeatable combination of low costs, excellent healthcare, modern infrastructure, and a vibrant quality of life.

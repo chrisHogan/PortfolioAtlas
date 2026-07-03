@@ -3,6 +3,7 @@ title: "Retiring in Lake Chapala, Mexico: FIRE Number, Costs & Expat Life"
 description: "Lake Chapala FIRE Number starts at $645K for Lean FIRE. Full cost of living breakdown, visa requirements, healthcare, safety, and expat community guide for retirees."
 date: 2026-03-10
 tags: ["city-spotlight", "latin-america", "mexico"]
+dataNote: true
 ---
 
 Bottom line up front: Lake Chapala offers one of the most accessible FIRE entry points in North America — Lean FIRE starts at $645K — but the tiers span a wide range depending on your lifestyle expectations. The FIRE tier here represents a genuinely upscale lakefront lifestyle at $1.14M.

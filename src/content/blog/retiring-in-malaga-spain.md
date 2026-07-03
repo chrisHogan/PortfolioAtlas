@@ -3,6 +3,7 @@ title: "Retiring in Málaga, Spain: FIRE Number, Costs & Expat Life"
 description: "Málaga's Lean FIRE Number is $900K ($3,000/month). Full cost breakdown, visa guide, healthcare, and expat life for retiring on Spain's Costa del Sol."
 date: 2026-03-12
 tags: ["city-spotlight", "europe", "spain"]
+dataNote: true
 ---
 
 Bottom line up front: Málaga is one of the most attractive European FIRE destinations — Lean FIRE starts at $900K with Mediterranean climate, excellent healthcare, and high safety. The FIRE tier at $1.56M buys a genuinely upscale beachfront lifestyle with access to all of Europe by train and budget flight.

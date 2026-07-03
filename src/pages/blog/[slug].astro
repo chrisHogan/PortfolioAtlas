@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import DataNote from '../../components/DataNote.astro';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -90,6 +91,8 @@ const breadcrumbLd = {
           </div>
         </div>
       </header>
+
+      {post.data.dataNote && <DataNote />}
 
       <!-- Post Content -->
       <div class="blog-prose prose prose-lg max-w-none prose-headings:font-serif prose-headings:text-brand-950 prose-a:text-brand-600 hover:prose-a:text-brand-700 prose-img:rounded-xl">

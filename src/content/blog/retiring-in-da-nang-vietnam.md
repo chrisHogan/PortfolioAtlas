@@ -3,6 +3,7 @@ title: "Retiring in Da Nang, Vietnam: FIRE Number, Costs & Expat Life"
 description: "Da Nang FIRE Number starts at $555K for Lean FIRE. Full cost of living, visa routes, healthcare, and expat community guide for retiring on Vietnam's central coast."
 date: 2026-05-20
 tags: ["city-spotlight", "southeast-asia", "vietnam"]
+dataNote: true
 ---
 
 Bottom line up front: Da Nang is one of the most undervalued FIRE destinations in Southeast Asia — Lean FIRE starts at $555K and the FIRE tier comes in just over $1M. The main asterisk isn't cost or quality of life; it's the visa picture. Vietnam still has no dedicated retirement visa, so long-term retirees here build a stack of workarounds.

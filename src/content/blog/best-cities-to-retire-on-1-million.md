@@ -3,6 +3,7 @@ title: "Best Cities to Retire on $1 Million"
 description: "Discover where a $1M portfolio goes furthest. We break down the 4% rule and highlight 10 cities where you can retire comfortably on a million dollars."
 date: 2026-03-06
 tags: ["fire-strategy", "budget", "retirement"]
+dataNote: true
 ---
 
 Retiring on $1 million might sound impossible in a high-cost city like San Francisco or New York — but across the globe, a seven-figure portfolio can stretch remarkably far. The key is understanding the **4% rule** and choosing the right destination.
