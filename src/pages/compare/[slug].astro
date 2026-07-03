@@ -93,6 +93,11 @@ const healthRank: Record<string, number> = { 'Excellent': 4, 'Good': 3, 'Adequat
 const safeRank: Record<string, number> = { 'Very safe': 3, 'Safe': 2, 'Exercise caution': 1 };
 const visaRank: Record<string, number> = { 'Easy': 3, 'Moderate': 2, 'Complex': 1 };
 
+// Equal ratings render as an explicit tie — never arbitrarily crown one city.
+const healthTie = (healthRank[c1.tags.healthcare] || 0) === (healthRank[c2.tags.healthcare] || 0);
+const safetyTie = (safeRank[c1.tags.safety] || 0) === (safeRank[c2.tags.safety] || 0);
+const visaTie = (visaRank[c1.tags.visa] || 0) === (visaRank[c2.tags.visa] || 0);
+const fireTie = c1.fire === c2.fire;
 const betterHealth = (healthRank[c1.tags.healthcare] || 0) >= (healthRank[c2.tags.healthcare] || 0) ? city1 : city2;
 const betterSafety = (safeRank[c1.tags.safety] || 0) >= (safeRank[c2.tags.safety] || 0) ? city1 : city2;
 const betterVisa = (visaRank[c1.tags.visa] || 0) >= (visaRank[c2.tags.visa] || 0) ? city1 : city2;
@@ -157,17 +162,27 @@ const faqLd = {
 
 const jsonLd = [breadcrumbLd, faqLd];
 
-// Comparison table rows
+// Comparison table rows. rankedRow crowns the higher rank and renders equal
+// ranks as an explicit tie (winner 0, tie flag). For cost rows the rank is
+// the negated dollar amount so lower cost wins. Climate/English are
+// unranked categories: winner 0 without a tie marker.
+const rankedRow = (label: string, v1: string, v2: string, r1: number, r2: number) => ({
+  label,
+  v1,
+  v2,
+  winner: r1 === r2 ? 0 : r1 > r2 ? 1 : 2,
+  tie: r1 === r2,
+});
 const compRows = [
-  { label: 'Lean FIRE Number', v1: formatFireNumber(c1.lean), v2: formatFireNumber(c2.lean), winner: c1.lean <= c2.lean ? 1 : 2 },
-  { label: 'FIRE Number', v1: formatFireNumber(c1.fire), v2: formatFireNumber(c2.fire), winner: c1.fire <= c2.fire ? 1 : 2 },
-  { label: 'Fat FIRE Number', v1: formatFireNumber(c1.fat), v2: formatFireNumber(c2.fat), winner: c1.fat <= c2.fat ? 1 : 2 },
-  { label: 'Monthly Cost (FIRE)', v1: `${formatCurrency(c1.monthly)}/mo`, v2: `${formatCurrency(c2.monthly)}/mo`, winner: c1.monthly <= c2.monthly ? 1 : 2 },
-  { label: 'Safety', v1: c1.tags.safety, v2: c2.tags.safety, winner: (safeRank[c1.tags.safety] || 0) >= (safeRank[c2.tags.safety] || 0) ? 1 : 2 },
-  { label: 'Healthcare', v1: c1.tags.healthcare, v2: c2.tags.healthcare, winner: (healthRank[c1.tags.healthcare] || 0) >= (healthRank[c2.tags.healthcare] || 0) ? 1 : 2 },
-  { label: 'Climate', v1: c1.tags.climate, v2: c2.tags.climate, winner: 0 },
-  { label: 'English', v1: c1.tags.english, v2: c2.tags.english, winner: 0 },
-  { label: 'Visa', v1: c1.tags.visa, v2: c2.tags.visa, winner: (visaRank[c1.tags.visa] || 0) >= (visaRank[c2.tags.visa] || 0) ? 1 : 2 },
+  rankedRow('Lean FIRE Number', formatFireNumber(c1.lean), formatFireNumber(c2.lean), -c1.lean, -c2.lean),
+  rankedRow('FIRE Number', formatFireNumber(c1.fire), formatFireNumber(c2.fire), -c1.fire, -c2.fire),
+  rankedRow('Fat FIRE Number', formatFireNumber(c1.fat), formatFireNumber(c2.fat), -c1.fat, -c2.fat),
+  rankedRow('Monthly Cost (FIRE)', `${formatCurrency(c1.monthly)}/mo`, `${formatCurrency(c2.monthly)}/mo`, -c1.monthly, -c2.monthly),
+  rankedRow('Safety', c1.tags.safety, c2.tags.safety, safeRank[c1.tags.safety] || 0, safeRank[c2.tags.safety] || 0),
+  rankedRow('Healthcare', c1.tags.healthcare, c2.tags.healthcare, healthRank[c1.tags.healthcare] || 0, healthRank[c2.tags.healthcare] || 0),
+  { label: 'Climate', v1: c1.tags.climate, v2: c2.tags.climate, winner: 0, tie: false },
+  { label: 'English', v1: c1.tags.english, v2: c2.tags.english, winner: 0, tie: false },
+  rankedRow('Visa', c1.tags.visa, c2.tags.visa, visaRank[c1.tags.visa] || 0, visaRank[c2.tags.visa] || 0),
 ];
 ---
 
@@ -248,28 +263,60 @@ const compRows = [
       ))}
     </div>
 
-    <!-- Winner callouts -->
+    <!-- Winner callouts (equal ratings render as an even/tie state, styled neutrally) -->
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-10">
-      <div class="bg-emerald-50 border border-emerald-200 rounded-xl p-4">
-        <p class="text-sm text-emerald-800">
-          <strong>More affordable:</strong> {cheaper.name} (saves {formatFireNumber(fireDiff)} in required portfolio)
-        </p>
-      </div>
-      <div class="bg-blue-50 border border-blue-200 rounded-xl p-4">
-        <p class="text-sm text-blue-800">
-          <strong>Better healthcare:</strong> {betterHealth.name} ({betterHealth === city1 ? c1.tags.healthcare : c2.tags.healthcare})
-        </p>
-      </div>
-      <div class="bg-amber-50 border border-amber-200 rounded-xl p-4">
-        <p class="text-sm text-amber-800">
-          <strong>Easier visa:</strong> {betterVisa.name} ({betterVisa === city1 ? c1.tags.visa : c2.tags.visa})
-        </p>
-      </div>
-      <div class="bg-indigo-50 border border-indigo-200 rounded-xl p-4">
-        <p class="text-sm text-indigo-800">
-          <strong>Better safety:</strong> {betterSafety.name} ({betterSafety === city1 ? c1.tags.safety : c2.tags.safety})
-        </p>
-      </div>
+      {fireTie ? (
+        <div class="bg-sand-50 border border-sand-200 rounded-xl p-4">
+          <p class="text-sm text-gray-600">
+            <strong>Affordability:</strong> Even - identical FIRE Numbers ({formatFireNumber(c1.fire)})
+          </p>
+        </div>
+      ) : (
+        <div class="bg-emerald-50 border border-emerald-200 rounded-xl p-4">
+          <p class="text-sm text-emerald-800">
+            <strong>More affordable:</strong> {cheaper.name} (saves {formatFireNumber(fireDiff)} in required portfolio)
+          </p>
+        </div>
+      )}
+      {healthTie ? (
+        <div class="bg-sand-50 border border-sand-200 rounded-xl p-4">
+          <p class="text-sm text-gray-600">
+            <strong>Healthcare:</strong> Even - both rated {c1.tags.healthcare}
+          </p>
+        </div>
+      ) : (
+        <div class="bg-blue-50 border border-blue-200 rounded-xl p-4">
+          <p class="text-sm text-blue-800">
+            <strong>Better healthcare:</strong> {betterHealth.name} ({betterHealth === city1 ? c1.tags.healthcare : c2.tags.healthcare})
+          </p>
+        </div>
+      )}
+      {visaTie ? (
+        <div class="bg-sand-50 border border-sand-200 rounded-xl p-4">
+          <p class="text-sm text-gray-600">
+            <strong>Visa:</strong> Even - both rated {c1.tags.visa}
+          </p>
+        </div>
+      ) : (
+        <div class="bg-amber-50 border border-amber-200 rounded-xl p-4">
+          <p class="text-sm text-amber-800">
+            <strong>Easier visa:</strong> {betterVisa.name} ({betterVisa === city1 ? c1.tags.visa : c2.tags.visa})
+          </p>
+        </div>
+      )}
+      {safetyTie ? (
+        <div class="bg-sand-50 border border-sand-200 rounded-xl p-4">
+          <p class="text-sm text-gray-600">
+            <strong>Safety:</strong> Even - both rated {c1.tags.safety}
+          </p>
+        </div>
+      ) : (
+        <div class="bg-indigo-50 border border-indigo-200 rounded-xl p-4">
+          <p class="text-sm text-indigo-800">
+            <strong>Better safety:</strong> {betterSafety.name} ({betterSafety === city1 ? c1.tags.safety : c2.tags.safety})
+          </p>
+        </div>
+      )}
     </div>
 
     <!-- Comparison table -->
@@ -292,10 +339,10 @@ const compRows = [
                 <tr class="border-b border-sand-100">
                   <td class="py-3.5 px-5 text-gray-600 font-medium">{row.label}</td>
                   <td class:list={['text-right py-3.5 px-5 font-semibold', row.winner === 1 ? 'text-brand-700' : 'text-gray-600']}>
-                    {row.v1} {row.winner === 1 && <span class="text-xs">&#x1F451;</span>}
+                    {row.v1} {row.winner === 1 && <span class="text-xs">&#x1F451;</span>}{row.tie && <span class="ml-1 text-[10px] font-medium uppercase tracking-wide text-gray-400 bg-sand-50 border border-sand-200 rounded-full px-1.5 py-0.5">Tie</span>}
                   </td>
                   <td class:list={['text-right py-3.5 px-5 font-semibold', row.winner === 2 ? 'text-brand-700' : 'text-gray-600']}>
-                    {row.v2} {row.winner === 2 && <span class="text-xs">&#x1F451;</span>}
+                    {row.v2} {row.winner === 2 && <span class="text-xs">&#x1F451;</span>}{row.tie && <span class="ml-1 text-[10px] font-medium uppercase tracking-wide text-gray-400 bg-sand-50 border border-sand-200 rounded-full px-1.5 py-0.5">Tie</span>}
                   </td>
                 </tr>
               ))}
