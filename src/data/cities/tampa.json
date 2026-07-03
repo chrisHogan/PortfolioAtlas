@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 210
       },
-      "lifestyle": "A modest studio or one-bedroom in Temple Terrace, outer Seminole Heights, or East Tampa anchors a frugal but livable stretch of Bay-area retirement. A subsidized ACA plan, held affordable by keeping income under the returned 400%-FPL cliff, and a paid-off car carrying Florida's high auto-insurance rates are the two floors that keep the budget firm, so most meals are cooked at home with Cuban sandwich shops in West Tampa and Ybor City as the affordable treat. The Riverwalk, the bayfront parks, and the beaches at Clearwater and St. Pete cost nothing, and zero state income tax stretches every dollar. Summer air-conditioning is the recurring bill to watch, but the setting is easygoing and warm year-round."
+      "lifestyle": "A modest studio or one-bedroom in Temple Terrace, outer Seminole Heights, or East Tampa anchors a frugal but livable stretch of Bay-area retirement. A subsidized ACA plan, held affordable by keeping income under the returned ~$62,600 subsidy cutoff, and a paid-off car carrying Florida's high auto-insurance rates are the two floors that keep the budget firm, so most meals are cooked at home with Cuban sandwich shops in West Tampa and Ybor City as the affordable treat. The Riverwalk, the bayfront parks, and the beaches at Clearwater and St. Pete cost nothing, and zero state income tax stretches every dollar. Summer air-conditioning is the recurring bill to watch, but the setting is easygoing and warm year-round."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -98,7 +98,7 @@
         "monthlyCost": 440
       },
       "healthcare": {
-        "description": "Unsubsidized Hillsborough Silver at full price (above the cliff); FLOIR shows Tampa Bay pricing roughly on par with Sarasota, so budget at benchmark level rather than the cheapest listed plan",
+        "description": "Unsubsidized Hillsborough Silver at full price (above the subsidy cutoff); FLOIR shows Tampa Bay pricing roughly on par with Sarasota, so budget at benchmark level rather than the cheapest listed plan",
         "monthlyCost": 950
       },
       "transportation": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 270
       },
-      "lifestyle": "A nice modern one-bedroom in Channelside, Hyde Park, or Westshore puts daily life near Tampa's booming restaurant scene and its walkable, growing core. Dining out is frequent across the SoHo and Ybor circuits, and healthcare is a full-price, unsubsidized plan — a heavier line than it first appears, because the Tampa Bay ACA benchmark sits close to the pricier Gulf metros once income clears the subsidy cliff. A late-model car with Florida insurance covers a car-dependent city, with weekend boating on the bay and beach trips to Anna Maria Island built in. Lightning games, a Straz Center subscription, and a premium gym fit comfortably. Zero state income tax keeps the whole withdrawal working."
+      "lifestyle": "A nice modern one-bedroom in Channelside, Hyde Park, or Westshore puts daily life near Tampa's booming restaurant scene and its walkable, growing core. Dining out is frequent across the SoHo and Ybor circuits, and healthcare is a full-price, unsubsidized plan — a heavier line than it first appears, because the Tampa Bay ACA benchmark sits close to the pricier Gulf metros once income clears the subsidy cutoff. A late-model car with Florida insurance covers a car-dependent city, with weekend boating on the bay and beach trips to Anna Maria Island built in. Lightning games, a Straz Center subscription, and a premium gym fit comfortably. Zero state income tax keeps the whole withdrawal working."
     },
     "5M": {
       "monthlyBudget": 16667,

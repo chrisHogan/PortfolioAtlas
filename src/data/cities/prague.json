@@ -14,7 +14,7 @@
   "quickFacts": {
     "visa": "90-day Schengen visa-free for US citizens. Long-term visa available for financially independent persons (proof of funds required). Zivnostenský list (trade license) also used for residency. Path to permanent residency after 5 years.",
     "timezone": "CET (UTC+1)",
-    "language": "Czech, English widely spoken in Prague",
+    "language": "Czech",
     "internetSpeed": "80-150 Mbps average",
     "safetyRating": "High – one of Europe's safest capitals",
     "nearestAirport": "Václav Havel Airport Prague (PRG)",
@@ -38,7 +38,7 @@
         "monthlyCost": 200
       },
       "healthcare": {
-        "description": "Required commercial comprehensive cover, entry level (PVZP, age 45–59)",
+        "description": "The comprehensive commercial health policy Czech residence permits require, at entry level - for example from PVZP, the state-owned insurer, priced for ages 45-59.",
         "monthlyCost": 165
       },
       "transportation": {

@@ -98,7 +98,7 @@
         "monthlyCost": 500
       },
       "healthcare": {
-        "description": "An unsubsidized individual plan at or just above the cliff, Bay Area Silver/Gold for the age band",
+        "description": "An unsubsidized individual plan at or just above the subsidy cutoff, Bay Area Silver/Gold for the age band",
         "monthlyCost": 850
       },
       "transportation": {

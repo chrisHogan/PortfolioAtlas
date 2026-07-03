@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 210
       },
-      "lifestyle": "A genuinely frugal Madison life built around a small studio in a budget neighborhood and a bike rather than a car — the fare-capped Metro pass and occasional car-share cover the rest, with winter the main reason a car ever appears. Cooking at home is the norm, entertainment leans on the lakes, parks, and the farmers' market, and the healthcare line assumes marketplace income is managed to stay under the ACA subsidy cliff. Housing plus the subsidized health premium alone absorb roughly two-thirds of the budget — the classic US squeeze."
+      "lifestyle": "A genuinely frugal Madison life built around a small studio in a budget neighborhood and a bike rather than a car — the fare-capped Metro pass and occasional car-share cover the rest, with winter the main reason a car ever appears. Cooking at home is the norm, entertainment leans on the lakes, parks, and the farmers' market, and the healthcare line assumes marketplace income is managed to stay under the ACA subsidy cutoff. Housing plus the subsidized health premium alone absorb roughly two-thirds of the budget — the classic US squeeze."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -98,7 +98,7 @@
         "monthlyCost": 480
       },
       "healthcare": {
-        "description": "A Gold plan minimizing out-of-pocket; above the ACA cliff this trends toward unsubsidized full price — the line is intentionally padded, as US healthcare is the swing variable",
+        "description": "A Gold plan minimizing out-of-pocket; above the ACA subsidy cutoff this trends toward unsubsidized full price — the line is intentionally padded, as US healthcare is the swing variable",
         "monthlyCost": 660
       },
       "transportation": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 260
       },
-      "lifestyle": "A relaxed, financially-independent life in one of Madison's most walkable isthmus or near-campus locations, dining out several times a week and keeping a comfortable car for regional trips and winter. A real travel-and-hobbies budget sits alongside easy access to the lakes and cultural calendar. Healthcare is the swing variable — above the ACA cliff the line trends toward unsubsidized full price, so it is intentionally padded. Genuinely comfortable, low-stress living in a mid-size college town."
+      "lifestyle": "A relaxed, financially-independent life in one of Madison's most walkable isthmus or near-campus locations, dining out several times a week and keeping a comfortable car for regional trips and winter. A real travel-and-hobbies budget sits alongside easy access to the lakes and cultural calendar. Healthcare is the swing variable — above the ACA subsidy cutoff the line trends toward unsubsidized full price, so it is intentionally padded. Genuinely comfortable, low-stress living in a mid-size college town."
     },
     "5M": {
       "monthlyBudget": 16667,

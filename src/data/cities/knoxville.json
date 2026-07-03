@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "A cheapest-acceptable studio or older one-bedroom in North Knoxville or a value pocket near the university, with home cooking the norm and casual Market Square meat-and-threes a few times a week. Great Smoky Mountains National Park charges no entrance fee, so weekend hiking costs little beyond gas, and a paid-off car handles the drive. The ACA Silver premium stays affordable only if MAGI is managed under the 2026 ~$62,600 cliff, and healthcare plus the car form a hard cost floor. Tennessee's zero income tax on withdrawals stretches every dollar in one of the more affordable cities in the eastern US."
+      "lifestyle": "A cheapest-acceptable studio or older one-bedroom in North Knoxville or a value pocket near the university, with home cooking the norm and casual Market Square meat-and-threes a few times a week. Great Smoky Mountains National Park charges no entrance fee, so weekend hiking costs little beyond gas, and a paid-off car handles the drive. The ACA Silver premium stays affordable only if annual income is managed under the 2026 ~$62,600 subsidy cutoff, and healthcare plus the car form a hard cost floor. Tennessee's zero income tax on withdrawals stretches every dollar in one of the more affordable cities in the eastern US."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -98,7 +98,7 @@
         "monthlyCost": 480
       },
       "healthcare": {
-        "description": "A Gold-tier plan (UT Medical Center network); padded near the ~$62,600 ACA cliff where premium tax credits phase out",
+        "description": "A Gold-tier plan (UT Medical Center network); padded near the ~$62,600 ACA subsidy cutoff where premium tax credits phase out",
         "monthlyCost": 600
       },
       "transportation": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "A high-quality one-bedroom or small home in Sequoyah Hills or Farragut, some near Fort Loudoun Lake, with regular dinners at J.C. Holdway and The Lonesome Dove. A late-model SUV handles mountain roads, healthcare is a Gold plan padded near the ~$62,600 ACA cliff, and there is room for premium UT football tickets, guided fly-fishing, and a Big Ears Festival weekend each spring. Knoxville's low costs leave genuine margin each month for travel and giving."
+      "lifestyle": "A high-quality one-bedroom or small home in Sequoyah Hills or Farragut, some near Fort Loudoun Lake, with regular dinners at J.C. Holdway and The Lonesome Dove. A late-model SUV handles mountain roads, healthcare is a Gold plan padded near the ~$62,600 ACA subsidy cutoff, and there is room for premium UT football tickets, guided fly-fishing, and a Big Ears Festival weekend each spring. Knoxville's low costs leave genuine margin each month for travel and giving."
     },
     "5M": {
       "monthlyBudget": 16667,

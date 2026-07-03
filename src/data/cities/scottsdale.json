@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "A cheapest-acceptable older studio or small one-bedroom in an outer area like South Scottsdale, where the near-mandatory car and the ACA premium form a hard floor and summer electricity is a real line item. From October through April the outdoor living is hard to beat — free hiking on Camelback and across the McDowell Sonoran Preserve, mild weather, and affordable Mexican food a couple of times a week. The Silver premium stays low only if MAGI is kept under the 2026 ~$62,600 cliff, and Arizona has no state backfill to soften it. Cooking at home is the norm, but the desert setting costs nothing."
+      "lifestyle": "A cheapest-acceptable older studio or small one-bedroom in an outer area like South Scottsdale, where the near-mandatory car and the ACA premium form a hard floor and summer electricity is a real line item. From October through April the outdoor living is hard to beat — free hiking on Camelback and across the McDowell Sonoran Preserve, mild weather, and affordable Mexican food a couple of times a week. The Silver premium stays low only if annual income is kept under the 2026 ~$62,600 subsidy cutoff, and Arizona has no state subsidy to soften it. Cooking at home is the norm, but the desert setting costs nothing."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -98,7 +98,7 @@
         "monthlyCost": 520
       },
       "healthcare": {
-        "description": "A Gold-tier plan; padded near the ~$62,600 ACA cliff where premium tax credits disappear",
+        "description": "A Gold-tier plan; padded near the ~$62,600 ACA subsidy cutoff where premium tax credits disappear",
         "monthlyCost": 640
       },
       "transportation": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 320
       },
-      "lifestyle": "A high-quality place in walkable Old Town, a golf club membership, and regular dinners at Steak 44, FnB, and Virtù. Spa visits, art walks along Marshall Way, and sunset hikes are part of the weekly rhythm, with a late-model SUV for desert drives. Healthcare is a padded Gold plan near the ~$62,600 ACA cliff. This is a genuinely affluent life by Scottsdale standards, with margin for regular travel."
+      "lifestyle": "A high-quality place in walkable Old Town, a golf club membership, and regular dinners at Steak 44, FnB, and Virtù. Spa visits, art walks along Marshall Way, and sunset hikes are part of the weekly rhythm, with a late-model SUV for desert drives. Healthcare is a padded Gold plan near the ~$62,600 ACA subsidy cutoff. This is a genuinely affluent life by Scottsdale standards, with margin for regular travel."
     },
     "5M": {
       "monthlyBudget": 16667,

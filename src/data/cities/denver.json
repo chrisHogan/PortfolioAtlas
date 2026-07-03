@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 210
       },
-      "lifestyle": "A cheapest-acceptable studio or small one-bedroom in an outer neighborhood like Montbello or Aurora, where housing plus the car eat more than half the budget. The ACA Silver premium stays affordable only if MAGI is kept under the 2026 ~$62,600 subsidy cliff — Colorado's Option plans and reinsurance help hold sticker prices down. The upside is Denver's signature asset: hundreds of free Front Range trails. Ski days are a stretch at this tier, but hiking and biking run most of the year."
+      "lifestyle": "A cheapest-acceptable studio or small one-bedroom in an outer neighborhood like Montbello or Aurora, where housing plus the car eat more than half the budget. The ACA Silver premium stays affordable only if annual income is kept under the 2026 ~$62,600 subsidy cutoff — Colorado's Option plans and reinsurance help hold sticker prices down. The upside is Denver's signature asset: hundreds of free Front Range trails. Ski days are a stretch at this tier, but hiking and biking run most of the year."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -98,7 +98,7 @@
         "monthlyCost": 520
       },
       "healthcare": {
-        "description": "A Gold plan; padded near the ~$62,600 ACA cliff where premium tax credits disappear",
+        "description": "A Gold plan; padded near the ~$62,600 ACA subsidy cutoff where premium tax credits disappear",
         "monthlyCost": 650
       },
       "transportation": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 280
       },
-      "lifestyle": "A high-quality place in LoDo, the Highlands, or near Wash Park, regular dinners at the city's best tables, an Ikon Pass for Copper and Winter Park, and Broncos season tickets. A late-model SUV handles mountain trips year-round, and healthcare is a padded Gold plan near the ~$62,600 ACA cliff. Denver's moderate cost of living versus the coasts means this budget stretches into a genuinely affluent life."
+      "lifestyle": "A high-quality place in LoDo, the Highlands, or near Wash Park, regular dinners at the city's best tables, an Ikon Pass for Copper and Winter Park, and Broncos season tickets. A late-model SUV handles mountain trips year-round, and healthcare is a padded Gold plan near the ~$62,600 ACA subsidy cutoff. Denver's moderate cost of living versus the coasts means this budget stretches into a genuinely affluent life."
     },
     "5M": {
       "monthlyBudget": 16667,

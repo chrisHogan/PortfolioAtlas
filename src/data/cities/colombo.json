@@ -38,7 +38,7 @@
         "monthlyCost": 75
       },
       "healthcare": {
-        "description": "Cheap local individual private inpatient cover, early-retiree (45–55) band",
+        "description": "Inexpensive local private cover for hospital stays, priced for an early retiree aged 45-55.",
         "monthlyCost": 16
       },
       "transportation": {

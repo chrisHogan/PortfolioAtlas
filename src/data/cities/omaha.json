@@ -98,7 +98,7 @@
         "monthlyCost": 480
       },
       "healthcare": {
-        "description": "Priced at the cliff edge and padded — a richer plan while subsidized, or Silver plus meaningful out-of-pocket, to absorb the risk a drawdown pushes MAGI over the cliff into Nebraska's steep unsubsidized band",
+        "description": "Priced at the edge of the subsidy cutoff and padded — a richer plan while subsidized, or Silver plus meaningful out-of-pocket, to absorb the risk a drawdown pushes income over the subsidy cutoff into Nebraska's steep unsubsidized band",
         "monthlyCost": 650
       },
       "transportation": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "A relaxed, financially-independent Omaha life in a walkable Dundee or Midtown Crossing 1BR, dining out several times a week with a genuine travel budget. Healthcare is the swing variable — the line is intentionally padded because the ACA cliff is unforgiving in Nebraska, one of the higher-premium states on the individual market. Everyday needs are fully covered; the constraint is discretionary scale, not comfort."
+      "lifestyle": "A relaxed, financially-independent Omaha life in a walkable Dundee or Midtown Crossing 1BR, dining out several times a week with a genuine travel budget. Healthcare is the swing variable — the line is intentionally padded because the ACA subsidy cutoff is unforgiving in Nebraska, one of the higher-premium states on the individual market. Everyday needs are fully covered; the constraint is discretionary scale, not comfort."
     },
     "5M": {
       "monthlyBudget": 16667,

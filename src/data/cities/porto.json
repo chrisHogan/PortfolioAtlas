@@ -38,7 +38,7 @@
         "monthlyCost": 220
       },
       "healthcare": {
-        "description": "Minimum compliant D7 private policy, Portuguese insurer (Multicare/Médis)",
+        "description": "An entry-level private policy from a Portuguese insurer such as Multicare or Medis - the minimum that satisfies the D7 visa's insurance requirement.",
         "monthlyCost": 75
       },
       "transportation": {

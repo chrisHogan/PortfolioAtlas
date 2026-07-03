@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "A cheapest-acceptable studio or older one-bedroom in a workable pocket of West Asheville, with home cooking the norm and a paid-off car for reaching trailheads. The ACA Silver premium stays affordable only if MAGI is managed under the 2026 ~$62,600 cliff, and healthcare plus the car form a hard cost floor. Entertainment leans on Asheville's free assets — the Blue Ridge Parkway, Pisgah trails, gallery walks in the River Arts District, and downtown street music. A tight but genuinely livable mountain base, softened by a mild four-season climate."
+      "lifestyle": "A cheapest-acceptable studio or older one-bedroom in a workable pocket of West Asheville, with home cooking the norm and a paid-off car for reaching trailheads. The ACA Silver premium stays affordable only if annual income is managed under the 2026 ~$62,600 subsidy cutoff, and healthcare plus the car form a hard cost floor. Entertainment leans on Asheville's free assets — the Blue Ridge Parkway, Pisgah trails, gallery walks in the River Arts District, and downtown street music. A tight but genuinely livable mountain base, softened by a mild four-season climate."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -98,7 +98,7 @@
         "monthlyCost": 520
       },
       "healthcare": {
-        "description": "A Gold-tier plan (Mission Health / HCA network); the line is padded near the ~$62,600 ACA cliff where premium tax credits phase out",
+        "description": "A Gold-tier plan (Mission Health / HCA network); the line is padded near the ~$62,600 ACA subsidy cutoff where premium tax credits phase out",
         "monthlyCost": 600
       },
       "transportation": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 270
       },
-      "lifestyle": "A high-quality one-bedroom or small home in North Asheville or near Biltmore Forest, with mountain views and regular dinners at Cúrate, Rhubarb, and Chai Pani. A late-model AWD vehicle handles mountain roads, healthcare is a Gold plan padded near the ~$62,600 ACA cliff, and there is room for art purchases from River Arts District studios, a golf membership, and regular travel. A genuinely affluent mountain life with margin for seasonal activities and getaways deeper into the Blue Ridge."
+      "lifestyle": "A high-quality one-bedroom or small home in North Asheville or near Biltmore Forest, with mountain views and regular dinners at Cúrate, Rhubarb, and Chai Pani. A late-model AWD vehicle handles mountain roads, healthcare is a Gold plan padded near the ~$62,600 ACA subsidy cutoff, and there is room for art purchases from River Arts District studios, a golf membership, and regular travel. A genuinely affluent mountain life with margin for seasonal activities and getaways deeper into the Blue Ridge."
     },
     "5M": {
       "monthlyBudget": 16667,

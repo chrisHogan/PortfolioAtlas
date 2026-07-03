@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "A cheapest-acceptable studio or older one-bedroom in the University area or an outer Plaza Midwood fringe, cooking most meals at home with casual Southern spots and food trucks a few times a week. The LYNX light rail covers the uptown corridor, but a car is needed for most errands, and the ACA Silver premium stays low only if MAGI is managed under the 2026 ~$62,600 cliff. Charlotte's greenway trails and free festivals fill the calendar. A disciplined but workable big-city-South base."
+      "lifestyle": "A cheapest-acceptable studio or older one-bedroom in the University area or an outer Plaza Midwood fringe, cooking most meals at home with casual Southern spots and food trucks a few times a week. The LYNX light rail covers the uptown corridor, but a car is needed for most errands, and the ACA Silver premium stays low only if annual income is managed under the 2026 ~$62,600 subsidy cutoff. Charlotte's greenway trails and free festivals fill the calendar. A disciplined but workable big-city-South base."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -98,7 +98,7 @@
         "monthlyCost": 500
       },
       "healthcare": {
-        "description": "A Gold-tier plan (Atrium Health / Novant network); padded near the ~$62,600 ACA cliff where premium tax credits phase out",
+        "description": "A Gold-tier plan (Atrium Health / Novant network); padded near the ~$62,600 ACA subsidy cutoff where premium tax credits phase out",
         "monthlyCost": 600
       },
       "transportation": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 270
       },
-      "lifestyle": "A high-quality place in a tree-lined historic neighborhood like Myers Park or Eastover, or an uptown condo, dining regularly at Charlotte's top tables. Season tickets to the Panthers or Hornets, a private golf membership, and weekend trips to Asheville or the Outer Banks fit comfortably. Healthcare is a Gold plan padded near the ~$62,600 ACA cliff, and a late-model car covers mountain drives. A comfortable, affluent big-city-South life."
+      "lifestyle": "A high-quality place in a tree-lined historic neighborhood like Myers Park or Eastover, or an uptown condo, dining regularly at Charlotte's top tables. Season tickets to the Panthers or Hornets, a private golf membership, and weekend trips to Asheville or the Outer Banks fit comfortably. Healthcare is a Gold plan padded near the ~$62,600 ACA subsidy cutoff, and a late-model car covers mountain drives. A comfortable, affluent big-city-South life."
     },
     "5M": {
       "monthlyBudget": 16667,

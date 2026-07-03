@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 220
       },
-      "lifestyle": "A cheapest-acceptable older studio or one-bedroom in a central-adjacent area like East Riverside — and Austin's steep 2024–2026 rent softening means the Lean housing line lands lower than the city's reputation suggests. A car is essential and summer A/C spikes the electric bill, but Texas's zero state income tax means every dollar of the withdrawal stays put. Free live music on 6th Street and swimming at Barton Springs keep entertainment near-free. The ACA Silver premium stays low only if MAGI is kept under the 2026 ~$62,600 cliff — Texas has no backfill."
+      "lifestyle": "A cheapest-acceptable older studio or one-bedroom in a central-adjacent area like East Riverside — and Austin's steep 2024–2026 rent softening means the Lean housing line lands lower than the city's reputation suggests. A car is essential and summer A/C spikes the electric bill, but Texas's zero state income tax means every dollar of the withdrawal stays put. Free live music on 6th Street and swimming at Barton Springs keep entertainment near-free. The ACA Silver premium stays low only if annual income is kept under the 2026 ~$62,600 subsidy cutoff — Texas has no state subsidy."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -98,7 +98,7 @@
         "monthlyCost": 490
       },
       "healthcare": {
-        "description": "A Gold-tier plan; padded near the ~$62,600 ACA cliff where premium tax credits disappear (Texas benchmarks rose ~35% for 2026)",
+        "description": "A Gold-tier plan; padded near the ~$62,600 ACA subsidy cutoff where premium tax credits disappear (Texas benchmarks rose ~35% for 2026)",
         "monthlyCost": 640
       },
       "transportation": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 290
       },
-      "lifestyle": "A high-quality place in Travis Heights or Zilker, or a nicer downtown unit, with regular dinners at Uchi and Emmer & Rye and weekend trips to Fredericksburg wine country. A late-model SUV, boat rentals on Lake Travis, and season tickets are all easy, and healthcare is a padded Gold plan near the ~$62,600 ACA cliff. With no state income tax, this is a comfortably affluent Austin life with a real travel budget."
+      "lifestyle": "A high-quality place in Travis Heights or Zilker, or a nicer downtown unit, with regular dinners at Uchi and Emmer & Rye and weekend trips to Fredericksburg wine country. A late-model SUV, boat rentals on Lake Travis, and season tickets are all easy, and healthcare is a padded Gold plan near the ~$62,600 ACA subsidy cutoff. With no state income tax, this is a comfortably affluent Austin life with a real travel budget."
     },
     "5M": {
       "monthlyBudget": 16667,

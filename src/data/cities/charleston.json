@@ -98,7 +98,7 @@
         "monthlyCost": 520
       },
       "healthcare": {
-        "description": "A Gold-tier plan with MUSC network access; padded near the ~$62,600 ACA cliff where premium tax credits phase out",
+        "description": "A Gold-tier plan with MUSC network access; padded near the ~$62,600 ACA subsidy cutoff where premium tax credits phase out",
         "monthlyCost": 600
       },
       "transportation": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 300
       },
-      "lifestyle": "A high-quality place on the historic peninsula or in Mount Pleasant, with regular dinners at FIG, Husk, and The Ordinary. A golf membership and weekend sailing on the harbor fit comfortably, and healthcare runs through the MUSC network, padded near the ~$62,600 ACA cliff. A late-model SUV covers island excursions. A genuinely affluent Charleston life with room for regular travel."
+      "lifestyle": "A high-quality place on the historic peninsula or in Mount Pleasant, with regular dinners at FIG, Husk, and The Ordinary. A golf membership and weekend sailing on the harbor fit comfortably, and healthcare runs through the MUSC network, padded near the ~$62,600 ACA subsidy cutoff. A late-model SUV covers island excursions. A genuinely affluent Charleston life with room for regular travel."
     },
     "5M": {
       "monthlyBudget": 16667,

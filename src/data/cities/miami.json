@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 190
       },
-      "lifestyle": "An older studio or efficiency in Hialeah, Kendall, or outer Little Havana anchors a frugal but genuinely livable stretch of Miami retirement, well away from the beach and Brickell. Housing and the two stubborn US floors — a subsidized ACA health premium held down by managing income under the returned 400%-FPL cliff, and a paid-off car carrying Miami's punishing auto-insurance rates — take most of the budget, so meals lean on home cooking with Cuban ventanitas as the treat. The beaches at South Beach and Key Biscayne, Wynwood's street art, and the public parks cost nothing, which is the whole point at this level. Florida's zero state income tax means every dollar of the drawdown stays in hand. It is disciplined living, but the setting never feels austere."
+      "lifestyle": "An older studio or efficiency in Hialeah, Kendall, or outer Little Havana anchors a frugal but genuinely livable stretch of Miami retirement, well away from the beach and Brickell. Housing and the two stubborn US floors — a subsidized ACA health premium held down by managing income under the returned ~$62,600 subsidy cutoff, and a paid-off car carrying Miami's punishing auto-insurance rates — take most of the budget, so meals lean on home cooking with Cuban ventanitas as the treat. The beaches at South Beach and Key Biscayne, Wynwood's street art, and the public parks cost nothing, which is the whole point at this level. Florida's zero state income tax means every dollar of the drawdown stays in hand. It is disciplined living, but the setting never feels austere."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -98,7 +98,7 @@
         "monthlyCost": 600
       },
       "healthcare": {
-        "description": "Unsubsidized Miami-Dade Silver at full price (above the cliff); Miami-Dade carries among the nation's higher ACA benchmarks (avg Silver ~$1,125 age 50; FLOIR/MoneyGeek-derived)",
+        "description": "Unsubsidized Miami-Dade Silver at full price (above the subsidy cutoff); Miami-Dade carries among the nation's higher ACA benchmarks (avg Silver ~$1,125 age 50; FLOIR/MoneyGeek-derived)",
         "monthlyCost": 1120
       },
       "transportation": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 330
       },
-      "lifestyle": "A quality one-bedroom in Brickell, Edgewater, or Coral Gables puts daily life in Miami's most desirable, walkable core, within reach of the water. Dining out lands several times a week across one of the country's most dynamic food scenes, and healthcare is now a full-price, unsubsidized plan — the heaviest recurring line after housing, because Florida carries among the highest ACA premiums in the nation and a FIRE income sits above the subsidy cliff. A late-model car with premium Miami insurance covers a car-dependent city, with boating day trips on Biscayne Bay and weekend drives to the Keys built in. Art Basel events, a Heat game, and a good gym all fit comfortably. At this level Miami is genuinely affluent, with the zero-income-tax advantage compounding at every turn."
+      "lifestyle": "A quality one-bedroom in Brickell, Edgewater, or Coral Gables puts daily life in Miami's most desirable, walkable core, within reach of the water. Dining out lands several times a week across one of the country's most dynamic food scenes, and healthcare is now a full-price, unsubsidized plan — the heaviest recurring line after housing, because Florida carries among the highest ACA premiums in the nation and a FIRE income sits above the subsidy cutoff. A late-model car with premium Miami insurance covers a car-dependent city, with boating day trips on Biscayne Bay and weekend drives to the Keys built in. Art Basel events, a Heat game, and a good gym all fit comfortably. At this level Miami is genuinely affluent, with the zero-income-tax advantage compounding at every turn."
     },
     "5M": {
       "monthlyBudget": 16667,

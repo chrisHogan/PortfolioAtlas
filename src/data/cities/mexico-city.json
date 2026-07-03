@@ -38,7 +38,7 @@
         "monthlyCost": 180
       },
       "healthcare": {
-        "description": "IMSS voluntary or a basic Mexico-only private major-medical plan (GNP/AXA/MetLife) with a high deductible; 45–55 early-retiree basis",
+        "description": "Voluntary enrollment in Mexico's IMSS public system, or a basic Mexico-only private major-medical plan (insurers like GNP, AXA, or MetLife) with a high deductible; priced for an early retiree aged 45-55.",
         "monthlyCost": 95
       },
       "transportation": {

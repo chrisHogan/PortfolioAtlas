@@ -38,7 +38,7 @@
         "monthlyCost": 250
       },
       "healthcare": {
-        "description": "Minimum compliant private/expat plan meeting the temporary-residence insurance proof",
+        "description": "An entry-level private or expat plan that satisfies the insurance proof required for Croatian temporary residence.",
         "monthlyCost": 85
       },
       "transportation": {

@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 220
       },
-      "lifestyle": "A cheapest-acceptable studio or older one-bedroom near the Medical Center or on the Southtown fringe, cooking at home most nights with affordable Tex-Mex ingredients and a paid-off car to get around. The River Walk and the missions are free, and breakfast tacos cost a few dollars. Healthcare takes a meaningful share and there isn't much room for surprises, but zero state income tax helps every dollar go further — San Antonio runs one of the cheapest big-city budgets in the US. The Silver premium stays low only if MAGI is kept under the 2026 ~$62,600 cliff."
+      "lifestyle": "A cheapest-acceptable studio or older one-bedroom near the Medical Center or on the Southtown fringe, cooking at home most nights with affordable Tex-Mex ingredients and a paid-off car to get around. The River Walk and the missions are free, and breakfast tacos cost a few dollars. Healthcare takes a meaningful share and there isn't much room for surprises, but zero state income tax helps every dollar go further — San Antonio runs one of the cheapest big-city budgets in the US. The Silver premium stays low only if annual income is kept under the 2026 ~$62,600 subsidy cutoff."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -98,7 +98,7 @@
         "monthlyCost": 480
       },
       "healthcare": {
-        "description": "A Gold-tier plan; padded near the ~$62,600 ACA cliff where premium tax credits disappear",
+        "description": "A Gold-tier plan; padded near the ~$62,600 ACA subsidy cutoff where premium tax credits disappear",
         "monthlyCost": 620
       },
       "transportation": {

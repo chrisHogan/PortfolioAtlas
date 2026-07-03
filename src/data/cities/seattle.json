@@ -98,7 +98,7 @@
         "monthlyCost": 530
       },
       "healthcare": {
-        "description": "An individual plan nearer the cliff, at a richer metal tier",
+        "description": "An individual plan nearer the subsidy cutoff, at a richer metal tier",
         "monthlyCost": 740
       },
       "transportation": {

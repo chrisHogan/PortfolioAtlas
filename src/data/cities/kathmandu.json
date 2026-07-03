@@ -38,7 +38,7 @@
         "monthlyCost": 50
       },
       "healthcare": {
-        "description": "Out-of-pocket OPD at Norvic/Grande + a basic local hospitalization policy, early-retiree band",
+        "description": "Pay-as-you-go outpatient visits at private clinics like Norvic and Grande, plus a basic local policy covering hospital stays; priced for an early retiree aged 45-55.",
         "monthlyCost": 30
       },
       "transportation": {

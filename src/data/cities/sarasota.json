@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 220
       },
-      "lifestyle": "A modest studio or small one-bedroom in Gulf Gate, Bee Ridge, or North Sarasota — away from the expensive waterfront — anchors a lean but workable life on Florida's cultured Gulf coast. A subsidized ACA plan, kept affordable by managing income under the returned 400%-FPL cliff, and a paid-off car carrying Florida's steep insurance are the two floors that hold the budget firm, so most meals are cooked at home with the occasional happy-hour plate out. Siesta Key's white sand, sunset walks, and the public parks are free, and zero state income tax stretches every dollar of the drawdown. There is little slack for surprises, but the beach-town setting and cultural calendar remain within reach."
+      "lifestyle": "A modest studio or small one-bedroom in Gulf Gate, Bee Ridge, or North Sarasota — away from the expensive waterfront — anchors a lean but workable life on Florida's cultured Gulf coast. A subsidized ACA plan, kept affordable by managing income under the returned ~$62,600 subsidy cutoff, and a paid-off car carrying Florida's steep insurance are the two floors that hold the budget firm, so most meals are cooked at home with the occasional happy-hour plate out. Siesta Key's white sand, sunset walks, and the public parks are free, and zero state income tax stretches every dollar of the drawdown. There is little slack for surprises, but the beach-town setting and cultural calendar remain within reach."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -98,7 +98,7 @@
         "monthlyCost": 540
       },
       "healthcare": {
-        "description": "Unsubsidized Sarasota-rating-area Silver at full price (above the cliff); FLOIR avg Silver ~$1,040 age 50, benchmark/low-Silver ~$850–885",
+        "description": "Unsubsidized Sarasota-rating-area Silver at full price (above the subsidy cutoff); FLOIR avg Silver ~$1,040 age 50, benchmark/low-Silver ~$850–885",
         "monthlyCost": 970
       },
       "transportation": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 340
       },
-      "lifestyle": "A quality one-bedroom in a downtown or Rosemary District high-rise, or a Palmer Ranch amenity complex, makes for a relaxed, financially secure Sarasota life. Dining out several nights a week across the downtown and St. Armands scene becomes routine, and healthcare is a full-price, unsubsidized plan reflecting Florida's high ACA benchmark once income clears the cliff. A reliable car handles a spread-out region — Sarasota's insurance runs lower than Miami's, easing the transport line — and there is real budget for the city's outsized cultural offering: the Opera, Asolo Rep, Van Wezel, and the Ringling. The combination of zero state income tax and genuine arts depth makes this a well-rounded coastal life with margin for travel."
+      "lifestyle": "A quality one-bedroom in a downtown or Rosemary District high-rise, or a Palmer Ranch amenity complex, makes for a relaxed, financially secure Sarasota life. Dining out several nights a week across the downtown and St. Armands scene becomes routine, and healthcare is a full-price, unsubsidized plan reflecting Florida's high ACA benchmark once income clears the subsidy cutoff. A reliable car handles a spread-out region — Sarasota's insurance runs lower than Miami's, easing the transport line — and there is real budget for the city's outsized cultural offering: the Opera, Asolo Rep, Van Wezel, and the Ringling. The combination of zero state income tax and genuine arts depth makes this a well-rounded coastal life with margin for travel."
     },
     "5M": {
       "monthlyBudget": 16667,

@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 185
       },
-      "lifestyle": "A modest older one-bedroom or efficiency near downtown or the Tridge anchors a genuinely frugal life, with rents among the lowest in the country for a city this well-appointed. Cooking at home is the default, a paid-off car is necessary in a small Michigan city, and healthcare rests on a subsidized Silver plan tied to keeping income under the ACA cliff. Dow Gardens, the Whiting Forest canopy walk, and the Tridge provide free, high-quality leisure. The extremely low cost base keeps the essentials manageable without the pressure of a larger city."
+      "lifestyle": "A modest older one-bedroom or efficiency near downtown or the Tridge anchors a genuinely frugal life, with rents among the lowest in the country for a city this well-appointed. Cooking at home is the default, a paid-off car is necessary in a small Michigan city, and healthcare rests on a subsidized Silver plan tied to keeping income under the ACA subsidy cutoff. Dow Gardens, the Whiting Forest canopy walk, and the Tridge provide free, high-quality leisure. The extremely low cost base keeps the essentials manageable without the pressure of a larger city."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -98,7 +98,7 @@
         "monthlyCost": 490
       },
       "healthcare": {
-        "description": "Cliff-edge and padded; the swing variable — a drawdown can push MAGI over the ~$62,600 cliff and vaporize the subsidy (MI is a LOW-benchmark state: KFF SLCSP benchmark ~$523 age-40; the ~$684 is MI's average-silver)",
+        "description": "Cliff-edge and padded; the swing variable — a drawdown can push income over the ~$62,600 subsidy cutoff and vaporize the subsidy (MI is a LOW-benchmark state: KFF SLCSP benchmark ~$523 age-40; the ~$684 is MI's average-silver)",
         "monthlyCost": 650
       },
       "transportation": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 260
       },
-      "lifestyle": "A relaxed, financially-independent life in a spacious modern one-bedroom or a small rental home in Adams or Eastlawn, dining out regularly with a real travel budget and a reliable late-model car for Great Lakes road trips. Arts patronage, a Currie golf membership, and weekend getaways to Traverse City and Mackinac are all easily funded. Healthcare is the swing variable — the line is padded because a drawdown can push income over the ACA cliff and erase the subsidy. The Dow-funded cultural amenities punch far above the city's size."
+      "lifestyle": "A relaxed, financially-independent life in a spacious modern one-bedroom or a small rental home in Adams or Eastlawn, dining out regularly with a real travel budget and a reliable late-model car for Great Lakes road trips. Arts patronage, a Currie golf membership, and weekend getaways to Traverse City and Mackinac are all easily funded. Healthcare is the swing variable — the line is padded because a drawdown can push income over the ACA subsidy cutoff and erase the subsidy. The Dow-funded cultural amenities punch far above the city's size."
     },
     "5M": {
       "monthlyBudget": 16667,

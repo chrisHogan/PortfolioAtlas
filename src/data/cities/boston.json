@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "A studio in Dorchester, Revere, or Quincy, outside the core but on the Red or Orange Line, anchors a frugal but genuinely livable stretch of retirement. The MBTA LinkPass at $90 removes any need for a car, and the ConnectorCare-subsidized health plan keeps the stubborn US insurance line manageable as long as taxable income stays under the returned ACA cliff. Meals are mostly cooked at home, with the odd cheap plate in Chinatown or a neighborhood spot. Winter heating is a real line in the utilities, but the Freedom Trail, the Charles River Esplanade, and free museum hours make the entertainment budget stretch. Housing takes the majority of the budget — Boston's floor simply does not fall further."
+      "lifestyle": "A studio in Dorchester, Revere, or Quincy, outside the core but on the Red or Orange Line, anchors a frugal but genuinely livable stretch of retirement. The MBTA LinkPass at $90 removes any need for a car, and the ConnectorCare-subsidized health plan keeps the stubborn US insurance line manageable as long as taxable income stays under the returned ACA subsidy cutoff. Meals are mostly cooked at home, with the odd cheap plate in Chinatown or a neighborhood spot. Winter heating is a real line in the utilities, but the Freedom Trail, the Charles River Esplanade, and free museum hours make the entertainment budget stretch. Housing takes the majority of the budget — Boston's floor simply does not fall further."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -98,7 +98,7 @@
         "monthlyCost": 500
       },
       "healthcare": {
-        "description": "Unsubsidized MA Silver/Gold (above the cliff), with Mass General / Brigham networks",
+        "description": "Unsubsidized MA Silver/Gold (above the subsidy cutoff), with Mass General / Brigham networks",
         "monthlyCost": 700
       },
       "transportation": {

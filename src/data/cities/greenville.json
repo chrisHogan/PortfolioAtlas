@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "A cheapest-acceptable older one-bedroom or value studio in the Village of West Greenville, cooking at home most nights with a casual meal out a few times a week. Healthcare and the near-essential car form a hard cost floor, and the ACA Silver premium stays low only if MAGI is managed under the 2026 ~$62,600 cliff. Daily life centers on the Swamp Rabbit Trail, Falls Park, and the free pleasures of a walkable downtown. Tight, but the low cost base and SC's light tax load make it workable."
+      "lifestyle": "A cheapest-acceptable older one-bedroom or value studio in the Village of West Greenville, cooking at home most nights with a casual meal out a few times a week. Healthcare and the near-essential car form a hard cost floor, and the ACA Silver premium stays low only if annual income is managed under the 2026 ~$62,600 subsidy cutoff. Daily life centers on the Swamp Rabbit Trail, Falls Park, and the free pleasures of a walkable downtown. Tight, but the low cost base and SC's light tax load make it workable."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -98,7 +98,7 @@
         "monthlyCost": 500
       },
       "healthcare": {
-        "description": "A Gold-tier plan (Prisma Health network); padded near the ~$62,600 ACA cliff where premium tax credits phase out",
+        "description": "A Gold-tier plan (Prisma Health network); padded near the ~$62,600 ACA subsidy cutoff where premium tax credits phase out",
         "monthlyCost": 600
       },
       "transportation": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 270
       },
-      "lifestyle": "A high-quality small home in the North Main or Earle Street area, some with mountain views, with regular dinners at Jianna and Soby's, Peace Center season tickets, and a golf membership. A late-model SUV handles mountain excursions, healthcare is a Gold plan padded near the ~$62,600 ACA cliff, and there is plenty of margin for travel. At Greenville's price level, this covers a genuinely affluent life that would cost considerably more in larger Southern cities."
+      "lifestyle": "A high-quality small home in the North Main or Earle Street area, some with mountain views, with regular dinners at Jianna and Soby's, Peace Center season tickets, and a golf membership. A late-model SUV handles mountain excursions, healthcare is a Gold plan padded near the ~$62,600 ACA subsidy cutoff, and there is plenty of margin for travel. At Greenville's price level, this covers a genuinely affluent life that would cost considerably more in larger Southern cities."
     },
     "5M": {
       "monthlyBudget": 16667,

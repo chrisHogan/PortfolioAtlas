@@ -98,7 +98,7 @@
         "monthlyCost": 560
       },
       "healthcare": {
-        "description": "Priced at the cliff edge and padded — a richer plan while subsidized, or Silver plus real out-of-pocket; healthcare is the swing variable because a drawdown can push MAGI over $62,600 and vaporize the credits",
+        "description": "Priced at the edge of the subsidy cutoff and padded — a richer plan while subsidized, or Silver plus real out-of-pocket; healthcare is the swing variable because a drawdown can push income over $62,600 and vaporize the credits",
         "monthlyCost": 650
       },
       "transportation": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 300
       },
-      "lifestyle": "A relaxed, financially-independent life in a quality 1BR in one of Chicago's most desirable walkable districts, amenities included. Dining out several nights a week is normal, hobbies and a genuine travel budget are funded, and the city is covered by transit plus liberal rideshare, so a car remains optional. Healthcare is the swing variable: the line is padded because a drawdown can push MAGI past the $62,600 cliff and erase the premium tax credits. It is a secure, comfortable rhythm without extravagance."
+      "lifestyle": "A relaxed, financially-independent life in a quality 1BR in one of Chicago's most desirable walkable districts, amenities included. Dining out several nights a week is normal, hobbies and a genuine travel budget are funded, and the city is covered by transit plus liberal rideshare, so a car remains optional. Healthcare is the swing variable: the line is padded because a drawdown can push income past the $62,600 subsidy cutoff and erase the premium tax credits. It is a secure, comfortable rhythm without extravagance."
     },
     "5M": {
       "monthlyBudget": 16667,

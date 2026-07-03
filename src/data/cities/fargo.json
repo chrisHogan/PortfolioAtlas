@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 195
       },
-      "lifestyle": "An older studio or small one-bedroom in Village West or a near-south neighborhood anchors a genuinely frugal life, where rent is among the lowest of any US city. Cooking at home is the default, with an occasional casual meal out, and a paid-off economy car with snow tires is a non-negotiable line because Fargo has no meaningful transit. Healthcare rests on a subsidized Silver plan, so keeping marketplace income under the ACA cliff is the central planning move. Free riverwalk strolls, the Fargo Theatre, and library events fill the calendar without straining the budget."
+      "lifestyle": "An older studio or small one-bedroom in Village West or a near-south neighborhood anchors a genuinely frugal life, where rent is among the lowest of any US city. Cooking at home is the default, with an occasional casual meal out, and a paid-off economy car with snow tires is a non-negotiable line because Fargo has no meaningful transit. Healthcare rests on a subsidized Silver plan, so keeping marketplace income under the ACA subsidy cutoff is the central planning move. Free riverwalk strolls, the Fargo Theatre, and library events fill the calendar without straining the budget."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -98,7 +98,7 @@
         "monthlyCost": 480
       },
       "healthcare": {
-        "description": "Priced at the reinstated 2026 cliff edge and padded; the swing variable — a drawdown can push MAGI over the ~$62,600 cliff and forfeit the subsidy — though ND's low benchmark keeps even the unsubsidized figure moderate",
+        "description": "Priced at the edge of the reinstated 2026 subsidy cutoff and padded; the swing variable — a drawdown can push income over the ~$62,600 subsidy cutoff and forfeit the subsidy — though ND's low benchmark keeps even the unsubsidized figure moderate",
         "monthlyCost": 640
       },
       "transportation": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 270
       },
-      "lifestyle": "A relaxed, financially-independent life in a nice downtown one-bedroom or a new-build in south Fargo, dining out regularly and keeping a newer AWD vehicle for the winters. A real travel-and-hobbies budget sits alongside FargoDome events, the theater, and the brewery scene. Healthcare is the swing variable — the line is padded because a drawdown can push income over the ACA cliff and erase the subsidy — though North Dakota's low benchmark keeps even the unsubsidized figure moderate."
+      "lifestyle": "A relaxed, financially-independent life in a nice downtown one-bedroom or a new-build in south Fargo, dining out regularly and keeping a newer AWD vehicle for the winters. A real travel-and-hobbies budget sits alongside FargoDome events, the theater, and the brewery scene. Healthcare is the swing variable — the line is padded because a drawdown can push income over the ACA subsidy cutoff and erase the subsidy — though North Dakota's low benchmark keeps even the unsubsidized figure moderate."
     },
     "5M": {
       "monthlyBudget": 16667,

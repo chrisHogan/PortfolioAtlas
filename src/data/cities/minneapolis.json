@@ -98,7 +98,7 @@
         "monthlyCost": 510
       },
       "healthcare": {
-        "description": "Unsubsidized MNsure Silver above the 2026 ~$62,600 ACA cliff — still far below high-cost states thanks to Minnesota's low benchmark and reinsurance",
+        "description": "Unsubsidized MNsure Silver above the 2026 ~$62,600 ACA subsidy cutoff — still far below high-cost states thanks to Minnesota's low benchmark and reinsurance",
         "monthlyCost": 530
       },
       "transportation": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "A relaxed, financially-independent life in a quality newer one-bedroom in a desirable walkable neighborhood — Northeast's nicer buildings, Uptown, or the edge of the North Loop — dining out several times a week with a real travel budget. Health coverage is the swing variable: at a FIRE-level income above the 2026 ACA cliff the tax credits disappear, yet Minnesota's benchmark is so low that the unsubsidized Silver here (~$530) sits far under the ~$1,000 common in higher-cost states. A comfortable car handles the winters and regional driving."
+      "lifestyle": "A relaxed, financially-independent life in a quality newer one-bedroom in a desirable walkable neighborhood — Northeast's nicer buildings, Uptown, or the edge of the North Loop — dining out several times a week with a real travel budget. Health coverage is the swing variable: at a FIRE-level income above the 2026 ACA subsidy cutoff the tax credits disappear, yet Minnesota's benchmark is so low that the unsubsidized Silver here (~$530) sits far under the ~$1,000 common in higher-cost states. A comfortable car handles the winters and regional driving."
     },
     "5M": {
       "monthlyBudget": 16667,

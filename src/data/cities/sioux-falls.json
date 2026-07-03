@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 185
       },
-      "lifestyle": "A frugal studio or small older one-bedroom in the Cathedral District or near Falls Park anchors a modest but genuinely comfortable baseline, helped by South Dakota's zero state income tax. Cooking at home is the norm, a paid-off car handles the errands that light transit cannot, and healthcare rests on a subsidized Silver plan tied to keeping income under the ACA cliff. Evenings and weekends revolve around Falls Park, the Big Sioux River trails, and SculptureWalk. Housing plus the health premium are the two big lines, but the low cost base leaves real breathing room."
+      "lifestyle": "A frugal studio or small older one-bedroom in the Cathedral District or near Falls Park anchors a modest but genuinely comfortable baseline, helped by South Dakota's zero state income tax. Cooking at home is the norm, a paid-off car handles the errands that light transit cannot, and healthcare rests on a subsidized Silver plan tied to keeping income under the ACA subsidy cutoff. Evenings and weekends revolve around Falls Park, the Big Sioux River trails, and SculptureWalk. Housing plus the health premium are the two big lines, but the low cost base leaves real breathing room."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -98,7 +98,7 @@
         "monthlyCost": 480
       },
       "healthcare": {
-        "description": "Cliff-edge and padded; the swing variable — a drawdown can push MAGI over the ~$62,600 cliff into SD's full unsubsidized band (an age-45–55 adult jumps toward ~$950–1,180 unsubsidized Silver)",
+        "description": "Cliff-edge and padded; the swing variable — a drawdown can push income over the ~$62,600 subsidy cutoff into SD's full unsubsidized band (an age-45–55 adult jumps toward ~$950–1,180 unsubsidized Silver)",
         "monthlyCost": 680
       },
       "transportation": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 260
       },
-      "lifestyle": "A relaxed, financially-independent life in a premium apartment near Lake Lorraine or The Bluffs, dining out several times a week with a genuine travel budget. A reliable late-model car handles Dakota winters, and there is room for Premier Center events, clubs, and hobbies. Healthcare is the swing variable — the line is padded because a drawdown can push income over the ACA cliff into South Dakota's full unsubsidized band. Everything is covered comfortably; the only real constraint is discretionary scale, not comfort."
+      "lifestyle": "A relaxed, financially-independent life in a premium apartment near Lake Lorraine or The Bluffs, dining out several times a week with a genuine travel budget. A reliable late-model car handles Dakota winters, and there is room for Premier Center events, clubs, and hobbies. Healthcare is the swing variable — the line is padded because a drawdown can push income over the ACA subsidy cutoff into South Dakota's full unsubsidized band. Everything is covered comfortably; the only real constraint is discretionary scale, not comfort."
     },
     "5M": {
       "monthlyBudget": 16667,

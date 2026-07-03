@@ -38,7 +38,7 @@
         "monthlyCost": 215
       },
       "healthcare": {
-        "description": "Minimum compliant private plan meeting the residence-permit insurance requirement",
+        "description": "An entry-level private plan that satisfies the insurance requirement for a Croatian residence permit.",
         "monthlyCost": 90
       },
       "transportation": {

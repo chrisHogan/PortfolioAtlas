@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 205
       },
-      "lifestyle": "A basic older one-bedroom or a nice studio downtown or in Weston anchors a quiet, low-cost life at rents well below a capital metro. Cooking at home is the default, a paid-off economy car with winter tires is essential in central Wisconsin, and healthcare rests on a subsidized Silver plan tied to keeping income under the ACA cliff. Rib Mountain hikes, Wisconsin River trails, and the Northwoods fill the weekends. Heating is a real winter line, but the overall base is low enough that the budget holds without constant strain."
+      "lifestyle": "A basic older one-bedroom or a nice studio downtown or in Weston anchors a quiet, low-cost life at rents well below a capital metro. Cooking at home is the default, a paid-off economy car with winter tires is essential in central Wisconsin, and healthcare rests on a subsidized Silver plan tied to keeping income under the ACA subsidy cutoff. Rib Mountain hikes, Wisconsin River trails, and the Northwoods fill the weekends. Heating is a real winter line, but the overall base is low enough that the budget holds without constant strain."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -98,7 +98,7 @@
         "monthlyCost": 500
       },
       "healthcare": {
-        "description": "A Gold plan / cliff-edge padded; the swing variable — a drawdown can push MAGI over the ~$62,600 cliff toward unsubsidized full price (WI benchmark matched to Madison)",
+        "description": "A Gold plan, padded near the subsidy cutoff; the swing variable — a drawdown can push income over the ~$62,600 subsidy cutoff toward unsubsidized full price (WI benchmark matched to Madison)",
         "monthlyCost": 660
       },
       "transportation": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 270
       },
-      "lifestyle": "A relaxed, financially-independent life in a quality one-bedroom near Rib Mountain or Lake Wausau, dining out regularly with a genuine travel budget and a newer AWD SUV for the winters. Granite Peak, Northwoods cabin weekends, and drives to Madison or Minneapolis are all easily funded. Healthcare is the swing variable — the line is padded because a drawdown can push income over the ACA cliff toward unsubsidized full price. Comfortable, low-stress living in a small mountain-and-river town."
+      "lifestyle": "A relaxed, financially-independent life in a quality one-bedroom near Rib Mountain or Lake Wausau, dining out regularly with a genuine travel budget and a newer AWD SUV for the winters. Granite Peak, Northwoods cabin weekends, and drives to Madison or Minneapolis are all easily funded. Healthcare is the swing variable — the line is padded because a drawdown can push income over the ACA subsidy cutoff toward unsubsidized full price. Comfortable, low-stress living in a small mountain-and-river town."
     },
     "5M": {
       "monthlyBudget": 16667,

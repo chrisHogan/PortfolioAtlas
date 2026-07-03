@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "A cheapest-acceptable studio or small casita on the south side, where housing takes a large share of the budget — Santa Fe's resort-and-art-market premium shows up most in rent. Cooking at home with Hatch chile is the norm, with casual New Mexican meals out a couple of times a week. Free Friday gallery walks on Canyon Road, hiking the Sangre de Cristos, and the dry climate's low utility bills all help. The ACA Silver premium stays low if MAGI is managed under the 2026 ~$62,600 cliff — and New Mexico's unique state backfill softens the picture."
+      "lifestyle": "A cheapest-acceptable studio or small casita on the south side, where housing takes a large share of the budget — Santa Fe's resort-and-art-market premium shows up most in rent. Cooking at home with Hatch chile is the norm, with casual New Mexican meals out a couple of times a week. Free Friday gallery walks on Canyon Road, hiking the Sangre de Cristos, and the dry climate's low utility bills all help. The ACA Silver premium stays low if annual income is managed under the 2026 ~$62,600 subsidy cutoff — and New Mexico's unique state subsidy softens the picture."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -98,7 +98,7 @@
         "monthlyCost": 510
       },
       "healthcare": {
-        "description": "A Gold plan with Christus St. Vincent access; padded near the ~$62,600 ACA cliff",
+        "description": "A Gold plan with Christus St. Vincent access; padded near the ~$62,600 ACA subsidy cutoff",
         "monthlyCost": 600
       },
       "transportation": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 270
       },
-      "lifestyle": "A high-quality one-bedroom or small adobe on the historic east side or in the foothills, regular dinners at Geronimo and Terra, premium opera seats, and a growing collection from Canyon Road galleries. A late-model 4WD SUV handles mountain roads, healthcare is padded near the ~$62,600 ACA cliff, and there is margin for regular travel. A genuinely affluent Santa Fe life."
+      "lifestyle": "A high-quality one-bedroom or small adobe on the historic east side or in the foothills, regular dinners at Geronimo and Terra, premium opera seats, and a growing collection from Canyon Road galleries. A late-model 4WD SUV handles mountain roads, healthcare is padded near the ~$62,600 ACA subsidy cutoff, and there is margin for regular travel. A genuinely affluent Santa Fe life."
     },
     "5M": {
       "monthlyBudget": 16667,

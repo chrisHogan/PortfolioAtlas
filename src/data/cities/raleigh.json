@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 185
       },
-      "lifestyle": "A cheapest-acceptable one-bedroom in Southeast Raleigh or near Brier Creek, cooking most meals at home with food trucks and breweries a few times a week. A paid-off car handles most errands, though parts of the city are bikeable, and proximity to Duke and UNC hospitals means good access even on a budget — with the ACA Silver premium affordable only if MAGI stays under the 2026 ~$62,600 cliff. The free state museums downtown by the Capitol and the extensive greenway trails fill the calendar, and the mild climate keeps utilities manageable."
+      "lifestyle": "A cheapest-acceptable one-bedroom in Southeast Raleigh or near Brier Creek, cooking most meals at home with food trucks and breweries a few times a week. A paid-off car handles most errands, though parts of the city are bikeable, and proximity to Duke and UNC hospitals means good access even on a budget — with the ACA Silver premium affordable only if annual income stays under the 2026 ~$62,600 subsidy cutoff. The free state museums downtown by the Capitol and the extensive greenway trails fill the calendar, and the mild climate keeps utilities manageable."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -98,7 +98,7 @@
         "monthlyCost": 500
       },
       "healthcare": {
-        "description": "A Gold-tier plan with Duke and UNC access; padded near the ~$62,600 ACA cliff where premium tax credits phase out",
+        "description": "A Gold-tier plan with Duke and UNC access; padded near the ~$62,600 ACA subsidy cutoff where premium tax credits phase out",
         "monthlyCost": 600
       },
       "transportation": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "A high-quality small home in Five Points or Cameron Village, walkable and tree-lined, with regular dinners at Poole's Diner, Death & Taxes, and Second Empire. Hurricanes season tickets, a golf membership, and premium insurance with Duke and UNC access all fit, with healthcare a Gold plan padded near the ~$62,600 ACA cliff. A well-rounded, affluent life in a metro with genuinely strong healthcare infrastructure."
+      "lifestyle": "A high-quality small home in Five Points or Cameron Village, walkable and tree-lined, with regular dinners at Poole's Diner, Death & Taxes, and Second Empire. Hurricanes season tickets, a golf membership, and premium insurance with Duke and UNC access all fit, with healthcare a Gold plan padded near the ~$62,600 ACA subsidy cutoff. A well-rounded, affluent life in a metro with genuinely strong healthcare infrastructure."
     },
     "5M": {
       "monthlyBudget": 16667,

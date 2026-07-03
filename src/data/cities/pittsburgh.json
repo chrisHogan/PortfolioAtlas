@@ -98,7 +98,7 @@
         "monthlyCost": 450
       },
       "healthcare": {
-        "description": "Unsubsidized Gold (above the cliff), still cheaper than any peer metro (45yo Silver ~$400–450, 55yo ~$550–650)",
+        "description": "Unsubsidized Gold (above the subsidy cutoff), still cheaper than any peer metro (45yo Silver ~$400–450, 55yo ~$550–650)",
         "monthlyCost": 575
       },
       "transportation": {

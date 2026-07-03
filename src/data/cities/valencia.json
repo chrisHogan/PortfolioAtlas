@@ -38,7 +38,7 @@
         "monthlyCost": 228
       },
       "healthcare": {
-        "description": "Compliant NLV private policy, no copays, Spanish insurer (Adeslas/ASISA)",
+        "description": "A no-copay private policy from a Spanish insurer such as Adeslas or ASISA - the full-coverage type Spain's non-lucrative visa requires.",
         "monthlyCost": 115
       },
       "transportation": {

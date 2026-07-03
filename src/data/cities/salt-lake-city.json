@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 180
       },
-      "lifestyle": "A cheapest-acceptable studio or small one-bedroom in Sugar House or Murray, with TRAX light rail covering much of daily transit — a rare Western-city advantage that trims the transport floor. Cooking at home is the norm and ski passes are out of reach, but hiking and trail running in the Wasatch foothills are free and minutes away. The ACA Silver premium is low here — Utah's benchmark is among the nation's cheapest — provided MAGI stays under the 2026 ~$62,600 cliff."
+      "lifestyle": "A cheapest-acceptable studio or small one-bedroom in Sugar House or Murray, with TRAX light rail covering much of daily transit — a rare Western-city advantage that trims the transport floor. Cooking at home is the norm and ski passes are out of reach, but hiking and trail running in the Wasatch foothills are free and minutes away. The ACA Silver premium is low here — Utah's benchmark is among the nation's cheapest — provided annual income stays under the 2026 ~$62,600 subsidy cutoff."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -98,7 +98,7 @@
         "monthlyCost": 510
       },
       "healthcare": {
-        "description": "A Gold-tier plan; padded near the ~$62,600 ACA cliff",
+        "description": "A Gold-tier plan; padded near the ~$62,600 ACA subsidy cutoff",
         "monthlyCost": 540
       },
       "transportation": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 250
       },
-      "lifestyle": "A high-quality one-bedroom or small home in The Avenues, 9th & 9th, or Federal Heights, regular dining at Salt Lake's best restaurants, an Ikon pass, and Jazz season tickets. Road trips to Moab, Zion, and Bryce all fit, along with Sundance in Park City each January. Healthcare runs through the University of Utah network and is padded near the ~$62,600 ACA cliff. An affluent, mountain-centric life with real margin."
+      "lifestyle": "A high-quality one-bedroom or small home in The Avenues, 9th & 9th, or Federal Heights, regular dining at Salt Lake's best restaurants, an Ikon pass, and Jazz season tickets. Road trips to Moab, Zion, and Bryce all fit, along with Sundance in Park City each January. Healthcare runs through the University of Utah network and is padded near the ~$62,600 ACA subsidy cutoff. An affluent, mountain-centric life with real margin."
     },
     "5M": {
       "monthlyBudget": 16667,

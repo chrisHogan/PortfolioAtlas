@@ -104,7 +104,7 @@
         "monthlyCost": 500
       },
       "healthcare": {
-        "description": "A Gold plan that minimizes out-of-pocket; at a FIRE income above the ~$62,600 ACA cliff this is unsubsidized full price (the cliff returned in 2026)",
+        "description": "A Gold plan that minimizes out-of-pocket; at a FIRE income above the ~$62,600 ACA subsidy cutoff this is unsubsidized full price (the subsidy cutoff returned in 2026)",
         "monthlyCost": 600
       },
       "transportation": {

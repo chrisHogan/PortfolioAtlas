@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 220
       },
-      "lifestyle": "A cheapest-acceptable studio or older one-bedroom near midtown or the University, cooking at home most nights supplemented by cheap and excellent taquerias, and a paid-off car. Tucson's low rents keep this Lean budget unusually comfortable for a US metro — housing barely tops $950. Sabino Canyon and Saguaro National Park provide free outdoor recreation year-round. The main budget watches are summer A/C and the ACA Silver premium, which stays low only if MAGI is kept under the 2026 ~$62,600 cliff (Arizona has no state backfill)."
+      "lifestyle": "A cheapest-acceptable studio or older one-bedroom near midtown or the University, cooking at home most nights supplemented by cheap and excellent taquerias, and a paid-off car. Tucson's low rents keep this Lean budget unusually comfortable for a US metro — housing barely tops $950. Sabino Canyon and Saguaro National Park provide free outdoor recreation year-round. The main budget watches are summer A/C and the ACA Silver premium, which stays low only if annual income is kept under the 2026 ~$62,600 subsidy cutoff (Arizona has no state subsidy)."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -98,7 +98,7 @@
         "monthlyCost": 500
       },
       "healthcare": {
-        "description": "A Gold-tier plan; padded near the ~$62,600 ACA cliff where premium tax credits disappear",
+        "description": "A Gold-tier plan; padded near the ~$62,600 ACA subsidy cutoff where premium tax credits disappear",
         "monthlyCost": 600
       },
       "transportation": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 290
       },
-      "lifestyle": "A high-quality one-bedroom or small home in walkable Sam Hughes or West University, regular fine dining at Tucson's best restaurants, and a late-model SUV. A resort or country club membership, premium coverage padded near the ~$62,600 ACA cliff, and regular road trips to Sedona and the Grand Canyon are all within budget. Tucson's low costs mean this tier stretches far — a genuinely comfortable, affluent life in a desirable area."
+      "lifestyle": "A high-quality one-bedroom or small home in walkable Sam Hughes or West University, regular fine dining at Tucson's best restaurants, and a late-model SUV. A resort or country club membership, premium coverage padded near the ~$62,600 ACA subsidy cutoff, and regular road trips to Sedona and the Grand Canyon are all within budget. Tucson's low costs mean this tier stretches far — a genuinely comfortable, affluent life in a desirable area."
     },
     "5M": {
       "monthlyBudget": 16667,

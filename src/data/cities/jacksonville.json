@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 215
       },
-      "lifestyle": "A cheapest-acceptable one-bedroom in Arlington or Murray Hill, cooking most meals at home with casual seafood shacks and taco spots a few times a week. A car is essential across Jacksonville's sprawl, and Florida's high auto premiums plus summer A/C bills form a real cost floor alongside the ACA Silver premium — which stays affordable only if MAGI is managed under the 2026 ~$62,600 cliff. Florida's zero income tax helps, and the Atlantic beaches, Riverwalk, and pier fishing are free and close."
+      "lifestyle": "A cheapest-acceptable one-bedroom in Arlington or Murray Hill, cooking most meals at home with casual seafood shacks and taco spots a few times a week. A car is essential across Jacksonville's sprawl, and Florida's high auto premiums plus summer A/C bills form a real cost floor alongside the ACA Silver premium — which stays affordable only if annual income is managed under the 2026 ~$62,600 subsidy cutoff. Florida's zero income tax helps, and the Atlantic beaches, Riverwalk, and pier fishing are free and close."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -98,7 +98,7 @@
         "monthlyCost": 500
       },
       "healthcare": {
-        "description": "A Gold-tier plan with Mayo Clinic Jacksonville access; padded near the ~$62,600 ACA cliff where premium tax credits phase out",
+        "description": "A Gold-tier plan with Mayo Clinic Jacksonville access; padded near the ~$62,600 ACA subsidy cutoff where premium tax credits phase out",
         "monthlyCost": 600
       },
       "transportation": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 270
       },
-      "lifestyle": "A high-quality place near the beaches or a waterfront one-bedroom in San Marco or Ortega, with regular dinners at Restaurant Orsay, Town Hall, and Cowford Chophouse. A late-model SUV, premium care through Mayo Clinic Jacksonville, and golf access near TPC Sawgrass all fit, with healthcare a Gold plan padded near the ~$62,600 ACA cliff. Jacksonville's affordability means this budget covers more ground than the same money in South Florida."
+      "lifestyle": "A high-quality place near the beaches or a waterfront one-bedroom in San Marco or Ortega, with regular dinners at Restaurant Orsay, Town Hall, and Cowford Chophouse. A late-model SUV, premium care through Mayo Clinic Jacksonville, and golf access near TPC Sawgrass all fit, with healthcare a Gold plan padded near the ~$62,600 ACA subsidy cutoff. Jacksonville's affordability means this budget covers more ground than the same money in South Florida."
     },
     "5M": {
       "monthlyBudget": 16667,

@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 210
       },
-      "lifestyle": "A cheapest-acceptable older studio or one-bedroom in Fairmount, Arlington Heights, or the Ridgmar edge, cooking at home most nights with BBQ or Tex-Mex out a couple of times a week. The Stockyards cattle drives and the Kimbell's permanent collection are free. No state income tax helps, though summer A/C bills are a meaningful expense — utilities are Fort Worth's one above-average line. The ACA Silver premium stays low only if MAGI is kept under the 2026 ~$62,600 cliff (Texas has no backfill). A manageable Lean budget with genuine big-city amenities."
+      "lifestyle": "A cheapest-acceptable older studio or one-bedroom in Fairmount, Arlington Heights, or the Ridgmar edge, cooking at home most nights with BBQ or Tex-Mex out a couple of times a week. The Stockyards cattle drives and the Kimbell's permanent collection are free. No state income tax helps, though summer A/C bills are a meaningful expense — utilities are Fort Worth's one above-average line. The ACA Silver premium stays low only if annual income is kept under the 2026 ~$62,600 subsidy cutoff (Texas has no state subsidy). A manageable Lean budget with genuine big-city amenities."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -98,7 +98,7 @@
         "monthlyCost": 500
       },
       "healthcare": {
-        "description": "A Gold-tier plan; padded near the ~$62,600 ACA cliff where premium tax credits disappear",
+        "description": "A Gold-tier plan; padded near the ~$62,600 ACA subsidy cutoff where premium tax credits disappear",
         "monthlyCost": 620
       },
       "transportation": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 290
       },
-      "lifestyle": "A high-quality place in a walkable district like West 7th or near Rivercrest, regular dinners at Grace and Lonesome Dove, and premium TCU and Rangers tickets. A late-model truck or luxury SUV handles daily life, and healthcare is a padded Gold plan near the ~$62,600 ACA cliff. This is a genuinely affluent life by Fort Worth standards, with no state income tax and affordable housing leaving substantial room for travel and saving."
+      "lifestyle": "A high-quality place in a walkable district like West 7th or near Rivercrest, regular dinners at Grace and Lonesome Dove, and premium TCU and Rangers tickets. A late-model truck or luxury SUV handles daily life, and healthcare is a padded Gold plan near the ~$62,600 ACA subsidy cutoff. This is a genuinely affluent life by Fort Worth standards, with no state income tax and affordable housing leaving substantial room for travel and saving."
     },
     "5M": {
       "monthlyBudget": 16667,

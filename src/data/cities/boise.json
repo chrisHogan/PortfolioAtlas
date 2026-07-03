@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "A cheapest-acceptable studio or older one-bedroom on the Bench or in Garden City, a paid-off car (Boise is very car-dependent, though Idaho insurance is cheap), and cooking at home most nights. The ACA Silver premium stays low only if MAGI is kept under the 2026 ~$62,600 subsidy cliff, and healthcare plus the car form a hard floor. Entertainment leans on free public land — the Foothills, the Greenbelt, nearby BLM trails. A simple, outdoors-focused life with real budget discipline."
+      "lifestyle": "A cheapest-acceptable studio or older one-bedroom on the Bench or in Garden City, a paid-off car (Boise is very car-dependent, though Idaho insurance is cheap), and cooking at home most nights. The ACA Silver premium stays low only if annual income is kept under the 2026 ~$62,600 subsidy cutoff, and healthcare plus the car form a hard floor. Entertainment leans on free public land — the Foothills, the Greenbelt, nearby BLM trails. A simple, outdoors-focused life with real budget discipline."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -98,7 +98,7 @@
         "monthlyCost": 510
       },
       "healthcare": {
-        "description": "A Gold plan; padded near the ~$62,600 ACA cliff where premium tax credits disappear",
+        "description": "A Gold plan; padded near the ~$62,600 ACA subsidy cutoff where premium tax credits disappear",
         "monthlyCost": 620
       },
       "transportation": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 270
       },
-      "lifestyle": "A high-quality home in Harris Ranch or the North End with Foothills views, regular dinners at Chandlers and The Avery, and a late-model SUV for mountain roads. Premium coverage (padded near the ~$62,600 ACA cliff), a golf membership, BSU season tickets, and multiple ski passes all fit. Weekend fly-fishing and regular travel are easy. A genuinely affluent life by Boise standards."
+      "lifestyle": "A high-quality home in Harris Ranch or the North End with Foothills views, regular dinners at Chandlers and The Avery, and a late-model SUV for mountain roads. Premium coverage (padded near the ~$62,600 ACA subsidy cutoff), a golf membership, BSU season tickets, and multiple ski passes all fit. Weekend fly-fishing and regular travel are easy. A genuinely affluent life by Boise standards."
     },
     "5M": {
       "monthlyBudget": 16667,

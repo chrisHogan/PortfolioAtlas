@@ -98,7 +98,7 @@
         "monthlyCost": 450
       },
       "healthcare": {
-        "description": "A subsidized individual plan nearer the cliff, with a net premium above the entry floor",
+        "description": "A subsidized individual plan nearer the subsidy cutoff, with a net premium above the entry floor",
         "monthlyCost": 650
       },
       "transportation": {

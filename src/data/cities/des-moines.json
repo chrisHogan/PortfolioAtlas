@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 190
       },
-      "lifestyle": "Life here is grounded and quiet, built around a modest one-bedroom in an established neighborhood like Beaverdale or Sherman Hill. Cooking at home is the norm, with an occasional casual meal out, and a paid-off used car handles the errands that Des Moines's light transit cannot. Healthcare rests on a subsidized marketplace Silver plan, so keeping income under the ACA cliff matters. It is a comfortable, unshowy baseline that still leaves room for a gym, streaming, and the city's long recreational trails."
+      "lifestyle": "Life here is grounded and quiet, built around a modest one-bedroom in an established neighborhood like Beaverdale or Sherman Hill. Cooking at home is the norm, with an occasional casual meal out, and a paid-off used car handles the errands that Des Moines's light transit cannot. Healthcare rests on a subsidized marketplace Silver plan, so keeping income under the ACA subsidy cutoff matters. It is a comfortable, unshowy baseline that still leaves room for a gym, streaming, and the city's long recreational trails."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 270
       },
-      "lifestyle": "Full financial independence looks like a premium apartment in a full-amenity building, frequent upscale dinners, and organic, specialty groceries. Healthcare is now a full-price unsubsidized Silver plan, reflecting income above the subsidy cliff. Transportation is a late-model car with rideshare on tap, and there is steady spending on a premium gym, culture, and light travel. It is a polished, self-directed lifestyle with no routine trade-offs."
+      "lifestyle": "Full financial independence looks like a premium apartment in a full-amenity building, frequent upscale dinners, and organic, specialty groceries. Healthcare is now a full-price unsubsidized Silver plan, reflecting income above the subsidy cutoff. Transportation is a late-model car with rideshare on tap, and there is steady spending on a premium gym, culture, and light travel. It is a polished, self-directed lifestyle with no routine trade-offs."
     },
     "5M": {
       "monthlyBudget": 16667,
