@@ -113,7 +113,7 @@ export function formatGap(gap: number): string {
 export type HealthcareRating = 'Excellent' | 'Good' | 'Adequate' | 'Basic';
 export type SafetyRating = 'Very safe' | 'Safe' | 'Exercise caution';
 export type VisaEase = 'Easy' | 'Moderate' | 'Complex';
-export type ClimateDisplay = 'Warm' | 'Mild' | 'Cold' | 'Tropical' | 'Mediterranean' | 'Desert';
+export type ClimateDisplay = 'Warm' | 'Mild' | 'Cold' | 'Tropical' | 'Mediterranean' | 'Desert' | 'Four seasons';
 export type EnglishDisplay = 'Widely spoken' | 'Common' | 'Limited' | 'Rare';
 
 export interface CityDisplayTags {
@@ -139,16 +139,19 @@ export function getSafetyRating(score: number): SafetyRating {
   return 'Exercise caution';
 }
 
-/** Map internal climate tag to display label */
-export function getClimateDisplay(climate: string): ClimateDisplay {
+/** Map internal climate tag to display label. Throws on unrecognized enums so
+ * bad city data fails the (fully prerendered) build instead of shipping a
+ * wrong badge — there is deliberately no fallback label. */
+export function getClimateDisplay(climate: string, citySlug?: string): ClimateDisplay {
   switch (climate) {
     case 'tropical': return 'Tropical';
     case 'subtropical': return 'Warm';
     case 'mediterranean': return 'Mediterranean';
-    case 'continental': return 'Mild';
+    case 'continental': return 'Four seasons';
     case 'desert':
     case 'arid': return 'Desert';
-    default: return 'Mild';
+    default:
+      throw new Error(`Unrecognized climate enum "${climate}"${citySlug ? ` for city "${citySlug}"` : ''} — add a mapping in getClimateDisplay() or fix the city's tags.climate.`);
   }
 }
 
@@ -252,7 +255,7 @@ export function countryWithArticleSentenceStart(country: string): string {
 /** Get all display tags for a city */
 export function getCityDisplayTags(city: CityData): CityDisplayTags {
   return {
-    climate: getClimateDisplay(city.tags.climate),
+    climate: getClimateDisplay(city.tags.climate, city.slug),
     healthcare: getHealthcareRating(city.scores.healthcare),
     english: getEnglishDisplay(city.tags.english),
     safety: getSafetyRating(city.scores.safety),

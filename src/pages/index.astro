@@ -53,7 +53,7 @@ const websiteLd = {
   '@type': 'WebSite',
   'name': 'PortfolioAtlas',
   'url': 'https://portfolioatlas.org',
-  'description': `Enter your portfolio value and see where in the world you can retire across 100+ cities. Built on the 4% rule.`,
+  'description': `Enter your portfolio value and see where in the world you can retire across ${allCities.length} cities. Built on the 4% rule.`,
 };
 
 const calcLd = {
@@ -63,7 +63,7 @@ const calcLd = {
   'url': 'https://portfolioatlas.org',
   'applicationCategory': 'FinanceApplication',
   'operatingSystem': 'Web',
-  'description': `Enter your portfolio and see where you can retire across 100+ cities worldwide.`,
+  'description': `Enter your portfolio and see where you can retire across ${allCities.length} cities worldwide.`,
   'offers': { '@type': 'Offer', 'price': '0', 'priceCurrency': 'USD' },
 };
 
@@ -73,7 +73,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
 
 <Layout
   title="Where Can Your Portfolio Buy You Freedom?"
-  description="See where in the world your portfolio can fund your retirement. 100+ cities, real FIRE numbers, and component-level cost-of-living breakdowns."
+  description={`See where in the world your portfolio can fund your retirement. ${allCities.length} cities, real FIRE numbers, and component-level cost-of-living breakdowns.`}
   jsonLd={[websiteLd, calcLd]}
 >
   <!-- Hero -->
@@ -451,7 +451,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
         For each city we find the portfolio you'd need — the amount that, in a historical backtest, would have lasted your retirement at your chosen confidence — and compare it to yours.
       </p>
       <p class="text-sm text-gray-400 mb-8">
-        Currently tracking 100+ cities across 6 continents.
+        Currently tracking {allCities.length} cities across 6 continents.
       </p>
       <div>
         <p class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-3">Explore by portfolio size</p>
@@ -711,9 +711,10 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   // tri-state, and chip collapse are all derived from this set). Empty = all cities.
   const selectedCountries = new Set();
 
-  // Climate mappings
+  // Climate mappings. "Four seasons" is the display label for continental
+  // cities (formerly labeled "Mild") — the Mild filter keeps matching them.
   const warmClimates = ['Tropical', 'Warm', 'Desert'];
-  const mildClimates = ['Mediterranean', 'Mild'];
+  const mildClimates = ['Mediterranean', 'Mild', 'Four seasons'];
 
   // ─── Helpers ───
   function fmt(n) {
@@ -1408,7 +1409,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     // The engine bundle is deferred (loads after first paint). Until it's ready,
     // show a brief analyzing state and re-render on the ready event.
     if (!window.__paBacktest) {
-      citySections.innerHTML = '<div class="py-16 text-center text-sm text-gray-400">Backtesting 100+ cities against market history…</div>';
+      citySections.innerHTML = `<div class="py-16 text-center text-sm text-gray-400">Backtesting ${cityData.length} cities against market history…</div>`;
       noCities?.classList.add('hidden');
       window.addEventListener('pa:engine-ready', () => renderResults(), { once: true });
       return;
@@ -1418,7 +1419,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     // portfolio|tier|horizon — only recompute when one of those changes.
     const survivalKey = portfolio + '|' + lifestyle + '|' + horizonYears + '|' + passiveIncome + '|' + hcToken() + '|' + adultsToken();
     if (survivalKey !== lastSurvivalKey) {
-      citySections.innerHTML = '<div class="py-16 text-center text-sm text-gray-400">Backtesting 100+ cities against market history…</div>';
+      citySections.innerHTML = `<div class="py-16 text-center text-sm text-gray-400">Backtesting ${cityData.length} cities against market history…</div>`;
       noCities?.classList.add('hidden');
       requestAnimationFrame(() => {
         cityData.forEach((c) => citySurvival(c)); // warm the cache for this key

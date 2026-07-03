@@ -8,7 +8,7 @@
   "tagline": "Free Museums, World-Class Culture, and the Heart of American History",
   "description": "Washington D.C. is one of the few cities in the world where you can visit dozens of world-class museums entirely for free. The Smithsonian Institution, National Gallery of Art, and countless monuments make it a cultural powerhouse. The Metro system is one of the best in the US, and the city's diverse neighborhoods offer everything from Georgetown's Federal architecture to Adams Morgan's international dining. Housing is expensive and DC has its own income tax, but the unmatched access to free culture and excellent transit partially offset the costs for FIRE retirees.",
   "tags": {
-    "climate": "subtropical",
+    "climate": "continental",
     "english": "high"
   },
   "quickFacts": {
@@ -52,7 +52,7 @@
       "utilities": {
         "monthlyCost": 200
       },
-      "lifestyle": "A studio in a good Columbia Heights building or a one-bedroom in Petworth or across the river in Arlington keeps housing within a lean budget, though Washington's floor stays high. The Metro removes the need for a car, health is a MAGI-managed subsidized Silver plan through DC Health Link, and the city's signature perk — dozens of free Smithsonian museums and monuments — keeps entertainment costs near zero. Meals lean on the Ethiopian and Salvadoran spots of Adams Morgan and Mount Pleasant, with most cooking done at home. The District's own income tax tightens an already constrained budget, but few cities give back so much culture for free."
+      "lifestyle": "A studio in a good Columbia Heights building or a one-bedroom in Petworth or across the river in Arlington keeps housing within a lean budget, though Washington's floor stays high. The Metro removes the need for a car, health is a income-managed subsidized Silver plan through DC Health Link, and the city's signature perk — dozens of free Smithsonian museums and monuments — keeps entertainment costs near zero. Meals lean on the Ethiopian and Salvadoran spots of Adams Morgan and Mount Pleasant, with most cooking done at home. The District's own income tax tightens an already constrained budget, but few cities give back so much culture for free."
     },
     "2M": {
       "monthlyBudget": 6667,
@@ -98,7 +98,7 @@
         "monthlyCost": 600
       },
       "healthcare": {
-        "description": "Unsubsidized, age-rated DC Health Link plan (Silver/Gold; 45yo ~$690, 55yo ~$1,065), GW/Georgetown/Johns Hopkins access — the swing line above the cliff",
+        "description": "Unsubsidized, age-rated DC Health Link plan (Silver/Gold; 45yo ~$690, 55yo ~$1,065), GW/Georgetown/Johns Hopkins access — the swing line above the subsidy cutoff",
         "monthlyCost": 850
       },
       "transportation": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 300
       },
-      "lifestyle": "A quality one-bedroom or modest two-bedroom in Georgetown, a Capitol Hill rowhouse, or a Kalorama condo puts daily life in Washington's most walkable, established neighborhoods. Dining out is a regular habit across the city's international scene, and healthcare is a full-price, age-rated plan with GW, Georgetown, and nearby Johns Hopkins access — the swing line above the returned ACA cliff. Metro, rideshare, and an occasional rental cover errands and weekend drives to Virginia wine country or the Chesapeake. Kennedy Center performances, Nationals games, and the free museums make for a rich calendar. At $6,800 a month, Washington is comfortably affluent, with an intellectual, policy-tinged social scene."
+      "lifestyle": "A quality one-bedroom or modest two-bedroom in Georgetown, a Capitol Hill rowhouse, or a Kalorama condo puts daily life in Washington's most walkable, established neighborhoods. Dining out is a regular habit across the city's international scene, and healthcare is a full-price, age-rated plan with GW, Georgetown, and nearby Johns Hopkins access — the swing line above the returned ACA subsidy cutoff. Metro, rideshare, and an occasional rental cover errands and weekend drives to Virginia wine country or the Chesapeake. Kennedy Center performances, Nationals games, and the free museums make for a rich calendar. At $6,800 a month, Washington is comfortably affluent, with an intellectual, policy-tinged social scene."
     },
     "5M": {
       "monthlyBudget": 16667,
