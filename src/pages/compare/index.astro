@@ -67,7 +67,7 @@ const breadcrumbLd = {
 
 <Layout
   title="Compare FIRE Destinations Side by Side"
-  description="Compare FIRE Numbers across 100+ cities worldwide. See how much you need to retire in each city at Lean FIRE, FIRE, and Fat FIRE levels."
+  description={`Compare FIRE Numbers across ${allCities.length} cities worldwide. See how much you need to retire in each city at Lean FIRE, FIRE, and Fat FIRE levels.`}
   jsonLd={breadcrumbLd}
 >
   <section class="bg-brand-950 text-white py-16">
@@ -76,7 +76,7 @@ const breadcrumbLd = {
         Compare Destinations
       </h1>
       <p class="text-xl text-sand-300 max-w-2xl mx-auto">
-        Pick two cities and compare FIRE Numbers side by side, or browse all 100+ cities below.
+        Pick two cities and compare FIRE Numbers side by side, or browse all {allCities.length} cities below.
       </p>
     </div>
   </section>
@@ -158,7 +158,7 @@ const breadcrumbLd = {
   <!-- All-Cities FIRE Number Matrix -->
   <section class="container-wide py-8" id="all-cities-section">
     <h2 class="font-serif text-2xl font-bold text-brand-950 mb-2">
-      All 100+ Cities by FIRE Number
+      All {allCities.length} Cities by FIRE Number
     </h2>
     <p class="text-sm text-gray-500 mb-4">Compare the portfolio needed to retire in each city at Lean FIRE, FIRE, and Fat FIRE levels.</p>
     <div id="matrix-portfolio-banner" class="hidden mb-4 bg-brand-50 border border-brand-200 rounded-xl px-5 py-3 flex items-center gap-3 flex-wrap">
@@ -168,7 +168,7 @@ const breadcrumbLd = {
       <div id="all-cities-matrix"></div>
     </div>
     <button id="matrix-show-more" type="button" class="mt-4 w-full py-2 text-sm font-semibold text-brand-600 hover:text-brand-800 border border-sand-200 rounded-lg hover:bg-sand-50 transition-colors">
-      Show all 100+ cities
+      Show all {allCities.length} cities
     </button>
   </section>
 </Layout>

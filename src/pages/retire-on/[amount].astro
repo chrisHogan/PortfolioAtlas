@@ -95,7 +95,7 @@ if (amount === '1m') {
 const cheapestComfortable = comfortable[0];
 const cheapestAnswer = cheapestComfortable
   ? `The most affordable comfortable retirement destination within a ${label} portfolio is ${cheapestComfortable.city.name}, ${cheapestComfortable.city.country}, with a FIRE Number of ${formatFireNumber(cheapestComfortable.fireNumber)} and monthly costs of approximately ${formatCurrency(cheapestComfortable.monthlyCost)}.`
-  : `A ${label} portfolio is not yet sufficient for comfortable FIRE in any of the 111 cities we track, but Lean FIRE is possible in ${leanFire.length} cities.`;
+  : `A ${label} portfolio is not yet sufficient for comfortable FIRE in any of the ${allCities.length} cities we track, but Lean FIRE is possible in ${leanFire.length} cities.`;
 
 const regionList = comfortCount > 0
   ? [...new Set(comfortable.map((r) => r.city.region))].slice(0, 3).join(', ')

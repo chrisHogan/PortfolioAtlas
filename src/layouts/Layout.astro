@@ -2,6 +2,7 @@
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import FeedbackButton from '../components/FeedbackButton.astro';
+import { allCities } from '../data/cities/index';
 import '../styles/global.css';
 interface Props {
   title: string;
@@ -14,7 +15,7 @@ interface Props {
 
 const {
   title,
-  description = 'Discover what your investment portfolio can buy you in 100+ cities around the world. Compare lifestyles, costs, and FIRE potential across top retirement destinations.',
+  description = `Discover what your investment portfolio can buy you in ${allCities.length} cities around the world. Compare lifestyles, costs, and FIRE potential across top retirement destinations.`,
   ogImage = '/og-default.png',
   canonicalUrl,
   jsonLd,
