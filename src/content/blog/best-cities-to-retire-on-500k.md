@@ -61,7 +61,7 @@ Beach living, not beach pricing. A 2BR apartment or small villa in Anjuna or Map
 
 The most established Lean FIRE option in the Americas. A 2BR in La Floresta, González Suárez, or Cumbayá runs about $725/month. Almuerzos are a few dollars, IESS public insurance covers basic care, and the country uses the U.S. dollar — so there's no exchange-rate risk on your withdrawals.
 
-- **Visa:** 90 days visa-free for U.S. citizens; **Pensioner Visa** with a $1,375/month income requirement is the standard retirement route. *Rules change — verify before applying.*
+- **Visa:** 90 days visa-free for U.S. citizens; **Pensioner Visa** with a $1,446/month income requirement (three times Ecuador's basic salary, updated annually) is the standard retirement route. *Rules change — verify before applying.*
 - **Healthcare:** Adequate. IESS plus cash-pay private clinics is the typical hybrid.
 - **Honest caveat:** 9,350 feet of altitude takes weeks to adjust to. Spanish is essential — English is not widely spoken.
 
@@ -71,7 +71,7 @@ The most established Lean FIRE option in the Americas. A 2BR in La Floresta, Gon
 
 Quito's quieter, more expat-friendly cousin. A furnished 2BR in El Centro or along the Tomebamba River runs $675/month, and the colonial old town is genuinely walkable. The expat community is large and welcoming — one of the easier soft landings on this list.
 
-- **Visa:** **Jubilado (Retirement) Visa** requires $1,400/mo in pension income, with a path to citizenship after 3 years. *Rules change — verify before applying.*
+- **Visa:** **Jubilado (Retirement) Visa** requires $1,446/mo in pension income (three times Ecuador's basic salary, updated annually), with a path to citizenship after 3 years. *Rules change — verify before applying.*
 - **Healthcare:** Good. IESS enrollment runs ~$80/mo and pairs well with cash-pay visits to Hospital Monte Sinaí.
 - **Honest caveat:** $555K is just above the $500K target — you'll want a small buffer or a touch of side income.
 
