@@ -182,17 +182,26 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
           </div>
         </div>
 
-        <!-- Input 3: Optional inputs (collapsed by default) -->
+        <!-- Input 3: Assumptions (collapsed by default; chips mirror the live settings) -->
         <div class="mb-8">
           <button
             type="button"
             id="optional-toggle"
-            class="flex items-center justify-center gap-2 w-full py-2 text-xs font-medium text-sand-400 hover:text-sand-200 transition-colors"
+            aria-expanded="false"
+            aria-controls="optional-inputs"
+            class="w-full px-4 py-3 rounded-xl border border-white/15 bg-white/5 hover:bg-white/10 hover:border-white/30 text-left transition-all"
           >
-            <span>Refine your projections (optional)</span>
-            <svg id="optional-chevron" xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-            </svg>
+            <span class="flex items-center justify-between gap-2">
+              <span class="text-sm font-semibold text-white">Your assumptions</span>
+              <svg id="optional-chevron" xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 text-sand-400 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </span>
+            <span id="assumption-chips" class="flex flex-wrap gap-1.5 mt-2">
+              <span class="px-2.5 py-1 text-[11px] font-medium rounded-full bg-white/10 border border-white/15 text-sand-200">Balanced · 90%</span>
+              <span class="px-2.5 py-1 text-[11px] font-medium rounded-full bg-white/10 border border-white/15 text-sand-200">30 years</span>
+              <span class="px-2.5 py-1 text-[11px] font-medium rounded-full bg-white/10 border border-white/15 text-sand-200">Just me</span>
+            </span>
           </button>
 
           <div id="optional-inputs" class="hidden mt-4 pt-4 border-t border-white/10 space-y-4">
@@ -406,7 +415,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     <div class="container-narrow pb-2">
       <p class="household-note hidden text-xs font-semibold text-brand-700 mb-1">Showing costs for 2 adults — housing largely shared; food and healthcare scaled per person.</p>
       <p class="text-xs text-gray-400 leading-snug">
-        <span class="household-base-note">Cost estimates are for a one-person household — adjust household size under "Refine your projections". </span>"Needed to retire here" is the portfolio that survived your retirement length in a historical backtest at your chosen confidence; the 4% rule is shown elsewhere only as a familiar benchmark.
+        <span class="household-base-note">Cost estimates are for a one-person household — adjust household size under "Your assumptions". </span>"Needed to retire here" is the portfolio that survived your retirement length in a historical backtest at your chosen confidence; the 4% rule is shown elsewhere only as a familiar benchmark.
       </p>
     </div>
 
@@ -777,6 +786,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
 
   function setOptionalOpen(open) {
     if (!optionalInputs || !optionalChevron) return;
+    optionalToggle?.setAttribute('aria-expanded', String(open));
     if (open) {
       optionalInputs.classList.remove('hidden');
       optionalChevron.style.transform = 'rotate(180deg)';
@@ -789,7 +799,30 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   optionalToggle?.addEventListener('click', () => {
     const isHidden = optionalInputs?.classList.contains('hidden');
     setOptionalOpen(isHidden);
+    if (isHidden && typeof gtag === 'function') gtag('event', 'assumptions_opened');
   });
+
+  // ─── Assumption chips (collapsed-state summary of the live settings) ───
+  const assumptionChips = document.getElementById('assumption-chips');
+  const CHIP_CLASS = 'px-2.5 py-1 text-[11px] font-medium rounded-full bg-white/10 border border-white/15 text-sand-200';
+  const CONF_CHIP_LABELS = { 80: 'Aggressive · 80%', 90: 'Balanced · 90%', 95: 'Conservative · 95%' };
+  function updateAssumptionChips() {
+    if (!assumptionChips) return;
+    const labels = [
+      CONF_CHIP_LABELS[confPct] || (confPct + '%'),
+      horizonYears + ' years',
+      adults === 2 ? 'Two adults' : 'Just me',
+    ];
+    if (annualSavings > 0) labels.push('Saving $' + annualSavings.toLocaleString('en-US') + '/yr');
+    if (passiveIncome > 0) labels.push('$' + passiveIncome.toLocaleString('en-US') + '/yr passive');
+    if (healthcareOverride != null) labels.push('Healthcare $' + healthcareOverride.toLocaleString('en-US') + '/mo');
+    assumptionChips.replaceChildren(...labels.map((text) => {
+      const chip = document.createElement('span');
+      chip.className = CHIP_CLASS;
+      chip.textContent = text;
+      return chip;
+    }));
+  }
 
   // ─── Input Formatting ───
   portfolioInput.addEventListener('input', () => {
@@ -847,10 +880,11 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     });
   }
 
-  setupOptionalInput(savingsInput, savingsError, (val) => { annualSavings = val; ssSet('save', val || null); });
+  setupOptionalInput(savingsInput, savingsError, (val) => { annualSavings = val; ssSet('save', val || null); updateAssumptionChips(); });
   setupOptionalInput(passiveInput, passiveError, (val) => {
     passiveIncome = val;
     ssSet('passive', val || null);
+    updateAssumptionChips();
     // Warn if > $1M
     if (passiveWarn) {
       if (val > 1_000_000) {
@@ -868,7 +902,10 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   const horizonValue = document.getElementById('horizon-value');
 
   const CONF_LABELS = { 80: 'Aggressive (80%)', 90: 'Balanced (90%)', 95: 'Conservative (95%)' };
-  function updateConfLabel() { if (confValue) confValue.textContent = CONF_LABELS[confPct] || ('' + confPct + '%'); }
+  function updateConfLabel() {
+    if (confValue) confValue.textContent = CONF_LABELS[confPct] || ('' + confPct + '%');
+    updateAssumptionChips();
+  }
   function setConfActive() {
     document.querySelectorAll('.conf-stop').forEach((b) => {
       const active = parseInt(b.getAttribute('data-conf'), 10) === confPct;
@@ -892,7 +929,10 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     });
   });
 
-  function updateHorizonLabel() { if (horizonValue) horizonValue.textContent = horizonYears + ' years'; }
+  function updateHorizonLabel() {
+    if (horizonValue) horizonValue.textContent = horizonYears + ' years';
+    updateAssumptionChips();
+  }
   let horizonDebounce;
   horizonInput?.addEventListener('input', () => {
     horizonYears = parseInt(horizonInput.value, 10) || 30;
@@ -924,6 +964,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   function rerenderForHc() {
     readHcOverride();
     ssSet('hcusd', healthcareOverride);
+    updateAssumptionChips();
     if (portfolio > 0) {
       clearTimeout(hcDebounce);
       hcDebounce = setTimeout(() => { resetSectionCounts(); renderResults(); }, 150);
@@ -947,6 +988,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
       b.classList.toggle('border-white/15', !active);
       b.classList.toggle('text-white/70', !active);
     });
+    updateAssumptionChips();
   }
   document.querySelectorAll('.adults-stop').forEach((btn) => {
     btn.addEventListener('click', () => {
@@ -1663,6 +1705,9 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
       if (hcField) hcField.classList.remove('hidden');
       if (hcInput) hcInput.value = String(n);
     }
+    // Chips: rebuild once more now that savings/passive/hc are restored (they
+    // land around the conf/horizon rebuild inside updateConfLabel above).
+    updateAssumptionChips();
 
     // Restore filters from URL
     const countriesParam = params.get('countries');
@@ -1931,6 +1976,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
       changed = true;
     }
     if (!changed) return;
+    updateAssumptionChips();
     if (portfolio > 0) { resetSectionCounts(); renderResults(); }
     else updateURL();
   });
