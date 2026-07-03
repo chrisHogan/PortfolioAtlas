@@ -8,6 +8,8 @@ import {
   formatFireNumber,
   getCityDisplayTags,
   getTagColor,
+  countryWithArticle,
+  countryWithArticleSentenceStart,
   LIFESTYLE_LABELS,
   ALL_LIFESTYLE_TIERS,
 } from '../../data/fireNumber';
@@ -31,6 +33,10 @@ export function getStaticPaths() {
 
 const { cities, countryName } = Astro.props;
 const countrySlug = toSlug(countryName);
+// Mid-sentence and sentence-start display forms ("the United States" /
+// "The Netherlands"). URL slugs and attributive uses keep the bare name.
+const countryInSentence = countryWithArticle(countryName);
+const countrySentenceStart = countryWithArticleSentenceStart(countryName);
 
 // Compute FIRE numbers for all cities, sort by FIRE number ascending
 const cityRows = cities.map((city) => {
@@ -52,12 +58,12 @@ const pageUrl = `${siteUrl}/retire-in/${countrySlug}/`;
 const top2 = cityRows.slice(0, 2).map((r) => r.city.name);
 const titleCities = top2.length >= 2 ? `${top2[0]}, ${top2[1]} & More` : top2[0];
 const pageTitle = cities.length > 1
-  ? `Retire in ${countryName}: FIRE Numbers for ${titleCities}`
-  : `Retire in ${countryName}: FIRE Number for ${top2[0]}`;
+  ? `Retire in ${countryInSentence}: FIRE Numbers for ${titleCities}`
+  : `Retire in ${countryInSentence}: FIRE Number for ${top2[0]}`;
 
 // Meta description — target 140-160 chars
-const metaDescBase = `How much do you need to retire in ${countryName}? FIRE Numbers range from ${formatFireNumber(cheapest.fire)} in ${cheapest.city.name} to ${formatFireNumber(mostExpensive.fire)} in ${mostExpensive.city.name}. See full cost breakdowns for all ${cities.length} cities.`;
-const metaDescSingle = `How much do you need to retire in ${countryName}? The FIRE Number for ${cheapest.city.name} is ${formatFireNumber(cheapest.fire)} (4% rule). See Lean FIRE, FIRE, and Fat FIRE cost breakdowns.`;
+const metaDescBase = `How much do you need to retire in ${countryInSentence}? FIRE Numbers range from ${formatFireNumber(cheapest.fire)} in ${cheapest.city.name} to ${formatFireNumber(mostExpensive.fire)} in ${mostExpensive.city.name}. See full cost breakdowns for all ${cities.length} cities.`;
+const metaDescSingle = `How much do you need to retire in ${countryInSentence}? The FIRE Number for ${cheapest.city.name} is ${formatFireNumber(cheapest.fire)} (4% rule). See Lean FIRE, FIRE, and Fat FIRE cost breakdowns.`;
 const metaDesc = cities.length > 1 ? metaDescBase : metaDescSingle;
 
 const breadcrumbLd = {
@@ -65,7 +71,7 @@ const breadcrumbLd = {
   '@type': 'BreadcrumbList',
   'itemListElement': [
     { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': siteUrl },
-    { '@type': 'ListItem', 'position': 2, 'name': `Retire in ${countryName}`, 'item': pageUrl },
+    { '@type': 'ListItem', 'position': 2, 'name': `Retire in ${countryInSentence}`, 'item': pageUrl },
   ],
 };
 
@@ -84,12 +90,12 @@ function getCountryDescription(): string {
   const cheapName = cheapest.city.name;
   const cheapFire = formatFireNumber(cheapest.fire);
   if (cities.length === 1) {
-    return `${cheapName} is the city we track in ${countryName}, with a FIRE Number of ${cheapFire} based on the 4% safe withdrawal rate. Explore the full cost breakdown below to see if ${countryName} fits your retirement plan.`;
+    return `${cheapName} is the city we track in ${countryInSentence}, with a FIRE Number of ${cheapFire} based on the 4% safe withdrawal rate. Explore the full cost breakdown below to see if ${countryInSentence} fits your retirement plan.`;
   }
   const expName = mostExpensive.city.name;
   const expFire = formatFireNumber(mostExpensive.fire);
   const avgFormatted = formatFireNumber(avgFire);
-  return `${countryName} offers ${cities.length} retirement destinations tracked on PortfolioAtlas. The most affordable is ${cheapName} at ${cheapFire}, while ${expName} requires ${expFire}. The average FIRE Number across all ${countryName} cities is ${avgFormatted}, calculated using the 4% safe withdrawal rate.`;
+  return `${countrySentenceStart} offers ${cities.length} retirement destinations tracked on PortfolioAtlas. The most affordable is ${cheapName} at ${cheapFire}, while ${expName} requires ${expFire}. The average FIRE Number across all ${countryName} cities is ${avgFormatted}, calculated using the 4% safe withdrawal rate.`;
 }
 ---
 
@@ -112,10 +118,10 @@ function getCountryDescription(): string {
         All Countries
       </a>
       <h1 class="text-3xl md:text-4xl lg:text-5xl font-serif font-bold mb-4">
-        Retire in {countryName}
+        Retire in {countryInSentence}
       </h1>
       <p class="text-lg text-sand-300 max-w-2xl leading-relaxed">
-        Using the <strong class="text-white">4% safe withdrawal rule</strong>, here's how much you need invested to retire in {countryName} at every lifestyle level.
+        Using the <strong class="text-white">4% safe withdrawal rule</strong>, here's how much you need invested to retire in {countryInSentence} at every lifestyle level.
       </p>
     </div>
   </section>
@@ -147,7 +153,7 @@ function getCountryDescription(): string {
     <!-- Cities table -->
     <section>
       <h2 class="font-serif text-2xl font-bold text-brand-950 mb-4">
-        FIRE Numbers for {cities.length > 1 ? `All ${cities.length} Cities in` : ''} {countryName}
+        FIRE Numbers for {cities.length > 1 ? `All ${cities.length} Cities in` : ''} {countryInSentence}
       </h2>
       <div class="bg-white rounded-2xl border border-sand-200 shadow-sm overflow-hidden">
         <div class="overflow-x-auto">
@@ -186,7 +192,7 @@ function getCountryDescription(): string {
     <!-- Country description -->
     <section class="mt-10">
       <h2 class="font-serif text-2xl font-bold text-brand-950 mb-3">
-        About Retiring in {countryName}
+        About Retiring in {countryInSentence}
       </h2>
       <p class="text-gray-600 leading-relaxed">
         {getCountryDescription()}
@@ -197,7 +203,7 @@ function getCountryDescription(): string {
     <section class="mt-10">
       <div class="bg-brand-950 rounded-2xl p-8 text-center text-white">
         <h2 class="font-serif text-2xl font-bold mb-3">
-          See Which Cities in {countryName} Match Your Portfolio
+          See Which Cities in {countryInSentence} Match Your Portfolio
         </h2>
         <p class="text-sand-300 mb-6 max-w-lg mx-auto">
           Enter your portfolio value and we'll show you which {countryName} cities you can retire in today.

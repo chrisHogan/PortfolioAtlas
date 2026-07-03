@@ -225,6 +225,30 @@ export function getVisaEase(country: string): VisaEase {
   return VISA_EASE_BY_COUNTRY[country] || 'Moderate';
 }
 
+// Countries whose names take a definite article mid-sentence ("retire in the
+// United States"). Keys must match the `country` strings in the city data.
+// Not used for attributive forms ("United States cities") or "City, Country"
+// appositions, which are correct without the article.
+const COUNTRIES_WITH_ARTICLE = new Set([
+  'United States',
+  'United Kingdom',
+  'Netherlands',
+  'Philippines',
+  'United Arab Emirates',
+  'Czech Republic',
+]);
+
+/** "United States" -> "the United States"; countries not needing an article pass through. */
+export function countryWithArticle(country: string): string {
+  return COUNTRIES_WITH_ARTICLE.has(country) ? `the ${country}` : country;
+}
+
+/** Sentence-start variant: "The Netherlands offers..." */
+export function countryWithArticleSentenceStart(country: string): string {
+  const withArticle = countryWithArticle(country);
+  return withArticle.startsWith('the ') ? `The ${withArticle.slice(4)}` : withArticle;
+}
+
 /** Get all display tags for a city */
 export function getCityDisplayTags(city: CityData): CityDisplayTags {
   return {
