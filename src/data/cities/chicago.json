@@ -38,7 +38,7 @@
         "monthlyCost": 420
       },
       "healthcare": {
-        "description": "Subsidized ACA Silver via Get Covered Illinois with MAGI managed under the 2026 400%-FPL cliff (~$62,600); assumes an early retiree (45–55), older retirees should budget more. Above the cliff, premium tax credits vanish and this line climbs toward ~$1,000/mo",
+        "description": "A subsidized Silver plan through Get Covered Illinois, assuming annual income stays under the 2026 subsidy cutoff of about $62,600; above that, the full price climbs toward $1,000 a month. Priced for an early retiree aged 45-55; older retirees should budget more.",
         "monthlyCost": 470
       },
       "transportation": {

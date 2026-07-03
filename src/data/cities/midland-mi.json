@@ -38,7 +38,7 @@
         "monthlyCost": 340
       },
       "healthcare": {
-        "description": "Subsidized ACA Silver with income under the 2026 400%-FPL cliff (~$62,600); assumes an early retiree (45–55), older retirees should budget more. Above the cliff this climbs toward MI's full unsubsidized price. (Michigan expanded Medicaid, but the Lean tier models the subsidized marketplace Silver, consistent with peers)",
+        "description": "A subsidized ACA Silver plan, assuming annual income stays under the 2026 subsidy cutoff of about $62,600; above that it climbs toward Michigan's full unsubsidized price. Michigan also expanded Medicaid, but this budget assumes the marketplace plan; priced for ages 45-55, and older retirees should budget more.",
         "monthlyCost": 450
       },
       "transportation": {

@@ -38,7 +38,7 @@
         "monthlyCost": 340
       },
       "healthcare": {
-        "description": "Subsidized ACA Silver with income under the 2026 400%-FPL cliff (~$62,600); assumes an early retiree (45–55), older retirees should budget more. The net subsidized premium is income-capped, so it is roughly state-independent; above the cliff it climbs into SD's unsubsidized band",
+        "description": "A subsidized ACA Silver plan, assuming annual income stays under the 2026 subsidy cutoff of about $62,600; the subsidized cost is capped by income and fairly similar across states, but above the cutoff it climbs into South Dakota's unsubsidized range. Priced for ages 45-55; older retirees should budget more.",
         "monthlyCost": 450
       },
       "transportation": {

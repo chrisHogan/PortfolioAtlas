@@ -38,7 +38,7 @@
         "monthlyCost": 360
       },
       "healthcare": {
-        "description": "ACA marketplace Silver plan via New Mexico's exchange, subsidized if MAGI stays under the 2026 ~$62,600 400%-FPL cliff; New Mexico uniquely backfilled the lost federal subsidy for 2026. Assumes an early retiree (45–55) — older retirees budget more",
+        "description": "A subsidized Silver plan on New Mexico's ACA exchange, assuming annual income stays under the 2026 subsidy cutoff of about $62,600; New Mexico added its own state subsidy for 2026 to soften that cutoff. Priced for an early retiree aged 45-55; older retirees should budget more.",
         "monthlyCost": 450
       },
       "transportation": {

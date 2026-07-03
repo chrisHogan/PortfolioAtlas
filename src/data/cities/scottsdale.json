@@ -38,7 +38,7 @@
         "monthlyCost": 370
       },
       "healthcare": {
-        "description": "ACA marketplace Silver plan on Arizona's exchange, subsidized if MAGI is kept under the 2026 400%-FPL cliff (~$62,600 single); assumes an early retiree (45–55) — older retirees budget more. Arizona has no state subsidy backfill, so above the cliff this line jumps toward the full ~$950/mo sticker.",
+        "description": "A subsidized Silver plan on Arizona's ACA exchange, assuming annual income stays under the 2026 subsidy cutoff of about $62,600 for a single person; Arizona offers no extra state subsidy, so above that the full price runs about $950 a month. Priced for an early retiree aged 45-55; older retirees should budget more.",
         "monthlyCost": 470
       },
       "transportation": {

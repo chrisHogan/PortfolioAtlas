@@ -38,7 +38,7 @@
         "monthlyCost": 600
       },
       "healthcare": {
-        "description": "Subsidized individual marketplace plan with MAGI kept under the ACA 400%-FPL cliff; Hawaii's low premiums make this a sticky floor. Assumes an early retiree (45–55); older retirees budget more.",
+        "description": "A subsidized marketplace plan, assuming annual income stays under the federal subsidy cutoff of about $62,600; Hawaii's premiums are low to begin with, which keeps this cost steady. Priced for an early retiree aged 45-55; older retirees should budget more.",
         "monthlyCost": 450
       },
       "transportation": {

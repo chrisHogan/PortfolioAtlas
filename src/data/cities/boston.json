@@ -38,7 +38,7 @@
         "monthlyCost": 400
       },
       "healthcare": {
-        "description": "MAGI-managed subsidized MA ConnectorCare Silver at the 2026 ConnectorCare enrollee-premium ceiling (~$235/mo in the 300–400% FPL band; $0 below 150% FPL), kept under the returned ACA 400%-FPL cliff (~$62,600 single). MA's ConnectorCare wrap prices subsidized Lean well BELOW the federal-exchange peers (PA/DC $425–470); above the cliff premium tax credits vanish and this line climbs to full price. Assumes an early retiree (45–55); older retirees budget more",
+        "description": "Massachusetts' ConnectorCare program caps the premium near $235 a month at this income level (less at lower incomes), well below the $425-470 typical of comparable states, as long as annual income stays under the 2026 subsidy cutoff of about $62,600; above that, the plan goes to full price. Priced for an early retiree aged 45-55; older retirees should budget more.",
         "monthlyCost": 235
       },
       "transportation": {

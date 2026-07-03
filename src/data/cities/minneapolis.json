@@ -38,7 +38,7 @@
         "monthlyCost": 340
       },
       "healthcare": {
-        "description": "MinnesotaCare (MN's Basic Health Program, MNsure) — VERIFIED as the top of the $0–80/mo sliding-scale band (avg ~$50), non-asset-tested, for MAGI held ≤ ~200% FPL (~$31,300); assumes an early retiree (45–55), older retirees should budget more. **Fallback (if MAGI can't be held that low): a subsidized MNsure Silver ~$450 (→ Lean total $2,400).** Above the 2026 400%-FPL cliff (~$62,600) an unsubsidized MNsure Silver is only ~$530 here (verified age-50), far below the ~$1,000 typical of higher-cost states",
+        "description": "MinnesotaCare, the state's low-cost public program, runs $0-80 a month (about $50 is typical) for retirees who keep annual income under roughly $31,300; with higher income, a subsidized marketplace Silver plan runs about $450. Even unsubsidized, a Minnesota Silver plan is only about $530 a month at age 50 - far below the $1,000 typical of higher-cost states - and older retirees should budget more.",
         "monthlyCost": 75
       },
       "transportation": {

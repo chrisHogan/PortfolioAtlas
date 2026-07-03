@@ -38,7 +38,7 @@
         "monthlyCost": 350
       },
       "healthcare": {
-        "description": "MAGI-managed subsidized Pennie Silver under the 2026 ACA 400%-FPL cliff (~$62,600); SW-PA is one of the cheapest ACA markets (UPMC vs Highmark), so the benchmark — and this line — is low. Above the cliff it goes full price. Assumes 45–55; older retirees budget more",
+        "description": "A subsidized Silver plan through Pennie, Pennsylvania's ACA exchange, assuming annual income stays under the 2026 subsidy cutoff of about $62,600; competition between the UPMC and Highmark networks makes southwestern Pennsylvania one of the cheapest ACA markets. Priced for ages 45-55; older retirees should budget more.",
         "monthlyCost": 425
       },
       "transportation": {

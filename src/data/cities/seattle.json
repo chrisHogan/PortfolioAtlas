@@ -38,7 +38,7 @@
         "monthlyCost": 390
       },
       "healthcare": {
-        "description": "Subsidized Washington Healthplanfinder individual plan under the cliff. Assumes an early retiree (45–55); older retirees budget more.",
+        "description": "A subsidized individual plan through Washington Healthplanfinder, assuming annual income stays under the federal subsidy cutoff of about $62,600. Priced for an early retiree aged 45-55; older retirees should budget more.",
         "monthlyCost": 505
       },
       "transportation": {

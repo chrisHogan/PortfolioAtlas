@@ -38,7 +38,7 @@
         "monthlyCost": 340
       },
       "healthcare": {
-        "description": "Subsidized benchmark Silver on the Iowa federal exchange with MAGI under the 400%-FPL cliff (~$62,600); assumes an early retiree (45–55), older retirees should budget more. Above the cliff, credits vanish and this climbs toward the full ~$705+ Iowa price",
+        "description": "A subsidized Silver plan on Iowa's ACA marketplace, assuming annual income stays under the 2026 subsidy cutoff of about $62,600; above that, the full Iowa price runs about $705 or more. Priced for an early retiree aged 45-55; older retirees should budget more.",
         "monthlyCost": 450
       },
       "transportation": {
@@ -98,7 +98,7 @@
         "monthlyCost": 500
       },
       "healthcare": {
-        "description": "Full-price unsubsidized Silver — income sits above the 400%-FPL cliff, so no premium tax credit applies (verified: age-50 benchmark Silver ≈ $700, cheapest ≈ $640 — $680 sits between)",
+        "description": "A full-price Silver plan, since income at this budget sits above the subsidy cutoff. At age 50 the benchmark Silver runs about $700 a month and the cheapest about $640, so $680 is a realistic middle.",
         "monthlyCost": 680
       },
       "transportation": {

@@ -38,7 +38,7 @@
         "monthlyCost": 400
       },
       "healthcare": {
-        "description": "MAGI-managed subsidized DC Health Link Silver under the 2026 ACA 400%-FPL cliff (~$62,600); above it, premium tax credits vanish and this line goes full price. Assumes 45–55; older retirees budget more",
+        "description": "A subsidized Silver plan through DC Health Link, assuming annual income stays under the 2026 subsidy cutoff of about $62,600; above that, the plan goes to full price. Priced for ages 45-55; older retirees should budget more.",
         "monthlyCost": 450
       },
       "transportation": {

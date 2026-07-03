@@ -38,7 +38,7 @@
         "monthlyCost": 340
       },
       "healthcare": {
-        "description": "Subsidized ACA Silver with MAGI kept under the 2026 400%-FPL cliff (~$62,600); assumes an early retiree (45–55), older retirees should budget more. Nebraska's UNsubsidized price is among the higher-cost states (near the top on average-silver), so crossing the cliff is unusually punishing (see below)",
+        "description": "A subsidized ACA Silver plan, assuming annual income stays under the 2026 subsidy cutoff of about $62,600; Nebraska's unsubsidized prices are among the nation's highest, so losing the subsidy is unusually costly here. Priced for an early retiree aged 45-55; older retirees should budget more.",
         "monthlyCost": 450
       },
       "transportation": {
@@ -166,7 +166,7 @@
         "monthlyCost": 850
       },
       "healthcare": {
-        "description": "Unsubsidized top-tier domestic plan (Gold/Platinum) for a 45–55 retiree plus concierge/DPC — set above a comparable Ohio figure to reflect Nebraska's higher unsubsidized market; NOT an international/expat plan",
+        "description": "A top-tier unsubsidized domestic plan (Gold or Platinum) plus a concierge or direct-primary-care membership, priced for ages 45-55 and reflecting Nebraska's higher unsubsidized market. This is a US domestic setup, not an international expat plan.",
         "monthlyCost": 1600
       },
       "transportation": {

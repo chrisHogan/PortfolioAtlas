@@ -38,7 +38,7 @@
         "monthlyCost": 390
       },
       "healthcare": {
-        "description": "MAGI-managed subsidized ACA Silver on the FL marketplace, kept under the 2026 400%-FPL cliff (~$62,600 single); income-capped. Above the cliff it climbs to full price. Assumes an early retiree (45–55); older retirees budget more",
+        "description": "A subsidized Silver plan on Florida's ACA marketplace, with the premium capped by income as long as annual income stays under the 2026 subsidy cutoff of about $62,600 for a single person; above that it goes to full price. Priced for an early retiree aged 45-55; older retirees should budget more.",
         "monthlyCost": 480
       },
       "transportation": {

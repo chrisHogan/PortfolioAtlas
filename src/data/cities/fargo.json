@@ -38,7 +38,7 @@
         "monthlyCost": 340
       },
       "healthcare": {
-        "description": "Subsidized ACA Silver with income kept under the 2026 400%-FPL cliff (~$62,600); assumes an early retiree (45–55), older retirees should budget more. Above the cliff, premium tax credits vanish and this climbs toward the full unsubsidized North Dakota price",
+        "description": "A subsidized ACA Silver plan, assuming annual income stays under the 2026 subsidy cutoff of about $62,600; above that, the price climbs to North Dakota's full unsubsidized rate. Priced for an early retiree aged 45-55; older retirees should budget more.",
         "monthlyCost": 450
       },
       "transportation": {

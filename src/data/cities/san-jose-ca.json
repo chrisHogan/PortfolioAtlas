@@ -38,7 +38,7 @@
         "monthlyCost": 470
       },
       "healthcare": {
-        "description": "Subsidized Covered California marketplace plan (Santa Clara County, Region 7), MAGI kept under the ~$62,600 400%-FPL cliff. Assumes an early retiree (45–55); older retirees budget more.",
+        "description": "A subsidized Covered California plan for Santa Clara County, assuming annual income stays under the subsidy cutoff of about $62,600. Priced for an early retiree aged 45-55; older retirees should budget more.",
         "monthlyCost": 650
       },
       "transportation": {

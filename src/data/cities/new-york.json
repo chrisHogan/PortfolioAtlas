@@ -38,7 +38,7 @@
         "monthlyCost": 400
       },
       "healthcare": {
-        "description": "MAGI-managed: NY's Essential Plan runs near-$0 at a managed-low income (≤200% FPL after 1 Jul 2026); nearer the 400%-FPL cliff (~$62,600) a subsidized Silver nets ~$450. $250 = a conservative middle for a genuinely lean, MAGI-managed retiree. Assumes 45–55; older retirees budget more",
+        "description": "New York's Essential Plan costs close to nothing for retirees who keep annual income under roughly $31,300, while a subsidized Silver plan nearer the $62,600 subsidy cutoff runs about $450 a month; $250 is a conservative middle. Priced for ages 45-55; older retirees should budget more.",
         "monthlyCost": 250
       },
       "transportation": {

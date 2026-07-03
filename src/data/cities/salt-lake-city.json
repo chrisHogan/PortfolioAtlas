@@ -38,7 +38,7 @@
         "monthlyCost": 350
       },
       "healthcare": {
-        "description": "ACA Silver plan on the Utah marketplace, subsidized if MAGI stays under the 2026 ~$62,600 400%-FPL cliff; Utah's benchmark premiums are among the nation's lowest. Assumes an early retiree (45–55) — older retirees budget more",
+        "description": "A subsidized Silver plan on Utah's ACA marketplace, assuming annual income stays under the 2026 subsidy cutoff of about $62,600; Utah's premiums are among the nation's lowest. Priced for an early retiree aged 45-55; older retirees should budget more.",
         "monthlyCost": 400
       },
       "transportation": {

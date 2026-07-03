@@ -38,7 +38,7 @@
         "monthlyCost": 375
       },
       "healthcare": {
-        "description": "Covered California (Region 4) individual Silver, subsidized under the cliff; Bay Area premiums hold a high floor. Assumes an early retiree (45–55); older retirees budget more.",
+        "description": "A subsidized Covered California Silver plan, assuming annual income stays under the subsidy cutoff of about $62,600; Bay Area premiums keep even the subsidized floor relatively high. Priced for an early retiree aged 45-55; older retirees should budget more.",
         "monthlyCost": 675
       },
       "transportation": {

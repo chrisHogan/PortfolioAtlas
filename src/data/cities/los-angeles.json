@@ -38,7 +38,7 @@
         "monthlyCost": 400
       },
       "healthcare": {
-        "description": "Subsidized Covered California individual plan under the ~400%-FPL cliff (a modest CA state subsidy assists); a sticky floor. Assumes an early retiree (45–55); older retirees budget more.",
+        "description": "A subsidized Covered California plan, assuming annual income stays under the subsidy cutoff of about $62,600; a modest California state subsidy helps as well. Priced for an early retiree aged 45-55; older retirees should budget more.",
         "monthlyCost": 500
       },
       "transportation": {

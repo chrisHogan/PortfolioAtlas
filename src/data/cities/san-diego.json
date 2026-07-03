@@ -38,7 +38,7 @@
         "monthlyCost": 340
       },
       "healthcare": {
-        "description": "Covered California individual plan with a premium tax credit at a MAGI kept under the cliff (plus a modest CA state subsidy); a sticky post-subsidy floor. Assumes an early retiree (45–55); older retirees budget more.",
+        "description": "A subsidized Covered California plan, with the premium tax credit available when annual income stays under the subsidy cutoff of about $62,600, plus a modest California state subsidy. Priced for an early retiree aged 45-55; older retirees should budget more.",
         "monthlyCost": 525
       },
       "transportation": {

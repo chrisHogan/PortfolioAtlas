@@ -38,7 +38,7 @@
         "monthlyCost": 350
       },
       "healthcare": {
-        "description": "ACA marketplace Silver plan on Arizona's exchange, subsidized if MAGI is kept under the 2026 400%-FPL cliff (~$62,600 single); Pima County's benchmark runs among Arizona's cheaper areas. Assumes an early retiree (45–55) — older retirees budget more. Arizona has no state backfill, so above the cliff this line climbs toward the full ~$800/mo sticker.",
+        "description": "A subsidized Silver plan on Arizona's ACA exchange, assuming annual income stays under the 2026 subsidy cutoff of about $62,600 for a single person; Pima County is one of Arizona's cheaper markets, though without the subsidy the full price runs about $800 a month. Priced for an early retiree aged 45-55; older retirees should budget more.",
         "monthlyCost": 450
       },
       "transportation": {

@@ -38,7 +38,7 @@
         "monthlyCost": 350
       },
       "healthcare": {
-        "description": "Subsidized Silver marketplace plan (Wisconsin uses healthcare.gov) with MAGI kept under the 2026 400%-FPL cliff (~$62,600); assumes an early retiree (45–55), older retirees should budget more. Above the cliff, premium tax credits vanish and this line climbs toward ~$850+",
+        "description": "A subsidized Silver plan (Wisconsin uses the federal healthcare.gov marketplace), assuming annual income stays under the 2026 subsidy cutoff of about $62,600; above that, the full price climbs past $850 a month. Priced for an early retiree aged 45-55; older retirees should budget more.",
         "monthlyCost": 460
       },
       "transportation": {

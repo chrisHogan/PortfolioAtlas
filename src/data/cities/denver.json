@@ -38,7 +38,7 @@
         "monthlyCost": 370
       },
       "healthcare": {
-        "description": "Connect for Health Colorado Silver plan, subsidized if MAGI stays under the 2026 ~$62,600 400%-FPL cliff; the Colorado Option and reinsurance hold premiums down. Assumes an early retiree (45–55) — older retirees budget more",
+        "description": "A subsidized Silver plan through Connect for Health Colorado, assuming annual income stays under the 2026 subsidy cutoff of about $62,600; Colorado's state programs help hold premiums down. Priced for an early retiree aged 45-55; older retirees should budget more.",
         "monthlyCost": 480
       },
       "transportation": {

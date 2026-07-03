@@ -38,7 +38,7 @@
         "monthlyCost": 380
       },
       "healthcare": {
-        "description": "MAGI-managed subsidized Pennie Silver kept under the 2026 ACA 400%-FPL cliff (~$62,600 single); above that, premium tax credits vanish and this line climbs to full price. Assumes 45–55; older retirees budget more",
+        "description": "A subsidized Silver plan through Pennie, Pennsylvania's ACA exchange, assuming annual income stays under the 2026 subsidy cutoff of about $62,600 for a single person; above that, the plan goes to full price. Priced for ages 45-55; older retirees should budget more.",
         "monthlyCost": 470
       },
       "transportation": {

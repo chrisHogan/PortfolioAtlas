@@ -38,7 +38,7 @@
         "monthlyCost": 330
       },
       "healthcare": {
-        "description": "ACA marketplace Silver plan, subsidized if MAGI is kept under the 2026 400%-FPL cliff (~$62,600 single); assumes an early retiree (45–55) — older retirees budget more. Texas has no state backfill and did not expand Medicaid, so above the cliff this line jumps toward the full ~$925/mo sticker. Excellent military medical facilities are available if eligible.",
+        "description": "A subsidized ACA marketplace Silver plan, assuming annual income stays under the 2026 subsidy cutoff of about $62,600 for a single person; Texas did not expand Medicaid and offers no state subsidy above that line, so the full price runs about $925 a month. Priced for ages 45-55 (older retirees should budget more), with excellent military medical facilities available to those eligible.",
         "monthlyCost": 460
       },
       "transportation": {

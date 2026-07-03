@@ -38,7 +38,7 @@
         "monthlyCost": 325
       },
       "healthcare": {
-        "description": "Subsidized individual marketplace Silver at the sticky floor. Assumes an early retiree (45–55); older retirees budget more.",
+        "description": "A subsidized individual marketplace Silver plan, with the premium capped by income under the federal subsidy cutoff. Priced for an early retiree aged 45-55; older retirees should budget more.",
         "monthlyCost": 480
       },
       "transportation": {
@@ -98,7 +98,7 @@
         "monthlyCost": 440
       },
       "healthcare": {
-        "description": "An individual Silver plan near the 400%-FPL cliff, where subsidy thins toward full price",
+        "description": "An individual Silver plan priced near the subsidy cutoff (about $62,600 of annual income), where subsidies thin out and the cost approaches full price.",
         "monthlyCost": 680
       },
       "transportation": {

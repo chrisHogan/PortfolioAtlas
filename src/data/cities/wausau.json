@@ -38,7 +38,7 @@
         "monthlyCost": 335
       },
       "healthcare": {
-        "description": "Subsidized ACA Silver (Wisconsin uses healthcare.gov) with income under the 2026 400%-FPL cliff (~$62,600); assumes an early retiree (45–55), older retirees should budget more. Above the cliff this climbs toward WI's full unsubsidized price. (WI did NOT take standard Medicaid expansion, so a lean retiree relies on the subsidized marketplace, not Medicaid)",
+        "description": "A subsidized ACA Silver plan (Wisconsin uses the federal healthcare.gov marketplace), assuming annual income stays under the 2026 subsidy cutoff of about $62,600; Wisconsin did not adopt full Medicaid expansion, so a lean retiree relies on the subsidized marketplace rather than Medicaid. Above that cutoff the price climbs toward Wisconsin's full unsubsidized rate; priced for ages 45-55, and older retirees should budget more.",
         "monthlyCost": 460
       },
       "transportation": {
