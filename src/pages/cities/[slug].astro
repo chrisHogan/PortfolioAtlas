@@ -91,6 +91,14 @@ const safetyFaqLead: Record<string, string> = {
   'Exercise caution': `Retirees should exercise normal caution in ${city.name}`,
 };
 
+// The language field is sometimes a multi-value list ("English / Afrikaans /
+// Xhosa") — render those as a proper Oxford-comma sentence instead of
+// dumping the raw field after "The primary language is".
+const languageList = city.quickFacts.language.split(/[/,]/).map((s) => s.trim()).filter(Boolean);
+const languageSentence = languageList.length > 1
+  ? `Languages spoken include ${languageList.slice(0, -1).join(', ')}${languageList.length > 2 ? ',' : ''} and ${languageList[languageList.length - 1]}.`
+  : `The primary language is ${languageList[0]}.`;
+
 const faqQuestions = [
   {
     question: `What is the FIRE Number for ${city.name}, ${city.country}?`,
@@ -114,7 +122,7 @@ const faqQuestions = [
   },
   ...(!isDomestic ? [{
     question: `Is ${city.name} English-friendly?`,
-    answer: `${englishFaqLead[displayTags.english]} The primary language is ${city.quickFacts.language}.`,
+    answer: `${englishFaqLead[displayTags.english]} ${languageSentence}`,
   }] : []),
   {
     question: `How safe is ${city.name} for retirees?`,
