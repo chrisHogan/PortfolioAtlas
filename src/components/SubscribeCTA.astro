@@ -50,8 +50,7 @@ const subscribeHref = `https://portfolioatlas.substack.com/subscribe?utm_source=
       href={subscribeHref}
       target="_blank"
       rel="noopener"
-      data-subscribe-link
-      data-location={utm}
+      data-substack-location={utm}
       class="inline-flex items-center justify-center px-5 py-2.5 bg-brand-600 text-white text-sm font-semibold rounded-lg hover:bg-brand-700 transition-colors"
     >
       Subscribe
@@ -60,20 +59,11 @@ const subscribeHref = `https://portfolioatlas.substack.com/subscribe?utm_source=
 )}
 
 <script>
-  // Newsletter CTA analytics. Guarded to match the site's existing gtag pattern.
-  // Astro bundles this script once per page even when the component is used multiple times.
+  // Newsletter CTA analytics. Click tracking is owned by the sitewide delegated
+  // substack_click listener in Layout.astro (single source of truth) — the
+  // anchor's data-substack-location carries this placement's label. Only the
+  // iframe-visibility event lives here.
   (() => {
-    // "link" variant: fire a click event with the placement's utm as location.
-    document.querySelectorAll('[data-subscribe-link]').forEach((el) => {
-      el.addEventListener('click', () => {
-        if (typeof gtag === 'function') {
-          gtag('event', 'newsletter_signup_click', {
-            location: el.getAttribute('data-location') || '',
-          });
-        }
-      });
-    });
-
     // "inline" variant: iframe submission isn't observable cross-origin, so fire a
     // one-time view event when the embed scrolls into view.
     const inline = document.getElementById('subscribe-inline-cta');

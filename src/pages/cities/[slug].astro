@@ -943,3 +943,23 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
     applyAll();
   })();
 </script>
+
+<script define:vars={{ paCitySlug: city.slug }}>
+  // GA4 engagement depth: city_depth_3 fires once per session when the visitor
+  // has viewed 3 UNIQUE city pages (unique slugs, so reloading one city never
+  // triggers it). This script exists only on /cities/[slug] routes, so country
+  // guides, roundups, and blog posts can never count toward it.
+  try {
+    let seen = [];
+    try { seen = JSON.parse(sessionStorage.getItem('pa_city_views') || '[]'); } catch (e) { seen = []; }
+    if (!Array.isArray(seen)) seen = [];
+    if (!seen.includes(paCitySlug)) {
+      seen.push(paCitySlug);
+      sessionStorage.setItem('pa_city_views', JSON.stringify(seen));
+    }
+    if (seen.length >= 3 && !sessionStorage.getItem('pa_city_depth_fired') && typeof gtag === 'function') {
+      gtag('event', 'city_depth_3');
+      sessionStorage.setItem('pa_city_depth_fired', '1');
+    }
+  } catch (e) { /* sessionStorage unavailable (private mode) — skip tracking */ }
+</script>

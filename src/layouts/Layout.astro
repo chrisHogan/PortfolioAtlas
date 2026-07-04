@@ -57,6 +57,20 @@ const jsonLdScripts = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
       gtag('js', new Date());
       gtag('config', 'G-SKTV1C0JRK');
     </script>
+    <script is:inline>
+      // GA4 substack_click: delegated so it covers every Substack link on any
+      // page (Footer, in-content CTAs, future placements). Non-blocking: no
+      // preventDefault, beacon transport survives navigation. link_location is
+      // derived from DOM position, with a data-substack-location override.
+      document.addEventListener('click', function (e) {
+        var origin = e.target instanceof Element ? e.target : null;
+        var link = origin && origin.closest ? origin.closest('a[href*="portfolioatlas.substack.com"]') : null;
+        if (!link || typeof gtag !== 'function') return;
+        var loc = link.getAttribute('data-substack-location') ||
+          (link.closest('footer') ? 'footer' : link.closest('header') ? 'header' : 'inline');
+        gtag('event', 'substack_click', { 'link_location': loc, 'transport_type': 'beacon' });
+      });
+    </script>
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

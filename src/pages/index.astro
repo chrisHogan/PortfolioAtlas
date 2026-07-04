@@ -1094,6 +1094,24 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   });
 
   // ─── Explore button ───
+  // GA4 conversion: portfolio_entered fires at most once per session, only on a
+  // committed value (Explore click / Enter — never on keystrokes or slider
+  // drags), after results render. Sends a coarse bucket, never the raw amount.
+  function portfolioBucket(v) {
+    if (v < 250_000) return 'under_250k';
+    if (v < 500_000) return '250k_500k';
+    if (v < 1_000_000) return '500k_1m';
+    if (v < 2_000_000) return '1m_2m';
+    return 'over_2m';
+  }
+  function firePortfolioEntered(v) {
+    try {
+      if (sessionStorage.getItem('pa_portfolio_entered')) return;
+      if (typeof gtag !== 'function') return;
+      gtag('event', 'portfolio_entered', { 'value_bucket': portfolioBucket(v) });
+      sessionStorage.setItem('pa_portfolio_entered', '1');
+    } catch (e) { /* sessionStorage unavailable (private mode) — skip tracking */ }
+  }
   exploreBtn.addEventListener('click', () => {
     const raw = parseInt((portfolioInput.value || '').replace(/[^0-9]/g, ''), 10) || 0;
     if (raw <= 0) {
@@ -1107,10 +1125,10 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
     ssSet('portfolio', portfolio);
     ssSet('save', annualSavings || null);
     ssSet('passive', passiveIncome || null);
-    if (typeof gtag === 'function') gtag('event', 'portfolio_entered', { 'portfolio_amount': portfolio });
     resetSectionCounts();
     renderResults();
     resultsSection.scrollIntoView({ behavior: 'smooth' });
+    firePortfolioEntered(portfolio);
   });
 
   // Enter key on input
