@@ -1,0 +1,119 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  'itemListElement': [
+    { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': 'https://portfolioatlas.org' },
+    { '@type': 'ListItem', 'position': 2, 'name': 'Privacy Policy', 'item': 'https://portfolioatlas.org/privacy' },
+  ],
+};
+---
+
+<Layout
+  title="Privacy Policy"
+  description="How PortfolioAtlas handles your data: what stays in your browser, what our analytics collect, and how feedback and newsletter emails are used."
+  jsonLd={breadcrumbLd}
+>
+  <div class="container-narrow py-16 md:py-24">
+    <div class="max-w-3xl mx-auto">
+      <h1 class="font-serif text-4xl md:text-5xl font-bold text-brand-950 mb-6">
+        Privacy Policy
+      </h1>
+
+      <div class="prose prose-lg max-w-none text-gray-700 space-y-6">
+        <p class="text-xl text-gray-600 leading-relaxed">
+          PortfolioAtlas has no accounts, no logins, and no user database. Most of what you do
+          here stays in your browser. This page explains exactly what we collect, why, and who
+          processes it.
+        </p>
+
+        <h2 class="font-serif text-2xl font-bold text-brand-950 mt-12 mb-4">Your calculator inputs stay in your browser</h2>
+        <p>
+          The numbers you enter - portfolio value, savings, passive income, retirement length,
+          household size, healthcare costs - are processed entirely in your browser. They are
+          kept in session storage so they follow you between pages, and they are erased when you
+          close the tab. We do not transmit them to our servers, and we have no database that
+          stores them.
+        </p>
+        <p>
+          Two things to be aware of. If you use a Share button, your inputs are encoded into the
+          link you copy, so anyone you send that link to can see them. And our analytics receive
+          a coarse range (for example "between $500K and $1M"), never the exact amount you typed.
+        </p>
+
+        <h2 class="font-serif text-2xl font-bold text-brand-950 mt-12 mb-4">Analytics</h2>
+        <p>
+          We use Google Analytics 4 to understand how the site is used: which pages are visited
+          and which features are used (for example, whether the comparison tool or a filter was
+          used). Google sets cookies for this and processes the data under
+          <a href="https://policies.google.com/privacy">Google's privacy policy</a>. We use this
+          information to improve the site and to measure whether people find it useful.
+        </p>
+        <p>
+          You can block analytics with standard browser tools (content blockers, or Google's own
+          <a href="https://tools.google.com/dlpage/gaoptout">opt-out add-on</a>) and the site
+          works exactly the same.
+        </p>
+
+        <h2 class="font-serif text-2xl font-bold text-brand-950 mt-12 mb-4">The feedback form</h2>
+        <p>
+          The feedback form asks for a message, and optionally your name and email. Your email is
+          used for one thing: replying to you. It is relayed directly to our inbox (via Resend,
+          an email delivery service) and is not stored in any site database, shared with anyone,
+          or added to any mailing list. If you leave the email field blank, the feedback is
+          anonymous.
+        </p>
+
+        <h2 class="font-serif text-2xl font-bold text-brand-950 mt-12 mb-4">The newsletter</h2>
+        <p>
+          Our newsletter runs on Substack. When you subscribe, your email goes to Substack, not
+          to this website, and is handled under
+          <a href="https://substack.com/privacy">Substack's privacy policy</a>. Unsubscribing is
+          available in every email Substack sends. We never add anyone to the newsletter
+          ourselves - the only way onto the list is subscribing through Substack.
+        </p>
+
+        <h2 class="font-serif text-2xl font-bold text-brand-950 mt-12 mb-4">Hosting</h2>
+        <p>
+          The site is served by Cloudflare, which processes standard technical data (such as IP
+          addresses) to deliver pages and protect against abuse, as virtually every website host
+          does.
+        </p>
+
+        <h2 class="font-serif text-2xl font-bold text-brand-950 mt-12 mb-4">Who your data touches</h2>
+        <ul>
+          <li><strong>Google</strong> - analytics, as described above.</li>
+          <li><strong>Cloudflare</strong> - hosting and content delivery.</li>
+          <li><strong>Resend</strong> - relays feedback form submissions to our inbox.</li>
+          <li><strong>Substack</strong> - runs the newsletter, entirely on their systems.</li>
+        </ul>
+        <p>
+          We do not sell personal data, run third-party ad trackers, or share your information
+          with anyone beyond the services listed above.
+        </p>
+
+        <h2 class="font-serif text-2xl font-bold text-brand-950 mt-12 mb-4">Your choices</h2>
+        <p>
+          If you have emailed us feedback and want that email deleted, or want to know what we
+          hold about you (for feedback, it is just the email thread itself), contact us at
+          <a href="mailto:chris@portfolioatlas.org">chris@portfolioatlas.org</a> and we will sort
+          it out. For newsletter data, use the unsubscribe link in any issue or contact Substack.
+        </p>
+
+        <h2 class="font-serif text-2xl font-bold text-brand-950 mt-12 mb-4">Changes</h2>
+        <p>
+          If we change how the site handles data, we will update this page. Material changes will
+          be noted on the blog.
+        </p>
+        <p class="text-sm text-gray-500">
+          Published July 5, 2026. The practices described here have applied since PortfolioAtlas
+          launched in March 2026 - this page documents them; it did not change them.
+          PortfolioAtlas is not directed at children under 16, and we do not knowingly collect
+          their data.
+        </p>
+      </div>
+    </div>
+  </div>
+</Layout>
