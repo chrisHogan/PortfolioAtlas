@@ -13,15 +13,19 @@ import {
   LIFESTYLE_TIER_MAP,
 } from '../../data/fireNumber';
 import type { LifestyleTier } from '../../data/fireNumber';
+import { tierLines } from '../../data/household';
 
 // Build client-side data
 const cityDataForClient = allCities.map((city) => {
   const tags = getCityDisplayTags(city);
-  const tiers: Record<string, { fireNumber: number; monthlyCost: number }> = {};
+  const tiers: Record<string, { fireNumber: number; monthlyCost: number; lines: number[] }> = {};
   for (const lifestyle of ALL_LIFESTYLE_TIERS) {
     tiers[lifestyle] = {
       fireNumber: getCityFireNumber(city, lifestyle),
       monthlyCost: getLifestyleMonthlyCost(city, lifestyle),
+      // LINE ORDER items so the client can rescale for household size /
+      // healthcare override through the shared composition (tierView).
+      lines: tierLines(city.tiers[LIFESTYLE_TIER_MAP[lifestyle]]),
     };
   }
   return {
@@ -153,6 +157,7 @@ const breadcrumbLd = {
   <section id="comparison-result" class="container-narrow pb-12 hidden">
     <div id="comparison-table-container"></div>
     <div id="comparison-lifestyle-container"></div>
+    <p class="household-note-compare hidden text-xs font-semibold text-brand-700 mt-3">Showing costs for 2 adults - housing largely shared; food and healthcare scaled per person.</p>
   </section>
 
   <!-- All-Cities FIRE Number Matrix -->
@@ -161,6 +166,7 @@ const breadcrumbLd = {
       All {allCities.length} Cities by FIRE Number
     </h2>
     <p class="text-sm text-gray-500 mb-4">Compare the portfolio needed to retire in each city at Lean FIRE, FIRE, and Fat FIRE levels.</p>
+    <p class="household-note-compare hidden text-xs font-semibold text-brand-700 mb-3">Showing costs for 2 adults - housing largely shared; food and healthcare scaled per person.</p>
     <div id="matrix-portfolio-banner" class="hidden mb-4 bg-brand-50 border border-brand-200 rounded-xl px-5 py-3 flex items-center gap-3 flex-wrap">
       <span class="text-sm font-semibold text-brand-800" id="matrix-banner-text"></span>
     </div>
@@ -192,6 +198,17 @@ const breadcrumbLd = {
   }
 </style>
 
+<script>
+  // Household bridge: exposes the shared money composition to the define:vars
+  // script below (which cannot import) - same pattern as the homepage engine
+  // bridge. The ready event lets the inline script repaint anything it
+  // rendered before this module loaded.
+  import { adjustedMonthlyTotal, fireNumberPreview } from '../../data/household';
+  (window as any).__paAdjustedMonthly = adjustedMonthlyTotal;
+  (window as any).__paFirePreview = fireNumberPreview;
+  window.dispatchEvent(new Event('pa:household-ready'));
+</script>
+
 <script define:vars={{ cityDataJSON, SAFE_WITHDRAWAL_RATE }}>
   const cityData = JSON.parse(cityDataJSON);
   const cityMap = {};
@@ -213,6 +230,36 @@ const breadcrumbLd = {
   if (nwParam) userPortfolio = parseInt(nwParam, 10) || null;
   const passiveParam = parseInt(ssGet('passive') || params.get('passive') || '0', 10);
   if (passiveParam > 0) userPassiveIncome = passiveParam;
+
+  // Household size + healthcare override (session-sticky; set on the homepage
+  // or city pages). ALL money rendered by this script flows through
+  // tierView() below - do not read .fireNumber/.monthlyCost directly.
+  let adults = 1;
+  const adultsSS = ssGet('adults');
+  if (adultsSS != null && parseInt(adultsSS, 10) === 2) adults = 2;
+  let hcOverride = null;
+  const hcSS = ssGet('hcusd');
+  if (hcSS != null && hcSS !== '' && !isNaN(parseInt(hcSS, 10))) {
+    hcOverride = Math.max(0, Math.min(5000, parseInt(hcSS, 10)));
+  }
+
+  // Household-adjusted view of a tier: the ONE way this page prices money.
+  // Single adult with no override returns the exact SSR values; before the
+  // module bridge loads we fall back to SSR and repaint on pa:household-ready.
+  function tierView(city, tier) {
+    const t = city.tiers[tier];
+    if (!t) return null;
+    if ((adults <= 1 && hcOverride == null) || !window.__paAdjustedMonthly) {
+      return { monthly: t.monthlyCost, fire: t.fireNumber };
+    }
+    const monthly = window.__paAdjustedMonthly(t.lines, adults, hcOverride);
+    return { monthly, fire: window.__paFirePreview(monthly) };
+  }
+
+  function updateHouseholdNote() {
+    document.querySelectorAll('.household-note-compare').forEach((el) => el.classList.toggle('hidden', !(adults > 1)));
+  }
+  updateHouseholdNote();
 
   function adjustFN(base) {
     if (!userPassiveIncome || userPassiveIncome <= 0) return base;
@@ -345,6 +392,7 @@ const breadcrumbLd = {
   setupPicker(inputB, selectB, dropdownB);
 
   // ─── Comparison Rendering ───
+  let lastTrackedPair = '';
   function renderComparison() {
     const slugA = selectA.value;
     const slugB = selectB.value;
@@ -360,7 +408,13 @@ const breadcrumbLd = {
     const b = cityMap[slugB];
     if (!a || !b) return;
 
-    if (typeof gtag === 'function') gtag('event', 'compare_used', { 'city_a': a.name, 'city_b': b.name });
+    // Track once per PAIR, not per render - household/bfcache repaints re-run
+    // this function and must not double-count the analytics event.
+    const pairKey = slugA + '|' + slugB;
+    if (pairKey !== lastTrackedPair && typeof gtag === 'function') {
+      gtag('event', 'compare_used', { 'city_a': a.name, 'city_b': b.name });
+      lastTrackedPair = pairKey;
+    }
     resultSection.classList.remove('hidden');
 
     // Update URL
@@ -381,8 +435,8 @@ const breadcrumbLd = {
         <tbody>`;
 
     for (const tier of lifestyleTiers) {
-      const fnA = adjustFN(a.tiers[tier].fireNumber);
-      const fnB = adjustFN(b.tiers[tier].fireNumber);
+      const fnA = adjustFN(tierView(a, tier).fire);
+      const fnB = adjustFN(tierView(b, tier).fire);
       const cheaper = fnA < fnB ? 'a' : fnB < fnA ? 'b' : 'tie';
 
       // Portfolio indicators
@@ -409,11 +463,11 @@ const breadcrumbLd = {
         <td class="py-3 px-4 font-bold text-gray-700">${lifestyleLabels[tier]}</td>
         <td class="text-right py-3 px-4${cheaper === 'a' ? ' text-brand-700 font-bold' : ' font-medium'}">
           ${fmtCompact(fnA)}${statusA}
-          <div class="text-[10px] text-gray-400 font-normal">${fmt(a.tiers[tier].monthlyCost)}/mo</div>
+          <div class="text-[10px] text-gray-400 font-normal">${fmt(tierView(a, tier).monthly)}/mo</div>
         </td>
         <td class="text-right py-3 px-4${cheaper === 'b' ? ' text-brand-700 font-bold' : ' font-medium'}">
           ${fmtCompact(fnB)}${statusB}
-          <div class="text-[10px] text-gray-400 font-normal">${fmt(b.tiers[tier].monthlyCost)}/mo</div>
+          <div class="text-[10px] text-gray-400 font-normal">${fmt(tierView(b, tier).monthly)}/mo</div>
         </td>
       </tr>`;
     }
@@ -458,7 +512,7 @@ const breadcrumbLd = {
             <span class="text-lg">${a.emoji}</span>
             <h4 class="font-serif font-bold text-brand-950">${a.name}</h4>
           </div>
-          <p class="text-xs font-semibold text-brand-600 uppercase tracking-wide mb-2">FIRE lifestyle — ${fmtCompact(adjustFN(a.tiers.comfortable.fireNumber))}</p>
+          <p class="text-xs font-semibold text-brand-600 uppercase tracking-wide mb-2">FIRE lifestyle — ${fmtCompact(adjustFN(tierView(a, 'comfortable').fire))}</p>
           <div class="flex flex-wrap gap-1.5 mb-2">
             <span class="text-[10px] font-medium px-2 py-0.5 rounded-full bg-amber-50 text-amber-700">${a.tags.climate}</span>
             <span class="text-[10px] font-medium px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700">${a.tags.safety}</span>
@@ -470,7 +524,7 @@ const breadcrumbLd = {
             <span class="text-lg">${b.emoji}</span>
             <h4 class="font-serif font-bold text-brand-950">${b.name}</h4>
           </div>
-          <p class="text-xs font-semibold text-brand-600 uppercase tracking-wide mb-2">FIRE lifestyle — ${fmtCompact(adjustFN(b.tiers.comfortable.fireNumber))}</p>
+          <p class="text-xs font-semibold text-brand-600 uppercase tracking-wide mb-2">FIRE lifestyle — ${fmtCompact(adjustFN(tierView(b, 'comfortable').fire))}</p>
           <div class="flex flex-wrap gap-1.5 mb-2">
             <span class="text-[10px] font-medium px-2 py-0.5 rounded-full bg-amber-50 text-amber-700">${b.tags.climate}</span>
             <span class="text-[10px] font-medium px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700">${b.tags.safety}</span>
@@ -518,8 +572,8 @@ const breadcrumbLd = {
       sorted.sort((a, b) => matrixSortAsc ? a.fireScore - b.fireScore : b.fireScore - a.fireScore);
     } else {
       sorted.sort((a, b) => {
-        const fa = adjustFN(a.tiers[matrixSortKey]?.fireNumber || 0);
-        const fb = adjustFN(b.tiers[matrixSortKey]?.fireNumber || 0);
+        const fa = adjustFN((tierView(a, matrixSortKey) || { fire: 0 }).fire);
+        const fb = adjustFN((tierView(b, matrixSortKey) || { fire: 0 }).fire);
         return matrixSortAsc ? fa - fb : fb - fa;
       });
     }
@@ -545,10 +599,10 @@ const breadcrumbLd = {
       </td>`;
 
       for (const tier of lifestyleTiers) {
-        const data = city.tiers[tier];
-        if (!data) { html += '<td class="text-center py-2.5 px-3"><span class="text-gray-300">—</span></td>'; continue; }
+        const view = tierView(city, tier);
+        if (!view) { html += '<td class="text-center py-2.5 px-3"><span class="text-gray-300">—</span></td>'; continue; }
 
-        const adjFN = adjustFN(data.fireNumber);
+        const adjFN = adjustFN(view.fire);
         let statusHTML = '';
         if (userPortfolio) {
           if (adjFN === 0) {
@@ -562,7 +616,7 @@ const breadcrumbLd = {
 
         html += `<td class="text-center py-2.5 px-3">
           <div class="font-bold text-sm">${fmtCompact(adjFN)}</div>
-          <div class="text-[10px] text-gray-400">${fmt(data.monthlyCost)}/mo</div>
+          <div class="text-[10px] text-gray-400">${fmt(view.monthly)}/mo</div>
           ${statusHTML}
         </td>`;
       }
@@ -591,4 +645,31 @@ const breadcrumbLd = {
 
   matrixShowMore?.addEventListener('click', () => { matrixShowAll = true; renderMatrix(); });
   renderMatrix();
+
+  // The module bridge (shared household composition) loads after this inline
+  // script - repaint anything rendered before it if scaling is active.
+  window.addEventListener('pa:household-ready', () => {
+    if (adults > 1 || hcOverride != null) {
+      renderMatrix();
+      if (selectA.value && selectB.value) renderComparison();
+    }
+  });
+
+  // bfcache restore: another page may have changed household state since.
+  window.addEventListener('pageshow', (e) => {
+    if (!e.persisted) return;
+    let changed = false;
+    const sa = ssGet('adults');
+    const nextAdults = sa === '2' ? 2 : 1;
+    if (nextAdults !== adults) { adults = nextAdults; changed = true; }
+    const sh = ssGet('hcusd');
+    let nextHc = null;
+    if (sh != null && sh !== '' && !isNaN(parseInt(sh, 10))) nextHc = Math.max(0, Math.min(5000, parseInt(sh, 10)));
+    if (nextHc !== hcOverride) { hcOverride = nextHc; changed = true; }
+    if (changed) {
+      updateHouseholdNote();
+      renderMatrix();
+      if (selectA.value && selectB.value) renderComparison();
+    }
+  });
 </script>

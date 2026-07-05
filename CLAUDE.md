@@ -27,8 +27,24 @@ city-JSON shape (see below). There are no tests.
 - Manual fallback: `npx wrangler pages deploy dist` — but wrangler is **not logged in** in CI/sandbox, and there's **no `wrangler.toml`**, so it needs `--project-name=<pages-project>` and interactive auth. Prefer the git-push path.
 - Workflow: branch off `main`, PR, then merge to `main` to ship. Don't commit straight to `main` unless asked.
 
-## Known harmless build warning
-`[router] The route "/compare" is defined in both compare/index.astro and compare.astro` — **pre-existing**, not from your changes. Build still succeeds. (Cleanup item: dedupe those two files. It will become a hard error in a future Astro major.)
+## Household money: one composition function, per-page repaint choke points
+Session household state (`pa:adults`, `pa:hcusd`) affects money displays on the
+homepage, city pages, AND compare. Two invariants (added 2026-07-05 after a
+family of stale-display bugs):
+- **All composition goes through `adjustedMonthlyTotal()` / `fireNumberPreview()`
+  in `src/data/household.ts`** — module scripts import them; define:vars scripts
+  (homepage, compare) reach them via `window.__paAdjustedMonthly` /
+  `__paFirePreview` bridges. Never re-implement scaling/override math at a call site.
+- **Each page has ONE repaint choke point** that owns every household-sensitive
+  money element: city page `repaintHouseholdMoney()` (table, lifestyle cards,
+  RelatedCities via `data-rc-lines`), compare `tierView()` + the
+  `pa:household-ready`/`pageshow` repaints, homepage `adjustedMonthlyOf()`.
+  A new money element gets wired into the page's choke point, not a handler.
+Deliberately single-adult (do NOT scale): FAQ text/JSON-LD, meta descriptions,
+retire-in/retire-on hub pages.
+
+(The old `/compare` duplicate-route build warning is gone — `compare.astro` was
+deleted 2026-07-05; `/compare` is served by `compare/index.astro`.)
 
 ## Where things live (and a gotcha)
 - **Engine/calc modules are in `src/data/*.ts`** — `types.ts`, `fireNumber.ts`, `sustainability.ts`, `backtest.ts`, `retirementBands.ts`. **NOT** `src/data/cities/*.ts` (that's just `index.ts` + the JSON). An earlier survey got this wrong; don't repeat it.

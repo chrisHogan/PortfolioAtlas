@@ -499,7 +499,7 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
 <script>
   import { runBacktest } from '../../data/backtest';
   import { classifySurvival, requiredPortfolio, thresholdFromConf } from '../../data/retirementBands';
-  import { adjustedLines, HEALTHCARE_LINE_INDEX } from '../../data/household';
+  import { adjustedMonthlyTotal, fireNumberPreview } from '../../data/household';
 
   // Client-side: verdict + target from the historical backtest at the chosen confidence
   (function() {
@@ -638,50 +638,69 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
     }
     mirrorUrl();
 
-    // Adjusted monthly cost for a tier. Order of operations: household scaling
-    // first (per line item, via the shared adjustedLines), THEN the hcusd
-    // override — the user's stated healthcare cost is authoritative and is NOT
-    // multiplied; it replaces the (scaled) healthcare line. Floor = the
-    // non-healthcare lines.
+    // Adjusted monthly cost for a tier — all composition (household scaling,
+    // then the hcusd override replacing the SCALED healthcare line) lives in
+    // the shared adjustedMonthlyTotal(). Single adult with no override is the
+    // exact stored total (untouched pre-household path).
     function adjustedMonthlyFor(tier: string): number {
       const r = document.querySelector(`.fire-row[data-tier="${tier}"]`);
-      if (adults <= 1) {
-        // Single adult: exactly the pre-household code path.
-        const mc = r ? parseInt(r.getAttribute('data-monthly-cost') || '0', 10) : 0;
-        if (healthcareOverride == null) return mc;
-        const hc = r ? parseInt(r.getAttribute('data-healthcare') || '0', 10) : 0;
-        return (mc - hc) + Math.max(0, healthcareOverride);
+      if (adults <= 1 && healthcareOverride == null) {
+        return r ? parseInt(r.getAttribute('data-monthly-cost') || '0', 10) : 0;
       }
-      // data-lines order (household.ts LINE ORDER): [housing, dining, groceries,
-      // healthcare, transportation, entertainment, utilities, domesticHelp?,
-      // luxuryExtras?].
       const lines: number[] = r ? JSON.parse(r.getAttribute('data-lines') || '[]') : [];
-      const scaled = adjustedLines(lines, adults);
-      const total = scaled.reduce((sum, n) => sum + n, 0);
-      if (healthcareOverride == null) return total;
-      return (total - (scaled[HEALTHCARE_LINE_INDEX] || 0)) + Math.max(0, healthcareOverride);
+      return adjustedMonthlyTotal(lines, adults, healthcareOverride);
     }
 
-    // Keep the Monthly Cost column priced even before a portfolio is set (the
-    // verdict/status columns need a portfolio; the costs don't). The "Needed
-    // to retire here" column in this state is the SSR 4%-rule preview
-    // (monthly x 300, rounded to $1K), so re-derive it from the SAME adjusted
-    // monthly the cost column uses - otherwise a household or healthcare
-    // change scales one column and not the other. The backtest solver
-    // replaces these values the moment a portfolio is set (applyAll).
     function previewFmt(n: number): string {
       if (n >= 1_000_000) return '$' + (n / 1_000_000).toFixed(2).replace(/\.?0+$/, '') + 'M';
       if (n >= 1_000) return '$' + Math.round(n / 1_000) + 'K';
       return '$' + n.toLocaleString();
     }
-    function renderCostsOnly() {
+
+    // ─── THE household repaint choke point ───────────────────────────────
+    // Every element on this page that displays a household-sensitive dollar
+    // amount is repainted here, so no surface can be missed by a future
+    // toggle path. Covers: the tier table (Monthly Cost always; "Needed to
+    // retire here" as the 4%-rule preview only while no portfolio is set —
+    // the backtest solver owns those cells otherwise), the lifestyle
+    // description cards (same ownership rule), and the Related Cities cards
+    // (always preview-owned; the solver never touches them). If you add a
+    // new money element to this page, wire it HERE, not in a handler.
+    function repaintHouseholdMoney() {
+      const verdictOwnsTargets = portfolio > 0;
       rows.forEach((row) => {
         const tier = row.getAttribute('data-tier') || '';
         const adjMonthly = adjustedMonthlyFor(tier);
         const costEl = row.querySelector('.monthly-cost-val');
         if (costEl) (costEl as HTMLElement).textContent = '$' + adjMonthly.toLocaleString() + '/mo';
-        const neededEl = row.querySelector('td:nth-child(2) span');
-        if (neededEl) (neededEl as HTMLElement).textContent = previewFmt(Math.round((adjMonthly * 300) / 1000) * 1000);
+        if (!verdictOwnsTargets) {
+          const neededEl = row.querySelector('td:nth-child(2) span');
+          if (neededEl) (neededEl as HTMLElement).textContent = previewFmt(fireNumberPreview(adjMonthly));
+          const fireEl = document.querySelector(`.lifestyle-desc[data-tier="${tier}"] .lifestyle-fire`);
+          if (fireEl) (fireEl as HTMLElement).textContent = previewFmt(fireNumberPreview(adjMonthly));
+        }
+      });
+      repaintRelatedCities();
+    }
+
+    // Related Cities cards: other cities' FIRE-tier numbers and the "$X
+    // less/more" diff vs this city, both recomputed from each card's
+    // serialized lines through the same shared composition.
+    function repaintRelatedCities() {
+      const currentFire = fireNumberPreview(adjustedMonthlyFor('comfortable'));
+      document.querySelectorAll('[data-rc-lines]').forEach((card) => {
+        const lines: number[] = JSON.parse(card.getAttribute('data-rc-lines') || '[]');
+        const fire = fireNumberPreview(adjustedMonthlyTotal(lines, adults, healthcareOverride));
+        const valEl = card.querySelector('.rc-fire-val');
+        if (valEl) (valEl as HTMLElement).textContent = previewFmt(fire);
+        const diffEl = card.querySelector('.rc-diff');
+        if (diffEl) {
+          const diff = fire - currentFire;
+          const cheaper = diff < 0;
+          (diffEl as HTMLElement).textContent = cheaper ? `${previewFmt(Math.abs(diff))} less` : `${previewFmt(diff)} more`;
+          diffEl.classList.toggle('text-emerald-600', cheaper);
+          diffEl.classList.toggle('text-red-500', !cheaper);
+        }
       });
     }
 
@@ -719,14 +738,14 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
       if (statusHeader) statusHeader.textContent = '';
       // No verdict without a portfolio, but let the controls toggle + persist
       // for later, and keep the Monthly Cost column priced for the selection.
-      if (adults > 1 || healthcareOverride != null) renderCostsOnly();
-      hcToggle?.addEventListener('change', () => { hcField?.classList.toggle('hidden', !hcToggle.checked); readHcOverride(); ssSet('hcusd', healthcareOverride); persistHc(); renderCostsOnly(); });
-      hcInput?.addEventListener('input', () => { readHcOverride(); ssSet('hcusd', healthcareOverride); persistHc(); renderCostsOnly(); });
+      if (adults > 1 || healthcareOverride != null) repaintHouseholdMoney();
+      hcToggle?.addEventListener('change', () => { hcField?.classList.toggle('hidden', !hcToggle.checked); readHcOverride(); ssSet('hcusd', healthcareOverride); persistHc(); repaintHouseholdMoney(); });
+      hcInput?.addEventListener('input', () => { readHcOverride(); ssSet('hcusd', healthcareOverride); persistHc(); repaintHouseholdMoney(); });
       adultsBtns.forEach((b) => b.addEventListener('click', () => {
         adults = parseInt(b.getAttribute('data-adults') || '', 10) === 2 ? 2 : 1;
-        setAdultsActive(); ssSet('adults', adults); persistAdults(); renderCostsOnly();
+        setAdultsActive(); ssSet('adults', adults); persistAdults(); repaintHouseholdMoney();
       }));
-      wireBfcacheSync(renderCostsOnly);
+      wireBfcacheSync(repaintHouseholdMoney);
       return;
     }
 
@@ -858,6 +877,9 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
       (window as any).__paClassify = classifySurvival;
       window.dispatchEvent(new Event('pa:survival-ready'));
       renderTable();
+      // Preview-owned surfaces the verdict engine never touches (Related
+      // Cities cards) still need the household repaint in this path.
+      repaintRelatedCities();
       if (renderConfidenceFn) renderConfidenceFn(currentTier);
     }
 

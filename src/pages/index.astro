@@ -583,12 +583,11 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
 <script>
   import { runBacktest } from '../data/backtest';
   import { classifySurvival, requiredPortfolio } from '../data/retirementBands';
-  import { adjustedLines, HEALTHCARE_LINE_INDEX } from '../data/household';
+  import { adjustedMonthlyTotal } from '../data/household';
   (window as any).__paBacktest = runBacktest;
   (window as any).__paClassify = classifySurvival;
   (window as any).__paRequired = requiredPortfolio;
-  (window as any).__paAdjustLines = adjustedLines;
-  (window as any).__paHcLineIndex = HEALTHCARE_LINE_INDEX;
+  (window as any).__paAdjustedMonthly = adjustedMonthlyTotal;
   window.dispatchEvent(new Event('pa:engine-ready'));
 </script>
 
@@ -611,7 +610,7 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
   function hcToken() { return healthcareOverride == null ? 'off' : 'h' + healthcareOverride; }
 
   // Household size: 1 (default — the stored single-adult basis, untouched) or
-  // 2 adults (per-line scaling via the shared window.__paAdjustLines bridge).
+  // 2 adults (composed via the shared window.__paAdjustedMonthly bridge).
   let adults = 1;
   function adultsToken() { return 'a' + adults; }
 
@@ -643,24 +642,17 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
 
   // Adjusted monthly cost for one serialized tier ({monthlyCost, healthcare,
   // lines}). Order of operations: household scaling first (per line item),
-  // THEN the healthcare override — the user's stated healthcare cost is
-  // authoritative and is NOT multiplied; it replaces the (scaled) healthcare
-  // line. Floor = the non-healthcare lines (override can remove healthcare
-  // entirely but never drive the total negative).
+  // All composition (household scaling, then the hcusd override replacing
+  // the SCALED healthcare line) lives in the shared adjustedMonthlyTotal(),
+  // reached via the engine bridge. Single adult with no override returns the
+  // exact stored total; the single-adult+override fast path below avoids the
+  // bridge only where the result is identical by construction.
   function adjustedMonthlyOf(t) {
-    if (adults > 1 && window.__paAdjustLines) {
-      // t.lines order (household.ts LINE ORDER): [housing, dining, groceries,
-      // healthcare, transportation, entertainment, utilities, domesticHelp?,
-      // luxuryExtras?]. __paHcLineIndex = the healthcare slot.
-      const scaled = window.__paAdjustLines(t.lines, adults);
-      const total = scaled.reduce((sum, n) => sum + n, 0);
-      if (healthcareOverride == null) return total;
-      return (total - scaled[window.__paHcLineIndex]) + Math.max(0, healthcareOverride);
-    }
-    // Single adult: exactly the pre-household code path.
+    if (adults <= 1 && healthcareOverride == null) return t.monthlyCost;
+    if (window.__paAdjustedMonthly) return window.__paAdjustedMonthly(t.lines, adults, healthcareOverride);
+    // Bridge not ready (pre pa:engine-ready paint): single-adult fallback.
     if (healthcareOverride == null) return t.monthlyCost;
-    const remaining = t.monthlyCost - (t.healthcare || 0);
-    return remaining + Math.max(0, healthcareOverride);
+    return (t.monthlyCost - (t.healthcare || 0)) + Math.max(0, healthcareOverride);
   }
 
   // Monthly cost for a city's selected tier.

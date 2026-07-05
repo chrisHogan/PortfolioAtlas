@@ -1,6 +1,7 @@
 ---
 import type { CityData } from '../data/types';
 import { getCityFireNumber, formatFireNumber } from '../data/fireNumber';
+import { tierLines } from '../data/household';
 
 interface Props {
   currentCity: CityData;
@@ -22,6 +23,12 @@ const otherRegions = allCities
   .slice(0, 4);
 
 const currentFireNumber = getCityFireNumber(currentCity, 'comfortable');
+
+// FIRE-tier ('3M') line items, serialized so the city page's household
+// repaint (repaintRelatedCities) can rescale these cards client-side when
+// household size or the healthcare override changes. SSR values below are
+// the single-adult baseline the repaint reproduces exactly at defaults.
+const fireTierLines = (city: CityData) => JSON.stringify(tierLines(city.tiers['3M']));
 ---
 
 <section class="mt-8 pt-8 border-t border-sand-200">
@@ -43,6 +50,7 @@ const currentFireNumber = getCityFireNumber(currentCity, 'comfortable');
             <a
               href={`/cities/${city.slug}`}
               class="flex items-center justify-between p-3 bg-white rounded-xl border border-sand-200 hover:border-brand-200 hover:shadow-sm transition-all group"
+              data-rc-lines={fireTierLines(city)}
             >
               <div class="flex items-center gap-2">
                 <span class="text-lg">{city.emoji}</span>
@@ -51,11 +59,11 @@ const currentFireNumber = getCityFireNumber(currentCity, 'comfortable');
                     {city.name}, {city.country}
                   </span>
                   <span class="block text-xs text-gray-500">
-                    FIRE: {formatFireNumber(fn)} (FIRE tier)
+                    FIRE: <span class="rc-fire-val">{formatFireNumber(fn)}</span> (FIRE tier)
                   </span>
                 </div>
               </div>
-              <span class:list={['text-xs font-semibold', cheaper ? 'text-emerald-600' : 'text-red-500']}>
+              <span class:list={['rc-diff text-xs font-semibold', cheaper ? 'text-emerald-600' : 'text-red-500']}>
                 {cheaper ? `${formatFireNumber(Math.abs(diff))} less` : `${formatFireNumber(diff)} more`}
               </span>
             </a>
@@ -78,6 +86,7 @@ const currentFireNumber = getCityFireNumber(currentCity, 'comfortable');
           <a
             href={`/cities/${city.slug}`}
             class="flex items-center justify-between p-3 bg-white rounded-xl border border-sand-200 hover:border-brand-200 hover:shadow-sm transition-all group"
+            data-rc-lines={fireTierLines(city)}
           >
             <div class="flex items-center gap-2">
               <span class="text-lg">{city.emoji}</span>
@@ -86,11 +95,11 @@ const currentFireNumber = getCityFireNumber(currentCity, 'comfortable');
                   {city.name}, {city.country}
                 </span>
                 <span class="block text-xs text-gray-500">
-                  {city.region} — FIRE: {formatFireNumber(fn)}
+                  {city.region} — FIRE: <span class="rc-fire-val">{formatFireNumber(fn)}</span>
                 </span>
               </div>
             </div>
-            <span class:list={['text-xs font-semibold', cheaper ? 'text-emerald-600' : 'text-red-500']}>
+            <span class:list={['rc-diff text-xs font-semibold', cheaper ? 'text-emerald-600' : 'text-red-500']}>
               {cheaper ? `${formatFireNumber(Math.abs(diff))} less` : `${formatFireNumber(diff)} more`}
             </span>
           </a>
@@ -100,7 +109,7 @@ const currentFireNumber = getCityFireNumber(currentCity, 'comfortable');
   </div>
 
   <p class="mt-6 text-sm text-gray-500">
-    Explore all <a href="/" class="text-brand-600 hover:underline font-medium">100+ retirement destinations</a>
+    Explore all <a href="/" class="text-brand-600 hover:underline font-medium">{allCities.length} retirement destinations</a>
     or <a href="/compare" class="text-brand-600 hover:underline font-medium">compare cities side by side</a>.
   </p>
 </section>
