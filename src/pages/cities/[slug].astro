@@ -372,9 +372,9 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
               </p>
               <p>
                 Your <strong>confidence level</strong> sets the bar: at Balanced (90%), a survival
-                rate of 90% or more reads "You can retire here", within 10 points below is "Close —
+                rate of 90% or more reads "You can retire here", within 10 points below is "Close -
                 worth a closer look", and lower is "Not quite yet". The same level sizes the
-                "Needed to retire here" target. <strong>Retirement length</strong> also drives it —
+                "Needed to retire here" target. <strong>Retirement length</strong> also drives it -
                 early retirees planning 40–50+ years see lower survival than the 30-year baseline.
               </p>
             </div>
@@ -893,7 +893,7 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
         if (band === 'retire') {
           confHeadline.innerHTML = `${check}<span class="text-lg font-bold text-emerald-600">You can retire here</span>`;
         } else if (band === 'caution') {
-          confHeadline.innerHTML = '<span class="text-lg font-bold text-amber-600">Close — worth a closer look</span>';
+          confHeadline.innerHTML = '<span class="text-lg font-bold text-amber-600">Close - worth a closer look</span>';
         } else {
           confHeadline.innerHTML = '<span class="text-lg font-bold text-gray-600">Not quite yet</span>';
         }

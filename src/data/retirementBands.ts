@@ -43,7 +43,7 @@ export function isRetire(survival: number | null, threshold: number = DEFAULT_TH
 
 export const BAND_LABEL: Record<RetireBand, string> = {
   retire: 'You can retire here',
-  caution: 'Close — worth a closer look',
+  caution: 'Close - worth a closer look',
   'not-yet': 'Not quite yet',
 };
 
