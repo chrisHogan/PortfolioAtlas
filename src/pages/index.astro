@@ -1918,11 +1918,14 @@ const lifestyleDescriptions = LIFESTYLE_DESCRIPTIONS;
       });
     });
 
-    // Backtest target for a tier's gross cost (the portfolio needed at the chosen
+    // Backtest target for a tier's cost (the portfolio needed at the chosen
     // confidence over the chosen horizon). May be null if unreachable.
+    // Passive income is netted out of spending, matching the forward map and
+    // the city pages' "Needed to retire here" - the same city must show the
+    // same target on every surface.
     function reverseTarget(monthlyCost) {
       if (!window.__paRequired) return null;
-      return window.__paRequired({ annualSpending: monthlyCost * 12, horizonYears, targetSurvival: threshold() });
+      return window.__paRequired({ annualSpending: Math.max(0, monthlyCost * 12 - passiveIncome), horizonYears, targetSurvival: threshold() });
     }
 
     function updateReverse() {
