@@ -663,12 +663,25 @@ const metaDesc = `Retiring in ${city.name}? You need ${formatFireNumber(fireNumb
     }
 
     // Keep the Monthly Cost column priced even before a portfolio is set (the
-    // verdict columns need a portfolio; the costs don't).
+    // verdict/status columns need a portfolio; the costs don't). The "Needed
+    // to retire here" column in this state is the SSR 4%-rule preview
+    // (monthly x 300, rounded to $1K), so re-derive it from the SAME adjusted
+    // monthly the cost column uses - otherwise a household or healthcare
+    // change scales one column and not the other. The backtest solver
+    // replaces these values the moment a portfolio is set (applyAll).
+    function previewFmt(n: number): string {
+      if (n >= 1_000_000) return '$' + (n / 1_000_000).toFixed(2).replace(/\.?0+$/, '') + 'M';
+      if (n >= 1_000) return '$' + Math.round(n / 1_000) + 'K';
+      return '$' + n.toLocaleString();
+    }
     function renderCostsOnly() {
       rows.forEach((row) => {
         const tier = row.getAttribute('data-tier') || '';
+        const adjMonthly = adjustedMonthlyFor(tier);
         const costEl = row.querySelector('.monthly-cost-val');
-        if (costEl) (costEl as HTMLElement).textContent = '$' + adjustedMonthlyFor(tier).toLocaleString() + '/mo';
+        if (costEl) (costEl as HTMLElement).textContent = '$' + adjMonthly.toLocaleString() + '/mo';
+        const neededEl = row.querySelector('td:nth-child(2) span');
+        if (neededEl) (neededEl as HTMLElement).textContent = previewFmt(Math.round((adjMonthly * 300) / 1000) * 1000);
       });
     }
 
