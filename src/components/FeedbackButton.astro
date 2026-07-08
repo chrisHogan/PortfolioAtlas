@@ -148,6 +148,17 @@
     openModal();
   });
 
+  // Any element carrying data-open-feedback opens the modal (used by in-prose
+  // "ask us" links on /terms and /privacy - the site renders no email address,
+  // so this form is the contact channel).
+  document.addEventListener('click', (e) => {
+    const trigger = e.target instanceof Element ? e.target.closest('[data-open-feedback]') : null;
+    if (!trigger) return;
+    e.preventDefault();
+    resetForm();
+    openModal();
+  });
+
   closeBtn?.addEventListener('click', closeModal);
   successClose?.addEventListener('click', closeModal);
   backdrop?.addEventListener('click', closeModal);
@@ -227,7 +238,7 @@
       if (!res.ok) {
         const data = await res.json().catch(() => ({}));
         if (errorEl) {
-          errorEl.textContent = data.error || 'Something went wrong. Please try again or email chris@portfolioatlas.org directly.';
+          errorEl.textContent = data.error || 'Something went wrong. Please try again in a minute.';
           errorEl.classList.remove('hidden');
         }
         return;
@@ -238,7 +249,7 @@
       successWrap?.classList.remove('hidden');
     } catch {
       if (errorEl) {
-        errorEl.textContent = 'Something went wrong. Please try again or email chris@portfolioatlas.org directly.';
+        errorEl.textContent = 'Something went wrong. Please try again in a minute.';
         errorEl.classList.remove('hidden');
       }
     } finally {
