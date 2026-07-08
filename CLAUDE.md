@@ -96,6 +96,18 @@ City JSON has 5 tier keys (`1M/2M/3M/5M/10M`), but the **live UI only renders 3*
 - Newsletter: `src/components/SubscribeCTA.astro` (Substack, no backend; inline iframe on homepage only, link variant elsewhere). Feedback form → Cloudflare Function `functions/api/feedback.js` → Resend.
 - `recon/household-language-inventory.md` and `Documents/` (RECON_MEMO.md) are notes/artifacts, not app code.
 
+# Blog posts ship with a cover image (no exceptions)
+
+Every blog post has a branded cover (rendered in the /blog grid, atop the post,
+and as its og:image + Article JSON-LD image). When you author or update a post:
+1. Add a spec to `scripts/generate-blog-covers.mjs` (kicker, short title,
+   subline, simple flat motif in the brand palette — see the ten existing specs).
+2. Run `node scripts/generate-blog-covers.mjs` (writes `public/blog/covers/<slug>.png`).
+3. Set frontmatter `coverImage: "/blog/covers/<slug>.png"`.
+Image text follows the voice rules below (no em dashes, no exclamation points,
+figures over adjectives). A post without a cover falls back to the old gradient
+strip — treat that as a bug, not an option.
+
 # Reader-facing prose: voice rules (single source of truth)
 
 All reader-facing prose — blog posts, city pages, FAQs, site copy, meta

@@ -3,6 +3,7 @@ title: "The Biggest PortfolioAtlas Update Yet: Fresher Data, More Cities, and Im
 description: "Every cost figure across all 121 cities re-researched to Q3 2026, new destinations from Bengaluru to Florianópolis, a one-or-two-adults setting, region filters, custom healthcare input, and verdicts backed by 150+ years of market history."
 date: 2026-07-01
 tags: ["announcement", "product-update"]
+coverImage: "/blog/covers/q3-2026-update.png"
 ---
 
 **TL;DR:** Every data point in the system just got a full Q3 2026 refresh, we've added new cities (with more coming continuously), and you can now see costs for one adult or two. HUGE thank you to this community. All of this is driven from your feedback.

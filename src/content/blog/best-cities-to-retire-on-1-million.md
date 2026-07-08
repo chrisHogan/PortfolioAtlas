@@ -3,6 +3,7 @@ title: "Best Cities to Retire on $1 Million"
 description: "Discover where a $1M portfolio goes furthest. We break down the 4% rule and highlight 10 cities where you can retire comfortably on a million dollars."
 date: 2026-03-06
 tags: ["fire-strategy", "budget", "retirement"]
+coverImage: "/blog/covers/best-cities-to-retire-on-1-million.png"
 dataNote: true
 ---
 

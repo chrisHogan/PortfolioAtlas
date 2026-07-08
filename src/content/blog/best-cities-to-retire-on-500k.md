@@ -3,6 +3,7 @@ title: "Best Places to Retire on $500K in 2026"
 description: "Where can you retire on $500K? Q3 2026 data shows 52 cities where a $500K portfolio funds Lean FIRE, from Porto to Taipei, with visa and healthcare notes."
 date: 2026-07-07
 tags: ["fire-strategy", "budget", "retirement"]
+coverImage: "/blog/covers/best-cities-to-retire-on-500k.png"
 ---
 
 *Updated July 7, 2026. Every data point comes from our PortfolioAtlas Q3 2026 data refresh. It prices a single insured adult. Looking for two adults? Use the household toggle on any city page or our homepage to see costs for two.*

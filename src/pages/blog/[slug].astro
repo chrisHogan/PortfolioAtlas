@@ -31,6 +31,7 @@ const articleLd = {
   '@type': 'Article',
   'headline': post.data.title,
   'description': post.data.description,
+  ...(post.data.coverImage ? { 'image': `${siteUrl}${post.data.coverImage}` } : {}),
   'datePublished': post.data.date.toISOString(),
   'author': {
     '@type': 'Organization',
@@ -63,6 +64,7 @@ const breadcrumbLd = {
 <Layout
   title={post.data.title}
   description={post.data.description}
+  ogImage={post.data.coverImage}
   jsonLd={[articleLd, breadcrumbLd]}
 >
   <article class="py-12">
@@ -94,6 +96,16 @@ const breadcrumbLd = {
           </div>
         </div>
       </header>
+
+      {post.data.coverImage && (
+        <img
+          src={post.data.coverImage}
+          alt={post.data.title}
+          width="1200"
+          height="630"
+          class="w-full rounded-2xl border border-sand-200 mb-10"
+        />
+      )}
 
       {post.data.dataNote && <DataNote />}
 

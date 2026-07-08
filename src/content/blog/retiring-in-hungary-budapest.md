@@ -3,6 +3,7 @@ title: "Retiring in Budapest, Hungary: FIRE Number, Costs & Visa Guide"
 description: "Budapest's FIRE Number starts at $900K for Lean FIRE. Full cost breakdown, Guest Investor Visa guide, healthcare, and visa options for retiring in Hungary."
 date: 2026-03-18
 tags: ["city-spotlight", "europe", "hungary"]
+coverImage: "/blog/covers/retiring-in-hungary-budapest.png"
 dataNote: true
 ---
 

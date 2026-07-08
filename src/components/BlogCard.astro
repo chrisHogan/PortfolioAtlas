@@ -5,9 +5,10 @@ interface Props {
   date: Date;
   tags: string[];
   slug: string;
+  coverImage?: string;
 }
 
-const { title, description, date, tags, slug } = Astro.props;
+const { title, description, date, tags, slug, coverImage } = Astro.props;
 
 // timeZone pinned: frontmatter dates parse as UTC midnight, so local-time
 // formatting on a US-timezone build machine renders the previous day.
@@ -20,7 +21,18 @@ const formattedDate = date.toLocaleDateString('en-US', {
 ---
 
 <a href={`/blog/${slug}`} class="city-card block group">
-  <div class="h-2 bg-gradient-to-r from-brand-500 to-brand-600"></div>
+  {coverImage ? (
+    <img
+      src={coverImage}
+      alt={title}
+      width="1200"
+      height="630"
+      loading="lazy"
+      class="w-full aspect-[1200/630] object-cover"
+    />
+  ) : (
+    <div class="h-2 bg-gradient-to-r from-brand-500 to-brand-600"></div>
+  )}
 
   <div class="p-5">
     <div class="flex items-center gap-2 text-xs text-gray-500 mb-3">

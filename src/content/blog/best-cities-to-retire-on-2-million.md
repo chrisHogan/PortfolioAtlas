@@ -3,6 +3,7 @@ title: "Best Cities to Retire on $2 Million in 2026"
 description: "With $2M and the 4% rule, Fat FIRE is possible in Kathmandu ($1.8M) and 76 cities unlock comfortable retirement. See the full breakdown."
 date: 2026-03-21
 tags: ["fire-strategy", "budget", "retirement"]
+coverImage: "/blog/covers/best-cities-to-retire-on-2-million.png"
 dataNote: true
 ---
 
