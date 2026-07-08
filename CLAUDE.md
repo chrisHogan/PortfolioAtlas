@@ -96,6 +96,15 @@ City JSON has 5 tier keys (`1M/2M/3M/5M/10M`), but the **live UI only renders 3*
 - Newsletter: `src/components/SubscribeCTA.astro` (Substack, no backend; inline iframe on homepage only, link variant elsewhere). Feedback form → Cloudflare Function `functions/api/feedback.js` → Resend.
 - `recon/household-language-inventory.md` and `Documents/` (RECON_MEMO.md) are notes/artifacts, not app code.
 
+# Reader-facing prose: voice rules (single source of truth)
+
+All reader-facing prose — blog posts, city pages, FAQs, site copy, meta
+descriptions — must follow the voice rules in the humanizer skill fork at
+**`.claude/skills/humanizer/SKILL.md`** (hard constraints H1–H7 + voice rules
+V1–V7). That file is the ONLY place these rules are maintained; do not copy
+them here or into memory — link to the file instead. Run the skill (or apply
+its rules manually) before presenting any new or rewritten prose for review.
+
 # Code-quality agent team
 
 This project ships a specialist agent team in `.claude/agents/` plus an orchestrator skill in `.claude/skills/dev-pipeline/`.
