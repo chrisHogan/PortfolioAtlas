@@ -1,0 +1,83 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  'itemListElement': [
+    { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': 'https://portfolioatlas.org' },
+    { '@type': 'ListItem', 'position': 2, 'name': 'Terms of Use', 'item': 'https://portfolioatlas.org/terms' },
+  ],
+};
+---
+
+<Layout
+  title="Terms of Use"
+  description="Terms of use for PortfolioAtlas: how you can use our city cost data and FIRE calculations, what we license, and what we don't warrant."
+  jsonLd={breadcrumbLd}
+>
+  <div class="container-narrow py-16 md:py-24">
+    <div class="max-w-3xl mx-auto">
+      <h1 class="font-serif text-4xl md:text-5xl font-bold text-brand-950 mb-6">
+        Terms of Use
+      </h1>
+
+      <div class="prose prose-lg max-w-none text-gray-700 space-y-6">
+        <p class="text-xl text-gray-600 leading-relaxed">
+          PortfolioAtlas is a free research tool. These terms cover what the site provides, how
+          you may use our data, and what we do and do not promise.
+        </p>
+
+        <h2 class="font-serif text-2xl font-bold text-brand-950 mt-12 mb-4">Informational purposes only</h2>
+        <p>
+          Everything on this site - cost estimates, FIRE Numbers, backtest results, visa notes,
+          and city ratings - is research and estimation for informational purposes only. It is
+          not financial, tax, legal, or immigration advice. Costs vary with personal choices,
+          exchange rates, and inflation, and visa rules change without notice. Consult qualified
+          professionals before making relocation or retirement decisions.
+        </p>
+
+        <h2 class="font-serif text-2xl font-bold text-brand-950 mt-12 mb-4">Using our data</h2>
+        <p>
+          The PortfolioAtlas dataset (city cost estimates, FIRE Numbers, and scores) is our own
+          research work. You are welcome to reference it: quote figures, cite city pages, and
+          share links, with attribution to PortfolioAtlas and a link back to the page you used.
+          What these terms do not permit is republishing the dataset in bulk, scraping it into a
+          competing product, or reselling it. If you want to use the data beyond quotation and
+          citation, <a href="mailto:chris@portfolioatlas.org">ask us</a>.
+        </p>
+        <p>
+          The historical market returns behind our backtests come from Robert Shiller's public
+          dataset (1871-2022), used under the Open Data Commons Public Domain Dedication and
+          License (ODC-PDDL). Our thanks to that project; its data remains public domain.
+        </p>
+
+        <h2 class="font-serif text-2xl font-bold text-brand-950 mt-12 mb-4">No warranties</h2>
+        <p>
+          The site is provided as-is. We work hard to keep figures current (each city page shows
+          its data vintage), but we do not warrant that any figure is accurate, complete, or up
+          to date, and we are not liable for decisions made from it. Past market performance
+          does not guarantee future results.
+        </p>
+
+        <h2 class="font-serif text-2xl font-bold text-brand-950 mt-12 mb-4">Third-party services</h2>
+        <p>
+          The newsletter runs on Substack under Substack's own terms. Links to external sites
+          are provided for convenience; we do not control and are not responsible for their
+          content. How we handle your data is covered separately in our
+          <a href="/privacy">privacy policy</a>.
+        </p>
+
+        <h2 class="font-serif text-2xl font-bold text-brand-950 mt-12 mb-4">Changes</h2>
+        <p>
+          If these terms change, we will update this page. Material changes will be noted on the
+          blog.
+        </p>
+        <p class="text-sm text-gray-500">
+          Published July 8, 2026. Questions? Contact
+          <a href="mailto:chris@portfolioatlas.org">chris@portfolioatlas.org</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</Layout>
