@@ -9,10 +9,13 @@ interface Props {
 
 const { title, description, date, tags, slug } = Astro.props;
 
+// timeZone pinned: frontmatter dates parse as UTC midnight, so local-time
+// formatting on a US-timezone build machine renders the previous day.
 const formattedDate = date.toLocaleDateString('en-US', {
   year: 'numeric',
   month: 'long',
   day: 'numeric',
+  timeZone: 'UTC',
 });
 ---
 

@@ -14,10 +14,13 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const { Content } = await post.render();
 
+// timeZone pinned: frontmatter dates parse as UTC midnight, so local-time
+// formatting on a US-timezone build machine renders the previous day.
 const formattedDate = post.data.date.toLocaleDateString('en-US', {
   year: 'numeric',
   month: 'long',
   day: 'numeric',
+  timeZone: 'UTC',
 });
 
 const siteUrl = 'https://portfolioatlas.org';
