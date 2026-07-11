@@ -1,0 +1,201 @@
+{
+  "name": "Lugano",
+  "country": "Switzerland",
+  "region": "Europe",
+  "slug": "lugano",
+  "emoji": "🇨🇭",
+  "fireScore": 8.1,
+  "tagline": "Italian-Speaking Lake City, Sunnier and 20% Cheaper Than Zurich",
+  "description": "Lugano sits on its namesake lake in Italian-speaking Ticino, the mildest corner of Switzerland, with an annual mean near 13°C and palm-lined promenades. It is a private-banking and finance centre where daily life runs in Italian and English is less widespread than in Geneva. Hospital care comes from the cantonal EOC network and the specialized Cardiocentro Ticino, under Switzerland's mandatory-insurance system. The Gotthard base tunnel puts Zurich about two hours away and Milan about one; Lugano Airport carries little scheduled traffic, so Milan Malpensa about 46 km south serves as the main international gateway. Prices run about 20% below Zurich's overall but remain firmly Swiss.",
+  "tags": {
+    "climate": "subtropical",
+    "english": "moderate"
+  },
+  "quickFacts": {
+    "visa": "Switzerland is in the Schengen Area, so US and most non-EU passport holders get 90 days of visa-free travel in any 180. Settling as a retiree is simple for EU/EFTA citizens under free movement (prove sufficient funds plus full health insurance, receive a 5-year B permit) but hard and discretionary for everyone else. The non-EU retiree permit (Art. 28 AIG) requires age 55 or older, no work in Switzerland, ample means, and real personal ties to the country, decided canton by canton with federal sign-off, so a portfolio by itself does not qualify you. Ticino still offers lump-sum taxation at a 2026 base of about CHF 435,000, and mandatory KVG/LAMal health insurance must be taken out within 3 months of arrival.",
+    "timezone": "CET (UTC+1) / CEST (UTC+2 summer)",
+    "language": "Italian (official); English present in banking, finance, and tourism but less common in everyday life than in Geneva",
+    "internetSpeed": "Fiber widely available in the Ticino urban area; typical fixed broadband 250-600 Mbps, up to 10 Gbps fiber (Swisscom, Sunrise, Salt)",
+    "safetyRating": "Among Switzerland's safest (Numbeo safety index 78.35); low crime overall with minimal caveats",
+    "nearestAirport": "Milan Malpensa (MXP), about 46 km south, is the primary international gateway (direct trains, roughly 1h30); Lugano Airport (LUG) exists about 4 km out but scheduled service is minimal",
+    "climate": "The mildest, sunniest region in Switzerland; January averages about 4°C (39°F), July about 23°C (73°F), annual mean near 13°C, with frequent summer thunderstorms",
+    "englishFriendly": "Moderate",
+    "currency": "Swiss Franc (CHF)",
+    "averageTemp": "55°F / 13°C"
+  },
+  "scores": {
+    "safety": 9,
+    "healthcare": 8.5,
+    "infrastructure": 8,
+    "expatFriendliness": 6
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Small studio in an outer district such as Viganello, Pregassona, or Massagno, or a room in a shared flat.",
+        "monthlyCost": 1177
+      },
+      "dining": {
+        "description": "Mostly home cooking with an occasional inexpensive meal out.",
+        "monthlyCost": 248
+      },
+      "groceries": {
+        "monthlyCost": 397
+      },
+      "healthcare": {
+        "description": "Mandatory KVG basic insurance on a managed-care model, and Ticino carries Switzerland's highest 2026 premiums.",
+        "monthlyCost": 725
+      },
+      "transportation": {
+        "description": "Arcobaleno one-to-two-zone monthly pass on TPL buses and regional rail; no car.",
+        "monthlyCost": 81
+      },
+      "entertainment": {
+        "description": "Budget gym plus occasional cinema, with the lakefront promenade free.",
+        "monthlyCost": 149
+      },
+      "utilities": {
+        "monthlyCost": 235
+      },
+      "lifestyle": "Lugano on a lean budget means a small studio in an outer district like Viganello or a room in a shared flat. The Arcobaleno pass covers the buses and regional trains, so there is no car to run, and most meals are cooked at home. Mandatory KVG cover takes a real bite here, since Ticino carries the highest health premiums in Switzerland for 2026, but the setting compensates: a mild southern climate, palm-lined lake promenades, and Switzerland's warmest weather. Lean living leans on the free lakefront and hillside trails."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Modest studio or small one-bedroom in a decent district.",
+        "monthlyCost": 1611
+      },
+      "dining": {
+        "description": "Casual dining out two or three times a week.",
+        "monthlyCost": 471
+      },
+      "groceries": {
+        "monthlyCost": 496
+      },
+      "healthcare": {
+        "description": "Mandatory KVG on the standard free-choice-of-doctor model.",
+        "monthlyCost": 860
+      },
+      "transportation": {
+        "description": "Arcobaleno two-zone pass covering the city and its funiculars; no car.",
+        "monthlyCost": 95
+      },
+      "entertainment": {
+        "description": "Standard gym plus regular cinema and lakeside outings.",
+        "monthlyCost": 273
+      },
+      "utilities": {
+        "monthlyCost": 285
+      },
+      "lifestyle": "The next notch up brings a modest studio or small one-bedroom in a decent district and free choice of doctor on the health plan. Casual dining out becomes routine, and the Arcobaleno pass covers the city and its funiculars. There is room for a gym, cinema, and the lakeside social calendar. It is easygoing, southern-Swiss city living."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Comfortable central one-bedroom in a desirable district such as Centro, Paradiso, or Cassarate.",
+        "monthlyCost": 2107
+      },
+      "dining": {
+        "description": "Mid-range restaurant dining roughly twice a week.",
+        "monthlyCost": 744
+      },
+      "groceries": {
+        "monthlyCost": 595
+      },
+      "healthcare": {
+        "description": "Standard KVG plus a solid supplementary (VVG) layer for outpatient and general hospital cover.",
+        "monthlyCost": 1050
+      },
+      "transportation": {
+        "description": "Arcobaleno wider-zone pass plus occasional taxi; no car needed.",
+        "monthlyCost": 161
+      },
+      "entertainment": {
+        "description": "Full gym, lakeside clubs, concerts, and cultural events.",
+        "monthlyCost": 434
+      },
+      "utilities": {
+        "monthlyCost": 347
+      },
+      "lifestyle": "At the FIRE level the money reaches a central one-bedroom in a desirable district like Paradiso or Cassarate, near the lake. Dining out is a regular pleasure, a supplementary layer sits on top of mandatory health cover, and the Arcobaleno network plus the odd taxi cover the region without a car. Concerts, lakeside clubs, and quick trains to Milan are all in reach, with real monthly margin. This is affluent Lugano living with a southern lean."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "High-standard one-bedroom or junior two-bedroom at a prime lakeside address in Paradiso or Centro.",
+        "monthlyCost": 3222
+      },
+      "dining": {
+        "description": "Frequent dining at good restaurants, wine included.",
+        "monthlyCost": 1177
+      },
+      "groceries": {
+        "monthlyCost": 719
+      },
+      "healthcare": {
+        "description": "Standard KVG plus semi-private hospital cover.",
+        "monthlyCost": 1355
+      },
+      "transportation": {
+        "description": "A car joins the transit pass, with running costs, insurance, and parking.",
+        "monthlyCost": 558
+      },
+      "entertainment": {
+        "description": "Premium gym or club, lake and boat clubs, and a fuller events calendar.",
+        "monthlyCost": 744
+      },
+      "utilities": {
+        "monthlyCost": 446
+      },
+      "domesticHelp": {
+        "description": "Weekly professional cleaning, about four hours a week at Ticino rates.",
+        "monthlyCost": 682
+      },
+      "luxuryExtras": {
+        "description": "Wellness, fine wine, a lake or boat club, and occasional travel splurges.",
+        "monthlyCost": 868
+      },
+      "lifestyle": "Spending at this level settles into a high-standard one-bedroom or junior two-bedroom at a lakeside address in Paradiso or Centro, and a cleaner comes weekly. Dining at good restaurants is frequent, semi-private hospital cover upgrades the hospital room and the choice of doctor, and a car joins the transit pass for the wider region and Italy. Lake clubs, wellness, and a fuller cultural calendar round it out. Comfortable margin in Switzerland's mild southern corner, at a lower base than Geneva or Zurich."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Luxury furnished two- or three-bedroom at a prime lakefront address in Paradiso, Castagnola, or the Collina d'Oro fringe.",
+        "monthlyCost": 6444
+      },
+      "dining": {
+        "description": "Frequent fine dining across the region's best tables and across the nearby Italian border.",
+        "monthlyCost": 1859
+      },
+      "groceries": {
+        "monthlyCost": 868
+      },
+      "healthcare": {
+        "description": "Standard KVG plus full private hospital cover and concierge-grade access.",
+        "monthlyCost": 1730
+      },
+      "transportation": {
+        "description": "A premium car with lakefront parking, plus taxis and fast rail to Milan and Zurich.",
+        "monthlyCost": 929
+      },
+      "entertainment": {
+        "description": "Private and boat clubs, premium culture, and an open events calendar.",
+        "monthlyCost": 1239
+      },
+      "utilities": {
+        "monthlyCost": 595
+      },
+      "domesticHelp": {
+        "description": "Housekeeping several times a week plus occasional additional help.",
+        "monthlyCost": 1735
+      },
+      "luxuryExtras": {
+        "description": "Concierge services, a boat or lake club, premium travel, and fine wine.",
+        "monthlyCost": 3098
+      },
+      "lifestyle": "Lugano's most expensive tier buys a luxury furnished two- or three-bedroom on the Paradiso or Castagnola lakefront, with housekeeping several times a week. Fine dining is routine on both sides of the nearby Italian border, health cover pairs mandatory KVG with full private hospital and concierge access, and a premium car with lakefront parking plus fast rail to Milan and Zurich handle travel. The discretionary budget funds a boat or lake club, premium travel, and a wine cellar. Lavish by any measure, and still materially below the Geneva and Zurich ceilings thanks to Ticino's lower base."
+    }
+  },
+  "dataRecency": "Q3 2026"
+}

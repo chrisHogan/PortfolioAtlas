@@ -1,0 +1,201 @@
+{
+  "name": "Basel",
+  "country": "Switzerland",
+  "region": "Europe",
+  "slug": "basel",
+  "emoji": "🇨🇭",
+  "fireScore": 8.6,
+  "tagline": "Rhine-Side Pharma Capital of Art, Museums, and Tri-National Living",
+  "description": "Basel is Switzerland's cultural and pharmaceutical heart, home to Roche and Novartis, nearly forty museums, and a medieval old town on the Rhine where Switzerland, France, and Germany meet. It offers world-class healthcare, with University Hospital Basel ranked among the best on earth, one of Europe's densest tram networks, and an international, science-driven community. Costs are very high by any global standard, though prime rents run below Zurich's, and the mandatory health-insurance premium is among the steepest in Switzerland. German and the Baseldytsch dialect anchor daily life, with English common in the pharma sector. It suits those who want Swiss stability and a deep cultural calendar over cost savings.",
+  "tags": {
+    "climate": "continental",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No dedicated retirement visa. EU/EFTA citizens settle by proving sufficient means and holding Swiss health insurance. A non-EU retiree depends on the discretionary Art. 28 FNIA permit (age 55 or over, sufficient means, and genuine personal ties to Switzerland), decided canton by canton. Basel-Stadt abolished lump-sum taxation effective 2014, so that tax-based route is closed and Art. 28 is the main non-EU path. US, UK, Canadian and Australian visitors get 90 Schengen days in any 180. Compulsory KVG health insurance within 3 months of arrival, and a C permit follows after about 10 years, 5 for US and Canadian citizens.",
+    "timezone": "CET/CEST (UTC+1/+2)",
+    "language": "German (Baseldytsch dialect spoken, standard German written); French and German across the borders, English common in the pharma sector",
+    "internetSpeed": "Gigabit fiber widely available; city median around 400-600 Mbps (~CHF 45-80/mo)",
+    "safetyRating": "Very safe by global standards, though Basel-Stadt records Switzerland's highest cantonal crime rate; usual big-city care around the station and nightlife",
+    "nearestAirport": "EuroAirport Basel-Mulhouse-Freiburg (BSL), a tri-national airport on French soil",
+    "climate": "Temperate continental and one of Switzerland's mildest, with warm summers and cool winters on the Rhine",
+    "englishFriendly": "High",
+    "currency": "Swiss Franc (CHF)",
+    "averageTemp": "51°F / 10.5°C"
+  },
+  "scores": {
+    "safety": 8.5,
+    "healthcare": 9.5,
+    "infrastructure": 9.4,
+    "expatFriendliness": 6.5
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "A small studio in an outer district such as Kleinbasel or the Gundeldingen edge, or a cheaper near-suburb",
+        "monthlyCost": 1423
+      },
+      "dining": {
+        "description": "Mostly home cooking, with a handful of inexpensive meals out",
+        "monthlyCost": 161
+      },
+      "groceries": {
+        "monthlyCost": 495
+      },
+      "healthcare": {
+        "description": "Mandatory KVG basic insurance only, one canton-wide premium region, CHF 1,000 franchise on a managed-care model, among the highest premiums in Switzerland",
+        "monthlyCost": 616
+      },
+      "transportation": {
+        "description": "A TNW U-Abo network pass across trams and buses, no car",
+        "monthlyCost": 104
+      },
+      "entertainment": {
+        "description": "Occasional cinema or a museum visit",
+        "monthlyCost": 99
+      },
+      "utilities": {
+        "monthlyCost": 247
+      },
+      "lifestyle": "A small studio in an outer district, a U-Abo that covers the tram network, and the mandatory KVG cover, which is steeper here than in most of Switzerland. Meals are mostly cooked at home. The payoff is a compact, walkable Rhine city where river swims, museum days, and the old town cost little. Room for extras is thin, but the cultural setting is unusually generous for the outlay."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "A modest one-bedroom outside the centre",
+        "monthlyCost": 1856
+      },
+      "dining": {
+        "description": "Eating out a few times a week",
+        "monthlyCost": 346
+      },
+      "groceries": {
+        "monthlyCost": 619
+      },
+      "healthcare": {
+        "description": "KVG on a CHF 500 franchise managed-care model with a light outpatient supplement",
+        "monthlyCost": 717
+      },
+      "transportation": {
+        "description": "The U-Abo pass plus occasional regional and SBB trips",
+        "monthlyCost": 142
+      },
+      "entertainment": {
+        "description": "A gym, cinema, and occasional events",
+        "monthlyCost": 223
+      },
+      "utilities": {
+        "monthlyCost": 297
+      },
+      "lifestyle": "A modest one-bedroom outside the centre, dining out a few times a week, and a fuller health plan than the minimum. The tram pass covers the day, and a gym and cinema fill the week. It is the sensible middle of a compact, cultured Rhine city, with money left over most months."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "A desirable central one-bedroom in Gundeldingen, St. Johann, or Wettstein",
+        "monthlyCost": 2474
+      },
+      "dining": {
+        "description": "Regular restaurant dining through the week",
+        "monthlyCost": 680
+      },
+      "groceries": {
+        "monthlyCost": 742
+      },
+      "healthcare": {
+        "description": "KVG basic insurance plus semi-private hospital (VVG) cover",
+        "monthlyCost": 891
+      },
+      "transportation": {
+        "description": "The U-Abo pass with Mobility car-share or the occasional taxi",
+        "monthlyCost": 204
+      },
+      "entertainment": {
+        "description": "Theatre, concerts, and Basel's deep museum and gallery scene",
+        "monthlyCost": 433
+      },
+      "utilities": {
+        "monthlyCost": 346
+      },
+      "lifestyle": "A central one-bedroom in a sought-after quarter, dining out regularly, and semi-private health cover on top of the mandatory plan. The tram pass and car-share cover daily life without owning a car. The museums, galleries, and Rhine-side culture become routine rather than an occasion, with real monthly margin for travel. Culturally it punches far above a city of its size."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "A spacious high-standard central one-bedroom or small two-bedroom in a prime quarter such as Bruderholz",
+        "monthlyCost": 3835
+      },
+      "dining": {
+        "description": "Frequent fine dining",
+        "monthlyCost": 1237
+      },
+      "groceries": {
+        "monthlyCost": 928
+      },
+      "healthcare": {
+        "description": "KVG plus private hospital (VVG) cover and a dental and outpatient supplement",
+        "monthlyCost": 1188
+      },
+      "transportation": {
+        "description": "The U-Abo pass with a modest car or frequent taxis and car-share",
+        "monthlyCost": 433
+      },
+      "entertainment": {
+        "description": "Clubs, premium events, and the full cultural calendar",
+        "monthlyCost": 742
+      },
+      "utilities": {
+        "monthlyCost": 421
+      },
+      "domesticHelp": {
+        "description": "A cleaner around four hours a week",
+        "monthlyCost": 742
+      },
+      "luxuryExtras": {
+        "description": "Wellness, fine wine, weekend travel, and memberships",
+        "monthlyCost": 619
+      },
+      "lifestyle": "A spacious high-standard flat in a prime quarter, frequent fine dining, and private hospital cover with a free choice of doctor. A weekly cleaner keeps the home, a car and taxis supplement the tram pass, and there is a standing budget for clubs, culture, and weekend travel. Upscale Rhine-city living, comfortably below the top tier's ceiling."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "A luxury furnished two- to three-bedroom at a prime address such as the Bruderholz, St. Alban, or the Wettstein riverside",
+        "monthlyCost": 9278
+      },
+      "dining": {
+        "description": "Fine dining as routine, from Michelin tables to Rhine-side institutions",
+        "monthlyCost": 2721
+      },
+      "groceries": {
+        "monthlyCost": 1361
+      },
+      "healthcare": {
+        "description": "KVG basic insurance plus top private worldwide hospital cover and comprehensive dental",
+        "monthlyCost": 1608
+      },
+      "transportation": {
+        "description": "A luxury car with prime parking, plus taxis and first-class rail",
+        "monthlyCost": 1361
+      },
+      "entertainment": {
+        "description": "Premium culture, sport, and a full events calendar",
+        "monthlyCost": 1608
+      },
+      "utilities": {
+        "monthlyCost": 619
+      },
+      "domesticHelp": {
+        "description": "A part-time housekeeper, twelve or more hours a week, plus services",
+        "monthlyCost": 2721
+      },
+      "luxuryExtras": {
+        "description": "Concierge, club and spa memberships, a wine cellar, and an uncapped travel budget",
+        "monthlyCost": 2350
+      },
+      "lifestyle": "Basel's ceiling is a furnished luxury home on the Bruderholz or the St. Alban riverside, with fine dining as routine and top private healthcare in a place that is itself a global medical hub. A luxury car and first-class rail handle travel, a part-time housekeeper keeps the home, and the discretionary budget funds concierge services, a wine cellar, premium culture, and constant travel. Unmistakably lavish, in a city whose art and museums give the money somewhere worthwhile to go."
+    }
+  },
+  "dataRecency": "Q3 2026"
+}

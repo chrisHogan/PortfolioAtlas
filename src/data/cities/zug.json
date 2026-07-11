@@ -1,0 +1,201 @@
+{
+  "name": "Zug",
+  "country": "Switzerland",
+  "region": "Europe",
+  "slug": "zug",
+  "emoji": "🇨🇭",
+  "fireScore": 8.7,
+  "tagline": "Low-Tax Lakeside Town in Zurich's Orbit",
+  "description": "Zug is a small lakeside town of about 30,000 that outweighs its size as Switzerland's lowest-tax canton and the hub of its Crypto Valley. It offers a medieval old town on Lake Zug, very low crime, and a fast rail link that puts Zurich around 25 minutes away, which is where residents reach for a major airport and tertiary hospital care. Housing is genuinely scarce and expensive, with rents rivaling Zurich's, driven by wealthy in-migration. The draw is fiscal: low income and wealth taxes, plus lump-sum taxation for the wealthy that Zurich and Basel no longer offer. Day to day it offers safety and lakeside calm rather than big-city culture. For a well-funded FIRE base it is one of Switzerland's more attainable and tax-efficient options.",
+  "tags": {
+    "climate": "continental",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No dedicated retirement visa. EU/EFTA citizens settle by proving sufficient means and holding Swiss health insurance. A non-EU retiree relies on the discretionary Art. 28 FNIA permit (age 55 or over, sufficient means, and genuine personal ties to Switzerland) or, more commonly for the wealthy, Zug's lump-sum tax arrangement negotiated with the canton and tied to residence. Either way the canton decides case by case. US, UK, Canadian and Australian visitors get 90 Schengen days in any 180. Compulsory KVG health insurance within 3 months of arrival, and a C permit follows after about 10 years, 5 for US and Canadian citizens.",
+    "timezone": "CET/CEST (UTC+1/+2)",
+    "language": "German (Swiss German spoken, standard German written); high English use, the largest share of English speakers of any Swiss canton",
+    "internetSpeed": "Gigabit fiber widely available (~CHF 45-80/mo); a genuine fintech and tech hub",
+    "safetyRating": "Among Switzerland's safest places, with very low crime and a small, wealthy population",
+    "nearestAirport": "Zurich Airport (ZRH), about 30 to 40 minutes by train; Zug has no airport of its own",
+    "climate": "Temperate continental with warm summers and cold, sometimes snowy winters, moderated by Lake Zug",
+    "englishFriendly": "High",
+    "currency": "Swiss Franc (CHF)",
+    "averageTemp": "48°F / 9°C"
+  },
+  "scores": {
+    "safety": 9.3,
+    "healthcare": 9,
+    "infrastructure": 9.2,
+    "expatFriendliness": 7
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "A room in a shared flat or a very small studio on the town edge or in a cheaper nearby commune such as Baar, Cham, or Steinhausen",
+        "monthlyCost": 1790
+      },
+      "dining": {
+        "description": "Mostly home cooking, with a few inexpensive meals out",
+        "monthlyCost": 180
+      },
+      "groceries": {
+        "monthlyCost": 470
+      },
+      "healthcare": {
+        "description": "Mandatory KVG basic insurance only, one canton-wide premium region, CHF 500 franchise on a managed-care model, currently the lowest premiums in Switzerland",
+        "monthlyCost": 370
+      },
+      "transportation": {
+        "description": "A Tarifverbund Zug network pass, with Zurich reachable by rail on point-to-point tickets, no car",
+        "monthlyCost": 100
+      },
+      "entertainment": {
+        "description": "Lake swimming, hiking, and the occasional paid outing",
+        "monthlyCost": 150
+      },
+      "utilities": {
+        "monthlyCost": 220
+      },
+      "lifestyle": "Lean living in an expensive small town: a room or very small studio at the edge of Zug or in a cheaper neighbouring commune, a network pass, and, for now, the lowest mandatory health premium in the country. Housing is the pressure point, since scarcity keeps even modest rents high. The compensation is the lake, the hiking, and a fast train to Zurich when the small town feels small. Comfortable and safe, with little discretionary room."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "A modest one-bedroom in a nearer commune or the edge of town",
+        "monthlyCost": 2850
+      },
+      "dining": {
+        "description": "Regular casual meals out",
+        "monthlyCost": 320
+      },
+      "groceries": {
+        "monthlyCost": 560
+      },
+      "healthcare": {
+        "description": "KVG on a standard model with a CHF 500 franchise",
+        "monthlyCost": 430
+      },
+      "transportation": {
+        "description": "A network pass plus regular rail trips to Zurich",
+        "monthlyCost": 160
+      },
+      "entertainment": {
+        "description": "A gym membership and regular outings",
+        "monthlyCost": 300
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "lifestyle": "A modest one-bedroom in a nearby commune or the town edge, regular casual dining, and a standard health plan. The pass and the Zurich train handle daily movement and bigger-city needs. It is everyday Zug, comfortable and quiet, with the lake close and the tax bill light."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "A central, desirable one-bedroom in Zug town near the lake, old town, or the Metalli district",
+        "monthlyCost": 3960
+      },
+      "dining": {
+        "description": "Regular mid-range dining",
+        "monthlyCost": 550
+      },
+      "groceries": {
+        "monthlyCost": 650
+      },
+      "healthcare": {
+        "description": "KVG basic insurance plus a basic outpatient and dental supplement",
+        "monthlyCost": 500
+      },
+      "transportation": {
+        "description": "A network pass with frequent rail trips to Zurich",
+        "monthlyCost": 250
+      },
+      "entertainment": {
+        "description": "A gym, cultural outings, and weekend trips",
+        "monthlyCost": 550
+      },
+      "utilities": {
+        "monthlyCost": 290
+      },
+      "lifestyle": "A central one-bedroom near the lake or old town, restaurant meals several times a week, and supplementary health cover on top of the mandatory plan. The pass and frequent trains fold Zurich's culture and airport into easy reach. There is genuine margin for travel and weekends away. A calm, low-tax lakeside life with a global city on tap twenty-five minutes up the line."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "A spacious high-standard one-bedroom or small two-bedroom near the lake",
+        "monthlyCost": 5570
+      },
+      "dining": {
+        "description": "Frequent quality dining, some fine dining",
+        "monthlyCost": 950
+      },
+      "groceries": {
+        "monthlyCost": 820
+      },
+      "healthcare": {
+        "description": "KVG plus semi-private hospital (VVG) cover",
+        "monthlyCost": 690
+      },
+      "transportation": {
+        "description": "A modest car with Zug's pricey parking, or car-share, plus rail",
+        "monthlyCost": 490
+      },
+      "entertainment": {
+        "description": "Club memberships, events, and travel",
+        "monthlyCost": 1100
+      },
+      "utilities": {
+        "monthlyCost": 370
+      },
+      "domesticHelp": {
+        "description": "A cleaner around four to five hours a week",
+        "monthlyCost": 620
+      },
+      "luxuryExtras": {
+        "description": "Wellness, premium subscriptions, and concierge-style services",
+        "monthlyCost": 850
+      },
+      "lifestyle": "An affluent lakeside life. A spacious high-standard flat near the water, frequent quality dining, and semi-private health cover. A car or car-share supplements the rail link, a weekly cleaner keeps the home, and there is a standing budget for clubs, events, and travel. Upscale and tax-light, with the lake at the doorstep and Zurich a short train away, comfortably below the top tier."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "A luxury furnished two- to three-bedroom with lake views at a prime address such as the Zug lakefront, Oberwil, or Walchwil",
+        "monthlyCost": 11750
+      },
+      "dining": {
+        "description": "Frequent fine dining at lakefront restaurants and beyond",
+        "monthlyCost": 2000
+      },
+      "groceries": {
+        "monthlyCost": 1050
+      },
+      "healthcare": {
+        "description": "KVG basic insurance plus top private worldwide hospital cover",
+        "monthlyCost": 990
+      },
+      "transportation": {
+        "description": "A premium car with dedicated parking, taxis, and first-class rail",
+        "monthlyCost": 1100
+      },
+      "entertainment": {
+        "description": "Local clubs and events, with the biggest cultural nights and nightlife taken in nearby Zurich",
+        "monthlyCost": 1300
+      },
+      "utilities": {
+        "monthlyCost": 550
+      },
+      "domesticHelp": {
+        "description": "Near-daily housekeeping and part-time household staff",
+        "monthlyCost": 3000
+      },
+      "luxuryExtras": {
+        "description": "A boat or yacht-club membership, luxury travel, and private wine and art",
+        "monthlyCost": 2100
+      },
+      "lifestyle": "A furnished luxury home with lake views on the Zug or Walchwil shore, some of the most expensive real estate in Switzerland, and fine dining along the water. Top private healthcare, a premium car, near-daily household help, and first-class rail into Zurich round out the day. The discretionary budget funds a boating club, luxury travel, and a wine cellar, with the biggest cultural nights taken in the city up the line. A discreet, tax-efficient version of Swiss luxury, lakeside rather than metropolitan."
+    }
+  },
+  "dataRecency": "Q3 2026"
+}

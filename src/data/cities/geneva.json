@@ -1,0 +1,201 @@
+{
+  "name": "Geneva",
+  "country": "Switzerland",
+  "region": "Europe",
+  "slug": "geneva",
+  "emoji": "🇨🇭",
+  "fireScore": 8.3,
+  "tagline": "Global Diplomacy Hub on Lake Geneva at Zurich-Level Prices",
+  "description": "Geneva sits on its lake beneath Mont Blanc and carries the institutional weight of the UN, WHO, WTO, and the Red Cross, with one of Europe's densest concentrations of international employers and English-language services. Healthcare runs through Geneva University Hospitals (HUG), among the largest teaching hospitals on the continent, under Switzerland's mandatory-insurance model. Getting around leans on trams, the cross-border Léman Express regional rail, and Geneva Airport about 4 km from the centre. The trade-off is cost: Geneva ranks among the most expensive cities worldwide, so a portfolio buys far less here than almost anywhere else.",
+  "tags": {
+    "climate": "continental",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "Switzerland is in the Schengen Area, so US and most non-EU passport holders get 90 days of visa-free travel in any 180. Settling as a retiree is simple for EU/EFTA citizens under free movement (prove sufficient funds plus full health insurance, receive a 5-year B permit) but hard and discretionary for everyone else. The non-EU retiree permit (Art. 28 AIG) requires age 55 or older, no work in Switzerland, ample means, and real personal ties to the country, decided canton by canton with federal sign-off, so a portfolio by itself does not qualify you. Geneva still offers lump-sum taxation at a cantonal base near CHF 400,000, and mandatory KVG/LAMal health insurance must be taken out within 3 months of arrival.",
+    "timezone": "CET (UTC+1) / CEST (UTC+2 summer)",
+    "language": "French (official); English widely used across the international, diplomatic, and NGO sector",
+    "internetSpeed": "Fiber near-ubiquitous; typical fixed broadband 250-600 Mbps, plans up to 10 Gbps symmetric (Swisscom, Sunrise, Salt)",
+    "safetyRating": "Very safe by global standards (Numbeo safety index 70.55); main caveat is pickpocketing around Cornavin station and tourist zones",
+    "nearestAirport": "Geneva Airport (GVA), about 4 km from the centre with a rail station beneath the terminal",
+    "climate": "Four lake-moderated seasons; January averages about 2°C (36°F), July about 21°C (70°F), with cold winters and warm summers",
+    "englishFriendly": "High",
+    "currency": "Swiss Franc (CHF)",
+    "averageTemp": "52°F / 11°C"
+  },
+  "scores": {
+    "safety": 8,
+    "healthcare": 9,
+    "infrastructure": 9,
+    "expatFriendliness": 7
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Small studio in an outer district such as Vernier, Meyrin, or Lancy, near the studio-market median.",
+        "monthlyCost": 1797
+      },
+      "dining": {
+        "description": "Mostly home cooking with an occasional inexpensive restaurant meal or café lunch.",
+        "monthlyCost": 273
+      },
+      "groceries": {
+        "monthlyCost": 520
+      },
+      "healthcare": {
+        "description": "Mandatory KVG basic insurance on a managed-care (telmed/HMO) model at a mid-range franchise, the compliant cost floor.",
+        "monthlyCost": 705
+      },
+      "transportation": {
+        "description": "tpg Unireso Tout Genève monthly pass covering trams, buses, and shuttle boats across the canton; no car.",
+        "monthlyCost": 87
+      },
+      "entertainment": {
+        "description": "Budget gym plus the occasional cinema ticket, with the lakefront and parks free.",
+        "monthlyCost": 136
+      },
+      "utilities": {
+        "monthlyCost": 198
+      },
+      "lifestyle": "This is a frugal but genuine Geneva life, anchored by a small studio in an outer district like Vernier or Meyrin and a canton-wide transit pass that removes any need for a car. Most meals are cooked at home, with an occasional café lunch or inexpensive restaurant plate. Mandatory KVG health cover runs on a managed-care model to keep the premium at its realistic floor, and it still absorbs roughly a fifth of the budget, the unavoidable Swiss reality. The payoff is the setting: lake swimming, mountain views, and one of Europe's safest, best-run cities, all reachable on a tram."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Modest studio or small one-bedroom in a decent central district.",
+        "monthlyCost": 2355
+      },
+      "dining": {
+        "description": "Casual dining out two or three times a week alongside home cooking.",
+        "monthlyCost": 496
+      },
+      "groceries": {
+        "monthlyCost": 644
+      },
+      "healthcare": {
+        "description": "Mandatory KVG on the standard free-choice-of-doctor model.",
+        "monthlyCost": 865
+      },
+      "transportation": {
+        "description": "Tout Genève pass plus occasional Léman Express regional trips; no car.",
+        "monthlyCost": 105
+      },
+      "entertainment": {
+        "description": "Standard gym plus regular cinema and cultural outings.",
+        "monthlyCost": 248
+      },
+      "utilities": {
+        "monthlyCost": 235
+      },
+      "lifestyle": "A comfortable Geneva footing built on a modest studio or small one-bedroom in a decent district, with the health plan stepped up to free choice of doctor. Casual restaurant meals become a routine two or three times a week, and the transit pass stretches to regional trips on the Léman Express. There is room for a gym, cinema, and the city's cultural calendar without straining. It is unshowy, well-run city living a notch above the frugal floor."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Comfortable central one-bedroom in a desirable district such as Eaux-Vives, Plainpalais, or Servette.",
+        "monthlyCost": 3098
+      },
+      "dining": {
+        "description": "Regular mid-range dining, roughly twice a week, with better produce at home.",
+        "monthlyCost": 768
+      },
+      "groceries": {
+        "monthlyCost": 768
+      },
+      "healthcare": {
+        "description": "Standard KVG plus a solid supplementary (VVG) layer for outpatient and general hospital cover.",
+        "monthlyCost": 1055
+      },
+      "transportation": {
+        "description": "Tout Genève pass plus occasional taxis and regional rail; still no need for a car.",
+        "monthlyCost": 161
+      },
+      "entertainment": {
+        "description": "Full gym, concerts, theatre, and the museum-and-lake leisure the city is built around.",
+        "monthlyCost": 409
+      },
+      "utilities": {
+        "monthlyCost": 285
+      },
+      "lifestyle": "This is comfortable Geneva: a central one-bedroom in a sought-after district like Eaux-Vives, within walking distance of the lake. Dining out is a regular pleasure, a supplementary health layer sits on top of mandatory cover, and the transit pass plus the odd taxi cover the city without a car. Concerts, theatre, and the museum calendar are all in easy reach, with real budget margin each month. This is affluent Geneva living without the prime-address premium."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "High-standard one-bedroom or junior two-bedroom in a prime central district.",
+        "monthlyCost": 4709
+      },
+      "dining": {
+        "description": "Frequent dining at good restaurants, wine included.",
+        "monthlyCost": 1239
+      },
+      "groceries": {
+        "monthlyCost": 892
+      },
+      "healthcare": {
+        "description": "Standard KVG plus semi-private hospital cover (two-bed room, free choice of hospital and doctor).",
+        "monthlyCost": 1365
+      },
+      "transportation": {
+        "description": "A car joins the transit pass, with running costs, insurance, and city parking.",
+        "monthlyCost": 682
+      },
+      "entertainment": {
+        "description": "Premium gym or club, opera, and a fuller cultural calendar.",
+        "monthlyCost": 694
+      },
+      "utilities": {
+        "monthlyCost": 359
+      },
+      "domesticHelp": {
+        "description": "Weekly professional cleaning, about three hours a week at Geneva agency rates.",
+        "monthlyCost": 744
+      },
+      "luxuryExtras": {
+        "description": "Wellness, fine wine, short-haul travel, and concierge-style discretionary spend.",
+        "monthlyCost": 868
+      },
+      "lifestyle": "An upper-affluent Geneva life, based in a high-standard one-bedroom or junior two-bedroom at a prime central address, kept by a weekly cleaner. Dining at good restaurants becomes frequent, semi-private hospital cover removes friction from healthcare, and a car joins the transit pass for weekends beyond the tram network. A premium club, opera, and a wellness-and-travel budget fill out the calendar. Comfortable margin sits on top of a genuinely expensive city."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Luxury furnished two- or three-bedroom at a prime address such as the Old Town, Eaux-Vives lakeside, Champel, or the Cologny fringe.",
+        "monthlyCost": 11773
+      },
+      "dining": {
+        "description": "Frequent fine dining across the city's best tables.",
+        "monthlyCost": 2045
+      },
+      "groceries": {
+        "monthlyCost": 1091
+      },
+      "healthcare": {
+        "description": "Standard KVG plus full private hospital cover and concierge-grade access.",
+        "monthlyCost": 1735
+      },
+      "transportation": {
+        "description": "A premium car with prime parking, plus taxis and rail when they suit.",
+        "monthlyCost": 1301
+      },
+      "entertainment": {
+        "description": "Private clubs, premium culture, and an open events calendar.",
+        "monthlyCost": 1239
+      },
+      "utilities": {
+        "monthlyCost": 496
+      },
+      "domesticHelp": {
+        "description": "Housekeeping several times a week plus occasional additional help.",
+        "monthlyCost": 1673
+      },
+      "luxuryExtras": {
+        "description": "Concierge services, a wine cellar, premium memberships, and regular travel.",
+        "monthlyCost": 2603
+      },
+      "lifestyle": "The top of the Geneva market: a luxury furnished two- or three-bedroom at a trophy address such as the Old Town or the Eaux-Vives lakefront, kept by housekeeping several times a week. Fine dining is routine, health cover pairs mandatory KVG with full private hospital and concierge access, and a premium car with prime parking handles the rest. The discretionary budget funds private clubs, a wine cellar, premium culture, and regular travel. Geneva absorbs very large budgets, and this tier is genuinely lavish while, in one of the world's priciest cities, still short of buying property outright."
+    }
+  },
+  "dataRecency": "Q3 2026"
+}

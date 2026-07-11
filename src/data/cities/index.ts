@@ -50,6 +50,12 @@ import rome from './rome.json';
 import edinburgh from './edinburgh.json';
 import istanbul from './istanbul.json';
 import berlin from './berlin.json';
+import basel from './basel.json';
+import geneva from './geneva.json';
+import lausanne from './lausanne.json';
+import lugano from './lugano.json';
+import zug from './zug.json';
+import zurich from './zurich.json';
 
 // Latin America
 import mexicoCity from './mexico-city.json';
@@ -189,6 +195,12 @@ export const allCities: CityData[] = [
   edinburgh,
   istanbul,
   berlin,
+  basel,
+  geneva,
+  lausanne,
+  lugano,
+  zug,
+  zurich,
   // Latin America
   mexicoCity,
   medellin,

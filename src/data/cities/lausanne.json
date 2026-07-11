@@ -1,0 +1,201 @@
+{
+  "name": "Lausanne",
+  "country": "Switzerland",
+  "region": "Europe",
+  "slug": "lausanne",
+  "emoji": "🇨🇭",
+  "fireScore": 8.1,
+  "tagline": "Olympic Lakeside University City with Switzerland's Only Metro",
+  "description": "Lausanne rises in terraces above Lake Geneva and hosts the International Olympic Committee, the EPFL research university, and a large international student population. Medical care centres on CHUV, one of Switzerland's five university hospitals and a regular fixture in European rankings, delivered under the country's mandatory-insurance model. It is the only Swiss city with a metro (the m1 and m2 lines), and Geneva Airport sits about 50 minutes away by direct train. Living costs sit at the Swiss high end, so the budget has to absorb steep rents and mandatory monthly health premiums.",
+  "tags": {
+    "climate": "continental",
+    "english": "moderate"
+  },
+  "quickFacts": {
+    "visa": "Switzerland is in the Schengen Area, so US and most non-EU passport holders get 90 days of visa-free travel in any 180. Settling as a retiree is simple for EU/EFTA citizens under free movement (prove sufficient funds plus full health insurance, receive a 5-year B permit) but hard and discretionary for everyone else. The non-EU retiree permit (Art. 28 AIG) requires age 55 or older, no work in Switzerland, ample means, and real personal ties to the country, decided canton by canton with federal sign-off, so a portfolio by itself does not qualify you. Vaud still offers lump-sum taxation and hosts the most such taxpayers in Switzerland, and mandatory KVG/LAMal health insurance must be taken out within 3 months of arrival.",
+    "timezone": "CET (UTC+1) / CEST (UTC+2 summer)",
+    "language": "French (official); English common in academic/international circles (EPFL, UNIL, IOC), everyday life in French",
+    "internetSpeed": "Fiber widely available; typical fixed broadband 250-600 Mbps, up to 10 Gbps fiber (Swisscom, Sunrise, Salt)",
+    "safetyRating": "Very safe (Numbeo safety index 71.17); violent crime rare, occasional petty theft in nightlife and station areas",
+    "nearestAirport": "No commercial airport of its own; nearest major international gateway is Geneva Airport (GVA), about 51 km away, roughly 50 minutes by direct train",
+    "climate": "Lake-moderated four-season climate; January averages about 3°C (37°F), July about 21°C (69°F)",
+    "englishFriendly": "Moderate",
+    "currency": "Swiss Franc (CHF)",
+    "averageTemp": "52°F / 11°C"
+  },
+  "scores": {
+    "safety": 8,
+    "healthcare": 9,
+    "infrastructure": 8.5,
+    "expatFriendliness": 6.5
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Small studio in an outer district or suburb such as Renens, Prilly, or Chavannes, or a room in a central shared flat.",
+        "monthlyCost": 1425
+      },
+      "dining": {
+        "description": "Mostly home cooking with an occasional café or casual meal out.",
+        "monthlyCost": 248
+      },
+      "groceries": {
+        "monthlyCost": 496
+      },
+      "healthcare": {
+        "description": "Mandatory KVG basic insurance on a managed-care (telmed/HMO) model at a mid-range franchise.",
+        "monthlyCost": 680
+      },
+      "transportation": {
+        "description": "tl Mobilis two-zone monthly pass covering the m1/m2 metro and buses; no car.",
+        "monthlyCost": 97
+      },
+      "entertainment": {
+        "description": "Budget gym plus occasional cinema, with the lakefront and forest trails free.",
+        "monthlyCost": 124
+      },
+      "utilities": {
+        "monthlyCost": 186
+      },
+      "lifestyle": "Lean Lausanne runs on a small studio in an outer district like Renens or a room in a shared flat closer to the centre. The tl Mobilis pass covers the m1 and m2 metro and the buses, so there is no car to run. Most meals are cooked at home, and mandatory KVG cover on a managed-care model keeps the premium at its floor while still taking a real bite. Free lakefront swimming and the trails above the city fill the weeks without filling the budget."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "Modest studio or small one-bedroom in a decent, non-prime district.",
+        "monthlyCost": 1983
+      },
+      "dining": {
+        "description": "Casual dining out two or three times a week.",
+        "monthlyCost": 434
+      },
+      "groceries": {
+        "monthlyCost": 620
+      },
+      "healthcare": {
+        "description": "Mandatory KVG on the standard free-choice-of-doctor model.",
+        "monthlyCost": 810
+      },
+      "transportation": {
+        "description": "Mobilis pass plus occasional regional rail; no car.",
+        "monthlyCost": 105
+      },
+      "entertainment": {
+        "description": "Standard gym plus regular cinema and cultural outings.",
+        "monthlyCost": 223
+      },
+      "utilities": {
+        "monthlyCost": 223
+      },
+      "lifestyle": "A step up in comfort: a modest studio or small one-bedroom in a decent district, with the health plan upgraded to free choice of doctor. Casual dining becomes a regular habit, and the Mobilis pass stretches to occasional regional trips. There is room for a gym, cinema, and the city's events without stretching the budget. It is steady city living with margin to spare."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "Comfortable central one-bedroom in a desirable district such as Sous-Gare, the Ouchy fringe, or Chailly.",
+        "monthlyCost": 2603
+      },
+      "dining": {
+        "description": "Mid-range restaurant dining roughly twice a week.",
+        "monthlyCost": 682
+      },
+      "groceries": {
+        "monthlyCost": 744
+      },
+      "healthcare": {
+        "description": "Standard KVG plus a solid supplementary (VVG) layer for outpatient and general hospital cover.",
+        "monthlyCost": 1000
+      },
+      "transportation": {
+        "description": "Mobilis pass plus occasional out-of-zone rail; no car needed.",
+        "monthlyCost": 124
+      },
+      "entertainment": {
+        "description": "Full gym, concerts, theatre, and lakeside leisure.",
+        "monthlyCost": 372
+      },
+      "utilities": {
+        "monthlyCost": 273
+      },
+      "lifestyle": "The FIRE tier lands a central one-bedroom in a desirable district such as the Ouchy fringe or Chailly, terraced above the lake. Dining out is a regular pleasure, a supplementary layer sits on top of mandatory health cover, and the metro plus occasional rail cover the city without a car. Concerts, theatre, and the lakeside are all within reach, with genuine monthly margin. Comfort here does not require a prime address."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "High-standard one-bedroom or junior two-bedroom at a prime address such as Ouchy or Mon-Repos.",
+        "monthlyCost": 3966
+      },
+      "dining": {
+        "description": "Frequent dining at good restaurants, wine included.",
+        "monthlyCost": 1115
+      },
+      "groceries": {
+        "monthlyCost": 868
+      },
+      "healthcare": {
+        "description": "Standard KVG plus semi-private hospital cover.",
+        "monthlyCost": 1305
+      },
+      "transportation": {
+        "description": "A car joins the Mobilis pass, with running costs, insurance, and parking.",
+        "monthlyCost": 682
+      },
+      "entertainment": {
+        "description": "Premium gym or club, concerts and opera, and a season ski pass.",
+        "monthlyCost": 620
+      },
+      "utilities": {
+        "monthlyCost": 347
+      },
+      "domesticHelp": {
+        "description": "Weekly professional cleaning, about three hours a week at Lausanne agency rates.",
+        "monthlyCost": 744
+      },
+      "luxuryExtras": {
+        "description": "Spa and wellness, fine wine, a lake or ski club, and occasional splurges.",
+        "monthlyCost": 868
+      },
+      "lifestyle": "Premium-tier money buys a high-standard one-bedroom or junior two-bedroom at a prime address like Ouchy or Mon-Repos, with a weekly cleaner. Dining at good restaurants is frequent, semi-private hospital cover adds a free choice of doctor in hospital, and a car joins the metro pass for the mountains and beyond. A premium club, concerts and opera, and a season ski pass fill the calendar. Comfortable margin sits on top of a high-cost city."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "Luxury furnished two- or three-bedroom at a prime lakefront address in Ouchy, Mon-Repos, or the Lac district.",
+        "monthlyCost": 10534
+      },
+      "dining": {
+        "description": "Frequent fine dining across the region's best tables.",
+        "monthlyCost": 1859
+      },
+      "groceries": {
+        "monthlyCost": 1053
+      },
+      "healthcare": {
+        "description": "Standard KVG plus full private hospital cover and concierge-grade access.",
+        "monthlyCost": 1680
+      },
+      "transportation": {
+        "description": "A premium car with prime lakefront parking, plus taxis and rail.",
+        "monthlyCost": 1301
+      },
+      "entertainment": {
+        "description": "Private clubs, premium culture, and an open events calendar.",
+        "monthlyCost": 1115
+      },
+      "utilities": {
+        "monthlyCost": 471
+      },
+      "domesticHelp": {
+        "description": "Housekeeping several times a week plus occasional errand help.",
+        "monthlyCost": 1611
+      },
+      "luxuryExtras": {
+        "description": "Concierge services, premium travel, a fine-wine collection, and high-end shopping.",
+        "monthlyCost": 2479
+      },
+      "lifestyle": "The top tier in Lausanne means a luxury furnished two- or three-bedroom on the Ouchy lakefront or in Mon-Repos, with housekeeping several times a week. Fine dining stops being an occasion, health cover pairs mandatory KVG with full private hospital and concierge access, and a premium car with lakefront parking handles the rest. The discretionary budget funds private clubs, premium travel, a wine cellar, and an open cultural calendar. This is lavish living in an Olympic lakeside city, a step below Geneva's ceiling."
+    }
+  },
+  "dataRecency": "Q3 2026"
+}

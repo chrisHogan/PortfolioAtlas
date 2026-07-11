@@ -1,0 +1,201 @@
+{
+  "name": "Zurich",
+  "country": "Switzerland",
+  "region": "Europe",
+  "slug": "zurich",
+  "emoji": "🇨🇭",
+  "fireScore": 8.9,
+  "tagline": "Global Finance Hub, Lakeside Living, and the World's Highest Prices",
+  "description": "Zurich pairs a global financial center with lake-and-Alps quality of life and public services that top international rankings, with Mercer placing it first in the world for quality of living in 2024. It is consistently among the two or three most expensive cities on earth, so the appeal is stability, safety, world-class healthcare, and near-flawless infrastructure rather than cost arbitrage. Everyday costs, from groceries and dining to transit and mandatory health insurance, sit well above even London or Paris. German is the working language, though English is widely spoken across the finance sector.",
+  "tags": {
+    "climate": "continental",
+    "english": "high"
+  },
+  "quickFacts": {
+    "visa": "No dedicated retirement visa. EU/EFTA citizens settle by proving sufficient means and holding Swiss health insurance. A non-EU retiree depends on the discretionary Art. 28 FNIA permit (age 55 or over, sufficient means, and genuine personal ties to Switzerland), granted canton by canton. Zurich abolished lump-sum taxation in 2009, so the wealthy-foreigner tax route used in some cantons is closed here. US, UK, Canadian and Australian visitors get 90 Schengen days in any 180. Compulsory KVG health insurance within 3 months of arrival, and a C permit follows after about 10 years, 5 for US and Canadian citizens.",
+    "timezone": "CET/CEST (UTC+1/+2)",
+    "language": "German (Swiss German spoken, standard German written); English widely spoken in business",
+    "internetSpeed": "Gigabit fiber widely available; city median around 400-600 Mbps (~CHF 45-80/mo)",
+    "safetyRating": "Very safe; low violent crime, with petty theft mainly around the main station and nightlife areas",
+    "nearestAirport": "Zurich Airport (ZRH)",
+    "climate": "Temperate continental with warm summers and cold winters, moderated by Lake Zurich",
+    "englishFriendly": "High",
+    "currency": "Swiss Franc (CHF)",
+    "averageTemp": "48°F / 9°C"
+  },
+  "scores": {
+    "safety": 9,
+    "healthcare": 9.5,
+    "infrastructure": 9.5,
+    "expatFriendliness": 7
+  },
+  "tiers": {
+    "1M": {
+      "monthlyBudget": 3333,
+      "housing": {
+        "description": "Small studio in an outer district such as Schwamendingen, Seebach, or Altstetten, the cheapest rents in the city",
+        "monthlyCost": 1850
+      },
+      "dining": {
+        "description": "Mostly home cooking, with the occasional inexpensive lunch or takeaway",
+        "monthlyCost": 225
+      },
+      "groceries": {
+        "monthlyCost": 495
+      },
+      "healthcare": {
+        "description": "Mandatory KVG basic insurance only, Region 1, CHF 1,000 franchise on a managed-care model",
+        "monthlyCost": 580
+      },
+      "transportation": {
+        "description": "A ZVV two-zone travelcard covering trams, buses, and S-Bahn, no car",
+        "monthlyCost": 85
+      },
+      "entertainment": {
+        "description": "A gym or occasional cinema, with free lakeside and hiking days doing the rest",
+        "monthlyCost": 125
+      },
+      "utilities": {
+        "monthlyCost": 185
+      },
+      "lifestyle": "A frugal but genuinely comfortable footing in one of the world's priciest cities. A small studio in an outer district, a ZVV pass that reaches the whole city and lake, and the mandatory KVG cover everyone here carries. Most meals are cooked at home, with an inexpensive lunch out now and then. The compensation is a setting where the lake, the forests, and the tram network are effectively free and minutes away. Little slack for travel, but hard to beat at this price."
+    },
+    "2M": {
+      "monthlyBudget": 6667,
+      "housing": {
+        "description": "A modest one-bedroom outside the centre in Oerlikon or Altstetten",
+        "monthlyCost": 2475
+      },
+      "dining": {
+        "description": "Eating out twice a week or so, plus the odd nicer dinner",
+        "monthlyCost": 495
+      },
+      "groceries": {
+        "monthlyCost": 620
+      },
+      "healthcare": {
+        "description": "KVG standard model, CHF 500 franchise, with light complementary and dental cover",
+        "monthlyCost": 680
+      },
+      "transportation": {
+        "description": "A ZVV two-zone monthly pass plus occasional regional trips",
+        "monthlyCost": 135
+      },
+      "entertainment": {
+        "description": "Gym, cinema, and a modest events budget",
+        "monthlyCost": 250
+      },
+      "utilities": {
+        "monthlyCost": 250
+      },
+      "lifestyle": "An unshowy, secure footing. A modest one-bedroom outside the centre, eating out twice a week or so, and a fuller health plan than the bare minimum. The pass covers daily movement, and a gym and cinema round out the week. This is the practical middle of the city, comfortable without stretching, with the lake and trams always close."
+    },
+    "3M": {
+      "monthlyBudget": 10000,
+      "housing": {
+        "description": "A central, desirable one-bedroom in Kreis 4/5, Wiedikon, or lower Enge",
+        "monthlyCost": 3340
+      },
+      "dining": {
+        "description": "A regular mix of casual spots and mid-range restaurants through the week",
+        "monthlyCost": 805
+      },
+      "groceries": {
+        "monthlyCost": 745
+      },
+      "healthcare": {
+        "description": "KVG basic insurance on a standard model plus outpatient and dental supplementary (VVG) cover",
+        "monthlyCost": 740
+      },
+      "transportation": {
+        "description": "A broader-zone ZVV pass with occasional taxi or ride-hail, still no car",
+        "monthlyCost": 210
+      },
+      "entertainment": {
+        "description": "Concerts, theatre, weekend day-trips, and ski days in season",
+        "monthlyCost": 495
+      },
+      "utilities": {
+        "monthlyCost": 295
+      },
+      "lifestyle": "The comfortable, unhurried version of the city. A central one-bedroom within walking distance of the lake and nightlife, dining out through the week, and a real cultural calendar of concerts, theatre, and winter ski days. Supplementary health cover sits on top of the mandatory plan, and the pass plus the occasional taxi cover everything without a car. There is genuine monthly margin for travel and spontaneity. This is a comfortable retirement in a city that tops the quality-of-life rankings."
+    },
+    "5M": {
+      "monthlyBudget": 16667,
+      "housing": {
+        "description": "A spacious high-standard central one-bedroom or small two-bedroom in a prime quarter such as Enge or Seefeld",
+        "monthlyCost": 4950
+      },
+      "dining": {
+        "description": "Frequent dining at nicer restaurants, wine included",
+        "monthlyCost": 1360
+      },
+      "groceries": {
+        "monthlyCost": 940
+      },
+      "healthcare": {
+        "description": "KVG plus semi-private hospital (VVG) cover with two-bed rooms and free doctor choice",
+        "monthlyCost": 930
+      },
+      "transportation": {
+        "description": "The ZVV pass with regular taxis and Mobility car-share",
+        "monthlyCost": 435
+      },
+      "entertainment": {
+        "description": "Theatre and opera, a ski-season budget, and premium events",
+        "monthlyCost": 865
+      },
+      "utilities": {
+        "monthlyCost": 370
+      },
+      "domesticHelp": {
+        "description": "A cleaner around four hours a week",
+        "monthlyCost": 800
+      },
+      "luxuryExtras": {
+        "description": "A season ski pass, wellness and spa, and premium memberships",
+        "monthlyCost": 990
+      },
+      "lifestyle": "An affluent, low-friction life. A spacious high-standard flat in a prime lakeside quarter, frequent dining at the city's better tables, and semi-private health cover that removes waiting. A weekly cleaner keeps the home, taxis and car-share supplement the pass, and there is a standing budget for theatre, spa, and ski weekends. Upscale living with the lake and mountains at hand, comfortably short of the top tier's ceiling."
+    },
+    "10M": {
+      "monthlyBudget": 33333,
+      "housing": {
+        "description": "A luxury furnished two- to three-bedroom at a prime address such as the Zurichberg, the Seefeld lakeside, or the Gold Coast edge",
+        "monthlyCost": 9400
+      },
+      "dining": {
+        "description": "Fine dining on demand, from lakeside institutions to the city's best tables",
+        "monthlyCost": 2475
+      },
+      "groceries": {
+        "monthlyCost": 1190
+      },
+      "healthcare": {
+        "description": "KVG basic insurance plus top private worldwide hospital cover with free choice of specialist",
+        "monthlyCost": 1240
+      },
+      "transportation": {
+        "description": "An owned or leased car with prime central parking, plus taxis",
+        "monthlyCost": 1235
+      },
+      "entertainment": {
+        "description": "Opera and concert subscriptions, ski chalets, private clubs, and a full leisure calendar",
+        "monthlyCost": 1730
+      },
+      "utilities": {
+        "monthlyCost": 530
+      },
+      "domesticHelp": {
+        "description": "Near-daily housekeeping and household help",
+        "monthlyCost": 2475
+      },
+      "luxuryExtras": {
+        "description": "Concierge services, private-club memberships, and an uncapped travel and lifestyle budget",
+        "monthlyCost": 3710
+      },
+      "lifestyle": "The top of what the city offers short of buying property. A furnished luxury home on the Zurichberg or the Seefeld lakeshore, dining anywhere without a second thought, and top private healthcare with free choice of specialist. A car with prime parking joins the trams, near-daily household help keeps the home, and the discretionary budget funds opera subscriptions, ski chalets, private clubs, and constant travel. The city absorbs large budgets easily, and this tier uses that headroom."
+    }
+  },
+  "dataRecency": "Q3 2026"
+}
