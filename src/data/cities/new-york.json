@@ -87,7 +87,7 @@
     "3M": {
       "monthlyBudget": 10000,
       "housing": {
-        "description": "Spacious 1BR or small 2BR in the West Village, Upper West Side, or Brooklyn Heights",
+        "description": "Spacious 1BR or small 2BR on the Upper West Side or in Brooklyn Heights",
         "monthlyCost": 5300
       },
       "dining": {
@@ -112,7 +112,7 @@
       "utilities": {
         "monthlyCost": 300
       },
-      "lifestyle": "A spacious one-bedroom or small two-bedroom in the West Village, on the Upper West Side, or in Brooklyn Heights is classic New York living at its best. Dining out lands several nights a week at well-regarded restaurants, and healthcare is a full-price, community-rated plan with access to Mount Sinai and NYU Langone — the heaviest line, since New York's age-flat premiums are among the nation's highest. The subway, Citi Bike, and regular Lyft rides cover the city, with weekend car service to the Hudson Valley or the shore. Orchestra-level Broadway seats, Met Opera evenings, and gallery openings are routine. At $9,000 a month, New York is genuinely affluent, if never quite lavish by Manhattan standards."
+      "lifestyle": "A spacious one-bedroom or small two-bedroom on the Upper West Side or in Brooklyn Heights is classic New York living at its best. Dining out lands several nights a week at well-regarded restaurants, and healthcare is a full-price, community-rated plan with access to Mount Sinai and NYU Langone — the heaviest line, since New York's age-flat premiums are among the nation's highest. The subway, Citi Bike, and regular Lyft rides cover the city, with weekend car service to the Hudson Valley or the shore. Orchestra-level Broadway seats, Met Opera evenings, and gallery openings are routine. At $9,000 a month, New York is genuinely affluent, if never quite lavish by Manhattan standards."
     },
     "5M": {
       "monthlyBudget": 16667,
