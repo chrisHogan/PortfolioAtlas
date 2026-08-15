@@ -20,3 +20,6 @@ Thumbs.db
 # Editor
 .vscode/
 .idea/
+
+# Research dossiers (gitignored archive — city-research output, not app code)
+research-dossiers/
