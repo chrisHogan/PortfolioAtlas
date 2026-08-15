@@ -23,3 +23,6 @@ Thumbs.db
 
 # Research dossiers (gitignored archive — city-research output, not app code)
 research-dossiers/
+
+# Local harness settings (per-machine permission allowlist, mutated every session)
+.claude/settings.local.json
