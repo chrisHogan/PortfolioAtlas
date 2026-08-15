@@ -158,9 +158,14 @@ function getCountryDescription(): string {
 
     <!-- Cities table -->
     <section>
-      <h2 class="font-serif text-2xl font-bold text-brand-950 mb-4">
+      <h2 class="font-serif text-2xl font-bold text-brand-950 mb-2">
         FIRE Numbers for {cities.length > 1 ? `All ${cities.length} Cities in` : ''} {countryInSentence}
       </h2>
+      <p class="text-sm text-gray-500 mb-4">
+        These FIRE Numbers use the 4% rule benchmark and price a one-person household. City pages backtest
+        your own plan against market history, so the personalized figure there changes with your retirement
+        length, confidence level, and household size.
+      </p>
       <div class="bg-white rounded-2xl border border-sand-200 shadow-sm overflow-hidden">
         <div class="overflow-x-auto">
           <table class="w-full text-sm">
