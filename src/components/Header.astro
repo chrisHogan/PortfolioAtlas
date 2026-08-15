@@ -253,7 +253,7 @@ const searchCities = allCities.map(c => ({ name: c.name, country: c.country, slu
         dropdown.querySelectorAll('.search-item').forEach(function(item) {
           item.addEventListener('mousedown', function(e) {
             e.preventDefault();
-            window.location.href = '/cities/' + item.dataset.slug + '/';
+            window.location.href = '/cities/' + item.dataset.slug;
           });
         });
       }
@@ -294,7 +294,7 @@ const searchCities = allCities.map(c => ({ name: c.name, country: c.country, slu
         e.preventDefault();
         var idx = highlightIdx >= 0 ? highlightIdx : 0;
         if (currentMatches[idx]) {
-          window.location.href = '/cities/' + currentMatches[idx].slug + '/';
+          window.location.href = '/cities/' + currentMatches[idx].slug;
         }
       }
     });

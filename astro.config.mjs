@@ -4,7 +4,7 @@ import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
   site: 'https://portfolioatlas.org',
-  trailingSlash: 'ignore',
+  trailingSlash: 'never',
   build: {
     format: 'file',
   },

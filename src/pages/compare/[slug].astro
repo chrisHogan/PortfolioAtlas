@@ -122,7 +122,7 @@ const allRelated = relatedPairs.length >= 3 ? relatedPairs : [
 
 // SEO
 const siteUrl = 'https://portfolioatlas.org';
-const pageUrl = `${siteUrl}/compare/${slug1}-vs-${slug2}/`;
+const pageUrl = `${siteUrl}/compare/${slug1}-vs-${slug2}`;
 
 const pageTitle = `${city1.name} vs ${city2.name} for FIRE Retirement: Cost & Portfolio Comparison`;
 const metaDesc = `${city1.name} FIRE Number: ${formatFireNumber(c1.fire)}. ${city2.name} FIRE Number: ${formatFireNumber(c2.fire)}. Compare monthly costs, visa requirements, healthcare, and lifestyle for FIRE retirement.`;
@@ -132,7 +132,7 @@ const breadcrumbLd = {
   '@type': 'BreadcrumbList',
   'itemListElement': [
     { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': siteUrl },
-    { '@type': 'ListItem', 'position': 2, 'name': 'Compare', 'item': `${siteUrl}/compare/` },
+    { '@type': 'ListItem', 'position': 2, 'name': 'Compare', 'item': `${siteUrl}/compare` },
     { '@type': 'ListItem', 'position': 3, 'name': `${city1.name} vs ${city2.name}`, 'item': pageUrl },
   ],
 };
@@ -227,7 +227,7 @@ const compRows = [
             <span class="text-3xl">{city.emoji}</span>
             <div>
               <h2 class="font-serif text-xl font-bold text-brand-950">
-                <a href={`/cities/${city.slug}/`} class="hover:text-brand-700 transition-colors">{city.name}</a>
+                <a href={`/cities/${city.slug}`} class="hover:text-brand-700 transition-colors">{city.name}</a>
               </h2>
               <p class="text-sm text-gray-500">{city.country}</p>
             </div>
@@ -393,7 +393,7 @@ const compRows = [
             if (!ca || !cb) return null;
             return (
               <a
-                href={`/compare/${a}-vs-${b}/`}
+                href={`/compare/${a}-vs-${b}`}
                 class="flex items-center justify-between bg-white rounded-xl border border-sand-200 p-4 hover:border-brand-300 hover:shadow-sm transition-all group"
               >
                 <span class="text-sm font-semibold text-gray-700 group-hover:text-brand-700 transition-colors">
@@ -413,7 +413,7 @@ const compRows = [
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
       {[city1, city2].map((city) => (
         <a
-          href={`/cities/${city.slug}/`}
+          href={`/cities/${city.slug}`}
           class="flex items-center gap-3 bg-brand-950 rounded-xl p-5 text-white hover:bg-brand-900 transition-colors group"
         >
           <span class="text-2xl">{city.emoji}</span>

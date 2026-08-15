@@ -40,7 +40,7 @@ const breadcrumbLd = {
   '@type': 'BreadcrumbList',
   'itemListElement': [
     { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': siteUrl },
-    { '@type': 'ListItem', 'position': 2, 'name': 'Retire Abroad', 'item': `${siteUrl}/retire-in/` },
+    { '@type': 'ListItem', 'position': 2, 'name': 'Retire Abroad', 'item': `${siteUrl}/retire-in` },
   ],
 };
 ---
@@ -70,7 +70,7 @@ const breadcrumbLd = {
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
       {countries.map((c) => (
         <a
-          href={`/retire-in/${c.slug}/`}
+          href={`/retire-in/${c.slug}`}
           class="bg-white rounded-xl border border-sand-200 p-5 hover:border-brand-300 hover:shadow-md transition-all group"
         >
           <div class="flex items-center gap-3 mb-3">

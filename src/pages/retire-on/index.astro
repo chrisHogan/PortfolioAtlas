@@ -42,7 +42,7 @@ const breadcrumbLd = {
   '@type': 'BreadcrumbList',
   'itemListElement': [
     { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': siteUrl },
-    { '@type': 'ListItem', 'position': 2, 'name': 'Retire By Budget', 'item': `${siteUrl}/retire-on/` },
+    { '@type': 'ListItem', 'position': 2, 'name': 'Retire By Budget', 'item': `${siteUrl}/retire-on` },
   ],
 };
 ---
@@ -85,7 +85,7 @@ const breadcrumbLd = {
             {rows.map((row) => (
               <tr class="border-b border-sand-100 hover:bg-sand-50/50 transition-colors">
                 <td class="py-4 px-5">
-                  <a href={`/retire-on/${row.slug}/`} class="font-bold text-brand-700 hover:text-brand-900 transition-colors text-lg">
+                  <a href={`/retire-on/${row.slug}`} class="font-bold text-brand-700 hover:text-brand-900 transition-colors text-lg">
                     {row.label}
                   </a>
                 </td>
@@ -110,7 +110,7 @@ const breadcrumbLd = {
     <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-12">
       {rows.map((row) => (
         <a
-          href={`/retire-on/${row.slug}/`}
+          href={`/retire-on/${row.slug}`}
           class="bg-white rounded-xl border border-sand-200 p-5 hover:border-brand-300 hover:shadow-md transition-all group text-center"
         >
           <p class="text-2xl font-bold text-brand-950 group-hover:text-brand-700 transition-colors mb-1">

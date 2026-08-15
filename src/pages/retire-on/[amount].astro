@@ -7,32 +7,12 @@ import {
   getLifestyleMonthlyCost,
   formatFireNumber,
 } from '../../data/fireNumber';
-
-interface TierDef {
-  slug: string;
-  label: string;
-  value: number;
-  titlePrefix: string;
-}
-
-const TIERS: TierDef[] = [
-  { slug: '500k',  label: '$500K',  value: 500_000,   titlePrefix: 'Retire Abroad on $500K' },
-  { slug: '750k',  label: '$750K',  value: 750_000,   titlePrefix: 'Retire Abroad on $750K' },
-  { slug: '1m',    label: '$1M',    value: 1_000_000,  titlePrefix: 'Retire on $1 Million' },
-  { slug: '1-5m',  label: '$1.5M',  value: 1_500_000,  titlePrefix: 'Retire on $1.5M Abroad' },
-  { slug: '2m',    label: '$2M',    value: 2_000_000,  titlePrefix: 'Retire on $2 Million' },
-  { slug: '3m',    label: '$3M',    value: 3_000_000,  titlePrefix: 'Fat FIRE Abroad on $3M' },
-];
+import { PORTFOLIO_TIERS } from '../../data/tiers';
 
 export function getStaticPaths() {
-  return [
-    { slug: '500k',  label: '$500K',  value: 500000,   titlePrefix: 'Retire Abroad on $500K' },
-    { slug: '750k',  label: '$750K',  value: 750000,   titlePrefix: 'Retire Abroad on $750K' },
-    { slug: '1m',    label: '$1M',    value: 1000000,  titlePrefix: 'Retire on $1 Million' },
-    { slug: '1-5m',  label: '$1.5M',  value: 1500000,  titlePrefix: 'Retire on $1.5M Abroad' },
-    { slug: '2m',    label: '$2M',    value: 2000000,  titlePrefix: 'Retire on $2 Million' },
-    { slug: '3m',    label: '$3M',    value: 3000000,  titlePrefix: 'Fat FIRE Abroad on $3M' },
-  ].map((t) => ({
+  // getStaticPaths is hoisted into an isolated scope — it can only reference
+  // imports, which is why the tier list must live in data/tiers.ts.
+  return PORTFOLIO_TIERS.map((t) => ({
     params: { amount: t.slug },
     props: { label: t.label, portfolioValue: t.value, titlePrefix: t.titlePrefix },
   }));
@@ -67,7 +47,7 @@ const uniqueCountries = new Set(comfortable.map((r) => r.city.country)).size;
 
 // SEO
 const siteUrl = 'https://portfolioatlas.org';
-const pageUrl = `${siteUrl}/retire-on/${amount}/`;
+const pageUrl = `${siteUrl}/retire-on/${amount}`;
 
 const comfortCount = comfortable.length;
 const titleCitySuffix = comfortCount > 1
@@ -131,7 +111,7 @@ const breadcrumbLd = {
   '@type': 'BreadcrumbList',
   'itemListElement': [
     { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': siteUrl },
-    { '@type': 'ListItem', 'position': 2, 'name': 'Retire By Budget', 'item': `${siteUrl}/retire-on/` },
+    { '@type': 'ListItem', 'position': 2, 'name': 'Retire By Budget', 'item': `${siteUrl}/retire-on` },
     { '@type': 'ListItem', 'position': 3, 'name': `Retire on ${label}`, 'item': pageUrl },
   ],
 };
@@ -193,7 +173,7 @@ const jsonLd = [breadcrumbLd, faqLd];
     {cheapestComfortable && (
       <div class="bg-brand-50 border border-brand-200 rounded-xl p-5 mb-10">
         <p class="text-sm text-brand-800">
-          <strong>Cheapest comfortable option:</strong> {cheapestComfortable.city.emoji} <a href={`/cities/${cheapestComfortable.city.slug}/`} class="font-semibold underline hover:text-brand-600">{cheapestComfortable.city.name}, {cheapestComfortable.city.country}</a> at {formatFireNumber(cheapestComfortable.fireNumber)} — leaving you a {formatFireNumber(cheapestComfortable.buffer)} buffer.
+          <strong>Cheapest comfortable option:</strong> {cheapestComfortable.city.emoji} <a href={`/cities/${cheapestComfortable.city.slug}`} class="font-semibold underline hover:text-brand-600">{cheapestComfortable.city.name}, {cheapestComfortable.city.country}</a> at {formatFireNumber(cheapestComfortable.fireNumber)} — leaving you a {formatFireNumber(cheapestComfortable.buffer)} buffer.
           Of the {allCities.length} cities we track, you're within reach of <strong>{Math.round((totalAffordable / allCities.length) * 100)}%</strong>.
         </p>
       </div>
@@ -227,7 +207,7 @@ const jsonLd = [breadcrumbLd, faqLd];
                 {comfortable.map((row) => (
                   <tr class="border-b border-sand-100 hover:bg-emerald-50/30 transition-colors">
                     <td class="py-3.5 px-5">
-                      <a href={`/cities/${row.city.slug}/`} class="font-bold text-brand-700 hover:text-brand-900 transition-colors">
+                      <a href={`/cities/${row.city.slug}`} class="font-bold text-brand-700 hover:text-brand-900 transition-colors">
                         <span class="mr-1.5">{row.city.emoji}</span>{row.city.name}
                       </a>
                     </td>
@@ -273,7 +253,7 @@ const jsonLd = [breadcrumbLd, faqLd];
                 {leanFire.map((row) => (
                   <tr class="border-b border-sand-100 hover:bg-amber-50/30 transition-colors">
                     <td class="py-3.5 px-5">
-                      <a href={`/cities/${row.city.slug}/`} class="font-bold text-brand-700 hover:text-brand-900 transition-colors">
+                      <a href={`/cities/${row.city.slug}`} class="font-bold text-brand-700 hover:text-brand-900 transition-colors">
                         <span class="mr-1.5">{row.city.emoji}</span>{row.city.name}
                       </a>
                     </td>

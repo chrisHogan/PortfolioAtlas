@@ -20,6 +20,7 @@ import {
   LIFESTYLE_TIER_MAP,
 } from '../../data/fireNumber';
 import type { LifestyleTier } from '../../data/fireNumber';
+import { PORTFOLIO_TIERS } from '../../data/tiers';
 
 export function getStaticPaths() {
   return getAllSlugs().map((slug) => ({ params: { slug } }));
@@ -38,7 +39,7 @@ const displayTags = getCityDisplayTags(city);
 
 // JSON-LD structured data
 const siteUrl = 'https://portfolioatlas.org';
-const pageUrl = `${siteUrl}/cities/${city.slug}/`;
+const pageUrl = `${siteUrl}/cities/${city.slug}`;
 
 const tier1M = city.tiers['1M'];
 const tier3M = city.tiers['3M'];
@@ -161,20 +162,12 @@ const tagEntries = Object.entries(displayTags) as [string, string][];
 
 // Country hub link
 const countrySlug = city.country.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-const countryHubUrl = `/retire-in/${countrySlug}/`;
+const countryHubUrl = `/retire-in/${countrySlug}`;
 
 // Portfolio tier link — find the smallest tier >= this city's FIRE number
-const portfolioTiers = [
-  { slug: '500k', label: '$500K', value: 500_000 },
-  { slug: '750k', label: '$750K', value: 750_000 },
-  { slug: '1m', label: '$1M', value: 1_000_000 },
-  { slug: '1-5m', label: '$1.5M', value: 1_500_000 },
-  { slug: '2m', label: '$2M', value: 2_000_000 },
-  { slug: '3m', label: '$3M', value: 3_000_000 },
-];
 const cityFire = fireNumbers.comfortable.fireNumber;
-const nearestTier = portfolioTiers.find((t) => t.value >= cityFire) || portfolioTiers[portfolioTiers.length - 1];
-const portfolioTierUrl = `/retire-on/${nearestTier.slug}/`;
+const nearestTier = PORTFOLIO_TIERS.find((t) => t.value >= cityFire) || PORTFOLIO_TIERS[PORTFOLIO_TIERS.length - 1];
+const portfolioTierUrl = `/retire-on/${nearestTier.slug}`;
 
 // SEO: title with length check (prefer full format, fallback to short if >70 chars)
 const fullTitle = `${city.name} FIRE Number: How Much You Need to Retire in ${city.name}, ${city.country}`;

@@ -53,7 +53,7 @@ const avgFire = Math.round(cityRows.reduce((s, r) => s + r.fire, 0) / cityRows.l
 
 // SEO
 const siteUrl = 'https://portfolioatlas.org';
-const pageUrl = `${siteUrl}/retire-in/${countrySlug}/`;
+const pageUrl = `${siteUrl}/retire-in/${countrySlug}`;
 
 const top2 = cityRows.slice(0, 2).map((r) => r.city.name);
 const titleCities = top2.length >= 2 ? `${top2[0]}, ${top2[1]} & More` : top2[0];
@@ -182,7 +182,7 @@ function getCountryDescription(): string {
               {cityRows.map((row) => (
                 <tr class="border-b border-sand-100 hover:bg-sand-50/50 transition-colors">
                   <td class="py-4 px-5">
-                    <a href={`/cities/${row.city.slug}/`} class="font-bold text-brand-700 hover:text-brand-900 transition-colors">
+                    <a href={`/cities/${row.city.slug}`} class="font-bold text-brand-700 hover:text-brand-900 transition-colors">
                       <span class="mr-1.5">{row.city.emoji}</span>{row.city.name}
                     </a>
                   </td>
