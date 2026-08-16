@@ -48,4 +48,4 @@ Copy the final draft into the blog content directory, matching existing posts' p
 
 ## Gate
 
-DO NOT DEPLOY. Do not push, do not trigger Pages builds. Stop and write `blog-pipeline/<slug>/qa-report.md`: the dist diff, each check's result, chart inventory, and the final rendered copy location, so Chris can review before anything ships.
+DO NOT DEPLOY. Do not push, do not trigger Pages builds. Do NOT start a dev or preview server yourself - a server started in this subagent dies when the subagent finishes; the orchestrator starts the local preview server after you report. Stop and write `blog-pipeline/<slug>/qa-report.md`: the dist diff, each check's result, chart inventory, the final rendered copy location, and the post's URL path (`/blog/<slug>`) for the orchestrator's localhost preview handoff, so Chris can review the running post before anything ships.
