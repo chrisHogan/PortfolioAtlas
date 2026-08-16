@@ -1,0 +1,63 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { allCities } from '../data/cities/index';
+---
+
+<Layout
+  title="Page not found"
+  description="This URL doesn't match a page on PortfolioAtlas. Start from the portfolio calculator, the city comparison tool, or the country index."
+  noindex={true}
+>
+  <div class="container-narrow py-16 md:py-24">
+    <div class="max-w-3xl mx-auto">
+      <p class="text-xs font-semibold text-brand-600 uppercase tracking-wider mb-3">404</p>
+
+      <h1 class="font-serif text-4xl md:text-5xl font-bold text-brand-950 mb-6">
+        Page not found
+      </h1>
+
+      <p class="text-xl text-gray-600 leading-relaxed mb-10">
+        This URL doesn't match a page on PortfolioAtlas. Either the link is out of date or the
+        address has a typo in it.
+      </p>
+
+      <div class="space-y-4">
+        <a
+          href="/"
+          class="block bg-white rounded-xl border border-sand-200 p-5 hover:border-brand-300 hover:shadow-md transition-all group"
+        >
+          <h2 class="font-serif text-lg font-bold text-brand-950 group-hover:text-brand-700 transition-colors mb-1">
+            Start with a portfolio value
+          </h2>
+          <p class="text-sm text-gray-600">
+            The homepage runs your number through a historical backtest across {allCities.length} cities.
+          </p>
+        </a>
+
+        <a
+          href="/compare"
+          class="block bg-white rounded-xl border border-sand-200 p-5 hover:border-brand-300 hover:shadow-md transition-all group"
+        >
+          <h2 class="font-serif text-lg font-bold text-brand-950 group-hover:text-brand-700 transition-colors mb-1">
+            Compare two cities
+          </h2>
+          <p class="text-sm text-gray-600">
+            Put any two cities side by side on FIRE Number and monthly cost.
+          </p>
+        </a>
+
+        <a
+          href="/retire-in"
+          class="block bg-white rounded-xl border border-sand-200 p-5 hover:border-brand-300 hover:shadow-md transition-all group"
+        >
+          <h2 class="font-serif text-lg font-bold text-brand-950 group-hover:text-brand-700 transition-colors mb-1">
+            Browse by country
+          </h2>
+          <p class="text-sm text-gray-600">
+            Every country in the dataset, with the FIRE Number range for its cities.
+          </p>
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
