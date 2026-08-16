@@ -24,5 +24,8 @@ Thumbs.db
 # Research dossiers (gitignored archive — city-research output, not app code)
 research-dossiers/
 
+# Blog pipeline working files (per-run drafts/data, not app code)
+blog-pipeline/
+
 # Local harness settings (per-machine permission allowlist, mutated every session)
 .claude/settings.local.json
