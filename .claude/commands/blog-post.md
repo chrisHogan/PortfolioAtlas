@@ -1,5 +1,5 @@
 ---
-description: Run the PortfolioAtlas agentic blog post pipeline (data -> plan -> write -> humanize -> inject -> fact-check -> charts/QA -> local preview) with review gates. Ends with the dev server running and a localhost URL to the post for review. Never deploys.
+description: Run the PortfolioAtlas agentic blog post pipeline (data -> plan -> write -> humanize -> inject -> fact-check -> charts/QA -> local preview). Fully autonomous from brief to finished draft; Chris reviews once, at the end, on the running localhost preview. Never deploys.
 argument-hint: <slug> -- <one-paragraph post brief>
 ---
 
@@ -10,8 +10,8 @@ Parse a slug and a brief from the arguments. Create `blog-pipeline/<slug>/` as t
 ## Phase 1: Data (subagent: data-analyst)
 Produce `data.json` and `data-notes.md`. If the analyst cannot source a number from the repo's data pipeline, the pipeline stops here and asks Chris. No estimates.
 
-## GATE A: Outline review (hard stop)
-Run subagent post-planner to produce `outline.md` from the locked data. Then STOP and show Chris the outline (thesis, title, H2 blueprint, link map). Do not start drafting until Chris approves or amends it. If he amends, update outline.md to match before proceeding.
+## Phase 1.5: Outline (subagent: post-planner, no human stop)
+Run subagent post-planner to produce `outline.md` from the locked data. Do NOT stop to show Chris; after his initial brief he is not involved again until the finished draft is on the localhost preview. Instead, YOU review the outline before proceeding: the thesis must be one the data actually supports, every evidence token named in the outline must exist in `data.json`, every internal link target must exist in the repo, and title/meta must follow house style. If the outline fails any of that, route it back to the planner once with specifics; if still broken, stop and report. When it passes, continue straight to drafting.
 
 ## Phase 2: Draft (subagent: post-writer)
 Produce `draft-tokens.md` from the approved outline. Numbers appear only as {{tokens}} or approved literals.
@@ -49,4 +49,4 @@ Never push, never deploy, never trigger a Pages build. The FIRST line of the fin
 
 Chris reads the post at that URL to evaluate it and decide what to change. The dev server hot-reloads, so when he asks for edits, apply them to the placed post (and blog-pipeline copies as appropriate) and tell him to refresh the same URL. This local review loop continues until he is satisfied; only then does anything get committed or shipped, and only when he says so.
 
-After the URL, give Chris the rest of the handoff: the thesis and title, the QA report summary, the fact-check PASS line, chart inventory, the hero image path for Substack upload (blog-pipeline/<slug>/hero.png) along with the one-line alternates from hero-concept.md in case he wants a different direction rendered, and the path to the final copy for his voice pass. Chris is the final voice pass, the Substack upload, and the deploy decision.
+This is Chris's FIRST look at anything since his brief, so after the URL give him the full handoff: the thesis and chosen title (plus the alternates from the outline), the QA report summary, the fact-check PASS line, chart inventory, the hero image path for Substack upload (blog-pipeline/<slug>/hero.png) along with the one-line alternates from hero-concept.md in case he wants a different direction rendered, the outline path (blog-pipeline/<slug>/outline.md) in case he wants to see the plan the post executed, and the path to the final copy for his voice pass. Chris is the final voice pass, the Substack upload, and the deploy decision.

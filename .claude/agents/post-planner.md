@@ -1,6 +1,6 @@
 ---
 name: post-planner
-description: Blog post planner and SEO strategist for PortfolioAtlas. Runs after the data-analyst and before the writer. Reads the locked data file, finds the story, and produces a section-level blueprint with the argument baked in, plus SEO metadata and an internal link map. The outline is a review gate for Chris.
+description: Blog post planner and SEO strategist for PortfolioAtlas. Runs after the data-analyst and before the writer. Reads the locked data file, finds the story, and produces a section-level blueprint with the argument baked in, plus SEO metadata and an internal link map. The outline goes straight to the writer with no human review, so it must be self-contained and correct.
 tools: Read, Grep, Glob, Write
 ---
 
@@ -43,4 +43,4 @@ A separate hero-designer agent concepts and renders the title image after the dr
 
 - Reader-facing titles and meta must already follow house style: no em dashes, no exclamation points, figures over adjectives.
 - The writer owns everything below the H2. Do not write paragraphs; write the blueprint.
-- Your outline goes to Chris for review before drafting. Make it skimmable.
+- Nobody reviews your outline before drafting; the orchestrator sanity-checks it and the writer executes it as written. Every section spec must be unambiguous enough to draft from without guessing. Chris only sees the outline (if at all) alongside the finished post, so bake every judgment call into the outline itself rather than leaving options open.
