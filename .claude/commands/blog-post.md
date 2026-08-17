@@ -14,10 +14,10 @@ Produce `data.json` and `data-notes.md`. If the analyst cannot source a number f
 Run subagent post-planner to produce `outline.md` from the locked data. Do NOT stop to show Chris; after his initial brief he is not involved again until the finished draft is on the localhost preview. Instead, YOU review the outline before proceeding: the thesis must be one the data actually supports, every evidence token named in the outline must exist in `data.json`, every internal link target must exist in the repo, and title/meta must follow house style. If the outline fails any of that, route it back to the planner once with specifics; if still broken, stop and report. When it passes, continue straight to drafting.
 
 ## Phase 2: Draft (subagent: post-writer)
-Produce `draft-tokens.md` from the approved outline. Numbers appear only as {{tokens}} or approved literals.
+Produce `draft-tokens.md` from the approved outline. Numbers appear only as {{tokens}} or approved literals. The writer drafts IN Chris's voice from the first sentence; its mandatory step zero is the humanizer skill lean core (`.claude/skills/humanizer/SKILL.md`) plus `docs/voice-sample.md`, and it should hand off a draft already close to voice rather than report-register prose for the editor to fix.
 
 ## Phase 3: Edit (subagent: humanizer-editor)
-Produce `draft-humanized.md` and `edit-report.md`. Verify the edit report confirms the token set is unchanged; if not, route back to the humanizer once, then stop if still broken.
+Produce `draft-humanized.md` and `edit-report.md`. The editor goes all-in on the voice: calibrated against `docs/voice-sample.md`, it rebuilds any paragraph not fully in Chris's architecture (rebuild, don't patch, per the skill) and runs the skill's deletion pass. Verify the edit report's token audit: the token set is unchanged, except instance drops explicitly allowed by the skill's defer-the-precision rule, each logged with where the claim survives. If the audit fails, route back to the humanizer once, then stop if still broken.
 
 ## Phase 3.5: Hero design (subagent: hero-designer)
 Before this phase, locate the site logo asset (check public/ and src/assets/) and pass its path to the designer. The designer produces `hero-concept.md`, `hero-manifest.json` (text with {{tokens}}), and `charts/hero-render.py`, and test-renders its own work before finishing.

@@ -112,7 +112,9 @@ strip — treat that as a bug, not an option.
 
 All reader-facing prose — blog posts, city pages, FAQs, site copy, meta
 descriptions — must follow the voice rules in the humanizer skill fork at
-**`.claude/skills/humanizer/SKILL.md`** (hard constraints H1–H7 + voice rules
-V1–V7). That file is the ONLY place these rules are maintained; do not copy
+**`.claude/skills/humanizer/SKILL.md`** (v3 lean core: hard constraints +
+Chris's voice, structure, and restraint rules, calibrated against
+`docs/voice-sample.md`). That file is the ONLY place these rules are
+maintained; do not copy
 them here or into memory — link to the file instead. Run the skill (or apply
 its rules manually) before presenting any new or rewritten prose for review.
