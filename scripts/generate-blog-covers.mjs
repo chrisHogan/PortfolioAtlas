@@ -119,6 +119,15 @@ const watSpire = () => `
   <rect x="700" y="490" width="60" height="50" rx="5" fill="${DEEP}" opacity="0.4"/>
   <rect x="1040" y="480" width="70" height="60" rx="5" fill="${DEEP}" opacity="0.4"/>`;
 
+const divergingPaths = () => `
+  <line x1="740" y1="530" x2="1190" y2="530" stroke="${SKY}" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+  <path d="M780 408 L 842 426 L 890 414 L 948 466 L 1000 530" fill="none" stroke="${DEEP}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+  <path d="M780 408 L 844 378 L 900 412 L 972 354 L 1048 378 L 1150 276" fill="none" stroke="${ACCENT}" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="780" cy="408" r="7" fill="${INK}"/>
+  <circle cx="1150" cy="276" r="9" fill="${INK}"/>
+  <line x1="986" y1="516" x2="1014" y2="544" stroke="${MIST}" stroke-width="5" stroke-linecap="round"/>
+  <line x1="986" y1="544" x2="1014" y2="516" stroke="${MIST}" stroke-width="5" stroke-linecap="round"/>`;
+
 const refreshBars = () => `
   <rect x="700" y="470" width="52" height="70" rx="8" fill="${DEEP}" opacity="0.5"/>
   <rect x="772" y="430" width="52" height="110" rx="8" fill="${DEEP}" opacity="0.65"/>
@@ -158,6 +167,9 @@ const COVERS = {
   },
   'q3-2026-update': {
     kicker: 'Product Update', title: 'Q3 2026', subline: '121 cities, every figure re-researched', motif: refreshBars(),
+  },
+  'same-portfolio-different-decade': {
+    kicker: 'Sequence of Returns Risk', title: '1966', subline: '$1M broke in 82 of 127 cities, vs 65 in 1929', motif: divergingPaths(),
   },
 };
 

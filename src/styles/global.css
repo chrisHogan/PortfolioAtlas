@@ -237,6 +237,13 @@
     @apply border-l-4 border-brand-400 bg-brand-50 px-6 py-4 my-8 rounded-r-xl text-gray-700 italic;
   }
 
+  /* The typography plugin injects decorative curly quotes around blockquote
+     text; our blue callout boxes are statements, not quotations. */
+  .blog-prose blockquote p:first-of-type::before,
+  .blog-prose blockquote p:last-of-type::after {
+    content: none;
+  }
+
   .blog-prose a {
     @apply text-brand-600 underline decoration-brand-300 underline-offset-2 hover:text-brand-700 hover:decoration-brand-600 transition-colors;
   }
