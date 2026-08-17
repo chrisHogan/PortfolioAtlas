@@ -59,7 +59,7 @@ One caveat before you read too much into the table: overlapping 30 year windows 
 
 ## Cheap cities don't compress the luck, they lift the floor
 
-You might expect low costs to make the start year matter less, however the raw spread says the opposite. In the cheapest quartile the median city's worst start ends at 1.04x the starting balance in real terms and its best at 7.6x - a spread of 6.6x of starting wealth. In the priciest quartile the spread is only 3.3x, because so many of its cohorts stop at the same floor of zero.
+You might expect low costs to make the start year matter less. Look at the median city in the cheapest quartile: retire at the worst time in the record and 30 years later you hold 1.04x what you started with, in real terms. Retire at the best time and you hold 7.6x. That's a 6.6x gap, and the only difference between those two retirees is the year they stopped working. The priciest quartile shows a smaller gap of 3.3x, however that smaller number isn't good news. So many of its unlucky cohorts hit zero, and a broke portfolio can't fall any further, so the bottom of its range piles up at the floor.
 
 > Cheap cities don't shrink retirement luck. The gap between best and worst start year is wider there, 6.6x vs 3.3x of starting wealth. They just move the whole range above zero.
 
@@ -93,6 +93,6 @@ Let's take a look at where these numbers come from. We gave every city the same 
 
 Why $1,000,000? It puts the middle of the dataset right on the edge. Our required-portfolio solver says the median-cost city - [Fargo](/cities/fargo) at $47,040 a year - needs $1,029,000 to clear the default Balanced confidence target over 30 years, so a round $1,000,000 lands the median city near the retire/not-yet boundary, which is where start-year contrast is largest. As an outside anchor, the classic 4% case ($1M with a 4% starting withdrawal) succeeds in 96.7% of start years here, in line with Trinity-style results.
 
-Three caveats... First, the engine applies US market returns and US CPI to every city; geography enters only through the spending level, and we didn't model local markets or local inflation. Second, city costs are today's FIRE-tier costs on a single-adult basis, held constant in real terms across history, so a 1966 start means the 1966 market sequence at today's prices. Third, overlapping 30-year windows aren't independent samples; every rate in this post describes the historical record, not a probability.
+Three caveats... First, the engine applies US market returns and US CPI to every city; geography enters only through the spending level, and we didn't model local markets or local inflation. Second, city costs are today's FIRE-tier costs on a single-adult basis, and both they and the $1,000,000 stay in today's dollars. A 1966 start doesn't send your money back to 1966 - it replays the sequence of returns and inflation that followed 1966 as if it started today. Only the order of good and bad years matters, never the old price level. Third, overlapping 30-year windows aren't independent samples; every rate in this post describes the historical record, not a probability.
 
 Withdrawal-strategy variations such as guardrails and bond tents, currency effects, and taxes are out of scope here and queued as future work.
