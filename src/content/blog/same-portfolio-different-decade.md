@@ -23,7 +23,7 @@ Why is a stagnant decade worse than a crash? Crashes recover and inflation compo
 
 The top of the worst-start list is all inflation years. In our data, every start year from 1964 through 1969, plus 1973 broke at least 76 of the 127 cities, with 1966 the worst of them at 82.
 
-For the priciest cities the same pattern shows up even earlier. Their single worst start is 1916 - the WWI inflation spike - which broke a [New York](/cities/new-york) retirement in 6 years, by 1922. Below we follow the same 1966 retirement in two different cities.
+1966 broke the most cities, however it isn't the fastest killer in the record. That's 1916 - the WWI inflation spike - which broke a [New York](/cities/new-york) retirement in just 6 years, by 1922. Below we follow the same 1966 retirement in two different cities.
 
 ![Bar chart of cities where a $1M retirement went broke for each start year from 1871 to 1993, out of 127 cities. The highlighted 1966 bar is the tallest at 82 cities, and 1929 is marked at 65.](/blog/same-portfolio-different-decade-cities-broke-by-start-year.png)
 
